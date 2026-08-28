@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { decodeJwtPayload } from '../lib/jwt.js'
+import { callApi } from '../lib/api.js'
 import { AuthContext, STORAGE_KEY } from './authContext.js'
 
 function userFromToken(idToken) {
@@ -29,9 +30,14 @@ export function AuthProvider({ children }) {
   function login(idToken) {
     localStorage.setItem(STORAGE_KEY, idToken)
     setUser(userFromToken(idToken))
+    // Best-effort access log; must never block sign-in on backend availability.
+    callApi('login', { idToken }).catch(() => {})
   }
 
   function logout() {
+    if (user) {
+      callApi('logout', { idToken: user.idToken }).catch(() => {})
+    }
     localStorage.removeItem(STORAGE_KEY)
     setUser(null)
   }

@@ -61,6 +61,14 @@ For TASK-006 (subject listing), also add:
 Without this property set, `listSubjects` fails with
 `server_misconfigured_missing_drive_root`.
 
+For TASK-010 (access logging), also add:
+
+- Key: `LOG_SHEET_ID`, Value: the ID of a Google Sheet with a `Logs` tab
+  (create one manually — header row suggestion: `Timestamp | Email | Name | EventType | Details`).
+
+Without this property set, logging is silently skipped — it never blocks or
+fails the request it's attached to.
+
 ## Wiring up the frontend
 
 Once deployed, set in the frontend's `.env`:
@@ -97,7 +105,15 @@ so re-check it after making backend changes.
   the file's parent chain is walked to confirm it's actually under
   `DRIVE_ROOT_FOLDER_ID`, so a caller can't fetch an arbitrary Drive fileId
   just because they have a valid session.
-- No access logging yet — that's TASK-010.
+- Access logging (TASK-010) is folded into the existing actions server-side,
+  so it can't be bypassed by the frontend:
+  - `login`/`logout` — dedicated actions, called from `AuthContext.jsx`
+  - `listSubjects` → logs `view_home`
+  - `listFiles` → logs `view_subject` with `{ subjectSlug, category }`
+  - `getFile` → logs `file_open` with `{ fileId, fileName }`
+  Each row in the `Logs` sheet is `[timestamp, email, name, eventType, detailsJson]`.
+  Logging is best-effort — a missing `LOG_SHEET_ID` or a transient Sheets error
+  is swallowed rather than failing the request (`Logging.js`).
 - The frontend calls `listSubjects` from the Home page, and `listFiles`/`getFile`
   from the Subject page (`src/pages/Subject.jsx`, `src/components/FileViewer.jsx`)
   to browse categories and preview markdown/text/PDF files inline.

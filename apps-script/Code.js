@@ -36,16 +36,26 @@ function doPost(e) {
     switch (action) {
       case 'verify':
         return jsonResponse({ authenticated: true, user: user })
+      case 'login':
+        logEvent(user, 'login', {})
+        return jsonResponse({ authenticated: true, user: user })
+      case 'logout':
+        logEvent(user, 'logout', {})
+        return jsonResponse({ authenticated: true, user: user })
       case 'listSubjects':
+        logEvent(user, 'view_home', {})
         return jsonResponse({ authenticated: true, user: user, subjects: listSubjects() })
       case 'listFiles':
+        logEvent(user, 'view_subject', { subjectSlug: body.subjectSlug, category: body.category })
         return jsonResponse({
           authenticated: true,
           user: user,
           files: listFiles(body.subjectSlug, body.category),
         })
       case 'getFile':
-        return jsonResponse({ authenticated: true, user: user, file: getFile(body.fileId) })
+        var file = getFile(body.fileId)
+        logEvent(user, 'file_open', { fileId: file.id, fileName: file.name })
+        return jsonResponse({ authenticated: true, user: user, file: file })
       default:
         return jsonResponse({ authenticated: true, user: user, error: 'unknown_action' })
     }
