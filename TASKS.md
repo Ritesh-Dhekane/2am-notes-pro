@@ -12,7 +12,7 @@ as features are added — numbering stays sequential.
 ## Tasks
 
 - [x] TASK-001: Project scaffold — Vite/React app, base folder layout, routing skeleton
-- [ ] TASK-002: Drive content structure spec — finalize subject/unit folder layout as a doc, mirror it in the real Drive
+- [x] TASK-002: Drive content structure spec — finalize subject/unit folder layout as a doc, mirror it in the real Drive
 - [ ] TASK-003: Google Sign-In integration (frontend auth UI + flow)
 - [ ] TASK-004: Apps Script backend setup — project, deployment config, basic health endpoint
 - [ ] TASK-005: Session/identity verification — Apps Script validates the logged-in user
