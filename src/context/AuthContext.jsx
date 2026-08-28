@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { decodeJwtPayload } from '../lib/jwt.js'
 import { callApi } from '../lib/api.js'
+import { trackEvent } from '../lib/analytics.js'
 import { AuthContext, STORAGE_KEY } from './authContext.js'
 
 function userFromToken(idToken) {
@@ -32,6 +33,7 @@ export function AuthProvider({ children }) {
     setUser(userFromToken(idToken))
     // Best-effort access log; must never block sign-in on backend availability.
     callApi('login', { idToken }).catch(() => {})
+    trackEvent('login', { method: 'google' })
   }
 
   function logout() {

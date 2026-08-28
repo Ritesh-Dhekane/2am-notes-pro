@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { callApi } from '../lib/api.js'
+import { trackEvent } from '../lib/analytics.js'
 
 // Static teaser only — real subject data always requires a verified session
 // (see Drive.js / DRIVE_STRUCTURE.md), so guests never trigger a backend call.
@@ -89,7 +90,11 @@ export default function Home() {
         <ul className="mt-4 space-y-2">
           {subjects.map((subject) => (
             <li key={subject.slug}>
-              <Link to={`/subject/${subject.slug}`} className="underline">
+              <Link
+                to={`/subject/${subject.slug}`}
+                className="underline"
+                onClick={() => trackEvent('subject_click', { subject: subject.slug })}
+              >
                 {subject.name}
               </Link>
             </li>

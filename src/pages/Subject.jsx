@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { callApi } from '../lib/api.js'
+import { trackEvent } from '../lib/analytics.js'
 import FileViewer from '../components/FileViewer.jsx'
 
 const CATEGORIES = [
@@ -84,7 +85,10 @@ export default function Subject() {
             {files.map((file) => (
               <li key={file.id}>
                 <button
-                  onClick={() => setSelectedFile(file)}
+                  onClick={() => {
+                    setSelectedFile(file)
+                    trackEvent('file_open', { subject: subjectId, category, fileName: file.name })
+                  }}
                   className={selectedFile?.id === file.id ? 'font-semibold underline' : 'underline'}
                 >
                   {file.name}
