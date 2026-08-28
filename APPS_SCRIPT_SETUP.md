@@ -39,10 +39,32 @@ locally.
 4. Copy the deployment's web app URL — you'll set this as the frontend's API
    base URL (added to `.env` in a later task, once the frontend needs to call it).
 
-## What exists right now (TASK-004)
+## Script Properties (required for TASK-005 auth)
 
-- `doGet(e)` returns a JSON health check: `{ status: "ok", service, timestamp }`.
-- No auth, no Drive access, no logging yet — those are TASK-005 onward.
+The backend verifies Google ID tokens by checking their audience against your
+OAuth client ID (the same one from `AUTH_SETUP.md`). This is stored as a
+Script Property, not hardcoded, so it can differ per deployment:
+
+1. In the Apps Script editor: **Project Settings → Script Properties → Add script property**.
+2. Key: `GOOGLE_CLIENT_ID`, Value: the same client ID used in the frontend's `.env`.
+
+Without this property set, every `/verify` call fails with
+`server_misconfigured_missing_client_id`.
+
+## What exists right now
+
+- `doGet(e)` (TASK-004) returns a JSON health check: `{ status: "ok", service, timestamp }`.
+- `doPost(e)` (TASK-005) accepts `{ "idToken": "<google id token>" }` and verifies it
+  server-side against Google's tokeninfo endpoint before trusting any identity claim:
+  - Success: `{ "authenticated": true, "user": { "email", "name", "picture" } }`
+  - Failure: `{ "authenticated": false, "error": "<reason>" }`
+    (reasons: `missing_id_token`, `invalid_or_expired_token`, `token_audience_mismatch`,
+    `email_not_verified`, `server_misconfigured_missing_client_id`)
+  - Apps Script web apps always return HTTP 200; success/failure is only in the
+    JSON body's `authenticated` field — callers must check it, not the status code.
+- No Drive access or logging yet — those are TASK-006 onward.
+- The frontend doesn't call `/verify` yet either — that's wired in once there's
+  real protected data to gate (TASK-006/009).
 
 ## Verifying it works
 
