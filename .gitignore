@@ -14,6 +14,10 @@ build/
 !.env.example
 *.local
 
+# Apps Script local deployment config (contains a per-project scriptId)
+apps-script/.clasp.json
+!apps-script/.clasp.json.example
+
 # Logs
 *.log
 npm-debug.log*

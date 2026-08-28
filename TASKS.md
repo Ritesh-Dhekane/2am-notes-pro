@@ -14,7 +14,7 @@ as features are added — numbering stays sequential.
 - [x] TASK-001: Project scaffold — Vite/React app, base folder layout, routing skeleton
 - [x] TASK-002: Drive content structure spec — finalize subject/unit folder layout as a doc, mirror it in the real Drive
 - [x] TASK-003: Google Sign-In integration (frontend auth UI + flow)
-- [ ] TASK-004: Apps Script backend setup — project, deployment config, basic health endpoint
+- [x] TASK-004: Apps Script backend setup — project, deployment config, basic health endpoint
 - [ ] TASK-005: Session/identity verification — Apps Script validates the logged-in user
 - [ ] TASK-006: Subject & unit listing — Apps Script reads Drive folder tree, frontend renders subject pages
 - [ ] TASK-007: Secure file viewer — Apps Script serves file metadata/content, frontend renders PDF/MD/TXT without exposing raw Drive links
