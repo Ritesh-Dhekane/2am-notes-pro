@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import { decodeJwtPayload } from '../lib/jwt.js'
 import { callApi } from '../lib/api.js'
 import { trackEvent } from '../lib/analytics.js'
@@ -28,21 +28,23 @@ function readStoredUser() {
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(readStoredUser)
 
-  function login(idToken) {
+  const login = useCallback((idToken) => {
     localStorage.setItem(STORAGE_KEY, idToken)
     setUser(userFromToken(idToken))
     // Best-effort access log; must never block sign-in on backend availability.
     callApi('login', { idToken }).catch(() => {})
     trackEvent('login', { method: 'google' })
-  }
+  }, [])
 
-  function logout() {
-    if (user) {
-      callApi('logout', { idToken: user.idToken }).catch(() => {})
-    }
+  const logout = useCallback(() => {
+    setUser((current) => {
+      if (current) {
+        callApi('logout', { idToken: current.idToken }).catch(() => {})
+      }
+      return null
+    })
     localStorage.removeItem(STORAGE_KEY)
-    setUser(null)
-  }
+  }, [])
 
   return (
     <AuthContext.Provider value={{ user, login, logout }}>

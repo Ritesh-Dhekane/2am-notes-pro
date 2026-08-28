@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { callApi } from '../lib/api.js'
 import { trackEvent } from '../lib/analytics.js'
+import { friendlyError, isSessionError } from '../lib/errorMessages.js'
 import FileViewer from '../components/FileViewer.jsx'
 
 const CATEGORIES = [
@@ -13,7 +14,7 @@ const CATEGORIES = [
 
 export default function Subject() {
   const { subjectId } = useParams()
-  const { user } = useAuth()
+  const { user, logout } = useAuth()
   const [category, setCategory] = useState('notes')
   const [files, setFiles] = useState(null)
   const [error, setError] = useState(null)
@@ -32,7 +33,11 @@ export default function Subject() {
       })
       .catch((err) => {
         if (cancelled) return
-        setError(err.message)
+        if (isSessionError(err.message)) {
+          logout()
+          return
+        }
+        setError(friendlyError(err.message))
         setFiles(null)
         setSelectedFile(null)
       })
@@ -40,7 +45,7 @@ export default function Subject() {
     return () => {
       cancelled = true
     }
-  }, [user, subjectId, category])
+  }, [user, subjectId, category, logout])
 
   if (!user) {
     return (
@@ -100,7 +105,12 @@ export default function Subject() {
 
         {selectedFile && (
           <div className="md:col-span-2">
-            <FileViewer key={selectedFile.id} idToken={user.idToken} fileId={selectedFile.id} />
+            <FileViewer
+              key={selectedFile.id}
+              idToken={user.idToken}
+              fileId={selectedFile.id}
+              onSessionExpired={logout}
+            />
           </div>
         )}
       </div>

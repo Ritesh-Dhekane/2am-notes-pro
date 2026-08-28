@@ -22,7 +22,7 @@ as features are added — numbering stays sequential.
 - [x] TASK-009: Protected routing — audited that no protected data/calls happen before auth resolves (see note below)
 - [x] TASK-010: Access logging — log login/logout, page visits, file opens to a Google Sheet
 - [x] TASK-011: Google Analytics integration — page views, subject click patterns, login-to-content conversion
-- [ ] TASK-012: Polish & pilot testing — error/loading states, edge cases, test with 2-3 real users
+- [x] TASK-012: Polish (error/loading states, session-expiry handling) done; pilot testing with real users is a manual step — see PILOT_TESTING.md
 
 ## Notes
 - `drive/` is a local reference-only folder (git-ignored), not the real content store.

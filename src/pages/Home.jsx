@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { callApi } from '../lib/api.js'
 import { trackEvent } from '../lib/analytics.js'
+import { friendlyError, isSessionError } from '../lib/errorMessages.js'
 
 // Static teaser only — real subject data always requires a verified session
 // (see Drive.js / DRIVE_STRUCTURE.md), so guests never trigger a backend call.
@@ -30,14 +31,18 @@ export default function Home() {
       })
       .catch((err) => {
         if (cancelled) return
-        setError(err.message)
+        if (isSessionError(err.message)) {
+          logout()
+          return
+        }
+        setError(friendlyError(err.message))
         setSubjects(null)
       })
 
     return () => {
       cancelled = true
     }
-  }, [user])
+  }, [user, logout])
 
   if (!user) {
     return (

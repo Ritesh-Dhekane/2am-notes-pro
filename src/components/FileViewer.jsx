@@ -2,8 +2,9 @@ import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { callApi } from '../lib/api.js'
+import { friendlyError, isSessionError } from '../lib/errorMessages.js'
 
-export default function FileViewer({ idToken, fileId }) {
+export default function FileViewer({ idToken, fileId, onSessionExpired }) {
   const [file, setFile] = useState(null)
   const [error, setError] = useState(null)
 
@@ -17,14 +18,18 @@ export default function FileViewer({ idToken, fileId }) {
       })
       .catch((err) => {
         if (cancelled) return
-        setError(err.message)
+        if (isSessionError(err.message)) {
+          onSessionExpired?.()
+          return
+        }
+        setError(friendlyError(err.message))
         setFile(null)
       })
 
     return () => {
       cancelled = true
     }
-  }, [idToken, fileId])
+  }, [idToken, fileId, onSessionExpired])
 
   if (error) return <p className="text-sm text-red-500">{error}</p>
   if (!file) return <p className="text-sm text-gray-500">Loading…</p>
