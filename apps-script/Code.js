@@ -38,6 +38,14 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user })
       case 'listSubjects':
         return jsonResponse({ authenticated: true, user: user, subjects: listSubjects() })
+      case 'listFiles':
+        return jsonResponse({
+          authenticated: true,
+          user: user,
+          files: listFiles(body.subjectSlug, body.category),
+        })
+      case 'getFile':
+        return jsonResponse({ authenticated: true, user: user, file: getFile(body.fileId) })
       default:
         return jsonResponse({ authenticated: true, user: user, error: 'unknown_action' })
     }

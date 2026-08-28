@@ -86,9 +86,21 @@ so re-check it after making backend changes.
 - `doPost` with `action: "listSubjects"` (TASK-006) reads the `subjects/` folder
   tree under `DRIVE_ROOT_FOLDER_ID` and returns `{ authenticated, user, subjects: [{ slug, name }] }`.
   Folder names under `subjects/` are used directly as slugs, per `DRIVE_STRUCTURE.md`.
-- No file-content access or logging yet — those are TASK-007 onward.
-- The frontend now calls `listSubjects` from the Home page (`src/lib/api.js`,
-  `src/pages/Home.jsx`) once the user is signed in.
+- `listFiles` (TASK-007) — `{ subjectSlug, category }` where category is one
+  of `notes`/`pyqs`/`references` — returns `{ files: [{ id, name, mimeType }] }`
+  for that folder.
+- `getFile` (TASK-007) — `{ fileId }` — returns file content proxied through
+  the script (`{ file: { id, name, mimeType, encoding, content } }`).
+  `encoding` is `utf8` for text/markdown or `base64` for everything else
+  (PDFs, images). The raw Drive file/download URL is never sent to the
+  frontend — only this decoded/encoded content. Before returning anything,
+  the file's parent chain is walked to confirm it's actually under
+  `DRIVE_ROOT_FOLDER_ID`, so a caller can't fetch an arbitrary Drive fileId
+  just because they have a valid session.
+- No access logging yet — that's TASK-010.
+- The frontend calls `listSubjects` from the Home page, and `listFiles`/`getFile`
+  from the Subject page (`src/pages/Subject.jsx`, `src/components/FileViewer.jsx`)
+  to browse categories and preview markdown/text/PDF files inline.
 
 ## Verifying it works
 

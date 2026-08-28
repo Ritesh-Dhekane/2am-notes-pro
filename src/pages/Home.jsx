@@ -14,10 +14,14 @@ export default function Home() {
     let cancelled = false
     callApi('listSubjects', { idToken: user.idToken })
       .then((data) => {
-        if (!cancelled) setSubjects(data.subjects)
+        if (cancelled) return
+        setSubjects(data.subjects)
+        setError(null)
       })
       .catch((err) => {
-        if (!cancelled) setError(err.message)
+        if (cancelled) return
+        setError(err.message)
+        setSubjects(null)
       })
 
     return () => {
