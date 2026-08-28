@@ -23,6 +23,7 @@ as features are added — numbering stays sequential.
 - [x] TASK-010: Access logging — log login/logout, page visits, file opens to a Google Sheet
 - [x] TASK-011: Google Analytics integration — page views, subject click patterns, login-to-content conversion
 - [x] TASK-012: Polish (error/loading states, session-expiry handling) done; pilot testing with real users is a manual step — see PILOT_TESTING.md
+- [x] TASK-013: GitHub Pages deployment — prod branch + Actions workflow, dev environment deferred
 
 ## Notes
 - `drive/` is a local reference-only folder (git-ignored), not the real content store.
@@ -33,3 +34,6 @@ as features are added — numbering stays sequential.
   since there's no current private-only page that needs one — add it if a
   future task introduces one (e.g. an admin/logs view), rather than carrying
   unused code now.
+- TASK-013 scope decision: only the prod deployment was set up (GitHub Pages
+  serves one site per repo natively — a separate dev environment would need
+  a subpath convention, deferred until actually needed).
