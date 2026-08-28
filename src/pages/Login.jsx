@@ -28,6 +28,8 @@ export default function Login() {
     }).catch((err) => setError(err.message))
   }, [user, login, navigate])
 
+  if (user) return null
+
   return (
     <div className="flex min-h-screen items-center justify-center">
       <div className="w-full max-w-sm rounded-lg border p-6 text-center">
