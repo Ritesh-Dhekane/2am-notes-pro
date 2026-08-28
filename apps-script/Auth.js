@@ -2,34 +2,6 @@
 // This is the real authorization boundary — the frontend's client-side
 // decode (src/lib/jwt.js) is display-only and must never be trusted alone.
 
-function doPost(e) {
-  var body
-  try {
-    body = JSON.parse(e.postData.contents)
-  } catch (err) {
-    return jsonResponse({ authenticated: false, error: 'invalid_request' })
-  }
-
-  var idToken = body.idToken
-  if (!idToken) {
-    return jsonResponse({ authenticated: false, error: 'missing_id_token' })
-  }
-
-  try {
-    var claims = verifyIdToken(idToken)
-    return jsonResponse({
-      authenticated: true,
-      user: {
-        email: claims.email,
-        name: claims.name,
-        picture: claims.picture,
-      },
-    })
-  } catch (err) {
-    return jsonResponse({ authenticated: false, error: err.message })
-  }
-}
-
 function verifyIdToken(idToken) {
   var response = UrlFetchApp.fetch(
     'https://oauth2.googleapis.com/tokeninfo?id_token=' + encodeURIComponent(idToken),

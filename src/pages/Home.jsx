@@ -1,8 +1,29 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
+import { callApi } from '../lib/api.js'
 
 export default function Home() {
   const { user, logout } = useAuth()
+  const [subjects, setSubjects] = useState(null)
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    if (!user) return
+
+    let cancelled = false
+    callApi('listSubjects', { idToken: user.idToken })
+      .then((data) => {
+        if (!cancelled) setSubjects(data.subjects)
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err.message)
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [user])
 
   if (!user) {
     return (
@@ -25,7 +46,26 @@ export default function Home() {
           Log out
         </button>
       </div>
-      <p className="mt-4 text-sm text-gray-500">Subject listing placeholder</p>
+
+      {error && <p className="mt-4 text-sm text-red-500">{error}</p>}
+
+      {!error && !subjects && <p className="mt-4 text-sm text-gray-500">Loading subjects…</p>}
+
+      {subjects && subjects.length === 0 && (
+        <p className="mt-4 text-sm text-gray-500">No subjects found yet.</p>
+      )}
+
+      {subjects && subjects.length > 0 && (
+        <ul className="mt-4 space-y-2">
+          {subjects.map((subject) => (
+            <li key={subject.slug}>
+              <Link to={`/subject/${subject.slug}`} className="underline">
+                {subject.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )
 }

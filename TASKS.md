@@ -16,7 +16,7 @@ as features are added — numbering stays sequential.
 - [x] TASK-003: Google Sign-In integration (frontend auth UI + flow)
 - [x] TASK-004: Apps Script backend setup — project, deployment config, basic health endpoint
 - [x] TASK-005: Session/identity verification — Apps Script validates the logged-in user
-- [ ] TASK-006: Subject & unit listing — Apps Script reads Drive folder tree, frontend renders subject pages
+- [x] TASK-006: Subject & unit listing — Apps Script reads Drive folder tree, frontend renders subject pages
 - [ ] TASK-007: Secure file viewer — Apps Script serves file metadata/content, frontend renders PDF/MD/TXT without exposing raw Drive links
 - [ ] TASK-008: Guest preview mode — limited unauthenticated access + upgrade-to-login prompt
 - [ ] TASK-009: Protected routing — route guards, redirect unauthenticated users away from private pages

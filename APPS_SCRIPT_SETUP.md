@@ -51,6 +51,27 @@ Script Property, not hardcoded, so it can differ per deployment:
 Without this property set, every `/verify` call fails with
 `server_misconfigured_missing_client_id`.
 
+For TASK-006 (subject listing), also add:
+
+- Key: `DRIVE_ROOT_FOLDER_ID`, Value: the Drive folder ID of your `MCA-3rd-Sem`
+  root folder (open the folder in Drive, copy the ID out of the URL). Using
+  an ID instead of searching by name avoids ambiguity if multiple folders
+  share the same name.
+
+Without this property set, `listSubjects` fails with
+`server_misconfigured_missing_drive_root`.
+
+## Wiring up the frontend
+
+Once deployed, set in the frontend's `.env`:
+```
+VITE_API_BASE_URL=<your web app deployment URL>
+```
+The frontend sends the signed-in user's ID token with every call — see
+`src/lib/api.js`. Every redeploy of the Apps Script (`clasp push` + a new
+deployment version, or updating an existing deployment) may change this URL,
+so re-check it after making backend changes.
+
 ## What exists right now
 
 - `doGet(e)` (TASK-004) returns a JSON health check: `{ status: "ok", service, timestamp }`.
@@ -62,9 +83,12 @@ Without this property set, every `/verify` call fails with
     `email_not_verified`, `server_misconfigured_missing_client_id`)
   - Apps Script web apps always return HTTP 200; success/failure is only in the
     JSON body's `authenticated` field — callers must check it, not the status code.
-- No Drive access or logging yet — those are TASK-006 onward.
-- The frontend doesn't call `/verify` yet either — that's wired in once there's
-  real protected data to gate (TASK-006/009).
+- `doPost` with `action: "listSubjects"` (TASK-006) reads the `subjects/` folder
+  tree under `DRIVE_ROOT_FOLDER_ID` and returns `{ authenticated, user, subjects: [{ slug, name }] }`.
+  Folder names under `subjects/` are used directly as slugs, per `DRIVE_STRUCTURE.md`.
+- No file-content access or logging yet — those are TASK-007 onward.
+- The frontend now calls `listSubjects` from the Home page (`src/lib/api.js`,
+  `src/pages/Home.jsx`) once the user is signed in.
 
 ## Verifying it works
 
