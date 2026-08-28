@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { callApi } from '../lib/api.js'
 
+// Static teaser only — real subject data always requires a verified session
+// (see Drive.js / DRIVE_STRUCTURE.md), so guests never trigger a backend call.
+const GUEST_PREVIEW_SUBJECTS = [
+  'Java Programming',
+  'Software Testing',
+  'Research Methodology',
+  'Machine Learning',
+]
+
 export default function Home() {
   const { user, logout } = useAuth()
   const [subjects, setSubjects] = useState(null)
@@ -32,9 +41,26 @@ export default function Home() {
   if (!user) {
     return (
       <div className="p-6">
-        <p className="text-sm text-gray-500">
-          You're not signed in. <Link to="/login" className="underline">Go to login</Link>.
+        <h1 className="text-xl font-semibold">2AM Notes Pro</h1>
+        <p className="mt-2 text-sm text-gray-500">
+          Private, subject-wise study material — notes, PYQs, and references.
         </p>
+
+        <div className="mt-6 max-w-sm rounded border p-4">
+          <p className="text-sm font-medium">What's inside (preview)</p>
+          <ul className="mt-2 space-y-1 text-sm text-gray-500">
+            {GUEST_PREVIEW_SUBJECTS.map((name) => (
+              <li key={name}>🔒 {name}</li>
+            ))}
+          </ul>
+        </div>
+
+        <Link
+          to="/login"
+          className="mt-6 inline-block rounded bg-black px-4 py-2 text-sm font-medium text-white"
+        >
+          Sign in with Google for full access
+        </Link>
       </div>
     )
   }

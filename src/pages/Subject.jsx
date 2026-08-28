@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { callApi } from '../lib/api.js'
 import FileViewer from '../components/FileViewer.jsx'
@@ -42,7 +42,20 @@ export default function Subject() {
   }, [user, subjectId, category])
 
   if (!user) {
-    return <div className="p-6 text-sm text-gray-500">Sign in to view this subject.</div>
+    return (
+      <div className="p-6">
+        <h1 className="text-xl font-semibold">{subjectId}</h1>
+        <p className="mt-2 text-sm text-gray-500">
+          Sign in to view notes, PYQs, and references for this subject.
+        </p>
+        <Link
+          to="/login"
+          className="mt-4 inline-block rounded bg-black px-4 py-2 text-sm font-medium text-white"
+        >
+          Sign in with Google
+        </Link>
+      </div>
+    )
   }
 
   return (
