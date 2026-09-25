@@ -9,11 +9,11 @@ const FRIENDLY_MESSAGES = {
   category_not_found: 'No files have been added to this section yet.',
   file_not_accessible: "This file isn't accessible.",
   invalid_category: 'That section is not recognized.',
-  subjects_folder_not_found: 'The subjects folder is missing from Drive. See APPS_SCRIPT_SETUP.md.',
+  subjects_folder_not_found: 'The subjects folder is missing from Drive. See the README (Apps Script Backend).',
   server_misconfigured_missing_client_id:
-    "The backend isn't fully configured yet (missing Google client ID). See APPS_SCRIPT_SETUP.md.",
+    "The backend isn't fully configured yet (missing Google client ID). See the README (Apps Script Backend).",
   server_misconfigured_missing_drive_root:
-    "The backend isn't fully configured yet (missing Drive root folder). See APPS_SCRIPT_SETUP.md.",
+    "The backend isn't fully configured yet (missing Drive root folder). See the README (Apps Script Backend).",
 }
 
 // A session-invalid error means the stored credential can no longer be

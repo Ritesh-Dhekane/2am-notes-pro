@@ -41,7 +41,7 @@ export default function Login() {
             <div ref={buttonRef} />
           ) : (
             <p className="text-xs text-red-500">
-              VITE_GOOGLE_CLIENT_ID is not set. See AUTH_SETUP.md.
+              VITE_GOOGLE_CLIENT_ID is not set. See the README (Google Sign-In).
             </p>
           )}
         </div>
