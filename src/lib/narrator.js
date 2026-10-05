@@ -4,6 +4,7 @@
 // highlighted with the CSS Custom Highlight API where available, otherwise its paragraph is.
 
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
+import { trackEvent } from './analytics.js'
 import { getPrefs } from './prefs.js'
 
 export const speechSupported = typeof window !== 'undefined' && 'speechSynthesis' in window
@@ -167,6 +168,7 @@ export function useNarration(rootRef, resetKey) {
   const play = useCallback(() => {
     if (!rootRef.current) return
     segmentsRef.current = segmentsIn(rootRef.current)
+    trackEvent('listen_start', { sentences: segmentsRef.current.length })
     setTotal(segmentsRef.current.length)
     speakFrom(0)
   }, [rootRef, speakFrom])

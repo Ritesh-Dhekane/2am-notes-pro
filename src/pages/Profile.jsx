@@ -37,7 +37,8 @@ import {
   usePrefs,
 } from '../lib/prefs.js'
 import { useBookmarks, useHistory } from '../lib/store.js'
-import { isSetupComplete, semesterById } from '../lib/catalog.js'
+import { trackEvent } from '../lib/analytics.js'
+import { electivesLabel, isSetupComplete, semesterById } from '../lib/catalog.js'
 import { setStudy, useStudy } from '../lib/study.js'
 
 const SPACING_NAMES = { 1.6: 'Compact', 1.75: 'Cozy', 2: 'Relaxed' }
@@ -107,6 +108,10 @@ function Study() {
           onClick={() => {
             setStudy(draft)
             setSaved(true)
+            trackEvent('semester_change', {
+              semester: draft.semester,
+              electives: electivesLabel(semesterById(draft.semester), draft.electives),
+            })
           }}
         >
           <Check className="size-4" aria-hidden="true" /> Save

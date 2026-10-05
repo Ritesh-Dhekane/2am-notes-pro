@@ -13,6 +13,7 @@ import {
   Presentation,
 } from 'lucide-react'
 import { createElement } from 'react'
+import { trackEvent } from '../lib/analytics.js'
 import { toggleBookmark, useBookmarks } from '../lib/store.js'
 
 const KIND = {
@@ -54,6 +55,7 @@ export function BookmarkButton({ file, className = '' }) {
         event.preventDefault()
         event.stopPropagation()
         toggleBookmark(file)
+        if (!saved) trackEvent('bookmark_add', { subject: file.subject, category: file.category })
       }}
     >
       {saved ? <BookmarkCheck className="size-5" aria-hidden="true" /> : <Bookmark className="size-5" aria-hidden="true" />}

@@ -16,7 +16,7 @@ export function useFilePane(library) {
   const active = activeId ? library.byId.get(activeId) || null : null
 
   function open(file) {
-    trackEvent('file_open', { subject: file.subject, category: file.category, fileName: file.name })
+    trackEvent('file_open', { subject: file.subject, category: file.category, kind: file.kind })
     if (isDesktop()) {
       const next = new URLSearchParams(params)
       next.set('file', file.id)

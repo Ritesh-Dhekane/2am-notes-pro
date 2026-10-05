@@ -74,7 +74,17 @@ Opening the web app URL in a browser returns a JSON health check.
 - Notes and text open in the reader. PDFs, images, Word, Excel/CSV and PowerPoint files open in the viewer. Old `.doc` and `.ppt` files are download-only.
 
 ## Analytics
-GA4 is optional: set `VITE_GA_MEASUREMENT_ID` (`G-XXXXXXXXXX`). Without it, analytics is disabled entirely. It tracks page views, `login`, `subject_click` and `file_open`.
+Optional GA4, production builds only: set the repo secret `VITE_GA_MEASUREMENT_ID` (`G-XXXXXXXXXX`). Without it, analytics is disabled entirely. Google signals and ad personalisation are off.
+
+Nothing personal is sent: no names, emails or typed search text, and reader addresses are reported as `/read/<subject>/:file`. Events:
+- `page_view`, `login`
+- `semester_setup` and `semester_change` (semester, electives)
+- `subject_click`, `file_open` (subject, category, file type)
+- `document_view` (file type), `listen_start`, `bookmark_add`
+- `search_result_open` (number of results, position)
+
+## Access log
+Optional: set the Script Property `LOG_SHEET_ID` to a Google Sheet owned by the script's account. It gets a **Logs** tab (created with headers on first use) with one row per sign-in, library load and file opened: time (IST), email, name, event, semester and file path. Run `testLog` in the editor to check it. The public catalog isn't logged.
 
 ## Deployment
 Every push to `main` builds the app and publishes `dist/` to the `prod` branch (`.github/workflows/deploy.yml`). GitHub Pages serves it at `https://ritesh-dhekane.github.io/2am-notes-pro/`.

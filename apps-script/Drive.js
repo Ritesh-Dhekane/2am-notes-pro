@@ -76,7 +76,7 @@ function getFile(fileId) {
   } catch (err) {
     throw new Error('file_not_accessible')
   }
-  assertFileUnderRoot(file)
+  var where = assertFileUnderRoot(file)
 
   var mimeType = file.getMimeType()
   var isText = mimeType === MimeType.PLAIN_TEXT || /markdown/.test(mimeType) || /\.(md|markdown|txt)$/i.test(file.getName())
@@ -85,6 +85,7 @@ function getFile(fileId) {
     return {
       id: file.getId(),
       name: file.getName(),
+      path: where,
       mimeType: mimeType,
       encoding: 'utf8',
       content: file.getBlob().getDataAsString('UTF-8'),
@@ -94,6 +95,7 @@ function getFile(fileId) {
   return {
     id: file.getId(),
     name: file.getName(),
+    path: where,
     mimeType: mimeType,
     encoding: 'base64',
     content: Utilities.base64Encode(file.getBlob().getBytes()),
@@ -176,24 +178,30 @@ function describe(file) {
 
 // Walks a file's parent chain to confirm it actually lives under the configured Drive root, so a
 // caller can't request an arbitrary fileId elsewhere in Drive just because they have a valid session.
+// Returns where it sits, e.g. "MCA-Sem-III/tableau/references/assignment.docx" (for the log).
 function assertFileUnderRoot(file) {
   var rootFolderId = getRootFolderId()
   var parents = file.getParents()
   while (parents.hasNext()) {
-    if (isUnderFolder(parents.next(), rootFolderId)) return
+    var trail = trailToRoot(parents.next(), rootFolderId)
+    if (trail) return trail.concat([file.getName()]).join('/')
   }
   throw new Error('file_not_accessible')
 }
 
-function isUnderFolder(folder, rootFolderId) {
+// Folder names from just under the root down to `folder` (skipping "subjects"), or null if the
+// folder isn't under the root.
+function trailToRoot(folder, rootFolderId) {
+  var names = []
   var current = folder
   for (var depth = 0; depth < 10; depth++) {
-    if (current.getId() === rootFolderId) return true
+    if (current.getId() === rootFolderId) return names
+    if (current.getName() !== 'subjects') names.unshift(current.getName())
     var parents = current.getParents()
-    if (!parents.hasNext()) return false
+    if (!parents.hasNext()) return null
     current = parents.next()
   }
-  return false
+  return null
 }
 
 function getRootFolderId() {

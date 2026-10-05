@@ -55,7 +55,7 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester) })
       case 'getFile':
         var file = getFile(body.fileId)
-        logEvent(user, 'file_open', { fileId: file.id, fileName: file.name })
+        logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] })
         return jsonResponse({ authenticated: true, user: user, file: file })
       default:
         return jsonResponse({ authenticated: true, user: user, error: 'unknown_action' })

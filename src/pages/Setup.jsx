@@ -8,7 +8,8 @@ import { ThemeToggle } from '../components/Shell.jsx'
 import StudyPicker from '../components/StudyPicker.jsx'
 import { Logo } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
-import { groupChoiceCount, groupNeeds, isSetupComplete, semesterById } from '../lib/catalog.js'
+import { trackEvent } from '../lib/analytics.js'
+import { electivesLabel, groupChoiceCount, groupNeeds, isSetupComplete, semesterById } from '../lib/catalog.js'
 import { getStudy, setStudy } from '../lib/study.js'
 
 // "Elective IV", or for choose-n groups "1 more elective" / "2 electives".
@@ -35,6 +36,7 @@ export default function Setup() {
     event.preventDefault()
     if (!ready) return
     setStudy(draft)
+    trackEvent('semester_setup', { semester: draft.semester, electives: electivesLabel(semester, draft.electives) })
     const from = location.state?.from
     navigate(from && from !== '/setup' ? from : '/', { replace: true })
   }

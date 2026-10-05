@@ -12,6 +12,7 @@ import { Card, EmptyState, Tag } from '../components/ui.jsx'
 import { CATEGORIES, categoryLabel, formatSize, kindLabel } from '../lib/files.js'
 import { highlightParts, queryWords, searchLibrary } from '../lib/search.js'
 import { clearSearches, rememberSearch, useRecentSearches } from '../lib/store.js'
+import { trackEvent } from '../lib/analytics.js'
 import { useFilePane } from '../lib/useFilePane.js'
 
 const SCOPES = [{ key: 'all', label: 'All' }, ...CATEGORIES]
@@ -140,6 +141,8 @@ function SearchBody({ library }) {
 
   function openResult(file) {
     rememberSearch(q)
+    // The search text itself is never sent (it's typed by the student); only how it went.
+    trackEvent('search_result_open', { result_count: results.length, position: results.findIndex((r) => r.file.id === file.id) + 1 })
     open(file)
   }
 

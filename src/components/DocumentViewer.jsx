@@ -5,6 +5,7 @@
 
 import { AlertTriangle, Download, Maximize2, Minimize2, X } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { trackEvent } from '../lib/analytics.js'
 import { base64ToBytes, blobUrl } from '../lib/blobs.js'
 import { formatSize, kindLabel } from '../lib/files.js'
 import { FileTypeIcon } from './FileBits.jsx'
@@ -242,7 +243,10 @@ export default function DocumentViewer({ file, data, onClose }) {
 
   useEffect(() => {
     const dialog = dialogRef.current
-    if (!dialog.open) dialog.showModal()
+    if (!dialog.open) {
+      dialog.showModal()
+      trackEvent('document_view', { kind: file.kind, subject: file.subject })
+    }
     const root = document.documentElement
     const previous = root.style.overflow
     root.style.overflow = 'hidden'
@@ -250,7 +254,7 @@ export default function DocumentViewer({ file, data, onClose }) {
     return () => {
       root.style.overflow = previous
     }
-  }, [])
+  }, [file.kind, file.subject])
 
   const props = { bytes, downloadUrl, name: data.name }
   return (

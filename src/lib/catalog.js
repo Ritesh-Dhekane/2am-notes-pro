@@ -137,6 +137,11 @@ export function chosenElectives(semester, electives = {}) {
   return chosen
 }
 
+// For analytics and logs: "machine-learning-techniques,power-bi".
+export function electivesLabel(semester, electives) {
+  return semester ? [...chosenElectives(semester, electives)].sort().join(',') : ''
+}
+
 // Which subjects a student sees: the semester's core, the electives they picked, and any subject
 // folder the catalog doesn't know about yet.
 export function isSubjectVisible(semester, electives, slug) {
