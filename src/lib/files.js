@@ -26,13 +26,25 @@ export function titleCase(slug) {
     .join(' ')
 }
 
+const KIND_BY_EXT = {
+  md: 'note', markdown: 'note', pdf: 'pdf', txt: 'text',
+  png: 'image', jpg: 'image', jpeg: 'image', gif: 'image', webp: 'image',
+  docx: 'word', xlsx: 'sheet', xls: 'sheet', csv: 'sheet', ods: 'sheet', pptx: 'slides',
+}
+
 export function fileKind(file) {
   const ext = (file.name.match(/\.([a-z0-9]+)$/i)?.[1] || '').toLowerCase()
-  if (ext === 'md' || ext === 'markdown' || /markdown/.test(file.mimeType || '')) return 'note'
-  if (ext === 'pdf' || file.mimeType === 'application/pdf') return 'pdf'
-  if (ext === 'txt' || file.mimeType === 'text/plain') return 'text'
+  if (KIND_BY_EXT[ext]) return KIND_BY_EXT[ext]
+  const type = file.mimeType || ''
+  if (/markdown/.test(type)) return 'note'
+  if (type === 'application/pdf') return 'pdf'
+  if (type === 'text/plain') return 'text'
+  if (/^image\/(png|jpeg|gif|webp)$/.test(type)) return 'image'
   return 'other'
 }
+
+// Kinds that open in the document viewer (a modal) rather than inline.
+export const VIEWER_KINDS = new Set(['image', 'word', 'sheet', 'slides'])
 
 export function describeFile(file, category, now = Date.now()) {
   const base = file.name.replace(/\.[a-z0-9]+$/i, '')
@@ -70,7 +82,16 @@ export function groupByUnit(files) {
     .map(([unit, items]) => ({ unit: unit === 'other' ? null : unit, items }))
 }
 
-const KIND_LABELS = { note: 'Note', pdf: 'PDF', text: 'Text', other: 'File' }
+const KIND_LABELS = {
+  note: 'Note',
+  pdf: 'PDF',
+  text: 'Text',
+  image: 'Image',
+  word: 'Word',
+  sheet: 'Spreadsheet',
+  slides: 'Slides',
+  other: 'File',
+}
 
 export function kindLabel(kind) {
   return KIND_LABELS[kind] || KIND_LABELS.other

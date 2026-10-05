@@ -2,6 +2,15 @@
 // every screen can be built and tested without Google sign-in or Drive. Never bundled in production
 // (api.js only imports it when import.meta.env.DEV is true).
 
+import sampleDocx from './fixtures/sample.docx?url'
+import sampleJpg from './fixtures/sample.jpg?url'
+import samplePptx from './fixtures/sample.pptx?url'
+import sampleXlsx from './fixtures/sample.xlsx?url'
+
+const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+const PPTX = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+
 const DAY = 24 * 60 * 60 * 1000
 const now = Date.now()
 const ago = (days) => new Date(now - days * DAY).toISOString()
@@ -94,7 +103,35 @@ const SUBJECTS = [
     name: 'Power BI',
     files: { notes: [file('unit-01-data-modelling.md')], pyqs: [], references: [file('dax-cheat-sheet.md')] },
   },
+  // Office files and images, for the document viewer. Kept last so the ids above don't shift.
+  {
+    slug: 'tableau',
+    name: 'Tableau',
+    files: {
+      notes: [],
+      pyqs: [file('sep-2025-unit-test-1.jpg', { size: 51_798, days: 3, mimeType: 'image/jpeg' })],
+      references: [
+        file('assignment-1-basics-of-tableau.docx', { size: 37_110, days: 5, mimeType: DOCX }),
+        file('literature-review-sheet.xlsx', { size: 5_869, days: 6, mimeType: XLSX }),
+        file('research-presentation.pptx', { size: 29_176, days: 8, mimeType: PPTX }),
+      ],
+    },
+  },
 ]
+
+const FIXTURES = {
+  'sep-2025-unit-test-1.jpg': sampleJpg,
+  'assignment-1-basics-of-tableau.docx': sampleDocx,
+  'literature-review-sheet.xlsx': sampleXlsx,
+  'research-presentation.pptx': samplePptx,
+}
+
+async function fixtureBase64(url) {
+  const bytes = new Uint8Array(await (await fetch(url)).arrayBuffer())
+  let binary = ''
+  for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000))
+  return btoa(binary)
+}
 
 const EXCEPTION_NOTE = `# Exception Handling in Java
 
@@ -221,7 +258,8 @@ function samplePdf(title) {
   return btoa(pdf)
 }
 
-function contentFor(f) {
+async function contentFor(f) {
+  if (FIXTURES[f.name]) return { encoding: 'base64', content: await fixtureBase64(FIXTURES[f.name]) }
   if (f.name === 'unit-02-exception-handling-in-java.md') return { encoding: 'utf8', content: EXCEPTION_NOTE }
   const base = f.name.replace(/\.[a-z]+$/, '')
   const unit = Number(base.match(/^unit-(\d+)/)?.[1] || 1)
@@ -259,7 +297,7 @@ export async function handleDemo(action, params) {
     case 'getFile': {
       const f = SUBJECTS.flatMap((s) => Object.values(s.files).flat()).find((x) => x.id === params.fileId)
       if (!f) throw new Error('file_not_accessible')
-      return { authenticated: true, user, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...contentFor(f) } }
+      return { authenticated: true, user, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
     }
     default:
       throw new Error('unknown_action')

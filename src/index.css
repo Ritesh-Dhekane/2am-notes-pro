@@ -421,3 +421,24 @@ body {
   background-color: color-mix(in oklab, var(--c-teal) 32%, transparent);
   color: var(--c-ink);
 }
+
+/* Document viewer: Word pages on the viewer's own background instead of docx-preview's grey. */
+.doc-view .docx-wrapper {
+  background: transparent;
+  padding: 16px 8px;
+}
+.doc-view .docx-wrapper > section.docx {
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 0.25);
+}
+/* Slides: pptx-preview boxes the list in a fixed-height black scroller; let the slides stack in the
+   viewer's own scroll area instead. */
+.slides-view .pptx-preview-wrapper {
+  height: auto !important;
+  overflow: visible !important;
+  background: transparent !important;
+}
+.slides-view .pptx-preview-slide-wrapper {
+  margin-bottom: 16px !important;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 0.25);
+}

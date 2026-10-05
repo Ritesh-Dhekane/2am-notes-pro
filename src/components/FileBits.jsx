@@ -1,6 +1,17 @@
 // Small pieces every file list uses: type icon, bookmark toggle and a file's link.
 
-import { Bookmark, BookmarkCheck, File, FileCode2, FileText, NotebookText } from 'lucide-react'
+import {
+  Bookmark,
+  BookmarkCheck,
+  File,
+  FileCode2,
+  FileImage,
+  FileSpreadsheet,
+  FileText,
+  FileType2,
+  NotebookText,
+  Presentation,
+} from 'lucide-react'
 import { createElement } from 'react'
 import { toggleBookmark, useBookmarks } from '../lib/store.js'
 
@@ -8,13 +19,21 @@ const KIND = {
   note: { icon: NotebookText, className: 'bg-primary-soft text-primary-ink' },
   pdf: { icon: FileText, className: 'bg-[color-mix(in_oklab,#f43f5e_14%,transparent)] text-danger' },
   text: { icon: FileCode2, className: 'bg-[color-mix(in_oklab,#14b8a6_14%,transparent)] text-teal-ink' },
+  image: { icon: FileImage, tint: '#0EA5E9' },
+  word: { icon: FileType2, tint: '#3B82F6' },
+  sheet: { icon: FileSpreadsheet, tint: '#16A34A' },
+  slides: { icon: Presentation, tint: '#EA580C' },
   other: { icon: File, className: 'bg-surface-2 text-ink-2' },
 }
 
 export function FileTypeIcon({ kind, className = 'size-9' }) {
   const k = KIND[kind] || KIND.other
   return (
-    <span className={`grid shrink-0 place-items-center rounded-lg ${k.className} ${className}`} aria-hidden="true">
+    <span
+      className={`grid shrink-0 place-items-center rounded-lg ${k.tint ? 'tint tint-soft tint-text' : k.className} ${className}`}
+      style={k.tint ? { '--tint': k.tint } : undefined}
+      aria-hidden="true"
+    >
       {createElement(k.icon, { className: 'size-[18px]' })}
     </span>
   )

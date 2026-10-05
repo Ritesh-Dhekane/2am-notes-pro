@@ -7,4 +7,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => ({
   plugins: [react()],
   base: command === 'build' ? '/2am-notes-pro/' : '/',
+  // The slide viewer (pptx-preview, which bundles a charts library) is ~1.3 MB, but it is its own
+  // chunk and only downloads when someone opens a .pptx, so the default 500 kB warning is noise.
+  build: { chunkSizeWarningLimit: 1500 },
 }))
