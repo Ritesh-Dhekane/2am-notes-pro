@@ -1,6 +1,8 @@
 const SCRIPT_SRC = 'https://accounts.google.com/gsi/client'
 
 let scriptPromise = null
+let initializedFor = null
+let handleCredential = null
 
 export function loadGoogleIdentityScript() {
   if (window.google?.accounts?.id) return Promise.resolve()
@@ -28,10 +30,15 @@ export async function renderGoogleSignInButton({
 }) {
   await loadGoogleIdentityScript()
 
-  window.google.accounts.id.initialize({
-    client_id: clientId,
-    callback: (response) => onCredential(response.credential),
-  })
+  // Initialise once per client ID (Google warns on repeats); later renders just swap the handler.
+  handleCredential = onCredential
+  if (initializedFor !== clientId) {
+    window.google.accounts.id.initialize({
+      client_id: clientId,
+      callback: (response) => handleCredential?.(response.credential),
+    })
+    initializedFor = clientId
+  }
 
   container.replaceChildren()
   window.google.accounts.id.renderButton(container, {
