@@ -2,18 +2,22 @@
 // the draft ({ semester, electives }) and decides when to save it.
 
 import { Check } from 'lucide-react'
-import { SEMESTERS, semesterById } from '../lib/catalog.js'
+import { groupChoiceCount, groupNeeds, SEMESTERS, semesterById } from '../lib/catalog.js'
 import { subjectLook } from '../lib/subjects.js'
 import { SubjectIcon } from './ui.jsx'
 
-function OptionCard({ type, name, checked, onChange, title, detail, look }) {
+function OptionCard({ type, name, checked, onChange, title, detail, look, disabled = false }) {
   return (
     <label
-      className={`relative flex cursor-pointer items-center gap-3 rounded-xl border p-3 pr-10 transition-colors has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-primary-ink ${
-        checked ? 'border-primary bg-primary-soft/40 ring-1 ring-primary' : 'border-line bg-surface hover:border-line-strong'
+      className={`relative flex items-center gap-3 rounded-xl border p-3 pr-10 transition-colors has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-primary-ink ${
+        checked
+          ? 'cursor-pointer border-primary bg-primary-soft/40 ring-1 ring-primary'
+          : disabled
+            ? 'cursor-not-allowed border-line bg-surface opacity-60'
+            : 'cursor-pointer border-line bg-surface hover:border-line-strong'
       }`}
     >
-      <input type={type} name={name} checked={checked} onChange={onChange} className="sr-only" />
+      <input type={type} name={name} checked={checked} onChange={onChange} disabled={disabled} className="sr-only" />
       {look && <SubjectIcon look={look} size="sm" />}
       <span className="min-w-0 flex-1">
         <span className="block text-body font-semibold text-ink">{title}</span>
@@ -44,7 +48,9 @@ export default function StudyPicker({ value, onChange }) {
     if (group.pick === 'one') next = slug
     else {
       const list = Array.isArray(current) ? current : []
-      next = list.includes(slug) ? list.filter((s) => s !== slug) : [...list, slug]
+      if (list.includes(slug)) next = list.filter((s) => s !== slug)
+      else if (list.length < group.pick) next = [...list, slug]
+      else return // already has its number of choices
     }
     onChange({ ...value, electives: { ...value.electives, [group.id]: next } })
   }
@@ -62,7 +68,7 @@ export default function StudyPicker({ value, onChange }) {
               checked={value.semester === s.id}
               onChange={() => pickSemester(s.id)}
               title={`MCA ${s.label}`}
-              detail={`${s.core.length} core subjects · ${s.groups.map((g) => g.label).join(', ')}`}
+              detail={`${s.core.length} core subjects · ${s.groups.map((g) => (g.pick === 'one' ? g.label : `${g.pick} ${g.label.toLowerCase()}`)).join(', ')}`}
             />
           ))}
         </div>
@@ -88,10 +94,20 @@ export default function StudyPicker({ value, onChange }) {
 
           {semester.groups.map((group) => {
             const selected = value.electives[group.id]
+            const needs = groupNeeds(group)
+            const count = groupChoiceCount(group, value.electives)
+            const full = group.pick !== 'one' && count >= needs
             return (
               <fieldset key={group.id}>
                 <legend className="text-heading">{group.label}</legend>
-                <p className="mt-1 mb-3 text-label text-ink-2">{group.hint || 'Pick the one you study.'}</p>
+                <p className="mt-1 mb-3 text-label text-ink-2">
+                  {group.hint || 'Pick the one you study.'}
+                  {group.pick !== 'one' && (
+                    <span className="ml-2 font-mono text-caption text-teal-ink" aria-live="polite">
+                      {count}/{needs} chosen
+                    </span>
+                  )}
+                </p>
                 <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                   {group.options.map((slug) => {
                     const look = subjectLook(slug, slug)
@@ -106,6 +122,7 @@ export default function StudyPicker({ value, onChange }) {
                         title={look.name}
                         detail={look.code}
                         look={look}
+                        disabled={full && !checked}
                       />
                     )
                   })}

@@ -8,8 +8,16 @@ import { ThemeToggle } from '../components/Shell.jsx'
 import StudyPicker from '../components/StudyPicker.jsx'
 import { Logo } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
-import { isSetupComplete, semesterById } from '../lib/catalog.js'
+import { groupChoiceCount, groupNeeds, isSetupComplete, semesterById } from '../lib/catalog.js'
 import { getStudy, setStudy } from '../lib/study.js'
+
+// "Elective IV", or for choose-n groups "1 more elective" / "2 electives".
+function stillToChoose(group, electives) {
+  if (group.pick === 'one') return group.label
+  const left = groupNeeds(group) - groupChoiceCount(group, electives)
+  const noun = group.label.toLowerCase().replace(/s$/, '')
+  return `${left}${left < groupNeeds(group) ? ' more' : ''} ${noun}${left === 1 ? '' : 's'}`
+}
 
 export default function Setup() {
   const { user } = useAuth()
@@ -21,7 +29,7 @@ export default function Setup() {
   })
   const semester = semesterById(draft.semester)
   const ready = isSetupComplete(semester, draft.electives)
-  const missing = semester?.groups.filter((g) => g.pick === 'one' && !g.options.includes(draft.electives[g.id])) || []
+  const missing = semester?.groups.filter((g) => groupChoiceCount(g, draft.electives) !== groupNeeds(g)) || []
 
   function finish(event) {
     event.preventDefault()
@@ -57,7 +65,7 @@ export default function Setup() {
             {!semester
               ? 'Choose your semester to continue.'
               : missing.length
-                ? `Still to choose: ${missing.map((g) => g.label).join(', ')}.`
+                ? `Still to choose: ${missing.map((g) => stillToChoose(g, draft.electives)).join(', ')}.`
                 : 'All set.'}
           </p>
           <button type="submit" form="setup" className="btn-primary shrink-0" disabled={!ready}>

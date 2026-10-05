@@ -112,7 +112,7 @@ function Study() {
           <Check className="size-4" aria-hidden="true" /> Save
         </button>
         <p className="text-label text-ink-2" aria-live="polite">
-          {saved ? 'Saved.' : changed && !ready ? 'Choose one subject in every elective group.' : ''}
+          {saved ? 'Saved.' : changed && !ready ? 'Finish choosing your electives.' : ''}
         </p>
       </div>
     </SettingsSection>

@@ -43,7 +43,7 @@ function sectionsFor(semester, found) {
     ...semester.groups.map((g) => ({
       id: g.id,
       label: g.label,
-      note: g.pick === 'one' ? 'choose one' : 'choose any',
+      note: g.pick === 'one' ? 'choose one' : `choose ${g.pick}`,
       slugs: g.options,
     })),
   ]

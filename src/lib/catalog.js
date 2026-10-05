@@ -43,8 +43,8 @@ export const SEMESTERS = [
       {
         id: 'electives',
         label: 'Electives',
-        hint: 'Tick every elective you take.',
-        pick: 'many',
+        hint: 'Choose the two electives you take.',
+        pick: 2,
         options: [
           'machine-learning-techniques',
           'power-bi',
@@ -124,8 +124,8 @@ export function semesterById(id) {
   return SEMESTERS.find((s) => s.id === id) || null
 }
 
-// Elective choices are stored as { [groupId]: slug } for pick-one groups and
-// { [groupId]: [slug, …] } for pick-many groups.
+// Groups have pick: 'one' (radio) or a number n (choose exactly n). Choices are stored as
+// { [groupId]: slug } for pick-one groups and { [groupId]: [slug, …] } for the others.
 export function chosenElectives(semester, electives = {}) {
   const chosen = new Set()
   for (const group of semester.groups) {
@@ -145,10 +145,20 @@ export function isSubjectVisible(semester, electives, slug) {
   return !grouped || chosenElectives(semester, electives).has(slug)
 }
 
-// Every pick-one group needs an answer; pick-many groups may be left empty.
+export function groupChoiceCount(group, electives = {}) {
+  const value = electives[group.id]
+  if (group.pick === 'one') return group.options.includes(value) ? 1 : 0
+  return Array.isArray(value) ? value.filter((slug) => group.options.includes(slug)).length : 0
+}
+
+export function groupNeeds(group) {
+  return group.pick === 'one' ? 1 : group.pick
+}
+
+// Every group needs exactly its number of choices.
 export function isSetupComplete(semester, electives = {}) {
   if (!semester) return false
-  return semester.groups.every((g) => g.pick !== 'one' || g.options.includes(electives[g.id]))
+  return semester.groups.every((g) => groupChoiceCount(g, electives) === groupNeeds(g))
 }
 
 // Where a subject sits in its semester: 'Core', 'Elective IV', …
