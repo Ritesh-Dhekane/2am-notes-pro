@@ -19,7 +19,10 @@ function logEvent(user, eventType, details) {
       details.fileId ? JSON.stringify({ fileId: details.fileId }) : '',
     ])
   } catch (err) {
-    // Swallow — logging is not allowed to break the calling action.
+    // Swallow — logging is not allowed to break the calling action — but keep the reason for testLog.
+    try {
+      CacheService.getScriptCache().put('log:lastError', new Date().toISOString() + ' ' + err.message, 21600)
+    } catch (ignored) {}
   }
 }
 
@@ -28,7 +31,12 @@ function getLogSheet() {
   var sheetId = PropertiesService.getScriptProperties().getProperty('LOG_SHEET_ID')
   if (!sheetId) return null
   var spreadsheet = SpreadsheetApp.openById(sheetId)
-  var sheet = spreadsheet.getSheetByName('Logs') || spreadsheet.insertSheet('Logs')
+  var sheet = spreadsheet.getSheetByName('Logs')
+  if (!sheet) {
+    // A new spreadsheet's one empty tab becomes the log; otherwise add a Logs tab.
+    var tabs = spreadsheet.getSheets()
+    sheet = tabs.length === 1 && tabs[0].getLastRow() === 0 ? tabs[0].setName('Logs') : spreadsheet.insertSheet('Logs')
+  }
   if (sheet.getLastRow() === 0) {
     sheet.appendRow(LOG_HEADERS)
     sheet.setFrozenRows(1)
@@ -37,8 +45,22 @@ function getLogSheet() {
   return sheet
 }
 
-// Run from the editor after setting LOG_SHEET_ID: writes a test row, so you can see it works.
+// Run from the editor after setting LOG_SHEET_ID: writes a test row and reports any problem (unlike
+// logEvent, errors here are shown in the execution log).
 function testLog() {
-  logEvent({ email: 'test@example.com', name: 'Log test' }, 'test', { semester: 'MCA-Sem-III' })
-  Logger.log(getLogSheet() ? 'Wrote a test row to the Logs tab.' : 'LOG_SHEET_ID is not set.')
+  var lastError = CacheService.getScriptCache().get('log:lastError')
+  Logger.log('LOG_SHEET_ID: ' + (PropertiesService.getScriptProperties().getProperty('LOG_SHEET_ID') || '(not set)'))
+  Logger.log('Last logging error: ' + (lastError || 'none'))
+  var sheet = getLogSheet()
+  if (!sheet) throw new Error('LOG_SHEET_ID is not set in Project Settings → Script Properties.')
+  sheet.appendRow([
+    Utilities.formatDate(new Date(), 'Asia/Kolkata', 'yyyy-MM-dd HH:mm:ss'),
+    'test@example.com',
+    'Log test',
+    'test',
+    '',
+    '',
+    '',
+  ])
+  Logger.log('Wrote a test row to "' + sheet.getName() + '" in ' + sheet.getParent().getName() + ' (' + sheet.getParent().getUrl() + ')')
 }
