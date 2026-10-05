@@ -27,9 +27,12 @@ function RequireAuth({ children }) {
 }
 
 // Signed in but no semester chosen yet: set that up first.
+// Not set up on this device: first check the choice saved with the account (a moment after sign-in).
 function RequireSetup({ children }) {
-  const { complete } = useStudy()
+  const { complete, syncedToken } = useStudy()
+  const { user } = useAuth()
   const location = useLocation()
+  if (!complete && syncedToken !== user?.idToken) return <PageLoading />
   if (!complete) return <Navigate to="/setup" replace state={{ from: location.pathname + location.search }} />
   return children
 }

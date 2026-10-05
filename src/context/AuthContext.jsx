@@ -1,8 +1,9 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { decodeJwtPayload } from '../lib/jwt.js'
 import { callApi } from '../lib/api.js'
 import { trackEvent } from '../lib/analytics.js'
 import { clearFileCache } from '../lib/library.js'
+import { syncStudy } from '../lib/study.js'
 import { AuthContext, SIGNOUT_REASON_KEY, STORAGE_KEY } from './authContext.js'
 
 function userFromToken(idToken) {
@@ -69,6 +70,12 @@ export function AuthProvider({ children }) {
     rememberReason(typeof reason === 'string' ? reason : null)
     clearFileCache()
   }, [])
+
+  // Each session picks up the semester and electives saved with the account (see lib/study.js).
+  const idToken = user?.idToken
+  useEffect(() => {
+    if (idToken) syncStudy(idToken)
+  }, [idToken])
 
   return <AuthContext.Provider value={{ user, login, logout }}>{children}</AuthContext.Provider>
 }

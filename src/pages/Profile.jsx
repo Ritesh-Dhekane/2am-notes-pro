@@ -83,6 +83,7 @@ function Account() {
 // Semester and electives: edited as a draft and saved together, so switching semester half-way
 // doesn't hide everything before the new electives are picked.
 function Study() {
+  const { user } = useAuth()
   const study = useStudy()
   const [draft, setDraft] = useState({ semester: study.semester, electives: study.electives })
   const [saved, setSaved] = useState(false)
@@ -106,7 +107,7 @@ function Study() {
           className="btn-primary"
           disabled={!changed || !ready}
           onClick={() => {
-            setStudy(draft)
+            setStudy(draft, user?.idToken)
             setSaved(true)
             trackEvent('semester_change', {
               semester: draft.semester,

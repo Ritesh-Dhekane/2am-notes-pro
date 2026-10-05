@@ -358,6 +358,14 @@ export async function handleDemo(action, params) {
     case 'login':
     case 'logout':
       return { authenticated: true, user }
+    // The "account" copy of the semester choice, kept in localStorage so it survives reloads like the real one.
+    case 'getStudy':
+      return { authenticated: true, user, study: JSON.parse(localStorage.getItem('notes-pro.demo-account-study') || 'null') }
+    case 'saveStudy': {
+      const study = { ...params.study, updatedAt: new Date().toISOString() }
+      localStorage.setItem('notes-pro.demo-account-study', JSON.stringify(study))
+      return { authenticated: true, user, study }
+    }
     case 'catalog':
       // Public: what's on offer, with counts but no file names or ids.
       return {

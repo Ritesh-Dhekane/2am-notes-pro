@@ -35,7 +35,7 @@ export default function Setup() {
   function finish(event) {
     event.preventDefault()
     if (!ready) return
-    setStudy(draft)
+    setStudy(draft, user?.idToken)
     trackEvent('semester_setup', { semester: draft.semester, electives: electivesLabel(semester, draft.electives) })
     const from = location.state?.from
     navigate(from && from !== '/setup' ? from : '/', { replace: true })

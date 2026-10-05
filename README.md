@@ -13,7 +13,7 @@ A private MCA study portal: subject-wise notes, previous-year papers (PYQs) and 
 - **Document viewer**: images, Word, Excel/CSV and PowerPoint files open full screen, rendered in the browser.
 - **Profile & Settings**: four themes (Midnight, OLED, Light, Sepia), reading typeface, size, spacing and line length, and read-aloud defaults. Also an install-as-app option.
 
-Bookmarks, reading history, semester choice and settings stay in the browser (`localStorage`). They are never sent to the backend.
+Each student's semester and electives are saved with their Google account (Script Properties, `study:<email>`), so they follow them to any device. Bookmarks, reading history and settings stay in the browser (`localStorage`) and are never sent to the backend.
 
 ## Repository Structure
 - `src/`: React (Vite) frontend
