@@ -45,6 +45,9 @@ function doPost(e) {
       case 'listSubjects':
         logEvent(user, 'view_home', {})
         return jsonResponse({ authenticated: true, user: user, subjects: listSubjects() })
+      case 'listLibrary':
+        logEvent(user, 'view_home', {})
+        return jsonResponse({ authenticated: true, user: user, subjects: listLibrary() })
       case 'listFiles':
         logEvent(user, 'view_subject', { subjectSlug: body.subjectSlug, category: body.category })
         return jsonResponse({

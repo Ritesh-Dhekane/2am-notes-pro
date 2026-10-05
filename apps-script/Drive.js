@@ -27,23 +27,47 @@ function listSubjects() {
 }
 
 function listFiles(subjectSlug, category) {
-  var categoryFolder = getCategoryFolder(subjectSlug, category)
+  return filesIn(getCategoryFolder(subjectSlug, category))
+}
 
+// Every subject with all of its notes, PYQs and references in one response, so the app can show
+// counts, search and "continue reading" without a request per subject. A missing category folder
+// simply comes back as an empty list.
+function listLibrary() {
+  var subjectsFolder = getSubjectsFolder()
+  var subjects = []
+  var folders = subjectsFolder.getFolders()
+  while (folders.hasNext()) {
+    var folder = folders.next()
+    var files = {}
+    ALLOWED_CATEGORIES.forEach(function (category) {
+      var categoryFolder = findChildFolder(folder, category)
+      files[category] = categoryFolder ? filesIn(categoryFolder) : []
+    })
+    subjects.push({ slug: folder.getName(), name: slugToTitle(folder.getName()), files: files })
+  }
+  subjects.sort(function (a, b) {
+    return a.name.localeCompare(b.name)
+  })
+  return subjects
+}
+
+function filesIn(folder) {
   var files = []
-  var it = categoryFolder.getFiles()
+  var it = folder.getFiles()
   while (it.hasNext()) {
     var file = it.next()
     files.push({
       id: file.getId(),
       name: file.getName(),
       mimeType: file.getMimeType(),
+      size: file.getSize(),
+      updated: file.getLastUpdated().toISOString(),
     })
   }
-
   files.sort(function (a, b) {
     return a.name.localeCompare(b.name)
   })
-
   return files
 }
 

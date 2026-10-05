@@ -69,3 +69,13 @@ export function groupByUnit(files) {
     .sort(([a], [b]) => (a === 'other' ? 1 : b === 'other' ? -1 : a - b))
     .map(([unit, items]) => ({ unit: unit === 'other' ? null : unit, items }))
 }
+
+const KIND_LABELS = { note: 'Note', pdf: 'PDF', text: 'Text', other: 'File' }
+
+export function kindLabel(kind) {
+  return KIND_LABELS[kind] || KIND_LABELS.other
+}
+
+export function fileHref(file) {
+  return `/read/${encodeURIComponent(file.subject)}/${encodeURIComponent(file.id)}`
+}
