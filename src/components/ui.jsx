@@ -105,6 +105,6 @@ export function ErrorState({ message, onRetry }) {
   )
 }
 
-export function Skeleton({ className = '' }) {
-  return <span className={`block animate-pulse rounded-lg bg-surface-2 ${className}`} aria-hidden="true" />
+export function Skeleton({ className = '', style }) {
+  return <span className={`block animate-pulse rounded-lg bg-surface-2 ${className}`} style={style} aria-hidden="true" />
 }

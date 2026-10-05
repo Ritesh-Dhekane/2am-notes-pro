@@ -77,6 +77,17 @@ export function usePrefs() {
   )
 }
 
+const FONT_FAMILY = { serif: 'var(--font-serif)', sans: 'var(--font-sans)', mono: 'var(--font-mono)' }
+
+// CSS variables the reading view uses (see .note-prose in index.css).
+export function readingStyleFrom(prefs) {
+  return {
+    '--reading-font': FONT_FAMILY[prefs.readingFont] || FONT_FAMILY.serif,
+    '--reading-size': `${prefs.fontSize}px`,
+    '--reading-leading': prefs.lineHeight,
+  }
+}
+
 export function isDarkTheme(theme) {
   return theme === 'midnight' || theme === 'oled'
 }
