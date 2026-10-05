@@ -373,14 +373,8 @@ export async function handleDemo(action, params) {
         })),
       }
     case 'listLibrary':
-      return { authenticated: true, user, subjects: SEMESTERS[params.semester] || SEM_II }
-    case 'listSubjects':
-      return { authenticated: true, user, subjects: SEM_II.map(({ slug, name }) => ({ slug, name })) }
-    case 'listFiles': {
-      const subject = SEM_II.find((s) => s.slug === params.subjectSlug)
-      if (!subject) throw new Error('subject_not_found')
-      return { authenticated: true, user, files: subject.files[params.category] || [] }
-    }
+      if (!SEMESTERS[params.semester]) throw new Error('semester_not_found')
+      return { authenticated: true, user, subjects: SEMESTERS[params.semester] }
     case 'getFile': {
       const f = ALL_FILES.find((x) => x.id === params.fileId)
       if (!f) throw new Error('file_not_accessible')

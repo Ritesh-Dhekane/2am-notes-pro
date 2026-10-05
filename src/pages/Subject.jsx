@@ -222,7 +222,7 @@ function SubjectBody({ library }) {
               </h2>
               <Card as="ul" className="flex flex-col gap-1 p-2">
                 {pyqs.map((file) => (
-                  <FileRow key={file.id} file={file} active={file.id === activeId} onOpen={open} />
+                  <FileRow key={file.id} file={file} showUnit active={file.id === activeId} onOpen={open} />
                 ))}
               </Card>
             </section>
@@ -235,7 +235,7 @@ function SubjectBody({ library }) {
               </h2>
               <Card as="ul" className="flex flex-col gap-1 p-2">
                 {references.map((file) => (
-                  <FileRow key={file.id} file={file} active={file.id === activeId} onOpen={open} />
+                  <FileRow key={file.id} file={file} showUnit active={file.id === activeId} onOpen={open} />
                 ))}
               </Card>
             </section>

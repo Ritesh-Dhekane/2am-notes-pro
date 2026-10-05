@@ -69,6 +69,7 @@ function PyqsBody({ library }) {
                       key={file.id}
                       file={file}
                       prefix={library.bySlug.get(file.subject)?.look.short}
+                      showUnit
                       active={file.id === activeId}
                       onOpen={open}
                     />

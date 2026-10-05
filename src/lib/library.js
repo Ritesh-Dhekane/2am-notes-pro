@@ -5,7 +5,6 @@
 //   references }, hasSyllabus }] }] } — what's on offer, without file names or ids.
 // - `listLibrary` ({ idToken, semester }): { subjects: [{ slug, name, files: { notes, pyqs,
 //   references }, syllabus }] }, where syllabus is a file or null.
-// Older deployments only have listSubjects/listFiles (one semester, no syllabus); we fall back to those.
 
 import { callApi } from './api.js'
 import { isSubjectVisible, semesterById } from './catalog.js'
@@ -18,29 +17,8 @@ export async function loadCatalog() {
 }
 
 export async function loadRawLibrary(idToken, semesterId) {
-  try {
-    const data = await callApi('listLibrary', { idToken, semester: semesterId })
-    return data.subjects
-  } catch (err) {
-    if (err.message !== 'unknown_action') throw err
-  }
-  const { subjects } = await callApi('listSubjects', { idToken })
-  return Promise.all(
-    subjects.map(async (subject) => {
-      const files = {}
-      await Promise.all(
-        CATEGORIES.map(async ({ key }) => {
-          try {
-            files[key] = (await callApi('listFiles', { idToken, subjectSlug: subject.slug, category: key })).files
-          } catch (err) {
-            if (err.message !== 'category_not_found') throw err
-            files[key] = []
-          }
-        }),
-      )
-      return { ...subject, files }
-    }),
-  )
+  const data = await callApi('listLibrary', { idToken, semester: semesterId })
+  return data.subjects
 }
 
 // Builds the library from the backend's subjects, keeping only those this student sees (the

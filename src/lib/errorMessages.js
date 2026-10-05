@@ -5,11 +5,11 @@ const FRIENDLY_MESSAGES = {
   token_audience_mismatch: 'Your session is invalid. Please sign in again.',
   missing_id_token: 'You need to sign in to do that.',
   email_not_verified: "This Google account's email isn't verified, so it can't be used here.",
-  subject_not_found: "This subject doesn't exist or isn't set up yet.",
-  category_not_found: 'No files have been added to this section yet.',
   file_not_accessible: "This file isn't accessible.",
-  invalid_category: 'That section is not recognized.',
-  subjects_folder_not_found: 'The subjects folder is missing from Drive. See the README (Apps Script Backend).',
+  missing_file_id: "This file isn't accessible.",
+  semester_not_found:
+    "Your semester's folder isn't in Drive yet. Pick another semester in Profile & Settings, or check the Drive layout in the README.",
+  missing_semester: 'Choose your semester in Profile & Settings.',
   server_misconfigured_missing_client_id:
     "The backend isn't fully configured yet (missing Google client ID). See the README (Apps Script Backend).",
   missing_api_base_url: "The app isn't connected to its backend yet (VITE_API_BASE_URL is not set).",

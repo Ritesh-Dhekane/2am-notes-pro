@@ -1,6 +1,6 @@
 // Entry point for the 2am-notes-pro backend web app.
-// doGet is an unauthenticated health check; doPost is the authenticated API
-// router — every action requires a verified Google ID token (Auth.js).
+// doGet is a health check. doPost is the API router: `catalog` is public (counts only, no file
+// names or ids); every other action requires a verified Google ID token (Auth.js).
 
 function doGet(e) {
   return jsonResponse({
@@ -16,6 +16,14 @@ function doPost(e) {
     body = JSON.parse(e.postData.contents)
   } catch (err) {
     return jsonResponse({ authenticated: false, error: 'invalid_request' })
+  }
+
+  if (body.action === 'catalog') {
+    try {
+      return jsonResponse({ authenticated: false, semesters: getCatalog() })
+    } catch (err) {
+      return jsonResponse({ authenticated: false, error: err.message })
+    }
   }
 
   if (!body.idToken) {
@@ -42,19 +50,9 @@ function doPost(e) {
       case 'logout':
         logEvent(user, 'logout', {})
         return jsonResponse({ authenticated: true, user: user })
-      case 'listSubjects':
-        logEvent(user, 'view_home', {})
-        return jsonResponse({ authenticated: true, user: user, subjects: listSubjects() })
       case 'listLibrary':
-        logEvent(user, 'view_home', {})
-        return jsonResponse({ authenticated: true, user: user, subjects: listLibrary() })
-      case 'listFiles':
-        logEvent(user, 'view_subject', { subjectSlug: body.subjectSlug, category: body.category })
-        return jsonResponse({
-          authenticated: true,
-          user: user,
-          files: listFiles(body.subjectSlug, body.category),
-        })
+        logEvent(user, 'view_library', { semester: body.semester })
+        return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester) })
       case 'getFile':
         var file = getFile(body.fileId)
         logEvent(user, 'file_open', { fileId: file.id, fileName: file.name })

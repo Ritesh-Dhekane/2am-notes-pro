@@ -3,15 +3,17 @@
 A private MCA study portal: subject-wise notes, previous-year papers (PYQs) and references, stored in Google Drive and opened only after Google sign-in.
 
 ## Features
+- **Sign-in flow**: visitors see every semester's subjects with their note and paper counts, locked. After Google sign-in, students pick their semester and electives (changeable in Settings), and only those subjects appear.
 - **Dashboard**: continue reading (with progress), every subject, saved files and recent additions.
-- **Subjects**: notes grouped by unit, PYQs newest first, references. On desktop, files open in a preview pane beside the list.
+- **Subjects**: syllabus, notes grouped by unit, PYQs newest first, references. On desktop, files open in a preview pane beside the list.
 - **Reader**: Markdown notes with an outline, exam-tip and definition callouts, code panels with syntax colours, and tables. PDFs and text files open too. Includes text size controls, bookmarks and previous/next.
 - **Listen**: notes are read aloud with the device's voices, highlighting the sentence being read. Speed, skip and voice controls.
 - **Search**: across every file by title, unit, subject or type, with type and subject filters. Recent searches are kept. `Ctrl K` from anywhere.
 - **PYQ Archive** and **Saved**: all papers by exam year; bookmarks grouped by subject.
+- **Document viewer**: images, Word, Excel/CSV and PowerPoint files open full screen, rendered in the browser.
 - **Profile & Settings**: four themes (Midnight, OLED, Light, Sepia), reading typeface, size, spacing and line length, and read-aloud defaults. Also an install-as-app option.
 
-Bookmarks, reading history and settings stay in the browser (`localStorage`). They are never sent to the backend.
+Bookmarks, reading history, semester choice and settings stay in the browser (`localStorage`). They are never sent to the backend.
 
 ## Repository Structure
 - `src/`: React (Vite) frontend
@@ -36,29 +38,40 @@ To work on the UI without the Google client ID or the backend, open `http://loca
 The frontend only decodes the credential for display. The Apps Script backend verifies it server-side before returning any data.
 
 ## Apps Script Backend
-1. Run `npm install -g @google/clasp`, then `clasp login` with the Google account that owns the Drive content.
+1. Run `npm install -g @google/clasp`, then `clasp login` with the Google account that owns the Drive content. Turn on the Apps Script API at https://script.google.com/home/usersettings first, or clasp can't connect.
 2. Run `cd apps-script && clasp create --type webapp --title "2am-notes-pro-api" --rootDir .` (this creates the git-ignored `.clasp.json`), then `clasp push`.
-3. Run `clasp open`, then **Deploy → New deployment → Web app**: execute as **Me**, access **Anyone** (the script enforces its own auth).
-4. In **Project Settings → Script Properties**, set:
-   - `GOOGLE_CLIENT_ID`: the same client ID as the frontend. Required; without it every call fails with `server_misconfigured_missing_client_id`.
-   - `DRIVE_ROOT_FOLDER_ID`: the ID of the `MCA-3rd-Sem` Drive folder. Required; without it calls fail with `server_misconfigured_missing_drive_root`.
+3. In **Project Settings → Script Properties**, set:
+   - `GOOGLE_CLIENT_ID`: the same client ID as the frontend. Required; without it every signed-in call fails with `server_misconfigured_missing_client_id`.
+   - `DRIVE_ROOT_FOLDER_ID`: the ID of the top Drive folder (see Drive Layout). Required.
    - `LOG_SHEET_ID`: optional. A Google Sheet with a `Logs` tab, for access logging.
-5. Set the web app URL as `VITE_API_BASE_URL` in `.env`.
+4. Go to **Deploy → New deployment → Web app**: execute as **Me**, access **Anyone**. Only the catalog (subject names and file counts) is public; everything else checks the Google sign-in.
+5. In the editor, run `installTriggers` once and allow the permissions it asks for. It refreshes the cached listings every hour, so pages load fast.
+6. Set the web app URL (ends in `/exec`) as `VITE_API_BASE_URL` in `.env`.
 
 Opening the web app URL in a browser returns a JSON health check.
 
-**After changing the backend** (e.g. the `listLibrary` action, which loads every subject's files in one call), run `clasp push`. Then go to **Deploy → Manage deployments**, edit the web app and pick **New version**. This keeps the same URL. Until it's redeployed, the app falls back to one call per subject, which works but is slower.
+**After adding or renaming files in Drive**, run `refreshCaches` in the editor (otherwise they appear within the hour).
+
+**After changing the backend code**, run `clasp push`. Then go to **Deploy → Manage deployments**, edit the web app and pick **New version**. This keeps the same URL.
 
 ## Drive Layout
 ```
-MCA-3rd-Sem/
-  subjects/
-    <subject-slug>/      # e.g. java-programming, matching /subject/:subjectId
-      notes/             # unit-<NN>-<topic-slug>.md, e.g. unit-02-exception-handling.md
-      pyqs/              # e.g. dec-2025-end-semester.pdf (the year and month set the order)
-      references/
+<top folder>/                    # its ID is DRIVE_ROOT_FOLDER_ID
+  MCA-Sem-II/                    # one folder per semester; the name is the semester id
+    subjects/
+      java-programming/          # subject slug, matches /subject/:subjectId
+        syllabus.pdf             # optional, at the subject root
+        notes/                   # unit-<NN>-<topic-slug>.<ext>, e.g. unit-02-exception-handling.md
+        pyqs/                    # e.g. dec-2025-end-semester.pdf (the year and month set the order)
+        references/
+  MCA-Sem-III/
+    subjects/
+      …
 ```
-To add a subject, add a slug folder with the same three sub-folders; no code change is needed. In notes, a blockquote starting with `**Exam tip:**`, `**Important:**`, `**Definition:**` or `**Note:**` becomes a callout.
+- Category folders are flat (files directly inside `notes/`, `pyqs/` and `references/`).
+- A new subject folder shows up without code changes. Its proper name, icon and core/elective group come from `src/lib/catalog.js`; until it's listed there, it shows as a core subject with a plain look.
+- In notes, a blockquote starting with `**Exam tip:**`, `**Important:**`, `**Definition:**` or `**Note:**`, or a GitHub-style `> [!NOTE]` / `[!TIP]` / `[!IMPORTANT]` / `[!WARNING]`, becomes a callout.
+- Notes and text open in the reader. PDFs, images, Word, Excel/CSV and PowerPoint files open in the viewer. Old `.doc` and `.ppt` files are download-only.
 
 ## Analytics
 GA4 is optional: set `VITE_GA_MEASUREMENT_ID` (`G-XXXXXXXXXX`). Without it, analytics is disabled entirely. It tracks page views, `login`, `subject_click` and `file_open`.
