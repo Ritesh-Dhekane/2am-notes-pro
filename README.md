@@ -44,7 +44,7 @@ The frontend only decodes the credential for display. The Apps Script backend ve
    - `GOOGLE_CLIENT_ID`: the same client ID as the frontend. Required; without it every signed-in call fails with `server_misconfigured_missing_client_id`.
    - `DRIVE_ROOT_FOLDER_ID`: the ID of the top Drive folder (see Drive Layout). Required.
    - `LOG_SHEET_ID`: optional. A Google Sheet with a `Logs` tab, for access logging.
-4. Go to **Deploy → New deployment → Web app**: execute as **Me**, access **Anyone**. Only the catalog (subject names and file counts) is public; everything else checks the Google sign-in.
+4. Go to **Deploy → New deployment → Web app**: execute as **Me**, access **Anyone** (not "Anyone with Google account": the app calls it straight from the browser). Only the catalog (subject names and file counts) is public; everything else checks the Google sign-in. `appsscript.json` already sets this, so `clasp create-deployment` works too.
 5. In the editor, run `installTriggers` once and allow the permissions it asks for. It refreshes the cached listings every hour, so pages load fast.
 6. Set the web app URL (ends in `/exec`) as `VITE_API_BASE_URL` in `.env`.
 
