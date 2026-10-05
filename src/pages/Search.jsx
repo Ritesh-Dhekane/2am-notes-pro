@@ -9,7 +9,7 @@ import { BookmarkButton, FileTypeIcon } from '../components/FileBits.jsx'
 import LibraryGate from '../components/LibraryGate.jsx'
 import PaneLayout from '../components/PaneLayout.jsx'
 import { Card, EmptyState, Tag } from '../components/ui.jsx'
-import { CATEGORIES, formatSize, kindLabel } from '../lib/files.js'
+import { CATEGORIES, categoryLabel, formatSize, kindLabel } from '../lib/files.js'
 import { highlightParts, queryWords, searchLibrary } from '../lib/search.js'
 import { clearSearches, rememberSearch, useRecentSearches } from '../lib/store.js'
 import { useFilePane } from '../lib/useFilePane.js'
@@ -30,7 +30,6 @@ function Highlighted({ text, words }) {
 
 function Result({ result, words, active, onOpen }) {
   const { file, subject } = result
-  const category = CATEGORIES.find((c) => c.key === file.category)
   const meta = [kindLabel(file.kind), formatSize(file.size)].filter(Boolean)
   return (
     <li className="relative">
@@ -45,7 +44,7 @@ function Result({ result, words, active, onOpen }) {
         <span className="flex flex-wrap items-center gap-1.5">
           <Tag look={subject.look}>{subject.look.short}</Tag>
           <span className="font-mono text-caption text-ink-3">
-            {[category?.single, file.unit ? `Unit ${file.unit}` : null].filter(Boolean).join(' · ')}
+            {[categoryLabel(file.category), file.unit ? `Unit ${file.unit}` : null].filter(Boolean).join(' · ')}
           </span>
           {file.isNew && (
             <span className="rounded bg-primary-soft px-1.5 font-mono text-[10px] font-semibold text-primary-ink">NEW</span>

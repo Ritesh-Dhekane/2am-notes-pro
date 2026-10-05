@@ -7,7 +7,7 @@ import FileRow from '../components/FileRow.jsx'
 import LibraryGate from '../components/LibraryGate.jsx'
 import PaneLayout from '../components/PaneLayout.jsx'
 import { Card, EmptyState, SubjectIcon } from '../components/ui.jsx'
-import { CATEGORIES } from '../lib/files.js'
+import { categoryLabel } from '../lib/files.js'
 import { removeBookmarks, useBookmarks } from '../lib/store.js'
 import { useFilePane } from '../lib/useFilePane.js'
 
@@ -16,7 +16,9 @@ function SavedBody({ library }) {
   const { active, activeId, open } = useFilePane(library)
 
   const entries = Object.values(bookmarks).sort((a, b) => b.savedAt.localeCompare(a.savedAt))
-  const missing = entries.filter((b) => !library.byId.has(b.fileId)).map((b) => b.fileId)
+  // Gone from Drive = its subject is here but the file isn't. Bookmarks from another semester or an
+  // elective you don't take are just not shown.
+  const missing = entries.filter((b) => library.bySlug.has(b.subject) && !library.byId.has(b.fileId)).map((b) => b.fileId)
   const groups = library.subjects
     .map((subject) => ({
       subject,
@@ -71,7 +73,7 @@ function SavedBody({ library }) {
                     key={file.id}
                     file={file}
                     showUnit
-                    prefix={file.category === 'notes' ? null : CATEGORIES.find((c) => c.key === file.category)?.single}
+                    prefix={file.category === 'notes' ? null : categoryLabel(file.category)}
                     active={file.id === activeId}
                     onOpen={open}
                   />

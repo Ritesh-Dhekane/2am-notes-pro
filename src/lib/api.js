@@ -6,7 +6,8 @@ const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
 // CORS preflight (OPTIONS) that "application/json" would trigger. Leaving
 // the body as a plain string keeps fetch's default text/plain, which is a
 // CORS-safelisted content type and skips preflight entirely.
-export async function callApi(action, params = {}) {
+// `public` actions (the catalog) answer without a session, so their reply isn't checked for one.
+export async function callApi(action, params = {}, { public: isPublic = false } = {}) {
   // Dev-only demo data (?demo); the import is dropped from production builds.
   if (import.meta.env.DEV && isDemo()) {
     const { handleDemo } = await import('../dev/demo.js')
@@ -32,7 +33,7 @@ export async function callApi(action, params = {}) {
   }
 
   const data = await response.json()
-  if (!data.authenticated) {
+  if (!isPublic && !data.authenticated) {
     throw new Error(data.error || 'not_authenticated')
   }
   if (data.error) {

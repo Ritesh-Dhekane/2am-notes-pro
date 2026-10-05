@@ -72,7 +72,17 @@ export function nodeText(node) {
   return (node.children || []).map(nodeText).join('')
 }
 
-// rehype plugin: <blockquote><p><strong>Exam tip:</strong> …</p></blockquote>
+// GitHub-style alerts (> [!NOTE] …), which the 2AM Notes markdown uses.
+const ALERTS = {
+  note: ['note', 'Note'],
+  tip: ['tip', 'Tip'],
+  important: ['important', 'Important'],
+  warning: ['important', 'Warning'],
+  caution: ['important', 'Caution'],
+}
+const ALERT_MARK = /^\s*\[!(note|tip|important|warning|caution)\]\s*/i
+
+// rehype plugin: <blockquote><p><strong>Exam tip:</strong> …</p></blockquote> (or <p>[!TIP] …</p>)
 // → <aside data-callout="tip" data-label="Exam tip"><p>…</p></aside>
 export function rehypeCallouts() {
   return (tree) => {
@@ -81,6 +91,16 @@ export function rehypeCallouts() {
       node.children.forEach(visit)
       if (node.type !== 'element' || node.tagName !== 'blockquote') return
       const p = node.children.find((c) => c.type === 'element')
+      const lead = p?.tagName === 'p' ? p.children?.[0] : null
+      const alert = lead?.type === 'text' && lead.value.match(ALERT_MARK)
+      if (alert) {
+        const [kind, label] = ALERTS[alert[1].toLowerCase()]
+        lead.value = lead.value.slice(alert[0].length)
+        if (!lead.value && p.children.length === 1) node.children.splice(node.children.indexOf(p), 1)
+        node.tagName = 'aside'
+        node.properties = { ...node.properties, dataCallout: kind, dataLabel: label }
+        return
+      }
       const strong = p?.tagName === 'p' && p.children?.find((c) => c.type === 'element' || c.value?.trim())
       if (!strong || strong.type !== 'element' || strong.tagName !== 'strong') return
       const label = nodeText(strong).replace(/:\s*$/, '').trim()

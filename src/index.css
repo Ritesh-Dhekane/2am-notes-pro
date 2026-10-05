@@ -197,8 +197,13 @@ body {
     color: var(--c-on-primary);
     transition: box-shadow 150ms, transform 150ms;
   }
-  .btn-primary:hover {
+  .btn-primary:hover:not(:disabled) {
     box-shadow: 0 0 16px rgba(99, 102, 241, 0.35);
+  }
+  .btn-primary:disabled {
+    cursor: not-allowed;
+    background: var(--c-surface-2);
+    color: var(--c-ink-2);
   }
   .btn-primary:active {
     transform: scale(0.98);

@@ -10,6 +10,7 @@ import { fileHref, kindLabel } from '../lib/files.js'
 import { Card, EmptyState, Skeleton, Tag } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { useBookmarks, useHistory } from '../lib/store.js'
+import { useStudy } from '../lib/study.js'
 
 function greeting(hour) {
   if (hour < 5) return 'Still up'
@@ -131,9 +132,11 @@ function DashboardBody({ library }) {
             <h2 id="subjects" className="flex items-center gap-2 text-title">
               <LayoutGrid className="size-5 text-primary-ink" aria-hidden="true" /> Your subjects
             </h2>
-            <span className="font-mono text-caption text-ink-3">MCA Sem 3 · {library.subjects.length}</span>
+            <span className="font-mono text-caption text-ink-3">
+              MCA {library.semester?.short ?? ''} · {library.subjects.length}
+            </span>
           </div>
-          <ul className="grid gap-3 sm:grid-cols-2">
+          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {library.subjects.map((subject) => (
               <li key={subject.slug}>
                 <SubjectCard subject={subject} />
@@ -192,6 +195,7 @@ function DashboardBody({ library }) {
 
 export default function Dashboard() {
   const { user } = useAuth()
+  const { semesterInfo: semester } = useStudy()
   const [now] = useState(() => new Date())
   const lateNight = now.getHours() < 5
 
@@ -210,12 +214,14 @@ export default function Dashboard() {
         <h1 className="relative mt-2 text-[28px] leading-9 font-bold tracking-tight lg:text-display">
           {greeting(now.getHours())}, {user.firstName || 'there'}
         </h1>
-        <p className="relative mt-1 text-body text-ink-2">MCA 3rd Semester · pick up where you left off.</p>
+        <p className="relative mt-1 text-body text-ink-2">
+          {semester ? `MCA ${semester.label}` : 'MCA'} · pick up where you left off.
+        </p>
       </Card>
 
       <LibraryGate
         skeleton={
-          <div className="grid gap-3 sm:grid-cols-2" aria-busy="true" aria-label="Loading subjects">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2" aria-busy="true" aria-label="Loading subjects">
             {Array.from({ length: 4 }, (_, i) => (
               <Skeleton key={i} className="h-44" />
             ))}

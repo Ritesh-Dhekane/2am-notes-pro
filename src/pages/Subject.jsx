@@ -1,7 +1,7 @@
 // One subject: notes by unit, PYQs and references. On desktop the chosen file opens in a pane on
 // the right; on phones it opens in the full reader.
 
-import { ChevronDown, ChevronRight, FileQuestion, Library, NotebookText, Search } from 'lucide-react'
+import { ChevronDown, ChevronRight, FileQuestion, Library, NotebookText, ScrollText, Search } from 'lucide-react'
 import { createElement, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import FileRow from '../components/FileRow.jsx'
@@ -10,6 +10,7 @@ import FilePane from '../components/FilePane.jsx'
 import { Card, EmptyState, SubjectIcon, Tag } from '../components/ui.jsx'
 import { byExamDesc, CATEGORIES, groupByUnit } from '../lib/files.js'
 import { useFilePane } from '../lib/useFilePane.js'
+import { subjectGroupLabel } from '../lib/catalog.js'
 import { tintStyle } from '../lib/subjects.js'
 
 const TABS = [{ key: 'all', label: 'All' }, ...CATEGORIES]
@@ -113,9 +114,22 @@ function SubjectBody({ library }) {
           <div className="flex items-start gap-4">
             <SubjectIcon look={subject.look} size="lg" />
             <div className="min-w-0">
-              <Tag look={subject.look}>{subject.look.short}</Tag>
+              <span className="flex flex-wrap items-center gap-2">
+                <Tag look={subject.look}>{subject.look.code || subject.look.short}</Tag>
+                <span className="font-mono text-caption text-ink-3">{subjectGroupLabel(library.semester, subject.slug)}</span>
+              </span>
               <h1 className="mt-1.5 text-[26px] leading-8 font-bold tracking-tight lg:text-display">{subject.name}</h1>
               <p className="mt-1 max-w-2xl font-serif text-[15px] leading-6 text-ink-2">{subject.look.about}</p>
+              {subject.syllabus && (
+                <button
+                  type="button"
+                  onClick={() => open(subject.syllabus)}
+                  aria-current={activeId === subject.syllabus.id ? 'true' : undefined}
+                  className="btn-secondary mt-3 bg-surface"
+                >
+                  <ScrollText className="size-4 text-primary-ink" aria-hidden="true" /> Syllabus
+                </button>
+              )}
             </div>
           </div>
           <dl className="grid grid-cols-4 gap-2 lg:flex lg:gap-6">

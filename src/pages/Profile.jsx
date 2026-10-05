@@ -1,8 +1,24 @@
 // Profile & Settings: the Google account, theme, reading typography and read-aloud defaults.
 // Everything saves straight away, on this device.
 
-import { AudioLines, Check, Download, LogOut, Palette, Play, RotateCcw, Share, ShieldCheck, Smartphone, Type } from 'lucide-react'
+import {
+  AudioLines,
+  Check,
+  Download,
+  GraduationCap,
+  LogOut,
+  Palette,
+  Play,
+  RotateCcw,
+  Share,
+  ShieldCheck,
+  Smartphone,
+  Type,
+} from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import { SettingsSection, Segmented, Switch } from '../components/Settings.jsx'
+import StudyPicker from '../components/StudyPicker.jsx'
 import { Avatar, Card } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { useLibrary } from '../context/libraryContext.js'
@@ -21,6 +37,8 @@ import {
   usePrefs,
 } from '../lib/prefs.js'
 import { useBookmarks, useHistory } from '../lib/store.js'
+import { isSetupComplete, semesterById } from '../lib/catalog.js'
+import { setStudy, useStudy } from '../lib/study.js'
 
 const SPACING_NAMES = { 1.6: 'Compact', 1.75: 'Cozy', 2: 'Relaxed' }
 const FONT_PREVIEW = { serif: 'var(--font-serif)', sans: 'var(--font-sans)', mono: 'var(--font-mono)' }
@@ -58,6 +76,46 @@ function Account() {
         ))}
       </dl>
     </Card>
+  )
+}
+
+// Semester and electives: edited as a draft and saved together, so switching semester half-way
+// doesn't hide everything before the new electives are picked.
+function Study() {
+  const study = useStudy()
+  const [draft, setDraft] = useState({ semester: study.semester, electives: study.electives })
+  const [saved, setSaved] = useState(false)
+  const changed = JSON.stringify(draft) !== JSON.stringify({ semester: study.semester, electives: study.electives })
+  const ready = isSetupComplete(semesterById(draft.semester), draft.electives)
+
+  return (
+    <SettingsSection icon={GraduationCap} title="Semester & electives" description="Only these subjects appear across the app.">
+      <div id="study" className="scroll-mt-24">
+        <StudyPicker
+          value={draft}
+          onChange={(next) => {
+            setDraft(next)
+            setSaved(false)
+          }}
+        />
+      </div>
+      <div className="flex flex-wrap items-center gap-3">
+        <button
+          type="button"
+          className="btn-primary"
+          disabled={!changed || !ready}
+          onClick={() => {
+            setStudy(draft)
+            setSaved(true)
+          }}
+        >
+          <Check className="size-4" aria-hidden="true" /> Save
+        </button>
+        <p className="text-label text-ink-2" aria-live="polite">
+          {saved ? 'Saved.' : changed && !ready ? 'Choose one subject in every elective group.' : ''}
+        </p>
+      </div>
+    </SettingsSection>
   )
 }
 
@@ -113,7 +171,7 @@ function Reading() {
         onChange={(readingFont) => setPrefs({ readingFont })}
         options={READING_FONTS.map((f) => ({ value: f.id, label: f.name, hint: f.hint, style: { fontFamily: FONT_PREVIEW[f.id] } }))}
       />
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <Segmented
           legend="Text size"
           name="font-size"
@@ -264,6 +322,10 @@ function SignOut() {
 }
 
 export default function Profile() {
+  const { hash } = useLocation()
+  useEffect(() => {
+    if (hash === '#study') document.getElementById('study')?.scrollIntoView({ block: 'start' })
+  }, [hash])
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
@@ -281,6 +343,7 @@ export default function Profile() {
           <Account />
         </div>
         <div className="flex min-w-0 flex-col gap-5 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+          <Study />
           <Appearance />
           <Reading />
           <Audio />

@@ -47,12 +47,8 @@ export default function SignInCard({ onSignedIn }) {
 
   return (
     <div className="rounded-2xl border border-line bg-surface p-5">
-      <div className="mb-4 flex items-center justify-between gap-3">
-        <h2 className="text-label font-semibold uppercase tracking-wide text-ink-2">MCA student portal</h2>
-        <span className="flex items-center gap-1.5 font-mono text-caption text-teal-ink">
-          <span className="size-1.5 rounded-full bg-teal" aria-hidden="true" /> Semester 3
-        </span>
-      </div>
+      <h2 className="mb-1 text-heading">Sign in to open the notes</h2>
+      <p className="mb-4 text-label text-ink-2">After signing in you pick your semester and electives.</p>
 
       {reason === 'expired' && (
         <p role="status" className="mb-4 flex items-start gap-2 rounded-xl bg-primary-soft px-3 py-2.5 text-label text-ink">
@@ -73,7 +69,9 @@ export default function SignInCard({ onSignedIn }) {
           Continue with the demo account
         </button>
       ) : CLIENT_ID ? (
-        <div ref={buttonRef} className="flex min-h-11 w-full justify-center" />
+        // color-scheme: light keeps Google's button iframe transparent; under the dark themes the browser
+        // otherwise paints it an opaque white box around the rounded button.
+        <div ref={buttonRef} className="flex min-h-11 w-full justify-center" style={{ colorScheme: 'light' }} />
       ) : (
         <p className="rounded-xl bg-surface-2 px-3 py-3 text-label text-ink-2">
           Google sign-in isn't set up yet (VITE_GOOGLE_CLIENT_ID is missing).

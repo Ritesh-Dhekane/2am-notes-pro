@@ -125,7 +125,7 @@ function ReaderBody({ library }) {
     )
   }
 
-  const siblings = subject.files[file.category]
+  const siblings = subject.files[file.category] || [file] // the syllabus has no siblings
   const index = siblings.findIndex((f) => f.id === file.id)
   const previous = siblings[index - 1]
   const next = siblings[index + 1]

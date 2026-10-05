@@ -28,7 +28,8 @@ function file(name, { size = 4200, days = 30, mimeType } = {}) {
   }
 }
 
-const SUBJECTS = [
+// Semester → subjects, mirroring Drive's MCA-Sem-II/subjects/<slug>/… layout.
+const SEM_II = [
   {
     slug: 'java-programming',
     name: 'Java Programming',
@@ -55,8 +56,8 @@ const SUBJECTS = [
     },
   },
   {
-    slug: 'software-testing',
-    name: 'Software Testing',
+    slug: 'software-testing-and-quality-assurance',
+    name: 'Software Testing And Quality Assurance',
     files: {
       notes: [
         file('unit-01-testing-fundamentals.md'),
@@ -77,8 +78,8 @@ const SUBJECTS = [
     },
   },
   {
-    slug: 'machine-learning',
-    name: 'Machine Learning',
+    slug: 'machine-learning-techniques',
+    name: 'Machine Learning Techniques',
     files: {
       notes: [
         file('unit-01-supervised-learning.md'),
@@ -103,7 +104,24 @@ const SUBJECTS = [
     name: 'Power BI',
     files: { notes: [file('unit-01-data-modelling.md')], pyqs: [], references: [file('dax-cheat-sheet.md')] },
   },
-  // Office files and images, for the document viewer. Kept last so the ids above don't shift.
+  {
+    slug: 'cloud-computing-management-and-security',
+    name: 'Cloud Computing Management And Security',
+    files: {
+      notes: [file('unit-01-cloud-management-and-security.md'), file('unit-03-security-concepts-in-aws.pdf', { size: 880_000 })],
+      pyqs: [file('nov-dec-2025-question-paper.pdf', { size: 32_000, days: 10 })],
+      references: [],
+    },
+  },
+  {
+    slug: 'cyber-security',
+    name: 'Cyber Security',
+    files: { notes: [file('unit-01-evolution-of-cyber-security.md'), file('unit-04-cyber-crime.md')], pyqs: [], references: [] },
+  },
+]
+
+const SEM_III = [
+  // Office files and images, for the document viewer.
   {
     slug: 'tableau',
     name: 'Tableau',
@@ -117,7 +135,59 @@ const SUBJECTS = [
       ],
     },
   },
+  {
+    slug: 'design-and-analysis-of-algorithms',
+    name: 'Design And Analysis Of Algorithms',
+    files: {
+      notes: [file('unit-01-asymptotic-notation.md', { days: 2 }), file('unit-02-divide-and-conquer.md'), file('unit-03-greedy-method.md')],
+      pyqs: [file('dec-2025-end-semester.pdf', { size: 410_000, days: 5 })],
+      references: [],
+    },
+  },
+  {
+    slug: 'organizational-behaviour',
+    name: 'Organizational Behaviour',
+    files: {
+      notes: [file('unit-01-foundations-of-ob.md'), file('unit-02-motivation-theories.md', { days: 4 })],
+      pyqs: [],
+      references: [file('assignment-1.pdf', { size: 1_200_000, days: 12 })],
+    },
+  },
+  { slug: 'practicals', name: 'Practicals', files: { notes: [], pyqs: [], references: [] } },
+  {
+    slug: 'research-project',
+    name: 'Research Project',
+    files: { notes: [file('unit-01-choosing-a-topic.md')], pyqs: [], references: [file('literature-review-template.md')] },
+  },
+  {
+    slug: 'deep-learning',
+    name: 'Deep Learning',
+    files: { notes: [file('unit-01-neural-network-basics.md', { days: 1 }), file('unit-02-cnn.md')], pyqs: [], references: [] },
+  },
+  {
+    slug: 'mern-stack-development',
+    name: 'Mern Stack Development',
+    files: { notes: [file('unit-01-node-and-express.md')], pyqs: [], references: [] },
+  },
+  {
+    slug: 'enterprise-resource-planning',
+    name: 'Enterprise Resource Planning',
+    files: { notes: [file('unit-01-erp-overview.md')], pyqs: [], references: [] },
+  },
+  {
+    slug: 'e-commerce',
+    name: 'E Commerce',
+    files: { notes: [file('unit-01-business-models.md')], pyqs: [], references: [] },
+  },
 ]
+
+// Every subject except Practicals has a syllabus at its root, like the real Drive folders.
+for (const subject of [...SEM_II, ...SEM_III]) {
+  subject.syllabus = subject.slug === 'practicals' ? null : file('syllabus.pdf', { size: 320_000, days: 200 })
+}
+
+const SEMESTERS = { 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III }
+const ALL_FILES = [...SEM_II, ...SEM_III].flatMap((s) => [...Object.values(s.files).flat(), ...(s.syllabus ? [s.syllabus] : [])])
 
 const FIXTURES = {
   'sep-2025-unit-test-1.jpg': sampleJpg,
@@ -228,6 +298,9 @@ A short revision note for Unit ${unit}. The full note is coming soon.
 - End with advantages and limitations — they are asked as 5-mark questions.
 
 > **Exam tip:** Write headings exactly as in the syllabus so the examiner can find each part quickly.
+
+> [!NOTE]
+> Notes moved over from 2AM Notes use GitHub-style callouts like this one.
 `
 }
 
@@ -285,17 +358,31 @@ export async function handleDemo(action, params) {
     case 'login':
     case 'logout':
       return { authenticated: true, user }
+    case 'catalog':
+      // Public: what's on offer, with counts but no file names or ids.
+      return {
+        authenticated: false,
+        semesters: Object.entries(SEMESTERS).map(([id, subjects]) => ({
+          id,
+          subjects: subjects.map((s) => ({
+            slug: s.slug,
+            name: s.name,
+            counts: { notes: s.files.notes.length, pyqs: s.files.pyqs.length, references: s.files.references.length },
+            hasSyllabus: Boolean(s.syllabus),
+          })),
+        })),
+      }
     case 'listLibrary':
-      return { authenticated: true, user, subjects: SUBJECTS }
+      return { authenticated: true, user, subjects: SEMESTERS[params.semester] || SEM_II }
     case 'listSubjects':
-      return { authenticated: true, user, subjects: SUBJECTS.map(({ slug, name }) => ({ slug, name })) }
+      return { authenticated: true, user, subjects: SEM_II.map(({ slug, name }) => ({ slug, name })) }
     case 'listFiles': {
-      const subject = SUBJECTS.find((s) => s.slug === params.subjectSlug)
+      const subject = SEM_II.find((s) => s.slug === params.subjectSlug)
       if (!subject) throw new Error('subject_not_found')
       return { authenticated: true, user, files: subject.files[params.category] || [] }
     }
     case 'getFile': {
-      const f = SUBJECTS.flatMap((s) => Object.values(s.files).flat()).find((x) => x.id === params.fileId)
+      const f = ALL_FILES.find((x) => x.id === params.fileId)
       if (!f) throw new Error('file_not_accessible')
       return { authenticated: true, user, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
     }

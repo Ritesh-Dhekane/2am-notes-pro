@@ -3,6 +3,7 @@ import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import Shell from './components/Shell.jsx'
 import { useAuth } from './context/useAuth.js'
 import { trackPageView } from './lib/analytics.js'
+import { useStudy } from './lib/study.js'
 import Login from './pages/Login.jsx'
 import NotFound from './pages/NotFound.jsx'
 import Welcome from './pages/Welcome.jsx'
@@ -15,12 +16,21 @@ const Pyqs = lazy(() => import('./pages/Pyqs.jsx'))
 const Search = lazy(() => import('./pages/Search.jsx'))
 const Saved = lazy(() => import('./pages/Saved.jsx'))
 const Profile = lazy(() => import('./pages/Profile.jsx'))
+const Setup = lazy(() => import('./pages/Setup.jsx'))
 
-// Signed-out visitors are sent to sign in, then back to where they were going.
+// Signed-out visitors see what's on offer and sign in there, then go back to where they were going.
 function RequireAuth({ children }) {
   const { user } = useAuth()
   const location = useLocation()
   if (!user) return <Navigate to="/login" replace state={{ from: location.pathname + location.search }} />
+  return children
+}
+
+// Signed in but no semester chosen yet: set that up first.
+function RequireSetup({ children }) {
+  const { complete } = useStudy()
+  const location = useLocation()
+  if (!complete) return <Navigate to="/setup" replace state={{ from: location.pathname + location.search }} />
   return children
 }
 
@@ -47,9 +57,19 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         {!user && <Route path="/" element={<Welcome />} />}
         <Route
+          path="/setup"
           element={
             <RequireAuth>
-              <Shell />
+              <Setup />
+            </RequireAuth>
+          }
+        />
+        <Route
+          element={
+            <RequireAuth>
+              <RequireSetup>
+                <Shell />
+              </RequireSetup>
             </RequireAuth>
           }
         >

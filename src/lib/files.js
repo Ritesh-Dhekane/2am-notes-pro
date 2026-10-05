@@ -12,6 +12,11 @@ export const CATEGORIES = [
   { key: 'references', label: 'References', single: 'Reference' },
 ]
 
+// A subject's syllabus sits beside these three folders and gets category 'syllabus'.
+export function categoryLabel(key) {
+  return key === 'syllabus' ? 'Syllabus' : CATEGORIES.find((c) => c.key === key)?.single
+}
+
 export function titleCase(slug) {
   return slug
     .replace(/[_-]+/g, ' ')
