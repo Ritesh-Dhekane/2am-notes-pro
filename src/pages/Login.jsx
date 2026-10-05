@@ -1,53 +1,43 @@
-import { useEffect, useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useCallback, useEffect } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import SignInCard from '../components/SignInCard.jsx'
+import { ThemeToggle } from '../components/Shell.jsx'
+import { Logo } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
-import { renderGoogleSignInButton } from '../lib/googleIdentity.js'
 
-const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID
-
+// Standalone sign-in, used when a signed-out visitor opens a protected page (or a session expired).
 export default function Login() {
-  const { user, login } = useAuth()
+  const { user } = useAuth()
   const navigate = useNavigate()
-  const buttonRef = useRef(null)
-  const [error, setError] = useState(null)
+  const location = useLocation()
+  const next = location.state?.from || '/'
+
+  const goNext = useCallback(() => navigate(next, { replace: true }), [navigate, next])
 
   useEffect(() => {
-    if (user) {
-      navigate('/', { replace: true })
-      return
-    }
-    if (!CLIENT_ID) return
-
-    renderGoogleSignInButton({
-      clientId: CLIENT_ID,
-      container: buttonRef.current,
-      onCredential: (credential) => {
-        login(credential)
-        navigate('/', { replace: true })
-      },
-    }).catch((err) => setError(err.message))
-  }, [user, login, navigate])
+    if (user) goNext()
+  }, [user, goNext])
 
   if (user) return null
 
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <div className="w-full max-w-sm rounded-lg border p-6 text-center">
-        <h1 className="text-xl font-semibold">2AM Notes Pro</h1>
-        <p className="mt-2 text-sm text-gray-500">Sign in to access your subjects</p>
-
-        <div className="mt-6 flex justify-center">
-          {CLIENT_ID ? (
-            <div ref={buttonRef} />
-          ) : (
-            <p className="text-xs text-red-500">
-              VITE_GOOGLE_CLIENT_ID is not set. See the README (Google Sign-In).
-            </p>
-          )}
+    <div className="flex min-h-svh flex-col">
+      <header className="flex justify-end px-5 py-4">
+        <ThemeToggle />
+      </header>
+      <main id="main" className="flex flex-1 items-start justify-center px-5 pb-16 sm:items-center">
+        <div className="w-full max-w-sm">
+          <Link to="/" className="mb-6 flex flex-col items-center gap-3 text-center">
+            <Logo className="size-14" />
+            <span>
+              <span className="block text-display">2AM Notes Pro</span>
+              <span className="text-body text-ink-2">Sign in to continue</span>
+            </span>
+          </Link>
+          <h1 className="sr-only">Sign in</h1>
+          <SignInCard onSignedIn={goNext} />
         </div>
-
-        {error && <p className="mt-4 text-xs text-red-500">{error}</p>}
-      </div>
+      </main>
     </div>
   )
 }

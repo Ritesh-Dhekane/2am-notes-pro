@@ -1,0 +1,84 @@
+// Reading and display preferences, kept in localStorage and applied to <html> right away.
+// index.html applies the theme before React loads, so the first paint is already right.
+
+import { useSyncExternalStore } from 'react'
+
+export const PREFS_KEY = 'notes-pro.prefs'
+
+export const THEMES = [
+  { id: 'midnight', name: 'Deep Midnight', hint: 'Default night theme' },
+  { id: 'oled', name: 'OLED Black', hint: 'True black for AMOLED screens' },
+  { id: 'light', name: 'Paper Light', hint: 'For daytime' },
+  { id: 'sepia', name: 'Sepia', hint: 'Warm paper tone' },
+]
+
+export const READING_FONTS = [
+  { id: 'serif', name: 'Literata', hint: 'Book serif' },
+  { id: 'sans', name: 'Jakarta', hint: 'Clean UI' },
+  { id: 'mono', name: 'JetBrains Mono', hint: 'Code mono' },
+]
+
+export const FONT_SIZES = [15, 17, 19, 21]
+export const LINE_HEIGHTS = [1.6, 1.75, 2]
+export const RATES = [0.75, 1, 1.25, 1.5, 2]
+
+const DEFAULTS = {
+  theme: 'midnight',
+  readingFont: 'serif',
+  fontSize: 17,
+  lineHeight: 1.75,
+  measure: true, // keep lines at about 68 characters
+  voiceURI: null,
+  rate: 1,
+  autoScroll: true,
+}
+
+function read() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(PREFS_KEY) || 'null')
+    return { ...DEFAULTS, ...(saved && typeof saved === 'object' ? saved : {}) }
+  } catch {
+    return { ...DEFAULTS }
+  }
+}
+
+let current = read()
+const listeners = new Set()
+
+function apply(prefs) {
+  document.documentElement.dataset.theme = THEMES.some((t) => t.id === prefs.theme)
+    ? prefs.theme
+    : DEFAULTS.theme
+}
+
+export function getPrefs() {
+  return current
+}
+
+export function setPrefs(patch) {
+  current = { ...current, ...(typeof patch === 'function' ? patch(current) : patch) }
+  try {
+    localStorage.setItem(PREFS_KEY, JSON.stringify(current))
+  } catch {
+    // Storage blocked: the change still applies for this visit.
+  }
+  apply(current)
+  listeners.forEach((listener) => listener())
+}
+
+export function usePrefs() {
+  return useSyncExternalStore(
+    (listener) => {
+      listeners.add(listener)
+      return () => listeners.delete(listener)
+    },
+    getPrefs,
+    getPrefs,
+  )
+}
+
+export function isDarkTheme(theme) {
+  return theme === 'midnight' || theme === 'oled'
+}
+
+apply(current)

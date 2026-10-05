@@ -12,6 +12,10 @@ const FRIENDLY_MESSAGES = {
   subjects_folder_not_found: 'The subjects folder is missing from Drive. See the README (Apps Script Backend).',
   server_misconfigured_missing_client_id:
     "The backend isn't fully configured yet (missing Google client ID). See the README (Apps Script Backend).",
+  missing_api_base_url: "The app isn't connected to its backend yet (VITE_API_BASE_URL is not set).",
+  network_error: "Couldn't reach the server. Check your internet connection and try again.",
+  unknown_action: 'The backend is out of date. Redeploy the Apps Script (see the README).',
+  not_authenticated: 'You need to sign in to do that.',
   server_misconfigured_missing_drive_root:
     "The backend isn't fully configured yet (missing Drive root folder). See the README (Apps Script Backend).",
 }

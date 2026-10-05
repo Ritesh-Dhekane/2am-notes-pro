@@ -19,7 +19,13 @@ export function loadGoogleIdentityScript() {
   return scriptPromise
 }
 
-export async function renderGoogleSignInButton({ clientId, container, onCredential }) {
+export async function renderGoogleSignInButton({
+  clientId,
+  container,
+  onCredential,
+  theme = 'outline',
+  width = 280,
+}) {
   await loadGoogleIdentityScript()
 
   window.google.accounts.id.initialize({
@@ -27,10 +33,13 @@ export async function renderGoogleSignInButton({ clientId, container, onCredenti
     callback: (response) => onCredential(response.credential),
   })
 
+  container.replaceChildren()
   window.google.accounts.id.renderButton(container, {
     type: 'standard',
-    theme: 'outline',
+    theme,
     size: 'large',
-    width: 280,
+    shape: 'pill',
+    text: 'signin_with',
+    width,
   })
 }

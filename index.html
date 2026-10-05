@@ -1,9 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="midnight">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Private, subject-wise MCA study material: notes, PYQs and references." />
+    <meta name="theme-color" content="#0a0f1d" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>2AM Notes Pro</title>
+    <script>
+      // Apply the saved theme before the first paint (see src/lib/prefs.js).
+      try {
+        var p = JSON.parse(localStorage.getItem('notes-pro.prefs') || 'null')
+        var t = p && p.theme
+        if (['midnight', 'oled', 'light', 'sepia'].indexOf(t) !== -1) document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>
