@@ -409,3 +409,14 @@ body {
 .hljs-attr {
   color: color-mix(in oklab, #f472b6 var(--tint-ink-amount), var(--tint-mix));
 }
+
+/* Read aloud: the paragraph being read, and the exact sentence where the browser supports it. */
+.note-prose .reading-now {
+  border-radius: 0.375rem;
+  background: color-mix(in oklab, var(--c-teal) 8%, transparent);
+  box-shadow: -8px 0 0 color-mix(in oklab, var(--c-teal) 8%, transparent), 8px 0 0 color-mix(in oklab, var(--c-teal) 8%, transparent);
+}
+::highlight(narration) {
+  background-color: color-mix(in oklab, var(--c-teal) 32%, transparent);
+  color: var(--c-ink);
+}

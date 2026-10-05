@@ -1,11 +1,12 @@
 // The full reader: a note, PDF or text file with breadcrumb, outline, text size, bookmark,
 // previous/next and saved reading progress.
 
-import { ArrowLeft, ChevronLeft, ChevronRight, Clock, FileQuestion, List, Minus, Plus } from 'lucide-react'
+import { ArrowLeft, ChevronLeft, ChevronRight, Clock, FileQuestion, Headphones, List, Minus, Plus } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { BookmarkButton } from '../components/FileBits.jsx'
 import FileContent from '../components/FileContent.jsx'
+import ListenBar from '../components/ListenBar.jsx'
 import LibraryGate from '../components/LibraryGate.jsx'
 import { EmptyState, ErrorState, Skeleton, Tag } from '../components/ui.jsx'
 import { fileHref, kindLabel } from '../lib/files.js'
@@ -13,6 +14,7 @@ import { outline, readingMinutes } from '../lib/markdown.js'
 import { FONT_SIZES, readingStyleFrom, setPrefs, usePrefs } from '../lib/prefs.js'
 import { recordOpen, recordProgress } from '../lib/store.js'
 import { useFile } from '../lib/useFile.js'
+import { speechSupported, useNarration } from '../lib/narrator.js'
 
 function TextSize() {
   const { fontSize } = usePrefs()
@@ -106,6 +108,7 @@ function ReaderBody({ library }) {
   useReadingProgress(fileId, articleRef, Boolean(data))
 
   const items = useMemo(() => (data?.body ? outline(data.body) : []), [data])
+  const narration = useNarration(articleRef, fileId)
 
   if (!file) {
     return (
@@ -144,6 +147,11 @@ function ReaderBody({ library }) {
           </Link>
           {file.unit ? ` / Unit ${file.unit}` : ''} / <span className="text-ink-2">{file.title}</span>
         </nav>
+        {file.kind === 'note' && data && speechSupported && narration.status === 'idle' && (
+          <button type="button" onClick={narration.play} className="btn-secondary hidden bg-surface sm:inline-flex">
+            <Headphones className="size-4 text-teal-ink" aria-hidden="true" /> Listen
+          </button>
+        )}
         {file.kind === 'note' && <TextSize />}
         <BookmarkButton file={file} />
       </div>
@@ -163,6 +171,11 @@ function ReaderBody({ library }) {
           )}
           {updated && <span>Updated {updated}</span>}
         </p>
+        {file.kind === 'note' && data && speechSupported && narration.status === 'idle' && (
+          <button type="button" onClick={narration.play} className="btn-secondary self-start bg-surface sm:hidden">
+            <Headphones className="size-4 text-teal-ink" aria-hidden="true" /> Listen to this note
+          </button>
+        )}
       </header>
 
       <div className={`grid gap-8 ${items.length > 1 ? 'xl:grid-cols-[220px_minmax(0,1fr)]' : ''}`}>
@@ -208,6 +221,8 @@ function ReaderBody({ library }) {
           {data && <FileContent file={file} data={data} readingStyle={readingStyleFrom(prefs)} measure={prefs.measure} />}
         </article>
       </div>
+
+      <ListenBar narration={narration} title={title} />
 
       {(previous || next) && (
         <nav aria-label="More in this section" className="mt-6 grid grid-cols-2 gap-3 border-t border-line pt-6">
