@@ -4,6 +4,7 @@ import { Bookmark, FileQuestion, Home, LayoutGrid, LogOut, Moon, Search, Sun, Us
 import { createElement, useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
+import { useLibrary } from '../context/libraryContext.js'
 import { useBookmarks } from '../lib/store.js'
 import { isDarkTheme, setPrefs, usePrefs } from '../lib/prefs.js'
 import { Avatar, Logo } from './ui.jsx'
@@ -143,7 +144,9 @@ function MobileTopBar() {
 
 function BottomNav() {
   const bookmarks = useBookmarks()
-  const saved = Object.keys(bookmarks).length
+  const { library } = useLibrary()
+  // Files removed from Drive don't count once the library has loaded.
+  const saved = Object.keys(bookmarks).filter((id) => !library || library.byId.has(id)).length
   return (
     <nav
       aria-label="Main"

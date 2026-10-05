@@ -51,6 +51,14 @@ export function toggleBookmark(file) {
   })
 }
 
+export function removeBookmarks(fileIds) {
+  bookmarks.set((all) => {
+    const next = { ...all }
+    for (const id of fileIds) delete next[id]
+    return next
+  })
+}
+
 // ---------- Reading history: newest first, { fileId, subject, openedAt, progress (0..1) } ----------
 
 const history = createStore('notes-pro.history', [])

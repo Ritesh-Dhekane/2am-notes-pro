@@ -3,28 +3,17 @@
 
 import { ChevronDown, ChevronRight, FileQuestion, Library, NotebookText, Search } from 'lucide-react'
 import { createElement, useState } from 'react'
-import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import FileRow from '../components/FileRow.jsx'
 import LibraryGate from '../components/LibraryGate.jsx'
 import FilePane from '../components/FilePane.jsx'
 import { Card, EmptyState, SubjectIcon, Tag } from '../components/ui.jsx'
-import { CATEGORIES, fileHref, groupByUnit } from '../lib/files.js'
-import { trackEvent } from '../lib/analytics.js'
+import { byExamDesc, CATEGORIES, groupByUnit } from '../lib/files.js'
+import { useFilePane } from '../lib/useFilePane.js'
 import { tintStyle } from '../lib/subjects.js'
 
 const TABS = [{ key: 'all', label: 'All' }, ...CATEGORIES]
 const TAB_ICON = { notes: NotebookText, pyqs: FileQuestion, references: Library }
-
-function isDesktop() {
-  return window.matchMedia('(min-width: 1024px)').matches
-}
-
-// PYQs newest first: by the year in the title, then by name.
-function byYearDesc(a, b) {
-  const ya = Number(a.title.match(/(20\d\d)/)?.[1] || 0)
-  const yb = Number(b.title.match(/(20\d\d)/)?.[1] || 0)
-  return yb - ya || a.title.localeCompare(b.title)
-}
 
 function UnitGroup({ unit, items, open, onToggle, activeId, onOpen }) {
   const id = `unit-${unit ?? 'other'}`
@@ -64,11 +53,10 @@ function UnitGroup({ unit, items, open, onToggle, activeId, onOpen }) {
 
 function SubjectBody({ library }) {
   const { subjectId } = useParams()
-  const navigate = useNavigate()
   const [params, setParams] = useSearchParams()
+  const { active, activeId, open } = useFilePane(library)
   const subject = library.bySlug.get(subjectId)
   const tab = TABS.some((t) => t.key === params.get('tab')) ? params.get('tab') : 'all'
-  const activeId = params.get('file')
   const [filter, setFilter] = useState('')
   const [openUnits, setOpenUnits] = useState(null) // null = default (first unit and any with new files)
 
@@ -90,23 +78,11 @@ function SubjectBody({ library }) {
   const words = filter.toLowerCase().split(/\s+/).filter(Boolean)
   const matches = (f) => words.every((w) => `${f.title} unit ${f.unit ?? ''}`.toLowerCase().includes(w))
   const notes = subject.files.notes.filter(matches)
-  const pyqs = subject.files.pyqs.filter(matches).sort(byYearDesc)
+  const pyqs = subject.files.pyqs.filter(matches).sort(byExamDesc)
   const references = subject.files.references.filter(matches)
   const groups = groupByUnit(notes)
   const defaultOpen = new Set(groups.filter((g, i) => i === 0 || g.items.some((f) => f.isNew)).map((g) => g.unit))
   const isOpen = (unit) => (words.length ? true : (openUnits ?? defaultOpen).has(unit))
-  const active = activeId ? library.byId.get(activeId) : null
-
-  function open(file) {
-    trackEvent('file_open', { subject: subject.slug, category: file.category, fileName: file.name })
-    if (isDesktop()) {
-      const next = new URLSearchParams(params)
-      next.set('file', file.id)
-      setParams(next, { replace: true })
-    } else {
-      navigate(fileHref(file))
-    }
-  }
 
   function setTab(key) {
     const next = new URLSearchParams(params)

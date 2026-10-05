@@ -1,5 +1,5 @@
-// Desktop preview pane on the subject page: the chosen file, readable right there, with a way
-// into the full reader.
+// Desktop preview pane beside file lists (subject, search, PYQs, saved): the chosen file, readable
+// right there, with a way into the full reader.
 
 import { BookOpen, MousePointerClick } from 'lucide-react'
 import { Link } from 'react-router-dom'

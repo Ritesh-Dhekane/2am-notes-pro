@@ -2,8 +2,9 @@ import { formatSize, kindLabel } from '../lib/files.js'
 import { BookmarkButton, FileTypeIcon } from './FileBits.jsx'
 
 // One file in a list. `onOpen` decides what opening means (preview pane on desktop, reader on phones).
-export default function FileRow({ file, active, onOpen, showUnit = false }) {
+export default function FileRow({ file, active, onOpen, showUnit = false, prefix }) {
   const meta = [
+    prefix,
     showUnit && file.unit ? `Unit ${file.unit}` : null,
     kindLabel(file.kind),
     formatSize(file.size),

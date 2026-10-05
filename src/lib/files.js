@@ -79,3 +79,20 @@ export function kindLabel(kind) {
 export function fileHref(file) {
   return `/read/${encodeURIComponent(file.subject)}/${encodeURIComponent(file.id)}`
 }
+
+// Previous-year papers: the exam year and month from the title ("Dec 2025 End Semester").
+const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
+
+export function pyqDate(file) {
+  const year = Number(file.title.match(/\b(20\d\d)\b/)?.[1]) || null
+  const name = file.title.match(new RegExp(`\\b(${MONTHS.join('|')})[a-z]*\\b`, 'i'))?.[1]
+  const month = name ? MONTHS.indexOf(name.toLowerCase()) : null
+  return { year, month }
+}
+
+// Newest exam first, then by title.
+export function byExamDesc(a, b) {
+  const da = pyqDate(a)
+  const db = pyqDate(b)
+  return (db.year ?? 0) - (da.year ?? 0) || (db.month ?? -1) - (da.month ?? -1) || a.title.localeCompare(b.title)
+}
