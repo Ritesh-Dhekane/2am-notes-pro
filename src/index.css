@@ -8,7 +8,8 @@
    The theme is set as data-theme on <html> before first paint (index.html). */
 
 :root,
-[data-theme='midnight'] {
+[data-theme='midnight'],
+[data-theme='oled'] {
   --c-canvas: #0a0f1d;
   --c-surface: #131b2e;
   --c-surface-2: #1a243b;

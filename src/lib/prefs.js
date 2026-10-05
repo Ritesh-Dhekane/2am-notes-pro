@@ -6,10 +6,10 @@ import { useSyncExternalStore } from 'react'
 export const PREFS_KEY = 'notes-pro.prefs'
 
 export const THEMES = [
-  { id: 'midnight', name: 'Deep Midnight', hint: 'Default night theme' },
-  { id: 'oled', name: 'OLED Black', hint: 'True black for AMOLED screens' },
-  { id: 'light', name: 'Paper Light', hint: 'For daytime' },
-  { id: 'sepia', name: 'Sepia', hint: 'Warm paper tone' },
+  { id: 'midnight', name: 'Deep Midnight', hint: 'Default night theme', canvas: '#0a0f1d' },
+  { id: 'oled', name: 'OLED Black', hint: 'True black for AMOLED', canvas: '#000000' },
+  { id: 'light', name: 'Paper Light', hint: 'For daytime', canvas: '#f6f7fb' },
+  { id: 'sepia', name: 'Sepia', hint: 'Warm paper tone', canvas: '#f3ead6' },
 ]
 
 export const READING_FONTS = [
@@ -46,9 +46,10 @@ let current = read()
 const listeners = new Set()
 
 function apply(prefs) {
-  document.documentElement.dataset.theme = THEMES.some((t) => t.id === prefs.theme)
-    ? prefs.theme
-    : DEFAULTS.theme
+  const theme = THEMES.find((t) => t.id === prefs.theme) || THEMES[0]
+  document.documentElement.dataset.theme = theme.id
+  // The browser bar (and the installed app's title bar) matches the page.
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme.canvas)
 }
 
 export function getPrefs() {
@@ -64,6 +65,11 @@ export function setPrefs(patch) {
   }
   apply(current)
   listeners.forEach((listener) => listener())
+}
+
+// Back to the defaults, keeping the theme and the chosen voice.
+export function resetReadingPrefs() {
+  setPrefs((prefs) => ({ ...DEFAULTS, theme: prefs.theme, voiceURI: prefs.voiceURI }))
 }
 
 export function usePrefs() {

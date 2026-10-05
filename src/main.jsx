@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { AuthProvider } from './context/AuthContext.jsx'
 import { LibraryProvider } from './context/LibraryContext.jsx'
 import './lib/prefs.js'
+import './lib/install.js'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
