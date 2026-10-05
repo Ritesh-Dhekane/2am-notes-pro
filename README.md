@@ -84,7 +84,7 @@ Nothing personal is sent: no names, emails or typed search text, and reader addr
 - `search_result_open` (number of results, position)
 
 ## Access log
-Optional: set the Script Property `LOG_SHEET_ID` to a Google Sheet owned by the script's account. It gets a **Logs** tab (created with headers on first use) with one row per sign-in, library load and file opened: time (IST), email, name, event, semester and file path. Run `testLog` in the editor to check it. The public catalog isn't logged.
+Optional: set the Script Property `LOG_SHEET_ID` to a Google Sheet owned by the script's account. It gets a **Logs** tab (created with headers on first use) with one row per sign-in, library load and file opened: time (IST), email, name, event, semester, file path, and the device (browser, OS, device type, phone model where Chrome shares it, screen, installed app or not, language, time zone). Students must tick a consent box under the sign-in button that mentions both Analytics and this log; the choice is remembered on the device. Run `testLog` in the editor to check it. The public catalog isn't logged.
 
 ## Deployment
 Every push to `main` builds the app and publishes `dist/` to the `prod` branch (`.github/workflows/deploy.yml`). GitHub Pages serves it at `https://ritesh-dhekane.github.io/2am-notes-pro/`.

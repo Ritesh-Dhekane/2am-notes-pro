@@ -1,3 +1,4 @@
+import { deviceInfo } from './device.js'
 import { isDemo } from './demoMode.js'
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
@@ -22,7 +23,9 @@ export async function callApi(action, params = {}, { public: isPublic = false } 
   try {
     response = await fetch(API_BASE_URL, {
       method: 'POST',
-      body: JSON.stringify({ action, ...params }),
+      // Signed-in calls carry a short device description for the access log (students agree to this
+      // when signing in).
+      body: JSON.stringify({ action, ...params, ...(params.idToken ? { client: deviceInfo() } : {}) }),
     })
   } catch {
     throw new Error('network_error')

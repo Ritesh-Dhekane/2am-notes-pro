@@ -45,17 +45,17 @@ function doPost(e) {
       case 'verify':
         return jsonResponse({ authenticated: true, user: user })
       case 'login':
-        logEvent(user, 'login', {})
+        logEvent(user, 'login', {}, body.client)
         return jsonResponse({ authenticated: true, user: user })
       case 'logout':
-        logEvent(user, 'logout', {})
+        logEvent(user, 'logout', {}, body.client)
         return jsonResponse({ authenticated: true, user: user })
       case 'listLibrary':
-        logEvent(user, 'view_library', { semester: body.semester })
+        logEvent(user, 'view_library', { semester: body.semester }, body.client)
         return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester) })
       case 'getFile':
         var file = getFile(body.fileId)
-        logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] })
+        logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
         return jsonResponse({ authenticated: true, user: user, file: file })
       default:
         return jsonResponse({ authenticated: true, user: user, error: 'unknown_action' })
