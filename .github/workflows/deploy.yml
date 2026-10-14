@@ -1,19 +1,31 @@
 name: Deploy to GitHub Pages (prod)
 
+# Releases go through a pull request from main to prod. prod only accepts merged pull requests (branch
+# protection), so a push to prod is a merged release; the site is built and published from it. The
+# workflow can also be started by hand from the Actions tab. Pushes to main don't deploy.
 on:
   push:
-    branches: [main]
+    branches: [prod]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; a newer release waits for the running one instead of cancelling it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout prod
         uses: actions/checkout@v4
+        with:
+          ref: prod
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -24,6 +36,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Repo secrets are optional: without them the build still succeeds, with Google Sign-In, the API
+      # and analytics not configured (see the brain docs AUTH_SETUP / APPS_SCRIPT_SETUP / ANALYTICS).
       - name: Build
         run: npm run build
         env:
@@ -31,13 +45,18 @@ jobs:
           VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
           VITE_GA_MEASUREMENT_ID: ${{ secrets.VITE_GA_MEASUREMENT_ID }}
 
-      # Publishes dist/ to the prod branch, which GitHub Pages serves from.
-      # Repo secrets above are optional — if unset, the build still succeeds,
-      # it just deploys with Google Sign-In/API/analytics not configured
-      # (see AUTH_SETUP.md / APPS_SCRIPT_SETUP.md / ANALYTICS.md).
-      - name: Deploy to prod branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: prod
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

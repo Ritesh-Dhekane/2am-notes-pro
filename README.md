@@ -54,6 +54,10 @@ Opening the web app URL in a browser returns a JSON health check.
 
 **After changing the backend code**, run `clasp push`. Then go to **Deploy → Manage deployments**, edit the web app and pick **New version**. This keeps the same URL.
 
+## Releasing the website
+
+Work happens on `main`; pushing there does not deploy. To release, open a pull request from `main` to `prod` and merge it: `.github/workflows/deploy.yml` builds `prod` and publishes it to GitHub Pages. `prod` accepts changes only through pull requests. The workflow can also be run by hand from the Actions tab.
+
 ## Drive Layout
 ```
 <top folder>/                    # its ID is DRIVE_ROOT_FOLDER_ID
