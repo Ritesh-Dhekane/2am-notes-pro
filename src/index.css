@@ -1,0 +1,478 @@
+@import "tailwindcss";
+@import "@fontsource-variable/plus-jakarta-sans";
+@import "@fontsource-variable/literata";
+@import "@fontsource-variable/jetbrains-mono";
+
+/* "Nocturne Academic" design system (brain: docs/2am-notes-pro/design/nocturne_academic/DESIGN.md).
+   Four themes share the same tokens: Deep Midnight (default), OLED black, Paper Light and Sepia.
+   The theme is set as data-theme on <html> before first paint (index.html). */
+
+:root,
+[data-theme='midnight'],
+[data-theme='oled'] {
+  --c-canvas: #0a0f1d;
+  --c-surface: #131b2e;
+  --c-surface-2: #1a243b;
+  --c-code: #0d1424;
+  --c-line: #23304e;
+  --c-line-strong: #34446b;
+  --c-ink: #f1f5f9;
+  --c-ink-2: #a3b0c2;
+  --c-ink-3: #8593a8;
+  --c-primary: #5b5ff0; /* buttons (white text) */
+  --c-on-primary: #ffffff;
+  --c-primary-ink: #b4b6ff; /* accent text and icons */
+  --c-primary-soft: rgba(99, 102, 241, 0.16);
+  --c-teal: #14b8a6;
+  --c-teal-ink: #4fdbc8;
+  --c-danger: #ff8a80;
+  --c-scrim: rgba(10, 15, 29, 0.85);
+  --tint-mix: white;
+  --tint-ink-amount: 78%;
+  color-scheme: dark;
+}
+
+[data-theme='oled'] {
+  --c-canvas: #000000;
+  --c-surface: #0b0d14;
+  --c-surface-2: #141824;
+  --c-code: #06080e;
+  --c-line: #1f2638;
+  --c-line-strong: #2f3a55;
+  --c-scrim: rgba(0, 0, 0, 0.85);
+}
+
+[data-theme='light'] {
+  --c-canvas: #f6f7fb;
+  --c-surface: #ffffff;
+  --c-surface-2: #eef0f7;
+  --c-code: #f2f4fa;
+  --c-line: #dfe3ee;
+  --c-line-strong: #c3c9da;
+  --c-ink: #0f172a;
+  --c-ink-2: #475569;
+  --c-ink-3: #5b6577;
+  --c-primary: #4f46e5;
+  --c-on-primary: #ffffff;
+  --c-primary-ink: #4338ca;
+  --c-primary-soft: rgba(79, 70, 229, 0.1);
+  --c-teal: #0d9488;
+  --c-teal-ink: #0f766e;
+  --c-danger: #b42318;
+  --c-scrim: rgba(15, 23, 42, 0.45);
+  --tint-mix: black;
+  --tint-ink-amount: 62%;
+  color-scheme: light;
+}
+
+[data-theme='sepia'] {
+  --c-canvas: #f3ead6;
+  --c-surface: #faf4e5;
+  --c-surface-2: #eee3c8;
+  --c-code: #efe5cc;
+  --c-line: #dfd0ad;
+  --c-line-strong: #c9b68b;
+  --c-ink: #33281a;
+  --c-ink-2: #5f4f3a;
+  --c-ink-3: #6e5d45;
+  --c-primary: #8a4b12;
+  --c-on-primary: #ffffff;
+  --c-primary-ink: #7a400c;
+  --c-primary-soft: rgba(138, 75, 18, 0.12);
+  --c-teal: #0d7a6f;
+  --c-teal-ink: #0b665d;
+  --c-danger: #a3260f;
+  --c-scrim: rgba(51, 40, 26, 0.45);
+  --tint-mix: black;
+  --tint-ink-amount: 60%;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-canvas: var(--c-canvas);
+  --color-surface: var(--c-surface);
+  --color-surface-2: var(--c-surface-2);
+  --color-code: var(--c-code);
+  --color-line: var(--c-line);
+  --color-line-strong: var(--c-line-strong);
+  --color-ink: var(--c-ink);
+  --color-ink-2: var(--c-ink-2);
+  --color-ink-3: var(--c-ink-3);
+  --color-primary: var(--c-primary);
+  --color-on-primary: var(--c-on-primary);
+  --color-primary-ink: var(--c-primary-ink);
+  --color-primary-soft: var(--c-primary-soft);
+  --color-teal: var(--c-teal);
+  --color-teal-ink: var(--c-teal-ink);
+  --color-danger: var(--c-danger);
+  --color-scrim: var(--c-scrim);
+}
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Literata Variable', Georgia, serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+
+  --text-display: 30px;
+  --text-display--line-height: 38px;
+  --text-display--font-weight: 700;
+  --text-title: 22px;
+  --text-title--line-height: 28px;
+  --text-title--font-weight: 600;
+  --text-heading: 18px;
+  --text-heading--line-height: 24px;
+  --text-heading--font-weight: 600;
+  --text-body: 15px;
+  --text-body--line-height: 22px;
+  --text-label: 13px;
+  --text-label--line-height: 16px;
+  --text-caption: 11px;
+  --text-caption--line-height: 14px;
+
+  --shadow-float: 0 8px 24px -4px rgba(0, 0, 0, 0.45), 0 4px 8px -2px rgba(10, 15, 29, 0.6);
+}
+
+/* Subject colour: set --tint on an element; text and fills derive from it per theme. */
+.tint {
+  --tint-ink: color-mix(in oklab, var(--tint) var(--tint-ink-amount), var(--tint-mix));
+}
+.tint-text {
+  color: var(--tint-ink);
+}
+.tint-soft {
+  background: color-mix(in oklab, var(--tint) 13%, transparent);
+}
+.tint-border {
+  border-color: color-mix(in oklab, var(--tint) 32%, transparent);
+}
+
+html {
+  background: var(--c-canvas);
+}
+
+body {
+  margin: 0;
+  background: var(--c-canvas);
+  color: var(--c-ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 22px;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--c-primary-ink);
+  outline-offset: 2px;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Buttons: primary (filled) and secondary (outlined), both at least 44px tall. */
+@layer components {
+  .btn-primary {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    background: var(--c-primary);
+    padding: 0 1.25rem;
+    font-weight: 600;
+    color: var(--c-on-primary);
+    transition: box-shadow 150ms, transform 150ms;
+  }
+  .btn-primary:hover:not(:disabled) {
+    box-shadow: 0 0 16px rgba(99, 102, 241, 0.35);
+  }
+  .btn-primary:disabled {
+    cursor: not-allowed;
+    background: var(--c-surface-2);
+    color: var(--c-ink-2);
+  }
+  .btn-primary:active {
+    transform: scale(0.98);
+  }
+  .btn-secondary {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--c-line);
+    background: transparent;
+    padding: 0 1rem;
+    font-weight: 500;
+    color: var(--c-ink);
+    transition: background-color 150ms;
+  }
+  .btn-secondary:hover {
+    background: var(--c-surface-2);
+  }
+  .icon-btn {
+    display: inline-grid;
+    width: 44px;
+    height: 44px;
+    place-items: center;
+    border-radius: 0.75rem;
+    color: var(--c-ink-2);
+    transition: background-color 150ms, color 150ms;
+  }
+  .icon-btn:hover {
+    background: var(--c-surface-2);
+    color: var(--c-ink);
+  }
+}
+
+/* ---------- Reading: notes rendered from Markdown ---------- */
+.note-prose {
+  --reading-font: var(--font-serif);
+  --reading-size: 17px;
+  --reading-leading: 1.75;
+  font-family: var(--reading-font);
+  font-size: var(--reading-size);
+  line-height: var(--reading-leading);
+  color: var(--c-ink);
+}
+.note-prose.measure > * {
+  max-width: 68ch;
+}
+.note-prose > * + * {
+  margin-top: 1.1em;
+}
+.note-prose h2,
+.note-prose h3 {
+  font-family: var(--font-sans);
+  scroll-margin-top: 96px;
+  color: var(--c-ink);
+}
+.note-prose h2 {
+  margin-top: 2.2em;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.note-prose h3 {
+  margin-top: 1.8em;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.note-prose > :first-child {
+  margin-top: 0;
+}
+.note-prose strong {
+  font-weight: 650;
+}
+.note-prose a {
+  color: var(--c-primary-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.note-prose ul,
+.note-prose ol {
+  padding-left: 1.4em;
+}
+.note-prose ul {
+  list-style: disc;
+}
+.note-prose ol {
+  list-style: decimal;
+}
+.note-prose li + li {
+  margin-top: 0.35em;
+}
+.note-prose li::marker {
+  color: var(--c-ink-3);
+}
+.note-prose img {
+  border-radius: 0.75rem;
+  border: 1px solid var(--c-line);
+  max-width: 100%;
+}
+.note-prose hr {
+  border-color: var(--c-line);
+}
+/* Mermaid diagrams: scaled to the column, scrollable sideways if a diagram is wide. */
+.note-prose .diagram {
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--c-line);
+  border-radius: 0.75rem;
+  background: var(--c-surface-2);
+  overflow-x: auto;
+}
+.note-prose .diagram-svg svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.note-prose .diagram-loading,
+.note-prose .image-loading {
+  display: block;
+  min-height: 6rem;
+  border-radius: 0.75rem;
+  background: var(--c-surface-2);
+  color: var(--c-ink-3);
+  font-size: 0.875rem;
+  padding: 1rem;
+}
+.note-prose .image-missing {
+  color: var(--c-ink-3);
+  font-style: italic;
+}
+.note-prose blockquote {
+  border-left: 3px solid var(--c-line-strong);
+  padding-left: 1em;
+  color: var(--c-ink-2);
+}
+.inline-code {
+  border: 1px solid var(--c-line);
+  border-radius: 0.375rem;
+  background: var(--c-code);
+  padding: 0.05em 0.35em;
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+  color: var(--c-teal-ink);
+}
+.callout {
+  border-radius: 1rem;
+  border: 1px solid var(--callout, var(--c-line));
+  background: color-mix(in oklab, var(--callout) 10%, transparent);
+  padding: 1rem 1.15rem;
+}
+.callout > * + * {
+  margin-top: 0.5em;
+}
+.callout-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: color-mix(in oklab, var(--callout) var(--tint-ink-amount), var(--tint-mix));
+}
+.callout-tip {
+  --callout: #a855f7;
+}
+.callout-important {
+  --callout: #f59e0b;
+}
+.callout-definition {
+  --callout: #14b8a6;
+}
+.callout-note {
+  --callout: #6366f1;
+}
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--c-line);
+  border-radius: 0.75rem;
+  max-width: 100% !important;
+}
+.table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-wrap th {
+  background: var(--c-surface-2);
+  text-align: left;
+  font-weight: 600;
+  color: var(--c-ink);
+}
+.table-wrap th,
+.table-wrap td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--c-line);
+  vertical-align: top;
+}
+.table-wrap tr:last-child td {
+  border-bottom: 0;
+}
+.note-prose .code-block {
+  max-width: 100% !important;
+}
+
+/* Syntax colours (highlight.js classes), readable in every theme. */
+.hljs-keyword,
+.hljs-built_in,
+.hljs-type {
+  color: color-mix(in oklab, #a78bfa var(--tint-ink-amount), var(--tint-mix));
+}
+.hljs-string,
+.hljs-regexp {
+  color: color-mix(in oklab, #34d399 var(--tint-ink-amount), var(--tint-mix));
+}
+.hljs-number,
+.hljs-literal {
+  color: color-mix(in oklab, #fbbf24 var(--tint-ink-amount), var(--tint-mix));
+}
+.hljs-comment {
+  color: var(--c-ink-3);
+  font-style: italic;
+}
+.hljs-title,
+.hljs-title\.class_,
+.hljs-title\.function_ {
+  color: color-mix(in oklab, #60a5fa var(--tint-ink-amount), var(--tint-mix));
+}
+.hljs-meta,
+.hljs-attr {
+  color: color-mix(in oklab, #f472b6 var(--tint-ink-amount), var(--tint-mix));
+}
+
+/* Read aloud: the paragraph being read, and the exact sentence where the browser supports it. */
+.note-prose .reading-now {
+  border-radius: 0.375rem;
+  background: color-mix(in oklab, var(--c-teal) 8%, transparent);
+  box-shadow: -8px 0 0 color-mix(in oklab, var(--c-teal) 8%, transparent), 8px 0 0 color-mix(in oklab, var(--c-teal) 8%, transparent);
+}
+::highlight(narration) {
+  background-color: color-mix(in oklab, var(--c-teal) 32%, transparent);
+  color: var(--c-ink);
+}
+
+/* Document viewer: Word pages on the viewer's own background instead of docx-preview's grey. */
+.doc-view .docx-wrapper {
+  background: transparent;
+  padding: 16px 8px;
+}
+.doc-view .docx-wrapper > section.docx {
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 0.25);
+}
+/* Slides: pptx-preview boxes the list in a fixed-height black scroller; let the slides stack in the
+   viewer's own scroll area instead. */
+.slides-view .pptx-preview-wrapper {
+  height: auto !important;
+  overflow: visible !important;
+  background: transparent !important;
+}
+.slides-view .pptx-preview-slide-wrapper {
+  margin-bottom: 16px !important;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 0.25);
+}
