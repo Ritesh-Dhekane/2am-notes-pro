@@ -58,6 +58,8 @@ Opening the web app URL in a browser returns a JSON health check.
 
 Work happens on `main`; pushing there does not deploy. To release, open a pull request from `main` to `prod` and merge it: `.github/workflows/deploy.yml` builds `prod` and publishes it to GitHub Pages. `prod` accepts changes only through pull requests. The workflow can also be run by hand from the Actions tab.
 
+Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps Script syntax check); a PR into `prod` can be merged only when it passes. Plain pushes to `main` run nothing.
+
 ## Drive Layout
 ```
 <top folder>/                    # its ID is DRIVE_ROOT_FOLDER_ID
