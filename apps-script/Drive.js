@@ -1,13 +1,13 @@
 // Reads the semester folders in the private Drive root and serves file content out of them.
 //
 // Layout (DRIVE_ROOT_FOLDER_ID is the top folder):
-//   <root>/<semester>/subjects/<subject-slug>/{notes,pyqs,references}/<files>
+//   <root>/<semester>/subjects/<subject-slug>/{notes,pyqs,assignments,references}/<files>
 //   <root>/<semester>/subjects/<subject-slug>/syllabus.pdf   (optional, at the subject root)
 // A semester is any folder under the root that has a `subjects` folder; its name (e.g. MCA-Sem-III)
 // is the semester id the app uses. A subject folder's name is its slug. Files are never exposed via
 // Drive links; content is always proxied through this script after the caller is verified.
 
-var ALLOWED_CATEGORIES = ['notes', 'pyqs', 'references']
+var ALLOWED_CATEGORIES = ['notes', 'pyqs', 'assignments', 'references']
 var SYLLABUS_NAME = /^syllabus\.[a-z0-9]+$/i
 
 // Listing touches Drive a hundred-plus times (each call is slow in Apps Script), so listings are

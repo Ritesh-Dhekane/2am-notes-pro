@@ -9,6 +9,7 @@ const NEW_FOR_MS = 7 * 24 * 60 * 60 * 1000
 export const CATEGORIES = [
   { key: 'notes', label: 'Notes', single: 'Note' },
   { key: 'pyqs', label: 'PYQs', single: 'PYQ' },
+  { key: 'assignments', label: 'Assignments', single: 'Assignment' },
   { key: 'references', label: 'References', single: 'Reference' },
 ]
 

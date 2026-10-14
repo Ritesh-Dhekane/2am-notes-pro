@@ -56,6 +56,7 @@ function SubjectTile({ slug, entry, onSignIn }) {
     ? [
         counts.notes && plural(counts.notes, 'note'),
         counts.pyqs && plural(counts.pyqs, 'PYQ'),
+        counts.assignments && plural(counts.assignments, 'assignment'),
         counts.references && plural(counts.references, 'reference'),
         entry.hasSyllabus && 'syllabus',
       ]

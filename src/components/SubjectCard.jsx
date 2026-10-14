@@ -14,7 +14,7 @@ function Count({ value, label, accent }) {
 
 export default function SubjectCard({ subject }) {
   const { look, files } = subject
-  const newCount = [...files.notes, ...files.pyqs, ...files.references].filter((f) => f.isNew).length
+  const newCount = [...files.notes, ...files.pyqs, ...files.assignments, ...files.references].filter((f) => f.isNew).length
   return (
     <Link
       to={`/subject/${subject.slug}`}

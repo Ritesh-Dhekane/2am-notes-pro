@@ -1,7 +1,7 @@
 // One subject: notes by unit, PYQs and references. On desktop the chosen file opens in a pane on
 // the right; on phones it opens in the full reader.
 
-import { ChevronDown, ChevronRight, FileQuestion, Library, NotebookText, ScrollText, Search } from 'lucide-react'
+import { ChevronDown, ChevronRight, ClipboardList, FileQuestion, Library, NotebookText, ScrollText, Search } from 'lucide-react'
 import { createElement, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import FileRow from '../components/FileRow.jsx'
@@ -14,7 +14,7 @@ import { subjectGroupLabel } from '../lib/catalog.js'
 import { tintStyle } from '../lib/subjects.js'
 
 const TABS = [{ key: 'all', label: 'All' }, ...CATEGORIES]
-const TAB_ICON = { notes: NotebookText, pyqs: FileQuestion, references: Library }
+const TAB_ICON = { notes: NotebookText, pyqs: FileQuestion, assignments: ClipboardList, references: Library }
 
 function UnitGroup({ unit, items, open, onToggle, activeId, onOpen }) {
   const id = `unit-${unit ?? 'other'}`
@@ -80,6 +80,7 @@ function SubjectBody({ library }) {
   const matches = (f) => words.every((w) => `${f.title} unit ${f.unit ?? ''}`.toLowerCase().includes(w))
   const notes = subject.files.notes.filter(matches)
   const pyqs = subject.files.pyqs.filter(matches).sort(byExamDesc)
+  const assignments = subject.files.assignments.filter(matches)
   const references = subject.files.references.filter(matches)
   const groups = groupByUnit(notes)
   const defaultOpen = new Set(groups.filter((g, i) => i === 0 || g.items.some((f) => f.isNew)).map((g) => g.unit))
@@ -94,10 +95,16 @@ function SubjectBody({ library }) {
 
   const showNotes = tab === 'all' || tab === 'notes'
   const showPyqs = tab === 'all' || tab === 'pyqs'
+  const showAssignments = tab === 'all' || tab === 'assignments'
   const showRefs = tab === 'all' || tab === 'references'
-  const nothing = (showNotes ? notes.length : 0) + (showPyqs ? pyqs.length : 0) + (showRefs ? references.length : 0) === 0
+  const nothing =
+    (showNotes ? notes.length : 0) +
+      (showPyqs ? pyqs.length : 0) +
+      (showAssignments ? assignments.length : 0) +
+      (showRefs ? references.length : 0) ===
+    0
 
-  const counts = { all: subject.files.notes.length + subject.files.pyqs.length + subject.files.references.length }
+  const counts = { all: CATEGORIES.reduce((n, c) => n + subject.files[c.key].length, 0) }
   for (const c of CATEGORIES) counts[c.key] = subject.files[c.key].length
 
   return (
@@ -132,11 +139,12 @@ function SubjectBody({ library }) {
               )}
             </div>
           </div>
-          <dl className="grid grid-cols-4 gap-2 lg:flex lg:gap-6">
+          <dl className="grid grid-cols-[repeat(auto-fit,minmax(4.5rem,1fr))] gap-2 lg:flex lg:gap-6">
             {[
               ['Units', subject.unitCount],
               ['Notes', counts.notes],
               ['PYQs', counts.pyqs],
+              ...(counts.assignments ? [['Assignments', counts.assignments]] : []),
               ['Refs', counts.references],
             ].map(([label, value]) => (
               <div key={label} className="rounded-xl bg-surface-2 px-3 py-2 lg:bg-transparent lg:p-0">
@@ -222,6 +230,19 @@ function SubjectBody({ library }) {
               </h2>
               <Card as="ul" className="flex flex-col gap-1 p-2">
                 {pyqs.map((file) => (
+                  <FileRow key={file.id} file={file} showUnit active={file.id === activeId} onOpen={open} />
+                ))}
+              </Card>
+            </section>
+          )}
+
+          {showAssignments && assignments.length > 0 && (
+            <section aria-labelledby="assignments-h">
+              <h2 id="assignments-h" className="mb-2 px-1 text-heading">
+                Assignments
+              </h2>
+              <Card as="ul" className="flex flex-col gap-1 p-2">
+                {assignments.map((file) => (
                   <FileRow key={file.id} file={file} showUnit active={file.id === activeId} onOpen={open} />
                 ))}
               </Card>
