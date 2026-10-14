@@ -109,7 +109,9 @@ function DownloadOnly({ data }) {
 
 export default function FileContent({ file, data, readingStyle, measure, compact }) {
   if (file.kind === 'note' && data.encoding === 'utf8') {
-    return <MarkdownArticle markdown={data.body ?? data.content} style={readingStyle} measure={measure} />
+    return (
+      <MarkdownArticle markdown={data.body ?? data.content} noteId={file.id} style={readingStyle} measure={measure} />
+    )
   }
   if (file.kind === 'pdf' && data.encoding === 'base64') return <PdfView data={data} title={file.title} compact={compact} />
   if (VIEWER_KINDS.has(file.kind) && data.encoding === 'base64') return <ViewerCard file={file} data={data} compact={compact} />

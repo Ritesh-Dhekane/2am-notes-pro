@@ -309,6 +309,35 @@ body {
 .note-prose hr {
   border-color: var(--c-line);
 }
+/* Mermaid diagrams: scaled to the column, scrollable sideways if a diagram is wide. */
+.note-prose .diagram {
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--c-line);
+  border-radius: 0.75rem;
+  background: var(--c-surface-2);
+  overflow-x: auto;
+}
+.note-prose .diagram-svg svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.note-prose .diagram-loading,
+.note-prose .image-loading {
+  display: block;
+  min-height: 6rem;
+  border-radius: 0.75rem;
+  background: var(--c-surface-2);
+  color: var(--c-ink-3);
+  font-size: 0.875rem;
+  padding: 1rem;
+}
+.note-prose .image-missing {
+  color: var(--c-ink-3);
+  font-style: italic;
+}
 .note-prose blockquote {
   border-left: 3px solid var(--c-line-strong);
   padding-left: 1em;

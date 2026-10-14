@@ -61,6 +61,17 @@ export function loadFile(idToken, fileId) {
   return contentCache.get(fileId)
 }
 
+// Images a note refers to by a relative path, cached like file contents.
+export function loadAsset(idToken, noteId, path) {
+  const key = `asset:${noteId}:${path}`
+  if (!contentCache.has(key)) {
+    const request = callApi('getAsset', { idToken, fileId: noteId, path }).then((data) => data.asset)
+    request.catch(() => contentCache.delete(key))
+    contentCache.set(key, request)
+  }
+  return contentCache.get(key)
+}
+
 export function clearFileCache() {
   contentCache.clear()
 }

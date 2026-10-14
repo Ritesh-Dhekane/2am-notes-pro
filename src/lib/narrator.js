@@ -60,7 +60,7 @@ function sentencesOf(text) {
 function segmentsIn(root) {
   const segments = []
   for (const el of root.querySelectorAll(BLOCKS)) {
-    if (el.closest('.code-block, .table-wrap')) continue
+    if (el.closest('.code-block, .table-wrap, .diagram')) continue
     if (el.querySelector(BLOCKS)) continue // e.g. a list item holding paragraphs: read the paragraphs
     let from = 0
     const full = el.textContent

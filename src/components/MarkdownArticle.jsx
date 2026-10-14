@@ -6,6 +6,8 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { createSlugger, nodeText, rehypeCallouts } from '../lib/markdown.js'
 import CodeBlock from './CodeBlock.jsx'
+import MermaidDiagram from './MermaidDiagram.jsx'
+import NoteImage from './NoteImage.jsx'
 
 const CALLOUT_LOOK = {
   tip: { icon: Lightbulb, className: 'callout-tip' },
@@ -14,7 +16,7 @@ const CALLOUT_LOOK = {
   note: { icon: Info, className: 'callout-note' },
 }
 
-function renderNote(markdown) {
+function renderNote(markdown, noteId) {
   // A fresh slugger per note, so ids match the outline (both count duplicates in order).
   const slug = createSlugger()
   const withId =
@@ -51,6 +53,7 @@ function renderNote(markdown) {
         code({ className, children }) {
           const text = String(children ?? '')
           const language = className?.match(/language-([\w+-]+)/)?.[1]
+          if (language === 'mermaid') return <MermaidDiagram code={text.replace(/\n$/, '')} />
           // Fenced blocks have a language or span lines; everything else is inline code.
           if (language || text.includes('\n')) return <CodeBlock code={text.replace(/\n$/, '')} language={language} />
           return <code className="inline-code">{children}</code>
@@ -65,7 +68,7 @@ function renderNote(markdown) {
             {children}
           </a>
         ),
-        img: ({ src, alt }) => <img src={src} alt={alt || ''} loading="lazy" />,
+        img: ({ src, alt }) => <NoteImage src={src} alt={alt} noteId={noteId} />,
       }}
     >
       {markdown}
@@ -73,10 +76,10 @@ function renderNote(markdown) {
   )
 }
 
-export default function MarkdownArticle({ markdown, style, measure = true }) {
+export default function MarkdownArticle({ markdown, noteId, style, measure = true }) {
   // Rendered once per note: the component map is rebuilt with each render, which would otherwise
   // remount headings, callouts and code panels whenever the page re-renders (e.g. while reading aloud).
-  const article = useMemo(() => renderNote(markdown), [markdown])
+  const article = useMemo(() => renderNote(markdown, noteId), [markdown, noteId])
   return (
     <div className={`note-prose ${measure ? 'measure' : ''}`} style={style}>
       {article}

@@ -102,6 +102,44 @@ function getFile(fileId) {
   }
 }
 
+// An image a note refers to with a relative path: `x.png` next to the note, or `images/x.png` in an
+// `images` folder beside it (kept out of file lists). Only plain image names are accepted.
+var ASSET_PATH = /^(images\/)?[\w.\- ]{1,120}\.(png|jpe?g|gif|webp|svg)$/i
+
+function getAsset(noteId, assetPath) {
+  if (!noteId || !assetPath) throw new Error('missing_asset')
+  assetPath = String(assetPath).replace(/^\.\//, '')
+  if (!ASSET_PATH.test(assetPath) || assetPath.indexOf('..') !== -1) throw new Error('file_not_accessible')
+  var note
+  try {
+    note = DriveApp.getFileById(noteId)
+  } catch (err) {
+    throw new Error('file_not_accessible')
+  }
+  assertFileUnderRoot(note)
+  var parents = note.getParents()
+  if (!parents.hasNext()) throw new Error('file_not_accessible')
+  var folder = parents.next()
+  var parts = assetPath.split('/')
+  if (parts.length === 2) folder = findChildFolder(folder, parts[0])
+  var name = parts[parts.length - 1]
+  if (folder) {
+    var files = folder.getFiles()
+    while (files.hasNext()) {
+      var file = files.next()
+      if (file.getName() !== name) continue
+      assertFileUnderRoot(file)
+      return {
+        name: name,
+        mimeType: file.getMimeType(),
+        encoding: 'base64',
+        content: Utilities.base64Encode(file.getBlob().getBytes()),
+      }
+    }
+  }
+  throw new Error('file_not_found')
+}
+
 // ---------- Folder helpers ----------
 
 function listSemesterFolders() {

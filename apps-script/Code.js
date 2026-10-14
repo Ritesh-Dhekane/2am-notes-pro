@@ -63,6 +63,8 @@ function doPost(e) {
         var file = getFile(body.fileId)
         logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
         return jsonResponse({ authenticated: true, user: user, file: file })
+      case 'getAsset':
+        return jsonResponse({ authenticated: true, user: user, asset: getAsset(body.fileId, body.path) })
       default:
         return jsonResponse({ authenticated: true, user: user, error: 'unknown_action' })
     }
