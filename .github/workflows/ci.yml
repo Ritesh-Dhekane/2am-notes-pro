@@ -1,0 +1,41 @@
+name: Checks
+
+# Runs on pull requests (releases are PRs from main into prod): lint, production build and a syntax check
+# of the Apps Script backend. prod's branch protection requires this to pass before a PR can be merged.
+# Plain pushes to main run nothing; deploying is deploy.yml's job after the merge.
+on:
+  pull_request:
+    branches: [prod, main]
+
+permissions:
+  contents: read
+
+# A newer push to the same PR cancels the run that is still checking older code.
+concurrency:
+  group: ci-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
+      - name: Apps Script syntax check
+        run: for f in apps-script/*.js; do node --check "$f"; done
