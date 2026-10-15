@@ -61,7 +61,7 @@ export const SEMESTERS = [
     number: 3,
     label: 'Semester III',
     short: 'Sem III',
-    core: ['design-and-analysis-of-algorithms', 'organizational-behaviour', 'practicals', 'research-project'],
+    core: ['design-and-analysis-of-algorithms', 'organizational-behaviour', 'practicals', 'research-project', 'software-testing'],
     groups: [
       {
         id: 'elective-iv',
@@ -102,6 +102,7 @@ const SUBJECTS = {
   'organizational-behaviour': { name: 'Organizational Behaviour', short: 'OB', code: 'OBE601MJ', icon: Users, tint: '#EC4899', about: 'Individual and group behaviour, motivation, leadership and culture.' },
   practicals: { name: 'Practicals (Electives IV & V)', short: 'Practicals', code: 'PBE603MJP', icon: TestTubes, tint: '#14B8A6', about: 'Practical work for your Elective IV and V subjects.' },
   'research-project': { name: 'Research Project', short: 'Research', code: 'RP641RP', icon: Microscope, tint: '#A855F7', about: 'Literature review, methodology and the final presentation.' },
+  'software-testing': { name: 'Software Testing', short: 'ST', code: 'NPTEL', icon: TestTubes, tint: '#14B8A6', about: 'NPTEL course: graph, logic and input-space coverage, mutation, web and symbolic testing.' },
   'cloud-apis-and-services': { name: "Cloud API's & Services", short: 'Cloud APIs', code: 'CAS610MJ', icon: Webhook, tint: '#0EA5E9', about: 'Cloud service models and working with cloud APIs.' },
   'end-point-security': { name: 'End-Point Security', short: 'EPS', code: 'EPS613MJ', icon: ShieldHalf, tint: '#EF4444', about: 'Protecting devices: threats, controls and monitoring.' },
   'mobile-application-development': { name: 'Mobile Application Development', short: 'MAD', code: 'MAD611MJ', icon: Smartphone, tint: '#22C55E', about: 'Building mobile apps: UI, data and publishing.' },
