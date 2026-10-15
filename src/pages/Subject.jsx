@@ -139,24 +139,24 @@ function SubjectBody({ library }) {
               )}
             </div>
           </div>
-          <dl className="grid grid-cols-[repeat(auto-fit,minmax(4.5rem,1fr))] gap-2 lg:flex lg:gap-6">
+          <dl className="flex gap-1.5 lg:gap-6">
             {[
               ['Units', subject.unitCount],
               ['Notes', counts.notes],
               ['PYQs', counts.pyqs],
-              ...(counts.assignments ? [['Assignments', counts.assignments]] : []),
+              ...(counts.assignments ? [['Assign.', counts.assignments]] : []),
               ['Refs', counts.references],
             ].map(([label, value]) => (
-              <div key={label} className="rounded-xl bg-surface-2 px-3 py-2 lg:bg-transparent lg:p-0">
+              <div key={label} className="min-w-0 flex-1 rounded-xl bg-surface-2 px-2 py-2 text-center lg:flex-none lg:bg-transparent lg:p-0 lg:text-left">
                 <dt className="text-caption text-ink-3">{label}</dt>
-                <dd className="font-mono text-heading text-ink">{value}</dd>
+                <dd className="font-mono text-body font-semibold text-ink lg:text-heading lg:font-normal">{value}</dd>
               </div>
             ))}
           </dl>
         </div>
       </Card>
 
-      <div role="tablist" aria-label="Sections" className="-mx-5 flex gap-2 overflow-x-auto px-5 scrollbar-none lg:mx-0 lg:px-0">
+      <div role="tablist" aria-label="Sections" className="-mx-5 flex gap-2 overflow-x-auto px-5 scrollbar-none [mask-image:linear-gradient(to_right,black_88%,transparent)] lg:mx-0 lg:px-0 lg:[mask-image:none]">
         {TABS.map((t) => (
           <button
             key={t.key}

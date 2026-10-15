@@ -200,8 +200,8 @@ export default function Dashboard() {
   const lateNight = now.getHours() < 5
 
   return (
-    <div className="flex flex-col gap-6">
-      <Card className="relative overflow-hidden p-5 lg:p-6">
+    <div className="flex flex-col gap-5 lg:gap-6">
+      <Card className="relative overflow-hidden p-4 lg:p-6">
         <div
           className="pointer-events-none absolute -top-24 -right-16 size-72 rounded-full bg-primary-soft blur-3xl"
           aria-hidden="true"
@@ -211,7 +211,7 @@ export default function Dashboard() {
           {timeLabel(now)}
           {lateNight ? ' · Quiet hours' : ''}
         </p>
-        <h1 className="relative mt-2 text-[28px] leading-9 font-bold tracking-tight lg:text-display">
+        <h1 className="relative mt-1.5 text-[24px] leading-8 font-bold tracking-tight lg:mt-2 lg:text-display">
           {greeting(now.getHours())}, {user.firstName || 'there'}
         </h1>
         <p className="relative mt-1 text-body text-ink-2">

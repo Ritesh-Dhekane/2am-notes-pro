@@ -319,8 +319,8 @@ body {
   overflow-x: auto;
 }
 .note-prose .diagram-svg svg {
+  /* Drawn at its natural size (set by MermaidDiagram); wide diagrams scroll instead of shrinking. */
   display: block;
-  max-width: 100%;
   height: auto;
   margin: 0 auto;
 }
@@ -413,6 +413,32 @@ body {
 .table-wrap tr:last-child td {
   border-bottom: 0;
 }
+/* Phones: columns keep a readable width and the table scrolls inside its box, with the first column
+   pinned and a soft shadow on the right edge while there is more to see. */
+@media (max-width: 639px) {
+  .table-wrap {
+    background:
+      linear-gradient(to left, var(--c-canvas) 30%, transparent) right / 28px 100% no-repeat local,
+      linear-gradient(to left, rgb(0 0 0 / 0.28), transparent) right / 14px 100% no-repeat scroll;
+  }
+  .table-wrap th,
+  .table-wrap td {
+    min-width: 9rem;
+  }
+  .table-wrap th:first-child,
+  .table-wrap td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    min-width: 7.5rem;
+    max-width: 9rem;
+    background: var(--c-surface-2);
+    box-shadow: 1px 0 0 var(--c-line);
+  }
+  .table-wrap td:first-child {
+    background: var(--c-canvas);
+  }
+}
 .note-prose .code-block {
   max-width: 100% !important;
 }
@@ -475,4 +501,20 @@ body {
 .slides-view .pptx-preview-slide-wrapper {
   margin-bottom: 16px !important;
   box-shadow: 0 2px 12px rgb(0 0 0 / 0.25);
+}
+
+/* iPhone Safari zooms into inputs with text under 16px (and the page stays zoomed): never go below 16px on
+   touch screens. */
+@media (pointer: coarse) {
+  input,
+  select,
+  textarea {
+    font-size: max(16px, 1em) !important;
+  }
+}
+/* Phones: the smallest labels are a little bigger. */
+@media (max-width: 1023px) {
+  :root {
+    --text-caption: 12px;
+  }
 }
