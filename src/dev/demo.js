@@ -6,6 +6,7 @@ import sampleDocx from './fixtures/sample.docx?url'
 import sampleJpg from './fixtures/sample.jpg?url'
 import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
+import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -334,6 +335,7 @@ function samplePdf(title) {
 async function contentFor(f) {
   if (FIXTURES[f.name]) return { encoding: 'base64', content: await fixtureBase64(FIXTURES[f.name]) }
   if (f.name === 'unit-02-exception-handling-in-java.md') return { encoding: 'utf8', content: EXCEPTION_NOTE }
+  if (f.name === 'unit-01-asymptotic-notation.md') return { encoding: 'utf8', content: DIAGRAM_NOTE }
   const base = f.name.replace(/\.[a-z]+$/, '')
   const unit = Number(base.match(/^unit-(\d+)/)?.[1] || 1)
   const title = base
