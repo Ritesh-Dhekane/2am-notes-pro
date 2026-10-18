@@ -380,7 +380,7 @@ export async function handleDemo(action, params) {
             counts: { notes: s.files.notes.length, pyqs: s.files.pyqs.length, references: s.files.references.length },
             hasSyllabus: Boolean(s.syllabus),
             unit1: s.files.notes.filter((f) => /^unit[-_ ]*0*1(?!\d)/i.test(f.name)),
-            sample: s.files.pyqs.length ? { paper: 'Apr 2025', question: `A sample ${s.name} question from a past paper.` } : null,
+            sample: s.files.pyqs.length ? { paper: 'Apr 2025', question: `A sample ${s.name} question from a past paper.`, kind: 'exam' } : null,
           })),
         })),
       }

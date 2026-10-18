@@ -57,13 +57,27 @@ function unitOneNotes(subjectFolder) {
   })
 }
 
-// The first question of the subject's first Markdown PYQ, without its solution.
+var MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
+
+// A real exam paper's date from names like "dec-2025-solutions.md" (as year * 12 + month), else -1.
+function examDate(name) {
+  var m = name.match(/^([a-z]{3})[a-z]*[\s_-]+(\d{4})/i)
+  var month = m ? MONTHS.indexOf(m[1].toLowerCase()) : -1
+  return month === -1 ? -1 : Number(m[2]) * 12 + month
+}
+
+// The first question of the subject's newest real exam paper, without its solution. Without one, a
+// question from the practice files (expected questions, MCQ banks), marked as practice.
 function samplePyq(subjectFolder) {
   var pyqs = findChildFolder(subjectFolder, 'pyqs')
   if (!pyqs) return null
-  var papers = filesIn(pyqs).filter(function (file) {
-    return /\.md$/i.test(file.name)
-  })
+  var papers = filesIn(pyqs)
+    .filter(function (file) {
+      return /\.md$/i.test(file.name)
+    })
+    .sort(function (a, b) {
+      return examDate(b.name) - examDate(a.name) || a.name.localeCompare(b.name)
+    })
   for (var i = 0; i < papers.length; i++) {
     var text = DriveApp.getFileById(papers[i].id).getBlob().getDataAsString('UTF-8')
     var lines = text.split(/\r?\n/)
@@ -76,7 +90,11 @@ function samplePyq(subjectFolder) {
         .replace(/`/g, '')
         .trim()
       if (question.length < 15) continue
-      return { paper: slugToTitle(papers[i].name.replace(/\.md$/i, '').replace(/-?solutions?$/i, '')), question: question }
+      return {
+        paper: slugToTitle(papers[i].name.replace(/\.md$/i, '').replace(/-?solutions?$/i, '')),
+        question: question,
+        kind: examDate(papers[i].name) === -1 ? 'practice' : 'exam',
+      }
     }
   }
   return null

@@ -132,7 +132,7 @@ export default function Preview() {
         {entry?.sample && (
           <section aria-labelledby="sample" className="mt-10 rounded-2xl border border-line bg-surface p-5">
             <h2 id="sample" className="flex items-center gap-2 text-heading">
-              <FileQuestion className="size-5 text-primary-ink" aria-hidden="true" /> From a past paper · {entry.sample.paper}
+              <FileQuestion className="size-5 text-primary-ink" aria-hidden="true" /> {entry.sample.kind === 'practice' ? 'Practice question' : 'From a past paper'} · {entry.sample.paper}
             </h2>
             <p className="mt-2 text-body">{entry.sample.question}</p>
             <p className="mt-3 text-label text-ink-2">
