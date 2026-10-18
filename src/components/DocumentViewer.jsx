@@ -3,7 +3,7 @@
 // (the files are private, so online viewers that need a public link are out). Each format's
 // library is loaded only when such a file is opened.
 
-import { AlertTriangle, Download, Maximize2, Minimize2, X } from 'lucide-react'
+import { AlertTriangle, Maximize2, Minimize2, X } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { trackEvent } from '../lib/analytics.js'
 import { base64ToBytes, blobUrl } from '../lib/blobs.js'
@@ -25,14 +25,11 @@ function Loading({ label }) {
   )
 }
 
-function Failed({ downloadUrl, name }) {
+function Failed() {
   return (
     <div role="alert" className="m-auto flex max-w-sm flex-col items-center gap-3 p-8 text-center">
       <AlertTriangle className="size-7 text-danger" aria-hidden="true" />
       <p className="text-body text-ink">This file couldn't be shown here. It may use features the viewer doesn't support.</p>
-      <a href={downloadUrl} download={name} className="btn-primary">
-        <Download className="size-4" aria-hidden="true" /> Download instead
-      </a>
     </div>
   )
 }
@@ -91,7 +88,7 @@ function ImageView({ url, name }) {
   )
 }
 
-function WordView({ bytes, downloadUrl, name }) {
+function WordView({ bytes }) {
   const render = useCallback(
     async (host) => {
       const { renderAsync } = await import('docx-preview')
@@ -116,13 +113,13 @@ function WordView({ bytes, downloadUrl, name }) {
   return (
     <div className="doc-view w-full self-start">
       {state === 'loading' && <Loading label="Opening document" />}
-      {state === 'error' && <Failed downloadUrl={downloadUrl} name={name} />}
+      {state === 'error' && <Failed />}
       <div ref={ref} className={state === 'error' ? 'hidden' : ''} />
     </div>
   )
 }
 
-function SlidesView({ bytes, downloadUrl, name }) {
+function SlidesView({ bytes }) {
   const render = useCallback(
     async (host) => {
       const { init } = await import('pptx-preview')
@@ -137,13 +134,13 @@ function SlidesView({ bytes, downloadUrl, name }) {
   return (
     <div className="slides-view w-full self-start py-3">
       {state === 'loading' && <Loading label="Opening slides" />}
-      {state === 'error' && <Failed downloadUrl={downloadUrl} name={name} />}
+      {state === 'error' && <Failed />}
       <div ref={ref} className={state === 'error' ? 'hidden' : 'flex justify-center'} />
     </div>
   )
 }
 
-function SheetView({ bytes, downloadUrl, name }) {
+function SheetView({ bytes }) {
   const [book, setBook] = useState({ status: 'loading' })
   const [active, setActive] = useState(0)
 
@@ -169,9 +166,9 @@ function SheetView({ bytes, downloadUrl, name }) {
   }, [bytes])
 
   if (book.status === 'loading') return <Loading label="Opening spreadsheet" />
-  if (book.status === 'error') return <Failed downloadUrl={downloadUrl} name={name} />
+  if (book.status === 'error') return <Failed />
   const sheet = book.sheets[active] || book.sheets[0]
-  if (!sheet) return <Failed downloadUrl={downloadUrl} name={name} />
+  if (!sheet) return <Failed />
   const rows = sheet.rows.slice(0, MAX_ROWS)
 
   return (
@@ -228,7 +225,7 @@ function SheetView({ bytes, downloadUrl, name }) {
           </table>
         )}
         {(sheet.rows.length > MAX_ROWS || sheet.cols >= MAX_COLS) && (
-          <p className="p-3 text-label text-ink-2">Showing the first {MAX_ROWS} rows and {MAX_COLS} columns. Download the file for the rest.</p>
+          <p className="p-3 text-label text-ink-2">Showing the first {MAX_ROWS} rows and {MAX_COLS} columns.</p>
         )}
       </div>
     </div>
@@ -238,7 +235,6 @@ function SheetView({ bytes, downloadUrl, name }) {
 export default function DocumentViewer({ file, data, onClose }) {
   const dialogRef = useRef(null)
   const bytes = useMemo(() => base64ToBytes(data.content), [data.content])
-  const downloadUrl = blobUrl(data.content, data.mimeType || 'application/octet-stream')
   const title = file.title || data.name
 
   useEffect(() => {
@@ -256,7 +252,7 @@ export default function DocumentViewer({ file, data, onClose }) {
     }
   }, [file.kind, file.subject])
 
-  const props = { bytes, downloadUrl, name: data.name }
+  const props = { bytes }
   return (
     <dialog
       ref={dialogRef}
@@ -278,9 +274,6 @@ export default function DocumentViewer({ file, data, onClose }) {
               {[kindLabel(file.kind), formatSize(file.size)].filter(Boolean).join(' · ')}
             </p>
           </div>
-          <a href={downloadUrl} download={data.name} className="icon-btn" aria-label={`Download ${title}`} title="Download">
-            <Download className="size-5" aria-hidden="true" />
-          </a>
           <button type="button" className="icon-btn" onClick={() => dialogRef.current.close()} aria-label="Close viewer" autoFocus>
             <X className="size-5" aria-hidden="true" />
           </button>
