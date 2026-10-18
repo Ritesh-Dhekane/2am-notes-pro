@@ -82,7 +82,7 @@ export default function SignInCard({ onSignedIn }) {
       {demo ? (
         <button
           type="button"
-          className="btn-primary w-full"
+          className={`btn-primary w-full ${agreed ? 'sign-in-glow' : ''}`}
           disabled={!agreed}
           onClick={() => {
             login(demoToken())
@@ -94,7 +94,7 @@ export default function SignInCard({ onSignedIn }) {
       ) : CLIENT_ID && agreed ? (
         // color-scheme: light keeps Google's button iframe transparent; under the dark themes the browser
         // otherwise paints it an opaque white box around the rounded button.
-        <div ref={buttonRef} className="flex min-h-11 w-full justify-center" style={{ colorScheme: 'light' }} />
+        <div ref={buttonRef} className="sign-in-glow flex min-h-10 w-full justify-center rounded-full" style={{ colorScheme: 'light' }} />
       ) : CLIENT_ID ? (
         <button
           type="button"

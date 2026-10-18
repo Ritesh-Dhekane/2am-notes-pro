@@ -543,3 +543,23 @@ html.protect img {
     font: 16px sans-serif;
   }
 }
+
+/* Sign-in buttons: a soft, slow glow that draws the eye; a still glow when motion is reduced. */
+.sign-in-glow {
+  animation: sign-in-glow 2.8s ease-in-out infinite;
+}
+@keyframes sign-in-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-primary) 0%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 18px 2px color-mix(in srgb, var(--color-primary) 45%, transparent);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sign-in-glow {
+    animation: none;
+    box-shadow: 0 0 12px 1px color-mix(in srgb, var(--color-primary) 30%, transparent);
+  }
+}

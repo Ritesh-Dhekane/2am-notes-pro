@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import FileContent from '../components/FileContent.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
-import { ErrorState, Logo, Skeleton } from '../components/ui.jsx'
+import { ErrorState, Logo, MadeBy, Skeleton } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { trackEvent } from '../lib/analytics.js'
 import { friendlyError } from '../lib/errorMessages.js'
@@ -141,6 +141,7 @@ export default function Preview() {
             </p>
           </section>
         )}
+        <MadeBy className="mt-10 text-center" />
       </main>
 
       <div className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-canvas/95 px-5 py-3 backdrop-blur">
@@ -149,7 +150,7 @@ export default function Preview() {
             <span className="font-semibold text-ink">You're reading Unit 1 free.</span> Sign in (free) for every unit,
             PYQ solutions and more.
           </p>
-          <button type="button" className="btn-primary shrink-0" onClick={signIn}>
+          <button type="button" className="btn-primary sign-in-glow shrink-0" onClick={signIn}>
             Sign in free
           </button>
         </div>
