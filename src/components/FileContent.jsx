@@ -1,13 +1,13 @@
 // Shows a loaded file the right way for its type: note (Markdown), PDF, plain text, a card that
-// opens the document viewer (images, Word, spreadsheets, slides), or a download.
+// opens the document viewer (images, Word, spreadsheets, slides). Nothing offers a download.
 
-import { Download, ExternalLink, Eye, FileWarning } from 'lucide-react'
+import { ExternalLink, Eye, FileWarning } from 'lucide-react'
 import { lazy, Suspense, useMemo, useState } from 'react'
 import { blobUrl } from '../lib/blobs.js'
 import { formatSize, kindLabel, VIEWER_KINDS } from '../lib/files.js'
 import { FileTypeIcon } from './FileBits.jsx'
 import MarkdownArticle from './MarkdownArticle.jsx'
-import { Card, EmptyState } from './ui.jsx'
+import { AiNotice, Card, EmptyState } from './ui.jsx'
 
 const DocumentViewer = lazy(() => import('./DocumentViewer.jsx'))
 
@@ -20,18 +20,13 @@ function PdfView({ data, title, compact }) {
   if (!url) return null
   return (
     <div className="flex flex-col gap-3">
-      <div className="flex flex-wrap gap-2">
-        <a href={url} target="_blank" rel="noopener noreferrer" className="btn-primary">
-          <ExternalLink className="size-4" aria-hidden="true" /> Open PDF
-        </a>
-        <a href={url} download={data.name} className="btn-secondary">
-          <Download className="size-4" aria-hidden="true" /> Download
-        </a>
-      </div>
-      {/* Phone browsers mostly can't show PDFs inline, so the viewer is for larger screens. */}
+      {/* Phone browsers mostly can't show PDFs inline, so phones open it in their PDF viewer. */}
+      <a href={url} target="_blank" rel="noopener noreferrer" className="btn-primary self-start md:hidden">
+        <ExternalLink className="size-4" aria-hidden="true" /> Open PDF
+      </a>
       <iframe
         title={title}
-        src={url}
+        src={`${url}#toolbar=0&navpanes=0`}
         className={`hidden w-full rounded-xl border border-line bg-white md:block ${compact ? 'h-[60vh]' : 'h-[78vh]'}`}
       />
       <p className="text-label text-ink-2 md:hidden">Tap “Open PDF” to read it in your phone's PDF viewer.</p>
@@ -76,9 +71,6 @@ function ViewerCard({ file, data, compact }) {
         <button type="button" className="btn-primary" onClick={() => setOpen(true)}>
           <Eye className="size-4" aria-hidden="true" /> {isImage ? 'View full screen' : 'View document'}
         </button>
-        <a href={url} download={data.name} className="btn-secondary">
-          <Download className="size-4" aria-hidden="true" /> Download
-        </a>
       </div>
       {open && (
         <Suspense fallback={null}>
@@ -89,20 +81,12 @@ function ViewerCard({ file, data, compact }) {
   )
 }
 
-function DownloadOnly({ data }) {
-  const url = useBlobUrl(data.encoding === 'base64' ? data.content : null, data.mimeType)
+function NoPreview({ data }) {
   return (
     <EmptyState
       icon={FileWarning}
       title="This file type can't be previewed"
-      text={`It's a ${data.mimeType || 'file'}. You can download it instead.`}
-      action={
-        url && (
-          <a href={url} download={data.name} className="btn-primary">
-            <Download className="size-4" aria-hidden="true" /> Download
-          </a>
-        )
-      }
+      text={`It's a ${data.mimeType || 'file'}, which the app can't show yet.`}
     />
   )
 }
@@ -110,7 +94,10 @@ function DownloadOnly({ data }) {
 export default function FileContent({ file, data, readingStyle, measure, compact }) {
   if (file.kind === 'note' && data.encoding === 'utf8') {
     return (
-      <MarkdownArticle markdown={data.body ?? data.content} noteId={file.id} style={readingStyle} measure={measure} />
+      <>
+        <AiNotice />
+        <MarkdownArticle markdown={data.body ?? data.content} noteId={file.id} style={readingStyle} measure={measure} />
+      </>
     )
   }
   if (file.kind === 'pdf' && data.encoding === 'base64') return <PdfView data={data} title={file.title} compact={compact} />
@@ -122,5 +109,5 @@ export default function FileContent({ file, data, readingStyle, measure, compact
       </pre>
     )
   }
-  return <DownloadOnly data={data} />
+  return <NoPreview data={data} />
 }

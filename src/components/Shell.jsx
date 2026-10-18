@@ -204,6 +204,9 @@ export default function Shell() {
       </header>
       <main id="main" ref={mainRef} tabIndex={-1} className="mx-auto max-w-6xl px-5 pt-5 pb-28 outline-none lg:px-8 lg:pt-8 lg:pb-16">
         <Outlet />
+        <p className="mt-12 border-t border-line pt-4 text-caption text-ink-3">
+          Notes and PYQ solutions are AI-generated. Please verify them with your textbook or sources before exams.
+        </p>
       </main>
       <BottomNav />
     </div>

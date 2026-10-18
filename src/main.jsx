@@ -6,7 +6,11 @@ import { AuthProvider } from './context/AuthContext.jsx'
 import { LibraryProvider } from './context/LibraryContext.jsx'
 import './lib/prefs.js'
 import './lib/install.js'
+import { protectContent } from './lib/protect.js'
+import { SlowToast } from './components/ui.jsx'
 import './index.css'
+
+protectContent()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,6 +18,7 @@ createRoot(document.getElementById('root')).render(
       <AuthProvider>
         <LibraryProvider>
           <App />
+          <SlowToast />
         </LibraryProvider>
       </AuthProvider>
     </BrowserRouter>
