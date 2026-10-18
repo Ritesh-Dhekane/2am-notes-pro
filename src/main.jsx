@@ -8,6 +8,7 @@ import './lib/prefs.js'
 import './lib/install.js'
 import { protectContent } from './lib/protect.js'
 import { SlowToast } from './components/ui.jsx'
+import InstallPrompt from './components/InstallPrompt.jsx'
 import './index.css'
 
 protectContent()
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <LibraryProvider>
           <App />
           <SlowToast />
+          <InstallPrompt />
         </LibraryProvider>
       </AuthProvider>
     </BrowserRouter>
