@@ -7,7 +7,7 @@ import { createElement, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import SignInCard from '../components/SignInCard.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
-import { Logo, SubjectIcon } from '../components/ui.jsx'
+import { Logo, MadeBy, SubjectIcon } from '../components/ui.jsx'
 import { SEMESTERS } from '../lib/catalog.js'
 import { loadCatalog } from '../lib/library.js'
 import { subjectLook } from '../lib/subjects.js'
@@ -254,6 +254,7 @@ export default function Welcome({ onSignedIn }) {
 
       <footer className="border-t border-line py-6 text-center text-caption text-ink-3">
         MCA · Savitribai Phule Pune University · Made for late-night learners
+        <MadeBy className="mt-1.5" />
       </footer>
     </div>
   )

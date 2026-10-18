@@ -7,7 +7,7 @@ import { useAuth } from '../context/useAuth.js'
 import { useLibrary } from '../context/libraryContext.js'
 import { useBookmarks } from '../lib/store.js'
 import { isDarkTheme, setPrefs, usePrefs } from '../lib/prefs.js'
-import { Avatar, Logo } from './ui.jsx'
+import { Avatar, Logo, MadeBy } from './ui.jsx'
 
 const SIDEBAR = [
   { to: '/', label: 'Dashboard', icon: Home, end: true },
@@ -207,6 +207,7 @@ export default function Shell() {
         <p className="mt-12 border-t border-line pt-4 text-caption text-ink-3">
           Notes and PYQ solutions are AI-generated. Please verify them with your textbook or sources before exams.
         </p>
+        <MadeBy className="mt-1.5" />
       </main>
       <BottomNav />
     </div>

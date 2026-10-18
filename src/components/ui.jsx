@@ -125,6 +125,18 @@ export function SlowToast() {
   )
 }
 
+// Credit line for footers.
+export function MadeBy({ className = '' }) {
+  return (
+    <p className={`text-caption text-ink-3 ${className}`}>
+      Made with <span aria-label="love">♥</span> by{' '}
+      <a href="https://ritesh-dhekane.github.io/" target="_blank" rel="noopener" className="font-semibold text-ink-2 underline-offset-2 hover:text-ink hover:underline">
+        Ritesh Dhekane
+      </a>
+    </p>
+  )
+}
+
 // AI notice above every note and solution.
 export function AiNotice() {
   return (
