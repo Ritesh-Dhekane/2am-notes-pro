@@ -2,18 +2,26 @@
 //
 // Backend contract (Apps Script, see apps-script/):
 // - `catalog` (no sign-in): { semesters: [{ id, subjects: [{ slug, name, counts: { notes, pyqs,
-//   references }, hasSyllabus }] }] } — what's on offer, without file names or ids.
+//   references }, hasSyllabus, unit1: [file], sample: { paper, question } | null }] }] } — what's on
+//   offer; only Unit 1 notes are named.
+// - `previewFile` / `previewAsset` (no sign-in): like getFile / getAsset, for Unit 1 notes only.
 // - `listLibrary` ({ idToken, semester }): { subjects: [{ slug, name, files: { notes, pyqs,
 //   references }, syllabus }] }, where syllabus is a file or null.
 
 import { callApi } from './api.js'
+import { clearSaved, getSaved, save } from './offline.js'
 import { isSubjectVisible, semesterById } from './catalog.js'
 import { CATEGORIES, describeFile } from './files.js'
 import { subjectLook } from './subjects.js'
 
-export async function loadCatalog() {
-  const data = await callApi('catalog', {}, { public: true })
-  return data.semesters
+// Fetched once per visit (the welcome page and the preview reader share it).
+let catalogRequest = null
+export function loadCatalog() {
+  if (!catalogRequest) {
+    catalogRequest = callApi('catalog', {}, { public: true }).then((data) => data.semesters)
+    catalogRequest.catch(() => (catalogRequest = null))
+  }
+  return catalogRequest
 }
 
 export async function loadRawLibrary(idToken, semesterId) {
@@ -49,23 +57,63 @@ export function buildLibrary(rawSubjects, { semester: semesterId, electives } = 
   return { semester, subjects, allFiles, byId, bySlug }
 }
 
-// File contents, cached for the session (opening a file twice doesn't fetch it twice).
+// File contents, cached for the session (opening a file twice doesn't fetch it twice). Text files
+// (notes, solutions) are also kept in the browser between visits (lib/offline.js), keyed by `updated`.
 const contentCache = new Map()
+const isText = (name = '') => /\.(md|markdown|txt)$/i.test(name)
 
-export function loadFile(idToken, fileId) {
+// prefetch: fetched ahead of time, so the backend doesn't log it as opened.
+export function loadFile(idToken, fileId, { updated, name, prefetch = false } = {}) {
   if (!contentCache.has(fileId)) {
-    const request = callApi('getFile', { idToken, fileId }).then((data) => data.file)
+    const request = (async () => {
+      const saved = isText(name) ? await getSaved(fileId, updated) : null
+      if (saved) return saved
+      const data = await callApi('getFile', { idToken, fileId, ...(prefetch ? { prefetch: true } : {}) })
+      if (data.file.encoding === 'utf8') save(fileId, updated, data.file)
+      return data.file
+    })()
     request.catch(() => contentCache.delete(fileId))
     contentCache.set(fileId, request)
   }
   return contentCache.get(fileId)
 }
 
-// Images a note refers to by a relative path, cached like file contents.
+// Opening a subject saves all of its notes and solutions in the background, two at a time.
+const prefetched = new Set()
+export async function prefetchSubject(idToken, subject) {
+  if (!subject || prefetched.has(subject.slug)) return
+  prefetched.add(subject.slug)
+  const queue = [...subject.files.notes, ...subject.files.pyqs].filter((f) => isText(f.name))
+  const worker = async () => {
+    while (queue.length) {
+      const f = queue.shift()
+      await loadFile(idToken, f.id, { updated: f.updated, name: f.name, prefetch: true }).catch(() => {})
+    }
+  }
+  await Promise.all([worker(), worker()])
+}
+
+// A Unit 1 note, signed out.
+export function loadPreviewFile(fileId) {
+  const key = `preview:${fileId}`
+  if (!contentCache.has(key)) {
+    const request = callApi('previewFile', { fileId }, { public: true }).then((data) => data.file)
+    request.catch(() => contentCache.delete(key))
+    contentCache.set(key, request)
+  }
+  return contentCache.get(key)
+}
+
+// Images a note refers to by a relative path, cached like file contents. Signed out (no idToken),
+// only Unit 1 notes' images load.
 export function loadAsset(idToken, noteId, path) {
   const key = `asset:${noteId}:${path}`
   if (!contentCache.has(key)) {
-    const request = callApi('getAsset', { idToken, fileId: noteId, path }).then((data) => data.asset)
+    const request = (
+      idToken
+        ? callApi('getAsset', { idToken, fileId: noteId, path })
+        : callApi('previewAsset', { fileId: noteId, path }, { public: true })
+    ).then((data) => data.asset)
     request.catch(() => contentCache.delete(key))
     contentCache.set(key, request)
   }
@@ -74,4 +122,6 @@ export function loadAsset(idToken, noteId, path) {
 
 export function clearFileCache() {
   contentCache.clear()
+  prefetched.clear()
+  clearSaved()
 }

@@ -13,7 +13,7 @@ import { fileHref, kindLabel } from '../lib/files.js'
 import { outline, readingMinutes } from '../lib/markdown.js'
 import { FONT_SIZES, readingStyleFrom, setPrefs, usePrefs } from '../lib/prefs.js'
 import { recordOpen, recordProgress } from '../lib/store.js'
-import { useFile } from '../lib/useFile.js'
+import { useFile, usePrefetchSubject } from '../lib/useFile.js'
 import { speechSupported, useNarration } from '../lib/narrator.js'
 
 function TextSize() {
@@ -99,6 +99,7 @@ function ReaderBody({ library }) {
   const subject = file ? library.bySlug.get(file.subject) : null
   const prefs = usePrefs()
   const { data, error, loading, retry } = useFile(file)
+  usePrefetchSubject(subject)
   const articleRef = useRef(null)
   const [outlineOpen, setOutlineOpen] = useState(false)
 

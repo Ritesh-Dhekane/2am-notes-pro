@@ -518,3 +518,28 @@ body {
     --text-caption: 12px;
   }
 }
+
+/* Production: no selecting, long-press menus or printing of notes (see lib/protect.js). */
+html.protect body {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+html.protect :is(input, textarea, [contenteditable="true"]) {
+  -webkit-user-select: text;
+  user-select: text;
+}
+html.protect img {
+  -webkit-user-drag: none;
+}
+@media print {
+  html.protect body > * {
+    display: none !important;
+  }
+  html.protect body::after {
+    content: "Printing is disabled for 2AM Notes Pro.";
+    display: block;
+    padding: 2rem;
+    font: 16px sans-serif;
+  }
+}

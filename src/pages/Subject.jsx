@@ -10,6 +10,7 @@ import FilePane from '../components/FilePane.jsx'
 import { Card, EmptyState, SubjectIcon, Tag } from '../components/ui.jsx'
 import { byExamDesc, CATEGORIES, groupByUnit } from '../lib/files.js'
 import { useFilePane } from '../lib/useFilePane.js'
+import { usePrefetchSubject } from '../lib/useFile.js'
 import { subjectGroupLabel } from '../lib/catalog.js'
 import { tintStyle } from '../lib/subjects.js'
 
@@ -57,6 +58,7 @@ function SubjectBody({ library }) {
   const [params, setParams] = useSearchParams()
   const { active, activeId, open } = useFilePane(library)
   const subject = library.bySlug.get(subjectId)
+  usePrefetchSubject(subject)
   const tab = TABS.some((t) => t.key === params.get('tab')) ? params.get('tab') : 'all'
   const [filter, setFilter] = useState('')
   const [openUnits, setOpenUnits] = useState(null) // null = default (first unit and any with new files)

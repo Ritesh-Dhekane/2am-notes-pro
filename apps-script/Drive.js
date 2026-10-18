@@ -36,10 +36,50 @@ function buildCatalog() {
           name: slugToTitle(folder.getName()),
           counts: counts,
           hasSyllabus: Boolean(findSyllabus(folder)),
+          unit1: unitOneNotes(folder),
+          sample: samplePyq(folder),
         }
       }),
     }
   })
+}
+
+// ---------- Open preview: Unit 1 notes and a sample PYQ question, signed out ----------
+
+// Where a Unit 1 note sits (see assertFileUnderRoot): "<semester>/<subject>/notes/unit-01-….md".
+var PREVIEW_PATH = /^[^\/]+\/[^\/]+\/notes\/unit[\s_-]*0*1(?!\d)/i
+
+function unitOneNotes(subjectFolder) {
+  var notes = findChildFolder(subjectFolder, 'notes')
+  if (!notes) return []
+  return filesIn(notes).filter(function (file) {
+    return /^unit[\s_-]*0*1(?!\d)/i.test(file.name)
+  })
+}
+
+// The first question of the subject's first Markdown PYQ, without its solution.
+function samplePyq(subjectFolder) {
+  var pyqs = findChildFolder(subjectFolder, 'pyqs')
+  if (!pyqs) return null
+  var papers = filesIn(pyqs).filter(function (file) {
+    return /\.md$/i.test(file.name)
+  })
+  for (var i = 0; i < papers.length; i++) {
+    var text = DriveApp.getFileById(papers[i].id).getBlob().getDataAsString('UTF-8')
+    var lines = text.split(/\r?\n/)
+    for (var j = 0; j < lines.length; j++) {
+      var match = lines[j].match(/^#{2,3}\s+(.+)$/)
+      if (!match || /^(question\s*\d+|q\d+|answer|solution|instructions?)\s*$/i.test(match[1].trim())) continue
+      var question = match[1]
+        .replace(/^(q\d+\s*)?(\([a-z]\)|\d+)[.)]?\s*/i, '')
+        .replace(/\s*\[\d+\]\s*$/, '')
+        .replace(/`/g, '')
+        .trim()
+      if (question.length < 15) continue
+      return { paper: slugToTitle(papers[i].name.replace(/\.md$/i, '').replace(/-?solutions?$/i, '')), question: question }
+    }
+  }
+  return null
 }
 
 // ---------- One semester's library (signed-in only) ----------
@@ -68,7 +108,8 @@ function buildLibrary(semester) {
   })
 }
 
-function getFile(fileId) {
+// previewOnly: signed-out callers may only open Unit 1 notes.
+function getFile(fileId, previewOnly) {
   if (!fileId) throw new Error('missing_file_id')
   var file
   try {
@@ -77,6 +118,7 @@ function getFile(fileId) {
     throw new Error('file_not_accessible')
   }
   var where = assertFileUnderRoot(file)
+  if (previewOnly && !PREVIEW_PATH.test(where)) throw new Error('sign_in_required')
 
   var mimeType = file.getMimeType()
   var isText = mimeType === MimeType.PLAIN_TEXT || /markdown/.test(mimeType) || /\.(md|markdown|txt)$/i.test(file.getName())
@@ -106,7 +148,7 @@ function getFile(fileId) {
 // `images` folder beside it (kept out of file lists). Only plain image names are accepted.
 var ASSET_PATH = /^(images\/)?[\w.\- ]{1,120}\.(png|jpe?g|gif|webp|svg)$/i
 
-function getAsset(noteId, assetPath) {
+function getAsset(noteId, assetPath, previewOnly) {
   if (!noteId || !assetPath) throw new Error('missing_asset')
   assetPath = String(assetPath).replace(/^\.\//, '')
   if (!ASSET_PATH.test(assetPath) || assetPath.indexOf('..') !== -1) throw new Error('file_not_accessible')
@@ -116,7 +158,8 @@ function getAsset(noteId, assetPath) {
   } catch (err) {
     throw new Error('file_not_accessible')
   }
-  assertFileUnderRoot(note)
+  var notePath = assertFileUnderRoot(note)
+  if (previewOnly && !PREVIEW_PATH.test(notePath)) throw new Error('sign_in_required')
   var parents = note.getParents()
   if (!parents.hasNext()) throw new Error('file_not_accessible')
   var folder = parents.next()

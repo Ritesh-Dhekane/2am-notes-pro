@@ -16,7 +16,7 @@ export default function NoteImage({ src, alt, noteId }) {
   const key = `${noteId}:${src}`
 
   useEffect(() => {
-    if (!relative || !noteId || !idToken) return
+    if (!relative || !noteId) return
     let cancelled = false
     loadAsset(idToken, noteId, src)
       .then((asset) => !cancelled && setState({ key, url: blobUrl(asset.content, asset.mimeType), failed: false }))

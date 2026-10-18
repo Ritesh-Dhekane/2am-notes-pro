@@ -1,6 +1,7 @@
 // Entry point for the 2am-notes-pro backend web app.
-// doGet is a health check. doPost is the API router: `catalog` is public (counts only, no file
-// names or ids); every other action requires a verified Google ID token (Auth.js).
+// doGet is a health check. doPost is the API router. Public: `catalog` (counts, plus each subject's
+// Unit 1 notes and one sample PYQ question) and `previewFile` / `previewAsset` (Unit 1 notes only).
+// Everything else needs a session or a Google ID token, sent as `idToken` (Auth.js).
 
 function doGet(e) {
   return jsonResponse({
@@ -26,13 +27,25 @@ function doPost(e) {
     }
   }
 
+  if (body.action === 'previewFile' || body.action === 'previewAsset') {
+    try {
+      return jsonResponse(
+        body.action === 'previewFile'
+          ? { authenticated: false, file: getFile(body.fileId, true) }
+          : { authenticated: false, asset: getAsset(body.fileId, body.path, true) }
+      )
+    } catch (err) {
+      return jsonResponse({ authenticated: false, error: err.message })
+    }
+  }
+
   if (!body.idToken) {
     return jsonResponse({ authenticated: false, error: 'missing_id_token' })
   }
 
   var claims
   try {
-    claims = verifyIdToken(body.idToken)
+    claims = authenticate(body.idToken)
   } catch (err) {
     return jsonResponse({ authenticated: false, error: err.message })
   }
@@ -46,7 +59,7 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user })
       case 'login':
         logEvent(user, 'login', {}, body.client)
-        return jsonResponse({ authenticated: true, user: user })
+        return jsonResponse({ authenticated: true, user: user, session: issueSession(claims) })
       case 'getStudy':
         return jsonResponse({ authenticated: true, user: user, study: getStudy(user.email) })
       case 'saveStudy':
@@ -61,7 +74,7 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester) })
       case 'getFile':
         var file = getFile(body.fileId)
-        logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
+        if (!body.prefetch) logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
         return jsonResponse({ authenticated: true, user: user, file: file })
       case 'getAsset':
         return jsonResponse({ authenticated: true, user: user, asset: getAsset(body.fileId, body.path) })

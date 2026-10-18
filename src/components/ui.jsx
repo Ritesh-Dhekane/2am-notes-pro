@@ -1,7 +1,8 @@
 // Small shared building blocks.
 
-import { AlertTriangle, RotateCw } from 'lucide-react'
+import { AlertTriangle, RotateCw, Sparkles } from 'lucide-react'
 import { createElement } from 'react'
+import { useLoadingMark, useSlowLoading } from '../lib/slow.js'
 import { tintStyle } from '../lib/subjects.js'
 
 export function Logo({ className = 'size-9' }) {
@@ -106,5 +107,30 @@ export function ErrorState({ message, onRetry }) {
 }
 
 export function Skeleton({ className = '', style }) {
+  useLoadingMark()
   return <span className={`block animate-pulse rounded-lg bg-surface-2 ${className}`} style={style} aria-hidden="true" />
+}
+
+// Shown top right when a screen has been loading for a while (lib/slow.js).
+export function SlowToast() {
+  const slow = useSlowLoading()
+  return (
+    <div role="status" aria-live="polite" className="pointer-events-none fixed top-3 right-3 z-50 lg:top-5 lg:right-5">
+      {slow && (
+        <p className="max-w-xs rounded-xl border border-line-strong bg-surface px-4 py-3 text-label text-ink shadow-lg">
+          The server is taking a little longer than usual. Please wait a few more moments.
+        </p>
+      )}
+    </div>
+  )
+}
+
+// AI notice above every note and solution.
+export function AiNotice() {
+  return (
+    <p className="mb-4 flex items-start gap-2 rounded-xl border border-line bg-surface-2 px-3 py-2 text-label text-ink-2">
+      <Sparkles className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
+      <span>AI-generated notes and solutions. Please double-check them with your textbook or sources.</span>
+    </p>
+  )
 }

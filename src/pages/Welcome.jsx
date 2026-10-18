@@ -1,9 +1,10 @@
-// Signed-out home: what the portal is, everything it holds for each semester (subjects with counts,
-// all locked), and sign-in. Counts come from the backend's public catalog; if it can't be reached,
+// Signed-out home: what the portal is, everything it holds for each semester (subjects with counts;
+// Unit 1 of each opens free, the rest is locked), and sign-in. Counts come from the backend's public catalog; if it can't be reached,
 // the subjects still show from the built-in catalog, without counts.
 
-import { BookOpenText, FileCheck2, Headphones, Lock, Sparkles } from 'lucide-react'
+import { BookOpen, BookOpenText, FileCheck2, Headphones, Lock, Sparkles } from 'lucide-react'
 import { createElement, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import SignInCard from '../components/SignInCard.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
 import { Logo, SubjectIcon } from '../components/ui.jsx'
@@ -63,6 +64,27 @@ function SubjectTile({ slug, entry, onSignIn }) {
         .filter(Boolean)
         .join(' · ') || 'Coming soon'
     : look.about
+  const free = entry?.unit1?.[0]
+  if (free) {
+    return (
+      <li>
+        <Link
+          to={`/preview/${slug}/${free.id}`}
+          className="flex w-full items-center gap-3 rounded-2xl border border-line bg-surface p-3.5 text-left transition-colors hover:border-line-strong"
+          aria-label={`${look.name}: ${detail}. Read Unit 1 free.`}
+        >
+          <SubjectIcon look={look} />
+          <span className="min-w-0 flex-1">
+            <span className="block truncate text-body font-semibold">{look.name}</span>
+            <span className="block truncate text-label text-ink-2">
+              <span className="font-semibold text-primary-ink">Unit 1 free</span> · {detail}
+            </span>
+          </span>
+          <BookOpen className="size-4 shrink-0 text-primary-ink" aria-hidden="true" />
+        </Link>
+      </li>
+    )
+  }
   return (
     <li>
       <button
@@ -100,6 +122,14 @@ export default function Welcome({ onSignedIn }) {
   }, [])
 
   const semester = SEMESTERS.find((s) => s.id === active)
+  const all = catalog ? [...catalog.values()].flatMap((m) => [...m.values()]) : []
+  const totals = all.length
+    ? [
+        [all.reduce((n, s) => n + (s.counts?.notes || 0), 0), 'notes'],
+        [all.reduce((n, s) => n + (s.counts?.pyqs || 0), 0), 'PYQ papers'],
+        [all.filter((s) => s.counts && Object.values(s.counts).some(Boolean)).length, 'subjects'],
+      ]
+    : null
   const found = catalog?.get(active) || null
 
   function focusSignIn() {
@@ -131,6 +161,17 @@ export default function Welcome({ onSignedIn }) {
           <p className="mt-3 text-[17px] leading-7 text-ink-2">
             Notes, previous-year papers, syllabus and references for every subject, in one quiet place.
           </p>
+          {totals && (
+            <dl className="mt-5 flex justify-center gap-6 lg:justify-start">
+              {totals.map(([n, label]) => (
+                <div key={label}>
+                  <dt className="sr-only">{label}</dt>
+                  <dd className="text-[26px] leading-8 font-bold">{n}</dd>
+                  <dd className="text-label text-ink-2">{label}</dd>
+                </div>
+              ))}
+            </dl>
+          )}
         </div>
 
         <div id="sign-in" className="lg:col-start-2 lg:row-span-2 lg:row-start-1">
@@ -146,7 +187,7 @@ export default function Welcome({ onSignedIn }) {
                 What's inside
               </h2>
               <span className="rounded-full bg-primary-soft px-2.5 py-0.5 text-caption font-semibold text-primary-ink">
-                Sign in to open
+                Unit 1 free · sign in for the rest
               </span>
             </div>
 

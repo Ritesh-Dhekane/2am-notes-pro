@@ -44,11 +44,15 @@ The frontend only decodes the credential for display. The Apps Script backend ve
    - `GOOGLE_CLIENT_ID`: the same client ID as the frontend. Required; without it every signed-in call fails with `server_misconfigured_missing_client_id`.
    - `DRIVE_ROOT_FOLDER_ID`: the ID of the top Drive folder (see Drive Layout). Required.
    - `LOG_SHEET_ID`: optional. A Google Sheet with a `Logs` tab, for access logging.
-4. Go to **Deploy → New deployment → Web app**: execute as **Me**, access **Anyone** (not "Anyone with Google account": the app calls it straight from the browser). Only the catalog (subject names and file counts) is public; everything else checks the Google sign-in. `appsscript.json` already sets this, so `clasp create-deployment` works too.
+   - `SESSION_SECRET`: created automatically on the first sign-in. It signs the 7-day sessions; delete it to sign everyone out.
+   - `BLOCKED_EMAILS`: optional, comma-separated. These accounts lose access on their next request.
+4. Go to **Deploy → New deployment → Web app**: execute as **Me**, access **Anyone** (not "Anyone with Google account": the app calls it straight from the browser). Public: the catalog (subject names, file counts, each subject's Unit 1 notes and one sample PYQ question) and the Unit 1 notes themselves. Everything else needs a sign-in. `appsscript.json` already sets this, so `clasp create-deployment` works too.
 5. In the editor, run `installTriggers` once and allow the permissions it asks for. It refreshes the cached listings every hour, so pages load fast.
 6. Set the web app URL (ends in `/exec`) as `VITE_API_BASE_URL` in `.env`.
 
 Opening the web app URL in a browser returns a JSON health check.
+
+**Sessions:** sign-in checks the Google token once, then the backend issues its own session that lasts 7 days (Google's token lasts an hour).
 
 **After adding or renaming files in Drive**, run `refreshCaches` in the editor (otherwise they appear within the hour).
 
