@@ -1,12 +1,12 @@
 // The signed-in frame: left sidebar + top bar on desktop, top bar + bottom tabs on phones.
 
-import { Bookmark, FileQuestion, Home, LayoutGrid, LogOut, Moon, Search, Sun, User } from 'lucide-react'
+import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, Search, Sun, Sunset, User } from 'lucide-react'
 import { createElement, useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { useLibrary } from '../context/libraryContext.js'
 import { useBookmarks } from '../lib/store.js'
-import { isDarkTheme, setPrefs, usePrefs } from '../lib/prefs.js'
+import { setPrefs, THEMES, usePrefs } from '../lib/prefs.js'
 import { Avatar, Logo, MadeBy } from './ui.jsx'
 
 const SIDEBAR = [
@@ -25,14 +25,89 @@ const TABS = [
   { to: '/profile', label: 'Profile', icon: User },
 ]
 
+const THEME_ICONS = { midnight: Moon, oled: MoonStar, light: Sun, sepia: Sunset }
+
+// Theme button with a ▾: opens a small menu of all four themes (Esc or a click outside closes it).
 export function ThemeToggle() {
   const { theme } = usePrefs()
-  const dark = isDarkTheme(theme)
-  const label = dark ? 'Switch to light theme' : 'Switch to dark theme'
+  const [open, setOpen] = useState(false)
+  const box = useRef(null)
+  const menu = useRef(null)
+  const current = THEMES.find((t) => t.id === theme) || THEMES[0]
+
+  useEffect(() => {
+    if (!open) return
+    const onDown = (e) => !box.current?.contains(e.target) && setOpen(false)
+    const onKey = (e) => {
+      if (e.key === 'Escape') {
+        setOpen(false)
+        box.current?.querySelector('button')?.focus()
+      }
+    }
+    document.addEventListener('pointerdown', onDown)
+    document.addEventListener('keydown', onKey)
+    // Focus the ticked theme so arrow keys start from it.
+    menu.current?.querySelector('[aria-checked="true"]')?.focus()
+    return () => {
+      document.removeEventListener('pointerdown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
+  function onMenuKey(e) {
+    const items = [...menu.current.querySelectorAll('[role="menuitemradio"]')]
+    const i = items.indexOf(document.activeElement)
+    const next = { ArrowDown: i + 1, ArrowUp: i - 1, Home: 0, End: items.length - 1 }[e.key]
+    if (next === undefined) return
+    e.preventDefault()
+    items[(next + items.length) % items.length].focus()
+  }
+
   return (
-    <button type="button" className="icon-btn" onClick={() => setPrefs({ theme: dark ? 'light' : 'midnight' })} aria-label={label} title={label}>
-      {dark ? <Sun className="size-5" aria-hidden="true" /> : <Moon className="size-5" aria-hidden="true" />}
-    </button>
+    <div className="relative" ref={box}>
+      <button
+        type="button"
+        className="icon-btn inline-flex w-auto items-center gap-0.5 px-2"
+        onClick={() => setOpen((o) => !o)}
+        aria-haspopup="menu"
+        aria-expanded={open}
+        aria-label={`Theme: ${current.name}`}
+        title="Theme"
+      >
+        {createElement(THEME_ICONS[current.id] || Moon, { className: 'size-5', 'aria-hidden': true })}
+        <ChevronDown className={`size-3.5 transition-transform ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
+      </button>
+      {open && (
+        <div
+          ref={menu}
+          role="menu"
+          aria-label="Theme"
+          onKeyDown={onMenuKey}
+          className="absolute top-full right-0 z-50 mt-2 w-60 rounded-2xl border border-line-strong bg-surface p-1.5 shadow-lg"
+        >
+          {THEMES.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              role="menuitemradio"
+              aria-checked={t.id === theme}
+              onClick={() => {
+                setPrefs({ theme: t.id })
+                setOpen(false)
+              }}
+              className="flex w-full items-center gap-3 rounded-xl px-2.5 py-2 text-left outline-none hover:bg-surface-2 focus-visible:bg-surface-2"
+            >
+              <span className="size-6 shrink-0 rounded-full border border-line-strong" style={{ background: t.canvas }} aria-hidden="true" />
+              <span className="min-w-0 flex-1">
+                <span className="block text-label font-semibold text-ink">{t.name}</span>
+                <span className="block text-caption text-ink-3">{t.hint}</span>
+              </span>
+              {t.id === theme && <Check className="size-4 shrink-0 text-primary-ink" aria-hidden="true" />}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
   )
 }
 

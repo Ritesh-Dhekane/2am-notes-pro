@@ -2,6 +2,7 @@
 
 import { AlertTriangle, Clock, ShieldCheck } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { SIGNOUT_REASON_KEY } from '../context/authContext.js'
 import { renderGoogleSignInButton } from '../lib/googleIdentity.js'
@@ -143,7 +144,12 @@ export default function SignInCard({ onSignedIn }) {
 
       <p className="mt-3 flex items-start gap-2 text-caption text-ink-2">
         <ShieldCheck className="mt-px size-4 shrink-0 text-teal-ink" aria-hidden="true" />
-        Only signed-in students can open the notes. The log is private to the portal's owner.
+        <span>
+          Only signed-in students can open the notes. The log is private to the portal's owner.{' '}
+          <Link to="/privacy" className="font-semibold text-primary-ink underline-offset-2 hover:underline">
+            Privacy policy
+          </Link>
+        </span>
       </p>
     </div>
   )

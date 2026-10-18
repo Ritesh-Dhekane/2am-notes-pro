@@ -2,6 +2,7 @@
 
 import { AlertTriangle, RotateCw, Sparkles } from 'lucide-react'
 import { createElement } from 'react'
+import { Link } from 'react-router-dom'
 import { useLoadingMark, useSlowLoading } from '../lib/slow.js'
 import { tintStyle } from '../lib/subjects.js'
 
@@ -133,6 +134,10 @@ export function MadeBy({ className = '' }) {
       <a href="https://ritesh-dhekane.github.io/" target="_blank" rel="noopener" className="font-semibold text-ink-2 underline-offset-2 hover:text-ink hover:underline">
         Ritesh Dhekane
       </a>
+      {' · '}
+      <Link to="/privacy" className="underline-offset-2 hover:text-ink hover:underline">
+        Privacy
+      </Link>
     </p>
   )
 }
