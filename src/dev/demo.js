@@ -377,6 +377,8 @@ export async function handleDemo(action, params) {
             name: s.name,
             counts: { notes: s.files.notes.length, pyqs: s.files.pyqs.length, references: s.files.references.length },
             hasSyllabus: Boolean(s.syllabus),
+            unit1: s.files.notes.filter((f) => /^unit[-_ ]*0*1(?!\d)/i.test(f.name)),
+            sample: s.files.pyqs.length ? { paper: 'Apr 2025', question: `A sample ${s.name} question from a past paper.` } : null,
           })),
         })),
       }
@@ -387,6 +389,11 @@ export async function handleDemo(action, params) {
       const f = ALL_FILES.find((x) => x.id === params.fileId)
       if (!f) throw new Error('file_not_accessible')
       return { authenticated: true, user, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
+    }
+    case 'previewFile': {
+      const f = ALL_FILES.find((x) => x.id === params.fileId)
+      if (!f || !/^unit[-_ ]*0*1(?!\d)/i.test(f.name)) throw new Error('sign_in_required')
+      return { authenticated: false, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
     }
     default:
       throw new Error('unknown_action')

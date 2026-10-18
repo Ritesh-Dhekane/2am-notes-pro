@@ -17,6 +17,7 @@ const Search = lazy(() => import('./pages/Search.jsx'))
 const Saved = lazy(() => import('./pages/Saved.jsx'))
 const Profile = lazy(() => import('./pages/Profile.jsx'))
 const Setup = lazy(() => import('./pages/Setup.jsx'))
+const Preview = lazy(() => import('./pages/Preview.jsx'))
 
 // Signed-out visitors see what's on offer and sign in there, then go back to where they were going.
 function RequireAuth({ children }) {
@@ -58,6 +59,7 @@ export default function App() {
     <Suspense fallback={<PageLoading />}>
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/preview/:subjectId/:fileId" element={<Preview />} />
         {!user && <Route path="/" element={<Welcome />} />}
         <Route
           path="/setup"
