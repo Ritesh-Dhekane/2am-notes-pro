@@ -16,13 +16,15 @@ const FRIENDLY_MESSAGES = {
   network_error: "Couldn't reach the server. Check your internet connection and try again.",
   unknown_action: 'The backend is out of date. Redeploy the Apps Script (see the README).',
   not_authenticated: 'You need to sign in to do that.',
+  sign_in_required: 'Sign in (free) to read this.',
+  access_blocked: 'This account no longer has access. Contact the portal owner if this is a mistake.',
   server_misconfigured_missing_drive_root:
     "The backend isn't fully configured yet (missing Drive root folder). See the README (Apps Script Backend).",
 }
 
 // A session-invalid error means the stored credential can no longer be
 // trusted — the caller should log out rather than show an error banner.
-const SESSION_ERROR_CODES = new Set(['invalid_or_expired_token', 'token_audience_mismatch'])
+const SESSION_ERROR_CODES = new Set(['invalid_or_expired_token', 'token_audience_mismatch', 'access_blocked'])
 
 export function isSessionError(code) {
   return SESSION_ERROR_CODES.has(code)

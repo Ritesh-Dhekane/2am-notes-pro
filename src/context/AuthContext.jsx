@@ -27,8 +27,8 @@ function rememberReason(reason) {
   }
 }
 
-// Google ID tokens last about an hour. An expired one is dropped on load, and the sign-in page
-// explains why instead of the first request failing.
+// Sign-in starts with Google's ID token (about an hour), then swaps it for the backend's 7-day session.
+// An expired one is dropped on load, and the sign-in page explains why instead of the first request failing.
 function readStoredUser() {
   const storedToken = localStorage.getItem(STORAGE_KEY)
   if (!storedToken) return null
@@ -53,8 +53,15 @@ export function AuthProvider({ children }) {
     localStorage.setItem(STORAGE_KEY, idToken)
     rememberReason(null)
     setUser(userFromToken(idToken))
-    // Best-effort access log; must never block sign-in on backend availability.
-    callApi('login', { idToken }).catch(() => {})
+    // Logs the sign-in and returns the 7-day session. Best effort: sign-in never waits on the backend,
+    // and without a session the Google token keeps working until it expires.
+    callApi('login', { idToken })
+      .then(({ session }) => {
+        if (!session || localStorage.getItem(STORAGE_KEY) !== idToken) return // signed out meanwhile
+        localStorage.setItem(STORAGE_KEY, session)
+        setUser(userFromToken(session))
+      })
+      .catch(() => {})
     trackEvent('login', { method: 'google' })
   }, [])
 
