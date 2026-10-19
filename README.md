@@ -1,5 +1,13 @@
 # 2am-notes-pro
 
+[![Live site](https://img.shields.io/badge/live-open%20the%20app-2ea44f?logo=googlechrome&logoColor=white)](https://ritesh-dhekane.github.io/2am-notes-pro/)
+[![Deploy](https://github.com/Ritesh-Dhekane/2am-notes-pro/actions/workflows/deploy.yml/badge.svg)](https://github.com/Ritesh-Dhekane/2am-notes-pro/actions/workflows/deploy.yml)
+[![Last commit](https://img.shields.io/github/last-commit/Ritesh-Dhekane/2am-notes-pro)](https://github.com/Ritesh-Dhekane/2am-notes-pro/commits)
+![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06b6d4?logo=tailwindcss&logoColor=white)
+![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285f4?logo=googleappsscript&logoColor=white)
+
 A private MCA study portal: subject-wise notes, previous-year papers (PYQs) and references, stored in Google Drive and opened only after Google sign-in.
 
 ## Features
