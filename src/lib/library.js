@@ -64,7 +64,8 @@ const isText = (name = '') => /\.(md|markdown|txt)$/i.test(name)
 
 // prefetch: fetched ahead of time, so the backend doesn't log it as opened.
 export function loadFile(idToken, fileId, { updated, name, prefetch = false } = {}) {
-  if (!contentCache.has(fileId)) {
+  const key = `${fileId}:${updated ?? ''}` // a newer upload of the same file is a new entry
+  if (!contentCache.has(key)) {
     const request = (async () => {
       const saved = isText(name) ? await getSaved(fileId, updated) : null
       if (saved) return saved
@@ -72,10 +73,10 @@ export function loadFile(idToken, fileId, { updated, name, prefetch = false } = 
       if (data.file.encoding === 'utf8') save(fileId, updated, data.file)
       return data.file
     })()
-    request.catch(() => contentCache.delete(fileId))
-    contentCache.set(fileId, request)
+    request.catch(() => contentCache.delete(key))
+    contentCache.set(key, request)
   }
-  return contentCache.get(fileId)
+  return contentCache.get(key)
 }
 
 // Opening a subject saves all of its notes and solutions in the background, two at a time.

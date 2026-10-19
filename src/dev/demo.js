@@ -352,6 +352,14 @@ async function contentFor(f) {
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
+// Test hook: window.__demoAddNote() adds a note to the first subject of each semester, to try the
+// "New notes added" prompt without a real upload.
+if (typeof window !== 'undefined') {
+  window.__demoAddNote = () => {
+    for (const subjects of Object.values(SEMESTERS)) subjects[0]?.files.notes.push(file(`unit-01-new-note-${Date.now()}.md`, { days: 0 }))
+  }
+}
+
 export async function handleDemo(action, params) {
   await wait(250)
   const user = { email: 'ritesh@example.com', name: 'Ritesh Dhekane', picture: null }
@@ -386,7 +394,7 @@ export async function handleDemo(action, params) {
       }
     case 'listLibrary':
       if (!SEMESTERS[params.semester]) throw new Error('semester_not_found')
-      return { authenticated: true, user, subjects: SEMESTERS[params.semester] }
+      return { authenticated: true, user, subjects: structuredClone(SEMESTERS[params.semester]) } // a copy, like real JSON
     case 'getFile': {
       const f = ALL_FILES.find((x) => x.id === params.fileId)
       if (!f) throw new Error('file_not_accessible')
