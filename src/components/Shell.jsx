@@ -1,6 +1,6 @@
 // The signed-in frame: left sidebar + top bar on desktop, top bar + bottom tabs on phones.
 
-import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, Search, Sun, Sunset, User } from 'lucide-react'
+import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, Search, Sparkles, Sun, Sunset, User, X } from 'lucide-react'
 import { createElement, useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
@@ -285,6 +285,35 @@ export default function Shell() {
         <MadeBy className="mt-1.5" />
       </main>
       <BottomNav />
+      <NewNotesPrompt />
+    </div>
+  )
+}
+
+// "New notes added": shown after a background check finds new files. Tapping shows them on the dashboard.
+function NewNotesPrompt() {
+  const { newNotes, applyUpdate } = useLibrary()
+  const navigate = useNavigate()
+  if (!newNotes) return null
+  return (
+    <div role="status" className="fixed inset-x-0 bottom-24 z-40 flex justify-center px-4 lg:bottom-6">
+      <div className="flex items-center gap-1 rounded-2xl border border-line-strong bg-surface p-1.5 pl-4 shadow-lg">
+        <Sparkles className="size-4 shrink-0 text-primary-ink" aria-hidden="true" />
+        <button
+          type="button"
+          className="px-2 py-2 text-label font-semibold text-ink"
+          onClick={() => {
+            applyUpdate()
+            navigate('/')
+          }}
+        >
+          {newNotes === 1 ? 'A new note was added.' : `${newNotes} new notes added.`}{' '}
+          <span className="text-primary-ink">Tap to see</span>
+        </button>
+        <button type="button" className="icon-btn size-9" onClick={applyUpdate} aria-label="Dismiss">
+          <X className="size-4" aria-hidden="true" />
+        </button>
+      </div>
     </div>
   )
 }
