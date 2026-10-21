@@ -51,6 +51,21 @@ export function Tag({ look, children, className = '' }) {
   )
 }
 
+// A subject's or file's state from /admin/content (apps-script/Visibility.js): "Coming soon", and
+// "Hidden", which only admins ever get.
+export function StatusBadges({ item }) {
+  return (
+    <>
+      {item.comingSoon && (
+        <span className="shrink-0 rounded-full bg-primary-soft px-2 py-0.5 text-caption font-semibold text-primary-ink">Coming soon</span>
+      )}
+      {item.hidden && (
+        <span className="shrink-0 rounded-full border border-line-strong px-2 py-0.5 text-caption font-semibold text-ink-2">Hidden</span>
+      )}
+    </>
+  )
+}
+
 export function Avatar({ user, className = 'size-9' }) {
   if (user?.picture) {
     return (

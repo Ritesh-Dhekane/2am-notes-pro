@@ -14,11 +14,13 @@ const Overview = lazy(() => import('./Overview.jsx'))
 const Students = lazy(() => import('./Students.jsx'))
 const Student = lazy(() => import('./Student.jsx'))
 const Flags = lazy(() => import('./Flags.jsx'))
+const Content = lazy(() => import('./Content.jsx'))
 
 const TABS = [
   { to: '/admin', label: 'Overview', end: true },
   { to: '/admin/students', label: 'Students' },
   { to: '/admin/flags', label: 'Flags', badge: 'flags' },
+  { to: '/admin/content', label: 'Content' },
 ]
 
 // Rebuilds the backend's file listings now instead of waiting for the hourly refresh.
@@ -91,6 +93,7 @@ export default function Admin() {
           <Route path="students" element={<Students />} />
           <Route path="students/:email" element={<Student onChange={flags.reload} />} />
           <Route path="flags" element={<Flags onChange={flags.reload} />} />
+          <Route path="content" element={<Content />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

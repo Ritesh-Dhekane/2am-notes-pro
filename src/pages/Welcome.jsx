@@ -53,7 +53,9 @@ function sectionsFor(semester, found) {
 function SubjectTile({ slug, entry, onSignIn }) {
   const look = subjectLook(slug, entry?.name || slug)
   const counts = entry?.counts
-  const detail = counts
+  const detail = entry?.comingSoon
+    ? 'Coming soon'
+    : counts
     ? [
         counts.notes && plural(counts.notes, 'note'),
         counts.pyqs && plural(counts.pyqs, 'PYQ'),
@@ -98,7 +100,7 @@ function SubjectTile({ slug, entry, onSignIn }) {
           <span className="block truncate text-body font-semibold">{look.name}</span>
           <span className="block truncate text-label text-ink-2">{detail}</span>
         </span>
-        <Lock className="size-4 shrink-0 text-ink-3" aria-hidden="true" />
+        {!entry?.comingSoon && <Lock className="size-4 shrink-0 text-ink-3" aria-hidden="true" />}
       </button>
     </li>
   )

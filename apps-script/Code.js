@@ -1,6 +1,7 @@
 // Entry point for the 2am-notes-pro backend web app.
 // doGet is a health check. doPost is the API router. Public: `catalog` (counts, plus each subject's
 // Unit 1 notes and one sample PYQ question) and `previewFile` / `previewAsset` (Unit 1 notes only).
+// Content hidden or coming soon in /admin/content (Visibility.js) is applied to every listing and file.
 // Everything else needs a session or a Google ID token, sent as `idToken` (Auth.js).
 
 function doGet(e) {
@@ -21,7 +22,7 @@ function doPost(e) {
 
   if (body.action === 'catalog') {
     try {
-      return jsonResponse({ authenticated: false, semesters: getCatalog() })
+      return jsonResponse({ authenticated: false, semesters: visibleCatalog(getCatalog()) })
     } catch (err) {
       return jsonResponse({ authenticated: false, error: err.message })
     }
@@ -52,15 +53,16 @@ function doPost(e) {
 
   var user = { email: claims.email, name: claims.name, picture: claims.picture }
   var action = body.action || 'verify'
+  var admin = isAdmin(user.email)
 
   try {
     switch (action) {
       case 'verify':
-        return jsonResponse({ authenticated: true, user: user, isAdmin: isAdmin(user.email) })
+        return jsonResponse({ authenticated: true, user: user, isAdmin: admin })
       case 'login':
         logEvent(user, 'login', {}, body.client)
         recordSignIn(user, body.client)
-        return jsonResponse({ authenticated: true, user: user, session: issueSession(claims), isAdmin: isAdmin(user.email) })
+        return jsonResponse({ authenticated: true, user: user, session: issueSession(claims), isAdmin: admin })
       case 'getStudy':
         return jsonResponse({ authenticated: true, user: user, study: getStudy(user.email) })
       case 'saveStudy':
@@ -85,6 +87,10 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user, block: adminBlock(user, body) })
       case 'adminUnblock':
         return jsonResponse({ authenticated: true, user: user, block: adminUnblock(user, body) })
+      case 'adminVisibility':
+        return jsonResponse(Object.assign({ authenticated: true, user: user }, adminVisibility(user)))
+      case 'adminVisibilitySet':
+        return jsonResponse({ authenticated: true, user: user, visibility: adminVisibilitySet(user, body) })
       case 'adminRefreshLibrary':
         return jsonResponse({ authenticated: true, user: user, result: adminRefreshLibrary(user) })
       case 'logout':
@@ -92,16 +98,16 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user })
       case 'listLibrary':
         logEvent(user, 'view_library', { semester: body.semester }, body.client)
-        return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester) })
+        return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester, admin) })
       case 'getFile':
-        var file = getFile(body.fileId)
+        var file = getFile(body.fileId, false, admin)
         if (!body.prefetch) {
           logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
           recordFileOpen(user, body.client)
         }
         return jsonResponse({ authenticated: true, user: user, file: file })
       case 'getAsset':
-        return jsonResponse({ authenticated: true, user: user, asset: getAsset(body.fileId, body.path) })
+        return jsonResponse({ authenticated: true, user: user, asset: getAsset(body.fileId, body.path, false, admin) })
       default:
         return jsonResponse({ authenticated: true, user: user, error: 'unknown_action' })
     }

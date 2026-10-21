@@ -102,8 +102,14 @@ function samplePyq(subjectFolder) {
 
 // ---------- One semester's library (signed-in only) ----------
 
-function listLibrary(semesterId) {
+// With the visibility rules applied (Visibility.js); admins also get hidden items, marked.
+function listLibrary(semesterId, admin) {
   if (!semesterId) throw new Error('missing_semester')
+  if (!admin && isHiddenPath(getVisibility(), semesterId)) throw new Error('semester_not_found')
+  return visibleLibrary(semesterId, rawLibrary(semesterId), admin)
+}
+
+function rawLibrary(semesterId) {
   return cached('library:' + semesterId, function () {
     return buildLibrary(findSemester(semesterId))
   })
@@ -126,8 +132,9 @@ function buildLibrary(semester) {
   })
 }
 
-// previewOnly: signed-out callers may only open Unit 1 notes.
-function getFile(fileId, previewOnly) {
+// previewOnly: signed-out callers may only open Unit 1 notes. Hidden and coming-soon files are
+// refused unless `admin` (Visibility.js).
+function getFile(fileId, previewOnly, admin) {
   if (!fileId) throw new Error('missing_file_id')
   var file
   try {
@@ -136,6 +143,7 @@ function getFile(fileId, previewOnly) {
     throw new Error('file_not_accessible')
   }
   var where = assertFileUnderRoot(file)
+  assertVisible(where, file.getId(), admin)
   if (previewOnly && !PREVIEW_PATH.test(where)) throw new Error('sign_in_required')
 
   var mimeType = file.getMimeType()
@@ -166,7 +174,7 @@ function getFile(fileId, previewOnly) {
 // `images` folder beside it (kept out of file lists). Only plain image names are accepted.
 var ASSET_PATH = /^(images\/)?[\w.\- ]{1,120}\.(png|jpe?g|gif|webp|svg)$/i
 
-function getAsset(noteId, assetPath, previewOnly) {
+function getAsset(noteId, assetPath, previewOnly, admin) {
   if (!noteId || !assetPath) throw new Error('missing_asset')
   assetPath = String(assetPath).replace(/^\.\//, '')
   if (!ASSET_PATH.test(assetPath) || assetPath.indexOf('..') !== -1) throw new Error('file_not_accessible')
@@ -177,6 +185,7 @@ function getAsset(noteId, assetPath, previewOnly) {
     throw new Error('file_not_accessible')
   }
   var notePath = assertFileUnderRoot(note)
+  assertVisible(notePath, note.getId(), admin)
   if (previewOnly && !PREVIEW_PATH.test(notePath)) throw new Error('sign_in_required')
   var parents = note.getParents()
   if (!parents.hasNext()) throw new Error('file_not_accessible')

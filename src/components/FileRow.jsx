@@ -25,6 +25,9 @@ export default function FileRow({ file, active, onOpen, showUnit = false, prefix
             {file.isNew && (
               <span className="shrink-0 rounded bg-primary-soft px-1.5 font-mono text-[10px] font-semibold text-primary-ink">NEW</span>
             )}
+            {file.hidden && (
+              <span className="shrink-0 rounded border border-line-strong px-1.5 font-mono text-[10px] font-semibold text-ink-2">HIDDEN</span>
+            )}
             <span className="line-clamp-2 text-body font-medium break-words text-ink">{file.title}</span>
           </span>
           <span className="block truncate font-mono text-caption text-ink-3">{meta.join(' · ')}</span>

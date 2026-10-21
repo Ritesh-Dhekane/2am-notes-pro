@@ -22,6 +22,8 @@ const FRIENDLY_MESSAGES = {
   student_not_found: 'No student with this email has signed in.',
   flag_not_found: 'This flag no longer exists. Reload the list.',
   reason_required: 'Write a reason first.',
+  coming_soon: 'This subject is coming soon. Check back later.',
+  visibility_too_large: 'Too many hidden items to save. Hide whole subjects instead of single files.',
   invalid_email: "That isn't a valid email address.",
   cannot_block_self: "You can't block your own account.",
   invalid_phone: 'Enter a 10-digit number, or + and your country code.',
