@@ -7,6 +7,9 @@ import sampleJpg from './fixtures/sample.jpg?url'
 import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
+import { DEMO_ROLE_KEY } from '../lib/demoMode.js'
+import { normalizePhone } from '../lib/phone.js'
+import { demoOverview, demoStudent, demoStudents } from './adminDemo.js'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -369,6 +372,19 @@ async function contentFor(f) {
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
+// The demo account is an admin, unless opened with ?demo=student (lib/demoMode.js).
+function demoIsAdmin() {
+  try {
+    return sessionStorage.getItem(DEMO_ROLE_KEY) !== 'student'
+  } catch {
+    return true
+  }
+}
+
+function requireAdmin() {
+  if (!demoIsAdmin()) throw new Error('not_admin')
+}
+
 // Test hook: window.__demoAddNote() adds a note to the first subject of each semester, to try the
 // "New notes added" prompt without a real upload.
 if (typeof window !== 'undefined') {
@@ -383,6 +399,7 @@ export async function handleDemo(action, params) {
   switch (action) {
     case 'verify':
     case 'login':
+      return { authenticated: true, user, isAdmin: demoIsAdmin() }
     case 'logout':
       return { authenticated: true, user }
     // The "account" copy of the semester choice, kept in localStorage so it survives reloads like the real one.
@@ -392,6 +409,31 @@ export async function handleDemo(action, params) {
       const study = { ...params.study, updatedAt: new Date().toISOString() }
       localStorage.setItem('notes-pro.demo-account-study', JSON.stringify(study))
       return { authenticated: true, user, study }
+    }
+    // The phone number, kept like the account's study choice.
+    case 'getProfile':
+      return { authenticated: true, user, profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '' } }
+    case 'saveProfile': {
+      const { phone, error } = normalizePhone(params.phone)
+      if (error) throw new Error('invalid_phone')
+      localStorage.setItem('notes-pro.demo-account-phone', phone)
+      return { authenticated: true, user, profile: { phone } }
+    }
+    case 'adminOverview':
+      requireAdmin()
+      return { authenticated: true, user, overview: demoOverview(SEMESTERS) }
+    case 'adminStudents':
+      requireAdmin()
+      return { authenticated: true, user, ...demoStudents(SEMESTERS, params) }
+    case 'adminStudent':
+      requireAdmin()
+      return { authenticated: true, user, ...demoStudent(SEMESTERS, params) }
+    case 'adminRefreshLibrary': {
+      requireAdmin()
+      await wait(900)
+      const subjects = Object.values(SEMESTERS).flat()
+      const files = subjects.reduce((sum, s) => sum + Object.values(s.files).flat().length, 0)
+      return { authenticated: true, user, result: { semesters: Object.keys(SEMESTERS).length, subjects: subjects.length, files, seconds: 1 } }
     }
     case 'catalog':
       // Public: what's on offer, with counts but no file names or ids.

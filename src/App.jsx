@@ -19,6 +19,7 @@ const Profile = lazy(() => import('./pages/Profile.jsx'))
 const Setup = lazy(() => import('./pages/Setup.jsx'))
 const Preview = lazy(() => import('./pages/Preview.jsx'))
 const Privacy = lazy(() => import('./pages/Privacy.jsx'))
+const Admin = lazy(() => import('./pages/admin/Admin.jsx'))
 
 // Signed-out visitors see what's on offer and sign in there, then go back to where they were going.
 function RequireAuth({ children }) {
@@ -37,6 +38,13 @@ function RequireSetup({ children }) {
   if (!complete && syncedToken !== user?.idToken) return <PageLoading />
   if (!complete) return <Navigate to="/setup" replace state={{ from: location.pathname + location.search }} />
   return children
+}
+
+// Admin pages: anyone else gets the ordinary "page doesn't exist".
+function RequireAdmin({ children }) {
+  const { isAdmin } = useAuth()
+  if (isAdmin === null) return <PageLoading />
+  return isAdmin ? children : <NotFound />
 }
 
 function Home() {
@@ -88,6 +96,14 @@ export default function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/profile" element={<Profile />} />
+          <Route
+            path="/admin/*"
+            element={
+              <RequireAdmin>
+                <Admin />
+              </RequireAdmin>
+            }
+          />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

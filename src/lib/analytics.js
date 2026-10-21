@@ -31,9 +31,9 @@ function ensureLoaded() {
 }
 
 // Routes with ids in them are reported by their pattern (/read/java-programming/:file), so private
-// Drive ids never reach Analytics.
+// Drive ids and students' emails (admin pages) never reach Analytics.
 export function pagePath(pathname) {
-  return pathname.replace(/^\/read\/([^/]+)\/[^/]+$/, '/read/$1/:file')
+  return pathname.replace(/^\/read\/([^/]+)\/[^/]+$/, '/read/$1/:file').replace(/^\/admin\/students\/[^/]+\/?$/, '/admin/students/:email')
 }
 
 export function trackPageView(pathname) {

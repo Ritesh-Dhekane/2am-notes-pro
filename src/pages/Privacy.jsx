@@ -1,6 +1,6 @@
 // Privacy policy, public (linked from the Google sign-in consent screen). Keep it in step with what the
 // app really collects: apps-script/Logging.js (access log), lib/analytics.js (GA4), lib/study.js (semester
-// choice), lib/store.js and lib/offline.js (on-device data). The build copies the app to privacy/index.html
+// choice), lib/phone.js (optional phone number), pages/admin (what the owner sees), lib/store.js and lib/offline.js (on-device data). The build copies the app to privacy/index.html
 // so this URL answers 200 on GitHub Pages (see scripts/postbuild.mjs).
 
 import { Link } from 'react-router-dom'
@@ -8,7 +8,7 @@ import { ThemeToggle } from '../components/Shell.jsx'
 import { Logo, MadeBy } from '../components/ui.jsx'
 
 const CONTACT = 'learn.riteshdhekane@gmail.com'
-const UPDATED = '18 October 2026'
+const UPDATED = '21 October 2026'
 
 function Section({ title, children }) {
   return (
@@ -63,6 +63,10 @@ export default function Privacy() {
             </li>
           </ul>
           <p>It is used to see which notes help, to fix problems, and to keep the portal for its MCA and BCA students only.</p>
+          <p>
+            Only the portal&apos;s owner can see a student&apos;s activity in this log, and uses it to help that student when
+            something goes wrong and to stop misuse, such as a shared account.
+          </p>
         </Section>
 
         <Section title="Usage statistics">
@@ -75,6 +79,11 @@ export default function Privacy() {
         <Section title="Saved with your account">
           <p>
             Your semester and electives are saved with your email, so they follow you to any device you sign in on.
+          </p>
+          <p>
+            You can also add a <strong className="text-ink">phone number</strong>. It is optional, stored privately with
+            your account, and seen only by the portal&apos;s owner, to reach you if there is a problem with your account. It
+            is never sent to Google Analytics. Remove it any time in Profile &amp; Settings.
           </p>
         </Section>
 

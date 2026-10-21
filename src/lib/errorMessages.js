@@ -18,6 +18,10 @@ const FRIENDLY_MESSAGES = {
   not_authenticated: 'You need to sign in to do that.',
   sign_in_required: 'Sign in (free) to read this.',
   access_blocked: 'This account no longer has access. Contact the portal owner if this is a mistake.',
+  not_admin: "This account isn't an admin.",
+  student_not_found: 'No student with this email has signed in.',
+  invalid_phone: 'Enter a 10-digit number, or + and your country code.',
+  profile_not_saved: "Couldn't save right now. Please try again.",
   server_misconfigured_missing_drive_root:
     "The backend isn't fully configured yet (missing Drive root folder). See the README (Apps Script Backend).",
 }

@@ -56,16 +56,29 @@ function doPost(e) {
   try {
     switch (action) {
       case 'verify':
-        return jsonResponse({ authenticated: true, user: user })
+        return jsonResponse({ authenticated: true, user: user, isAdmin: isAdmin(user.email) })
       case 'login':
         logEvent(user, 'login', {}, body.client)
-        return jsonResponse({ authenticated: true, user: user, session: issueSession(claims) })
+        recordSignIn(user, body.client)
+        return jsonResponse({ authenticated: true, user: user, session: issueSession(claims), isAdmin: isAdmin(user.email) })
       case 'getStudy':
         return jsonResponse({ authenticated: true, user: user, study: getStudy(user.email) })
       case 'saveStudy':
-        var saved = saveStudy(user.email, body.study)
+        var saved = saveStudy(user, body.study)
         logEvent(user, 'save_study', { semester: saved.semester }, body.client)
         return jsonResponse({ authenticated: true, user: user, study: saved })
+      case 'getProfile':
+        return jsonResponse({ authenticated: true, user: user, profile: getProfile(user.email) })
+      case 'saveProfile':
+        return jsonResponse({ authenticated: true, user: user, profile: saveProfile(user, { phone: body.phone }) })
+      case 'adminOverview':
+        return jsonResponse({ authenticated: true, user: user, overview: adminOverview(user, body.fresh) })
+      case 'adminStudents':
+        return jsonResponse(Object.assign({ authenticated: true, user: user }, adminStudents(user, body)))
+      case 'adminStudent':
+        return jsonResponse(Object.assign({ authenticated: true, user: user }, adminStudent(user, body)))
+      case 'adminRefreshLibrary':
+        return jsonResponse({ authenticated: true, user: user, result: adminRefreshLibrary(user) })
       case 'logout':
         logEvent(user, 'logout', {}, body.client)
         return jsonResponse({ authenticated: true, user: user })
@@ -74,7 +87,10 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester) })
       case 'getFile':
         var file = getFile(body.fileId)
-        if (!body.prefetch) logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
+        if (!body.prefetch) {
+          logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
+          recordFileOpen(user, body.client)
+        }
         return jsonResponse({ authenticated: true, user: user, file: file })
       case 'getAsset':
         return jsonResponse({ authenticated: true, user: user, asset: getAsset(body.fileId, body.path) })

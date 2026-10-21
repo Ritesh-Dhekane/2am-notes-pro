@@ -4,12 +4,15 @@
 import { ArrowRight } from 'lucide-react'
 import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import PhoneField from '../components/PhoneField.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
 import StudyPicker from '../components/StudyPicker.jsx'
 import { Logo } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { trackEvent } from '../lib/analytics.js'
+import { callApi } from '../lib/api.js'
 import { electivesLabel, groupChoiceCount, groupNeeds, isSetupComplete, semesterById } from '../lib/catalog.js'
+import { normalizePhone } from '../lib/phone.js'
 import { getStudy, setStudy } from '../lib/study.js'
 
 // "Elective IV", or for choose-n groups "1 more elective" / "2 electives".
@@ -28,6 +31,8 @@ export default function Setup() {
     const { semester, electives } = getStudy()
     return { semester, electives }
   })
+  const [phone, setPhone] = useState('')
+  const [checkPhone, setCheckPhone] = useState(false)
   const semester = semesterById(draft.semester)
   const ready = isSetupComplete(semester, draft.electives)
   const missing = semester?.groups.filter((g) => groupChoiceCount(g, draft.electives) !== groupNeeds(g)) || []
@@ -35,7 +40,15 @@ export default function Setup() {
   function finish(event) {
     event.preventDefault()
     if (!ready) return
+    const number = normalizePhone(phone)
+    if (number.error) {
+      setCheckPhone(true)
+      document.getElementById('phone')?.focus()
+      return
+    }
     setStudy(draft, user?.idToken)
+    // Best effort, like the choice itself; it can be added again in Profile.
+    if (number.phone && user?.idToken) callApi('saveProfile', { idToken: user.idToken, phone: number.phone }).catch(() => {})
     trackEvent('semester_setup', { semester: draft.semester, electives: electivesLabel(semester, draft.electives) })
     const from = location.state?.from
     navigate(from && from !== '/setup' ? from : '/', { replace: true })
@@ -59,6 +72,11 @@ export default function Setup() {
         </p>
         <form id="setup" onSubmit={finish}>
           <StudyPicker value={draft} onChange={setDraft} />
+          {semester && (
+            <div className="mt-8">
+              <PhoneField value={phone} onChange={setPhone} showError={checkPhone} />
+            </div>
+          )}
         </form>
       </main>
       <div className="fixed inset-x-0 bottom-0 border-t border-line bg-canvas/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">

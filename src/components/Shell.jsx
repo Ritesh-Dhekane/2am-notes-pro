@@ -1,6 +1,6 @@
 // The signed-in frame: left sidebar + top bar on desktop, top bar + bottom tabs on phones.
 
-import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, Search, Sparkles, Sun, Sunset, User, X } from 'lucide-react'
+import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, Search, ShieldUser, Sparkles, Sun, Sunset, User, X } from 'lucide-react'
 import { createElement, useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
@@ -17,6 +17,9 @@ const SIDEBAR = [
   { to: '/search', label: 'Search', icon: Search },
   { to: '/profile', label: 'Profile & Settings', icon: User },
 ]
+
+// Only for admins (ADMIN_EMAILS on the backend).
+const ADMIN_ITEM = { to: '/admin', label: 'Admin', icon: ShieldUser }
 
 const TABS = [
   { to: '/', label: 'Home', icon: Home, end: true },
@@ -112,7 +115,7 @@ export function ThemeToggle() {
 }
 
 function Sidebar() {
-  const { user, logout } = useAuth()
+  const { user, logout, isAdmin } = useAuth()
   return (
     <aside className="fixed inset-y-0 left-0 z-30 hidden w-64 flex-col border-r border-line bg-canvas px-3 py-4 lg:flex" aria-label="Main">
       <Link to="/" className="mb-6 flex items-center gap-3 rounded-xl px-2 py-1">
@@ -125,7 +128,7 @@ function Sidebar() {
         </span>
       </Link>
       <nav className="flex flex-col gap-1">
-        {SIDEBAR.map((item) => (
+        {(isAdmin ? [...SIDEBAR, ADMIN_ITEM] : SIDEBAR).map((item) => (
           <NavLink
             key={item.to}
             to={item.to}
@@ -202,13 +205,18 @@ function TopSearch() {
 }
 
 function MobileTopBar() {
-  const { user } = useAuth()
+  const { user, isAdmin } = useAuth()
   return (
     <header className="sticky top-0 z-30 flex items-center gap-3 border-b border-line bg-canvas/90 px-4 py-2 pt-[max(0.5rem,env(safe-area-inset-top))] backdrop-blur lg:hidden">
       <Link to="/" className="flex flex-1 items-center gap-2.5">
         <Logo className="size-8" />
         <span className="text-heading leading-tight">2AM Notes Pro</span>
       </Link>
+      {isAdmin && (
+        <Link to="/admin" className="icon-btn" aria-label="Admin" title="Admin">
+          <ShieldUser className="size-5" aria-hidden="true" />
+        </Link>
+      )}
       <ThemeToggle />
       <Link to="/profile" aria-label="Profile">
         <Avatar user={user} className="size-9" />
