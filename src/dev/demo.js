@@ -198,8 +198,14 @@ for (const subject of [...SEM_II, ...SEM_III]) {
   subject.syllabus = subject.slug === 'practicals' ? null : file('syllabus.pdf', { size: 320_000, days: 200 })
 }
 
-const SEMESTERS = { 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [] }
-const ALL_FILES = [...SEM_II, ...SEM_III, ...BCA_SEM_V].flatMap((s) => [...Object.values(s.files).flat(), ...(s.syllabus ? [s.syllabus] : [])])
+// MCA Semester I (2025 pattern): core subjects, notes coming.
+const SEM_I = [
+  { slug: 'data-structures-and-algorithms', name: 'Data Structures And Algorithms', files: { notes: [file('unit-01-introduction-to-algorithms-and-data-structures.md')], pyqs: [], references: [] } },
+  { slug: 'research-methodology-2025', name: 'Research Methodology 2025', files: { notes: [], pyqs: [], references: [] } },
+]
+
+const SEMESTERS = { 'MCA-Sem-I': SEM_I, 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [] }
+const ALL_FILES = [...SEM_I, ...SEM_II, ...SEM_III, ...BCA_SEM_V].flatMap((s) => [...Object.values(s.files).flat(), ...(s.syllabus ? [s.syllabus] : [])])
 
 const FIXTURES = {
   'sep-2025-unit-test-1.jpg': sampleJpg,
