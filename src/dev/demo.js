@@ -198,7 +198,14 @@ for (const subject of [...SEM_II, ...SEM_III]) {
   subject.syllabus = subject.slug === 'practicals' ? null : file('syllabus.pdf', { size: 320_000, days: 200 })
 }
 
-const SEMESTERS = { 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [] }
+// MBA: core only, no notes yet.
+const MBA_SEM_III = [
+  { slug: 'strategic-management', name: 'Strategic Management', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'services-marketing', name: 'Services Marketing', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'mba-python', name: 'Mba Python', files: { notes: [], pyqs: [], references: [] } },
+]
+
+const SEMESTERS = { 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [], 'MBA-Sem-III': MBA_SEM_III }
 const ALL_FILES = [...SEM_II, ...SEM_III, ...BCA_SEM_V].flatMap((s) => [...Object.values(s.files).flat(), ...(s.syllabus ? [s.syllabus] : [])])
 
 const FIXTURES = {

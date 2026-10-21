@@ -165,7 +165,7 @@ export default function Welcome({ onSignedIn }) {
         <div className="text-center lg:col-start-1 lg:row-start-1 lg:text-left">
           <Logo className="mx-auto mb-5 size-16 lg:hidden" />
           <h1 className="text-[34px] leading-[42px] font-bold tracking-tight lg:text-[44px] lg:leading-[52px]">
-            Your MCA or BCA semester, organised for late-night study.
+            Your MCA, BCA or MBA semester, organised for late-night study.
           </h1>
           <p className="mt-3 text-[17px] leading-7 text-ink-2">
             Notes, previous-year papers, syllabus and references for every subject, in one quiet place.
@@ -280,7 +280,7 @@ export default function Welcome({ onSignedIn }) {
       </main>
 
       <footer className="border-t border-line py-6 text-center text-caption text-ink-3">
-        MCA · BCA · Savitribai Phule Pune University · Made for late-night learners
+        MCA · BCA · MBA · Savitribai Phule Pune University · Made for late-night learners
         <MadeBy className="mt-1.5" />
       </footer>
     </div>
