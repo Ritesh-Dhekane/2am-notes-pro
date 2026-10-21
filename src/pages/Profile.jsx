@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import BirthdayField from '../components/BirthdayField.jsx'
 import PhoneField from '../components/PhoneField.jsx'
 import { SettingsSection, Segmented, Switch } from '../components/Settings.jsx'
 import StudyPicker from '../components/StudyPicker.jsx'
@@ -42,6 +43,7 @@ import {
 import { useBookmarks, useHistory } from '../lib/store.js'
 import { trackEvent } from '../lib/analytics.js'
 import { electivesLabel, isSetupComplete, semesterById } from '../lib/catalog.js'
+import { checkBirthday } from '../lib/birthday.js'
 import { normalizePhone } from '../lib/phone.js'
 import { setStudy, useStudy } from '../lib/study.js'
 
@@ -129,12 +131,13 @@ function Study() {
   )
 }
 
-// Optional phone number, saved with the account (the Students tab), not on this device.
+// Optional phone number and birthday, saved with the account (the Students tab), not on this device.
 function Contact() {
   const { user } = useAuth()
   const idToken = user?.idToken
-  const [saved, setSaved] = useState(null) // the number on the server; null until it has loaded
+  const [saved, setSaved] = useState(null) // { phone, birthday } on the server; null until it has loaded
   const [phone, setPhone] = useState('')
+  const [birthday, setBirthday] = useState('')
   const [check, setCheck] = useState(false)
   const [status, setStatus] = useState('')
 
@@ -144,10 +147,11 @@ function Contact() {
     callApi('getProfile', { idToken })
       .then(({ profile }) => {
         if (cancelled) return
-        setSaved(profile?.phone || '')
+        setSaved({ phone: profile?.phone || '', birthday: profile?.birthday || '' })
         setPhone(profile?.phone || '')
+        setBirthday(profile?.birthday || '')
       })
-      .catch(() => !cancelled && setSaved(''))
+      .catch(() => !cancelled && setSaved({ phone: '', birthday: '' }))
     return () => {
       cancelled = true
     }
@@ -155,13 +159,15 @@ function Contact() {
 
   async function save() {
     const number = normalizePhone(phone)
+    const day = checkBirthday(birthday)
     setCheck(true)
-    if (number.error) return
+    if (number.error || day.error) return
     setStatus('Saving…')
     try {
-      const { profile } = await callApi('saveProfile', { idToken, phone: number.phone })
-      setSaved(profile.phone)
+      const { profile } = await callApi('saveProfile', { idToken, phone: number.phone, birthday: day.birthday })
+      setSaved({ phone: profile.phone, birthday: profile.birthday || '' })
       setPhone(profile.phone)
+      setBirthday(profile.birthday || '')
       setStatus('Saved.')
     } catch {
       setStatus("Couldn't save. Please try again.")
@@ -170,16 +176,26 @@ function Contact() {
 
   return (
     <SettingsSection icon={Phone} title="Contact" description="Saved with your account, not on this device.">
-      <PhoneField
-        value={phone}
-        onChange={(value) => {
-          setPhone(value)
-          setStatus('')
-        }}
-        showError={check}
-      />
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <PhoneField
+          value={phone}
+          onChange={(value) => {
+            setPhone(value)
+            setStatus('')
+          }}
+          showError={check}
+        />
+        <BirthdayField
+          value={birthday}
+          onChange={(value) => {
+            setBirthday(value)
+            setStatus('')
+          }}
+          showError={check}
+        />
+      </div>
       <div className="flex flex-wrap items-center gap-3">
-        <button type="button" className="btn-primary" disabled={saved === null || phone === saved} onClick={save}>
+        <button type="button" className="btn-primary" disabled={saved === null || (phone === saved.phone && birthday === saved.birthday)} onClick={save}>
           <Check className="size-4" aria-hidden="true" /> Save
         </button>
         <p className="text-label text-ink-2" aria-live="polite">

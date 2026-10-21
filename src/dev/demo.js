@@ -8,6 +8,7 @@ import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
 import { DEMO_ROLE_KEY } from '../lib/demoMode.js'
+import { checkBirthday } from '../lib/birthday.js'
 import { normalizePhone } from '../lib/phone.js'
 import { demoBlockFlags, demoExport, demoFlags, demoFlagUpdate, demoOverview, demoStudent, demoStudents } from './adminDemo.js'
 
@@ -540,14 +541,29 @@ export async function handleDemo(action, params) {
       localStorage.setItem('notes-pro.demo-account-study', JSON.stringify(study))
       return { authenticated: true, user, study }
     }
-    // The phone number, kept like the account's study choice.
+    // The phone number and birthday, kept like the account's study choice. A field left out keeps its value.
     case 'getProfile':
-      return { authenticated: true, user, profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '' } }
+      return {
+        authenticated: true,
+        user,
+        profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '', birthday: localStorage.getItem('notes-pro.demo-account-birthday') || '' },
+      }
     case 'saveProfile': {
-      const { phone, error } = normalizePhone(params.phone)
-      if (error) throw new Error('invalid_phone')
-      localStorage.setItem('notes-pro.demo-account-phone', phone)
-      return { authenticated: true, user, profile: { phone } }
+      if (params.phone !== undefined) {
+        const { phone, error } = normalizePhone(params.phone)
+        if (error) throw new Error('invalid_phone')
+        localStorage.setItem('notes-pro.demo-account-phone', phone)
+      }
+      if (params.birthday !== undefined) {
+        const { birthday, error } = checkBirthday(params.birthday)
+        if (error) throw new Error('invalid_birthday')
+        localStorage.setItem('notes-pro.demo-account-birthday', birthday)
+      }
+      return {
+        authenticated: true,
+        user,
+        profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '', birthday: localStorage.getItem('notes-pro.demo-account-birthday') || '' },
+      }
     }
     case 'adminOverview':
       requireAdmin()

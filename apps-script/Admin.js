@@ -242,6 +242,7 @@ function studentFromRow(row) {
     signIns: Number(row[STUDENT_COL.signIns]) || 0,
     opens: Number(row[STUDENT_COL.opens]) || 0,
     device: String(row[STUDENT_COL.device]),
+    birthday: birthdayText(row[STUDENT_COL.birthday]),
   }
 }
 
@@ -287,7 +288,8 @@ function adminStudents(user, params) {
 function adminExport(user) {
   requireAdmin(user)
   var rows = readStudents().map(function (row) {
-    return row.map(function (value) {
+    return row.map(function (value, i) {
+      if (i === STUDENT_COL.birthday) return birthdayText(value)
       if (value instanceof Date) return cellTime(value)
       return typeof value === 'number' ? value : String(value)
     })

@@ -1,6 +1,6 @@
 // Privacy policy, public (linked from the Google sign-in consent screen). Keep it in step with what the
 // app really collects: apps-script/Logging.js (access log), lib/analytics.js (GA4), lib/study.js (semester
-// choice), lib/phone.js (optional phone number), pages/admin (what the owner sees), lib/store.js and lib/offline.js (on-device data). The build copies the app to privacy/index.html
+// choice), lib/phone.js and lib/birthday.js (optional phone number and birthday), pages/admin (what the owner sees), lib/store.js and lib/offline.js (on-device data). The build copies the app to privacy/index.html
 // so this URL answers 200 on GitHub Pages (see scripts/postbuild.mjs).
 
 import { Link } from 'react-router-dom'
@@ -84,6 +84,11 @@ export default function Privacy() {
             You can also add a <strong className="text-ink">phone number</strong>. It is optional, stored privately with
             your account, and seen only by the portal&apos;s owner, to reach you if there is a problem with your account. It
             is never sent to Google Analytics. Remove it any time in Profile &amp; Settings.
+          </p>
+          <p>
+            Your <strong className="text-ink">birthday</strong> is optional too. It is stored privately with your account
+            and seen only by the portal&apos;s owner. It is never sent to Google Analytics. Remove it any time in Profile
+            &amp; Settings.
           </p>
         </Section>
 

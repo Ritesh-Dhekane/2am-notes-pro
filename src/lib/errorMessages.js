@@ -30,6 +30,7 @@ const FRIENDLY_MESSAGES = {
   announcement_not_found: 'This announcement no longer exists. Reload the list.',
   announcements_too_large: 'Too many active announcements to save. Deactivate a few first.',
   invalid_phone: 'Enter a 10-digit number, or + and your country code.',
+  invalid_birthday: 'Enter a real date: your age must be between 15 and 80.',
   profile_not_saved: "Couldn't save right now. Please try again.",
   server_misconfigured_missing_drive_root:
     "The backend isn't fully configured yet (missing Drive root folder). See the README (Apps Script Backend).",

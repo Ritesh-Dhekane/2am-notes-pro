@@ -4,6 +4,7 @@
 import { ArrowRight } from 'lucide-react'
 import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import BirthdayField from '../components/BirthdayField.jsx'
 import PhoneField from '../components/PhoneField.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
 import StudyPicker from '../components/StudyPicker.jsx'
@@ -12,6 +13,7 @@ import { useAuth } from '../context/useAuth.js'
 import { trackEvent } from '../lib/analytics.js'
 import { callApi } from '../lib/api.js'
 import { electivesLabel, groupChoiceCount, groupNeeds, isSetupComplete, semesterById } from '../lib/catalog.js'
+import { checkBirthday } from '../lib/birthday.js'
 import { normalizePhone } from '../lib/phone.js'
 import { getStudy, setStudy } from '../lib/study.js'
 
@@ -32,7 +34,8 @@ export default function Setup() {
     return { semester, electives }
   })
   const [phone, setPhone] = useState('')
-  const [checkPhone, setCheckPhone] = useState(false)
+  const [birthday, setBirthday] = useState('')
+  const [checkFields, setCheckFields] = useState(false)
   const semester = semesterById(draft.semester)
   const ready = isSetupComplete(semester, draft.electives)
   const missing = semester?.groups.filter((g) => groupChoiceCount(g, draft.electives) !== groupNeeds(g)) || []
@@ -41,14 +44,21 @@ export default function Setup() {
     event.preventDefault()
     if (!ready) return
     const number = normalizePhone(phone)
-    if (number.error) {
-      setCheckPhone(true)
-      document.getElementById('phone')?.focus()
+    const day = checkBirthday(birthday)
+    if (number.error || day.error) {
+      setCheckFields(true)
+      document.getElementById(number.error ? 'phone' : 'birthday')?.focus()
       return
     }
     setStudy(draft, user?.idToken)
-    // Best effort, like the choice itself; it can be added again in Profile.
-    if (number.phone && user?.idToken) callApi('saveProfile', { idToken: user.idToken, phone: number.phone }).catch(() => {})
+    // Best effort, like the choice itself; both can be added again in Profile. Only what was filled in is sent.
+    if ((number.phone || day.birthday) && user?.idToken) {
+      callApi('saveProfile', {
+        idToken: user.idToken,
+        ...(number.phone ? { phone: number.phone } : {}),
+        ...(day.birthday ? { birthday: day.birthday } : {}),
+      }).catch(() => {})
+    }
     trackEvent('semester_setup', { semester: draft.semester, electives: electivesLabel(semester, draft.electives) })
     const from = location.state?.from
     navigate(from && from !== '/setup' ? from : '/', { replace: true })
@@ -73,8 +83,9 @@ export default function Setup() {
         <form id="setup" onSubmit={finish}>
           <StudyPicker value={draft} onChange={setDraft} />
           {semester && (
-            <div className="mt-8">
-              <PhoneField value={phone} onChange={setPhone} showError={checkPhone} />
+            <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
+              <PhoneField value={phone} onChange={setPhone} showError={checkFields} />
+              <BirthdayField value={birthday} onChange={setBirthday} showError={checkFields} />
             </div>
           )}
         </form>

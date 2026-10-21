@@ -4,6 +4,7 @@
 import { ArrowLeft, Ban, ChevronLeft, ChevronRight, Lightbulb } from 'lucide-react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ErrorState, Skeleton } from '../../components/ui.jsx'
+import { ageOf } from '../../lib/birthday.js'
 import { subjectLook } from '../../lib/subjects.js'
 import { daysSince, formatTime, semesterLabel, useAdmin, useAdminAction } from './adminData.js'
 import { Bars, BlockControl, FlagItem, Panel } from './bits.jsx'
@@ -33,6 +34,7 @@ function Profile({ student }) {
     ['Semester', student.semester ? semesterLabel(student.semester) : 'Not chosen'],
     ['Electives', electives.join(', ') || '–'],
     ['Phone', student.phone || '–'],
+    ['Birthday', student.birthday ? `${student.birthday} (age ${ageOf(student.birthday)})` : '–'],
     ['First seen', formatTime(student.firstSeen)],
     ['Last seen', formatTime(student.lastSeen)],
     ['Sign-ins', student.signIns ?? '–'],

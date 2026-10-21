@@ -7,7 +7,7 @@
 
 // Bump on every backend change: /admin/health and the health check show it, to tell whether the
 // latest code is deployed.
-var BACKEND_VERSION = '1.0.0'
+var BACKEND_VERSION = '1.1.0'
 
 function doGet(e) {
   return jsonResponse({
@@ -82,7 +82,7 @@ function doPost(e) {
       case 'getProfile':
         return jsonResponse({ authenticated: true, user: user, profile: getProfile(user.email) })
       case 'saveProfile':
-        return jsonResponse({ authenticated: true, user: user, profile: saveProfile(user, { phone: body.phone }) })
+        return jsonResponse({ authenticated: true, user: user, profile: saveProfile(user, { phone: body.phone, birthday: body.birthday }) })
       case 'adminOverview':
         return jsonResponse({ authenticated: true, user: user, overview: adminOverview(user, body.fresh) })
       case 'adminStudents':

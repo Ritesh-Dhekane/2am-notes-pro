@@ -25,12 +25,12 @@ const TABLET = { device: 'Tablet', browser: 'Safari 26', os: 'iPadOS 26' }
 // start: days since first sign-in; last: days since last visit; opens: files opened; unitOne: only Unit 1 notes.
 const PEOPLE = [
   { email: 'ritesh@example.com', name: 'Ritesh Dhekane', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cyber-security'] }, client: LAPTOP, installed: 'Yes', start: 40, last: 0, opens: 24 },
-  { email: 'aarti.patil@example.com', name: 'Aarti Patil', phone: '+919876543210', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cloud-computing-management-and-security'] }, client: PHONE, installed: 'Yes', start: 28, last: 0, opens: 31 },
+  { email: 'aarti.patil@example.com', name: 'Aarti Patil', phone: '+919876543210', birthday: '2001-08-14', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cloud-computing-management-and-security'] }, client: PHONE, installed: 'Yes', start: 28, last: 0, opens: 31 },
   { email: 'rohan.kulkarni@example.com', name: 'Rohan Kulkarni', semester: 'MCA-Sem-III', electives: { 'elective-iv': 'tableau', 'elective-v': 'deep-learning', 'elective-vi': 'e-commerce' }, client: PHONE, installed: 'No', start: 21, last: 1, opens: 14 },
   { email: 'sneha.joshi@example.com', name: 'Sneha Joshi', phone: '+918888812345', semester: 'MCA-Sem-III', electives: { 'elective-iv': 'tableau', 'elective-v': 'mern-stack-development', 'elective-vi': 'enterprise-resource-planning' }, client: IPHONE, installed: 'No', start: 18, last: 3, opens: 9 },
   { email: 'vikram.shinde@example.com', name: 'Vikram Shinde', semester: 'MCA-Sem-III', electives: { 'elective-iv': 'tableau', 'elective-v': 'deep-learning', 'elective-vi': 'e-commerce' }, client: LAPTOP, installed: 'No', start: 25, last: 20, opens: 3, unitOne: true },
   { email: 'priya.deshmukh@example.com', name: 'Priya Deshmukh', semester: 'MCA-Sem-I', electives: { 'elective-i': 'data-analytics' }, client: PHONE, installed: 'Yes', start: 6, last: 0, opens: 7, unitOne: true },
-  { email: 'amit.more@example.com', name: 'Amit More', phone: '+917700011122', semester: 'BCA-Sem-V', electives: { elective: 'cloud-computing' }, client: TABLET, installed: 'No', start: 12, last: 2, opens: 5 },
+  { email: 'amit.more@example.com', name: 'Amit More', phone: '+917700011122', birthday: '2004-02-29', semester: 'BCA-Sem-V', electives: { elective: 'cloud-computing' }, client: TABLET, installed: 'No', start: 12, last: 2, opens: 5 },
   { email: 'neha.pawar@example.com', name: 'Neha Pawar', semester: 'BCA-Sem-V', electives: { elective: 'ui-ux-design' }, client: PHONE, installed: 'No', start: 4, last: 4, opens: 0 },
   { email: 'kunal.gaikwad@example.com', name: 'Kunal Gaikwad', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cyber-security'] }, client: PHONE, installed: 'Yes', start: 15, last: 9, opens: 11 },
   { email: 'pooja.jadhav@example.com', name: 'Pooja Jadhav', semester: 'BCA-Sem-V', electives: { elective: 'bca-cyber-security' }, client: LAPTOP, installed: 'No', start: 2, last: 0, opens: 2, unitOne: true },
@@ -73,7 +73,9 @@ function data(semesters) {
 
   const students = PEOPLE.map((person) => {
     const mine = log.filter((r) => r.email === person.email)
-    const phone = person.email === 'ritesh@example.com' ? localStorage.getItem('notes-pro.demo-account-phone') || '' : person.phone || ''
+    const own = person.email === 'ritesh@example.com'
+    const phone = own ? localStorage.getItem('notes-pro.demo-account-phone') || '' : person.phone || ''
+    const birthday = own ? localStorage.getItem('notes-pro.demo-account-birthday') || '' : person.birthday || ''
     return {
       email: person.email,
       name: person.name,
@@ -86,6 +88,7 @@ function data(semesters) {
       signIns: mine.filter((r) => r.event === 'login').length,
       opens: mine.filter((r) => r.event === 'file_open').length,
       device: `${person.client.device} · ${person.client.browser} · ${person.client.os}`,
+      birthday,
     }
   })
   cache = { students, log }
@@ -186,7 +189,7 @@ export function demoOverview(semesters) {
 
 // Like adminExport: every Students-tab column, as the sheet holds it.
 export function demoExport(semesters) {
-  const headers = ['Email', 'Name', 'Phone', 'Course', 'Semester', 'Electives', 'First seen', 'Last seen', 'Sign-ins', 'File opens', 'Last device', 'Choices saved']
+  const headers = ['Email', 'Name', 'Phone', 'Course', 'Semester', 'Electives', 'First seen', 'Last seen', 'Sign-ins', 'File opens', 'Last device', 'Choices saved', 'Birthday']
   const rows = data(semesters).students.map((s) => [
     s.email,
     s.name,
@@ -200,6 +203,7 @@ export function demoExport(semesters) {
     s.opens,
     s.device,
     new Date(`${s.firstSeen.replace(' ', 'T')}+05:30`).toISOString(),
+    s.birthday,
   ])
   return { headers, rows }
 }
