@@ -52,9 +52,9 @@ export default function Setup() {
       </header>
       <main id="main" className="mx-auto max-w-3xl px-5 pt-4 pb-32">
         <p className="font-mono text-caption text-teal-ink">Welcome{user?.firstName ? `, ${user.firstName}` : ''}</p>
-        <h1 className="mt-1 text-display">Set up your semester</h1>
+        <h1 className="mt-1 text-display">Set up your course</h1>
         <p className="mt-1 mb-8 text-body text-ink-2">
-          You'll only see your semester's subjects and the electives you take. You can change this later in Profile &amp;
+          Pick your course and semester. You'll only see that semester's subjects and the electives you take. You can change this later in Profile &amp;
           Settings.
         </p>
         <form id="setup" onSubmit={finish}>
@@ -65,7 +65,7 @@ export default function Setup() {
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-4 px-5 py-3">
           <p className="min-w-0 text-label text-ink-2" aria-live="polite">
             {!semester
-              ? 'Choose your semester to continue.'
+              ? 'Choose your course and semester to continue.'
               : missing.length
                 ? `Still to choose: ${missing.map((g) => stillToChoose(g, draft.electives)).join(', ')}.`
                 : 'All set.'}

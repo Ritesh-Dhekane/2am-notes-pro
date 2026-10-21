@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import LibraryGate from '../components/LibraryGate.jsx'
 import SubjectCard from '../components/SubjectCard.jsx'
 import { EmptyState } from '../components/ui.jsx'
+import { semesterTitle } from '../lib/catalog.js'
 import { useStudy } from '../lib/study.js'
 
 export default function Subjects() {
@@ -10,7 +11,7 @@ export default function Subjects() {
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <p className="font-mono text-caption text-teal-ink">MCA {semester?.label}</p>
+        <p className="font-mono text-caption text-teal-ink">{semesterTitle(semester)}</p>
         <h1 className="mt-1 text-display">Subjects</h1>
         <p className="mt-1 text-body text-ink-2">
           Your core subjects and electives.{' '}

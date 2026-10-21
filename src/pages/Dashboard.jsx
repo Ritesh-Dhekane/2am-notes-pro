@@ -10,6 +10,7 @@ import { fileHref, kindLabel } from '../lib/files.js'
 import { Card, EmptyState, Skeleton, Tag } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { useBookmarks, useHistory } from '../lib/store.js'
+import { semesterTitle } from '../lib/catalog.js'
 import { useStudy } from '../lib/study.js'
 
 function greeting(hour) {
@@ -101,7 +102,7 @@ function DashboardBody({ library }) {
   }
 
   return (
-    <div className="grid gap-8 xl:grid-cols-[1fr_320px]">
+    <div className="grid grid-cols-[minmax(0,1fr)] gap-8 xl:grid-cols-[minmax(0,1fr)_320px]">
       <div className="flex min-w-0 flex-col gap-8">
         <div className="flex gap-2 overflow-x-auto scrollbar-none">
           <Link to="/pyqs" className="btn-secondary shrink-0 bg-surface">
@@ -133,7 +134,7 @@ function DashboardBody({ library }) {
               <LayoutGrid className="size-5 text-primary-ink" aria-hidden="true" /> Your subjects
             </h2>
             <span className="font-mono text-caption text-ink-3">
-              MCA {library.semester?.short ?? ''} · {library.subjects.length}
+              {semesterTitle(library.semester, { short: true })} · {library.subjects.length}
             </span>
           </div>
           <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -215,7 +216,7 @@ export default function Dashboard() {
           {greeting(now.getHours())}, {user.firstName || 'there'}
         </h1>
         <p className="relative mt-1 text-body text-ink-2">
-          {semester ? `MCA ${semester.label}` : 'MCA'} · pick up where you left off.
+          {semesterTitle(semester) || 'Your semester'} · pick up where you left off.
         </p>
       </Card>
 

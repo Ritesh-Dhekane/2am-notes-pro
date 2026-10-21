@@ -8,7 +8,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06b6d4?logo=tailwindcss&logoColor=white)
 ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285f4?logo=googleappsscript&logoColor=white)
 
-A private MCA study portal: subject-wise notes, previous-year papers (PYQs) and references, stored in Google Drive and opened only after Google sign-in.
+A private study portal for MCA and BCA students (Savitribai Phule Pune University): subject-wise notes, previous-year papers (PYQs) and references, stored in Google Drive and opened only after Google sign-in.
 
 ## Features
 - **Sign-in flow**: visitors see every semester's subjects with their note and paper counts, locked. After Google sign-in, students pick their semester and electives (changeable in Settings), and only those subjects appear.
@@ -85,8 +85,12 @@ Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps
   MCA-Sem-III/
     subjects/
       …
+  BCA-Sem-V/                     # <COURSE>-Sem-<N>: the prefix is the course
+    subjects/
+      …
 ```
 - Category folders are flat (files directly inside `notes/`, `pyqs/` and `references/`).
+- A new course or semester needs an entry in `COURSES` / `SEMESTERS` in `src/lib/catalog.js`; subject slugs must be unique across courses (e.g. `bca-cyber-security`).
 - A new subject folder shows up without code changes. Its proper name, icon and core/elective group come from `src/lib/catalog.js`; until it's listed there, it shows as a core subject with a plain look.
 - In notes, a blockquote starting with `**Exam tip:**`, `**Important:**`, `**Definition:**` or `**Note:**`, or a GitHub-style `> [!NOTE]` / `[!TIP]` / `[!IMPORTANT]` / `[!WARNING]`, becomes a callout.
 - Notes and text open in the reader. PDFs, images, Word, Excel/CSV and PowerPoint files open in the viewer. Old `.doc` and `.ppt` files are download-only.

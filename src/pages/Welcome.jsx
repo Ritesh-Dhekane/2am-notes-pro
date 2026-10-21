@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import SignInCard from '../components/SignInCard.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
 import { Logo, MadeBy, SubjectIcon } from '../components/ui.jsx'
-import { SEMESTERS } from '../lib/catalog.js'
+import { COURSES, SEMESTERS } from '../lib/catalog.js'
 import { loadCatalog } from '../lib/library.js'
 import { subjectLook } from '../lib/subjects.js'
 
@@ -106,7 +106,7 @@ function SubjectTile({ slug, entry, onSignIn }) {
 
 export default function Welcome({ onSignedIn }) {
   const [catalog, setCatalog] = useState(null) // Map semesterId → Map slug → entry, or null
-  const [active, setActive] = useState(SEMESTERS[SEMESTERS.length - 1].id)
+  const [active, setActive] = useState(SEMESTERS.filter((s) => s.course === COURSES[0].id).at(-1).id)
 
   useEffect(() => {
     let cancelled = false
@@ -122,6 +122,15 @@ export default function Welcome({ onSignedIn }) {
   }, [])
 
   const semester = SEMESTERS.find((s) => s.id === active)
+  const courseSemesters = SEMESTERS.filter((s) => s.course === semester.course)
+
+  // A course opens on its latest semester that has notes (or its latest one, before the counts load).
+  function pickCourse(id) {
+    if (id === semester.course) return
+    const options = SEMESTERS.filter((s) => s.course === id)
+    const hasNotes = (s) => [...(catalog?.get(s.id)?.values() ?? [])].some((x) => x.counts?.notes)
+    setActive((options.findLast(hasNotes) ?? options.at(-1)).id)
+  }
   const all = catalog ? [...catalog.values()].flatMap((m) => [...m.values()]) : []
   const totals = all.length
     ? [
@@ -156,7 +165,7 @@ export default function Welcome({ onSignedIn }) {
         <div className="text-center lg:col-start-1 lg:row-start-1 lg:text-left">
           <Logo className="mx-auto mb-5 size-16 lg:hidden" />
           <h1 className="text-[34px] leading-[42px] font-bold tracking-tight lg:text-[44px] lg:leading-[52px]">
-            Your MCA semester, organised for late-night study.
+            Your MCA or BCA semester, organised for late-night study.
           </h1>
           <p className="mt-3 text-[17px] leading-7 text-ink-2">
             Notes, previous-year papers, syllabus and references for every subject, in one quiet place.
@@ -191,27 +200,45 @@ export default function Welcome({ onSignedIn }) {
               </span>
             </div>
 
-            <div
-              role="tablist"
-              aria-label="Semester"
-              className="mb-4 inline-flex rounded-xl border border-line bg-surface p-1"
-            >
-              {SEMESTERS.map((s) => (
-                <button
-                  key={s.id}
-                  type="button"
-                  role="tab"
-                  id={`tab-${s.id}`}
-                  aria-selected={s.id === active}
-                  aria-controls="semester-panel"
-                  onClick={() => setActive(s.id)}
-                  className={`min-h-10 rounded-lg px-4 text-label font-semibold transition-colors ${
-                    s.id === active ? 'bg-primary text-on-primary' : 'text-ink-2 hover:text-ink'
-                  }`}
-                >
-                  {s.label}
-                </button>
-              ))}
+            <div className="mb-4 flex flex-wrap gap-2">
+              <div role="group" aria-label="Course" className="inline-flex rounded-xl border border-line bg-surface p-1">
+                {COURSES.map((c) => (
+                  <button
+                    key={c.id}
+                    type="button"
+                    aria-pressed={c.id === semester.course}
+                    title={c.full}
+                    onClick={() => pickCourse(c.id)}
+                    className={`min-h-10 rounded-lg px-4 text-label font-semibold transition-colors ${
+                      c.id === semester.course ? 'bg-ink text-canvas' : 'text-ink-2 hover:text-ink'
+                    }`}
+                  >
+                    {c.name}
+                  </button>
+                ))}
+              </div>
+              <div
+                role="tablist"
+                aria-label="Semester"
+                className="inline-flex rounded-xl border border-line bg-surface p-1"
+              >
+                {courseSemesters.map((s) => (
+                  <button
+                    key={s.id}
+                    type="button"
+                    role="tab"
+                    id={`tab-${s.id}`}
+                    aria-selected={s.id === active}
+                    aria-controls="semester-panel"
+                    onClick={() => setActive(s.id)}
+                    className={`min-h-10 rounded-lg px-4 text-label font-semibold transition-colors ${
+                      s.id === active ? 'bg-primary text-on-primary' : 'text-ink-2 hover:text-ink'
+                    }`}
+                  >
+                    {s.label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div id="semester-panel" role="tabpanel" aria-labelledby={`tab-${active}`} className="flex flex-col gap-5">
@@ -253,7 +280,7 @@ export default function Welcome({ onSignedIn }) {
       </main>
 
       <footer className="border-t border-line py-6 text-center text-caption text-ink-3">
-        MCA · Savitribai Phule Pune University · Made for late-night learners
+        MCA · BCA · Savitribai Phule Pune University · Made for late-night learners
         <MadeBy className="mt-1.5" />
       </footer>
     </div>
