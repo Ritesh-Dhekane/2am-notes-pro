@@ -102,7 +102,7 @@ function DashboardBody({ library }) {
   }
 
   return (
-    <div className="grid gap-8 xl:grid-cols-[1fr_320px]">
+    <div className="grid grid-cols-[minmax(0,1fr)] gap-8 xl:grid-cols-[minmax(0,1fr)_320px]">
       <div className="flex min-w-0 flex-col gap-8">
         <div className="flex gap-2 overflow-x-auto scrollbar-none">
           <Link to="/pyqs" className="btn-secondary shrink-0 bg-surface">
