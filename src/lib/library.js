@@ -3,8 +3,8 @@
 // Backend contract (Apps Script, see apps-script/):
 // - `catalog` (no sign-in): { semesters: [{ id, subjects: [{ slug, name, counts: { notes, pyqs,
 //   references }, hasSyllabus, unit1: [file], sample: { paper, question, kind: exam|practice } | null }] }] } — what's on
-//   offer; only Unit 1 notes are named.
-// - `previewFile` / `previewAsset` (no sign-in): like getFile / getAsset, for Unit 1 notes only.
+//   offer; only Unit 1 notes are named, plus `free`: other files an admin made a free preview.
+// - `previewFile` / `previewAsset` (no sign-in): like getFile / getAsset, for those free files only.
 // - `listLibrary` ({ idToken, semester }): { subjects: [{ slug, name, files: { notes, pyqs,
 //   references }, syllabus, comingSoon?, hidden? }] }, where syllabus is a file or null. Coming-soon
 //   subjects come without files; hidden subjects and files only reach admins (marked `hidden`).

@@ -66,20 +66,21 @@ function SubjectTile({ slug, entry, onSignIn }) {
         .filter(Boolean)
         .join(' · ') || 'Coming soon'
     : look.about
-  const free = entry?.unit1?.[0]
+  const free = entry?.unit1?.[0] || entry?.free?.[0] // Unit 1, else another free preview
+  const freeLabel = entry?.unit1?.length ? 'Unit 1 free' : 'Free preview'
   if (free) {
     return (
       <li>
         <Link
           to={`/preview/${slug}/${free.id}`}
           className="flex w-full items-center gap-3 rounded-2xl border border-line bg-surface p-3.5 text-left transition-colors hover:border-line-strong"
-          aria-label={`${look.name}: ${detail}. Read Unit 1 free.`}
+          aria-label={`${look.name}: ${detail}. ${freeLabel}.`}
         >
           <SubjectIcon look={look} />
           <span className="min-w-0 flex-1">
             <span className="block truncate text-body font-semibold">{look.name}</span>
             <span className="block truncate text-label text-ink-2">
-              <span className="font-semibold text-primary-ink">Unit 1 free</span> · {detail}
+              <span className="font-semibold text-primary-ink">{freeLabel}</span> · {detail}
             </span>
           </span>
           <BookOpen className="size-4 shrink-0 text-primary-ink" aria-hidden="true" />

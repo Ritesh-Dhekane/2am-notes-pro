@@ -234,10 +234,26 @@ export function demoStudent(semesters, { email = '', page = 1 } = {}) {
 // The Flags tab (apps-script/Flags.js): one automation, one burst, one already dismissed. `row` is the
 // sheet row, the id adminFlagUpdate takes.
 const FLAGS = [
-  { row: 2, time: ist(Date.now() - 6 * DAY), email: 'aarti.patil@example.com', rule: 'devices', evidence: '5 devices in 7 days: Phone Â· Chrome 141 Â· Android 15; Desktop Â· Chrome 141 Â· Windows 11; Tablet Â· Safari 26 Â· iPadOS 26â€¦', status: 'dismissed', reviewedBy: 'ritesh@example.com', reviewedAt: ist(Date.now() - 5 * DAY) },
+  { row: 2, time: ist(Date.now() - 6 * DAY), email: 'aarti.patil@example.com', rule: 'devices', evidence: '5 devices in 7 days: Phone · Chrome 141 · Android 15; Desktop · Chrome 141 · Windows 11; Tablet · Safari 26 · iPadOS 26…', status: 'dismissed', reviewedBy: 'ritesh@example.com', reviewedAt: ist(Date.now() - 5 * DAY) },
   { row: 3, time: ist(Date.now() - 2 * DAY), email: 'vikram.shinde@example.com', rule: 'automation', evidence: '"HeadlessChrome" in HeadlessChrome 141 Linux', status: 'open', reviewedBy: '', reviewedAt: '' },
   { row: 4, time: ist(Date.now() - 3 * 60 * 60 * 1000), email: 'kunal.gaikwad@example.com', rule: 'burst', evidence: '19 file opens in 1 minute', status: 'open', reviewedBy: '', reviewedAt: '' },
 ]
+
+// Reviews are kept in localStorage, like the sheet keeps them across reloads.
+const FLAGS_KEY = 'notes-pro.demo-flags'
+try {
+  const saved = JSON.parse(localStorage.getItem(FLAGS_KEY) || '{}')
+  for (const f of FLAGS) Object.assign(f, saved[f.row])
+} catch {
+  // storage blocked: the sample states
+}
+function saveFlags() {
+  try {
+    localStorage.setItem(FLAGS_KEY, JSON.stringify(Object.fromEntries(FLAGS.map(({ row, status, reviewedBy, reviewedAt }) => [row, { status, reviewedBy, reviewedAt }]))))
+  } catch {
+    // storage blocked: kept for this visit
+  }
+}
 
 export function demoFlags({ status = '', email = '', badge = false } = {}) {
   const counts = { open: 0, dismissed: 0, blocked: 0 }
@@ -249,11 +265,13 @@ export function demoFlags({ status = '', email = '', badge = false } = {}) {
 // Blocking marks the student's open flags.
 export function demoBlockFlags(email, admin) {
   for (const f of FLAGS) if (f.email === email && f.status === 'open') Object.assign(f, { status: 'blocked', reviewedBy: admin, reviewedAt: ist(Date.now()) })
+  saveFlags()
 }
 
 export function demoFlagUpdate({ row, status }, admin) {
   const flag = FLAGS.find((f) => f.row === Number(row))
   if (!flag || !['open', 'dismissed', 'blocked'].includes(status)) throw new Error('flag_not_found')
   Object.assign(flag, { status, reviewedBy: admin, reviewedAt: ist(Date.now()) })
+  saveFlags()
   return { ...flag }
 }

@@ -1,6 +1,7 @@
 // Entry point for the 2am-notes-pro backend web app.
 // doGet is a health check. doPost is the API router. Public: `catalog` (counts, plus each subject's
-// Unit 1 notes and one sample PYQ question) and `previewFile` / `previewAsset` (Unit 1 notes only).
+// Unit 1 notes and one sample PYQ question) and `previewFile` / `previewAsset` (Unit 1 notes, and
+// any file an admin made a free preview).
 // Content hidden or coming soon in /admin/content (Visibility.js) is applied to every listing and file.
 // Everything else needs a session or a Google ID token, sent as `idToken` (Auth.js).
 

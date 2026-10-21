@@ -6,10 +6,11 @@
 //                admins still get them, marked `hidden`.
 //   comingSoon:  semester or subject paths. Listed with a "Coming soon" badge, but their files aren't
 //                served to students.
+//   freePreview: file ids that open signed out, as well as every Unit 1 note (see isFreePreview).
 // The listings are cached without the rules (Drive.js) and the rules are applied on every request,
 // so a change shows straight away without rebuilding any cache.
 
-var VISIBILITY_LISTS = ['hidden', 'comingSoon']
+var VISIBILITY_LISTS = ['hidden', 'comingSoon', 'freePreview']
 var VISIBILITY_MAX_CHARS = 8000
 
 var visibility_ = null
@@ -53,10 +54,35 @@ function assertVisible(where, id, admin) {
   if (isComingSoon(rules, where)) throw new Error('coming_soon')
 }
 
+// Signed-out readers may open Unit 1 notes (PREVIEW_PATH in Drive.js) and the files listed in freePreview.
+function isFreePreview(where, id) {
+  return PREVIEW_PATH.test(where) || getVisibility().freePreview.indexOf(id) !== -1
+}
+
+// The freePreview files other than Unit 1 notes, by subject path, from the cached listings.
+function extraFreeFiles(rules, semesters) {
+  var bySubject = {}
+  if (!rules.freePreview.length) return bySubject
+  semesters.forEach(function (semester) {
+    rawLibrary(semester.id).forEach(function (subject) {
+      var path = semester.id + '/' + subject.slug
+      Object.keys(subject.files).forEach(function (category) {
+        subject.files[category].forEach(function (file) {
+          var where = path + '/' + category + '/' + file.name
+          if (rules.freePreview.indexOf(file.id) === -1 || PREVIEW_PATH.test(where) || isHiddenPath(rules, where, file.id)) return
+          bySubject[path] = (bySubject[path] || []).concat([Object.assign({ category: category }, file)])
+        })
+      })
+    })
+  })
+  return bySubject
+}
+
 // The public catalog for students: hidden semesters and subjects left out, coming-soon ones marked
-// and without their Unit 1 notes or sample question.
+// and without their Unit 1 notes or sample question. `free` lists a subject's other free previews.
 function visibleCatalog(semesters) {
   var rules = getVisibility()
+  var free = extraFreeFiles(rules, semesters)
   return semesters
     .filter(function (semester) {
       return !isHiddenPath(rules, semester.id)
@@ -69,10 +95,11 @@ function visibleCatalog(semesters) {
         })
         .map(function (subject) {
           var path = semester.id + '/' + subject.slug
-          var copy = Object.assign({}, subject)
+          var copy = Object.assign({}, subject, { free: free[path] || [] })
           if (semesterSoon || isComingSoon(rules, path)) {
             copy.comingSoon = true
             copy.unit1 = []
+            copy.free = []
             copy.sample = null
           }
           copy.unit1 = (copy.unit1 || []).filter(function (file) {
@@ -153,7 +180,7 @@ function adminVisibility(user) {
   }
 }
 
-// params: { visibility: { hidden, comingSoon } }, the whole new set of rules.
+// params: { visibility: { hidden, comingSoon, freePreview } }, the whole new set of rules.
 function adminVisibilitySet(user, params) {
   requireAdmin(user)
   var input = (params && params.visibility) || {}

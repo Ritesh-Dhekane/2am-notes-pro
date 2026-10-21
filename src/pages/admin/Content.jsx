@@ -1,6 +1,7 @@
-// /admin/content: every semester, subject and file, to hide or show and to mark as coming soon. The
-// backend enforces the rules (apps-script/Visibility.js): students never get hidden items, and
-// coming-soon subjects are listed without their files. Each change is saved straight away.
+// /admin/content: every semester, subject and file, to hide or show, to mark as coming soon, and to
+// open files signed out as a free preview besides Unit 1. The backend enforces the rules
+// (apps-script/Visibility.js): students never get hidden items, and coming-soon subjects are listed
+// without their files. Each change is saved straight away.
 
 import { ChevronDown, ChevronRight, Eye, EyeOff } from 'lucide-react'
 import { useState } from 'react'
@@ -9,6 +10,7 @@ import { semesterLabel, useAdmin, useAdminAction } from './adminData.js'
 import { Panel } from './bits.jsx'
 
 const CATEGORY_LABEL = { notes: 'Notes', pyqs: 'PYQs', assignments: 'Assignments', references: 'References' }
+const UNIT_ONE = /^unit[\s_-]*0*1(?!\d)/i // like PREVIEW_PATH in apps-script/Drive.js
 
 // Whether `path` is in the list or under one of its paths; file ids match exactly (like listCovers).
 function covers(list, path, id) {
@@ -46,7 +48,7 @@ function Row({ depth, name, detail, expanded, onExpand, state, children }) {
   return (
     <div className={`flex flex-wrap items-center gap-x-3 gap-y-2 py-2 ${depth === 1 ? 'pl-4 sm:pl-6' : depth === 2 ? 'pl-8 sm:pl-12' : ''}`}>
       {onExpand ? (
-        <button type="button" onClick={onExpand} aria-expanded={expanded} className="flex min-h-10 min-w-0 flex-1 items-center gap-2 text-left">
+        <button type="button" onClick={onExpand} aria-expanded={expanded} className="flex min-h-10 min-w-0 flex-[1_1_100%] items-center gap-2 text-left sm:flex-1">
           {expanded ? <ChevronDown className="size-4 shrink-0 text-ink-3" aria-hidden="true" /> : <ChevronRight className="size-4 shrink-0 text-ink-3" aria-hidden="true" />}
           <span className="min-w-0">
             <span className={`block truncate ${depth === 0 ? 'text-heading' : 'text-body font-semibold'} text-ink`}>{name}</span>
@@ -54,7 +56,7 @@ function Row({ depth, name, detail, expanded, onExpand, state, children }) {
           </span>
         </button>
       ) : (
-        <span className="min-w-0 flex-1">
+        <span className="min-w-0 flex-[1_1_100%] sm:flex-1">
           <span className="block truncate text-label text-ink" title={name}>
             {name}
           </span>
@@ -107,13 +109,30 @@ export default function Content() {
     )
   }
 
+  // Unit 1 notes are always free; any other file can be added.
+  function freeToggle(f) {
+    if (f.category === 'notes' && UNIT_ONE.test(f.name)) {
+      return (
+        <Toggle on disabled>
+          Free (Unit 1)
+        </Toggle>
+      )
+    }
+    const on = rules.freePreview.includes(f.id)
+    return (
+      <Toggle on={on} disabled={action.busy} onClick={() => save({ freePreview: on ? without(rules.freePreview, f.id) : [...rules.freePreview, f.id] })}>
+        Free preview
+      </Toggle>
+    )
+  }
+
   return (
     <div className="flex flex-col gap-5">
       <div>
         <h1 className="text-display">Content</h1>
         <p className="mt-1 text-body text-ink-2">
           Hidden items disappear for students, and links to them stop working. Coming-soon subjects stay listed with a badge, but their files
-          don't open. Admins still see everything. Changes apply straight away.
+          don't open. Free previews open without signing in, like Unit 1 notes. Admins still see everything. Changes apply straight away.
         </p>
       </div>
       {action.error && (
@@ -174,6 +193,7 @@ export default function Content() {
                                   <li key={f.id}>
                                     <Row depth={2} name={f.name} detail={CATEGORY_LABEL[f.category] || 'Syllabus'} state={{ hidden: fileHidden }}>
                                       {hideToggle(f.path, f.id, fileHidden, hidden)}
+                                      {freeToggle(f)}
                                     </Row>
                                   </li>
                                 )

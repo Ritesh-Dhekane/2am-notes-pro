@@ -389,6 +389,7 @@ const VISIBILITY_KEY = 'notes-pro.demo-visibility'
 const SAMPLE_VISIBILITY = {
   hidden: ['MCA-Sem-III/practicals', 'MCA-Sem-II/java-programming/references/java-exception-hierarchy-cheat-sheet.md'],
   comingSoon: ['MCA-Sem-II/optimization-techniques', 'BCA-Sem-VI'],
+  freePreview: [],
 }
 
 function readVisibility() {
@@ -399,6 +400,7 @@ function readVisibility() {
   }
 }
 
+const UNIT_ONE = /^unit[-_ ]*0*1(?!\d)/i
 const covers = (list, path, id) => list.some((item) => item === path || (id && item === id) || path.startsWith(`${item}/`))
 
 // Where a file sits, "<semester>/<subject>/<category>/<name>", like assertFileUnderRoot.
@@ -546,7 +548,7 @@ export async function handleDemo(action, params) {
     case 'adminVisibilitySet': {
       requireAdmin()
       const input = params.visibility || {}
-      const rules = Object.fromEntries(['hidden', 'comingSoon'].map((key) => [key, [...new Set((input[key] || []).map(String).filter(Boolean))]]))
+      const rules = Object.fromEntries(['hidden', 'comingSoon', 'freePreview'].map((key) => [key, [...new Set((input[key] || []).map(String).filter(Boolean))]]))
       localStorage.setItem(VISIBILITY_KEY, JSON.stringify(rules))
       return { authenticated: true, user, visibility: readVisibility() }
     }
@@ -564,12 +566,18 @@ export async function handleDemo(action, params) {
               .filter((s) => !covers(rules.hidden, `${id}/${s.slug}`))
               .map((s) => {
                 const soon = covers(rules.comingSoon, `${id}/${s.slug}`)
+                const free = Object.entries(s.files).flatMap(([category, list]) =>
+                  list
+                    .filter((f) => rules.freePreview.includes(f.id) && !(category === 'notes' && UNIT_ONE.test(f.name)) && !covers(rules.hidden, `${id}/${s.slug}/${category}/${f.name}`, f.id))
+                    .map((f) => ({ ...f, category })),
+                )
                 return {
                   slug: s.slug,
                   name: s.name,
                   counts: { notes: s.files.notes.length, pyqs: s.files.pyqs.length, references: s.files.references.length },
                   hasSyllabus: Boolean(s.syllabus),
-                  unit1: soon ? [] : s.files.notes.filter((f) => /^unit[-_ ]*0*1(?!\d)/i.test(f.name) && !covers(rules.hidden, `${id}/${s.slug}/notes/${f.name}`, f.id)),
+                  free: soon ? [] : free,
+                  unit1: soon ? [] : s.files.notes.filter((f) => UNIT_ONE.test(f.name) && !covers(rules.hidden, `${id}/${s.slug}/notes/${f.name}`, f.id)),
                   sample: !soon && s.files.pyqs.length ? { paper: 'Apr 2025', question: `A sample ${s.name} question from a past paper.`, kind: 'exam' } : null,
                   ...(soon ? { comingSoon: true } : {}),
                 }
@@ -592,7 +600,7 @@ export async function handleDemo(action, params) {
       if (!found) throw new Error('file_not_accessible')
       assertVisible(found.where, found.file.id, false)
       const f = found.file
-      if (!/^unit[-_ ]*0*1(?!\d)/i.test(f.name)) throw new Error('sign_in_required')
+      if (!UNIT_ONE.test(f.name) && !readVisibility().freePreview.includes(f.id)) throw new Error('sign_in_required')
       return { authenticated: false, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
     }
     default:

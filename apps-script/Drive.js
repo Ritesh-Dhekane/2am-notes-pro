@@ -132,8 +132,8 @@ function buildLibrary(semester) {
   })
 }
 
-// previewOnly: signed-out callers may only open Unit 1 notes. Hidden and coming-soon files are
-// refused unless `admin` (Visibility.js).
+// previewOnly: signed-out callers may only open Unit 1 notes and the free previews an admin picked.
+// Hidden and coming-soon files are refused unless `admin` (Visibility.js).
 function getFile(fileId, previewOnly, admin) {
   if (!fileId) throw new Error('missing_file_id')
   var file
@@ -144,7 +144,7 @@ function getFile(fileId, previewOnly, admin) {
   }
   var where = assertFileUnderRoot(file)
   assertVisible(where, file.getId(), admin)
-  if (previewOnly && !PREVIEW_PATH.test(where)) throw new Error('sign_in_required')
+  if (previewOnly && !isFreePreview(where, file.getId())) throw new Error('sign_in_required')
 
   var mimeType = file.getMimeType()
   var isText = mimeType === MimeType.PLAIN_TEXT || /markdown/.test(mimeType) || /\.(md|markdown|txt)$/i.test(file.getName())
@@ -186,7 +186,7 @@ function getAsset(noteId, assetPath, previewOnly, admin) {
   }
   var notePath = assertFileUnderRoot(note)
   assertVisible(notePath, note.getId(), admin)
-  if (previewOnly && !PREVIEW_PATH.test(notePath)) throw new Error('sign_in_required')
+  if (previewOnly && !isFreePreview(notePath, note.getId())) throw new Error('sign_in_required')
   var parents = note.getParents()
   if (!parents.hasNext()) throw new Error('file_not_accessible')
   var folder = parents.next()
