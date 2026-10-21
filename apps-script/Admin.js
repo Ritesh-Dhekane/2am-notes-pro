@@ -347,6 +347,7 @@ function adminStudent(user, params) {
       return s
     }),
     flags: flagsFor(email),
+    block: blockStatus(email),
   }
 }
 
@@ -391,6 +392,84 @@ function adminRefreshLibrary(user) {
   result.seconds = Math.round((Date.now() - started) / 1000)
   logAdmin(user, 'refresh_library', '', result)
   return result
+}
+
+// ---------- Block and unblock ----------
+// What takes effect is the Script Property BLOCKED_EMAILS (comma-separated, read by isBlocked in
+// Auth.js on every request), so it can still be edited by hand. The "Blocks" tab keeps the history:
+// every block and unblock with who did it and why, newest last.
+
+var BLOCK_HEADERS = ['Time (IST)', 'Admin', 'Email', 'Action', 'Reason']
+
+// params: { email, reason }. Open flags for the email become "blocked".
+function adminBlock(user, params) {
+  return changeBlock(user, params, true)
+}
+
+// params: { email, reason }.
+function adminUnblock(user, params) {
+  return changeBlock(user, params, false)
+}
+
+function changeBlock(user, params, block) {
+  requireAdmin(user)
+  params = params || {}
+  var email = String(params.email || '').trim().toLowerCase()
+  var reason = String(params.reason || '').trim()
+  if (!/^[^\s,@]+@[^\s,@]+$/.test(email)) throw new Error('invalid_email')
+  if (!reason) throw new Error('reason_required')
+  if (block && email === String(user.email).toLowerCase()) throw new Error('cannot_block_self')
+
+  var lock = LockService.getScriptLock()
+  lock.waitLock(10000)
+  try {
+    var props = PropertiesService.getScriptProperties()
+    var list = (props.getProperty('BLOCKED_EMAILS') || '')
+      .split(',')
+      .map(function (e) {
+        return e.trim()
+      })
+      .filter(function (e) {
+        return e && e.toLowerCase() !== email
+      })
+    if (block) list.push(email)
+    props.setProperty('BLOCKED_EMAILS', list.join(','))
+  } finally {
+    lock.releaseLock()
+  }
+
+  var sheet = getTab('Blocks', BLOCK_HEADERS)
+  if (sheet) sheet.appendRow([istNow(), user.email, email, block ? 'block' : 'unblock', reason].map(cellText))
+  if (block) {
+    var flags = getFlagsSheet()
+    var open = readFlagRows(flags)
+      .filter(function (flag) {
+        return flag.email === email && flag.status === 'open'
+      })
+      .map(function (flag) {
+        return flag.row
+      })
+    if (open.length) setFlagStatus(flags, open, 'blocked', user)
+  }
+  logAdmin(user, block ? 'block' : 'unblock', email, { reason: reason })
+  return blockStatus(email)
+}
+
+// Whether an email is blocked, and the latest block or unblock from the Blocks tab.
+function blockStatus(email) {
+  var status = { blocked: isBlocked(email), action: '', reason: '', by: '', time: '' }
+  var spreadsheet = getLogSpreadsheet()
+  var sheet = spreadsheet && spreadsheet.getSheetByName('Blocks')
+  if (!sheet || sheet.getLastRow() < 2) return status
+  var hits = sheet.getRange(2, 3, sheet.getLastRow() - 1, 1)
+    .createTextFinder(email).matchEntireCell(true).matchCase(false).findAll()
+  if (!hits.length) return status
+  var row = sheet.getRange(hits[hits.length - 1].getRow(), 1, 1, BLOCK_HEADERS.length).getValues()[0]
+  status.time = cellTime(row[0])
+  status.by = String(row[1])
+  status.action = String(row[3])
+  status.reason = String(row[4])
+  return status
 }
 
 // Best effort, like logEvent.

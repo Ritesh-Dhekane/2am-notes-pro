@@ -1,8 +1,11 @@
 // Shared pieces of the admin pages: stat cards, panels, simple bar lists and flags.
 
+import { Ban, ShieldCheck } from 'lucide-react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Card } from '../../components/ui.jsx'
-import { FLAG_RULES, formatTime, studentPath } from './adminData.js'
+import { useAuth } from '../../context/useAuth.js'
+import { FLAG_RULES, formatTime, studentPath, useAdminAction } from './adminData.js'
 
 export function StatCard({ label, value, hint }) {
   return (
@@ -78,5 +81,62 @@ export function FlagItem({ flag, showEmail = true, actions }) {
       </div>
       {actions && <div className="flex shrink-0 flex-wrap gap-2">{actions}</div>}
     </li>
+  )
+}
+
+// Block or unblock a student, after asking for the reason (kept in the Blocks tab and the Admin log).
+// Blocking applies on their next request. onDone(block) gets the new status.
+export function BlockControl({ email, blocked, onDone }) {
+  const { user } = useAuth()
+  const [run, action] = useAdminAction()
+  const [asking, setAsking] = useState(false)
+  const [reason, setReason] = useState('')
+  const verb = blocked ? 'Unblock' : 'Block'
+
+  if (!blocked && email.toLowerCase() === user?.email?.toLowerCase()) return null // admins can't block themselves
+
+  async function submit(e) {
+    e.preventDefault()
+    const result = await run(blocked ? 'adminUnblock' : 'adminBlock', { email, reason: reason.trim() })
+    if (!result) return
+    setAsking(false)
+    setReason('')
+    onDone?.(result.block)
+  }
+
+  if (!asking) {
+    return (
+      <button type="button" className="btn-secondary" onClick={() => setAsking(true)}>
+        {blocked ? <ShieldCheck className="size-4" aria-hidden="true" /> : <Ban className="size-4 text-danger" aria-hidden="true" />} {verb}
+      </button>
+    )
+  }
+  return (
+    <form onSubmit={submit} className="flex w-full flex-col gap-2 sm:w-72">
+      <label className="flex flex-col gap-1 text-label text-ink-2">
+        {blocked ? 'Why unblock?' : `Why block ${email}?`}
+        <input
+          autoFocus
+          required
+          maxLength={200}
+          value={reason}
+          onChange={(e) => setReason(e.target.value)}
+          className="h-11 min-w-0 rounded-xl border border-line bg-surface px-3 text-body text-ink"
+        />
+      </label>
+      {action.error && (
+        <p role="alert" className="text-label text-danger">
+          {action.error}
+        </p>
+      )}
+      <span className="flex gap-2">
+        <button type="submit" className="btn-primary flex-1" disabled={action.busy || !reason.trim()}>
+          {action.busy ? 'Saving…' : verb}
+        </button>
+        <button type="button" className="btn-secondary" onClick={() => setAsking(false)}>
+          Cancel
+        </button>
+      </span>
+    </form>
   )
 }

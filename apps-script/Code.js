@@ -81,6 +81,10 @@ function doPost(e) {
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminFlags(user, body)))
       case 'adminFlagUpdate':
         return jsonResponse({ authenticated: true, user: user, flag: adminFlagUpdate(user, body) })
+      case 'adminBlock':
+        return jsonResponse({ authenticated: true, user: user, block: adminBlock(user, body) })
+      case 'adminUnblock':
+        return jsonResponse({ authenticated: true, user: user, block: adminUnblock(user, body) })
       case 'adminRefreshLibrary':
         return jsonResponse({ authenticated: true, user: user, result: adminRefreshLibrary(user) })
       case 'logout':

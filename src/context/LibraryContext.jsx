@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { buildLibrary, loadRawLibrary } from '../lib/library.js'
-import { friendlyError, isSessionError } from '../lib/errorMessages.js'
+import { friendlyError, isSessionError, signOutReason } from '../lib/errorMessages.js'
 import { useStudy } from '../lib/study.js'
 import { useAuth } from './useAuth.js'
 import { LibraryContext } from './libraryContext.js'
@@ -39,7 +39,7 @@ export function LibraryProvider({ children }) {
       .catch((err) => {
         if (cancelled) return
         if (isSessionError(err.message)) {
-          logout('expired')
+          logout(signOutReason(err.message))
           return
         }
         setState({ key, raw: null, error: friendlyError(err.message) })

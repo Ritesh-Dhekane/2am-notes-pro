@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useAuth } from '../../context/useAuth.js'
 import { callApi } from '../../lib/api.js'
-import { friendlyError, isSessionError } from '../../lib/errorMessages.js'
+import { friendlyError, isSessionError, signOutReason } from '../../lib/errorMessages.js'
 
 // Calls an admin action and keeps the last answer while a new one loads (paging, filters).
 // reload() asks again with `fresh: true`, which skips the backend's cache.
@@ -22,7 +22,7 @@ export function useAdmin(action, params = {}) {
       .then((data) => !cancelled && setState({ key, data, error: null }))
       .catch((err) => {
         if (cancelled) return
-        if (isSessionError(err.message)) logout('expired')
+        if (isSessionError(err.message)) logout(signOutReason(err.message))
         else setState((s) => ({ key, data: s.data, error: friendlyError(err.message) }))
       })
     return () => {
@@ -47,7 +47,7 @@ export function useAdminAction() {
         setState({ busy: false, error: null })
         return data
       } catch (err) {
-        if (isSessionError(err.message)) logout('expired')
+        if (isSessionError(err.message)) logout(signOutReason(err.message))
         else setState({ busy: false, error: friendlyError(err.message) })
         return null
       }

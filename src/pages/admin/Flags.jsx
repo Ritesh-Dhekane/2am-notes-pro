@@ -7,7 +7,7 @@ import { useSearchParams } from 'react-router-dom'
 import Chips from '../../components/Chips.jsx'
 import { Card, EmptyState, ErrorState, Skeleton } from '../../components/ui.jsx'
 import { FLAG_RULES, useAdmin, useAdminAction } from './adminData.js'
-import { FlagItem } from './bits.jsx'
+import { BlockControl, FlagItem } from './bits.jsx'
 
 const SELECT = 'h-11 min-w-0 rounded-xl border border-line bg-surface px-3 text-body text-ink'
 
@@ -101,15 +101,26 @@ export default function Flags({ onChange }) {
                 key={flag.row}
                 flag={flag}
                 actions={
-                  flag.status === 'open' ? (
-                    <button type="button" className="btn-secondary" disabled={action.busy} onClick={() => update(flag, 'dismissed')}>
-                      Dismiss
-                    </button>
-                  ) : flag.status === 'dismissed' ? (
-                    <button type="button" className="btn-secondary" disabled={action.busy} onClick={() => update(flag, 'open')}>
-                      Reopen
-                    </button>
-                  ) : null
+                  flag.status !== 'blocked' && (
+                    <>
+                      <button
+                        type="button"
+                        className="btn-secondary"
+                        disabled={action.busy}
+                        onClick={() => update(flag, flag.status === 'open' ? 'dismissed' : 'open')}
+                      >
+                        {flag.status === 'open' ? 'Dismiss' : 'Reopen'}
+                      </button>
+                      <BlockControl
+                        email={flag.email}
+                        blocked={false}
+                        onDone={() => {
+                          reload()
+                          onChange?.()
+                        }}
+                      />
+                    </>
+                  )
                 }
               />
             ))}

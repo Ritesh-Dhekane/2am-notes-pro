@@ -9,7 +9,7 @@ import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
 import { DEMO_ROLE_KEY } from '../lib/demoMode.js'
 import { normalizePhone } from '../lib/phone.js'
-import { demoFlags, demoFlagUpdate, demoOverview, demoStudent, demoStudents } from './adminDemo.js'
+import { demoBlockFlags, demoFlags, demoFlagUpdate, demoOverview, demoStudent, demoStudents } from './adminDemo.js'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -385,9 +385,32 @@ function requireAdmin() {
   if (!demoIsAdmin()) throw new Error('not_admin')
 }
 
-// Test hook: window.__demoAddNote() adds a note to the first subject of each semester, to try the
+// Blocked emails, like BLOCKED_EMAILS plus the Blocks tab: { email: { action, reason, by, time } }.
+const BLOCKS_KEY = 'notes-pro.demo-blocks'
+function readBlocks() {
+  try {
+    return JSON.parse(localStorage.getItem(BLOCKS_KEY) || '{}')
+  } catch {
+    return {}
+  }
+}
+
+function changeBlock(admin, { email = '', reason = '' }, block) {
+  email = String(email).trim().toLowerCase()
+  if (!String(reason).trim()) throw new Error('reason_required')
+  if (block && email === admin) throw new Error('cannot_block_self')
+  const blocks = readBlocks()
+  blocks[email] = { blocked: block, action: block ? 'block' : 'unblock', reason: String(reason).trim(), by: admin, time: new Date(Date.now() + 5.5 * 3600000).toISOString().slice(0, 19).replace('T', ' ') }
+  localStorage.setItem(BLOCKS_KEY, JSON.stringify(blocks))
+  if (block) demoBlockFlags(email, admin)
+  return blocks[email]
+}
+
+// Test hooks: window.__demoBlock(email) blocks an account (the demo account too, to see the blocked
+// screen); window.__demoAddNote() adds a note to the first subject of each semester, to try the
 // "New notes added" prompt without a real upload.
 if (typeof window !== 'undefined') {
+  window.__demoBlock = (email = 'ritesh@example.com') => changeBlock('owner@example.com', { email, reason: 'Demo block' }, true)
   window.__demoAddNote = () => {
     for (const subjects of Object.values(SEMESTERS)) subjects[0]?.files.notes.push(file(`unit-01-new-note-${Date.now()}.md`, { days: 0 }))
   }
@@ -396,6 +419,8 @@ if (typeof window !== 'undefined') {
 export async function handleDemo(action, params) {
   await wait(250)
   const user = { email: 'ritesh@example.com', name: 'Ritesh Dhekane', picture: null }
+  // Like authenticate in Auth.js: a blocked account gets nothing but the public actions.
+  if (!['catalog', 'previewFile'].includes(action) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
   switch (action) {
     case 'verify':
     case 'login':
@@ -427,7 +452,11 @@ export async function handleDemo(action, params) {
       return { authenticated: true, user, ...demoStudents(SEMESTERS, params) }
     case 'adminStudent':
       requireAdmin()
-      return { authenticated: true, user, ...demoStudent(SEMESTERS, params) }
+      return { authenticated: true, user, ...demoStudent(SEMESTERS, params), block: readBlocks()[String(params.email).toLowerCase()] || { blocked: false } }
+    case 'adminBlock':
+    case 'adminUnblock':
+      requireAdmin()
+      return { authenticated: true, user, block: changeBlock(user.email, params, action === 'adminBlock') }
     case 'adminFlags':
       requireAdmin()
       return { authenticated: true, user, ...demoFlags(params) }

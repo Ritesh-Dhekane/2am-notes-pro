@@ -1,12 +1,12 @@
 // /admin/students/:email: one student's profile, what they open, and their full activity log, with a
 // few hints for when they might need help.
 
-import { ArrowLeft, ChevronLeft, ChevronRight, Lightbulb } from 'lucide-react'
+import { ArrowLeft, Ban, ChevronLeft, ChevronRight, Lightbulb } from 'lucide-react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ErrorState, Skeleton } from '../../components/ui.jsx'
 import { subjectLook } from '../../lib/subjects.js'
 import { daysSince, formatTime, semesterLabel, useAdmin, useAdminAction } from './adminData.js'
-import { Bars, FlagItem, Panel } from './bits.jsx'
+import { Bars, BlockControl, FlagItem, Panel } from './bits.jsx'
 
 const EVENTS = {
   login: 'Signed in',
@@ -166,10 +166,28 @@ export default function Student({ onChange }) {
   return (
     <div className={`flex flex-col gap-5 ${loading ? 'opacity-80' : ''}`}>
       {back}
-      <div className="min-w-0">
-        <h1 className="truncate text-display">{student.name || student.email}</h1>
-        <p className="truncate font-mono text-caption text-ink-2">{student.email}</p>
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0 flex-1">
+          <h1 className="truncate text-display">{student.name || student.email}</h1>
+          <p className="truncate font-mono text-caption text-ink-2">{student.email}</p>
+        </div>
+        <BlockControl
+          email={student.email}
+          blocked={Boolean(current.block?.blocked)}
+          onDone={() => {
+            reload()
+            onChange?.()
+          }}
+        />
       </div>
+      {current.block?.blocked && (
+        <p role="status" className="flex items-start gap-2 rounded-xl border border-danger px-3 py-2.5 text-label text-ink">
+          <Ban className="mt-px size-4 shrink-0 text-danger" aria-hidden="true" />
+          <span className="min-w-0 break-words">
+            Blocked{current.block.action === 'block' && ` by ${current.block.by}, ${formatTime(current.block.time)}: ${current.block.reason}`}
+          </span>
+        </p>
+      )}
       {hints.length > 0 && (
         <ul className="flex flex-wrap gap-2">
           {hints.map((hint) => (

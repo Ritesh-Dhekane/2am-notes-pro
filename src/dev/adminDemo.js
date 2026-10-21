@@ -246,6 +246,11 @@ export function demoFlags({ status = '', email = '', badge = false } = {}) {
   return { flags: badge ? [] : structuredClone(list), total: list.length, counts }
 }
 
+// Blocking marks the student's open flags.
+export function demoBlockFlags(email, admin) {
+  for (const f of FLAGS) if (f.email === email && f.status === 'open') Object.assign(f, { status: 'blocked', reviewedBy: admin, reviewedAt: ist(Date.now()) })
+}
+
 export function demoFlagUpdate({ row, status }, admin) {
   const flag = FLAGS.find((f) => f.row === Number(row))
   if (!flag || !['open', 'dismissed', 'blocked'].includes(status)) throw new Error('flag_not_found')
