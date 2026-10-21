@@ -6,6 +6,7 @@
 
 import {
   BarChart3,
+  Boxes,
   AppWindow,
   Brain,
   BrainCircuit,
@@ -17,11 +18,13 @@ import {
   Code2,
   Cpu,
   Database,
+  FileSearch,
   Globe,
   Coffee,
   FlaskConical,
   Lightbulb,
   KanbanSquare,
+  ListTree,
   LockKeyhole,
   Palette,
   Megaphone,
@@ -32,6 +35,7 @@ import {
   ShieldCheck,
   ShieldHalf,
   ShoppingCart,
+  Sigma,
   Sparkles,
   Smartphone,
   TestTubes,
@@ -46,6 +50,28 @@ export const COURSES = [
 ]
 
 export const SEMESTERS = [
+  {
+    // 2025 pattern (from 2025-26); Semesters II and III below are the 2024 pattern.
+    id: 'MCA-Sem-I',
+    course: 'MCA',
+    number: 1,
+    label: 'Semester I (2025 pattern)',
+    short: 'Sem I',
+    core: [
+      'mathematical-foundation-for-computer-application',
+      'data-structures-and-algorithms',
+      'object-oriented-programming',
+      'research-methodology-2025',
+    ],
+    groups: [
+      {
+        id: 'elective-i',
+        label: 'Elective I',
+        pick: 'one',
+        options: ['mca-artificial-intelligence', 'mobile-computing', 'data-analytics'],
+      },
+    ],
+  },
   {
     id: 'MCA-Sem-II',
     course: 'MCA',
@@ -133,6 +159,14 @@ export const SEMESTERS = [
 ]
 
 const SUBJECTS = {
+  // Semester I (2025 pattern)
+  'mathematical-foundation-for-computer-application': { name: 'Mathematical Foundation for Computer Application', short: 'Maths', code: 'MJC-501', icon: Sigma, tint: '#F43F5E', about: 'Sets and logic, relations and functions, probability, statistics, trees and graphs.' },
+  'data-structures-and-algorithms': { name: 'Data Structures & Algorithms', short: 'DSA', code: 'MJC-502', icon: ListTree, tint: '#8B5CF6', about: 'Linked lists, stacks and queues, trees and graphs, searching, sorting and hashing.' },
+  'object-oriented-programming': { name: 'Object Oriented Programming', short: 'OOP', code: 'MJC-503', icon: Boxes, tint: '#F59E0B', about: 'C++: classes and objects, inheritance, polymorphism, templates, exceptions and files.' },
+  'research-methodology-2025': { name: 'Research Methodology', short: 'RM', code: 'RM-530', icon: FileSearch, tint: '#A855F7', about: 'Research design, data collection and sampling, analysis, ethics and report writing.' },
+  'mca-artificial-intelligence': { name: 'Artificial Intelligence', short: 'AI', code: 'MEC-520', icon: BrainCircuit, tint: '#06B6D4', about: 'Elective I.' },
+  'mobile-computing': { name: 'Mobile Computing', short: 'Mobile', code: 'MEC-520', icon: Smartphone, tint: '#22C55E', about: 'Elective I.' },
+  'data-analytics': { name: 'Data Analytics', short: 'Data Analytics', code: 'MEC-520', icon: BarChart3, tint: '#EAB308', about: 'Elective I.' },
   // Semester II
   'java-programming': { name: 'Java Programming', short: 'Java', code: 'IT21', icon: Coffee, tint: '#F59E0B', about: 'Core Java, servlets, JSP and Spring MVC.' },
   'software-testing-and-quality-assurance': { name: 'Software Testing & QA', short: 'STQA', code: 'IT22', icon: ShieldCheck, tint: '#10B981', about: 'Quality assurance, static and dynamic testing, test management and tools.' },
