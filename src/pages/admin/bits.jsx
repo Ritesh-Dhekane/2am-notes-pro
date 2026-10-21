@@ -1,11 +1,12 @@
 // Shared pieces of the admin pages: stat cards, panels, simple bar lists and flags.
 
-import { Ban, ShieldCheck } from 'lucide-react'
+import { Ban, Download, ShieldCheck } from 'lucide-react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Card } from '../../components/ui.jsx'
 import { useAuth } from '../../context/useAuth.js'
-import { FLAG_RULES, formatTime, studentPath, useAdminAction } from './adminData.js'
+import { csvFileName, downloadCsv } from '../../lib/csv.js'
+import { FLAG_RULES, formatTime, statsRows, studentPath, useAdminAction } from './adminData.js'
 
 export function StatCard({ label, value, hint }) {
   return (
@@ -138,5 +139,39 @@ export function BlockControl({ email, blocked, onDone }) {
         </button>
       </span>
     </form>
+  )
+}
+
+// Download buttons: every Students-tab row (adminExport) and the overview's numbers. `overview` is used
+// when the page already has it; otherwise it's fetched.
+export function ExportButtons({ overview }) {
+  const [run, action] = useAdminAction()
+
+  async function students() {
+    const data = await run('adminExport')
+    if (data) downloadCsv(csvFileName('students'), [data.headers, ...data.rows])
+  }
+
+  async function stats() {
+    const data = overview ? { overview } : await run('adminOverview')
+    if (data) downloadCsv(csvFileName('stats'), statsRows(data.overview))
+  }
+
+  return (
+    <div className="flex flex-col items-start gap-1">
+      <span className="flex flex-wrap gap-2">
+        <button type="button" className="btn-secondary" disabled={action.busy} onClick={students}>
+          <Download className="size-4" aria-hidden="true" /> Students CSV
+        </button>
+        <button type="button" className="btn-secondary" disabled={action.busy} onClick={stats}>
+          <Download className="size-4" aria-hidden="true" /> Stats CSV
+        </button>
+      </span>
+      {action.error && (
+        <p role="alert" className="text-label text-danger">
+          {action.error}
+        </p>
+      )}
+    </div>
   )
 }

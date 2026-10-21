@@ -7,6 +7,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { Card, EmptyState, ErrorState, Skeleton } from '../../components/ui.jsx'
 import { COURSES, SEMESTERS } from '../../lib/catalog.js'
 import { formatTime, semesterLabel, studentPath, useAdmin } from './adminData.js'
+import { ExportButtons } from './bits.jsx'
 
 const LAST_SEEN = [
   { value: '', label: 'Any time' },
@@ -150,11 +151,14 @@ export default function Students() {
 
   return (
     <div className="flex flex-col gap-5">
-      <div>
-        <h1 className="text-display">Students</h1>
-        <p className="mt-1 text-label text-ink-2" aria-live="polite">
-          {data ? `${data.total} ${data.total === 1 ? 'student' : 'students'}` : 'Loading…'}
-        </p>
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h1 className="text-display">Students</h1>
+          <p className="mt-1 text-label text-ink-2" aria-live="polite">
+            {data ? `${data.total} ${data.total === 1 ? 'student' : 'students'}` : 'Loading…'}
+          </p>
+        </div>
+        <ExportButtons />
       </div>
       <Filters params={params} set={set} />
 

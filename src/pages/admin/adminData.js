@@ -91,3 +91,25 @@ export function daysSince(text) {
 export function studentPath(email) {
   return `/admin/students/${encodeURIComponent(email)}`
 }
+
+// The overview's numbers as CSV rows (section, item, value), for the stats export.
+export function statsRows(overview) {
+  const rows = [['Section', 'Item', 'Value']]
+  const add = (section, list, label, value = (x) => x.count) => list.forEach((x) => rows.push([section, label(x), value(x)]))
+  rows.push(['Generated', 'At', overview.generatedAt])
+  add('Totals', Object.entries(overview.totals), ([key]) => key, ([, n]) => n)
+  for (const c of overview.courses) {
+    rows.push(['Students by course', c.course, c.students])
+    for (const s of c.semesters) {
+      rows.push(['Students by semester', s.semester, s.students])
+      add(`Electives, ${s.semester}`, s.electives, (e) => e.slug)
+    }
+  }
+  add('Sign-ups per day', overview.signUps, (d) => d.day)
+  add('Devices', overview.devices, (d) => d.label)
+  add('Installed app', overview.installed, (d) => d.label)
+  add('Most-opened subjects', overview.topSubjects, (s) => s.subject)
+  add('Most-opened files', overview.topFiles, (f) => f.file)
+  add('Never opened (files)', overview.neverOpened, (s) => s.subject, (s) => s.files)
+  return rows
+}

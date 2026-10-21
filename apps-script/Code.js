@@ -102,6 +102,8 @@ function doPost(e) {
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminAnnouncements(user)))
       case 'adminAnnouncementSet':
         return jsonResponse({ authenticated: true, user: user, announcement: adminAnnouncementSet(user, body) })
+      case 'adminExport':
+        return jsonResponse(Object.assign({ authenticated: true, user: user }, adminExport(user)))
       case 'adminGaps':
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminGaps(user)))
       case 'adminRefreshLibrary':

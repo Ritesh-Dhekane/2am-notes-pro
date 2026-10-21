@@ -9,7 +9,7 @@ import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
 import { DEMO_ROLE_KEY } from '../lib/demoMode.js'
 import { normalizePhone } from '../lib/phone.js'
-import { demoBlockFlags, demoFlags, demoFlagUpdate, demoOverview, demoStudent, demoStudents } from './adminDemo.js'
+import { demoBlockFlags, demoExport, demoFlags, demoFlagUpdate, demoOverview, demoStudent, demoStudents } from './adminDemo.js'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -569,6 +569,9 @@ export async function handleDemo(action, params) {
       requireAdmin()
       if (!['open', 'dismissed'].includes(params.status)) throw new Error('flag_not_found')
       return { authenticated: true, user, flag: demoFlagUpdate(params, user.email) }
+    case 'adminExport':
+      requireAdmin()
+      return { authenticated: true, user, ...demoExport(SEMESTERS) }
     case 'adminGaps':
       requireAdmin()
       return {

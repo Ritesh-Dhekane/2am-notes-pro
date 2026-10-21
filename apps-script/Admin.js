@@ -280,6 +280,22 @@ function adminStudents(user, params) {
   }
 }
 
+// ---------- Export ----------
+
+// Every Students-tab column and row, as text, for the students CSV the app builds. Times read back as
+// the same IST text the sheet shows.
+function adminExport(user) {
+  requireAdmin(user)
+  var rows = readStudents().map(function (row) {
+    return row.map(function (value) {
+      if (value instanceof Date) return cellTime(value)
+      return typeof value === 'number' ? value : String(value)
+    })
+  })
+  logAdmin(user, 'export', 'students', { rows: rows.length })
+  return { headers: STUDENT_HEADERS, rows: rows }
+}
+
 // ---------- One student ----------
 
 var TIMELINE_PAGE = 50

@@ -184,6 +184,26 @@ export function demoOverview(semesters) {
   }
 }
 
+// Like adminExport: every Students-tab column, as the sheet holds it.
+export function demoExport(semesters) {
+  const headers = ['Email', 'Name', 'Phone', 'Course', 'Semester', 'Electives', 'First seen', 'Last seen', 'Sign-ins', 'File opens', 'Last device', 'Choices saved']
+  const rows = data(semesters).students.map((s) => [
+    s.email,
+    s.name,
+    s.phone,
+    s.course,
+    s.semester,
+    JSON.stringify(s.electives),
+    s.firstSeen,
+    s.lastSeen,
+    s.signIns,
+    s.opens,
+    s.device,
+    new Date(`${s.firstSeen.replace(' ', 'T')}+05:30`).toISOString(),
+  ])
+  return { headers, rows }
+}
+
 export function demoStudents(semesters, { query = '', course = '', semester = '', lastSeenDays = 0, page = 1 } = {}) {
   const q = String(query).trim().toLowerCase()
   const digits = q.replace(/[\s+-]/g, '')
