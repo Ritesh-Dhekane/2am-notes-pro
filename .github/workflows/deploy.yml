@@ -1,8 +1,8 @@
 name: Deploy to GitHub Pages (prod)
 
-# Releases go through a pull request from main to prod. prod only accepts merged pull requests (branch
+# Releases go through a pull request from dev to prod. prod only accepts merged pull requests (branch
 # protection), so a push to prod is a merged release; the site is built and published from it. The
-# workflow can also be started by hand from the Actions tab. Pushes to main don't deploy.
+# workflow can also be started by hand from the Actions tab. Pushes to dev don't deploy.
 on:
   push:
     branches: [prod]
