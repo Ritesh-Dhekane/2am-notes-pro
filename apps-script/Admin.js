@@ -279,6 +279,96 @@ function adminStudents(user, params) {
   }
 }
 
+// ---------- One student ----------
+
+var TIMELINE_PAGE = 50
+var STUDENT_LOG_ROWS = 2000 // newest rows read per student, for the timeline and counts
+var UNIT_ONE_PATH = /\/notes\/unit[\s_-]*0*1(?!\d)/i
+
+// params: { email, page }. Their Students row and log rows (newest first, 50 a page), opens per
+// subject, and whether they only ever opened Unit 1 notes.
+function adminStudent(user, params) {
+  requireAdmin(user)
+  params = params || {}
+  var email = String(params.email || '').trim().toLowerCase()
+  if (!email) throw new Error('student_not_found')
+  logAdmin(user, 'student', email, { page: params.page || 1 })
+
+  var row = readStudentRow(email)
+  var entries = []
+  var sheet = getLogSheet()
+  if (sheet && sheet.getLastRow() >= 2) {
+    var numbers = sheet.getRange(2, 2, sheet.getLastRow() - 1, 1)
+      .createTextFinder(email).matchEntireCell(true).matchCase(false).findAll()
+      .map(function (range) {
+        return range.getRow()
+      })
+      .sort(function (a, b) {
+        return b - a
+      })
+      .slice(0, STUDENT_LOG_ROWS)
+    entries = readLogRows(sheet, numbers)
+  }
+  if (!row && !entries.length) throw new Error('student_not_found')
+
+  var names = {}
+  getCatalog().forEach(function (semester) {
+    semester.subjects.forEach(function (subject) {
+      names[semester.id + '/' + subject.slug] = subject.name
+    })
+  })
+  var perSubject = {}
+  var opens = entries.filter(function (e) {
+    return e.event === 'file_open' && e.file
+  })
+  opens.forEach(function (e) {
+    var key = subjectKey(e.file)
+    if (key) perSubject[key] = (perSubject[key] || 0) + 1
+  })
+
+  var pages = Math.max(1, Math.ceil(entries.length / TIMELINE_PAGE))
+  var page = Math.min(Math.max(1, Math.floor(Number(params.page) || 1)), pages)
+  var student = row ? studentFromRow(row) : { email: email, name: entries[0].name || '', electives: {} }
+  return {
+    student: student,
+    timeline: entries.slice((page - 1) * TIMELINE_PAGE, page * TIMELINE_PAGE).map(function (e) {
+      return { time: e.time, event: e.event, semester: e.semester, file: e.file, device: e.device, browser: e.browser, os: e.os }
+    }),
+    total: entries.length,
+    page: page,
+    pages: pages,
+    fileOpens: opens.length,
+    onlyUnitOne: opens.length > 0 && opens.every(function (e) {
+      return UNIT_ONE_PATH.test(e.file)
+    }),
+    subjects: topCounts(perSubject, 'subject').map(function (s) {
+      s.name = names[s.subject] || slugToTitle(s.subject.split('/')[1] || s.subject)
+      return s
+    }),
+  }
+}
+
+// The given log rows, in the order asked. Rows close together are read in one getValues.
+function readLogRows(sheet, numbers) {
+  var sorted = numbers.slice().sort(function (a, b) {
+    return a - b
+  })
+  var byRow = {}
+  var blockStart = 0
+  for (var i = 0; i < sorted.length; i++) {
+    if (i < sorted.length - 1 && sorted[i + 1] - sorted[i] <= 50) continue
+    var first = sorted[blockStart]
+    var values = sheet.getRange(first, 1, sorted[i] - first + 1, LOG_WIDTH).getValues()
+    for (var j = blockStart; j <= i; j++) byRow[sorted[j]] = values[sorted[j] - first]
+    blockStart = i + 1
+  }
+  return numbers.map(function (n) {
+    var entry = logEntry(byRow[n])
+    entry.name = String(byRow[n][2])
+    return entry
+  })
+}
+
 // Best effort, like logEvent.
 function logAdmin(user, action, target, details) {
   try {

@@ -202,3 +202,30 @@ export function demoStudents(semesters, { query = '', course = '', semester = ''
   const current = Math.min(Math.max(1, Number(page) || 1), pages)
   return { students: list.slice((current - 1) * size, current * size), total: list.length, page: current, pages }
 }
+
+export function demoStudent(semesters, { email = '', page = 1 } = {}) {
+  const { students, log } = data(semesters)
+  const student = students.find((s) => s.email === String(email).toLowerCase())
+  if (!student) throw new Error('student_not_found')
+  const entries = log.filter((r) => r.email === student.email).reverse()
+  const opens = entries.filter((r) => r.event === 'file_open')
+  const names = Object.fromEntries(Object.entries(semesters).flatMap(([id, subjects]) => subjects.map((s) => [`${id}/${s.slug}`, s.name])))
+  const perSubject = {}
+  for (const r of opens) {
+    const key = r.file.split('/').slice(0, 2).join('/')
+    perSubject[key] = (perSubject[key] || 0) + 1
+  }
+  const size = 50
+  const pages = Math.max(1, Math.ceil(entries.length / size))
+  const current = Math.min(Math.max(1, Number(page) || 1), pages)
+  return {
+    student,
+    timeline: entries.slice((current - 1) * size, current * size).map(({ time, event, semester, file, device, browser, os }) => ({ time, event, semester, file, device, browser, os })),
+    total: entries.length,
+    page: current,
+    pages,
+    fileOpens: opens.length,
+    onlyUnitOne: opens.length > 0 && opens.every((r) => UNIT_ONE.test(r.file)),
+    subjects: top(perSubject, 'subject').map((s) => ({ ...s, name: names[s.subject] || s.subject })),
+  }
+}

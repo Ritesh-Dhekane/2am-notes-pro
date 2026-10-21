@@ -7,6 +7,7 @@ import NotFound from '../NotFound.jsx'
 
 const Overview = lazy(() => import('./Overview.jsx'))
 const Students = lazy(() => import('./Students.jsx'))
+const Student = lazy(() => import('./Student.jsx'))
 
 const TABS = [
   { to: '/admin', label: 'Overview', end: true },
@@ -43,6 +44,7 @@ export default function Admin() {
         <Routes>
           <Route index element={<Overview />} />
           <Route path="students" element={<Students />} />
+          <Route path="students/:email" element={<Student />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
