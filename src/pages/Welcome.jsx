@@ -1,10 +1,11 @@
 // Signed-out home: what the portal is, everything it holds for each semester (subjects with counts;
 // Unit 1 of each opens free, the rest is locked), and sign-in. Counts come from the backend's public catalog; if it can't be reached,
-// the subjects still show from the built-in catalog, without counts.
+// the subjects still show from the built-in catalog, without counts. Announcements for everyone show on top.
 
 import { BookOpen, BookOpenText, FileCheck2, Headphones, Lock, Sparkles } from 'lucide-react'
 import { createElement, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import AnnouncementBanner from '../components/AnnouncementBanner.jsx'
 import SignInCard from '../components/SignInCard.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
 import { Logo, MadeBy, SubjectIcon } from '../components/ui.jsx'
@@ -53,7 +54,9 @@ function sectionsFor(semester, found) {
 function SubjectTile({ slug, entry, onSignIn }) {
   const look = subjectLook(slug, entry?.name || slug)
   const counts = entry?.counts
-  const detail = counts
+  const detail = entry?.comingSoon
+    ? 'Coming soon'
+    : counts
     ? [
         counts.notes && plural(counts.notes, 'note'),
         counts.pyqs && plural(counts.pyqs, 'PYQ'),
@@ -64,20 +67,21 @@ function SubjectTile({ slug, entry, onSignIn }) {
         .filter(Boolean)
         .join(' · ') || 'Coming soon'
     : look.about
-  const free = entry?.unit1?.[0]
+  const free = entry?.unit1?.[0] || entry?.free?.[0] // Unit 1, else another free preview
+  const freeLabel = entry?.unit1?.length ? 'Unit 1 free' : 'Free preview'
   if (free) {
     return (
       <li>
         <Link
           to={`/preview/${slug}/${free.id}`}
           className="flex w-full items-center gap-3 rounded-2xl border border-line bg-surface p-3.5 text-left transition-colors hover:border-line-strong"
-          aria-label={`${look.name}: ${detail}. Read Unit 1 free.`}
+          aria-label={`${look.name}: ${detail}. ${freeLabel}.`}
         >
           <SubjectIcon look={look} />
           <span className="min-w-0 flex-1">
             <span className="block truncate text-body font-semibold">{look.name}</span>
             <span className="block truncate text-label text-ink-2">
-              <span className="font-semibold text-primary-ink">Unit 1 free</span> · {detail}
+              <span className="font-semibold text-primary-ink">{freeLabel}</span> · {detail}
             </span>
           </span>
           <BookOpen className="size-4 shrink-0 text-primary-ink" aria-hidden="true" />
@@ -98,7 +102,7 @@ function SubjectTile({ slug, entry, onSignIn }) {
           <span className="block truncate text-body font-semibold">{look.name}</span>
           <span className="block truncate text-label text-ink-2">{detail}</span>
         </span>
-        <Lock className="size-4 shrink-0 text-ink-3" aria-hidden="true" />
+        {!entry?.comingSoon && <Lock className="size-4 shrink-0 text-ink-3" aria-hidden="true" />}
       </button>
     </li>
   )
@@ -156,6 +160,7 @@ export default function Welcome({ onSignedIn }) {
         </span>
         <ThemeToggle />
       </header>
+      <AnnouncementBanner className="mx-auto max-w-6xl px-5 lg:px-8" />
 
       {/* One sign-in card: after the intro on phones, in a sticky column beside everything on desktop. */}
       <main

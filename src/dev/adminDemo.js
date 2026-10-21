@@ -25,12 +25,12 @@ const TABLET = { device: 'Tablet', browser: 'Safari 26', os: 'iPadOS 26' }
 // start: days since first sign-in; last: days since last visit; opens: files opened; unitOne: only Unit 1 notes.
 const PEOPLE = [
   { email: 'ritesh@example.com', name: 'Ritesh Dhekane', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cyber-security'] }, client: LAPTOP, installed: 'Yes', start: 40, last: 0, opens: 24 },
-  { email: 'aarti.patil@example.com', name: 'Aarti Patil', phone: '+919876543210', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cloud-computing-management-and-security'] }, client: PHONE, installed: 'Yes', start: 28, last: 0, opens: 31 },
+  { email: 'aarti.patil@example.com', name: 'Aarti Patil', phone: '+919876543210', birthday: '2001-08-14', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cloud-computing-management-and-security'] }, client: PHONE, installed: 'Yes', start: 28, last: 0, opens: 31 },
   { email: 'rohan.kulkarni@example.com', name: 'Rohan Kulkarni', semester: 'MCA-Sem-III', electives: { 'elective-iv': 'tableau', 'elective-v': 'deep-learning', 'elective-vi': 'e-commerce' }, client: PHONE, installed: 'No', start: 21, last: 1, opens: 14 },
   { email: 'sneha.joshi@example.com', name: 'Sneha Joshi', phone: '+918888812345', semester: 'MCA-Sem-III', electives: { 'elective-iv': 'tableau', 'elective-v': 'mern-stack-development', 'elective-vi': 'enterprise-resource-planning' }, client: IPHONE, installed: 'No', start: 18, last: 3, opens: 9 },
   { email: 'vikram.shinde@example.com', name: 'Vikram Shinde', semester: 'MCA-Sem-III', electives: { 'elective-iv': 'tableau', 'elective-v': 'deep-learning', 'elective-vi': 'e-commerce' }, client: LAPTOP, installed: 'No', start: 25, last: 20, opens: 3, unitOne: true },
   { email: 'priya.deshmukh@example.com', name: 'Priya Deshmukh', semester: 'MCA-Sem-I', electives: { 'elective-i': 'data-analytics' }, client: PHONE, installed: 'Yes', start: 6, last: 0, opens: 7, unitOne: true },
-  { email: 'amit.more@example.com', name: 'Amit More', phone: '+917700011122', semester: 'BCA-Sem-V', electives: { elective: 'cloud-computing' }, client: TABLET, installed: 'No', start: 12, last: 2, opens: 5 },
+  { email: 'amit.more@example.com', name: 'Amit More', phone: '+917700011122', birthday: '2004-02-29', semester: 'BCA-Sem-V', electives: { elective: 'cloud-computing' }, client: TABLET, installed: 'No', start: 12, last: 2, opens: 5 },
   { email: 'neha.pawar@example.com', name: 'Neha Pawar', semester: 'BCA-Sem-V', electives: { elective: 'ui-ux-design' }, client: PHONE, installed: 'No', start: 4, last: 4, opens: 0 },
   { email: 'kunal.gaikwad@example.com', name: 'Kunal Gaikwad', semester: 'MCA-Sem-II', electives: { electives: ['power-bi', 'cyber-security'] }, client: PHONE, installed: 'Yes', start: 15, last: 9, opens: 11 },
   { email: 'pooja.jadhav@example.com', name: 'Pooja Jadhav', semester: 'BCA-Sem-V', electives: { elective: 'bca-cyber-security' }, client: LAPTOP, installed: 'No', start: 2, last: 0, opens: 2, unitOne: true },
@@ -73,7 +73,9 @@ function data(semesters) {
 
   const students = PEOPLE.map((person) => {
     const mine = log.filter((r) => r.email === person.email)
-    const phone = person.email === 'ritesh@example.com' ? localStorage.getItem('notes-pro.demo-account-phone') || '' : person.phone || ''
+    const own = person.email === 'ritesh@example.com'
+    const phone = own ? localStorage.getItem('notes-pro.demo-account-phone') || '' : person.phone || ''
+    const birthday = own ? localStorage.getItem('notes-pro.demo-account-birthday') || '' : person.birthday || ''
     return {
       email: person.email,
       name: person.name,
@@ -86,6 +88,7 @@ function data(semesters) {
       signIns: mine.filter((r) => r.event === 'login').length,
       opens: mine.filter((r) => r.event === 'file_open').length,
       device: `${person.client.device} · ${person.client.browser} · ${person.client.os}`,
+      birthday,
     }
   })
   cache = { students, log }
@@ -184,6 +187,27 @@ export function demoOverview(semesters) {
   }
 }
 
+// Like adminExport: every Students-tab column, as the sheet holds it.
+export function demoExport(semesters) {
+  const headers = ['Email', 'Name', 'Phone', 'Course', 'Semester', 'Electives', 'First seen', 'Last seen', 'Sign-ins', 'File opens', 'Last device', 'Choices saved', 'Birthday']
+  const rows = data(semesters).students.map((s) => [
+    s.email,
+    s.name,
+    s.phone,
+    s.course,
+    s.semester,
+    JSON.stringify(s.electives),
+    s.firstSeen,
+    s.lastSeen,
+    s.signIns,
+    s.opens,
+    s.device,
+    new Date(`${s.firstSeen.replace(' ', 'T')}+05:30`).toISOString(),
+    s.birthday,
+  ])
+  return { headers, rows }
+}
+
 export function demoStudents(semesters, { query = '', course = '', semester = '', lastSeenDays = 0, page = 1 } = {}) {
   const q = String(query).trim().toLowerCase()
   const digits = q.replace(/[\s+-]/g, '')
@@ -227,5 +251,51 @@ export function demoStudent(semesters, { email = '', page = 1 } = {}) {
     fileOpens: opens.length,
     onlyUnitOne: opens.length > 0 && opens.every((r) => UNIT_ONE.test(r.file)),
     subjects: top(perSubject, 'subject').map((s) => ({ ...s, name: names[s.subject] || s.subject })),
+    flags: FLAGS.filter((f) => f.email === student.email).reverse(),
   }
+}
+
+// The Flags tab (apps-script/Flags.js): one automation, one burst, one already dismissed. `row` is the
+// sheet row, the id adminFlagUpdate takes.
+const FLAGS = [
+  { row: 2, time: ist(Date.now() - 6 * DAY), email: 'aarti.patil@example.com', rule: 'devices', evidence: '5 devices in 7 days: Phone · Chrome 141 · Android 15; Desktop · Chrome 141 · Windows 11; Tablet · Safari 26 · iPadOS 26…', status: 'dismissed', reviewedBy: 'ritesh@example.com', reviewedAt: ist(Date.now() - 5 * DAY) },
+  { row: 3, time: ist(Date.now() - 2 * DAY), email: 'vikram.shinde@example.com', rule: 'automation', evidence: '"HeadlessChrome" in HeadlessChrome 141 Linux', status: 'open', reviewedBy: '', reviewedAt: '' },
+  { row: 4, time: ist(Date.now() - 3 * 60 * 60 * 1000), email: 'kunal.gaikwad@example.com', rule: 'burst', evidence: '19 file opens in 1 minute', status: 'open', reviewedBy: '', reviewedAt: '' },
+]
+
+// Reviews are kept in localStorage, like the sheet keeps them across reloads.
+const FLAGS_KEY = 'notes-pro.demo-flags'
+try {
+  const saved = JSON.parse(localStorage.getItem(FLAGS_KEY) || '{}')
+  for (const f of FLAGS) Object.assign(f, saved[f.row])
+} catch {
+  // storage blocked: the sample states
+}
+function saveFlags() {
+  try {
+    localStorage.setItem(FLAGS_KEY, JSON.stringify(Object.fromEntries(FLAGS.map(({ row, status, reviewedBy, reviewedAt }) => [row, { status, reviewedBy, reviewedAt }]))))
+  } catch {
+    // storage blocked: kept for this visit
+  }
+}
+
+export function demoFlags({ status = '', email = '', badge = false } = {}) {
+  const counts = { open: 0, dismissed: 0, blocked: 0 }
+  for (const f of FLAGS) counts[f.status]++
+  const list = [...FLAGS].reverse().filter((f) => (!status || f.status === status) && (!email || f.email === email))
+  return { flags: badge ? [] : structuredClone(list), total: list.length, counts }
+}
+
+// Blocking marks the student's open flags.
+export function demoBlockFlags(email, admin) {
+  for (const f of FLAGS) if (f.email === email && f.status === 'open') Object.assign(f, { status: 'blocked', reviewedBy: admin, reviewedAt: ist(Date.now()) })
+  saveFlags()
+}
+
+export function demoFlagUpdate({ row, status }, admin) {
+  const flag = FLAGS.find((f) => f.row === Number(row))
+  if (!flag || !['open', 'dismissed', 'blocked'].includes(status)) throw new Error('flag_not_found')
+  Object.assign(flag, { status, reviewedBy: admin, reviewedAt: ist(Date.now()) })
+  saveFlags()
+  return { ...flag }
 }

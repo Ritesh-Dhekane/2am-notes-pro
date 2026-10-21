@@ -17,10 +17,20 @@ const FRIENDLY_MESSAGES = {
   unknown_action: 'The backend is out of date. Redeploy the Apps Script (see the README).',
   not_authenticated: 'You need to sign in to do that.',
   sign_in_required: 'Sign in (free) to read this.',
-  access_blocked: 'This account no longer has access. Contact the portal owner if this is a mistake.',
+  access_blocked: 'Your access has been blocked. Contact the portal owner.',
   not_admin: "This account isn't an admin.",
   student_not_found: 'No student with this email has signed in.',
+  flag_not_found: 'This flag no longer exists. Reload the list.',
+  reason_required: 'Write a reason first.',
+  coming_soon: 'This subject is coming soon. Check back later.',
+  visibility_too_large: 'Too many hidden items to save. Hide whole subjects instead of single files.',
+  invalid_email: "That isn't a valid email address.",
+  cannot_block_self: "You can't block your own account.",
+  invalid_announcement: 'Write the announcement as plain text, up to 280 characters.',
+  announcement_not_found: 'This announcement no longer exists. Reload the list.',
+  announcements_too_large: 'Too many active announcements to save. Deactivate a few first.',
   invalid_phone: 'Enter a 10-digit number, or + and your country code.',
+  invalid_birthday: 'Enter a real date: your age must be between 15 and 80.',
   profile_not_saved: "Couldn't save right now. Please try again.",
   server_misconfigured_missing_drive_root:
     "The backend isn't fully configured yet (missing Drive root folder). See the README (Apps Script Backend).",
@@ -32,6 +42,11 @@ const SESSION_ERROR_CODES = new Set(['invalid_or_expired_token', 'token_audience
 
 export function isSessionError(code) {
   return SESSION_ERROR_CODES.has(code)
+}
+
+// Why a session error signs the student out, for the sign-in page: blocked, or just expired.
+export function signOutReason(code) {
+  return code === 'access_blocked' ? 'blocked' : 'expired'
 }
 
 export function friendlyError(code) {

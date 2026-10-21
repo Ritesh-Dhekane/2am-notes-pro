@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useAuth } from '../context/useAuth.js'
-import { friendlyError, isSessionError } from './errorMessages.js'
+import { friendlyError, isSessionError, signOutReason } from './errorMessages.js'
 import { loadFile, prefetchSubject } from './library.js'
 import { splitTitle } from './markdown.js'
 
@@ -26,7 +26,7 @@ export function useFile(file) {
       .catch((err) => {
         if (cancelled) return
         if (isSessionError(err.message)) {
-          logout('expired')
+          logout(signOutReason(err.message))
           return
         }
         setState({ id, data: null, error: friendlyError(err.message) })

@@ -35,7 +35,8 @@ function verifyIdToken(idToken) {
 // own session instead: "<payload>.<HMAC-SHA256 signature>", signed with SESSION_SECRET (a script
 // property created on first use), valid for SESSION_DAYS. It also saves a call to Google per request.
 // To sign everyone out, delete SESSION_SECRET. To block someone, add their email to BLOCKED_EMAILS
-// (comma-separated script property); it applies on their next request.
+// (comma-separated script property; admins can do it from the admin portal, see adminBlock); it applies
+// on their next request, since authenticate checks it every time.
 
 var SESSION_DAYS = 7
 
