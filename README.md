@@ -75,6 +75,7 @@ Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps
 ## Drive Layout
 ```
 <top folder>/                    # its ID is DRIVE_ROOT_FOLDER_ID
+  MCA-Sem-I/                     # 2025 pattern (Sem II and III are the 2024 pattern)
   MCA-Sem-II/                    # one folder per semester; the name is the semester id
     subjects/
       java-programming/          # subject slug, matches /subject/:subjectId
