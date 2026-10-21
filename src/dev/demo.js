@@ -464,6 +464,45 @@ function changeBlock(admin, { email = '', reason = '' }, block) {
   return blocks[email]
 }
 
+// Announcements, like the ANNOUNCEMENTS Script Property (apps-script/Announcements.js), kept in localStorage.
+const ANNOUNCEMENTS_KEY = 'notes-pro.demo-announcements'
+const SAMPLE_ANNOUNCEMENTS = [
+  { id: 'demo-a1', text: 'Exam season: PYQ solutions for every MCA subject are now in the PYQ Archive. Good luck!', audience: 'all', createdAt: ago(1), updatedAt: ago(1), active: true },
+  { id: 'demo-a2', text: 'MCA Sem II: Unit 5 notes for Java Programming are up.', audience: 'semester:MCA-Sem-II', createdAt: ago(0.2), updatedAt: ago(0.2), active: true },
+  { id: 'demo-a3', text: 'The portal will be down for maintenance on Sunday night.', audience: 'all', createdAt: ago(9), updatedAt: ago(8), active: false },
+]
+
+function readAnnouncements() {
+  try {
+    return JSON.parse(localStorage.getItem(ANNOUNCEMENTS_KEY) || 'null') || structuredClone(SAMPLE_ANNOUNCEMENTS)
+  } catch {
+    return structuredClone(SAMPLE_ANNOUNCEMENTS)
+  }
+}
+
+// Like announcementsFor.
+function announcementsFor(semester = '') {
+  const audiences = ['all', ...(semester ? [`course:${semester.split('-')[0]}`, `semester:${semester}`] : [])]
+  return readAnnouncements()
+    .filter((a) => a.active && audiences.includes(a.audience))
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .map(({ id, text, audience, createdAt }) => ({ id, text, audience, createdAt }))
+}
+
+// Like adminAnnouncementSet.
+function setAnnouncement({ id = '', text = '', audience = 'all', active = true }) {
+  const clean = String(text).replace(/<[^>]*>/g, '').replace(/[<>]/g, '').replace(/\s+/g, ' ').trim()
+  if (!clean || clean.length > 280 || !/^(all|course:[A-Za-z0-9]{1,20}|semester:[A-Za-z0-9-]{1,80})$/.test(audience)) throw new Error('invalid_announcement')
+  const list = readAnnouncements()
+  const now = new Date().toISOString()
+  let saved = list.find((a) => a.id === id)
+  if (id && !saved) throw new Error('announcement_not_found')
+  if (saved) Object.assign(saved, { text: clean, audience, active: active !== false, updatedAt: now })
+  else list.push((saved = { id: `a${Date.now().toString(36)}`, text: clean, audience, createdAt: now, updatedAt: now, active: active !== false }))
+  localStorage.setItem(ANNOUNCEMENTS_KEY, JSON.stringify(list))
+  return saved
+}
+
 // Test hooks: window.__demoBlock(email) blocks an account (the demo account too, to see the blocked
 // screen); window.__demoAddNote() adds a note to the first subject of each semester, to try the
 // "New notes added" prompt without a real upload.
@@ -478,8 +517,16 @@ export async function handleDemo(action, params) {
   await wait(250)
   const user = { email: 'ritesh@example.com', name: 'Ritesh Dhekane', picture: null }
   // Like authenticate in Auth.js: a blocked account gets nothing but the public actions.
-  if (!['catalog', 'previewFile'].includes(action) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
+  if (!['catalog', 'previewFile'].includes(action) && !(action === 'announcements' && !params.idToken) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
   switch (action) {
+    case 'announcements':
+      return { authenticated: Boolean(params.idToken), user, announcements: announcementsFor(params.idToken ? params.semester : '') }
+    case 'adminAnnouncements':
+      requireAdmin()
+      return { authenticated: true, user, announcements: readAnnouncements().sort((a, b) => b.createdAt.localeCompare(a.createdAt)) }
+    case 'adminAnnouncementSet':
+      requireAdmin()
+      return { authenticated: true, user, announcement: setAnnouncement(params) }
     case 'verify':
     case 'login':
       return { authenticated: true, user, isAdmin: demoIsAdmin() }

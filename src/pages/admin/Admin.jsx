@@ -15,12 +15,14 @@ const Students = lazy(() => import('./Students.jsx'))
 const Student = lazy(() => import('./Student.jsx'))
 const Flags = lazy(() => import('./Flags.jsx'))
 const Content = lazy(() => import('./Content.jsx'))
+const Announcements = lazy(() => import('./Announcements.jsx'))
 
 const TABS = [
   { to: '/admin', label: 'Overview', end: true },
   { to: '/admin/students', label: 'Students' },
   { to: '/admin/flags', label: 'Flags', badge: 'flags' },
   { to: '/admin/content', label: 'Content' },
+  { to: '/admin/announcements', label: 'Announcements' },
 ]
 
 // Rebuilds the backend's file listings now instead of waiting for the hourly refresh.
@@ -53,29 +55,31 @@ function RefreshLibrary() {
   )
 }
 
-// `badges`: { flags: open flag count }.
+// `badges`: { flags: open flag count }. The tabs scroll sideways on phones instead of wrapping.
 function AdminNav({ badges }) {
   return (
-    <nav aria-label="Admin" className="mb-6 flex flex-wrap items-start gap-2">
-      {TABS.map((tab) => (
-        <NavLink
-          key={tab.to}
-          to={tab.to}
-          end={tab.end}
-          className={({ isActive }) =>
-            `flex min-h-10 items-center rounded-xl px-3 text-label font-semibold ${
-              isActive ? 'bg-primary-soft text-primary-ink' : 'text-ink-2 hover:bg-surface-2 hover:text-ink'
-            }`
-          }
-        >
-          {tab.label}
-          {badges[tab.badge] > 0 && (
-            <span className="ml-1.5 rounded-full bg-primary px-1.5 font-mono text-caption leading-5 text-on-primary" aria-label={`${badges[tab.badge]} open`}>
-              {badges[tab.badge]}
-            </span>
-          )}
-        </NavLink>
-      ))}
+    <nav aria-label="Admin" className="mb-6 flex flex-col items-stretch gap-2 lg:flex-row lg:items-start">
+      <div className="-mx-5 flex gap-1 overflow-x-auto px-5 pb-1 lg:mx-0 lg:min-w-0 lg:flex-1 lg:flex-wrap lg:px-0 lg:pb-0">
+        {TABS.map((tab) => (
+          <NavLink
+            key={tab.to}
+            to={tab.to}
+            end={tab.end}
+            className={({ isActive }) =>
+              `flex min-h-10 shrink-0 items-center rounded-xl px-3 text-label font-semibold whitespace-nowrap ${
+                isActive ? 'bg-primary-soft text-primary-ink' : 'text-ink-2 hover:bg-surface-2 hover:text-ink'
+              }`
+            }
+          >
+            {tab.label}
+            {badges[tab.badge] > 0 && (
+              <span className="ml-1.5 rounded-full bg-primary px-1.5 font-mono text-caption leading-5 text-on-primary" aria-label={`${badges[tab.badge]} open`}>
+                {badges[tab.badge]}
+              </span>
+            )}
+          </NavLink>
+        ))}
+      </div>
       <RefreshLibrary />
     </nav>
   )
@@ -94,6 +98,7 @@ export default function Admin() {
           <Route path="students/:email" element={<Student onChange={flags.reload} />} />
           <Route path="flags" element={<Flags onChange={flags.reload} />} />
           <Route path="content" element={<Content />} />
+          <Route path="announcements" element={<Announcements />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

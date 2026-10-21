@@ -26,6 +26,9 @@ const FRIENDLY_MESSAGES = {
   visibility_too_large: 'Too many hidden items to save. Hide whole subjects instead of single files.',
   invalid_email: "That isn't a valid email address.",
   cannot_block_self: "You can't block your own account.",
+  invalid_announcement: 'Write the announcement as plain text, up to 280 characters.',
+  announcement_not_found: 'This announcement no longer exists. Reload the list.',
+  announcements_too_large: 'Too many active announcements to save. Deactivate a few first.',
   invalid_phone: 'Enter a 10-digit number, or + and your country code.',
   profile_not_saved: "Couldn't save right now. Please try again.",
   server_misconfigured_missing_drive_root:

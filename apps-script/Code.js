@@ -1,7 +1,7 @@
 // Entry point for the 2am-notes-pro backend web app.
 // doGet is a health check. doPost is the API router. Public: `catalog` (counts, plus each subject's
 // Unit 1 notes and one sample PYQ question) and `previewFile` / `previewAsset` (Unit 1 notes, and
-// any file an admin made a free preview).
+// any file an admin made a free preview), and `announcements` for everyone (audience "all").
 // Content hidden or coming soon in /admin/content (Visibility.js) is applied to every listing and file.
 // Everything else needs a session or a Google ID token, sent as `idToken` (Auth.js).
 
@@ -39,6 +39,10 @@ function doPost(e) {
     } catch (err) {
       return jsonResponse({ authenticated: false, error: err.message })
     }
+  }
+
+  if (body.action === 'announcements' && !body.idToken) {
+    return jsonResponse({ authenticated: false, announcements: announcementsFor('') })
   }
 
   if (!body.idToken) {
@@ -92,6 +96,12 @@ function doPost(e) {
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminVisibility(user)))
       case 'adminVisibilitySet':
         return jsonResponse({ authenticated: true, user: user, visibility: adminVisibilitySet(user, body) })
+      case 'announcements':
+        return jsonResponse({ authenticated: true, user: user, announcements: announcementsFor(body.semester) })
+      case 'adminAnnouncements':
+        return jsonResponse(Object.assign({ authenticated: true, user: user }, adminAnnouncements(user)))
+      case 'adminAnnouncementSet':
+        return jsonResponse({ authenticated: true, user: user, announcement: adminAnnouncementSet(user, body) })
       case 'adminRefreshLibrary':
         return jsonResponse({ authenticated: true, user: user, result: adminRefreshLibrary(user) })
       case 'logout':

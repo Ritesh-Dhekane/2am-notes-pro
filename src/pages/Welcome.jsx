@@ -1,10 +1,11 @@
 // Signed-out home: what the portal is, everything it holds for each semester (subjects with counts;
 // Unit 1 of each opens free, the rest is locked), and sign-in. Counts come from the backend's public catalog; if it can't be reached,
-// the subjects still show from the built-in catalog, without counts.
+// the subjects still show from the built-in catalog, without counts. Announcements for everyone show on top.
 
 import { BookOpen, BookOpenText, FileCheck2, Headphones, Lock, Sparkles } from 'lucide-react'
 import { createElement, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import AnnouncementBanner from '../components/AnnouncementBanner.jsx'
 import SignInCard from '../components/SignInCard.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
 import { Logo, MadeBy, SubjectIcon } from '../components/ui.jsx'
@@ -159,6 +160,7 @@ export default function Welcome({ onSignedIn }) {
         </span>
         <ThemeToggle />
       </header>
+      <AnnouncementBanner className="mx-auto max-w-6xl px-5 lg:px-8" />
 
       {/* One sign-in card: after the intro on phones, in a sticky column beside everything on desktop. */}
       <main
