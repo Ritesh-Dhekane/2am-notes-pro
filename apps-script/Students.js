@@ -50,8 +50,10 @@ function updateStudent(user, change) {
       while (row.length < STUDENT_HEADERS.length) row.push('')
       if (user.name) row[STUDENT_COL.name] = user.name
       change(row)
-      row = row.map(function (value) {
-        return typeof value === 'number' || value instanceof Date ? value : studentCell(value)
+      row = row.map(function (value, i) {
+        if (typeof value === 'number' || value instanceof Date) return value
+        // The ISO time stays text ("'" prefix), or Sheets would turn it into a date.
+        return i === STUDENT_COL.savedAt && value ? "'" + value : studentCell(value)
       })
       if (rowNumber) sheet.getRange(rowNumber, 1, 1, row.length).setValues([row])
       else sheet.appendRow(row)
@@ -106,7 +108,7 @@ function writeStudy(user, study) {
     row[STUDENT_COL.course] = courseOf(study.semester)
     row[STUDENT_COL.semester] = study.semester
     row[STUDENT_COL.electives] = JSON.stringify(study.electives || {})
-    row[STUDENT_COL.savedAt] = "'" + (study.updatedAt || '') // text, not a date
+    row[STUDENT_COL.savedAt] = study.updatedAt || ''
     row[STUDENT_COL.lastSeen] = istNow()
   })
 }
@@ -126,6 +128,28 @@ function studyFromRow(row) {
   }
 }
 
+// ---------- Phone number (optional) ----------
+// Spaces and dashes are dropped; a bare 10-digit number is taken as Indian (+91). Otherwise it must be
+// "+" and 8–15 digits. Empty clears it. Same rule as the app (src/lib/phone.js).
+function cleanPhone(phone) {
+  var text = String(phone || '').replace(/[\s-]/g, '')
+  if (!text) return ''
+  if (/^\d{10}$/.test(text)) text = '+91' + text
+  if (!/^\+\d{8,15}$/.test(text)) throw new Error('invalid_phone')
+  return text
+}
+
+function saveProfile(user, profile) {
+  var phone = cleanPhone(profile && profile.phone)
+  if (!updateStudent(user, function (row) { row[STUDENT_COL.phone] = phone })) throw new Error('profile_not_saved')
+  return { phone: phone }
+}
+
+function getProfile(email) {
+  var row = readStudentRow(email)
+  return { phone: row ? String(row[STUDENT_COL.phone] || '') : '' }
+}
+
 // Run once by hand from the editor after deploying: copies every "study:<email>" property into the
 // Students tab (rows that already have a semester are left alone). The properties are kept as a backup.
 function migrateStudyToStudents() {
@@ -140,7 +164,7 @@ function migrateStudyToStudents() {
       row[STUDENT_COL.course] = courseOf(study.semester)
       row[STUDENT_COL.semester] = study.semester
       row[STUDENT_COL.electives] = JSON.stringify(study.electives || {})
-      row[STUDENT_COL.savedAt] = "'" + (study.updatedAt || '')
+      row[STUDENT_COL.savedAt] = study.updatedAt || ''
     })
     if (saved) copied++
   })

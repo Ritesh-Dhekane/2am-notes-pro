@@ -67,6 +67,10 @@ function doPost(e) {
         var saved = saveStudy(user, body.study)
         logEvent(user, 'save_study', { semester: saved.semester }, body.client)
         return jsonResponse({ authenticated: true, user: user, study: saved })
+      case 'getProfile':
+        return jsonResponse({ authenticated: true, user: user, profile: getProfile(user.email) })
+      case 'saveProfile':
+        return jsonResponse({ authenticated: true, user: user, profile: saveProfile(user, { phone: body.phone }) })
       case 'logout':
         logEvent(user, 'logout', {}, body.client)
         return jsonResponse({ authenticated: true, user: user })

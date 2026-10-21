@@ -7,6 +7,7 @@ import sampleJpg from './fixtures/sample.jpg?url'
 import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
+import { normalizePhone } from '../lib/phone.js'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -392,6 +393,15 @@ export async function handleDemo(action, params) {
       const study = { ...params.study, updatedAt: new Date().toISOString() }
       localStorage.setItem('notes-pro.demo-account-study', JSON.stringify(study))
       return { authenticated: true, user, study }
+    }
+    // The phone number, kept like the account's study choice.
+    case 'getProfile':
+      return { authenticated: true, user, profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '' } }
+    case 'saveProfile': {
+      const { phone, error } = normalizePhone(params.phone)
+      if (error) throw new Error('invalid_phone')
+      localStorage.setItem('notes-pro.demo-account-phone', phone)
+      return { authenticated: true, user, profile: { phone } }
     }
     case 'catalog':
       // Public: what's on offer, with counts but no file names or ids.
