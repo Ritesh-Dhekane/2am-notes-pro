@@ -569,6 +569,23 @@ export async function handleDemo(action, params) {
       requireAdmin()
       if (!['open', 'dismissed'].includes(params.status)) throw new Error('flag_not_found')
       return { authenticated: true, user, flag: demoFlagUpdate(params, user.email) }
+    case 'adminGaps':
+      requireAdmin()
+      return {
+        authenticated: true,
+        user,
+        semesters: Object.entries(SEMESTERS).map(([id, subjects]) => ({
+          id,
+          subjects: subjects.map((s) => ({
+            slug: s.slug,
+            name: s.name,
+            notes: s.files.notes.length,
+            units: [...new Set(s.files.notes.map((f) => Number(f.name.match(/^unit[\s_-]*0*(\d+)/i)?.[1])).filter(Boolean))].sort((a, b) => a - b),
+            syllabus: Boolean(s.syllabus),
+            pyqs: s.files.pyqs.length,
+          })),
+        })),
+      }
     case 'adminRefreshLibrary': {
       requireAdmin()
       await wait(900)

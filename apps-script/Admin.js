@@ -394,6 +394,42 @@ function adminRefreshLibrary(user) {
   return result
 }
 
+// ---------- Content gaps ----------
+
+var UNIT_NUMBER = /^unit[\s_-]*0*(\d+)/i
+
+// Per Drive semester and subject, from the cached listings: note count, the unit numbers that have
+// notes ("unit-NN…" names), syllabus yes/no and PYQ count. The app sets it against its catalog
+// (src/lib/catalog.js) to show subjects without a folder too.
+function adminGaps(user) {
+  requireAdmin(user)
+  logAdmin(user, 'gaps', '', null)
+  return {
+    semesters: getCatalog().map(function (semester) {
+      return {
+        id: semester.id,
+        subjects: rawLibrary(semester.id).map(function (subject) {
+          var seen = {}
+          subject.files.notes.forEach(function (file) {
+            var m = file.name.match(UNIT_NUMBER)
+            if (m) seen[Number(m[1])] = true
+          })
+          return {
+            slug: subject.slug,
+            name: subject.name,
+            notes: subject.files.notes.length,
+            units: Object.keys(seen).map(Number).sort(function (a, b) {
+              return a - b
+            }),
+            syllabus: Boolean(subject.syllabus),
+            pyqs: subject.files.pyqs.length,
+          }
+        }),
+      }
+    }),
+  }
+}
+
 // ---------- Block and unblock ----------
 // What takes effect is the Script Property BLOCKED_EMAILS (comma-separated, read by isBlocked in
 // Auth.js on every request), so it can still be edited by hand. The "Blocks" tab keeps the history:
