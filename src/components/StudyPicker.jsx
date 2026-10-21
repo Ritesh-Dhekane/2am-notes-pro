@@ -1,8 +1,10 @@
-// Choose a semester and its electives. Used by first-time setup and by Settings; the caller keeps
-// the draft ({ semester, electives }) and decides when to save it.
+// Choose a course, then its semester and electives. Used by first-time setup and by Settings; the
+// caller keeps the draft ({ semester, electives }) and decides when to save it. The course isn't
+// stored on its own: it is part of the semester id (BCA-Sem-V).
 
 import { Check } from 'lucide-react'
-import { groupChoiceCount, groupNeeds, SEMESTERS, semesterById } from '../lib/catalog.js'
+import { useState } from 'react'
+import { COURSES, groupChoiceCount, groupNeeds, SEMESTERS, semesterById } from '../lib/catalog.js'
 import { subjectLook } from '../lib/subjects.js'
 import { SubjectIcon } from './ui.jsx'
 
@@ -37,6 +39,12 @@ function OptionCard({ type, name, checked, onChange, title, detail, look, disabl
 
 export default function StudyPicker({ value, onChange }) {
   const semester = semesterById(value.semester)
+  const [course, setCourse] = useState(semester?.course ?? null)
+
+  function pickCourse(id) {
+    setCourse(id)
+    if (semester && semester.course !== id) onChange({ semester: null, electives: {} })
+  }
 
   function pickSemester(id) {
     if (id !== value.semester) onChange({ semester: id, electives: {} })
@@ -58,21 +66,40 @@ export default function StudyPicker({ value, onChange }) {
   return (
     <div className="flex flex-col gap-6">
       <fieldset>
-        <legend className="mb-3 text-heading">Your semester</legend>
+        <legend className="mb-3 text-heading">Your course</legend>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {SEMESTERS.map((s) => (
+          {COURSES.map((c) => (
             <OptionCard
-              key={s.id}
+              key={c.id}
               type="radio"
-              name="semester"
-              checked={value.semester === s.id}
-              onChange={() => pickSemester(s.id)}
-              title={`MCA ${s.label}`}
-              detail={`${s.core.length} core subjects · ${s.groups.map((g) => (g.pick === 'one' ? g.label : `${g.pick} ${g.label.toLowerCase()}`)).join(', ')}`}
+              name="course"
+              checked={course === c.id}
+              onChange={() => pickCourse(c.id)}
+              title={c.name}
+              detail={c.full}
             />
           ))}
         </div>
       </fieldset>
+
+      {course && (
+        <fieldset>
+          <legend className="mb-3 text-heading">Your semester</legend>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {SEMESTERS.filter((s) => s.course === course).map((s) => (
+              <OptionCard
+                key={s.id}
+                type="radio"
+                name="semester"
+                checked={value.semester === s.id}
+                onChange={() => pickSemester(s.id)}
+                title={`${s.course} ${s.label}`}
+                detail={`${s.core.length} core subjects · ${s.groups.map((g) => (g.pick === 'one' ? g.label : `${g.pick} ${g.label.toLowerCase()}`)).join(', ')}`}
+              />
+            ))}
+          </div>
+        </fieldset>
+      )}
 
       {semester && (
         <>

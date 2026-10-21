@@ -1,10 +1,12 @@
-// What the portal offers: semesters, their core subjects and elective groups, and how each subject
-// is named and drawn. Semester ids are the Drive folder names (MCA-Sem-II/subjects/…); subject slugs
+// What the portal offers: courses, their semesters, core subjects and elective groups, and how each
+// subject is named and drawn. Semester ids are the Drive folder names (MCA-Sem-II/subjects/…, and the
+// prefix before "-Sem-" is the course); subject slugs must be unique across courses. Subject slugs
 // are the subject folder names. A subject folder that isn't listed here still shows up (as core,
 // with a neutral look), so adding content never needs a code change — only grouping does.
 
 import {
   BarChart3,
+  AppWindow,
   Brain,
   BrainCircuit,
   Building2,
@@ -13,10 +15,15 @@ import {
   CloudCog,
   CloudUpload,
   Code2,
+  Cpu,
+  Database,
+  Globe,
   Coffee,
   FlaskConical,
   Lightbulb,
+  KanbanSquare,
   LockKeyhole,
+  Palette,
   Megaphone,
   Microscope,
   Network,
@@ -25,6 +32,7 @@ import {
   ShieldCheck,
   ShieldHalf,
   ShoppingCart,
+  Sparkles,
   Smartphone,
   TestTubes,
   TrendingUp,
@@ -32,9 +40,15 @@ import {
   Webhook,
 } from 'lucide-react'
 
+export const COURSES = [
+  { id: 'MCA', name: 'MCA', full: 'Master of Computer Applications' },
+  { id: 'BCA', name: 'BCA', full: 'Bachelor of Computer Applications' },
+]
+
 export const SEMESTERS = [
   {
     id: 'MCA-Sem-II',
+    course: 'MCA',
     number: 2,
     label: 'Semester II',
     short: 'Sem II',
@@ -58,6 +72,7 @@ export const SEMESTERS = [
   },
   {
     id: 'MCA-Sem-III',
+    course: 'MCA',
     number: 3,
     label: 'Semester III',
     short: 'Sem III',
@@ -80,6 +95,38 @@ export const SEMESTERS = [
         label: 'Elective VI',
         pick: 'one',
         options: ['e-commerce', 'enterprise-resource-planning', 'innovation-and-entrepreneurship-development', 'social-media-marketing'],
+      },
+    ],
+  },
+  {
+    id: 'BCA-Sem-V',
+    course: 'BCA',
+    number: 5,
+    label: 'Semester V',
+    short: 'Sem V',
+    core: ['software-engineering-and-testing', 'fundamentals-of-artificial-intelligence', 'fundamentals-of-data-science', 'core-java-programming'],
+    groups: [
+      {
+        id: 'elective',
+        label: 'Elective',
+        pick: 'one',
+        options: ['ui-ux-design', 'cloud-computing', 'bca-cyber-security'],
+      },
+    ],
+  },
+  {
+    id: 'BCA-Sem-VI',
+    course: 'BCA',
+    number: 6,
+    label: 'Semester VI',
+    short: 'Sem VI',
+    core: ['software-project-management', 'web-programming', 'operating-system-design', 'advanced-java-programming'],
+    groups: [
+      {
+        id: 'elective',
+        label: 'Elective',
+        pick: 'one',
+        options: ['prompt-and-generative-ai', 'big-data-and-analytics', 'bca-mobile-application-development'],
       },
     ],
   },
@@ -115,6 +162,22 @@ const SUBJECTS = {
   'enterprise-resource-planning': { name: 'Enterprise Resource Planning', short: 'ERP', code: 'ERP618MJ', icon: Building2, tint: '#6366F1', about: 'ERP modules, implementation and business processes.' },
   'innovation-and-entrepreneurship-development': { name: 'Innovation & Entrepreneurship Development', short: 'IED', code: 'IED621MJ', icon: Lightbulb, tint: '#EAB308', about: 'From idea to venture: innovation, planning and funding.' },
   'social-media-marketing': { name: 'Social Media Marketing', short: 'SMM', code: 'SMM620MJ', icon: Megaphone, tint: '#EC4899', about: 'Platforms, content strategy, campaigns and analytics.' },
+  // BCA Semester V
+  'software-engineering-and-testing': { name: 'Software Engineering & Testing', short: 'SE&T', code: 'CA-301', icon: ShieldCheck, tint: '#10B981', about: 'System engineering, SDLC models, analysis and design tools, testing methods and QA.' },
+  'fundamentals-of-artificial-intelligence': { name: 'Fundamentals of Artificial Intelligence', short: 'AI', code: 'CA-302', icon: BrainCircuit, tint: '#06B6D4', about: 'Problem spaces and search, game playing and machine learning basics.' },
+  'fundamentals-of-data-science': { name: 'Fundamentals of Data Science', short: 'Data Science', code: 'CA-304', icon: BarChart3, tint: '#F43F5E', about: 'Statistics, data collection and preprocessing, visualization, tools and ethics.' },
+  'core-java-programming': { name: 'Core Java Programming', short: 'Core Java', code: 'CA-321', icon: Coffee, tint: '#F59E0B', about: 'Skill course: hands-on Core Java practicals.' },
+  'ui-ux-design': { name: 'UI & UX Design', short: 'UI/UX', code: 'CA-310', icon: Palette, tint: '#EC4899', about: 'User research, design principles, prototyping and usability testing.' },
+  'cloud-computing': { name: 'Cloud Computing', short: 'Cloud', code: 'CA-312', icon: Cloud, tint: '#0EA5E9', about: 'Virtualization, cloud platforms, emerging trends and cloud security.' },
+  'bca-cyber-security': { name: 'Cyber Security', short: 'Cyber', code: 'CA-314', icon: ShieldAlert, tint: '#EF4444', about: 'Cyber offenses, cybercrime tools, cryptography and cyber forensics.' },
+  // BCA Semester VI
+  'software-project-management': { name: 'Software Project Management', short: 'SPM', code: 'CA-351', icon: KanbanSquare, tint: '#6366F1', about: 'Planning, estimating and running software projects.' },
+  'web-programming': { name: 'Web Programming', short: 'Web', code: 'CA-352', icon: Globe, tint: '#3B82F6', about: 'Building dynamic websites and web applications.' },
+  'operating-system-design': { name: 'Operating System Design', short: 'OS', code: 'CA-354', icon: Cpu, tint: '#64748B', about: 'Processes, scheduling, memory and file systems.' },
+  'advanced-java-programming': { name: 'Advanced Java Programming', short: 'Adv Java', code: 'CA-371', icon: Coffee, tint: '#F97316', about: 'Skill course: hands-on Advanced Java practicals.' },
+  'prompt-and-generative-ai': { name: 'Prompt & Generative AI', short: 'GenAI', code: 'CA-360', icon: Sparkles, tint: '#A855F7', about: 'Prompt design and working with generative AI models.' },
+  'big-data-and-analytics': { name: 'Big Data & Analytics', short: 'Big Data', code: 'CA-362', icon: Database, tint: '#EAB308', about: 'Storing, processing and analysing large data sets.' },
+  'bca-mobile-application-development': { name: 'Mobile Application Development', short: 'MAD', code: 'CA-364', icon: AppWindow, tint: '#22C55E', about: 'Building mobile apps: UI, data and publishing.' },
 }
 
 export function subjectInfo(slug) {
@@ -123,6 +186,15 @@ export function subjectInfo(slug) {
 
 export function semesterById(id) {
   return SEMESTERS.find((s) => s.id === id) || null
+}
+
+export function courseById(id) {
+  return COURSES.find((c) => c.id === id) || null
+}
+
+// "BCA Semester V" / "BCA Sem V"; empty for an unknown semester.
+export function semesterTitle(semester, { short = false } = {}) {
+  return semester ? `${semester.course} ${short ? semester.short : semester.label}` : ''
 }
 
 // Groups have pick: 'one' (radio) or a number n (choose exactly n). Choices are stored as

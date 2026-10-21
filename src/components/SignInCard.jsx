@@ -71,7 +71,7 @@ export default function SignInCard({ onSignedIn }) {
   return (
     <div className="rounded-2xl border border-line bg-surface p-5">
       <h2 className="mb-1 text-heading">Sign in to open the notes</h2>
-      <p className="mb-4 text-label text-ink-2">After signing in you pick your semester and electives.</p>
+      <p className="mb-4 text-label text-ink-2">After signing in you pick your course, semester and electives.</p>
 
       {reason === 'expired' && (
         <p role="status" className="mb-4 flex items-start gap-2 rounded-xl bg-primary-soft px-3 py-2.5 text-label text-ink">

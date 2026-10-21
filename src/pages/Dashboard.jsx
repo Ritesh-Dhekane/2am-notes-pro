@@ -10,6 +10,7 @@ import { fileHref, kindLabel } from '../lib/files.js'
 import { Card, EmptyState, Skeleton, Tag } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { useBookmarks, useHistory } from '../lib/store.js'
+import { semesterTitle } from '../lib/catalog.js'
 import { useStudy } from '../lib/study.js'
 
 function greeting(hour) {
@@ -133,7 +134,7 @@ function DashboardBody({ library }) {
               <LayoutGrid className="size-5 text-primary-ink" aria-hidden="true" /> Your subjects
             </h2>
             <span className="font-mono text-caption text-ink-3">
-              MCA {library.semester?.short ?? ''} · {library.subjects.length}
+              {semesterTitle(library.semester, { short: true })} · {library.subjects.length}
             </span>
           </div>
           <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -215,7 +216,7 @@ export default function Dashboard() {
           {greeting(now.getHours())}, {user.firstName || 'there'}
         </h1>
         <p className="relative mt-1 text-body text-ink-2">
-          {semester ? `MCA ${semester.label}` : 'MCA'} · pick up where you left off.
+          {semesterTitle(semester) || 'Your semester'} · pick up where you left off.
         </p>
       </Card>
 

@@ -182,13 +182,24 @@ const SEM_III = [
   },
 ]
 
+// BCA: a few subjects with Unit 1 notes, an elective with none yet.
+const BCA_SEM_V = [
+  { slug: 'software-engineering-and-testing', name: 'Software Engineering And Testing', files: { notes: [file('unit-01-introduction-to-system-engineering.md')], pyqs: [], references: [] } },
+  { slug: 'fundamentals-of-artificial-intelligence', name: 'Fundamentals Of Artificial Intelligence', files: { notes: [file('unit-01-introduction-to-ai.md')], pyqs: [], references: [] } },
+  { slug: 'fundamentals-of-data-science', name: 'Fundamentals Of Data Science', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'core-java-programming', name: 'Core Java Programming', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'ui-ux-design', name: 'Ui Ux Design', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'cloud-computing', name: 'Cloud Computing', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'bca-cyber-security', name: 'Bca Cyber Security', files: { notes: [], pyqs: [], references: [] } },
+]
+
 // Every subject except Practicals has a syllabus at its root, like the real Drive folders.
 for (const subject of [...SEM_II, ...SEM_III]) {
   subject.syllabus = subject.slug === 'practicals' ? null : file('syllabus.pdf', { size: 320_000, days: 200 })
 }
 
-const SEMESTERS = { 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III }
-const ALL_FILES = [...SEM_II, ...SEM_III].flatMap((s) => [...Object.values(s.files).flat(), ...(s.syllabus ? [s.syllabus] : [])])
+const SEMESTERS = { 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [] }
+const ALL_FILES = [...SEM_II, ...SEM_III, ...BCA_SEM_V].flatMap((s) => [...Object.values(s.files).flat(), ...(s.syllabus ? [s.syllabus] : [])])
 
 const FIXTURES = {
   'sep-2025-unit-test-1.jpg': sampleJpg,
