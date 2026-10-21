@@ -68,9 +68,9 @@ Opening the web app URL in a browser returns a JSON health check.
 
 ## Releasing the website
 
-Work happens on `main`; pushing there does not deploy. To release, open a pull request from `main` to `prod` and merge it: `.github/workflows/deploy.yml` builds `prod` and publishes it to GitHub Pages. `prod` accepts changes only through pull requests. The workflow can also be run by hand from the Actions tab.
+Work happens on a branch from `dev` (`feat/…`, `fix/…`, `chore/…`), which is merged into `dev` by pull request when it's done; pushing to `dev` does not deploy. To release, open a pull request from `dev` to `prod` and merge it: `.github/workflows/deploy.yml` builds `prod` and publishes it to GitHub Pages. `prod` accepts changes only through pull requests. The workflow can also be run by hand from the Actions tab.
 
-Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps Script syntax check); a PR into `prod` can be merged only when it passes. Plain pushes to `main` run nothing.
+Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps Script syntax check); a PR into `prod` can be merged only when it passes. Plain pushes to `dev` run nothing.
 
 ## Drive Layout
 ```
@@ -110,7 +110,7 @@ Nothing personal is sent: no names, emails or typed search text, and reader addr
 Optional: set the Script Property `LOG_SHEET_ID` to a Google Sheet owned by the script's account. It gets a **Logs** tab (created with headers on first use) with one row per sign-in, library load and file opened: time (IST), email, name, event, semester, file path, and the device (browser, OS, device type, phone model where Chrome shares it, screen, installed app or not, language, time zone). Students must tick a consent box under the sign-in button that mentions both Analytics and this log; the choice is remembered on the device. Run `testLog` in the editor to check it. The public catalog isn't logged.
 
 ## Deployment
-Every push to `main` builds the app and publishes `dist/` to the `prod` branch (`.github/workflows/deploy.yml`). GitHub Pages serves it at `https://ritesh-dhekane.github.io/2am-notes-pro/`.
+A merge into `prod` builds the app and publishes it (`.github/workflows/deploy.yml`). GitHub Pages serves it at `https://ritesh-dhekane.github.io/2am-notes-pro/`.
 
 One-time setup:
 - **Settings → Pages → Deploy from a branch → `prod` / root**.
