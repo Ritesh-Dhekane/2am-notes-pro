@@ -59,11 +59,12 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user })
       case 'login':
         logEvent(user, 'login', {}, body.client)
+        recordSignIn(user, body.client)
         return jsonResponse({ authenticated: true, user: user, session: issueSession(claims) })
       case 'getStudy':
         return jsonResponse({ authenticated: true, user: user, study: getStudy(user.email) })
       case 'saveStudy':
-        var saved = saveStudy(user.email, body.study)
+        var saved = saveStudy(user, body.study)
         logEvent(user, 'save_study', { semester: saved.semester }, body.client)
         return jsonResponse({ authenticated: true, user: user, study: saved })
       case 'logout':
@@ -74,7 +75,10 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user, subjects: listLibrary(body.semester) })
       case 'getFile':
         var file = getFile(body.fileId)
-        if (!body.prefetch) logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
+        if (!body.prefetch) {
+          logEvent(user, 'file_open', { fileId: file.id, fileName: file.path || file.name, semester: (file.path || '').split('/')[0] }, body.client)
+          recordFileOpen(user, body.client)
+        }
         return jsonResponse({ authenticated: true, user: user, file: file })
       case 'getAsset':
         return jsonResponse({ authenticated: true, user: user, asset: getAsset(body.fileId, body.path) })
