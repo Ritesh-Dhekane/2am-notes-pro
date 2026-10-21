@@ -54,3 +54,7 @@ export function daysSince(text) {
   const ms = istDate(text).getTime()
   return text && !Number.isNaN(ms) ? Math.floor((Date.now() - ms) / 86400000) : null
 }
+
+export function studentPath(email) {
+  return `/admin/students/${encodeURIComponent(email)}`
+}

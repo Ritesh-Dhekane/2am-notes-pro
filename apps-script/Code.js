@@ -73,6 +73,8 @@ function doPost(e) {
         return jsonResponse({ authenticated: true, user: user, profile: saveProfile(user, { phone: body.phone }) })
       case 'adminOverview':
         return jsonResponse({ authenticated: true, user: user, overview: adminOverview(user, body.fresh) })
+      case 'adminStudents':
+        return jsonResponse(Object.assign({ authenticated: true, user: user }, adminStudents(user, body)))
       case 'logout':
         logEvent(user, 'logout', {}, body.client)
         return jsonResponse({ authenticated: true, user: user })

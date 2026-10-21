@@ -183,3 +183,22 @@ export function demoOverview(semesters) {
     installed: tally(installed),
   }
 }
+
+export function demoStudents(semesters, { query = '', course = '', semester = '', lastSeenDays = 0, page = 1 } = {}) {
+  const q = String(query).trim().toLowerCase()
+  const digits = q.replace(/[\s+-]/g, '')
+  const since = Date.now() - Number(lastSeenDays) * DAY
+  const list = data(semesters)
+    .students.filter(
+      (s) =>
+        (!course || s.course === course) &&
+        (!semester || s.semester === semester) &&
+        (!Number(lastSeenDays) || new Date(`${s.lastSeen.replace(' ', 'T')}+05:30`).getTime() >= since) &&
+        (!q || s.name.toLowerCase().includes(q) || s.email.includes(q) || (/^\d{3,}$/.test(digits) && s.phone.includes(digits))),
+    )
+    .sort((a, b) => b.lastSeen.localeCompare(a.lastSeen))
+  const size = 25
+  const pages = Math.max(1, Math.ceil(list.length / size))
+  const current = Math.min(Math.max(1, Number(page) || 1), pages)
+  return { students: list.slice((current - 1) * size, current * size), total: list.length, page: current, pages }
+}

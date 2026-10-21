@@ -220,6 +220,65 @@ function buildOverview() {
   }
 }
 
+// ---------- Students list ----------
+
+var STUDENTS_PAGE = 25
+
+function studentFromRow(row) {
+  var electives = {}
+  try {
+    electives = JSON.parse(row[STUDENT_COL.electives] || '{}')
+  } catch (err) {}
+  return {
+    email: String(row[STUDENT_COL.email]),
+    name: String(row[STUDENT_COL.name]),
+    phone: String(row[STUDENT_COL.phone]),
+    course: String(row[STUDENT_COL.course]),
+    semester: String(row[STUDENT_COL.semester]),
+    electives: electives,
+    firstSeen: cellTime(row[STUDENT_COL.firstSeen]),
+    lastSeen: cellTime(row[STUDENT_COL.lastSeen]),
+    signIns: Number(row[STUDENT_COL.signIns]) || 0,
+    opens: Number(row[STUDENT_COL.opens]) || 0,
+    device: String(row[STUDENT_COL.device]),
+  }
+}
+
+// params: { query (name, email or phone), course, semester, lastSeenDays, page }. Most recent first.
+function adminStudents(user, params) {
+  requireAdmin(user)
+  params = params || {}
+  var query = String(params.query || '').trim().toLowerCase()
+  var digits = query.replace(/[\s+-]/g, '')
+  var days = Number(params.lastSeenDays) || 0
+  var since = Date.now() - days * DAY_MS
+  logAdmin(user, 'students', query, { course: params.course, semester: params.semester, lastSeenDays: days })
+
+  var list = readStudents()
+    .map(studentFromRow)
+    .filter(function (s) {
+      if (params.course && s.course !== params.course) return false
+      if (params.semester && s.semester !== params.semester) return false
+      if (days && istMillis(s.lastSeen) < since) return false
+      if (!query) return true
+      return s.name.toLowerCase().indexOf(query) !== -1 ||
+        s.email.toLowerCase().indexOf(query) !== -1 ||
+        (/^\d{3,}$/.test(digits) && s.phone.indexOf(digits) !== -1)
+    })
+    .sort(function (a, b) {
+      return a.lastSeen < b.lastSeen ? 1 : a.lastSeen > b.lastSeen ? -1 : 0
+    })
+
+  var pages = Math.max(1, Math.ceil(list.length / STUDENTS_PAGE))
+  var page = Math.min(Math.max(1, Math.floor(Number(params.page) || 1)), pages)
+  return {
+    students: list.slice((page - 1) * STUDENTS_PAGE, page * STUDENTS_PAGE),
+    total: list.length,
+    page: page,
+    pages: pages,
+  }
+}
+
 // Best effort, like logEvent.
 function logAdmin(user, action, target, details) {
   try {

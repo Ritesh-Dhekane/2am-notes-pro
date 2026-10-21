@@ -8,7 +8,7 @@ import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
 import { normalizePhone } from '../lib/phone.js'
-import { demoOverview } from './adminDemo.js'
+import { demoOverview, demoStudents } from './adminDemo.js'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -424,6 +424,9 @@ export async function handleDemo(action, params) {
     case 'adminOverview':
       requireAdmin()
       return { authenticated: true, user, overview: demoOverview(SEMESTERS) }
+    case 'adminStudents':
+      requireAdmin()
+      return { authenticated: true, user, ...demoStudents(SEMESTERS, params) }
     case 'catalog':
       // Public: what's on offer, with counts but no file names or ids.
       return {

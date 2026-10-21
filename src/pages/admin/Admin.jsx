@@ -6,6 +6,7 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 import NotFound from '../NotFound.jsx'
 
 const Overview = lazy(() => import('./Overview.jsx'))
+const Students = lazy(() => import('./Students.jsx'))
 
 const TABS = [
   { to: '/admin', label: 'Overview', end: true },
@@ -41,6 +42,7 @@ export default function Admin() {
       <Suspense fallback={<div className="h-40" aria-busy="true" />}>
         <Routes>
           <Route index element={<Overview />} />
+          <Route path="students" element={<Students />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
