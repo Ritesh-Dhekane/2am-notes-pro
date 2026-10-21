@@ -1,6 +1,6 @@
 // Loading admin data and formatting it, shared by the admin pages.
 
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useAuth } from '../../context/useAuth.js'
 import { callApi } from '../../lib/api.js'
 import { friendlyError, isSessionError } from '../../lib/errorMessages.js'
@@ -31,6 +31,39 @@ export function useAdmin(action, params = {}) {
   }, [action, query, attempt, key, idToken, logout])
 
   return { data: state.data, error: state.key === key ? state.error : null, loading: state.key !== key, reload: () => setAttempt((n) => n + 1) }
+}
+
+// For admin actions that change something (dismiss a flag, block, hide a subject): run(action, params)
+// resolves to the answer, or null after showing the error in `error`.
+export function useAdminAction() {
+  const { user, logout } = useAuth()
+  const idToken = user?.idToken
+  const [state, setState] = useState({ busy: false, error: null })
+  const run = useCallback(
+    async (action, params = {}) => {
+      setState({ busy: true, error: null })
+      try {
+        const data = await callApi(action, { idToken, ...params })
+        setState({ busy: false, error: null })
+        return data
+      } catch (err) {
+        if (isSessionError(err.message)) logout('expired')
+        else setState({ busy: false, error: friendlyError(err.message) })
+        return null
+      }
+    },
+    [idToken, logout],
+  )
+  return [run, state]
+}
+
+// The rules in apps-script/Flags.js.
+export const FLAG_RULES = {
+  burst: 'Burst of opens',
+  bulk: 'Bulk opening',
+  devices: 'Many devices',
+  automation: 'Automation',
+  timing: 'Regular timing',
 }
 
 // "MCA-Sem-III" -> "MCA Sem III".

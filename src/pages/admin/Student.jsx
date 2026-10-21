@@ -5,8 +5,8 @@ import { ArrowLeft, ChevronLeft, ChevronRight, Lightbulb } from 'lucide-react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ErrorState, Skeleton } from '../../components/ui.jsx'
 import { subjectLook } from '../../lib/subjects.js'
-import { daysSince, formatTime, semesterLabel, useAdmin } from './adminData.js'
-import { Bars, Panel } from './bits.jsx'
+import { daysSince, formatTime, semesterLabel, useAdmin, useAdminAction } from './adminData.js'
+import { Bars, FlagItem, Panel } from './bits.jsx'
 
 const EVENTS = {
   login: 'Signed in',
@@ -53,6 +53,35 @@ function Profile({ student }) {
   )
 }
 
+// This student's flags from the misuse check, newest first.
+function Flags({ flags, onUpdate, action }) {
+  return (
+    <Panel title={`Flags (${flags.length})`}>
+      {action.error && (
+        <p role="alert" className="mb-2 text-label text-danger">
+          {action.error}
+        </p>
+      )}
+      <ul className="-my-3 flex flex-col divide-y divide-line">
+        {flags.map((flag) => (
+          <FlagItem
+            key={flag.row}
+            flag={flag}
+            showEmail={false}
+            actions={
+              flag.status === 'open' && (
+                <button type="button" className="btn-secondary" disabled={action.busy} onClick={() => onUpdate(flag, 'dismissed')}>
+                  Dismiss
+                </button>
+              )
+            }
+          />
+        ))}
+      </ul>
+    </Panel>
+  )
+}
+
 function Timeline({ data, page, setPage }) {
   return (
     <Panel title={`Activity (${data.total})`}>
@@ -92,12 +121,21 @@ function Timeline({ data, page, setPage }) {
   )
 }
 
-export default function Student() {
+// `onChange` updates the open flag count in the admin nav.
+export default function Student({ onChange }) {
   const { email } = useParams()
   const [params, setParams] = useSearchParams()
   const page = Number(params.get('page')) || 1
   const { data, error, loading, reload } = useAdmin('adminStudent', { email, page })
+  const [run, action] = useAdminAction()
   const current = data && data.student.email === email.toLowerCase() ? data : null
+
+  async function updateFlag(flag, status) {
+    if (await run('adminFlagUpdate', { row: flag.row, status })) {
+      reload()
+      onChange?.()
+    }
+  }
 
   const back = (
     <Link to="/admin/students" className="inline-flex min-h-10 items-center gap-1.5 text-label font-semibold text-primary-ink">
@@ -144,6 +182,7 @@ export default function Student() {
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-start">
         <div className="flex min-w-0 flex-col gap-5">
           <Profile student={student} />
+          {current.flags?.length > 0 && <Flags flags={current.flags} onUpdate={updateFlag} action={action} />}
           <Panel title="Opens by subject">
             <Bars
               items={current.subjects.map((s) => ({ key: s.subject, label: s.name, count: s.count, detail: semesterLabel(s.subject.split('/')[0]) }))}

@@ -10,6 +10,7 @@ function browserName() {
     return m ? `${name} ${m[1]}` : null
   }
   return (
+    pick(/HeadlessChrome\/(\d+)/, 'HeadlessChrome') ||
     pick(/EdgA?\/(\d+)/, 'Edge') ||
     pick(/OPR\/(\d+)/, 'Opera') ||
     pick(/SamsungBrowser\/(\d+)/, 'Samsung Internet') ||
@@ -65,7 +66,8 @@ export function deviceInfo() {
     // older browsers
   }
   return {
-    browser: browserName(),
+    // A browser driven by automation (Selenium, Playwright, Puppeteer) says so; the misuse flags look for it.
+    browser: navigator.webdriver ? `${browserName()} (webdriver)` : browserName(),
     os: osName(hints.platformVersion),
     device: deviceType(),
     model: hints.model || '',

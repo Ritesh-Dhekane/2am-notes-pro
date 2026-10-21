@@ -20,6 +20,7 @@ const FRIENDLY_MESSAGES = {
   access_blocked: 'This account no longer has access. Contact the portal owner if this is a mistake.',
   not_admin: "This account isn't an admin.",
   student_not_found: 'No student with this email has signed in.',
+  flag_not_found: 'This flag no longer exists. Reload the list.',
   invalid_phone: 'Enter a 10-digit number, or + and your country code.',
   profile_not_saved: "Couldn't save right now. Please try again.",
   server_misconfigured_missing_drive_root:

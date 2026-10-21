@@ -227,5 +227,28 @@ export function demoStudent(semesters, { email = '', page = 1 } = {}) {
     fileOpens: opens.length,
     onlyUnitOne: opens.length > 0 && opens.every((r) => UNIT_ONE.test(r.file)),
     subjects: top(perSubject, 'subject').map((s) => ({ ...s, name: names[s.subject] || s.subject })),
+    flags: FLAGS.filter((f) => f.email === student.email).reverse(),
   }
+}
+
+// The Flags tab (apps-script/Flags.js): one automation, one burst, one already dismissed. `row` is the
+// sheet row, the id adminFlagUpdate takes.
+const FLAGS = [
+  { row: 2, time: ist(Date.now() - 6 * DAY), email: 'aarti.patil@example.com', rule: 'devices', evidence: '5 devices in 7 days: Phone Â· Chrome 141 Â· Android 15; Desktop Â· Chrome 141 Â· Windows 11; Tablet Â· Safari 26 Â· iPadOS 26â€¦', status: 'dismissed', reviewedBy: 'ritesh@example.com', reviewedAt: ist(Date.now() - 5 * DAY) },
+  { row: 3, time: ist(Date.now() - 2 * DAY), email: 'vikram.shinde@example.com', rule: 'automation', evidence: '"HeadlessChrome" in HeadlessChrome 141 Linux', status: 'open', reviewedBy: '', reviewedAt: '' },
+  { row: 4, time: ist(Date.now() - 3 * 60 * 60 * 1000), email: 'kunal.gaikwad@example.com', rule: 'burst', evidence: '19 file opens in 1 minute', status: 'open', reviewedBy: '', reviewedAt: '' },
+]
+
+export function demoFlags({ status = '', email = '', badge = false } = {}) {
+  const counts = { open: 0, dismissed: 0, blocked: 0 }
+  for (const f of FLAGS) counts[f.status]++
+  const list = [...FLAGS].reverse().filter((f) => (!status || f.status === status) && (!email || f.email === email))
+  return { flags: badge ? [] : structuredClone(list), total: list.length, counts }
+}
+
+export function demoFlagUpdate({ row, status }, admin) {
+  const flag = FLAGS.find((f) => f.row === Number(row))
+  if (!flag || !['open', 'dismissed', 'blocked'].includes(status)) throw new Error('flag_not_found')
+  Object.assign(flag, { status, reviewedBy: admin, reviewedAt: ist(Date.now()) })
+  return { ...flag }
 }

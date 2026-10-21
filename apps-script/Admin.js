@@ -27,7 +27,7 @@ function readStudents() {
   return sheet.getRange(2, 1, sheet.getLastRow() - 1, STUDENT_HEADERS.length).getValues()
 }
 
-// The Logs columns the admin pages use: A Time … F File, J Device, M Installed app. One getValues of A:M
+// The Logs columns the admin pages use: A Time … F File, H Browser … K Model, M Installed app. One getValues of A:M
 // is faster than a call per column.
 var LOG_WIDTH = 13
 function logEntry(row) {
@@ -40,6 +40,7 @@ function logEntry(row) {
     browser: String(row[7]),
     os: String(row[8]),
     device: String(row[9]),
+    model: String(row[10]),
     installed: String(row[12]),
   }
 }
@@ -345,6 +346,7 @@ function adminStudent(user, params) {
       s.name = names[s.subject] || slugToTitle(s.subject.split('/')[1] || s.subject)
       return s
     }),
+    flags: flagsFor(email),
   }
 }
 

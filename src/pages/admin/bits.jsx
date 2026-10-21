@@ -1,6 +1,8 @@
-// Shared pieces of the admin pages: stat cards, panels and simple bar lists.
+// Shared pieces of the admin pages: stat cards, panels, simple bar lists and flags.
 
+import { Link } from 'react-router-dom'
 import { Card } from '../../components/ui.jsx'
+import { FLAG_RULES, formatTime, studentPath } from './adminData.js'
 
 export function StatCard({ label, value, hint }) {
   return (
@@ -43,5 +45,38 @@ export function Bars({ items, empty = 'Nothing yet.' }) {
         </li>
       ))}
     </ul>
+  )
+}
+
+const STATUS_LOOK = {
+  open: 'border-danger text-danger',
+  dismissed: 'border-line text-ink-3',
+  blocked: 'border-line-strong bg-surface-2 text-ink',
+}
+
+// One flag from the Flags tab; `actions` are its buttons.
+export function FlagItem({ flag, showEmail = true, actions }) {
+  return (
+    <li className="flex min-w-0 flex-col gap-2 py-3 sm:flex-row sm:items-start sm:gap-4">
+      <div className="min-w-0 flex-1">
+        <p className="flex flex-wrap items-center gap-2">
+          <span className="font-semibold text-ink">{FLAG_RULES[flag.rule] || flag.rule}</span>
+          <span className={`rounded-full border px-2 py-px text-caption font-medium ${STATUS_LOOK[flag.status] || STATUS_LOOK.dismissed}`}>
+            {flag.status}
+          </span>
+        </p>
+        {showEmail && (
+          <Link to={studentPath(flag.email)} className="block truncate font-mono text-caption text-primary-ink hover:underline">
+            {flag.email}
+          </Link>
+        )}
+        <p className="mt-1 text-label break-words text-ink-2">{flag.evidence}</p>
+        <p className="mt-0.5 text-caption text-ink-3">
+          {formatTime(flag.time)}
+          {flag.reviewedBy && ` · ${flag.status} by ${flag.reviewedBy}, ${formatTime(flag.reviewedAt)}`}
+        </p>
+      </div>
+      {actions && <div className="flex shrink-0 flex-wrap gap-2">{actions}</div>}
+    </li>
   )
 }

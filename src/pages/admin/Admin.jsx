@@ -8,14 +8,17 @@ import { useAuth } from '../../context/useAuth.js'
 import { callApi } from '../../lib/api.js'
 import { friendlyError } from '../../lib/errorMessages.js'
 import NotFound from '../NotFound.jsx'
+import { useAdmin } from './adminData.js'
 
 const Overview = lazy(() => import('./Overview.jsx'))
 const Students = lazy(() => import('./Students.jsx'))
 const Student = lazy(() => import('./Student.jsx'))
+const Flags = lazy(() => import('./Flags.jsx'))
 
 const TABS = [
   { to: '/admin', label: 'Overview', end: true },
   { to: '/admin/students', label: 'Students' },
+  { to: '/admin/flags', label: 'Flags', badge: 'flags' },
 ]
 
 // Rebuilds the backend's file listings now instead of waiting for the hourly refresh.
@@ -48,7 +51,8 @@ function RefreshLibrary() {
   )
 }
 
-function AdminNav() {
+// `badges`: { flags: open flag count }.
+function AdminNav({ badges }) {
   return (
     <nav aria-label="Admin" className="mb-6 flex flex-wrap items-start gap-2">
       {TABS.map((tab) => (
@@ -63,6 +67,11 @@ function AdminNav() {
           }
         >
           {tab.label}
+          {badges[tab.badge] > 0 && (
+            <span className="ml-1.5 rounded-full bg-primary px-1.5 font-mono text-caption leading-5 text-on-primary" aria-label={`${badges[tab.badge]} open`}>
+              {badges[tab.badge]}
+            </span>
+          )}
         </NavLink>
       ))}
       <RefreshLibrary />
@@ -71,15 +80,17 @@ function AdminNav() {
 }
 
 export default function Admin() {
+  const flags = useAdmin('adminFlags', { status: 'open', badge: true })
   return (
     <div className="min-w-0">
       <p className="font-mono text-caption text-teal-ink">Admin</p>
-      <AdminNav />
+      <AdminNav badges={{ flags: flags.data?.counts.open }} />
       <Suspense fallback={<div className="h-40" aria-busy="true" />}>
         <Routes>
           <Route index element={<Overview />} />
           <Route path="students" element={<Students />} />
-          <Route path="students/:email" element={<Student />} />
+          <Route path="students/:email" element={<Student onChange={flags.reload} />} />
+          <Route path="flags" element={<Flags onChange={flags.reload} />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
