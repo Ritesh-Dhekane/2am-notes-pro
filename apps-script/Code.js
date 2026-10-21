@@ -5,10 +5,15 @@
 // Content hidden or coming soon in /admin/content (Visibility.js) is applied to every listing and file.
 // Everything else needs a session or a Google ID token, sent as `idToken` (Auth.js).
 
+// Bump on every backend change: /admin/health and the health check show it, to tell whether the
+// latest code is deployed.
+var BACKEND_VERSION = '1.0.0'
+
 function doGet(e) {
   return jsonResponse({
     status: 'ok',
     service: '2am-notes-pro-api',
+    version: BACKEND_VERSION,
     timestamp: new Date().toISOString(),
   })
 }
@@ -106,6 +111,8 @@ function doPost(e) {
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminExport(user)))
       case 'adminGaps':
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminGaps(user)))
+      case 'adminHealth':
+        return jsonResponse({ authenticated: true, user: user, health: adminHealth(user) })
       case 'adminRefreshLibrary':
         return jsonResponse({ authenticated: true, user: user, result: adminRefreshLibrary(user) })
       case 'logout':

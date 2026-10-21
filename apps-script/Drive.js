@@ -351,12 +351,13 @@ function store(key, value) {
 }
 
 // Rebuilds every listing. Run it from the editor after adding or renaming files; the hourly trigger
-// runs it too.
+// runs it too. When it last finished is kept in the Script Property CACHE_REFRESHED_AT (/admin/health).
 function refreshCaches() {
   store('catalog', buildCatalog())
   listSemesterFolders().forEach(function (semester) {
     store('library:' + semester.id, buildLibrary(semester))
   })
+  PropertiesService.getScriptProperties().setProperty('CACHE_REFRESHED_AT', new Date().toISOString())
 }
 
 // Run once from the editor: refreshes the caches every hour (and right now).

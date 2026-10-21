@@ -1,6 +1,7 @@
 // Bot and misuse flags. checkFlags runs every hour (installFlagTrigger, run once from the editor) and
 // reads the Logs rows added since its last run; the row it stopped at is the Script Property
-// FLAG_CURSOR. Anything suspicious goes to the "Flags" tab for an admin to review at /admin/flags.
+// FLAG_CURSOR, and when it last ran is FLAG_CHECKED_AT (/admin/health). Anything suspicious goes to the
+// "Flags" tab for an admin to review at /admin/flags.
 // Flags never block anyone by themselves: an admin dismisses them or blocks the student (adminBlock).
 
 // Every threshold, in one place. Raise a number if a rule flags real students.
@@ -83,6 +84,7 @@ function checkFlags() {
     if (found.length) addFlags(found)
     props.setProperty('FLAG_CURSOR', String(end))
   } finally {
+    PropertiesService.getScriptProperties().setProperty('FLAG_CHECKED_AT', new Date().toISOString())
     lock.releaseLock()
   }
 }

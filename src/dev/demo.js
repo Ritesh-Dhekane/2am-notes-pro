@@ -589,6 +589,30 @@ export async function handleDemo(action, params) {
           })),
         })),
       }
+    case 'adminHealth': {
+      requireAdmin()
+      const sizeOf = (text, count) => ({ chars: text.length, items: count(JSON.parse(text)) })
+      return {
+        authenticated: true,
+        user,
+        health: {
+          version: '1.0.0',
+          time: new Date().toISOString(),
+          lastError: `${new Date(Date.now() - 95 * 60000).toISOString()} Service Spreadsheets timed out while accessing document with id 1AbC…`,
+          cache: { refreshedAt: new Date(Date.now() - 25 * 60000).toISOString(), catalogCached: true },
+          triggers: { refreshCaches: true, checkFlags: true, error: '' },
+          flags: { checkedAt: new Date(Date.now() - 41 * 60000).toISOString(), cursor: 1842 },
+          sheets: { configured: true, error: '', students: 10, logs: 1843, flags: 3, adminLog: 57, blocks: 2 },
+          properties: {
+            limit: 9000,
+            announcements: sizeOf(JSON.stringify(readAnnouncements()), (list) => list.length),
+            visibility: sizeOf(JSON.stringify(readVisibility()), (v) => v.hidden.length + v.comingSoon.length + v.freePreview.length),
+            blocked: Object.values(readBlocks()).filter((b) => b.blocked).length,
+            admins: 1,
+          },
+        },
+      }
+    }
     case 'adminRefreshLibrary': {
       requireAdmin()
       await wait(900)

@@ -17,6 +17,7 @@ const Flags = lazy(() => import('./Flags.jsx'))
 const Content = lazy(() => import('./Content.jsx'))
 const Announcements = lazy(() => import('./Announcements.jsx'))
 const Gaps = lazy(() => import('./Gaps.jsx'))
+const Health = lazy(() => import('./Health.jsx'))
 
 const TABS = [
   { to: '/admin', label: 'Overview', end: true },
@@ -25,6 +26,7 @@ const TABS = [
   { to: '/admin/content', label: 'Content' },
   { to: '/admin/announcements', label: 'Announcements' },
   { to: '/admin/gaps', label: 'Gaps' },
+  { to: '/admin/health', label: 'Health' },
 ]
 
 // Rebuilds the backend's file listings now instead of waiting for the hourly refresh.
@@ -102,6 +104,7 @@ export default function Admin() {
           <Route path="content" element={<Content />} />
           <Route path="announcements" element={<Announcements />} />
           <Route path="gaps" element={<Gaps />} />
+          <Route path="health" element={<Health />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
