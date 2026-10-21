@@ -370,6 +370,18 @@ async function contentFor(f) {
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
+// The demo account is an admin. Open the app with ?demo=student to try it as a student instead.
+const ROLE_KEY = 'notes-pro.demo-role'
+function demoIsAdmin() {
+  try {
+    const param = new URLSearchParams(window.location.search).get('demo')
+    if (param !== null) sessionStorage.setItem(ROLE_KEY, param === 'student' ? 'student' : 'admin')
+    return sessionStorage.getItem(ROLE_KEY) !== 'student'
+  } catch {
+    return true
+  }
+}
+
 // Test hook: window.__demoAddNote() adds a note to the first subject of each semester, to try the
 // "New notes added" prompt without a real upload.
 if (typeof window !== 'undefined') {
@@ -384,6 +396,7 @@ export async function handleDemo(action, params) {
   switch (action) {
     case 'verify':
     case 'login':
+      return { authenticated: true, user, isAdmin: demoIsAdmin() }
     case 'logout':
       return { authenticated: true, user }
     // The "account" copy of the semester choice, kept in localStorage so it survives reloads like the real one.

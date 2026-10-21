@@ -4,7 +4,7 @@ import { callApi } from '../lib/api.js'
 import { trackEvent } from '../lib/analytics.js'
 import { clearFileCache } from '../lib/library.js'
 import { syncStudy } from '../lib/study.js'
-import { AuthContext, SIGNOUT_REASON_KEY, STORAGE_KEY } from './authContext.js'
+import { ADMIN_KEY, AuthContext, SIGNOUT_REASON_KEY, STORAGE_KEY } from './authContext.js'
 
 function userFromToken(idToken) {
   const payload = decodeJwtPayload(idToken)
@@ -46,24 +46,48 @@ function readStoredUser() {
   }
 }
 
+// Whether the account is an admin, as the backend last said: { email, isAdmin }. Only decides whether
+// the Admin link shows; every admin request is checked again on the server.
+function readAdmin() {
+  try {
+    return JSON.parse(localStorage.getItem(ADMIN_KEY) || 'null')
+  } catch {
+    return null
+  }
+}
+
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(readStoredUser)
+  const [admin, setAdmin] = useState(readAdmin)
+
+  const rememberAdmin = useCallback((email, isAdmin) => {
+    const entry = { email, isAdmin: Boolean(isAdmin) }
+    try {
+      localStorage.setItem(ADMIN_KEY, JSON.stringify(entry))
+    } catch {
+      // storage blocked: works for this visit
+    }
+    setAdmin(entry)
+  }, [])
 
   const login = useCallback((idToken) => {
     localStorage.setItem(STORAGE_KEY, idToken)
     rememberReason(null)
-    setUser(userFromToken(idToken))
+    const signedIn = userFromToken(idToken)
+    setUser(signedIn)
     // Logs the sign-in and returns the 7-day session. Best effort: sign-in never waits on the backend,
     // and without a session the Google token keeps working until it expires.
     callApi('login', { idToken })
-      .then(({ session }) => {
-        if (!session || localStorage.getItem(STORAGE_KEY) !== idToken) return // signed out meanwhile
+      .then(({ session, isAdmin }) => {
+        if (localStorage.getItem(STORAGE_KEY) !== idToken) return // signed out meanwhile
+        rememberAdmin(signedIn.email, isAdmin)
+        if (!session) return
         localStorage.setItem(STORAGE_KEY, session)
         setUser(userFromToken(session))
       })
       .catch(() => {})
     trackEvent('login', { method: 'google' })
-  }, [])
+  }, [rememberAdmin])
 
   // reason: 'expired' when the backend rejected the session, so the sign-in page can say so.
   const logout = useCallback((reason) => {
@@ -74,6 +98,8 @@ export function AuthProvider({ children }) {
       return null
     })
     localStorage.removeItem(STORAGE_KEY)
+    localStorage.removeItem(ADMIN_KEY)
+    setAdmin(null)
     rememberReason(typeof reason === 'string' ? reason : null)
     clearFileCache()
   }, [])
@@ -84,5 +110,18 @@ export function AuthProvider({ children }) {
     if (idToken) syncStudy(idToken)
   }, [idToken])
 
-  return <AuthContext.Provider value={{ user, login, logout }}>{children}</AuthContext.Provider>
+  // Signed in before admin roles existed (or on a new device without the answer yet): ask once.
+  const email = user?.email
+  const known = admin?.email === email
+  useEffect(() => {
+    if (!idToken || known) return
+    callApi('verify', { idToken })
+      .then(({ isAdmin }) => localStorage.getItem(STORAGE_KEY) === idToken && rememberAdmin(email, isAdmin))
+      .catch(() => {})
+  }, [idToken, email, known, rememberAdmin])
+
+  // null while unknown, then true or false.
+  const isAdmin = user && known ? admin.isAdmin : null
+
+  return <AuthContext.Provider value={{ user, login, logout, isAdmin }}>{children}</AuthContext.Provider>
 }

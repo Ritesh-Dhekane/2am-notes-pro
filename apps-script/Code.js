@@ -56,11 +56,11 @@ function doPost(e) {
   try {
     switch (action) {
       case 'verify':
-        return jsonResponse({ authenticated: true, user: user })
+        return jsonResponse({ authenticated: true, user: user, isAdmin: isAdmin(user.email) })
       case 'login':
         logEvent(user, 'login', {}, body.client)
         recordSignIn(user, body.client)
-        return jsonResponse({ authenticated: true, user: user, session: issueSession(claims) })
+        return jsonResponse({ authenticated: true, user: user, session: issueSession(claims), isAdmin: isAdmin(user.email) })
       case 'getStudy':
         return jsonResponse({ authenticated: true, user: user, study: getStudy(user.email) })
       case 'saveStudy':
