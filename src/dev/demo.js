@@ -8,6 +8,7 @@ import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
 import { normalizePhone } from '../lib/phone.js'
+import { demoOverview } from './adminDemo.js'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -382,6 +383,10 @@ function demoIsAdmin() {
   }
 }
 
+function requireAdmin() {
+  if (!demoIsAdmin()) throw new Error('not_admin')
+}
+
 // Test hook: window.__demoAddNote() adds a note to the first subject of each semester, to try the
 // "New notes added" prompt without a real upload.
 if (typeof window !== 'undefined') {
@@ -416,6 +421,9 @@ export async function handleDemo(action, params) {
       localStorage.setItem('notes-pro.demo-account-phone', phone)
       return { authenticated: true, user, profile: { phone } }
     }
+    case 'adminOverview':
+      requireAdmin()
+      return { authenticated: true, user, overview: demoOverview(SEMESTERS) }
     case 'catalog':
       // Public: what's on offer, with counts but no file names or ids.
       return {
