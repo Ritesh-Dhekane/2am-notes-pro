@@ -1,8 +1,12 @@
 // The admin portal (admins only, see App.jsx): who uses the app and what they open. Each page loads
 // on its own; the backend checks the admin again on every request (apps-script/Admin.js).
 
-import { lazy, Suspense } from 'react'
+import { RefreshCw } from 'lucide-react'
+import { lazy, Suspense, useState } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
+import { useAuth } from '../../context/useAuth.js'
+import { callApi } from '../../lib/api.js'
+import { friendlyError } from '../../lib/errorMessages.js'
 import NotFound from '../NotFound.jsx'
 
 const Overview = lazy(() => import('./Overview.jsx'))
@@ -14,9 +18,39 @@ const TABS = [
   { to: '/admin/students', label: 'Students' },
 ]
 
+// Rebuilds the backend's file listings now instead of waiting for the hourly refresh.
+function RefreshLibrary() {
+  const { user } = useAuth()
+  const [status, setStatus] = useState({ busy: false, text: '' })
+
+  async function refresh() {
+    setStatus({ busy: true, text: 'Refreshing the library. This can take a minute…' })
+    try {
+      const { result } = await callApi('adminRefreshLibrary', { idToken: user.idToken })
+      setStatus({
+        busy: false,
+        text: `Library refreshed: ${result.semesters} semesters, ${result.subjects} subjects, ${result.files} files (${result.seconds} s).`,
+      })
+    } catch (err) {
+      setStatus({ busy: false, text: friendlyError(err.message) })
+    }
+  }
+
+  return (
+    <div className="flex min-w-0 flex-col items-start gap-1 sm:ml-auto sm:items-end">
+      <button type="button" className="btn-secondary" onClick={refresh} disabled={status.busy}>
+        <RefreshCw className={`size-4 ${status.busy ? 'animate-spin' : ''}`} aria-hidden="true" /> Refresh library
+      </button>
+      <p className="max-w-sm text-caption text-ink-2 sm:text-right" role="status">
+        {status.text}
+      </p>
+    </div>
+  )
+}
+
 function AdminNav() {
   return (
-    <nav aria-label="Admin" className="mb-6 flex flex-wrap items-center gap-2">
+    <nav aria-label="Admin" className="mb-6 flex flex-wrap items-start gap-2">
       {TABS.map((tab) => (
         <NavLink
           key={tab.to}
@@ -31,6 +65,7 @@ function AdminNav() {
           {tab.label}
         </NavLink>
       ))}
+      <RefreshLibrary />
     </nav>
   )
 }

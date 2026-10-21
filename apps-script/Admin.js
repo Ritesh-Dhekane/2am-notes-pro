@@ -369,6 +369,28 @@ function readLogRows(sheet, numbers) {
   })
 }
 
+// ---------- Refresh library ----------
+
+// The same rebuild as the hourly trigger (refreshCaches in Drive.js), for new files to show straight away.
+function adminRefreshLibrary(user) {
+  requireAdmin(user)
+  var started = Date.now()
+  refreshCaches()
+  var catalog = getCatalog()
+  var result = { semesters: catalog.length, subjects: 0, files: 0, seconds: 0 }
+  catalog.forEach(function (semester) {
+    result.subjects += semester.subjects.length
+    semester.subjects.forEach(function (subject) {
+      Object.keys(subject.counts || {}).forEach(function (c) {
+        result.files += subject.counts[c]
+      })
+    })
+  })
+  result.seconds = Math.round((Date.now() - started) / 1000)
+  logAdmin(user, 'refresh_library', '', result)
+  return result
+}
+
 // Best effort, like logEvent.
 function logAdmin(user, action, target, details) {
   try {

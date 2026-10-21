@@ -78,7 +78,7 @@ function Table({ students }) {
             <th className="px-4 py-2.5 font-semibold">Semester</th>
             <th className="px-4 py-2.5 font-semibold">Phone</th>
             <th className="px-4 py-2.5 font-semibold">Last seen</th>
-            <th className="w-20 px-4 py-2.5 text-right font-semibold">Sign-ins</th>
+            <th className="w-24 px-4 py-2.5 text-right font-semibold">Sign-ins</th>
             <th className="w-20 px-4 py-2.5 text-right font-semibold">Opens</th>
           </tr>
         </thead>

@@ -2,11 +2,17 @@
 // and the Apps Script backend (src/dev/demo.js). Production builds always return false.
 
 const KEY = 'notes-pro.demo'
+// The demo account is an admin; ?demo=student tries the app as a student instead.
+export const DEMO_ROLE_KEY = 'notes-pro.demo-role'
 
 export function isDemo() {
   if (!import.meta.env.DEV) return false
   try {
-    if (new URLSearchParams(window.location.search).has('demo')) sessionStorage.setItem(KEY, '1')
+    const param = new URLSearchParams(window.location.search).get('demo')
+    if (param !== null) {
+      sessionStorage.setItem(KEY, '1')
+      sessionStorage.setItem(DEMO_ROLE_KEY, param === 'student' ? 'student' : 'admin')
+    }
     return sessionStorage.getItem(KEY) === '1'
   } catch {
     return false

@@ -7,6 +7,7 @@ import sampleJpg from './fixtures/sample.jpg?url'
 import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
+import { DEMO_ROLE_KEY } from '../lib/demoMode.js'
 import { normalizePhone } from '../lib/phone.js'
 import { demoOverview, demoStudent, demoStudents } from './adminDemo.js'
 
@@ -371,13 +372,10 @@ async function contentFor(f) {
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
-// The demo account is an admin. Open the app with ?demo=student to try it as a student instead.
-const ROLE_KEY = 'notes-pro.demo-role'
+// The demo account is an admin, unless opened with ?demo=student (lib/demoMode.js).
 function demoIsAdmin() {
   try {
-    const param = new URLSearchParams(window.location.search).get('demo')
-    if (param !== null) sessionStorage.setItem(ROLE_KEY, param === 'student' ? 'student' : 'admin')
-    return sessionStorage.getItem(ROLE_KEY) !== 'student'
+    return sessionStorage.getItem(DEMO_ROLE_KEY) !== 'student'
   } catch {
     return true
   }
@@ -430,6 +428,13 @@ export async function handleDemo(action, params) {
     case 'adminStudent':
       requireAdmin()
       return { authenticated: true, user, ...demoStudent(SEMESTERS, params) }
+    case 'adminRefreshLibrary': {
+      requireAdmin()
+      await wait(900)
+      const subjects = Object.values(SEMESTERS).flat()
+      const files = subjects.reduce((sum, s) => sum + Object.values(s.files).flat().length, 0)
+      return { authenticated: true, user, result: { semesters: Object.keys(SEMESTERS).length, subjects: subjects.length, files, seconds: 1 } }
+    }
     case 'catalog':
       // Public: what's on offer, with counts but no file names or ids.
       return {

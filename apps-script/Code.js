@@ -77,6 +77,8 @@ function doPost(e) {
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminStudents(user, body)))
       case 'adminStudent':
         return jsonResponse(Object.assign({ authenticated: true, user: user }, adminStudent(user, body)))
+      case 'adminRefreshLibrary':
+        return jsonResponse({ authenticated: true, user: user, result: adminRefreshLibrary(user) })
       case 'logout':
         logEvent(user, 'logout', {}, body.client)
         return jsonResponse({ authenticated: true, user: user })
