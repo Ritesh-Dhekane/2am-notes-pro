@@ -1,12 +1,13 @@
 // /admin/students/:email: one student's profile, what they open, and their full activity log, with a
 // few hints for when they might need help.
 
-import { ArrowLeft, ChevronLeft, ChevronRight, Lightbulb } from 'lucide-react'
+import { ArrowLeft, Ban, ChevronLeft, ChevronRight, Lightbulb } from 'lucide-react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ErrorState, Skeleton } from '../../components/ui.jsx'
+import { ageOf } from '../../lib/birthday.js'
 import { subjectLook } from '../../lib/subjects.js'
-import { daysSince, formatTime, semesterLabel, useAdmin } from './adminData.js'
-import { Bars, Panel } from './bits.jsx'
+import { daysSince, formatTime, semesterLabel, useAdmin, useAdminAction } from './adminData.js'
+import { Bars, BlockControl, FlagItem, Panel } from './bits.jsx'
 
 const EVENTS = {
   login: 'Signed in',
@@ -33,6 +34,7 @@ function Profile({ student }) {
     ['Semester', student.semester ? semesterLabel(student.semester) : 'Not chosen'],
     ['Electives', electives.join(', ') || '–'],
     ['Phone', student.phone || '–'],
+    ['Birthday', student.birthday ? `${student.birthday} (age ${ageOf(student.birthday)})` : '–'],
     ['First seen', formatTime(student.firstSeen)],
     ['Last seen', formatTime(student.lastSeen)],
     ['Sign-ins', student.signIns ?? '–'],
@@ -49,6 +51,35 @@ function Profile({ student }) {
           </div>
         ))}
       </dl>
+    </Panel>
+  )
+}
+
+// This student's flags from the misuse check, newest first.
+function Flags({ flags, onUpdate, action }) {
+  return (
+    <Panel title={`Flags (${flags.length})`}>
+      {action.error && (
+        <p role="alert" className="mb-2 text-label text-danger">
+          {action.error}
+        </p>
+      )}
+      <ul className="-my-3 flex flex-col divide-y divide-line">
+        {flags.map((flag) => (
+          <FlagItem
+            key={flag.row}
+            flag={flag}
+            showEmail={false}
+            actions={
+              flag.status === 'open' && (
+                <button type="button" className="btn-secondary" disabled={action.busy} onClick={() => onUpdate(flag, 'dismissed')}>
+                  Dismiss
+                </button>
+              )
+            }
+          />
+        ))}
+      </ul>
     </Panel>
   )
 }
@@ -92,12 +123,21 @@ function Timeline({ data, page, setPage }) {
   )
 }
 
-export default function Student() {
+// `onChange` updates the open flag count in the admin nav.
+export default function Student({ onChange }) {
   const { email } = useParams()
   const [params, setParams] = useSearchParams()
   const page = Number(params.get('page')) || 1
   const { data, error, loading, reload } = useAdmin('adminStudent', { email, page })
+  const [run, action] = useAdminAction()
   const current = data && data.student.email === email.toLowerCase() ? data : null
+
+  async function updateFlag(flag, status) {
+    if (await run('adminFlagUpdate', { row: flag.row, status })) {
+      reload()
+      onChange?.()
+    }
+  }
 
   const back = (
     <Link to="/admin/students" className="inline-flex min-h-10 items-center gap-1.5 text-label font-semibold text-primary-ink">
@@ -128,10 +168,28 @@ export default function Student() {
   return (
     <div className={`flex flex-col gap-5 ${loading ? 'opacity-80' : ''}`}>
       {back}
-      <div className="min-w-0">
-        <h1 className="truncate text-display">{student.name || student.email}</h1>
-        <p className="truncate font-mono text-caption text-ink-2">{student.email}</p>
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0 flex-1">
+          <h1 className="truncate text-display">{student.name || student.email}</h1>
+          <p className="truncate font-mono text-caption text-ink-2">{student.email}</p>
+        </div>
+        <BlockControl
+          email={student.email}
+          blocked={Boolean(current.block?.blocked)}
+          onDone={() => {
+            reload()
+            onChange?.()
+          }}
+        />
       </div>
+      {current.block?.blocked && (
+        <p role="status" className="flex items-start gap-2 rounded-xl border border-danger px-3 py-2.5 text-label text-ink">
+          <Ban className="mt-px size-4 shrink-0 text-danger" aria-hidden="true" />
+          <span className="min-w-0 break-words">
+            Blocked{current.block.action === 'block' && ` by ${current.block.by}, ${formatTime(current.block.time)}: ${current.block.reason}`}
+          </span>
+        </p>
+      )}
       {hints.length > 0 && (
         <ul className="flex flex-wrap gap-2">
           {hints.map((hint) => (
@@ -144,6 +202,7 @@ export default function Student() {
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-start">
         <div className="flex min-w-0 flex-col gap-5">
           <Profile student={student} />
+          {current.flags?.length > 0 && <Flags flags={current.flags} onUpdate={updateFlag} action={action} />}
           <Panel title="Opens by subject">
             <Bars
               items={current.subjects.map((s) => ({ key: s.subject, label: s.name, count: s.count, detail: semesterLabel(s.subject.split('/')[0]) }))}

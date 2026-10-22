@@ -1,11 +1,11 @@
 name: Checks
 
-# Runs on pull requests (releases are PRs from main into prod): lint, production build and a syntax check
+# Runs on pull requests (feature branches into dev, releases from dev into prod): lint, production build and a syntax check
 # of the Apps Script backend. prod's branch protection requires this to pass before a PR can be merged.
-# Plain pushes to main run nothing; deploying is deploy.yml's job after the merge.
+# Plain pushes to dev run nothing; deploying is deploy.yml's job after the merge.
 on:
   pull_request:
-    branches: [prod, main]
+    branches: [prod, dev]
 
 permissions:
   contents: read

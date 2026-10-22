@@ -8,8 +8,9 @@ import samplePptx from './fixtures/sample.pptx?url'
 import sampleXlsx from './fixtures/sample.xlsx?url'
 import DIAGRAM_NOTE from './fixtures/diagrams.md?raw'
 import { DEMO_ROLE_KEY } from '../lib/demoMode.js'
+import { checkBirthday } from '../lib/birthday.js'
 import { normalizePhone } from '../lib/phone.js'
-import { demoOverview, demoStudent, demoStudents } from './adminDemo.js'
+import { demoBlockFlags, demoExport, demoFlags, demoFlagUpdate, demoOverview, demoStudent, demoStudents } from './adminDemo.js'
 
 const DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -208,7 +209,6 @@ const SEM_I = [
 ]
 
 const SEMESTERS = { 'MCA-Sem-I': SEM_I, 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [] }
-const ALL_FILES = [...SEM_I, ...SEM_II, ...SEM_III, ...BCA_SEM_V].flatMap((s) => [...Object.values(s.files).flat(), ...(s.syllabus ? [s.syllabus] : [])])
 
 const FIXTURES = {
   'sep-2025-unit-test-1.jpg': sampleJpg,
@@ -385,9 +385,130 @@ function requireAdmin() {
   if (!demoIsAdmin()) throw new Error('not_admin')
 }
 
-// Test hook: window.__demoAddNote() adds a note to the first subject of each semester, to try the
+// Content rules, like the VISIBILITY Script Property (apps-script/Visibility.js), kept in localStorage.
+const VISIBILITY_KEY = 'notes-pro.demo-visibility'
+const SAMPLE_VISIBILITY = {
+  hidden: ['MCA-Sem-III/practicals', 'MCA-Sem-II/java-programming/references/java-exception-hierarchy-cheat-sheet.md'],
+  comingSoon: ['MCA-Sem-II/optimization-techniques', 'BCA-Sem-VI'],
+  freePreview: [],
+}
+
+function readVisibility() {
+  try {
+    return { ...SAMPLE_VISIBILITY, ...JSON.parse(localStorage.getItem(VISIBILITY_KEY) || '{}') }
+  } catch {
+    return SAMPLE_VISIBILITY
+  }
+}
+
+const UNIT_ONE = /^unit[-_ ]*0*1(?!\d)/i
+const covers = (list, path, id) => list.some((item) => item === path || (id && item === id) || path.startsWith(`${item}/`))
+
+// Where a file sits, "<semester>/<subject>/<category>/<name>", like assertFileUnderRoot.
+function fileWhere(id) {
+  for (const [semesterId, subjects] of Object.entries(SEMESTERS)) {
+    for (const s of subjects) {
+      for (const [category, files] of Object.entries(s.files)) {
+        const f = files.find((x) => x.id === id)
+        if (f) return { file: f, where: `${semesterId}/${s.slug}/${category}/${f.name}` }
+      }
+      if (s.syllabus?.id === id) return { file: s.syllabus, where: `${semesterId}/${s.slug}/${s.syllabus.name}` }
+    }
+  }
+  return null
+}
+
+// Like assertVisible.
+function assertVisible(where, id, admin) {
+  const rules = readVisibility()
+  if (admin) return
+  if (covers(rules.hidden, where, id)) throw new Error('file_not_accessible')
+  if (covers(rules.comingSoon, where)) throw new Error('coming_soon')
+}
+
+// Like visibleLibrary.
+function visibleLibrary(semesterId, subjects, admin) {
+  const rules = readVisibility()
+  return subjects.flatMap((s) => {
+    const path = `${semesterId}/${s.slug}`
+    const hidden = covers(rules.hidden, path)
+    const soon = covers(rules.comingSoon, path)
+    if (hidden && !admin) return []
+    const closed = soon && !admin
+    const mark = (f, where) => (!covers(rules.hidden, where, f.id) ? f : admin ? { ...f, hidden: true } : null)
+    const files = Object.fromEntries(
+      Object.entries(s.files).map(([category, list]) => [category, closed ? [] : list.map((f) => mark(f, `${path}/${category}/${f.name}`)).filter(Boolean)]),
+    )
+    const syllabus = s.syllabus && !closed ? mark(s.syllabus, `${path}/${s.syllabus.name}`) : null
+    return [{ ...structuredClone({ slug: s.slug, name: s.name, files, syllabus }), ...(hidden ? { hidden: true } : {}), ...(soon ? { comingSoon: true } : {}) }]
+  })
+}
+
+// Blocked emails, like BLOCKED_EMAILS plus the Blocks tab: { email: { action, reason, by, time } }.
+const BLOCKS_KEY = 'notes-pro.demo-blocks'
+function readBlocks() {
+  try {
+    return JSON.parse(localStorage.getItem(BLOCKS_KEY) || '{}')
+  } catch {
+    return {}
+  }
+}
+
+function changeBlock(admin, { email = '', reason = '' }, block) {
+  email = String(email).trim().toLowerCase()
+  if (!String(reason).trim()) throw new Error('reason_required')
+  if (block && email === admin) throw new Error('cannot_block_self')
+  const blocks = readBlocks()
+  blocks[email] = { blocked: block, action: block ? 'block' : 'unblock', reason: String(reason).trim(), by: admin, time: new Date(Date.now() + 5.5 * 3600000).toISOString().slice(0, 19).replace('T', ' ') }
+  localStorage.setItem(BLOCKS_KEY, JSON.stringify(blocks))
+  if (block) demoBlockFlags(email, admin)
+  return blocks[email]
+}
+
+// Announcements, like the ANNOUNCEMENTS Script Property (apps-script/Announcements.js), kept in localStorage.
+const ANNOUNCEMENTS_KEY = 'notes-pro.demo-announcements'
+const SAMPLE_ANNOUNCEMENTS = [
+  { id: 'demo-a1', text: 'Exam season: PYQ solutions for every MCA subject are now in the PYQ Archive. Good luck!', audience: 'all', createdAt: ago(1), updatedAt: ago(1), active: true },
+  { id: 'demo-a2', text: 'MCA Sem II: Unit 5 notes for Java Programming are up.', audience: 'semester:MCA-Sem-II', createdAt: ago(0.2), updatedAt: ago(0.2), active: true },
+  { id: 'demo-a3', text: 'The portal will be down for maintenance on Sunday night.', audience: 'all', createdAt: ago(9), updatedAt: ago(8), active: false },
+]
+
+function readAnnouncements() {
+  try {
+    return JSON.parse(localStorage.getItem(ANNOUNCEMENTS_KEY) || 'null') || structuredClone(SAMPLE_ANNOUNCEMENTS)
+  } catch {
+    return structuredClone(SAMPLE_ANNOUNCEMENTS)
+  }
+}
+
+// Like announcementsFor.
+function announcementsFor(semester = '') {
+  const audiences = ['all', ...(semester ? [`course:${semester.split('-')[0]}`, `semester:${semester}`] : [])]
+  return readAnnouncements()
+    .filter((a) => a.active && audiences.includes(a.audience))
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .map(({ id, text, audience, createdAt }) => ({ id, text, audience, createdAt }))
+}
+
+// Like adminAnnouncementSet.
+function setAnnouncement({ id = '', text = '', audience = 'all', active = true }) {
+  const clean = String(text).replace(/<[^>]*>/g, '').replace(/[<>]/g, '').replace(/\s+/g, ' ').trim()
+  if (!clean || clean.length > 280 || !/^(all|course:[A-Za-z0-9]{1,20}|semester:[A-Za-z0-9-]{1,80})$/.test(audience)) throw new Error('invalid_announcement')
+  const list = readAnnouncements()
+  const now = new Date().toISOString()
+  let saved = list.find((a) => a.id === id)
+  if (id && !saved) throw new Error('announcement_not_found')
+  if (saved) Object.assign(saved, { text: clean, audience, active: active !== false, updatedAt: now })
+  else list.push((saved = { id: `a${Date.now().toString(36)}`, text: clean, audience, createdAt: now, updatedAt: now, active: active !== false }))
+  localStorage.setItem(ANNOUNCEMENTS_KEY, JSON.stringify(list))
+  return saved
+}
+
+// Test hooks: window.__demoBlock(email) blocks an account (the demo account too, to see the blocked
+// screen); window.__demoAddNote() adds a note to the first subject of each semester, to try the
 // "New notes added" prompt without a real upload.
 if (typeof window !== 'undefined') {
+  window.__demoBlock = (email = 'ritesh@example.com') => changeBlock('owner@example.com', { email, reason: 'Demo block' }, true)
   window.__demoAddNote = () => {
     for (const subjects of Object.values(SEMESTERS)) subjects[0]?.files.notes.push(file(`unit-01-new-note-${Date.now()}.md`, { days: 0 }))
   }
@@ -396,7 +517,17 @@ if (typeof window !== 'undefined') {
 export async function handleDemo(action, params) {
   await wait(250)
   const user = { email: 'ritesh@example.com', name: 'Ritesh Dhekane', picture: null }
+  // Like authenticate in Auth.js: a blocked account gets nothing but the public actions.
+  if (!['catalog', 'previewFile'].includes(action) && !(action === 'announcements' && !params.idToken) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
   switch (action) {
+    case 'announcements':
+      return { authenticated: Boolean(params.idToken), user, announcements: announcementsFor(params.idToken ? params.semester : '') }
+    case 'adminAnnouncements':
+      requireAdmin()
+      return { authenticated: true, user, announcements: readAnnouncements().sort((a, b) => b.createdAt.localeCompare(a.createdAt)) }
+    case 'adminAnnouncementSet':
+      requireAdmin()
+      return { authenticated: true, user, announcement: setAnnouncement(params) }
     case 'verify':
     case 'login':
       return { authenticated: true, user, isAdmin: demoIsAdmin() }
@@ -410,14 +541,29 @@ export async function handleDemo(action, params) {
       localStorage.setItem('notes-pro.demo-account-study', JSON.stringify(study))
       return { authenticated: true, user, study }
     }
-    // The phone number, kept like the account's study choice.
+    // The phone number and birthday, kept like the account's study choice. A field left out keeps its value.
     case 'getProfile':
-      return { authenticated: true, user, profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '' } }
+      return {
+        authenticated: true,
+        user,
+        profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '', birthday: localStorage.getItem('notes-pro.demo-account-birthday') || '' },
+      }
     case 'saveProfile': {
-      const { phone, error } = normalizePhone(params.phone)
-      if (error) throw new Error('invalid_phone')
-      localStorage.setItem('notes-pro.demo-account-phone', phone)
-      return { authenticated: true, user, profile: { phone } }
+      if (params.phone !== undefined) {
+        const { phone, error } = normalizePhone(params.phone)
+        if (error) throw new Error('invalid_phone')
+        localStorage.setItem('notes-pro.demo-account-phone', phone)
+      }
+      if (params.birthday !== undefined) {
+        const { birthday, error } = checkBirthday(params.birthday)
+        if (error) throw new Error('invalid_birthday')
+        localStorage.setItem('notes-pro.demo-account-birthday', birthday)
+      }
+      return {
+        authenticated: true,
+        user,
+        profile: { phone: localStorage.getItem('notes-pro.demo-account-phone') || '', birthday: localStorage.getItem('notes-pro.demo-account-birthday') || '' },
+      }
     }
     case 'adminOverview':
       requireAdmin()
@@ -427,7 +573,62 @@ export async function handleDemo(action, params) {
       return { authenticated: true, user, ...demoStudents(SEMESTERS, params) }
     case 'adminStudent':
       requireAdmin()
-      return { authenticated: true, user, ...demoStudent(SEMESTERS, params) }
+      return { authenticated: true, user, ...demoStudent(SEMESTERS, params), block: readBlocks()[String(params.email).toLowerCase()] || { blocked: false } }
+    case 'adminBlock':
+    case 'adminUnblock':
+      requireAdmin()
+      return { authenticated: true, user, block: changeBlock(user.email, params, action === 'adminBlock') }
+    case 'adminFlags':
+      requireAdmin()
+      return { authenticated: true, user, ...demoFlags(params) }
+    case 'adminFlagUpdate':
+      requireAdmin()
+      if (!['open', 'dismissed'].includes(params.status)) throw new Error('flag_not_found')
+      return { authenticated: true, user, flag: demoFlagUpdate(params, user.email) }
+    case 'adminExport':
+      requireAdmin()
+      return { authenticated: true, user, ...demoExport(SEMESTERS) }
+    case 'adminGaps':
+      requireAdmin()
+      return {
+        authenticated: true,
+        user,
+        semesters: Object.entries(SEMESTERS).map(([id, subjects]) => ({
+          id,
+          subjects: subjects.map((s) => ({
+            slug: s.slug,
+            name: s.name,
+            notes: s.files.notes.length,
+            units: [...new Set(s.files.notes.map((f) => Number(f.name.match(/^unit[\s_-]*0*(\d+)/i)?.[1])).filter(Boolean))].sort((a, b) => a - b),
+            syllabus: Boolean(s.syllabus),
+            pyqs: s.files.pyqs.length,
+          })),
+        })),
+      }
+    case 'adminHealth': {
+      requireAdmin()
+      const sizeOf = (text, count) => ({ chars: text.length, items: count(JSON.parse(text)) })
+      return {
+        authenticated: true,
+        user,
+        health: {
+          version: '1.0.0',
+          time: new Date().toISOString(),
+          lastError: `${new Date(Date.now() - 95 * 60000).toISOString()} Service Spreadsheets timed out while accessing document with id 1AbC…`,
+          cache: { refreshedAt: new Date(Date.now() - 25 * 60000).toISOString(), catalogCached: true },
+          triggers: { refreshCaches: true, checkFlags: true, error: '' },
+          flags: { checkedAt: new Date(Date.now() - 41 * 60000).toISOString(), cursor: 1842 },
+          sheets: { configured: true, error: '', students: 10, logs: 1843, flags: 3, adminLog: 57, blocks: 2 },
+          properties: {
+            limit: 9000,
+            announcements: sizeOf(JSON.stringify(readAnnouncements()), (list) => list.length),
+            visibility: sizeOf(JSON.stringify(readVisibility()), (v) => v.hidden.length + v.comingSoon.length + v.freePreview.length),
+            blocked: Object.values(readBlocks()).filter((b) => b.blocked).length,
+            admins: 1,
+          },
+        },
+      }
+    }
     case 'adminRefreshLibrary': {
       requireAdmin()
       await wait(900)
@@ -435,33 +636,78 @@ export async function handleDemo(action, params) {
       const files = subjects.reduce((sum, s) => sum + Object.values(s.files).flat().length, 0)
       return { authenticated: true, user, result: { semesters: Object.keys(SEMESTERS).length, subjects: subjects.length, files, seconds: 1 } }
     }
-    case 'catalog':
-      // Public: what's on offer, with counts but no file names or ids.
+    case 'adminVisibility':
+      requireAdmin()
       return {
-        authenticated: false,
+        authenticated: true,
+        user,
+        visibility: readVisibility(),
         semesters: Object.entries(SEMESTERS).map(([id, subjects]) => ({
           id,
           subjects: subjects.map((s) => ({
             slug: s.slug,
             name: s.name,
-            counts: { notes: s.files.notes.length, pyqs: s.files.pyqs.length, references: s.files.references.length },
-            hasSyllabus: Boolean(s.syllabus),
-            unit1: s.files.notes.filter((f) => /^unit[-_ ]*0*1(?!\d)/i.test(f.name)),
-            sample: s.files.pyqs.length ? { paper: 'Apr 2025', question: `A sample ${s.name} question from a past paper.`, kind: 'exam' } : null,
+            files: Object.fromEntries(Object.entries(s.files).map(([c, list]) => [c, list.map((f) => ({ id: f.id, name: f.name }))])),
+            syllabus: s.syllabus ? { id: s.syllabus.id, name: s.syllabus.name } : null,
           })),
         })),
       }
+    case 'adminVisibilitySet': {
+      requireAdmin()
+      const input = params.visibility || {}
+      const rules = Object.fromEntries(['hidden', 'comingSoon', 'freePreview'].map((key) => [key, [...new Set((input[key] || []).map(String).filter(Boolean))]]))
+      localStorage.setItem(VISIBILITY_KEY, JSON.stringify(rules))
+      return { authenticated: true, user, visibility: readVisibility() }
+    }
+    case 'catalog': {
+      // Public: what's on offer, with counts but no file names or ids. Students' view of the rules.
+      const rules = readVisibility()
+      return {
+        authenticated: false,
+        semesters: Object.entries(SEMESTERS)
+          .filter(([id]) => !covers(rules.hidden, id))
+          .map(([id, subjects]) => ({
+            id,
+            ...(covers(rules.comingSoon, id) ? { comingSoon: true } : {}),
+            subjects: subjects
+              .filter((s) => !covers(rules.hidden, `${id}/${s.slug}`))
+              .map((s) => {
+                const soon = covers(rules.comingSoon, `${id}/${s.slug}`)
+                const free = Object.entries(s.files).flatMap(([category, list]) =>
+                  list
+                    .filter((f) => rules.freePreview.includes(f.id) && !(category === 'notes' && UNIT_ONE.test(f.name)) && !covers(rules.hidden, `${id}/${s.slug}/${category}/${f.name}`, f.id))
+                    .map((f) => ({ ...f, category })),
+                )
+                return {
+                  slug: s.slug,
+                  name: s.name,
+                  counts: { notes: s.files.notes.length, pyqs: s.files.pyqs.length, references: s.files.references.length },
+                  hasSyllabus: Boolean(s.syllabus),
+                  free: soon ? [] : free,
+                  unit1: soon ? [] : s.files.notes.filter((f) => UNIT_ONE.test(f.name) && !covers(rules.hidden, `${id}/${s.slug}/notes/${f.name}`, f.id)),
+                  sample: !soon && s.files.pyqs.length ? { paper: 'Apr 2025', question: `A sample ${s.name} question from a past paper.`, kind: 'exam' } : null,
+                  ...(soon ? { comingSoon: true } : {}),
+                }
+              }),
+          })),
+      }
+    }
     case 'listLibrary':
-      if (!SEMESTERS[params.semester]) throw new Error('semester_not_found')
-      return { authenticated: true, user, subjects: structuredClone(SEMESTERS[params.semester]) } // a copy, like real JSON
+      if (!SEMESTERS[params.semester] || (!demoIsAdmin() && covers(readVisibility().hidden, params.semester))) throw new Error('semester_not_found')
+      return { authenticated: true, user, subjects: visibleLibrary(params.semester, SEMESTERS[params.semester], demoIsAdmin()) }
     case 'getFile': {
-      const f = ALL_FILES.find((x) => x.id === params.fileId)
-      if (!f) throw new Error('file_not_accessible')
+      const found = fileWhere(params.fileId)
+      if (!found) throw new Error('file_not_accessible')
+      assertVisible(found.where, found.file.id, demoIsAdmin())
+      const f = found.file
       return { authenticated: true, user, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
     }
     case 'previewFile': {
-      const f = ALL_FILES.find((x) => x.id === params.fileId)
-      if (!f || !/^unit[-_ ]*0*1(?!\d)/i.test(f.name)) throw new Error('sign_in_required')
+      const found = fileWhere(params.fileId)
+      if (!found) throw new Error('file_not_accessible')
+      assertVisible(found.where, found.file.id, false)
+      const f = found.file
+      if (!UNIT_ONE.test(f.name) && !readVisibility().freePreview.includes(f.id)) throw new Error('sign_in_required')
       return { authenticated: false, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
     }
     default:

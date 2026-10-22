@@ -27,7 +27,7 @@ function readStudents() {
   return sheet.getRange(2, 1, sheet.getLastRow() - 1, STUDENT_HEADERS.length).getValues()
 }
 
-// The Logs columns the admin pages use: A Time … F File, J Device, M Installed app. One getValues of A:M
+// The Logs columns the admin pages use: A Time … F File, H Browser … K Model, M Installed app. One getValues of A:M
 // is faster than a call per column.
 var LOG_WIDTH = 13
 function logEntry(row) {
@@ -40,6 +40,7 @@ function logEntry(row) {
     browser: String(row[7]),
     os: String(row[8]),
     device: String(row[9]),
+    model: String(row[10]),
     installed: String(row[12]),
   }
 }
@@ -241,6 +242,7 @@ function studentFromRow(row) {
     signIns: Number(row[STUDENT_COL.signIns]) || 0,
     opens: Number(row[STUDENT_COL.opens]) || 0,
     device: String(row[STUDENT_COL.device]),
+    birthday: birthdayText(row[STUDENT_COL.birthday]),
   }
 }
 
@@ -277,6 +279,23 @@ function adminStudents(user, params) {
     page: page,
     pages: pages,
   }
+}
+
+// ---------- Export ----------
+
+// Every Students-tab column and row, as text, for the students CSV the app builds. Times read back as
+// the same IST text the sheet shows.
+function adminExport(user) {
+  requireAdmin(user)
+  var rows = readStudents().map(function (row) {
+    return row.map(function (value, i) {
+      if (i === STUDENT_COL.birthday) return birthdayText(value)
+      if (value instanceof Date) return cellTime(value)
+      return typeof value === 'number' ? value : String(value)
+    })
+  })
+  logAdmin(user, 'export', 'students', { rows: rows.length })
+  return { headers: STUDENT_HEADERS, rows: rows }
 }
 
 // ---------- One student ----------
@@ -345,6 +364,8 @@ function adminStudent(user, params) {
       s.name = names[s.subject] || slugToTitle(s.subject.split('/')[1] || s.subject)
       return s
     }),
+    flags: flagsFor(email),
+    block: blockStatus(email),
   }
 }
 
@@ -389,6 +410,120 @@ function adminRefreshLibrary(user) {
   result.seconds = Math.round((Date.now() - started) / 1000)
   logAdmin(user, 'refresh_library', '', result)
   return result
+}
+
+// ---------- Content gaps ----------
+
+var UNIT_NUMBER = /^unit[\s_-]*0*(\d+)/i
+
+// Per Drive semester and subject, from the cached listings: note count, the unit numbers that have
+// notes ("unit-NN…" names), syllabus yes/no and PYQ count. The app sets it against its catalog
+// (src/lib/catalog.js) to show subjects without a folder too.
+function adminGaps(user) {
+  requireAdmin(user)
+  logAdmin(user, 'gaps', '', null)
+  return {
+    semesters: getCatalog().map(function (semester) {
+      return {
+        id: semester.id,
+        subjects: rawLibrary(semester.id).map(function (subject) {
+          var seen = {}
+          subject.files.notes.forEach(function (file) {
+            var m = file.name.match(UNIT_NUMBER)
+            if (m) seen[Number(m[1])] = true
+          })
+          return {
+            slug: subject.slug,
+            name: subject.name,
+            notes: subject.files.notes.length,
+            units: Object.keys(seen).map(Number).sort(function (a, b) {
+              return a - b
+            }),
+            syllabus: Boolean(subject.syllabus),
+            pyqs: subject.files.pyqs.length,
+          }
+        }),
+      }
+    }),
+  }
+}
+
+// ---------- Block and unblock ----------
+// What takes effect is the Script Property BLOCKED_EMAILS (comma-separated, read by isBlocked in
+// Auth.js on every request), so it can still be edited by hand. The "Blocks" tab keeps the history:
+// every block and unblock with who did it and why, newest last.
+
+var BLOCK_HEADERS = ['Time (IST)', 'Admin', 'Email', 'Action', 'Reason']
+
+// params: { email, reason }. Open flags for the email become "blocked".
+function adminBlock(user, params) {
+  return changeBlock(user, params, true)
+}
+
+// params: { email, reason }.
+function adminUnblock(user, params) {
+  return changeBlock(user, params, false)
+}
+
+function changeBlock(user, params, block) {
+  requireAdmin(user)
+  params = params || {}
+  var email = String(params.email || '').trim().toLowerCase()
+  var reason = String(params.reason || '').trim()
+  if (!/^[^\s,@]+@[^\s,@]+$/.test(email)) throw new Error('invalid_email')
+  if (!reason) throw new Error('reason_required')
+  if (block && email === String(user.email).toLowerCase()) throw new Error('cannot_block_self')
+
+  var lock = LockService.getScriptLock()
+  lock.waitLock(10000)
+  try {
+    var props = PropertiesService.getScriptProperties()
+    var list = (props.getProperty('BLOCKED_EMAILS') || '')
+      .split(',')
+      .map(function (e) {
+        return e.trim()
+      })
+      .filter(function (e) {
+        return e && e.toLowerCase() !== email
+      })
+    if (block) list.push(email)
+    props.setProperty('BLOCKED_EMAILS', list.join(','))
+  } finally {
+    lock.releaseLock()
+  }
+
+  var sheet = getTab('Blocks', BLOCK_HEADERS)
+  if (sheet) sheet.appendRow([istNow(), user.email, email, block ? 'block' : 'unblock', reason].map(cellText))
+  if (block) {
+    var flags = getFlagsSheet()
+    var open = readFlagRows(flags)
+      .filter(function (flag) {
+        return flag.email === email && flag.status === 'open'
+      })
+      .map(function (flag) {
+        return flag.row
+      })
+    if (open.length) setFlagStatus(flags, open, 'blocked', user)
+  }
+  logAdmin(user, block ? 'block' : 'unblock', email, { reason: reason })
+  return blockStatus(email)
+}
+
+// Whether an email is blocked, and the latest block or unblock from the Blocks tab.
+function blockStatus(email) {
+  var status = { blocked: isBlocked(email), action: '', reason: '', by: '', time: '' }
+  var spreadsheet = getLogSpreadsheet()
+  var sheet = spreadsheet && spreadsheet.getSheetByName('Blocks')
+  if (!sheet || sheet.getLastRow() < 2) return status
+  var hits = sheet.getRange(2, 3, sheet.getLastRow() - 1, 1)
+    .createTextFinder(email).matchEntireCell(true).matchCase(false).findAll()
+  if (!hits.length) return status
+  var row = sheet.getRange(hits[hits.length - 1].getRow(), 1, 1, BLOCK_HEADERS.length).getValues()[0]
+  status.time = cellTime(row[0])
+  status.by = String(row[1])
+  status.action = String(row[3])
+  status.reason = String(row[4])
+  return status
 }
 
 // Best effort, like logEvent.

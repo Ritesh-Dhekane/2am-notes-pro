@@ -4,7 +4,7 @@ import { RefreshCw } from 'lucide-react'
 import { ErrorState, Skeleton } from '../../components/ui.jsx'
 import { subjectLook } from '../../lib/subjects.js'
 import { semesterLabel, useAdmin } from './adminData.js'
-import { Bars, Panel, StatCard } from './bits.jsx'
+import { Bars, ExportButtons, Panel, StatCard } from './bits.jsx'
 
 function SignUps({ days }) {
   const max = Math.max(...days.map((d) => d.count), 1)
@@ -80,9 +80,12 @@ export default function Overview() {
               : 'Loading…'}
           </p>
         </div>
-        <button type="button" className="btn-secondary" onClick={reload} disabled={loading}>
-          <RefreshCw className={`size-4 ${loading ? 'animate-spin' : ''}`} aria-hidden="true" /> Refresh
-        </button>
+        <div className="flex flex-wrap items-start gap-2">
+          <ExportButtons overview={overview} />
+          <button type="button" className="btn-secondary" onClick={reload} disabled={loading}>
+            <RefreshCw className={`size-4 ${loading ? 'animate-spin' : ''}`} aria-hidden="true" /> Refresh
+          </button>
+        </div>
       </div>
 
       {!overview ? (

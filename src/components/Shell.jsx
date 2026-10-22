@@ -5,8 +5,10 @@ import { createElement, useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { useLibrary } from '../context/libraryContext.js'
+import { useStudy } from '../lib/study.js'
 import { useBookmarks } from '../lib/store.js'
 import { setPrefs, THEMES, usePrefs } from '../lib/prefs.js'
+import AnnouncementBanner from './AnnouncementBanner.jsx'
 import { Avatar, Logo, MadeBy } from './ui.jsx'
 
 const SIDEBAR = [
@@ -264,6 +266,8 @@ function BottomNav() {
 
 export default function Shell() {
   const location = useLocation()
+  const { user } = useAuth()
+  const { semester } = useStudy()
   const mainRef = useRef(null)
 
   // New page: start at the top.
@@ -286,6 +290,7 @@ export default function Shell() {
         <ThemeToggle />
       </header>
       <main id="main" ref={mainRef} tabIndex={-1} className="mx-auto max-w-6xl px-5 pt-5 pb-28 outline-none lg:px-8 lg:pt-8 lg:pb-16">
+        <AnnouncementBanner idToken={user?.idToken} semester={semester} className="mb-5" />
         <Outlet />
         <p className="mt-12 border-t border-line pt-4 text-caption text-ink-3">
           Notes and PYQ solutions are AI-generated. Please verify them with your textbook or sources before exams.

@@ -1,9 +1,9 @@
 // Loading admin data and formatting it, shared by the admin pages.
 
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useAuth } from '../../context/useAuth.js'
 import { callApi } from '../../lib/api.js'
-import { friendlyError, isSessionError } from '../../lib/errorMessages.js'
+import { friendlyError, isSessionError, signOutReason } from '../../lib/errorMessages.js'
 
 // Calls an admin action and keeps the last answer while a new one loads (paging, filters).
 // reload() asks again with `fresh: true`, which skips the backend's cache.
@@ -22,7 +22,7 @@ export function useAdmin(action, params = {}) {
       .then((data) => !cancelled && setState({ key, data, error: null }))
       .catch((err) => {
         if (cancelled) return
-        if (isSessionError(err.message)) logout('expired')
+        if (isSessionError(err.message)) logout(signOutReason(err.message))
         else setState((s) => ({ key, data: s.data, error: friendlyError(err.message) }))
       })
     return () => {
@@ -31,6 +31,39 @@ export function useAdmin(action, params = {}) {
   }, [action, query, attempt, key, idToken, logout])
 
   return { data: state.data, error: state.key === key ? state.error : null, loading: state.key !== key, reload: () => setAttempt((n) => n + 1) }
+}
+
+// For admin actions that change something (dismiss a flag, block, hide a subject): run(action, params)
+// resolves to the answer, or null after showing the error in `error`.
+export function useAdminAction() {
+  const { user, logout } = useAuth()
+  const idToken = user?.idToken
+  const [state, setState] = useState({ busy: false, error: null })
+  const run = useCallback(
+    async (action, params = {}) => {
+      setState({ busy: true, error: null })
+      try {
+        const data = await callApi(action, { idToken, ...params })
+        setState({ busy: false, error: null })
+        return data
+      } catch (err) {
+        if (isSessionError(err.message)) logout(signOutReason(err.message))
+        else setState({ busy: false, error: friendlyError(err.message) })
+        return null
+      }
+    },
+    [idToken, logout],
+  )
+  return [run, state]
+}
+
+// The rules in apps-script/Flags.js.
+export const FLAG_RULES = {
+  burst: 'Burst of opens',
+  bulk: 'Bulk opening',
+  devices: 'Many devices',
+  automation: 'Automation',
+  timing: 'Regular timing',
 }
 
 // "MCA-Sem-III" -> "MCA Sem III".
@@ -57,4 +90,26 @@ export function daysSince(text) {
 
 export function studentPath(email) {
   return `/admin/students/${encodeURIComponent(email)}`
+}
+
+// The overview's numbers as CSV rows (section, item, value), for the stats export.
+export function statsRows(overview) {
+  const rows = [['Section', 'Item', 'Value']]
+  const add = (section, list, label, value = (x) => x.count) => list.forEach((x) => rows.push([section, label(x), value(x)]))
+  rows.push(['Generated', 'At', overview.generatedAt])
+  add('Totals', Object.entries(overview.totals), ([key]) => key, ([, n]) => n)
+  for (const c of overview.courses) {
+    rows.push(['Students by course', c.course, c.students])
+    for (const s of c.semesters) {
+      rows.push(['Students by semester', s.semester, s.students])
+      add(`Electives, ${s.semester}`, s.electives, (e) => e.slug)
+    }
+  }
+  add('Sign-ups per day', overview.signUps, (d) => d.day)
+  add('Devices', overview.devices, (d) => d.label)
+  add('Installed app', overview.installed, (d) => d.label)
+  add('Most-opened subjects', overview.topSubjects, (s) => s.subject)
+  add('Most-opened files', overview.topFiles, (f) => f.file)
+  add('Never opened (files)', overview.neverOpened, (s) => s.subject, (s) => s.files)
+  return rows
 }

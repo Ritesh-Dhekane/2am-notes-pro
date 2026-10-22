@@ -6,11 +6,11 @@
 // New columns go on the right, so rows written before them stay aligned.
 var STUDENT_HEADERS = [
   'Email', 'Name', 'Phone', 'Course', 'Semester', 'Electives', 'First seen', 'Last seen',
-  'Sign-ins', 'File opens', 'Last device', 'Choices saved',
+  'Sign-ins', 'File opens', 'Last device', 'Choices saved', 'Birthday',
 ]
 var STUDENT_COL = {
   email: 0, name: 1, phone: 2, course: 3, semester: 4, electives: 5, firstSeen: 6, lastSeen: 7,
-  signIns: 8, opens: 9, device: 10, savedAt: 11,
+  signIns: 8, opens: 9, device: 10, savedAt: 11, birthday: 12,
 }
 
 function getStudentsSheet() {
@@ -46,14 +46,14 @@ function updateStudent(user, change) {
       var rowNumber = findStudentRow(sheet, email)
       var row = rowNumber
         ? sheet.getRange(rowNumber, 1, 1, STUDENT_HEADERS.length).getValues()[0]
-        : [email, '', '', '', '', '', istNow(), '', 0, 0, '', '']
+        : [email, '', '', '', '', '', istNow(), '', 0, 0, '', '', '']
       while (row.length < STUDENT_HEADERS.length) row.push('')
       if (user.name) row[STUDENT_COL.name] = user.name
       change(row)
       row = row.map(function (value, i) {
         if (typeof value === 'number' || value instanceof Date) return value
-        // The ISO time stays text ("'" prefix), or Sheets would turn it into a date.
-        return i === STUDENT_COL.savedAt && value ? "'" + value : studentCell(value)
+        // The ISO time and the birthday stay text ("'" prefix), or Sheets would turn them into dates.
+        return (i === STUDENT_COL.savedAt || i === STUDENT_COL.birthday) && value ? "'" + value : studentCell(value)
       })
       if (rowNumber) sheet.getRange(rowNumber, 1, 1, row.length).setValues([row])
       else sheet.appendRow(row)
@@ -139,15 +139,54 @@ function cleanPhone(phone) {
   return text
 }
 
+// ---------- Birthday (optional) ----------
+// "YYYY-MM-DD": a real date, not in the future, aged 15 to 80 today (IST). Empty clears it. Same rule as
+// the app (src/lib/birthday.js). Never sent to analytics.
+function cleanBirthday(text) {
+  text = String(text || '').trim()
+  if (!text) return ''
+  var m = text.match(/^(\d{4})-(\d{2})-(\d{2})$/)
+  if (!m) throw new Error('invalid_birthday')
+  var y = Number(m[1])
+  var month = Number(m[2])
+  var day = Number(m[3])
+  var date = new Date(Date.UTC(y, month - 1, day))
+  if (date.getUTCFullYear() !== y || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) throw new Error('invalid_birthday')
+  var today = Utilities.formatDate(new Date(), 'Asia/Kolkata', 'yyyy-MM-dd')
+  if (text > today) throw new Error('invalid_birthday')
+  var t = today.split('-').map(Number)
+  var age = t[0] - y - (t[1] * 100 + t[2] < month * 100 + day ? 1 : 0)
+  if (age < 15 || age > 80) throw new Error('invalid_birthday')
+  return text
+}
+
+// A Birthday cell as "YYYY-MM-DD" (a cell Sheets did turn into a date is read back too).
+function birthdayText(value) {
+  if (value instanceof Date) return Utilities.formatDate(value, getLogSpreadsheet().getSpreadsheetTimeZone(), 'yyyy-MM-dd')
+  return value ? String(value) : ''
+}
+
+// profile: { phone, birthday }; a field left out keeps its saved value, an empty one clears it.
 function saveProfile(user, profile) {
-  var phone = cleanPhone(profile && profile.phone)
-  if (!updateStudent(user, function (row) { row[STUDENT_COL.phone] = phone })) throw new Error('profile_not_saved')
-  return { phone: phone }
+  profile = profile || {}
+  var phone = profile.phone === undefined ? undefined : cleanPhone(profile.phone)
+  var birthday = profile.birthday === undefined ? undefined : cleanBirthday(profile.birthday)
+  var saved = { phone: '', birthday: '' }
+  var ok = updateStudent(user, function (row) {
+    if (phone !== undefined) row[STUDENT_COL.phone] = phone
+    if (birthday !== undefined) row[STUDENT_COL.birthday] = birthday
+    saved = { phone: String(row[STUDENT_COL.phone] || ''), birthday: birthdayText(row[STUDENT_COL.birthday]) }
+  })
+  if (!ok) throw new Error('profile_not_saved')
+  return saved
 }
 
 function getProfile(email) {
   var row = readStudentRow(email)
-  return { phone: row ? String(row[STUDENT_COL.phone] || '') : '' }
+  return {
+    phone: row ? String(row[STUDENT_COL.phone] || '') : '',
+    birthday: row ? birthdayText(row[STUDENT_COL.birthday]) : '',
+  }
 }
 
 // Run once by hand from the editor after deploying: copies every "study:<email>" property into the

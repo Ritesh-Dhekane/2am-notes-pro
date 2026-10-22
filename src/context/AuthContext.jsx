@@ -70,6 +70,21 @@ export function AuthProvider({ children }) {
     setAdmin(entry)
   }, [])
 
+  // reason: 'expired' or 'blocked' when the backend rejected the session, so the sign-in page can say so.
+  const logout = useCallback((reason) => {
+    setUser((current) => {
+      if (current && typeof reason !== 'string') {
+        callApi('logout', { idToken: current.idToken }).catch(() => {})
+      }
+      return null
+    })
+    localStorage.removeItem(STORAGE_KEY)
+    localStorage.removeItem(ADMIN_KEY)
+    setAdmin(null)
+    rememberReason(typeof reason === 'string' ? reason : null)
+    clearFileCache()
+  }, [])
+
   const login = useCallback((idToken) => {
     localStorage.setItem(STORAGE_KEY, idToken)
     rememberReason(null)
@@ -85,24 +100,12 @@ export function AuthProvider({ children }) {
         localStorage.setItem(STORAGE_KEY, session)
         setUser(userFromToken(session))
       })
-      .catch(() => {})
+      .catch((err) => {
+        // A blocked account is signed straight out, to the blocked notice.
+        if (err.message === 'access_blocked' && localStorage.getItem(STORAGE_KEY) === idToken) logout('blocked')
+      })
     trackEvent('login', { method: 'google' })
-  }, [rememberAdmin])
-
-  // reason: 'expired' when the backend rejected the session, so the sign-in page can say so.
-  const logout = useCallback((reason) => {
-    setUser((current) => {
-      if (current && reason !== 'expired') {
-        callApi('logout', { idToken: current.idToken }).catch(() => {})
-      }
-      return null
-    })
-    localStorage.removeItem(STORAGE_KEY)
-    localStorage.removeItem(ADMIN_KEY)
-    setAdmin(null)
-    rememberReason(typeof reason === 'string' ? reason : null)
-    clearFileCache()
-  }, [])
+  }, [rememberAdmin, logout])
 
   // Each session picks up the semester and electives saved with the account (see lib/study.js).
   const idToken = user?.idToken
