@@ -3,6 +3,7 @@
 import { AlertTriangle, RotateCw, Sparkles } from 'lucide-react'
 import { createElement } from 'react'
 import { Link } from 'react-router-dom'
+import { trackEvent } from '../lib/analytics.js'
 import { useLoadingMark, useSlowLoading } from '../lib/slow.js'
 import { tintStyle } from '../lib/subjects.js'
 
@@ -141,6 +142,8 @@ export function SlowToast() {
   )
 }
 
+const DISCUSSIONS_URL = 'https://github.com/Ritesh-Dhekane/2am-notes-pro/discussions'
+
 // Credit line for footers.
 export function MadeBy({ className = '' }) {
   return (
@@ -153,6 +156,16 @@ export function MadeBy({ className = '' }) {
       <Link to="/privacy" className="underline-offset-2 hover:text-ink hover:underline">
         Privacy
       </Link>
+      {' · '}
+      <a
+        href={DISCUSSIONS_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => trackEvent('discussions_click')}
+        className="whitespace-nowrap underline-offset-2 hover:text-ink hover:underline"
+      >
+        Questions &amp; feedback ↗
+      </a>
     </p>
   )
 }
