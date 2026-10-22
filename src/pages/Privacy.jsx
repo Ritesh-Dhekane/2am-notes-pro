@@ -8,7 +8,7 @@ import { ThemeToggle } from '../components/Shell.jsx'
 import { Logo, MadeBy } from '../components/ui.jsx'
 
 const CONTACT = 'learn.riteshdhekane@gmail.com'
-const UPDATED = '21 October 2026'
+const UPDATED = '22 October 2026'
 
 function Section({ title, children }) {
   return (
@@ -115,6 +115,10 @@ export default function Privacy() {
               {CONTACT}
             </a>
             .
+          </p>
+          <p>
+            The &ldquo;Questions &amp; feedback&rdquo; link opens the app&apos;s GitHub Discussions. It is hosted by GitHub,
+            posting there needs a GitHub account, and posts are public.
           </p>
           <p>If this policy changes, the date at the top changes with it.</p>
         </Section>
