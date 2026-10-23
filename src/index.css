@@ -589,3 +589,25 @@ html.protect img {
     box-shadow: 0 0 12px 1px color-mix(in srgb, var(--color-primary) 30%, transparent);
   }
 }
+
+/* ---------- SPPU Syllabus Explorer: finder chips ---------- */
+.finder-chip {
+  display: inline-flex;
+  min-height: 36px;
+  max-width: 100%;
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid var(--c-line);
+  background: var(--c-surface);
+  padding: 0 0.75rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-ink-2);
+}
+.finder-chip:hover {
+  color: var(--c-ink);
+}
+.finder-chip[aria-current] {
+  border-color: var(--c-primary-ink);
+  color: var(--c-primary-ink);
+}
