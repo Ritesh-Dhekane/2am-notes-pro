@@ -37,8 +37,9 @@ export async function writeSitemap() {
     console.warn(`sitemap: no preview pages (${error.message}); writing the static pages only`)
   }
   const lastmod = new Date().toISOString().slice(0, 10)
+  // Folder pages end in a slash: GitHub Pages redirects /privacy to /privacy/, so list the final address.
   const urls = [...STATIC_PAGES, ...previews]
-    .map((path) => `  <url>\n    <loc>${SITE}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`)
+    .map((path) => `  <url>\n    <loc>${SITE}${path}${path ? '/' : ''}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`)
     .join('\n')
   writeFileSync(
     'dist/sitemap.xml',
