@@ -24,6 +24,35 @@ export function slugify(text) {
 
 export const programmeSlug = (entry) => slugify(programmeOf(entry))
 
+// The course hierarchy (scripts/sppu-syllabus/clean.mjs): stage (UG / PG / Other) -> family -> course.
+// Older lists without these fields fall back to the faculty and programme.
+export const STAGES = [
+  { slug: 'ug', name: 'UG', label: 'Undergraduate' },
+  { slug: 'pg', name: 'PG', label: 'Postgraduate' },
+  { slug: 'other', name: 'Other', label: 'Diplomas, Ph.D. and more' },
+]
+export const familyOf = (entry) => entry.family || entry.faculty
+export const courseOf = (entry) => entry.course || programmeOf(entry)
+export const facultyShortOf = (entry) => entry.facultyShort || entry.faculty
+export const familySlug = (entry) => slugify(familyOf(entry))
+export const courseSlug = (entry) => slugify(courseOf(entry))
+
+export function stageOf(entry) {
+  if (entry.level === 'UG' || entry.level === 'PG') return entry.level.toLowerCase()
+  return /^M\.E\./.test(entry.family || '') ? 'pg' : 'other'
+}
+
+// "B.Sc Mathematics" reads "Mathematics" inside B.Sc; a name the family doesn't start with stays whole.
+export function shortCourse(course, family) {
+  const degree = String(family || '').split(/\s*[/(]/)[0].trim()
+  const rest = degree && course.startsWith(`${degree} `) ? course.slice(degree.length + 1).trim() : ''
+  return rest || course
+}
+
+export function familyTitle(name, entries) {
+  return `SPPU ${name} Syllabus — ${entries.length} Official PDFs by Programme | 2AM Notes Pro`
+}
+
 export const byNewest = (a, b) => (b.uploaded || '').localeCompare(a.uploaded || '') || a.title.localeCompare(b.title)
 
 const SUFFIX = ' — Official PDF | 2AM Notes Pro'
@@ -93,7 +122,7 @@ export function searchEntries(entries, query) {
   if (!words.length) return entries
   const scored = []
   for (const e of entries) {
-    const text = normalise([e.title, e.programme, e.pattern, e.faculty, e.group].join(' '))
+    const text = normalise([e.title, e.programme, e.course, e.family, e.pattern, e.faculty, e.group].join(' '))
     let score = 0
     for (const word of words) {
       if (text.includes(word)) score += new RegExp(`\\b${word.replace(/[^a-z0-9]/g, '')}`).test(text) ? 3 : 2

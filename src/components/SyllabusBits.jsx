@@ -108,9 +108,9 @@ export function LatestBadge() {
   return <span className="shrink-0 rounded-full bg-primary-soft px-2 py-0.5 text-caption font-semibold text-primary-ink">Latest</span>
 }
 
-export function EntryRow({ entry, latest }) {
+export function EntryRow({ entry, latest, className, style }) {
   return (
-    <li>
+    <li className={className} style={style}>
       <Link
         to={`/syllabus/${encodeURIComponent(entry.id)}`}
         className="flex min-h-14 items-center gap-3 rounded-xl px-3 py-2 hover:bg-surface-2"

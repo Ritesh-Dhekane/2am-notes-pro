@@ -10,6 +10,10 @@ import {
   entriesOf,
   entryTitles,
   EXPLORER_TITLE,
+  courseOf,
+  familyOf,
+  familySlug,
+  familyTitle,
   groupEntries,
   libraryUrl,
   programmeOf,
@@ -26,6 +30,7 @@ const url = (path) => `${SITE}${path}/`
 const href = (path) => `/2am-notes-pro/${path}/`
 const entryPath = (e) => `syllabus/${encodeURIComponent(e.id)}`
 const programmePath = (slug) => `syllabus/p/${slug}`
+const familyPath = (slug) => `syllabus/f/${slug}`
 
 function breadcrumbs(items) {
   return {
@@ -103,6 +108,7 @@ export function writeSyllabusPages() {
       '<h1>SPPU Syllabus</h1>',
       '<p>Every official syllabus of Savitribai Phule Pune University, searchable and readable on your phone.</p>',
       credit('2026'),
+      `<h2>Course families</h2><ul>${[...new Map(entries.map((e) => [familySlug(e), familyOf(e)]))].map(([slug, name]) => `<li><a href="${href(familyPath(slug))}">${esc(name)} syllabus</a></li>`).join('')}</ul>`,
       `<h2>What's new</h2><ul>${newest.map((e) => `<li><a href="${href(entryPath(e))}">${esc(e.title)}</a> (${esc(e.uploaded)})</li>`).join('')}</ul>`,
       ...groups.map(
         (g) => `<h2>${esc(g.faculty)}</h2><ul>${g.programmes.map((p) => `<li><a href="${href(programmePath(p.slug))}">${esc(p.name)} syllabus</a></li>`).join('')}</ul>`,
@@ -126,6 +132,35 @@ export function writeSyllabusPages() {
         `<p>${esc(p.faculty)}</p><h1>SPPU ${esc(p.name)} syllabus</h1>`,
         credit(p.entries[0].library),
         `<ul>${p.entries.map((e) => `<li><a href="${href(entryPath(e))}">${esc(e.title)}</a> · ${esc(describeEntry(e))} · uploaded ${esc(e.uploaded)}</li>`).join('')}</ul>`,
+        `<p><a href="${href('syllabus')}">All SPPU syllabi</a></p>`,
+      ].join(''),
+    })
+  }
+
+  // One page per course family (/syllabus/f/<slug>/): its courses, each linking its programme page.
+  const families = new Map()
+  for (const e of entries) families.set(familySlug(e), [...(families.get(familySlug(e)) || []), e])
+  for (const [slug, list] of families) {
+    const path = familyPath(slug)
+    const name = familyOf(list[0])
+    const courses = new Map()
+    for (const e of list) courses.set(courseOf(e), [...(courses.get(courseOf(e)) || []), e])
+    paths.push(path)
+    render(template, {
+      path,
+      title: familyTitle(name, list),
+      description: `All ${list.length} official SPPU ${name} syllabus PDFs across ${courses.size} programme${courses.size === 1 ? '' : 's'}, newest first. Read them free on 2AM Notes Pro.`,
+      jsonLd: [
+        breadcrumbs([home, explorer, [name, path]]),
+        itemList(`SPPU ${name} programmes`, [...courses.values()].map((c) => [courseOf(c[0]), programmePath(programmeSlug(c[0]))])),
+      ],
+      body: [
+        `<h1>SPPU ${esc(name)} syllabus</h1>`,
+        credit(list[0].library),
+        ...[...courses].sort(([a], [b]) => a.localeCompare(b)).map(
+          ([course, items]) =>
+            `<h2>${esc(course)}</h2><ul>${items.sort(byNewest).map((e) => `<li><a href="${href(entryPath(e))}">${esc(e.title)}</a> · ${esc(describeEntry(e))}</li>`).join('')}</ul>`,
+        ),
         `<p><a href="${href('syllabus')}">All SPPU syllabi</a></p>`,
       ].join(''),
     })
@@ -165,6 +200,6 @@ export function writeSyllabusPages() {
     })
   }
 
-  console.log(`syllabus: ${paths.length} pages (1 explorer, ${programmes.length} programmes, ${entries.length} syllabi)`)
+  console.log(`syllabus: ${paths.length} pages (1 explorer, ${families.size} families, ${programmes.length} programmes, ${entries.length} syllabi)`)
   return paths
 }
