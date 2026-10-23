@@ -1,7 +1,9 @@
 name: SPPU syllabus refresh
 
 # Every Monday (or by hand from the Actions tab): scrape SPPU's syllabus lists on dev, clean them, and
-# when the list changed, open a pull request into dev. Nothing merges by itself; Ritesh reviews and merges.
+# when the list changed, push the update to a dated branch and open an issue with a link to open the
+# pull request. Actions never create or approve pull requests (that repo setting stays off); Ritesh opens,
+# reviews and merges.
 # A scrape that finds nothing, or under 90% of the current list, fails the run so it can't wipe the data.
 on:
   schedule:
@@ -10,7 +12,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  issues: write
 
 # One refresh at a time; a second run waits for the first instead of racing it.
 concurrency:
@@ -92,16 +94,20 @@ jobs:
             echo "No changes to the syllabus list."
           fi
 
-      - name: Open pull request into dev
+      - name: Push the update to a branch and open an issue
         if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          base: dev
-          branch: chore/sppu-syllabus-refresh
-          delete-branch: true
-          add-paths: |
-            public/data/syllabus.json
-            data/syllabus.sources.json
-          commit-message: 'chore: refresh SPPU syllabus list'
-          title: ${{ steps.diff.outputs.title }}
-          body: ${{ steps.diff.outputs.body }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ steps.diff.outputs.title }}
+          BODY: ${{ steps.diff.outputs.body }}
+        run: |
+          branch="syllabus/refresh-$(date -u +%Y-%m-%d)"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "$branch"
+          git add public/data/syllabus.json data/syllabus.sources.json
+          git commit -m 'chore: refresh SPPU syllabus list'
+          git push --force origin "$branch"
+          compare="${{ github.server_url }}/${{ github.repository }}/compare/dev...${branch}?expand=1"
+          printf '%s\n\n**Open the pull request:** %s\n' "$BODY" "$compare" > "$RUNNER_TEMP/issue.md"
+          gh issue create --title "$TITLE" --body-file "$RUNNER_TEMP/issue.md"
