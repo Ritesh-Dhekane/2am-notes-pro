@@ -3,10 +3,14 @@
 // number of syllabi (d3-hierarchy squarify). Every box is at least ~44px each way: the smallest ones go into
 // an "Others (N)" box that opens a list. The search box above dims the boxes without a match.
 // Keyboard: Tab or the arrow keys move between boxes, Enter zooms in or opens, Esc or Backspace zooms out.
+// Zooming uses the View Transitions API where there is one: the tapped box grows into the map (and the
+// map shrinks back into it); the new boxes fade and scale in with CSS either way. Reduced motion: no motion.
 
 import { hierarchy, treemap, treemapSquarify } from 'd3-hierarchy'
 import { ArrowLeft, ChevronRight, Search as SearchIcon, X, ZoomIn } from 'lucide-react'
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { flushSync } from 'react-dom'
+import { trackEvent } from '../lib/analytics.js'
 import {
   courseOf,
   courseSlug,
@@ -130,9 +134,30 @@ export default function SyllabusMap({ entries, onCourse }) {
   }, [matches, tree])
 
   const zoomTo = (keys) => {
-    setOthers(null)
-    setHover(null)
-    setFocus(keys)
+    if (keys.join('/') === focus.join('/')) return
+    trackEvent('syllabus_map_zoom', { depth: keys.length })
+    const apply = () => {
+      setOthers(null)
+      setHover(null)
+      setFocus(keys)
+    }
+    const el = area.current
+    if (!el || !document.startViewTransition || window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return apply()
+    // One element carries the name in each snapshot: the box going in and the map coming out, or the reverse.
+    const deeper = keys.length > focus.length
+    const box = (key) => (key ? el.querySelector(`[data-key="${CSS.escape(key)}"]`) : null)
+    const from = deeper ? box(keys.at(-1)) : el
+    if (from) from.style.viewTransitionName = 'map-zoom'
+    const transition = document.startViewTransition(() => {
+      if (from) from.style.viewTransitionName = ''
+      flushSync(apply)
+      const to = deeper ? el : box(focus[keys.length])
+      if (from && to) to.style.viewTransitionName = 'map-zoom'
+    })
+    transition.finished.finally(() => {
+      el.style.viewTransitionName = ''
+      for (const b of el.querySelectorAll('[data-key]')) b.style.viewTransitionName = ''
+    })
   }
   const zoomOut = () => depth && zoomTo(focus.slice(0, depth - 1))
 
@@ -153,11 +178,11 @@ export default function SyllabusMap({ entries, onCourse }) {
     const onKey = (event) => {
       if (event.key !== 'Escape' || event.target.closest?.('input')) return
       if (others) setOthers(null)
-      else if (focus.length) setFocus(focus.slice(0, -1))
+      else if (focus.length) zoomTo(focus.slice(0, -1))
     }
     document.addEventListener('keydown', onKey)
     return () => document.removeEventListener('keydown', onKey)
-  }, [focus, others])
+  })
 
   // Arrow keys: the next or previous box, in reading order.
   const onBoxKey = (event, i) => {
@@ -248,6 +273,7 @@ export default function SyllabusMap({ entries, onCourse }) {
               key={`${focus.join('/')}/${node.key}`}
               type="button"
               data-box
+              data-key={node.key}
               onClick={() => open(node)}
               onKeyDown={(event) => onBoxKey(event, i)}
               onMouseEnter={() => setHover(node)}

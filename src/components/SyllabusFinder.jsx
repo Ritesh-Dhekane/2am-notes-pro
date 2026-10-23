@@ -1,10 +1,12 @@
 // "Find my syllabus" (/syllabus?mode=find): a step-by-step picker, stage → course family → course →
 // pattern or year (only when a course has several) → its syllabi. The step lives in the URL (?path=), so
 // any step can be shared; the last course opened is remembered on this device ("Continue: …").
+// Steps slide in from the right going forward and from the left going back; cards stagger in (index.css).
 
 import { ChevronRight, History } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { trackEvent } from '../lib/analytics.js'
 import { EntryRow } from './SyllabusBits.jsx'
 import {
   byNewest,
@@ -151,7 +153,14 @@ export default function SyllabusFinder({ entries, path, onPath }) {
     [entries],
   )
 
-  const go = (next) => onPath(next)
+  const [direction, setDirection] = useState('forward')
+  const depthOf = (p) => p.split('/').filter(Boolean).length
+  const go = (next, shortcut) => {
+    setDirection(depthOf(next) >= depthOf(here) ? 'forward' : 'back')
+    if (shortcut) trackEvent('syllabus_shortcut', { shortcut })
+    else trackEvent('syllabus_find_step', { depth: depthOf(next) })
+    onPath(next)
+  }
   const onCourse = state.course && remembered?.path === state.course.path
 
   return (
@@ -173,7 +182,7 @@ export default function SyllabusFinder({ entries, path, onPath }) {
           <button
             key={s.label}
             type="button"
-            onClick={() => go(s.path)}
+            onClick={() => go(s.path, s.label)}
             aria-current={here === s.path ? 'step' : undefined}
             className="press min-h-11 shrink-0 rounded-full border border-line bg-surface px-4 text-label font-semibold text-ink-2 hover:border-line-strong hover:text-ink aria-[current]:border-primary-ink aria-[current]:text-primary-ink"
           >
@@ -200,45 +209,47 @@ export default function SyllabusFinder({ entries, path, onPath }) {
         </ol>
       </nav>
 
-      <div key={here || 'root'} className="finder-step mt-4">
-        {state.options ? (
-          <>
-            <h2 className="mb-3 text-heading">{HEADINGS[state.step]}</h2>
-            <ul className="grid grid-cols-2 gap-2.5 sm:grid-cols-3">
-              {state.options.map((o, i) => (
-                <li key={o.slug} className="finder-card-in min-w-0" style={{ '--i': Math.min(i, 12) }}>
-                  <button
-                    type="button"
-                    onClick={() => go(here ? `${here}/${o.slug}` : o.slug)}
-                    disabled={!o.count}
-                    className="press flex h-full min-h-24 w-full flex-col items-start gap-1 rounded-2xl border border-line bg-surface p-3.5 text-left hover:border-line-strong disabled:opacity-50"
-                  >
-                    <span className="text-body font-semibold break-words text-ink">{o.name}</span>
-                    {o.sub && o.sub !== o.name && <span className="line-clamp-2 text-caption text-ink-2">{o.sub}</span>}
-                    <span className="mt-auto pt-1 font-mono text-caption text-ink-3">{syllabi(o.count)}</span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </>
-        ) : (
-          <>
-            <h2 className="mb-1 text-heading">{state.course.name}</h2>
-            <p className="mb-3 text-label text-ink-2">
-              {syllabi(state.list.length)}, newest first.{' '}
-              {new Set(state.list.map(programmeSlug)).size === 1 && (
-                <Link to={`/syllabus/p/${programmeSlug(state.list[0])}`} className="font-semibold text-primary-ink hover:underline">
-                  Programme page
-                </Link>
-              )}
-            </p>
-            <ul className="rounded-2xl border border-line bg-surface p-1">
-              {state.list.map((e, i) => (
-                <EntryRow key={e.id} entry={e} latest={i === 0} className="finder-card-in" style={{ '--i': Math.min(i, 12) }} />
-              ))}
-            </ul>
-          </>
-        )}
+      <div className="-mx-1 mt-4 overflow-x-clip px-1 pb-1">
+        <div key={here || 'root'} className={`finder-step ${direction === 'back' ? 'finder-step-back' : ''}`}>
+          {state.options ? (
+            <>
+              <h2 className="mb-3 text-heading">{HEADINGS[state.step]}</h2>
+              <ul className="grid grid-cols-2 gap-2.5 sm:grid-cols-3">
+                {state.options.map((o, i) => (
+                  <li key={o.slug} className="finder-card-in min-w-0" style={{ '--i': Math.min(i, 12) }}>
+                    <button
+                      type="button"
+                      onClick={() => go(here ? `${here}/${o.slug}` : o.slug)}
+                      disabled={!o.count}
+                      className="press flex h-full min-h-24 w-full flex-col items-start gap-1 rounded-2xl border border-line bg-surface p-3.5 text-left hover:border-line-strong disabled:opacity-50"
+                    >
+                      <span className="text-body font-semibold break-words text-ink">{o.name}</span>
+                      {o.sub && o.sub !== o.name && <span className="line-clamp-2 text-caption text-ink-2">{o.sub}</span>}
+                      <span className="mt-auto pt-1 font-mono text-caption text-ink-3">{syllabi(o.count)}</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : (
+            <>
+              <h2 className="mb-1 text-heading">{state.course.name}</h2>
+              <p className="mb-3 text-label text-ink-2">
+                {syllabi(state.list.length)}, newest first.{' '}
+                {new Set(state.list.map(programmeSlug)).size === 1 && (
+                  <Link to={`/syllabus/p/${programmeSlug(state.list[0])}`} className="font-semibold text-primary-ink hover:underline">
+                    Programme page
+                  </Link>
+                )}
+              </p>
+              <ul className="rounded-2xl border border-line bg-surface p-1">
+                {state.list.map((e, i) => (
+                  <EntryRow key={e.id} entry={e} latest={i === 0} className="finder-card-in" style={{ '--i': Math.min(i, 12) }} />
+                ))}
+              </ul>
+            </>
+          )}
+        </div>
       </div>
     </div>
   )

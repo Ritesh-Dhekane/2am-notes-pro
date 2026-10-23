@@ -291,7 +291,7 @@ export default function Syllabus() {
 
       <ModeTabs mode={mode} onMode={setMode} />
 
-      <div id="syllabus-panel" role="tabpanel" aria-labelledby={`tab-${mode}`}>
+      <div key={mode} id="syllabus-panel" role="tabpanel" aria-labelledby={`tab-${mode}`} className="mode-panel">
         {error ? (
           <div className="mt-6"><ErrorState message={error} onRetry={retry} /></div>
         ) : !entries ? (
