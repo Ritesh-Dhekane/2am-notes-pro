@@ -2,7 +2,7 @@
 // Unit 1 of each opens free, the rest is locked), and sign-in. Counts come from the backend's public catalog; if it can't be reached,
 // the subjects still show from the built-in catalog, without counts. Announcements for everyone show on top.
 
-import { BookOpen, BookOpenText, FileCheck2, Headphones, Lock, Sparkles } from 'lucide-react'
+import { BookOpen, BookOpenText, FileCheck2, Headphones, Lock, ScrollText, Sparkles } from 'lucide-react'
 import { createElement, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnnouncementBanner from '../components/AnnouncementBanner.jsx'
@@ -175,6 +175,12 @@ export default function Welcome({ onSignedIn }) {
           <p className="mt-3 text-[17px] leading-7 text-ink-2">
             Notes, previous-year papers, syllabus and references for every subject, in one quiet place.
           </p>
+          <Link
+            to="/syllabus"
+            className="mt-4 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-4 py-2 text-label font-semibold text-ink-2 hover:border-line-strong hover:text-ink"
+          >
+            <ScrollText className="size-4 text-primary-ink" aria-hidden="true" /> Browse every SPPU syllabus, free
+          </Link>
           {totals && (
             <dl className="mt-5 flex justify-center gap-6 lg:justify-start">
               {totals.map(([n, label]) => (

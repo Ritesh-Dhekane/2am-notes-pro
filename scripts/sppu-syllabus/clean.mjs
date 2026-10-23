@@ -232,7 +232,10 @@ for (const row of rows) {
   for (let n = 2; used.has(id); n++) id = `${taken}-${n}`
   used.add(id)
   const group = clean(row.course).replace(/^[A-Z]{1,4}\)\s*/, '')
-  const { programme, level } = programmeOf(title, group)
+  const found = programmeOf(title, group)
+  // SPPU names carry stray spaces before punctuation ("B.Sc . Psychology"); tidy them so one programme has one name.
+  const programme = found.programme && found.programme.replace(/\s+([,.])/g, '$1').replace(/\s{2,}/g, ' ')
+  const { level } = found
   entries.push({
     id,
     title,
