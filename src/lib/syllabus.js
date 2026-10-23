@@ -47,7 +47,7 @@ export function entryTitles(entries) {
 
 export function programmeTitle(name, entries) {
   const patterns = [...new Set(entries.map((e) => e.pattern).filter(Boolean))].slice(0, 2)
-  return `SPPU ${name} Syllabus${patterns.length ? ` ${patterns.join(', ')}` : ''}${SUFFIX}`
+  return `SPPU ${name} Syllabus${patterns.length ? ` ${patterns.join(', ')}` : ''} — All Official PDFs | 2AM Notes Pro`
 }
 
 export const EXPLORER_TITLE = 'SPPU Syllabus Explorer — Official PDFs for every programme | 2AM Notes Pro'

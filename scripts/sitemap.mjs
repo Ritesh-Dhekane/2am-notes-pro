@@ -1,6 +1,7 @@
 // dist/sitemap.xml: the pages that work signed out (home, privacy) and every free preview from the
 // backend's public catalog (Unit 1 notes, plus files an admin made a free preview). If the catalog
-// can't be reached, or there's no API URL, the sitemap still gets the static pages.
+// can't be reached, or there's no API URL, the sitemap still gets the static pages. `extra` adds pages
+// written elsewhere (the SPPU syllabus pages).
 import { writeFileSync } from 'node:fs'
 import { loadEnv } from 'vite'
 
@@ -29,7 +30,7 @@ async function previewPaths() {
   return [...paths]
 }
 
-export async function writeSitemap() {
+export async function writeSitemap(extra = []) {
   let previews = []
   try {
     previews = await previewPaths()
@@ -38,13 +39,13 @@ export async function writeSitemap() {
   }
   const lastmod = new Date().toISOString().slice(0, 10)
   // Folder pages end in a slash: GitHub Pages redirects /privacy to /privacy/, so list the final address.
-  const urls = [...STATIC_PAGES, ...previews]
+  const urls = [...STATIC_PAGES, ...extra, ...previews]
     .map((path) => `  <url>\n    <loc>${SITE}${path}${path ? '/' : ''}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`)
     .join('\n')
   writeFileSync(
     'dist/sitemap.xml',
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`,
   )
-  console.log(`sitemap: ${STATIC_PAGES.length + previews.length} URLs (${previews.length} previews)`)
+  console.log(`sitemap: ${STATIC_PAGES.length + extra.length + previews.length} URLs (${previews.length} previews, ${extra.length} syllabus pages)`)
   return previews
 }
