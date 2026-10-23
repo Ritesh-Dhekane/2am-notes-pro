@@ -13,7 +13,8 @@ function adminHealth(user) {
     time: new Date().toISOString(),
     lastError: cache.get('log:lastError') || '',
     cache: { refreshedAt: props.CACHE_REFRESHED_AT || '', catalogCached: false },
-    triggers: { refreshCaches: false, checkFlags: false, error: '' },
+    triggers: { refreshCaches: false, checkFlags: false, syncSyllabus: false, error: '' },
+    syllabus: syllabusStatus(props.SYLLABUS_STATUS),
     flags: { checkedAt: props.FLAG_CHECKED_AT || '', cursor: Number(props.FLAG_CURSOR) || 0 },
     sheets: { configured: Boolean(props.LOG_SHEET_ID), error: '' },
     properties: {
@@ -38,7 +39,7 @@ function adminHealth(user) {
   try {
     ScriptApp.getProjectTriggers().forEach(function (trigger) {
       var handler = trigger.getHandlerFunction()
-      if (handler === 'refreshCaches' || handler === 'checkFlags') health.triggers[handler] = true
+      if (handler === 'refreshCaches' || handler === 'checkFlags' || handler === 'syncSyllabus') health.triggers[handler] = true
     })
   } catch (err) {
     health.triggers.error = err.message
@@ -70,6 +71,14 @@ function propertySize(text, count) {
     items = null
   }
   return { chars: text.length, items: items }
+}
+
+// What the last syncSyllabus run saw: { mirrored, total, syncedAt, … }; zeros before the first run.
+function syllabusStatus(text) {
+  try {
+    if (text) return JSON.parse(text)
+  } catch (err) {}
+  return { mirrored: 0, total: 0, pending: 0, syncedAt: '' }
 }
 
 function listCount(text) {

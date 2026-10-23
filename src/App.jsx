@@ -19,6 +19,9 @@ const Profile = lazy(() => import('./pages/Profile.jsx'))
 const Setup = lazy(() => import('./pages/Setup.jsx'))
 const Preview = lazy(() => import('./pages/Preview.jsx'))
 const Privacy = lazy(() => import('./pages/Privacy.jsx'))
+const Syllabus = lazy(() => import('./pages/Syllabus.jsx'))
+const SyllabusView = lazy(() => import('./pages/SyllabusView.jsx'))
+const SyllabusProgramme = lazy(() => import('./pages/SyllabusProgramme.jsx'))
 const Admin = lazy(() => import('./pages/admin/Admin.jsx'))
 
 // Signed-out visitors see what's on offer and sign in there, then go back to where they were going.
@@ -70,6 +73,9 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/preview/:subjectId/:fileId" element={<Preview />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/syllabus" element={<Syllabus />} />
+        <Route path="/syllabus/p/:slug" element={<SyllabusProgramme />} />
+        <Route path="/syllabus/:id" element={<SyllabusView />} />
         {!user && <Route path="/" element={<Welcome />} />}
         <Route
           path="/setup"

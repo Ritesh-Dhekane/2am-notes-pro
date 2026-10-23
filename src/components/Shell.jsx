@@ -1,6 +1,6 @@
 // The signed-in frame: left sidebar + top bar on desktop, top bar + bottom tabs on phones.
 
-import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, Search, ShieldUser, Sparkles, Sun, Sunset, User, X } from 'lucide-react'
+import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, ScrollText, Search, ShieldUser, Sparkles, Sun, Sunset, User, X } from 'lucide-react'
 import { createElement, useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
@@ -17,6 +17,7 @@ const SIDEBAR = [
   { to: '/pyqs', label: 'PYQ Archive', icon: FileQuestion },
   { to: '/saved', label: 'Saved', icon: Bookmark },
   { to: '/search', label: 'Search', icon: Search },
+  { to: '/syllabus', label: 'SPPU Syllabus', icon: ScrollText },
   { to: '/profile', label: 'Profile & Settings', icon: User },
 ]
 
@@ -219,6 +220,9 @@ function MobileTopBar() {
           <ShieldUser className="size-5" aria-hidden="true" />
         </Link>
       )}
+      <Link to="/syllabus" className="icon-btn" aria-label="SPPU Syllabus" title="SPPU Syllabus">
+        <ScrollText className="size-5" aria-hidden="true" />
+      </Link>
       <ThemeToggle />
       <Link to="/profile" aria-label="Profile">
         <Avatar user={user} className="size-9" />

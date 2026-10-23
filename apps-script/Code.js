@@ -1,13 +1,14 @@
 // Entry point for the 2am-notes-pro backend web app.
 // doGet is a health check. doPost is the API router. Public: `catalog` (counts, plus each subject's
 // Unit 1 notes and one sample PYQ question) and `previewFile` / `previewAsset` (Unit 1 notes, and
-// any file an admin made a free preview), and `announcements` for everyone (audience "all").
+// any file an admin made a free preview), `announcements` for everyone (audience "all"), and
+// `syllabusView` (an official SPPU syllabus, Syllabus.js; downloading one needs a sign-in).
 // Content hidden or coming soon in /admin/content (Visibility.js) is applied to every listing and file.
 // Everything else needs a session or a Google ID token, sent as `idToken` (Auth.js).
 
 // Bump on every backend change: /admin/health and the health check show it, to tell whether the
 // latest code is deployed.
-var BACKEND_VERSION = '1.1.0'
+var BACKEND_VERSION = '1.2.0'
 
 function doGet(e) {
   return jsonResponse({
@@ -41,6 +42,14 @@ function doPost(e) {
           ? { authenticated: false, file: getFile(body.fileId, true) }
           : { authenticated: false, asset: getAsset(body.fileId, body.path, true) }
       )
+    } catch (err) {
+      return jsonResponse({ authenticated: false, error: err.message })
+    }
+  }
+
+  if (body.action === 'syllabusView') {
+    try {
+      return jsonResponse({ authenticated: false, syllabus: getSyllabus(body.id, false) })
     } catch (err) {
       return jsonResponse({ authenticated: false, error: err.message })
     }
@@ -128,6 +137,10 @@ function doPost(e) {
           recordFileOpen(user, body.client)
         }
         return jsonResponse({ authenticated: true, user: user, file: file })
+      case 'syllabusDownload':
+        var syllabus = getSyllabus(body.id, true)
+        logEvent(user, 'syllabus_download', { fileId: syllabus.id, fileName: syllabus.title }, body.client)
+        return jsonResponse({ authenticated: true, user: user, syllabus: syllabus })
       case 'getAsset':
         return jsonResponse({ authenticated: true, user: user, asset: getAsset(body.fileId, body.path, false, admin) })
       default:

@@ -518,7 +518,7 @@ export async function handleDemo(action, params) {
   await wait(250)
   const user = { email: 'ritesh@example.com', name: 'Ritesh Dhekane', picture: null }
   // Like authenticate in Auth.js: a blocked account gets nothing but the public actions.
-  if (!['catalog', 'previewFile'].includes(action) && !(action === 'announcements' && !params.idToken) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
+  if (!['catalog', 'previewFile', 'syllabusView'].includes(action) && !(action === 'announcements' && !params.idToken) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
   switch (action) {
     case 'announcements':
       return { authenticated: Boolean(params.idToken), user, announcements: announcementsFor(params.idToken ? params.semester : '') }
@@ -616,7 +616,8 @@ export async function handleDemo(action, params) {
           time: new Date().toISOString(),
           lastError: `${new Date(Date.now() - 95 * 60000).toISOString()} Service Spreadsheets timed out while accessing document with id 1AbC…`,
           cache: { refreshedAt: new Date(Date.now() - 25 * 60000).toISOString(), catalogCached: true },
-          triggers: { refreshCaches: true, checkFlags: true, error: '' },
+          triggers: { refreshCaches: true, checkFlags: true, syncSyllabus: true, error: '' },
+          syllabus: { syncedAt: new Date(Date.now() - 18 * 60000).toISOString(), mirrored: 486, total: 511, fetched: 40, pending: 25 },
           flags: { checkedAt: new Date(Date.now() - 41 * 60000).toISOString(), cursor: 1842 },
           sheets: { configured: true, error: '', students: 10, logs: 1843, flags: 3, adminLog: 57, blocks: 2 },
           properties: {
@@ -709,6 +710,16 @@ export async function handleDemo(action, params) {
       const f = found.file
       if (!UNIT_ONE.test(f.name) && !readVisibility().freePreview.includes(f.id)) throw new Error('sign_in_required')
       return { authenticated: false, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
+    }
+    // Official SPPU syllabi (Syllabus.js): a sample PDF titled after the id; downloads need a sign-in.
+    case 'syllabusView':
+    case 'syllabusDownload': {
+      const id = String(params.id || '')
+      if (!/^[a-z0-9][a-z0-9-]{0,119}$/.test(id)) throw new Error('syllabus_not_found')
+      const title = id.replace(/-d{8}$/, '').split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+      const syllabus = { id, title, mimeType: 'application/pdf', encoding: 'base64', content: samplePdf(title.slice(0, 60)) }
+      if (action === 'syllabusView') return { authenticated: false, syllabus }
+      return { authenticated: true, user, syllabus: { ...syllabus, fileName: `${title}.pdf` } }
     }
     default:
       throw new Error('unknown_action')

@@ -1,37 +1,20 @@
 // Shows a loaded file the right way for its type: note (Markdown), PDF, plain text, a card that
-// opens the document viewer (images, Word, spreadsheets, slides). Nothing offers a download.
+// opens the document viewer (images, Word, spreadsheets, slides). Nothing offers a download; PDFs are
+// drawn page by page with pdf.js (PdfView).
 
-import { ExternalLink, Eye, FileWarning } from 'lucide-react'
+import { Eye, FileWarning } from 'lucide-react'
 import { lazy, Suspense, useMemo, useState } from 'react'
 import { blobUrl } from '../lib/blobs.js'
 import { formatSize, kindLabel, VIEWER_KINDS } from '../lib/files.js'
 import { FileTypeIcon } from './FileBits.jsx'
 import MarkdownArticle from './MarkdownArticle.jsx'
+import PdfView from './PdfView.jsx'
 import { AiNotice, Card, EmptyState } from './ui.jsx'
 
 const DocumentViewer = lazy(() => import('./DocumentViewer.jsx'))
 
 function useBlobUrl(content, type) {
   return useMemo(() => blobUrl(content, type), [content, type])
-}
-
-function PdfView({ data, title, compact }) {
-  const url = useBlobUrl(data.content, 'application/pdf')
-  if (!url) return null
-  return (
-    <div className="flex flex-col gap-3">
-      {/* Phone browsers mostly can't show PDFs inline, so phones open it in their PDF viewer. */}
-      <a href={url} target="_blank" rel="noopener noreferrer" className="btn-primary self-start md:hidden">
-        <ExternalLink className="size-4" aria-hidden="true" /> Open PDF
-      </a>
-      <iframe
-        title={title}
-        src={`${url}#toolbar=0&navpanes=0`}
-        className={`hidden w-full rounded-xl border border-line bg-white md:block ${compact ? 'h-[60vh]' : 'h-[78vh]'}`}
-      />
-      <p className="text-label text-ink-2 md:hidden">Tap “Open PDF” to read it in your phone's PDF viewer.</p>
-    </div>
-  )
 }
 
 const VIEW_HINT = {
