@@ -72,6 +72,12 @@ Work happens on a branch from `dev` (`feat/…`, `fix/…`, `chore/…`), which 
 
 Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps Script syntax check); a PR into `prod` can be merged only when it passes. Plain pushes to `dev` run nothing.
 
+## Weekly syllabus refresh
+
+`.github/workflows/sppu-syllabus.yml` runs every Monday at 03:30 UTC (or by hand from the Actions tab). It checks out `dev`, installs Playwright Chromium, runs `scripts/sppu-syllabus/scrape.mjs` and `clean.mjs`, and, if `public/data/syllabus.json` or `data/syllabus.sources.json` changed, opens a pull request into `dev` titled "Syllabus updates: N new, M changed" with the new and changed titles. A scrape that finds nothing, or fewer than 90% of the current syllabi, fails the run instead, so a broken scrape never replaces the data. Nothing merges by itself: review and merge the PR. Needs **Settings → Actions → General → Allow GitHub Actions to create and approve pull requests**. PRs opened by the workflow don't start `ci.yml` on their own; close and reopen the PR (or push to its branch) to run the checks.
+
+**After merging:** refresh the Drive mirror's manifest (upload the new `data/syllabus.sources.json` to `_syllabus/` as `manifest.json`), as described in [SPPU syllabi](#sppu-syllabi).
+
 ## Drive Layout
 ```
 <top folder>/                    # its ID is DRIVE_ROOT_FOLDER_ID

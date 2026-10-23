@@ -1,0 +1,107 @@
+name: SPPU syllabus refresh
+
+# Every Monday (or by hand from the Actions tab): scrape SPPU's syllabus lists on dev, clean them, and
+# when the list changed, open a pull request into dev. Nothing merges by itself; Ritesh reviews and merges.
+# A scrape that finds nothing, or under 90% of the current list, fails the run so it can't wipe the data.
+on:
+  schedule:
+    - cron: '30 3 * * 1' # Monday 03:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# One refresh at a time; a second run waits for the first instead of racing it.
+concurrency:
+  group: sppu-syllabus
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout dev
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Keep the current list
+        run: cp public/data/syllabus.json "$RUNNER_TEMP/syllabus.prev.json" 2>/dev/null || echo '[]' > "$RUNNER_TEMP/syllabus.prev.json"
+
+      - name: Scrape SPPU
+        run: node scripts/sppu-syllabus/scrape.mjs
+
+      - name: Clean
+        run: node scripts/sppu-syllabus/clean.mjs
+
+      # Fails on an empty or shrunken list; otherwise works out what's new and changed for the PR.
+      - name: Check and compare
+        id: diff
+        run: |
+          node --input-type=module <<'EOF'
+          import { appendFileSync, readFileSync } from 'node:fs'
+          const read = (f) => {
+            const d = JSON.parse(readFileSync(f, 'utf8'))
+            return Array.isArray(d) ? d : d.items || []
+          }
+          const prev = read(`${process.env.RUNNER_TEMP}/syllabus.prev.json`)
+          const next = read('public/data/syllabus.json')
+          console.log(`Previous: ${prev.length}, scraped: ${next.length}`)
+          if (!next.length || next.length < prev.length * 0.9) {
+            console.log('::error::Scraped list is empty or under 90% of the previous one; not opening a PR.')
+            process.exit(1)
+          }
+          const old = new Map(prev.map((e) => [e.id, JSON.stringify(e)]))
+          const added = next.filter((e) => !old.has(e.id))
+          const changed = next.filter((e) => old.has(e.id) && old.get(e.id) !== JSON.stringify(e))
+          const list = (items) => {
+            const lines = items.slice(0, 100).map((e) => `- ${e.title}`)
+            if (items.length > 100) lines.push(`- …and ${items.length - 100} more`)
+            return lines.join('\n') || '_None_'
+          }
+          const removed = prev.length - (next.length - added.length)
+          const body = [
+            `Weekly SPPU syllabus refresh: ${next.length} syllabi (was ${prev.length}).`,
+            `### New (${added.length})`, list(added),
+            `### Changed (${changed.length})`, list(changed),
+            removed ? `### Removed\n${removed} no longer listed by SPPU.` : '',
+            'After merging, upload `data/syllabus.sources.json` to Drive `_syllabus/` as `manifest.json` (see README, "SPPU syllabi").',
+          ].filter(Boolean).join('\n\n')
+          const out = process.env.GITHUB_OUTPUT
+          appendFileSync(out, `title=Syllabus updates: ${added.length} new, ${changed.length} changed\n`)
+          appendFileSync(out, `body<<BODY_EOF\n${body}\nBODY_EOF\n`)
+          EOF
+          if git status --porcelain -- public/data/syllabus.json data/syllabus.sources.json | grep -q .; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to the syllabus list."
+          fi
+
+      - name: Open pull request into dev
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          base: dev
+          branch: chore/sppu-syllabus-refresh
+          delete-branch: true
+          add-paths: |
+            public/data/syllabus.json
+            data/syllabus.sources.json
+          commit-message: 'chore: refresh SPPU syllabus list'
+          title: ${{ steps.diff.outputs.title }}
+          body: ${{ steps.diff.outputs.body }}
