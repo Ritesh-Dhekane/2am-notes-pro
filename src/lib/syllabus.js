@@ -122,7 +122,7 @@ export function searchEntries(entries, query) {
   if (!words.length) return entries
   const scored = []
   for (const e of entries) {
-    const text = normalise([e.title, e.programme, e.pattern, e.faculty, e.group].join(' '))
+    const text = normalise([e.title, e.programme, e.course, e.family, e.pattern, e.faculty, e.group].join(' '))
     let score = 0
     for (const word of words) {
       if (text.includes(word)) score += new RegExp(`\\b${word.replace(/[^a-z0-9]/g, '')}`).test(text) ? 3 : 2
