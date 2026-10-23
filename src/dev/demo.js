@@ -518,7 +518,7 @@ export async function handleDemo(action, params) {
   await wait(250)
   const user = { email: 'ritesh@example.com', name: 'Ritesh Dhekane', picture: null }
   // Like authenticate in Auth.js: a blocked account gets nothing but the public actions.
-  if (!['catalog', 'previewFile'].includes(action) && !(action === 'announcements' && !params.idToken) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
+  if (!['catalog', 'previewFile', 'syllabusView'].includes(action) && !(action === 'announcements' && !params.idToken) && readBlocks()[user.email]?.blocked) throw new Error('access_blocked')
   switch (action) {
     case 'announcements':
       return { authenticated: Boolean(params.idToken), user, announcements: announcementsFor(params.idToken ? params.semester : '') }
@@ -709,6 +709,14 @@ export async function handleDemo(action, params) {
       const f = found.file
       if (!UNIT_ONE.test(f.name) && !readVisibility().freePreview.includes(f.id)) throw new Error('sign_in_required')
       return { authenticated: false, file: { id: f.id, name: f.name, mimeType: f.mimeType, ...(await contentFor(f)) } }
+    }
+    // Syllabus PDFs (public view; download for signed-in students). The id "s25-024" is "not available yet".
+    case 'syllabusView':
+    case 'syllabusDownload': {
+      if (params.id === 's25-024') throw new Error('This syllabus is not available yet.')
+      const title = `SPPU syllabus ${params.id}`
+      const reply = { authenticated: action === 'syllabusDownload', encoding: 'base64', content: samplePdf(title), title }
+      return action === 'syllabusDownload' ? { ...reply, user, fileName: `${params.id}.pdf` } : reply
     }
     default:
       throw new Error('unknown_action')
