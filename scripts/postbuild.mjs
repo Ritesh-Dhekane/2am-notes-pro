@@ -1,5 +1,6 @@
 // GitHub Pages has no server-side routing: unknown paths get 404.html (the app, with a 404 status).
-// Pages that outside services fetch directly get a real copy of the app, so they answer 200.
+// Pages that outside services fetch directly get a real copy of the app, so they answer 200: the privacy
+// policy, and every free preview in the sitemap (search engines skip pages that answer 404).
 import { copyFileSync, mkdirSync } from 'node:fs'
 import { writeSitemap } from './sitemap.mjs'
 
@@ -11,4 +12,8 @@ for (const page of PAGES) {
   copyFileSync('dist/index.html', `dist/${page}/index.html`)
 }
 
-await writeSitemap()
+for (const path of await writeSitemap()) {
+  const dir = `dist/${decodeURIComponent(path)}`
+  mkdirSync(dir, { recursive: true })
+  copyFileSync('dist/index.html', `${dir}/index.html`)
+}
