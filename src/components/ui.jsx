@@ -153,6 +153,10 @@ export function MadeBy({ className = '' }) {
         Ritesh Dhekane
       </a>
       {' · '}
+      <Link to="/syllabus" className="whitespace-nowrap underline-offset-2 hover:text-ink hover:underline">
+        SPPU Syllabus
+      </Link>
+      {' · '}
       <Link to="/privacy" className="underline-offset-2 hover:text-ink hover:underline">
         Privacy
       </Link>

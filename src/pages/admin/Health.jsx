@@ -94,6 +94,16 @@ export default function Health() {
                     health.triggers.checkFlags && stale(health.flags.checkedAt),
                   ],
                   ['Flag check reached', health.flags.cursor ? `Log row ${health.flags.cursor}` : '–'],
+                  ...(health.syllabus
+                    ? [
+                        ['Syllabus mirror trigger', health.triggers.syncSyllabus ? 'Installed (hourly)' : 'Not installed: run installSyllabusTrigger', !health.triggers.syncSyllabus],
+                        [
+                          'Syllabi mirrored',
+                          `${health.syllabus.mirrored} of ${health.syllabus.total}${health.syllabus.syncedAt ? ` · last sync ${age(health.syllabus.syncedAt)}` : ''}`,
+                          health.syllabus.total > 0 && health.syllabus.mirrored < health.syllabus.total && stale(health.syllabus.syncedAt),
+                        ],
+                      ]
+                    : []),
                   ...(health.triggers.error ? [['Triggers', health.triggers.error, true]] : []),
                 ]}
               />

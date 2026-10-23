@@ -72,6 +72,12 @@ Work happens on a branch from `dev` (`feat/…`, `fix/…`, `chore/…`), which 
 
 Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps Script syntax check); a PR into `prod` can be merged only when it passes. Plain pushes to `dev` run nothing.
 
+## Weekly syllabus refresh
+
+`.github/workflows/sppu-syllabus.yml` runs every Monday at 03:30 UTC (or by hand from the Actions tab). It checks out `dev`, installs Playwright Chromium, runs `scripts/sppu-syllabus/scrape.mjs` and `clean.mjs`, and, if `public/data/syllabus.json` or `data/syllabus.sources.json` changed, pushes the update to a dated branch (`syllabus/refresh-YYYY-MM-DD`) and opens an **issue** titled "Syllabus updates: N new, M changed" listing the new and changed titles, with a link that opens the pull request into `dev`. A scrape that finds nothing, or fewer than 90% of the current syllabi, fails the run instead, so a broken scrape never replaces the data. Actions never create or approve pull requests (the repo setting "Allow GitHub Actions to create and approve pull requests" stays **off**): open the PR from the issue's link, let `ci.yml` run, review and merge it.
+
+**After merging:** refresh the Drive mirror's manifest (upload the new `data/syllabus.sources.json` to `_syllabus/` as `manifest.json`), as described in [SPPU syllabi](#sppu-syllabi).
+
 ## Drive Layout
 ```
 <top folder>/                    # its ID is DRIVE_ROOT_FOLDER_ID
@@ -95,6 +101,13 @@ Every pull request runs `.github/workflows/ci.yml` (lint, production build, Apps
 - A new subject folder shows up without code changes. Its proper name, icon and core/elective group come from `src/lib/catalog.js`; until it's listed there, it shows as a core subject with a plain look.
 - In notes, a blockquote starting with `**Exam tip:**`, `**Important:**`, `**Definition:**` or `**Note:**`, or a GitHub-style `> [!NOTE]` / `[!TIP]` / `[!IMPORTANT]` / `[!WARNING]`, becomes a callout.
 - Notes and text open in the reader. PDFs, images, Word, Excel/CSV and PowerPoint files open in the viewer. Old `.doc` and `.ppt` files are download-only.
+
+## SPPU syllabi
+Every official syllabus from SPPU's syllabus pages (credit: Savitribai Phule Pune University; the app links only to SPPU's listing page). Anyone can view one in the app; downloading needs a sign-in and is logged (`syllabus_download` in the Logs tab). The PDFs are mirrored in Drive, so SPPU's file links never reach the browser.
+
+- `npm run syllabus:scrape` (needs `npx playwright install chromium` once) writes `data/syllabus.raw.json`; `npm run syllabus:clean` turns it into `public/data/syllabus.json` (shipped with the site, no file links) and `data/syllabus.sources.json` (id → title and SPPU link, repo only).
+- **Setup, once:** in the Drive top folder, create `_syllabus/` (`syncSyllabus` creates it too; it has no `subjects` folder, so it's never read as a semester). Upload `data/syllabus.sources.json` into it, renamed `manifest.json`. Then `clasp push`, make a new deployment version (see Apps Script Backend), and run `installSyllabusTrigger` once in the editor. It mirrors the PDFs every hour (up to ~4.5 minutes per run) and records each in the **Syllabus** tab of the log spreadsheet; failures are retried, files over 40 MB are skipped. /admin/health shows how many are mirrored.
+- **To refresh the list:** run both scripts, commit, and upload the new `data/syllabus.sources.json` to `_syllabus/` as `manifest.json` again (replace the old file, or upload a new one: the newest `manifest.json` wins). New syllabi are mirrored within the hour.
 
 ## Analytics
 Optional GA4, production builds only: set the repo secret `VITE_GA_MEASUREMENT_ID` (`G-XXXXXXXXXX`). Without it, analytics is disabled entirely. Google signals and ad personalisation are off.
