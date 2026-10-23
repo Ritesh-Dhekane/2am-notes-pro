@@ -177,9 +177,13 @@ export default function Welcome({ onSignedIn }) {
           </p>
           <Link
             to="/syllabus"
-            className="mt-4 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-4 py-2 text-label font-semibold text-ink-2 hover:border-line-strong hover:text-ink"
+            className="btn-primary sign-in-glow mt-5 inline-flex rounded-full whitespace-nowrap"
           >
-            <ScrollText className="size-4 text-primary-ink" aria-hidden="true" /> Browse every SPPU syllabus, free
+            <ScrollText className="size-4" aria-hidden="true" /> Browse 500+ SPPU syllabi
+            <span className="hidden sm:inline">— free</span>
+            <span className="rounded-full bg-on-primary px-2 py-0.5 text-[11px] leading-4 font-bold tracking-wide text-primary-ink">
+              NEW
+            </span>
           </Link>
           {totals && (
             <dl className="mt-5 flex justify-center gap-6 lg:justify-start">
