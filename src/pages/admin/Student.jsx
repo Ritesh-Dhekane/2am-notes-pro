@@ -17,6 +17,14 @@ const EVENTS = {
   save_study: 'Saved semester',
 }
 
+// A logged file path is "<semester>/<subject slug>/<category>/<file>", so the subject and semester come
+// from it, for old events too. Anything shorter (a bare name) has no subject line.
+function fileWhere(path) {
+  const parts = path.split('/')
+  if (parts.length < 3) return ''
+  return [subjectLook(parts[1], parts[1]).name, semesterLabel(parts[0])].join(' · ')
+}
+
 function hintsFor(student, data) {
   const hints = []
   if (!data.fileOpens) hints.push('Never opened a file')
@@ -95,9 +103,12 @@ function Timeline({ data, page, setPage }) {
             <span className="font-semibold text-ink">{EVENTS[e.event] || e.event}</span>
             <span className="min-w-0">
               {e.file ? (
-                <span className="block truncate text-ink" title={e.file}>
-                  {e.file.split('/').pop()}
-                </span>
+                <>
+                  <span className="block truncate text-ink" title={e.file}>
+                    {e.file.split('/').pop()}
+                  </span>
+                  {fileWhere(e.file) && <span className="block truncate text-ink-2">{fileWhere(e.file)}</span>}
+                </>
               ) : (
                 e.semester && <span className="block text-ink-2">{semesterLabel(e.semester)}</span>
               )}
