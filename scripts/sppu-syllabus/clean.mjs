@@ -328,7 +328,8 @@ for (const row of rows) {
     uploaded: date || listDate(row.date),
   })
   Object.assign(entries.at(-1), hierarchyOf(entries.at(-1)))
-  sources[id] = { title, source: row.href }
+  // SPPU leaves [ ] unencoded in some file names; Apps Script's UrlFetchApp rejects those URLs.
+  sources[id] = { title, source: row.href.replace(/\[/g, '%5B').replace(/\]/g, '%5D') }
 }
 entries.sort((a, b) => b.library - a.library || a.faculty.localeCompare(b.faculty) || a.group.localeCompare(b.group) || a.title.localeCompare(b.title))
 
