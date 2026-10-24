@@ -215,6 +215,84 @@ function programmeOf(title, group) {
   return { programme: null, level: /^(?:F|S|T)\.?\s?Y/i.test(title) ? 'UG' : 'Other' }
 }
 
+// Course hierarchy for the finder and map: faculty (short label) -> family -> course. `programme` and
+// its slug stay as they are (SEO addresses depend on them); `course` only splits a programme further
+// (MBA specialisations, MCA under Engineering) or names a programme-less entry's group.
+const FACULTIES = [
+  [/science/i, 'Science & Tech'],
+  [/commerce/i, 'Commerce & Management'],
+  [/humanities/i, 'Humanities'],
+  [/inter-?disciplinary/i, 'Inter-Disciplinary'],
+]
+const COMMON_FACULTY = 'Common courses'
+const COMMON_FAMILY = 'Common & ability courses'
+
+// [pattern on the programme, family, faculty]: the first matching row wins.
+const FAMILIES = [
+  [/^B\.E\.|^B\.Tech/, 'B.E. / B.Tech (Engineering)', 'Science & Tech'],
+  [/^M\.E\./, 'M.E. / M.Tech', 'Science & Tech'],
+  [/^MCA/, 'MCA', 'Commerce & Management'],
+  [/^MBA/, 'MBA', 'Commerce & Management'],
+  [/^BBA/, 'BBA', 'Commerce & Management'],
+  [/^BCA/, 'BCA', 'Commerce & Management'],
+  [/^[BM]\.Com/, 'B.Com / M.Com', 'Commerce & Management'],
+  [/^[BM]HMCT/, 'Hotel Management', 'Commerce & Management'],
+  [/^B\.Sc/, 'B.Sc', 'Science & Tech'],
+  [/^M\.Sc/, 'M.Sc', 'Science & Tech'],
+  [/^[BM]\.Arch|^B\.Des/, 'M.Arch / B.Arch', 'Science & Tech'],
+  [/^B\.Voc/, 'B.Voc', 'Science & Tech'],
+  [/^B\.A\./, 'B.A.', 'Humanities'],
+  [/^M\.A/, 'M.A.', 'Humanities'],
+  [/^LL\./, 'LL.B. / LL.M. (Law)', 'Humanities'],
+  [/^BFA|^BVA/, 'Fine & Visual Arts', 'Inter-Disciplinary'],
+  [/^[BM]\.Ed|^ITEP/, 'Education', 'Inter-Disciplinary'],
+  [/^Ph\.D|^M\.Phil/, 'Ph.D./M.Phil.', 'Inter-Disciplinary'],
+]
+const MBA_SPECIALISATIONS = [
+  [/\(IT\)|MBA\s*IT\b/i, 'MBA IT'],
+  [/fin\s*tech/i, 'MBA Fintech'],
+  [/\bHRD?\b/i, 'MBA HRD'],
+  [/digital marketing/i, 'MBA Digital Marketing'],
+  [/project\s*m(?:anagement|gmt)/i, 'MBA Project Management'],
+]
+// Programme-less entries, grouped: [pattern on "group | title", course].
+const COMMON_COURSES = [
+  [/\bAEC\b/, 'Ability Enhancement (AEC)'],
+  [/\|\s*(?:CC|Sem-1 Course|Course Entrepreneurship)/, 'Co-curricular courses'],
+  [/diplom/i, 'Law diplomas'],
+  [/^LAW\b/i, 'Law papers'],
+  [/foundation\s*course/i, 'Foundation courses'],
+  [/advanced? course/i, 'Advanced courses'],
+  [/\bOE\b|open\s*electives?|openelectives|\bbasket\b/i, 'Open electives'],
+  [/community engagement/i, 'Community engagement'],
+  [/engineering|\b[ST]E\b/i, 'Engineering (general)'],
+  [/architecture/i, 'Architecture (general)'],
+  [/sciences/i, 'Sciences (general)'],
+]
+// "ME Artificial Intelligence - 2025 Pattern" has no programme, but belongs with M.E.
+const ME_TITLE = /^(?:Combined\s+)?ME\b|\bME Programme\b/
+
+const shortFaculty = (faculty) => (FACULTIES.find(([re]) => re.test(faculty)) || [])[1] || COMMON_FACULTY
+
+function hierarchyOf({ programme, title, group, faculty }) {
+  if (!programme && ME_TITLE.test(title)) {
+    const m = title.match(/^ME\s+([A-Z][A-Za-z ]*?)(?:\s*-|\s+\d|\s+syllabus|$)/i)
+    return { facultyShort: 'Science & Tech', family: 'M.E. / M.Tech', course: m ? `M.E. ${m[1]}` : 'M.E. (structure and rules)' }
+  }
+  if (!programme) {
+    const course = (COMMON_COURSES.find(([re]) => re.test(`${group} | ${title}`)) || [])[1] || `${shortFaculty(faculty)} (general)`
+    return { facultyShort: COMMON_FACULTY, family: COMMON_FAMILY, course }
+  }
+  const row = FAMILIES.find(([re]) => re.test(programme))
+  let course = programme
+  if (/^MBA$/.test(programme)) course = (MBA_SPECIALISATIONS.find(([re]) => re.test(title)) || [])[1] || 'MBA (General)'
+  if (/^MCA$/.test(programme) && /engineering/i.test(`${group} ${title}`)) course = 'MCA (under Engineering)'
+  if (/^MCA \(Integrated\)$/.test(programme)) course = 'MCA Integrated'
+  if (/^B\.Sc\.\s/.test(course)) course = course.replace(/^B\.Sc\./, 'B.Sc')
+  if (row) return { facultyShort: row[2], family: row[1], course }
+  return { facultyShort: shortFaculty(faculty), family: programme, course }
+}
+
 const raw = JSON.parse(readFileSync(RAW, 'utf8'))
 // Sorted, so suffixes for clashing ids stay the same from run to run.
 const rows = [...raw].sort((a, b) => a.href.localeCompare(b.href))
@@ -249,6 +327,7 @@ for (const row of rows) {
     semesters: semestersOf(title),
     uploaded: date || listDate(row.date),
   })
+  Object.assign(entries.at(-1), hierarchyOf(entries.at(-1)))
   sources[id] = { title, source: row.href }
 }
 entries.sort((a, b) => b.library - a.library || a.faculty.localeCompare(b.faculty) || a.group.localeCompare(b.group) || a.title.localeCompare(b.title))
@@ -264,4 +343,7 @@ const top = Object.entries(entries.reduce((acc, e) => ((acc[e.programme || '(non
 console.log(`${entries.length} entries -> ${OUT}, sources -> ${SOURCES}`)
 console.log(`programme ${pct('programme')}, pattern ${pct('pattern')}, years ${pct('years')}, semesters ${pct('semesters')}, uploaded ${pct('uploaded')}`)
 console.log('levels', JSON.stringify(entries.reduce((acc, e) => ((acc[e.level] = (acc[e.level] || 0) + 1), acc), {})))
+const families = entries.reduce((acc, e) => ((acc[`${e.facultyShort} > ${e.family}`] = (acc[`${e.facultyShort} > ${e.family}`] || 0) + 1), acc), {})
+console.log('families', Object.entries(families).sort().map(([f, n]) => `
+  ${f}: ${n}`).join(''))
 console.log('top programmes', top.map(([p, n]) => `${p} ${n}`).join(', '))

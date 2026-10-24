@@ -589,3 +589,175 @@ html.protect img {
     box-shadow: 0 0 12px 1px color-mix(in srgb, var(--color-primary) 30%, transparent);
   }
 }
+
+/* ---------- SPPU Syllabus Explorer: finder chips ---------- */
+.finder-chip {
+  display: inline-flex;
+  min-height: 36px;
+  max-width: 100%;
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid var(--c-line);
+  background: var(--c-surface);
+  padding: 0 0.75rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-ink-2);
+}
+.finder-chip:hover {
+  color: var(--c-ink);
+}
+.finder-chip[aria-current] {
+  border-color: var(--c-primary-ink);
+  color: var(--c-primary-ink);
+}
+
+/* Map boxes: tinted from --box (set per box from the theme's primary and teal). */
+.map-box {
+  background: color-mix(in oklab, var(--box) 22%, var(--c-surface));
+  border-color: color-mix(in oklab, var(--box) 42%, transparent);
+}
+.map-box:hover {
+  background: color-mix(in oklab, var(--box) 32%, var(--c-surface));
+}
+.map-box-dim {
+  opacity: 0.28;
+}
+.map-box-hit {
+  box-shadow: inset 0 0 0 2px var(--c-primary-ink);
+}
+
+/* ---------- SPPU Syllabus Explorer: motion ----------
+   Quick (150–300ms) and ease-out, transform and opacity only. The global reduced-motion rule above cuts
+   every animation to nothing; the map skips its view transition (SyllabusMap.jsx). */
+.press {
+  transition: transform 150ms ease-out;
+}
+.press:active:not(:disabled) {
+  transform: scale(0.98);
+}
+.map-box {
+  transition: opacity 200ms ease-out, box-shadow 200ms ease-out, transform 150ms ease-out;
+  animation: map-in 240ms ease-out backwards;
+  animation-delay: calc(var(--i, 0) * 18ms);
+}
+@keyframes map-in {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+}
+::view-transition-group(map-zoom) {
+  animation-duration: 280ms;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+::view-transition-old(map-zoom),
+::view-transition-new(map-zoom) {
+  height: 100%;
+  animation-duration: 280ms;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 160ms;
+}
+
+.finder-step {
+  animation: finder-forward 240ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.finder-step-back {
+  animation-name: finder-back;
+}
+@keyframes finder-forward {
+  from {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+}
+@keyframes finder-back {
+  from {
+    opacity: 0;
+    transform: translateX(-28px);
+  }
+}
+.finder-card-in {
+  animation: finder-card 220ms ease-out backwards;
+  animation-delay: calc(var(--i, 0) * 35ms);
+}
+@keyframes finder-card {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+}
+.finder-chip-in {
+  animation: finder-chip 200ms ease-out backwards;
+}
+@keyframes finder-chip {
+  from {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+}
+
+.tab-indicator {
+  transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.mode-panel {
+  animation: fade-in 200ms ease-out both;
+}
+.sheet-scrim {
+  animation: fade-in 200ms ease-out both;
+}
+.sheet-panel {
+  animation: sheet-up 260ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+/* Loading: a soft band sweeping over the skeleton. */
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, color-mix(in oklab, var(--c-ink) 7%, transparent), transparent);
+  animation: shimmer 1.2s ease-in-out infinite;
+}
+@keyframes shimmer {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map-box,
+  .finder-step,
+  .finder-card-in,
+  .finder-chip-in,
+  .mode-panel,
+  .sheet-scrim,
+  .sheet-panel,
+  .shimmer::after {
+    animation: none;
+  }
+  .press:active:not(:disabled) {
+    transform: none;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none;
+  }
+}
