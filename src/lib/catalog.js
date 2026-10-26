@@ -166,13 +166,40 @@ export const SEMESTERS = [
     ],
   },
   {
-    // Core only for now: Strategic Management plus the specialization's core course. The
-    // specialization electives (pick 4 from that specialization's list) come later.
-    id: 'MBA-Sem-III',
+    // 2024 pattern, Business Analytics only for now: the Python core and pick 4 of the 8 electives.
+    id: 'MBA-Sem-III-2024',
     course: 'MBA',
     number: 3,
-    label: 'Semester III',
-    short: 'Sem III',
+    label: 'Semester III (2024 pattern, Business Analytics)',
+    short: 'Sem III 2024',
+    core: ['strategic-management', 'mba-python'],
+    groups: [
+      {
+        id: 'ba-electives',
+        label: 'Business Analytics electives',
+        pick: 4,
+        options: [
+          'advanced-statistical-methods',
+          'data-visualization-and-storytelling',
+          'ba-marketing-analytics',
+          'financial-analytics',
+          'workforce-analytics',
+          'big-data-analytics',
+          'supply-and-operations-chain-analytics',
+          'marketing-intelligence',
+        ],
+      },
+    ],
+  },
+  {
+    // 2025 pattern, core only for now: Strategic Management plus the specialization's core course.
+    // Was "MBA-Sem-III" (the Drive folder's old name), kept as an alias so saved choices still work.
+    id: 'MBA-Sem-III-2025',
+    aliases: ['MBA-Sem-III'],
+    course: 'MBA',
+    number: 3,
+    label: 'Semester III (2025 pattern)',
+    short: 'Sem III 2025',
     core: ['strategic-management'],
     groups: [
       {
@@ -188,6 +215,32 @@ export const SEMESTERS = [
           'mba-python',
           'agriculture-and-indian-economy',
           'fundamentals-of-pharma-and-healthcare-management',
+        ],
+      },
+    ],
+  },
+  {
+    // 2024 pattern, Business Analytics only for now: the Data Mining core and pick 4 of the 8 electives.
+    id: 'MBA-Sem-IV-2024',
+    course: 'MBA',
+    number: 4,
+    label: 'Semester IV (2024 pattern, Business Analytics)',
+    short: 'Sem IV 2024',
+    core: ['data-mining'],
+    groups: [
+      {
+        id: 'ba-electives',
+        label: 'Business Analytics electives',
+        pick: 4,
+        options: [
+          'time-series-analysis-and-forecasting',
+          'strategic-management-and-business-analytics',
+          'retail-and-e-commerce-analytics',
+          'generative-ai-for-business-applications',
+          'healthcare-analytics',
+          'predictive-analytics-and-machine-learning-using-python',
+          'sports-analytics',
+          'business-applications-of-blockchain-technologies',
         ],
       },
     ],
@@ -257,6 +310,25 @@ const SUBJECTS = {
   'mba-python': { name: 'Python', short: 'Python', code: '302 SC BA-01', icon: Terminal, tint: '#3B82F6', about: 'Business analytics specialization core.' },
   'agriculture-and-indian-economy': { name: 'Agriculture and Indian Economy', short: 'Agri Economy', code: '302 SC ABM-01', icon: Wheat, tint: '#84CC16', about: 'Agri business specialization core.' },
   'fundamentals-of-pharma-and-healthcare-management': { name: 'Fundamentals of Pharma and Healthcare Management', short: 'Pharma & Healthcare', code: '302 SC PHM-01', icon: Stethoscope, tint: '#06B6D4', about: 'Pharma & healthcare specialization core.' },
+  // MBA Business Analytics electives (2024 pattern), Semester III
+  'advanced-statistical-methods': { name: 'Advanced Statistical Methods', short: 'Adv Stats', code: 'BA 610 SE-01', icon: Sigma, tint: '#8B5CF6', about: 'R programming, hypothesis testing, regression and time series.' },
+  'data-visualization-and-storytelling': { name: 'Data Visualization and Storytelling', short: 'Data Viz', code: 'BA 611 SE-02', icon: PieChart, tint: '#EAB308', about: 'Power BI: Power Query, charts, DAX and dashboards.' },
+  'ba-marketing-analytics': { name: 'Marketing Analytics', short: 'Mktg Analytics', code: 'BA 612 SE-03', icon: Megaphone, tint: '#EC4899', about: 'Business Analytics elective.' },
+  'financial-analytics': { name: 'Financial Analytics', short: 'Fin Analytics', code: 'BA 613 SE-04', icon: Landmark, tint: '#10B981', about: 'Business Analytics elective.' },
+  'workforce-analytics': { name: 'Workforce Analytics', short: 'Workforce', code: 'BA 614 SE-05', icon: Users, tint: '#F59E0B', about: 'Business Analytics elective.' },
+  'big-data-analytics': { name: 'Big Data Analytics', short: 'Big Data', code: 'BA 615 SE-06', icon: Database, tint: '#0EA5E9', about: 'Business Analytics elective.' },
+  'supply-and-operations-chain-analytics': { name: 'Supply & Operation Chain Analytics', short: 'SCM Analytics', code: 'BA 617 SE-07', icon: Factory, tint: '#64748B', about: 'Business Analytics elective.' },
+  'marketing-intelligence': { name: 'Marketing Intelligence', short: 'Mktg Intel', code: 'BA 618 SE-08', icon: Target, tint: '#F43F5E', about: 'Business Analytics elective.' },
+  // MBA Business Analytics (2024 pattern), Semester IV
+  'data-mining': { name: 'Data Mining', short: 'Data Mining', code: 'BA 653 SC-02', icon: Database, tint: '#6366F1', about: 'Business Analytics specialization core.' },
+  'time-series-analysis-and-forecasting': { name: 'Time Series Analysis and Forecasting', short: 'Time Series', code: 'BA 660 SE-09', icon: TrendingUp, tint: '#3B82F6', about: 'Business Analytics elective.' },
+  'strategic-management-and-business-analytics': { name: 'Strategic Management and Business Analytics', short: 'SM & BA', code: 'BA 661 SE-10', icon: Target, tint: '#6366F1', about: 'Business Analytics elective.' },
+  'retail-and-e-commerce-analytics': { name: 'Retail and E-Commerce Analytics', short: 'Retail Analytics', code: 'BA 662 SE-11', icon: ShoppingCart, tint: '#F59E0B', about: 'Business Analytics elective.' },
+  'generative-ai-for-business-applications': { name: 'Generative AI for Business Applications', short: 'GenAI', code: 'BA 663 SE-12', icon: Sparkles, tint: '#A855F7', about: 'Business Analytics elective.' },
+  'healthcare-analytics': { name: 'Healthcare Analytics', short: 'Healthcare', code: 'BA 664 SE-13', icon: Stethoscope, tint: '#06B6D4', about: 'Business Analytics elective.' },
+  'predictive-analytics-and-machine-learning-using-python': { name: 'Predictive Analytics and Machine Learning using Python', short: 'Predictive ML', code: 'BA 665 SE-14', icon: BrainCircuit, tint: '#14B8A6', about: 'Business Analytics elective.' },
+  'sports-analytics': { name: 'Sports Analytics', short: 'Sports', code: 'BA 666 SE-15', icon: BarChart3, tint: '#22C55E', about: 'Business Analytics elective.' },
+  'business-applications-of-blockchain-technologies': { name: 'Business Applications of Blockchain Technologies', short: 'Blockchain', code: 'BA 667 SE-16', icon: Boxes, tint: '#84CC16', about: 'Business Analytics elective.' },
 }
 
 export function subjectInfo(slug) {
@@ -264,7 +336,12 @@ export function subjectInfo(slug) {
 }
 
 export function semesterById(id) {
-  return SEMESTERS.find((s) => s.id === id) || null
+  return SEMESTERS.find((s) => s.id === id || s.aliases?.includes(id)) || null
+}
+
+// A renamed semester's current id ("MBA-Sem-III" -> "MBA-Sem-III-2025"); other ids unchanged.
+export function canonicalSemesterId(id) {
+  return SEMESTERS.find((s) => s.aliases?.includes(id))?.id ?? id
 }
 
 export function courseById(id) {
