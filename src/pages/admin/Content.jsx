@@ -10,7 +10,7 @@ import { semesterLabel, useAdmin, useAdminAction } from './adminData.js'
 import { Panel } from './bits.jsx'
 
 const CATEGORY_LABEL = { notes: 'Notes', pyqs: 'PYQs', assignments: 'Assignments', references: 'References' }
-const UNIT_ONE = /^unit[\s_-]*0*1(?!\d)/i // like PREVIEW_PATH in apps-script/Drive.js
+const UNIT_ONE = /^(unit|practical)[\s_-]*0*1(?!\d)/i // like PREVIEW_PATH in apps-script/Drive.js
 
 // Whether `path` is in the list or under one of its paths; file ids match exactly (like listCovers).
 function covers(list, path, id) {
