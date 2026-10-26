@@ -94,7 +94,7 @@ export default function StudyPicker({ value, onChange }) {
                 checked={value.semester === s.id}
                 onChange={() => pickSemester(s.id)}
                 title={`${s.course} ${s.label}`}
-                detail={`${s.core.length} core subjects · ${s.groups.map((g) => (g.pick === 'one' ? g.label : `${g.pick} ${g.label.toLowerCase()}`)).join(', ')}`}
+                detail={`${s.core.length} core ${s.core.length === 1 ? 'subject' : 'subjects'} · ${s.groups.map((g) => (g.pick === 'one' ? g.label : `${g.pick} ${g.label.toLowerCase()}`)).join(', ')}`}
               />
             ))}
           </div>

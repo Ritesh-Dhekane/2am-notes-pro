@@ -18,12 +18,14 @@ import {
   Code2,
   Cpu,
   Database,
+  Factory,
   FileSearch,
   Globe,
   Coffee,
   FlaskConical,
   Lightbulb,
   KanbanSquare,
+  Landmark,
   ListTree,
   LockKeyhole,
   Palette,
@@ -35,18 +37,25 @@ import {
   ShieldCheck,
   ShieldHalf,
   ShoppingCart,
+  Stethoscope,
+  Store,
   Sigma,
   Sparkles,
   Smartphone,
+  Target,
+  Terminal,
   TestTubes,
   TrendingUp,
+  UserCog,
   Users,
   Webhook,
+  Wheat,
 } from 'lucide-react'
 
 export const COURSES = [
   { id: 'MCA', name: 'MCA', full: 'Master of Computer Applications' },
   { id: 'BCA', name: 'BCA', full: 'Bachelor of Computer Applications' },
+  { id: 'MBA', name: 'MBA', full: 'Master of Business Administration' },
 ]
 
 export const SEMESTERS = [
@@ -156,6 +165,33 @@ export const SEMESTERS = [
       },
     ],
   },
+  {
+    // Core only for now: Strategic Management plus the specialization's core course. The
+    // specialization electives (pick 4 from that specialization's list) come later.
+    id: 'MBA-Sem-III',
+    course: 'MBA',
+    number: 3,
+    label: 'Semester III',
+    short: 'Sem III',
+    core: ['strategic-management'],
+    groups: [
+      {
+        id: 'specialization',
+        label: 'Specialization',
+        hint: 'Pick your specialization to see its core course.',
+        pick: 'one',
+        options: [
+          'services-marketing',
+          'advanced-financial-management',
+          'strategic-human-resource-management',
+          'services-operations-management',
+          'mba-python',
+          'agriculture-and-indian-economy',
+          'fundamentals-of-pharma-and-healthcare-management',
+        ],
+      },
+    ],
+  },
 ]
 
 const SUBJECTS = {
@@ -212,6 +248,15 @@ const SUBJECTS = {
   'prompt-and-generative-ai': { name: 'Prompt & Generative AI', short: 'GenAI', code: 'CA-360', icon: Sparkles, tint: '#A855F7', about: 'Prompt design and working with generative AI models.' },
   'big-data-and-analytics': { name: 'Big Data & Analytics', short: 'Big Data', code: 'CA-362', icon: Database, tint: '#EAB308', about: 'Storing, processing and analysing large data sets.' },
   'bca-mobile-application-development': { name: 'Mobile Application Development', short: 'MAD', code: 'CA-364', icon: AppWindow, tint: '#22C55E', about: 'Building mobile apps: UI, data and publishing.' },
+  // MBA Semester III (core)
+  'strategic-management': { name: 'Strategic Management', short: 'SM', code: '301 GC-14', icon: Target, tint: '#6366F1', about: 'Core for every MBA specialization.' },
+  'services-marketing': { name: 'Services Marketing', short: 'Services Mktg', code: '302 SC MKT-01', icon: Store, tint: '#EC4899', about: 'Marketing specialization core.' },
+  'advanced-financial-management': { name: 'Advanced Financial Management', short: 'AFM', code: '302 SC FIN-01', icon: Landmark, tint: '#10B981', about: 'Finance specialization core.' },
+  'strategic-human-resource-management': { name: 'Strategic Human Resource Management', short: 'SHRM', code: '302 SC HRM-01', icon: UserCog, tint: '#F59E0B', about: 'HR specialization core.' },
+  'services-operations-management': { name: 'Services Operations Management', short: 'SOM', code: '302 SC OSCM-01', icon: Factory, tint: '#64748B', about: 'Operations & supply chain specialization core.' },
+  'mba-python': { name: 'Python', short: 'Python', code: '302 SC BA-01', icon: Terminal, tint: '#3B82F6', about: 'Business analytics specialization core.' },
+  'agriculture-and-indian-economy': { name: 'Agriculture and Indian Economy', short: 'Agri Economy', code: '302 SC ABM-01', icon: Wheat, tint: '#84CC16', about: 'Agri business specialization core.' },
+  'fundamentals-of-pharma-and-healthcare-management': { name: 'Fundamentals of Pharma and Healthcare Management', short: 'Pharma & Healthcare', code: '302 SC PHM-01', icon: Stethoscope, tint: '#06B6D4', about: 'Pharma & healthcare specialization core.' },
 }
 
 export function subjectInfo(slug) {
