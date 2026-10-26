@@ -4,7 +4,7 @@
 
 import { useSyncExternalStore } from 'react'
 import { callApi } from './api.js'
-import { isSetupComplete, semesterById } from './catalog.js'
+import { canonicalSemesterId, isSetupComplete, semesterById } from './catalog.js'
 
 const KEY = 'notes-pro.study'
 const EMPTY = { semester: null, electives: {}, updatedAt: null }
@@ -12,7 +12,10 @@ const EMPTY = { semester: null, electives: {}, updatedAt: null }
 function read() {
   try {
     const saved = JSON.parse(localStorage.getItem(KEY) || 'null')
-    if (saved && typeof saved === 'object') return { ...EMPTY, ...saved, electives: { ...(saved.electives || {}) } }
+    if (saved && typeof saved === 'object') {
+      const semester = saved.semester ? canonicalSemesterId(saved.semester) : null
+      return { ...EMPTY, ...saved, semester, electives: { ...(saved.electives || {}) } }
+    }
   } catch {
     // fall through
   }
@@ -31,7 +34,7 @@ function publish() {
 }
 
 function store(next) {
-  current = next
+  current = { ...next, semester: next.semester && canonicalSemesterId(next.semester) }
   try {
     localStorage.setItem(KEY, JSON.stringify(current))
   } catch {
@@ -63,6 +66,11 @@ export async function syncStudy(idToken) {
     } else if (!study && isSetupComplete(semesterById(local.semester), local.electives)) {
       // Chosen on this device before it was saved with the account: save it now.
       callApi('saveStudy', { idToken, study: local }).catch(() => {})
+    }
+    // Saved under a renamed semester's old id: store and save it under the current one.
+    if (study?.semester && canonicalSemesterId(study.semester) !== study.semester && current.semester) {
+      store(current)
+      callApi('saveStudy', { idToken, study: current }).catch(() => {})
     }
   } catch {
     // Backend unreachable or older: the choice on this device still works.
