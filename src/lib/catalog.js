@@ -50,12 +50,28 @@ import {
   Users,
   Webhook,
   Wheat,
+  Apple,
+  Beaker,
+  Briefcase,
+  ClipboardList,
+  Dna,
+  Droplets,
+  Flower2,
+  Hexagon,
+  Leaf,
+  Mountain,
+  Scale,
+  Sprout,
+  Sun,
+  Tractor,
+  TreeDeciduous,
 } from 'lucide-react'
 
 export const COURSES = [
   { id: 'MCA', name: 'MCA', full: 'Master of Computer Applications' },
   { id: 'BCA', name: 'BCA', full: 'Bachelor of Computer Applications' },
   { id: 'MBA', name: 'MBA', full: 'Master of Business Administration' },
+  { id: 'BSc', name: 'B.Sc.', full: 'Bachelor of Science' },
 ]
 
 export const SEMESTERS = [
@@ -245,6 +261,83 @@ export const SEMESTERS = [
       },
     ],
   },
+  {
+    // TY B.Sc. Botany (NEP 2020, from 2026-27). An elective brings its practical along (`with`).
+    id: 'BSc-Sem-V-Botany',
+    course: 'BSc',
+    number: 5,
+    label: 'Semester V (Botany)',
+    short: 'Sem V Botany',
+    core: [
+      'taxonomy-of-cryptogams',
+      'advanced-plant-physiology',
+      'plant-breeding-and-seed-technology',
+      'cell-and-molecular-biology',
+      'practical-cryptogams-and-plant-physiology',
+      'practical-plant-breeding-and-cell-biology',
+      'botany-field-project',
+    ],
+    groups: [
+      {
+        id: 'major-elective',
+        label: 'Major elective',
+        pick: 'one',
+        options: ['advances-in-agro-tourism', 'plants-utilization', 'computational-botany'],
+        with: {
+          'advances-in-agro-tourism': ['practical-agro-tourism'],
+          'plants-utilization': ['practical-plants-utilization'],
+          'computational-botany': ['practical-computational-botany'],
+        },
+      },
+      {
+        id: 'minor',
+        label: 'Minor',
+        pick: 'one',
+        options: ['vegetable-seed-production', 'nursery-management-landscape-designing-and-gardening', 'feed-and-fodder-production-technology'],
+      },
+      {
+        id: 'vocational',
+        label: 'Vocational skill course',
+        pick: 'one',
+        options: ['bot-intellectual-property-rights', 'stress-physiology-of-agricultural-crops', 'advanced-plant-biotechnology'],
+      },
+    ],
+  },
+  {
+    id: 'BSc-Sem-VI-Botany',
+    course: 'BSc',
+    number: 6,
+    label: 'Semester VI (Botany)',
+    short: 'Sem VI Botany',
+    core: [
+      'taxonomy-of-phanerogams',
+      'bot-genetics',
+      'plant-pathology-and-protection',
+      'bot-biochemistry',
+      'practical-phanerogams-and-genetics',
+      'practical-plant-pathology-and-biochemistry',
+      'botany-on-job-training',
+    ],
+    groups: [
+      {
+        id: 'major-elective',
+        label: 'Major elective',
+        pick: 'one',
+        options: ['phyto-clinical-techniques', 'agricultural-business-management', 'botany-in-apiculture-and-sericulture'],
+        with: {
+          'phyto-clinical-techniques': ['practical-phyto-clinical-techniques'],
+          'agricultural-business-management': ['practical-agricultural-business-management'],
+          'botany-in-apiculture-and-sericulture': ['practical-apiculture-and-sericulture'],
+        },
+      },
+      {
+        id: 'vocational',
+        label: 'Vocational skill course',
+        pick: 'one',
+        options: ['advances-in-fermentation-technology', 'commercial-mushroom-and-scp-production', 'millets-for-sustainable-human-welfare'],
+      },
+    ],
+  },
 ]
 
 const SUBJECTS = {
@@ -329,6 +422,43 @@ const SUBJECTS = {
   'predictive-analytics-and-machine-learning-using-python': { name: 'Predictive Analytics and Machine Learning using Python', short: 'Predictive ML', code: 'BA 665 SE-14', icon: BrainCircuit, tint: '#14B8A6', about: 'Business Analytics elective.' },
   'sports-analytics': { name: 'Sports Analytics', short: 'Sports', code: 'BA 666 SE-15', icon: BarChart3, tint: '#22C55E', about: 'Business Analytics elective.' },
   'business-applications-of-blockchain-technologies': { name: 'Business Applications of Blockchain Technologies', short: 'Blockchain', code: 'BA 667 SE-16', icon: Boxes, tint: '#84CC16', about: 'Business Analytics elective.' },
+  // TY B.Sc. Botany, Semester V
+  'taxonomy-of-cryptogams': { name: 'Taxonomy of Cryptogams', short: 'Cryptogams', code: 'BOT-301-MJ-T', icon: Leaf, tint: '#22C55E', about: 'Algae, fungi, bryophytes and pteridophytes: classification and life cycles.' },
+  'advanced-plant-physiology': { name: 'Advanced Plant Physiology', short: 'Plant Physiology', code: 'BOT-302-MJ-T', icon: Sun, tint: '#EAB308', about: 'Photosynthesis, respiration, nitrogen metabolism and plant growth regulators.' },
+  'plant-breeding-and-seed-technology': { name: 'Plant Breeding and Seed Technology', short: 'Breeding & Seeds', code: 'BOT-303-MJ-T', icon: Sprout, tint: '#84CC16', about: 'Breeding methods, seed production, testing and certification.' },
+  'cell-and-molecular-biology': { name: 'Cell and Molecular Biology', short: 'Cell & Molecular', code: 'BOT-304-MJ-T', icon: Dna, tint: '#8B5CF6', about: 'Cell organelles, DNA, RNA, replication, transcription and translation.' },
+  'practical-cryptogams-and-plant-physiology': { name: 'Practical: Cryptogams and Plant Physiology', short: 'Practical 305', code: 'BOT-305-MJ-P', icon: Microscope, tint: '#14B8A6', about: 'Practicals based on BOT-301 and BOT-302.' },
+  'practical-plant-breeding-and-cell-biology': { name: 'Practical: Plant Breeding and Cell Biology', short: 'Practical 306', code: 'BOT-306-MJ-P', icon: Microscope, tint: '#14B8A6', about: 'Practicals based on BOT-303 and BOT-304.' },
+  'advances-in-agro-tourism': { name: 'Advances in Agro-tourism', short: 'Agro-tourism', code: 'BOT-310-MJ-T', icon: Mountain, tint: '#F59E0B', about: 'Major elective, with its practical.' },
+  'plants-utilization': { name: 'Plants Utilization', short: 'Plants Utilization', code: 'BOT-311-MJ-T', icon: Apple, tint: '#F43F5E', about: 'Major elective, with its practical.' },
+  'computational-botany': { name: 'Computational Botany', short: 'Computational', code: 'BOT-312-MJ-T', icon: Cpu, tint: '#3B82F6', about: 'Major elective, with its practical.' },
+  'practical-agro-tourism': { name: 'Practical: Advances in Agro-tourism', short: 'Practical 313', code: 'BOT-313-MJ-P', icon: Microscope, tint: '#F59E0B', about: 'Practicals based on BOT-310.' },
+  'practical-plants-utilization': { name: 'Practical: Plants Utilization', short: 'Practical 314', code: 'BOT-314-MJ-P', icon: Microscope, tint: '#F43F5E', about: 'Practicals based on BOT-311.' },
+  'practical-computational-botany': { name: 'Practical: Computational Botany', short: 'Practical 315', code: 'BOT-315-MJ-P', icon: Microscope, tint: '#3B82F6', about: 'Practicals based on BOT-312.' },
+  'vegetable-seed-production': { name: 'Vegetable Seed Production', short: 'Vegetable Seeds', code: 'BOT-341-MN-T', icon: Sprout, tint: '#22C55E', about: 'Minor.' },
+  'nursery-management-landscape-designing-and-gardening': { name: 'Nursery Management, Landscape Designing and Gardening', short: 'Nursery & Gardening', code: 'BOT-342-MN-T', icon: Flower2, tint: '#EC4899', about: 'Minor.' },
+  'feed-and-fodder-production-technology': { name: 'Feed and Fodder Production Technology', short: 'Feed & Fodder', code: 'BOT-343-MN-T', icon: Wheat, tint: '#EAB308', about: 'Minor.' },
+  'bot-intellectual-property-rights': { name: 'Intellectual Property Rights (IPR)', short: 'IPR', code: 'BOT-321-VSC-T', icon: Scale, tint: '#6366F1', about: 'Vocational skill course.' },
+  'stress-physiology-of-agricultural-crops': { name: 'Stress Physiology of Agricultural Crops', short: 'Stress Physiology', code: 'BOT-322-VSC-P', icon: Droplets, tint: '#0EA5E9', about: 'Vocational skill course (practical).' },
+  'advanced-plant-biotechnology': { name: 'Advanced Plant Biotechnology', short: 'Plant Biotech', code: 'BOT-323-VSC-P', icon: TestTubes, tint: '#A855F7', about: 'Vocational skill course (practical).' },
+  'botany-field-project': { name: 'Field Project / Community Engagement', short: 'Field Project', code: 'BOT-331-FP', icon: ClipboardList, tint: '#64748B', about: 'Project guide: plan, report and viva.' },
+  // TY B.Sc. Botany, Semester VI
+  'taxonomy-of-phanerogams': { name: 'Taxonomy of Phanerogams', short: 'Phanerogams', code: 'BOT-351-MJ-T', icon: Flower2, tint: '#22C55E', about: 'Classification of flowering plants and important families.' },
+  'bot-genetics': { name: 'Genetics', short: 'Genetics', code: 'BOT-352-MJ-T', icon: Dna, tint: '#8B5CF6', about: 'Mendelian genetics, linkage, mutation and gene interaction.' },
+  'plant-pathology-and-protection': { name: 'Plant Pathology and Protection', short: 'Plant Pathology', code: 'BOT-353-MJ-T', icon: Bug, tint: '#EF4444', about: 'Plant diseases, their causes and control.' },
+  'bot-biochemistry': { name: 'Biochemistry', short: 'Biochemistry', code: 'BOT-354-MJ-T', icon: FlaskConical, tint: '#06B6D4', about: 'Biomolecules, enzymes and metabolism.' },
+  'practical-phanerogams-and-genetics': { name: 'Practical: Phanerogams and Genetics', short: 'Practical 355', code: 'BOT-355-MJ-P', icon: Microscope, tint: '#14B8A6', about: 'Practicals based on BOT-351 and BOT-352.' },
+  'practical-plant-pathology-and-biochemistry': { name: 'Practical: Plant Pathology and Biochemistry', short: 'Practical 356', code: 'BOT-356-MJ-P', icon: Microscope, tint: '#14B8A6', about: 'Practicals based on BOT-353 and BOT-354.' },
+  'phyto-clinical-techniques': { name: 'Phyto-clinical Techniques', short: 'Phyto-clinical', code: 'BOT-360-MJ-T', icon: Beaker, tint: '#0EA5E9', about: 'Major elective, with its practical.' },
+  'agricultural-business-management': { name: 'Agricultural Business Management', short: 'Agri Business', code: 'BOT-361-MJ-T', icon: Briefcase, tint: '#F59E0B', about: 'Major elective, with its practical.' },
+  'botany-in-apiculture-and-sericulture': { name: 'Botany in relation to Apiculture and Sericulture', short: 'Apiculture & Sericulture', code: 'BOT-362-MJ-T', icon: Hexagon, tint: '#EAB308', about: 'Major elective, with its practical.' },
+  'practical-phyto-clinical-techniques': { name: 'Practical: Phyto-clinical Techniques', short: 'Practical 363', code: 'BOT-363-MJ-P', icon: Microscope, tint: '#0EA5E9', about: 'Practicals based on BOT-360.' },
+  'practical-agricultural-business-management': { name: 'Practical: Agricultural Business Management', short: 'Practical 364', code: 'BOT-364-MJ-P', icon: Microscope, tint: '#F59E0B', about: 'Practicals based on BOT-361.' },
+  'practical-apiculture-and-sericulture': { name: 'Practical: Apiculture and Sericulture', short: 'Practical 365', code: 'BOT-365-MJ-P', icon: Microscope, tint: '#EAB308', about: 'Practicals based on BOT-362.' },
+  'advances-in-fermentation-technology': { name: 'Advances in Fermentation Technology', short: 'Fermentation', code: 'VSC-371-BOT-P', icon: Beaker, tint: '#A855F7', about: 'Vocational skill course (practical).' },
+  'commercial-mushroom-and-scp-production': { name: 'Commercial Mushroom and SCP Production', short: 'Mushroom & SCP', code: 'VSC-372-BOT-P', icon: TreeDeciduous, tint: '#84CC16', about: 'Vocational skill course (practical).' },
+  'millets-for-sustainable-human-welfare': { name: 'Millets for Sustainable Human Welfare', short: 'Millets', code: 'VSC-373-BOT-P', icon: Wheat, tint: '#F97316', about: 'Vocational skill course (practical).' },
+  'botany-on-job-training': { name: 'On Job Training (OJT) in Botany', short: 'OJT', code: 'BOT-381-OJT', icon: Tractor, tint: '#64748B', about: 'Training guide: plan, diary, report and viva.' },
 }
 
 export function subjectInfo(slug) {
@@ -360,22 +490,31 @@ export function chosenElectives(semester, electives = {}) {
   for (const group of semester.groups) {
     const value = electives[group.id]
     for (const slug of Array.isArray(value) ? value : value ? [value] : []) {
-      if (group.options.includes(slug)) chosen.add(slug)
+      if (!group.options.includes(slug)) continue
+      chosen.add(slug)
+      for (const extra of group.with?.[slug] ?? []) chosen.add(extra) // e.g. an elective's practical
     }
   }
   return chosen
 }
 
+// Every slug a group decides, each option followed by what comes with it.
+export function groupSlugs(group) {
+  return group.options.flatMap((slug) => [slug, ...(group.with?.[slug] ?? [])])
+}
+
 // For analytics and logs: "machine-learning-techniques,power-bi".
 export function electivesLabel(semester, electives) {
-  return semester ? [...chosenElectives(semester, electives)].sort().join(',') : ''
+  if (!semester) return ''
+  const picked = [...chosenElectives(semester, electives)].filter((slug) => semester.groups.some((g) => g.options.includes(slug)))
+  return picked.sort().join(',')
 }
 
 // Which subjects a student sees: the semester's core, the electives they picked, and any subject
 // folder the catalog doesn't know about yet.
 export function isSubjectVisible(semester, electives, slug) {
   if (!semester) return true
-  const grouped = semester.groups.some((g) => g.options.includes(slug))
+  const grouped = semester.groups.some((g) => groupSlugs(g).includes(slug))
   return !grouped || chosenElectives(semester, electives).has(slug)
 }
 
@@ -397,6 +536,6 @@ export function isSetupComplete(semester, electives = {}) {
 
 // Where a subject sits in its semester: 'Core', 'Elective IV', …
 export function subjectGroupLabel(semester, slug) {
-  const group = semester?.groups.find((g) => g.options.includes(slug))
+  const group = semester?.groups.find((g) => groupSlugs(g).includes(slug))
   return group ? group.label : 'Core'
 }
