@@ -9,7 +9,7 @@ import AnnouncementBanner from '../components/AnnouncementBanner.jsx'
 import SignInCard from '../components/SignInCard.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
 import { Logo, MadeBy, SubjectIcon } from '../components/ui.jsx'
-import { COURSES, SEMESTERS } from '../lib/catalog.js'
+import { COURSES, groupSlugs, SEMESTERS } from '../lib/catalog.js'
 import { loadCatalog } from '../lib/library.js'
 import { subjectLook } from '../lib/subjects.js'
 
@@ -38,7 +38,7 @@ function plural(n, word) {
 // Sections for one semester: core subjects, then each elective group, then anything the catalog
 // doesn't list yet. `found` maps slug → the backend's entry (with counts), when available.
 function sectionsFor(semester, found) {
-  const listed = new Set([...semester.core, ...semester.groups.flatMap((g) => g.options)])
+  const listed = new Set([...semester.core, ...semester.groups.flatMap(groupSlugs)])
   const extra = found ? [...found.keys()].filter((slug) => !listed.has(slug)) : []
   return [
     { id: 'core', label: 'Core subjects', slugs: [...semester.core, ...extra] },
@@ -46,7 +46,7 @@ function sectionsFor(semester, found) {
       id: g.id,
       label: g.label,
       note: g.pick === 'one' ? 'choose one' : `choose ${g.pick}`,
-      slugs: g.options,
+      slugs: groupSlugs(g),
     })),
   ]
 }

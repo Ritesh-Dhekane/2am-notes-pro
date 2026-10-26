@@ -46,14 +46,15 @@ function buildCatalog() {
 
 // ---------- Open preview: Unit 1 notes and a sample PYQ question, signed out ----------
 
-// Where a Unit 1 note sits (see assertFileUnderRoot): "<semester>/<subject>/notes/unit-01-….md".
-var PREVIEW_PATH = /^[^\/]+\/[^\/]+\/notes\/unit[\s_-]*0*1(?!\d)/i
+// Where a Unit 1 note sits (see assertFileUnderRoot): "<semester>/<subject>/notes/unit-01-….md", or
+// for a practical course its first practical, "…/notes/practical-01-….md".
+var PREVIEW_PATH = /^[^\/]+\/[^\/]+\/notes\/(unit|practical)[\s_-]*0*1(?!\d)/i
 
 function unitOneNotes(subjectFolder) {
   var notes = findChildFolder(subjectFolder, 'notes')
   if (!notes) return []
   return filesIn(notes).filter(function (file) {
-    return /^unit[\s_-]*0*1(?!\d)/i.test(file.name)
+    return /^(unit|practical)[\s_-]*0*1(?!\d)/i.test(file.name)
   })
 }
 

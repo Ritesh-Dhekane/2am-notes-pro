@@ -7,7 +7,7 @@ import { FolderX } from 'lucide-react'
 import { useState } from 'react'
 import Chips from '../../components/Chips.jsx'
 import { EmptyState, ErrorState, Skeleton } from '../../components/ui.jsx'
-import { canonicalSemesterId, semesterTitle, SEMESTERS } from '../../lib/catalog.js'
+import { canonicalSemesterId, groupSlugs, semesterTitle, SEMESTERS } from '../../lib/catalog.js'
 import { subjectLook } from '../../lib/subjects.js'
 import { semesterLabel, useAdmin } from './adminData.js'
 import { Panel, StatCard } from './bits.jsx'
@@ -38,7 +38,7 @@ function buildRows(driveSemesters) {
   const drive = new Map(driveSemesters.map((s) => [s.id, new Map(s.subjects.map((x) => [x.slug, x]))]))
   const rows = SEMESTERS.map((semester) => {
     const found = drive.get(semester.id) || new Map()
-    const known = [...semester.core.map((slug) => [slug, 'Core']), ...semester.groups.flatMap((g) => g.options.map((slug) => [slug, g.label]))]
+    const known = [...semester.core.map((slug) => [slug, 'Core']), ...semester.groups.flatMap((g) => groupSlugs(g).map((slug) => [slug, g.label]))]
     const subjects = known.map(([slug, group]) => check(slug, found.get(slug), group))
     for (const [slug, entry] of found) if (!known.some(([k]) => k === slug)) subjects.push(check(slug, entry, 'Not in the catalog'))
     return { id: semester.id, title: semesterTitle(semester), folder: drive.has(semester.id), subjects }

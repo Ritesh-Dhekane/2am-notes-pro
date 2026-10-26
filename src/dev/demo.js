@@ -220,6 +220,7 @@ const syllabusOnly = (slugs) =>
   slugs.map((slug) => ({ slug, name: slug, files: { notes: [], pyqs: [], references: [] }, syllabus: file('syllabus.pdf', { size: 120_000, days: 1 }) }))
 const MBA_SEM_III_2024 = syllabusOnly(['mba-python', 'advanced-statistical-methods', 'data-visualization-and-storytelling', 'ba-marketing-analytics', 'financial-analytics', 'workforce-analytics', 'big-data-analytics', 'supply-and-operations-chain-analytics', 'marketing-intelligence'])
 const MBA_SEM_IV_2024 = syllabusOnly(['data-mining', 'time-series-analysis-and-forecasting', 'generative-ai-for-business-applications', 'sports-analytics'])
+const BSC_SEM_V_BOTANY = syllabusOnly(['cell-and-molecular-biology', 'advanced-plant-physiology', 'practical-cryptogams-and-plant-physiology', 'plants-utilization', 'practical-plants-utilization', 'computational-botany', 'practical-computational-botany', 'vegetable-seed-production', 'bot-intellectual-property-rights', 'botany-field-project'])
 
 // MBA Sem III keeps its old Drive name here, so the app's fallback to a renamed semester's old id is exercised.
 const SEMESTERS = {
@@ -231,6 +232,7 @@ const SEMESTERS = {
   'MBA-Sem-III': MBA_SEM_III,
   'MBA-Sem-III-2024': MBA_SEM_III_2024,
   'MBA-Sem-IV-2024': MBA_SEM_IV_2024,
+  'BSc-Sem-V-Botany': BSC_SEM_V_BOTANY,
 }
 
 const FIXTURES = {

@@ -302,7 +302,7 @@ function adminExport(user) {
 
 var TIMELINE_PAGE = 50
 var STUDENT_LOG_ROWS = 2000 // newest rows read per student, for the timeline and counts
-var UNIT_ONE_PATH = /\/notes\/unit[\s_-]*0*1(?!\d)/i
+var UNIT_ONE_PATH = /\/notes\/(unit|practical)[\s_-]*0*1(?!\d)/i
 
 // params: { email, page }. Their Students row and log rows (newest first, 50 a page), opens per
 // subject, and whether they only ever opened Unit 1 notes.
