@@ -7,7 +7,7 @@ import { FolderX } from 'lucide-react'
 import { useState } from 'react'
 import Chips from '../../components/Chips.jsx'
 import { EmptyState, ErrorState, Skeleton } from '../../components/ui.jsx'
-import { semesterTitle, SEMESTERS } from '../../lib/catalog.js'
+import { canonicalSemesterId, semesterTitle, SEMESTERS } from '../../lib/catalog.js'
 import { subjectLook } from '../../lib/subjects.js'
 import { semesterLabel, useAdmin } from './adminData.js'
 import { Panel, StatCard } from './bits.jsx'
@@ -34,6 +34,7 @@ const hasGap = (s) => !s.folder || !s.notes || s.missing.length > 0
 
 // [{ id, title, subjects }] for the catalog's semesters, then Drive semesters it doesn't know.
 function buildRows(driveSemesters) {
+  driveSemesters = driveSemesters.map((s) => ({ ...s, id: canonicalSemesterId(s.id) }))
   const drive = new Map(driveSemesters.map((s) => [s.id, new Map(s.subjects.map((x) => [x.slug, x]))]))
   const rows = SEMESTERS.map((semester) => {
     const found = drive.get(semester.id) || new Map()
