@@ -54,19 +54,24 @@ function sectionsFor(semester, found) {
 function SubjectTile({ slug, entry, onSignIn }) {
   const look = subjectLook(slug, entry?.name || slug)
   const counts = entry?.counts
-  const detail = entry?.comingSoon
-    ? 'Coming soon'
-    : counts
+  const files = counts
     ? [
         counts.notes && plural(counts.notes, 'note'),
         counts.pyqs && plural(counts.pyqs, 'PYQ'),
         counts.assignments && plural(counts.assignments, 'assignment'),
         counts.references && plural(counts.references, 'reference'),
-        entry.hasSyllabus && 'syllabus',
-      ]
-        .filter(Boolean)
-        .join(' · ') || 'Coming soon'
-    : look.about
+      ].filter(Boolean)
+    : []
+  // A subject with only its syllabus so far reads as "notes coming soon".
+  const detail = entry?.comingSoon
+    ? 'Coming soon'
+    : !counts
+    ? look.about
+    : files.length
+    ? [...files, entry.hasSyllabus && 'syllabus'].filter(Boolean).join(' · ')
+    : entry.hasSyllabus
+    ? 'Syllabus · notes coming soon'
+    : 'Coming soon'
   const free = entry?.unit1?.[0] || entry?.free?.[0] // Unit 1, else another free preview
   const freeLabel = entry?.unit1?.length ? 'Unit 1 free' : 'Free preview'
   if (free) {
@@ -170,7 +175,7 @@ export default function Welcome({ onSignedIn }) {
         <div className="text-center lg:col-start-1 lg:row-start-1 lg:text-left">
           <Logo className="mx-auto mb-5 size-16 lg:hidden" />
           <h1 className="text-[34px] leading-[42px] font-bold tracking-tight lg:text-[44px] lg:leading-[52px]">
-            Your MCA or BCA semester, organised for late-night study.
+            Your MCA, BCA or MBA semester, organised for late-night study.
           </h1>
           <p className="mt-3 text-[17px] leading-7 text-ink-2">
             Notes, previous-year papers, syllabus and references for every subject, in one quiet place.
@@ -295,7 +300,7 @@ export default function Welcome({ onSignedIn }) {
       </main>
 
       <footer className="border-t border-line py-6 text-center text-caption text-ink-3">
-        MCA · BCA · Savitribai Phule Pune University · Made for late-night learners
+        MCA · BCA · MBA · Savitribai Phule Pune University · Made for late-night learners
         <MadeBy className="mt-1.5" />
       </footer>
     </div>

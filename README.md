@@ -8,7 +8,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06b6d4?logo=tailwindcss&logoColor=white)
 ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285f4?logo=googleappsscript&logoColor=white)
 
-A private study portal for MCA and BCA students (Savitribai Phule Pune University): subject-wise notes, previous-year papers (PYQs) and references, stored in Google Drive and opened only after Google sign-in.
+A private study portal for MCA, BCA and MBA students (Savitribai Phule Pune University): subject-wise notes, previous-year papers (PYQs) and references, stored in Google Drive and opened only after Google sign-in.
 
 ## Features
 - **Sign-in flow**: visitors see every semester's subjects with their note and paper counts, locked. After Google sign-in, students pick their semester and electives (changeable in Settings), and only those subjects appear.

@@ -27,7 +27,11 @@ export default function SubjectCard({ subject }) {
         <span className="min-w-0 flex-1">
           <span className="block text-heading group-hover:text-primary-ink">{subject.name}</span>
           <span className="mt-0.5 block font-mono text-caption text-ink-3">
-            {subject.unitCount > 0 ? `${subject.unitCount} ${subject.unitCount === 1 ? 'unit' : 'units'}` : 'No units yet'}
+            {subject.unitCount > 0
+              ? `${subject.unitCount} ${subject.unitCount === 1 ? 'unit' : 'units'}`
+              : subject.syllabus
+              ? 'Syllabus ready · notes coming soon'
+              : 'Notes coming soon'}
           </span>
         </span>
         {newCount > 0 && (

@@ -34,7 +34,7 @@ export default function Privacy() {
         <h1 className="text-[32px] leading-10 font-bold tracking-tight">Privacy policy</h1>
         <p className="mt-2 text-label text-ink-3">Last updated {UPDATED}</p>
         <p className="mt-4 text-body leading-7 text-ink-2">
-          2AM Notes Pro is a free study portal for MCA and BCA students, run by Ritesh Dhekane. This page explains what the
+          2AM Notes Pro is a free study portal for MCA, BCA and MBA students, run by Ritesh Dhekane. This page explains what the
           app collects, why, and what stays on your own device.
         </p>
 
@@ -62,7 +62,7 @@ export default function Privacy() {
               size, whether the app is installed, language and time zone
             </li>
           </ul>
-          <p>It is used to see which notes help, to fix problems, and to keep the portal for its MCA and BCA students only.</p>
+          <p>It is used to see which notes help, to fix problems, and to keep the portal for its MCA, BCA and MBA students only.</p>
           <p>
             Only the portal&apos;s owner can see a student&apos;s activity in this log, and uses it to help that student when
             something goes wrong and to stop misuse, such as a shared account.

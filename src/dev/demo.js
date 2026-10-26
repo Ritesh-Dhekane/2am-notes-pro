@@ -208,7 +208,14 @@ const SEM_I = [
   { slug: 'research-methodology-2025', name: 'Research Methodology 2025', files: { notes: [], pyqs: [], references: [] } },
 ]
 
-const SEMESTERS = { 'MCA-Sem-I': SEM_I, 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [] }
+// MBA: core only, no notes yet.
+const MBA_SEM_III = [
+  { slug: 'strategic-management', name: 'Strategic Management', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'services-marketing', name: 'Services Marketing', files: { notes: [], pyqs: [], references: [] } },
+  { slug: 'mba-python', name: 'Mba Python', files: { notes: [], pyqs: [], references: [] } },
+]
+
+const SEMESTERS = { 'MCA-Sem-I': SEM_I, 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [], 'MBA-Sem-III': MBA_SEM_III }
 
 const FIXTURES = {
   'sep-2025-unit-test-1.jpg': sampleJpg,
