@@ -11,7 +11,7 @@
 
 import { callApi } from './api.js'
 import { clearSaved, getSaved, save } from './offline.js'
-import { isSubjectVisible, semesterById } from './catalog.js'
+import { canonicalSemesterId, isSubjectVisible, semesterById } from './catalog.js'
 import { CATEGORIES, describeFile } from './files.js'
 import { subjectLook } from './subjects.js'
 
@@ -19,15 +19,26 @@ import { subjectLook } from './subjects.js'
 let catalogRequest = null
 export function loadCatalog() {
   if (!catalogRequest) {
-    catalogRequest = callApi('catalog', {}, { public: true }).then((data) => data.semesters)
+    catalogRequest = callApi('catalog', {}, { public: true }).then((data) =>
+      data.semesters.map((s) => ({ ...s, id: canonicalSemesterId(s.id) })),
+    )
     catalogRequest.catch(() => (catalogRequest = null))
   }
   return catalogRequest
 }
 
+// A renamed semester is asked for by its current id first, then by its old folder names (until
+// the Drive folder is renamed too).
 export async function loadRawLibrary(idToken, semesterId) {
-  const data = await callApi('listLibrary', { idToken, semester: semesterId })
-  return data.subjects
+  const ids = [semesterId, ...(semesterById(semesterId)?.aliases ?? [])]
+  for (const [i, semester] of ids.entries()) {
+    try {
+      const data = await callApi('listLibrary', { idToken, semester })
+      return data.subjects
+    } catch (err) {
+      if (err.message !== 'semester_not_found' || i === ids.length - 1) throw err
+    }
+  }
 }
 
 // Builds the library from the backend's subjects, keeping only those this student sees (the
