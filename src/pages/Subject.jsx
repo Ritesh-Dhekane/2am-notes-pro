@@ -191,8 +191,16 @@ function SubjectBody({ library }) {
           </label>
 
           {nothing &&
-            (subject.comingSoon && !words.length ? (
-              <EmptyState icon={Library} title="Coming soon" text="The notes for this subject are on their way. Check back soon." />
+            ((subject.comingSoon || counts.all === 0) && !words.length ? (
+              <EmptyState
+                icon={Library}
+                title="Notes coming soon"
+                text={
+                  subject.syllabus && !subject.comingSoon
+                    ? 'The syllabus is ready: open it above. Notes for this subject are on their way.'
+                    : 'The notes for this subject are on their way. Check back soon.'
+                }
+              />
             ) : (
               <EmptyState
                 icon={Library}
