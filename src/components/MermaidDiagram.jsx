@@ -1,6 +1,6 @@
 // A ```mermaid block drawn as a diagram. Mermaid is large, so it is loaded only when a page has one.
 // If the diagram can't be drawn, the source is shown as code instead.
-// Phones: left-to-right flowcharts may be turned top-to-bottom (whichever is narrower); a diagram a little too wide is shrunk to fit;
+// Phones: left-to-right flowcharts may be turned top-to-bottom (whichever is shortest on screen); a diagram a little too wide is shrunk to fit;
 // one much too wide scrolls sideways and gets an Expand button (full screen, with zoom).
 
 import { Maximize2, Minus, Plus, X } from 'lucide-react'
@@ -21,17 +21,18 @@ function appColours() {
   const css = getComputedStyle(document.documentElement)
   const v = (name) => css.getPropertyValue(name).trim()
   return {
+    // Nodes are filled with --c-surface so they stand out on the figure's --c-surface-2 background.
     background: v('--c-canvas'),
-    primaryColor: v('--c-surface-2'),
+    primaryColor: v('--c-surface'),
     primaryBorderColor: v('--c-primary'),
     primaryTextColor: v('--c-ink'),
     secondaryColor: v('--c-surface'),
     tertiaryColor: v('--c-surface'),
     lineColor: v('--c-ink-2'),
     textColor: v('--c-ink'),
-    mainBkg: v('--c-surface-2'),
+    mainBkg: v('--c-surface'),
     nodeBorder: v('--c-primary'),
-    clusterBkg: v('--c-surface'),
+    clusterBkg: v('--c-canvas'),
     edgeLabelBackground: v('--c-surface'),
     // The UI font (not the serif reading font), so Mermaid measures labels with the font it draws them in.
     fontFamily: v('--font-sans') || 'system-ui, sans-serif',
@@ -43,22 +44,39 @@ const PHONE_QUERY = '(max-width: 640px)'
 const MIN_SCALE = 0.75 // shrink no further than this, or labels get too small to read
 
 // Mermaid sizes the SVG to its container (width="100%"); use its natural width instead, so a wide diagram
-// isn't squeezed into unreadable text. Returns the SVG and that width.
+// isn't squeezed into unreadable text. Returns the SVG and its natural size.
 function naturalSize(svg) {
-  const box = svg.match(/viewBox="[\d.-]+ [\d.-]+ ([\d.]+) [\d.]+"/)
-  if (!box) return { svg, width: 0 }
+  const box = svg.match(/viewBox="[\d.-]+ [\d.-]+ ([\d.]+) ([\d.]+)"/)
+  if (!box) return { svg, width: 0, height: 0 }
   const width = Math.ceil(Number(box[1]))
   return {
     svg: svg.replace(/ width="100%"/, ` width="${width}"`).replace(/style="max-width: [\d.]+px;?"/, 'style="max-width: none;"'),
     width,
+    height: Math.ceil(Number(box[2])),
   }
 }
 
-// On phones a left-to-right flowchart may fit better top-to-bottom (a long chain does; a hub with many
-// spokes doesn't), so both are drawn and the narrower one is kept.
+// Of the drawn versions, the one that fits the box (shrunk at most to MIN_SCALE) and is shortest on screen;
+// if none fits, the narrowest. Turning a chain top-to-bottom only when it must avoids very tall diagrams.
+function pickVersion(versions, boxWidth) {
+  const fitting = versions.filter((v) => !boxWidth || v.width * MIN_SCALE <= boxWidth)
+  const shown = (v) => v.height * Math.min(1, boxWidth ? boxWidth / v.width : 1)
+  if (fitting.length) return fitting.reduce((a, b) => (shown(b) < shown(a) ? b : a))
+  return versions.reduce((a, b) => (b.width < a.width ? b : a))
+}
+
+// On phones a left-to-right flowchart may fit better top-to-bottom (a long chain that is too wide does;
+// a hub with many spokes doesn't), so both are drawn and pickVersion chooses.
 function versionsFor(code, phone) {
   const turned = code.replace(/^(\s*(?:flowchart|graph))\s+(LR|RL)\b/m, '$1 TD')
   return phone && turned !== code ? [code, turned] : [code]
+}
+
+// Phones: dagre layout (Mermaid 12's default ELK ignores spacing) with tighter gaps and labels on one line
+// up to 220px, so a turned chain is about a quarter shorter. Desktop keeps Mermaid's defaults.
+const LAYOUT = {
+  phone: { layout: 'dagre', flowchart: { nodeSpacing: 24, rankSpacing: 24, padding: 8, wrappingWidth: 220 } },
+  wide: { layout: 'elk', flowchart: { nodeSpacing: 50, rankSpacing: 50, padding: 15, wrappingWidth: 120 } },
 }
 
 function usePhone() {
@@ -113,7 +131,7 @@ export default function MermaidDiagram({ code }) {
   const { theme } = usePrefs()
   const phone = usePhone()
   const id = `mermaid-${useId().replace(/[^a-zA-Z0-9]/g, '')}`
-  const [drawn, setDrawn] = useState(null) // { svg, width }
+  const [versions, setVersions] = useState(null) // [{ svg, width, height }]
   const [failed, setFailed] = useState(false)
   const [expanded, setExpanded] = useState(false)
   const figure = useRef(null)
@@ -139,13 +157,13 @@ export default function MermaidDiagram({ code }) {
           darkMode: !LIGHT_THEMES.has(theme),
           themeVariables: appColours(),
           fontFamily: appColours().fontFamily,
+          ...LAYOUT[phone ? 'phone' : 'wide'],
         })
-        let best = null
+        const drawnVersions = []
         for (const [i, version] of versionsFor(code, phone).entries()) {
-          const drawnVersion = naturalSize((await mermaid.render(`${id}v${i}`, version)).svg)
-          if (!best || drawnVersion.width < best.width) best = drawnVersion
+          drawnVersions.push(naturalSize((await mermaid.render(`${id}v${i}`, version)).svg))
         }
-        if (!cancelled) setDrawn(best)
+        if (!cancelled) setVersions(drawnVersions)
       })
       .catch(() => !cancelled && setFailed(true))
     return () => {
@@ -154,6 +172,7 @@ export default function MermaidDiagram({ code }) {
   }, [code, id, theme, phone])
 
   if (failed) return <CodeBlock code={code} language="mermaid" />
+  const drawn = versions && pickVersion(versions, boxWidth)
   const tooWide = drawn && boxWidth > 0 && drawn.width > boxWidth
   const fits = tooWide && boxWidth / drawn.width >= MIN_SCALE // only a little too wide: shrink to fit
   return (
