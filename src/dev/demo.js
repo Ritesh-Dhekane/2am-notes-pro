@@ -215,7 +215,23 @@ const MBA_SEM_III = [
   { slug: 'mba-python', name: 'Mba Python', files: { notes: [], pyqs: [], references: [] } },
 ]
 
-const SEMESTERS = { 'MCA-Sem-I': SEM_I, 'MCA-Sem-II': SEM_II, 'MCA-Sem-III': SEM_III, 'BCA-Sem-V': BCA_SEM_V, 'BCA-Sem-VI': [], 'MBA-Sem-III': MBA_SEM_III }
+// Syllabus-only subjects, like the 2024-pattern Business Analytics folders in Drive.
+const syllabusOnly = (slugs) =>
+  slugs.map((slug) => ({ slug, name: slug, files: { notes: [], pyqs: [], references: [] }, syllabus: file('syllabus.pdf', { size: 120_000, days: 1 }) }))
+const MBA_SEM_III_2024 = syllabusOnly(['mba-python', 'advanced-statistical-methods', 'data-visualization-and-storytelling', 'ba-marketing-analytics', 'financial-analytics', 'workforce-analytics', 'big-data-analytics', 'supply-and-operations-chain-analytics', 'marketing-intelligence'])
+const MBA_SEM_IV_2024 = syllabusOnly(['data-mining', 'time-series-analysis-and-forecasting', 'generative-ai-for-business-applications', 'sports-analytics'])
+
+// MBA Sem III keeps its old Drive name here, so the app's fallback to a renamed semester's old id is exercised.
+const SEMESTERS = {
+  'MCA-Sem-I': SEM_I,
+  'MCA-Sem-II': SEM_II,
+  'MCA-Sem-III': SEM_III,
+  'BCA-Sem-V': BCA_SEM_V,
+  'BCA-Sem-VI': [],
+  'MBA-Sem-III': MBA_SEM_III,
+  'MBA-Sem-III-2024': MBA_SEM_III_2024,
+  'MBA-Sem-IV-2024': MBA_SEM_IV_2024,
+}
 
 const FIXTURES = {
   'sep-2025-unit-test-1.jpg': sampleJpg,
