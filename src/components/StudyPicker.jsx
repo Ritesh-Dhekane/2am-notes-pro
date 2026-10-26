@@ -147,7 +147,7 @@ export default function StudyPicker({ value, onChange }) {
                         checked={checked}
                         onChange={() => pick(group, slug)}
                         title={look.name}
-                        detail={look.code}
+                        detail={group.with?.[slug] ? `${look.code} · with its practical` : look.code}
                         look={look}
                         disabled={full && !checked}
                       />
