@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect } from 'react'
-import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom'
 import Shell from './components/Shell.jsx'
 import { useAuth } from './context/useAuth.js'
 import { trackPageView } from './lib/analytics.js'
@@ -19,6 +19,16 @@ const Profile = lazy(() => import('./pages/Profile.jsx'))
 const Setup = lazy(() => import('./pages/Setup.jsx'))
 const Preview = lazy(() => import('./pages/Preview.jsx'))
 const Privacy = lazy(() => import('./pages/Privacy.jsx'))
+const Syllabus = lazy(() => import('./pages/Syllabus.jsx'))
+const SyllabusView = lazy(() => import('./pages/SyllabusView.jsx'))
+const SyllabusProgramme = lazy(() => import('./pages/SyllabusProgramme.jsx'))
+
+// A course family's page (/syllabus/f/<slug>/, pre-rendered for search engines) opens it in the finder.
+function SyllabusFamily() {
+  const { family } = useParams()
+  return <Navigate to={`/syllabus?mode=find&path=${encodeURIComponent(family)}`} replace />
+}
+const Admin = lazy(() => import('./pages/admin/Admin.jsx'))
 
 // Signed-out visitors see what's on offer and sign in there, then go back to where they were going.
 function RequireAuth({ children }) {
@@ -37,6 +47,13 @@ function RequireSetup({ children }) {
   if (!complete && syncedToken !== user?.idToken) return <PageLoading />
   if (!complete) return <Navigate to="/setup" replace state={{ from: location.pathname + location.search }} />
   return children
+}
+
+// Admin pages: anyone else gets the ordinary "page doesn't exist".
+function RequireAdmin({ children }) {
+  const { isAdmin } = useAuth()
+  if (isAdmin === null) return <PageLoading />
+  return isAdmin ? children : <NotFound />
 }
 
 function Home() {
@@ -62,6 +79,10 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/preview/:subjectId/:fileId" element={<Preview />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/syllabus" element={<Syllabus />} />
+        <Route path="/syllabus/p/:slug" element={<SyllabusProgramme />} />
+        <Route path="/syllabus/f/:family" element={<SyllabusFamily />} />
+        <Route path="/syllabus/:id" element={<SyllabusView />} />
         {!user && <Route path="/" element={<Welcome />} />}
         <Route
           path="/setup"
@@ -88,6 +109,14 @@ export default function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/profile" element={<Profile />} />
+          <Route
+            path="/admin/*"
+            element={
+              <RequireAdmin>
+                <Admin />
+              </RequireAdmin>
+            }
+          />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

@@ -8,6 +8,7 @@ import {
   GraduationCap,
   LogOut,
   Palette,
+  Phone,
   Play,
   RotateCcw,
   Share,
@@ -17,11 +18,14 @@ import {
 } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import BirthdayField from '../components/BirthdayField.jsx'
+import PhoneField from '../components/PhoneField.jsx'
 import { SettingsSection, Segmented, Switch } from '../components/Settings.jsx'
 import StudyPicker from '../components/StudyPicker.jsx'
 import { Avatar, Card } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { useLibrary } from '../context/libraryContext.js'
+import { callApi } from '../lib/api.js'
 import { isDemo } from '../lib/demoMode.js'
 import { promptInstall, useInstallState } from '../lib/install.js'
 import { englishVoices, pickVoice, speechSupported, useVoices } from '../lib/narrator.js'
@@ -39,6 +43,8 @@ import {
 import { useBookmarks, useHistory } from '../lib/store.js'
 import { trackEvent } from '../lib/analytics.js'
 import { electivesLabel, isSetupComplete, semesterById } from '../lib/catalog.js'
+import { checkBirthday } from '../lib/birthday.js'
+import { normalizePhone } from '../lib/phone.js'
 import { setStudy, useStudy } from '../lib/study.js'
 
 const SPACING_NAMES = { 1.6: 'Compact', 1.75: 'Cozy', 2: 'Relaxed' }
@@ -119,6 +125,81 @@ function Study() {
         </button>
         <p className="text-label text-ink-2" aria-live="polite">
           {saved ? 'Saved.' : changed && !ready ? 'Finish choosing your electives.' : ''}
+        </p>
+      </div>
+    </SettingsSection>
+  )
+}
+
+// Optional phone number and birthday, saved with the account (the Students tab), not on this device.
+function Contact() {
+  const { user } = useAuth()
+  const idToken = user?.idToken
+  const [saved, setSaved] = useState(null) // { phone, birthday } on the server; null until it has loaded
+  const [phone, setPhone] = useState('')
+  const [birthday, setBirthday] = useState('')
+  const [check, setCheck] = useState(false)
+  const [status, setStatus] = useState('')
+
+  useEffect(() => {
+    if (!idToken) return
+    let cancelled = false
+    callApi('getProfile', { idToken })
+      .then(({ profile }) => {
+        if (cancelled) return
+        setSaved({ phone: profile?.phone || '', birthday: profile?.birthday || '' })
+        setPhone(profile?.phone || '')
+        setBirthday(profile?.birthday || '')
+      })
+      .catch(() => !cancelled && setSaved({ phone: '', birthday: '' }))
+    return () => {
+      cancelled = true
+    }
+  }, [idToken])
+
+  async function save() {
+    const number = normalizePhone(phone)
+    const day = checkBirthday(birthday)
+    setCheck(true)
+    if (number.error || day.error) return
+    setStatus('Saving…')
+    try {
+      const { profile } = await callApi('saveProfile', { idToken, phone: number.phone, birthday: day.birthday })
+      setSaved({ phone: profile.phone, birthday: profile.birthday || '' })
+      setPhone(profile.phone)
+      setBirthday(profile.birthday || '')
+      setStatus('Saved.')
+    } catch {
+      setStatus("Couldn't save. Please try again.")
+    }
+  }
+
+  return (
+    <SettingsSection icon={Phone} title="Contact" description="Saved with your account, not on this device.">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <PhoneField
+          value={phone}
+          onChange={(value) => {
+            setPhone(value)
+            setStatus('')
+          }}
+          showError={check}
+        />
+        <BirthdayField
+          value={birthday}
+          onChange={(value) => {
+            setBirthday(value)
+            setStatus('')
+          }}
+          showError={check}
+        />
+      </div>
+      <div className="flex flex-wrap items-center gap-3">
+        <button type="button" className="btn-primary" disabled={saved === null || (phone === saved.phone && birthday === saved.birthday)} onClick={save}>
+          <Check className="size-4" aria-hidden="true" /> Save
+        </button>
+        <p className="text-label text-ink-2" aria-live="polite">
+          {saved === null ? 'Loading…' : status}
         </p>
       </div>
     </SettingsSection>
@@ -350,6 +431,7 @@ export default function Profile() {
         </div>
         <div className="flex min-w-0 flex-col gap-5 lg:col-start-2 lg:row-span-2 lg:row-start-1">
           <Study />
+          <Contact />
           <Appearance />
           <Reading />
           <Audio />

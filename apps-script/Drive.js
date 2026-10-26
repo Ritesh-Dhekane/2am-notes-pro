@@ -4,8 +4,8 @@
 //   <root>/<semester>/subjects/<subject-slug>/{notes,pyqs,assignments,references}/<files>
 //   <root>/<semester>/subjects/<subject-slug>/syllabus.pdf   (optional, at the subject root)
 // A semester is any folder under the root that has a `subjects` folder; its name (e.g. MCA-Sem-III)
-// is the semester id the app uses. A subject folder's name is its slug. Files are never exposed via
-// Drive links; content is always proxied through this script after the caller is verified.
+// is the semester id the app uses; other folders (like _syllabus, Syllabus.js) are ignored. A
+// subject folder's name is its slug. Files are never exposed via Drive links; content is always proxied through this script after the caller is verified.
 
 var ALLOWED_CATEGORIES = ['notes', 'pyqs', 'assignments', 'references']
 var SYLLABUS_NAME = /^syllabus\.[a-z0-9]+$/i
@@ -102,8 +102,14 @@ function samplePyq(subjectFolder) {
 
 // ---------- One semester's library (signed-in only) ----------
 
-function listLibrary(semesterId) {
+// With the visibility rules applied (Visibility.js); admins also get hidden items, marked.
+function listLibrary(semesterId, admin) {
   if (!semesterId) throw new Error('missing_semester')
+  if (!admin && isHiddenPath(getVisibility(), semesterId)) throw new Error('semester_not_found')
+  return visibleLibrary(semesterId, rawLibrary(semesterId), admin)
+}
+
+function rawLibrary(semesterId) {
   return cached('library:' + semesterId, function () {
     return buildLibrary(findSemester(semesterId))
   })
@@ -126,8 +132,9 @@ function buildLibrary(semester) {
   })
 }
 
-// previewOnly: signed-out callers may only open Unit 1 notes.
-function getFile(fileId, previewOnly) {
+// previewOnly: signed-out callers may only open Unit 1 notes and the free previews an admin picked.
+// Hidden and coming-soon files are refused unless `admin` (Visibility.js).
+function getFile(fileId, previewOnly, admin) {
   if (!fileId) throw new Error('missing_file_id')
   var file
   try {
@@ -136,7 +143,8 @@ function getFile(fileId, previewOnly) {
     throw new Error('file_not_accessible')
   }
   var where = assertFileUnderRoot(file)
-  if (previewOnly && !PREVIEW_PATH.test(where)) throw new Error('sign_in_required')
+  assertVisible(where, file.getId(), admin)
+  if (previewOnly && !isFreePreview(where, file.getId())) throw new Error('sign_in_required')
 
   var mimeType = file.getMimeType()
   var isText = mimeType === MimeType.PLAIN_TEXT || /markdown/.test(mimeType) || /\.(md|markdown|txt)$/i.test(file.getName())
@@ -166,7 +174,7 @@ function getFile(fileId, previewOnly) {
 // `images` folder beside it (kept out of file lists). Only plain image names are accepted.
 var ASSET_PATH = /^(images\/)?[\w.\- ]{1,120}\.(png|jpe?g|gif|webp|svg)$/i
 
-function getAsset(noteId, assetPath, previewOnly) {
+function getAsset(noteId, assetPath, previewOnly, admin) {
   if (!noteId || !assetPath) throw new Error('missing_asset')
   assetPath = String(assetPath).replace(/^\.\//, '')
   if (!ASSET_PATH.test(assetPath) || assetPath.indexOf('..') !== -1) throw new Error('file_not_accessible')
@@ -177,7 +185,8 @@ function getAsset(noteId, assetPath, previewOnly) {
     throw new Error('file_not_accessible')
   }
   var notePath = assertFileUnderRoot(note)
-  if (previewOnly && !PREVIEW_PATH.test(notePath)) throw new Error('sign_in_required')
+  assertVisible(notePath, note.getId(), admin)
+  if (previewOnly && !isFreePreview(notePath, note.getId())) throw new Error('sign_in_required')
   var parents = note.getParents()
   if (!parents.hasNext()) throw new Error('file_not_accessible')
   var folder = parents.next()
@@ -342,12 +351,13 @@ function store(key, value) {
 }
 
 // Rebuilds every listing. Run it from the editor after adding or renaming files; the hourly trigger
-// runs it too.
+// runs it too. When it last finished is kept in the Script Property CACHE_REFRESHED_AT (/admin/health).
 function refreshCaches() {
   store('catalog', buildCatalog())
   listSemesterFolders().forEach(function (semester) {
     store('library:' + semester.id, buildLibrary(semester))
   })
+  PropertiesService.getScriptProperties().setProperty('CACHE_REFRESHED_AT', new Date().toISOString())
 }
 
 // Run once from the editor: refreshes the caches every hour (and right now).

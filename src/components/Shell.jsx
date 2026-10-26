@@ -1,12 +1,14 @@
 // The signed-in frame: left sidebar + top bar on desktop, top bar + bottom tabs on phones.
 
-import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, Search, Sparkles, Sun, Sunset, User, X } from 'lucide-react'
+import { Bookmark, Check, ChevronDown, FileQuestion, Home, LayoutGrid, LogOut, Moon, MoonStar, ScrollText, Search, ShieldUser, Sparkles, Sun, Sunset, User, X } from 'lucide-react'
 import { createElement, useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { useLibrary } from '../context/libraryContext.js'
+import { useStudy } from '../lib/study.js'
 import { useBookmarks } from '../lib/store.js'
 import { setPrefs, THEMES, usePrefs } from '../lib/prefs.js'
+import AnnouncementBanner from './AnnouncementBanner.jsx'
 import { Avatar, Logo, MadeBy } from './ui.jsx'
 
 const SIDEBAR = [
@@ -15,8 +17,12 @@ const SIDEBAR = [
   { to: '/pyqs', label: 'PYQ Archive', icon: FileQuestion },
   { to: '/saved', label: 'Saved', icon: Bookmark },
   { to: '/search', label: 'Search', icon: Search },
+  { to: '/syllabus', label: 'SPPU Syllabus', icon: ScrollText },
   { to: '/profile', label: 'Profile & Settings', icon: User },
 ]
+
+// Only for admins (ADMIN_EMAILS on the backend).
+const ADMIN_ITEM = { to: '/admin', label: 'Admin', icon: ShieldUser }
 
 const TABS = [
   { to: '/', label: 'Home', icon: Home, end: true },
@@ -112,7 +118,7 @@ export function ThemeToggle() {
 }
 
 function Sidebar() {
-  const { user, logout } = useAuth()
+  const { user, logout, isAdmin } = useAuth()
   return (
     <aside className="fixed inset-y-0 left-0 z-30 hidden w-64 flex-col border-r border-line bg-canvas px-3 py-4 lg:flex" aria-label="Main">
       <Link to="/" className="mb-6 flex items-center gap-3 rounded-xl px-2 py-1">
@@ -125,7 +131,7 @@ function Sidebar() {
         </span>
       </Link>
       <nav className="flex flex-col gap-1">
-        {SIDEBAR.map((item) => (
+        {(isAdmin ? [...SIDEBAR, ADMIN_ITEM] : SIDEBAR).map((item) => (
           <NavLink
             key={item.to}
             to={item.to}
@@ -202,12 +208,20 @@ function TopSearch() {
 }
 
 function MobileTopBar() {
-  const { user } = useAuth()
+  const { user, isAdmin } = useAuth()
   return (
     <header className="sticky top-0 z-30 flex items-center gap-3 border-b border-line bg-canvas/90 px-4 py-2 pt-[max(0.5rem,env(safe-area-inset-top))] backdrop-blur lg:hidden">
       <Link to="/" className="flex flex-1 items-center gap-2.5">
         <Logo className="size-8" />
         <span className="text-heading leading-tight">2AM Notes Pro</span>
+      </Link>
+      {isAdmin && (
+        <Link to="/admin" className="icon-btn" aria-label="Admin" title="Admin">
+          <ShieldUser className="size-5" aria-hidden="true" />
+        </Link>
+      )}
+      <Link to="/syllabus" className="icon-btn" aria-label="SPPU Syllabus" title="SPPU Syllabus">
+        <ScrollText className="size-5" aria-hidden="true" />
       </Link>
       <ThemeToggle />
       <Link to="/profile" aria-label="Profile">
@@ -256,6 +270,8 @@ function BottomNav() {
 
 export default function Shell() {
   const location = useLocation()
+  const { user } = useAuth()
+  const { semester } = useStudy()
   const mainRef = useRef(null)
 
   // New page: start at the top.
@@ -278,6 +294,7 @@ export default function Shell() {
         <ThemeToggle />
       </header>
       <main id="main" ref={mainRef} tabIndex={-1} className="mx-auto max-w-6xl px-5 pt-5 pb-28 outline-none lg:px-8 lg:pt-8 lg:pb-16">
+        <AnnouncementBanner idToken={user?.idToken} semester={semester} className="mb-5" />
         <Outlet />
         <p className="mt-12 border-t border-line pt-4 text-caption text-ink-3">
           Notes and PYQ solutions are AI-generated. Please verify them with your textbook or sources before exams.

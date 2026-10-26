@@ -1,4 +1,4 @@
-// Signed-out reading: Unit 1 of any subject is free. A bar keeps reminding the reader that signing in
+// Signed-out reading: Unit 1 of any subject is free, and any file an admin made a free preview. A bar keeps reminding the reader that signing in
 // (free) opens every unit, PYQ solutions and the rest; the subject's sample PYQ question closes the page.
 
 import { ArrowLeft, FileQuestion, LogIn } from 'lucide-react'
@@ -69,8 +69,10 @@ export default function Preview() {
   if (user) return <Navigate to={`/read/${subjectId}/${fileId}`} replace />
 
   const look = subjectLook(subjectId, entry?.name || subjectId)
-  const raw = entry?.unit1?.find((f) => f.id === fileId)
-  const file = { ...(raw ? describeFile(raw, 'notes') : { kind: 'note', title: '' }), id: fileId, subject: subjectId }
+  // Unit 1 notes, then any other file an admin made a free preview.
+  const freeFiles = [...(entry?.unit1 || []), ...(entry?.free || [])]
+  const raw = freeFiles.find((f) => f.id === fileId)
+  const file = { ...(raw ? describeFile(raw, raw.category || 'notes') : { kind: 'note', title: '' }), id: fileId, subject: subjectId }
   const signIn = () => navigate('/login', { state: { from: `/read/${subjectId}/${fileId}` } })
 
   return (
@@ -93,16 +95,16 @@ export default function Preview() {
           <ArrowLeft className="size-4" aria-hidden="true" /> All subjects
         </Link>
         <p className="font-mono text-caption text-ink-3">
-          {look.name} · Unit 1 · free preview
+          {look.name} · {raw && file.unit !== 1 ? (file.unit ? `Unit ${file.unit} · ` : '') : 'Unit 1 · '}free preview
         </p>
         <h1 className="mt-1 mb-4 text-[28px] leading-9 font-bold tracking-tight lg:text-[34px] lg:leading-[42px]">
           {data?.noteTitle || file.title || 'Unit 1'}
         </h1>
 
-        {entry?.unit1?.length > 1 && (
-          <nav aria-label="Unit 1 notes" className="mb-5 flex flex-wrap gap-2">
-            {entry.unit1.map((f) => {
-              const d = describeFile(f, 'notes')
+        {freeFiles.length > 1 && (
+          <nav aria-label="Free notes" className="mb-5 flex flex-wrap gap-2">
+            {freeFiles.map((f) => {
+              const d = describeFile(f, f.category || 'notes')
               return (
                 <Link
                   key={f.id}

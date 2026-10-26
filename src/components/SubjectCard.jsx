@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { trackEvent } from '../lib/analytics.js'
 import { tintStyle } from '../lib/subjects.js'
-import { SubjectIcon } from './ui.jsx'
+import { StatusBadges, SubjectIcon } from './ui.jsx'
 
 function Count({ value, label, accent }) {
   return (
@@ -33,6 +33,7 @@ export default function SubjectCard({ subject }) {
         {newCount > 0 && (
           <span className="tint-soft tint-text rounded-full px-2 py-0.5 text-caption font-semibold">{newCount} new</span>
         )}
+        <StatusBadges item={subject} />
       </span>
       <span className="line-clamp-2 text-label leading-5 text-ink-2">{look.about}</span>
       <span className="mt-auto grid grid-cols-3 gap-2 border-t border-line pt-3 lg:pt-4">

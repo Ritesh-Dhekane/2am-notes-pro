@@ -1,6 +1,6 @@
 // Google sign-in, shared by the welcome page and the sign-in page.
 
-import { AlertTriangle, Clock, ShieldCheck } from 'lucide-react'
+import { AlertTriangle, Clock, ShieldCheck, ShieldX } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
@@ -44,13 +44,14 @@ export default function SignInCard({ onSignedIn }) {
   const { theme } = usePrefs()
   const buttonRef = useRef(null)
   const [error, setError] = useState(null)
-  const [reason] = useState(readReason)
+  const [reason, setReason] = useState(readReason)
+  const blocked = reason === 'blocked'
   const [agreed, setAgreed] = useState(readConsent)
   const demo = isDemo()
 
   // The Google button is only drawn once the student has agreed to the note below it.
   useEffect(() => {
-    if (demo || !CLIENT_ID || !agreed || !buttonRef.current) return
+    if (demo || !CLIENT_ID || !agreed || blocked || !buttonRef.current) return
     const width = Math.min(400, Math.max(220, buttonRef.current.clientWidth))
     renderGoogleSignInButton({
       clientId: CLIENT_ID,
@@ -66,7 +67,32 @@ export default function SignInCard({ onSignedIn }) {
         onSignedIn?.()
       },
     }).catch(() => setError("Google sign-in couldn't load. Check your connection and reload the page."))
-  }, [demo, agreed, theme, login, onSignedIn])
+  }, [demo, agreed, blocked, theme, login, onSignedIn])
+
+  // Signed out because an admin blocked the account (apps-script/Admin.js, adminBlock).
+  if (blocked) {
+    return (
+      <div role="alert" className="rounded-2xl border border-danger bg-surface p-5">
+        <ShieldX className="size-8 text-danger" aria-hidden="true" />
+        <h2 className="mt-3 text-heading">Access blocked</h2>
+        <p className="mt-1 text-body text-ink">Your access has been blocked. Contact the portal owner.</p>
+        <button
+          type="button"
+          className="btn-secondary mt-4 w-full"
+          onClick={() => {
+            try {
+              sessionStorage.removeItem(SIGNOUT_REASON_KEY)
+            } catch {
+              // ignore
+            }
+            setReason(null)
+          }}
+        >
+          Sign in with another account
+        </button>
+      </div>
+    )
+  }
 
   return (
     <div className="rounded-2xl border border-line bg-surface p-5">

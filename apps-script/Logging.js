@@ -32,17 +32,14 @@ function logEvent(user, eventType, details, client) {
     )
   } catch (err) {
     // Swallow — logging is not allowed to break the calling action — but keep the reason for testLog.
-    try {
-      CacheService.getScriptCache().put('log:lastError', new Date().toISOString() + ' ' + err.message, 21600)
-    } catch (ignored) {}
+    rememberLogError(err)
   }
 }
 
 // The "Logs" tab, created with a header row the first time.
 function getLogSheet() {
-  var sheetId = PropertiesService.getScriptProperties().getProperty('LOG_SHEET_ID')
-  if (!sheetId) return null
-  var spreadsheet = SpreadsheetApp.openById(sheetId)
+  var spreadsheet = getLogSpreadsheet()
+  if (!spreadsheet) return null
   var sheet = spreadsheet.getSheetByName('Logs')
   if (!sheet) {
     // A new spreadsheet's one empty tab becomes the log; otherwise add a Logs tab.
@@ -57,6 +54,56 @@ function getLogSheet() {
   sheet.setFrozenRows(1)
   sheet.getRange(1, 1, 1, LOG_HEADERS.length).setFontWeight('bold')
   return sheet
+}
+
+// The log spreadsheet (Script Property LOG_SHEET_ID), opened once per request.
+var logSpreadsheet_ = null
+
+function getLogSpreadsheet() {
+  if (logSpreadsheet_) return logSpreadsheet_
+  var sheetId = PropertiesService.getScriptProperties().getProperty('LOG_SHEET_ID')
+  if (!sheetId) return null
+  logSpreadsheet_ = SpreadsheetApp.openById(sheetId)
+  return logSpreadsheet_
+}
+
+// Another tab of the log spreadsheet (Students, Admin log), created with its header row the first time.
+function getTab(name, headers) {
+  var spreadsheet = getLogSpreadsheet()
+  if (!spreadsheet) return null
+  var sheet = spreadsheet.getSheetByName(name)
+  if (!sheet) {
+    sheet = spreadsheet.insertSheet(name)
+    sheet.appendRow(headers)
+    sheet.setFrozenRows(1)
+    sheet.getRange(1, 1, 1, headers.length).setFontWeight('bold')
+  } else if (sheet.getLastColumn() < headers.length) {
+    sheet.getRange(1, 1, 1, headers.length).setValues([headers])
+  }
+  return sheet
+}
+
+// Keeps the reason a swallowed write failed, for testLog.
+function rememberLogError(err) {
+  try {
+    CacheService.getScriptCache().put('log:lastError', new Date().toISOString() + ' ' + err.message, 21600)
+  } catch (ignored) {}
+}
+
+function istNow() {
+  return Utilities.formatDate(new Date(), 'Asia/Kolkata', 'yyyy-MM-dd HH:mm:ss')
+}
+
+// Sheets turns "2026-10-21 09:30:00" into a date; read it back as the same IST text.
+function cellTime(value) {
+  if (value instanceof Date) return Utilities.formatDate(value, getLogSpreadsheet().getSpreadsheetTimeZone(), 'yyyy-MM-dd HH:mm:ss')
+  return value ? String(value) : ''
+}
+
+// Milliseconds since 1970 for an IST time text.
+function istMillis(text) {
+  var ms = Date.parse(String(text).replace(' ', 'T') + '+05:30')
+  return isNaN(ms) ? 0 : ms
 }
 
 function cellText(value) {

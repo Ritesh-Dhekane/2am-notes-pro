@@ -3,10 +3,11 @@
 // Backend contract (Apps Script, see apps-script/):
 // - `catalog` (no sign-in): { semesters: [{ id, subjects: [{ slug, name, counts: { notes, pyqs,
 //   references }, hasSyllabus, unit1: [file], sample: { paper, question, kind: exam|practice } | null }] }] } — what's on
-//   offer; only Unit 1 notes are named.
-// - `previewFile` / `previewAsset` (no sign-in): like getFile / getAsset, for Unit 1 notes only.
+//   offer; only Unit 1 notes are named, plus `free`: other files an admin made a free preview.
+// - `previewFile` / `previewAsset` (no sign-in): like getFile / getAsset, for those free files only.
 // - `listLibrary` ({ idToken, semester }): { subjects: [{ slug, name, files: { notes, pyqs,
-//   references }, syllabus }] }, where syllabus is a file or null.
+//   references }, syllabus, comingSoon?, hidden? }] }, where syllabus is a file or null. Coming-soon
+//   subjects come without files; hidden subjects and files only reach admins (marked `hidden`).
 
 import { callApi } from './api.js'
 import { clearSaved, getSaved, save } from './offline.js'
@@ -47,7 +48,16 @@ export function buildLibrary(rawSubjects, { semester: semesterId, electives } = 
         ? { ...describeFile(raw.syllabus, 'syllabus', now), subject: raw.slug, title: 'Syllabus', unit: null }
         : null
       const units = new Set(files.notes.map((f) => f.unit).filter((u) => u !== null))
-      return { slug: raw.slug, name: look.name || raw.name, look, files, syllabus, unitCount: units.size }
+      return {
+        slug: raw.slug,
+        name: look.name || raw.name,
+        look,
+        files,
+        syllabus,
+        unitCount: units.size,
+        comingSoon: Boolean(raw.comingSoon),
+        hidden: Boolean(raw.hidden), // admins only
+      }
     })
     .sort((a, b) => a.name.localeCompare(b.name))
 

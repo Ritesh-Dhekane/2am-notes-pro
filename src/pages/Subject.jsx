@@ -7,7 +7,7 @@ import { Link, useParams, useSearchParams } from 'react-router-dom'
 import FileRow from '../components/FileRow.jsx'
 import LibraryGate from '../components/LibraryGate.jsx'
 import FilePane from '../components/FilePane.jsx'
-import { Card, EmptyState, SubjectIcon, Tag } from '../components/ui.jsx'
+import { Card, EmptyState, StatusBadges, SubjectIcon, Tag } from '../components/ui.jsx'
 import { byExamDesc, CATEGORIES, groupByUnit } from '../lib/files.js'
 import { useFilePane } from '../lib/useFilePane.js'
 import { usePrefetchSubject } from '../lib/useFile.js'
@@ -126,6 +126,7 @@ function SubjectBody({ library }) {
               <span className="flex flex-wrap items-center gap-2">
                 <Tag look={subject.look}>{subject.look.code || subject.look.short}</Tag>
                 <span className="font-mono text-caption text-ink-3">{subjectGroupLabel(library.semester, subject.slug)}</span>
+                <StatusBadges item={subject} />
               </span>
               <h1 className="mt-1.5 text-[26px] leading-8 font-bold tracking-tight lg:text-display">{subject.name}</h1>
               <p className="mt-1 max-w-2xl font-serif text-[15px] leading-6 text-ink-2">{subject.look.about}</p>
@@ -189,13 +190,16 @@ function SubjectBody({ library }) {
             />
           </label>
 
-          {nothing && (
-            <EmptyState
-              icon={Library}
-              title={words.length ? 'Nothing matches' : 'No files here yet'}
-              text={words.length ? 'Try fewer or different words.' : 'Files appear as soon as they are added to this subject in Drive.'}
-            />
-          )}
+          {nothing &&
+            (subject.comingSoon && !words.length ? (
+              <EmptyState icon={Library} title="Coming soon" text="The notes for this subject are on their way. Check back soon." />
+            ) : (
+              <EmptyState
+                icon={Library}
+                title={words.length ? 'Nothing matches' : 'No files here yet'}
+                text={words.length ? 'Try fewer or different words.' : 'Files appear as soon as they are added to this subject in Drive.'}
+              />
+            ))}
 
           {showNotes && groups.length > 0 && (
             <section aria-labelledby="notes-h">
