@@ -127,7 +127,7 @@ function Sidebar() {
           <span className="block text-heading leading-tight">
             2AM Notes <span className="font-mono text-caption font-semibold text-primary-ink">PRO</span>
           </span>
-          <span className="text-caption text-ink-3">MCA · BCA · MBA study portal</span>
+          <span className="text-caption text-ink-3">SPPU study portal</span>
         </span>
       </Link>
       <nav className="flex flex-col gap-1">

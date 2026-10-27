@@ -1,33 +1,36 @@
-// Signed-out home: what the portal is, everything it holds for each semester (subjects with counts;
-// Unit 1 of each opens free, the rest is locked), and sign-in. Counts come from the backend's public catalog; if it can't be reached,
+// Signed-out home: what the portal is, a course finder for every SPPU syllabus (SyllabusFinder, step in
+// ?path=), the notes ready so far for each semester (subjects with counts; Unit 1 of each opens free, the
+// rest is locked), and sign-in. Counts come from the backend's public catalog; if it can't be reached,
 // the subjects still show from the built-in catalog, without counts. Announcements for everyone show on top.
 
-import { BookOpen, BookOpenText, FileCheck2, Headphones, Lock, ScrollText, Sparkles } from 'lucide-react'
+import { BookOpen, BookOpenText, FileCheck2, ListTree, Lock, ScrollText, Sparkles } from 'lucide-react'
 import { createElement, useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import AnnouncementBanner from '../components/AnnouncementBanner.jsx'
 import SignInCard from '../components/SignInCard.jsx'
+import SyllabusFinder from '../components/SyllabusFinder.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
-import { Logo, MadeBy, SubjectIcon } from '../components/ui.jsx'
+import { ErrorState, Logo, MadeBy, Skeleton, SubjectIcon } from '../components/ui.jsx'
 import { COURSES, groupSlugs, SEMESTERS } from '../lib/catalog.js'
 import { loadCatalog } from '../lib/library.js'
 import { subjectLook } from '../lib/subjects.js'
+import { useSyllabi } from '../lib/useSyllabi.js'
 
 const VALUES = [
   {
+    icon: ListTree,
+    title: 'Subject-wise syllabus',
+    text: 'Every SPPU course, with each subject’s units and topics and the official PDF.',
+  },
+  {
     icon: BookOpenText,
     title: 'Unit-wise notes',
-    text: 'Notes, syllabus and references for every subject, arranged unit by unit.',
+    text: 'Notes and references arranged unit by unit, read aloud if you like. Added course by course.',
   },
   {
     icon: FileCheck2,
     title: 'Previous-year papers',
     text: 'End-semester PYQs with solutions, arranged by subject and year.',
-  },
-  {
-    icon: Headphones,
-    title: 'Listen to notes',
-    text: 'Have any note read aloud at your pace while you rest your eyes.',
   },
 ]
 
@@ -116,6 +119,10 @@ function SubjectTile({ slug, entry, onSignIn }) {
 export default function Welcome({ onSignedIn }) {
   const [catalog, setCatalog] = useState(null) // Map semesterId → Map slug → entry, or null
   const [active, setActive] = useState(SEMESTERS.filter((s) => s.course === COURSES[0].id).at(-1).id)
+  const syllabi = useSyllabi()
+  const [params, setParams] = useSearchParams()
+  // Finder steps push history, so the phone's Back button steps back.
+  const setPath = (path) => setParams(path ? { path } : {}, { replace: false, preventScrollReset: true })
 
   useEffect(() => {
     let cancelled = false
@@ -170,15 +177,16 @@ export default function Welcome({ onSignedIn }) {
       {/* One sign-in card: after the intro on phones, in a sticky column beside everything on desktop. */}
       <main
         id="main"
-        className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-5 pt-6 pb-16 lg:grid-cols-[minmax(0,1fr)_400px] lg:grid-rows-[auto_1fr] lg:gap-x-14 lg:px-8 lg:pt-12"
+        className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-5 pt-6 pb-16 lg:grid-cols-[minmax(0,1fr)_400px] lg:grid-rows-[auto_auto_1fr] lg:gap-x-14 lg:px-8 lg:pt-12"
       >
         <div className="text-center lg:col-start-1 lg:row-start-1 lg:text-left">
           <Logo className="mx-auto mb-5 size-16 lg:hidden" />
           <h1 className="text-[34px] leading-[42px] font-bold tracking-tight lg:text-[44px] lg:leading-[52px]">
-            Your MCA, BCA or MBA semester, organised for late-night study.
+            Your SPPU semester, organised for late-night study.
           </h1>
           <p className="mt-3 text-[17px] leading-7 text-ink-2">
-            Notes, previous-year papers, syllabus and references for every subject, in one quiet place.
+            The syllabus of every SPPU course, subject by subject. Notes, previous-year papers and references as
+            each course is added, in one quiet place.
           </p>
           <Link
             to="/syllabus"
@@ -203,17 +211,33 @@ export default function Welcome({ onSignedIn }) {
           )}
         </div>
 
-        <div id="sign-in" className="lg:col-start-2 lg:row-span-2 lg:row-start-1">
+        <section aria-labelledby="find" className="min-w-0 lg:col-start-1 lg:row-start-2">
+          <h2 id="find" className="text-title">
+            Find your course
+          </h2>
+          <p className="mt-1 text-label text-ink-2">Free, no sign-in needed. Sign in only to download.</p>
+          {syllabi.error ? (
+            <div className="mt-4"><ErrorState message={syllabi.error} onRetry={syllabi.retry} /></div>
+          ) : !syllabi.entries ? (
+            <div className="mt-4 grid grid-cols-2 gap-2.5 sm:grid-cols-3" aria-busy="true">
+              {[0, 1, 2].map((i) => <Skeleton key={i} className="shimmer h-24 w-full" />)}
+            </div>
+          ) : (
+            <SyllabusFinder entries={syllabi.entries} path={params.get('path') || ''} onPath={setPath} />
+          )}
+        </section>
+
+        <div id="sign-in" className="lg:col-start-2 lg:row-span-3 lg:row-start-1">
           <div className="lg:sticky lg:top-8">
             <SignInCard onSignedIn={onSignedIn} />
           </div>
         </div>
 
-        <div className="flex min-w-0 flex-col gap-8 lg:col-start-1 lg:row-start-2">
+        <div className="flex min-w-0 flex-col gap-8 lg:col-start-1 lg:row-start-3">
           <section aria-labelledby="inside">
             <div className="mb-3 flex flex-wrap items-center gap-2">
               <h2 id="inside" className="text-title">
-                What's inside
+                Notes ready so far
               </h2>
               <span className="rounded-full bg-primary-soft px-2.5 py-0.5 text-caption font-semibold text-primary-ink">
                 Unit 1 free · sign in for the rest
@@ -300,7 +324,7 @@ export default function Welcome({ onSignedIn }) {
       </main>
 
       <footer className="border-t border-line py-6 text-center text-caption text-ink-3">
-        MCA · BCA · MBA · Savitribai Phule Pune University · Made for late-night learners
+        Savitribai Phule Pune University · Made for late-night learners
         <MadeBy className="mt-1.5" />
       </footer>
     </div>
