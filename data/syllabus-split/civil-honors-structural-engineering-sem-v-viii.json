@@ -1,0 +1,178 @@
+{
+  "id": "civil-honors-structural-engineering-sem-v-viii",
+  "kind": "programme",
+  "programme": "Honor Course in Structural Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HSE 301CVL",
+      "title": "Fundamentals of Structural Engineering",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [4, 5],
+      "units": [
+        {
+          "title": "Structural Systems",
+          "topics": "Introduction to structural engineering, types of structural systems: RCC, steel, and composite structures, structural forms: frames, trusses, arches, plates, shells, and cable structures, load transfer mechanisms in different structural forms, behavioral differences between low-rise, medium-rise, and high-rise structures.",
+          "hours": 8
+        },
+        {
+          "title": "Building Loads",
+          "topics": "Types of loads acting on structures: dead loads, imposed loads, wind loads, earthquake loads, and environmental loads, introduction to Indian Standard (IS) codes for structural design: IS 875 (Parts 1 to 5), IS 1893 (Part 1), IS 456, IS 800, load combinations and critical design conditions, concept of limit state design.",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Software",
+          "topics": "Overview of structural analysis and design software: STAAD.Pro and ETABS, basic modeling concepts: geometry definition, material properties, section properties, boundary conditions, application of loads, interpretation of analysis results: bending moment, shear force, axial force diagrams, and deflections.",
+          "hours": 6
+        },
+        {
+          "title": "Structural Drawings and Detailing",
+          "topics": "Importance of structural drawings in construction, reading and interpretation of architectural and structural drawings, standard detailing practices for RCC elements: beams, columns, slabs, and footings as per SP 34, detailing of steel connections: welded and bolted connections as per SP 6(1).",
+          "hours": 6
+        },
+        {
+          "title": "Case Studies",
+          "topics": "Study of typical residential and commercial building layouts, analysis of load paths in actual structures, common structural defects and failures observed during construction, lessons learned from past structural failures.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "HSE 302CVL",
+      "title": "Fundamentals of Structural Engineering Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [6, 7],
+      "units": []
+    },
+    {
+      "code": "HSE 351CVL",
+      "title": "Modern Construction Techniques and Rehabilitation",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [8, 9],
+      "units": [
+        {
+          "title": "Modern Construction Materials",
+          "topics": "Advanced concrete technologies: high-strength concrete, self-compacting concrete, fiber-reinforced concrete, geo-polymer concrete, smart materials in construction: shape memory alloys, self-healing concrete, piezoelectric materials, sustainable and green building materials, use of industrial by-products in construction.",
+          "hours": 8
+        },
+        {
+          "title": "Construction Technology Trends",
+          "topics": "Precast and prefabricated construction systems, modern formwork systems: slip form, jump form, tunnel form, modular construction and 3D printing in construction, mechanized construction equipment and automation in construction.",
+          "hours": 8
+        },
+        {
+          "title": "Structural Inspection and Condition Assessment",
+          "topics": "Causes and mechanisms of structural deterioration: corrosion, carbonation, chemical attack, weathering, non-destructive testing (NDT) techniques: rebound hammer, ultrasonic pulse velocity, half-cell potential, core testing, visual inspection and condition rating of existing structures, structural audit procedures and reporting.",
+          "hours": 6
+        },
+        {
+          "title": "Smart Infrastructure",
+          "topics": "Introduction to Structural Health Monitoring (SHM), sensors and instrumentation used for structural monitoring, data acquisition and telemetry systems, vibration-based damage detection techniques, case studies of smart bridges and high-rise buildings.",
+          "hours": 6
+        },
+        {
+          "title": "Structural Rehabilitation",
+          "topics": "Repair materials: polymer-modified mortars, epoxy resins, micro-concrete, retrofitting techniques for RCC elements: jacketing of columns and beams, fiber-reinforced polymer (FRP) strengthening, seismic retrofitting strategies for existing buildings, case studies of successful rehabilitation projects.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "HSE 352CVL",
+      "title": "Modern Construction Techniques and Rehabilitation Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [10, 11],
+      "units": []
+    },
+    {
+      "code": "HSE 401CVL",
+      "title": "Applied Structural Engineering",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [12, 13],
+      "units": [
+        {
+          "title": "Structural Design Concepts",
+          "topics": "Advanced principles of structural design, design methodologies for specialized structures, structural optimization concepts, performance-based design philosophy, limit state design applications for complex structural systems.",
+          "hours": 9
+        },
+        {
+          "title": "Earthquake-Resistant Structures",
+          "topics": "Earthquake engineering fundamentals, seismic hazard analysis, ground motion parameters, seismic design philosophy as per IS 1893, ductile detailing of RCC structures as per IS 13920, base isolation systems and energy dissipation devices.",
+          "hours": 9
+        },
+        {
+          "title": "Special Structural Systems",
+          "topics": "Analysis and design considerations for industrial structures: industrial buildings, pre-engineered buildings (PEB), silos, bunkers, water tanks, retaining structures, and tall chimneys, design standards and practices for special structures.",
+          "hours": 9
+        },
+        {
+          "title": "Structural Analysis Using Software",
+          "topics": "Advanced modeling techniques using structural engineering software (STAAD.Pro, ETABS, SAP2000), static and dynamic analysis: response spectrum method, time history analysis, p-delta analysis, interpretation and validation of software results.",
+          "hours": 9
+        },
+        {
+          "title": "Structural Engineering Case Studies",
+          "topics": "Comprehensive case studies of landmark structures: high-rise buildings, bridges, stadium roofs, and industrial plants, analysis of structural behavior under extreme loading conditions (wind, earthquake, blast), lessons learned from structural failures.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HSE 451CVL",
+      "title": "Emerging Structural Engineering",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [14, 15],
+      "units": [
+        {
+          "title": "Building Information Modelling for Structural Engineering",
+          "topics": "BIM concepts and workflow in structural engineering, structural BIM modeling using Revit Structure or Tekla Structures, inter-disciplinary coordination, clash detection, and resolution, 4D (scheduling) and 5D (cost estimation) BIM applications in construction.",
+          "hours": 9
+        },
+        {
+          "title": "Sustainable Structural Engineering",
+          "topics": "Embodied carbon in structural systems, life-cycle assessment (LCA) of structures, sustainable structural design strategies, low-carbon materials: timber structures, recycled aggregate concrete, circular economy principles in structural engineering.",
+          "hours": 9
+        },
+        {
+          "title": "Emerging Technologies in Structural Engineering",
+          "topics": "Artificial intelligence and machine learning applications in structural engineering: structural optimization, damage detection, and performance prediction, digital twin technology for structures, drone-based inspection and monitoring, parametric design and generative design in structures.",
+          "hours": 9
+        },
+        {
+          "title": "Structural Engineering Professional Practice",
+          "topics": "Professional responsibilities and ethics of structural engineers, statutory approvals, building bye-laws, and National Building Code (NBC) requirements, structural safety peer reviews and third-party quality audits, contract management, liability, and dispute resolution in structural engineering projects.",
+          "hours": 9
+        },
+        {
+          "title": "Structural Engineering Case Studies",
+          "topics": "Detailed case studies of innovative structural projects worldwide, applications of advanced structural technologies in smart cities, failure analysis and forensic engineering investigations, future trends and challenges in structural engineering.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HSE 452CVL",
+      "title": "Emerging Structural Engineering Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [16, 17],
+      "units": []
+    }
+  ],
+  "notes": null
+}
+

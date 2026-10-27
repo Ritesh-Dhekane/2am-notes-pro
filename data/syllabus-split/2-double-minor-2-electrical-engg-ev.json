@@ -1,0 +1,196 @@
+{
+  "id": "2-double-minor-2-electrical-engg-ev",
+  "kind": "programme",
+  "programme": "Double Minor in Electric Vehicles and Charging Technologies",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DMEV303ELE",
+      "title": "Fundamentals of Electrical Engineering for Electric Vehicles",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [4, 5],
+      "units": [
+        {
+          "title": "Fundamentals of Electrical Engineering",
+          "topics": "Basic electrical quantities: voltage, current, power, energy, and power factor, AC and DC electrical systems, Electrical circuits and basic circuit elements, Single -phase and three-phase power systems, Electrical energy generation, transmission, and distri bution, Introduction to electrical machines, Electrical measurements and commonly used measuring instruments, Electrical safety practices",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Electric Vehicles",
+          "topics": "Evolution of electric vehicles, Need for electric mobility, Classification of electric vehicles (BEV, HEV, PHEV, FCEV), Architecture of electric vehicles, Comparison of conventional and electric vehicles, Major subsystems of electric vehicles, Advantages, limitations, and challenges, Government initiatives and EV ecosystem in India",
+          "hours": 8
+        },
+        {
+          "title": "Electrical Machines and Power Electronics for EVs",
+          "topics": "Role of electrical machines in electric vehicles, DC motors, BLDC motors, PMSM, and induction motors (overview), Selection criteria for EV motors, Introduction to power electronic converters, DC -DC converters, DC-AC inverters, Motor controllers, Regenerative braking concept",
+          "hours": 8
+        },
+        {
+          "title": "Energy Storage Systems and Charging Basics",
+          "topics": "Energy storage requirements for EVs, Battery technologies: Lead-acid, NiMH, Lithium-ion (overview), Battery characteristics and performance parameters, Introduction to Battery Management System (BMS), Charging methods: AC and DC charging, charging levels and charging standards, Home, public, and fast charging, Battery safety and handling",
+          "hours": 8
+        },
+        {
+          "title": "Sustainable Electric Mobility",
+          "topics": "Environmental impact of transportation , Benefits of electric mobility , Renewable energy integration with EV charging , Smart charging concepts , Introduction to Vehicle -to-Grid (V2G), Electric vehicle safety standards , Emerging trends in electric mobility, Case studies of successful EV deployment",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEV304ELE",
+      "title": "Fundamentals of Electrical Engineering for Electric Vehicles Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [6, 7],
+      "units": []
+    },
+    {
+      "code": "DMEV353ELE",
+      "title": "Electric Vehicle Components and Powertrain",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [8, 9],
+      "units": [
+        {
+          "title": "Electric Vehicle Powertrain Architecture",
+          "topics": "Review of electric vehicle architecture, Components of electric vehicle powertrain, Power flow in electric vehicles, Layouts of Battery Electric Vehicle (BEV), Hybrid Electric Vehicle (HEV), and Plug -in Hybrid Electric Vehicle (PHEV), Vehicle performance requirements, Vehicle dynamics (overview), Tractive effort and road load characteristics, Selection of powertrain configuration",
+          "hours": 8
+        },
+        {
+          "title": "Electric Traction Motors",
+          "topics": "Requirements of traction motors, DC motor (overview), Brushless DC (BLDC) motor, Permanent Magnet Synchronous Motor (PMSM), Induction motor, Switched Reluctance Motor (SRM) (overview), Comparison of traction motors, Applications in different categories of electric vehicles",
+          "hours": 8
+        },
+        {
+          "title": "Power Electronic Converters and Motor Drives",
+          "topics": "Role of power electronics in electric vehicles, DC -DC converters, DC-AC inverters, Motor controllers, Pulse Width Modulation (PWM) concept, Speed and torque control, Motor drive characteristics, Introduction to silicon carbide (SiC) and gallium nitride (GaN) devices",
+          "hours": 8
+        },
+        {
+          "title": "Electric Transmission and Energy Management",
+          "topics": "Electric transmission systems, Gear reduction mechanisms, Differential systems, Regenerative braking, Energy flow during driving and braking, Driving modes in hybrid electric vehicles, Energy management strategies, Vehicle performance optimization",
+          "hours": 8
+        },
+        {
+          "title": "Auxiliary Systems and Thermal Management",
+          "topics": "Auxiliary electrical systems in electric vehicles , Electric steering systems , Electric braking systems , HVAC systems, Battery thermal management, Motor cooling techniques, Vehicle communication networks (CAN Bus – overview), Safety considerations in EV powertrain systems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEV354ELE",
+      "title": "Electric Vehicle Components and Powertrain Laboratory",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [10, 11],
+      "units": []
+    },
+    {
+      "code": "DMEV403ELE",
+      "title": "Battery Technology and Charging Infrastructure",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [12, 13],
+      "units": [
+        {
+          "title": "Fundamentals of Battery Technology",
+          "topics": "Introduction to electrochemical energy storage, Battery terminology and performance parameters, Types of rechargeable batteries, Lead -acid batteries, Nickel Metal Hydride (NiMH) batteries, Lithium -ion batteries, Comparison of battery technologies, Selection criteria for EV applications",
+          "hours": 8
+        },
+        {
+          "title": "Battery Management System (BMS)",
+          "topics": "Need and functions of Battery Management System, Battery monitoring parameters, State of Charge (SOC), State of Health (SOH), Cell balancing techniques, Battery protection circuits, Battery thermal management systems, Battery safety and fault diagnosis",
+          "hours": 8
+        },
+        {
+          "title": "Electric Vehicle Charging Technologies",
+          "topics": "Fundamentals of EV charging, AC charging and DC fast charging, Charging levels (Level 1, Level 2 and DC Fast Charging), Conductive and wireless charging, Battery swapping technology, Opportunity charging, Charging connectors and cables, Charging efficiency",
+          "hours": 8
+        },
+        {
+          "title": "Charging Infrastructure and Grid Integration",
+          "topics": "EV charging station architecture, Home, workplace and public charging stations, Smart charging systems, charging communication protocols, Charging standards (CCS, CHAdeMO, GB/T, Bharat AC001 and DC001) Vehicle-to-Grid (V2G), Vehicle-to-Home (V2H), Renewable energy integration with EV charging",
+          "hours": 8
+        },
+        {
+          "title": "Battery Safety, Recycling and Future Trends",
+          "topics": "Battery safety standards, Thermal runaway, Fire protection and emergency response, Battery testing procedures Battery degradation mechanisms , Battery recycling and second -life applications , Emerging battery technologies (Solid-state batteries, Sodium -ion batteries), Future trends in battery technology and charging infrastructure",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEV404ELE",
+      "title": "Battery Technology and Charging Infrastructure Laboratory",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [14, 15],
+      "units": []
+    },
+    {
+      "code": "DMEV454ELE",
+      "title": "Electric Vehicle Technologies and Applications",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [16, 17],
+      "units": [
+        {
+          "title": "Connected Electric Vehicles and Smart Mobility",
+          "topics": "Connected electric vehicles, Smart mobility concepts, Intelligent Transportation Systems (ITS), Vehicle connectivity, Vehicle -to-Vehicle (V2V) communication, Vehicle -to-Infrastructure (V2I) communication, Vehicle-to-Everything (V2X) communication, Applications of connected mobility",
+          "hours": 8
+        },
+        {
+          "title": "Smart Charging and Grid Integration",
+          "topics": "Smart charging concepts, Load management for EV charging, Demand response, Vehicle -to-Grid (V2G), Vehicle-to-Home (V2H), Vehicle -to-Building (V2B), Renewable energy integration, Smart energy management",
+          "hours": 8
+        },
+        {
+          "title": "Electric Vehicle Diagnostics and Fleet Management",
+          "topics": "Introduction to EV diagnostics, On-board diagnostics (OBD), Fault detection and troubleshooting, Predictive maintenance concepts, Fleet monitoring systems, GPS-based fleet management, Remote vehicle monitoring Performance monitoring and analytics",
+          "hours": 8
+        },
+        {
+          "title": "Standards, Safety and Cybersecurity",
+          "topics": "EV safety standards, Functional safety concepts, Charging safety, Battery safety standards, Automotive communication protocols (overview), Cybersecurity in connected vehicles, Data privacy and security, Regulatory framework for electric mobility",
+          "hours": null
+        },
+        {
+          "title": "Emerging Technologies and Future Applications",
+          "topics": "Artificial Intelligence in electric vehicles , Internet of Things (IoT) applications , Digital Twin concept, Autonomous electric vehicles , Shared electric mobility , Wireless charging technologies , Hydrogen fuel cell electric vehicles (overview), Future trends in sustainable transportation",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEV455ELE",
+      "title": "Electric Vehicle Technologies and Applications Laboratory",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [18, 19],
+      "units": []
+    },
+    {
+      "code": "DMEV456ELE",
+      "title": "Double Minor Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [20, 23],
+      "units": []
+    }
+  ],
+  "notes": null
+}
+

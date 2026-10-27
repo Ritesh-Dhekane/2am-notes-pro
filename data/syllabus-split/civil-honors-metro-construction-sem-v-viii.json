@@ -1,0 +1,198 @@
+{
+  "id": "civil-honors-metro-construction-sem-v-viii",
+  "kind": "programme",
+  "programme": "Honor Course in Metro Construction",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HMC 301CVL",
+      "title": "Metro Planning, Alignment and Surveying",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        4,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction to Urban Metro Systems",
+          "topics": "Introduction to urban metro transportation systems, their evolution and development across the world and in India, characteristics and components of metro rail networks, significance of metro systems in sustainable urban mobility and smart city development , concept and principles of Transit -Oriented Development (TOD), integration of metro systems with other modes of public transport, and the metro planning framework including demand assessment, feasibility studies, and policy considerations.",
+          "hours": 9
+        },
+        {
+          "title": "Metro Alignment Engineering",
+          "topics": "Principles and criteria for metro route selection considering technical, economic, environmental, and social factors, planning and design of elevated, underground, and at -grade metro corridors, horizontal and vertical alignment design, geometric standards for curves and gradients, engineering considerations for safe and efficient operations, planning of interchange stations and terminal facilities, and optimization of passenger connectivity and operational efficiency.",
+          "hours": 9
+        },
+        {
+          "title": "Modern Surveying Technologies for Metro Projects",
+          "topics": "Application of advanced surveying techniques in metro infrastructure projects, use of Total Station for precise measurements and setting out works, principles and applications of Differential Global Positioning System (DGPS) and Global Navigation Satellite System (GNSS), LiDAR technology for terrain and corridor mapping, drone-based surveying for data acquisition and monitoring, mobile mapping systems, and the role of modern surveying technologies in planning, design, construction, and maintenance of metro projects.",
+          "hours": 9
+        },
+        {
+          "title": "GIS and Remote Sensing Applications",
+          "topics": "Fundamentals of Geographic Information Systems (GIS) and their applications in metro infrastructure planning, development of GIS databases for spatial data management, utility mapping and underground asset management, corridor mapping and route optimization, principles of remote sensing and interpretation of satellite imagery, and the use of GIS and remote sensing techniques for infrastructure planning, environmental assessment, and decision-making in metro projects.",
+          "hours": 9
+        },
+        {
+          "title": "Metro Stations and Depot Planning",
+          "topics": "Classification and functional requirements of metro stations, principles of station layout planning and design, planning and design considerations for metro depots and maintenance facilities, passenger flow analysis for efficient circulation and crowd management, integration of stations with multimodal transport systems, accessibility features a nd universal design principles for inclusive infrastructure, and the role of station and depot planning in enhancing operational efficiency and passenger convenience.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HMC 302CVL",
+      "title": "Metro Planning, Alignment and Surveying Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "HMC 351CVL",
+      "title": "Planning, Estimation and Project Management for Metro Construction",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        11
+      ],
+      "units": [
+        {
+          "title": "Metro Project Planning",
+          "topics": "Introduction to the planning and management of metro rail projects, project life cycle and its various phases from concept to operation, feasibility studies including technical, economic, financial, and environmental aspects, preparation of Detailed Project Reports (DPRs), stakeholder identification and management, public consultation and regulatory requirements, risk identification and assessment, and strategies for effective planning and successful implementation of metro infrastructure projects.",
+          "hours": 9
+        },
+        {
+          "title": "Quantity Estimation and Costing",
+          "topics": "Principles of quantity estimation and costing for metro construction projects, estimation of quantities for viaduct structures, pile foundations, station buildings, and underground tunnel works, preparation of schedules of quantities, methods of rate analysis for various construction activiti es, cost estimation techniques, preparation of project cost estimates, and application of standard specifications and cost indices in metro infrastructure projects.",
+          "hours": 9
+        },
+        {
+          "title": "Construction Planning and Scheduling",
+          "topics": "Fundamentals of construction planning and project scheduling for metro projects, development of Work Breakdown Structure (WBS), application of Critical Path Method (CPM) and Program Evaluation and Review Technique (PERT) for project scheduling, resource planning and allocation, equipment selection and planning, construction sequencing for elevated, underground, and station works, monitoring project progress, and optimization of time and resources for efficient project execution.",
+          "hours": 9
+        },
+        {
+          "title": "Contracts and Procurement",
+          "topics": "Introduction to contract management and procurement practices in metro rail projects, tendering process and bid evaluation procedures, Engineering, Procurement, and Construction (EPC) contracts, Design -Build contracting approaches, Public -Private Partnersh ip (PPP) models for infrastructure development, basic concepts and principles of FIDIC contract conditions, risk allocation among stakeholders, and contract administration for effective project delivery.",
+          "hours": 9
+        },
+        {
+          "title": "Financial and Economic Evaluation",
+          "topics": "Fundamentals of financial and economic appraisal of metro infrastructure projects, cost -benefit analysis and evaluation of socio -economic impacts, Economic Internal Rate of Return (EIRR) and its significance, assessment of financial viability and project s ustainability, life cycle cost analysis for metro assets and infrastructure, funding mechanisms for metro projects, and study of selected metro rail project case studies to understand planning, financing, implementation, and operational challenges.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HMC 352CVL",
+      "title": "Planning, Estimation and Project Management for Metro Construction Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "HMC 401CVL",
+      "title": "Metro Rail Infrastructure Systems, Operations and Maintenance",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Metro Rail Infrastructure Systems",
+          "topics": "Overview of metro rail infrastructure systems, components of elevated, underground and at -grade metro systems, track forms and track components, rails, sleepers, fastenings and ballastless track systems, points and crossings, viaduct and station interfaces, depot infrastructure, and functional requirements for safe and efficient metro operation.",
+          "hours": 9
+        },
+        {
+          "title": "Traction Power, Signalling and Communication Systems",
+          "topics": "Overview of traction power supply systems, third rail and overhead electrification, substations and power distribution, earthing and bonding, basics of metro signalling systems, automatic train protection and train control, interlocking, platform screen doors, telecommunication systems, passenger information systems, control centre functions and integration of metro subsystems.",
+          "hours": 9
+        },
+        {
+          "title": "Metro Station Systems and Building Services",
+          "topics": "Functional planning of station systems, passenger circulation and access control, lifts and escalators, ventilation and air-conditioning, fire detection and protection, drainage and water supply, electrical and lighting systems, station communication and security systems, accessibility and universal design, energy-efficient station services and coordination of civil and MEP systems.",
+          "hours": 9
+        },
+        {
+          "title": "Metro Operations, Maintenance and Asset Management",
+          "topics": "Metro operating principles, headway and capacity concepts, timetable and service planning, depot and stabling operations, preventive, predictive and corrective maintenance, inspection and maintenance of track, viaducts, stations and systems, condition assessment, reliability -centred maintenance, asset ma nagement, maintenance planning, documentation and performance monitoring.",
+          "hours": 9
+        },
+        {
+          "title": "Safety, Emergency Management and Sustainable Operations",
+          "topics": "Safety management in metro systems, occupational and passenger safety, emergency preparedness and response, fire and life safety, evacuation and disaster management, tunnel and underground emergency considerations, risk assessment, incident investigation, cybersecurity awareness, energy and water conservation, regenerative braking, environmental management, resilience and sustainable metro operations.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HMC 451CVL",
+      "title": "Advanced Metro Construction Technologies",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Metro Viaduct and Foundation Construction",
+          "topics": "Introduction to metro viaduct systems and construction sequence, types of metro viaducts, pier and pier -cap construction, pile and pile-cap construction for metro structures, bored cast-in-situ piles, pile integrity testing, foundation construction in cong ested urban areas, construction of piers and pier caps, reinforcement and concreting practices, precast and cast-in-situ construction, segmental viaduct construction, quality control and inspection of metro viaduct components.",
+          "hours": 9
+        },
+        {
+          "title": "Precast and Segmental Construction Technology",
+          "topics": "Concept of precast construction in metro projects, precast segment production, casting yards and their planning, reinforcement and prestressing arrangements, mould systems, concrete production and quality control, segment curing and storage, segment transportation, erection of precast segments, launching girder technology, span-by-span construction, balanced cantilever construction, erection sequence, segment matching and epoxy joints, stressing operations, grouting and inspection, advantages and limitations of segmental construction.",
+          "hours": 9
+        },
+        {
+          "title": "Underground Metro and Tunnel Construction",
+          "topics": "Introduction to underground metro construction, cut-and-cover method, top-down and bottom-up construction methods, tunneling methods for urban metro projects, Tunnel Boring Machine (TBM) – components, working principle and types, Earth Pressure Balance TBM, slurry TBM, tunnel excavation and muck disposal, tunnel segmental lining, ring construction, tail sealing and gro uting, New Austrian Tunneling Method (NATM), primary and secondary lining, ground improvement, face stability, groundwater control and settlement control in urban tunneling.",
+          "hours": 9
+        },
+        {
+          "title": "Construction Equipment, Instrumentation and Monitoring",
+          "topics": "Selection and planning of construction equipment for metro projects, cranes, batching plants, transit mixers, concrete pumps, launching girders, piling rigs, TBMs and tunnel support equipment, equipment productivity, equipment maintenance and safety. Instrumentation and monitoring of metro structures, settlement monitoring, lateral movement monitoring, vibration monitoring, crack monitoring, inclinometer, extensometer, piezometer and strain measurement, structural health monitoring, instrumentation during t unneling and excavation, monitoring of adjacent buildings and utilities, data interpretation and response mechanisms.",
+          "hours": 9
+        },
+        {
+          "title": "Quality, Safety and Sustainable Metro Construction",
+          "topics": "Quality management in metro construction, inspection and testing of concrete, reinforcement, piles, segments and structural components, quality assurance and quality control procedures, construction safety management, work-zone safety, lifting and erection safety, confined -space safety, tunneling hazards, fire and emerg ency management, occupational health and safety. Environmental aspects of metro construction, construction dust and noise control, vibration management, groundwater protection, construction and demolition waste management, recycling and reuse of construction materials, energy-efficient construction practices, sustainable construction technologies, green metro infrastructure and case studies of sustainable metro construction.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HMC 452CVL",
+      "title": "Advanced Metro Construction Technologies Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

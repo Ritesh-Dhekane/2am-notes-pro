@@ -1,0 +1,222 @@
+{
+  "id": "1-double-minor-1-electrical-engg-em",
+  "kind": "programme",
+  "programme": "Double Minor in Electrical Maintenance, Safety and Reliability",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DMEM301ELE",
+      "title": "Fundamentals of Electrical Systems and Safety",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Electrical Engineering",
+          "topics": "Introduction to electrical engineering and its applications, Basic electrical quantities: Voltage, Current, Resistance, Power and Energy, Ohm's Law and Kirchhoff's Laws, Series and parallel DC circuits, AC fundamentals: RMS value, frequency, power factor (concept only), Electrical power generation, transmission and distribution overview, Single-phase and three-phase supply systems, Introduction to electrical equipment used in industries and building",
+          "hours": 8
+        },
+        {
+          "title": "Electrical Equipment and Power Distribution",
+          "topics": "Construction and working principles of transformers, Introduction to DC and AC motors, Industrial generators and alternators (overview), Electrical cables and conductors, Switchgear and control gear, Distribution boards and panel boards, Electrical distribution systems in residential and industrial buildings, Introduction to electrical load estimation",
+          "hours": 8
+        },
+        {
+          "title": "Electrical Installations, Earthing and Protection",
+          "topics": "Fundamentals of electrical installations, Types of electrical wiring systems, Electrical symbols and single-line diagrams, Earthing and grounding concepts, Types of earthing systems, Protective devices: Fuse, MCB, MCCB, RCCB, ELCB and Surge Protection Device (SPD), Introduction to circuit breakers, Inspection and testing of electrical installations",
+          "hours": 8
+        },
+        {
+          "title": "Electrical Safety Practices",
+          "topics": "Electrical hazards and accident mechanisms, Effects of electric shock on the human body, Arc flash and arc blast awareness, Personal Protective Equipment (PPE), Lock-Out Tag-Out (LOTO) procedures, Safe operation of electrical equipment, Fire hazards due to electricity and electrical fire extinguishers, Electrical safety standards and regulations (IS, IEC, IEEE, OSHA overview)",
+          "hours": 8
+        },
+        {
+          "title": "Electrical Safety Inspection and Reliability Basics",
+          "topics": "Safety inspection of electrical installations, Preventive measures for electrical accidents, Electrical maintenance documentation, Introduction to reliability and availability, Failure causes of electrical equipment, Electrical safety audit (overview), Energy-efficient and safe electrical practices, Case studies on electrical accidents and lessons learned",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEM302ELE",
+      "title": "Fundamentals of Electrical Systems and Safety Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        6,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "DMEM351ELE",
+      "title": "Electrical Equipment Maintenance Practices",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction to Electrical Equipment and Maintenance",
+          "topics": "Importance of maintenance in electrical systems, Types of maintenance: Breakdown, Preventive, Predictive and Condition-Based Maintenance, Maintenance planning and scheduling, Maintenance documentation and work permits, Common electrical equipment used in industries, Maintenance tools and testing instruments, Electrical maintenance safety practices, Introduction to maintenance standards",
+          "hours": 8
+        },
+        {
+          "title": "Maintenance of Electrical Machines",
+          "topics": "Construction and applications of DC and AC motors, Common motor failures and their causes, Inspection and routine maintenance of induction motors, Bearing lubrication and replacement, Motor alignment and vibration checks, Insulation resistance measurement, Motor troubleshooting techniques, Good maintenance practices",
+          "hours": 8
+        },
+        {
+          "title": "Maintenance of Transformers, Switchgear and Distribution Equipment",
+          "topics": "Transformer construction and routine maintenance, Transformer oil inspection and testing (overview), Bushings and cooling systems, Maintenance of switchgear and circuit breakers, Maintenance of contactors and relays, Distribution boards and electrical panels, Cable inspection and termination practices, Thermal inspection of electrical panels (overview)",
+          "hours": 8
+        },
+        {
+          "title": "Maintenance of Batteries, UPS and Lighting Systems",
+          "topics": "Types of batteries used in electrical installations, Battery maintenance and charging practices, Battery testing and replacement criteria, Maintenance of UPS systems, Emergency lighting systems, Indoor and outdoor lighting maintenance, LED lighting systems, Energy-efficient maintenance practices",
+          "hours": 8
+        },
+        {
+          "title": "Inspection, Testing and Maintenance Management",
+          "topics": "Visual inspection techniques, Preventive maintenance checklists, Electrical testing instruments, Insulation resistance testing, Continuity testing, Earth resistance testing, Preparation of maintenance reports, Case studies on electrical equipment failures",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEM352ELE",
+      "title": "Electrical Maintenance Practices Laboratory",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        10,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "DMEM401ELE",
+      "title": "Industrial Electrical Safety and Reliability",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Industrial Electrical Safety",
+          "topics": "Introduction to industrial electrical safety, Electrical hazards and accident mechanisms, Effects of electric shock on the human body, Arc flash and arc blast hazards, Personal Protective Equipment (PPE), Electrical safety signs and symbols, Safe work permits, Electrical safety culture in industries",
+          "hours": 8
+        },
+        {
+          "title": "Electrical Protection and Industrial Safety Practices",
+          "topics": "Protective devices used in industries, MCB, MCCB, RCCB, ELCB, ACB, Protective relays (introduction), Earthing and bonding, Lock-Out Tag-Out (LOTO), Isolation procedures, Electrical fire hazards, Fire detection and fire extinguishers",
+          "hours": 8
+        },
+        {
+          "title": "Reliability Engineering Fundamentals",
+          "topics": "Introduction to reliability engineering, Reliability and failure concepts, Availability and maintainability, Failure rate and Mean Time Between Failures (MTBF), Mean Time To Repair (MTTR), Failure modes of electrical equipment, Reliability improvement techniques, Case studies",
+          "hours": 8
+        },
+        {
+          "title": "Condition Monitoring and Safety Audit",
+          "topics": "Importance of condition monitoring, Visual inspection techniques, Insulation resistance testing, Thermal imaging (overview), Vibration monitoring (overview), Electrical safety audit procedure, Hazard identification, Preparation of inspection reports",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Standards, Regulations and Best Practices",
+          "topics": "Indian Electricity Rules (overview), Central Electricity Authority (CEA) Safety Regulations (overview), IS and IEC standards for electrical safety, IEEE safety recommendations, OSHA guidelines (overview), Safety management systems, Reliability-centred maintenance (RCM) introduction, Industrial case studies on electrical safety and reliability",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEM406ELE",
+      "title": "Industrial Electrical Safety and Reliability Laboratory",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "DMEM451ELE",
+      "title": "Predictive Maintenance and Asset Management",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Predictive Maintenance",
+          "topics": "Introduction to predictive maintenance, Evolution of maintenance strategies, Preventive vs. Predictive vs. Condition-Based Maintenance, Maintenance performance indicators, Equipment failure mechanisms, Equipment life cycle, Reliability and availability concepts, Benefits and challenges of predictive maintenance",
+          "hours": 8
+        },
+        {
+          "title": "Condition Monitoring Techniques",
+          "topics": "Fundamentals of condition monitoring, Visual inspection techniques, Temperature monitoring, Infrared thermography, Vibration monitoring (overview), Acoustic monitoring, Insulation resistance monitoring, Online and offline monitoring techniques",
+          "hours": 8
+        },
+        {
+          "title": "Asset Management of Electrical Systems",
+          "topics": "Fundamentals of asset management, Asset life-cycle management, Asset register and documentation, Asset criticality assessment, Risk-based maintenance, Spare parts management, Maintenance budgeting, Asset performance evaluation",
+          "hours": 8
+        },
+        {
+          "title": "Digital Technologies for Predictive Maintenance",
+          "topics": "IoT-enabled condition monitoring, Smart sensors for equipment monitoring, Cloud-based maintenance systems, Introduction to Artificial Intelligence in maintenance, Data acquisition and analytics, Predictive maintenance dashboards, Digital twins (overview), Industry 4.0 applications in maintenance",
+          "hours": 8
+        },
+        {
+          "title": "Maintenance Planning and Case Studies",
+          "topics": "Computerized Maintenance Management Systems (CMMS), Maintenance scheduling and planning, Maintenance Key Performance Indicators (KPIs), Reliability-Centered Maintenance (RCM), Total Productive Maintenance (TPM), Asset management standards (ISO 55000 overview), Industrial case studies, Future trends in intelligent maintenance",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DMEM452ELE",
+      "title": "Predictive Maintenance and Asset Management Laboratory",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "DMEM453ELE",
+      "title": "Double Minor Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        20,
+        23
+      ],
+      "units": []
+    }
+  ],
+  "notes": "In structure table on page 3 course code is DMEM402ELE but syllabus heading on page 14 lists DMEM406ELE."
+}
