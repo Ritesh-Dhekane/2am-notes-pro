@@ -1,0 +1,559 @@
+{
+  "id": "se-cse-data-science-2024-pattern-08052026",
+  "kind": "programme",
+  "programme": "SE - Second Year Engineering (2024 Pattern) in Computer Science and Engineering (Data Science)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-CDS",
+      "title": "Data Structures and Algorithms",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures & Algorithms",
+          "topics": "Introduction: Introduction to data, Difference between Data and Information, need of Data structure, Definition of Data Structure, ADT, Types of Data Structure. Algorithms: Frequency count and its importance in analysis of an algorithm, Time complexity & Space complexity of an algorithm Big ’O’, ‘Ω’ and ’Θ’ notations. Algorithmic Strategies: Introduction to algorithm design strategies- Divide and Conquer, and Greedy strategy . Se- quential Organization: Single and multidimensional array and address calculation, Sparse matrix representation using array . Linked Organization: Introduction to linked organization, Singly Linked List, Doubly Linked List, Circular Linked List. Linked Organization: Concept of linked organization, Singly Linked List, Doubly Linked List, Circular Linked List (Operations: Create, Display , Search, Insert, Delete) Case Study:Study use of sparse matrix in Social Networks and Maps. Study how Economists use polynomials to model economic growth patterns, how medical researchers use them to describe the behavior of Covid-19 virus",
+          "hours": 9
+        },
+        {
+          "title": "Searching and Sorting",
+          "topics": "Searching: Introduction to Searching, Search Technique- Sequential Search, Sentinel Search, Binary Search,Fibonacci Search, and Indexed Sequential Search. Sorting: Introduction to Sorting, Sort Concepts-Sort Order, Stability , Efficiency , and Number of Passes, Comparison Based Sorting Methods-Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Shell Sort, Non- comparison Based Sorting Methods- Radix Sort, Counting Sort, and Bucket Sort, Comparison of All Sorting Methods and their complexities. Case Study :Use of Fibonacci search in non-uniform access memory storage and in Optimization of Unimodal Functions. Timesort as a hybrid stable sorting algorithm.",
+          "hours": 9
+        },
+        {
+          "title": "Stack & Queue",
+          "topics": "Stack: Concept of stack, Concept of implicit and explicit stack, stack as an ADT using sequential and linked organization, Applications of stack: recursion, converting expressions from infix to postfix or prefix form, evaluating postfix or prefix form. Queue: Concept of queues as ADT, Implementation of queue using array and linked organization, Concept of circular queue, double ended queue, Applications of queue: priority Case study: Reversing a string, balanced parentheses in algebraic expressions, Towers of Hanoi problem, double ended queue as Stack and Queue",
+          "hours": 9
+        },
+        {
+          "title": "Trees and Graph",
+          "topics": "Tree- Basic terminology , General tree and its representation, Binary tree- properties, converting tree to binary tree, binary tree traversals (recursive and non-recursive)- Inorder, preorder, post order, depth first and breadth first, Operations on binary tree, Binary Search Tree (BST), BST operations, threaded binary search treeconcepts, threading, insertion and deletion of nodes in inorder threaded binary search tree, in order traversal of in-order threaded binary search tree. Graph - Basic Concepts, Storage representation, Adjacency matrix, adjacency list, adjacency multi list, inverse adja- cency list. Traversals-depth first and breadth first, Minimum spanning Tree, Greedy algorithms for computing minimum spanning tree-Prims and Kruskal Algorithms, Dijkstra’s Single source shortest path, All pairs shortest pathsFlyod-Warshall Algorithm Topological ordering. Case study : Use of binary tree in expression tree-evaluation and Huffman’s coding, Data structure used in Web graph and Google map",
+          "hours": 9
+        },
+        {
+          "title": "Hashing and Indexing",
+          "topics": "Hashing: Introduction to hash tables, basic concepts, hash function, characteristics of a good hash function, key-to- address transformation techniques, synonyms or collisions, collision resolution techniques: linear probing, quadratic probing, rehashing, chaining with and without replacement. File: Introduction to files, file types and file organization, sequential access, index sequential access, direct access, comparison of different file organizations. Case study: What are the advantages of binary tree and binary search in Files.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-CDS",
+      "title": "Computer Graphics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction and Overview of Graphics System",
+          "topics": "Introduction to computer graphics primitives: Pixel, Resolution, Aspect ratio, Frame buffer, Applications of computer graphics, Random scan display , Raster scan display . Display Devices: OLED, Micro-OLED, Active Matrix OLED (AMOLED), Quantum Dot (QLED) Scan conversion: Line drawing algorithms: Digital Differential Analyzer (DDA), Bresenham Circle drawing algorithms: DDA, Bresenham, and Midpoint. Introduction to aliasing and anti-aliasing. Case Study: Use of DDA Algorithm in Robotics and Path Planning.",
+          "hours": 9
+        },
+        {
+          "title": "Polygons and Clipping",
+          "topics": "Polygons: Representation of polygon and its types: convex, concave and complex, Inside Test Polygon filling methods: Seed Fill – Flood fill and Boundary Fill, Scan-line Fill algorithms Windowing: Concept of window and viewport, viewing transformations Clipping: Point clipping, Cohen Sutherland line clipping algorithm, Sutherland Hodgeman polygon clipping algorithm, Weiler Atherton polygon clipping algorithm. Case Study: Study Guard clipping Techniques and its use in various rendering softwares, use 3D polygonal modelling and applications.",
+          "hours": 9
+        },
+        {
+          "title": "Geometric Transformations",
+          "topics": "2D Transformations: Translation, Rotation, Scaling, Mirroring and Shearing, Homogeneous coordinate system, Com- posite transformations, Rotation about an arbitrary point. 3D Transformation: Translation, Scaling, Rotation about X, Y, Z & arbitrary axis reflection about XY, YZ, XZ plane. Projection: Parallel and Perspective Projections. Case Study:Study the use of 3D Geometric Transformations in Gaming.",
+          "hours": 9
+        },
+        {
+          "title": "Curves, Fractals and Animation",
+          "topics": "Curves: Introduction, Bezier curves, B-Splines Fractals: Introduction, Classification, Fractal Dimension, Fractal surfaces, Hilbert curve, Koch Curve Animation: Basics of animation, types of animation, principles of animation Animation Tool: Introduction to Blender, design of animation sequences, key frame, morphing, motion specification. Methods of controlling animation, frame-by-frame animation techniques. Case Study: Designing a Smooth Car Path using Bezier and B-Spline curves.",
+          "hours": 9
+        },
+        {
+          "title": "Graphics and Interactive Systems Development with OpenGL and Unity",
+          "topics": "OpenGL: Introduction Graphics function, OpenGL Interface, primitives and attributes, Control functions, programming events. Introducing Unity : Game Engine Concept, Unity Development Environment, Introduction to Scripting, am Simple Movement and Input, Simple Rotation and Scaling, Creating and Destroying Objects, Introduction to AR And VR, Pub- lishing Games. Case Study : Design Simple 2D Platformer Game in Unity .",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-CDS",
+      "title": "Data Storytelling and Visualization",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to data storytelling",
+          "topics": "Need of storytelling, the psychology and anatomy of storytelling, how data is communicated, understanding the target audience, impact of storytelling, exploring and discovering data, ethics in data storytelling, case studies- Industry-specific Data Stories- Healthcare, finance, marketing, E-commerce, Science, Social Media, Case Study: 1. Discussion on Public opinion shaping in politics, Urban planning, and transportation. 2. Understanding Urban Mobility Patterns: A Data Storytelling Challenge",
+          "hours": 6
+        },
+        {
+          "title": "Designing and delivering the storyline",
+          "topics": "Capturing the insights, valuable insights, focus of data points, evaluation of the data for better insights, defining the structure of the storyline, creation of the storyline for analysis, Format of the story , determining best visualization, se- lection of appropriate design, Ways of delivering the storyline, the narration, visuals: setting the scenes, polishing the scenes, Challenges and opportunities in different industries for Data Storytelling Case Study : 1. Discussion on Social media sentiment analysis, Geographic data visualization for disaster response. 2. Designing and Delivering the Storyline for Reducing Energy Consumption .",
+          "hours": 6
+        },
+        {
+          "title": "Foundations of Data Visualization",
+          "topics": "Data Pre-processing, Overview of Data Visualization, Need of data visualization, The Human Brain and Data Visual- ization, The Shapes of Data, Inputs for data visualization, Types of Visualizations: Cognitive vs Perceptual. Design Distinction, Examples of the Types of Visualizations, 5 big data visualization categories: temporal, hierarchical, network, multidimensional and geospatial, Practicing Good Ethics in Data Visualization, Ineffective Visuals and How to Improve Them, Principles of Visual Perception, Color as a Pre-Attentive Attribute, Strategic Use of Contrast, Tools for Visualizing: PowerBI, Tableau etc., Real-world Data Visualization Projects-Success stories, Innovations and trends in data visualization using different tools, case study . Case study: 1. Discussion on Customer churn prediction in telecommunications, Financial market dashboard analysis, Public health communication during pandemics. 2. Building a Clear COVID-19 Data Dashboard: Applying the Foundations of Data Visualization.",
+          "hours": 6
+        },
+        {
+          "title": "Best Practices of Data Visualization",
+          "topics": "Gestalt Principle: Proximity , Accessible Visualizations, Aesthetic, Design and Exploratory Analysis Introduction, Ex- ploratory and Explanatory Analysis, Data, Relationships and Design Static Versus Interactive Visualizations, Bringing everything together in a dashboard, Moving from Foundational to Advanced Visualizations: Bar charts, Gantt charts, Stacked bars, Tree maps, Area charts, Pie charts; Visualizing distributions: Circle charts, Jittering, Box and whisker plots, Histograms, Future Trends in Data Storytelling & Visualization Case study : 1. Discussion on Social network analysis, Customer segmentation in e- commerce, Project management dashboard. 2. Redesigning Hospital Performance Dashboards Using Best Practices in Data Visualization",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Visualization Techniques",
+          "topics": "Geospatial Visualization Mapping data- Using GIS tools and libraries, Network and Graph Visualization, Visualizing relationships and connections- Node-link diagrams, matrix plots etc., Temporal Visualization, Time-series analysis and visualization, Animation and dynamic visualizations, Hierarchical and Tree Visualization Tree maps, dendrograms, etc. Representing hierarchical structures- Multidimensional Visualization, Parallel coordinates, radar charts, etc. Visualizing high-dimensional data- Text and Sentiment Visualization, Word clouds, sentiment analysis, visual- izing textual data- Dashboard Design and Development, designing interactive dashboards, User experience and usability considerations, Emerging Technologies in Data Visualization- Virtual reality , augmented reality , AI and machine learning in visualization. Case study: 1. Environmental monitoring and conservation, Epidemiological analysis and disease surveillance. 2. Visualizing Climate Change Patterns Using Advanced Techniques.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-205-CDS",
+      "title": "Data Structures and Algorithms Laboratory",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        22,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-206-CDS",
+      "title": "Computer Graphics Laboratory",
+      "semester": 3,
+      "type": "Program Core Courses",
+      "credits": 1,
+      "pages": [
+        27,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-CDS",
+      "title": "Digital Electronics and Logic Design",
+      "semester": 3,
+      "type": "Multi disciplinary Minor",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Minimization Technique",
+          "topics": "Logic Design Minimization Technique: Minimization of Boolean function using K-map (up to 4 variables) and Quine Mc- Clusky Method, Representation of signed number- sign magnitude representation ,1’s complement and 2’s complement form, Sum of product and Product of sum form, Minimization of SOP and POS using K-map. Case Study: Digital locks using logic gate",
+          "hours": 6
+        },
+        {
+          "title": "Combinational Logic Design",
+          "topics": "Code converter-: BCD, Excess-3, Gray code, Binary Code. Half- Adder, Full Adder, Half Subtractor, Full Subtractor, Binary Adder (IC 7483), BCD adder, Look ahead carry generator, Multiplexers (MUX): MUX (IC 74153, 74151), Cascading multiplexers, Demultiplexers (DEMUX)- Decoder (IC 74138, IC 74154), Implementation of SOP and POS using MUX, DMUX, Comparators (2 bit), Parity generators and Checker. Case Study :Combinational Logic Design of BCD to 7-segment display Controller",
+          "hours": 6
+        },
+        {
+          "title": "Sequential Logic Design",
+          "topics": "Flip-Flop: SR, JK, D, T, Master Slave JK Flip Flops, Truth Tables and Excitation tables, Conversion from one type to another type of Flop-Flop. Registers: SISO, SIPO, PISO, PIPO, Shift Registers, Bidirectional Shift Register, Ring Counter, Counters: Asynchronous Counter, Synchronous Counter, BCD Counter, JohnsonCounter, Modulus of the counter (IC 7490), Synchronous Sequential Circuit Design :Models- Moore and Mealy , State diagram and State Table ,Design Proce- dure, Sequence Generator and detector. Case study: Electronic Voting Machine",
+          "hours": 6
+        },
+        {
+          "title": "Algorithmic State Machines and PLDs",
+          "topics": "Algorithmic State Machines: Finite State Machines (FSM) and ASM, ASM charts, notations, construction of ASM chart and realization for sequential circuits. PLDS : PLD, ROM as PLD, Programmable Logic Array (PLA), Programmable Array Logic (PAL), Designing combinational circuits using PLDs. Case Study : Wave form generator using MUX controller method",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Computer Architecture",
+          "topics": "Introduction to Ideal Microprocessor – Data Bus, Address Bus, Control Bus. Microprocessor based Systems – Basic Operation, Microprocessor operation, Block Diagram of Microprocessor. Functional Units of Microprocessor – ALU using IC 74181, Basic Arithmetic operations using ALU IC 74181, 4-bit Multiplier circuit using ALU and shift registers. Memory Organization and Operations, digital circuit using decoder and registers for memory operations Case study : Microprocessor based system in real-time milk collection system",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-CDS",
+      "title": "Entrepreneurship Development",
+      "semester": 3,
+      "type": "Entrepreneurship Management",
+      "credits": 2,
+      "pages": [
+        32,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "Entrepreneurship: Definition and evolution, Role of entrepreneurship in economic development Role of entrepreneurship in economic development – Role in job creation, GDP, and innovation. Characteristics of an Entrepreneur: Key traits: Risk-taking, innovation, pro-activeness, Leadership, perseverance, and resilience Types of Entrepreneurships: Startup entrepreneurship, Social entrepreneurship, Intrapreneurship (corporate entrepreneur- ship), Lifestyle and small business entrepreneurship, Forms of Business Organization – Sole proprietorship, partnership, private limited, public limited. Entrepreneurial Mindset: Growth mindset and adaptability , Creativity and problem-solving, Opportunity recognition and initiative-taking Overview of the Startup Ecosystem: Key stakeholders: Incubators, accelerators, angel investors, VCs, Government sup- port schemes (Startup India, Atal Innovation Mission, etc.), Global vs. Indian startup ecosystems Case Study: 1. Ritesh Agarwal – Founder of OYO Rooms (India) 2. Falguni Nayar – Founder of Nykaa (India) 3. Nandan Nilekani – Co-founder of Infosys & Architect of Aadhaar (India) etc.",
+          "hours": null
+        },
+        {
+          "title": "Idea Generation & Opportunity Recognition",
+          "topics": "Creativity Techniques for Idea Generation: Definition and importance of creativity in entrepreneurship. Brainstorming: Rules of effective brainstorming. Individual vs. group brainstorming. Mind Mapping: Visual idea structuring using central themes and branches. Tools (manual and digital) for mind mapping. Understanding Customer Needs and Pain Points: Customer pain points and their identification, Problem-solution fit: Linking pain points to possible solutions. Observational techniques, user interviews, and empathy mapping. Evaluating Opportunities: Difference between an “idea” and an “opportunity .” Basic filters: Desirability , feasibility , and viability . Tools: SWOT Analysis, Opportunity Matrix, Industry trends, market gaps. Feasibility Analysis Basics: Market Need Assessment: about the users, the problem complexity . Scalability Check: Geo- graphically or vertically growth of the idea, Barriers to scaling. Introduction to the “Lean Canvas”. Case Study : Analyzing how “Dunzo” or “BigBasket” identified urban pain points and How “Zerodha” scaled in India with a digital-first approach",
+          "hours": null
+        },
+        {
+          "title": "Business Model Development",
+          "topics": "Introduction to Business Model Canvas: Definition and purpose of a business model, Overview of the Business Model Canvas by Osterwalder, Benefits of using BMC for startups. Key Components of BMC: Value Proposition: Defining what unique value the product/service offers. Addressing customer pain points. Customer Segments: Identifying target customers. Creating customer personas Revenue Models: Direct sales, subscriptions, freemium, licensing, etc. Basic Market Research for Validation: Importance of market research in early-stage business development. Designing effective surveys and customer feedback forms. Conducting basic interviews and analyzing responses. Introduction to MVP (Minimum Viable Product) and feedback loops. Case Study: Map the BMC for a well-known startup (e.g., Uber or Zomato).",
+          "hours": null
+        },
+        {
+          "title": "Marketing Strategies & Customer Acquisition",
+          "topics": "Basics of Branding and Positioning: Introduction to Brand – Elements of brand identity: name, logo, voice, tone, and values. Positioning – How to create a unique space in the customer’s mind. Positioning maps, Value-based positioning vs. competitor-based positioning Startup Branding Challenges – Limited budget, building trust, clarity in messaging. Costing & Pricing Strategies – Fixed vs. variable costs, break-even analysis. Introduction to Digital Marketing: Distribution Channels: Traditional vs. digital distribution. Social Media Marketing: Platforms overview (Instagram, LinkedIn, Facebook, X/Twitter) Creating a content strategy and calendar Organic vs. paid reach Search Engine Optimization (SEO): Basics of how search engines work, Keyword research and content optimization, On-page vs. off-page SEO Importance of Digital Presence – Website essentials, blogs, and analytics tools. Customer Acquisition Strategies: Understanding the Customer Journey – Awareness, interest, decision, action. Early- Stage Customer Acquisition Tactics: Word-of-mouth & referrals, Influencer marketing (micro-influencers), Email market- ing basics, building a landing page and collecting leads Retention vs.",
+          "hours": null
+        },
+        {
+          "title": "Pitching & Business Communication",
+          "topics": "Crafting an Elevator Pitch: Definition and purpose, Key elements: Problem, solution, value proposition, target audience, Delivery tips: Clarity , brevity , confidence Storytelling & Communication: Importance of Storytelling in Business, Structure of a Business Story: Setup, Conflict, Resolution. Communication Skills: Verbal and Non-verbal Overview of Funding Sources: Public & private capital sources, venture capital, debt financing. Bootstrapping: Meaning, benefits, and risks, Angel investors: Role, expectations, approach, Brief on incubators, government schemes, crowdfund- ing. Case study: 1. Shark Tank India – Pitch Analysis (Any Season) 2. Airbnb – The Original Pitch Deck 3. Dropbox – Storytelling Through Demonstration 4. Dunzo – Investor Pitch Evolution",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-CDS",
+      "title": "Universal Human Values and Professional Ethics",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        36,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self-exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment (iv) Right Understanding, Relationship and Physical Facility (v) Happiness and Prosperity - Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "(i) Understanding Human being as the Co-existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Programme to Ensure self-regulation and Health",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship (ii) ’Respect’ - as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order Unit IV -Harmony in the Nature (Existence) (03 Hours) (i) Understanding Harmony in the Nature (ii) Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co-existence at All Levels (iv) The Holistic Perception of Harmony in Existence. (v)Professional Ethics in the light of Right Understanding (vi) Strategies for Transition towards Value-based Life and Profession",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "CEF-241-CDS",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        40,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-CDS",
+      "title": "Database Management systems",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database Management System",
+          "topics": "Introduction to Database Management Systems, Purpose of Database Systems, Database-System Applications, View of Data, Database Languages, Database System Structure, Enterprise Constraints Data Models, Database Design and ER Model: Entity , Attributes, Relationships, Constraints, Keys, Design Process, Entity Relationship Model, ER Diagram, Design Issues, Extended E-R Features, Converting E-R & EER diagram into tables. Case Study: Study of Architecture of any DBMS like Oracle or MySQL. Design a database schema for any problem given in previous Question Papers.",
+          "hours": 9
+        },
+        {
+          "title": "SQL and PL/SQL",
+          "topics": "SQL: DDL, DML, Select Queries, String, Date and Numerical Functions, Aggregate Functions ,View, Indexes, Group by and Having Clause, Join Queries, Set, Set operation, Set membership, Nested queries, DCL, TCL PL/SQL: Control Statement, Cursor, Stored Procedure and Function, Trigger Case Study : Design and implement a Student Course Management System using SQL and PL/SQL to manage students, courses, and faculty members efficiently . The system should store and retrieve relevant data, ensuring integrity , security , and performance optimization.",
+          "hours": 9
+        },
+        {
+          "title": "Relational Database Design",
+          "topics": "Relational Model: Basic concepts, Attributes and Domains, CODD’s Rules, Relational Integrity , Referential Integrities, Database Design: Features of Good Relational Designs, Normalization, Atomic Domains and First Normal Form, Decom- position using Functional Dependencies, 2NF, 3NF, BCNF. Case study: Design and Optimization of a Relational Database for a University Management System",
+          "hours": 9
+        },
+        {
+          "title": "Database Transactions",
+          "topics": "Basic concept of a Transaction, Transaction Management, Properties of Transactions, ACID, Concept of Schedule, Serial Schedule, Serializability: Conflict and View, Cascaded Aborts, Recoverable and Non-recoverable Schedules, Concurrency Control: Need, Locking Methods. Case study : Design Online Shopping Cart Transaction Management In an e-commerce platform, multiple users si- multaneously add, update, and purchase products. To ensure data consistency and reliability , the system must handle concurrent transactions effectively .",
+          "hours": 9
+        },
+        {
+          "title": "NoSQL Database",
+          "topics": "Introduction to NoSQL Database, NoSQL data models, CAP theorem and BASE Properties, Comparative study of SQL and NoSQL, MongoDB: CRUD Operations, Indexing and Aggregation. Case study: Study NoSQL Database Selection for a Social Media Platform.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-CDS",
+      "title": "System Programming and Operating System",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction to Systems Programming, Need of systems programming, Software Hierarchy , Types of software: system software and application software, Machine structure. Evolution of components of systems programming: Text Editors, Assembler, Macros, Compiler, Interpreter, Loader, Linker, Debugger, Device Drivers, Operating System. Elements of Assembly Language Programming: Assembly Language statements, Benefits of Assembly Language, A simple Assembly scheme, Pass Structure of Assembler. Case studies: Study of Debugging tools like GDB",
+          "hours": 6
+        },
+        {
+          "title": "Compilers and Loaders",
+          "topics": "Introduction to Compilers: Phases of Compiler with example, Comparison of compiler and Interpreter. Loader schemes: Compile and Go, General Loader Scheme, Absolute Loaders, Subroutine Linkages, Relocating Loaders, Direct linking Loaders, Overlay structure, Design of an Absolute Loader, Design of Direct linking Loader, Self-relocating programs, Static and Dynamic linking. Cast Studies - Study the concepts of Class loading in Java .",
+          "hours": 6
+        },
+        {
+          "title": "Overview, Processes & Threads",
+          "topics": "Operating System (OS) Objectives, Evolution, Types, Major Achievements, Modern Operating Systems, Virtual Machines. Process Concept, Process States, Process Description, Process Control Block, PCB as a Data Structure in Contemporary Operating Systems, Process Hierarchy , Processes vs Threads, Types of Threads. Case Studies - Linux & Windows Process and Thread Management and its Related System Calls.",
+          "hours": 6
+        },
+        {
+          "title": "Concurrency & Scheduling",
+          "topics": "Concurrency: Principles of Concurrency , Mutual Exclusion, Semaphores, Monitors, Message Passing, Readers/Writers Problem. Scheduling: Uniprocessor Scheduling: Long Term Scheduling, Medium Term Scheduling, Short Term Scheduling, Schedul- ing Algorithms: Short Term Scheduling Criteria, Use of Priorities, Alternative Scheduling Policies, Performance Comparison, Fair-Share Scheduling. Case study : Linux & Windows Scheduling",
+          "hours": 6
+        },
+        {
+          "title": "Memory & File Management",
+          "topics": "Memory Management: Memory Hierarchy , Static and Dynamic Memory Allocation, Overview of Swapping, Multiple Partitions, Contiguous and Non-Contiguous Memory Allocation, Placement Strategies: First Fit, Best Fit, Next Fit and Worst Fit. Virtual Memory (VM): Concepts, Swapping, VM with Paging, Page Table Structure. Page Replacement Policies: First In First Out (FIFO), Least Recently Used (LRU) and Optimal. File Management: Overview of Files & File Systems, File Structure, File Management Systems, File Organisation and Access, File Directories, File Sharing. Case Studies - Linux & Windows File System",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-CDS",
+      "title": "Mathematical Foundation for Data Science",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Introduction to Probability and Set Theory",
+          "topics": "Basics of set Theory: Introduction to sets and algebra of sets, Random Experiment, Sample Space, Events, Complemen- tary Events, Union and Intersection of Two Events, Difference Events, Exhaustive Events, Mutually Exclusive Events, Equally Likely Events, Independent Events. Probability Theory: Mathematical & Statistical definition of Probability , Need of probability theory in Data science, Axiomatic definition of probability , Addition Theorem, Multiplication Theorem, Theorems of Probability , Conditional Probability , Inverse Probability , Joint Probability , Total Probability and Bayes Theorem Case studies: 1. How probability is used in real-life situations regularly . Ex: Weather Forecasting, Sports Betting, etc. 2. Case Study: Given past data on fraudulent and non-fraudulent transactions, Explore how Bayes’ Theorem can be applied to update the probability of fraud based on new evidence",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Statistics",
+          "topics": "Introduction to Statistics: Introduction, Origin and Development and scope of Statistics, Population and Sample, Sam- pling –Introduction, Types of Sampling, Purposive Sampling, Random Sampling, Simple Sampling, Stratified Sampling, Parameter and Statistic, Sampling Distribution, Sampling With and Without Replacement, Population Parameters, Sample Statistics: Introduction, Arithmetic Mean, Simple and weighted for raw data, Discrete frequency distribution, Continuous frequency distribution, Properties of A.M., Merits & Demerits of A.M.,Median for raw data, Merits and de- merits of Median, Mode for raw data, Merits & demerits of mode. Cast Study 1. Create Measures of central tendency for a real life example dataset like the payroll dataset or titanic dataset etc. 2. Case study of sampling for any real-world problem like exit poll statistics",
+          "hours": 9
+        },
+        {
+          "title": "Descriptive Statistics",
+          "topics": "Measures of Dispersion, Skewness and Kurtosis: Dispersion, Characteristics for an Ideal Measure of Dispersion, Mea- sures of Dispersion, Range, Quartile Deviation, Mean Deviation, Standard Deviation and Root Mean Square Deviation, Coefficient of Dispersion, Coefficient of Variation, Skewness, Kurtosis. Correlation and Regression: Bivariate Distribution, Scatter diagrams, Correlation, Karl Pearson’s coefficient of correla- tion, Rank correlation, Regression, Lines of Regression, Regression Coefficients. Case Study - Create measures of dispersion for a real-life example dataset like students dataset, iris detection etc.",
+          "hours": 9
+        },
+        {
+          "title": "Random Variables and Probability Distributions",
+          "topics": "Random Variables and Distribution Functions: Random Variable, Distribution Function, Properties of Distribution Function, Discrete Random Variable, Probability Mass Function, Discrete Distribution Function, Continuous Random Vari- able, Probability Density Function, moment generating function, median and quantiles, Markov inequality , Chebyshev’s inequality . Theoretical Discrete Distributions: Binomial and multinomial distributions, Bernoulli Distribution, Mean Deviation about Mean of Binomial Distribution, Mode of Binomial Distribution, Additive Property of Binomial Distribution, Charac- teristic Function of Binomial Distribution, Gaussian distribution, Log-normal distribution, Chi-square distribution. Case Study - Use Binomial distribution for the problem of reducing errors by vendors who process credit-card applications for a large credit-card bank etc.",
+          "hours": 9
+        },
+        {
+          "title": "Inferential Statistics",
+          "topics": "Hypothesis and Testing of Hypothesis:Introduction, Statistical Hypothesis (Simple and-Composite), Test of a Statistical Hypothesis, Null Hypothesis, Alternative Hypothesis, Critical Region, Two Types of Errors, level of Significance, Power of the Test. Steps in Solving Testing of Hypothesis Problem, Optimum Tests Under Different Situations, Most Powerful Test (MP Test), Uniformly Most Powerful Test, Likelihood Ratio Test, Properties of Likelihood Ratio Test. Neyman- Pearson Fundamental Lemma, Test for the Mean of a Normal Population, Test for the Equality of Means of Two Normal Populations, Test for the Variance of a Normal Population, Test for Equality of Variances of two Normal Populations, Non-parametric Methods, Advantages and Disadvantages of Non-parametric Methods. Case Study - Use Binomial distribution for the problem of reducing errors by vendors who process credit-card applications for a large credit-card bank etc.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-CDS",
+      "title": "Database Management systems Laboratory",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        54,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-CDS",
+      "title": "System Programming and Operating System Laboratory",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        51,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-CDS",
+      "title": "Internet of Things",
+      "semester": 4,
+      "type": "Multi Disciplinary Minor",
+      "credits": 2,
+      "pages": [
+        57,
+        59
+      ],
+      "units": [
+        {
+          "title": "Introduction Internet of Things",
+          "topics": "IoT: Definition and characteristics of IoT, Internet of Things: Vision, Emerging Trends, Economic Significance, Technical Building Blocks, Physical design of IoT, Things of IoT, IoT Protocols, Logical design of IoT, IoT functional blocks, IoT communication models, IoT Communication APIs, IoT enabling technologies, IoT levels and deployment templates, IoT Issues and Challenges, Applications. Case Study: Know about the great philosophers-Dirichlet",
+          "hours": 6
+        },
+        {
+          "title": "IoT Sensors and Physical Devices",
+          "topics": "Introduction, Selection Criteria for Sensors, Working and applications of sensors-IR sensor, LDR sensor, PIR motion sensor, Ultrasonic Distance Sensor, Gyro sensors, Digital Humidity and Temperature sensor, Analog to Digital Conversion, Sensor data acquisition and processing, Working and application of actuators, Servo Motors, Solenoid, Stepper Motor, DC motor, Need of Relay with actuators IoT Physical Devices and Endpoints: Basic building blocks of and IoT device, Exemplary device: Raspberry Pi, Arduino, Raspberry Pi interfaces, Programming Raspberry Pi and Arduino with Python, Other IoT Devices. Case Study : Explore various automatic appliance control systems",
+          "hours": 6
+        },
+        {
+          "title": "Pillars of IoT",
+          "topics": "Horizontal, verticals and four pillars of IoT, M2M: The internet of devices, RFID: The internet of objects, WSN: The internet of transducer, SCADA: The internet of controllers, DCM: Device, Connect and Manage, Device: Things that talk, connect: Pervasive Network, Manage: To create business values. Case study: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds",
+          "hours": 6
+        },
+        {
+          "title": "IoT Protocols and Security",
+          "topics": "Messaging Protocols: MQTT (Message Queuing Telemetry Transport), COAP (Constrained Application Protocol),HTTP (Hypertext Transfer Protocol),Comparison and selection criteria for protocols, Transport Protocols- Bluetooth Low Energy (BLE), Li-Fi, Difference between Li-Fi and Wi-Fi IoT Security: Vulnerabilities of IoT, Security Requirements, Challenges for Secure IoT, Threat Modelling, Key elements of IoT Security: Identity establishment, Access control, Data and message security , non-repudiation and availability , Security model for IoT. Case study : LoRa based Smart Irrigation System.",
+          "hours": 6
+        },
+        {
+          "title": "Web of Things and Cloud of Things",
+          "topics": "IWeb of Things versus Internet of Things, Two Pillars of the Web, Architecture Standardization for WoT, Platform Mid- dleware for WoT, Unified Multitier WoT Architecture, WoT Portals and Business Intelligence. Cloud of Things: Grid/SOA and Cloud Computing, Cloud Middleware, Cloud Standards – Cloud Providers and Systems, Mobile Cloud Computing, The Cloud of Things Architecture. Case study: Smart parking, Forest fire detection",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSE-281-CDS",
+      "title": "Object Oriented Programming (Java)",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        60,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-CDS",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        64,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-CDS",
+      "title": "Technology Commercialization and Startup",
+      "semester": 4,
+      "type": "Entrepreneurship /Economics / Management",
+      "credits": 2,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Introduction to Technology commercialization & Startup ecosystem",
+          "topics": "Introduction, Need and importance of commercialization, role of startup in technology and commercialization, challenges in technology commercialization, support systems for startups, future trends in technology . Exemplars/Case Studies : Electric car, Pharma company , Joint venture, Agriculture Exemplars/Case Studies : Electric car, Pharma company , Joint venture, Agriculture",
+          "hours": null
+        },
+        {
+          "title": "Unit-2: IPR & Legal compliance",
+          "topics": "Invention and innovation: need, benefits, intellectual property rights protection, patent drafting, procedure of IPR filing, legal policies, IT act, GST and income tax , companies act, labor law, environmental protection act. Case Study : Google search algorithm, Pepsi ingredient",
+          "hours": null
+        },
+        {
+          "title": "Registration process & Market research",
+          "topics": "Registration process: Steps to register startup with startup India, benefits of startup registration, requisites documents & information, startup eligibility criteria. Market research: Development of marketing plan, pricing concepts and pricing strategy , consumer behavior, market intelligence, marketing communication and promotional strategies. Case study: Proprietary firm- Patnajali Ayurveda, Private Limited Company-TCS, Partnership- Khaitan & Co.",
+          "hours": null
+        },
+        {
+          "title": "Costing & Funding strategy",
+          "topics": "One time cost: Need, financial components, business formation and registration, professional services , advertising, infrastructure, technology , recurring cost: rent, salaries, insurance, tax, loan, maintenance, travel and training, types of startup funding, stages of startups and source of funding, steps to startup fund raising, types of investors, investors look for in startups , investors mindset to invest in startups , startup India funding support, startup India investor connect, credit guarantee scheme for startups Case study : Rapido, Blinkit, OYO, Unacademy",
+          "hours": null
+        },
+        {
+          "title": "Growth and scaling -Go to market strategy",
+          "topics": "Growth and scaling: significance, difference, scaling key metrics, identifying target segments and personas, analyzing customer needs and competitive landscape, value propositions, unique selling points (USPs), choosing distribution chan- nels, pricing strategies, marketing, positioning plans, ansoff matrix, scaling frameworks, organic vs. inorganic growth strategies, leveraging technology , partnerships for scalability , key Performance indicators for GTM, Feedback loops and agile adaptation. Case study: Zomato’s Expansion Strategy in Tier 2 and 3 Cities , Analyze how Zomato tailored its GTM strategy to penetrate smaller markets, adjusted pricing, and adapted to local preferences. Practical Assignments 1. Choose the topic for technology commercialization for the prospect of startup. 2. Design a market research plan for identified area. 3. Create a funding proposal based on overall costing of startup 4. Creation of patent draft copy on invention. 5. Design a Go-to-Market strategy for a startup launching.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-CDS",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Environment and its issues",
+          "topics": "a) Environment Meaning of Environment, Types of Environment, Components of Environment, b) Man- Environment relationship, importance of environment, c) Need for Public Awareness d) Ecosystem-Meaning, Major Components of Ecosystem e) Case studies of Forest Ecosystem, Grassland Ecosystem, Desert Ecosystem, Aquatic Ecosystem f) Stability of Ecosystem in Sustainable Environment",
+          "hours": 7
+        },
+        {
+          "title": "Environment Pollution",
+          "topics": "a) Definition of Pollution, Types of Pollution b) Air Pollution-Meaning, Sources, effects of air pollution, Air Pollution Act c) Water Pollution Meaning, Sources, Effects of Water pollution, Water Pollution Act d) Noise Pollution Meaning, Sources, Effect of Noise Pollution e) Solid Waste Pollution Meaning, sources, Effect of Waste Pollution",
+          "hours": 7
+        },
+        {
+          "title": "E-Waste Managements and Acts",
+          "topics": "E- waste; composition and generation. Global context in e- waste; E-waste pollutants, E waste hazardous properties, Effects of pollutant (E- waste) on human health and surrounding environment, domestic e-waste disposal, Basic princi- ples of E waste management, Technologies for recovery of resources from electronic waste, resource recovery potential of e-waste, steps in recycling and recovery of materials-mechanical processing, technologies for recovery of materials, occupational and environmental health perspectives of recycling e-waste in India.",
+          "hours": 8
+        },
+        {
+          "title": "E-waste Control and measures",
+          "topics": "Need for stringent health safeguards and environmental protection laws in India, Extended Producers Responsibility (EPR), Import of e-waste permissions, Producer-Public-Government cooperation, Administrative Controls & Engineering controls, monitoring of compliance of Rules, Effective regulatory mechanism strengthened by manpower and technical expertise, Reduction of waste at source Practical Assignments Week Topic to be covered 1 Introduction : Group discussion and poster making on \"Why Environmental Studies Matter for Technologists\" 2 Eco Mapping: Identify and document elements of an ecosystem within the college campus 3 Model the Food Web: Create food chains and food webs using flowcharts (digital tools like Canva / Lucid chart) 4 Case Study Review: Present real-world examples of forest, grassland, and aquatic ecosystems 5 Soil and Water Testing Activity: Test soil pH, water quality (use school-level kits), and interpret results 6 Field Visit / Virtual Tour: Document deforestation or mining impact in a chosen region; students prepare a comparative report 7 Water Audit Exercise: Estimate water usage at home/hostel and identify areas of overuse; propose conservation measures 8",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

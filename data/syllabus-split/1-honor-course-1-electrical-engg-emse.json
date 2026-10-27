@@ -1,0 +1,196 @@
+{
+  "id": "1-honor-course-1-electrical-engg-emse",
+  "kind": "programme",
+  "programme": "Honor Course in Electric Mobility and Sustainable Energy Systems",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HEMS301ELE",
+      "title": "Electric Mobility Technologies",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [6, 7],
+      "units": [
+        {
+          "title": "Introduction to Electric Mobility and Vehicle Architecture",
+          "topics": "Evolution of transportation and electric mobility, Global and Indian EV ecosystem, National Electric Mobility Mission Plan (NEMMP), FAME -II/PM E -DRIVE, Battery Swapping Policy (overview), Classification of Electric Vehicles (BEV, HEV, PHEV, FCEV), Electric vehicle architecture and major subsystems, Comparison of ICE and Electric Vehicles, Vehicle standards and homologation (AIS, ISO, IEC overview)",
+          "hours": 8
+        },
+        {
+          "title": "Electric Powertrain and Traction Systems",
+          "topics": "Electric powertrain architecture, Traction motors: BLDC, PMSM, Induction Motor, Switched Reluctance Motor, Motor selection criteria, Traction transmission systems, Regenerative braking, Torque -speed characteristics Efficiency mapping of traction drives",
+          "hours": 8
+        },
+        {
+          "title": "Vehicle Dynamics and Energy Analysis",
+          "topics": "Longitudinal vehicle dynamics, Rolling resistance, Aerodynamic drag, Gradient resistance, Tractive effort calculations Drive cycles (IDC, MIDC, WLTP), Energy consumption estimation, Vehicle range estimation",
+          "hours": 8
+        },
+        {
+          "title": "Power Electronics and Charging Technologies",
+          "topics": "EV power electronic converters, DC -DC converters, Traction inverter, On -board charger, Off -board fast charging, AC and DC charging, SiC and GaN devices, Thermal management and protection",
+          "hours": 8
+        },
+        {
+          "title": "Electric Vehicle System Integration and Emerging Trends",
+          "topics": "Vehicle Control Unit (VCU) , CAN communication , Functional safety (ISO 26262 overview) , Vehicle diagnostics , Software-defined vehicles, Digital twins in EVs, Emerging trends in electric mobility",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HEMS302ELE",
+      "title": "Electric Mobility Technologies Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [8, 8],
+      "units": []
+    },
+    {
+      "code": "HEMS351ELE",
+      "title": "Advanced Energy Storage and Battery Management Systems",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [9, 10],
+      "units": [
+        {
+          "title": "Advanced Energy Storage Technologies",
+          "topics": "Energy storage requirements in EVs, Lithium-ion batteries, Solid-state batteries, Sodium-ion batteries, Lithium- sulfur batteries, Flow batteries, Supercapacitors, Comparison of advanced storage technologies",
+          "hours": 8
+        },
+        {
+          "title": "Battery Modelling and Performance Analysis",
+          "topics": "Battery electrical models, Equivalent circuit models, Thermal models, Battery ageing mechanisms, Performance parameters, Battery characterization, Life cycle analysis",
+          "hours": 8
+        },
+        {
+          "title": "Battery Management Systems",
+          "topics": "BMS architecture, Battery monitoring, State of Charge (SOC), State of Health (SOH), Cell balancing techniques, Thermal management, Battery protection systems",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Charging Technologies and Grid Integration",
+          "topics": "Fast charging technologies, Ultra-fast charging, Wireless charging, Battery swapping, Vehicle-to-Grid (V2G) Vehicle-to-Home (V2H), Smart charging strategies",
+          "hours": 8
+        },
+        {
+          "title": "Battery Sustainability, Recycling and Future Technologies",
+          "topics": "Battery recycling methods , Second-life batteries, Circular economy, Environmental aspects, Battery regulations, Green battery manufacturing, Emerging battery technologies",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HEMS352ELE",
+      "title": "Advanced Energy Storage and Battery Management Systems Laboratory",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [11, 11],
+      "units": []
+    },
+    {
+      "code": "HEMS401ELE",
+      "title": "Sustainable Transportation Infrastructure & Smart Charging",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [12, 13],
+      "units": [
+        {
+          "title": "Electric Vehicle Charging Infrastructure",
+          "topics": "EV charging ecosystem, AC and DC charging stations, charging standards (CCS, CHAdeMO, GB/T, Bharat DC), Charging station planning, Site selection, Electrical installation requirements",
+          "hours": 8
+        },
+        {
+          "title": "Smart Charging and Grid Integration",
+          "topics": "Smart charging concepts, Demand response, Load management, Distribution network impact, Grid integration challenges, Vehicle-to-Everything (V2X), Energy management",
+          "hours": 8
+        },
+        {
+          "title": "Renewable Energy Powered Charging Systems",
+          "topics": "Solar PV charging stations , Wind-powered charging , Hybrid charging systems , Battery Energy Storage Systems , Microgrids, Energy optimization",
+          "hours": 8
+        },
+        {
+          "title": "Hydrogen Mobility and Fuel Cell Technologies",
+          "topics": "Hydrogen economy, Fuel cell fundamentals, Fuel Cell Electric Vehicles (FCEVs), Hydrogen production , Hydrogen storage, Green hydrogen, Safety aspects",
+          "hours": 8
+        },
+        {
+          "title": "Sustainable Transportation Systems and Future Mobility",
+          "topics": "Sustainable transportation planning , Carbon-neutral transportation , Mobility as a Service (MaaS) , Shared mobility , Intelligent transportation systems, Environmental impact assessment, Future mobility trends",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HEMS402ELE",
+      "title": "Sustainable Transportation Infrastructure & Smart Charging Laboratory",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [14, 14],
+      "units": []
+    },
+    {
+      "code": "HEMS451ELE",
+      "title": "Connected, Autonomous and Intelligent Electric Mobility",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [15, 16],
+      "units": [
+        {
+          "title": "Connected Electric Vehicle Technologies",
+          "topics": "Connected vehicles, Vehicle -to-Vehicle (V2V), Vehicle -to-Infrastructure (V2I), Vehicle -to-Grid (V2G), Internet of Vehicles (IoV), Telematics, Connected mobility ecosystem",
+          "hours": 8
+        },
+        {
+          "title": "Autonomous Vehicle Systems",
+          "topics": "Levels of vehicle automation, Autonomous driving architecture, LiDAR, Radar, Cameras, Sensor fusion, Localization and mapping",
+          "hours": 8
+        },
+        {
+          "title": "Artificial Intelligence in Electric Mobility",
+          "topics": "AI applications in EVs , Predictive maintenance , Battery health prediction , Route optimization , Intelligent energy management, Fleet analytics, AI-based driver assistance",
+          "hours": 8
+        },
+        {
+          "title": "Automotive Cyber Security and Functional Safety",
+          "topics": "Cyber security threats, Secure communication, Functional safety, ISO 26262 overview, Automotive Ethernet Over-the-air software updates, Secure software architecture",
+          "hours": 8
+        },
+        {
+          "title": "Future Intelligent Mobility Systems",
+          "topics": "Software-defined vehicles , Digital twins , Edge AI , Cloud-enabled mobility , Autonomous public transportation , Smart cities, Emerging technologies in electric mobility",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HEMS452ELE",
+      "title": "Connected, Autonomous and Intelligent Electric Mobility Laboratory",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [17, 17],
+      "units": []
+    },
+    {
+      "code": "HEMS453ELE",
+      "title": "Honor Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [18, 20],
+      "units": []
+    }
+  ],
+  "notes": null
+}
+

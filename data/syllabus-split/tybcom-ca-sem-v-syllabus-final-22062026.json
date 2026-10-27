@@ -1,0 +1,192 @@
+{
+  "id": "tybcom-ca-sem-v-syllabus-final-22062026",
+  "kind": "programme",
+  "programme": "Bachelor of Commerce - Computer Application (BCom-CA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MJ-301-JP",
+      "title": "Java Programming",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        5
+      ],
+      "units": [
+        {
+          "title": "An Introduction to Java",
+          "topics": "Features of Java, JVM, JDK, Structure of a Java Program, Data Types, Variables, Operators, Control Statements, Arrays, Command Line Arguments.",
+          "hours": 8
+        },
+        {
+          "title": "Object-Oriented Programming Concepts",
+          "topics": "Classes and Objects, Constructors and method overloading, Recursion and returning objects, Static, this keyword, Nested and inner classes, String handling and wrapper classes, Inheritance and method overriding, Abstract Classes and Interfaces, Access control.",
+          "hours": 10
+        },
+        {
+          "title": "Packages & Collection",
+          "topics": "Packages concept, Creating user-defined packages, Java Built-in Packages, Import Statement, Static Import, Collection framework: List (ArrayList, LinkedList), Set (HashSet, TreeSet), Map (HashMap, TreeMap), Comparator, Iterator, ListIterator.",
+          "hours": 10
+        },
+        {
+          "title": "File & Exception handling",
+          "topics": "Exception and Error, Use of try, catch, throw, throws, finally, Built-in and Custom Exceptions, Throwable Class, Byte streams and character streams, Readers and Writers, File Class, FileInputStream, FileOutputStream, FileReader, FileWriter, BufferedReader.",
+          "hours": 8
+        },
+        {
+          "title": "Multithreading & Networking",
+          "topics": "Introduction to Multithreading, Thread creation: Thread Class, Runnable Interface, Life cycle of Thread, Thread Priority, Synchronization and Inter-thread Communication, Networking Basics: Port Number, Protocols and Classes, Sockets, reading and writing to a Socket.",
+          "hours": 8
+        },
+        {
+          "title": "User Interface with AWT and Swing",
+          "topics": "AWT and Swing components, Containers, Layout Managers (Flow, Border, Grid), Event Handling, Event Listener interfaces, Dialogs (Message, Confirmation, Input), JFileChooser, Adapters and Anonymous Inner Classes.",
+          "hours": 8
+        },
+        {
+          "title": "Database Connectivity with JDBC and Web Basics",
+          "topics": "JDBC Architecture, JDBC Drivers, Establishing database connection, Statement, PreparedStatement, CallableStatement, Working with ResultSet Interface, Web Basics: Introduction to Servlet, JSP and Spring overview.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-PP",
+      "title": "Python Programming",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        6,
+        10
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Python",
+          "topics": "Introduction to Python, History, Features, Installation, Interpreter and IDLE, Basic Syntax, Variables, Data Types, Operators, Decision Making: if, if-else, if-elif, Looping: for, while, break, continue, pass, Strings, Lists, Tuples, Dictionaries, Sets, Functions, Lambda functions, Scope.",
+          "hours": 12
+        },
+        {
+          "title": "Modules and Packages",
+          "topics": "Concept of Modules, Importing Modules, Built-in Modules, User Defined Modules and Functions, Structure of Python Modules, Module Documentation, Packages in Python, User Defined Packages.",
+          "hours": 8
+        },
+        {
+          "title": "File Handling",
+          "topics": "Reading and writing files, File opening modes (r, w, a, r+, w+, a+), File object methods (read, readline, readlines, write, writelines), with statement, os module, Exception handling in file operations.",
+          "hours": 8
+        },
+        {
+          "title": "Object-Oriented Programming in Python",
+          "topics": "Classes and Objects, Attributes and Methods, Constructors (__init__), Self parameter, Inheritance, Types of Inheritance, Method Overriding, Encapsulation, Polymorphism, Magic / Dunder methods.",
+          "hours": 10
+        },
+        {
+          "title": "Data Analytics and Data Visualization",
+          "topics": "Introduction to NumPy: arrays, operations, indexing, slicing, Introduction to Pandas: Series, DataFrame, data cleaning, filtering, grouping, Data Visualization using Matplotlib: Line plots, Bar charts, Histograms, Scatter plots.",
+          "hours": 12
+        },
+        {
+          "title": "Web Development with Flask",
+          "topics": "Introduction to Flask Framework, Client-Server Architecture, Creating First Flask Application, URL Routing, Dynamic Routes, HTML Templates using Jinja2, Forms and User Input (GET and POST), Connecting Flask with SQLite, CRUD Operations.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "ME-301-ECC",
+      "title": "Essentials of Cloud Computing",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 4,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": "Cloud vs. Traditional IT Infrastructure, Benefits and Challenges of Cloud Computing, Cloud Architecture (Front-end, Back-end, Network), Cloud Service Models: IaaS, PaaS, SaaS, Cloud storage, online collaboration tools, cloud applications in business.",
+          "hours": 15
+        },
+        {
+          "title": "Cloud Deployment Models and Virtualization",
+          "topics": "Deployment Models: Public, Private, Hybrid, Community Cloud, Advantages and Disadvantages of each model, Virtualization concepts: Hypervisors (Type 1 and Type 2), VMs vs Containers, Docker and Kubernetes overview, Resource management.",
+          "hours": 15
+        },
+        {
+          "title": "Cloud Storage, Management, and Providers",
+          "topics": "Cloud Storage architectures (Object, Block, File storage), Major Cloud Providers: AWS, Microsoft Azure, Google Cloud Platform (GCP) core offerings, Cloud integration, data migration, Content Delivery Networks (CDN).",
+          "hours": 15
+        },
+        {
+          "title": "Cloud Security, Compliance, and Future Trends",
+          "topics": "Cloud Security challenges, Shared Responsibility Model, Identity and Access Management (IAM), Data Encryption, Compliance (GDPR, IT Act), SLAs, Serverless Computing (FaaS), Edge and Fog Computing, AI/ML as a Cloud Service, Multi-Cloud Strategy.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MN-301-SE",
+      "title": "Software Engineering",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Software Engineering and System Concept",
+          "topics": "Software definition, characteristics, components, applications, domains, Software Crisis, System Concept: Definition, basic components, elements, types of systems, system characteristics.",
+          "hours": 15
+        },
+        {
+          "title": "Software Development Life Cycle (SDLC) & Software Requirement Engineering",
+          "topics": "Activities of SDLC, Importance of SDLC, Security in SDLC, SDLC Models: Waterfall, Incremental, Evolutionary, Prototyping, Spiral, Requirement Engineering: Process, elicitation techniques, SRS documentation.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "VSC-301-EE",
+      "title": "Entrepreneurship Essentials",
+      "semester": 5,
+      "type": "Vocational Skill Development Course",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurship Fundamentals",
+          "topics": "Meaning and concept, attributes and mindset of entrepreneurial and intrapreneurial leadership, Analyzing macro problem and industry perspective, Aligning passion, identifying and defining problems using Design Thinking principles, validating with potential customers.",
+          "hours": 15
+        },
+        {
+          "title": "Customer Discovery, Ideation and competition mapping",
+          "topics": "Understanding customer, customer segmentation, creating and validating customer personas, Jobs-to-be-done framework, solution design, Business Model Canvas (BMC), prototype building, and pitch presentation.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FP-301-MM",
+      "title": "Project based on Major Mandatory",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        18,
+        20
+      ],
+      "units": []
+    }
+  ],
+  "notes": "Field Project FP-301-MM is based on Major Mandatory courses (Java / Python)."
+}

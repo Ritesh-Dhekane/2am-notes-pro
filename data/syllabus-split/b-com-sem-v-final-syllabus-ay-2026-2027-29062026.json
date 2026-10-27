@@ -1,0 +1,586 @@
+{
+  "id": "b-com-sem-v-final-syllabus-ay-2026-2027-29062026",
+  "kind": "programme",
+  "programme": "T.Y. B.Com.",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "AA301MJ",
+      "title": "Advanced Accounting-I",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        7,
+        10
+      ],
+      "units": [
+        {
+          "title": "Valuation of Shares",
+          "topics": "Meaning, Need and Methods of Valuation of Shares: Net Asset Method (Intrinsic Value), Yield Basis Method (Earning Capacity Method), Fair Value Method, Practical problems on valuation of equity shares.",
+          "hours": 15
+        },
+        {
+          "title": "Introduction to Government Accounting",
+          "topics": "Meaning, Objectives and Features of Government Accounting, Comparison with Commercial Accounting, Structure of Government Accounting in India: Consolidated Fund, Contingency Fund, Public Account, Role of CAG, Financial Administration and Budgetary Process.",
+          "hours": 15
+        },
+        {
+          "title": "Government Accounting Standards by GASAB",
+          "topics": "Role and Objectives of Government Accounting Standards Advisory Board (GASAB), Overview of Indian Government Accounting Standards (IGAS), Cash vs. Accrual Accounting in Government Sector, Accounting for Grants and Subsidies.",
+          "hours": 15
+        },
+        {
+          "title": "Containers or Packages Accounts and Voyage Accounts",
+          "topics": "Containers or Packages Accounts: Meaning, Need, Treatment of Returnable and Non-returnable packages, Voyage Accounts: Meaning, Preparation of Complete and Incomplete Voyage Accounts, Calculation of Primage, Freight, Bunker Cost, Address Commission.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "AE302MJ",
+      "title": "Auditing and Ethics",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        11,
+        14
+      ],
+      "units": [
+        {
+          "title": "Foundations of Audit and Professional Ethics",
+          "topics": "Evolution, Principles and Objects of Auditing, Types of Audit: Statutory, Internal, Cost, Management, Tax Audit, Professional Ethics (ICAI Code), Fundamental Principles, Independence and Conflicts of Interest.",
+          "hours": 12
+        },
+        {
+          "title": "Audit Process, Documentation and Risk Assessment",
+          "topics": "Audit Planning and Programme, Audit Evidence (SA 500), Audit Documentation (SA 230), Internal Control, Internal Check and Internal Audit, Risk Assessment and Materiality in Planning and Performing an Audit (SA 315 & SA 320).",
+          "hours": 12
+        },
+        {
+          "title": "Digital Auditing, Forensic Audit and Emerging Trends",
+          "topics": "Auditing in automated environment, Computer Assisted Audit Techniques (CAATs), Continuous Auditing, Data Analytics in Auditing, Introduction to Forensic Auditing: Fraud Detection and Investigation Techniques.",
+          "hours": 12
+        },
+        {
+          "title": "Corporate Governance, Business Ethics and Sustainability",
+          "topics": "Principles of Corporate Governance, Board Committees, Whistle-Blower Policy, Business Ethics in Corporate Culture, ESG (Environmental, Social, Governance) Framework and Sustainability Reporting.",
+          "hours": 12
+        },
+        {
+          "title": "Emerging Trends in Auditing, Sustainability and Ethics",
+          "topics": "Green Auditing, Social Auditing, Energy Audits, Quality Audits, Role of AI and Blockchain in Audit trail, Recent regulatory developments in Corporate Reporting.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "CL303MJ",
+      "title": "Company Law",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        15,
+        18
+      ],
+      "units": [
+        {
+          "title": "General Principles of Law and Nature of Company",
+          "topics": "Historical Background and Salient Features of Companies Act 2013, Definition, Nature and Characteristics of a Company, Lifting the Corporate Veil, Types of Companies: One Person Company (OPC), Private, Public, Small, Section 8, Holding and Subsidiary Companies.",
+          "hours": 15
+        },
+        {
+          "title": "Incorporation of Company",
+          "topics": "Stages of Company Formation: Promotion, Incorporation, Capital Subscription, Role and Duties of Promoters, SPICe+ Form, Memorandum of Association (MOA) and Articles of Association (AOA), Doctrines of Ultra Vires, Constructive Notice and Indoor Management, Prospectus: Types and Misstatements.",
+          "hours": 15
+        },
+        {
+          "title": "Share, Share Capital and Membership",
+          "topics": "Share Capital: Kinds, Issue of Shares, Allotment, Transfer and Transmission, Buyback of Shares, Modes of Acquiring Membership, Rights and Liabilities of Members, Register of Members.",
+          "hours": 15
+        },
+        {
+          "title": "Company Management and Corporate Governance",
+          "topics": "Directors: Classification, Appointment, Removal, Disqualification, Powers and Duties, Key Managerial Personnel (KMP), Board Meetings and General Meetings (AGM, EGM), Resolutions and Voting, Corporate Social Responsibility (CSR) under Section 135.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "TOC304MJ",
+      "title": "Techniques of Costing-I",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Marginal Costing",
+          "topics": "Meaning, Features, Advantages and Limitations of Marginal Costing, Marginal Cost Equation, Contribution, P/V Ratio, Break Even Point (BEP), Margin of Safety, Cost-Volume-Profit Analysis, Managerial Applications: Make or Buy, Product Mix, Pricing Decisions, Shut Down Decisions.",
+          "hours": 15
+        },
+        {
+          "title": "Budgetary Control",
+          "topics": "Meaning, Definition, Objectives and Essentials of Budgetary Control, Preparation of Functional Budgets (Sales, Production, Cash Budget), Master Budget, Fixed and Flexible Budget, Zero-Base Budgeting (ZBB).",
+          "hours": 15
+        },
+        {
+          "title": "Uniform costing and Inter-Firm Comparison",
+          "topics": "Uniform Costing: Meaning, Objectives, Advantages and Limitations, Fields of Application, Requisites for Introduction, Inter-Firm Comparison: Meaning, Objectives, Procedure, Prerequisites, Advantages and Limitations.",
+          "hours": 15
+        },
+        {
+          "title": "MIS and Supply Chain Management",
+          "topics": "Management Information System (MIS) in Cost Accounting, Role of Cost Data in Supply Chain Management: Cost reduction, JIT, Target Costing, Life Cycle Costing, Value Chain Analysis.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "LSME305MJ",
+      "title": "Leadership Skills and Managerial Effectiveness",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Foundations of Leadership and Managerial Effectiveness",
+          "topics": "Concept, Meaning, Nature and Significance of Leadership, Leadership vs. Management, Core Leadership Skills, Dimensions of Managerial Effectiveness, Goal Setting, Time Management, Stress Management.",
+          "hours": 15
+        },
+        {
+          "title": "Leadership Theories and Emotional Intelligence",
+          "topics": "Leadership Theories: Trait Theory, Behavioural Theories (Ohio, Michigan, Managerial Grid), Contingency Theories (Fiedler, Hersey-Blanchard), Transformational and Transactional Leadership, Emotional Intelligence (EQ) in Leadership: Self-awareness, Empathy, Relationship Management.",
+          "hours": 15
+        },
+        {
+          "title": "Managerial Effectiveness and Workplace Skills",
+          "topics": "Interpersonal Communication, Active Listening, Feedback Mechanism, Delegation and Empowerment, Team Building and Dynamics, Conflict Resolution Strategies, Decision Making under Pressure.",
+          "hours": 15
+        },
+        {
+          "title": "Contemporary Leadership and Future Trends",
+          "topics": "Ethical and Servant Leadership, Digital Leadership in Remote/Hybrid Workplaces, Cross-Cultural Leadership, Agile Leadership, Diversity and Inclusion in Leadership.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CBI306MJ",
+      "title": "Consumer Behaviour and Insights",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Consumer Behaviour and Behavioural Theories",
+          "topics": "Meaning, Nature, Scope and Importance of Consumer Behaviour, Consumer Decision Making Process, Theories and Models of Consumer Behaviour (Howard-Sheth, Nicosia, Engel-Kollat-Blackwell).",
+          "hours": 12
+        },
+        {
+          "title": "Needs, Motivation and Personality in Consumer Behaviour",
+          "topics": "Consumer Needs and Motivation, Maslow's Need Hierarchy, Consumer Perception: Perceptual Process and Sensory Marketing, Personality and Self-Concept, Consumer Attitudes and Attitude Change Strategies.",
+          "hours": 12
+        },
+        {
+          "title": "Factors Affecting Consumer Behaviour",
+          "topics": "Internal and External Influences: Family and Reference Groups, Social Class, Culture and Subculture, Cross-Cultural Consumer Behaviour, Opinion Leadership and Word-of-Mouth (WOM).",
+          "hours": 12
+        },
+        {
+          "title": "Digital Consumer Behaviour and E-Commerce",
+          "topics": "Online Buying Behaviour, Factors Influencing E-Commerce Purchases, Consumer Journey in Omnichannel Retail, Social Commerce, Mobile Shopping Behaviour, Online Reviews and Social Proof.",
+          "hours": 12
+        },
+        {
+          "title": "Branding, Loyalty and Customer Experience",
+          "topics": "Consumer Brand Relationships, Brand Loyalty and Brand Switching, Customer Lifetime Value (CLV), Customer Delight, Experiential Marketing and Customer Journey Mapping.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "ESE307MJ",
+      "title": "Entrepreneurship & Start-up Ecosystem in India",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        28,
+        32
+      ],
+      "units": [
+        {
+          "title": "The Entrepreneurial Ecosystem",
+          "topics": "Concept, Components and Pillars of Startup Ecosystem in India, Role of Accelerators, Incubators, Coworking Spaces, Mentors and Angel Networks, Evolution of Indian Startup Landscape.",
+          "hours": 15
+        },
+        {
+          "title": "Opportunity Identification and Selection",
+          "topics": "Ideation Techniques: Design Thinking, Brainstorming, Problem-Solution Fit, Market Opportunity Analysis, Competitor Benchmarking, Feasibility Analysis: Technical, Financial, Market and Operational.",
+          "hours": 15
+        },
+        {
+          "title": "Formulation of Business Plans",
+          "topics": "Business Model Canvas (BMC), Preparation of Detailed Project Report (DPR), Financial Projections, Unit Economics, Burn Rate, Pitch Deck Preparation and Presentation to Investors.",
+          "hours": 15
+        },
+        {
+          "title": "Government and the Startup Ecosystem",
+          "topics": "Startup India Initiative, Make in India, Standup India, DPIIT Recognition, Tax Benefits, Mudra Yojana, Atal Innovation Mission (AIM), Funding Stages: Pre-seed, Seed, Series A-D, Venture Capital.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FMI308MJ",
+      "title": "Financial Markets and Institutions",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Financial System and Financial Institutions",
+          "topics": "Structure of Indian Financial System, Role in Economic Development, Financial Intermediation, Banking vs Non-Banking Financial Companies (NBFCs), Development Financial Institutions (DFIs).",
+          "hours": 15
+        },
+        {
+          "title": "Financial Markets, Structure and Instruments",
+          "topics": "Money Market: Features, Instruments (Treasury Bills, Commercial Paper, Certificate of Deposit, Call Money), Capital Market: Primary Market (IPO, FPO, Rights Issue, Private Placement) and Secondary Market (Stock Exchanges, NSE, BSE, Trading and Settlement).",
+          "hours": 15
+        },
+        {
+          "title": "Financial Market Regulation and Reforms",
+          "topics": "Role, Powers and Regulations of SEBI, RBI, IRDAI, PFRDA, Financial Sector Reforms: Digitization, Dematerialization, Algorithm Trading, Depositories (NSDL, CDSL).",
+          "hours": 15
+        },
+        {
+          "title": "Global Financial Markets and Contemporary Issues",
+          "topics": "International Capital Markets, Foreign Portfolio Investment (FPI), ADRs, GDRs, Masala Bonds, Green Bonds, Impact of Global Financial Trends on Indian Markets.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MCSA309MJ",
+      "title": "Maharashtra Cooperative Societies Act, 1960",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        35,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cooperative Societies",
+          "topics": "Salient Features and Philosophy of Maharashtra Cooperative Societies Act 1960, Definitions, Classification of Cooperative Societies, Cooperative Principles in Legal Context.",
+          "hours": 15
+        },
+        {
+          "title": "Registration and Cancellation of Registration Procedure of a Society",
+          "topics": "Application for Registration, Conditions of Registration, Bye-laws and their Amendment, Deemed Registration, Cancellation of Registration, De-registration and Winding Up.",
+          "hours": 15
+        },
+        {
+          "title": "Society Management, Governance and Funds",
+          "topics": "Members: Rights, Duties and Liabilities, Disqualifications of Members, Management of Societies: Committee, Powers, Functions and Disqualification of Committee Members, General Body Meetings, Reserve Fund and Disposal of Net Profits.",
+          "hours": 15
+        },
+        {
+          "title": "Audit, Inspection and Dispute Resolution",
+          "topics": "Audit of Cooperative Societies: Statutory Provisions, Rectification of Audit Defects, Inquiry and Inspection by Registrar, Settlement of Disputes: Section 91, Cooperative Court: Powers and Jurisdiction.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BA310MJ",
+      "title": "Business Analytics-I",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        39,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business Analytics",
+          "topics": "Definition, Evolution and Importance of Business Analytics, Descriptive, Predictive and Prescriptive Analytics, Big Data Concepts, Data Ecosystem and Analytics Lifecycle.",
+          "hours": 15
+        },
+        {
+          "title": "Data Presentation, Analysis, and Modelling",
+          "topics": "Data Cleaning and Preparation, Summary Measures, Visual Storytelling with Charts and Dashboards, Probability Concepts and Distributions in Decision Making.",
+          "hours": 15
+        },
+        {
+          "title": "Correlation and Regression",
+          "topics": "Scatter Plots, Karl Pearson's Correlation Coefficient, Spearman's Rank Correlation, Simple and Multiple Linear Regression Analysis: Model Fitting, Coefficient of Determination (R-squared), Residual Analysis.",
+          "hours": 15
+        },
+        {
+          "title": "Time Series",
+          "topics": "Components of Time Series (Trend, Seasonal, Cyclical, Irregular), Measurement of Trend: Moving Averages, Semi-Averages, Method of Least Squares, Forecasting using Time Series.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BRF311MJ",
+      "title": "Business Regulatory Framework-I",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 4,
+      "pages": [
+        44,
+        47
+      ],
+      "units": [
+        {
+          "title": "General Principles of Law of Contract-I",
+          "topics": "Indian Contract Act 1872: Definition, Elements of Valid Contract, Classification of Contracts, Offer and Acceptance, Legal Rules, Revocation, Consideration: Essentials, Exceptions, Capacity of Parties.",
+          "hours": 15
+        },
+        {
+          "title": "General Principles of Law of Contract-II",
+          "topics": "Free Consent: Coercion, Undue Influence, Fraud, Misrepresentation, Mistake, Legality of Object, Void Agreements, Performance and Discharge of Contract, Remedies for Breach of Contract.",
+          "hours": 15
+        },
+        {
+          "title": "The Sale of Goods Act, 1930",
+          "topics": "Contract of Sale vs Agreement to Sell, Conditions and Warranties, Doctrine of Caveat Emptor, Transfer of Property, Performance of Sale, Unpaid Seller: Rights against Goods and Buyer.",
+          "hours": 15
+        },
+        {
+          "title": "The Indian Partnership Act, 1932 and Limited Liability of Partnership Act, 2008",
+          "topics": "Indian Partnership Act 1932: Nature, Registration, Rights and Duties of Partners, Dissolution of Firm, LLP Act 2008: Features, Difference between Partnership and LLP, Incorporation, Governance.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "IE341MN",
+      "title": "Indian Economy",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to the Indian Economy",
+          "topics": "Features of Indian Economy as an Emerging Market, Viksit Bharat 2047 Vision, Human Development Index (HDI): Interstate Comparison, Demographic Dividend and Challenges.",
+          "hours": 15
+        },
+        {
+          "title": "The Three Sectors of the Economy",
+          "topics": "Agriculture Sector: Trends, Problems, Reforms, Industrial Sector: Growth, Performance, MSMEs, Service Sector: Emergence as Driver of Growth, IT, Banking, Tourism.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "IE342MN",
+      "title": "International Economics",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to International Economics",
+          "topics": "Nature and Scope of International Economics, Theories of International Trade (Absolute Advantage, Comparative Advantage, Heckscher-Ohlin), Balance of Payments (BOP): Structure, Equilibrium and Disequilibrium.",
+          "hours": 15
+        },
+        {
+          "title": "Foreign Exchange Markets",
+          "topics": "Foreign Exchange Market: Functions, Exchange Rate Determination, Fixed vs Floating Rates, Currency Convertibility on Current and Capital Account, Foreign Trade Policy of India.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "SAP321MJ",
+      "title": "SAP FICO Accounting-I",
+      "semester": 5,
+      "type": "Vocational and Skill Enhancement",
+      "credits": 2,
+      "pages": [
+        52,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to ERP & SAP FICO",
+          "topics": "Overview of ERP and SAP Architecture, Navigation in SAP GUI, Organizational Units in SAP FI (Company Code, Chart of Accounts, Fiscal Year Variant, Posting Period Variant).",
+          "hours": 10
+        },
+        {
+          "title": "SAP FI - Global Settings & General Ledger (GL)",
+          "topics": "Defining and Assigning Company Code, Chart of Accounts, Retained Earnings Account, Document Types and Number Ranges, GL Master Creation, Posting GL Documents and Displaying Balances.",
+          "hours": 10
+        },
+        {
+          "title": "Accounts Payable (AP) & Accounts Receivable (AR)",
+          "topics": "Vendor Master Data and Customer Master Data Creation, Account Groups and Number Ranges, Posting Vendor Invoices and Payments, Posting Customer Invoices and Incoming Payments, Financial Statement Version.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "SME322MJ",
+      "title": "Statistics with MS Excel",
+      "semester": 5,
+      "type": "Vocational and Skill Enhancement",
+      "credits": 2,
+      "pages": [
+        56,
+        62
+      ],
+      "units": [
+        {
+          "title": "Introduction to MS Excel for Statistical Computing",
+          "topics": "Excel Interface, Data Entry, Formulae, Built-in Statistical Functions (SUM, AVERAGE, MEDIAN, MODE, VAR, STDEV), Data Analysis Toolpak.",
+          "hours": 5
+        },
+        {
+          "title": "Data Presentation and Visualisation",
+          "topics": "Tabulation of Data, Frequency Distributions, Graphical Presentation: Histograms, Bar Charts, Pie Charts, Scatter Plots, Time Series Plots.",
+          "hours": 5
+        },
+        {
+          "title": "Statistical Measures and Curve Fitting",
+          "topics": "Computation of Measures of Central Tendency, Dispersion, Skewness and Kurtosis using Excel, Fitting Linear and Non-linear Curves to Bivariate Data.",
+          "hours": 10
+        },
+        {
+          "title": "Correlation, Regression and Time Series Forecasting",
+          "topics": "Karl Pearson's Correlation, Simple and Multiple Regression Analysis in Excel, Time Series Moving Averages, Smoothing Techniques and Statistical Control Charts.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "AT331FPP",
+      "title": "Field Project-II: Accountancy and Taxation",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        79,
+        92
+      ],
+      "units": []
+    },
+    {
+      "code": "CMA332FPP",
+      "title": "Field Project-II: Cost and Management Accounting",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        93,
+        97
+      ],
+      "units": []
+    },
+    {
+      "code": "BA333FPP",
+      "title": "Field Project-II: Business Administration",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        98,
+        103
+      ],
+      "units": []
+    },
+    {
+      "code": "M334FPP",
+      "title": "Field Project-II: Marketing",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        104,
+        107
+      ],
+      "units": []
+    },
+    {
+      "code": "BPC335FPP",
+      "title": "Field Project-II: Business Practices and Cooperation",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        108,
+        114
+      ],
+      "units": []
+    },
+    {
+      "code": "BFI336FPP",
+      "title": "Field Project-II: Banking, Finance and Insurance",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        115,
+        121
+      ],
+      "units": []
+    },
+    {
+      "code": "BL337FPP",
+      "title": "Field Project-II: Business Laws",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        122,
+        126
+      ],
+      "units": []
+    },
+    {
+      "code": "BMSA338FPP",
+      "title": "Field Project-II: Business Mathematics, Statistics and Analytics",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        127,
+        131
+      ],
+      "units": []
+    }
+  ],
+  "notes": "General Field Project guidelines are on pages 63-78, followed by stream-specific field project guides on pages 79-131."
+}

@@ -1,0 +1,198 @@
+{
+  "id": "civil-honors-atp-sem-v-viii",
+  "kind": "programme",
+  "programme": "Honor Course in Architectural & Town Planning",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HATP 301CVL",
+      "title": "Urban Housing and Infrastructure Planning",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        4,
+        6
+      ],
+      "units": [
+        {
+          "title": "Housing Planning and Residential Development",
+          "topics": "Housing concepts and their role in urban development, housing demand and need assessment based on demographic and socio-economic factors, housing standards and norms, principles of residential neighbourhood planning, criteria for site selection and prepara tion of housing layouts, concepts and strategies for affordable housing, and an overview of the Pradhan Mantri Awas Yojana (PMAY), including its objectives, components, and role in promoting inclusive and sustainable housing development.",
+          "hours": 8
+        },
+        {
+          "title": "Housing Policies and Urban Development",
+          "topics": "Evolution and framework of housing policies in India, role and functions of housing finance institutions, concepts and management of cooperative housing, public-private partnership models in housing development, planning and implementation of affordable housing projects, slum redevelopment and rehabilitation policies and strategies, and institutional, legal, and socio-economic aspects of urban housing development.",
+          "hours": 8
+        },
+        {
+          "title": "Urban Infrastructure Planning",
+          "topics": "Urbanization trends and infrastructure requirements, principles and process of urban infrastructure planning, application of the URDPFI Guidelines and service level benchmarks, methods of infrastructure demand forecasting, integration of land use and infra structure planning, and concepts of sustainable, resilient, and environmentally responsible urban infrastructure development.",
+          "hours": 8
+        },
+        {
+          "title": "Urban Services and Utility Systems",
+          "topics": "Planning and management of urban water supply systems, sewerage and storm water drainage systems, solid waste management practices, power distribution and telecommunication infrastructure, integration of urban utility networks, smart utility management using modern technologies, and sustainable approaches for efficient and resilient urban service delivery.",
+          "hours": 8
+        },
+        {
+          "title": "Urban Infrastructure Projects",
+          "topics": "Concepts of urban infrastructure project formulation and appraisal, techniques of cost -benefit analysis and financial feasibility assessment, environmental and social impact assessment procedures, project planning and risk considerations, stakeholder participation in infrastructure development, and case studies of urban infrastructure projects highlighting planning, financing, implementation, and sustainable management practices.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HATP 302CVL",
+      "title": "Urban Housing and Infrastructure Planning Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "HATP 351CVL",
+      "title": "Sustainable Architecture and Landscape Design",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Evolution of Architecture and Human Settlements",
+          "topics": "Evolution of architecture and human settlements, salient features of ancient Indian architecture, planning principles of the Indus Valley Civilization and its urban settlements, characteristics of Mughal and Colonial architecture, trends in modern urban development, and contemporary planning concepts emphasizing sustainable, inclusive, and resilient built environments.",
+          "hours": 8
+        },
+        {
+          "title": "Sustainable Development and Green Buildings",
+          "topics": "Principles and dimensions of sustainable development, overview of the United Nations Sustainable Development Goals (SDGs) and their relevance to the built environment, concepts of green buildings and sustainable construction practices, green building asses sment and rating systems including GRIHA and Indian Green Building Council, energy -efficient building strategies, and principles and applications of net -zero energy buildings.",
+          "hours": 8
+        },
+        {
+          "title": "Climate Responsive Architecture and Urban Sustainability",
+          "topics": "Concepts of climate -responsive architecture, building orientation for energy efficiency, passive solar design techniques, natural ventilation and daylighting strategies, thermal comfort principles and assessment, sustainable urban form, compact and mixed -use development, and eco -city concepts for enhancing environmental performance and urban sustainability.",
+          "hours": 8
+        },
+        {
+          "title": "Landscape Planning and Design",
+          "topics": "Fundamentals and principles of landscape architecture, site analysis and landscape suitability assessment, planning and design of urban parks and green spaces, concepts and applications of green roofs and vertical gardens, selection of landscape elements and vegetation, and principles of landscape sustainability for improving urban environmental quality and resilience.",
+          "hours": 8
+        },
+        {
+          "title": "Environmental Planning and Urban Ecology",
+          "topics": "Concepts of urban ecology and biodiversity conservation, watershed -based planning and integrated water resource management, causes and mitigation measures for urban heat island effects, planning and design of blue- green infrastructure systems, climate-resilient urban planning strategies, and the role of ecological approaches in creating sustainable and adaptive urban environments.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HATP 352CVL",
+      "title": "Sustainable Architecture and Landscape Design Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "HATP 401CVL",
+      "title": "Advanced Urban Planning and Smart Cities",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Advanced Urban Planning and Development",
+          "topics": "Advanced concepts of urban and regional planning, urban growth and development patterns, metropolitan and regional planning, urban redevelopment and regeneration, transit-oriented development (TOD), compact and mixed- use development, development control regulations, inclusive and participatory planning, land -use planning, and integration of housing, transportation and infrastructure systems.",
+          "hours": 8
+        },
+        {
+          "title": "Smart Cities and Digital Urban Infrastructure",
+          "topics": "Concepts and components of smart cities, digital urban governance, application of GIS and remote sensing in urban planning, Internet of Things (IoT) applications in urban infrastructure, smart water and wastewater management, intelligent transportation systems, smart energy manageme nt, urban data platforms, digital twins, citizen -centric services, and data-driven urban planning.",
+          "hours": 8
+        },
+        {
+          "title": "Sustainable Urban Development",
+          "topics": "Principles of sustainable urban development, sustainable urban form, compact and mixed -use development, green infrastructure, urban ecology, sustainable mobility, resource-efficient cities, low-carbon urban development, circular economy concepts, inclusive and accessible cities, and indicators for assessing urban sustainability.",
+          "hours": 8
+        },
+        {
+          "title": "Climate Resilient Urban Planning",
+          "topics": "Urban climate risks and vulnerability assessment, climate change impacts on cities, urban flood management, urban heat-island mitigation, drought and water -security planning, disaster risk reduction, climate -resilient infrastructure, nature-based solutions, blue-green infrastructure, urban carbon management, and climate-adaptive urban planning.",
+          "hours": 8
+        },
+        {
+          "title": "Urban Planning Applications and Case Studies",
+          "topics": "Integrated urban development planning, neighbourhood planning, urban redevelopment, smart city planning, TOD applications, climate-resilient city planning, GIS-based urban planning, case studies of Indian and international cities, and preparation of conceptual urban development proposals.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HATP 451CVL",
+      "title": "Sustainable Urban Infrastructure and Project Management",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Advanced Urban Infrastructure Systems",
+          "topics": "Integrated planning and management of urban water supply, wastewater, stormwater and solid waste systems, decentralized infrastructure, water conservation, rainwater harvesting, water reuse, resource recovery, and integration of urban utility networks.",
+          "hours": 8
+        },
+        {
+          "title": "Sustainable Resource and Utility Management",
+          "topics": "Circular economy principles, sustainable solid waste management, renewable energy integration, energy -efficient infrastructure, sustainable urban mobility, smart utility networks, infrastructure asset management, resource -efficient infrastructure, and smart utility monitoring and management.",
+          "hours": 8
+        },
+        {
+          "title": "Urban Infrastructure Planning and Demand Assessment",
+          "topics": "Infrastructure planning process, infrastructure demand forecasting, service -level assessment, infrastructure gap analysis, capacity planning, land and infrastructure integration, infrastructure phasing, sustainable infrastructure standards, infrastructure resilience, and preparation of infrastructure development plans.",
+          "hours": 8
+        },
+        {
+          "title": "Urban Infrastructure Project Planning and Financing",
+          "topics": "Identification and formulation of infrastructure projects, project feasibility studies, technical and economic appraisal, financial feasibility, life-cycle cost analysis, infrastructure financing, Public-Private Partnership (PPP) models, project structuring, project scheduling, resource planning and digital project management tools.",
+          "hours": 8
+        },
+        {
+          "title": "Infrastructure Risk, Environment and Project Management",
+          "topics": "Environmental and social assessment, risk identification and management, stakeholder participation, project monitoring and evaluation, quality management, operation and maintenance, infrastructure asset management, project performance indicators, sustainable project management, and case studies of urban infrastructure projects.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HATP 452CVL",
+      "title": "Sustainable Urban Infrastructure and Project Management Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        19,
+        22
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

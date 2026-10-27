@@ -1,0 +1,396 @@
+{
+  "id": "f-y-b-com-sem-i-syllabus-nep-2025-24072026",
+  "kind": "programme",
+  "programme": "Bachelor of Commerce (B.Com.)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "FAC101T",
+      "title": "Financial Accounting-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Amalgamation of Partnership Firms",
+          "topics": "Meaning, Need and Objectives of Amalgamation of Partnership Firms, Accounting Treatment and Preparation of Ledger Accounts: When New Firm does not take over any Asset/Liability, When New Firm does not take over certain Asset/Liability, Passing Journal Entries in the Books of Old Firms and Opening Journal Entries in the Books of New Firm.",
+          "hours": 15
+        },
+        {
+          "title": "Sale of a Firm to a Company",
+          "topics": "Meaning, Need and Objectives of Conversion of Firm into a Private Limited Company / Sale of Firm to a Company, Calculation of Purchase Consideration, Accounting Treatment and Preparation of Ledger Accounts in the Books of Firm and Company.",
+          "hours": 15
+        },
+        {
+          "title": "Accounting for Leases and Hire Purchase System",
+          "topics": "AS-19: Accounting for Leases and Ind AS-17: Leases, Hire Purchase System: Concept, Difference between Hire Purchase and Installment System, System of Accounting Records when goods of substantial sales value, Calculation of Interest, Accounting Entries and Preparation of Ledger Accounts in Books of Hire Purchaser and Hire Vendor.",
+          "hours": 15
+        },
+        {
+          "title": "Royalty Accounts",
+          "topics": "Meaning and Definition of Royalty, Minimum Rent / Dead Rent, Shortworkings, Recoupment of Shortworkings, Accounting Entries and Preparation of Ledger Accounts in the Books of Lessee and Lessor (Mining, Patent and Copyright), Sub-Lease: Meaning and Accounting Treatment.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CMA102T",
+      "title": "Basics of Cost and Management Accounting and Material Accounting-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Basics of Cost and Management Accounting",
+          "topics": "Concept of Cost, Costing, Cost Accounting, Cost Accountancy and Management Accounting, Limitations of Financial Accounting, Objectives, Advantages & Limitations of Cost Accounting, Difference between Financial, Cost and Management Accounting, Cost Units and Cost Centres, Scope of Management Accounting, Role and Functions of Cost & Management Accountant.",
+          "hours": 15
+        },
+        {
+          "title": "Elements and Classification of Cost",
+          "topics": "Cost Accounting Standard: Meaning, Definition and Introduction, Importance of Cost Accounting Standards, Elements of Cost: Material, Labour and Expenses, Cost Accounting Standard: Classification Cost, Segregation of Cost into Elements.",
+          "hours": 15
+        },
+        {
+          "title": "Cost Sheet",
+          "topics": "Cost Items and Non-Cost Items, Proforma of Cost Sheet, Preparation of Cost Sheet with adjustments and Problems thereon, Price List: Meaning, Preparation of Price List (Theory only), Estimate: Meaning, Significance, Preparation of Estimates, Tender and Quotation: Meaning, Difference, Preparation and Numerical Problems.",
+          "hours": 15
+        },
+        {
+          "title": "Material Accounting",
+          "topics": "Material Cost: Meaning, Need, Importance, Meaning of Material Control, Objectives and Essentials, Purchasing Procedure, Purchase Requisition, Purchase Order, Goods Received Note, Inspection Note, Storage of Material, Bin Card, Stores Ledger, Methods of Pricing Material Issues: FIFO, LIFO, Weighted Average, Cost Accounting Standards-6: Material Cost.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MOM103T",
+      "title": "Modern Office Management-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Modern Office Services",
+          "topics": "Concept, Meaning and Definition of Modern Office, Characteristics, Importance and Functions of Modern Office, Structure and Organization of Modern Office, Office Accommodation: Factors affecting choice of location, Office Layout: Meaning, Objectives, Principles and Types, Digital Office: Meaning, Concept and Importance.",
+          "hours": 15
+        },
+        {
+          "title": "Office Automation",
+          "topics": "Meaning, Definition and Concept of Office Automation, Characteristics, Advantages and Disadvantages of Office Automation, Office Equipment and Machines: Need, Types, Factors for Selection, Open Office and Private Office: Concept, Meaning and Need.",
+          "hours": 15
+        },
+        {
+          "title": "Office Procedures and Standardization of Office Work",
+          "topics": "Meaning, Definition and Concept of Office Procedures, Need, Importance and Principles of Office Procedures, Flow of Work: Straight Line, Circular and Batch Flow, Office Work Simplification, Standardization of Office Work: Meaning, Need and Methods.",
+          "hours": 15
+        },
+        {
+          "title": "Office Manuals and Standard Operating Procedures",
+          "topics": "Meaning, Definition and Need for Office Manuals, Types of Office Manuals, Preparation, Distribution and Revision of Office Manuals, Standard Operating Procedures (SOPs): Meaning, Concept, Need and Importance, Process of Preparing SOPs.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FOM104T",
+      "title": "Fundamentals of Marketing-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Market and Marketing",
+          "topics": "Meaning and Definition of Market, Classification of Markets, Marketing Concept, Difference between Traditional and Modern Marketing, Importance of Marketing, Functions of Marketing, Selling vs. Marketing.",
+          "hours": 15
+        },
+        {
+          "title": "Market Segmentation and Marketing Mix",
+          "topics": "Market Segmentation: Introduction, Meaning, Importance, Bases for Market Segmentation (Geographic, Demographic, Psychographic, Behavioural), Marketing Mix: Meaning, Elements of Marketing Mix (4Ps of Product Marketing and 7Ps of Service Marketing).",
+          "hours": 15
+        },
+        {
+          "title": "Salesmanship",
+          "topics": "Meaning and Definition of Salesmanship, Features and Importance of Salesmanship, Qualities of a Successful Salesman, Process of Effective Selling: Prospecting, Pre-approach, Approach, Presentation, Handling Objections, Closing the Sale, Follow-up.",
+          "hours": 15
+        },
+        {
+          "title": "Distribution Channel and Physical Distribution",
+          "topics": "Meaning, Definition and Importance of Distribution Channels, Types of Channels of Distribution (Direct and Indirect), Factors Influencing Choice of Distribution Channel, Physical Distribution: Meaning, Components (Order Processing, Inventory Control, Warehousing, Transportation, Material Handling).",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BEE105T",
+      "title": "Business Environment and Entrepreneurship-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Entrepreneur",
+          "topics": "Concept, Meaning, Definition and Characteristics of Entrepreneur, Functions and Types of Entrepreneurs, Qualities of a Successful Entrepreneur, Distinction between Entrepreneur, Intrapreneur and Manager, Entrepreneurial Competencies.",
+          "hours": 15
+        },
+        {
+          "title": "Entrepreneurship",
+          "topics": "Concept, Meaning, Definition and Need of Entrepreneurship, Theories of Entrepreneurship (Schumpeter, McClelland, Hagen), Factors Affecting Entrepreneurial Growth: Economic, Social, Psychological and Cultural, Role of Entrepreneurship in Economic Development.",
+          "hours": 15
+        },
+        {
+          "title": "Women Entrepreneurship",
+          "topics": "Concept, Meaning and Definition of Women Entrepreneur, Growth and Development of Women Entrepreneurship in India, Problems and Challenges Faced by Women Entrepreneurs, Schemes and Institutional Support for Women Entrepreneurs, Success Stories of Indian Women Entrepreneurs.",
+          "hours": 15
+        },
+        {
+          "title": "Business Environment",
+          "topics": "Concept, Meaning, Definition and Nature of Business Environment, Significance and Elements of Business Environment: Micro Environment (Internal factors, Customers, Competitors, Suppliers, Intermediaries) and Macro Environment (Economic, Political, Legal, Social, Cultural, Technological, Global).",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FOB106T",
+      "title": "Fundamentals of Banking-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Evolution of Banking",
+          "topics": "Origin and Evolution of Banking in India, Meaning and Definition of Bank and Banking, Structure of Indian Banking System, Functions of Commercial Banks: Primary Functions (Accepting Deposits, Granting Loans & Advances) and Secondary Functions (Agency and General Utility Services).",
+          "hours": 15
+        },
+        {
+          "title": "Procedure for Opening and Operating of Deposit Account",
+          "topics": "Types of Deposit Accounts: Savings, Current, Fixed, Recurring, Account Opening Procedure: Know Your Customer (KYC) Norms, Documents Required, Operations in Accounts, Closure of Accounts, Banker-Customer Relationship: General and Special Relationships.",
+          "hours": 15
+        },
+        {
+          "title": "Lending Principles and Balance Sheet of a Bank",
+          "topics": "Principles of Sound Lending: Safety, Liquidity, Profitability, Purpose, Spread, Diversification, Types of Advances: Cash Credit, Overdraft, Term Loans, Bill Discounting, Balance Sheet of a Commercial Bank: Structure of Assets and Liabilities.",
+          "hours": 15
+        },
+        {
+          "title": "Negotiable Instruments",
+          "topics": "Meaning, Definition and Characteristics of Negotiable Instruments, Promissory Note, Bill of Exchange and Cheque: Meaning, Features, Differences, Types of Cheques, Crossing of Cheques: Meaning, Types (General, Special), Endorsement: Meaning, Kinds, Dishonour of Cheque and Section 138 of Negotiable Instruments Act.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ILS107T",
+      "title": "Indian Legal System and Legal Method-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Meaning of Law, Classification of Laws and Justice",
+          "topics": "Meaning, Definition and Nature of Law, Objectives and Functions of Law, Classification of Laws: Substantive and Procedural Law, Public and Private Law, Civil and Criminal Law, Concept of Justice, Rule of Law and Due Process of Law.",
+          "hours": 15
+        },
+        {
+          "title": "The Sources of Law",
+          "topics": "Primary and Secondary Sources of Law, Custom: Meaning, Essentials of a Valid Custom, Legislation: Meaning, Types (Supreme and Subordinate), Precedent: Meaning, Doctrine of Stare Decisis, Ratio Decidendi and Obiter Dicta, Juristic Writings.",
+          "hours": 15
+        },
+        {
+          "title": "Basic Concepts of Indian Legal System",
+          "topics": "Structure and Hierarchy of Courts in India: Supreme Court, High Courts, Subordinate Courts, Jurisdiction of Courts: Original, Appellate, Advisory, Writs, Judicial Review, Adversarial vs. Inquisitorial Legal System, Basic Principles of Natural Justice.",
+          "hours": 15
+        },
+        {
+          "title": "Lok-Adalats, Gram Nyayalayas, Commercial Courts and Legal Aid",
+          "topics": "Alternative Dispute Resolution (ADR): Need and Importance, Lok Adalat: Concept, Powers and Functioning under Legal Services Authorities Act 1987, Gram Nyayalayas: Objectives and Jurisdiction, Commercial Courts Act 2015: Establishment and Scope, Legal Aid: Constitutional Provisions and Right to Free Legal Services.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "SDA108T",
+      "title": "Statistical Decision Analysis-I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Game Theory",
+          "topics": "Introduction, Meaning and Terminology: Pure and Mixed Strategy, Payoff Matrix, Two-Person Zero-Sum Game, Saddle Point, Minimax-Maximin Principle, Solution of Games with Saddle Point, Games without Saddle Point (2x2 games), Principle of Dominance, Graphical Method for 2xn and mx2 games.",
+          "hours": 15
+        },
+        {
+          "title": "Statistical Decision Theory",
+          "topics": "Introduction, Decision-Making Environment: Decision Making under Certainty, Risk and Uncertainty, Payoff Table and Regret (Opportunity Loss) Table, Criteria for Decision-Making under Uncertainty: Maximin, Maximax, Laplace, Hurwicz, Minimax Regret, Decision Making under Risk: Expected Monetary Value (EMV), Expected Opportunity Loss (EOL), Expected Value of Perfect Information (EVPI), Decision Tree Analysis.",
+          "hours": 15
+        },
+        {
+          "title": "Replacement Problem",
+          "topics": "Introduction, Need for Replacement, Replacement of Items that Deteriorate with Time (value of money remaining constant and considering money value changes), Replacement of Items that Fail Completely (Individual Replacement and Group Replacement Policy).",
+          "hours": 15
+        },
+        {
+          "title": "Statistical Quality Control",
+          "topics": "Introduction, Concept of Quality and Quality Control, Process Control and Product Control, Control Charts for Variables: X-bar and R Charts, Control Charts for Attributes: p-chart, np-chart, c-chart, Applications in Industry.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FFT110T",
+      "title": "Fundamentals of Financial Technology (FinTech) - I",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction to FinTech",
+          "topics": "Meaning, Definition and Evolution of FinTech, FinTech Ecosystem: Financial Institutions, Startups, Technology Developers, Regulators, Comparison of Traditional Banking and FinTech Models, Scope and Drivers of FinTech Growth in India.",
+          "hours": 15
+        },
+        {
+          "title": "Digital Payments and Banking Technology",
+          "topics": "Digital Payment Systems: Evolution, UPI, IMPS, RTGS, NEFT, AEPS (Aadhaar Enabled Payment System) and BBPS (Bharat Bill Payment System), Mobile Wallets, QR Code Payments, Payment Banks: Concept, Functioning and Examples, Digital Banking: Internet Banking, Mobile Banking, Neo-Banking and Open Banking.",
+          "hours": 15
+        },
+        {
+          "title": "Blockchain, Cryptocurrency and Distributed Ledger Technology",
+          "topics": "Introduction to Blockchain: Meaning, Characteristics, Types (Public, Private, Consortium), Concept and Working of Smart Contracts, Cryptocurrencies: Concept, Bitcoins, Central Bank Digital Currency (CBDC / e-Rupee), Applications of Blockchain in Finance.",
+          "hours": 15
+        },
+        {
+          "title": "Emerging Technologies, Regulation and Risk in FinTech",
+          "topics": "Artificial Intelligence and Machine Learning in Financial Services, Robo-advisory, Algorithmic Trading, Big Data Analytics, Cyber Security and Fraud Prevention in FinTech, Regulatory Framework for FinTech in India (RBI Guidelines, Sandbox), Data Privacy Laws and Data Protection Practices, Open Banking and Embedded Finance.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "IBE109T",
+      "title": "Introduction to Behavioural Economics",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Behavioural Economics",
+          "topics": "Meaning, Nature and Scope of Behavioural Economics, Distinction between Standard/Classical Economics and Behavioural Economics, Rationality in Economics: Bounded Rationality, Heuristics and Biases, Role of Behavioural Economics in Policy Making and Business, Indian Knowledge System (IKS) perspectives on human behaviour and economics.",
+          "hours": 15
+        },
+        {
+          "title": "Demand and Supply Analysis",
+          "topics": "Law of Demand and Supply, Determinants of Demand and Supply, Elasticity of Demand: Price, Income and Cross Elasticity, Methods of Measurement of Elasticity, Consumer Behaviour: Cardinal and Ordinal Utility Analysis, Indifference Curve Analysis: Properties, Consumer Equilibrium, Concept of Consumer Surplus.",
+          "hours": 15
+        },
+        {
+          "title": "Cost Concepts",
+          "topics": "Cost Concepts: Accounting Cost vs. Economic Cost, Opportunity Cost, Private and Social Cost, Short Run and Long Run Costs, Cost Curves: TC, TFC, TVC, AC, AFC, AVC, MC, Revenue Concepts: Total, Average and Marginal Revenue, Break-Even Analysis.",
+          "hours": 15
+        },
+        {
+          "title": "Theory of Production and Laws of Production",
+          "topics": "Production Function: Meaning, Short Run and Long Run, Cobb Douglas Production Function, The Law of Variable Proportions, The Laws of Returns to Scale, Concepts of Isoquants and Isocost Lines, Producer's Equilibrium.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "SEC111COM",
+      "title": "Business Accounting-I",
+      "semester": 1,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Meaning and Scope of Accounting",
+          "topics": "Definition of Accounting and Need for Accounting, Development of Accounting and Accounting as Information System, Book-Keeping and Accounting, Is Accounting a Science or an Art, Accounting and Other Disciplines, Branches of Accounting: Financial, Cost and Management Accounting, Meaning and Nature of Accounting Principles, Accounting Concepts: Business Entity, Going Concern, Money Measurement, Accounting Period, Accounting Conventions: Conservatism, Full Disclosure, Consistency, Materiality.",
+          "hours": 10
+        },
+        {
+          "title": "Accounting Standards (AS)",
+          "topics": "Meaning, Scope and Objectives of Accounting Standards, Advantages and Disadvantages of Accounting Standards, Formation of Accounting Standards Board and its Objectives and Functions, Procedure for Issuing Accounting Standards by ICAI, Overview of Key Indian Accounting Standards.",
+          "hours": 10
+        },
+        {
+          "title": "Partnership Firm and Piecemeal Distribution",
+          "topics": "Partnership: Meaning, Partnership Deed, Capital Accounts of Partners (Fixed and Fluctuating Capital Method), Profit and Loss Appropriation Account, Limited Liability Partnership: Concept, Structure, Advantages, Dissolution of Partnership Firm, Piecemeal Distribution of Cash: Surplus Capital Method and Maximum Loss Method.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "AEC112COM",
+      "title": "English-I",
+      "semester": 1,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Poetry for Values and Ethics",
+          "topics": "Study of selected poems reflecting human values, work ethics, perseverance, integrity and professional ideals, critical appreciation and vocabulary building.",
+          "hours": 10
+        },
+        {
+          "title": "Prose for Professional Growth",
+          "topics": "Study of selected inspiring prose passages on leadership, entrepreneurship, communication, teamwork and corporate responsibility, reading comprehension and critical analysis.",
+          "hours": 10
+        },
+        {
+          "title": "Conversational Skills for Professional Purposes",
+          "topics": "Effective conversational skills in business situations: Greetings, introductions, making inquiries, participating in discussions, telephone etiquette, presentations, English for sales and marketing.",
+          "hours": 10
+        }
+      ]
+    }
+  ],
+  "notes": "OE (Generic/Open Elective), VEC101T (Environmental Science), and IKS are from university baskets and detailed syllabi are not in this PDF."
+}
