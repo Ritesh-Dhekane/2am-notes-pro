@@ -1,0 +1,596 @@
+{
+  "id": "tybcom-bm-sem-v-syllabus-final-22062026",
+  "kind": "programme",
+  "programme": "Bachelor of Commerce - Business Management (B.Com. - BM)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MJ-301-BMF",
+      "title": "Analysis of Financial Statements",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Analysis and Interpretation of Financial Statements",
+          "topics": "Introduction to Schedule III as per the Companies Act, 2013, Meaning and importance of financial statements, Tools of financial statement analysis: Comparative statements, Common size statements, Trend analysis, Practical problems on preparation of comparative and common-size financial statements.",
+          "hours": 12
+        },
+        {
+          "title": "Ratio Analysis",
+          "topics": "Meaning, importance, advantages, and limitations of ratios, Classification of ratios: Liquidity ratios, Turnover ratios, Profitability ratios, Solvency ratios, Practical problems based on ratios (problems based on reverse ratios are excluded).",
+          "hours": 18
+        },
+        {
+          "title": "Fund Flow Statement",
+          "topics": "Meaning, objectives, uses, and limitations of fund flow statement, Difference between Fund Flow Statement and Cash Flow Statement, Preparation of Fund Flow Statement, Funds from Operations, Statement of Changes in Working Capital, Practical Problems on Preparation of Fund Flow Statement.",
+          "hours": 15
+        },
+        {
+          "title": "Cash Flow Statement",
+          "topics": "Meaning, objectives, uses, and limitations of cash flow statement, Methods of cash flow statements: Direct method and Indirect method, Practical problems on cash flow statement using the indirect method as per AS-3.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-301-BMM",
+      "title": "Marketing Environment Analysis and Strategies",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Introduction to Marketing Environment And Analysis of Micro and Macro Environment",
+          "topics": "Concept and importance of marketing environment, Components of micro environment (company, suppliers, marketing intermediaries, customers, competitors, publics), Components of macro environment (demographic, economic, natural, technological, political-legal, socio-cultural), Environmental scanning and SWOT analysis.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Analysis Tools",
+          "topics": "Industry structure and competitive dynamics models: Porter's five forces model, competitive dynamics, industry life cycle model, hyper competition model, game theory in competitive dynamics, Corporate portfolio and market growth matrix analysis: BCG Matrix, GE-McKinsey Matrix, Ansoff Matrix.",
+          "hours": 15
+        },
+        {
+          "title": "Marketing Strategies",
+          "topics": "Concept and components of marketing strategies, Market leader, challenger, follower, and nicher strategies, Product differentiation and positioning strategies, Pricing, distribution, and promotion strategies in competitive environments.",
+          "hours": 15
+        },
+        {
+          "title": "Recent Trends and Challenges in Marketing Strategies",
+          "topics": "Digital and social media marketing strategies, AI and data analytics in marketing, Green marketing, sustainable marketing, societal and holistic marketing, Customization and personalization strategies, Case studies of successful Indian brands.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-301-BMH",
+      "title": "Organizational Changes in HRM",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to Organizational Change",
+          "topics": "Concept, nature, types, and significance of organizational change, Forces of change: external and internal drivers, Resistance to change: individual and organizational factors, Overcoming resistance to change and managing change transitions.",
+          "hours": 15
+        },
+        {
+          "title": "Approaches and Models of Organizational Change",
+          "topics": "Kurt Lewin's Three-Step Change Model, Kotter's 8-Step Change Model, Action Research Model, Burke-Litwin Model, Role of HR managers as change agents.",
+          "hours": 15
+        },
+        {
+          "title": "Introduction to Organization Development",
+          "topics": "Meaning, definition, characteristics, and values of Organization Development (OD), Evolution and process of OD, Action research in OD, Role of OD consultant.",
+          "hours": 15
+        },
+        {
+          "title": "Organizational Development Interventions & Strategies",
+          "topics": "Types of OD interventions: Human process interventions (T-groups, team building), Techno-structural interventions (job enrichment, reengineering), HRM interventions (reward systems, career planning), Strategic change interventions (transformational change, organizational culture change).",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-301-BMA",
+      "title": "Recent Trends in Agri - Business Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Digital Agriculture, Ecommerce and Agri-Tech",
+          "topics": "Precision farming, IoT, drones, and AI in agriculture, Mobile apps and digital platforms for farmers, Agri-fintech, E-NAM (National Agriculture Market), Farm-to-fork e-commerce models.",
+          "hours": 15
+        },
+        {
+          "title": "Renewable Energy in Agriculture, Emerging Agri Business Models",
+          "topics": "Solar pumps, biogas, biomass energy in farming, Organic farming, vertical farming, hydroponics, Farmer Producer Organizations (FPOs) and contract farming models.",
+          "hours": 15
+        },
+        {
+          "title": "Climate Change and Risk Management, Data Analytics in Agriculture",
+          "topics": "Impact of climate change on agriculture, Crop insurance (PMFBY), Weather forecasting, big data, and satellite imagery for yield prediction and risk mitigation.",
+          "hours": 15
+        },
+        {
+          "title": "Agricultural Finance and FinTech, International Agri Trade, Entrepreneurship in Agribusiness",
+          "topics": "Institutional credit, microfinance, Agri-startups, export-import procedures, APEDA, trade barriers, Agri-tourism and food processing ventures.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-301-BMS",
+      "title": "Recent Trends in Services",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Overview of current trends in service industries",
+          "topics": "Growth and contribution of service sector in India, ITES (IT Enabled Services) and BPO/KPO, Hospitality, healthcare, education, retail, and financial service innovations.",
+          "hours": 15
+        },
+        {
+          "title": "Technology in Services",
+          "topics": "Automation in services, AI chatbots, self-service technologies, cloud computing, cybersecurity, mobile app-based on-demand service platforms.",
+          "hours": 15
+        },
+        {
+          "title": "Globalization of Services",
+          "topics": "Globalization and Indian services, Service delivery models: focused network, clustered service and diversified network, Challenges of international service trade and cultural adaptation.",
+          "hours": 15
+        },
+        {
+          "title": "Case Study",
+          "topics": "Practical case studies on innovative service delivery in e-health, e-learning, logistics, fintech, and e-commerce platforms.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-BMF",
+      "title": "Strategic Financial Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Strategic Financial Management",
+          "topics": "Meaning, nature, scope, and objectives of Strategic Financial Management (SFM), Interface between financial strategy and corporate strategy, Financial goals, strategy formulation, and role of strategic financial manager.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Financing Decisions",
+          "topics": "Capital structure planning, financial leverages, choosing between financing alternatives, Cost of capital, Economic Value Added (EVA) and Market Value Added (MVA), corporate restructuring.",
+          "hours": 15
+        },
+        {
+          "title": "Ethical Aspects of Strategic Financial Management",
+          "topics": "Corporate governance, insider trading, ethical issues in financial reporting, creative accounting, corporate social responsibility in financial decisions.",
+          "hours": 15
+        },
+        {
+          "title": "Recent Trends in Strategic Financial Management",
+          "topics": "Financing startups, venture capital, angel investing, private equity, structured finance, financial engineering, ESG investing, and fintech disruptions in corporate finance.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-BMM",
+      "title": "Strategic Marketing Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction to Strategic Marketing Management",
+          "topics": "Concept, nature, and scope of Strategic Marketing Management, Strategic Marketing vs. Traditional Marketing, Societal and holistic marketing approaches.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Marketing Planning & Environment Analysis",
+          "topics": "Strategic marketing planning process, Market opportunity analysis, Competitor analysis, Segmentation, targeting, and positioning (STP) strategies.",
+          "hours": 15
+        },
+        {
+          "title": "Competitive Marketing Strategies",
+          "topics": "Generic competitive strategies (Cost leadership, Differentiation, Focus), Product-market strategies, Branding strategies, Global marketing strategies.",
+          "hours": 15
+        },
+        {
+          "title": "Implementation, Evaluation, and Control of Marketing Strategy",
+          "topics": "Organizing and implementing marketing plans, Marketing audit, Marketing performance metrics, Customer satisfaction metrics, Digital marketing analytics and control.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-BMH",
+      "title": "Strategic Human Resource Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to Strategic HRM",
+          "topics": "Concept, definition, scope, and strategic importance of SHRM, Traditional HRM vs. Strategic HRM, Theoretical perspectives of SHRM (Resource-Based View, Universalistic, Contingency, and Configurational approaches).",
+          "hours": 15
+        },
+        {
+          "title": "Strategic HR Planning & Acquisition",
+          "topics": "Strategic Human Resource Planning (SHRP), Linking HR strategy with corporate strategy, Strategic talent acquisition, Employer branding, E-recruitment, AI in hiring.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Training, Development & Performance Management",
+          "topics": "Strategic training and development, Competency mapping, Career planning and succession planning, Strategic performance management systems, Balanced Scorecard in HRM.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Compensation, Employee Relations & Emerging Trends in SHRM",
+          "topics": "Strategic reward management, Executive compensation, Employee engagement, Retention strategies, HR analytics, Remote and hybrid workforce management, Future trends in SHRM.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-BMA",
+      "title": "Strategic Agri - Business Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Strategic Agribusiness Management",
+          "topics": "Concept, scope, and significance of strategic management in agribusiness, Agribusiness environment analysis, Distinctive features of agribusiness sector in India.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Planning in Agribusiness",
+          "topics": "Formulation of vision, mission, and strategic goals in agribusiness, Environmental scanning, SWOT analysis, Resource-based planning for farm enterprises.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Marketing and Supply Chain in Agribusiness",
+          "topics": "Agricultural supply chain management, Cold chain infrastructure, Strategic marketing of farm inputs and outputs, Export strategies, Commodity market hedging.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Growth, Innovation, and Policy Framework",
+          "topics": "Diversification strategies in agribusiness, Joint ventures, Public-Private Partnerships (PPP) in agriculture, Government agricultural policies and incentives.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-BMS",
+      "title": "Strategic Services Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Strategic Services Management",
+          "topics": "Concept, characteristics, and challenges of strategic services management, Service economy and its role in global GDP, The Service-Dominant Logic (S-D Logic).",
+          "hours": 15
+        },
+        {
+          "title": "Service Design and Strategy Formulation",
+          "topics": "Strategic service vision, Service blueprinting, Servicescape design, Positioning and differentiation strategies for services, New service development.",
+          "hours": 15
+        },
+        {
+          "title": "Service Delivery and Capacity Management",
+          "topics": "Managing demand and capacity in services, Yield management, Service recovery strategies, Empowerment of front-line employees, Customer co-creation in services.",
+          "hours": 15
+        },
+        {
+          "title": "Managing Service Quality and Customer Experience",
+          "topics": "SERVQUAL model and Gaps model of service quality, Customer satisfaction measurement, Customer relationship management (CRM) in services, Designing memorable customer experiences.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-303-BMF",
+      "title": "Cases in Finance",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        32,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Financial Management: Concept, goals & objectives, Financial decisions, types of financial decisions, role of a financial manager, Financial planning: Principles of sound financial planning, steps and factors influencing a sound financial plan.",
+          "hours": 10
+        },
+        {
+          "title": "Fund Raising and Capital Budgeting",
+          "topics": "Sources of finance and fund raising methods, Time value of money, Capital budgeting techniques: Payback Period, ARR, Discounted Payback, NPV, Profitability Index, IRR, Practical case studies and problems on investment decisions.",
+          "hours": 18
+        },
+        {
+          "title": "Capital Structure and Cost of Capital",
+          "topics": "Meaning and factors influencing capital structure, Optimum capital structure, EBIT-EPS analysis, Leverages, Cost of capital: NI, NOI, Traditional, and MM approach, WACC calculation and case studies.",
+          "hours": 18
+        },
+        {
+          "title": "Working Capital Management & Dividend Decisions",
+          "topics": "Working capital concepts, classification, operating cycle, practical problems on assessment and forecasting, Dividend theories: Walter's, Gordon's, and MM models, factors influencing dividend policy.",
+          "hours": 14
+        }
+      ]
+    },
+    {
+      "code": "MJ-303-CM",
+      "title": "Cases in Marketing",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        35,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Case Studies",
+          "topics": "Meaning, definition, types, purpose, characteristics, and importance of case studies, Guidelines for case analysis, case discussion process, effective presentation and participation.",
+          "hours": 15
+        },
+        {
+          "title": "Case Studies on Key Marketing Areas",
+          "topics": "Consumer behaviour & buyer decision process cases, Marketing mix cases (Product, Price, Place, Promotion), Branding, market segmentation, and targeting case studies.",
+          "hours": 15
+        },
+        {
+          "title": "Strategic Marketing and Brand Management Cases",
+          "topics": "Competitive marketing strategy cases, New product launch and brand repositioning cases, Integrated Marketing Communication (IMC) campaign cases.",
+          "hours": 15
+        },
+        {
+          "title": "Digital Marketing, Social Media and Contemporary Marketing Cases",
+          "topics": "Digital and social media marketing cases, E-commerce strategy cases, Rural marketing cases, Ethics and sustainability in marketing cases.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-303-BMH",
+      "title": "Cases in HRM",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to HRM Cases and Case Analysis Method",
+          "topics": "Case meaning, objectives, characteristics, and importance, Steps in case study analysis, Tools and techniques for case analysis, HR functions and responsibilities, Emerging trends in HRM.",
+          "hours": 15
+        },
+        {
+          "title": "Case Studies - I",
+          "topics": "Job analysis: Job description, specification, evaluation, Recruitment and selection, Talent acquisition challenges, Training, Executive development, Promotion issues in organizations.",
+          "hours": 15
+        },
+        {
+          "title": "Case Studies - II",
+          "topics": "Performance appraisal and 360-degree feedback, Compensation and reward management, Employee motivation, Work-life balance, Grievance handling and discipline.",
+          "hours": 15
+        },
+        {
+          "title": "Case Studies - III",
+          "topics": "Industrial relations, Trade union disputes, Downsizing and restructuring, Managing diversity and inclusion, Hybrid and remote workforce HR challenges.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-303-BMA",
+      "title": "Cases in Agri - Business Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        41,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Agri-Business Cases",
+          "topics": "Meaning and importance of case studies in agribusiness, Types of agribusiness cases, Agribusiness environment analysis, Problems and challenges in agriculture, Decision making approaches.",
+          "hours": 15
+        },
+        {
+          "title": "Cases in Agricultural Marketing",
+          "topics": "Agricultural marketing strategy cases, Branding and promotion of farm products, Supply chain, cold storage, and distribution cases, Digital agricultural marketing, Export of farm products.",
+          "hours": 15
+        },
+        {
+          "title": "Cases in Agri-Business Operations and Finance",
+          "topics": "Cases on production planning, farm mechanization, contract farming, agro-processing unit management, crop loan appraisal, FPO financing and micro-credit.",
+          "hours": 15
+        },
+        {
+          "title": "Contemporary Issues and Innovation Cases in Agribusiness",
+          "topics": "Agri-tech startups, organic farming ventures, weather risk and crop insurance cases, sustainable agriculture and climate resilience business cases.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-303-BMS",
+      "title": "Cases in Service Management",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Introduction to Service Management Cases",
+          "topics": "Meaning and importance of service management cases, Nature and characteristics of services, Types of service industries, Challenges in service operations, Decision-making approaches.",
+          "hours": 15
+        },
+        {
+          "title": "Cases in Service Marketing",
+          "topics": "Service marketing strategy cases, Customer Relationship Management (CRM) in services, Service branding, Digital marketing of services, Service quality and customer satisfaction.",
+          "hours": 15
+        },
+        {
+          "title": "Cases in Service Operations",
+          "topics": "Capacity and demand management cases, Service blueprinting, Queueing and wait-time management, Front-line staff motivation, Service failure and recovery cases.",
+          "hours": 15
+        },
+        {
+          "title": "Cases in Emerging Service Sectors",
+          "topics": "Healthcare management cases, Hospitality and tourism cases, FinTech and digital banking service cases, EdTech and e-learning service operations.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ME-301-BM",
+      "title": "Decision Making & Risk Management",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 4,
+      "pages": [
+        46,
+        48
+      ],
+      "units": [
+        {
+          "title": "Introduction to Decision making and Risk Management",
+          "topics": "Decision making: Introduction, factors affecting decision making, principles, steps in process, decision making styles, reasons for failure of rational models, cognitive biases and psychological traps, Risk management: Meaning, significance, and role.",
+          "hours": 15
+        },
+        {
+          "title": "Decision making Tools and Models",
+          "topics": "Role of technology in decision making and data analysis, Models of decision making: Rational model, bounded rationality, intuitive decision making, decision trees, payoff matrices, scenario analysis.",
+          "hours": 15
+        },
+        {
+          "title": "Risk Identification, Assessment and Management",
+          "topics": "Types of business risks (Strategic, Operational, Financial, Compliance, Reputational), Risk identification techniques, Qualitative and quantitative risk assessment, Risk mitigation strategies (Avoidance, Reduction, Transfer, Acceptance).",
+          "hours": 15
+        },
+        {
+          "title": "Crisis Decision Making and Contemporary Trends",
+          "topics": "Crisis management: Decision making under extreme uncertainty and time pressure, Business Continuity Planning (BCP), Enterprise Risk Management (ERM) frameworks (COSO, ISO 31000), AI and predictive analytics in risk management.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MN-301-BM",
+      "title": "Ethics & Corporate Social Responsibility",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business Ethics",
+          "topics": "Introduction to Ethics, Meaning, definition, nature, and importance, Types of ethics, values, morality, Business Ethics: Meaning, objectives, ethical issues, code of conduct, corporate governance, Ethical practices in marketing, HRM, finance, and digital business.",
+          "hours": 15
+        },
+        {
+          "title": "Corporate Social Responsibility (CSR)",
+          "topics": "Introduction to CSR, meaning, concept, evolution, importance, objectives, and scope, CSR and sustainable development, CSR framework in India: Provisions under Companies Act 2013, role of government, CSR policies and stakeholder approach.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "VSC-301-BM",
+      "title": "Entrepreneurship Essentials",
+      "semester": 5,
+      "type": "Vocational Skill Development Course",
+      "credits": 2,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurship Fundamentals",
+          "topics": "Meaning, concept, attributes, and mind-set of entrepreneurial and intrapreneurial leadership, Analyzing macro problems and industry perspective, Aligning passion, identifying and defining problems using Design Thinking principles, validating with potential customers.",
+          "hours": 15
+        },
+        {
+          "title": "Customer Discovery, Ideation and competition mapping",
+          "topics": "Customer segmentation, creating and validating customer personas, Jobs-to-be-done framework, solution design, Business Model Canvas (BMC), prototype building, unit economics, and pitch presentation.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FP-301-BM",
+      "title": "Field Project",
+      "semester": 5,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    }
+  ],
+  "notes": "Field Project guidelines and activities are outlined on pages 53-54."
+}

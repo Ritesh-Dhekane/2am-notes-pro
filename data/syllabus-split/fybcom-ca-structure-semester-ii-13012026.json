@@ -1,0 +1,142 @@
+{
+  "id": "fybcom-ca-structure-semester-ii-13012026",
+  "kind": "programme",
+  "programme": "Bachelor of Commerce - Computer Application (BCom-CA) FYBCom-CA Semester II",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "3",
+      "title": "Advance C Programming",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "4",
+      "title": "Relational Database Management System (RDBMS)",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "5",
+      "title": "Computer Laboratory based on Advance C and RDBMS",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "Minor 1",
+      "title": "Organizational Behavior",
+      "semester": 2,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "3",
+      "title": "Business Statistics - I",
+      "semester": 2,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "4",
+      "title": "Introduction to Data Science",
+      "semester": 2,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-151-T",
+      "title": "Web Technology",
+      "semester": 2,
+      "type": "Vocational Skill Development Course (VSC) (Practical)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-151-T",
+      "title": "E-Commerce",
+      "semester": 2,
+      "type": "Skill Enhancement Course (SEC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-151-T",
+      "title": "Business Communication Skills-II",
+      "semester": 2,
+      "type": "Ability Enhancement Course (AEC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "VEC-151-T",
+      "title": "Democracy Awareness & Gender Sensitization",
+      "semester": 2,
+      "type": "Value Education Course (VEC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "CC-151-T",
+      "title": "Physical Education – II",
+      "semester": 2,
+      "type": "Co-Curricular Courses (CC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    }
+  ],
+  "notes": "Structure table only"
+}

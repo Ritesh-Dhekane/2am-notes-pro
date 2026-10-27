@@ -1,0 +1,162 @@
+{
+  "id": "double-minor-civil-digital-smart-sustainable-infrastruct",
+  "kind": "programme",
+  "programme": "Double Minor in Digital, Smart & Sustainable Infrastructure",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DM-DSSI-301-CVL",
+      "title": "Geoinformatics, GIS & Remote Sensing",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Geospatial Technology (",
+          "topics": "Concept of Geoinformatics, GIS, necessity of location, Components of GIS, Spatial data and non-spatial data, Point, line and polygon, Raster and vector data, Maps and digital maps, Scale and resolution, Basic coordinate concepts, Geographic coordinates – latitude and longitude, Introduction to map projections, Sources of spatial data, Open geospatial data, Applications in daily life.",
+          "hours": 6
+        },
+        {
+          "title": "GIS Fundamentals (",
+          "topics": "GIS data and databases, Attribute information, Layers in GIS, Creating thematic maps, Querying spatial information, Buffer analysis, Overlay analysis, Proximity analysis, Basic network analysis, Map symbols, Map layout, GIS workflow, Introduction to QGIS, Introduction to ArcGIS Examples: Finding schools within 2 km, Finding suitable locations for a hospital, Mapping roads, Mapping water pipelines, Identifying flood-prone areas. Page | 4",
+          "hours": 6
+        },
+        {
+          "title": "Remote Sensing Fundamentals (",
+          "topics": "Basic Concept of Remote Sensing, Satellite and airborne remote sensing, Electromagnetic spectrum – basic concept, Interaction of energy with earth surface, Sensors and platforms, Optical and thermal images, Satellite images, Spatial resolution, Spectral re solution, Temporal resolution, Radiometric resolution, Major satellite missions: Landsat, Sentinel, Resourcesat, Cartosat, Image interpretation, True Colour Composite, False Colour Composite.",
+          "hours": 6
+        },
+        {
+          "title": "Image Analysis (",
+          "topics": "Digital satellite images, I mage enhancement, Contrast, Histogram, Image classification, Supervised classification, Unsupervised classification, Land Use/Land Cover, Change detection, NDVI, NDWI, Built -up area mapping, Introduction to DEM, Elevation, Slope, Aspect, Contour, Terrain visualization",
+          "hours": 6
+        },
+        {
+          "title": "Applications of GIS & Remote Sensing (",
+          "topics": "Urban planning, Smart cities, Transportation, Agriculture, Water resources, Disaster management, Flood mapping, Environmental monitoring, Infrastructure planning, Construction site monitoring, Land -use planning, Utility management, Climate studies, Introduction to GIS + IoT.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DM-DSSI-302-CVL",
+      "title": "Building Information Modelling (BIM) & Digital Construction",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 5,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Introduction to BIM (",
+          "topics": "Digital transformation in engineering, Traditional CAD vs BIM, concept of BIM, BIM lifecycle, BIM ecosystem, BIM model, BIM objects, Parametric modelling, BIM stakeholders, BIM benefits, BIM limitations, BIM applications, BIM dimensions: 3D to 7D, BIM in different engineering disciplines",
+          "hours": 6
+        },
+        {
+          "title": "BIM Modelling (",
+          "topics": "Basic modelling concepts, Levels, Grids, Components, Parametric objects, Architectural model – basic concepts, Structural model – basic concepts, MEP model – basic concepts, Model properties, Views, Sections, Elevations, Sheets, Documentation, Model organization Examples: No advanced structural design calculations.",
+          "hours": 6
+        },
+        {
+          "title": "BIM for Project Management (",
+          "topics": "4D BIM: BIM + Time, Construction sequence, Project scheduling, Linking model with schedule, Construction simulation, Progress monitoring 5D BIM: BIM + Cost, Quantity take -off, Basic estimation, BOQ, Cost monitoring, Quantity changes. Page | 6",
+          "hours": 6
+        },
+        {
+          "title": "Digital Construction (",
+          "topics": "Digital construction concept, Cloud -based construction, Common Data Environment, Mobile applications, Digital documentation, UAV/drone applications, Photogrammetry, Laser scanning, Point clouds, Scan -to- BIM, 3D printing, Robotics, AR/VR/MR",
+          "hours": 6
+        },
+        {
+          "title": "BIM Integration & Future Technologies (",
+          "topics": "Concept of BIM + GIS, BIM + IoT, BIM + AI, Digital Twin, Smart buildings, Facility management, Asset management, OpenBIM, IFC, Data interoperability, BIM Execution Plan – basic concept, Future of digital construction",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DM-DSSI-401-CVL",
+      "title": "Sustainable & Green Infrastructure",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 5,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Sustainability Fundamentals (",
+          "topics": "Meaning of sustainability, Sustainable development, Need for sustainable infrastructure, Environmental sustainability, Economic sustainability, Social sustainability, Sustainable Development Goals, Climate change, Carbon footprint, Carbon emissions, Embodied carbon, Operational carbon, Circular economy, Resource efficiency, Resilient infrastructure.",
+          "hours": 6
+        },
+        {
+          "title": "Green Buildings (",
+          "topics": "Green building concept, Principles of green buildings, Site selection, Building orientation, Natural ligh ting, ventilation, Thermal comfort, Energy efficiency, Water efficiency, Indoor environmental quality, Renewable energy, Solar energy, Green roofs, Rainwater harvesting Rating systems IGBC, GRIHA, LEED, EDGE (Only basic comparison and application, not detailed certification procedures) Page | 9",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Materials & Construction (",
+          "topics": "Sustainable construction, Recycled materials, Recycled aggregate, Fly ash, GGBS, Geopolymer materials, Low-carbon concrete, Sustainable bricks/blocks, Bamboo, Recycled steel, Prefabrication, Modular construction, 3D printing, Construction waste, Recycling, Reuse, Circular construction.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Water, Energy & Transportation (",
+          "topics": "Water: Water conservation, Rainwater harvesting, Greywater, Wastewater reuse, Water recycling, Sustainable drainage Energy: Energy efficiency, Solar energy, Renewable energy, Smart energy, Net -zero energy buildings Transportation: Public transportation, Walking and cycling, Electric vehicles, Transit -oriented development, Low-carbon transportation",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Infrastructure Assessment (",
+          "topics": "Life Cycle Assessment – basic concept, Life Cycle Cost, Carbon footprint, Embodied energy, Carbon reduction, Sustainability indicators, Environmental impact, Social impact, Economic impact, ESG – basic concept, Climate-resilient infrastructure, Net-zero infrastructure, Case studies",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DM-DSSI-402-CVL",
+      "title": "Smart Cities, IoT & Intelligent Infrastructure",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Smart Cities (",
+          "topics": "Concept of Smart City, necessity to become smart, Traditional city vs Smart City, Components of a Smart City, Smart governance, Smart mobility, Smart buildings, Smart water, Smart energy, Smart waste management, Smart environment, Digital infrastructure, Smart City Mission – India, Challenges of smart cities",
+          "hours": 6
+        },
+        {
+          "title": "Internet of Things (",
+          "topics": "Basic concept of IoT, Examples of IoT in daily life, IoT architecture – basic, Sensors, Actuators, Data collection, Communication, Inte rnet connectivity, Cloud, Edge computing, IoT gateways, RFID, Wi -Fi, Bluetooth, LoRa, 5G, Basic IoT security Examples: No detailed circuit design or programming. Page | 11",
+          "hours": 6
+        },
+        {
+          "title": "Smart Infrastructure (",
+          "topics": "Concept of Intelligent infrastructure, Smart buildings, Smart roads, Smart bridges, Smart water systems, Smart energy systems, Smart waste management, Infrastructure monitoring, Sensors for monitoring, Structural health monitoring – concept, Predictive maintenance, Asset management, Digital Twin.",
+          "hours": 6
+        },
+        {
+          "title": "Smart Mobility and Urban Services (",
+          "topics": "Smart Transportation: Intelligent Transportation Systems, Traffic monitoring, Smart traffic signals, Smart parking, GPS -based transportation, Public transport tracking, Connected vehicles, Electric mobili ty Smart Water & Energy: Smart water meters, Leakage detection, Water -quality monitoring, Smart electricity meters, Smart grids, Energy monitoring",
+          "hours": 6
+        },
+        {
+          "title": "AI, Data & Future Cities (",
+          "topics": "Urban data, Big data, Cloud platforms, Artificial Intelligence, Machine Learning – basic concepts, Computer vision, Predictive analytics, GIS + IoT, BIM + IoT, Digital Twin, Cybersecurity, Data privacy, Resilient cities, Future cities.",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

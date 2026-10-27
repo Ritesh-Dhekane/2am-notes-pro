@@ -1,0 +1,266 @@
+{
+  "id": "tybcom-ib-sem-v-syllabus-final-22062026",
+  "kind": "programme",
+  "programme": "Bachelor of Commerce in International Business (B.Com. - IB)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MJ-301-IB",
+      "title": "Management of Agribusiness & Agri export",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Agribusiness Management",
+          "topics": "Agribusiness Management: Meaning, scope and importance of agribusiness in India, Structure of agribusiness, Nature and characteristics, Challenges and opportunities, Sustainable agriculture practices, Contract farming, types of contract farming, ICT in agribusiness, application of ICT in agribusiness.",
+          "hours": 15
+        },
+        {
+          "title": "Agri-Marketing and Distribution Systems",
+          "topics": "Meaning and scope, importance, characteristics of agricultural products, Distribution channels in agriculture, Modern retail formats in agriculture (e-mandi, contract procurement), Post-harvest management, cold chain infrastructure, Warehousing and logistics in agricultural marketing.",
+          "hours": 15
+        },
+        {
+          "title": "Agri Export and Policy Framework",
+          "topics": "India's agricultural export performance and potential, Major agri-export commodities, Government initiatives and export promotion schemes (APEDA, MPEDA), Export procedures and documentation for agri-products, Export inspection and quarantine procedures.",
+          "hours": 15
+        },
+        {
+          "title": "Quality Standards, Certification and Risk Management",
+          "topics": "Quality management in agri-business: AGMARK, FSSAI, GlobalGAP, Organic certification, Phytosanitary regulations, Risk management in agriculture: Price volatility, weather risks, crop insurance (PMFBY), hedging through agricultural commodity exchanges (NCDEX, MCX).",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-IB",
+      "title": "International Relations",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Overview of International Relations",
+          "topics": "Meaning, scope, objectives and principles of international relations, Economic relations: International trade and global business, Foreign Direct Investment (FDI), Legal Relations: Introduction to international law, treaties, customs, international dispute settlement mechanisms.",
+          "hours": 15
+        },
+        {
+          "title": "Regional Economic Integration and Trade Blocs",
+          "topics": "Forms of economic integration: Free Trade Area, Customs Union, Common Market, Economic Union, Major regional trade agreements and blocs: EU, ASEAN, USMCA, SAARC, BRICS, Regional Comprehensive Economic Partnership (RCEP), Benefits and challenges of regionalism.",
+          "hours": 15
+        },
+        {
+          "title": "International Organizations and Global Governance",
+          "topics": "Role and functions of United Nations (UN), World Trade Organization (WTO): Principles, agreements (GATT, GATS, TRIPS, TRIMS), dispute settlement mechanism, International Monetary Fund (IMF) and World Bank in global financial governance.",
+          "hours": 15
+        },
+        {
+          "title": "Foreign Policy, Diplomacy and Emerging Issues in International Relations",
+          "topics": "Determinants of foreign policy, Commercial and economic diplomacy, Bilateral and multilateral trade agreements, Geopolitics and supply chain security, Sanctions and trade wars, Emerging power shifts in global trade.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MJ-303-IB",
+      "title": "Management Information System",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Foundations of Management Information Systems",
+          "topics": "Meaning, nature, and scope of information systems, Data, information, knowledge, and business intelligence, Components of MIS, Role of MIS in functional areas of business, Strategic importance of MIS in global business, Digital transformation and business automation.",
+          "hours": 15
+        },
+        {
+          "title": "Information Systems, Technology, and Infrastructure",
+          "topics": "Hardware, software, database systems (DBMS/RDBMS), Telecommunications and networks, Cloud computing infrastructure, Big data and data warehousing concepts, Decision Support Systems (DSS), Executive Support Systems (ESS), Knowledge Management Systems (KMS).",
+          "hours": 15
+        },
+        {
+          "title": "Enterprise Applications and Functional Information Systems",
+          "topics": "Enterprise Resource Planning (ERP): Architecture and benefits, Customer Relationship Management (CRM) systems, Supply Chain Management (SCM) systems, E-commerce and M-commerce platforms, Cross-functional enterprise integration.",
+          "hours": 15
+        },
+        {
+          "title": "Information Security, Ethics, and Emerging Trends in MIS",
+          "topics": "Cybersecurity threats and vulnerabilities, Information security policies, firewalls, encryption, ethical and societal issues in information systems, data privacy (DPDPA), Artificial Intelligence and machine learning in business decision making.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ME-301-IB",
+      "title": "Production & Operations Management",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 4,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Production and Operations Management",
+          "topics": "Meaning, definition, objectives and scope of production and operations management, classification, evolution from manufacturing to operations, Waste management (3Rs: Reduce, Reuse, Recycle), Plant location: Objectives, importance, locating foreign facilities.",
+          "hours": 15
+        },
+        {
+          "title": "Plant Layout, Material Handling and Maintenance Management",
+          "topics": "Plant layout: Meaning, principles, types (product, process, fixed position, cellular), Material handling: Principles and equipment, Maintenance management: Breakdown, preventive, predictive, and total productive maintenance (TPM).",
+          "hours": 15
+        },
+        {
+          "title": "Operations Planning, Scheduling and Inventory Control",
+          "topics": "Production planning and control (PPC): Routing, scheduling, dispatching, expediting, Capacity planning, Aggregate planning, Inventory control: ABC analysis, EOQ, Just-in-Time (JIT) production, Kanban system.",
+          "hours": 15
+        },
+        {
+          "title": "Quality Management, Work Study and Modern Manufacturing Practices",
+          "topics": "Work study: Method study and time study, Quality management: TQM, Six Sigma, ISO 9000/14000 certifications, Statistical Quality Control (SQC), Lean manufacturing, flexible manufacturing systems (FMS), Industry 4.0 applications.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ME-301-IB",
+      "title": "Industrial Marketing",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 4,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction and Overview of Industrial Marketing",
+          "topics": "Concept of Industry, types and features of industries, Meaning, importance and key features of industrial marketing, Evolution, Industrial vs. Consumer marketing, Traditional vs. modern industrial markets.",
+          "hours": 15
+        },
+        {
+          "title": "Industrial Buying Behaviour and Market Segmentation",
+          "topics": "Organizational buying process, Buy-grid framework (Buy-phases and Buy-classes), Decision Making Unit (DMU) / Buying Centre roles, Factors influencing industrial buyers, Segmentation, targeting and positioning in B2B markets.",
+          "hours": 15
+        },
+        {
+          "title": "Industrial Product Strategy, Pricing and Channel Management",
+          "topics": "Industrial product development, product life cycle in B2B, Pricing strategies in industrial marketing: Competitive bidding, negotiation, life-cycle costing, Channel design and management in B2B, industrial distributors and manufacturer representatives.",
+          "hours": 15
+        },
+        {
+          "title": "Industrial Communication, Relationship Management and Emerging Trends",
+          "topics": "B2B promotion mix: Trade shows, industrial advertising, direct marketing, personal selling, Key Account Management (KAM), Customer Relationship Management (CRM) in B2B, Digital B2B marketing, e-procurement platforms.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ME-301-IB",
+      "title": "Management of Financial Services",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 4,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Financial Services",
+          "topics": "Meaning, nature and scope of financial services, Features and importance, Role of financial services in economic development, Challenges in financial services, Financial system in India.",
+          "hours": 15
+        },
+        {
+          "title": "Fund Based and Non-Fund Based Financial Services",
+          "topics": "Leasing and Hire Purchase: Concepts, types, legal and tax framework, Factoring and Forfaiting: Mechanisms, types, benefits, Housing finance, Consumer finance, Venture capital and private equity.",
+          "hours": 15
+        },
+        {
+          "title": "Capital Market Intermediaries and Merchant Banking",
+          "topics": "Merchant banking: Role, functions, SEBI regulations, Issue management: Pre-issue and post-issue management, Underwriting, Credit Rating: Agencies (CRISIL, ICRA, CARE), methodology and symbols, Stock broking and depositories.",
+          "hours": 15
+        },
+        {
+          "title": "Contemporary Issues and Digital Innovations in Financial Services",
+          "topics": "Mutual funds: Structure, types of schemes, Asset Management Companies (AMCs), Securitization of debt, FinTech innovations: Peer-to-peer lending, robo-advisory, micro-insurance, regulatory framework.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MN-301-IB",
+      "title": "International Economics",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction to International Economics and Globalization",
+          "topics": "Meaning, nature and scope of international economics, Globalization and liberalization, Interdependence of world economies, International trade flows, Role of MNCs and TNCs, Classical and modern trade theories (Adam Smith, David Ricardo, Heckscher-Ohlin).",
+          "hours": 15
+        },
+        {
+          "title": "Commercial Policy, Trade Barriers and Balance of Payments",
+          "topics": "Free trade vs. Protection, Tariffs and non-tariff barriers (quotas, subsidies, anti-dumping), Balance of Payments (BOP): Structure, components, disequilibrium and adjustment mechanisms, Foreign exchange market and exchange rate determination.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "VSC-301-IB",
+      "title": "Entrepreneurship Essentials",
+      "semester": 5,
+      "type": "Vocational Skill Development Course",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurship Fundamentals",
+          "topics": "Meaning and concept, attributes and mindset of entrepreneurial and intrapreneurial leadership, Analyzing macro problem and industry perspective, Aligning passion, identifying and defining problems using design thinking principles, validating with potential customer.",
+          "hours": 15
+        },
+        {
+          "title": "Customer Discovery, Ideation and competition mapping",
+          "topics": "Understanding customer, customer segmentation, creating and validating customer personas, Jobs-to-be-done framework, solution design, Business Model Canvas (BMC), prototype building, and pitch presentation.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FP-301-IB",
+      "title": "Field Project",
+      "semester": 5,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": []
+    }
+  ],
+  "notes": "ME-301-IB offers three elective choices (Production & Operations Management, Industrial Marketing, Management of Financial Services)."
+}

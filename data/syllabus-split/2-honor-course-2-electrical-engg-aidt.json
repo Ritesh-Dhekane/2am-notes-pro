@@ -1,0 +1,196 @@
+{
+  "id": "2-honor-course-2-electrical-engg-aidt",
+  "kind": "programme",
+  "programme": "Honor Course in Artificial Intelligence and Digital Technologies for Electrical Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HAID303ELE",
+      "title": "Artificial Intelligence for Electrical Systems",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [6, 7],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence for Electrical Systems",
+          "topics": "Introduction to Artificial Intelligence, History and evolution of AI, AI ecosystem and workflow, Types of Artificial Intelligence, Intelligent agents and problem -solving, Knowledge representation, Search techniques, AI applications in Electrical Engineering, AI software tools (Python, Google Colab, Jupyter Notebook)",
+          "hours": 8
+        },
+        {
+          "title": "Machine Learning for Electrical Engineering",
+          "topics": "Introduction to Machine Learning, Data preprocessing and feature engineering, Supervised learning, Unsupervised learning, Reinforcement learning (overview), Regression techniques, Classification techniques, Clustering methods, Model evaluation and performance metrics, AI datasets for electrical engineering",
+          "hours": 8
+        },
+        {
+          "title": "Deep Learning and Intelligent Data Analytics",
+          "topics": "Artificial Neural Networks, Deep Neural Networks, Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short -Term Memory (LSTM) , Introduction to Transformer models , Hyperparameter tuning , Model optimization, Performance evaluation",
+          "hours": 8
+        },
+        {
+          "title": "Artificial Intelligence Applications in Electrical Engineering",
+          "topics": "AI for predictive maintenance, Transformer condition monitoring, Fault diagnosis of electrical machines, AI in power system protection, Renewable energy forecasting, Load forecasting, AI for energy management, AI in electric vehicles, AI for power quality analysis",
+          "hours": 8
+        },
+        {
+          "title": "Emerging AI Technologies for Smart Electrical Systems",
+          "topics": "Explainable Artificial Intelligence (XAI) , Generative AI for engineering applications , Large Language Models (LLMs) for engineering assistance, Edge AI, TinyML (overview), AI ethics and responsible AI, Digital transformation in electrical engineering, Future trends in AI for electrical systems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HAID304ELE",
+      "title": "Artificial Intelligence for Electrical Systems Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [8, 8],
+      "units": []
+    },
+    {
+      "code": "HAID353ELE",
+      "title": "Digital Technologies for Smart Electrical Systems",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [9, 10],
+      "units": [
+        {
+          "title": "Digital Transformation in Electrical Engineering",
+          "topics": "Digital transformation in electrical engineering, Smart electrical systems, Industry 4.0 and Industry 5.0 concepts, Digitalization of power systems, Smart devices and intelligent equipment, Digital engineering platforms, Digital data acquisition, Emerging digital technologies",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Internet of Things and Smart Sensors",
+          "topics": "Industrial Internet of Things (IIoT), IoT architecture, Smart sensors and actuators, Embedded IoT devices, Data acquisition systems, Wireless sensor networks, MQTT protocol, Edge devices for electrical monitoring, Applications in smart electrical systems",
+          "hours": 8
+        },
+        {
+          "title": "Cloud Computing, Edge Computing and Cyber-Physical Systems",
+          "topics": "Cloud computing fundamentals, Cloud services (IaaS, PaaS, SaaS), Edge computing, Fog computing, Cyber - Physical Systems (CPS), Digital platforms, Real-time monitoring, Data analytics for electrical systems, Cloud- based SCADA",
+          "hours": 8
+        },
+        {
+          "title": "Digital Communication Technologies for Smart Electrical Systems",
+          "topics": "Industrial communication systems, Industrial Ethernet, Modbus, OPC-UA, IEC 61850, MQTT communication Communication architecture of smart substations, Digital substations, Time synchronization concepts",
+          "hours": 8
+        },
+        {
+          "title": "Digital Energy Management and Future Smart Systems",
+          "topics": "Digital Energy Management Systems, Smart metering, Advanced Metering Infrastructure (AMI), Demand Side Management, Demand Response, Digital Twin (Introduction), Intelligent energy analytics, Sustainable digital energy systems, Future trends in digital electrical engineering",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HAID354ELE",
+      "title": "Digital Technologies for Smart Electrical Systems Laboratory",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [11, 11],
+      "units": []
+    },
+    {
+      "code": "HAID403ELE",
+      "title": "Intelligent Automation, Computer Vision and Digital Twins",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [12, 13],
+      "units": [
+        {
+          "title": "Intelligent Automation in Electrical Engineering",
+          "topics": "Evolution of industrial automation, Intelligent automation concepts, Industry 4.0 and Industry 5.0, AI-enabled industrial automation, Smart manufacturing, Industrial robots and cobots, Human -machine collaboration, Intelligent control systems, Applications in electrical industries",
+          "hours": 8
+        },
+        {
+          "title": "Computer Vision for Electrical Systems",
+          "topics": "Fundamentals of computer vision, Digital image acquisition, Image preprocessing techniques, Feature extraction, Object detection, Image classification, Deep learning for computer vision, Open CV overview, Applications in electrical engineering",
+          "hours": 8
+        },
+        {
+          "title": "Intelligent Inspection and Predictive Maintenance",
+          "topics": "Intelligent inspection systems, Thermal imaging, Vibration monitoring, Acoustic monitoring, AI-based fault diagnosis, Predictive maintenance, Remaining Useful Life (RUL) estimation, Asset health management",
+          "hours": 8
+        },
+        {
+          "title": "Predictive maintenance of power transformers using AI.",
+          "topics": "Introduction to Digital Twin technology, Digital Twin architecture, Components of Digital Twins, Data acquisition for Digital Twins, IoT -enabled Digital Twins, Simulation and real -time synchronization, Digital Twin lifecycle, Applications in electrical engineering",
+          "hours": 8
+        },
+        {
+          "title": "Intelligent Industrial Systems and Future Technologies",
+          "topics": "AI-driven industrial analytics, Edge AI, Explainable AI, Autonomous industrial systems, Intelligent decision support systems , Collaborative robotics , Generative AI for engineering , Sustainable intelligent industries , Future trends in intelligent automation",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HAID404ELE",
+      "title": "Intelligent Automation, Computer Vision and Digital Twins Laboratory",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [14, 14],
+      "units": []
+    },
+    {
+      "code": "HAID454ELE",
+      "title": "AI Applications in Future Power and Energy Systems",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [15, 16],
+      "units": [
+        {
+          "title": "Artificial Intelligence for Smart Power Systems",
+          "topics": "Smart grid architecture, Renewable energy integration challenges, AI in power generation, AI for transmission system monitoring, Intelligent substation automation, AI for distribution network management, Intelligent microgrids, Power quality analysis using AI",
+          "hours": 8
+        },
+        {
+          "title": "AI Applications in Renewable Energy Systems",
+          "topics": "Renewable energy integration, Solar photovoltaic power forecasting, Wind power prediction, Maximum Power Point Tracking (MPPT) using AI, Battery energy storage management, Hybrid renewable energy systems, Grid stability enhancement",
+          "hours": 8
+        },
+        {
+          "title": "AI for Smart Grids and Energy Management",
+          "topics": "Smart grid architecture , AI-enabled demand forecasting , Intelligent load forecasting , Demand response management, AI for energy management systems, Intelligent distribution network operation, AI-assisted outage management, Consumer energy analytics",
+          "hours": 8
+        },
+        {
+          "title": "AI Applications in Electric Mobility and Intelligent Transportation",
+          "topics": "AI in electric vehicles, Battery health prediction, Battery Management Systems using AI, Intelligent charging strategies, Vehicle -to-Grid (V2G), AI -assisted route optimization, Fleet energy management, Smart transportation systems",
+          "hours": null
+        },
+        {
+          "title": "Future AI Technologies for Sustainable Energy Systems",
+          "topics": "Explainable Artificial Intelligence (XAI), Generative AI for power engineering , Digital Twin applications in energy systems, Edge AI for power systems, AI-enabled virtual power plants, AI for carbon emission reduction Responsible AI and ethical considerations, Future trends in intelligent energy systems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HAID455ELE",
+      "title": "AI Applications in Future Power and Energy Systems Laboratory",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [17, 17],
+      "units": []
+    },
+    {
+      "code": "HAID456ELE",
+      "title": "Honor Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [18, 21],
+      "units": []
+    }
+  ],
+  "notes": null
+}
+

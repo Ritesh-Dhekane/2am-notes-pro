@@ -1,0 +1,222 @@
+{
+  "id": "eandtc-honor-course-cyber-security-and-governance-24072026",
+  "kind": "programme",
+  "programme": "Honor Course in Cyber Security & Governance",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HCG 301ETC",
+      "title": "Advanced Cryptography and Network Security",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Classical & Symmetric Cryptography",
+          "topics": "Savitribai Phule Pune University Honor in Cyber Security & Governance HCG 301 ETC - Advanced Cryptography and Network Security Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks End-Semester: 70 Marks",
+          "hours": 9
+        },
+        {
+          "title": "-Security Fundamentals & Modular Arithmetic",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Advanced Encryption and Key Exchange Techniques",
+          "topics": "Learning Resources Hybrid Cryptographic Systems: Integration of symmetric and asymmetric techniques for secure communication protocols. Cryptographic hash functions: SHA-1, SHA-256, SHA-512, WHIRLPOOL, MD5. Iterated hash functions, collision resistance. Digital Signatures: RSA-based, DSA, ECDSA. Digital Signature Stan-dard (DSS). X.509 certificates, Public Key Infrastructure (PKI), Certificate Authorities (CAs), Kerberos, Needham- Schroeder protocol. IP Security (IPSec): Authentication Header (AH), Encapsulating Security Payload (ESP), IKE, VPN. Web Security: SSL/TLS handshake, HTTPS, HSTS. Email Security: PGP, S/MIME, DKIM, SPF. DNS Security (DNSSEC). Firewalls: packet-filtering, stateful, application-layer. Intrusion Detection Systems (IDS/IPS). zText Books: r 1. William Stallings, Cryptography and Network Security: Principles and Practice, Pearson, 8th Ed. (2022), ISBN 978-0-13-511374-1 2. Behrouz A. Forouzan, Cryptography and Network Security, TMH, 2nd Ed., ISBN 978-00-707- 0208-0 3. Bruce Schneier, Applied Cryptography, Wiley India, 2nd Ed., ISBN 978-81-265-1368-0 4. CK Shyamala et al., Cryptography and Security, Wiley India, ISBN 978-81-265-2285-9 5. Nina Godbole & Sunit Bela",
+          "hours": 9
+        },
+        {
+          "title": "Hash Functions, Digital Signatures & PKI",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Network Security Protocols",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HCG 302 ETC",
+      "title": "Cybersecurity Fundamentals & Secure Coding Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        10,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "HCG 351 ETC",
+      "title": "Ethical Hacking & Penetration Testing",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Scanning, Enumeration & Vulnerability Assessment",
+          "topics": "Savitribai Phule Pune University Honor in Cyber Security & Governance HCG 351 ETC- Ethical Hacking and Penetration Testing Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks End-Semester: 70 Marks",
+          "hours": 9
+        },
+        {
+          "title": "- Ethical Penetration Testing and Security Assessment",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "System Exploitation & Privilege Escalation",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Web Application Penetration Testing",
+          "topics": "Learning Resources OWASP Top 10 (2021): Injection, Broken Auth, XSS, IDOR, SSRF, Security Misconfig, Vulnerable Components, etc. Tools: BurpSuite Pro, OWASP ZAP, SQLMap, Nikto. Cross-Site Scripting (reflected, stored, DOM). CSRF, Clickjacking, XXE, Directory Traversal, File Upload vulnerabilities. API security testing basics. Wireless attacks: WEP/WPA2 cracking with Aircrack-ng, Evil Twin AP, PMKID attack. Social engi- neering: phishing, vishing, smishing, pretexting frameworks (SET – Social Engineering Toolkit). Post- exploitation: persistence mechanisms, lateral movement, pivoting with proxychains, data exfiltration, covering tracks (anti-forensics). C2 frameworks overview (Cobalt Strike concepts). zText Books: r 1. Georgia Weidman, Penetration Testing: A Hands-On Introduction to Hacking, No Starch Press, 2014, ISBN 978-1-59327-564-8 2. Peter Kim, The Hacker Playbook 3: Practical Guide to Penetration Testing, Secure Planet, 2018 3. Dafydd Stuttard & Marcus Pinto, The Web Application Hacker’s Handbook, 2nd Ed., Wiley, ISBN 978-1-118-02647-2 4. Jon Erickson, Hacking: The Art of Exploitation, 2nd Ed., No Starch Press, ISBN 978-1-59327- 144-2 5. OccupyTheWeb, Linux Basics for Hackers",
+          "hours": 9
+        },
+        {
+          "title": "Wireless, Social Engineering & Post-Exploitation",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HCG 352 ETC",
+      "title": "Ethical Hacking & Penetration Testing Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "HCG 401 ETC",
+      "title": "Threat Intelligence and Security Operations",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "- Security Operations Centre (SOC) Fundamentals",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "SIEM, Log Analysis & Threat Detection",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Cyber Threat Intelligence (CTI)",
+          "topics": "Learning Resources NIST SP 800-61 and SANS IR methodology: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned (PICERL). Playbooks for: ransomware, phishing, insider threat, DDoS, APT. Evidence collection principles, chain of custody. Memory forensics with Volatility: process listing, network connections, artefact extraction. Disk forensics: timeline analysis, deleted file recovery. Legal admissibility. Threat hunting frameworks and maturity models-Threat Hunting Maturity Model (HMM), threat hunting lifecycle, and hypothesis-driven hunting, Threat hunting approaches-IOC-based, TTP-based, analytics- driven, and behavior-based hunting, Threat hunting Tools-Velociraptor, OS Query, Sysmon (Windows Event Logs), and Windows Defender Advanced Hunting. Lateral movement and persistence Detection-Techniques for identifying lateral movement, persistence mechanisms, and privilege escalation indicators, Cloud threat Hunting using AWS Cloud Trail, Azure Monitor Logs, and Google Cloud Logging. Threat hunting reporting- Documentation of findings, reporting, feedback loop for detection engineering, and Purple Teaming concepts and collaborative security validation. zText",
+          "hours": 9
+        },
+        {
+          "title": "Incident Response & Digital Forensics Basics",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Threat Hunting Methodologies and Security Analytic",
+          "topics": "3. Microsoft SC-200: Security Operations Analyst — Azure Sentinel and Microsoft Defender.EC-Council C|TIA (Certified Threat Intelligence Analyst) — CTI-focused 4. SANS GCIA (GIAC Certified Intrusion Analyst) — Deep network analysis 5. Blue Team Labs Online Certification — Practical, scenario-based 6. IBM QRadar SIEM Foundation (Coursera) — Vendor-specific SIEM",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HCG 402 ETC",
+      "title": "Digital Forensics & Malware Analysis Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        19,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "HCG 451 ETC",
+      "title": "Cloud Security, Artificial Intelligence and Digital Governance",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "AI & Machine Learning for Cybersecurity",
+          "topics": "Savitribai Phule Pune University Honor in Cyber Security & Governance HCG 451 ETC - Cloud Security, Artificial Intelligence and Digital Governance Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks End-Semester: 70 Marks",
+          "hours": 9
+        },
+        {
+          "title": "- Cloud Security Architecture",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Adversarial AI & AI Security",
+          "topics": "Learning Resources Adversarial ML: evasion attacks (FGSM, PGD, CW), poisoning attacks, model inversion, member- ship inference. Defences: adversarial training, input sanitisation, differential privacy, model distillation. Deepfakes and synthetic media threats. LLM security: prompt injection, jailbreaking, data poisoning in RAG systems. AI governance: NIST AI RMF, EU AI Act implications. Securing AI pipelines and MLOps. DevSecOps culture and shift-left security. Secure SDLC (SSDLC): threat modelling (STRIDE, DREAD), secure design patterns. Static Application Security Testing (SAST): Semgrep, SonarQube, Checkmarx. Dynamic Application Security Testing (DAST): OWASP ZAP, BurpSuite. Software Composition Anal- ysis (SCA): OWASP Dependency-Check, Snyk. Container security: Docker bench, Trivy, Kubernetes security. Infrastructure as Code (IaC) security: Checkov, Terrascan. CI/CD pipeline security: GitHub Actions secrets management, SBOM. GRC frameworks: ISO/IEC 27001/27002, NIST Cybersecurity Framework (CSF 2.0), COBIT 5, CIS Controls v8. Risk management: risk identification, qualitative and quantitative assessment, risk treat- ment (accept, mitigate, transfer, avoid). Security auditing and",
+          "hours": 9
+        },
+        {
+          "title": "DevSecOps & Secure Software Development",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Governance, Risk & Compliance (GRC)",
+          "topics": "zRecommended Certifications r 1. AWS Certified Security – Specialty (SCS-C02) — Cloud security in AWS environment 2. Microsoft SC-900 + SC-300 (Identity & Access) + SC-200 — Cloud security pathway 3. Google Professional Cloud Security Engineer — GCP-specific security cert 4. CompTIA Cloud+ (CV0-004) — Vendor-neutral cloud security 5. ISACA CRISC (Certified in Risk and Information Systems Control) — GRC-focused 6. ISC2 CCSP (Certified Cloud Security Professional) — Premier cloud security cert 7. CEH (AI/Cloud modules) or eJPT Cloud path — Practical cloud pentesting 8. GDPR Practitioner Certificate (BCS/IAPP CIPM/CIPP-E) — Data protection & cyber law",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HCG 452 ETC",
+      "title": "Advanced Security Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        24,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "HCG 453 ETC",
+      "title": "Honors Project",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

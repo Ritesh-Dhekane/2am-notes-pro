@@ -1,0 +1,210 @@
+{
+  "id": "r9-honor-course-vse-te-and-be-2024-patt-mechanical-engineering-syllabus-rap-committed-wate",
+  "kind": "programme",
+  "programme": "Undergraduate Program – Third and Final Year Mechanical Engineering (Honor Course in Vehicle Systems Engineering)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HVSE301MEC",
+      "title": "Fundamentals of Machine Design and Optimization",
+      "semester": 5,
+      "type": "Honor Course",
+      "credits": 4,
+      "pages": [
+        15,
+        18
+      ],
+      "units": [
+        {
+          "title": "Engineering Materials and Measuring Physical Properties of Materials",
+          "topics": "Materials used in the automotive industry and its applications for improving strength, lightweighting, fatigue life, NVH etc. including cold rolled steel, hot rolled steel, advanced high -strength steel, aluminum alloys, magnesium, polymer composites, MMC, thermoset composites, ADI, and CGI, low, medium, and high carbon steels, tensile testing using ASTM E8 standard, strain control and displacement control test, identify the yield stress with 0.2% offset as per ASTM E8, Brinell hardness as per ASTM E10, and Vickers hardness & Knoop microhardness as per ASTM E92 & E384, applications of hardness testing in automotive industry, elastomer applications for vibration isolation, static & dynamic stiffness of elastomers, interpretation of hysteresis graphs to determine dynamic stiffness and phase angles, dynamic stiffness versus frequency characteristics of viscoelastic material , characterizing fatigue life and fatigue properties of materials - electrodynamic shakers, servo -hydraulic systems, and the rotating beam bending test, low and high cycle fatigue test, variability in fatigue life, design consideration for improving fatigue l ife, strain measurements using strain rosettes and conv",
+          "hours": 9
+        },
+        {
+          "title": "Analysis of 3D Trusses and 3D Structures with Beams & Pin Joint Structures",
+          "topics": "Real-world examples of statically determinate structures and indeterminate structures, moment of a force in 3D space, moment of a couple analyzed in 3D space, the resultant moment of multiple forces in 3D space, resultant force from a set of forces acting orthogonal to a plane in 3D space, the resultant of a set of moments in 3D space , 3D structural analysis of space trusses, frames, and machines like earth moving equipment containing internal hinges with combination of beams and axially loaded elements like actuators, draw free- body diagrams, axial force, shear force, and bending moment diagrams, calculate principal moments of inertia (3x3 matrix) and principal axes by solving the eigenvalue problem, understanding the orientation of the principal axes and principal moment of inertia & its applications.",
+          "hours": 6
+        },
+        {
+          "title": "Fundamentals of Optimization",
+          "topics": "Definition of local minima & maxima, global minima & maxima, finding the gradient and Hessian matrix of a function and its applications in identifying local extrema, steepest descent direction, Taylor series expansion of a function, stationary points, nec essary and sufficient conditions for locating minima, maxima, and saddle points, optimization problem formulation including minimization or maximization of an objective function, equality & inequality constraints, unconstraint and constrained optimizatio n, design variables and bounds, bounded vs unbounded problems, optimization problem formulation for structural problems and operation research. Real World Assignment 1. Steering column frequency optimization: Formulate an optimization problem to maximize the natural frequency of a car steering column. Model the steering column as a cantilever beam with the steering wheel and airbag represented as a concentrated mass at the free end. Assume appropriate design variables, manufacturing constraints, and geometric constraints. 2. Optimizing the cost of manufacturing a packaging box: Formulate an optimization problem to minimize the manufacturing cost of a box for a specific volume. Sur",
+          "hours": 10
+        },
+        {
+          "title": "Graphical Method and Linear Programming (LP)",
+          "topics": "Optimization methods - optimality criteria and search techniques, constraint & unconstraint problems, graphical method applied to problems with two design variables explained through case studies such structural problem and operation search with two variab les and inequality & inequality constraints, convex polyhedron representing the feasible solution space, active constraints, identification of feasible and infeasible regions, Linear Programming (LP) problem definition, cost function, constraints, design variables, converting inequality constraints into equality constraints, Simplex method, basic and non -basic variables, duality in linear programming, interpretation of Lagrange multipliers, sensitivity analysis, what‑if studies & trade‑off analysis, solving LP problems using numerical computing or optimization software, case studies of LP with applications to automotive & operation research problems. Real World Assignment 1. Packaging cost optimization: For an oil manufacturing company, minimize packaging cost by maximizing the oil container volume, subject to constraints on the can dimensions and maximum allowable surface area. 2. MacPherson strut spring design optimization: De",
+          "hours": 12
+        },
+        {
+          "title": "Constraint and Unconstraint Nonlinear Optimization",
+          "topics": "Unconstrained optimization - one-dimensional and multidimensional search methods, unconstraint optimization- steepest descent, conjugate gradient, and Newton’s methods, step-size determination using the equal interval & golden -section search methods, introd uction to gradient -based constrained optimization methods, constraint linearization using sensitivity analysis implemented in finite element solvers, sequential linear programming method for solving nonlinear problems, introduction to SQP and interior point methods. Real World Assignment 1. Motorcycle handlebar optimization: Increase the first natural frequency of a motorcycle handlebar while minimizing its weight, subject to design and manufacturing constraints on tube outer diameter and wall thickness. 2. Motorcycle side -stand cost optimization: Reduce the cost and weight of a motorcycle side stand by studying and comparing different side -stand designs used in motorcycles, considering their structural performance, manufacturability, weight, and cost. 3. Scooter grab-handle cost optimization: Reduce the cost and weight of a rear-seat grab handle for a scooter by studying and comparing different grab -handle designs, evaluat",
+          "hours": 11
+        }
+      ]
+    },
+    {
+      "code": "HVSE302MEC",
+      "title": "Material Characterization and Optimization Lab",
+      "semester": 5,
+      "type": "Honor Course",
+      "credits": 1,
+      "pages": [
+        19,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "HVSE351MEC",
+      "title": "Finite Element Analysis and Design of Experiments",
+      "semester": 6,
+      "type": "Honor Course",
+      "credits": 4,
+      "pages": [
+        24,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Finite Element Analysis",
+          "topics": "Applications of FEA in the automotive industry for NVH, durability, crashworthiness, and manufacturing process simulations, understand the role of simulations into APQP process, integrating simulations into the multi-functional optimization, mesh quality c ontrols and mechanism generation due to errors in FEA modeling, linear & nonlinear FEA, types of nonlinearities, assumptions of linear FEA, theory of elasticity - equilibrium conditions, boundary conditions, strain displacement & stress strain relationships , & compatibility conditions, plane stress & plane strain problems, review of matrix algebra including matrix operations, dot and cross products, essential and natural boundary conditions, numerical solution techniques for linear systems and eigenvalue problems, consistent unit systems, direct method for 1D spring & 1D bar, 2D truss, flow in pipe networks, & electrical networks, element & global stiffness matrix, boundary conditions, and load vector. Real World Assignment 1. Develop and validate a finite element model of an automotive component by evaluating mesh quality parameters such as aspect ratio, Jacobian, warpage, and skewness, against industry -accepted guidelines. De",
+          "hours": 7
+        },
+        {
+          "title": "Finite Element Formulation for 1D, 2D, and 3D Structural Problems",
+          "topics": "Identify the degrees of freedom, reaction forces, & resulting boundary conditions in 3D space for various supports including a cable, roller, ball and socket, & fixed support, variational method & Euler Lagrange equations from a functional, define degrees of freedom, derive shape functions, and element stiffness matrix for - 1D spring, 1D bar, 1D Euler -Bernoulli beam, and 2D truss, 2 D frame, CST elements, and axisymmetric solid, natural coordinate system, Jacobian matrix, assembly for the global stiffness matrix, force vectors for various loading, case studies for the above elements using hand calculations and commercial finite element analysis software. Real World Assignment 1. Perform static stress analysis and estimate fatigue life of an automotive alternator bracket using the dimensions, material properties, mounting conditions, and representative operational loads of a real -world alternator bracket. 2. Perform static structural stress analysis of an automotive engine mounting bracket by defining realistic material properties, constraints, and engine loading conditions, and evaluate the resulting stresses and deformations. 3. Perform static stress analysis of an automotive b",
+          "hours": 11
+        },
+        {
+          "title": "Finite Element Formulation for 1D Steady-state Heat Transfer Problems",
+          "topics": "Heat transfer governing differential equation, steady -state formulation of 1D element for conduction and convection problem using variational method, boundary conditions, solution for heat transfer problem with numerical examples and with finite element analysis software. Real World Assignment 1. Develop a 1D analytical and FEA model of an automotive brake disc to predict the steady -state temperature distribution due to frictional heat generation and convective cooling using finite element analysis software. 2. Model the steady-state heat conduction through an exhaust pipe wall with convection to the surrounding air, formulate the 1D conduction element and determine the temperature distribution Exemplars / Practical Applications 1. Thermal analysis of an air-cooled motorcycle engine 2. Conduction and convection analysis of an automotive radiator assembly 3. Thermal management analysis of an EV battery system",
+          "hours": 6
+        },
+        {
+          "title": "Special Purpose Finite Elements for Real World Applications",
+          "topics": "Multipoint constraints, penalty method for the enforced displacements, kinematic coupling with one independent & multiple dependent nodes, distributing couplings with a single dependent and multiple independent nodes, tie constraints for connecting independently meshed components, point-mass elements with inertia matrices, dashpot element, modeling of joints including hinge, cylindrical & thrust bearing, beam elements with offsets, connecting 1D elements with 3D elements, automotive applications using finite element analysis software. Real World Assignment 1. Create a finite element model of interfacing of MacPherson strut connection with the with the control arm bushing using a special purpose element. Apply appropriate loads and boundary conditions and verify results. 2. Develop a finite element model to transfer loads from the wheel center to the wheel hub using an appropriate connector element. Apply appropriate loads and boundary conditions and verify results. 3. Develop a FEA model for a weld element joining two sheet metal parts. Apply appropriate loads and boundary conditions and verify results. Exemplars / Practical Applications 1. Modeling of car seats in a vehicle system",
+          "hours": 6
+        },
+        {
+          "title": "Design of Experiments and Engineering Applications",
+          "topics": "Introduction to Design of Experiments (DoE) and its significance with real -world case studies, comparison of DoE and conventional optimization techniques, limitations of one -factor-at-a-time experimentation, controlled and uncontrolled factors, levels, and responses, design of experiments using full -factorial and fractional-factorial designs, introduction to screening DoE, Taguchi methods, and Plackett–Burman designs, identifying significant factors and interactions, determination of optimum factor setting s, response surface generation & analysis, what -if studies, & trade -off analysis, optimization using response surface models, introduction to analysis of variance (ANOVA), case studies involving DoE applications to automotive engineering problems, DoE analysis using numerical computing or DoE software, evaluating responses using finite element analysis software or through physical experimentation. Real World Assignment 1. Design an experiment varying resin-to-fiber ratio, curing pressure, and curing time to find the ideal recipe for maximum flexural strength in fiberglass or bio -composites. Alternatively, formulate a similar DoE problem to optimize the number of composite p",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HVSE352MEC",
+      "title": "Simulations-based Design and Analysis Lab",
+      "semester": 6,
+      "type": "Honor Course",
+      "credits": 2,
+      "pages": [
+        28,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "HVSE401MEC",
+      "title": "Fundamentals of Low Frequency NVH and Automotive Applications",
+      "semester": 7,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        33,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction to NVH and automotive applications",
+          "topics": "Definition of Noise, Vibration, and Harshness (NVH), NVH regulatory standards, EHS, sustainability, & customer requirements, NVH target setting, attribute engineering, test versus CAE correlation & challenges, powertrain noise, cabin booming noise, suspen sion noise, motor whine, gear rattle, brake squeal, concept level development, NVH problem solving with source-path-effect methodology & case studies, classification of NVH problems based on low, mid, and high frequency range, time domain and frequency d omain problems, finite element based NVH analysis & optimization process, fundamental assumptions in low frequency linear dynamic analysis, Maxwell-Betti reciprocal theorem in structural & vibration analyses, mass moment of inertia matrix & conversion to p rincipal inertia and axes using eigenvalue problem, airborne & structure-borne noise, mastic treatment for BIW, power spectrum density analysis and applications. Real World Assignment 1. Apply the source–path–effect methodology to identify, isolate, and diagnose vibration issues at the vehicle seat track. 2. Explain the differences in damping characteristics between the compression and rebound strokes of a MacPherson strut in a ",
+          "hours": 5
+        },
+        {
+          "title": "Fundamentals of Noise and Vibration",
+          "topics": "Relationship between the vehicle speed and road excitation frequency, root cause analysis of NVH problems with examples, various types of NVH loads on the vehicle including engine, electromagnetic forces, road excitation, order of vibration, difference be tween peak to peak, max amplitude, and RMS response for a signal, threshold of hearing, reference sound pressure, Euler's formula, real & imaginary versus amplitude and phase representation for the vibration, sound level meter, dosimeters, difference between sound pressure, sound intensity, and sound power & its applications, transverse and longitudinal sound waves, 1/1, 1/2, & 1/3rd octave bands, psychoacoustics, measuring sound in sones and phones, loudness of sound, equal loudness contours as per ISO 22 6, A-B-C-D sound pressure weighting, NVH ratings based on sones and phones, vibration severity rating based on the velocity versus frequency Real World Assignment 1. Record passenger-compartment noise using a microphone and analyze the measured sound using 1/1-, 1/2- , and 1/3-octave band frequency analysis. 2. Generate and play pure tones at an 80 dB sound pressure level at selected 1/3-octave center frequencies using a freewar",
+          "hours": 7
+        },
+        {
+          "title": "Finite Element Formulation for Multi-degrees of Freedom Eigenvalue Problems",
+          "topics": "Introduction to Hamilton's principle, principle of minimum potential energy, derive the mass matrix using the shape functions for 1D and 2D elements- spring, mass, truss, beam, and CST, and quadrilateral elements, global stiffness & mass matrix, consistent mass versus lumped mass matrix & approximations, mathematical modeling of elastomers with dynamic stiffness with frequency dependent characteristics, harmonic excitation- wheel unbalance, speed breakers, engine unbalance, formulation of real eigenvalue pr oblem for multi-degree-of-freedom problems, orthogonal properties of eigenvectors, Raleigh quotient, generalized mass, generalized stiffness & generalized force vector, consistent mass matrix and lump mass matrix, significance of rigid body modes and applications. Real World Assignment 1. Perform a modal analysis of an automotive hood to determine its fundamental natural frequency and mode shape. 2. Perform a modal analysis of a motorcycle frame to determine the natural frequencies and mode shapes, including rigid body modes. 3. Perform a modal analysis of a tall advertising -board support structure to determine its first natural frequency and assess whether it is close to the e",
+          "hours": 10
+        },
+        {
+          "title": "Finite Element Formulation for Multi-degrees of Freedom Forced Harmonic and Transient Dynamic Problems",
+          "topics": "Finite element formulation of multi-degree-of-freedom systems using mode superposition and direct methods for forced harmonic and transient dynamic analyses, transformation between physical coordinates and modal coordinates, definition of modal mass, modal stiffness, & modal force, effective mass, modal contribution factor, modal participation factor, Nyquist criterion and selection of cut-off frequency for mode superposition method, types of damping including modal, Rayleigh, viscous, and structural dampin g, finite element formulation of damped multi -degree-of-freedom systems for harmonic and transient analyses, sprung and unsprung masses, quarter car & half car models, vibration isolation & dampers, resonance frequencies & mode shapes, modal alignment charts, trade-off between NVH and vehicle dynamics. Real World Assignment 1. Perform a forced-frequency response analysis of an automotive component over the 0–150 Hz range using both the modal superposition and direct frequency -response methods. Apply the Nyquist criterion to determine an appropriate modal cutoff frequency and compare the responses obtained using both approaches. Evaluate the effect of selecting 100 Hz as the cu",
+          "hours": 9
+        },
+        {
+          "title": "NVH Optimization for Multi-degrees of Freedom FE Models and Advanced Topics in NVH",
+          "topics": "Formulation of multi-variable and multi-constraint finite element-based optimization problems with design variables including sizing parameters such as panel thickness, spring stiffness, and mass, shape variables for the geometry, topology, and bead optimi zation, formulation of NVH and static objective function & constraints including bending stiffness, torsional stiffness, natural frequency, and tactile response, case studies on sizing, shape, topology, and bead optimization using NVH objective function and constraints using finite element analysis software, Advanced topics in NVH - point mobility, transfer function analysis, introduction to vibroacoustic analysis using fluid –structure interaction for prediction of noise and vibration using finite element methods, experimental measurement of noise and vibration using DAQ, accelerometers, & microphones, modal testing using impact hammer and shakers, Operational Deflected Shapes (ODS) and applications, order analysis, waterfall plots, orbit plots, and Campbell diagrams, manufacturing & material variability and robust design, design sensitivity analysis and multifunctional optimization Real World Assignment 1. Perform topology opti",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HVSE402MEC",
+      "title": "Vehicle Vibration Analysis Lab",
+      "semester": 7,
+      "type": "Honor Course",
+      "credits": 2,
+      "pages": [
+        37,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "HVSE451MEC",
+      "title": "Multibody Dynamics and Vehicle Dynamics",
+      "semester": 8,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        43,
+        46
+      ],
+      "units": [
+        {
+          "title": "Introduction to Multibody Planer Kinematic Systems",
+          "topics": "Introduction to kinematics, multibody dynamics, and vehicle dynamics with applications in the automotive industry, holonomic and nonholonomic constraints, review of 2D and 3D matrix algebra, rank of a matrix, orthogonality, and coordinate transformations, vector and matrix differentiation, position, velocity, and acceleration of a point in a moving reference frame, formulation of kinematic constraint equations in terms of generalized coordinates, Jacobian matrix, absolute constraints, distance and absolute position constraints, relative constraints, coordinate constraints, modeling of revolute and translational joints, composite joints, gears, and cam -follower mechanisms, driving constraints, absolute and relative drivers, position, velocity, and acceleration analysis using numerical examples and practical simulations with numerical computing or multibody dynamics simulation software. Real World Assignment 1. Windshield wiper mechanism – Model the linkage and determine the angular displacement, velocity, and acceleration of the wiper blade for a prescribed motor speed. 2. Engine connecting -rod mechanism – Model the crank -slider mechanism and determine piston displacement, veloci",
+          "hours": 8
+        },
+        {
+          "title": "Spatial Cartesian Kinematics",
+          "topics": "Reference frames for defining the position and orientation of bodies in 3 -D space, coordinate transformations and direction cosine matrices, position, velocity, acceleration, and angular velocity, Euler parameters as generalized coordinates, Euler’s theo rem and properties of Euler parameters, relationship between Euler -parameter derivatives and angular velocity, kinematic constraints using joint definition frames, constraints on vectors and points, constraints involving parallel vectors between and on a djacent bodies, joint types and constraint equation - including cylindrical, spherical, universal, revolute, translational, & screw joints, absolute point constraints and distance constraints between pairs of bodies, composite joints - including spherical -spherical, revolute -revolute, revolute -cylindrical, and revolute - translational joints, driving constraints - relative translational and rotational drivers, Degrees of Freedom (DOF) for constrained multibody systems, Euler-parameter normalization constraint, numerical solution of kinematic constraint & drivers, formulation of velocity and acceleration equations, identification of DOF for various mechanisms and numerical solu",
+          "hours": 10
+        },
+        {
+          "title": "Multibody Planer Dynamics and Introduction to Vehicle Dynamics",
+          "topics": "Dynamics of Planar Systems: Variational equations of motion from Newton’s equations, D’Alembert’s principle, equations of motion for translational and rotational generalized coordinates, virtual work and generalized forces, modeling of translational spring s, dampers, and actuators, formulation of equations of motion for constrained systems, variational formulation of planar multibody dynamics, Lagrange multipliers, mixed differential-algebraic equations (DAEs) of motion, initial conditions, inverse dynamics , equilibrium conditions, numerical examples and multibody simulations using numerical comput ing or multibody dynamics software; Vehicle Dynamics: achieving optimal ride comfort, handling, and stability, rigid -body versus flexible-body dynamics, vehicle stability and control systems - ABS, ESC, traction control, ADAS, four-wheel steering, & anti -roll bars, vehicle suspensi on systems, including active and semi -active suspensions, MacPherson strut, rear twist -beam, multi -link, and air suspension systems, body -on-frame versus unibody vehicle architectures, Influence of elastomers on vehicle ride and handling performance, wheel ratio and motion ratio, role of caster, camber",
+          "hours": 10
+        },
+        {
+          "title": "Tyres and Longitudinal Dynamics",
+          "topics": "Radial and bias tyres, tire size and rating, contact patch, SAE tire axis system, load rating, mechanics of tyre force generation, tractive properties, slip, braking force verses slip, slip angle, rolling tire deformation under lateral force, lateral force versus slip angle, camber thrust, combined braking and corning, tire vibration, dynamic axle loads, loads on grades, vehicle acceleration performance - tractive force, tractive force versus speed, traction-limited acceleration, transvers weight shift due to drive torque, braking- constant deceleration, wind resistance, energy & power, braking forces- rolling resistance, braking deformation in the contact patch, braking forces versus deceleration, braking efficiency, front brake force versus rear brake force & lockup, slip, torque versus time- drum & disk brakes, regulatory standards for braking, introduction to tyre models, applications & limitations - brush, Pacejka, & magic formula models, applications using numerical computation or multibody dynamics software. Real World Assignment 1. Given the weight of the vehicle, speed at the time brakes are applied, type of surface, and braking force, find out deceleration, stopping dista",
+          "hours": 12
+        },
+        {
+          "title": "Lateral Dynamics",
+          "topics": "Introduction to vehicle lateral dynamics and cornering behavior, low -speed turning, tire cornering forces, bicycle-model formulation, understeer gradient, neutral steer, understeer and oversteer, critical and characteristic speeds, lateral acceleration gai n, yaw -velocity gain, and vehicle sideslip angle, suspension effects on cornering, roll moment distribution, lateral force compliance steer, roll steer, aligning torque, lateral force versus camber angle, experimental determination of understeer characteri stics using constant -radius and constant-speed methods, numerical examples and simulation of vehicle lateral dynamics using numerical computation or multibody dynamic analysis software. Real World Assignment 1. Study the AIS and global standards related to double lane change, steep steer, steering assessment, roll, pitch and yaw measurements, and lane-change testing 2. Develop a 2-DOF bicycle model of a passenger car and investigate its lateral response during a constant- radius manoeuvre. Assume following parameters- vehicle mass, m in kg, yaw moment of inertia, Iz in kg·m², distance from CG to front axle, a in m, distance from CG to rear axle, b in m, front cornering stiff",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HVSE452MEC",
+      "title": "Multibody Dynamics Lab",
+      "semester": 8,
+      "type": "Honor Course",
+      "credits": 1,
+      "pages": [
+        47,
+        50
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

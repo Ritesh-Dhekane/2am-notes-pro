@@ -1,0 +1,210 @@
+{
+  "id": "b-tech-biotechnology-honours-in-ai-ml-and-bioinformatics-30092026",
+  "kind": "programme",
+  "programme": "Honors in Artificial Intelligence - Machine Learning (AI-ML) & Bioinformatics, B. Tech Biotechnology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "H-AMB-301-BIO",
+      "title": "Python Programming and Data Handling",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Programming Fundamentals (Python)",
+          "topics": "Introduction to programming and problem-solving, Python overview, environment setup (Jupyter/Colab), variables & data types, operators & expressions, control structures (if -else, loops), functions (definition, parameters, scope), modules & imports, basic input /output, string handling (slicing, concatenation, formatting)",
+          "hours": 8
+        },
+        {
+          "title": "Data Structures & File Handling",
+          "topics": "Lists, tuples, dictionaries, sets, file I/O (read/write/append), parsing structured text files, record -based biological file formats (FASTA/FASTQ/PDB used purely as parsing examples), regular expressions for pattern matching, exception handling",
+          "hours": 7
+        },
+        {
+          "title": "Scientific Computing Basics",
+          "topics": "NumPy arrays & operations, Pandas (Series, DataFrames, data cleaning), brief introduction to Biopython (Seq object, SeqIO for reading sequence files)",
+          "hours": 7
+        },
+        {
+          "title": "Data Retrieval & Developer Tools",
+          "topics": "Accessing biological data through APIs (NCBI Entrez, UniProt REST), command-line and Linux basics, version control with Git/GitHub",
+          "hours": 7
+        },
+        {
+          "title": "Data Visualization",
+          "topics": "Data visualization with Matplotlib & Seaborn (line plots, bar charts, histograms, scatter plots), plotting techniques for biological data",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "H-AMB-302-BIO",
+      "title": "Python Programming and Data Handling Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        16,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "H-AMB-351-BIO",
+      "title": "Advanced Bioinformatics Techniques",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Genomics & NGS Data Analysis",
+          "topics": "NGS overview and sequencing platforms, FASTQ file format in depth, quality control of sequencing reads, read alignment/mapping basics, variant calling fundamentals, introduction to RNA-seq analysis workflow",
+          "hours": 9
+        },
+        {
+          "title": "Programmatic Access to Biological Data",
+          "topics": "Accessing biological data via APIs (NCBI Entrez, UniProt REST), JSON/XML parsing of API responses, web scraping for biological data collection, automating bulk data retrieval, advanced Biopython (transcription, translation, reverse complement, sequence object handling)",
+          "hours": 9
+        },
+        {
+          "title": "Multi-Omics Data Integration & Comparative Genomics",
+          "topics": "Introduction to multi -omics (genomics, transcriptomics, proteomics), transcriptomic data handling basics, pathway analysis fundamentals, whole -genome comparison techniques, comparative genomics case studies",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Structural Bioinformatics",
+          "topics": "Homology modeling concepts, molecular dynamics basics, molecular docking in practice (AutoDock or similar tools), protein-protein interaction analysis, structural bioinformatics case studies",
+          "hours": 9
+        },
+        {
+          "title": "Sequence Alignment: From Concept to Code",
+          "topics": "Implementing Needleman-Wunsch and Smith-Waterman algorithms in Python, scoring matrices in code (PAM/BLOSUM), automating BLAST searches programmatically, multiple sequence alignment via scripting (Biopython wrappers)",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "H-AMB-352-BIO",
+      "title": "Advanced Bioinformatics Techniques Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "H-AMB-401-BIO",
+      "title": "Machine Learning for Bioinformatics",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to ML & Biological Data",
+          "topics": "Machine learning fundamentals, supervised and unsupervised learning, reinforcement learning overview, biological datasets and problem formulation, data cleaning and preprocessing, normalization and encoding, introduction to feature engineering for biological data, Scikit-learn workflow.",
+          "hours": 7
+        },
+        {
+          "title": "Supervised Learning for Biological Data",
+          "topics": "Linear and logistic regression, K-nearest neighbors, support vector machines, Naive Bayes, decision trees and random forests, classification and prediction using biological datasets, biomarker classification, feature importance and interpretation, biological case studies.",
+          "hours": 7
+        },
+        {
+          "title": "Unsupervised Learning & Dimensionality Reduction",
+          "topics": "Clustering: K -means, hierarchical clustering and DBSCAN, dimensionality reduction: PCA and t - SNE/UMAP, high -dimensional biological datasets, single -cell RNA -seq data analysis: clustering and visualization, biological interpretation of computationally identified patterns.",
+          "hours": 7
+        },
+        {
+          "title": "Neural Networks and Deep Learning",
+          "topics": "Artificial neural networks and deep learning fundamentals, convolutional neural networks (CNNs) for biological data, recurrent neural networks (RNNs) for biological sequence analysis, introduction to graph neural networks (GNNs), applications of deep learn ing in genomics, proteomics and drug discovery, biological case studies.",
+          "hours": 8
+        },
+        {
+          "title": "Model Evaluation and Predictive Modeling",
+          "topics": "Training, validation and test datasets, cross -validation, overfitting and underfitting, hyperparameter tuning, performance metrics for classification and regression, confusion matrix, precision, recall, F1 - score, ROC -AUC, model interpretation and feature i mportance, predictive modeling using integrated biological data, biological case studies.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "H-AMB-402-BIO",
+      "title": "Machine Learning for Bioinformatics Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "H-AMB-451-BIO",
+      "title": "Artificial Intelligence in Biotechnology",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Transformers and Foundation Models for Biological Data",
+          "topics": "Attention mechanism, transformer architecture, self -attention, positional encoding, pretrained models, transfer learning, biological language models, protein and DNA language models, applications in sequence analysis",
+          "hours": 9
+        },
+        {
+          "title": "Generative AI for Biomolecular Design",
+          "topics": "Generative AI concepts, variational autoencoders, generative adversarial networks, diffusion models, protein sequence generation, molecular generation, AI-assisted protein and enzyme design, applications in drug discovery",
+          "hours": 9
+        },
+        {
+          "title": "Multimodal AI Applications",
+          "topics": "Introduction to multimodal AI, integration of biological, clinical and imaging data, multimodal representation learning, combining omics and clinical information, applications in precision medicine and drug discovery",
+          "hours": 9
+        },
+        {
+          "title": "AI Applications in Healthcare and Biotechnology",
+          "topics": "AI-assisted medical diagnosis, medical image analysis, disease risk and prognosis prediction, treatment response prediction, AI -assisted drug discovery, protein and enzyme engineering, applications in synthetic biology and biotechnology",
+          "hours": 9
+        },
+        {
+          "title": "Ethics, Regulation and Responsible AI",
+          "topics": "Ethical considerations in AI -enabled healthcare and biotechnology, data privacy and security, bias and fairness in AI systems, explainability and interpretability, reliability and limitations of generative AI, intellectual property considerations, regulato ry frameworks for AI -based healthcare applications, responsible deployment and human oversight",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "H-AMB-452-BIO",
+      "title": "Artificial Intelligence in Biotechnology Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        31,
+        32
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}
