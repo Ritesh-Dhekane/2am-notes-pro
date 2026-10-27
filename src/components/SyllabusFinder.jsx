@@ -3,10 +3,11 @@
 // any step can be shared; the last course opened is remembered on this device ("Continue: …").
 // Steps slide in from the right going forward and from the left going back; cards stagger in (index.css).
 
-import { ChevronRight, History } from 'lucide-react'
+import { ChevronRight, History, ListTree } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { trackEvent } from '../lib/analytics.js'
+import { useSplitIndex } from '../lib/syllabusSplit.js'
 import { EntryRow } from './SyllabusBits.jsx'
 import {
   byNewest,
@@ -131,6 +132,9 @@ export default function SyllabusFinder({ entries, path, onPath }) {
   // Read once: "Continue" offers the course from an earlier visit.
   const [remembered] = useState(readRemembered)
   const here = state.trail.at(-1)?.path || ''
+  const split = useSplitIndex() // courses with subject-wise syllabi
+  const chosenCourse = state.course?.path.split('/').at(-1)
+  const splitCourse = chosenCourse && split?.has(chosenCourse) ? chosenCourse : null
 
   // Remember the course someone opened, for "Continue" next time.
   useEffect(() => {
@@ -208,6 +212,20 @@ export default function SyllabusFinder({ entries, path, onPath }) {
           ))}
         </ol>
       </nav>
+
+      {splitCourse && (
+        <Link
+          to={`/syllabus/c/${splitCourse}`}
+          className="press mt-4 flex min-h-12 items-center gap-3 rounded-2xl border border-primary-ink/40 bg-primary-soft px-4 py-2"
+        >
+          <ListTree className="size-5 shrink-0 text-primary-ink" aria-hidden="true" />
+          <span className="min-w-0 flex-1">
+            <span className="block text-body font-semibold text-ink">{state.course.name}: subject-wise syllabus</span>
+            <span className="block text-caption text-ink-2">Every subject's units and topics, semester by semester</span>
+          </span>
+          <ChevronRight className="size-4 shrink-0 text-ink-3" aria-hidden="true" />
+        </Link>
+      )}
 
       <div className="-mx-1 mt-4 overflow-x-clip px-1 pb-1">
         <div key={here || 'root'} className={`finder-step ${direction === 'back' ? 'finder-step-back' : ''}`}>
