@@ -1,0 +1,860 @@
+{
+  "id": "te-aiml-2024-pattern-final-09102026",
+  "kind": "programme",
+  "programme": "Third Year Engineering in Artificial Intelligence and Machine Learning",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-AIM",
+      "title": "Operating System",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operating Systems and System Structures",
+          "topics": "Evolution and Functions of Operating Systems, Operating System Services, System Calls and APIs Operating System Structures: Monolithic Systems, Layered Architecture, Microkernel Architecture, Virtual Machines User Mode and Kernel Mode, Operating System Boot Process, Linux and Windows Architecture Overview Exemplars /Case Studies Case Study 1: Kernel components and System call interface Case Study 2: Process and memory management in Linux Third Year Engineering AI&ML – 2024 Pattern - SPPU",
+          "hours": 9
+        },
+        {
+          "title": "Process Management and CPU Scheduling",
+          "topics": "Processes and Process States, Process Control Block (PCB), Context Switching, Threads and Multithreading CPU Scheduling: FCFS, SJF, Priority Scheduling, Round Robin, Multilevel Queue Scheduling Process Synchronization, Critical Section Problem, Semaphores and Mutex Locks, Classical Synchronization Problems: Producer-Consumer, Readers-Writers, Dining Philosophers Exemplars/Case Studies Case Study 1: CPU Scheduling in Linux Completely Fair Scheduler (CFS)",
+          "hours": null
+        },
+        {
+          "title": "Deadlocks and Memory Management",
+          "topics": "Deadlocks: System Model, Necessary Conditions for Deadlock, Resource Allocation Graph, Deadlock Prevention, Deadlock Avoidance, Banker's Algorithm, Deadlock Detection and Recovery. Memory Management: Address Binding, Logical and Physical Address Space, Paging, Segmentation, Paging with Segmentation, Virtual Memory Concept Exemplars/Case Studies Case Study 1: Google Data Center Memory Management, Memory allocation strategies Case Study 2: Resource optimization in large-scale systems",
+          "hours": null
+        },
+        {
+          "title": "Virtual Memory, File Systems and Storage Management",
+          "topics": "Virtual Memory: Demand Paging, Page Replacement Algorithms (FIFO, Optimal, LRU, Clock Algorithm), Thrashing, Working Set Model File Systems: File Concepts, Directory Structures, File Allocation Methods, File Access Methods, Free Space Management Storage Management: Disk Structure Disk Scheduling Algorithms (FCFS, SSTF, SCAN, CSCAN, LOOK) Exemplars/Case Studies Case Study 1: Hadoop Distributed File System Case Study 2: Google File System (GFS)",
+          "hours": 9
+        },
+        {
+          "title": "Security, Virtualization and Operating Systems for AI/ML",
+          "topics": "Operating System Security: Authentication and Authorization, Access Control Mechanisms, Malware and Protection Techniques, Security Threats in Modern Systems Virtualization: Hypervisors, Containers and Docker, Virtual Machines, Resource Isolation OS Sup port for AI/ML Applications: GPU Resource Management, Parallel Processing, Distributed Computing Frameworks, Containerized AI Deployments, Edge and Cloud Computing Platforms Third Year Engineering AI&ML – 2024 Pattern - SPPU Exemplars/Case Studies Case Study 1: Docker for AI/ML Application Deployment Case Study 2: Kubernetes for Scalable AI/ML Infrastructure",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-AIM",
+      "title": "Deep Learning",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        19,
+        23
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Neural Networks & Deep Learning",
+          "topics": "Evolution from Machine Learning to Deep Learning: Limitations of shallow networks and handcrafted features. Biological vs. Artificial Neurons: The Perceptron model, mathematical representation, and decision boundaries. Forward Propagation: Matrix formulati on of data flow through dense layers. Backpropagation Algorithm: The chain rule of calculus for gradient computation. Multilayer Perceptron’s (MLPs): Architecture, hidden layers, and the universal approximation theorem. Activation Functions: Linear vs. non -linear functions (Sigmoid, Tanh, ReLU, Leaky ReLU, Parametric ReLU, ELU, SoftMax) Third Year Engineering AI&ML – 2024 Pattern - SPPU Exemplars/ Case Studies Case Study 1: Implementation of a Multi -Layer Perceptron from scratch using NumPy for binary classification. / Handwritten Digit Recognition using MNIST Dataset Case Study 2: Predict customer churn using a basic Feedforward Neural Network.",
+          "hours": 8
+        },
+        {
+          "title": "Training Deep Neural Networks & Optimization",
+          "topics": "The Loss Function: Mean Squared Error (MSE), Binary Cross -Entropy, Categorical Cross - Entropy. Concept of Empirical Risk Minimization and Optimization Techniques. Gradient Descent Variants: Batch, Stochastic (SGD), and Mini-batch Gradient Descent. The Vanishing and Exploding Gradient Problems: Causes, mathematical representation, and early mitigation strategies. Weight Initialization Techniques: Xavier (Glorot) initialization and He (Kaiming) initialization. Vanishing/Exploding Gradients: Graphical representation of gradient decay across deep layers. Generalization Challenges in Deep Networks: Overfitting, underfitting, and model capacity, Early Stopping: Criteria, patience parameters, and validation error monitoring. Data Augmentat ion: Techniques for expanding dataset variance synthetically. Regularization: Dropout, L1/L2 penalties Batch Normalization: Internal covariate shift, Mathematical formulation, scale gamma and shift beta parameters. Layer Normalization vs. Batch Normalization Exemplars/Case Studies Case Study 1: A healthcare startup is developing a deep neural network to classify chest X-ray images as Normal or Pneumonia. The dataset contains 50,000 labeled images...",
+          "hours": 8
+        },
+        {
+          "title": "Convolutional Neural Networks (CNNs)",
+          "topics": "Third Year Engineering AI&ML – 2024 Pattern - SPPU Introduction to Spatial Data: Limitations of MLPs when handling high-dimensional image inputs. The Convolution Operation: Filters/kernels, feature maps, and spatial structure preservation. Hyperparameters of Convolutional Layers: Stride, Padding (Valid vs. Same), and Kernel Size. Pooling Operations: Max pooling, Average pooling, Global Average Pooling, and their mathematical intuition. CNN Architecture: LeNet Architecture, AlexNet Architecture, VGGNet Architecture, ResNet Architecture, GoogLeNet / Inception Network. Transfer Learning: Fine -tuning vs. feature extraction strategies using pre -trained weights. Feature Visualization: Understanding what CNN filters learn at shallow, mid, and deep layers. Object detection: R-CNN, Fast R-CNN, YOLO, SSD Semantic segmentation: U-Net, Mask R-CNN Challenges in CNN training Exemplars/Case Studies Case Study 1 : Designing and training a custom CNN from scratch for the MNIST handwritten digit or CIFAR-10 classification task. Case Study 2 : on automated chest X-ray disease classification using a pre-trained ResNet-50 via Transfer Learning.",
+          "hours": null
+        },
+        {
+          "title": "Recurrent Neural Networks (RNNs)",
+          "topics": "Introduction to Sequential Data: Time-series, audio, and text dependencies. The Recurrent Neuron: Hidden states, memory retention, and temporal parameters sharing. RNN architecture and working, Vanishing Gradient in RNN, Limitations of vanilla RNNs. Gated Recurrent Units (GRU): Update gate, reset gate, and hidden state equations, Long Short - Term Memory (LSTM) networks : Architecture, Cell state vs. Hidden state. LSTM Gate Mechanics: Forget gate, Input gate, Output gate, and explicit mathematical equations. Bi-directional RNNs/LSTMs: Incorporating past and future context simultaneously. Deep/Stacked RNNs: Layering recurrent units for hierarchical temporal feature learning. Sequence-to-Sequence (Seq2Seq) Architectures: Encode r-Decoder framework concepts. The Bottleneck Problem in Seq2Seq models. Exemplars/Case Studies Case Study 1 : Twitter Sentiment Analysis using RNN/LSTM Case Study 2 : Stock Price Prediction using LSTM",
+          "hours": null
+        },
+        {
+          "title": "Deep Learning Frameworks and Advanced",
+          "topics": "Applications. 8 Hours Third Year Engineering AI&ML – 2024 Pattern - SPPU Deep Learning Software Ecosystem: High-level abstractions vs. low-level tensor operations. PyTorch Core Ecosystem: Tensors, Autograd engine, nn. Module, and data loaders. TensorFlow & Keras Ecosystem: Functional API vs. Sequential API, tf.data pipelines, and eager execution. Introduction to Generative AI Paradigms: Autoencoders (AE) vs. Variational Autoencoders (VAE) structural basics. Generative Adversarial Networks (GANs): Generator -Discriminator minimax game formulation. Deep Learning for Natural Language Processing: Machine Translation and Named Entity Recognition (NER) use cases. Deep Learning for Speech & Audio: Automatic Speech Recognition (ASR) pipelines. Modern Trends: Foundation mod els, Large Language Models (LLMs), and Vision Transformers (ViT) conceptual horizons. Concepts of MLOps, Packaging and deploying deep learning models using REST APIs, containerization with Docker, deployment on cloud and edge devices, Continuous Integratio n and Continuous Deployment (CI/CD) pipelines. Ethical AI & Explainability: Bias in deep learning models and the black-box dilemma. Challenges in Deep Learning: C...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-AIM",
+      "title": "Theory of Computation",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Formal Languages and Finite Automata",
+          "topics": "Introduction to Finite Automata, Central Concepts of Automata Theory: Alphabets, Strings, Operations over Strings Formal Languages : Definition, Finite representation of languages, Operations over languages: Union, Concatenation, Kleene star and Kleene plus, Decision Problems Vs Languages, Deterministic Finite Automata (DFA)-Formal Definition, Simplified notation: State transition g raph, transition table, Language of DFA, construction of DFAs for Languages and proving correctness. Nondeterministic finite Automata (NFA), NFA with epsilon transition and language of NFA, Conversion of NFA with epsilon transitions to DFA, Introduction an d construction of Mealy and Moore Machines Applications and Limitation of Finite Automata Exemplars /Case Studies Case Study 1: AI-Based Chatbot Using Finite State Machine Case Study 2: DFA-Based Email and Spam Detection System Third Year Engineering AI&ML – 2024 Pattern - SPPU",
+          "hours": 9
+        },
+        {
+          "title": "Regular and Non-Regular Languages",
+          "topics": "Regular expression (RE): Definition, Operators of regular expression and their precedence, Algebraic laws for Regular expressions, Kleene’s Theorem: Equivalence Regular expressions and DFAs, Closure properties of Regular Languages (union, intersection, complementation, concatenat ion, Kleene closure), Decision properties of Regular Languages, Applications of Regular expressions. Conversions: Conversion from Regular Expression to Nondeterministic finite Automata and Deterministic Finite Automata, Conversion from Deterministic Finite Automata to Regular Expression. Myhill-Nerode theorem. Non-Regular Languages: Revisiting Pigeon-Hole principle, Pumping Lemma for regular Languages. Exemplars/Case Studies 1. Validation check for keywords, constants in C Language 2. Pattern matching examples",
+          "hours": null
+        },
+        {
+          "title": "Context Free Grammar",
+          "topics": "Context Free Grammars: Definition, Examples, Derivation, Languages of CFG, Constructing CFG, Closure properties of CFLs (Union, Concatenation, Kleene closure, reversal). Derivation tree /Parse Tree, Ambiguity in CFGs, Removing ambiguity, Inherent ambiguity. Simplification of CFG: Eliminating of epsilon productions, unit productions, removing useless and non - reachable symbols, Normal forms for CFGs: Chomsky normal form, Greibach normal form. Decision Properties of CFLs (Emptiness, Finiteness and Membership). Applications of CFG. Exemplars/Case Studies 1. Grammar for Arithmetic Expressions 2. Syntax checking of English sentence",
+          "hours": null
+        },
+        {
+          "title": "Push Down Automata",
+          "topics": "Introduction, Formal definition of Push Down Automata(PDA), Acceptance by Final state, Acceptance by empty stack, Deterministic and Non-deterministic PDAs, PDA & Context Free Language, CFG to PDA construction, Pumping lemma for CFLs, non-Context Free Languages, Chomsky hierarchy. Applying PDA for Top-Down Parsing and Bottom-up Parsing. Exemplars/Case Studies 1. Parser for arithmetic expression of C Language 2. Parser for if-else statement of C Language",
+          "hours": null
+        },
+        {
+          "title": "Turing Machines",
+          "topics": "Basic model, definition, and representation, Instantaneous Description, Language acceptance by TM. Robustness of Turing Machine model and equivalence with various variants: Two-way/One-way infinite tape TM, multi-tape TM, non-deterministic TM, Universal Turing Machines. Church-Turing Thesis and intuitive notion of Algorithm, Encoding for Turing machines and countability of set of all Turing machines. Undecidability of Halting problem. Example of undecidable problem: Post Correspondence Problem, Example of Turing unrecognizable language. Exemplars/Case Studies 1. Turing machine for password validation 2. Simulate any computation or program like addition, subtraction operations. Third Year Engineering AI&ML – 2024 Pattern - SPPU",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-AIM",
+      "title": "Operating System Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        27,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-AIM",
+      "title": "Deep Learning Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        30,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-321A-AIM",
+      "title": "Cloud Computing",
+      "semester": 5,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        35,
+        37
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing and Virtualization",
+          "topics": "Evolution of Computing : Distributed, Grid, Utility and Cloud Computing, Cloud Computing Concepts and Characteristics, Service Models: IaaS, PaaS, SaaS, Deployment Models: Public, Private, Hybrid, Community Cloud, Virtualization Concepts. Hypervisors: Type-I and Type -II, Virtual Machine Lifecycle Virtual Machines and Containers, Cloud Architecture and Data Centers, Benefits and Challenges of Cloud Computing .AI/ML Infrastructure Requirements: GPU Computing, TPU Computing, High Performance Computing (HPC). Exemplars/Case Studies Case Study 1: Netflix Cloud Migration. Third Year Engineering AI&ML – 2024 Pattern - SPPU",
+          "hours": 8
+        },
+        {
+          "title": "Cloud Infrastructure and Cloud Services",
+          "topics": "Compute Services : Virtual Machines, Containers, Serverless Computing, Cloud Instances . Storage Services : Object Storage , Block Storage, File Storage, Data Backup and Recovery . Cloud Networking: Virtual Networks, Subnets, IP Addressing, DNS Services. Load Balancing: Concepts, Types of Load Balancers, Traffic Distribution . Auto Scaling : Horizontal Scaling, Vertical Scaling, Scaling Policies . Resource Provisioning : Dynamic Resource Allocation, Resource Scheduling, Resource Monitoring . Cloud Service Providers Overview : AWS, Microsoft Azure, Google Cloud Platform, Exemplars/Case Studies Case study on E-Commerce Scalability During Festivals. For Example: Amazon and Flipkart sale events.",
+          "hours": null
+        },
+        {
+          "title": "Cloud-Native Technologies and Containers",
+          "topics": "Containerization Concepts : Containers vs Virtual Machines, Benefits of Containers . Docker fundamentals: Docker Architecture, Docker Images and Containers, Docker Hub, Docker Operations. Kubernetes Fundamentals & components : Pod, Deployment, Services, Re plica sets. Microservices Architecture, Serverless Computing, Cloud Native Applications, CI/CD Basics, DevOps vs MLOps, GitHub Actions Overview. Exemplars/Case Studies Spotify's Containerized Infrastructure.",
+          "hours": null
+        },
+        {
+          "title": "Cloud for Big Data and Machine Learning",
+          "topics": "Big Data Concepts : Characteristics & Challenges. Distributed Data Processing : Hadoop Ecosystem, HDFS, MapReduce, YARN . Apache Spark Fundamentals : Spark Architecture, RDD, Data Frames, Spark MLlib Cloud-based Data Analytics, Machine Learning in Cloud , AI Services in Cloud, ML Lifecy cle in Cloud, Introduction to MLOps, Model Training and Deployment. Exemplars/Case Studies Case study on Smart Agriculture Analytics.",
+          "hours": null
+        },
+        {
+          "title": "Cloud Security, MLOps and Emerging Trends",
+          "topics": "Cloud Security Fundamentals : Security Challenges, Shared Responsibility Model, Security Best Practices . Identity and Access Management (IAM): Authentication and Authorization, Roles and Policies. Data Security and Privacy, Security Challenges in AI Systems, MLOps Concepts, Model Monitoring, Continuous Deployment of AI Models, Edge Computing Architecture, Fog Computing Architecture. Multi-Cloud and Hybrid Cloud : Benefits, Challenges, Industrial Use Cases Emerging Trends: Generative AI on Cloud, AI -as-a-Service, Green Cloud Computing, Cloud-Native AI Applications. Exemplars/Case Studies MLOps in Autonomous Vehicle Development.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321B-AIM",
+      "title": "Natural Language Processing",
+      "semester": 5,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        38,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction: History, NLP system, level of NLP, Challenges and Issues in NLP, Morphological Analysis: Introduction to Morphology, Types of Morphemes, Language Modeling: Grammar -based LM, Statistical LM, Regular Expressions, Finite State Automata, Morphological parsing with Finite State Transducers (FST) Tokenization, Detecting and Correcting Spelling Errors, Minimum Edit Distance. Case Study Smart Spell Checker for Student Assignment Submission",
+          "hours": null
+        },
+        {
+          "title": "Word Level and Syntactic Analysis",
+          "topics": "Word Level Analysis: Unsmoothed N -grams, Evaluating N -grams, Smoothing, Interpolation and Backoff – Word Classes, Part-of Speech Tagging, Rule-based, Stochastic and Transformation based tagging, Issues in PoS tagging, Hidden Markov and Maximum Entropy models. Syntactic Analysis: Syntactic Representations of Natural Language, Parsing Algorithms, Probabilistic context-free grammar, and Statistical parsing. Third Year Engineering AI&ML – 2024 Pattern - SPPU Case Study Part-of-Speech Tagging Using Hidden Markov Models for English Text Processing",
+          "hours": null
+        },
+        {
+          "title": "Semantic Analysis",
+          "topics": "Semantic Analysis: Lexical Semantic, Relations among lexemes & their senses Homonymy, Polysemy, Synonymy, Hyponymy, WordNet, Word Sense Disambiguation (WSD), problem of sense tagging, Dictionary based approach, Latent Semantic Analysis, semantic role labeling, selection restrictions, decomposition of predicates Lexicon for sentiment, affect and connotation. Word Embeddings/ Vector Semantics: Bag-of-words, TFIDF, word2vec, doc2vec, Contextualized representations (BERT). Case Study Resolving Multiple Meanings of Words Using NLP Techniques",
+          "hours": null
+        },
+        {
+          "title": "Information Retrieval using NLP",
+          "topics": "Information Retrieval: Introduction, Vector Space Model Named Entity Recognition: NER System Building Process, Evaluating NER System Entity Extraction, Relation Extraction, Reference Resolution, Coreference resolution, Cross Lingual Information Retrieval. Case Study NLP-Based Information Retrieval System for E-Learning Platforms",
+          "hours": null
+        },
+        {
+          "title": "NLP Tools and Techniques",
+          "topics": "Prominent NLP Libraries: Natural Language Tool Kit (NLTK), spaCy, TextBlob, Gensim etc. Linguistic Resources: Lexical Knowledge Networks, WordNets, Indian Language WordNet (IndoWordnet), VerbNets, PropBank, Treebanks. Machine Translation: Rule based techni ques, Statistical Machine Translation (SMT), Cross Lingual Translation. Case Study Study working of IBM Watson Natural Language Processing",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321C-AIM",
+      "title": "Web Application Development",
+      "semester": 5,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        41,
+        43
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Web Technologies",
+          "topics": "HTML5: Structure of HTML Document , HTML Elements and Attributes, Forms and Validation , Lists, Tables, Hyperlinks, Multimedia Elements (Audio, Video, Canvas), Semantic HTML, Web Accessibility Basics CSS3: Selectors, Box Model, Flexbox, Grid Layout, Responsive Design Bootstrap: Grid System, Typography and Utilities, Components, Responsive Web Design Web Architecture : Evolution of Web Technologies , Client-Server Architecture , Static vs Dynamic Websites, HTTP/HTTPS Protocol, REST Architecture Exemplars /Case Studies Case Study 1: College Information Portal Case Study 2: AI-based Student Performance Prediction Portal UI Design",
+          "hours": null
+        },
+        {
+          "title": "Client-Side Programming",
+          "topics": "JavaScript: Variables and Data Types , Functions and Objects , Arrays and Array Methods , Events and Event Handling, DOM Manipulation Advanced JavaScript : ES6 Features , Template Literals, De structuring, Arrow Functions , Promises, Async/Await, Error Handling JSON and AJAX: JSON Parsing, AJAX Concepts, Fetch API, API Consumption Third Year Engineering AI&ML – 2024 Pattern - SPPU ReactJS: Introduction, Components, Props, State, Forms, Hooks (Introduction) Exemplars/Case Studies Interactive Student Performance Dashboard Interactive Data Analytics Dashboard",
+          "hours": null
+        },
+        {
+          "title": "Back-End Development and Web Services",
+          "topics": "Flask Framework: Environment Setup and Virtual Environment, Flask Application Structure, Routing, Templates, Forms, Static Files Management, URL Parameters and Dynamic Routing REST APIs: REST Architecture, HTTP Methods, API Design Principles, JSON Request and Response Handling Session Management: Cookies, Sessions, User Authentication Basics API Testing: Postman, Error Handling Exemplars/Case Studies Student Recommendation System API",
+          "hours": null
+        },
+        {
+          "title": "Database and AI Model Integration",
+          "topics": "Database Connectivity: SQLite/MySQL, Database Connectivity using Flask, CRUD Operations, MongoDB Basics: Collections, Documents, CRUD Operations in MongoDB, Querying and Filtering Data AI Model Integration : Model Serialization Pickle, Joblib, Loading Trained Models , Model Input Preprocessing, Feature Engineering for Prediction Services, Handling Prediction Outputs Prediction Services: Web Forms to Prediction APIs, Response Handling Exemplars/Case Studies House Price Prediction Web Application",
+          "hours": null
+        },
+        {
+          "title": "AI-Enabled Web Applications and Deployment",
+          "topics": "Deployment Fundamentals : Hosting Web Applications , Render/Netlify/Vercel AI Application Deployment: Deploying ML Models, Image Upload Processing Generative AI Integration: LLM APIs, Chatbot Development Concepts Security Fundamentals : Authentication Basics , Data Privacy in AI Applications Emerging Trends: AI Agents, Multimodal Applications Exemplars/Case Studies AI Chatbot for Academic Assistance",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321D-AIM",
+      "title": "Advanced Database Management System",
+      "semester": 5,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Parallel and Distributed Databases",
+          "topics": "Introduction to Parallel Databases, Architectures for parallel databases, Parallel query evaluation, Parallelizing individual operations, Parallel query optimizations. Introduction to distributed databases, Distributed DBMS architectures, Storing data in a Distributed DBMS, Distributed catalog management, Distributed Query processing, Updating distributed data, Distributed transactions, Distributed Concurrency control and Recovery. Exemplars /Case Studies Case Study 1: Analysis of a Distributed E-Commerce Database System for order processing, distributed query execution, transaction management, and data consistency across multiple locations. Case Study 2: Analysis of a Parallel Database System for Large-Scale Retail Analytics focusing on parallel query evaluation, query optimization, and high- performance data processing.",
+          "hours": null
+        },
+        {
+          "title": "NoSQL Databases",
+          "topics": "Introduction to NoSQL Databases, Types of NoSQL Databases, Document -Oriented Databases: MongoDB, Column -Family Databases: Apache Cassandra, Semi-Structured Data and Data Exchange Formats (XML and JSON, Applications of NoSQL Databases in AI & ML Third Year Engineering AI&ML – 2024 Pattern - SPPU Exemplars/Case Studies  Social Media Data Management using MongoDB  Healthcare Data Management using Apache Cassandra",
+          "hours": null
+        },
+        {
+          "title": "Data Warehousing",
+          "topics": "Introduction to Data Warehousing: need, Characteristics of Data Warehouse, Advantages and Limitations, Data Warehouse Architecture and Components, Data Warehouse Modeling, OLAP and OLAP Operations, Data Warehousing for Decision Support Systems, Business Intelligence: concepts and applications Exemplars/Case Studies Case Study 1: Retail Sales Data Warehouse  Integrating sales data from multiple stores into a centralized data warehouse.  Designing a Star Schema with: o Fact Table: Sales o Dimension Tables: Product, Customer, Store, Time  Performing OLAP operations such as Roll-up and Drill-down to analyze sales trends.",
+          "hours": null
+        },
+        {
+          "title": "Data Mining and Knowledge Discovery",
+          "topics": "Introduction to Data Mining, Knowledge Discovery in Databases (KDD), Data mining architecture, Predictive Data Mining, Descriptive Data Mining , Outlier Analysis (Overview) , Data mining tools and applications Exemplars/Case Studies Case Study: Analysis of Customer Purchase Data for Knowledge Discovery and Pattern Identification using the KDD Process.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Database Models and AI Applications",
+          "topics": "Active Databases and Triggers, Temporal Databases, Spatial Databases, Graph Databases and Knowledge Graphs, Emerging AI -Oriented Database Applications: Genome and Bioinformatics Data Management, Time-Series Databases for Sensor and IoT Data, Vector Databases",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-322A-AIM",
+      "title": "Cloud Computing Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        46,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322B-AIM",
+      "title": "Natural Language Processing Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        49,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322C-AIM",
+      "title": "Web Application Development Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        51,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322D-AIM",
+      "title": "Advanced Database Management System Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-33-AIM",
+      "title": "AIoT Product Development",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 3,
+      "pages": [
+        55,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-342-AIM",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "Seminar",
+      "credits": 1,
+      "pages": [
+        62,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-AIM",
+      "title": "Computer Vision",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Computer Vision and Image Processing",
+          "topics": "Introduction to Computer Vision, Applications of Computer Vision in AI Systems, Human Vision vs Computer Vision, Image Formation and Acquisition, Digital Image Representation, Sampling and Quantization, Color Spaces: RGB, HSV, LAB, Histogram Processing and Histogram Equalization, Image Enhancement Techniques, Edge Detection: Sobel, Prewitt, Canny, Morphological Operations Exemplars /Case Studies Automatic Defect Detection in Manufacturing  Image acquisition from conveyor belts  Image enhancement and edge detection for identifying defective products",
+          "hours": 9
+        },
+        {
+          "title": "Image Segmentation and Feature Extraction",
+          "topics": "Image Segmentation Fundamentals , Thresholding Methods, Region-Based Segmentation , Edge- Based Segmentation , Watershed Segmentation , Connected Component Analysis , Contour Detection and Shape Analysis , Hough Transform : Line Detection , Circle Detection , Feature Detection and Description: SIFT, SURF, ORB, Feature Matching Techniques Exemplars/Case Studies Automatic Number Plate Detection System  Vehicle image segmentation  Character boundary extraction  Line and shape detection using Hough Transform",
+          "hours": 9
+        },
+        {
+          "title": "Feature Detection and Matching",
+          "topics": "Object Recognition Fundamentals , Template Matching , Face Detection and Recognition , Haar Cascade Classifiers, Scene Understanding , Camera Models , Perspective Projection , Stereo Vision, Depth Estimation , Introduction to 3D Reconstruction , Applications of 3D Vision in Robotics, AR and Autonomous Systems. Exemplars/Case Studies Depth Estimation for Autonomous Vehicles  Stereo camera setup  Distance measurement of nearby objects  Lane and obstacle perception",
+          "hours": null
+        },
+        {
+          "title": "Motion Analysis, Object Detection and Tracking",
+          "topics": "Motion Detection Techniques , Background Subtraction , Optical Flow , Object Tracking Fundamentals, Multi-Object Tracking , Human Activity Recognition , Object Detection Frameworks: R -CNN, F ast R -CNN, Faster R -CNN, YOLO, Video Analytics Fundamentals , Intelligent Surveillance Systems. Exemplars/Case Studies Smart Traffic Monitoring System  Vehicle detection using YOLO  Traffic density estimation  Tracking and counting moving vehicles",
+          "hours": 9
+        },
+        {
+          "title": "Advanced AI-Based Computer Vision",
+          "topics": "Semantic Segmentation , Instance Segmentation , Vision Transformers (ViT) , Self-Supervised Learning for Vision , Vision-Language Models , Image Captioning , Visual Question Answering (VQA), Generative AI for Images , Diffusion Models (Concepts) , Applications: Autonomous Vehicles, Medical Image Analysis , Smart Agriculture, Industrial Inspection, Ethical and Privacy Issues in Computer Vision Exemplars/Case Studies AI-Based Medical Image Diagnosis  Tumor detection from MRI/CT images  Segmentation of affected regions  Explainable AI for clinical decision support",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-AIM",
+      "title": "Software Engineering with DevOps",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": "Software Engineering Fundamentals: Nature of Software, Software Engineering Practice, Software Process, Software Myths. Process Models: A Generic Process Model, Linear Sequential Development Model, Iterative Development Model, The incremental Development Model. Agile software development: Agile manifesto, a gility principles, Agile methods, myth of planned development, Introduction to Extreme programming and Scrum. Agile Practices: test driven development, pair programming, continuous integration in DevOps, Refactoring. Exemplars /Case Studies Case Study 1: Online Hospital Management System (HMS) : A multi -specialty hospital wants to automate patient registration, appointment booking, billing, pharmacy management, and medical records. Case Study 2: E-Commerce Shopping Platform: A startup wants an online shopping platform like Amazon where users can browse products, place orders, make payments, and track deliveries.",
+          "hours": 6
+        },
+        {
+          "title": "Requirements Engineering & Analysis",
+          "topics": "Requirements Engineering: User and system requirements, Functional and non -functional requirements, requirements engineering (elicitation, specification, validation, negotiation) prioritizing requirements (Kano diagram), requirement traceability matrix (RTM). Software Requirements Specification (SRS): software requirements Specification document, structure of SRS, writing a SRS, structured SRS for online shopping, Requirements Analysis: Analysis Model, data modeling, scenario -based modeling, class-based modeling, Flow oriented modeling, behavioral modeling-Introduction to UML diagrams. Exemplars/ Case Studies 1. College Library Management System 2. Smart Waste Management System Using IoT and AI",
+          "hours": 6
+        },
+        {
+          "title": "Design Engineering",
+          "topics": "Design Engineering Fundamentals: Design Process & quality, Design Concepts, Design Model, Pattern-based Software Design. Architectural Design : Design Decisions, Views, Patterns, Application Architectures, Component level Design : component, designing class -based components, conducting component -level des ign, User Interface Design : The golden rules, Interface Design steps & Analysis, Design Evaluation. Exemplars/Case Studies 1. AI-Powered Smart Traffic Management System. 2. Smart Farming & Crop Prediction System.",
+          "hours": null
+        },
+        {
+          "title": "Introduction to DevOps Fundamentals",
+          "topics": "Introduction to DevOps: DevOps culture and lifecycle, Continuous Integration (CI), Continuous Delivery/Deployment (CD), DevOps pipelines and automation. Version Control System: What is Git & GitHub? , Branching and Merging, Jenkins for CI/CD, Source Code Management. Exemplars/Case Studies 1. Smart E -Learning Platform an EdTech company wants to continuously deliver new features such as AI quizzes, online exams, and video lectures without affecting existing users. 2. Smart Farming Advisory System Farmers need real- time weather recommendations and crop advisory services.",
+          "hours": null
+        },
+        {
+          "title": "Containerization using Cloud and Monitoring Security",
+          "topics": "Containerization: Docker fundamentals, Docker images and containers, Kubernetes basics, Cloud platforms (AWS, Azure, GCP), Infrastructure as Code (Terraform, Ansible) Monitoring and Security : DevSecOps concepts, Monitoring tools (Prometheus, Grafana), Logging and alerting, Security in CI/CD pipelines, Reliability and performance monitoring. Exemplars/Case Studies 1. Cloud-Native E-Commerce Platform. 2. Smart Traffic Management System.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-AIM",
+      "title": "Computer Vision Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        72,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-354-AIM",
+      "title": "Software Engineering with DevOps Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        75,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-361A-AIM",
+      "title": "Quantum Computing",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        78,
+        80
+      ],
+      "units": [
+        {
+          "title": "Introduction to Quantum Computation",
+          "topics": "Classical vs. Quantum mechanics: The double -slit experiment and wave -particle duality. The concepts of superposition, interference, and observation (the measurement problem). A conceptual introduction to the Schrödinger equation. The Quantum Computing Paradigm: Classical bits vs. qubits, Introduction to Dirac notation (bra-ket notation), The standard basis (computational basis) states, Representing qubits: Superposition, probability amplitudes, and the Born ru le. Visualizing single qubits using the Bloch sphere. Exemplars /Case Studies Case Study 1: Based on the Mathematics of interference (probability vs. probability amplitudes) Case Study 2: Based on the geometry of the Bloch sphere",
+          "hours": 9
+        },
+        {
+          "title": "Qubits",
+          "topics": "Single-Qubit Gates: The Pauli matrices (X, Y, Z), the Hadamard (H) gate, and phase gates (S, T). Representing two -qubit and multi -qubit states using tensor products. Bipartite systems and quantum entanglement. EPR pairs and Bell states. Density matrices, distinguishing between pure states and mixed states. Exemplars/Case Studies Case Study 1: Based on basis transformation Case Study 2: Based on the algebra of entanglement and density matrices",
+          "hours": null
+        },
+        {
+          "title": "Measurement and Quantum Circuits",
+          "topics": "The Measurement Problem: Observables, expectation values, and wave function collapse. Multi-Qubit Gates: Controlled operations, CNOT and Toffoli (CCNOT) gates. Quantum Circuits: Reading and designing quantum circuit diagrams, and the concept of reversibility in computation, Universal Gates, The No-Cloning Theorem Exemplars/Case Studies Case Study 1: Based on the Mathematics of measurement (observables and expectation values) Case Study 2: Based on CNOT gates and the no-cloning theorem",
+          "hours": null
+        },
+        {
+          "title": "Quantum Algorithms",
+          "topics": "Deutsch’s Algorithm and the Deutsch-Jozsa Algorithm. Grover’s Algorithm : Geometry of amplification and reflections, Grover iteration and search bounds, Applications to NP search problems, Variants of Grover’s algorithm. Quantum Fourier Transform (QFT) : definition and properties, efficient circuit for QFT, period finding. Integer factorization using QFT (Shor’s algorithm) , Order -finding problem, Discrete logarithms, Impact on RSA and cryptographic systems Exemplars/Case Studies Case Study 1: The geometry of amplitude amplification (Grover’s algorithm) Case Study 2: Shor’s algorithm and period finding",
+          "hours": null
+        },
+        {
+          "title": "Quantum Information & Error Correction",
+          "topics": "Quantum Information Theory: Classical Shannon entropy versus quantum Von Neumann entropy. Quantum Cryptography: The BB84 Quantum Key Distribution (QKD) protocol. Quantum Teleportation: Moving quantum states using classical channels and shared entanglement. Decoherence: The physics of environmental noise and why quantum states degrade. Quantum Error Correction: Bit-flip codes, phase-flip codes, and Shor’s 9-qubit code. Exemplars/Case Studies Case Study 1: The BB84 Protocol Case Study 2: Hiding Information in Entanglement (Shor's 9-Qubit Code)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-361B-AIM",
+      "title": "Blockchain Technology",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        81,
+        84
+      ],
+      "units": [
+        {
+          "title": "Introduction to Blockchain Technology",
+          "topics": "Distributed Systems and Distributed Ledger Technology (DLT), Challenges in Distributed Systems, Trust Models and Decentralization, Evolution of Blockchain Technology, Blockchain Generations (Blockchain 1.0, 2.0, 3.0), Blockchain Architecture and Components, Transactions, Blocks and Block Structure, Hash Pointers and Merkle Trees, Public -Key Infrastructure in Bloc kchain, Public, Private and Consortium Blockchains, Permissioned and Permissionless Networks, Blockchain Ecosystem and Stakeholders, Cryptocurrency Fundamentals and Bitcoin Overview, Benefits, Limitations, and Emerging Applications of Blockchain Technology. Exemplars/Case Studies Case Study 1: Ethereum Ecosystem: Analysis of Blockchain Architecture, Smart Contracts, Decentralized Applications (DApps), Consensus Evolution, and Real -World Web3 Applications. Case Study 2: Interactive Exploration of Blockchain Fundamentals using Anders Brownworth Blockchain Demo: Visualization of Hashing, Block Formation, Blockchain Linking, Distributed Ledger Concepts, Transaction Validation, and Immutability in Blockchain Networks.",
+          "hours": 8
+        },
+        {
+          "title": "Cryptographic Foundations and Consensus Mechanisms",
+          "topics": "Cryptographic Foundations of Blockchain, Cryptographic Hash Functions and Properties, Digital Signatures, Public Key Cryptography, Elliptic Curve Cryptography (ECC), Hash Pointers and Merkle Trees, Cryptographic Security Requirements, Consensus in Distributed Systems, Byzantine Generals Problem, Byzantine Fault Tolerance (BFT), Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), Practical Byzantine Fault Tolerance (PBFT), Proof of Authority (PoA), S ecurity Threats and Attack Vectors, Double Spending, Sybil Attack, 51% Attack, Blockchain Security Challenges. Exemplars/Case Studies Case Study 1: Comparative Analysis of Consensus Mechanisms in Bitcoin and Ethereum: Evaluation of Proof of Work (PoW) and Proof of Stake (PoS) with respect to security, scalability, decentralization, and energy efficiency. Case Study 2: Analysis of Blockchain Security Incidents: Investigation of Double -Spending Attacks, Sybil Attacks, and 51% Attacks, along with mitigation strategies adopted in modern blockchain networks.",
+          "hours": 8
+        },
+        {
+          "title": "Smart Contracts and Ethereum Ecosystem",
+          "topics": "Introduction to Ethereum and Ethereum Architecture, Ethereum Accounts and Wallets, Ethereum Virtual Machine (EVM), Ether and Gas Mechanism, Smart Contracts: Concepts and Life Cycle, Solidity Programming Fundamentals, Data Types, Functions, Modifiers, Events, Inheritance and Interfaces, Development and Deployment of Smart Contracts, Token Standards (ERC -20, ERC- 721, ERC-1155), Decentralized Applicat ions (DApps), Testing and Debugging Smart Contracts, Introduction to Web3 and Blockchain Development Tools. Exemplars/Case Studies Case Study 1: Development and Analysis of an ERC -20 Token Smart Contract using Ethereum and Solidity. Case Study 2: Crypto Kitties and NFT Ecosystem: Analysis of ERC-721 Token Standard, Digital Asset Ownership, and Smart Contract-Based Marketplace Operations.",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain and Decentralized Applications",
+          "topics": "Enterprise Blockchain Fundamentals, Permissioned Blockchain Networks, Hyperledger Fabric Architecture, Peers, Ordering Service, Channels and Membership Service Provider (MSP), Chaincode and Smart Contracts in Hyperledger Fabric, Blockchain -as-a-Service (Ba aS), Decentralized Applications (DApps) Architecture, Web3 Frameworks and APIs, Blockchain Integration with Cloud Computing, Internet of Things (IoT), Artificial Intelligence, Enterprise Use Cases and Deployment Challenges. Exemplars/Case Studies Case Study 1: Hyperledger Fabric -Based Supply Chain Management System: Analysis of Permissioned Blockchain Architecture, Chaincode, and Multi -Stakeholder Collaboration. Case Study 2: TradeLens Platform: Application of Enterprise Blockchain for Global Logis tics, Supply Chain Visibility, and Secure Information Sharing",
+          "hours": 7
+        },
+        {
+          "title": "Blockchain Applications, Web3 and Future Trends",
+          "topics": "Blockchain Applications in Finance, Healthcare, Supply Chain Management, Digital Identity, E - Governance, Education and Intellectual Property Management, Decentralized Finance (DeFi), Non-Fungible Tokens (NFTs), Decentralized Autonomous Organizations (DAOs), Web3 Ecosystem and Token Economy, Blockchain Scalability Challenges, Layer -2 Solutions, Cross - Chain Interoperability, Blockchain and Artificial Intelligence, Blockchain for Sustainable Development, Regulatory and Ethical Considerations, Emerging Research Trends and Future Directions. Exemplars/Case Studies Case Study 1: Decentralized Finance (DeFi) Platforms: Analysis of Lending, Borrowing, Yield Farming, and Decentralized Exchanges using Smart Contracts. Case Study 2: Blockchain and Artificial Intelligence Integration: Investigation of Trustworthy AI, Secure Data Sharing, Decentralized AI Marketplaces, and Federated Learning Applications.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-361C-AIM",
+      "title": "High Performance Computing",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        85,
+        87
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Parallel Computing and Parallel Architectures",
+          "topics": "Introduction: Motivating Parallelism, Scope of Parallel Computing . Dichotomy of Parallel Computing Platforms: Implicit Parallelism , (Flynn’s Classifications, Distributed Memory Architecture, Shared Memory Architecture, Hybrid Architecture), Physical Organization of Parallel Platforms, Communication Costs in Parallel Machines. Levels of parallelism . Interconnection Networks . Architecture: N-wide superscalar architectures, multi -core, multi - threaded. Exemplars /Case Studies Case Study 1: Evolution of Multi-core and Many-core Systems Case Study 2: Evolution of Many-core Systems",
+          "hours": 9
+        },
+        {
+          "title": "Parallel Algorithm Design",
+          "topics": "Principles of Parallel Algorithm Design: Preliminaries, Decomposition Techniques, Characteristics of Tasks and Interactions, Mapping Techniques for Load Balancing, Methods for Containing Interaction Overheads, Parallel Algorithm Models: Data, Task, Work Pool and Master Slave model. Complexities: Sequential and Parallel Computational Complexity, Anomalies in Parallel Algorithms. Exemplars/Case Studies Case Study 1: Parallel Sensor Data Aggregation System Case Study 2: Monte Carlo Simulation (π Estimation) Case Study 3: Parallel Programming Case studies https://www.cs.cmu.edu/afs/cs/academic/class/15418- s21/www/lectures/09_casestudies.pdf",
+          "hours": null
+        },
+        {
+          "title": "Parallel Programming and Communication",
+          "topics": "Basic Communication Operations: One-to-All Broadcast and All-to-One Reduction, All-to-All Broadcast and Reduction, All-Reduce and Prefix-Sum Operations, Parallel Programming Paradigm: Shared memory programming, message passing programming model, MPI programming Environment, Communication using MPI: Scatter, Gather, Broadcast, Blocking and non -blocking MPI, All-to-All Personalized Communication, Circular Shift, Improving the speed of some communication operations. Exemplars/Case Studies Matrix Multiplication using MPI Parallel K-Means Clustering using MPI",
+          "hours": 9
+        },
+        {
+          "title": "Analytical Modeling of Parallel Programs",
+          "topics": "Sources of Overhead in Parallel Programs, Performance Measures and Analysis: Amdahl's and Gustafson's Laws, Speedup Factor and Efficiency, Cost and Utilization, Execution Rate and Redundancy, The Effect of Granularity on Performance, Scalability of Parallel Systems, Minimum Execution Time and Minimum Cost, Optimal Execution Time, Asymptotic Analysis of Parallel Programs. Matrix Computation: Matrix-Vector Multiplication, Matrix-Matrix Multiplication Exemplars/Case Studies Performance analysis of Parallel Sorting Algorithms. (Bubble sort, Quick sort and Merge sort) Performance analysis of Parallel Searching Algorithms. (BFS and DFS)",
+          "hours": 9
+        },
+        {
+          "title": "CUDA Architecture and High- Performance Computing Applications",
+          "topics": "Introduction to GPU Architecture, CPU vs GPU, Scope of Parallel Computing, Introduction to CUDA C and CUDA Programming Model, CUDA Kernels, Thread Hierarchy, Error Handling, CUDA Memory Model and Memory Management, Communication, Synchronization and CUDA-C Programming, Kubernetes, GPU Applications and Parallel Computing for AI/ML. Exemplars/Case Studies Vector Addition Using CUDA Matrix Multiplication using CUDA C",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-361D-AIM",
+      "title": "Data Science & Big Data Analytics",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        88,
+        94
+      ],
+      "units": [
+        {
+          "title": "Foundations of Data Science and Big Data",
+          "topics": "Introduction to Data Science and Big Data, Real -World Applications of Big Data, Roles and Responsibilities of a Data Scientist. Data Explosion and the Digital Universe: data generated from IoT devices, social networks, mobile applications, sensors, enterprise systems. Shared - Everything and Shared-Nothing Architectures. Data Volume: Managing Massive Datasets ranging from terabytes to petabytes and exabytes, necessitating distributed storage solutions such as Hadoop Distributed File System (HDFS). Data Velocity: Real -Time Data Generation and Processing, e.g. stock market analysis, online fraud detection, and autonomous systems. Big Data Infrastructure Components: distributed storage systems, cluster computing platforms, NoSQL databases, stream processing engines, cloud computing services, and data integration tools to support scalable analytics. Challenges Associated with Big Data: data quality assurance, security and privacy concerns, heterogeneous data integration, scalability limitations, fault tolerance, high computational costs, and regulatory compliance requirements. Exemplars /Case Studies Case Study 1: Managing Big Data Challenges in an Online Retail Platform Define...",
+          "hours": null
+        },
+        {
+          "title": "Big Data Processing Architectures and Next - Generation Data Warehouses",
+          "topics": "Big Data Processing Architectures: Distributed architectures such as batch processing frameworks (MapReduce), in -memory processing systems (Apache Spark), and stream processing platforms (Apache Flink and Apache Storm) to handle diverse analytical workloads efficiently. Data Warehouse Conc epts and Evolution: Application in Decision Support Systems (DSS), Business Analytics, Data Analytics, Management Information Systems (MIS), Enterprise Intelligence, Performance Management, Strategic Information Systems etc. Re-Engineering the Traditional Data Warehouse: Incorporating data lakes, cloud -native architectures, real -time data ingestion mechanisms, and support for semi -structured and unstructured data formats. Big Data Learning Approaches and the AI Hierarchy: Descriptive, Diagnostic, Predict ive, and Prescriptive learning approaches. Exemplars/Case Studies Case Study 1: Building an Integrated Healthcare Analytics Platform for Proactive Patient Care. Why are stream processing platforms important in healthcare environments? What advantages do cloud-native architecture provide to healthcare organizations? Differentiate between predictive and prescriptive analytics using example...",
+          "hours": 8
+        },
+        {
+          "title": "Distributed Data Processing Frameworks",
+          "topics": "Big Data distributed storage, parallel processing, and analytics frameworks like Hadoop, Spark, Hive, Pig, and NoSQL databases. Architecture and working principles of the Google File System (GFS) and its influence on modern distributed storage systems. Hadoop architecture, including its core components and the role of distributed computing in Big Data processing. Functioning of Ha doop Distributed File System (HDFS), role of Name Node, Secondary Name Node, and Data Nodes. Hadoop shell commands file management operations such as creating directories, uploading files, retrieving files, and monitoring HDFS. Hadoop ensures fault tolerance and data reliability. Hadoop MapReduce programming paradigm, including the concepts of map tasks, reduce tasks, jobs, and task scheduling mechanisms. Hadoop cluster environment SSH access and modify essential Hadoop configuration files. NoSQL databases and textual ETL processing techniques for managing and transforming structured, semi-structured, and unstructured data. Hadoop ecosystem components such as MapReduce, Pig, and Hive, and evaluate their roles in data processing, querying, and analytical applications. Exemplars/Case Studies Case Study...",
+          "hours": null
+        },
+        {
+          "title": "Data Analytics Lifecycle Framework",
+          "topics": "Data Analytics Lifecycle Framework: Discovery, Data Preparation, Model Planning, Model Building, Communication of Results, and Operationalization. Analytical Approaches in Data Science: Statistical Analysis, Exploratory Data Analysis, Machine Learning to extract insights and support decision-making. Python as a Data Analytics Tool: Python provides powerful libraries (such as Pandas, NumPy, Matplotlib, and Scikit-learn) for data manipulation, analysis, visualization, understanding patterns and trends within datasets, and predictive modeling. Data Ingestion from Multiple Sources: Python enables importing data from diverse sources including CSV, JSON, HTML, Excel files, MongoDB, MySQL, and SQLite databases, facilitating comprehensive data integration. Data cleaning: Removing duplicate records, correcting inconsistent data formats (e.g., date formats, text case), Detecting and treating outliers, Validat ing and correcting erroneous data entries. Handling missing values: Listwise deletion (removing records with missing values), Pairwise deletion (using available data for analysis), Replacing missing values with a constant (e.g., \"Unknown\", 0), Identifying missing data patterns Miss...",
+          "hours": null
+        },
+        {
+          "title": "Big Data Technologies, Applications and Impact",
+          "topics": "Social Media Analytics: Analyze data from social media platforms to understand customer sentiments, brand perception, market trends, and user engagement patterns for informed decision - making. Mobile Analytics: Monitor and evaluate mobile application usage data, app performance, user behavior, retention rates, and engagement metrics to improve user experience and business performance. Autonomous Vehicles: Self -driving cars rely on real -time big data processing from sensors, cameras, and GPS. Machine learning models analyze traffic patterns, detect obstacles, and predict driver behavior, Integration of IoT data streams ensures safe navigation and adaptive route planning. Precision Healthcare and Predictive Medicine: Analyze electroni c health records (EHRs), genomic data, medical imaging, and wearable device data to predict disease risks, enable personalized treatment plans, support early diagnosis, and improve patient outcomes. Smart Cities and Intelligent Transportation Systems: Bi g data generated from IoT sensors, GPS devices, traffic cameras, and public transportation systems is analyzed to optimize traffic flow, reduce congestion, improve public safety, enhance energy...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-362A-AIM",
+      "title": "Power BI & Tableau",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        95,
+        97
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Business Intelligence and Data Visualization",
+          "topics": "Introduction to Business Intelligence : BI Concepts, Architecture, Process and components. Data Analytics Fundamentals : Descriptive Analytics, Diagnostic Analytics, Predictive Analytics, Prescriptive Analytics. Introduction to Data Visualization : Importance of Visualization, Data Visualization Principles, Data Storytelling, Visual Perception and Human Cognition. Introduction to Power BI and Tableau : Features and Architecture, Comparison of Power BI and Tableau, Applications in Industry . Data Sources : Excel, CSV, Databases, Web Data Sources and Cloud Data Sources. Exemplars/Case Studies Case Study 1: Netflix User Analytics Dashboard.",
+          "hours": 9
+        },
+        {
+          "title": "Data Preparation and Data Modeling",
+          "topics": "Data Collection and Integration, Data Cleaning and Transformation, Power Query Editor : Query Transformation, Merge Queries, Append Queries , Data Modelling : Relationships, Star Schema, Snowflake Schema. Calculated Fields and Measures : DAX Fundamentals, Calculated Columns, Measures. Tableau Data Preparation: Tableau Prep Basics, Data Blending, Joins and Unions. Exemplars/Case Studies Case Study on Retail Sales Data Analysis.",
+          "hours": null
+        },
+        {
+          "title": "Dashboard Design and Visualization Techniques",
+          "topics": "Visualization Components : Charts, Graphs, Tables , Maps. Power BI Visualizations : Bar Charts, Line Charts , Pie Charts, Tree Maps , KPI Cards .Tableau Visualizations : Heat Maps , Scatter Plots , Geographic Maps , Histograms. Dashboard Design Principles : Layout Design, Color Theory , User Experience. Interactive Dash boards: Filters, Slicers, Drill Down, Drill Through.Storytelling with Data: Business Insights, Dashboard Narratives. Exemplars/Case Studies Case Study on COVID-19 Global Dashboard.",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Analytics and AI Integration",
+          "topics": "Advanced DAX Functions, Tableau Calculations, Predictive Analytics, AI Features in Power BI, AI Features in Tableau : AI Visuals, Key Influencers, Smart Narratives . Integration with Python and R: Data Analysis using Python , Visualization Extensions . Business Forecastin g Applications. Exemplars/Case Studies Case study on Sales Forecasting Dashboard.",
+          "hours": null
+        },
+        {
+          "title": "Business Intelligence Applications and Emerging Trends",
+          "topics": "BI Applications , Cloud-Based BI , Data Governance and Security , Real-Time Analytics , AI- Powered Business Intelligence : Generative AI in BI , Natural Language Querying , Conversational Analytics. Emerging Trends : Augmented Analytics , Self-Service BI, Data Fabric, Data Mesh. Exemplars/Case Studies Case study on Smart City Analytics Dashboard.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-362B-AIM",
+      "title": "Large Language Models",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        98,
+        100
+      ],
+      "units": [
+        {
+          "title": "Foundations of Natural Language Processing (NLP)",
+          "topics": "Introduction to Natural Language Processing (NLP) and its real -world applications. Basic text preprocessing techniques such as tokenization, stop -word removal, stemming, and lemmatization. Methods for representing text using vector space models and word em beddings including Word2Vec, GloVe, and FastText. Fundamentals of language modeling and sequence representation used in modern NLP systems. Exemplars/Case Studies Case Study : Sentiment Analysis of Product Reviews",
+          "hours": 7
+        },
+        {
+          "title": "Transformer Architecture and Attention Mechanisms",
+          "topics": "Overview of traditional sequence modeling approaches and their limitations. Introduction to Encoder - Decoder architecture and the concept of attention. Study of self -attention, multi -head attention, and positional encoding. Understanding the Transformer architecture and its role as the foundation of modern language models. Exemplars/Case Studies Machine Translation using Transformers",
+          "hours": 8
+        },
+        {
+          "title": "Large Language Models and Their Evolution",
+          "topics": "Introduction to foundation models and Generative AI. Study of popular language model architectures such as GPT, BERT, RoBERTa, T5, and BART. Understanding different training approaches including autoregressive and masked language modeling. Overview of scal ing laws, emergent capabilities, and recent developments in Large Language Models. Exemplars/Case Studies Comparative Analysis of GPT and BERT",
+          "hours": null
+        },
+        {
+          "title": "Fine-Tuning and Prompt Engineering",
+          "topics": "Introduction to the Hugging Face ecosystem , including Transformers, Datasets, Tokenizers, Model Hub, and Inference APIs for accessing and deploying pre -trained language models. Techniques for adapting pre -trained language models to specific tasks through fine -tuning and transfer learning. Introduction to Para meter-Efficient Fine -Tuning (PEFT), LoRA, and model quantization. Prompt engineering methods including zero -shot, few -shot, and chain -of-thought prompting. Concepts of Retrieval -Augmented Generation (RAG) and the use of vector databases for enhancing model responses with external knowledge. Exemplars/Case Studies Domain-Specific Chatbot for Higher Education",
+          "hours": null
+        },
+        {
+          "title": "Multimodal AI, Evaluation and Responsible AI",
+          "topics": "Introduction to multimodal AI systems capable of processing text, images, and audio. Methods for evaluating and benchmarking Large Language Models. Understanding challenges such as hallucinations, bias, and fairness in AI systems. Principles of responsible AI, including safety, privacy, and ethical considerations. Overview of tools and fr ameworks for developing and deploying LLM -based applications, along with emerging trends in AI agents and intelligent systems. Exemplars/Case Studies Multimodal AI, Evaluation and Responsible AI",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362C-AIM",
+      "title": "Mobile Application Development",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        101,
+        103
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Application Development",
+          "topics": "Evolution of mobile computing, mobile operating systems and architectures, Android architecture overview, iOS architecture overview, native applications, hybrid applications, cross -platform applications, mobile application development lifecycle, development environment setup, Flutter framework overview, Dart programming fundamentals, mobile application market trends, AI -enabled mobile applicat ions and future directions. Exemplars /Case Studies Case Study 1: WhatsApp Mobile Architecture and Cross-Platform Communication Framework Case Study 2: Instagram Mobile Application Evolution from Native Development to Scalable Mobile Platform",
+          "hours": null
+        },
+        {
+          "title": "Mobile UI/UX Design and Application Components",
+          "topics": "Principles of mobile UI/UX design, Material Design guidelines, Flutter widgets and widget hierarchy, layout management, responsive design techniques, navigation and routing, forms and user input handling, state management concepts, accessibility standards, usability evaluation methods, user engagement strategies, interface prototyping techniques. Exemplars/Case Studies Case Study 1: User Experience Design Analysis of Google Maps Mobile Application Case Study 2: User Interface and Engagement Strategies in Spotify Mobile Application",
+          "hours": null
+        },
+        {
+          "title": "Data Management and Device Integration",
+          "topics": "Data persistence in mobile applications, shared preferences, SQLite database, file handling operations, local storage management, sensors in mobile devices, camera integration, GPS and location-based services, notifications and alerts, background services, multimedia integration, mobile security fundamentals, permissions management. Exemplars/Case Studies Case Study 1: Ola/Uber Real-Time Ride Tracking System using GPS and Location Services Case Study 2: Google Fit Mobile Application and Sensor-Based Activity Monitoring",
+          "hours": null
+        },
+        {
+          "title": "Backend Integration and AI-Enabled Mobile Applications",
+          "topics": "RESTful web services, HTTP methods and communication protocols, JSON data exchange, API integration techniques, Firebase services, authentication and authorization mechanisms, cloud databases, cloud storage integration, AI and machine learning in mobile applications, TensorFlow Lite framework, on -device machine learning, recommendation systems, conversational AI and chatbot integration. Exemplars/Case Studies Case Study 1: AI-Based Personalized Recommendation Engine in Swiggy/Zomato Case Study 2: Google Lens and On-Device Image Recognition using TensorFlow Lite",
+          "hours": 9
+        },
+        {
+          "title": "Testing, Security, Optimization and Deployment",
+          "topics": "Mobile application testing methodologies, unit testing, widget testing, integration testing, debugging techniques, performance profiling, memory optimization, battery optimization strategies, secure coding practices, application security mechanisms, version control using Git, CI/CD pipelines for mobile applications, application publishing on Play Store and App Store, emerging trends in wearable computing, augmented reality applications, edge AI applications. Exemplars/Case Studies Case Study 1: Deployment, Security, and Scalability of Aarogya Setu Mobile Application Case Study 2: Pokémon GO: Mobile Application Testing, Optimization, and Large-Scale Deployment",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362D-AIM",
+      "title": "Cyber Security & Risk Management",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        104,
+        107
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO CYBER SECURITY & THREAT LANDSCAPE",
+          "topics": "Foundations of Cybersecurity: Definition, goals: Confidentiality, Integrity, and Availability; extended model: Authenticity, Non-repudiation, and Accountability, Cybersecurity vs. Information Security vs. Network Security: conceptual differentiation; The NIST Cybersecurity Framework (CSF 2.0) — Identify, Protect, Detect, Respond, Recover Classification of threats: passive vs. active attacks; insider vs. outsider threats Malware taxonomy: viruses, worms, trojans, ransomware, spyware, adware, rootkits, fileless malware, Social engineering: phishing, spear -phishing, vishing, smishing, pretexting, baiting, tailgating Attack surface concept: internal, external, social/human surfaces Vulnerability vs. threat vs. exploit vs. risk Exemplars /Case Studies Case Study 1: WannaCry ransomware (2017) Case Study 2: Colonial Pipeline attack (2021)",
+          "hours": 6
+        },
+        {
+          "title": "CRYPTOGRAPHY & NETWORK SECURITY",
+          "topics": "Classical ciphers: Caesar, Vigenere, transposition, cryptanalysis; Symmetric key cryptography: DES, 3DES, AES -128/192/256, block cipher modes (ECB, CBC, CFB, OFB, CTR, GCM) Asymmetric (public -key) cryptography: RSA algorithm — key generation, encryption, decryption; Diffie-Hellman key exchange; ECC Hash functions: SHA-1, SHA-2 (SHA-256, SHA-512), SHA-3/SHAKE; collision resistance, pre - image resistance; HMAC Key management: key generation, distribution, storage, revocation, escrow; Key Management Interoperability Protocol (KMIP) Digital signatures: RSA -SHA256, ECDSA, Public Key Infrastructure (PKI): X.509 certificates, Certificate Authority (CA), Registration Authority Exemplars/Case Studies Case Study 1: WhatsApp End-to-End Encryption (Meta & Signal Protocol) Case study 2: TLS/SSL in E-Commerce (Amazon, Banking, UPI Platforms)",
+          "hours": 8
+        },
+        {
+          "title": "Network Security Mechanisms",
+          "topics": "Firewalls: packet filtering, stateful inspection, application -layer gateways, next -generation firewalls (NGFW); rule design principles Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS): signature -based, anomaly-based, specification-based; Snort/Suricata overview Virtual Private Networks (VPN): IPSec (AH, ESP, IKEv2), SSL-VPN, WireGuard; Network segmentation: DMZ architecture, VLAN-based segmentation, micro-segmentation Wireless security: WPA3, 802.1X EAP, rogue AP detection; Bluetooth/BLE security; 5G network security considerations DNS security: DNSSEC, DNS over HTTPS (DoH), DNS over TLS (DoT); common DNS attacks Exemplars/Case Studies Case Study: Target Corporation Data Breach (2013)",
+          "hours": null
+        },
+        {
+          "title": "CYBER RISK MANAGEMENT FRAMEWORKS, SECURITY ARCHITECTURE",
+          "topics": "Risk management concepts: threat × vulnerability × asset value = risk; risk appetite, risk tolerance, residual risk Risk management process: asset identification and valuation, threat identification, vulnerability assessment, likelihood and impact estimation Risk treatment strategies: Avoidance, Mitigation, Transfer (cyber insurance), Acceptance; Residual risk documentation Security design principles: least privilege, separation of duties, defense -in-depth, fail -safe defaults, economy of mechanism, open design Zero Trust Architecture, Security Reference Architectures: SABSA (Sherwood Applied Business Security Architecture), OSA (Open Security Architecture) Exemplars/Case Studies Case Study: Colonial Pipeline Ransomware Attack (2021)",
+          "hours": 6
+        },
+        {
+          "title": "EMERGING THREATS, CLOUD SECURITY, AI & CYBER LAW",
+          "topics": "Cloud Security: CSA (Cloud Security Alliance), Cloud Controls Matrix (CCM), Cloud -specific threats, Container and Kubernetes security IoT & OT/ICS Security: IoT attack surface: device firmware vulnerabilities, default credentials, insecure update mechanisms, protocol weaknesses (MQTT, CoAP, Zigbee) Operational Technology (OT) / Industrial Control Systems (ICS) security: SCADA, PLC vulnerabilities, Critical infrastructure protection AI/ML in Cybersecurity: AI for defense: anomaly detection using ML Adversarial AI: adversarial examples, model poisoning/evasion attacks Generative AI threats: deepfake attacks, AI-generated phishing Cyber Laws & Ethics: National Cyber Security Policy 2013 (India), Dig ital Personal Data Protection (DPDP) Act 2023, Ethics in cybersecurity Exemplars/Case Studies Case study: Deepfake Attacks, Protocol Weaknesses: MQTT, COAP",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-363A-AIM",
+      "title": "Power BI & Tableau Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        108,
+        110
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363B-AIM",
+      "title": "Large Language Models Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        111,
+        112
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363C-AIM",
+      "title": "Mobile Application Development Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        113,
+        115
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363D-AIM",
+      "title": "Cyber Security & Risk Management Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        116,
+        117
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-AIM",
+      "title": "Multimedia Technology",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        118,
+        121
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-372-AIM",
+      "title": "Full Stack Development with MERN",
+      "semester": 6,
+      "type": "Vocational",
+      "credits": 2,
+      "pages": [
+        122,
+        123
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-381-AIM",
+      "title": "Internship/OJT",
+      "semester": 6,
+      "type": "Internship",
+      "credits": 4,
+      "pages": [
+        124,
+        126
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

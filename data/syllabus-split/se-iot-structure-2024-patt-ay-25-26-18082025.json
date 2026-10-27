@@ -1,0 +1,523 @@
+{
+  "id": "se-iot-structure-2024-patt-ay-25-26-18082025",
+  "kind": "programme",
+  "programme": "SE - Second Year Engineering (2024 Pattern) in Internet of Things",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-IOT",
+      "title": "Analog & Digital Electronics circuits",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Design and Analysis of EMOSFET Amplifier",
+          "topics": "Non ideal characteristics of EMOSFET such as Finite output resistance, body effect, sub-threshold conduction, breakdown effects, temperature effect. Comparison of Common Source (CS), Common Drain (CD) and Common gate (CG) amplifier configurations. Concept of DC load line, two port model of EMOSFET, design and analysis of dc circuit for common source amplifier configuration, numerical. Concept of AC load line, AC equivalent circuit of a common source amplifier configuration, design & analysis of common source amplifier configuration with respect to input and output impedance, gain and frequency response, numerical. #Exemplar Public address system, transmitter and receiver of wired (telephone) and wireless systems (satellite, mobile), computers etc. Mapping of Course Outcomes for Unit No.1 : CO1",
+          "hours": 9
+        },
+        {
+          "title": "EMOSFET and OPAMP Applications",
+          "topics": "EMOSFET Applications - CMOS inverter, resistor & diode, feedback amplifiers and its effects, design and analysis of voltage series feedback amplifier and numerical. Concept of Barkhausen criterion for oscillator, comparison of various oscillator such as Colpitts, Heartily, Wein bridge and RC phase shift, design and analysis of RC phase shift oscillator and numerical. OPAMP applications circuit design and analysis such as voltage follower, summing and differential amplifier, practical integrator, comparator, Schmitt trigger #Exemplar Waveform and frequency generator for application such as receiver and transmitter in TV, mobile, telephone etc Mapping of Course Outcomes for Unit No.1 : CO1",
+          "hours": 9
+        },
+        {
+          "title": "Combinational and Sequential Logic Digital Circuits",
+          "topics": "Combinational logic Circuit – Decimal to binary and binary to decimal code convertor, 2-bit adder and subtractor, 2- bit digital comparator, 4:1 and 8:1 multiplexers and relevant de-multiplexers. Sequential logic Circuit - 1 Bit memory cell, shift registers, synchronous and asynchronous counters, ring and twisted ring counters, up and down counters. #Exemplar Digital computer, counting mechanism in industry etc Mapping of Course Outcomes for",
+          "hours": 9
+        },
+        {
+          "title": "CO3",
+          "topics": "Unit IV State Machines and its Application (09 Hours) State diagram, state table, state reduction, state assignment, comparison of Mealy and Moore machines, Mealy and Moore machine implementation, programmable logic devices and their architecture - PROM, PAL, PLA, FPGA and CPLD, semiconductor memories types and their characteristic parameters, performance parameters for a digital logic circuit such as speed, power dissipation, figure of merit, fan in, fan out, current, voltage, noise immunity #Exemplar Traffic light control, computer memory etc. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Unit V Data Conversion & Applications (09 Hours) Various types of ADCs and DACs and their performance parameters, study of successive approximation ADC and R-2R ladder type of DAC, Square & triangular wave generator, electronic analog computer, traffic light controller using finite state machine, bottling plant counting mechanism using counter #Exemplar audio recording, data acquisition systems, and sensor interfaces, communication systems such as TV receivers, analog computers, computer/pen drive memories, public traffic light system, industrial counting applications Mapping of Course Outcomes for Unit V CO5",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-IOT",
+      "title": "Discrete Mathematics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Sets and Logic",
+          "topics": "Sets: Introduction, Types of Sets, Operation and Laws, Principle of Inclusion and Exclusion, Multisets Logic: Propositions, Operations and Connectives, Truth table, Logical Equivalence, Normal Forms, Logical implication, Rules of Inference, Validity, Compactness and Resolution, Predicative and quantifiers, Methods of Proofs and Principle of Mathematical Induction. Combinatorics: Counting Principle, Permutation and Combination, Pigonhole Principle, Binomial coefficients and Identities.",
+          "hours": 9
+        },
+        {
+          "title": "Relations and Functions",
+          "topics": "Relations: Definitions, Types of relations, Properties, n-ary relations, Closure of relations, Equivalence relation, Equivalence classes, Partitions, Partial ordering relations, Hasse Diagram, Lattices, Chain and Antichains, Transitive closure and Warshall’s algorithm. Functions: Definitions, Types of functions, Composition of functions, Invertible functions, Generating functions, Recurrence relations, Solution of linear recurrence relation with Constant Coefficients",
+          "hours": 9
+        },
+        {
+          "title": "Graph and Applications",
+          "topics": "Terminology and types of graphs, Hand shaking lemma, Matrix representation of graphs, Adjacency and Incidence matrix, Isomorphism, Connectivity, Eulerian and Hamiltonian graphs, Shortest path, Travelling salesman problem, Dijkstra’s algorithm, Planar graph and Euler formula, Graph colouring, Chromatic number, Dual of Graph, Clique number.",
+          "hours": 9
+        },
+        {
+          "title": "Trees",
+          "topics": "Introduction, Properties, Rootedtree, Binary Search tree, Tree traversal, Path length, Weighted tree, Prefixcode, Huffmancoding, Spanning tree, Minimal spanning tree, Kruskal algorithm, prims algorithm, Cut set, The Max flow- Min cut theorem (Transport Network).",
+          "hours": 9
+        },
+        {
+          "title": "Algebraic Structure and Coding Theory",
+          "topics": "Introduction to Algebraic structures, Semi group, Monoid, Group, Abelian group, Cyclic group, Congruence relation, Homomorphism, Normal subgroup, Ring, Field, Galois Theory, Coding Theory.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-IOT",
+      "title": "Sensors, Actuators & signal processing",
+      "semester": 3,
+      "type": "Program core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction to Sensors and actuators",
+          "topics": "Sensors and actuators: Significance of Sensor and actuator Measurements (comparison, detailed structure), Classification of Sensors. Types of Actuators, bandwidth and frequency response, actuator range, power and energy considerations, tradeoffs between force/displacement or torque/speed, control systems and electronics, industrial considerations Smart Material Actuators: Piezoelectric transducers, Electroactive polymers, Shape Memory alloys, Artificial Muscle materials Generalized measurement system: Introduction to DAQ, Types, and Components and architecture (detailed block diagram) of a Data Acquisition System. Selection criteria of sensors for IoT #Exemplar Multiple applications like smart city Mapping of Course Outcomes for Unit I CO1",
+          "hours": 9
+        },
+        {
+          "title": "Displacement, Level & Flow Sensors",
+          "topics": "Displacement Measurement: Transducers for displacement, displacement measurement, potentiometer, Capacitance Types, Digital Transducers (optical encoder). Strain Measurement: Theory of Strain Gauges, gauge factor Measurement of Angular Velocity: Tachometers, Digital tachometers and Stroboscopic Methods. Acceleration Measurement, introduction to Accelerometer and vibrometers, strain gauge based and piezo electric accelerometers Level measurement: Introduction, Differential pressure level detectors, Capacitance level sensor, Ultrasonic level detectors and Radar level transmitters and gauges. Flow measurement: Introduction, definition and units, classification of flow meters, differential pressure and variable area flow meters, Positive displacement flow meters, Electro Magnetic flow meters. #Exemplar Industrial and home applications Mapping of Course Outcomes for Unit II CO2",
+          "hours": 6
+        },
+        {
+          "title": "Pressure sensors & Smart sensors",
+          "topics": "Pressure Measurement: Microphones, Elastic pressure transducers, bellows and piezoelectric pressure sensors, High Pressure Measurements, Bridge man gauge. Smart sensors: Evolution from traditional to smart sensors, Definition and architecture of smart sensors, Differences between conventional and smart sensors. Key points: Sensing elements and transduction principles, Signal conditioning circuits (amplifiers, filters), DAQ in smart sensors, Communication protocols used in smart sensors. Wireless sensors and WSN: Introduction to wireless sensors. Detailed architecture of WSN #Exemplar Aerospace, automotive & smart agriculture Mapping of Course Outcomes for Unit III CO3",
+          "hours": 6
+        },
+        {
+          "title": "Classification of signals",
+          "topics": "Standard signals– Step, Ramp, Pulse, Impulse–Real and complex exponentials and Sinusoids–Representation of Continuous and discrete time signals– Classification of signals – Continuous time (CT) and Discrete Time (DT), signals– Periodic & Aperiodic signals– Deterministic & Random signals–Energy & Power signals #Exemplar Nature of Real-life audio (voice), video, radio Signals and electrical Currents, modern applications of the convolution, Speech recognition and natural language processing (NLP): Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 9
+        },
+        {
+          "title": "Introduction - Discrete Time",
+          "topics": "signal processing (09 Hours) Frequency domain sampling–Discrete Fourier Transform (DFT) – deriving DFT from DTFT– properties of DFT – periodicity– symmetry– circular convolution- overlap save and overlap add method– Fast computation of DFT - Radix-2 Decimation-in-time (DIT) Fourier transform (FFT)– Decimation-infrequency (DIF)– Fast Fourier transform (FFT #Exemplar Applications of Fourier Transform in spectral analysis, communication, filtering, and biomedical signal processing Mapping of Course Outcomes for Unit V CO5",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-IOT",
+      "title": "Electronic circuits & Sensor’s lab",
+      "semester": 3,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        23,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective-I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-IOT",
+      "title": "Data Structure & Algorithms",
+      "semester": 3,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to C++",
+          "topics": "Basics of Object-Oriented Programming (OOP), C++ syntax and program structure, data types, variables, operators, Functions and parameter passing, Classes and objects, Constructors and destructors, Function overloading and operator overloading. Case Study – Complex number arithmetic for scientific and engineering calculations, use of basic C++ concepts — classes, objects, constructors, and operator overloading for complex number arithmetic (Addition, Subtraction, Multiplication) #Exemplar System programming, operating systems, Game development, Embedded System, device drivers, scientific simulations, Artificial Intelligence/ Machine Learning Libraries. Mapping of Course Outcomes for Unit I CO1",
+          "hours": 9
+        },
+        {
+          "title": "Searching and Sorting Algorithms",
+          "topics": "Algorithms: Analysis of Iterative and Recursive algorithms, Time and space complexity, Asymptotic notation- Big-O, Theta and Omega notations. Searching methods: Linear, Binary and Fibonacci Search. Sorting methods: Bubble, Insertion, Selection, Merge, and Quick Sort. Implementation of searching and sorting algorithms using C++. Case Study - e-commerce platform, searching products and sorting based on price for a user query. Introduction to dynamic programming, Top-Down Approach (Memoization), Bottom-Up Approach (Tabulation). #Exemplar Voter search, roll number lookup, product search on e-commerce platform, price sorting, merit list generation, sort employee records by salary. Mapping of Course Outcomes for Unit II CO2",
+          "hours": 9
+        },
+        {
+          "title": "Linked Lists",
+          "topics": "Definition and importance of data structures, Classification of data structures, Singly Linked List: Creation, insertion, deletion, traversal, searching, sorting. Doubly Linked List: Creation, insertion, deletion, traversal, Circular Linked List: Creation, insertion, deletion, traversal, Case Study – Polynomial representation, Use of singly linked lists where each node stores coefficient and exponent of polynomial, polynomial addition. Case Study - Use of doubly linked list to represent playlist with next and previous track options. Songs can be added/removed dynamically and navigated forward/backward #Exemplar Managing a music playlist, Browser History Navigation, undo/redo operations, Round-Robin Scheduling Mapping of Course Outcomes for Unit III CO3",
+          "hours": 9
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": "Stack: Concept, implementation using arrays and linked lists, Stack operations: push, pop, peek, Stack Applications, Case Study - parsing logic in compilers and calculators - conversion of infix to postfix expressions using stack, followed by evaluation. Queue: Implementation using arrays and linked lists, Queue operations- enqueue, dequeue, peek. Types of queues: Circular queue, Priority Queue, Queue Applications, Case Study - Hospital Emergency Queue System, Use of priority queue or combination of normal queue + sorting mechanism. #Exemplar Expression parsing, compiler design, calculators, Ticket counters, call center queues, print job management, CPU Job Scheduling Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 9
+        },
+        {
+          "title": "Trees and Graphs",
+          "topics": "Trees: Terminology, binary trees, binary search trees (BST). Threaded binary tree, Tree traversals: Inorder, Preorder, Postorder, AVL trees: Rotations and balancing, Graphs: Representations (adjacency matrix/list), Graph traversals: BFS, DFS, Minimum Spanning tree- Kruskal’s Algorithm, Prim’s Algorithm. Case Study – GPS/Map navigation, Use of weighted graphs and Dijkstra’s Shortest Path Algorithm. #Exemplar Mapping systems (like Google Maps), social media connections, File system navigation, friend recommendation on social media, organizational charts, search engines, database indexing Mapping of Course Outcomes for Unit V CO5",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "MDM-222-IOT",
+      "title": "Data Structure & Algorithms Lab",
+      "semester": 3,
+      "type": "Multidisciplinary Minor Lab",
+      "credits": 1,
+      "pages": [
+        28,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-231-IOT",
+      "title": "Engineering Economics & Application",
+      "semester": 3,
+      "type": "Entrepreneurship / Economics/ Management",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Theories and Laws of Economics for Engineers",
+          "topics": "Introduction to Engineering Economics, Basic economic concepts: Utility, scarcity, opportunity cost, Economic systems and firm objectives, Laws of demand and supply, elasticity, Value, wealth,andequilibriumprice,Timevalueofmoney(PresentValue,FutureValue,annuity (basics)",
+          "hours": 4
+        },
+        {
+          "title": "Principles of Engineering Economics and Costing",
+          "topics": "Demand forecasting techniques and applications in tech markets, Cost behavior: Fixed, variable, marginal, total, Cost-volume-profit and break-even analysis, Decision-making under un-certainty (intro to decision theory), Economies of scale in electronics manufacturing",
+          "hours": 4
+        },
+        {
+          "title": "Applications of Economics in Electronics Industry",
+          "topics": "Market structures: Perfect competition, monopoly, monopolistic competition, Pricing strategies and product life cycle costing, Game theory basics and strategic behavior, Make-or-buy decisions and Value Engineering in electronics, Kaizen and productivity in technical operations",
+          "hours": 4
+        },
+        {
+          "title": "Investment Analysis and Applied Macroeconomics",
+          "topics": "Capital budgeting: Payback period, Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index, Equipment replacement decisions, Overview of macroeconomic indicators: Gross Domestic Product (GDP), Consumer Price Index (CPI), Business cycles, inflation, interest rates, and impact, CSR, sustainability, and policy impacts on tech firms, Exposure to areas like IPR, R&D, and innovation economics Extra two practical’s shall be based on the syllabus of all units apart from the following list: Any Six practical’s can be carried out, below list: 1. Case examples from electronics industries (e.g.,Telecom spectrum pricing, consumer electronics) 2. Excel-based Time Value of Money (TVM)computations 3. Forecast demand for a telecom device (Routing and Switching Networking communication devices /AI enabled Smart IOT devices and sensor) 4. Performbreak-evenand Cost-Volume-Profit(CVP)analysis using spreadsheet 5. Case study: Comparison of Pricing strategy between two service providers such as of Jio, Airtel, BSNL etc. 6. To carryout mini project based on market and pricing strategy analysis of a smart device or IoT product 7. Evaluate a small-scale engineering project(e.g.,set up",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-IOT",
+      "title": "Universal Human Values & Professional ethics",
+      "semester": 3,
+      "type": "Value Education",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self-exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity-the Basic Human Aspirations and their Fulfillment (iv) Right Understanding, Relationship and Physical Facility (v) Happiness and Prosperity-Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "(i) Understanding Human being as the Co-existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Programme to Ensure self-regulation and Health",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship (ii) ’Respect’- as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order Unit IV Harmony in the Nature (Existence) (08 Hours) (i) Understanding Harmony in the Nature (ii) Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co-existence at All Levels (iv) The Holistic Perception of Harmony in Existence (v) Professional Ethics in the light of Right Understanding (vi) Strategies for Transition towards Value-based Life and Profession",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-IOT",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        36,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-IOT",
+      "title": "Communication & Networking Technologies",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        41,
+        43
+      ],
+      "units": [
+        {
+          "title": "Information Theory & Analog communication",
+          "topics": "Concept of amount of information, information units Entropy: marginal, conditional, joint and relative entropies, relation among entropies Mutual information, information rate, channel capacity. Analog communication –Types of Modulation –A M – F M – Phase Modulation– Pulse Modulation–PAM– PWM–PPM–PCM. Basic concept of radio wave propagation Examplar 5G Communication, Satellite Communication, Cell Phone Base Station Mapping of Course Outcomes for Unit I: CO1",
+          "hours": 9
+        },
+        {
+          "title": "Digital & Data communication",
+          "topics": "Concepts of Sampling theorem – Nyquist rate –Digital Modulation Schemes –ASK–FSK– PSK– Radio signal transmission – Multiple access techniques –Cellular Wireless Networks. Process of data communication and its components: Transmitter, Receiver, Medium, Message. Protocols, Standards , Standard organizations. Bandwidth, Data Transmission Rate, Baud Rate and Bits per second. Modes of Communication (Simplex, Half duplex, Full Duplex). Signal & its properties Examplar Instant Messaging and social media, File Sharing, Mapping of Course Outcomes for Unit II: CO2",
+          "hours": 9
+        },
+        {
+          "title": "Networking & Models",
+          "topics": "Networks–OSI Reference Model: Layered Architecture, (Functions and features of each Layer) Peer-to-Peer Processes- Interfaces between Layer, Protocols. TCP/IP Model. Types of Networks: Local area networks (LAN), Metropolitan area networks (MAN), Wide area networks (WAN), Network Topologies, Types of Transmission Media: Guided Media, Unguided Media, Network Devices: Bridge, Switch, Router, Gateway, Access Point Examplar Internet & Web services, Telecommunication networks, health care Mapping of Course Outcomes for Unit III: CO3",
+          "hours": 9
+        },
+        {
+          "title": "IP addressing & Common Network standard",
+          "topics": "Introduction: Functions of Network layer. Switching Techniques: Circuit switching, Message Switching, Packet Switching. IP Protocol: IPv4 , IPv6 Addressing mechanism in the Internet IP Addressing - IP Address classes, IP addressing, Subnetting, super netting, Masking. IPv4 addressing. IPv6 addressing – representation, address space allocation, Auto configuration Network layer Protocols: ARP, RARP, ICMP, and IGMP. Network Routing and Algorithms: Static Routing, Dynamic Routing, Distance Vector Routing, Link State Routing, Path Vector. Routing Protocols: RIP, OSPF, BGP, and MPLS. 802.11 & variants-Bluetooth & variants-802.15.4 & variants-Other Standards -NFC -LORA -DSRC, Exemplar Internet, Cybersecurity, web development, Telecommunications Mapping of Course Outcomes for Unit IV: CO4",
+          "hours": 9
+        },
+        {
+          "title": "Network Security",
+          "topics": "Foundations Computer Security : Definition and need of computer security, Security Basics: Confidentiality, Integrity, Availability, Accountability, Non- Repudiation and Reliability. Threat to Security: Viruses, Phases of Viruses, Types of Viruses, Dealing with Viruses, Worms, Trojan Horse, Intruders, Insiders. Type of Attacks : Active and Passive attacks, Denial of Service, DDOS, Backdoors and Trapdoors, Sniffing, Spoofing, Man in the Middle, Replay, and Encryption attacks. TCP/IP Hacking. Information, Need and Importance of Information, Security, need of security, Basics principles of information security. Introduction of Cryptography: Plain Text, Cipher Text, Cryptography, Cryptanalysis, Cryptology, Encryption, Decryption. Exemplar protect computer networks from unauthorized access, misuse, theft, or damage to hardware, software, and electronic data. Mapping of Course Outcomes for Unit V: CO5",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-IOT",
+      "title": "Introduction to IoT",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        44,
+        46
+      ],
+      "units": [
+        {
+          "title": "Introduction to IoT",
+          "topics": "Introduction, Definitions, Characteristics of IoT, History of IoT, Trends in Adaptation of IoT, Difference between IoT Devices and Computers. Physical Design of IoT, Logical Design of IoT, IoT frameworks, IOT Enabling Technologies, (Wireless Sensor Network, Cloud Computing, Big Data Analysis), IoT and M2M #Exemplar Introduce IOT in live applications like home appliances ,internet Mapping of Course Outcomes for Unit I: CO1",
+          "hours": 9
+        },
+        {
+          "title": "IOT Design Methodology and Platform",
+          "topics": "IoT Design Methodology Steps and IoT System Design Cycle. , Basics of IoT Networking, Networking components of IoT, IoT communication Models, IoT Communication APIs Hardware Platforms – Introduction to Arduino & Basic Programming, Introduction to Raspberry Pi & Basic Programming Interfacing basics ( SPI,I2C,UART,USRT,CAN). #Exemplar Applications of IOT in automation and measurement industry Mapping of Course Outcomes for Unit II: CO2",
+          "hours": 9
+        },
+        {
+          "title": "IOT Protocols",
+          "topics": "Non IP Based Protocols : IEEE 802.11, Bluetooth, ZigBee IP Based Protocols: IPV4, IPv6, 6LowPAN, Application Based Protocols: AMPQ, MQTT. Authorization and Access Control in IOT #Exemplar Software product development, Web app development. Mapping of Course Outcomes for Unit III: CO3",
+          "hours": 9
+        },
+        {
+          "title": "IoT Security and Privacy",
+          "topics": "Introduction, Vulnerabilities of IOT, Security requirements, Challenges and threats to IoT security, Encryption and authentication techniques, Privacy concerns and regulations, best practices for securing IoT devices, Security Model for IOT #Exemplar Cyber security Mapping of Course Outcomes for Unit IV: CO4",
+          "hours": 9
+        },
+        {
+          "title": "Domain-Specific Smart Systems: Case Studies",
+          "topics": "Designing IoT Applications : Requirement Analysis and Architecture, Development of a sample IoT application, Integration with Cloud Services and APIs. System integration and real- world challenges. Case studies: Smart agriculture, Smart health, Smart cities, Smart transportation, Industrial IoT. #Exemplar Industrial, home, health and agricultural applications. Mapping of Course Outcomes for Unit V: CO5",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-IOT",
+      "title": "Computer Architecture & Microcontroller",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        47,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to computer architecture",
+          "topics": "Basic Functional units of Computers: Functional units, basic Operational concepts, Bus structures. Software, Performance, Multiprocessors, Multicomputer. Data Representation: Signed number representation, fixed and floating-point Representations. Computer Arithmetic: Addition and subtraction, multiplication Algorithms, Division Algorithms. Error detection and correction codes #Exemplar Digital electronics, Micro computer Mapping of Course Outcomes for Unit I: CO1",
+          "hours": 9
+        },
+        {
+          "title": "Instruction set architecture",
+          "topics": "Functional Concepts: Register transfers, Perform Arithmetic and logical operations, Fetching Word from memory, soring word in memory, Arithmetic logic shift unit. Multiple Bus organizations, Hard wired Controls, micro program controls etc The Memory System : Memory Hierarchy, Internal organization of memory chips, Cache memory, Performance Considerations, Virtual Memories #Exemplar Processor design Mapping of Course Outcomes for Unit II: CO2",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to 8051 Microcontroller Architecture",
+          "topics": "Introduction and Evolution of 8-bit Microcontroller, Comparison between Microprocessors and Microcontrollers, CISC and RISC Architecture, Van Neumann and Harvard Architectures, Limitations of 8 -bit microcontrollers 8051 Architecture: Feature, Block diagram of 8051 and explanation, Registers, Program Status Word (PSW), SFRS, Internal Memory organization, Timers and its modes, Interrupt Structure, Serial Communication, Sample programs of data transfer, Delay using Timer (0 &1) and interrupt. All Programs in embedded C. #Exemplar Embedded Applications Mapping of Course Outcomes for Unit III: CO3",
+          "hours": 8
+        },
+        {
+          "title": "Parallel Port Interfacing and Programming -I",
+          "topics": "Pin diagram, Port Structure. Addressing modes, Overview of Instruction set, IO Interfacing Requirements, Bit operation programs, programs of Data transmission and reception using Serial port. Interfacing of LED, Keys, 7 segment display and LCD, all programs in embedded C #Exemplar Embedded Systems, Automotive Systems, IoT Devices, Home Automation Mapping of Course Outcomes for Unit IV: CO4",
+          "hours": 9
+        },
+        {
+          "title": "Parallel Port Interfacing and Programming -II",
+          "topics": "Interfacing of DAC 0808, Sensor interfacing using ADC 0809, Stepper motor, Relay, Buzze Design of Data acquisition System (DAS): All programs in C language Communication protocol: Study of RS232, RS 485, I2C, SPI protocols. #Exemplar Industrial Control Systems, Embedded Systems, Automotive Systems, Home Automation Mapping of Course Outcomes for Unit V: CO5",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-IOT",
+      "title": "Communication & Networking Technologies Lab",
+      "semester": 4,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-IOT",
+      "title": "Object Oriented Programming",
+      "semester": 4,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to OOP Concepts",
+          "topics": "Introduction to procedural programming, Limitations of procedural programming, Need of object- oriented programming, Fundamentals of object-oriented programming :Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism, Basics of C++ programming , Functions, Inline functions, Default arguments, Reference variables, Dynamic initialization of variables, memory management operators, Member dereferencing operators, operator precedence, typecast operators, Scope resolution operators. Creating Classes and Objects, Access Specifiers Mapping of Course Outcomes for Unit I : CO1",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Core Java",
+          "topics": "Evolution of Java, Features of Java, Java Virtual Machine (JVM), Java Runtime Environment (JRE), Java Development Kit (JDK), Structure of a Java Program, Compilation and Execution Process. Java Syntax: Data Types, Variables, Operators, Control Statements and Loops. Creating Classes and Objects using JAVA. Constructors, method overloading, Static members and Methods, this pointer, Garbage collection, ϐinalize methods, ϐinal variables and methods, ϐinal class Mapping of Course Outcomes for Unit II :CO2",
+          "hours": 9
+        },
+        {
+          "title": "Inheritance and Polymorphism",
+          "topics": "Types of Inheritance in Java (Single, Multilevel, Hierarchical), Method Overriding, Dynamic Method Dispatch, Use of super and final keywords, Abstract Methods and classes, One dimensional and two - dimensional arrays, wrapper classes. Mapping of Course Outcomes for Unit III :CO3",
+          "hours": 9
+        },
+        {
+          "title": "Interfaces and Packages",
+          "topics": "Interfaces: Introduction to Interfaces, Multiple Inheritance using Interfaces, Using static method in interface , Functional Interfaces and Lambda Expressions. Packages: Java API Packages, Using System Packages, Creating accessing and using a package, Importing packages, Adding a class to a Package, Hiding classes. Mapping of Course Outcomes for Unit IV : CO4",
+          "hours": 9
+        },
+        {
+          "title": "Multithreading and Exception Handling",
+          "topics": "Introduction to multithreading: Introduction, Creating thread and extending thread class. Concept of Exception handling: Introduction, Types of errors, Exception handling syntax, Multiple catch statements, Creating Custom Exceptions. Mini Project: Real world application using JAVA Mapping of Course Outcomes for Unit V :CO5",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "MDM-272-IOT",
+      "title": "Microcontroller and Object-oriented Programming Lab",
+      "semester": 4,
+      "type": "Multidisciplinary Minor",
+      "credits": 1,
+      "pages": [
+        54,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-281-IOT",
+      "title": "IoT Skill enhancement Lab",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        57,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-IOT",
+      "title": "Modern Indian Languages (Marathi/Hindi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        59,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-IOT",
+      "title": "Entrepreneurship skill Development",
+      "semester": 4,
+      "type": "Entrepreneurship/Economics/ Management",
+      "credits": 2,
+      "pages": [
+        62,
+        68
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "61 61 Forms of Business Organization – Sole proprietorship, partnership, private limited, public limited. Entrepreneurial Mindset: Growth mindset and adaptability, Creativity and problem-solving, Oppor- tunity recognition and initiative-taking Overview of the Startup Ecosystem: Key stakeholders: Incubators, accelerators, angel investors, VCs, Government support schemes (Startup India, Atal Innovation Mission, etc.), Global vs. Indian startup ecosystems Case Study: 1. Ritesh Agarwal – Founder of OYO Rooms (India) 2. Falguni Nayar – Founder of Nykaa (India) 3. Nandan Nilekani – Co-founder of Infosys & Architect of Aadhaar (India) etc. Creativity Techniques for Idea Generation: Definition and importance of creativity in entrepreneur- ship. Brainstorming: Rules of effective brainstorming. Individual vs. group brainstorming. Mind Mapping: Visual idea structuring using central themes and branches. Tools (manual and digital) for mind mapping. Understanding Customer Needs and Pain Points: Customer pain points and their identification, Problem-solution fit: Linking pain points to possible solutions. Observational techniques, user in- terviews, and empathy mapping. Evaluating Opportunities:",
+          "hours": null
+        },
+        {
+          "title": "Business Model Development",
+          "topics": "Unit II -Idea Generation & Opportunity Recognition",
+          "hours": null
+        },
+        {
+          "title": "Marketing Strategies & Customer Acquisition",
+          "topics": "62 62",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-IOT",
+      "title": "Environment Awareness",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        69,
+        74
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,150 @@
+{
+  "id": "double-minor-civil-environment-water-and-climate-engineering",
+  "kind": "programme",
+  "programme": "Double Minor in Environmental, Water and Climate Engineering",
+  "pattern": null,
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DM-EWCE-303-CVL",
+      "title": "Environmental Engineering & Pollution Control",
+      "semester": null,
+      "type": "Double Minor",
+      "credits": 4,
+      "pages": [3, 4],
+      "units": [
+        {
+          "title": "Introduction to Environment and Pollution",
+          "topics": "Meaning and components of environment, Ecosystem – basic concept, Natural and man-made environment, Environmental resources, Meaning of pollution, Sources and types of pollution, Pollutants and their pathways, Pollution prevention, Environmental quality and Sustainable environment.",
+          "hours": 6
+        },
+        {
+          "title": "Water and Soil Pollution",
+          "topics": "Sources of water pollution, Domestic and industrial water pollution, Basic water-quality parameters, pH, turbidity, TDS, DO, BOD and COD – basic concepts, Effects of water pollution, Eutrophication, Sources of soil pollution, Effects of soil pollution, Soil pollution prevention and control and Water and soil quality monitoring.",
+          "hours": 6
+        },
+        {
+          "title": "Air and Noise Pollution",
+          "topics": "Sources of air pollution, Primary and secondary pollutants, Particulate and gaseous pollutants, Effects of air pollution, Air Quality Index – basic concept, Air-quality monitoring, Noise pollution, Sources and effects of noise, Noise measurement and Noise-control methods.",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Monitoring and Management",
+          "topics": "Environmental monitoring – concept, Environmental sampling – basic concept, Environmental audit, Environmental Impact Assessment – basic concept, Environmental Management System, Environmental standards, Environmental legislation – introduction, Sustainable environmental management and Role of technology in environmental protection.",
+          "hours": 6
+        },
+        {
+          "title": "Technology for Environmental Monitoring and Pollution Control",
+          "topics": "Pollution-control technologies – overview, Water and wastewater monitoring sensors, Air-quality sensors, Noise sensors, IoT-based environmental monitoring, Data collection and visualization, Mobile applications for environmental monitoring, AI and Machine Learning – basic applications and Smart environmental monitoring systems.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DM-EWCE-304-CVL",
+      "title": "Water & Wastewater Treatment Engineering",
+      "semester": null,
+      "type": "Double Minor",
+      "credits": 5,
+      "pages": [5, 6],
+      "units": [
+        {
+          "title": "Water Resources and Water Quality",
+          "topics": "Sources of water, Surface water and groundwater, Water use, Water demand – basic concept, Water-quality requirements, Physical characteristics, Chemical characteristics, Biological characteristics, Drinking-water standards – basic understanding and Water conservation.",
+          "hours": 6
+        },
+        {
+          "title": "Basic Water Treatment",
+          "topics": "Need for water treatment, Concept of Screening, Aeration, Coagulation and flocculation, Sedimentation, Filtration, Disinfection, Chlorination, Water-treatment plant – basic flow and Household water purification.",
+          "hours": 6
+        },
+        {
+          "title": "Wastewater",
+          "topics": "Meaning of wastewater, Sources of wastewater, Domestic wastewater, Industrial wastewater – introduction, Physical characteristics, Chemical characteristics, Biological characteristics, BOD and COD – basic concepts related to wastewater and Wastewater sampling. Effects of untreated wastewater.",
+          "hours": 6
+        },
+        {
+          "title": "Wastewater Treatment",
+          "topics": "Need for wastewater treatment, Preliminary treatment, Primary treatment, Secondary treatment, Activated Sludge Process – basic concept, Trickling Filter – basic concept, Anaerobic treatment – basic concept, Tertiary treatment and Sludge management.",
+          "hours": 6
+        },
+        {
+          "title": "Water Reuse and Smart Water Systems",
+          "topics": "Water recycling, Treated wastewater reuse, Rainwater harvesting, Greywater reuse, Zero Liquid Discharge – basic concept, Smart water meters, Water-leakage monitoring, Water-quality sensors, IoT-based water monitoring and Data-based water management.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DM-EWCE-403-CVL",
+      "title": "Solid Waste Management & Resource Recovery",
+      "semester": null,
+      "type": "Double Minor",
+      "credits": 5,
+      "pages": [7, 8],
+      "units": [
+        {
+          "title": "Introduction to Solid Waste",
+          "topics": "Meaning of solid waste, Sources of solid waste, Municipal solid waste, Construction waste, Biomedical waste – introduction, E-waste, Plastic waste, Hazardous waste – basic concept, Physical characteristics of waste and Environmental and health impacts.",
+          "hours": 6
+        },
+        {
+          "title": "Waste Segregation and Collection",
+          "topics": "Waste minimization, 3R/5R concept, Source segregation, Wet and dry waste, Storage, Primary collection, Secondary collection, Transportation, Transfer stations and Importance of public participation.",
+          "hours": 6
+        },
+        {
+          "title": "Recycling and Biological Processing",
+          "topics": "Recycling, Recyclable materials, Material Recovery Facility – basic concept, Composting, Vermicomposting, Anaerobic digestion, Biomethanation, Biogas, Organic waste management and Benefits and limitations.",
+          "hours": 6
+        },
+        {
+          "title": "Waste-to-Energy and Landfill",
+          "topics": "Waste-to-energy – concept, Refuse Derived Fuel, Incineration, Pyrolysis – basic concept, Gasification – basic concept, Landfill, Landfill components, Leachate, Landfill gas, Advantages and limitations of different methods.",
+          "hours": 6
+        },
+        {
+          "title": "Smart Waste Management",
+          "topics": "Smart waste-management systems, IoT-based waste bins, Fill-level sensors, GPS-based waste collection, Route optimization – basic concept, GIS applications, Mobile applications, Waste-management dashboards, Data analytics, Circular economy and Resource recovery.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DM-EWCE-404-CVL",
+      "title": "Climate Change, Sustainability & Environmental Management",
+      "semester": null,
+      "type": "Double Minor",
+      "credits": 4,
+      "pages": [9, 10],
+      "units": [
+        {
+          "title": "Climate Change Fundamentals",
+          "topics": "Weather and climate, Earth's climate system, Greenhouse effect, Greenhouse gases, Global warming, Causes of climate change, Evidence of climate change, Climate change and human activities and Basic climate models and projections.",
+          "hours": 6
+        },
+        {
+          "title": "Climate Change Impacts",
+          "topics": "Climate Impact on water resources, floods, Droughts, Heat waves, Extreme weather events, Impact on agriculture, Impact on cities, Impact on infrastructure, Climate vulnerability and Climate risk – basic concept.",
+          "hours": 6
+        },
+        {
+          "title": "Climate Mitigation and Adaptation",
+          "topics": "Climate mitigation, Climate adaptation, Renewable energy, Energy efficiency, Carbon sequestration, Green transportation, Climate-resilient infrastructure, Nature-based solutions, Disaster risk reduction and Role of technology in climate action.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainability and Circular Economy",
+          "topics": "Meaning of sustainability, Sustainable development, Sustainable Development Goals, Environmental, economic and social sustainability, Resource efficiency, Circular economy, Sustainable materials, Green buildings – basic concept, Sustainable water and waste management and Net-zero concept.",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Management and Carbon Assessment",
+          "topics": "Carbon footprint, Sources of carbon emissions, Carbon accounting – basic concept, Life Cycle Assessment – basic concept, Environmental audit, Environmental Management System, Sustainability indicators, Energy and water audit, Digital tools for sustainability. Preparation of a simple campus sustainability plan.",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": "semester of subjects not printed (offered across Sem V, VI, VII & VIII)"
+}

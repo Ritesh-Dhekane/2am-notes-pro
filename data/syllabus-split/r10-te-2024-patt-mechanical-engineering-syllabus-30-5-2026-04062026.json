@@ -1,0 +1,709 @@
+{
+  "id": "r10-te-2024-patt-mechanical-engineering-syllabus-30-5-2026-04062026",
+  "kind": "programme",
+  "programme": "TE - Third Year Engineering (2024 Pattern) in Mechanical Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-MEC",
+      "title": "Heat & Mass Transfer",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 4,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction and Conduction (Steady State)",
+          "topics": "Introduction and basic concepts: Introduction, Application areas of heat transfer. Basic modes of Heat Transfer, mechanisms and governing laws for these modes. Concept of 1D, 2D and 3D heat transfer. General three dimensional heat conduction equation in Cartesian coordinates (with derivation), cylindrical and spherical coordinates (no derivation). Thermal Conductivity, variable thermal conduc tivity, thermal diffusivity. (Simple numerical on modes and laws of transfer of heat transfer) One dimensional steady state heat conduction: One dimensional steady state heat conduction equation for the plane wall, cylinder and sphere, Overall heat transfer coefficient. Electrical Analogy - thermal resistance of composite structures and thermal contact resistance. Conduction with internal heat generation for plane wall, solid cylinder and solid sphere (Numerical on electrical analogy.) Real World Assignment 1. Identify the applications of modes of heat transfer and draw the schematics of the same. 2. Draw the thermal resistance circuit of any thermal system or heat transfer equipment and analyze the heat transfer mechanism. 3. Analyze heat transfer through a real composite wall and apply",
+          "hours": 8
+        },
+        {
+          "title": "Finned Surfaces, Thermal Insulation and Transient Heat Conduction.",
+          "topics": "Finned surfaces: Extended surface, types of fins, analysis of fins of uniform cross section area for temperature distribution and heat transfer rate for infinitely long & adequately long (with insulated end) fins. Fin efficiency & effectiveness. (Numerical on extended surfaces.) Thermal insulation and transient heat conduction: Thermal Insulation-types and selection, Critical radius of Insulation for cylinder and sphere, Unsteady state heat transfer, lumped heat capacity analysis, Heisler’s charts. Biot’s Number, Fourier’s Number & their significance. (Numerical on critical radius and lumped heat capacity.) Real World Assignments 1. Analysis of heat transfer enhancement through fin for any motor/engine/compressor etc. 2. Identify and analyze the thermal insulation systems. 3. Analyse the transient cooling or heating practically using lumped method 4. Analyse the transient cooling or heating practically using Heisler’s charts 5. Optimization of Pipe Insulation Using Critical Radius in Steam Power Plants/Electrical Wires. Exemplar / Practical Applications Boiler walls, steam pipes, heat exchangers, car radiators, CPU heat sinks, Nuclear fuel rods, engine components, Metal quenching,",
+          "hours": 8
+        },
+        {
+          "title": "Convective Heat Transfer, Mass Transfer",
+          "topics": "Basic concept of convection and forced convection: Concept of hydrodynamics & thermal boundary layer thickness, local and average heat transfer coefficient. Reynolds number, Prandtl number, Nusselt number. Empirical co-relations for external, internal flows, lami nar & turbulent flow through conduits. (Numerical on forced convection with given empirical co-relations). Free or natural convection, boiling and condensation: Grashof’s number, Rayleigh number, flow over horizontal and vertical plate, Empirical co-relations for cylinders and sphere. Introduction to mass transfer: Introduction to mass transfer, diffusion using Fick’s Law of Diffusion, and basic applications. (Numerical on natural convection with given empirical co-relations). Real World Assignment 1. Determine forced convective HTC in pipe flow 2. Determine natural convection HTC on flat plate. 3. Identify and analyze practical applications of free convection 4. Identify and analyze practical applications of force convection Exemplar / Practical Applications Steam pipes, electrical wires, industrial piping systems",
+          "hours": 8
+        },
+        {
+          "title": "Radiation Heat Transfer",
+          "topics": "Basic Concepts of Radiation: Radiation, spectrum of radiation, black body radiation, radiation intensity, Laws of radiation -Kirchhoff, Planck’s, Wien’s displacement law, Stefan Boltzmann & Lamberts Co -sine law. Emissivity, absorptivity, transmissivity, reflectivity, radiosity, emissive power, irradiation. (Simple numerical on basic radiation). Radiation heat exchange: Radiation heat exchange between surfaces, shape factor & its laws, radiation between parallel plates, cylinder & spheres. Radiation shields. (Numerical on Radiation shields). Real World Assignment 1. Study of Radiation & Spectrum (Basic Observation) 2. Determine emissivity of black and grey surface 3. Identify and analyze practical radiation heat transfer systems 4. Analyze radiation shield concept practically Exemplar / Practical Applications 1. Sun, Rainbow, Furnace, Sunlight, Thermal equilibrium, Spectroscopy, Stars, Solar energy, Illumination, Surface, Coating, Glass, Mirror, Surface radiation, Heater, Solar flux, Buildings, Geometry, Furnace walls, Pipes, Satellites, Thermos flask. element beneath a ceramic glass surface.",
+          "hours": 6
+        },
+        {
+          "title": "Heat Exchangers, Boiling and Condensation",
+          "topics": "Introduction & LMTD Method: Introduction and detailed classification of heat exchangers. Overall heat transfer coefficient, fouling factor and its effect on heat exchanger performance. Log Mean Temperature Difference (LMTD) method for he at exchanger analysis. (Numerical on LMTD Method). Effectiveness – NTU method: Effectiveness–NTU method for heat exchanger performance evaluation. Boiling and Condensation heat transfer: Pool boiling curve and regimes of pool boiling, Critical heat flux, film and drop wise condensation. (Numerical on Effectiveness-NTU Method). Real World Assignment 1.Identify and classify heat exchangers used in real systems. 2.Evaluate performance of any heat exchanger using LMTD or NTU approach 3.Study and analyze the effect of deposits on performance of heat exchanger. 4. Identify and photograph dropwise and filmwise condensation process. Exemplar / Practical Applications Sun, Rainbow, Furnace, Sunlight, Thermal equilibrium, Spectroscopy, Stars, Solar energy, Illumination, Surface, Coating, Glass, Mirror, Surface radiation, Heater, Solar flux, Buildings, Geometry, Furnace walls, Pipes, Satellites, Thermos flask. element beneath a ceramic glass surface.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-MEC",
+      "title": "Theory of Machines",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Mechanism",
+          "topics": "Introduction: kinematic link, kinematic pair, kinematic chain, types of constrained motions, types of joints, mechanism, machine, Degree of freedom and Mobility. Inversions of Mechanisms: Four-Bar Chain, Slider crank Chain, Double slider crank Chain. Mechanisms with Higher pairs: Equivalent Linkages and their Cases (Sliding Pairs in Place of Turning Pairs, Spring in Place of Turning Pairs, Cam Pair in Place of Turning Pairs) Real World Assignment 1. Identify and classify kinematic pairs and determine DOF of mechanisms used in a bicycle or IC engine. 2. Analyze different inversions of the slider-crank mechanism in real machines like pumps and shapers. 3. Replace higher pairs in cam or gear systems with equivalent lower pair mechanisms and compare motion. Exemplars / Practical Applications Mechanisms used in IC engines, pumps, and quick return mechanisms demonstrate real -life kine matic chains and inversions.",
+          "hours": 7
+        },
+        {
+          "title": "Kinematic Analysis of Mechanisms: Analytical Method & Graphical",
+          "topics": "Method (07 Hours) Analytical methods: Displacement, velocity and acceleration analysis of slider crank Mechanism. Vector and Complex Algebra Methods (Theoretical Treatment only). Graphical methods: Displacement, velocity and acceleration analysis of mechanisms by Relative Velocity Method (Mechanisms up to 6 Links), Coriolis component of Acceleration (Theoretical treatment only) Instantaneous Centre of Ve locity, Kennedy’s Theorem, Angular Velocity ratio Theorem, Analysis of mechanism by ICR method (Mechanisms up to 6 Links) Real World Assignment 1. Determine velocity and acceleration of piston in an IC engine using graphical or analytical methods. 2. Perform motion analysis of a crank-rocker mechanism used in conveyor or machinery systems. 3. Locate instantaneous centers in mechanisms like wiper mechanism / single slider crank mechanism in I.C. engine and analyze motion transmission. Exemplar / Practical Applications Motion analysis of IC engines, robotic arms, and industrial machinery helps in predicting velocity and acceleration of links.",
+          "hours": null
+        },
+        {
+          "title": "Synthesis of Mechanisms",
+          "topics": "Steps in Synthesis: Type synthesis, Number Synthesis, Dimensional synthesis, Tasks of Kinematic synthesis - Path, function and motion generation (Body guidance), Precision Positions, Chebychev spacing, Mechanical and structural errors Graphical Synthesis: Inversion and relative pole method for three-position synthesis of Four-Bar and Single Slider Crank Mechanisms Analytical Synthesis: Three-position synthesis of the Four-Bar mechanism using Freudenstein’s equation Real World Assignment 1. Design a four-bar mechanism for the windshield wiper to achieve the required angular motion. 2. Synthesize a mechanism for path generation in applications like welding or cutting. 3. Develop a linkage mechanism for pick-and-place automation using precision positions. Exemplars / Practical Applications Mechanism synthesis is applied in windshield wipers, folding systems, and industrial automation linkages.",
+          "hours": 7
+        },
+        {
+          "title": "Kinematics of Gears",
+          "topics": "Introduction: Classification, terminology, law of gearing, involute and cycloidal tooth profile, Spur Gear : path of contact, arc of contact sliding velocity, Interference and undercutting, Minimum number of teeth to avoid interference, Force Analysis (theoretical treatment only) Helical and Spiral Gears: Terminology, Geometrical Relationships, virtual number of teeth for helical gears Bevel Gear & Worm and Worm Wheel: Terminology, Geometrical Relationships Gear Train: Types, Analysis of Epicyclic gear Trains, Holding torque - simple, compound and Epicyclic gear Trains, compound Epicyclic gear Train Real World Assignment 1. Analyse gear ratios and torque transmission in an automobile gearbox or industrial gear trains. 2. Study interference in gears and suggest design modifications to avoid undercutting. 3. Evaluate the working of the epicyclic gear train used in differential or automatic transmission systems. Exemplars / Practical Applications Gear systems in automobiles, industrial gearboxes, and differential mechanisms illustrate power transmission applications.",
+          "hours": 8
+        },
+        {
+          "title": "Cams & Followers",
+          "topics": "Introduction: Types of cams and followers, and their classificatio n, analysis of standard motions to the follower, Cam Profile: Determination of cam profiles for different follower motions Methods of control: pressure angle, radius of curvature and undercutting. Jump phenomenon of Eccentric cam, Real World Assignment 1. Design a cam profile for IC engine valve timing based on the given motion requirements. 2. Develop a cam mechanism for automated machines like packaging or printing systems. 3. Analyze pressure angle and follower motion to avoid undercutting and jumping in cam systems. Exemplars / Practical Applications Cam mechanisms are widely used in IC engines, textile machines, and automated production equipment.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-MEC",
+      "title": "Design of Machine Elements",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 4,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Machine Design and Material Selection",
+          "topics": "Selection of materials and factor of safety, Service factor, Design of hand / foot lever, lever for safety valve, bell crank lever, Design of components subjected to eccentric loading., Design process , Design considerations, Engineering materials and their properties, Stress concentration, Static and fluctuating loads. Real World Assignment 1 Determine whether an elevator cable is safe under the maximum passenger load. 2 Determine the factor of safety of motorcycle side stand and verify whether design is safe. 3 Identification of different engineering materials used in various parts of two wheeler with reasoning 4 Ergonomic Lever Design for Hand Lever or Foot Lever for bore-well pump 5 The Material selection and analysis of failed mechanical component such as snapped bolt, fan blade etc. 6 Stress Concentration for plate with a central hole Exemplar / Practical Applications Material Selection in Industry, Bell Crank Lever for Bicycle Braking Systems, Lever for Safety Valve for Industrial Boilers, Eccentric Loading in C-Clamps, Fluctuating Loads in Automobile Leaf Springs, Service Factor for different mechanical systems.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Shafts, Keys and Couplings",
+          "topics": "Shaft design on the Strength basis, torsional rigidity basis and lateral rigidity basis, Design of shaft as per A.S.M.E. code. Design of square and rectangular keys, Kennedy key and splines. Design of Flange Coupling and Bushed-Pin Flexible Coupling. Real World Assignment 1 Design of shaft for real world applications like lathe, pump , automobile etc. 2 Design, and analyze keys used in real mechanical systems for torque transmission. 3 Identify different types of couplings used in the transmission system and justify their use. Exemplar / Practical Applications 1) Automotive engines and transmissions 2) Industrial machinery like conveyor systems and pumps 3) Agricultural equipment, including tractors and harvesters 4) Automotive powertrains in electric vehicles",
+          "hours": 7
+        },
+        {
+          "title": "Design of Mechanical Joints",
+          "topics": "Introduction to threaded joints, Bolts of uniform strength, locking devices, eccentrically loaded bolted joint in shear, Eccentric load perpendicular and parallel to axis of bolt, Eccentric load on circular base. Applications of joints in mechanical systems Introduction to welded joints, Strength of butt, parallel and transverse fillet welds, axially loaded unsymmetrical welded joints, Eccentric load in plane of welds, Welded joints subjected to bending and torsional moments. Design of cotter and knuckle joints Real World Assignment 1. Industrial Visit to workshop 2 Design a cotter joint for bicycle so as to transmit power from pedal to axle of bicycle. 3. Design a knuckle joint for tractor and trailer so that tractor can pull the trailer of 3 ton. (Empty weight 0.5 ton + material weight 2.5 ton). Exemplar / Practical Applications Steam Engine -connecting piston rod to cross head, Pump -piston rod to tail pump rod (Cotter joint), automotive steering mechanism, train coupling, tractor -trolley linkage (knuckle joint), Pressure Vessels, pipe lines, automotive frames (welded joints).",
+          "hours": 8
+        },
+        {
+          "title": "Design of Springs and Mechanical Components under Variable",
+          "topics": "Loads (08 Hours) Springs: Types and applications of springs, Stress and deflection equations for helical compression Springs, Springs in series and parallel, Design of helical springs, concentric helical sp rings, surge in spring, Design of Multi-leaf springs, Nipping of Leaf springs, Shot Peening. Analysis of machine elements under variable loads: Fatigue Failure, Stress -Life (S –N) Curve and Endurance Limit, Factors Affecting Endurance Strength (Modifying Fa ctors and Notch Sensitivity), Reversed Stress Concept, Fatigue Failure Theories: Soderberg, Goodman, and Gerber Criteria, Modified Goodman Diagram for Design Applications, Design for Finite and Infinite Life, Cumulative Damage in Fatigue, Fatigue Design Under Combined Stresses (Theoretical Approach) Real World Assignment 1 Design a helical compression spring for a suspension system and analysis of Compression Spring Used in Motorcycle Suspension 2 study construction and verify basic design calculations of leaf springs. 3 Comparative Study of Helical Spring for various applications 4 Suspension system in automobile ( Two wheeler / Car) 5 Fatigue Design of an Automotive Drive Shaft 6 Fatigue Analysis of a Connecting Rod",
+          "hours": null
+        },
+        {
+          "title": "Design of Power Screw",
+          "topics": "Terminology of Power Screw, Torque analysis and Design of power screws with square and trapezoidal threads, Collar friction torque, Self-locking screw, Efficiency of square threaded screw, Efficiency of self - locking screw, Design of screw, nuts and C-Clamp. Design of screw jack, Differential and Compound Screw and Re-circulating Ball Screw (Theoretical treatment only). Real World Assignment 1 Torque Requirement and Efficiency Estimation of a Bench Vice Screw Mechanism 2 Analysis of C-Clamp Screw and Collar Friction Effects 3 Design a Power screw for a Hydraulic Press 4 Design of Automotive steering gear (Recirculating Ball Type) 5 Design of a 2-Ton Mobile Scissor Lift Power Screw Exemplar / Practical Applications The car Jack, machine vise, Large mechanical Press.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-MEC",
+      "title": "Manufacturing Process-II",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Multipoint cutting tools and Gear Manufacturing",
+          "topics": "Introduction of multi point cutting tools, Nomenclature of multipoint cutting tools like milling, drilling, reaming and taps, Selection criteria for multipoint cutters. Introduction and classification of gear manufacturing, Gear milling, standard cutters and limitations, Indexing and numerical on indexing, Gear Hobbing, Gear Shaping, Gear Shaving and Gear Grinding processes, Real World Assignment CCE Activities: Prepare a excel sheet for indexing method and students should produce spur gear on a milling machine.",
+          "hours": 8
+        },
+        {
+          "title": "Polymer and composite Processing",
+          "topics": "Thermoplastics and Thermosetting, Moulding: Compression moulding, Transfer moulding, Blow moulding, Injection moulding - Process and equipment Extrusion of Plastic: Type of extruder, extrusion of film, pipe, Cable and Sheet – Principle Pressure forming and Vacuum forming. Introduction to composites, Composite properties, Matrices, Fiber reinforcement. Composite Manufacturing Processes: Hand lay-up Process, Spray lay-up, Resin transfer moulding, Pultrusion, and Compression moulding process, Vacuum impregnation process, Processing of metal matrix composites, Fabrication of ceramic matrix composites, Carbon -carbon composites, Polymer matrix and nano-composites. Real World Assignment CCE Activities: Prepare a simple composite component by using any one method as individual or group task.",
+          "hours": 7
+        },
+        {
+          "title": "Modern Machining Processes",
+          "topics": "Introduction to modern manufacturing processes, Need and classification of modern manufacturing methods. Introduction, Working Principle, equipment, process parameters, material removal ra tes of Mechanical Energy Process machining processes : Abrasive Jet Machining (AJM), Water Jet Machining (WJM), Ultra Sonic Machining (USM), Energy Assisted Modern Fabrication Process : Laser beam machining (LBM), Focused Ion beam (FIB) Electro -chemical Ma chining Process : Electro chemical machining (ECM), Photochemical machining (PCM) Electro-thermal Machining Process : Electric discharge machining (EDM), Wire Electric Discharge Machining (W-EDM) Real World Assignment CCE Activities: Industrial visit to any one modern manufacturing process unit as individual or group task. Students should be able to understand process parameters and write report of the visit.",
+          "hours": 7
+        },
+        {
+          "title": "Additive Manufacturing",
+          "topics": "Introduction to AM, Classification of AM Processes (Process-based, material form based, application-based - direct and indirect processes and Micro - and Nano -additive processes), Light -Based Photo -curing: Stereolithography (SLA), Digital Light Processing (DLP), Laser -Based Melting: Selective Laser Sintering (SLS), Direct Metal Laser Sintering (DMLS), Selective Laser Melting (SLM). Extrusion -Based Deposition: Fused Deposition Modeling (FDM). Inkjet(droplet) -Based Deposition and Fusion: Multi -jet Modeling (MJM), Polyjet Printing, Nanoparticle Jet, Quality consi derations and Post -Processing techniques: Requirements and Techniques, Support Removal, Sanding, Acetone treatment, Polishing. Real World Assignment CCE Activities: Prepare a simple component staring from the geometry to product on any 3D printing machine.",
+          "hours": 7
+        },
+        {
+          "title": "Jig and Fixture Design",
+          "topics": "Importance of jigs and fixtures in mass production, Concept of Interchangeability, degree of freedom, six point principle or 3 -2-1 location method, Fundamental principles for the design of jigs and fixtures. J igs- Definition, locating methods and devices, Clamping principles, Drill bushes, Types of jigs- Template jig, Leaf jig, Box Jig or Tumble Jig, Indexing Jig, Angular post jig. Fixtures: Definition. Design principles of fixture, Types of fixtures- Turning fixture, Grinding fixture, Welding fixture, Indexing fixtures, Inspection fixtures. Numerical on simple jig or fixture design Real World Assignment CCE Activities: Students should be able to design a jig or fixture for simple products.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-305-MEC",
+      "title": "Metrology and Quality Control",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Modern Measurement Systems and Metrology Fundamentals",
+          "topics": "Metrology Fundamentals and Modern Measurement Systems: Role of metrology in smart manufacturing and Industry 4.0, measurement standards and traceability (ISO/BIS standards), types and sources of errors, measurement uncertainty analysis, accuracy, precision, repeatability and reproducibility (R&R concept), calibration: digital calibration systems and documentation. Measurement Instruments and Comparators: Digital instruments such as Vernier caliper, micrometer and height gauge, Types of gauges -plain plug gau ge, ring gauge, snap gauge, limit gauge and gauge materials comparators: mechanical, pneumatic and electrical (LVDT). Limits, Fits and Geometric Tolerance: Limits, fits and tolerances, Introduction to Geometric Dimensioning and Tolerance (GD&T) symbols and industrial applications. CCE Activities: Measurement of dimensions of given components using digital instruments such as Vernier calliper, micro meter, height gauge, and dial gauge",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Metrology and Industrial Inspection Systems",
+          "topics": "Coordinate Measuring Machines (CMM): Types of CMM such as bridge, gantry, portable and horizontal arm, types of probes including touch trigger, scanning and optical probes, applications in reverse engineering and inspection. Optical and Non -Contact Metrology: Machine vision systems including image processing basics and industrial inspection applications, profile projector and toolmaker’s microscope, 3D scanning technologies such as laser scanning and structured light. Thread and Gear Metrology: Thread parameters such as major diameter, minor diameter and pitch diameter, introduction to optical and CMM -based thread measurement, gear metrology including gear errors Surface Metrology: Surface texture and parameters such as Ra, Rz and Rt, modern surface measuring instruments including stylus-based instruments, optical surface profilers. Real World Assignment CCE Activities: Case study on Industrial applications of CMM, machine vision systems, and non -contact metrology in inspection, reverse engineering, and quality control",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Quality and Quality Tools",
+          "topics": "Introduction to Quality: Quality Concepts, Quality dimensions, Statements, Cost of quality & value of quality, Deming‟s cycles & 14 Points, Juran Trilogy approach, Seven Quality Tools, Introduction to New Seven Tools, Quality Circle, 5S, Kaizen, Poka yoke, Kanban, JIT, QMS (ISO 9000, TS16949, ISO14000). Criteria for Quality Award (National & International) Real World Assignment CCE Activities: Student should select and apply any one technique such as 5S, Kaizen, Poka-Yoke, or Kanban for process improvement",
+          "hours": 8
+        },
+        {
+          "title": "Statistical Quality Control",
+          "topics": "Statistical quality control: Statistical concept, Frequency diagram, Concept of variance analysis, Control, Chart for Variable (X & R Chart) & Attribute (P & C Chart), Process capability (Indices: cp, cpk, ppk), Statistical Process Control and six sigma. Acceptance Sampling: Sampling Inspection, OC Curve and its characteristics, sampling methods, Sampling Plans, calculation of sample size, AOQ, Probability of acceptance. (Numerical on control charts and sampling) Exemplars CCE Activities: Preparation and interpretation of control charts using statistical software, and analysis of process capability.",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Quality Engineering",
+          "topics": "Advanced Quality Tools: Failure Mode and Effects Analysis (FMEA), Failure M ode, Effects and Criticality Analysis (FMECA), steps involved in FMEA, Risk Priority Number (RPN), severity, occurrence and detection ratings, basic symbols, and case studies. Lean and Six Sigma Integration: Overview of Six Sigma (DMAIC methodology), intro duction to Lean principles, waste identification and integration of Lean and Six Sigma for process improvement. Digital Quality and Industry 4.0: Introduction to digital quality management systems, real-time quality monitoring, application of IoT in quality control, and concepts of smart inspection and data-driven decision making. Real World Assignment CCE Activities: Case study on application of FMEA/FMECA in manufacturing or service systems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-306-MEC",
+      "title": "Industrial Fluid Power Lab",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        31,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM 321-MEC",
+      "title": "Industrial Robotics",
+      "semester": 5,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        33,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM 322-MEC",
+      "title": "Smart Mechatronics Systems",
+      "semester": 5,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        36,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-MEC",
+      "title": "Computer Integrated Manufacturing",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 4,
+      "pages": [
+        40,
+        43
+      ],
+      "units": [
+        {
+          "title": "Foundations of CIM, Automation and Networking",
+          "topics": "Foundations of CIM, Automation and Networking: Need & Evolution of CIM, CIM wheel and components. Introduction to Modern Manufacturing Paradigms: Lean, Agile, and Sustainable Manufacturing, Automation: Definition, Types (Fixed, Programmable, Flexible), and Strategic Reasons for Automation. Types of Production Sys tems. CIM networking: CIM Hardware and Software, introduction to CAD/CAM/CIM Networking, Classification of networks, Types of network topologies, CIM database, its types and DBMS. Product life cycle management, CAD -CAM Integration & Product Development in a networked environment. Field assignment: CIM wheel audit at a local manufacturing plant (Task to be done by group of 3-4 students) Visit a nearby factory (auto parts, FMCG, pharma) and map its operations onto the CIM wheel. Identify which spokes (CAD, C AM, CAPP, MRP, etc.) are implemented and which are missing. Submit a gap - analysis report. Exemplars / Practical Applications: Introduction to CIM Simulation Software: Explore a CIM simulation environment; identify key components like robots, conveyors, CNC machines, and AGVs. Map the material and information flow For completing the above assignment, any suitable",
+          "hours": 8
+        },
+        {
+          "title": "Hardware Integration: CNC, Robotics and Material Handling",
+          "topics": "Hardware Integration: CNC, Robotics and Material Handling: Computer Numerical Control (CNC): Principles, types, applications. Advanced CNC Programming: Part programming (manual & on versational), canned cycles, subroutines, macro programming. Integration with CAM: Toolpath generation and ost -processing. Industrial Robotics: Robot anatomy, configurations, end -effectors, sensors, and programming (basic pick -and-place). Robot work cell design and safety. Automated Material Handling Systems: Conveyors, AGVs, AS/RS. Field assignment: 1) Students can generate CNC turning part in group of 3 -4 use in various applications like aerospace, automotive , medical, defence , construction, energy example:- stepped shaft, grooved pin with thread ,surgical instruments ,propeller shaft, gun barrel etc. 2) For CNC Milling parts Like Bracket (L shape, U shape), spacers and washers, Nameplate and tags. Exemplars / Practical Applications CNC Part Programming & Simulation: Modelling of Mechanical Component using any 3D CAD software, Preparing CNC part program using any CAM software, and executing it on CNC Turning CNC Part Programming & Simulation: Modelling of Mechanical Component using any 3D CAD",
+          "hours": 7
+        },
+        {
+          "title": "Digital Manufacturing & Simulation",
+          "topics": "Digital Manufacturing & Simulation: Introduction to Digital Manufacturing: Role of simulation, virtual commissioning, and digital twins in validating manufacturing processes. Group Technology (GT): Part families, coding and classification systems (e.g., Opitz, MICLASS). Benefits of GT in design and manufacturing. Cellular Manufacturing: Design and layout of manufacturing cells. Flexible Manufacturing Systems (FMS): Components, types, layouts, and scheduling. Quantitative analysis of FMS performance. Field assignment: Visit to any robotics or automation industry to showcase various automatic material handling systems to students. (Students must generate Visit report) Exemplars / Practical Applications Digital Twin Creation & Virtual Commissioning: Create a simple digital twin of a manufacturing process (e.g., CNC machine or conveyor). Simulate real-time data exchange and process validation FMS Layout Design & Simulation: Design a flexible manufacturing cell for a family of parts; simulate throughout, machine utilization, and identify bottlenecks. Propose improvements For completing the above assignment, any suitable simulation software like WITNESS can be used",
+          "hours": 7
+        },
+        {
+          "title": "Information Integration: CAPP, CAI, ERP & MES",
+          "topics": "Information Integration: CAPP, CAI, ERP & MES: Computer Aided Process Planning (CAPP): Variant and Generative approaches. Computer Aided Inspection (CAI): Introduction to CMM, machine vision for inspection, integration with CAD. Statistical Process Control (SPC) in a networked environment. Enterprise- wide Integration: From MRP to ERP, MES (Manufacturing Execution Systems), and flow of information from shop floor to top floor Field assignment: Identify and categories various products a round (daily used stationary product) according to Group technology classification technique. Ex: - Opitz coding system Note: - Student must complete task in a group of 3-4 and generate Chart. Exemplars / Practical Applications CAPP Exercise – Process Planning: Develop a variant process plan (MRP) for a given part using a coding system (Opitz or custom). Create a route sheet with operations, machines, and tools CMM Inspection Simulation: Simulate a coordinate measuring machine inspection routine for a giv en CAD part. Generate inspection report and compare with nominal dimensions or Machine Vision Based Quality Control (http://vlabs.iitkgp.ac.in/cim/exp7/index.html#) For completing the above",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-MEC",
+      "title": "Refrigeration & Air-conditioning",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        44,
+        47
+      ],
+      "units": [
+        {
+          "title": "Vapour Refrigeration Systems",
+          "topics": "Vapour compression systems : Working of simple vapour compression system, representation of vapour compression cycle (VCC) on T -s and P -h diagram, COP (Coefficient of Performance), EER (Energy Efficiency Ratio), SEER (Seasonal Energy Efficiency Ratio), IPLV (Integrated Part Load Value), NPLV (Seasonal Energy Efficiency Ratio), effect of operating parameters on performance of VCC, actual VCC. (Numerical on vapour compression cycle). Vapour absorption systems: Introduction, Working of simple vapour absorption system (VAS), desirable properties of binary mixture (aqua -ammonia), performance evaluation of simple VAS (Simple numerical treatment), actual VAS, Lithium bromide –water absorption system, applications of VAS, comparison between VCC and VAC. Real World Assignment 1. Study energy consumption and cooling capacity of a domestic refrigerator and estimate its COP using nameplate data. 2. P-h Diagram Simulation (Excel/MATLAB)- Develop a tool to plot cycle and calculate COP under varying conditions. Exemplar / Practical Applications 1. Household refrigerators 2. Supermarket refrigeration 3. Industrial refrigeration plants 4. Solar absorption chillers",
+          "hours": 8
+        },
+        {
+          "title": "Multi Pressure Refrigeration Systems",
+          "topics": "Multistage or Compound Systems: Need of multi staging, two stage compression with flash gas removal, flash intercooler and complete multistage compression system. Multi Evaporator Systems: Single compressor-individual expansion valve, Single compressor multiple expansion valve, Individual compressor-multiple expansion valve, Individual compressor with compound compression and flash inter cooling. (Limited to two evaporators). Ammonia-CO2 cascade cycle. (Only theoretical approach). (Numerical on Multi Evaporator Systems). Real World Assignment 1. Design a two-stage refrigeration system for low-temperature applications and estimate COP. 2. Perform a case study on ammonia–CO₂ cascade systems used in industrial refrigeration. 3. Analyze performance of a multi-evaporator refrigeration system used in supermarkets Exemplar / Practical Applications 1. Industrial freezing systems 2. Supermarket refrigeration (multi-evaporator systems) 3. Pharmaceutical cold storage 4. LNG and cryogenic applications",
+          "hours": 7
+        },
+        {
+          "title": "Refrigeration System Components.",
+          "topics": "Major components of refrigeration systems: Compressors: reciprocating, rotary, screw, and centrifugal compressors. Characteristics and performance comparison. Condensers: Air-cooled, water-cooled, and evaporative condensers. Evaporators: flooded type, dry expansion type, and plate evaporators. Expansion devices: thermostatic expansion valves, capillary tubes, electronic expansion valves. Safety and control devices: LP/HP cut-off controls, frost control, oil pressure failure control, motor overload protection, temperature control devices. Real World Assignment 1. Select appropriate compressor type for a given refrigeration load based on performance criteria. 2. Design a basic refrigeration system by selecting condenser, evaporator, and expansion device Exemplar / Practical Applications 1. HVAC chillers in commercial buildings 2. Industrial refrigeration plants 3. Heat pumps for water heating",
+          "hours": 8
+        },
+        {
+          "title": "Applied Psychrometry and Cooling Load Estimation",
+          "topics": "Applied Psychrometry : Psychrometric properties of moist air: dry bulb temperature, wet bulb temperature, dew point temperature, relative humidity, humidity ratio, enthalpy. Psychrometric chart and its use. Psychrometric processes Concepts of Apparatus Dew Point (ADP), Bypass Factor (BPF). Sensible Heat Factor (SHF), Room Sensible Heat Factor (RSHF), Grand Sensible Heat Factor (GSH F), Effective Sensible Heat Factor (ESHF). (Numerical on Applied Psychrometry). Cooling load estimation: • Internal heat gains (people, lights, equipment) • Solar heat gain through building envelope • Ventilation and infiltration loads Methods of cooling load calculation including CLTD/CLF method. Thermal comfort: human comfort parameters, comfort charts, factors affecting comfort. Indoor Air Quality (IAQ): indoor contaminants and methods to improve IAQ. Outdoor design conditions and weather data in HVAC design. Real World Assignment 1. Calculate cooling load of a classroom/office using CLTD method considering all heat gains. 2. Plot and analyze air conditioning processes on a psychrometric chart for given conditions. 3. Evaluate indoor air quality of a space and suggest improvements based on standards.",
+          "hours": 8
+        },
+        {
+          "title": "Ventilation, Air Distribution and Modern HVAC Systems",
+          "topics": "Ventilation: Introduction to Ventilation and infiltration in buildings. Natural ventilation and mechanical ventilation. Air distribution systems and duct design. Duct design considerations including: Duct layout and materials, Pressure losses in ducts, Friction losses in ducts, Equivalent diameter for rectangular ducts (Numerical on Duct design) Methods of duct design: Equal friction method; Static regain method; Velocity reduction method Air distribution components including filters, diffusers, grills, dampers, and fan coil units. Fans used in HVAC systems and fan laws. Modern HVAC systems: VRF (Variable Refrigerant Flow), VAV (Variable Air Volume), Desiccant-based air conditioning, Evaporative cooling systems, Thermal energy storage systems , clean room air conditioning , Radiant cooling systems. Real World Assignment 1. Design air duct system for a small building using equal friction method. 2. Select and analyze performance of fans using fan laws for HVAC applications. 3. Study and compare modern HVAC systems (VRF/VAV) used in commercial buildings. Exemplar / Practical Applications 1. Central air conditioning systems in airports 2. HVAC systems in shopping malls and hospitals",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-MEC",
+      "title": "Transmission System Design",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 4,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Spur and Helical Gears",
+          "topics": "Introduction to gears: Material selection for gears, Modes of gear tooth failure, Gear Lubrication Methods. Spur Gears: Number of teeth and face width, Force analysis, Beam strength (Lewis) equation, Velocity factor, Service factor, Load concentration factor, Effective load on gear, Wear strength (Buckingham’s) equation, Estimation of module based on beam and wear strength, Estimation of dynamic tooth load by velocity factor and Buckingham’s equation. AGMA (American Gear Manufacturing Association) approach of Gear design (Only mathematical relations, no numerical) Helical Gears: Force analysis of Helical Gear, Beam Strength of Helical Gear, Wear strength and estimation of effective load based on Velocity factor (Barth factor) and Buckingham’s equation. (No numerical on force analysis of helical) Real World Assignment 1. Design of Helical Gears for High-Speed Rotary Equipment. 2. Design Parameters of Spur Gears for Industrial Conveyor Systems. 3. Comparison of Spur and Helical Gears in Industrial Power Transmission. 4. Analysis of Spur Gears in a Car Transmission System. Exemplar / Practical Applications Automobile Gearbox, Machine tool gearbox.",
+          "hours": 7
+        },
+        {
+          "title": "Bevel and Worm Gear",
+          "topics": "Bevel Gears: Types of Bevel gears, Terminology, Virtual number of teeth, and force analysis of Straight Bevel Gear. Design of Straight Bevel Gear based on Beam Strength, Wear strength and estimation of effective load based on Velocity factor (Barth factor) and Buckingham’s equation. (Simple numerical to be taken no design calculations) Worm Gears: Worm and worm gear terminology and proportions of wor m and worm gears, Force analysis of worm gear drives, Friction in Worm gears, efficiency of worm gears, Worm and worm gear material, Strength and wear ratings of worm gears (Bending stress factor, speed factor, surface stress factor, zone factor) IS 1443 -1974, Thermal consideration in worm gear drive. (Simple numerical to be taken no design calculations) Real World Assignment 1 Differential Gear Analysis with Straight Bevel Gears. 2 Elevator / Lift Gear System Study to determine if the gear pair is Self-locking or Overhauling. 3 Conveyor Speed Reduction System to decide worm gears are preferred for high reduction ratios. Exemplar / Practical Applications Automotive Differential gearbox, Hand-operated Drills, Elevators and lifts, Steering mechanisms, Gate opening systems.",
+          "hours": 7
+        },
+        {
+          "title": "Sliding and Rolling Contact Bearing",
+          "topics": "Sliding contact bearing (Theoretical treatment only): Introduction to sliding contact bearing, classification, Reynolds’s equation (2D), Petroff’s equations, Sommerfeld nu mber, Parameters of bearing design. Rolling Contact Bearings: Types of rolling contact Bearings and its selection, Static and dynamic load carrying capacities, Stribeck’s Equation, Equivalent bearing load, Load-life relationship, Selection of bearing life, Selection of rolling contact bearings from manufacturer's catalogue, Design for cyclic loads, Types of failure in rolling contact bearings - causes and remedies. (Simple Numerical treatment) Real World Assignment 1. Select bearing for motorcycle wheel hub 2. Select a bearing for car wheel hub. 3. Select a bearing for electric motor Exemplars Automobile (Engine, wheel) bearings, Pumps, motors, Fans.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Clutches and Brakes",
+          "topics": "Clutches: Introduction, Types of clutches, Material, P ositive clutches, friction clutches, single plate, multiple plate, Cone clutch, and centrifugal clutches, Application of friction clutches automotive and industrial machinery sector. (Only Theoretical Treatment) Brakes: Introduction, Types of brakes, Material, Design of band brake, external and internal shoe breaks internal expanding shoe brakes, design of disc brakes. Application of brakes in automotive and industrial machinery sector. (Only Theoretical Treatment) Real World Assignment 1. Comparative Study of Automotive Clutches 2. Industrial Application of Friction Clutches 3. Design Study of Brakes for Automotive Vehicles 4. Industrial Braking Systems – Applications and Selection Exemplar / Practical Applications: Single plate and Multiple plate clutch, Brakes in Automobiles.",
+          "hours": 8
+        },
+        {
+          "title": "Transmission system in Hybrid Electric Vehicle",
+          "topics": "Introduction, Types of Hybrid Electric Vehicles: Basic Classification, Basic Modes of Operation, Other Derivatives, Degree of Hybridization. Power Split Devices (PSD ): Simple and EM compound PSD, HEV Component Characteristics: The IC Engine, Electric Machines, Battery, HEV Performance Analysis: Series HEV, Parallel HEV, HEV Component Sizing: General Considerations, Sizing for Performance, Optimum Sizing, Power Management: Control Potential, Control. Real World Assignment 1 Performance comparison of HEV vs IC engine vehicle 2 HEV component sizing exercise 3 Mode of operation mapping of existing HEV Exemplar / Practical Applications City buses and commercial cars, Military applications like Humvees",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-354-MEC",
+      "title": "Thermal and Fluid Engineering Lab-II",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 2,
+      "pages": [
+        51,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371 MEC",
+      "title": "Digital Manufacturing Laboratory",
+      "semester": 6,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        54,
+        55
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM 372-MEC",
+      "title": "Engineering Simulation and Analysis",
+      "semester": 6,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        56,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE 381",
+      "title": "Solar Technology and Maintenance",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 1,
+      "pages": [
+        59,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC 361A-MEC",
+      "title": "Industrial Tribology",
+      "semester": 6,
+      "type": "Program Elective -I",
+      "credits": 3,
+      "pages": [
+        62,
+        64
+      ],
+      "units": [
+        {
+          "title": "Introduction to Tribology",
+          "topics": "Importance of Tribology in Design, Tribology in Industry, Economic Considerations, Lubrication Definition, Lubricant properties, Viscosity, its measurements- Numerical, basic modes of lubrication, types of lubricants, Standard Grades of lubricants, selection of lubricants, commonly used lubricants and Hazards, Recycling of used oil, Disposal of used oil, bearing materials, bearing construction, oil seals and gaskets. Introduction to friction & wear, Laws of friction, kinds of friction, causes of friction, area of contact, friction measurement, theories of friction. Types of wear, various factors affecting wear, measurement of wear, wear between solids and flowing liquids, theories of wear Real World Assignment 1 Selection of lubricants for different applications. Exemplars: Tribology in Industry, lubricants, Laws of friction, measurement of wear.",
+          "hours": 7
+        },
+        {
+          "title": "Hydrostatic Lubrication",
+          "topics": "Introduction to hydrostatic lubrication, hydrostatic step bearing, load carrying capacity and oil flow through the hydrostatic step bearing- Numerical. Hydrostatic squeeze film : basic concept, circular and rectangular plate approaching a plane Numerical Real World Assignment 1 Investigating effect lubricant flow rate on a pressure. 2 Identification of common faults in hydrostatic lubrication system. 3 Survey of components in hydrostatic lubrication system. 4 Effect of loading on pressure and lubricant film thickness. Exemplar / Practical Applications Milling Machine, Boring Machine, grinding Machine, Radar Tracking machines, Power station turbines.",
+          "hours": 7
+        },
+        {
+          "title": "Hydrodynamic Lubrication",
+          "topics": "Theory of hydrodynamic lubrication, mechanism of pressure development in an oil film. Two dimensional Reynolds equation, Petroff’s equation, pressure distribution in journal bearings - long & short, Load Carrying capacity, Somerfield number and its importance- Numerical. Introduction to Hydrodynamic Thrust Bearing Real World Assignment 1 Explain the mechanism of pressure development in an oil film. 2 To Study the failure of journal bearing due to lubrication break down. 3 Define load carrying capacity of a journal bearing & Solve one numerical. Exemplar / Practical Applications Automobile industry=Sommerfeld number, Hydraulic turbines=load carrying capacity, Steam turbines: hydrodynamic thrust bearings.",
+          "hours": 8
+        },
+        {
+          "title": "Elasto-hydrodynamic lubrication and Gas Lubrication",
+          "topics": "Elasto-hydrodynamic lubrication: Basic concept, Hertzian contact theory, Elasto-hydrodynamic lubrication EHL regimes in: Line contact (e.g., gears) and Point contact (e.g., rolling bearings), different regimes in EHL contacts. Pressure-viscosity relationship. Stick-slip phenomenon. Gas lubrication: Introduction, merits and demerits, applications, Properties of gases as lubricants, and comparison with liquid lubrication, externally pressurized gas bearings, porous gas bearings, and Dynamic characteristics of gas lubricated bearing, Rarefied gas effects (Knudsen number), Slip flow conditions. Real World Assignment 1. Study lubrication behavior in gear tooth contacts under high load to understand lubrication in automotive power transmission systems. 2. Analyze EHL in ball and roller bearings to understand bearing life and lubrication design. 3. Study gas lubrication in precision engineering systems to understand frictionless high-speed systems. 4. Explore gas lubrication at micro-scale in Micro Electro Mechanical Systems (MEMS) to understand advanced and emerging tribology systems. To analyze lubrication challenges in wind turbine gearboxes and propose solutions using EHL principles",
+          "hours": 7
+        },
+        {
+          "title": "Advances in Tribology",
+          "topics": "Introduction to advanced tribology, IoT applications in tribology, Artificial intelligence in tribology, Surface topography and its tribological significance, Surface measurement techniques, Biolubricants and green tribology, Nanotribology and nano-enabled lubrication, Tyre & Road contacts, Industrial relevance and future trends. Real World Assignment 1. Evaluate tribological practices in an industry and give suggestions for efficiency improvement. 2. Analyze a real component failure due to wear, friction, or lubrication issues and conduct root cause analysis. 3. Select vegetable oil-based lubricant and compare it with mineral oil in terms of viscosity, wear, friction. 4. Apply AI techniques for predicting wear or lubrication performance. Exemplar / Practical Applications Bearing wear analysis, Smart lubrication, Wear prediction using AI, Roughness vs wear correlation, Eco-friendly lubrication, Use of Nano-additives, Braking & skid behavior.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC 361B-MEC",
+      "title": "Design of Heat Transfer Equipment",
+      "semester": 6,
+      "type": "Program Elective -I",
+      "credits": 3,
+      "pages": [
+        65,
+        67
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Heat Exchangers",
+          "topics": "Introduction and applications of Heat exchangers in (Power plants, HVAC, refrigeration, process industries),Classification of heat exchangers based on flow arrangement (parallel, counter, cross-flow), Based on construction (shell-and-tube, plate, compact), Heat transfer mechanisms (conduction, convection), Overall heat transfer coefficient, Fouling factor and its significance, Basic thermal design considerations Real World Assignment 1. Study and classify heat exchangers used in a local industry / HVAC system / automobile radiator, and identify type, flow arrangement, and heat transfer mechanism. 2. Develop a MATLAB/Excel tool to calculate heat transfer rate using LMTD and ε –NTU methods for given inlet conditions. Exemplar / Practical Applications 1. Automobile radiators 2. HVAC cooling and heating coils 3. Condensers and evaporators in refrigeration systems 4. Heat exchangers in chemical and process industries",
+          "hours": 8
+        },
+        {
+          "title": "Design of Shell-and-Tube Heat Exchangers",
+          "topics": "Shell & Tube Heat Exchangers: Tube layouts for exchangers, Baffled heat exchangers, ASME and TEMA standards (basic introduction), Thermal design procedure, Mechanical design considerations (stress, thickness, pressure), Calculation of shell and tube heat exchangers, Shell-side and tube-side heat transfer coefficients , Shell side equivalent diameter (Kerns method, Bell Delaware method), Shell side pressure drop, Tube side pressure drop. Real World Assignment 1. Conduct a case study on fouling in industrial heat exchangers (e.g., scale formation in boilers or condensers) and suggest mitigation techniques. 2. Calculate pressure drop across a tubular heat exchanger for given flow conditions using analytical relations. Exemplar / Practical Applications 1. Fouling in power plant condensers 2. Pressure drop in oil and gas pipelines 3. Scaling in heat exchangers used in chemical industries 4. Maintenance and cleaning schedules in industrial plants",
+          "hours": 6
+        },
+        {
+          "title": "Design of Thermal Systems",
+          "topics": "Introduction, Classification of boilers, Basic Design Considerations of Boiler, Heat Transfer & Furnace Design , Boiler performance and efficiency calculations, Brief case study on Heat Recovery systems, Types of condensers (Jet & surface), Design considerations of condensers and Cooling towers, Heat transfer analysis of Cooling Towers. Real World Assignment 1. Design a Boiler for a given application (water–oil or air–water system) including thermal and hydraulic analysis. 2. Perform design calculations of Condenser and Cooling Towers. Exemplar / Practical Applications 1. Boilers in refineries 2. Heat exchangers in power plants 3. Industrial oil coolers 4. Chemical processing equipment",
+          "hours": 7
+        },
+        {
+          "title": "Design of Specialized Heat Exchangers",
+          "topics": "Plate heat exchangers, Finned tube heat exchangers, Compac t heat exchangers (automotive, aerospace applications), Air-cooled heat exchangers, Double-pipe heat exchangers, Selection criteria for heat exchangers in industries like Automotive and aerospace applications, Optimization of Heat Exchanger- Heat transfer equipment cost, relative cost, optimum design, CFD analysis basics in heat exchanger design, Real World Assignment 1. Perform performance analysis of a Heat exchanger (based on experimental or standard data) and calculate effectiveness, range, and approach. 2. CFD analysis basics in heat exchanger design using heat balance equations. Exemplar / Practical Applications 1. Cooling towers in thermal power plants 2. HVAC cooling systems in large buildings 3. Industrial water-cooling systems 4. Petrochemical and steel plant cooling applications",
+          "hours": 7
+        },
+        {
+          "title": "Heat Pipes and Applications",
+          "topics": "Heat pipes : structures - applications - basic relations - performance characteristics - effects of working fluid and operating temperature, wick - selection of material - pore size (basic concepts only), Cooling of electrical and electronic components: Cooling of chips, PCBs, Computers, Logic chips etc., Electrical transformers, Panel boards, Electric motors, microchannel heat exchangers Real World Assignment 1. Design a basic heat pipe cooling system for a laptop/CPU and estimate heat transfer capability. 2. Study and compare conventional cooling vs heat pipe-based cooling systems in electronics. Exemplar / Practical Applications 1. Laptop and CPU cooling systems 2. Cooling of power electronics and transformers 3. Aerospace thermal control systems 4. LED and high-performance chip cooling",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC 361C-MEC",
+      "title": "Hydraulic and Pneumatics",
+      "semester": 6,
+      "type": "Program Elective -I",
+      "credits": 3,
+      "pages": [
+        68,
+        71
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of fluid Power Systems",
+          "topics": "Introduction to Fluid Power - Definition and concept of fluid power, Comparison between hydraulics and pneumatics, Advantages, limitations, and applications of fluid power systems. Fluid Properties and Selection- Types of hydraulic fluids, Properties: viscosity, density, specific gravity, Selection criteria for hydraulic fluids, ISO and SAE oil grading of oils Basic Principles of Hydraulics- Pressure, force, and area relationship, Pascal’s Law and applications, Basics of fluid flow, Friction and energy losses in systems Hydraulic Pumps- Types and Working- Pumping theory - Classification of pumps, Construction & working of: Gear pump, Vane pump, Piston pump (axial & radial) , Screw pump- Performance characteristics curves, power and efficiency calculations, selection criteria of pumps. ISO symbols used in hydraulic systems and Pneumatic system Real World Assignment 1) Activities on Identify and study any real-life hydraulic and pneumatic system (e.g., hydraulic jack, air compressor), Compare working principles of hydraulics and pneumatics, List components and draw basic circuit using ISO symbols. 2) Activates on : Verification of Pascal’s Law using hydraulic trainer kit / setup and",
+          "hours": 8
+        },
+        {
+          "title": "Hydraulic system components and Design",
+          "topics": "Linear and rotary actuators- types, construction and characteristics. Selection of actuators. Cylinder mountings, cushioning of cylinders. Maintenance of actuators. Power units and accessories - types of power units, reservoir assembly, constructional details. Accumulators, Intensifiers, Pressure and Temperature switches /sensors, level sensors Real World Assignment: 1) Activity on Hydraulic actuator selection for industry as per application. 2) Comparative study of linear and rotary actuators used in various earth moving equipment. 3) Suggest a proper maintenance plan for actuators, power units and accessories used in particular industry. 4) Design of simple hydraulic systems used in practice using manufacturers’ catalogue and analysis using software such as Automation Studio. Exemplars / Practical Applications 1) Hydraulic actuators are used in excavators to control the movement of the arm, bucket, and boom for digging operations. 2) Hydraulic presses used linear actuators to apply high force for shaping and forming materials in manufacturing industries. 3) Hydraulic power unit supply pressurized fluid to operate machine tools and various industrial systems efficiently. 4)",
+          "hours": 7
+        },
+        {
+          "title": "Fluid Power Control Valves and Regulation Techniques",
+          "topics": "Control Components: Direction Control Valves (DCV), Flow Control Valves (F CV) and Pressure Control Valves (PCV) – Types (2/2, 3/2, 4/2, 4/3, etc.), Construction and Operation – Servo and Proportional valves: Basic concept – Applications in in hydraulic and pneumatic circuits Accessories: Reservoirs, Accumulators, Pressure Switch es – Applications – Fluid Power ANSI Symbols - Criteria for Selection of Valves Mechanics of Directional Control: Spool Dynamics, Port and Position Configurations, Center Position Logic Advanced Regulation Techniques: Load-Sensing (LS), Proportional and Se rvo Technology, Digital Hydraulics and Pulse Width Modulation (PWM), Industrial Applications Real World Assignment 1) Analyze a hydraulic or pneumatic system, identify valves, and explain their functions with a circuit diagram Exemplars / Practical Applications 1) Demonstration of DCV, FCV, and PCV 2) Simulation using FluidSIM or similar software 3) Industrial case study",
+          "hours": 7
+        },
+        {
+          "title": "Pneumatic system components and Industrial applications",
+          "topics": "Compressors - Types, principle of working and con structional details. Comparison of pneumatic with hydraulic power transmissions. Types of filters, pressure regulators, lubricators, mufflers, dryers, direction control valves, pneumatic actuators, shuttle valve, two pressure valve, quick exhaust valve an d time delay valves, electropneumatics. Speed regulating methods, pneumatic circuits, reciprocating, cascading time delay etc. Application of pneumatics in low cost automation and in industrial automation. Real World Assignment 1) Design a speed control circuit using flow control valves for a pneumatic actuator. 2) Study and select appropriate filters, regulators, and lubricators (FRL unit) for a given system. 3) Prepare a maintenance and troubleshooting plan for pneumatic systems in industry. 4) Analyze the role of dryers and mufflers in improving system efficiency and noise reduction Exemplars / Practical Applications 1) Pneumatic actuators are used in automated assembly lines for fast and repetitive operations. 2) FRL units are used in industries to ensure clean, regulated, and lubricated compressed air supply. 3) Cascading circuits are used in multi-cylinder applications for",
+          "hours": 7
+        },
+        {
+          "title": "Hydraulic and pneumatic circuit design and Automation",
+          "topics": "Calculation of piston velocity, thrust under static and dynamic applications, considering friction, inertia loads, design considerations for cylinders, Design of hydraulic/pneumatic circuits for practical application, selection of different components such as reservoir, control elements, actuators, accumulator, intensifier, filters, pumps. (Students are advised to refer manufacturers’ catalogues for design and use simulation tool like Automation Studio for analysis). Real World Assignment 1) Develop a hydraulic circuit for a press machine using suitable valves, pump, and actuator. 2) Select appropriate components such as reservoir, pump, filters, and actuators using manufacturer catalogues. 3) Design a high-pressure system using an intensifier for industrial applications like metal forming. 4) Simulate a hydraulic/pneumatic circuit using Automation Studio and analyze system performance. 5) Optimize component selection to improve efficiency and reduce energy losses in fluid power systems. Exemplars 1) Pumps, reservoirs, and filters are used in hydraulic power units for continuous and efficient system operation. 2) Pneumatic systems are used in clamping, material handling, and",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC 361D-MEC",
+      "title": "Industrial Engineering",
+      "semester": 6,
+      "type": "Program Elective -I",
+      "credits": 3,
+      "pages": [
+        72,
+        74
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Engineering and Productivity",
+          "topics": "Introduction to Industrial Engineering, Historical background and scope, Contribution of Taylor, Gilbreth, Gantt, Maynard, Ford, Deming and Ohno. Impo rtance of Industrial engineering. Introduction to Work system design Productivity: Definition of productivity, Measures of Productivity, Total Productivity Model, need for Productivity Evaluation, Productivity measurement models, Productivity improvement a pproaches, Principles, Productivity Improvement techniques – Technology based, Material based, Employee based, Product based techniques. (Numerical on productivity measurement) Real World Assignment: Understand Productivity Measurement models in a real industrial environment. Select a small-scale industry (Machine shop) 1. Study the Work System and understand Input resources like (labour, material, machine, energy) and Find Output (units produced, value) 2. Calculate Productivity (Labour productivity, Machine productivity, Total productivity) Exemplars / Practical Applications: Assembly Line Productivity Improvement in an Automobile Industry.",
+          "hours": 7
+        },
+        {
+          "title": "Work Study",
+          "topics": "Method Study: Introduction and objectives, Areas of application of work study in industry, Selection and Basic procedure. Recording techniques, Operations Process Chart, Flow Process Chart (Man, Machine & Material) Multiple Activity Chart, Two Handed process chart, Flow Diagram, String Diagram and Travel Chart, Cycle and chronocycle graphs, SIMO chart, Therbligs, Micro motion and macro -motion study: Principles of motion economy, Normal work areas and work place design. Work Measurement: Techniques, time study, steps, work sampling, Determination of time standards. Observed time, basic time, normal time, rating factors, allowances, standard time, and standard time determination. (Numerical) Introduction to PMTS, MTM, and MOST Real World Assignment: Determine standard time using time study and numerical calculations. Exemplars / Practical Applications: Material movement analysis in a small manufacturing plant / workshop using Flow Diagram & String Diagram.",
+          "hours": 7
+        },
+        {
+          "title": "Production Facility Design",
+          "topics": "Plant Location: Introduction, Factors affecting location decisions, Multi-facility location Plant Layout: Principles of Plant layout and Types, factors affecting layout, methods, factors governing flow pattern, travel chart for flow analysis, analytical tools of plant layout, layout of manufacturing shop floor, repair shop, services sectors, and process plant. Layout planning, Quantitative methods of Plant layout and relationship diagrams. Dynamic plant layout Material Handling : Objectives and benefits of Material handling, Relationship between layout and Material handling, Equipment selection Real World Assignment 1. Design and Analysis of Plant Layout using Travel Chart & Relationship Diagram, 2. Material Handling System Analysis & Equipment Selection Exemplars / Practical Applications: Discuss selection of Plant Location for an Automobile Component Manufacturing Unit.",
+          "hours": 7
+        },
+        {
+          "title": "Production Planning and Control",
+          "topics": "Types and methods of Production, and their Characteristics, functions and objectives of Production Planning and Control, Steps: Process planning, Loading, Scheduling, Dispatching an d Expediting with illustrative examples, Capacity Planning, Aggregate production planning and Master production scheduling. Introduction to a line of balance, assembly line balancing, and progress control Forecasting Techniques: Causal and time series models, Moving average, Exponential smoothing, Trend and Seasonality. (Numerical) Real World Assignment: Understand and apply PPC functions (process planning, loading, scheduling, dispatching, expediting) in a real system. Exemplars / Practical Applications: Aggregate Production Planning in a Seasonal Product Industry, like Manufacturing of air coolers (seasonal demand product).",
+          "hours": 7
+        },
+        {
+          "title": "Inventory and Inventory Control",
+          "topics": "Materials: Pr ofit Centre: Role of materials management techniques in material productivity improvement, cost reduction and value improvement. Purchase Management: Purchase management, incoming material control. Acceptance sampling and inspection. Vendor rating system. Inventory: Functions, Costs, Classifications, Deterministic inventory models and Quantity discount Inventory Control : EOQ (Numericals), concepts, type of Inventory models -deterministic and probabilistic, Selective inventory control, Fundamental of Material Requirement Planning (MRP -I), Manufacturing Resource Planning (MRP -II), Enterprise Resource Planning (ERP), Just -in-Time system (JIT) and Supply Chain Management (SCM) Real World Assignment: Economic Order Quantity (EOQ) Analysis for Inventory Control Exemplars / Practical Applications: Inventory Planning using MRP, ERP & SCM in an Automobile Industry. Managing inventory for car manufacturing (multi-component system).",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC 362A-MEC",
+      "title": "Product Design and Development",
+      "semester": 6,
+      "type": "Program Elective -II",
+      "credits": 3,
+      "pages": [
+        75,
+        78
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Product Design & Development",
+          "topics": "- Definition & need of Product Design & Development - Importance of engineering & industrial design - Essential factors for product design - Product design phases and generic product development process - Product Development Vs Product Design - Standardization, simplification & specialization in product design - Steps in Product Development - Product development team & product development planning - Modern product development process - Product testing - Product validation & product verification Real World Assignment 1. Product Design Process Case Study: - Select a real product (e.g., electric kettle, bicycle, smartphone). - Study product design phases, development process, and role of engineering and industrial design. - Compare Product Design vs Product Development. - Submit a structured report with diagrams. 2. Product Redesign & Standardization Study: - Select an existing product with usability issues. - Identify design flaws and lack of standardization. - Propose improved design with testing and validation aspects. - Present with sketches/models. Exemplar / Practical Applications/CCE 1. Product Development Planning Exercise: - Form teams of 3–4 students. - Select a simple",
+          "hours": 7
+        },
+        {
+          "title": "Product Development: Customer Need Analysis & Market",
+          "topics": "Considerations (07 Hours) Mission statement &amp; technical questioning, Voice of customer (VoC) & customer need identification, Types & models of customer needs, Methods of gathering customer needs, Analysis of gathered data, Technology forecasting & S -curve, Customer population & market segmentation, Establishing engineering characteris tics, Quality Function Deployment (QFD) & House of Quality (HOQ),Competitive benchmarking, Economic analysis of product. Real World Assignment 1. Voice of Customer (VoC) Study: - Select a product (e.g., backpack, mobile app, home appliance). - Conduct survey/interviews (minimum 10 users). - Identify customer needs and pain points. - Classify needs (basic, performance, excitement). - Prepare report with charts. 2. QFD & Competitive Benchmarking: - Select a product category (e.g., electric scooter). - Perform competitive benchmarking (2–3 products). - Develop House of Quality (HOQ). - Map customer needs to engineering characteristics. - Suggest best design strategy. Exemplar / Practical Applications/CCE 1. Market Segmentation Exercise: - Choose a product. - Identify target customers and segmentation (age, income, usage). - Analyze customer",
+          "hours": null
+        },
+        {
+          "title": "Product Development: Concept Generation, Evaluation & Product",
+          "topics": "Architecture (08 Hours) Product information gathering ,Creative thinking & problem solving techniques ,Brainstorming, lateral thinking, Gordon technique, checklist method ,Morphological analysis & attribute listing ,Concept generation technique, Concept selection method (Pugh’s method, scoring method), Concept selection design evaluation, estimation & technical feasibility ,Process of concept embodiment ,Product architecture & its types, System modeling, functional modeling & decomposition, FAST method , Subtract & operate procedure Real World Assignment 1. Pugh’s concept selection Students will pick a product, generate multiple design concepts, and evaluate them against a reference/datum using criteria like cost, ease of use, safety, etc. Product example:- Foldable Study Table, Helmet for Two-Wheeler Riders, Reusable Water Bottle etc. 2.FAST (Function Analysis System Technique) Method Students will build a FAST diagram showing Why → How function relationships for a product, identifying basic, secondary, and unwanted functions. Product example:- Bicycle, Ceiling Fan , Laptop Bag etc. Exemplar / Practical Applications/CCE Pugh's Concept Selection Matrix Students select a everyday",
+          "hours": null
+        },
+        {
+          "title": "Reverse Engineering, Benchmarking and Product Optimization",
+          "topics": "Product teardown process and methods, Applications of reverse engineering, Force flow diagrams, Measurement and experimentation techniques, Benchmarking approach and detailed procedure, Tools used in benchmarking, Indented assembly and cost analysis, Function–form diagrams, Trend analysis and product improvement. Product specification setting, Introduction to product portfolio and product architecture. Real World Assignment 1.Product teardown & Benchmarking Students will disassemble or closely examine a simple household product in 3 - 4 peers such as Bicycle (complete or subsystem like gear/brake) ,Two -wheeler helmet ,Car wip er mechanism ,Fuel pump (demo model) electric iron, mixer grinder, smartphone charger, or water pump, to understand its construction and working. They will identify components, understand how each part contributes to overall functionality, prepare function–component mapping and block diagrams, and estimate the manufacturing cost by calculating the cost of individual components and comparing it with the market price. 2.Benchmarking Students will perform benchmarking by selecting at least three similar products and comparing them based on cost, performance,",
+          "hours": 7
+        },
+        {
+          "title": "Design for X (DFX), Prototyping and Product Lifecycle",
+          "topics": "Management (07 Hours) - Design for Manufacturing (DFM) and Design for Assembly (DFA/DFMA) - Design for reliability, safety and robustness - Design for environment and sustainability - Design for serviceability and user-friendly design - Manufacturing cost analysis - Life Cycle Assessment (LCA) – basic and weighted method - Role of computers in product design and manufacturing - Rapid prototyping techniques: SLA, SLS, FDM, LOM, BPM - Introduction to 3D printing technologies - Product Life Cycle Management (PLM): concepts and elements - Product data management and workflow - Case studies on product design and development Real World Assignment 1. Case Study On Product design and development of simple products like e.g., mixer grinder,bicycle, brake system of Two wheeler 2. Reliability & Safety Evaluation of a Mechanical System 3. Sustainable Product Redesign using eco-friendly materials 4. Manufacturing Cost Estimation and cost reduction strategies Exemplar / Practical Applications 1. Introduction to use simulation tools (FEA/CFD) to test product performance before manufacturing. 2. Introduction to Integration of design, manufacturing, and supply chain data using PLM software. E.g:",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC 362B-MEC",
+      "title": "Smart Thermal Engineering Systems",
+      "semester": 6,
+      "type": "Program Elective -II",
+      "credits": 3,
+      "pages": [
+        79,
+        82
+      ],
+      "units": [
+        {
+          "title": "Introduction to Smart Thermal Systems",
+          "topics": "Concept of smart engineeri ng systems and Industry 4.0. Overview of traditional vs smart thermal systems. Components of smart thermal systems including sensors, controllers, communication networks, and actuators. Smart monitoring and automation in thermal systems. Basics of cyber -physical systems and digital twins in thermal engineering applications. Building Automation Systems (BAS): Concept and architecture of building automation; integration of HVAC, lighting, and energy management systems; role of sensors, controllers, and commun ication protocols in smart buildings; energy efficiency and occupant comfort optimization. Applications of smart technologies in thermal engineering such as smart boilers, smart HVAC systems, smart refrigeration systems, and intelligent power plants. Introduction to thermal system modeling and digital data acquisition. Real World Assignment 1. Analyze energy consumption data of a building and suggest smart improvements. 2. Study a real building and identify scope for Building Automation System (BAS) implementation. 3. Develop a basic IoT-based temperature monitoring system using Arduino. 4. Poster presentation on “Role of Industry 4.0 in Thermal",
+          "hours": 6
+        },
+        {
+          "title": "Sensors and Instrumentation for Thermal Systems",
+          "topics": "Overview of measurement systems used in thermal engineering. Sensors for temperature, pressure, flow rate , humidity, and heat flux. Temperature measurement: Thermocouples, RTDs, thermistors, and infrared sensors. Pressure measurement: Manometers, pressure transducers, and piezoelectric sensors. Flow measurement techniques: Orifice meters, venturi meters, rotameters, ultrasonic flow meters, and hot wire anemometer for air flow measurement. Humidity and air quality measurement: Humidity sensors, indoor air quality (IAQ) sensors for HVAC applications, measurement of parameters such as CO₂, VOCs, and particulate matter. Advanced applications: Integration of sensors with Artificial Intelligence (AI) for smart monitoring, predictive maintenance, and control in thermal systems; applications in medical and healthcare sectors (ventilators, patient monitoring, and controlled environments). Data acquisition systems, signal conditioning, and calibration of sensors and uncertainty analysis. Real World Assignment 1. Students develop a temperature and humidity monitoring system using microcontrollers (Arduino / Raspberry Pi) to monitor room thermal conditions. 2. Mini project to Design a data",
+          "hours": 6
+        },
+        {
+          "title": "IoT and Smart Monitoring of Thermal Systems",
+          "topics": "Introduction to Internet of Things (IoT) architecture. Communication technologies used in smart systems such as Wi-Fi, Bluetooth, LoRa, and cloud platforms. Smart data acquisition and remote monitoring of thermal systems. Cloud-based monitoring platforms. Applications of IoT in thermal engineering including smart HVAC systems, smart energy monitoring, and smart refrigeration., Smart monitoring in agriculture (e.g., greenhouse climate control, soil moisture and temperature monitoring, irrigation automation, and cold storage for agricultural produce). Concept of predictive maintenance and fault detection in thermal equipment. Introduction to digital twins for monitoring and optimizing thermal systems. Real World Assignment 1. Students build a simple IoT-based temperature monitoring system where sensor data is transmitted to a cloud platform and displayed on a mobile dashboard. 2. Analyze IoT data from a thermal system and identify performance trends 3. Build a smart greenhouse monitoring system (temperature + humidity + irrigation control) 4. Case Studies IoT-based predictive maintenance in HVAC or power plants Exemplar / Practical Applications 1. Remote monitoring of boilers and",
+          "hours": 6
+        },
+        {
+          "title": "Smart Control of Thermal Systems",
+          "topics": "Introduction to control systems in thermal engineering. Open loop and closed loop control systems. Control strategies used in thermal systems including on-off control, PID control, and adaptive control. Smart control algorithms for energy optimization; application of PLCs in automation and control of thermal systems. Integration of artificial intelligence and machine learning in thermal system control. Applications in smart HVAC systems, refrigeration plants, and power plant operation. Energy management and optimization of thermal systems. Real World Assignment 1. Students analyze energy consumption of air conditioning systems in a building and propose smart control strategies for energy savings. 2. Implement PID control for temperature regulation (simulation or hardware) 3. Develop a PLC-based control logic for boiler or HVAC system (ladder diagram) Exemplar / Practical Applications 1. Smart thermostat systems in buildings 2. Automated control of industrial boilers 3. Energy optimization in refrigeration plants 4. Intelligent building energy management systems",
+          "hours": 6
+        },
+        {
+          "title": "Smart Energy Systems and Future Thermal Technologies",
+          "topics": "Integration of renewable energy systems with thermal systems including solar thermal systems, geothermal systems, and waste heat recovery systems. Smart district heating and cooling systems. Energy efficiency and sustainability in thermal systems. Smart boiler systems with automated control and efficiency optimization; smart cold storage systems for food and pharmaceutical applications with real-time monitoring and temperature control; thermal management in pharmaceutical industries including cleanroom HVAC, cold chain logistics, and precision temperature control. Future technologies including AI-driven thermal system optimization, digital twins, and autonomous thermal management systems. Real World Assignment 1. Students perform a basic energy audit of a building HVAC system and suggest smart technologies to improve efficiency. 2. DIY model of Solar Water Heater /Smart Cold Storage Box Exemplar / Practical Applications 1. Smart district heating networks 2. Solar-assisted HVAC systems 3. Waste heat recovery in industries 4. Smart energy systems in sustainable buildings",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC 362C-MEC",
+      "title": "Compressible Flow",
+      "semester": 6,
+      "type": "Program Elective -II",
+      "credits": 3,
+      "pages": [
+        83,
+        86
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Compressible Flow",
+          "topics": "Introduction to compressible flow; definition and characteristics of compressible fluids; comparison between compressible and incompressible flow; thermodynamic properties of gases; speed of sound; Mach number and its significance; cl assification of flows based on Mach number (subsonic, sonic, transonic, supersonic, hypersonic); stagnation properties; total temperature and pressure; isentropic relations for compressible flow; energy equation for compressible systems. Real World Assignment 1. Students measure air velocity using a small air blower and pitot tube and estimate Mach number under different operating conditions. Analyze whether compressibility effects become significant. 2. Develop a simple MATLAB / Python script that calculates Ma ch number, stagnation pressure, and temperature for various inlet conditions of air flow in ducts. 3. Visit to Air Handling / Compressor Systems in Industry. 4. Case Study on “Why Compressibility is Critical in Aircraft but Negligible in Cars”. Exemplar / Practical Applications 1. Air flow in high-speed aircraft wings 2. Flow in gas turbines and jet engines 3. High-speed wind tunnel testing 4. Flow in rocket propulsion systems",
+          "hours": 6
+        },
+        {
+          "title": "Isentropic Flow and Area–Velocity Relations",
+          "topics": "Isentropic flow assumptions; gove rning equations for one -dimensional compressible flow; derivation of isentropic relations; area –velocity relation; area –Mach number relation; flow through converging and converging-diverging nozzles; choking phenomenon; critical properties; nozzle efficiency; performance analysis of nozzles. Real World Assignment 1. Calculate nozzle exit velocity and Mach number for a jet engine nozzle using given stagnation conditions. 2. Design a converging-diverging nozzle using simulation tools (ANSYS / MATLAB) and study variation of Mach number and pressure distribution along the nozzle. 3. Case Study on “Nozzle Design in ISRO rocket engines”. Exemplar / Practical Applications 1. Rocket engine nozzles 2. Supersonic wind tunnels 3. Gas turbine exhaust nozzles 4. Industrial gas expansion systems",
+          "hours": 6
+        },
+        {
+          "title": "Normal Shock Waves, Oblique Shock Waves and Expansion Waves",
+          "topics": "Shock waves and their physical significance; formation of normal shock waves; governing equations across normal shocks (continuity, momentum, energy); Rankine –Hugoniot relations; property changes across shock waves; stagnation pressure loss across shocks; shock wave tables and charts; shock wave analysis in ducts and nozzles. Oblique shock waves; flow deflection by wedges; shock angle –Mach number relations; θ –β–M relation; weak and strong shock solutions; Prandtl –Meyer expansion waves; expansion fans; supersonic flow over convex and concave surfaces; compressible flow over airfoils. Real World Assignment 1. Using standard normal shock tables, determine downstream pressure, temperature, and Mach number for given upstream conditions. 2. Create a computational tool or spreadsheet to predict shock properties for varying upstream Mach numbers. 3. Analyze supersonic flow over a wedge-shaped object and calculate shock angle and downstream Mach number. 4. Using CFD or analytical tools, simulate supersonic flow over a wedge and visualize shock formation Exemplar / Practical Applications 1. Supersonic aircraft wing design 2. Shock formation in rocket propulsion systems 3. Shock waves in",
+          "hours": 6
+        },
+        {
+          "title": "Compressible Flow with Friction and Heat Transfer",
+          "topics": "Flow in constant area ducts with friction (Fanno flow); governing equations and Fanno line; effects of friction on Mach number; flow with heat transfer (Rayleigh flow); Rayleigh line analysis; choking in ducts; combined effects of friction and heat transfer; compressible flow in pipelines; industrial applications. 1. Analyze pressure loss in a long gas pipeline using compressible flow equations. 2. Develop a computational model to simulate Fanno and Rayleigh flow conditions in industrial pipelines. 3. Industrial Visit to Study Gas/Steam Pipeline Systems (Thermal power plants / process industries) 4. Poster Presentation on “Fanno Flow vs Rayleigh Flow – Engineering Significance”",
+          "hours": 6
+        },
+        {
+          "title": "Applications of Compressible Flow",
+          "topics": "Aerospace Applications: Flow through convergent-divergent nozzles in rockets and jet engines Turbo-machinery Applications: Compressible flow in axial and centrifugal compressors, gas turbines, and steam turbines Power and Energy Systems: Applications in thermal power plants (steam nozzles, turbines); gas dynamics in combustion chambers; exhaust systems of IC engines HVAC and Refrigeration Systems: Refrigerant flow through expansion devices (valves, capillary tubes); choking in ducts Biomedical Engineering: Gas flow in respiratory systems, ventilators, and anesthesia delivery systems. Electronics Cooling: High-speed air cooling of servers and data centers. Renewable Energy: Wind tunnel testing for wind turbine Real World Assignment 1. Case Study / Field Study: HVAC & Refrigeration Systems 2. Seminar / Group Presentation on “Future of Supersonic Transport” or “Role of Compressible Flow in Sustainable Energy Systems” Exemplar / Practical Applications 1. Gas transmission pipelines 2. Combustion chambers of jet engines 3. Heat addition in propulsion systems 4. High-speed air delivery systems in industry",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC 362D-MEC",
+      "title": "Advanced Machining Processes",
+      "semester": 6,
+      "type": "Program Elective -II",
+      "credits": 3,
+      "pages": [
+        87,
+        89
+      ],
+      "units": [
+        {
+          "title": "Special Forming Processes",
+          "topics": "Principle, Machines, Process variables, characteristics, advantages, limitations and application of: High Energy Rate Forming process (HERF), High Velocity Forming (HVF), Explosive forming, Magnetic pulse forming, Electro hydraulic forming, M etal spinning, Flow forming, Stretch forming, Incremental sheet metal forming, Petro-forge forming, Micro forming, Micro coining, Micro extrusion, Micro bending/laser bending, fine blanking. Real World Assignment: (Case Studies) Industrial applications of special forming processes, Recent trends and advancements. Exemplars / Practical Applications: Automotive Panel Manufacturing using High Velocity & Stretch Forming",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Joining Processes",
+          "topics": "Friction stir welding, Electron Beam welding, Laser beam welding, Ultrasonic welding, Under water welding, Cryogenic welding, Thermal spray coatings, Welding of plastics and composites, Explosive joining, Adhesive bonding Real World Assignment: (Industrial Applications and Case Studies) Automotive, aerospace, and electronics applications, Recent trends and research developments. Exemplars / Practical Applications: 1. Aerospace Panel Fabrication using Friction Stir Welding (FSW) & Laser Beam Welding (LBW), 2. Automotive & Electronics Manufacturing using Ultrasonic Welding & Adhesive Bonding.",
+          "hours": 7
+        },
+        {
+          "title": "Hybrid Non-conventional Machining Techniques",
+          "topics": "Introduction, classification, and principles of hybrid machining processes; Abrasive flow finishing (AFF), Magnetic abrasive finishing (MAF), Abrasive water-jet machining (AWJM), Wire electric discharge machining (WEDM), Electrochemical grinding (ECG), Electrochemical Deburring (ECD), Shaped tube electrolytic machining (STEM), Electro-jet Machining (EJM), Electrolytic In-process dressing (ELPD), Ultrasonic assisted EDM, Rotary EDM, Electrochemical discharge Machining (ECDM), Laser surface treatments. Real World Assignment: Industry Case Study on Laser surface treatment in gear hardening Exemplars / Practical Applications: Precision Finishing of Complex Internal Passages using AFF & MAF, Finishing of fuel injector and nozzles (internal channels).",
+          "hours": 7
+        },
+        {
+          "title": "Micro Machining and Nano Fabrication Techniques",
+          "topics": "Introduction, need of micro and nano machining, Machine/setup, Proces s parameters, Mechanism of material removal, Applications, Advances of the Diamond Turn machining, Ultrasonic micromachining, Focused Ion Beam Machining, Lithography, photochemical machining, Challenges in micro and nano fabrication techniques. Real World Assignment: (Application of Micro/Nano Machining in Modern Industry) Diamond turning in optical component fabrication. Exemplars / Practical Applications: 1. Micro-hole Drilling in Glass using Ultrasonic Micromachining & FIB",
+          "hours": 7
+        },
+        {
+          "title": "Sustainable Machining",
+          "topics": "Introduction to sustainable Manufacturing, Environmental impact on sustainable machining. Advance sustainable machining techniques - Dry Machining, Minimum Quantity lubrication (MQL), Cryogenic machining, High speed machining. Waste Reduction in Machining - Types of waste: chips, fluids, emissions, Chip management and recycling, Zero -waste machining strategies. Role of cutting Fluids in promoting sustainable machining, Energy Efficiency in machining. Real World Assignment: Study existing m achining processes (turning, milling, drilling), dentify sustainability gaps: Energy usage, Coolant usage, Waste generation Exemplars / Practical Applications: Dry Machining- Cast iron machining in automotive industry: Eliminates coolant completely due to self-lubricating graphite structure.",
+          "hours": 7
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

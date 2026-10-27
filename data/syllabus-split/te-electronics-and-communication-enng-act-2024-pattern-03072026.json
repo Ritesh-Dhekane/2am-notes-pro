@@ -1,0 +1,996 @@
+{
+  "id": "te-electronics-and-communication-enng-act-2024-pattern-03072026",
+  "kind": "programme",
+  "programme": "TE – Third Year Engineering (Electronics & Communication Engineering- Advanced Communication Technology)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-ECA",
+      "title": "Microcontrollers & applications",
+      "semester": 5,
+      "type": "Programme Core Course 1",
+      "credits": 3,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Microcontrollers",
+          "topics": "Introduction to Microcontroller, Comparison between Microprocessors and Microcontrollers Architecture: Von Neumann vs. Harvard architecture, Introduction to Hardwire and ISA Architecture, CISC vs. RISC and pipeline execution, Evolution and Comparison between 8,16-,32 and 64- bit microcontrollers, Selection Criteria of Microcontrollers, Introduction to 8- bit microcontroller (8051), features, Block diagram, Register model, Memory organization, Interrupt Structure. Serial Communication.",
+          "hours": 9
+        },
+        {
+          "title": "Programming with 8-bit Microcontroller",
+          "topics": "(8051) (09 Hours) Pin out diagram of 8051, Port Structure, Timer / Counter, Delay Calculation and Programming, Programming of ports, Interfacing of LED, LCD, LDR, 7- segment display, Relays, Buzzer, with Embedded C programs. Application: Design of Data Acquisition System.",
+          "hours": null
+        },
+        {
+          "title": "ARM7 Processor Fundamentals &",
+          "topics": "Architecture (09 Hours) Introduction to ARM processors and its versions, ARM Core data flow model, programmers’ model, modes of operations, Registers, CPSR, SPSR Comparison of ARM7, ARM9 & ARM11 processors. ARM7 Based Microcontroller LPC2148: Features, Architecture (Block Diagram and Its Description, Memory Map, GPIO, Pin Connect Block.",
+          "hours": null
+        },
+        {
+          "title": "ARM7 Based Microcontroller Interfaces",
+          "topics": "System Control Block: Phase Locked Loop (PLL) configuration, Power Control, and VPB (VLSI Peripheral Bus) Divider. Timers: Architecture of 32-bit timers (Timer 0 and Timer 1), match registers, and pre-scalers. Interrupt structure of LPC2148, interfacing with LED, GLCD, KEYPAD, simple LPC2148 GPIO Programming examples Using timers of LPC2148 to generate delay.",
+          "hours": 9
+        },
+        {
+          "title": "Real World Interfacing With ARM",
+          "topics": "Serial communication programming for transmission and reception from computer, programming for UART. Analog-to-Digital Converter (ADC): Features of the 10- bit ADC, conversion times, and channels. Digital-to-Analog Converter (DAC): Generating analog output waveforms GSM and GPS module interfacing, EEPROM interface using I2C, SDCARD using SPI.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-302 - ECA",
+      "title": "Mobile Communication",
+      "semester": 5,
+      "type": "Programme Core Course 2",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Cellular Communication",
+          "topics": "Evolution of Mobile Communication Systems, Cellular Concept and Architecture, Frequency Reuse and Cluster Formation, Cell Splitting, Sectoring and Microcell Zone Concept, Co-channel and Adjacent Channel Interference, Cellular Traffic Theory and Grade of Service (GoS), Trunking and Erlang Capacity Calculations. Analysis Issues in Cellular Networks, Coverage Issues, Capacity Issues, Mobility issues, Interference issues, Data Service issues. Performance Optimization Techniques Cell splitting and sectoring, Load balancing, Power control methods.",
+          "hours": 9
+        },
+        {
+          "title": "Radio Propagation and Wireless Channel",
+          "topics": "Mobile Radio Propagation Mechanisms, Path Loss Models, Shadowing and Multipath Fading, Small Scale and Large-Scale Fading, Doppler Shift and Delay Spread, Diversity Techniques, Link Budget Analysis, Tele- traffic Theory, Tele-traffic System Model and Steady State Analysis. Mapping of for Unit II CO2: Analyze wireless propagation and radio resource management techniques.",
+          "hours": 9
+        },
+        {
+          "title": "Multiple Access and Mobility Management",
+          "topics": "FDMA, TDMA, CDMA and OFDMA, Spread Spectrum Techniques, Handoff/Handover Strategies, Location Management, Registration and Paging, Roaming and Mobility Protocols, Radio Resource Management. Introduction, Motivation and Multicarrier basics, OFDM, Basic Concept of bit error rate for OFDM, Multiple Input Multiple-Output Wireless C ommunications: Introduction to MIMO Wireless Communications, MIMO System Model and MIMO-OFDM, advantages, Effect of Frequency Offset in OFDM, Numerical on SNR/SINR.",
+          "hours": 9
+        },
+        {
+          "title": "Cellular Network Technologies",
+          "topics": "GSM Architecture and Protocol Stack, GPRS and EDGE Networks, UMTS and WCDMA, LTE Architecture and LTE-Advanced VoLTE and IMS Architecture, 5G NR Architecture Network Slicing and SDN/NFV Concepts, Millimeter-Wave (mmWave) Communication. Introduction to Cloud Computing, Evolution of cloud computing, Cloud service models: IaaS , PaaS, SaaS. Data centre basics, Challenges in traditional cloud networking. Edge computing basics, Cloud Networking basics",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Mobile Networks and Emerging Technologies",
+          "topics": "Massive MIMO, Beamforming, Carrier Aggregation, Millimeter Wave Communication Device -to-Device (D2D) Communication, Internet of Things (IoT) over Cellular Networks, V2X Communication, Private 5G Networks, Introduction to 6G Networks, AI/ML in Mobile Networks, Joint Communication and Sensing (JCAS).",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-303 - ECA",
+      "title": "Radiation and Microwave Techniques",
+      "semester": 5,
+      "type": "Programme Core Course 3",
+      "credits": 3,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Fundamental Theory of Radiation and Radiating",
+          "topics": "Elements (09Hours) Fundamental equations for free-space propagation, Friis Transmission Equation, Radiation Mechanism, Types of Antennas, Antenna Performance Parameters: Radiation Pattern, Directivity, Gain, Efficiency, HPBW, Bandwidth, Polarization, Input Impedance, Radiation Efficiency, Effective Length and Effective Area, Radiation Pattern and Radiation Characteristics, Radiation Intensity and Power Density Antenna Parameters. Mapping of",
+          "hours": null
+        },
+        {
+          "title": "Transmission Lines and Waveguides",
+          "topics": "(09 Hours) Introduction to Microwaves, Frequency Bands and Applications, Waveguides and their Advantages, Comparison of Waveguides and Coaxial Lines, Rectangular Waveguides. Modes of Propagation, Cut-off Frequency and Dominant Mode, Waveguide Characteristics, Excitation Methods: Probe Coupling, Slot Coupling, Loop Coupling, Re-entrant Cavities, Cavity Coupling, Striplines: Structure. Advantages and Limitations waveguides. Applications of Transmission Lines and Waveguides",
+          "hours": null
+        },
+        {
+          "title": "Passive Microwave Components",
+          "topics": "Scattering Parameters, E-plane Tee, H-plane Tee, Magic Tee, Ferrite Materials and Characteristics, Faraday Rotation Principle, Isolator, Circulator, Directional Coupler, Gyrator, Construction, Working and Applications.",
+          "hours": 9
+        },
+        {
+          "title": "Active Microwave Components",
+          "topics": "Limitations of Conventional Tubes, O-type and M-type Microwave Tubes, Re-entrant Cavity, Velocity Modulation, Single-Cavity Klystron, Two-Cavity Klystron, Magnetron, Helix Traveling Wave Tube (TWT), Characteristics and Applications.",
+          "hours": 9
+        },
+        {
+          "title": "Solid State Microwave Devices, Systems and",
+          "topics": "Measurements (09Hours) Solid State Microwave Devices: Microwave Transistors, MOSFET, Varactor Diode, Parametric Amplifier, PIN Diode, Tunnel Diode, Schottky Barrier Diode, Gunn Diode, IMPATT Diode, TRAPATT Diode, Applications as Amplifiers, Oscillators, Modulators and Demodulators. Microwave Systems and Measurements: Microwave Terrestrial Communication, Satellite Communication Systems, Fundamentals of RADAR, RADAR Range Equation, Microwave Heating, Microwave Diathermy, Microwave Measurement Devices: Slotted Line, Tunable Detector, VSWR Meter, Power Meter, Measurement of: S-Parameters, Frequency, Power, Attenuation, VSWR, Impedance, Radiation Hazards and Protection.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-304 - ECA",
+      "title": "Microcontrollers & Radiation and Microwave Techniques Lab",
+      "semester": 5,
+      "type": "Program Core Course Lab 1",
+      "credits": 1,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-ECA",
+      "title": "Mobile Communication Lab",
+      "semester": 5,
+      "type": "Programme Core Course Lab 2",
+      "credits": 1,
+      "pages": [
+        28,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC321 A- ECA",
+      "title": "Advanced Java Programming",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Collection Framework",
+          "topics": "Introduction to Collection Framework, need and advantages of Collection Framework, overview of Collection interfaces and methods. List interface using Array List and LinkedList, set interface using HashSet and TreeSet, Queue interface using Priority Queue, and Map interface using HashMap. Iteration using Iterator and basic object sorting using Comparable and Comparator interfaces. Exemplar: Develop Java applications using Collection Framework interfaces, classes, iterators, and sorting techniques for efficient data storage and manipulation.",
+          "hours": 8
+        },
+        {
+          "title": "GUI Programming in Java",
+          "topics": "JVM-based GUI frameworks, Swing: Introduction to SWING, Swing class hierarchy, Difference between Swing and AWT, Advantages over awt, Swing components such as JLabel, JButton, JTextField, JTable, JMenus, JScrollbar and layout managers and types. Event Handling: Events and Event classes, event listeners, Delegation event model, mouse and keyboard events, Adapter classes JavaFx:Introduction to JavaFX, Java FX architecture Exemplar : Develop interactive GUI applications using Swing and student understand modern GUI concepts such as properties and binding in JavaFX.",
+          "hours": 8
+        },
+        {
+          "title": "Java Web Development using Servlets and JSP",
+          "topics": "Java Servlets : Introduction to Servlets, Servlet Life Cycle, Creating Simple Servlets, Handling HTTP Requests and Responses, GET and POST Methods, Session Management using Cookies and Http Session. Java Server Pages (JSP): Introduction to JSP, Difference between Servlet and JSP, JSP Directives and Implicit Objects, Expression Language (EL), Form Handling using JSP. MVC Pattern in Web Applications: Introduction to MVC Architecture, Role of Model, View and Controller, Integration of Servlet and JSP in MVC-based Web Applications. Exemplar : Develop a web application using Servlet and JSP to accept student details through an HTML form, process the data in Servlet, and display the submitted information using JSP.",
+          "hours": 9
+        },
+        {
+          "title": "Java Database Persistence & ORM Frameworks",
+          "topics": "Introduction to JDBC: Need of JDBC, JDBC Architecture, Types of Drivers, JDBC API, Steps for Database Connectivity. JDBC Programming: Loading Driver, Establishing Connection, Statement & Prepared Statement, Result Set Handling. JDBC CRUD Operations : Insert, Update, Delete, Select Queries, Exception Handling Introduction to Hibernate: Hibernate Architecture, Hibernate Mapping Types, Hibernate O/R Mapping, Hibernate annotations. Hibernate Query Language Exemplar: Develop a Hibernate-based employee management application using annotation mapping and HQL queries for CRUD operations.",
+          "hours": 9
+        },
+        {
+          "title": "Spring Boot: Core Concepts and REST API Developmen t",
+          "topics": "Introduction to Spring Boot: Features and Advantages, Spring Boot Architecture, Installation and Environment Setup using Maven, Creating and Running a Simple Spring Boot Application. Spring Boot Concepts: Project Structure, Dependency Management, Application Properties, Spring Boot Annotations, Spring Boot DevTools. REST API Development: Introduction to REST Architecture, Creating REST APIs using @RestController, Handling HTTP GET, POST, PUT, and DELETE Requests, Request Mapping, Path Variables, JSON Response Handling, Testing APIs using Postman. Exemplar: Develop a simple Student Management REST API using Spring Boot to perform basic operations such as adding, viewing, and deleting student details, and test the APIs using Postman.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321 B- ECA",
+      "title": "Computer Networks",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Computer networks",
+          "topics": "Data Communications, Networks, Network Topologies, Types of Computer Networks, Protocols and Standards, Design Issues for the Layers. Network Models: The OSI Model, TCP/IP Protocol suite. Transmission Media: Guided and Unguided (Wireless). Uses of Computer Networks. Exemplar: HDMI cable carrying audio/video signals to a TV.",
+          "hours": 9
+        },
+        {
+          "title": "Data link layer",
+          "topics": "Function of Data Link Layer. Design Issues: Services to Network Layer, Framing, Error Detection and Correction: Basic Concept, Linear Block Code, CRC Code, Checksum, Flow Control: Stop and Wait, Sliding Window, Error Control: Stop and Wait ARQ, Go-Back-N, ARQ, Selective Repeat ARQ, Medium Access Control: Controlled Access (Reservation, Polling, Token Passing), Random Access(ALOHA,CSMA,CSMA/CD,CSMA/CA), Link Layer Addressing: MAC Address and its Types, ARP, HDLC protocol. Exemplar 1: Multiple users sending data through satellite channels.",
+          "hours": 9
+        },
+        {
+          "title": "Network layer",
+          "topics": "Introduction to Network Layer : Network-Layer Services, Packet Switching, Forwarding of IP Packets, IPv4 addresses, Subnetting and CIDR, Network Layer Protocols: Internet Protocol (IP), ICMPv4. Next Generation IP: IPv6 Addressing, IPv6 Protocol, Transition from IPv4 to IPV6. Unicast & Multicast Routing: Introduction, Routing Algorithms, Unicast Routing Protocols, Introduction, Multicasting Basics, Intra-domain Multicast Protocols, Inter- domain Multicast Protocols, IGMP, Distance Vector, Link State, Path Vector, Routing in Internet: RIP, OSPF, BGP Exemplar: Google Maps finding the best route, similar to routing in network",
+          "hours": 9
+        },
+        {
+          "title": "Transport layer",
+          "topics": "Process to process delivery, Elements of Transport Layer Protocols: Addressing, Connection establishment, Connection release, Flow control and buffering, Transmission control protocol (TCP), User Datagram Protocol (UDP), Congestion control, Quality of service (QOS), Stream Control Transmission Protocol (SCTP), Socket Programing. Exemplar: WhatsApp voice/video calls using UDP for real-time communication",
+          "hours": 9
+        },
+        {
+          "title": "Application layer",
+          "topics": "Introduction– Principles of application layer, client-server and peer-to- peer models; World wide web (WWW), HTTP– request/response; DNS ( DNS hierarchy, DNS Resource Records, DNS Name Resolution, DNS messages); Email– SMTP, MIME, POP3, IMAP, webmail, message format, FTP– basics, File transfer process; TELNET– Remote login, limitations; DHCP– Dynamic host configuration, IP allocation, Management; SNMP– Network management, monitoring. Exemplar: Using WhatsApp, Gmail, or YouTube applications",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321 C- ECA",
+      "title": "Digital Signal Processing",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "DSP Preliminaries",
+          "topics": "Discretization of Analog Signals: Advantages of Digital over Analog signal processing Sampling theorem in time domain, recovery of analog signals, and analytical treatment with examples, mapping between analog frequencies to digital frequency, Concept of Interpolation and decimation in signal processing, Representation of signals as vectors, concept of Basis function and orthogonality, Basic elements of DSP and its requirements, Introduction to DSP processor (TMS 320 XX 6713). Exemplar: Analyze discrete-time signals and determine the output and representation of a Basic DSP system using signal processing techniques.",
+          "hours": 9
+        },
+        {
+          "title": "Z-Transform",
+          "topics": "Need for Z- transform, relation between Laplace transform and Z transform, relation between Fourier transform and Z transform, Concept of ROC and Properties of ROC, Relation between pole locations and time domain behavior, causality and stability considerations for LTI systems, Solution of difference equations using Z transform. Exemplar: Apply Z-transform techniques to analyze discrete-time signals and digital systems and determine their system response.",
+          "hours": 8
+        },
+        {
+          "title": "DFT",
+          "topics": "Frequency domain sampling, DFT, Properties of DFT, circular convolution, Computation of linear convolution using circular convolution, FFT, decimation in time (DIT) and decimation in frequency (DIF) using Radix-2 FFT algorithm for 4 point and 8- p o i n t sequences, DFT & FFT computation complexity for 4 point and 8- p o i n t sequences, Linear filtering (Block convolution or long sequence convolution) using overlap add and overlap save method. Exemplar: Implement efficient transforms (DFT/FFT) and apply them for frequency-domain analysis of discrete-time signals.",
+          "hours": 9
+        },
+        {
+          "title": "Digital Filter Design",
+          "topics": "Concept of analog filter design.IIR filter design by impulse invariance method, Bilinear transformation method, warping effect. Butterworth filter design, Characteristics of Butterworth filters IIR filter realization using direct form, cascade form and parallel form. Windowing techniques: Gibbs phenomenon, characteristics and comparison of different window functions, Linear phase conditions: impulse and phase and group delays, Design of linear phase FIR filter using windows: Rect, Hanning, Hamming, Blackmann & Kaiser, Magnitude and Phase response of Digital filters, Frequency response of Linear phase FIR filters, FIR filter realization using Direct Form, Cascade and linear phase structure. Exemplar: Design and implement IIR, FIR digital filters to meet specified frequency response requirements.",
+          "hours": 9
+        },
+        {
+          "title": "Applications of DSP",
+          "topics": "Biomedical Applications, Speech Processing, Wireless communication, IoT Applications, Image processing basics, Industry 4.0 case studies. Exemplar: Apply DSP techniques to analyze and process 1-D and 2-D signals for real-world applications.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321 D- ECA",
+      "title": "Cloud Computing",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        40,
+        42
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Cloud Computing with Cloud Service",
+          "topics": "Models (09 Hours) Introduction to Cloud Computing, History and Evolution of Cloud Computing, Characteristics of Cloud Computing, Benefits and Applications of Cloud Computing, Advantages and Disadvantages of Cloud Computing, Exploring the Cloud Computing Stack, Cloud Types and Models: NIST Model, Cloud Cube Model, Cloud Deployment Models, Introduction to Cloud Services and their Benefits, Cloud Service Models and their Characteristics, Applications and Comparison of Cloud Services including Software as a Service (SaaS), Platform as a Service (PaaS), Infrastructure as a Service (IaaS), Network as a Service (NaaS), Identity as a Service (IDaaS) and Database as a Service (DBaaS). Exemplar: Google Drive, Amazon Web Services, Netflix, Zoom, Google Classroom, Dropbox, Facebook outage, Google Cloud, VMWare, Microsoft Azure, Iaas: Amazon EC2, Paas: Heroku, Saas: Google Workspace, Naas: Cisco, IDaas: Okta, Daas: MongoDB Atlas.",
+          "hours": null
+        },
+        {
+          "title": "Virtualization",
+          "topics": "Introduction to Virtualization and its role in Modern Computing Environments, Architecture and Types of Virtualization Architectures: Bare Metal and Hosted, Virtual Machine (VM), Properties of VM, Type-1, Type-2 Hypervisors, Best Practices for Hypervisor Security, Types of Virtualization including Hardware, Software, Operating System, Server and Storage Virtualization, Methods of implementing Storage Virtualization, Network Virtualization Types and Techniques, Advantages and Limitations of Virtualization, Virtualization Architecture and Virtualization Software, Applications of Virtualization in Cloud Computing, Data center , Server Consolidation, Resource Optimization and Disaster Recovery, Introduction to Containerization with Docker. Comparison between Virtualization and containerization. Exemplar: Xen, KVM, VMware, Virtual Box, Cloud server in Microsoft Azure, Multiple Docker Containers, Storage Area Network (SAN), Microsoft Hyper-V. OVirt-Management Tool for Virtualization Environment.",
+          "hours": 9
+        },
+        {
+          "title": "Service Oriented Architecture and Cloud Security",
+          "topics": "Cloud Computing Architecture (CCA), Design Principles and Architectural Components of Cloud Systems, Cloud Computing Life Cycle (CCLC), Cloud Deployment and Service Management Phases, Cloud Computing Reference Architecture and its Functional Layers, Service Oriented Architecture (SOA), characteristics, Principles and Fundamental Components of SOA, Integration of SOA with Cloud Environments. Cloud Security Concepts and Requirements, Cloud CIA Security Model including Confidentiality, Integrity and Availability, Cloud Computing Security Architecture, Security Management in Cloud Environments, Service Provider Security issues and Compliance Challenges, Cloud Security Issues and Threats, Virtualization Secu rity Concerns, Host Security Mechanisms, Data Security, Privacy Protection Techniques , Network Security, Access Control, Authentication Methods and Firewall Technologies in Cloud Computing. Exemplar: Online Storage Services: Google Drive, Video Streaming: Netflix, Digital Payment: PayPal, Online Banking, Educational Platform: Google Classroom, Microsoft Teams, VMware, Hyper-V, Social Networking Platform.",
+          "hours": 9
+        },
+        {
+          "title": "Cloud Storage Solutions",
+          "topics": "Introduction to Cloud Storage: Overview, Need, Advantages, Traditional Storage vs Cloud Storage, Types of Cloud Storage: Object Storage, Block Storage, File Storage, Cloud Storage Architecture: Storage Virtualization, Data Replication, Scalability, Cloud Storage Services. Object Storage, Block Storage, File Storage in Amazon Web Services (AWS), Google Cloud (GCP) and Microsoft Azure. Data Management in Cloud Storage: Data Backup and Recovery, File Synchronization, Version Control. Security in Cloud Storage: Data Encryption, Access Control, Authentication and Authorization, Performance and Cost Optimization: Storage Performance, Cost Models, Monitoring Techniques, Applications of Cloud Storage: Enterprise Storage, IoT Storage, Educational and Healthcare Applications. Exemplar: Amazon S3, Google Cloud Storage, Azure Blob Storage, Dropbox, Google Drive, Object Storage, Block Storage, File Storage, Storage Virtualization, Backup and Recovery, Data Encryption, Access Control, Storage Synchronization, Archive Storage, Cloud Storage Security.",
+          "hours": 9
+        },
+        {
+          "title": "Cloud Platforms, Services and Application Deployment",
+          "topics": "Core Cloud Infrastructure Services: Compute services (Virtual Machines, Serverless/Function as a Service), Network Services (Virtual Private Clouds, Load Balancers, Content Delivery Networks), and Managed Database Services. Cloud-Native Concepts and Applications: Microservices Architecture v s. Monolithic Architecture, Serverless Computing Paradigm, Cloud Native Application Design Principles (The Twelve Factor App). Application Deployment Methodologies: Comparison between Traditional Deployment and Cloud Deployment, Deployment Models: Blue- Green Deployment, Canary Deployment, Rolling Updates, Infrastructure as Code (IaC) Concepts and Benefits. Cloud Deployment Tools a n d Orchestration: Introduction to Container Orchestration using Kubernetes, Deployment Automation using CI/CD (Co ntinuous Integration/Continuous Deployment) Pipelines in the Cloud, Cloud Monitoring, Logging and Auto Scaling Mechanics. Exemplar: Amazon EC2, Azure Virtual Machines, AWS Lambda, Azure Functions, Amazon VPC, AWS Elastic Load Balancing (ELB), Amazon CloudFront (CDN), Amazon RDS, MongoDB Atlas. Kubernetes (EKS/GKE), Terraform, AWS CloudFormation, GitHub Actions, AWS Code Pipeline, Jenkins. Amazon CloudWat",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC- 322 (A)- ECA",
+      "title": "Advanced Java Programming Lab",
+      "semester": 5,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        43,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-ECA-(B)",
+      "title": "Computer networks Lab",
+      "semester": 5,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        45,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322 (C) – ECA",
+      "title": "Digital Signal Processing Lab",
+      "semester": 5,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        47,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322 (D) -ECA",
+      "title": "Cloud Computing Lab",
+      "semester": 5,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        48,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM- 331-ECA",
+      "title": "Machine Learning",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        51,
+        54
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence and Machine Learning Tut:1,2,3,4",
+          "topics": "Introduction to Artificial Intelligence, Machine Learning, and Deep Learning, Applications of Machine Learning in: Electronics and Telecommunication Engineering: Signal Processing, Smart Communication Systems, Healthcare, IoT and Smart Devices, Industrial Automation, Types of Machine Learning: Supervised Learning, Unsuperv ised Learning, Reinforcement Learning (Overview), Machine Learning Workflow: Data Collection, Data Preprocessing, Model Training, Model Evaluation, Deployment, Introduction to Python Ecosystem: NumPy, Pandas, Matplotlib, Scikit-learn, Google Colab, Emerging Trends: Generative AI, AI Assistants, Edge AI, TinyML, AIoT, AI in 5G/6G Systems Case Studies (Anyone): AI applications in Smart Phones, Recommendation Systems, AI-enabled Communication Systems, Generative AI applications.",
+          "hours": null
+        },
+        {
+          "title": "Data Preprocessing and Exploratory Data Analysis Tut:5,6,7",
+          "topics": "Introduction to datasets and dataset formats, Open- source datasets and data collection methods, Data Preprocessing Techniques: Handling missing values, Data cleaning, Feature selection, Feature scaling, Data normalization, Standardization, Training and Testing datasets, Exploratory Data Analysis (EDA): Statistical analysis, Correlation analysis, Histograms, Scatter plots, Heat maps, Data visualization techniques, Introduction to Responsible AI and bias in datasets. Case Studies (Any One): Telecom Traffic Dataset Analysis, IoT Sensor Data Analysis, Student Performance Dataset Visualization.",
+          "hours": null
+        },
+        {
+          "title": "Supervised Machine Learning Techniques Tut:8,9,10",
+          "topics": "Introduction to Supervised Learning, Regression Techniques: Linear Regression, Multiple Linear Regression, Classification Techniques: Logistic Regression, K- Nearest Neighbors (KNN), Decision Tree, Random Forest, Model Evaluation Metrics: Accuracy, Precision, Recall, F1 Score, Confusion Matrix, Concept of Cross Validation, Applications in: Signal Classification, Predictive Maintenance, Medical Diagnosis, Spam Detection, Network Traffic Analysis. Case Studies (Anyone): House Price Prediction, Email Spam Classification, Predictive Maintenance in Industry, Signal Classification System.",
+          "hours": null
+        },
+        {
+          "title": "Unsupervised Learning and Emerging AI Concepts Tut:11,12,13",
+          "topics": "Introduction to Unsupervised Learning, Clustering Techniques: K- Means Clustering, Hierarchical Clustering (Overview), Dimensionality Reduction: PCA (Overview), Anomaly Detection Concepts, Introduction to Neural Networks and Deep Learning, Overview of: Edge AI, TinyML, Explainable AI (XAI), AI in Embedded Systems, AI in Cyber security, Applications in: Smart Healthcare, Image Processing, Autonomous Systems, Smart Agriculture, Industrial Automation. Case Studies (Anyone): Customer Segmentation using K-Means, Smart Healthcare Monitoring, AI- based Traffic Analysis, AI-enabled Embedded System.",
+          "hours": null
+        },
+        {
+          "title": "Industry-Oriented AI Applications and Mini Project Tut:14,15,16",
+          "topics": "AI Project Development Cycle, Working with Real-world Datasets: Kaggle datasets, GitHub, repositories, Open-source AI resources, Introduction to: AI APIs, Cloud AI tools, Generative AI tools, Prompt Engineering Basics, AI Ethics and Responsible AI, Industry Applications: AI in Telecommunication, AI in IoT, AI in Robotics, AI in Smart Manufacturing, AI in Healthcare. Case Studies (Anyone): AI-based Chat bot Demonstration, Smart Attendance Prediction System, AI- enabled IoT Monitoring System, AI-based Signal Analytics.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MDM- 331-ECA",
+      "title": "Machine Learning Lab",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 1,
+      "pages": [
+        55,
+        55
+      ],
+      "units": []
+    },
+    {
+      "code": "OLE -341 -ECA",
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC -342- ECA",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "Experiential Learning",
+      "credits": 1,
+      "pages": [
+        56,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351 -ECA",
+      "title": "Information Theory and Advanced Error Control",
+      "semester": 6,
+      "type": "Program Core Course 1",
+      "credits": 3,
+      "pages": [
+        61,
+        63
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Information Theory & Source",
+          "topics": "Coding (0 9 Hours) Introduction to information theory, Entropy and its mathematical properties, Discrete memoryless channels, Mutual information. Source coding theorem, Huffman coding, Shannon-Fano coding, The Lempel-Ziv algorithm, Run Length Encoding (RLE). Exemplar: Lossless data compression for digital transmission. Huffman coding in MP3/JPEG formats; Lempel-Ziv in ZIP file compression; Source coding principles for Audio and Video Compression (H.264/HEVC).",
+          "hours": null
+        },
+        {
+          "title": "Channel Capacity & Linear Block Codes",
+          "topics": "Differential entropy and mutual information for continuous ensembles, Shannon’s Channel Capacity Theorem, Shannon Limit. Introduction to Error Control Coding: Linear Block Codes, Syndrome and error detection, Error detection and correction capability, Standard array and syndrome decoding, Single parity check codes, Hamming code, Golay Code, and Interleaved codes. Exemplars: Calculating absolute theoretical throughput limits in bandwidth -constrained environments like cellular networks. Hamming and Golay codes for basic satellite telemetry and computer memory (ECC RAM) error correction.",
+          "hours": 9
+        },
+        {
+          "title": "Algebraic Coding: Cyclic, BCH, and RS Codes",
+          "topics": "Introduction to Galois Field arithmetic, Primitive elements & Primitive polynomials. Description of Cyclic Codes, Generator matrix for systematic cyclic code, Encoding and Syndrome decoding. Binary BCH code: Generator polynomial and decoding. Reed- Solomon (RS) codes: generator polynomials and decoding principles. Exemplar: Cyclic codes (CRCs) used for energy-efficient data integrity in Ethernet and Wireless Sensor Networks. Reed-Solomon codes are heavily used in QR codes, deep- space communication (NASA/ESA), and optical storage to correct burst errors.",
+          "hours": 9
+        },
+        {
+          "title": "Convolutional Codes & Trellis Decoding",
+          "topics": "Introduction to convolutional encoding, Time-domain and transform-domain approaches. Graphical representation: State diagram, Tree diagram, and Trellis diagram. Maximum Likelihood decoding, The Viterbi decoding algorithm, Sequential decoding. Exemplar: Historically foundational for 2G/3G mobile networks, deep- space Voyager missions, and digital video broadcasting (DVB). Viterbi decoders are still widely implemented in hardware (FPGAs/ASICs) for robust, continuous data stream error correction.",
+          "hours": 9
+        },
+        {
+          "title": "Modern Coding Trends & 5G Physical Layer",
+          "topics": "Limitations of classical coding near the Shannon limit. Introduction to Low-Density Parity-Check (LDPC) codes: Tanner graphs, message-passing decoding, and Quasi-Cyclic LDPC codes. Introduction to Polar codes: Channel polarization and successive cancellation decoding. Comparison of LDPC and Polar codes. Case Study: Coding schemes in 5G NR (New Radio). Exemplar: LDPC codes are the mandated standard for the 5G data channel (eMBB - enhanced Mobile Broadband) and Wi-Fi 6 (802.11ax). Polar codes are the 5G standard for control channel signaling. Applications in mMTC (massive Machine Type Communication) and IoT.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC 352 -ECA",
+      "title": "Optical Fiber Communication",
+      "semester": 6,
+      "type": "Program Core Course 2",
+      "credits": 3,
+      "pages": [
+        64,
+        66
+      ],
+      "units": [
+        {
+          "title": "Optical Fibers for Telecommunication",
+          "topics": "Fundamentals of Optical Communication: EM spectrum - Optical Spectral bands, Shannon channel capacity, power units (watts, dB & dBm), Block diagram of optical fiber communications link, advantages of optical fibers. Optical Fiber Waveguides: Introduction, Total internal reflection, acceptance angle, numerical aperture, fiber types, mode theory for circular waveguides: overview of modes & key modal concepts (V number, number of modes, power in clad), single mode fibers, cutoff wavelength Transmission characteristics of optical fibers: attenuation - material absorption, scattering losses, fiber bend loss, loss due to fiber misalignment, splices and connectors; signal distortion - intermodal delay, intra modal dispersion or chromatic dispersion, modal delay, bit rate-distance product, plot of material & waveguide dispersions for standard single mode, dispersion shifted and dispersion flattened fibers; optical fibers for 5G networks, comparison.",
+          "hours": 9
+        },
+        {
+          "title": "Optical Sources",
+          "topics": "Optical Sources: Introduction, wavelength and material consideration (direct & indirect bandgap semiconductors); requirements from optical sources for telecommunication. LED: Principle of working, quantum efficiency, optical output power characteristics, spectral width, effect of temperature on characteristics. Semiconductor Laser Diodes: absorption, spontaneous emission, stimulated emission, concept of population inversion and optical feedback, output power characteristics of LASER; Bias point and amplitude modulation range for analog applications of LEDs & laser diodes.",
+          "hours": 9
+        },
+        {
+          "title": "Photodetectors",
+          "topics": "Introduction, requirements from optical detectors, material considerations, types: p-n, pin, Avalanche photodiode, photo transistor, principle of working, quantum efficiency, responsivity, long cutoff wavelength, detector response time, comparison of photodetectors, thermal noise, dark current noise, quantum noise and receiver sensitivity.",
+          "hours": 9
+        },
+        {
+          "title": "Optical Receiver Operation And System Design",
+          "topics": "Fundamental receiver operation – Digital signal transmission, Error sources. Pre Amplifiers: Low impedance front end, High impedance front end, Trans- impedance front end amplifiers, Quantum limit, Eye diagrams. Line coding: RZ, NRZ, Block codes. Point to Point Links – System considerations, Link Power Budget, Rise Time Budget.",
+          "hours": 9
+        },
+        {
+          "title": "MEASUREMENTS AND SDH/SONET:",
+          "topics": "WDM Concepts & Components: Overview of WDM, WDM components: 2 x 2 fiber coupler, Isolator. Measurements of Attenuation and Dispersion, Basics of WDM, DWDM, PDH, SDH. Case Study: AI in Network Management, Broadband for IoT, Introduction to 6G Evolution.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC 353 -ECA",
+      "title": "Information Theory and Advanced Error Control Lab",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        67,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC 354 -ECA",
+      "title": "Optical Fiber Communication Lab",
+      "semester": 6,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        69,
+        69
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC361 A-ECA",
+      "title": "Web Technology",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        70,
+        72
+      ],
+      "units": [
+        {
+          "title": "Introduction to HTML and CSS",
+          "topics": "Web Fundamentals: Architecture of WWW, HTTP/HTTPS protocols, servers, client–server model, URL structure, and the role of Web Browsers vs. Web Servers. HTML: Structure of HTML Document, HTML Tags and Elements, Text Formatting, Lists, Links, Images, Tables, Forms and Input Controls. CSS: Introduction to CSS, CSS Syntax and Selectors, Styling Text, Colors, Backgrounds, Margins, Padding, Inline, Internal and External CSS, Basic Webpage Layout using CSS. Introduction to BOOTSRAP and its components. Exemplar: Create the structural skeleton for an \"Electronic Component Data Sheet\" and enhance the readability by designing using CSS. Task 1: Use a text editor to write an HTML document that includes a <header> for the component name, a <table> for pin configurations, and a <form> for a \"Request Quote\" section. Task 2: Create an external CSS file. Implement the Box Model to create distinct margins and padding between the table and the form. Use a two-column layout to place the image of the component next to its description.",
+          "hours": 8
+        },
+        {
+          "title": "Client-side Technology: JavaScript and DOM",
+          "topics": "Introduction to JavaScript : Features and importance of JavaScript, Client-side vs Server-side scripting, JavaScript syntax and structure, Embedding JavaScript in HTML. Variables, Data Types and Operators, Control Statements and Functions, Arrays and Strings. DOM Manipulation and Event Handling : Accessing HTML elements, Event handling basics (on click, on change, on mouse over), Basic Form Validation. Introduction to E S 6 F e a t u r e s: let and const, Arrow Functions, Template Literals, Default Parameters. Exemplar: Enhance a blogging application using JavaScript by implementing an “Add Entry” feature to dynamically add and display blog posts using DOM manipulation and event handling.",
+          "hours": 10
+        },
+        {
+          "title": "Web Scripting using jQuery and PHP",
+          "topics": "JQuery: Introduction to jQuery, Loading jQuery, selecting elements, changing styles, creating, appending and removing elements, handling events, jQuery Effects, Form Handling using jQuery, Basic Validation using jQuery. PHP: Introduction to PHP, Features, Demo code, PHP SCRIPTS, PHP conditional statements and Loops, Functions, String manipulation, Arrays & Functions, pattern matching, Form handling, Cookies and Sessions tracking, File Handling, Exception Handling, E-mail validations, MySQL with PHP. Exemplar :Design an Interactive Calculator Webpage using jQuery Develop a Student Registration Web Application using PHP and MySQL",
+          "hours": 10
+        },
+        {
+          "title": "Introduction to React.js",
+          "topics": "Introduction to Front-End Frameworks and React.js, Features and Advantages of React.js, Setting up React Environment using Node.js and npm, Introduction to JSX Syntax, Components in React, Props and State Management, Event Handling, Lists, Keys & Forms, Component Lifecycle, Introduction to React Hooks (use State, use Effect), React router, Styling in react. Exemplar: Basic Single Page Application (SPA). Implement a React component named Counter that displays a numeric value starting at 0. Use the use State hook to manage the count. Execute an event handler that increments the count when a button is clicked. Additionally, apply conditional rendering to display the text 'High Alert!' in red only when the count exceeds 10.",
+          "hours": 10
+        },
+        {
+          "title": "Web Security and Search Engine Optimization (SEO)",
+          "topics": "Introduction to Web Security: Basics of Web Security, Need of Web Security, Cyber Threats, Malware, Phishing, Website Vulnerabilities, Web Attacks, Secure Browsing Practices. Web Security Mechanisms: HTTPS, SSL/TLS, Authentication & Authorization, Password Security, Firewalls, Cookies & Sessions, Basic Secure Coding Concepts. Introduction to SEO: Introduction to Search Engine Optimization, Working of Search Engines, Web Crawlers & Indexing, Importance of SEO, Types of SEO (On-page, Off-page, Technical SEO). SEO Tools & Optimization Techniques: Keyword Research, Meta Tags, Backlinks, Page Ranking, Mobile Friendly Websites, Google Search Console, SEO Analysis Tools, Social Media Optimization. Exemplar: 1. Comparison of SEO optimization techniques used by educational, commercial, and social media websites. Students may choose websites with teacher approval. Tools Required: Google Chrome Browser, Internet Connection Online SEO Tools: SEO Site Checkup, GT metrix, Google Page Speed Insights. 2. Case studies on cyber-attacks.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC361 B- ECA",
+      "title": "Digital Image Processing",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        73,
+        75
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Digital Image Processing",
+          "topics": "Fundamental steps in image processing, components of Image Processing, Image formation in the eye, Image Sampling and Quantization, types of images, Image Histogram, image file formats, basic relationships between pixel, mathematical operations performed on images, set operations, color fundamentals, Color Models – RGB, CMY, HSI, chromaticity diagram Exemplar: Smart Traffic Monitoring System using CCTV Image Acquisition Study how digital cameras acquire traffic images and how preprocessing improves vehicle detection accuracy.",
+          "hours": 8
+        },
+        {
+          "title": "Image Enhancement in Spatial Domain",
+          "topics": "Introduction to Image Enhancement, Need for Image Enhancement, Image enhancement fundamentals Spatial Domain Fundamentals, Concept of spatial domain processing, Point processing operations, Neighborhood processing operations, Relationship between pixels and masks .Gray-Level Transformations, Image negative, Log transformation, Power-law (Gamma) transformation, Piecewise linear transformation, Contrast stretching, Gray-level slicing, Bit-plane slicing. Spatial Filtering Techniques, Smoothing Filters: Mean filter, Weighted average filter, Median filter Sharpening Filters, Gradient operators, Laplacian filtering, High-boost filteringNoise Models and Noise Reduction, Gaussian noise, Salt and pepper noise, Periodic noise, Noise removal using spatial filters. Exemplar Medical X-ray Image Enhancement Analyze how enhancement techniques improve visibility of fractures and abnormalities in medical images",
+          "hours": 9
+        },
+        {
+          "title": "Image Enhancement and Segmentation in Frequency",
+          "topics": "Domain (09 Hours) Introduction to Frequency Domain Processing, Fundamentals of frequency domain image processing Spatial domain vs frequency domain processing, Concept of spatial frequency: Low-frequency components, High-frequency components. Frequency Domain Image Enhancement, Low-Pass Filtering (Image Smoothing), Ideal Low Pass Filter (ILPF), Butterworth Low Pass Filter (BLPF), Gaussian Low Pass Filter (GLPF). High-Pass Filtering (Image Sharpening), Ideal High Pass Filter (IHPF), Butterworth High Pass Filter (BHPF), Gaussian High Pass Filter (GHPF), Image Segmentation Techniques, Edge-Based Segmentation, Detection of discontinuities: Roberts operator, Prewitt operator, Sobel operator, Canny edge detector, Threshold-Based Segmentation: Global thresholding, Adaptive thresholding, Region-Based Segmentation, Region growing, Region splitting and merging. Exemplar Defect Detection in Manufacturing Industry .Study segmentation methods used for identifying cracks and defects in electronic components or mechanical parts.",
+          "hours": null
+        },
+        {
+          "title": "Image Compression",
+          "topics": "Need of Image Compression, Image compression model, Types of image compression- Lossy and lossless, Huffman coding for image compression, Compression using Discrete Cosine Transform, 8X8 block DCT, processing pipeline, Wavelet based compression- DWT, Compression ratio, relative data redundancy, compression ratio vs quality trade-off. Exemplar Use of DCT in JPEG Image compression",
+          "hours": 8
+        },
+        {
+          "title": "AI-Driven Computer Vision Systems and Applications",
+          "topics": "Introduction to computer vision, AI-assisted image processing, Basics of machine learning for images Object detection concepts, Face recognition fundamentals, Real-time video processing, Embedded vision systems, Edge AI and IoT vision devices, Ethical issues in AI-based vision systems, Emerging applications: Autonomous vehicles, Smart cities, Healthcare diagnostics, Agriculture monitoring Exemplar: Face Recognition System for Smart Attendance. Analyze the working of AI-based face recognition systems used in modern educational institutions and industries",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC361 C- ECA",
+      "title": "Network & Cyber Security",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        76,
+        78
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Network security and Cryptography",
+          "topics": "Need for security, Principles of security, Types of Security attacks, Security services, Security Mechanisms, A model for Network Security, Substitution techniques (Caesar cipher, Vernam cipher , Playfair cipher), Transposition techniques (Rail fence and Columnar transposition), Symmetric and Asymmetric key cryptography, Steganography. Exemplar : Online banking applications protect customer accounts using passwords, OTPs, and encryption to prevent unauthorized access and financial fraud.",
+          "hours": 9
+        },
+        {
+          "title": "Symmetric, Asymmetric Cryptography and",
+          "topics": "Authentication (09 Hours) Block Cipher, Stream Cipher, Modes of operation in Block Cipher, Symmetric Key Algorithms (DES, AES), Asymmetric Key Algorithms (RSA, Diffie-Hellman Key Exchange), Authentication algorithms, SHA, MAC, Passwords, Authentication Tokens, Certificate-based Authentication, Biometric Authentication, Kerberos, Key Distribution Center (KDC). Exemplar: Secure Authentication and Encrypted Communication System",
+          "hours": null
+        },
+        {
+          "title": "Internet Security Protocols",
+          "topics": "Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Hyper Text Transfer Protocol (SHTTP), Time Stamping Protocol (TSP), Electronic Money, Email Security, Security in 5G, Virtual Private Network (VPN), IoT Security, IPsec, Countermeasures: Firewall, Secure Inter-branch Payment Transactions, Virtual E-Lections. Exemplar: Network Security Analysis using Wireshark",
+          "hours": 9
+        },
+        {
+          "title": "Foundations of Cyber Security",
+          "topics": "Definition and Importance of Cyber Security, Cyber Security Goals, Cyberspace and its Components, Challenges in Cyberspace: Threats, Vulnerabilities and Risks. Evolution of Cybersecurity, Cyber Attacks and Malware, Intrusion Detection and Prevention Systems, Securing Your Digital Presence: Password Security and Management, Multi-Factor Authentication (MFA), Social Engineering & Online Scams, Secure Browsing and Phishing Awareness, Ransomware. Common Web Vulnerabilities: SQL Injection, Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF). Exemplar: Wanna Cry ransomware, phishing and social engineering incidents, MFA bypass scenarios, AI-enabled deep fake attacks, IDS/IPS deployment examples (Snort/Suricata), and email authentication mechanisms.",
+          "hours": 9
+        },
+        {
+          "title": "Cyber Ethics and Cyber Governance",
+          "topics": "Cyber Laws, Cyber Crimes: Definition, Classification and The Vicious Cycle of Cybercrime. Cyber Ethics and Professional Responsibility: Ethical Hacking Concepts, Responsible Use of Social Media, Professional Ethics for Engineers. Data Privacy and Cyber Governance: Personal Data Protection Concepts, Data Breach and Privacy Risks, Cyber Security Policies and Governance, National Cyber Security Policy (India), International Cyber Security Standards, Introduction to: ISO/IEC 27001, GDPR (General Data Protection Regulation), Careers in Cyber Security. Exemplar: Misuse of organizational computer resources violating professional ethics and cyber policies.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361 D- ECA",
+      "title": "CMOS Process Technology",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        79,
+        80
+      ],
+      "units": [
+        {
+          "title": "Introduction to MOS Technology and CMOS Fundamentals",
+          "topics": "IC evolution: SSI, MSI, LSI, VLSI and Moore's Law, MOS structure, NMOS and PMOS transistor operation, Long Channel I-V Characteristics, MOS Capacitance Model, Non- Ideal I- V Effects: mobility degradation, velocity saturation, channel length modulation, body effect, CMOS technology and advantages, CMOS inverter: Pull up/Pull down, Operation and VTC, Noise margins, delay, Power dissipation: Static and Dynamic, SPICE modeling of MOSFET, DC, & transient analysis. Exemplar: Apple A17 Pro (3nm inverter with ±0.3V threshold), Intel Core i7 (power dissipation calculation), Smartphone processors (VTC characteristics), NAND flash memory (MOS capacitor basics), Laptop CPUs)",
+          "hours": 8
+        },
+        {
+          "title": "CMOS Logic and Layout Design",
+          "topics": "CMOS NAND and NOR gates, Transmission gate basics, Design of Combinational circuits using CMOS and TG, Calculation of W/L ratio, Stick diagrams and lambda-based design rules, CMOS layout layers and mask concepts, Layout design of inverter, NAND and NOR gates, Introduction to DRC and LVS Exemplar: S a m s u n g SRAM cells (NAND/NOR gates), Intel microprocessor data path (transmission gates), FPGA lookup tables (logic design), Qualcomm Snapdragon (W/L ratio optimization), ARM Cortex cores (stick diagrams with lambda rules)",
+          "hours": 8
+        },
+        {
+          "title": "CMOS Fabrication Process – I (Wafer Preparation & Early",
+          "topics": "Processes) (09 Hours) Wafer Manufacture: MGS, EGS, Silicon crystal growth: CZ and FZ methods, Wafer formation, Thermal oxidation: Dry and wet oxidation, Doping Processes, Epitaxy: VPE and MBE basics, Photolithography: Positive and negative photoresists, Masking, exposure and development, Optical lithography basics, Cleanroom concepts, contamination control and wafer inspection techniques. Exemplar: T S M C wafer fab (silicon crystal growth, RCA cleaning), Intel cleanroom (thermal oxidation), Samsung foundry (photolithography masks), VLSI fab epitaxy (VPE/MBE basics), Semiconductor fab contamination control (yield improvement).",
+          "hours": null
+        },
+        {
+          "title": "CMOS Fabrication Process – II (Doping, Etching, Deposition,",
+          "topics": "Metallization) (09 Hours) Diffusion and ion implantation, Wet and dry etching, RIE, Thin film deposition: PVD and CVD techniques, Polysilicon and dielectric deposition, Metallization and CMP, Isolation techniques: LOCOS and STI, Basic N-well CMOS fabrication flow, CMOS latch-up and prevention, CMOS process integration and yield issues. Exemplar: Intel 14nm Fin FET (ion implantation, RTA dopant activation), TSMC 5nm (RIE etching trenches), Samsung 3D NAND (CVD deposition layers), SK Hynix HBM memory (CMP planarization), Apple A15 (STI isolation, metallization, latch-up prevention)",
+          "hours": null
+        },
+        {
+          "title": "Advanced CMOS Technologies and Applications",
+          "topics": "MOSFET Scaling, Short-Channel Effects: Oxide breakdown, DIBL, GIDL, Gate tunnel Current, NBTI, High- k dielectric and metal gate technology, Advanced CMOS devices: FinFET, SOI and GAA, , 3D ICs, TSV and advanced packaging basics, Semiconductor characterization techniques: SEM, TEM and SIMS basics, Emerging applications and future trends in nanoscale CMOS technology Exemplar: Suggested Activity: NVIDIA H100 GPU (5nm FinFET), Apple A17 Pro (3nm GAA), IBM PowerPC (SOI technology), SK Hynix HBM3 (3D IC, TSV), Tesla autopilot chip (DIBL, short- channel effects, AI/automotive applications)",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362 A- ECA",
+      "title": "Power Electronics",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        81,
+        83
+      ],
+      "units": [
+        {
+          "title": "Study of Power Devices",
+          "topics": "Construction, V-I characteristics, switching characteristics of SCR, Gate characteristics of SCR, Turn on and Turn Off Mechanism of SCR , Gate Triggering Circuits, various repetitive and non-repetitive ratings of SCR, Over voltage, over current, di/dt and dv/dt protection circuits and their design, Power MOSFET, IGBT, GTO, Triac, UJT Construction working and their characteristics , Introduction to SiC MOSFET (Silicon Carbide MOSFET) and GaN FET (Gallium Nitride Field Effect Transistor). Exemplar: SCR Ringing Circuit / UJT Relaxation Oscillator, Snubber Circuit, IGBT & MOSFET Driver Circuit",
+          "hours": 12
+        },
+        {
+          "title": "AC to DC Power Converters",
+          "topics": "Concept of line and forced commutation, Single phase Semi and Full converters using SCR for R and R- L loads and its performance analysis with numerical , Effect of source and load inductance, three phase half controlled Fully controlled bridge converter for R load and its performance analysis. Exemplar: Metro and Railway DC drive systems, IC Based Phase Angle Control Rectifier, Simulation of Single- Phase Full-Controlled Bridge Converter",
+          "hours": 6
+        },
+        {
+          "title": "DC to AC Converters- Inverters",
+          "topics": "Single phase half and full bridge square wave inverter for R and R-L load using MOSFET / IGBT and its performance analysis and numerical, Cross conduction in inverter, need of voltage control and classifications of voltage control techniques, control of voltage using SPWM (Sinusoidal PWM) and SVPWM (Space Vector PWM, concept and need of harmo nic elimination / reduction in inverters, Performance Parameters of Inverter, Three Phase voltage source inverter for balanced star R load with 180 -degree mode of operation. Exemplar: Square-Wave Inverter, Sinusoidal PWM (SPWM) Generator, Variable Frequency Drive (VFD) for AC Induction Motor",
+          "hours": 12
+        },
+        {
+          "title": "DC to DC Converters-Choppers",
+          "topics": "Classification of choppers, Step down chopper and step up chopper for R and RL load and its performance analysis, various control strategies for choppers, types of choppers (isolated and non- isolated) such as type A, B, C, D and E, switch mode power supply (SMPS) such as buck, boost and buck-boost converter. Exemplar Switched-Mode Power Supply (SMPS) for Medical or Industrial Instruments",
+          "hours": 6
+        },
+        {
+          "title": "Power Electronics Applications",
+          "topics": "AC Voltage Controller, Smart LED Driver Systems, battery Charger, Industrial temperature control, DC motor drive, , On-line and Off- line UPS. Electric vehicles- Architecture of EVs, Electric Traction System, BLDC motor control, Battery Management System (BMS) EV Charging Systems, Charging Standards case study of power electronics in electric vehicle and Solar power systems. Exemplar Solar PV Maximum Power Point Tracking (MPPT) System, Smart Phone Fast-Charger / Power Bank Module, Residential Uninterruptible Power Supply (UPS) System",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362 B- ECA",
+      "title": "Robotics & Automation",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        84,
+        86
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Industrial Measurement, Robotics and",
+          "topics": "Automation (08Hours) Static Characteristics: Accuracy, precision, sensitivity, linearity, resolution, hysteresis, threshold, dead zone, drift, and repeatability. Dynamic Characteristics: Speed of response, fidelity, dynamic lag, dynamic error, and frequency response of first and second-order systems. Introduction to Robotics: Evolution and history of robots, Laws of robotics, Types of robots: Industrial robots, Mobile robots, Humanoid robots, Collaborative robots (Cobots), Components of robotic systems, Robot anatomy and Degrees of Freedom (DOF), Coordinate systems and robot workspace. Introduction to automation : Types of automation: Fixed automation, Programmable automation, Flexible automation, Applications in manufacturing and service industries, Introduction to Industry 4.0. Exemplar: Study and comparison of industrial robots used in automotive manufacturing and collaborative robots (Cobots) used in smart factories.",
+          "hours": null
+        },
+        {
+          "title": "Actuators, Drives, Control Loops and End Effectors",
+          "topics": "Control Architectures Open-loop vs. closed-loop systems; functional operation of Proportional- Integral-Derivative (PID) controllers. Fluid Power Basics: Main components of pneumatic systems (FRL unit, directional control valves, cylinders); brief contrast with hydraulic systems. Electrical Drives: Operational comparison of stepper motors, Brushless DC (BLDC) motors, and AC servo motors. Mechanical Transmission: Function of harmonic drives, ball screws, and gearboxes in removing joint backlash. End effectors: Mechanical grippers, Vacuum grippers, Magnetic grippers, Sensor calibration and signal conditioning, Selection criteria for sensors and actuators. Exemplar: Interfacing and performance analysis of IR sensor, ultrasonic sensor, servo motor, and robotic gripper for object detection and handling applications. Factory Conveyor belt, Robotic painting Systems, Machine vision Cameras",
+          "hours": 8
+        },
+        {
+          "title": "Robot Kinematics and Programming",
+          "topics": "Introduction to robot kinematics , Joint coordinates and Cartesian coordinates Forward kinematics, Inverse kinematics basics Robot motion and trajectory planning, Point-to- point and continuous path motion. Robot programming methods: Lead-through programming, Teach pendant programming, Offline programming. Introduction to Arduino/Python programming for robotics : Motion and speed control Introduction to ROS (Robot Operating System), Safety in robotic operation Exemplar: Development of a simple Arduino/Python-based robotic arm movement program for point-to-point motion control and trajectory analysis.",
+          "hours": 9
+        },
+        {
+          "title": "Industrial Automation and PLC Systems",
+          "topics": "Introduction to industrial automation systems, Open-loop and closed-loop control systems PLC: PLC architecture and operation, PLC hardware components, Input and output modules, Ladder logic programming basics, Timers, counters, relays, and memory operations, Sequential control systems, Introduction to SCADA and HMI Industrial communication protocols: Modbus, CAN, Ethernet/IP Industrial automation case studies Exemplar: Design and simulation of PLC-based automatic water level control or traffic light control system using ladder logic programming.",
+          "hours": 9
+        },
+        {
+          "title": "Applications of Robotics and Automation",
+          "topics": "Industrial robotic applications: Material handling, Welding robots, Spray painting robots, Pick-and- place robots. Pick-and-Place Robotic System: Sensing Unit: Proximity Sensor / IR Sensor, Detects object presence and position Controller Unit: Arduino / PLC / Embedded Controller (Processes sensor data and controls robot movement). Robotic Manipulator: Servo Motors with Gripper, Performs pick-and-place operation. Automated Conveyor Belt System: Object Detection Unit: IR / Photoelectric Sensors, Detects object movement and position Control Unit: PLC with Ladder Logic, Controls conveyor sequence and timing Conveyor Drive System: DC Motor / Induction Motor, Drives conveyor movement",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC362 C- ECA",
+      "title": "Artificial Intelligence",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        87,
+        89
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence, Intelligent",
+          "topics": "Agents and Problem Solving in AI (09Hours) Introduction: Definition and Concept of AI, History and Evolution of AI, Characteristics of Intelligent Systems, Benefits and Limitations of AI, Intelligent Agents: Definition, Structure, Types. Agents and Environments, Types of Environments: Observability : Fully Observable, Partially Observable, Predictability: Deterministic, Stochastic, Dynamics: Static, Dynamic, Continuity: Discrete, Continuous, Interaction and Agents: Single Agent, Multi-Agent, Independence of Action Sequence: Episodic, Sequential, Agent`s Knowledge: Known and Unknown Environment. Problem Solving Agents, Problem Solving Approach to Typical AI Problem, State Space Search, Search Strategies: Uninformed, Informed, Heuristics. Constraint Satisfaction Problems, Constraint Propagation, Backtracking and look ahead strategies Search. Exemplar: Google Assistant, Netflix, Google Map, Robotic Vaccum Cleaner, Chess, Pocker Game, Calculator, Airline Booking System.",
+          "hours": null
+        },
+        {
+          "title": "Search Techniques",
+          "topics": "Uniformed Search Techniques: Breadth First Search (BFS), Depth First Search (DFS), Uniform Cost Search. Informed (Heuristic) Search Techniques: Best First Search, Greedy Search. Optimal Search: A* Algorithm. Heuristic Function, Generate and Test, Hill Climbing, Beam Search, Tabu Search. Constraint Satisfaction Problems (CSP), Game Playing: Minimax Algorithm, Alpha-Beta Pruning, Introduction to Reinforcement Learning Concepts, AI based Optimization Techniques. Exemplar: Shortest Route-Finding Problem, Puzzle Problem, Social Media Friend Search, Maze solving Robot, GPS Navigation, Robot Navigation, Advanced Game Engines, Autonomous Vehicles and Robotics, Alpha Go, Robot Navigation, Airline Scheduling System.",
+          "hours": 9
+        },
+        {
+          "title": "Knowledge Representation and Inference",
+          "topics": "Knowledge Based Agents: Knowledge Representation, Types of Knowledge, Structured Representation of Knowledge, The Wumpus World problem, Logical Agents. Propositional Logic: Propositional Theorem Proving, Effective Propositional Model Checking, Agents Based on Propositional Logic, Predicate Logic, First Order Logic: Representation Revisited, Syntax and Semantics of First Order Logic, Knowledge Engineering in First Order Logic. Rule based Expert System, Rules. Inference Mechanism: Unification, Reasoning, Resolution, Forward Chaining, Backward Chaining Rule Value Approach. Knowledge Representation: Conceptual Dependency, Frames, Semantic nets. Exemplar: Amazon and Alexa, Netflix, Google Assistant, BBC Interactive News, Chatbots, IBM Watson, ChatGPT, Microsoft Copilot, Tesla Autonomous Driving AI.",
+          "hours": 9
+        },
+        {
+          "title": "Planning, Learning and Analysis in Expert Systems",
+          "topics": "AI Planning: Block World Problem in Artificial Intelligence, Goal Tree in AI Problem Solving, Non- linear Planning for Intelligent Systems, Hierarchical Planning in AI, Goal Stack Planning Techniques. AI Learning Concepts: Definition of Learning in AI, Forms of Learning, Learning by Taking Advice, Learning in AI Problem Solving, Inductive Learning, Explanation Based Learning (EBL), Formal Learning Theory, Ensemble Learning Methods. AI Expert Systems: Intelligent Systems vs Expert Systems, Architec ture of AI Expert Systems, Roles and Applications of Expert Systems, Knowledge Acquisition in AI Systems, Meta Expert System Shells. Analysis in Expert System: Knowledge Base, Inference Engine, Explanation Facility, Mechanism: Rule Matching, Handling Uncertanity, Reasoning. Exemplar: Automated Warehouse Robots, GPS Route Planning, Spam Email filtering, Medical Diagnosis Systems, Banking Fraud Detection, Intelligent Tutoring System, Industrial Equipment Logs to Perform Fault Diagnosis and Suggest Repairs.",
+          "hours": 9
+        },
+        {
+          "title": "Emerging AI Applications and Ethics",
+          "topics": "AI in Natural Language Processing (NLP), Speech Recognizer, Computer Vision, Healthcare, Education, Banking and Finance, Transportation and Smart Mobility. Cyber Security, E-Commerce and Business, Social Media, Security. AI in Robotics: Robotic Sensors, Domestic Robots, Agricultural Robots, Edge AI & Tiny ML basics. Philosophy and Ethics of AI: Ethical Issues, Safety, Privacy and Surveillance, Manipulation of behavior, Bias in Decision Systems, Social Impact of AI Systems. Future AI Technologies: Explainable AI (XAI), Generative AI (Gen AI), Case Study. Exemplar: Digital payments, Smart Harvesting, Self Driving Cars, Smart Navigation, Green AI, Face Recognition, Chatbots, Google Translate, Smart Cities, Autonomous Assistants, Workflow Automation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC362 D- ECA",
+      "title": "Industrial IOT",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        90,
+        92
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial IoT and Industry 4.0",
+          "topics": "IIoT: Introduction to Industrial Internet of Things (IIoT), Design requirements of IIoT, Industrial Internet systems – Design, impact and benefits, industrial sensing, industrial processes and applications of IIoT. Industry 4.0: Development p h a s e s o f industrial revolution, Industry 4.0 versus traditional automation, Design requirements and Drivers of Industry 4.0, Impacts and Applications of Industry 4.0, Industry 4.0 versus IIoT Exemplar: Industrial Machine Health Monitoring, Smart Factory Monitoring System, Smart Supply Chain",
+          "hours": 8
+        },
+        {
+          "title": "Hardware Components of Industrial IoT",
+          "topics": "Industrial Sensors such as Proximity, pressure, temperature, flow, and vibration sensors, MEMS technology. Actuators like Stepper motors, hydraulic/pneumatic actuators, and smart valves. Signal Conditioning including Analog-to-Digital Conversion (ADC), noise filtering, and isolation techniques. Interfacing techniques, Integration with PLCs (Programmable Logic Controllers) and Distributed Control Systems (DCS). Exemplar: Temperature Sensor (RTD PT100), Pressure Sensor (Piezoelectric), Flow Sensor (Electromagnetic Flowmeter), Proximity Sensor (Inductive), Vibration Sensor (MEMS Accelerometer)",
+          "hours": 8
+        },
+        {
+          "title": "Industrial IoT Reference Architecture",
+          "topics": "IIoT Reference Architecture (IIRA): Architectural Viewpoints, Design Drivers and Differentiating between standard IoT and IIoT architectural requirements. Layers of Industrial IoT & Functional Domains: Functional Decomposition and Five- Layer Model. Industrial IoT Network Architecture: Topology Design, Edge-Fog-Cloud Computing Model, Industrial Gateways, Mapping a typical smart factory network layout. Three-Tier IIoT Architecture: The Edge Tier, The Platform Tier, The Enterprise Tier, Data Flow. Gateway Mediated Edge Connectivity and Management architecture, Layered Data bus Architecture , System of Systems Architecture, IOT protocol landscape from devices to application. Exemplar: IIC Communication and Control Testbed for Smart Microgrids, Oil and Gas Pipeline and Asset Monitoring",
+          "hours": 9
+        },
+        {
+          "title": "Edge Computing for IIoT",
+          "topics": "Concept and need of Edge Computing in Industrial IoT (IIoT) Evolution from Cloud Computing to Edge Computing. Difference between Edge Computing, Fog Computing, Cloud Computing, Characteristics and advantages of Edge Computing Real-time data processing in industrial environments. Communication Protocol Layers in IIoT, Access & Middleware Protocols, Criteria for choosing protocols based on bandwidth, power, and latency constraints. (OPC-UA, MQTT, Modbus, PROFINET, CoAP, AMQP, BLE, LoRaWAN) Exemplar: Think self-stocking fridges/self-driving cars, drone-delivered pizzas, Smart Factory Temperature Monitoring using Edge Computing, Conveyor Belt Fault Detection using Edge AI.",
+          "hours": 9
+        },
+        {
+          "title": "IIOT Data Analytics and Case Studies",
+          "topics": "Introduction to Industrial Data Analytics, Data generation in IIoT systems, Data preprocessing and cleansi, Data visualization techniques, Real-time and batch analytics. Industrial IoT- Application Domains: Healthcare, Power Plants, Inventory Management & Quality Control, Plant Safety and Security (Incl uding AR and VR safety applications), Facility Management. Case Study1: Milk Processing and Packaging Industries. Case Study2: Virtual Reality Lab Exemplar: Food Industry, Agriculture Industry, Healthcare",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-363(A) –ECA",
+      "title": "Web Technology Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        94,
+        95
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363 (B) –ECA",
+      "title": "Digital Image Processing Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        96,
+        97
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363 (C) -ECA",
+      "title": "Network & Cyber Security Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        98,
+        99
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363 (D) –ECA",
+      "title": "CMOS Process Technology Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        100,
+        101
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-362 (A) –ECA",
+      "title": "Power Electronics Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        103,
+        104
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-362 (B)–ECA",
+      "title": "Robotics and Automation Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        105,
+        106
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-362 (C)– ECA",
+      "title": "Artificial Intelligence Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        107,
+        107
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-362 (D)– ECA",
+      "title": "Industrial IoT Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        108,
+        109
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM 371-ECA",
+      "title": "Database Management System",
+      "semester": 6,
+      "type": "Multidisciplinary Minor",
+      "credits": 1,
+      "pages": [
+        110,
+        112
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database Management System",
+          "topics": "Introduction to Database Management Systems, Importance of Relational Database Systems, Database System Applications. Relational Model: Structure of relational databases, Domains, Relations, Keys: Super key, Candidate key, Primary key, foreign key, Relational algebra – fundamental operators and syntax, relational algebra queries, Normalization & Codd’s Rule, Entity-Relationship model: Basic Concepts, Entity Set, Relationship Sets and Weak Entity Sets, Mapping Cardinalities, E-R diagrams Extended E-R Features, Converting E-R & EER diagram into tables. Exemplars: Real Time examples of Railway/Bus/Aeroplane/Reservation Systems/Hospital Management Systems/Examination Systems etc.",
+          "hours": 3
+        },
+        {
+          "title": "Basics of SQL",
+          "topics": "Introduction to SQL, features and advantages of SQL, types of SQL commands (DDL, DML, DQL, DCL, TCL), SQL data types and literals, SQL constraints, database creation, table creation and modification, SQL commands such as CREATE, ALTER, DROP & TRUNCATE, data manipulation using INSERT, UPDATE, and DELETE, data retrieval using SELECT statement, filtering data using WHERE clause, SQL operators, sorting data using ORDER BY, pattern matching using LIKE, handling null values, aggregate functions (COUNT, SUM, AVG, MIN, MAX), grouping data using GROUP BY and HAVING. Exemplar : Creating databases and tables, applying SQL data types and constraints, executing DDL and DML commands, writing queries using SELECT, WHERE, and ORDER BY",
+          "hours": 3
+        },
+        {
+          "title": "Transactions & SQL Joins Operations",
+          "topics": "Introduction to Relational Databases, Need for Joins in DBMS, Cartesian Product (Cross Join), Inner Join, Left Outer Join, Right Outer Join, Full Outer Join, Natural Join, Self Join, Joining Multiple Tables, Join Operations with WHERE Clause, Transaction & its ACID Properties, Transaction control commands (COMMIT, ROLLBACK, SAVEPOINT), SQL security commands (GRANT, REVOKE), Applications of SQL Joins. Cursors: Introduction to Cursors, Types of Cursors: Implicit and Explicit. Cursor operations: Declare, Open, Fetch, and Close. Cursor attributes (%FOUND, %NOTFOUND, %ROWCOUNT, %ISOPEN), Parameterized cursors and Cursor FOR loops, Applications of cursors. Exemplar: Design and implement a Library Management System database to demonstrate SQL joins, transaction control, security commands, and cursor-based report generation.",
+          "hours": 3
+        },
+        {
+          "title": "PL/SQL Programming",
+          "topics": "Stored Procedures & Stored Function: Introduction and advantages of Stored Procedures. Creating, executing, modifying, and deleting procedures. Use of variables, exception handling, and nested procedures. Introduction to Stored Functions and comparison with Procedures. Creating functions with parameters and return values. Trigger: Introduction and purpose of Triggers. Types of Triggers: DML, DDL, and Database Triggers. BEFORE, AFTER, and INSTEAD OF triggers. Statement-level and Row-level triggers. Use of OLD and NEW references, Applications in auditing, data integrity and security.",
+          "hours": 3
+        },
+        {
+          "title": "Non-SQL Database",
+          "topics": "Types of Data: structured, unstructured and semi structured data. NoSQL Database: Introduction, need, features. Types of NoSQL Databases: Key Value store, Document store graph, wide column store, BASE properties, DATA consistency model, ACID vs BASE MongoDB (with syntax and usage): CRUD operations, Indexing, Aggregation, Map Reduce, Replication, Sharding. Case Study: Study NoSQL Database Selection for a Social Media Platform",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "MDM 371-ECA",
+      "title": "Database Management System Lab",
+      "semester": 6,
+      "type": "Multidisciplinary Minor",
+      "credits": 1,
+      "pages": [
+        113,
+        114
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE 372-ECA",
+      "title": "Mini-Project",
+      "semester": 6,
+      "type": "Vocational & Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        115,
+        117
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC 381-ECA",
+      "title": "Internship/OJT",
+      "semester": 6,
+      "type": "Experiential Learning Course",
+      "credits": 4,
+      "pages": [
+        118,
+        125
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

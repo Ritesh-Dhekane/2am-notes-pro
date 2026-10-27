@@ -1,0 +1,760 @@
+{
+  "id": "revised-te-instrumentation-and-control-engineering-2024-pattern-syllabus-21102026",
+  "kind": "programme",
+  "programme": "Third Year of Engineering - Instrumentation & Control Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-INC",
+      "title": "Embedded Systems",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded System and 8051",
+          "topics": "Microcontroller (08 Hours) General purpose computer systems, history, classifications, applications, and purpose of embedded systems. Microprocessors and microcontrollers, RISC and CISC controllers, Blocks of 8051 Microcontroller, General purpose registers. Pin diagram of 8051 microcontrollers. Clock circuit, reset circuit, phase and state in machine cycle and timing diagram of 8051, I/O Ports structure. Memory organization: Program and Data Memory Map, Internal RAM, Internal ROM. External Memory Addressing and Decoding Logic. Stack, Stack Pointer and Stack operation. Addressing Modes: Immediate, Register, Direct, Indirect, Indexed, Relative and bit addressing. Modes of operation: Power down and idle mode.",
+          "hours": null
+        },
+        {
+          "title": "Timers/Counters, Interrupt, Serial Communication",
+          "topics": "Timers & Counters: Timers/Counters logic diagram and its operation in various modes. Configuration of Timer/Counter using SFRs: TMOD, TCON. Interrupt: Interrupt structure, vector address, priority and operation. ISR – Interrupt Service Routine. Configuration of interrupts using SFRs - IE, IP. Serial Communication: Various modes, Configuration using SFRs - SCON, SBUFF, PCON.",
+          "hours": 8
+        },
+        {
+          "title": "Instructions and Programming",
+          "topics": "Instruction set: Data Transfer, Arithmetic, Logical, Branching, Machine Control, Stack operations and Boolean operations. Looping, Counting, Sorting, Indexing, Data manipulation, Masking, Stack operation, Conditional programming. Software development cycle: editor, assembler, cross -compiler, linker, compiler. Assembler Directives: ORG, DB, EQU, END, CODE, DATA. Programming: Time delay loop, Look-up table, Bit addressability.",
+          "hours": 8
+        },
+        {
+          "title": "External Device Interfacing with 8051 Microcontroller",
+          "topics": "Interfacing of Pushbutton, Matrix keypad, Limit Switches, Optical Sensors, 8 bit ADC, 8-bit DAC, LM35, RTD, Thermocouple, LDR, Relays, LEDs, & -Segment Display, LCD Display, DC and Stepper motor using ULN2003 and L298.",
+          "hours": 8
+        },
+        {
+          "title": "Application Development",
+          "topics": "Develop an embedded applications including Block diagram, interface design, flowchart, and programming for Temperature ON/OFF controller, Speed Control of Induction Motor, Speed Control of D. C. Motor, Environmental parameter monitoring, Traffic Control System.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-INC",
+      "title": "Industrial Automation-I",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Automation and PLC",
+          "topics": "Fundamentals, need, role, types and evolution of industrial automation; PLC basics including definition, architecture, types and selection criteria; DI, D O, AI, AO signal processing, I/O interfacing, sinking and sourcing, program scan cycle, adv antages and disadvantages; and introduction to PLC programming languages as per IEC 61131 -3. Overview of major PLC manufacturers and comparison of specifications.",
+          "hours": 7
+        },
+        {
+          "title": "Basic PLC Programming",
+          "topics": "PLC input and output instructions; Boolean algebra and logic gates, development of relay logic; ladder p rogramming for Boolean equations, process control applications; T imer and counter instructions; and applications of timers and counters in industrial processes.",
+          "hours": 7
+        },
+        {
+          "title": "Advanced PLC Programming",
+          "topics": "Comparison instructions: Equal, Not equal, Less than, Greater than, Less than or equal to, Greater than or equal to, Limit test, Masked compare equal to; Mathematical operations: ADD, SUB, MUL, DIV, SQR and NEG; Logical operations: AND, OR, NOR, EX -OR and NOT; Data handling instructions: MOVE, Masked MOVE and CLEAR; Program control instructions: Jump & Label, Skip and Master Control Relay (MCR); Advanced instructions: Bit pattern in a register, shift register and sequencer; and applications using advanced PLC programming instructions.",
+          "hours": 10
+        },
+        {
+          "title": "Analog PLC Programming, HMI and Industrial Drive Systems",
+          "topics": "Analog PLC programming; PID control; Fundamentals o f HMI, need, advantages; VFD: Working principle, construction, speed control methods, modes, applications; Motion control: Introduction, elements, block diagram and applications; PLC interfacing to HMI, VFD, hydraulic and pneumatic systems.",
+          "hours": 8
+        },
+        {
+          "title": "Supervisory Control & Data Acquisition (SCADA)",
+          "topics": "Definition, need, applications and benefits of SCADA; architecture and components; types of SCADA; PLC vs RTU; functions including data acquisition, supervisory control, trending, historical data, reporti ng and alarm management; Overview of SCADA software; and programming techniques such as page creation, sequencing, graphics, animation and basic application development.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-INC",
+      "title": "Modern Control Theory",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to State Space",
+          "topics": "Terminology of state space (state, state variables, state equations, state space and state model), state space representation, physical variable state space representation, phase variable forms (companion forms: controllable canonical form and observable canonical form). Canonical variable forms: diagonal canonical and Jordan canonical forms, determination of transfer function from state space Model.",
+          "hours": 6
+        },
+        {
+          "title": "Analysis of control system in state space",
+          "topics": "Concept of Eigen values and Eigen vectors, diagonalization of plant matrix through similarity transformations, Vander Monde matrix, solution of homogeneous state equation, state transition matrix: definition, derivatio n and properties, computation of state transition matrix by Laplace transform method, Cayley Hamilton method, similarity transformation method, solution of non - homogeneous state equation",
+          "hours": 8
+        },
+        {
+          "title": "Design concepts in state space",
+          "topics": "Concept of contr ollability: definition, controllability matrix, concept of Observability: definition, Observability matrix. Investigation of state controllability and state Observability using Kalman's test, Gilbert's test, State variable feedback, control system design v ia pole placement: necessary and sufficiency condition, computation of state feedback gain matrix K through sufficiency condition, Ackermann formula and coefficient comparison method. State observer: necessity, types, theory, principle of duality between s tate feedback gain ma trix and observer gain matrix , design of full order state observer.",
+          "hours": 10
+        },
+        {
+          "title": "Sampled data Control Systems",
+          "topics": "Introduction to discrete time control systems, necessary for digital control system, block diagram of digital control systems, operation and equivalents of ADC and DAC, analytical equivalent block diagram of digital control system, sampling and reconstruction process, sampling theorem, Operation and transfer function of zero order hold.",
+          "hours": 8
+        },
+        {
+          "title": "Analysis of Sampled data Control Systems",
+          "topics": "Solution of difference equations using Z transforms method, pulse transfer function, stability analysis of discrete time control systems using Jury stability test, bilinear Transformation and Routh stability test.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-INC",
+      "title": "Embedded Systems Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-INC",
+      "title": "Industrial Automation-I Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-306-INC",
+      "title": "Modern Control Theory Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        24,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-321-INC-A",
+      "title": "Analytical Instrumentation",
+      "semester": 5,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Instrumental Methods of Chemical",
+          "topics": "Analysis (08 Hours) Introduction to Chemical Instrumental analysis, Advantag es over Classical (wet) methods , Classification of Analytical Instruments, Units used in chemical ana lysis, Electromagnetic Spectrum, Light source s and detectors -Photomultipliers, Electron Capture Detector (ECD) , Thermal Conductivity Detector (TCD), Flame Ionization Detector (FID).",
+          "hours": null
+        },
+        {
+          "title": "Spectrometric Methods",
+          "topics": "Laws of Photometry, UV and Visible Spectrophotometry, Single Beam and Double Beam instruments -Instrumentation (sources, detectors), Emission Spectrometry, F lame Emission Spectrophotometer, Atomic Absorption Spectrophotometer (AAS), Atomic Emission Spectrophotometer, Industrial and Scientific applications.",
+          "hours": 8
+        },
+        {
+          "title": "Chromatography Techniques",
+          "topics": "Liquid Chromatography (LC), High Performance Liquid Chromatography (HPLC), Types of columns, Detectors and Recorders, Applications of Chromatography",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Analyzers & Pollution Monitoring",
+          "topics": "Flue gas analysis (thermal conductivity principle), Oxygen analyzers (paramagnet ic principle, zirconia sensors) , Pollution monitoring instruments - CO, NOx, H 2S analyzers, Turbidity analyzers, Industrial applications",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Analytical Techniques",
+          "topics": "A. Separation Methods-Membrane Separation Processes-Microfiltration, ultrafiltration, Reverse osmosis, Dialysis and Electrodialysis, Applications B. Mass Spectrometry (MS) -Principle and Ionization Methods-Mass Analyzers -Magnetic Deflection, Time of Flight (TOF), Quadrupole, Double Focusing, Detectors and applications C. Radioactive Instrumentation-Nuclear radiation detectors -GM Counter ,Scintillation Counter ,Ionization Chamber ,Solid-State Detectors ,Gamma Spectrometry ,Industrial Applications",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-321-INC-B",
+      "title": "Biomedical Instrumentation",
+      "semester": 5,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Bio-potential Measurement and Bio-transducers",
+          "topics": "Electrode-Electrolyte interface, half-cell potential, Polarization- polarizable and non-polarizable electrodes, Ag/AgCl electrodes, Electrode circuit model; motion artifact. Body Surface recording electrodes for ECG, EMG, and EEG. Internal electrodes - needle and wire electrodes. Micro electrodes- metal microelectrodes, Electrical properties of microelectrodes. Electrodes for electric stimulation of tissue. Bio-transducers: Physiological parameters & suitable transducers for its measurements, operating principles & specifications for the transducers to measure parameters",
+          "hours": 8
+        },
+        {
+          "title": "Cardiovascular System and Bio-signal Processing",
+          "topics": "Heart Structure, Cardiac Cycle, ECG Theory, ECG Electrodes, Electrocardiograph, Vector cardiograph Analog Signal Processing of Bio -signals, Amplifiers, Transient Protection, Interference Reduction, Movement Artifact Circui ts, Active Filters, Rate Measurement, Averaging and Integrator Circuits, Transient Protection Circuits",
+          "hours": 8
+        },
+        {
+          "title": "Cardiovascular Measurements",
+          "topics": "Heart Sounds, Phonocardiography, Blood Pressure Measurement (Invasive and Non-invasive), Blood Flow meters: Magnetic, Ultrasonic, Thermal Convection Methods, Cardiac Output Measurement (dye dilution method), Plethysmography",
+          "hours": 8
+        },
+        {
+          "title": "Neuro-muscular System and Biomedical Measurements",
+          "topics": "Brain & its parts, different waves from different parts of the brain, brain stem, cranium nerves, structure of neuron, Neuro muscular transmission, Electroencephalography, Evoked Response, EEG amplifier, Biofeedback Classification of muscles: Muscle contraction mechanism, Myoelectric voltages, Electromyography (EMG)",
+          "hours": 8
+        },
+        {
+          "title": "Special Senses and Respiratory Instrumentation",
+          "topics": "Ear: Mechanism of hearing and basic audiometry. Eye: Anatomy of the eye, visual acuity, and common errors of vision. Respiratory Instrumentation: Process of breathing, spirometers, airflow measurement, oxygenators (bubble and membrane type). Gas Analyzers: Infrared gas analyzer, Oxygen analyzer, Nitrogen analyzer, and Ventilators.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-321-INC-C",
+      "title": "Machine Learning",
+      "semester": 5,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "Basics of Machine Learning, Types: Supervised, Unsupervised, Reinforcement Learning, Applications in Instrumentation (process control, fault detectio n, predictive maintenance), Data types and datasets, ML workflow.",
+          "hours": 7
+        },
+        {
+          "title": "Data Preprocessing & Visualization",
+          "topics": "Data collection from Sensors and Instruments, Data cleaning (missing values, noise filtering), Feature Scaling and Normalization, Dat a Visualization Techniques, Introduction to Python libraries: NumPy, Pandas, Matplotlib.",
+          "hours": 7
+        },
+        {
+          "title": "Supervised & Unsupervised Learning Algorithms",
+          "topics": "Supervised Learning Algorithm -Regression: Linear Regression, Polynomial Regression, Classification: k-NN, Decision Trees, Naïve Bayes, Model training and testing, Performance metrics: Accuracy, Precision, Recall Unsupervised Learning Algorithm -Clustering: K -Means, Hierarchical Clustering, Dimensionality Reduction: PCA, Applications in Pattern Recognition and Signal Analysis",
+          "hours": 8
+        },
+        {
+          "title": "Advances in ML",
+          "topics": "Introduction to Neural Networks, Basics of Deep Learning, Time-series analysis (important for sensor data), Introduction to IoT and ML integration",
+          "hours": 6
+        },
+        {
+          "title": "Applications in Instrumentation",
+          "topics": "Fault detection and diagnosis, Predictive maintenance of equipment, Process optimization Smart sensors and automation, Case studies from Industry",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-322-INC-A",
+      "title": "Analytical Instrumentation Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        32,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-INC-B",
+      "title": "Biomedical Instrumentation Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        33,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-INC-C",
+      "title": "Machine Learning Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-331-INC",
+      "title": "Product Design and Manufacturing Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-342-INC",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "Seminar",
+      "credits": 1,
+      "pages": [
+        40,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-INC",
+      "title": "Industrial Automation-II",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Introduction to Distributed Control System (DCS)",
+          "topics": "Distributed Control System (DCS): Introduction, need and evolution, role and location in process plants, functions and key features . DCS architecture: Overall system hierarchy, hardware and software components, Engineering Workstation (EWS), Operator Station (OS), controllers, I/O modules, communication networks, and system interfacing. Specifications, advantages and limitations of DCS. Comparison of DCS, PLC, and SCADA.",
+          "hours": 7
+        },
+        {
+          "title": "DCS Networking & Communication",
+          "topics": "Concept of communication protocols and the OSI model. Communication standards:RS232 and RS485. Industrial communication protocols: Modbus (ASCII/RTU), HART, Foundation Fieldbus, Profibus, Device Net, Control Net, and Industrial Etherne t. OPC and third -party interfaces for data exchange and system integration. Comparison of industrial communication protocols.",
+          "hours": 9
+        },
+        {
+          "title": "DCS Configuration & Control",
+          "topics": "DCS structure, configuration, and redundancy concepts including system hierarchy and reliability aspects. Hardware configuration and system components used in DCS implementation. Concepts of process variables, software variables, tags, and database management in DCS. Basic controller configuration and parameter setting. Sequential controller configuration for batch process applications and controller configuration for continuous process control using function blocks and control strategies.",
+          "hours": 8
+        },
+        {
+          "title": "HMI, Alarm Management, Programming & Operation",
+          "topics": "Introduction to Human Machine Interface (HMI), design principles, features, and requirements. Plant mimic diagrams, animation, operator stations, loggers, recorders, trend displays, and data archiving. Alarm philosophy, prioritization, and management techniques. DCS programming based on IEC 61131 -3 standards including Function Block Diagram (FBD) and Sequential Function Chart (SFC). DCS operation including operator roles, logs, reports, trends, system optimization, and use of mobile and remote interfaces.",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Control, IIoT Integration & Applications",
+          "topics": "Advanced control techniques: Fuzzy Logic, Artificial Neural Networks (ANN), Model Predictive Control (MPC). Overview: Integration of DCS with Industrial Internet and IIoT. Introduction to smart manufactu ring and data -driven automation, p redictive main tenance and remote monitoring and cybersecurity basics in industrial systems . Integration with enterprise systems (ERP). Any one industrial application of DCS.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-INC",
+      "title": "Digital Signal Processing",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Signal Processing",
+          "topics": "Basic Block diagram of Digital Signal Processing, Basic Elements of Digital Signal Processing Applications of Digital Signal Proces sing. Sampling Theorem, Review of LTI discrete time systems: Linear Convolution and its properties, representation of LTI system using difference equation, solving difference equations and analysis of discrete -time systems in z -domain, Transfer Function, pole-zero plot. Correlation of Signals: Auto and Cross correlation.",
+          "hours": 7
+        },
+        {
+          "title": "Frequency Domain Analysis",
+          "topics": "Ideal Frequency Selective Filters, Discrete -Time Fourier Series (DTFS), properties of DTFS, The Discrete Time Fourier Transform (DTFT), symmetry properties and theorems of DTFT, Discrete Fourier transform (DFT), properties of DFT, circular convolution, Efficient computation of DFT, Fast Fourier Transform (FFT) algorithms: Radix -2 Decimation- In-Time (DIT) and Decimation - In-Frequency (DIF)FFT algorithms.",
+          "hours": 9
+        },
+        {
+          "title": "IIR filters",
+          "topics": "Introduction to analog IIR filters, Butterworth approximation, Chebyshev approximation. Design of digital IIR filter: impulse invariance method, bilinear transformation, approximation derivative method. Frequency transformations in analog and digital domain. Implementation of discrete-time systems: Infinite Impulse Response (IIR) structures for the realization.",
+          "hours": 8
+        },
+        {
+          "title": "FIR filters",
+          "topics": "Introduction to FIR filters, linear phase filters, symmetric and ant i-symmetric filters, FIR design by Fourier approximation, window method, frequency sampling method, comparison between FIR and IIR filters. Implementation of discrete -time systems: Finite Impulse Response (FIR) structures for the realization.",
+          "hours": 8
+        },
+        {
+          "title": "Multirate Digital Signal Processing",
+          "topics": "Multirate Digital Signal Processing: Introduction, Down sampling, Decimation, Up sampling, Interpolation, Sampling Rate Conversion, Implementation of Decimator and Interpolators, Applications of Multi Rate Signal Processing.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-INC",
+      "title": "Industrial Automation-II Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-354-INC",
+      "title": "Digital Signal Processing Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-361-INC-A",
+      "title": "Power Plant Instrumentation",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Thermal Power Plant",
+          "topics": "Thermal power plant fundamentals including methods of power generation, plant layout, energy conversion processes, and material handling systems. Turbine and generator instrumentation focusing on control, speed, vibration monitoring, and operation of synchronous and induction generators.",
+          "hours": 8
+        },
+        {
+          "title": "Nuclear Power Plant Instrumentation",
+          "topics": "Reactor core instrumentation including neutron flux measurement (source, intermediate, and power range), in-core/ex-core systems, and radiation detection methods for area and personnel monitoring. Safety & Protection Systems focusing on RPS, ECCS instrumentation.",
+          "hours": 6
+        },
+        {
+          "title": "Hydraulic (Hydro) Power Plant Instrumentation",
+          "topics": "Hydro power plant instrumentation including reservoir level measurement, spillway gate control, and flow measurement in penstocks. Turbine and generator s ystems such as governor control, speed/load regulation, blade pitch control, and electrical parameter monitoring with excitation and load sharing. Condition monitoring and automation focusing on vibration, temperature, SCADA-based control, remote operation, and protection against electrical faults.",
+          "hours": 8
+        },
+        {
+          "title": "Solar and Wind Power Plant Instrumentation",
+          "topics": "Study of solar energy systems includes solar resource assessment, PV and solar thermal technologies, system components, advantages, and safety consi derations. Solar radiation measurement and PV instrumentation such as GHI/DNI monitoring, pyrometer and pyrheliometer usage, panel parameters, and MPPT -based power conversion. Study of Wind Energy system, Power in wind, Conversion of wind power, types of wind turbine, and modes of operation, wind mill, wind pumps, wind farms. Grid integration and automation focusing on synchronization, power quality, inverter monitoring and SCADA/IoT -based solar plant control and maintenance.",
+          "hours": 9
+        },
+        {
+          "title": "Tidal and Geothermal Power Plant Instrumentation",
+          "topics": "Tidal energy systems including barrages and stream generators, with instrumentation for water level, flow measurement, turbine monitoring, and environmental parameters. Geothermal power plant instrumentation such as we ll/reservoir measurements, steam cycle monitoring, separator and turbine control, and corrosion/scaling detection. Automation and safety systems focusing on SCADA -based control, grid integration, emission monitoring, leak detection, and environmental protection.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-361-INC-B",
+      "title": "Robotics",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Robotics",
+          "topics": "Definition and history of robotics, Components of robot system, Classification of robots, Degrees of freedom, Asimov's laws of robotics, Robot anatomy (parts) and its working, DOF, Construction of links, Types of joints. Classification of robots: Cartesian, Cylindrical, Sphe rical, SCARA, an d Vertically Articulated Robots, Scope of robotics.",
+          "hours": 8
+        },
+        {
+          "title": "Grippers, Sensors and Actuators",
+          "topics": "Grippers for Robotics - Types of Grippers, Guidelines for design for robotic gripper, Force analysis for various basic gripper systems. Sensors for Robots : position, proximity, vision, temperature , force and torque sensors, applications of sensors in robotics. Actuators: DC motors, AC motors, Stepper motors, and Servo motors.",
+          "hours": 8
+        },
+        {
+          "title": "Robot Kinematics & Dynamics",
+          "topics": "Position Analysis forward and inverse kinematics of robots, including frame representations, transformations, position and orientation analysis, and the Denavit-Hartenberg representation of robot kinematics, the manipulators, the wrist motion. Kinematics of four -axis, five-axis, and six- axis robots. Dynamic Analysis and Forces analysis of robot dynamics and forces.",
+          "hours": 8
+        },
+        {
+          "title": "Programming and Languages for Robotics",
+          "topics": "Robot Programming: Methods of robot programming, WAIT, SIGNAL and DELAY commands, subroutines, Programming Languages: Generations of Robotic Languages, Introduction to various types such as VAL, RAIL, AML, Python, ROS etc.",
+          "hours": 8
+        },
+        {
+          "title": "Robots in Automatic Processing Operations, Assembly",
+          "topics": "& Inspection (08 Hours) Introduction, spot welding, continuous arc welding, sprays coating, other processing operations. Assembly and robotic assembly automation, parts presentation methods, assembly operations, compliance and remote centre compliance (RCC) device, assembly system configurations, adaptable programmable assembly system, designing for robotic assembly, inspection automation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-361-INC-C",
+      "title": "Wireless Sensor Network",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction to Wireless Sensor Networks",
+          "topics": "Overview of W ireless Sensor Networks, Sensor node architecture (processor, memory, transceiver, power unit), Network architectures (flat, hierarchical, clustered), Applications in Industrial Instrumentation and monitoring, Design challenges (energy efficiency, scalabil ity, fault tolerance).",
+          "hours": 7
+        },
+        {
+          "title": "Communication Protocols & Standards",
+          "topics": "Physical and MAC layer issues in WSN, Energy-efficient MAC protocols (S -MAC, T -MAC), Routing protocols: Data -centric (Directed Diffusion), Hierarchical (LEACH), Location-based routing, Wireless communication standards: Zigbee protocol, Bluetooth Low Energy, Performance metrics: latency, throughput, reliability.",
+          "hours": 8
+        },
+        {
+          "title": "Energy Management, Data Handling & Security",
+          "topics": "Energy consumption and power management techniques, Duty cycling and sleep scheduling, Data aggregation and data fusion, Time synchronization (TPSN, RBS),Localization methods, Security in WSN: Encryption, authentication, Secure routing mechanisms",
+          "hours": 8
+        },
+        {
+          "title": "Middleware for Wireless Sensor Networks",
+          "topics": "WSN Middleware Principles, Middleware Architecture, Existing Middleware -MiLAN, (Middleware Linking Applications and Networks), IrisNet (Internet -Scale Resource Intensive, Sensor Networks Services).",
+          "hours": 5
+        },
+        {
+          "title": "Sensor Network Security- Network Security",
+          "topics": "Security in Ad Hoc Wireless Networks - Network Security Requirements. Network Security requirements issues and Challenges in security provisioning Network, Security Attacks, Layer wise attack in wireless sensor networks, possible solutions for Jamming , tampering black hole attack, Flooding attack, Key distribution and Management, Secure Routing –SPINS, Reliability requirements in sensors Networks, Sensor Network Platforms and Tool",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-INC-A",
+      "title": "Artificial Intelligence",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        58,
+        59
+      ],
+      "units": [
+        {
+          "title": "Introduction to AI and Computer-Based Systems",
+          "topics": "Definition and scope of Artificial Intelligence, Evolution of AI systems, Types of AI (narrow AI, general AI – conceptual), Role of computers in AI implementation, AI in Instrumentatio n Engineering Overview of intelligent computer-based control systems, Applications in Industrial Automation",
+          "hours": 8
+        },
+        {
+          "title": "Problem Solving and Search Techniques",
+          "topics": "Problem formulation in AI, State space representation, Search strategies: Uninf ormed sea rch (BFS, DFS concept) , Informed search (heuristic search, A*) , Heuristic functions (basic idea), Applications in Instrumentation and process optimization",
+          "hours": 8
+        },
+        {
+          "title": "Knowledge Representation Techniques",
+          "topics": "Logic-based representation-Rule-based systems, Frames and Semantic Networks, Expert systems Architecture, Inference Engine (forward & backward chaining), Applications in Fault Diagnosis and instrumentation, Applications in Pattern Recognition and Signal Analysis",
+          "hours": 8
+        },
+        {
+          "title": "Intelligent Systems and Reasoning",
+          "topics": "Symbolic reasoning, Uncerta inty in AI (basic introduction) , Fuzzy logi c systems (conceptual overview), Decision-making systems in ins trumentation, Computer-based intelligent control systems, AI-based monitoring systems",
+          "hours": 8
+        },
+        {
+          "title": "AI Applications in Instrumentation Engineering",
+          "topics": "Computer-based process control systems, SCADA and AI integration, Fault detection and diagnostics, systems, Industrial Automation using AI , Robotics in Instrumentation systems, Smart manufacturing and Industry 4.0 overview, Case studies in process industries.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-INC-B",
+      "title": "Power Devices and Control",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        60,
+        61
+      ],
+      "units": [
+        {
+          "title": "Power Semi-Conductor Devices",
+          "topics": "Silicon Controlled Rectifiers (SCR’s), Two transistor analogy, Static and Dynamic characteristics, turn on and turn off methods, UJT firing circuit, Series and parallel connections of SCR’s, Snubber circuit, Line Commutation and Forced Commutation circuits, Power MOSFET, Power IGBT, their characteristics.",
+          "hours": 7
+        },
+        {
+          "title": "AC - DC Converters (1-Phase & 3-Phase Controlled Rectifiers)",
+          "topics": "Phase control technique, Single phase Line commutated converters, Half controlled converters with R, RL and RLE loads, Semi and Fully controlled converters, Bridge connections with R, RL, Three phase converters, Three pulse and six pulse converters, Dual converters (both single phase and three phase).",
+          "hours": 8
+        },
+        {
+          "title": "DC - AC Converters and DC - DC Converters (Choppers)",
+          "topics": "Inverters – Single phase inverter, Basic series inverter, operation and waveforms, three phase inverters (120 , 180 degrees’ conduction modes of operation), Voltage control techniques for inverters, Pulse width modulation Techniques. Choppers- Time ratio control and Current limit control strategies, Step down choppers, Derivation of load voltage and currents with R, RL loads, Step up Chopper.",
+          "hours": 8
+        },
+        {
+          "title": "AC - AC Converters",
+          "topics": "AC voltage controllers – Single phase two SCR’s in anti -parallel with R and RL loads, modes of operation, Derivation of RMS load voltage, current and power factor wave forms. Cyclo conve rter types- R and RL loads (Principle of operation only), Bridge configuration of single phase cyclo converter (Principle of operation only). Variable frequency drives.",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Drives",
+          "topics": "Controllers for AC motors: Solid state relays, firing angle control, closed loop control of induction motor, Speed and direction control, AC Synchronous motor drive, Closed loop control of synchronous motor, Variable frequency drive. Regenerative braking. Controllers for DC motors: H-Bridge Drive, Stepper motor sequencer and drive, Half step and Full step method of stepper motor drive, Chopper drive, Speed and direction control, Brushless DC Motor control drive.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-INC-C",
+      "title": "Building Automation",
+      "semester": 6,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        62,
+        63
+      ],
+      "units": [
+        {
+          "title": "Introduction to BAS System",
+          "topics": "Fundamentals of Building Automation Systems (BAS) and the evolution of intel ligent buildings. Integration of BAS in planning, design, operation, and maintenance. Role and importance of HVAC, security, fire safety, and lighting systems. Communication protocols and addressing concepts. Open protocols (BACnet, LON, Profibus, Modbus, and M -bus) and proprietary protocols (N2, CBUS).",
+          "hours": 9
+        },
+        {
+          "title": "Comfort parameters and measurement",
+          "topics": "Human comfort variables including temperature, humidity, pressure, and CO2 levels. Heat transfer (conduction, convection, radiation) and psychometric concepts (enthalpy, entropy, dew point). Characteristics of RTDs, thermistors, thermocouples, and bimetallic strips. Air/water side flow and pressure measurement; air filtration and UV/ozonisation techniques.",
+          "hours": 8
+        },
+        {
+          "title": "HVAC Air Systems (AHU & VAV)",
+          "topics": "Introduction to air handling units (AHU): Design and operation of dampers, filters, coils, and heat recovery wheels. AHU Types: Constant volume, variable volume, dual duct, and single duct systems. Design of CAV and VAV units, including series/paralle l fan -powered and reheat configurations. Principles of the refrigeration cycle.",
+          "hours": 8
+        },
+        {
+          "title": "Fire Alarm System & Fire Detection",
+          "topics": "Fire alarm System-The History, FAS architecture & operation Classification of Fire Alarm System, Conventional and Addr essable Fire Alarm System Important Codes -NFPA72, IS 2189, BS 5839,FAS Loops -Classification of Loops and Examples, Power Supply Requirement and its designing parameters, Battery Calculations and Its Requirement and design Network terminology for Fire Syst ems, Classification of Cables, Class of Cables -Types and distance Supported specific to fire alarm system, SLC wiring and its classification.",
+          "hours": 7
+        },
+        {
+          "title": "Building Security – Access Control & CCTV",
+          "topics": "Basic Concepts of Access Control System & it’s components, Benefits of Access Control System & it’s architecture, Access Control System Devices –Its features and Working principles. Card Technology Overview –Smartcard, Proximity Card, MI fare Cards, System Architecture of Access Control System, Basic of CC TV system, System Architecture of CCTV System, Types of Camera Video Analytics, Camera Connectivity, Video Management System.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-363-INC-A",
+      "title": "Artificial Intelligence Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        64,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363-INC-B",
+      "title": "Power Devices and Control Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        66,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363-INC-C",
+      "title": "Building Automation Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        68,
+        69
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-INC",
+      "title": "Internet of Things",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        70,
+        72
+      ],
+      "units": [
+        {
+          "title": "Introduction to Internet of Things",
+          "topics": "Evolution and Fundamentals of IoT: Evolution of automation from Machine-to-Machine (M2M) communication to the Internet of Things (IoT) and Industrial Internet of Things (IIoT); definition, characteristics, components, challenges, and opportunities of IoT implementation. IoT Architectural Frameworks: Three-layer architecture, five -layer architecture, and Industrial Internet Reference Architecture (IIRA) developed by the Industrial Internet Consortium (IIC). Industrial IoT Concepts: IT/OT convergence in Industrial IoT; applications and significance of IT/OT integration in industrial aut omation, Physical and Logical Design of IoT , IoT devices, sensors, actuators, embedded platforms, and IoT gateways.",
+          "hours": 8
+        },
+        {
+          "title": "Communication & Networking Protocols",
+          "topics": "Short-Range and Local Communication Protocols: Wi-Fi (IEEE 802.11), Bluetooth Low Energy (BLE), ZigBee, IEEE 802.15.4 and Z-Wave. Low-Power Wide -Area Network (LPWAN) Technologies: LoRaWAN and other LPWAN technologies. IoT Network and Application Protocols: 6LoWPAN, MQTT, CoAP, and HTTP/REST. Industrial and Field Communication Protocols: Modbus (RTU/TCP), CAN bus, and OPC UA, Network Topologies in IoT",
+          "hours": 8
+        },
+        {
+          "title": "IoT Hardware Platforms and System Integration",
+          "topics": "IoT Hardware Platforms: Introduction to Arduino, Raspberry Pi, and ESP32; features, architecture, and selection of hardware platforms for IoT applications. IoT Programming: Introduction to Python programming for IoT, GPIO interfacing, and basi c device programming. Integration of sensors, actuators, embedded platforms, and communication interfaces to develop IoT systems; device monitoring and control.",
+          "hours": 8
+        },
+        {
+          "title": "IoT Physical Servers, Cloud Platforms and Services",
+          "topics": "Cloud Computing Fundame ntals: Cloud architecture, standards and interoperability, benefits and challenges of cloud computing, cloud deployment models (public, private and community clouds), and service models (IaaS, PaaS and SaaS). IoT Cloud Infrastructure and Communication: Physical servers, cloud storage models, fog computing, Software -Defined Networking (SDN), cloud communication APIs, and Web Application Messaging Protocol (WAMP). IoT Cloud Services and Platforms: Amazon Web Services (AWS IoT), Microsoft Azure IoT, ThingSpeak, Blynk, and SkyNet IoT Messaging Platform.",
+          "hours": 8
+        },
+        {
+          "title": "IoT Security and Applications",
+          "topics": "IoT Security and Challenges: Device authentication, data encryption (AES -128), network security, firmware over-the-air (FOTA) updates, and security challenges in IoT. Industrial Applications of IoT: Predictive maintenance, asset tracking, smart manufacturing, and remote process monitoring. Smart Grid: Characteristics, architecture, components, communication technologies, benefits, security, and integration of smart grids with cloud computing. Smart Cities: Characteristics, framework, challenges, data fusion, smart parking, and energy management. Smart Healthcare Systems: Clinical care, remote patient monitoring, enabling technologies, challenges, and future trends i n IoT healthcare. Applications include ingestible sensors, digital medicine, mobile healthcare applications, cloud services, and big data analytics in healthcare. List of Experiments: Students are expected to perform minimum 8 experiments: 1. Interfacing of digital sensor/switch with developing board and display of condition on LED and on LCD 2. Interfacing analogue temperature sensor with developing board and displaying its value on LCD. 3. Interfacing of development boards with python. 4. Communication of smartp...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "VSE-372-INC",
+      "title": "Solar Technology and Maintenance",
+      "semester": 6,
+      "type": "Vocational",
+      "credits": 1,
+      "pages": [
+        73,
+        75
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-373-INC",
+      "title": "Virtual Instrumentation Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        76,
+        77
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

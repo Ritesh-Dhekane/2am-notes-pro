@@ -1,0 +1,534 @@
+{
+  "id": "se-eandc-syllabus-2024-nep-patt-r2-ay-25-26-21072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (2024 Pattern) - Electronics and Computer Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-ECE",
+      "title": "Analog and Digital Electronic Circuits",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Design and Analysis of EMOSFET Amplifier",
+          "topics": "Non ideal characteristics of EMOSFET such as Finite output resistance, body effect, sub-threshold conduction, breakdown effects, temperature effect. Comparison of Common Source (CS), Common Drain (CD) and Common gate (CG) amplifier configurations. Concept of DC load line, two port model of EMOSFET, design and analysis of dc circuit for common source amplifier configuration, numerical. Concept of AC load line, AC equivalent circuit of a common source amplifier configuration, design & analysis of common source amplifier configuration with respect to input and output impedance, gain and frequency response, numerical.",
+          "hours": 9
+        },
+        {
+          "title": "EMOSFET and OPAMP Applications",
+          "topics": "EMOSFET Applications - CMOS inverter, resistor & diode, feedback amplifiers and its effects, design and analysis of voltage series feedback amplifier and numerical. Concept of Barkhausen criterion for oscillator, comparison of various oscillator such as Colpitts, Heartily, Wein bridge and RC phase shift, design and analysis of RC phase shift oscillator and numerical. OPAMP applications circuit design and analysis such as voltage follower, summing and differential amplifier, practical integrator, comparator, Schmitt trigger",
+          "hours": 9
+        },
+        {
+          "title": "Combinational and Sequential Logic Digital Circuits",
+          "topics": "Combinational logic Circuit – Decimal to binary and binary to decimal code convertor, 2-bit adder and subtractor, 2- bit digital comparator, 4:1 and 8:1 multiplexers and relevant de-multiplexers. Sequential logic Circuit - 1 Bit memory cell, shift registers, synchronous and asynchronous counters, ring and twisted ring counters, up and down counters.",
+          "hours": 9
+        },
+        {
+          "title": "State Machines and its Application",
+          "topics": "State diagram, state table, state reduction, state assignment, comparison of Mealy and Moore machines, Mealy and Moore machine implementation, programmable logic devices and their architecture - PROM, PAL, PLA, FPGA and CPLD, semiconductor memories types and their characteristic parameters, performance parameters for a digital logic circuit such as speed, power dissipation, figure of merit, fan in, fan out, current, voltage, noise immunity",
+          "hours": 9
+        },
+        {
+          "title": "Data Converter & Applications",
+          "topics": "Various types of ADCs and DACs and their performance parameters, study of successive approximation ADC and R-2R ladder type of DAC, Square & triangular wave generator, electronic analog computer, traffic light controller using finite state machine, bottling plant counting mechanism using counter",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-ECE",
+      "title": "Data Structure & Algorithms",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction to C++",
+          "topics": "Basics of Object-Oriented Programming (OOP), C++ syntax and program structure, data types, variables, operators, Functions and parameter passing, Classes and objects, Constructors and destructors, Function overloading and operator overloading. Case Study – Complex number arithmetic for scientific and engineering calculations, use of basic C++ concepts — classes, objects, constructors, and operator overloading for complex number arithmetic (Addition, Subtraction, Multiplication)",
+          "hours": 9
+        },
+        {
+          "title": "Searching and Sorting Algorithms",
+          "topics": "Algorithms: Analysis of Iterative and Recursive algorithms, Time and space complexity, Asymptotic notation- Big-O, Theta and Omega notations. Searching methods: Linear, Binary and Fibonacci Search. Sorting methods: Bubble, Insertion, Selection, Merge, and Quick Sort. Implementation of searching and sorting algorithms using C++. Case Study - e-commerce platform, searching products and sorting based on price for a user query. Introduction to dynamic programming, Top-Down Approach (Memorization), Bottom-Up Approach (Tabulation).",
+          "hours": 9
+        },
+        {
+          "title": "Linked Lists",
+          "topics": "Definition and importance of data structures, Classification of data structures, Singly Linked List: Creation, insertion, deletion, traversal, searching, sorting. Doubly Linked List: Creation, insertion, deletion, traversal, Circular Linked List: Creation, insertion, deletion, traversal, Case Study – Polynomial representation, Use of singly linked lists where each node stores coefficient and exponent of polynomial, polynomial addition. Case Study - Use of doubly linked list to represent playlist with next and previous track options. Songs can be added/removed dynamically and navigated forward/backward",
+          "hours": 9
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": "Stack: Concept, implementation using arrays and linked lists, Stack operations: push, pop, peek, Stack Applications, Case Study - parsing logic in compilers and calculators - conversion of infix to postfix expressions using stack, followed by evaluation. Queue: Implementation using arrays and linked lists, Queue operations- enqueue, dequeue, peek. Types of queues: Circular queue, Priority Queue, Queue Applications, 22 Case Study - Hospital Emergency Queue System, Use of priority queue or combination of normal queue + sorting mechanism.",
+          "hours": 9
+        },
+        {
+          "title": "Trees and Graphs",
+          "topics": "Trees: Terminology, binary trees, binary search trees (BST). Threaded binary tree, Tree traversals: Inorder, Preorder, Postorder, AVL trees: Rotations and balancing, Graphs: Representations (adjacency matrix/list), Graph traversals: BFS, DFS, Minimum Spanning tree- Kruskal’s Algorithm, Prim’s Algorithm. Case Study – GPS/Map navigation, Use of weighted graphs and Dijkstra’s Shortest Path Algorithm.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-ECE",
+      "title": "Discrete Mathematics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Sets and Logic",
+          "topics": "Sets: Introduction, Types of Sets, Operation and Laws, Principle of Inclusion and Exclusion, Multisets Logic: Propositions, Operations and Connectives, Truth table, Logical Equivalence, Normal Forms, Logical implication, Rules of Inference, Validity, Compactness and Resolution, Predicative and quantifiers, Methods of Proofs and Principle of Mathematical Induction. Combinatorics: Counting Principle, Permutation and Combination, Pigonhole Principle, Binomial coefficients and Identities.",
+          "hours": 9
+        },
+        {
+          "title": "Relations and Functions",
+          "topics": "Relations: Definitions, Types of relations, Properties, n-ary relations, Closure of relations, Equivalence relation, Equivalence classes, Partitions, Partial ordering relations, Hasse Diagram, Lattices, Chain and Antichains, Transitive closure and Warshall’s algorithm. Functions: Definitions, Types of functions, Composition of functions, Invertible functions, Generating functions, Recurrence relations, Solution of linear recurrence relation with Constant Coefficients 24",
+          "hours": 9
+        },
+        {
+          "title": "Graph and Applications",
+          "topics": "Terminology and types of graphs, Hand shaking lemma, Matrix representation of graphs, Adjacency and Incidence matrix, Isomorphism, Connectivity, Eulerian and Hamiltonian graphs, Shortest path, Travelling salesman problem, Dijkstra’s algorithm, Planar graph and Euler formula, Graph colouring, Chromatic number, Dual of Graph, Clique number.",
+          "hours": 9
+        },
+        {
+          "title": "Trees",
+          "topics": "Introduction, Properties, Rootedtree, Binary Search tree, Treetraversal, Path length, Weighted tree, Prefixcode, Huffmancoding, Spanning tree, Minimal spanning tree, Kruskal algorithm, prims algorithm, Cut set, The Max flow- Min cut theorem (Transport Network).",
+          "hours": 9
+        },
+        {
+          "title": "Algebraic Structure and Coding Theory",
+          "topics": "Introduction to Algebraic structures, Semi group, Monoid, Group, Abelian group, Cyclic group, Congruence relation, Homomorphism, Normal subgroup, Ring, Field, Galois Theory, Coding Theory.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-ECE",
+      "title": "Analog and Digital Electronic Circuits Lab",
+      "semester": 3,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        25,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-ECE",
+      "title": "Data Structure & Algorithms Lab",
+      "semester": 3,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        28,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective-I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-ECE",
+      "title": "Statistical Data Analysis & Visualization",
+      "semester": 3,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Statistical Data Analysis",
+          "topics": "Data Analytics Lifecycle overview, Key Roles for a Successful Analytics, Background and Overview of Data Analytics Lifecycle Project. Understanding the data, types of data (categorical and numerical), Population vs. Sample, Data collection methods. Descriptive Statistics: Measures of central tendency: mean, median, mode, Measures of Dispersion: Range, Variance, Standard Deviation, Quartiles and Interquartile range (IQR).Using Pandas and NumPy for basic statistical summaries",
+          "hours": 9
+        },
+        {
+          "title": "Probability Theory and Distributions",
+          "topics": "Probability Basics: Random variables, Events and Probability rules (addition, multiplication). Conditional Probability: Baye’s Theorem Probability Distributions: Binomial, Normal, Poisson and Exponential Distributions, skewed. Simulating probability distributions in Python",
+          "hours": 9
+        },
+        {
+          "title": "Inferential Statistics",
+          "topics": "Sampling methods: Simple, random, stratified, cluster, Central Limit Theorem Hypothesis Testing: Null and Alternative Hypotheses, Type I and Type II Errors, P-Values, Confidence Intervals, Z-tests, T-tests, Chi-square, Analysis of Variance (ANOVA).",
+          "hours": 9
+        },
+        {
+          "title": "Recent Trends and Case Studies",
+          "topics": "Time series analysis: trends, seasonality, autocorrelation, Clustering and segmentation (K-Means), Dimensionality reduction (PCA), Data storytelling and reporting, Ethics in data visualization and statistical reporting, End-to-end project: from raw dataset to insights and dashboard. Case studies (e.g., COVID-19 trends, marketing analytics).",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-ECE",
+      "title": "Engineering Economics & Application",
+      "semester": 3,
+      "type": "Entrepreneurship / Economics/ Management",
+      "credits": 2,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Theories and Laws of Economics for Engineers",
+          "topics": "Introduction to Engineering Economics, Basic economic concepts: Utility, scarcity, opportunity cost, Economic systems and firm objectives, Laws of demand and supply, elasticity, Value, wealth, and equilibrium price, Time value of money(Present Value, Future Value, annuity (basics)",
+          "hours": 4
+        },
+        {
+          "title": "Principles of Engineering Economics and Costing",
+          "topics": "Demand forecasting techniques and applications in tech markets, Cost behavior: Fixed, variable, marginal, total, Cost-volume-profit and break-even analysis, Decision-making under un-certainty (intro to decision theory), Economies of scale in electronics manufacturing",
+          "hours": 4
+        },
+        {
+          "title": "Applications of Economics in Electronics Industry",
+          "topics": "Market structures: Perfect competition, monopoly, monopolistic competition, Pricing strategies and product life cycle costing, Game theory basics and strategic behavior, Make-or-buy decisions and Value Engineering in electronics, Kaizen and productivity in technical operations",
+          "hours": 4
+        },
+        {
+          "title": "Investment Analysis and Applied Macroeconomics",
+          "topics": "Capital budgeting: Payback period, Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index, Equipment replacement decisions, Overview of macroeconomic indicators: Gross Domestic Product (GDP), Consumer Price Index (CPI), Business cycles, inflation, interest rates, and impact, CSR, sustainability, and policy impacts on tech firms, Exposure to areas like IPR, R&D, and innovation economics 35 Extra two practical’s shall be based on the syllabus of all units apart from the following list: Any Six practical’s can be carried out, below list: 1. Case examples from electronics industries (e.g., Telecom spectrum pricing, consumer electronics) 2. Excel-based Time Value of Money (TVM)computations 3. Forecast demand for a telecom device (Routing and Switching Networking communication devices /AI enabled Smart IOT devices and sensor) 4. Performbreak-evenand Cost-Volume-Profit(CVP)analysis using spreadsheet 5. Case study: Comparison of Pricing strategy between two service providers such as of Jio, Airtel, BSNL etc. 6. To carryout mini project based on market and pricing strategy analysis of a smart device or IoT product 7. Evaluate a small-scale engineering project(e.g., s...",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-ECE",
+      "title": "Universal Human Values & Professional ethics",
+      "semester": 3,
+      "type": "Value Education",
+      "credits": 2,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self-exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity-the Basic Human Aspirations and their Fulfillment (iv) Right Understanding, Relationship and Physical Facility 37 (v) Happiness and Prosperity-Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "(i) Understanding Human being as the Co-existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Programme to Ensure self-regulation and Health",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship (ii) ’Respect’- as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-ECE",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        39,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-ECE",
+      "title": "Communication Systems",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Introduction to Communication Systems",
+          "topics": "Basics of Communication System, Elements of Communication System, Types of Communication- Analog, Digital, Wired and Wireless, Regenerative Repeater, Sources of Noise: Classification of Noise (External and Internal Noise), Noise Calculations, Noise Figure. Fundamentals of Electromagnetic Waves, Effects of Environment, Propagation of Waves (Ground wave, Sky wave, Space wave), Tropospheric Scatter Propagation.",
+          "hours": 9
+        },
+        {
+          "title": "Amplitude Modulation and Demodulation Techniques",
+          "topics": "Need of Modulation, Types of Modulation, Mathematical Analysis of Amplitude Modulation (AM), Modulation Index, AM Spectrum, Types of AM: Double Sideband Full Carrier (DSB-FC), Double Sideband Suppressed Carrier (DSB-SC), Single Sideband (SSB), Vestigial Sideband (VSB), Envelope Detection, Super Heterodyne AM Receiver.",
+          "hours": 9
+        },
+        {
+          "title": "FM Modulation and Demodulation Techniques",
+          "topics": "Concept of Angle Modulation, Mathematical Analysis of Frequency Modulation and Phase Modulation (Modulation Index, Spectrum, Bandwidth, power), Relation between Phase Modulation and Frequency Modulation, Types of FM: Narrowband and Wideband, FM Generation by Armstrong Method, FM Detection by Phase Lock Loop (PLL).",
+          "hours": 9
+        },
+        {
+          "title": "Pulse Modulation Techniques",
+          "topics": "Sampling Theorem, Nyquist Criteria, Types of Sampling: Ideal, Natural and Flat Top, Pulse Amplitude Modulation (PAM), Pulse Width Modulation (PWM), Pulse Position Modulation (PPM), Line Codes and it’s types (RZ, NRZ, Unipolar, Bipolar, AMI, Manchester), Quantization of signals, Types of Quantization: Uniform and Non-uniform Quantization, Pulse Code Modulation (PCM), Delta Modulation (DM), Quantization Noise, Adaptive Delta Modulation (ADM)",
+          "hours": 9
+        },
+        {
+          "title": "Applications of Communication System",
+          "topics": "IEEE Standards 802.11, Case Study: Television Broadcasting, FM Radio Broadcasting, Satellite Communication, Walkie –Talkie, Industrial Automation: Remote Control and Monitoring, Machine to Machine Communication, Weather Monitoring, Air Traffic Control System.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-ECE",
+      "title": "Signals and Systems",
+      "semester": 4,
+      "type": "Program core Course",
+      "credits": 3,
+      "pages": [
+        46,
+        48
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Signals S Systems",
+          "topics": "Signal: Definition, Continuous Time signal, Sampling Theorem, Discrete Signal, Signal Representation: Graphical, Functional, Tabular and Sequence. Basic Elementary signals and their relationships: Unit Impulse, Unit step, Unit ramp, Unit parabolic, rectangular pulse, Triangular, Signum, Sinusoidal, Real exponential, Complex exponential, Sinc and Gaussian function, Operations on signals such as addition, subtraction, shifting, scaling. System: Definition, Classification, static and dynamic systems, causal an d non-causal systems, Linear and Non- linear systems, time variant and time invariant systems, stable and unstable systems, invertible and non- invertible systems. System interconnections.",
+          "hours": 9
+        },
+        {
+          "title": "Time Domain Representation of LTI System",
+          "topics": "System Input-output relation, definition of impulse response, Introduction to convolution, convolution sum, methods of finding convolution sum: tabular and graphical, convolution integral, computation of convolution integral using graphical method for unit step to unit step, unit step to exponential, exponential to exponential, unit step to rectangular and rectangular to rectangular only. Properties of convolution sum and convolution integral. System interconnection, system properties in terms of impulse response, step response in terms of impulse response. Concept of correlation, Auto- correlation, Cross Correlation, significance. 47",
+          "hours": 9
+        },
+        {
+          "title": "Fourier Transform and Application",
+          "topics": "Introduction to Fourier Series: Fourier Series (FS) representation of periodic Continuous-Time (CT) signals using trigonometric and exponential forms, Dirichlet conditions for the existence of Fourier Series, Gibbs phenomenon. Fourier Transform (FT): Fourier Transform representation of aperiodic CT signals; Dirichlet conditions for the existence of Fourier Transform; evaluation of magnitude and phase response; Fourier Transform of standard CT signals; properties and their significance; interplay between time and frequency domains using sinc and rectangular signals; Fourier Transform for periodic signals",
+          "hours": 9
+        },
+        {
+          "title": "Laplace Transform",
+          "topics": "Definition of Laplace transform, Limitations of Fourier transform and need of Laplace transform, ROC, Properties of ROC, Laplace transform of standard periodic and aperiodic functions, properties of Laplace transform and their significance, Laplace transform evaluation using properties, Inverse Laplace transform based on partial fraction expansion, stability considerations in S domain, Application of Laplace Transforms: RL, RC, RLC Circuit analysis, transfer function and impulse response.",
+          "hours": 9
+        },
+        {
+          "title": "Z Transform",
+          "topics": "Introduction to Z transform and its definition, ROC, Z transform applications to discrete-time signal and system analysis. Properties of the Z-transform, standard Z-transform pairs, inverse Z-transform by partial fraction method, the relationship between the Z-transform and the Fourier transform.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-ECE",
+      "title": "Object Oriented Programming",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Java Fundamentals",
+          "topics": "Evolution of Java, Comparison of Java with other programming languages, Java features, Java Environment, Simple Java Program, Java Tokens, Java Statements, Constants, variables, data types. Declaration of variables, giving values to variables, Scope of variables, arrays, Symbolic constants, Typecasting, Getting values of variables, Standard default values, Operators, Expressions, Type conversion in expressions, Operator precedence and associativity.",
+          "hours": 9
+        },
+        {
+          "title": "Classes, Methods S Objects in Java",
+          "topics": "Class Fundamentals, Declaring Objects, Assigning Object reference variables, Methods, Constructors, The This keyword, Garbage collection, finalize method, overloading methods, using objects as parameters, Argument passing, returning objects, Recursion, access control, static, final, arrays, strings class, Command line arguments.",
+          "hours": 9
+        },
+        {
+          "title": "Inheritance, Packages and Interfaces",
+          "topics": "50 Inheritance: Basics, Using Super, Creating Multilevel hierarchy, Constructors in derived class, Method overriding, dynamic method dispatch, Using Abstract classes, Using final with inheritance, Packages: Java API Packages, Using System Packages, creating accessing and using a package, importing packages, adding a class to a Package, Hiding classes Interfaces: Define, implement and extend, Accessing Interface variables, Default interface methods, using static method in interface.",
+          "hours": 9
+        },
+        {
+          "title": "Multithreading, Exception handling",
+          "topics": "Introduction to multithreading: Introduction, creating thread and extending thread class. Stopping and blocking a thread, Life Cycle of a Thread, using thread methods, Concept of Exception handling: Introduction, Types of errors, Exception handling syntax, multiple catch statements, using final statement, throwing our own exceptions I/O basics, reading console inputs, Writing Console output.",
+          "hours": 9
+        },
+        {
+          "title": "Graphics Programming and File Handling",
+          "topics": "Graphics class, Lines, Rectangle, circles and ellipses, Introduction to AWT packages, handling events on AWT components, Introduction to Swing package, components and containers. Managing input/output files: Concept of streams, Stream Classes, Byte stream, Character stream, Using Stream, creation of files, reading/writing a file.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-ECE",
+      "title": "Communication Systems Lab",
+      "semester": 4,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        51,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-ECE",
+      "title": "Signals & Systems and Object-oriented Programming Lab",
+      "semester": 4,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-ECE",
+      "title": "AI & Machine learning fundamentals",
+      "semester": 4,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        55,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "Definition, history, and evolution of AI, Applications of AI in various domains (healthcare, robotics, finance, etc.), Challenges in AI. Types of AI: Narrow AI, General AI, Super AI Intelligent agents and their structure, Agents and Environments, Concept of Rationality, Nature of Environments, Structure of Agents. Basics of AI programming: Symbolic vs. sub-symbolic AI. Case studies: AI Chatbot for Healthcare Pre-Diagnosis. (A telemedicine platform aimed to reduce the load on doctors by pre-diagnosing common symptoms.)",
+          "hours": 9
+        },
+        {
+          "title": "Problem Solving and Search in AI",
+          "topics": "Problem formulation, Search strategies: Uninformed (BFS, DFS), Informed (A*, Greedy), 56 Game playing: Minimax algorithm, Alpha-Beta pruning, Constraint Satisfaction Problems, Heuristics and their importance in AI. Search in Complex Environments, Local Search and Optimization Problems",
+          "hours": 9
+        },
+        {
+          "title": "Fundamentals of Machine Learning",
+          "topics": "Introduction to Machine Learning (ML), Difference between AI, ML, and Deep Learning, Types of ML: Supervised, Unsupervised, Reinforcement Learning, Steps in building ML models- Data collection and preprocessing, splitting data: Training and testing sets, Model selection, training, and evaluation, Model deployment (basic overview). Performance metrics: Accuracy, Precision, Recall, F1- score, Introduction to Python-based ML libraries (scikit-learn, pandas, matplotlib). Case study: Build a small ML model using real dataset. (Predicting Iris Flower Species using Machine Learning).",
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning Techniques",
+          "topics": "Regression: Linear Regression, Line of best fit and cost function (MSE), Multiple Linear Regression. Classification: Logistic Regression, Binary classification problem. K- Nearest Neighbors (KNN), Concept of distance metric (Euclidean distance), Choosing the right value of k. Decision Trees, Overfitting and underfitting, Cross-validation and hyperparameter tuning, Bias-variance tradeoff. Case study: Predict whether a person has diabetes based on diagnostic health data",
+          "hours": 9
+        },
+        {
+          "title": "Un-supervised Learning and Recent Trends",
+          "topics": "Clustering: Importance of clustering, Introduction to clustering algorithms, Types of clustering: Hard vs Soft. K-Means, Choosing the number of clusters (k), Elbow Method and Inertia. Hierarchical Clustering, Agglomerative vs Divisive clustering, Dendrograms and linkage methods. Dimensionality Reduction: PCA, Applications of AI/ML in IoT, Edge Computing, and Robotics, Ethical considerations and challenges in AI/ML, Future trends: Generative AI, Explainable AI (XAI).",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "VSE-281-ECE",
+      "title": "Critical thinking & Programming Lab",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": null,
+      "pages": [
+        58,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-ECE",
+      "title": "Modern Indian Languages (Marathi/Hindi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        61,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-ECE",
+      "title": "Entrepreneurship skill Development",
+      "semester": 4,
+      "type": "Entrepreneurship/Economics/Management",
+      "credits": 2,
+      "pages": [
+        65,
+        72
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "Savitribai Phule Pune University Second Year of Electronics & Computer Engineering (2024 Course) EEM-283- ECE : Entrepreneurship Skill Development Teaching Scheme Credits Examination Scheme Tutorial : 01 Hour/Week 01 Term Work : 25 Marks Practical : 02 Hours/Week 01 Course Objectives: The course aims to: 1. Introduce the fundamental principles of entrepreneurship, forms of business organizations, and the startup ecosystem. 2. Enable students to identify, evaluate, and select viable business opportunities using structured techniques. 3. Familiarize students with business models, financial planning, and market validation strategies. 4. Expose students to key marketing strategies, customer acquisition techniques, and branding essentials for startups 5. Develop students’ entrepreneurial mindset and their ability to communicate and pitch business ideas effectively using structured storytelling techniques",
+          "hours": null
+        },
+        {
+          "title": "Marketing Strategies & Customer Acquisition",
+          "topics": "Forms of Business Organization – Sole proprietorship, partnership, private limited, public limited. Entrepreneurial Mindset: Growth mindset and adaptability, Creativity and problem-solving, Opportunity recognition and initiative-taking Overview of the Startup Ecosystem: Key stakeholders: Incubators, accelerators, angel investors, VCs, Government support schemes (Startup India, Atal Innovation Mission, etc.), Global vs. Indian startup ecosystems Case Study: 1. Ritesh Agarwal – Founder of OYO Rooms (India) 2. Falguni Nayar – Founder of Nykaa (India) 3. Nandan Nilekani – Co-founder of Infosys & Architect of Aadhaar (India) etc. Creativity Techniques for Idea Generation: Definition and importance of creativity in entrepreneur- ship. Brainstorming: Rules of effective brainstorming. Individual vs. group brainstorming. Mind Mapping: Visual idea structuring using central themes and branches. Tools (manual and digital) for mind mapping. Understanding Customer Needs and Pain Points: Customer pain points and their identification, Problem-solution fit: Linking pain points to possible solutions. Observational techniques, user in- terviews, and empathy mapping. Evaluating Opportunities: Diffe...",
+          "hours": null
+        },
+        {
+          "title": "Business Model Development",
+          "topics": "67",
+          "hours": null
+        },
+        {
+          "title": "Pitching & Business Communication",
+          "topics": "Basics of Branding and Positioning: Introduction to Brand – Elements of brand identity: name, logo, voice, tone, and values. Positioning – How to create a unique space in the customer’s mind. Positioning maps, Value-based positioning vs. competitor-based positioning Startup Branding Challenges – Limited budget, building trust, clarity in messaging. Costing & Pricing Strategies – Fixed vs. variable costs, break-even analysis. Introduction to Digital Marketing: Distribution Channels: Traditional vs. digital distribution. Social Media Marketing: Platforms overview (Instagram, LinkedIn, Facebook, X/Twitter) Creating a content strategy and calendar Organic vs. paid reach Search Engine Optimization (SEO): Basics of how search engines work, Keyword research and con- tent optimization, On-page vs. off-page SEO Importance of Digital Presence – Website essentials, blogs, and analytics tools. Customer Acquisition Strategies: Understanding the Customer Journey – Awareness, interest, decision, action. Early-Stage Customer Acquisition Tactics: Word-of-mouth & referrals, Influencer marketing (micro-influencers), Email marketing basics, building a landing page and collecting leads Retention vs....",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-ECE",
+      "title": "Environment Awareness",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        73,
+        74
+      ],
+      "units": [
+        {
+          "title": "Environment and Ecosystem",
+          "topics": "1. Environment Meaning of Environment, Types of Environments, Components of Environment, 2. Man- Environment relationship, importance of environment, 3. Need for Public Awareness 4. Ecosystem-Meaning, Major Components of Ecosystem 5. Case studies of Forest Ecosystem, Grassland Ecosystem, Desert Ecosystem, Aquatic Ecosystem 6. Stability of Ecosystem in Sustainable Environment",
+          "hours": null
+        },
+        {
+          "title": "Environment Pollution",
+          "topics": "1. Definition of Pollution, Types of Pollution 2. Air Pollution-Meaning, Sources, effects of air pollution, Air Pollution Act 3. Water Pollution Meaning, Sources, Effects of Water pollution, Water Pollution Act 4. Noise Pollution Meaning, Sources, Effect of Noise Pollution 5. Solid Waste Pollution Meaning, sources, Effect of Waste Pollution 6. Environment Protection Act Air (Prevention and control of Pollution) Act, 7. Water Act (Prevention and control of Pollution) Act, 8. Solid waste Pollution Act in India 9. E-waste management",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}
