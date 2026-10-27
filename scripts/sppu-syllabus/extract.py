@@ -33,8 +33,18 @@ def load_doc_text(tools):
     return doc_text
 
 
+def read_pages(doc_text, pdf):
+    try:
+        return doc_text.pages_pdf(pdf)
+    except Exception:  # pypdf rejects some PDFs (e.g. duplicate font entries); pdfplumber reads them
+        import pdfplumber
+
+        with pdfplumber.open(str(pdf)) as doc:
+            return [(p.extract_text() or "") for p in doc.pages]
+
+
 def extract(doc_text, pdf):
-    raw = doc_text.pages_pdf(pdf)
+    raw = read_pages(doc_text, pdf)
     pages, _ = doc_text.clean(raw)
     empty = sum(1 for text in raw if len(text.strip()) < EMPTY_PAGE)
     text = "\n".join(f"## p{n}\n" + "\n".join(lines) for n, lines in pages)
