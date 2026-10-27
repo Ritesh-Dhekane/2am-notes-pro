@@ -3,6 +3,7 @@
 //   node scripts/sppu-syllabus/split-check.mjs              check every split, print progress
 //   node scripts/sppu-syllabus/split-check.mjs <id> <id>    check only these
 //   node scripts/sppu-syllabus/split-check.mjs --next 10    the next 10 to write, in rollout order
+//   ... --next 10 --group 2/5                                the same, only from group 2 of 5
 // --text <dir> points at extract.py's output (default ../notes-studio/syllabus-split/text).
 // Exits 1 when a checked file has errors.
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
@@ -27,6 +28,9 @@ const option = (name, fallback) => {
   return value
 }
 const next = Number(option('--next', 0))
+// --group k/n: only ids in group k of n (fixed per id), so n chats can split in parallel without overlap.
+const [groupK, groupN] = option('--group', '1/1').split('/').map(Number)
+const groupOf = (id) => [...id].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 1000003, 7) % groupN
 const textDir = option('--text', '../notes-studio/syllabus-split/text')
 
 const catalogue = JSON.parse(readFileSync(CATALOGUE, 'utf8')).items
@@ -38,6 +42,7 @@ if (next) {
   const rank = (e) => (ORDER.includes(e.family) ? ORDER.indexOf(e.family) : ORDER.length)
   const queue = catalogue
     .filter((e) => !written.has(e.id) && report[e.id] && !report[e.id].error && !report[e.id].scanned)
+    .filter((e) => groupOf(e.id) === groupK - 1)
     .sort((a, b) => rank(a) - rank(b) || String(b.uploaded).localeCompare(String(a.uploaded)))
   for (const e of queue.slice(0, next)) {
     console.log(`${e.id}\t${report[e.id].pages} pages\t${e.family} | ${e.title}`)
