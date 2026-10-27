@@ -10,7 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "syllabus:scrape": "node scripts/sppu-syllabus/scrape.mjs",
-    "syllabus:clean": "node scripts/sppu-syllabus/clean.mjs"
+    "syllabus:clean": "node scripts/sppu-syllabus/clean.mjs",
+    "syllabus:extract": "python scripts/sppu-syllabus/extract.py",
+    "syllabus:split-check": "node scripts/sppu-syllabus/split-check.mjs",
+    "syllabus:split-build": "node scripts/sppu-syllabus/build-split.mjs"
   },
   "dependencies": {
     "@fontsource-variable/jetbrains-mono": "^5.3.0",
