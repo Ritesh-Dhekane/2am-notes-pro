@@ -1,0 +1,944 @@
+{
+  "id": "syllabus-me-mechanical-electric-vehicle-technology-27082026",
+  "kind": "programme",
+  "programme": "Master of Engineering in Mechanical (Electric Vehicle Technology)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-MEV",
+      "title": "Fundamentals of Electric Vehicles",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "EV Architectures & Dynamics",
+          "topics": "Vehicle Topologies: Detailed study of Battery Electric Vehicles (BEVs), Hybrid Electric Vehicles (HEVs), Plug-in Hybrids (PHEVs), and Fuel Cell Electric Vehicles (FCEVs); Propulsion Fundamentals: Comparative analysis between Internal Combustion Engines (ICE) and EV operating principles; Vehicle Mechanics: Modeling of tractive effort, resistance forces (aerodynamic drag, rolling resistance), and vehicle performance simulations using tools like MATLAB/Simulink.",
+          "hours": null
+        },
+        {
+          "title": "Energy Storage & Battery Management Systems (BMS)",
+          "topics": "Battery Technology: Electrochemical principles of Li -ion, Solid -state, and other advanced battery chemistries; Battery Pack Design: Mechanical and thermal design of battery packs, including cell -to- pack architecture and safety standards; BMS Functions: Sta te-of-Charge (SoC) and State -of-Health (SoH) estimation, cell balancing, and protection circuits.",
+          "hours": null
+        },
+        {
+          "title": "Electric Power Trains and Drive",
+          "topics": "Electric Motors: Selection and sizing of motors such as BLDC, PMSM, Induction Motors (IM), and Switched Reluctance Motors (SRM); Power Electronics: Design of DC -DC converters and inverters, PWM schemes, and thermal management of power components; Transmiss ion Systems: Single -speed vs. multi-speed gearboxes and integrated drive-axle configurations.",
+          "hours": null
+        },
+        {
+          "title": "Charging Infrastructure and Integration",
+          "topics": "Charging Technologies: AC Level 1/2 and DC Fast Charging, wireless charging, and battery swapping strategies; Protocols & Standards: Communication protocols (CAN -based, PLC-based) and regulatory standards like AIS -048 and ISO 26262; Smart Grid Interaction: Concepts of Vehicle -to-Grid (V2G), V2H, and the integration of renewable energy sources.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Vehicle Systems & Mechanical Aspects",
+          "topics": "Thermal Management: Design of cooling systems for batteries and motors; Noise, Vibration, and Harshness (NVH): Analysis of unique acoustic signatures and vibration control in electric drivetrains; Safety & Diagnostics: High -voltage safety training, failure mode analysis (FMEA), and vehicle health monitoring.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-MEV",
+      "title": "Vehicle Dynamics for EV",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of EV Propulsion and Resistance",
+          "topics": "Propulsion Physics: Principles of vehicle propulsion, power -limited vs. traction -limited acceleration; External Forces: Calculation of aerodynamic drag, rolling resistance, and gradient resistance specifically for EVs; Efficiency Mapping: Energy requiremen ts for various driving cycles (WLTP, EPA) and their impact on battery sizing.",
+          "hours": null
+        },
+        {
+          "title": "Tire and Chassis Dynamics",
+          "topics": "Tire Mechanics: Longitudinal and lateral slip, Magic Formula tire modeling, and the impact of EV weight distribution (high -density battery packs) on tire wear and grip; Suspension Systems: Modeling of sprung and unsprung mass, damping ratios, and active/pa ssive suspension control to manage the increased weight of EVs; Weight Distribution: Analysis of Center of Gravity (CG) and its effect on load transfer during high-torque EV acceleration.",
+          "hours": null
+        },
+        {
+          "title": "Longitudinal and Lateral Stability",
+          "topics": "Longitudinal Dynamics: Braking performance and anti -lock braking systems (ABS) integrated with regenerative braking logic; Lateral Dynamics: Bicycle model analysis, understeer/oversteer behavior, and Electronic Stability Control (ESC); Torque Vectoring: Di fferential types (active, limited slip) and advanced torque distribution strategies for multi-motor AWD EV architectures.",
+          "hours": null
+        },
+        {
+          "title": "Powertrain Dynamics and Control",
+          "topics": "Motor-to-Wheel Dynamics: Torque -speed characteristics of PMSM, Induction, and SRM motors and their interaction with transmission systems ; Regenerative Braking: Energy recovery logic during deceleration and its impact on vehicle stability ; Drivetrain Modeling: Simulation of power electronic converters, PWM schemes, and vector control of traction drives in a dynamic environment.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Topics and Compliance",
+          "topics": "Noise, Vibration, and Harshness (NVH): Characterization of high-frequency motor noise and condition monitoring; Autonomous Integration: Basics of ADAS (Advanced Driver Assistance Systems) and their interplay with chassis control; Regulatory Standards: Over view of functional safety (ISO 26262) and international homologation requirements.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-MEV",
+      "title": "Materials Science & Manufacturing for EVs",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Advanced Energy Materials",
+          "topics": "Electrochemical Storage Materials: Principles of cells and batteries, including electrochemical reactions and factors affecting battery performance; Battery Chemistries: Fundamentals and materials for Lead - acid, Nickel -based, and Lithium -ion batteries; exp loration of next -generation batteries like solid -state and flow batteries; Electrode Synthesis: Processes for material synthesis, electrode preparation, and cell assembly for Li -ion and advanced chemistries; Hydrogen & Fuel Cells: Production, storage, and application of hydrogen in solid-state and liquid materials for fuel cell vehicles.",
+          "hours": null
+        },
+        {
+          "title": "Structural Materials & Lightweighting",
+          "topics": "Alloys and Composites: Use of lightweight structural alloys (aluminum, magnesium), superalloys, and carbon-fiber-reinforced polymers for vehicle bodies; Functional Materials: Shape memory alloys, nanomaterials, and engineering ceramics for specialized EV components; Characterization Techniques: Microscopy (AFM, SEM), spectroscopy, and X-ray diffraction (XRD) for material analysis and failure diagnosis.",
+          "hours": null
+        },
+        {
+          "title": "EV Manufacturing Processes",
+          "topics": "Battery Pack Manufacturing: Cell-to-pack assembly, battery architecture, and passive component sizing; Advanced Fabrication: Introduction to Additive Manufacturing (3D printing), semi -solid processing, and thin -film coatings for EV parts; Precision Machini ng: Micromachining and surface engineering techniques for high -performance drivetrain components; Vehicle Body Production: Evaluation of modern methods for vehicle body manufacturing and chassis dynamometer testing.",
+          "hours": null
+        },
+        {
+          "title": "Component-Specific Manufacturing & Testing",
+          "topics": "Electric Motor Production: Manufacturing of traction motors (BLDC, PMSM, SRM) and motor characterization (power and efficiency) as per international standards like AIS 041 and ECE R85 ; Thermal Management Systems: Manufacturing and design of heat exchangers, thermal interface materials, and cooling systems for batteries and motors ; Integration & Standards: Regulatory requirements for EV manufacturing (e.g., AIS-048, ECE R100) and environmental durability testing.",
+          "hours": null
+        },
+        {
+          "title": "Sustainability & Lifecycle",
+          "topics": "Battery Recycling: Material recovery processes and \"energy -as-a-service\" business models; Reliability Engineering: Failure analysis techniques including FMEA (Failure Mode and Effects Analysis), ISO 26262, and fault tree analysis; Environmental Impact: Ass essment of materials and manufacturing processes for carbon management and net-zero strategies",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-MEV",
+      "title": "Thermodynamics & Thermal Management Systems",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Advanced Thermodynamics for EVs",
+          "topics": "Application of First and Second Laws to energy storage and conversion systems; Thermodynamic cycles including refrigeration and heat pump cycles for cabin HVAC and battery cooling; Energy and exergy analysis of EV powertrain components.",
+          "hours": null
+        },
+        {
+          "title": "Battery Thermal Management Systems (BTMS)",
+          "topics": "Heat generation mechanisms during charge and discharge cycles; Active and passive cooling/heating methods (air-cooled, liquid-cooled, and phase-change materials); Safety protocols for managing thermal runaway and heat propagation.",
+          "hours": null
+        },
+        {
+          "title": "Thermal Management of Power Electronics & Motors",
+          "topics": "Cooling of traction motors (PMSM, IM) and power electronic converters; Design of heat sinks, metal foams, and liquid-cooled cold plates; Integration of micro-channel heat exchangers and jet impingement techniques.",
+          "hours": null
+        },
+        {
+          "title": "Integrated Vehicle Thermal Management (IVTM)",
+          "topics": "Holistic strategies for balancing cabin comfort (HVAC) with component cooling; Real -time thermal monitoring using sensors and control algorithms; System -level simulation and modeling using 1D and 3D computational tools.",
+          "hours": null
+        },
+        {
+          "title": "AI-Driven Thermal Management",
+          "topics": "Predictive Thermal Control: Using Machine Learning (ML) and Artificial Neural Networks (ANN) to predict junction temperatures and thermal health based on real -time sensor data and driving patterns; Fault Detection & Diagnostics: AI models for identifying early signs of thermal runaway, cooling system leaks, or sensor failures to enhance vehicle safety; Fast-Charging Optimization: AI-based strategies that dynamically adjust thermal regulation to allow 80% charging within 30 minutes without degrading battery health",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-MEV",
+      "title": "Simulation & Modeling Laboratory for EV",
+      "semester": 1,
+      "type": "Laboratory-I",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-520-MEV-A",
+      "title": "Aerodynamics of Electric Vehicles",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Automotive Aerodynamics",
+          "topics": "Introduction to Fluid Mechanics: Conservation of mass, momentum, and energy equations in the context of vehicle flow. Aerodynamic Forces: Detailed analysis of drag, lift, and side forces; pitching, rolling, and yawing moments. EV -Specific Aerodynamics: Comparison between Internal Combusti on Engine (ICE) and EV aerodynamic requirements; the \"range -to-drag\" sensitivity. Flow Regimes: Laminar and turbulent boundary layers, flow separation, and vortex formation.",
+          "hours": null
+        },
+        {
+          "title": "External Aerodynamics & Drag Reduction",
+          "topics": "Body Shape Optimization: Impact of vehicle silhouettes (hatchback, sedan, SUV) on the drag coefficient ((Cd); Frontal Area and Underbody: Design of smooth under -trays for EVs (facilitated by flat battery packs) and active grill shutters for variable cooling; Wheel and Tire Aerodynamics: Aerodynamic wheel covers, air curtains, and the impact of tire width on tur bulence; Add -on Devices: Use of spoilers, diffusers, and vortex generators to delay separation.",
+          "hours": null
+        },
+        {
+          "title": "Thermal Management & Internal Flows",
+          "topics": "Cooling System Aerodynamics : Drag penalties from cooling air intakes , air ducting for battery packs, traction motors, and power electronics ; Heat Exchange Performance: Optimizing the location of radiators and heat pumps in EVs ; HVAC Integration: Impact of cabin ventilation and AC performance on overall vehicle energy consumption and range.",
+          "hours": null
+        },
+        {
+          "title": "Computational Fluid Dynamics (CFD) for EVs",
+          "topics": "Numerical Modeling: Introduction to finite volume methods and RANS (Reynolds -Averaged Navier- Stokes) equations; Meshing Techniques: Advanced meshing for complex EV geometries including the motor and battery cooling circuits; Simulation Software: Hands-on training with industry-standard tools like Ansys Fluent, Open FOAM, or Star CCM+ for external flow and thermal simulations.",
+          "hours": null
+        },
+        {
+          "title": "Experimental Techniques and Validation",
+          "topics": "Wind Tunnel Testing: Full-scale and model-scale testing; moving ground plane simulations to account for wheel rotation ; Measurement Instrumentation: Pitot tubes, hot -wire anemometry, and Pressure Sensitive Paint (PSP) ; Flow Visualization: Use of smoke, dye, and PIV (Particle Image Velocimetry) for identifying wake structures; Real-World Correlation: Validating CFD and wind tunnel data with on- road coast-down tests.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-520-MEV-B",
+      "title": "Crashworthiness Analysis",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Crashworthiness & Safety Standards",
+          "topics": "Concepts: Definition of crashworthiness, energy absorption, and occupant protection; Crash Modes: Frontal, side -impact (pole and barrier), rear -impact, and rollover scenarios; Regulations: Introduction to FMVSS (Federal Motor Vehicle Safety Standards), Euro NCAP, and AIS standards specific to EVs; Metrics: Head Injury Criterion (HIC), chest deformation, and intrusion limits.",
+          "hours": null
+        },
+        {
+          "title": "EV-Specific Crashworthiness Challenges",
+          "topics": "Mass & Packaging: Impact of heavy battery packs on vehicle kinetic energy and center of gravity; Battery Protection: Design of protective frames (sills) and enclosures to prevent intrusion and mechanical abuse; Post - Crash Safety: Managing high -voltage isol ation, fire safety, and thermal runaway prevention after impact; Comparison: Key differences in structural load paths between ICE and EV platforms.",
+          "hours": null
+        },
+        {
+          "title": "Structural Mechanics & Energy Absorption",
+          "topics": "Crumple Zones: Design of front and rear structures for progressive collapse and energy dissipation; Thin-Walled Structures: Axial and lateral crushing of tubes; use of high -strength steels and aluminum alloys; Advanced Materials: Introduction to composite materials (CFRP) and bio -inspired honeycomb structures for EV lightweighting and energy absorption.",
+          "hours": null
+        },
+        {
+          "title": "Finite Element Analysis (FEA) for Crash Simulation",
+          "topics": "Mathematical Basis: Difference between implicit and explicit FEA; governing equations of motion for high-speed dynamic events; Preprocessing: Mesh generation for Body-in-White (BIW) using tools like Hyper Mesh or ANSA; 2D shell vs. 3D solid meshing; Model Setup: Defining boundary conditions, initial velocities, and contact interfaces (e.g., CONTACT_AUTOMATIC_SURFACE_TO_SURFACE)",
+          "hours": null
+        },
+        {
+          "title": "Computational Modeling & Solver Techniques",
+          "topics": "Material Modeling: Strain -rate dependency, piecewise linear plasticity, and failure criteria for crash scenarios; Solver Operations: In-depth study of LS-DYNA or RADIOSS; keywords, time-step control, and hourglass energy management; Specialized Models: Mod eling airbags, seatbelts, and Hybrid III dummies for injury estimation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-520-MEV-C",
+      "title": "Modeling and Simulation of EVs",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Vehicle Dynamics and Propulsion Modeling",
+          "topics": "Longitudinal Dynamics: Modeling of tractive effort, rolling resistance, aerodynamic drag, and hill - climbing forces; Performance Parameter Modeling: Simulation of acceleration performance and range for electric scooters, small cars, and heavy -duty EVs; Stan dard Drive Cycles: Implementing EPA, WLTP, and custom drive cycles for range estimation and energy consumption analysis; Lateral Dynamics: Basic steering and stability models for handling simulation.",
+          "hours": null
+        },
+        {
+          "title": "Energy Storage Systems and Battery Modeling",
+          "topics": "Battery Architectures: Equivalent -circuit models (ECM), physics -based models (PBM), and data - driven empirical modeling; Cell to Pack Modeling: Simulation of battery modules, cell aging, and state- of-charge (SOC) estimation techniques; Battery Management Sy stems (BMS): Modeling of passive and active cell balancing, fault detection, and thermal influence on battery life.",
+          "hours": null
+        },
+        {
+          "title": "Electric Drivetrain and Motor Control",
+          "topics": "Motor Characterization: Modeling and simulation of BLDC, PMSM, and Induction motors for traction; Control Strategies: Implementation of Field -Oriented Control (FOC), Direct Torque Control (DTC), and speed-voltage-current integration via MCU models; Transmi ssion Modeling: Modeling of multi - mode electrically variable transmissions and gear-ratio optimization for efficiency.",
+          "hours": null
+        },
+        {
+          "title": "Power Electronics and Energy Management",
+          "topics": "Converter Simulations: Modeling DC -DC and AC -DC bidirectional converters in open and closed loops; Energy Management Systems (EMS): Simulation of multi-source energy optimization involving batteries, ultracapacitors, and fuel cells; Regenerative Braking: M odeling energy recovery strategies and their impact on vehicle deceleration.",
+          "hours": null
+        },
+        {
+          "title": "Thermal Management and CFD",
+          "topics": "Battery Thermal Management (BTMS): Computational Fluid Dynamics (CFD) analysis for air-cooled and liquid -cooled battery packs; External Aerodynamics: Simulation of drag reduction to optimize vehicle range and design efficiency; Component Cooling: Heat tran sfer modeling for electric motors and power electronic PCBs.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-520-MEV-D",
+      "title": "Additive Manufacturing of EV Components",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Additive Manufacturing and EV Technology",
+          "topics": "Introduction to Additive Manufacturing: Overview of AM, distinction from conventional manufacturing, the generic AM process chain (CAD, STL conversion, machine setup, build, post - processing), advantages, and limitations; AM Processes Classification: Detailed study of the seven AM categories: Vat Photopolymerization (SLA, DLP), Material Extrusion (FDM/FFF), Powder Bed Fusion (SLS, SLM, EBM), Material Jetting, Binder Jetting, Sheet Lamination, and Directed Energy Deposition (DED); Electric Vehicle Fundamentals: Overview of EV components (motors, batteries, power electronics, chassis, cooling systems), drivetrain topologies, and key performance metrics (e.g., lightweighting, thermal management, power density).",
+          "hours": null
+        },
+        {
+          "title": "Design for Additive Manufacturing (DFAM) for EVs",
+          "topics": "DFAM Principles: Design rules and guidelines for AM, leveraging design freedom (complex geometries, internal channels, lattice structures) not possible with traditional methods; Computational Design Tools: Use of CAD software for AM, data handling and stan dardization (STL, 3MF, AMF formats), topology optimization, generative design, and simulation tools; Part Orientation and Support Generation: Strategies for optimal build orientation, support structure design and removal, and minimizing defects (e.g., residual stress, warping).",
+          "hours": null
+        },
+        {
+          "title": "Materials for EV Additive Manufacturing",
+          "topics": "Polymer and Composite Materials: Properties, processing, and applications in EVs (e.g., reinforced polymers for housing, interior components, jigs, and fixtures); Metal Alloys and Ceramics: Focus on metal powders (e.g., AlSi10Mg, copper, tool steel) used i n AM for structural and functional components; Material Characterization: Techniques for analyzing microstructure, mechanical behavior, and thermal properties of additively manufactured components; Multi -Material and Functionally Graded Materials: Exploration of using multiple materials for functional integration in a single build.",
+          "hours": null
+        },
+        {
+          "title": "AM Applications in EV Components",
+          "topics": "Powertrain Components: Case studies on additively manufactured motor housings, rotors with lattice structures for weight reduction, and optimized windings for increased power density; Thermal Management Systems: Design and manufacturing of integrated cooli ng channels for batteries, power electronics, and motors to improve efficiency and heat dissipation; Chassis and Structural Components: Application of AM for lightweight brackets, connectors, and customized structural parts; Prototyping and Tooling: Role o f AM in rapid prototyping for accelerated EV development cycles and production of custom tooling and molds.",
+          "hours": null
+        },
+        {
+          "title": "AM Process Optimization, Quality Control, and Post-Processing",
+          "topics": "Process Parameter Optimization: Critical parameters (geometry, temperature, composition) and their effect on part quality and performance; Post-Processing Techniques: Support removal, surface finishing, heat treatments (e.g., hot isostatic pressing, stress relief), and property enhancement methods; Quality Assurance: Defect analysis in AM parts, non-destructive testing, and standardization in the AM industry; Process Modeling: Introduction to mathematical modeling of AM processes, including heat transfer and fluid flow simulation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-521-MEV-A",
+      "title": "Elective-I- Fieldwork Assignment",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        28,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-MEV-B",
+      "title": "Elective-I- Fieldwork Assignment",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        29,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-MEV-C",
+      "title": "Elective-I- Fieldwork Assignment",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        30,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-MEV-D",
+      "title": "Elective-I- Fieldwork Assignment",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        31,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-MEV",
+      "title": "Electric Motors and Drives",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to Electric Vehicles and Drive Principles",
+          "topics": "EV Architectures: Classification and components of Battery Electric Vehicles (BEVs), Hybrid Electric Vehicles (HEVs), and Plug -in Hybrid Electric Vehicles (PHEVs); Vehicle Dynamics: Modeling and simulation of vehicle motion, including tractive effort, acce leration force, braking, and aerodynamic drag; Drive Train Topology; Analysis of different electric drive train configurations (series, parallel, series-parallel); Motor Requirements: Key specifications and performance criteria for motors in EV applications (power density, efficiency, torque characteristics).",
+          "hours": null
+        },
+        {
+          "title": "Electric Motors for EVs",
+          "topics": "Motor Principles Review: Fundamentals of magnetic circuits, DC and AC machines, voltage, and torque equations; Types of EV Motors: Construction, working principles, and characteristic curves of key motor types: DC Motors, Induction Motors (IM),Permanent Magnet Synchronous Motors (PMSM), Brushless DC (BLDC) Motors, Switched Reluctance Motors (SRM); Efficiency Maps: Understanding and interpreting motor efficiency under various speed and torque conditions; Motor Design Variables: Introduction to material properties (e.g., PM materials) and design considerations for EV motors.",
+          "hours": null
+        },
+        {
+          "title": "Power Electronics and Converters",
+          "topics": "Power Semiconductor Devices: Working and characteristics of power diodes, MOSFETs, and IGBTs; Power Converters: Operation of key power electronic circuits in EVs: Uncontrolled and controlled rectifiers (single and three-phase) DC-DC choppers (four-quadrant operation) DC-AC Inverters (single and three -phase); PWM Techniques: Pulse Width Modulation for inverter control and realization of power electronic converters.",
+          "hours": null
+        },
+        {
+          "title": "Control of Electric Motor Drives",
+          "topics": "Drive Characteristics: Speed control for constant torque and constant power operations; Control Strategies: V/f control for induction motors, Vector Control (Field-Oriented Control) for PMSM and IM drives (sensored and sensor-less), Modeling of motors in stationary and rotating reference frames (RFO frame), Control of BLDC and SRM drives; Regenerative Braking: Principles and control techniques for energy recovery during braking; Modeling and Simulation: Use of softw are tools like MATLAB/Simulink for system modeling and performance analysis.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Topics and Integration",
+          "topics": "Motor Load Dynamics: Matching motor and load characteristics for optimal performance; Thermal Management: Modes of heat transfer and cooling techniques for motors and drives; Safety and Standards: High -voltage safety protocols and relevant global standards (e.g., ISO 26262) for motor systems; Case Studies: Analysis of motors and drives used in current high-end commercial EVs.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-MEV",
+      "title": "Battery Technology and Energy Storage Systems",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Electrochemistry and Battery Principles",
+          "topics": "Introduction to Energy Storage: Role and significance of energy storage in electric vehicles and grid integration; Electrochemical Principles: Principles of operation of cells and batteries, electrochemical reactions, and energy conversion processes; Batte ry Terminology and Characteristics: Key parameters such as capacity (Ah), voltage, C-rate, depth of discharge (DOD), state of charge (SOC), state of health (SOH), impedance, and life cycles; Battery Classification: Primary and secondary batteries, differen t types including lead -acid, Ni-based, and various lithium -ion (Li-ion) chemistries (LCO, NCA, NMC, LFP, etc.).",
+          "hours": null
+        },
+        {
+          "title": "Battery Technology for Electric Vehicles",
+          "topics": "Cell Chemistries and Materials: Detailed study of materials used in EV batteries, electrode preparation, and cell assembly processes; Performance Criteria: Specific performance requirements for EV batteries (power density, energy density, efficiency, safet y) and factors affecting performance; Next -Generation Batteries: Overview of advanced and emerging technologies like solid-state batteries, flow batteries, and sodium-ion batteries; Other Storage Systems: Introduction to alternative energy storage such as super capacitors and fuel cells, and hybridization of energy storage systems.",
+          "hours": null
+        },
+        {
+          "title": "Battery Modeling and Simulation",
+          "topics": "Modeling Approaches: Equivalent Circuit Models (ECMs), physics -based models (PBMs), and data - driven/empirical modeling; Mathematical Modeling: Developing and implementing mathematical models for battery cells and packs using simulation tools like MATLAB/Si mulink; Vehicle Range Estimation: Calculating energy consumption based on driving cycles and estimating vehicle range; Cell Characterization: Laboratory methods and techniques for testing and characterizing battery cells (charge/discharge cycles, EIS, CV).",
+          "hours": null
+        },
+        {
+          "title": "Battery Pack Design and Management Systems (BMS)",
+          "topics": "Battery Pack Architecture: Design considerations for modules and complete packs, including electrical connections (series/parallel configurations) and mechanical enclosure design; Battery Management System (BMS): Need, functionality, and topologies (centra lized, modular, distributed); BMS Features: Sensing - Voltage, current, and temperature measurement.State Estimation - Advanced methods for SOC and SOH estimation (e.g., Kalman Filters and their variations); Cell Balancing: Passive and active Techniques to ensure uniform cell performance and longevity ; Protection: High -voltage safety protocols, fault detection, diagnostics, and overcharge/over-discharge protection; Communication: CAN and RS485 communication protocols.",
+          "hours": null
+        },
+        {
+          "title": "Thermal Management and Safety",
+          "topics": "Thermal Management Systems (TMS): Need for TMS in batteries to prevent thermal runaway; modes of heat transfer in battery packs; Cooling Techniques: Design and analysis of air, liquid, direct refrigerant, and phase-change material (PCM), cooling systems; Simulation: Using Computational Fluid Dynamics (CFD) tools like ANSYS Fluent or OpenFOAM for thermal modeling and heat dissipation analysis; Safety and Standards: High-voltage safety handling, crashworthiness, and adherence to global standards and regulations (e.g., ISO 26262, AIS standards). References",
+          "hours": null
+        },
+        {
+          "title": "Battery Management Systems, Volume II: Equivalent-Circuit Methods, Gregory Plett,",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "A Systems Approach to Lithium -Ion Battery Management (Power Engineering), Artech Phil",
+          "topics": "Weicker,",
+          "hours": null
+        },
+        {
+          "title": "Battery Modeling Volume I: Battery Modeling (Power Engineering), Artech Gregory L Plett,",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Handbook on Battery Energy Storage System, Asian Development Bank.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Advanced Battery Management Technologies for Electric Vehicles, Xiong & Shen.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Vehicular Electric Power Systems, Ali Emadi",
+          "topics": "7. Battery Systems Engineering, Christopher D. Rahn and Chao-Yang Wang. 8. The Handbook of Lithium -Ion Battery Pack Design: Chemistry, Components, Types and Terminology, John Warner. 9. Thermal Battery Management System for Hybrid and Electric Vehicles (Edited, 2025) by Ashwani Kumar, Mukesh Kumar Awasthi, Nitesh Dutt, Yogesh Kumar Singla, Sivasakthivel Thangavel, and others. 10. Battery Management System, Venu Sangwan. 11. Battery Management in Electric Vehicles—Current Status and Future Trends, Prodip K. Das. 12. Electric Vehicle Battery Management, Sandeep Dhameja. 13. V. Sangwan, R. Kumar and A. K. Rathore, \"Estimation of model parameters and state -of-charge for battery management system of Li -ion battery in EVs,\" 2017 IEEE Transportation Electrification Conference (ITEC-India), Pune, India, 2017, pp. 1-6, doi: 10.1109/ITEC-India.2017.8333889.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-MEV",
+      "title": "Automotive HVAC",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Thermodynamics and Heat Transfer in Automotive Applications",
+          "topics": "Principles of Heat Transfer: In -depth study of conduction, convection, and radiation, and how these modes apply to heat exchange within vehicle systems; Thermodynamics and Refrigeration Cycles: Review of thermodynamic laws and detailed analysis of the vapo r-compression refrigeration cycle, focusing on efficiency (COP); Automotive HVAC Basics: Purpose and importance of HVAC in vehicles, including basic components (compressor, condenser, evaporator, expansion valve, heater core, blower motors); Psychrometry: Understanding air properties and humidity control in the cabin for passenger comfort.",
+          "hours": null
+        },
+        {
+          "title": "EV Thermal Dynamics and Heat Generation",
+          "topics": "Heat Sources in EVs: Identification and quantification of heat generation from key EV components; Batteries: Heat generation models (Bernardi model), thermal characteristics of Li-ion cells, and thermal runaway phenomena and prevention; Power Electronics: Heat dissipation in inverters, DC -DC converters, and on -board chargers; Traction Motors: Iron, winding, and mechanical losses leading to heat generation; Thermal Balance of the Vehicle: Analyzing the overall energy balance and heat flow within the EV architecture, considering ambient temperature and driving conditions.",
+          "hours": null
+        },
+        {
+          "title": "EV-Specific Heating and Cooling Technologies",
+          "topics": "Cabin Heating Innovations: Challenges in heating the cabin in winter without an IC engine; comparison of technologies; Positive Temperature Coefficient (PTC) Heaters: Architecture, operation, and high energy consumption impact on range; Heat Pump Systems: Principles of operation (cooling in summer, heating in winter), system architecture, efficiency improvement (COP), and defrosting strategies; Waste Heat Recovery: Utilizing waste heat from motors and power electronics to assist in cabin or battery heating; Cooling Strategies for High Voltage Components: Air Cooling vs. Liquid Cooling: Comparison of effectiveness, complexity, and application; Refrigerant -based Cooling: Direct expansion (DX) systems for batteries and cabin; Advanced Materials: Application of Phase Change Materials (PCMs), immersion cooling.",
+          "hours": null
+        },
+        {
+          "title": "System Design, Control, and Simulation",
+          "topics": "Integrated Thermal Management Systems (ITMS): Design and analysis of complex, coupled thermal loops (that manage battery, motor, power electronics, and cabin thermal requirements simultaneously); Modeling and Simulation: Use of simulation software (e.g., M ATLAB/Simulink, CFD tools) for heat dissipation analysis, performance prediction, and optimization of thermal designs; Control Strategies: Development of intelligent thermal control algorithms to optimize efficiency, enhance battery performance, and ensure safety across various operating con ditions; Components Sizing: Methods for calculating thermal loads and sizing components like compressors, chillers, pumps, fans, and heat exchangers; Sensors and Actuators: Integration of temperature and pressure sensors, valves, and actuators for real-time monitoring and control.",
+          "hours": null
+        },
+        {
+          "title": "Safety, Environmental, and Future Trends",
+          "topics": "Safety Considerations: High -voltage safety protocols, thermal runaway prevention, and fire safety in thermal systems; Refrigerants and Regulations: Environmental impact of refrigerants, global regulations (e.g., phasing out HFCs), and the use of eco -friendly alternatives; Future Innovations: Exploration of emerging technologies such as thermoelectric cooling, advanced heat pipe integration, and AI -driven HVAC optimization.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-MEV",
+      "title": "CAD and Structural Design Lab",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        39,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-571-MEV-A",
+      "title": "Life Cycle Analysis of EV",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Life Cycle Assessment (LCA)",
+          "topics": "Introduction to LCA: Definition, purpose, and historical context; ISO Standards: Overview of ISO 14040 and ISO 14044 guidelines for conducting LCAs; Four Phases of LCA: Goal and Scope Definition, Life Cycle Inventory (LCI), Life Cycle Impact Assessment (LCIA), and Interpretation; Functional Unit and System Boundaries: Defining the basis for comparison (e.g., \"passenger -km traveled\") and setting the scope (cradle-to-grave, cradle-to-gate).",
+          "hours": null
+        },
+        {
+          "title": "Raw Material Extraction and Processing (Cradle)",
+          "topics": "Material Requirements for EVs: Focus on critical minerals (lithium, cobalt, nickel, rare earth elements) for batteries and motors; Extraction Impacts: Environmental burdens and social/ethical considerations of mining and processing these materials; Energy Consumption: Energy inputs required for material synthesis and electrode paste production; Comparison with Internal Combustion Engine Vehicles (ICEV) Materials: Assessing the material differences in conventional vehicle supply chains.",
+          "hours": null
+        },
+        {
+          "title": "Manufacturing and Assembly Phase",
+          "topics": "Vehicle Production: Energy consumed and emissions generated during the assembly of the vehicle chassis, body, and components; Battery Manufacturing: Detailed analysis of cell and battery pack assembly processes, which are major contributors to the production phase impact; Powertrain & Battery Manufacturing (Distinct from ICEV), Battery Cell Production: Anode/cathode/separator assembly, electrolyte filling, and sealing.; Battery Module Assembly: Cells are precisely stacked, framed (steel/aluminum), and bonded (gluing, riveting) for stability; Battery Pack Assembly: Modules are integrated into a tray with thermal management (gap fillers), cooling loops, BMS, and electrical components (HV cables); Motor Manufacturing: Involves rotor/stator assembly, coil winding, and magnet fitment, with rigorous testing; Final Assembly Chassis/Drivetrain Integration: Installation of the battery pack, electric motor, and power electronics; Interior/Exterior: Installation of dashboard, infotainment, seats, lights, and other trim. Software & Testing: Firmware flashing and extensive electrical/safety testing of high-voltage systems.",
+          "hours": null
+        },
+        {
+          "title": "Use Phase and Operation",
+          "topics": "Energy Consumption: Electricity consumption of the EV during operation (Wh/km); Grid Mix Impact: Analyzing emissions based on the regional electricity sources (e.g., coal-intensive vs. renewable-heavy grids); Maintenance and Repair: Environmental impacts o f spare parts, lubricants (if any), and service activities; Lifetime Analysis : Factors affecting vehicle life and battery cycle life, including charging/discharging characteristics and performance testing.",
+          "hours": null
+        },
+        {
+          "title": "End-of-Life (EoL) Management",
+          "topics": "Disposal Processes: Land filling and waste treatment impacts; Battery Second -Life Applications: Opportunities for reusing EV batteries in stationary energy storage systems; Recycling and Recovery: Technologies and challenges for recovering critical metals and materials from spent batteries and vehicles; Circular Economy Principles: Strategies for material recovery to minimize virgin material use and resource depletion; Sustainability: Battery recycling processes, lifecycle analysis, and environmental impact.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571-MEV-B",
+      "title": "Automotive Testing and Certification for EV",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Vehicle Regulations and Homologation",
+          "topics": "Need for Vehicle Testing and Homologation: Understanding the necessity for safety, performance, and environmental compliance; Regulatory Overview: Study of key international and national regulations and standards bodies; International: ECE (Economic Commis sion for Europe), SAE (Society of Automotive Engineers); National (e.g., India): AIS (Automotive Industry Standards), CMVR (Central Motor Vehicles Rules), Bharat EV norms; Other: FMVSS (Federal Motor Vehicle Safety Standards), ISO 26262 (Functional Safety) ; Type Approval and Certification Schemes: Processes for type approval, self -certification, and conformity of production (CoP); Vehicle Classification: Understanding different categories (e.g., M, N, O categories of vehicles) for regulatory purposes.",
+          "hours": null
+        },
+        {
+          "title": "Battery System Testing and Safety",
+          "topics": "Battery Performance Testing: Evaluation parameters: Voltage, current, temperature, state of charge (SoC), state of health (SoH ), energy, and power estimation; Performance criteria: Efficiency, heat generation, capacity, and life cycle testing; Battery Safety and Abusive Testing, Standards: Testing as per AIS 048, ECE R100, and USABC, Tests: Nail penetration, overcharge, over -discharge, short circuit, thermal abuse, and crash simulation; Battery Management System (BMS) Validation: Testing functionality including cell balancing (active/passive), fault detection, diagnostics, and thermal control interfaces.",
+          "hours": null
+        },
+        {
+          "title": "Electric Motor, Drivetrain, and Power Electronics Testing",
+          "topics": "Motor Characterization: Performance metrics: Net power, torque, speed, and efficiency measurements as per standards like AIS 041 and ECE R85; Durability and overload capacity: Testing motor performance under various operating conditions; Power Electronics and Inverter Testing: Validation of DC -DC converters, inverters, and motor controllers for efficiency and reliability; Regenerative Braking Testing: Evaluation of energy recovery systems and their performance.",
+          "hours": null
+        },
+        {
+          "title": "Vehicle Performance and Environmental Testing",
+          "topics": "Vehicle Performance on Dynamometers and Test Tracks: Energy Consumption: Measurement as per standards like AIS 039 and ECE R101; Electric Range: Determination of range under standard test cycles as per AIS 040 and ECE R101; Other tests: Power at wheels, gr adeability, and braking performance; NVH (Noise, Vibration, and Harshness) Testing: Standard methods for measuring noise inside and outside the vehicle, identifying sources, and pass -by noise testing; Environmental Simulation: Lab simulations for testing E V components and systems under varying environmental conditions like temperature and humidity. Automotive safety components certification by various organizations (ARAI, SIAM, SAE, ASME, FMVSS).",
+          "hours": null
+        },
+        {
+          "title": "Charging Testing and Safety Protocols",
+          "topics": "Charger Testing and Certification: Standards: Testing as per AIS 138, Bharat EV Charger specifications (AC001 and DC001), CHAdeMO, and CCS protocols; Interoperability: Ensuring compatibility between vehicles and various charging stations; Grid Integration (V2G) Testing: Evaluation of vehicle -to-grid communication and power flow; High -Voltage Safety: Protocols and testing for electrical safety, isolation sensing, and shock prevention (e.g., OSHA, NFPA 70E compliance); Crashworthiness: Safety considerations a nd testing for EV specific components (e.g., battery pack integrity during impact).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571-MEV-C",
+      "title": "Simulations of Transmission systems for EV",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Introduction to Electric Vehicles and Powertrain Architecture",
+          "topics": "EV Fundamentals: Types of EVs (BEV, HEV, PHEV, FCEV), their architecture, and key components; Vehicle Dynamics: Forces acting on a vehicle (rolling resistance, aerodynamic drag, grading resistance), dynamic equations, drive cycles, and performance paramete rs (max speed, acceleration, gradeability); Powertrain Components: Traction motors (PMSM, Induction, SRM), power flow in EV powertrains, and energy management strategies; Transmission Role in EVs: Rationale for single -speed and multi -speed transmissions in EVs (e.g., Porsche Taycan's two-speed gearbox).",
+          "hours": null
+        },
+        {
+          "title": "EV Transmission Systems Design and Modeling",
+          "topics": "Transmission Types: Design of gear systems (spur, helical, planetary gears), clutches, and differentials for EV applications; Modeling Techniques: Mathematical modeling of mechanical components (gears, shafts, bearings, brakes, etc.);System Integration: In tegration of electric motor models and mechanical transmission models; Control Strategies: Gear shifting control strategies for multi -speed transmissions and torque vectoring.",
+          "hours": null
+        },
+        {
+          "title": "Simulation Tools and Methodologies",
+          "topics": "Simulation Software: Introduction to industry -standard tools (MATLAB/Simulink, ANSYS, AVL, etc.) for EV simulations; Modeling and Simulation Methods: Physics -based modeling and empirical approaches, System -level simulation for performance analysis (speed, torque, efficiency), Component - level simulation for detailed analysis of mechanical components (gears, brakes, and bearings, etc.), Hardware-in-the-Loop (HIL) and Software -in-the-Loop (SIL) concepts, Data Acquisition: Use of real - world drive cycle data for simulation inputs; Transmission Control Unit (TCU) Fundamentals: Hardware- in-the-Loop (HIL) simulation and testing of TCU logic; Regenerative Braking Integration: Modeling the interaction between mechanical braking and regenerative braking through the transmission system..",
+          "hours": null
+        },
+        {
+          "title": "Performance and NVH Analysis",
+          "topics": "Efficiency Analysis: Simulating power losses in gears, bearings, and lubrication systems to optimize overall efficiency; NVH (Noise, Vibration, and Harshness): Dynamic modeling of gear systems and power train torsional responses, Analysis of motor excitati on and its impact on transmission vibration, Simulation of housing vibration responses using finite element models (FEM), Techniques for minimizing gear rattle and whine, Shift Strategy Optimization: Development and simulation of optimal gear shifting schedules for performance, efficiency, and smoothness; Performance Evaluation and Validation: Analyzing simulation results against performance metrics (acceleration time, top speed, range, efficiency) and experimental data.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Topics and Case Studies",
+          "topics": "Optimization of Transmission Ratios: Using optimization algorithms (e.g., genetic algorithms) to select optimal gear ratios for performance and efficiency; Thermal Management: Modeling and simulation of transmission oil cooling systems; Functional Safety: Overview of ISO 26262 standards as applied to powertrain components and their simulation; Case Studies/Projects: Real -world case studies of commercial EVs (e.g., Tesla Roadster, Porsche Taycan) and mini -projects involving modeling and simulating a specific EV transmission system; Performance Evaluation and Validation: Analyzing simulation results against performance metrics (acceleration time, top speed, range, efficiency) and experimental data.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571-MEV-D",
+      "title": "Power Electronics for EVs",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Electric Vehicles and Power Electronics Fundamentals",
+          "topics": "EV Architectures: Classification (BEV, HEV, PHEV), comparison with IC engine vehicles, and vehicle dynamics; Role of Power Electronics: Function in energy conversion and power flow; Basic Power Electronic Devices: Characteristics of power semiconductor swi tches (Diodes, Thyristors, BJTs, MOSFETs, IGBTs); Device Characteristics and Protection: Driver circuits, sensing, and thermal management.",
+          "hours": null
+        },
+        {
+          "title": "DC/DC Converters in EVs",
+          "topics": "Basic Principles: Buck, Boost, and Buck-Boost converters; Isolated Converters: Topologies like flyback, forward, and half -bridge; Four-Quadrant Operation: Bidirectional converters for regenerative braking; Control Techniques: Feedback control, voltage mode, current mode, and converter modeling.",
+          "hours": null
+        },
+        {
+          "title": "Rectifiers and AC/DC Conversion",
+          "topics": "Single-Phase and Three -Phase Rectifiers: Analysis of diode rectifiers; Active Front -End Rectifiers: Controlled AC -DC conversion for grid integration and V2G; Power Factor Correction (PFC): Techniques for efficient charging ; On -Board and Off -Board Charging Systems: Types (AC, DC fast charging) and standards (CHAdeMO, CCS, Bharat EV norms).",
+          "hours": null
+        },
+        {
+          "title": "Inverters and Motor Drives",
+          "topics": "Single-Phase and Three -Phase Inverters: Voltage Source Inverters (VSI) principles; Modulation Techniques: PWM, SPWM, and SVPWM for motor control; EV Motor Drives: Operation and control of various motors (DC, Induction, BLDC, PMSM, SRM); Motor Control Strat egies: Vector control, direct torque control, and four-quadrant operation.",
+          "hours": null
+        },
+        {
+          "title": "Battery Management Systems (BMS) and Integration",
+          "topics": "BMS Functions: Sensing (voltage, temperature, current, isolation) and fault detection; Cell Balancing: Passive and active techniques for battery life and efficiency; State Estimation: Methods for SoC, SoH, and RUL estimation; System Integration: Power flow management between battery, converters, motor drive, and VCU; high-voltage safety; Vehicle-to-Grid (V2G) and Grid Integration: Concepts, challenges, and the role of power electronics.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-MEV-A",
+      "title": "Charging Infrastructure for EV",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to EV Charging Technologies",
+          "topics": "Types of Electric Vehicles (BEVs, HEVs, PHEVs), Overview of EV components (battery, power electronics, motor), Charging types: AC vs. DC charging, normal power vs. high power charging, Charging levels and modes (Level 1, 2, 3), Battery Swapping Stations (BSS). On-board & off-board charging, The Fast-Charging Process, Fast Charging Strategies, The Fast Charger Configuration, Using Equalizing/Leveling Chargers, Inductive Charging -Making Recharging Easier, Range Testing of Electric Vehicles Using Fast Charging, Electric Vehicle Speedometer Calibration. Wireless Charging.",
+          "hours": null
+        },
+        {
+          "title": "Power Electronics for EV Charging",
+          "topics": "Power electronic converters for battery charging (AC -DC rectifiers, DC -DC converters), Single - phase and three -phase configurations, Bidirectional converters for V2G (Vehicle -to-Grid) applications, Fundamentals of power electronics for efficient charging.",
+          "hours": null
+        },
+        {
+          "title": "Standards, Protocols, and Safety",
+          "topics": "EV charger standards (Bharat EV Charger specifications AC001 and DC001, CCS, CHAdeMO, Type 2, etc.), Communication protocols (OCPP, ISO 15118, CAN), Safety standards and testing procedures (AIS 048, ECE R100), Interoperability and eRoaming challenges",
+          "hours": null
+        },
+        {
+          "title": "Grid Integration and Infrastructure Planning",
+          "topics": "Impact of EV charging on the power network (grid stability, power quality issues, congestion management), Grid integration strategies: Smart charging, Types of Smart Charging, Smart Charging Enablers, Enabling smart charging in India, Benefits and disadvantages of smart charging, cost analysis of smart charging stations, ToU charging and uncontrolled charging, managed charging, and V2G technology, Economic Analysis of EV charging infrastructure integration, Grid Upgradation, Low Voltage Distribution System (LVDS), High Voltage Distribution System (HVDS), Renewable energy integration with charging stations (solar PV, energy storage systems), Planning and optimal deployment of public and private charging infrastructure.",
+          "hours": null
+        },
+        {
+          "title": "Policies, Business Models, and Case Studies",
+          "topics": "Indian EV Statistics and Charging Infrastructure, 2W, 3W, 4W, EV Demand in India, E -Bus Demand in India, EV Charger Infrastructure in India, EV models available in the Indian Market, Government policies and regulatory framework in India (FAME II, MoP guidelines, state policies), Business models for Charge Point Operators (CPOs) and service providers Payment mechanisms for EV charging, Case studies of successful infrastructure deployments",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-MEV-B",
+      "title": "Artificial Intelligence in EV",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to artificial intelligence-empowered electric vehicles in smart grids",
+          "topics": "AI in Smart Grid (SG) Integration, Distributed Energy Resources (DERs), relation between the car and the grid, Cost Minimization: AI algorithms (often Reinforcement Learning), Peak Demand Reduction, Renewable Integration, The \"Intelligence\" of the EV (in M anufacturing and Self Driving); Communication technologies for electric vehicles, Robustness and resilience of artificial intelligence enabled electric vehicles: “a safety and security perspective”; Applications of AI - empowered electric vehicles for voice recognition in Asian and Austronesian languages.",
+          "hours": null
+        },
+        {
+          "title": "Energy management for artificial intelligence empowered modern electric vehicles",
+          "topics": "Demand response management using artificial intelligence -empowered electric vehicles, Energy prediction for future energy supply in electrical vehicles, Optimizing the integration of renewable energy source and plug -in electric vehicles for economic emissi on load dispatch through soft computing techniques, Battery-operated electric vehicles and plug-in hybrid electric vehicles.",
+          "hours": null
+        },
+        {
+          "title": "Energy trading for artificial intelligence empowered modern electric vehicles Peer-to-peer",
+          "topics": "energy trading using renewable energy sources and electric vehicles, Smart energy management using vehicle -to-vehicle and vehicle -to-everything, Vehicle -to-vehicle power transfer, Cyber - security challenges for artificial intelligence empowere d electric vehicles —analysis and current status.",
+          "hours": null
+        },
+        {
+          "title": "Case studies and futuristic trends for artificial intelligence-enabled electric vehicles",
+          "topics": "Revitalizing traffic control: the synergy of fog computing and Internet of Things for an intelligent traffic light system for electric vehicles, On fuzzy completely irresolute on smart decision -making for electric vehicle systems, Front -in parking method f or intelligent electric vehicles using proportional integral derivative control, The futuristic trends for modern electric vehicles, Environmental sustainability and carbon footprint reduction through artificial intelligence -enabled energy management in electric vehicles",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-MEV-C",
+      "title": "Advanced CFD for Battery Thermal Management",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Battery Thermal Behavior",
+          "topics": "Basic electrochemistry and heat generation in lithium-ion batteries, Thermal runaway mechanisms and safety considerations, Operating temperature ranges and their impact on battery performance and life span.",
+          "hours": null
+        },
+        {
+          "title": "Advanced CFD Theory:",
+          "topics": "Review of governing equations (Navier-Stokes, energy, etc.), Numerical methods (Finite Volume Method, Finite Difference Method), Grid generation techniques and mesh quality assessment, Turbulence modeling (RANS, LES, etc.), Multiphase flow and heat transfe r phenomena, if relevant to advanced cooling methods.",
+          "hours": null
+        },
+        {
+          "title": "CFD Modeling of Battery Systems:",
+          "topics": "Modeling approaches: cell level, module level, and pack level, Coupled thermal -electrochemical modeling (e.g., Newman P2D model, Equivalent Circuit Model (ECM), MSMD method), Implementation of heat generation models (Joule heating, reaction kinetics) in CFD software (e.g., ANSYS Fluent, OpenFOAM, COMSOL).Validation of simulation results against experimental data.",
+          "hours": null
+        },
+        {
+          "title": "Battery Thermal Management Systems (BTMS) Analysis:",
+          "topics": "Design and analysis of various cooling strategies: Air cooling and liquid cooling systems. Phase Change Materials (PCM) based systems. Heat pipes and advanced cooling techniques using nanofluids. Optimization of BTMS designs for efficiency, weight, and cost.",
+          "hours": null
+        },
+        {
+          "title": "EV Aerodynamics and Efficiency",
+          "topics": "CFD to minimize aerodynamic drag for extending an EV's range; External Aerodynamics: Forces and moments on the vehicle (drag, lift, side forces), Modeling flow around the full vehicle body and components (e.g., wings, spoilers, tires), Shape optimization f or drag reduction; Internal Aerodynamics: Optimizing transmission lubrication systems using oil flow CFD simulations to minimize churning losses. CFD samples related to radiators and HVAC systems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-MEV-D",
+      "title": "Autonomous Vehicle Technologies",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Automotive Embedded Systems and Sensor Technology",
+          "topics": "Overview of automotive embedded systems architecture (chassis, body, driveline); Study of various sensors: LiDAR, RADAR, cameras, ultrasonic, GPS/IMU, speed, and temperature sensors ; Sensor working principles, specifications, signal processing circuits, and microcontroller interfacing ; Introduction to in-vehicle networking and communication protocols (CAN, Ethernet, FlexRay).",
+          "hours": null
+        },
+        {
+          "title": "Perception, Localization, and Sensor Fusion",
+          "topics": "Perception: Computer vision techniques for object detection, recognition, tracking, and image segmentation using deep learning models (e.g., CNNs); Localization: Principles of GNSS (Global Navigation Satellite Systems) and simultaneous localization and mapping (SLAM); Sensor Fusion: Techniques for integrating data from multiple sensors to create a robust and accurate environment model.",
+          "hours": null
+        },
+        {
+          "title": "Motion Planning and Control Systems",
+          "topics": "Motion Planning: Path and speed planning, trajectory optimization, and reactive control strategies for safe navigation; Control Systems: Design of longitudinal and lateral controllers (e.g., adaptive cruise control, lane centering assist); Model-based control systems design using tools like MATLAB and Simulink; Vehicle dynamics and stability analysis in the context of autonomous control.",
+          "hours": null
+        },
+        {
+          "title": "Machine Learning and Artificial Intelligence for AVs",
+          "topics": "Introduction to machine learning (ML) and AI techniques for autonomous systems; Deep learning architectures (e.g., neural networks, reinforcement learning) for decision -making and perception tasks; Probabilistic methods for uncertainty estimation; Applicat ions of AI in system monitoring, fault detection, and energy management for autonomous electric vehicles.",
+          "hours": null
+        },
+        {
+          "title": "Safety, Security, Ethics, and Testing",
+          "topics": "Safety & Reliability: Implementation of fail -safe mechanisms, redundancy, Fault Detection and Isolation (FDI), and risk assessment techniques; Overview of relevant safety standards (e.g., ISO 26262); Security: Cyber security threats and protective measures for connected and autonomous vehicles; Ethics & Law: Discussion of ethical considerations, liability issues, and regulations surrounding AV deployment; Testing: Integration and testing methodologies, simulation techniques, and validation procedures for functional AV systems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "SEM-580-MEV",
+      "title": "Seminar I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        56,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-MEV",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 5,
+      "pages": [
+        62,
+        63
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Meaning of Research, Objectives of Research, Motivation in Research, Types of Research, Research Approaches, Significance of Research, Research Methods versus Methodology, Research and Scientific Method, Criteria of Good Research",
+          "hours": null
+        },
+        {
+          "title": "Research Problem and Research Design:",
+          "topics": "Definition of good research problem, Feasibility study of research problem, Importance of research problem, Sources of research problem, Criteria of good research problem, Meaning of Hypothesis, Characteristics of Hypothesis, Errors in selecting a research problem, Concept & need of research design, Meaning of variable, Selection of variables",
+          "hours": null
+        },
+        {
+          "title": "Mathematical Modelling and prediction of performance:",
+          "topics": "Steps in Setting up a computer model to predict performance of experimental system, Validation of results, multi-scale modelling and verifying performance of process system, Nonlinear analysis of system and asymptotic analysis, verifying if assumptions hold true for a given apparatus setup, Plotting family of performance curves to study trends and tendencies, Sensitivity analysis.",
+          "hours": null
+        },
+        {
+          "title": "Basic instrumentation:",
+          "topics": "Instrumentation schemes, Static and dynamic characteristics of instruments used in experimental set up, Performance under flow or motion conditions, Data collection using a digital computer system, Linear scaling for receiver and fidelity of instrument, Role of DSP in data collection in noisy environment, good measurement practice.",
+          "hours": null
+        },
+        {
+          "title": "Applied statistics:",
+          "topics": "Regression analysis, curve fitting and developing Correlation, Parameter estimation, Multivariate statistics, Principal component analysis, Moments and response curve methods, State vector machines and uncertainty analysis, Probable errors in the research, Error analysis and methods to reduce errors in research process.",
+          "hours": null
+        },
+        {
+          "title": "Research report writing and Publication",
+          "topics": "Research Report: Dissemination of research findings, outline and structure of research report, different steps and precautions while writing research report, methods and significance of referencing Publishing Research work: Selection of suitable journal for publishing research work, Open access Vs Subscription Journals, identifying indexing of selected journals, Impact factor of the journal, structure of research paper, Check for plagiarism of the article, Research paper submission and review process.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-MEV",
+      "title": "On Job Training/ Internship",
+      "semester": 3,
+      "type": "On Job Training/ Internship",
+      "credits": 5,
+      "pages": [
+        64,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-MEV",
+      "title": "Seminar II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 3,
+      "pages": [
+        56,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-MEV",
+      "title": "Project Stage I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        67,
+        73
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-MEV",
+      "title": "Seminar III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        56,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-MEV",
+      "title": "Project Stage II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        67,
+        73
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

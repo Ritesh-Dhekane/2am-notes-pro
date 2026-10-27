@@ -1,0 +1,807 @@
+{
+  "id": "me-instrumentation-and-control-engineering-process-instrumentation-18082025",
+  "kind": "programme",
+  "programme": "Master of Engineering (2025 Pattern) in ME – Instrumentation and Control Engineering (Process Instrumentation)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-PRI",
+      "title": "Transducer Design",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        10,
+        10
+      ],
+      "units": [
+        {
+          "title": "Review of Transducers: Introduction to Transducers, Sensors and Actuators.",
+          "topics": "Transduction Principles and Classification. Static and Dynamic Characteristics of Transducer. Errors in Measurement and their remedial measures, Propagation of Errors.",
+          "hours": null
+        },
+        {
+          "title": "Signal Conditioning: Concept of signal conditioning, signal level and bias",
+          "topics": "changes, linearization, conversation, filtering and impedance matching, concept of loading, divider circuits, and bridge circuits, comparators, AD C, DAC, interference, grounding, and shielding.",
+          "hours": null
+        },
+        {
+          "title": "Chemical Sensors: Bio sensors, Gas Sensors, Optical gas sensor Piezoelectric",
+          "topics": "gas sensor; Case Study: Biosensors for monitoring water pollutants",
+          "hours": null
+        },
+        {
+          "title": "MEMS Sensors: Fundamentals of stress-strain, electrostatics and energy",
+          "topics": "dissipation, Si and its properties; Micro -fabrication and lithography",
+          "hours": null
+        },
+        {
+          "title": "Design and fabrication process of Micro sensors: Design and analysis of Micro",
+          "topics": "Sensors; Case study: Accelerometer, Pressure sensor and Strain gauge",
+          "hours": null
+        },
+        {
+          "title": "Biomedical Instrumentation & Sensors: Introduction to Biomedical",
+          "topics": "Instrumentation and Sensors, Human Anatomy and Physiology relevant to Biomedical Instrumentation and Sensors, Types of Biomedical Sensors (Optical, Chemical, Electrical), Biomedical sensor cardiovascular and nervous system.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-PRI",
+      "title": "Industrial Automation",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Industrial Communication & Networking",
+          "topics": "Industrial Communication Protocols: Fieldbus Protocols: PROFIBUS, FOUNDATION Fieldbus, Modbus RTU/TCP, Device Net, Industrial Ethernet: PROFINET, Ether Net/IP, Ether CAT, Digital Twin Technology in Industrial Automatio n. Cybersecurity in Industrial Networks: Risks and Threats in Industrial Automation Networks, IEC 62443 for Industrial Control System Security.",
+          "hours": null
+        },
+        {
+          "title": "HMI & SCADA Systems",
+          "topics": "SCADA: Programming techniques for: Creation of pages, sequencing of pages, creating graphics & Animation & development of application using SCADA System. Alarm Management, Data Logging, and Report Generation, HMI Development: Touch Screens, Web- Based HMI.",
+          "hours": null
+        },
+        {
+          "title": "Industrial IToT& Edge Computing",
+          "topics": "Challenges and Benefits of IT/OT Integration , IT vs. OT: Key Differences and Similarities, Cybersecurity in IT/OT Systems, Integration of Edge Devices and Cloud -Based Industrial Control, Digital Twin Technology in Industrial Automation.",
+          "hours": null
+        },
+        {
+          "title": "Industry 4.0 & Smart Manufacturing",
+          "topics": "Industrial Automation in the Digital Age, AI & Machine Learning in Process Automation. Case Studies: Smart Manufacturing in Automotive & Aerospace Industries.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-PRI",
+      "title": "Process Modelling and Optimization",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        13,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Modeling: Introduction to Models, Use of Models, Scope of",
+          "topics": "Models, Types of models, modeling of process control systems in time domain and frequency domain, General modeling principles, first and second order models, higher order models, modeling of first and second order electrical systems, mechanical systems, Degree of freedom Analysis.",
+          "hours": null
+        },
+        {
+          "title": "Dynamic Models of Representative Processes: Reaction dynamics, Balance",
+          "topics": "equations, modeling of Two tanks in series and in parallel, CSTR models, Plug flow reactor model, modeling of flash drum, distillation columns, evaporators, dryers, heat exchangers, Batch reactor.",
+          "hours": null
+        },
+        {
+          "title": "Numerical Methods: Solution of algebraic equation: Interval Halving, Newton",
+          "topics": "Raphson method Solution of differential equation: Runge -Kutta method, Euler method, Adam Bash forth method",
+          "hours": null
+        },
+        {
+          "title": "Process Identification: Identification of physical processes, off -line and on -line",
+          "topics": "identification, Step testing, pulse testing, sine wave testing, ATV identificat ion method, prediction error methods, introduction to numerical algorithm for subspace state space identification, least square method, Relationships among time, Laplace and frequency domain.",
+          "hours": null
+        },
+        {
+          "title": "Basic Concepts of Optimization: Scope of Optimization, Development of Models",
+          "topics": "for optimization, Continuity of functions, convex and concave functions, Convex Region, Extremum of the objective functions, quadratic approximation.",
+          "hours": null
+        },
+        {
+          "title": "Optimization of Constrained and Unconstrained functions: Constrained",
+          "topics": "optimization – direct method , Constrained optimization – indirect method, Unconstrained optimization with single variable, Unconstrained optimization with multiple variables.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-PRI",
+      "title": "Mathematical Methods in Instrumentation",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "Vector Spaces and Tra nsformation: Vector spaces, subspace and linear dependence, concept of",
+          "topics": "basis, representation, norms of vectors and orthonormalization, linear transformations, concept of symmetry, inner products, singular value decomposition.",
+          "hours": null
+        },
+        {
+          "title": "Orthogonal and Uni tary Transformation : Orthogonal projections, products of projections,",
+          "topics": "orthogonal direct sums, Unitary and orthogonal transformations, closed subspaces and the projection theorem for Hilbert spaces",
+          "hours": null
+        },
+        {
+          "title": "Numerical method for algebraic and differential equations: Least square method, Gauss -Jordon",
+          "topics": "method, Gauss-Seidal method, Gauss elimination method, Newton-Raphson method, Euler’s method, modified Euler’s method, Runge-Kutta methods, Adam-Bash forth method.",
+          "hours": null
+        },
+        {
+          "title": "Basic concept of Proba bility: Random experiments, sample spaces, axioms of probability",
+          "topics": "conditional probability, Bayes theorem.",
+          "hours": null
+        },
+        {
+          "title": "Probability distributions: Probability distribution function, probability density function, Binomial,",
+          "topics": "Normal, Poisson and uniform distribution",
+          "hours": null
+        },
+        {
+          "title": "Mathematical expectations : Mean variance, standard deviation, moments, covariance and",
+          "topics": "correlation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-PRI",
+      "title": "PG-Lab-1",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A-PRI",
+      "title": "Soft Computing",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 4,
+      "pages": [
+        16,
+        16
+      ],
+      "units": [
+        {
+          "title": "Soft Computing: Conventional AI to Computational Intelligence, Soft Computing",
+          "topics": "Constituents and Applications. Data Clustering Algorithms: K-Means, Fuzzy C -Means, Mountain Clustering, Subtractive Clustering.",
+          "hours": null
+        },
+        {
+          "title": "Neural Networks: Fundamental Concepts, Basic Models and Architecture, Machine",
+          "topics": "Learning using Neural Networks, Associative Memory Networks and their Applications.",
+          "hours": null
+        },
+        {
+          "title": "Supervised Learning Neural Networks: Perceptron Networks, Radial Basis",
+          "topics": "Function Networks: Back Propagation Neural Network: Architecture, Learning, Applications, & Research Directions; The Boltzmann Machine. Unsupervised Learning Networks: Competitive Learning networks; Kohonen Self-Organizing Networks; Hebbian learning; The Hopfield Network; Counter propagation Networks; Adaptive Resonance Theory: Introduction, Architecture, & Applications; Feed forward Networks; Reinforcement Learning.",
+          "hours": null
+        },
+        {
+          "title": "Fuzzy Logic: Fuzzy set theory, Fuzzy set versus crisp set, Crisp relation & fuzzy",
+          "topics": "relations Membership Functions: Introduction, Features, &Fuzzification, Methods of Membership Value Assignment; Defuzzification. Fuzzy Systems: Crisp Logic, Predicate Logic, Fuzzy Logic; Fuzzy Rule Base and Approximate Reasoning, Fuzzy Quantifiers; Fuzzy Inference Systems, Fuzzy Decision Making, Fuzzy Logic Control System; Fuzzy Expert Systems.",
+          "hours": null
+        },
+        {
+          "title": "Optimization: Derivative-based Optimization, Descent Methods, The Method of",
+          "topics": "Steepest Descent, Classical Newton’s Method, Simulated Annealing, Random Search, Downhill Simplex Search Derivative-free Optimization- Genetic algorithm Fundamentals, basic concepts, working principle, encoding, fitness function, reproduction, Genetic modeling: Inheritance operator, cross over, mutation operator, Generational Cycle.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC--521B-PRI",
+      "title": "Advanced Power Electronics",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 4,
+      "pages": [
+        17,
+        17
+      ],
+      "units": [
+        {
+          "title": "Controlled Rectifiers",
+          "topics": "1-ø controlled rectifiers, Line commutated 1 -ø controlled rectifiers, Unity power factor 1 -ø rectifiers, 3 -ø controlled rectifiers, Line commutated 3 -ø controlled rectifiers, Force commutated 3-ø controlled rectifiers.",
+          "hours": null
+        },
+        {
+          "title": "DC – DC Converters",
+          "topics": "DC Choppers, Buck Converters, Boost Converters, Cuk Converters, Multi -quadrant ZCS Quasi Resonant Lio Converters, Multi -quadrant ZVS Quasi Resonant Lio Converters, Synchronous - rectifier DC/DC Lio-converters.",
+          "hours": null
+        },
+        {
+          "title": "Inverters",
+          "topics": "1-ø voltage source inverters, 3-ø voltage source inverters, Current Source Inverters, Closed loop operations on inverters, Regeneration in Inverters, Multistate Inverters.",
+          "hours": null
+        },
+        {
+          "title": "Resonant converters and Power supplies:",
+          "topics": "Concept of Soft switching, Resonant converter Analysis and Design. SLR, PLR, ZCS, ZVS Converter analysis and Design. Synchronous rectifiers, Low Dropout Regulators, Hot Swappable Redundant Power Supplies, Design of High Frequency magnetic components for converters, Bi- Directional Power Supplies",
+          "hours": null
+        },
+        {
+          "title": "Power Electronics for Renewable Energy Sources:",
+          "topics": "Power Electronics for Photovoltaic Power System, Power Electronics for Wind Power System, variable wind energy conversion system with DC -to-Dc converters followed by 3Phase VSI, Photo voltaic energy conversion system, Solar Battery powered drives, traction drives, energy conversion in electrical drives, Battery Chargers.",
+          "hours": null
+        },
+        {
+          "title": "Power Conditioning:",
+          "topics": "Power quality, power line disturbances and its remedies, energy audit, solar power conditioning, Power transmission. FACTS Flexible AC Transmission, HVDC.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC--521C-PRI",
+      "title": "Robotics",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 4,
+      "pages": [
+        18,
+        18
+      ],
+      "units": [
+        {
+          "title": "Robotics: Basic components, Classification, Performance characteristics, degrees of",
+          "topics": "freedom, degrees of movements, robot configuration, definition and factor affecting the control resolution, spatial resolution, accuracy and repeatability, specification of a robot Actuators- Electric actuator, DC motor horse power calculation, magneto strictive hydraulic and pneumatic actuators.",
+          "hours": null
+        },
+        {
+          "title": "Sensors and vision systems: Different types of robot transducers and sensors,",
+          "topics": "Tactile sensors, Proximity and range sensors, ultrasonic sensor, touch sensors, slip sensors, sensor calibration, vision systems, Image processing and analysis, image data reduction, segmentation feature extraction, Object recognition.",
+          "hours": null
+        },
+        {
+          "title": "Robot Control: Control of robot manipulators, state equations, constant solutions,",
+          "topics": "linear feedback systems, single axis PID control, PD gravity control, computed torque control, variable structure control, Impedance control.",
+          "hours": null
+        },
+        {
+          "title": "End effectors and tools: types, M echanical grippers, Vacuum cups, Magnetic",
+          "topics": "grippers, Robot end effectors interface, work space analysis work envelope, workspace fixtures, pick and place operation, continuous path motion, interpolated motion, straight line motion.",
+          "hours": null
+        },
+        {
+          "title": "Robot motion analysis and control: Manipulator kinematics, forward and inverse",
+          "topics": "kinematics, arm equation, link coordinates, Homogeneous transformations and rotations and Robot dynamics.",
+          "hours": null
+        },
+        {
+          "title": "Robot Applications: Industrial and Non industrial robots, Robots for welding,",
+          "topics": "painting and assembly, Remote Controlled robots, Robots for nuclear, thermal and chemical plants, Industrial automation, Typical examples of automated industries.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-551-PRI",
+      "title": "Process Dynamics & Control",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        20,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Process Control",
+          "topics": "Review of basics of Process Control, Control objective and benefits, control system elements. Controller and analysis of closed loop system, P, PI, PID controller, Stability Analysis",
+          "hours": null
+        },
+        {
+          "title": "Controller Tuning",
+          "topics": "Closed-Loop Oscillation-Based Tuning, Tuni ng Rules for First -Order + Dead Time Processes, Direct Synthesis, Robustness",
+          "hours": null
+        },
+        {
+          "title": "Model Based control",
+          "topics": "Introduction to Model -Based Control, Open -Loop Controller Design, Model Uncertainty and Disturbances, IMC Structure, IMC Design Procedure, Improving Disturbance Rejection Design, IMC-Based PID controller for Delay-Free and Time Delay Processes",
+          "hours": null
+        },
+        {
+          "title": "Advanced Process control:",
+          "topics": "Cascade control, inferential control, override control, selective control, slit range control, Feed Forward Control, Feedback-feed forward and Ratio control",
+          "hours": null
+        },
+        {
+          "title": "Multivariable control",
+          "topics": "Introduction to Multivariable controllers. The Relative Gain Array, Properties and Application of the RGA, Sensitivity, Decoupling control",
+          "hours": null
+        },
+        {
+          "title": "Model Predictive Control:",
+          "topics": "Introduction to Model Predictive Control: General Principles, Model forms, DMC, SISO unconstrained DMC Problem, controller tuning. Process Monitoring: Statistical Process Control-control charts and its interpretation, multivariate charts and controller, performance monitoring.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-PRI",
+      "title": "Advanced Embedded System",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction to ARM Microcontroller",
+          "topics": "RISC and ARM design philosophy, ARM family, ARM Core &Architecture – Arithmetic Logic Unit, Booth multiplier, Barrel shifter, Control unit, register file, ARM Functional Diagram, Pipeline Characteristics, ARM Instruction set, Thumb -2 technology and applications of ARM, Architecture of ARM Cortex M3, Various Units in the architecture, General Purpose Registers, Special Registers, exceptions, interrupts, stack operation, reset sequence, ARM Instruction Set – Thumb Instruction Set.",
+          "hours": null
+        },
+        {
+          "title": "Bus Technology and ARM7 Microcontroller",
+          "topics": "ARM Bus technology, AMBA Bus Protocol, Memory Controllers, Interrupt Controllers - Standard interrupt controller (SIC), Vector interrupt controller (VIC). ARM7 LPC2148 Microcontroller Architecture, Block Diagram, Features, Memory Mapping, serial communication interface – USB 2, full speed device, multiple UARTs, SPI, SSP to 12C. 32 -bit timers,10-bit DAC,10-bit ADC, PWM channel, fast GPIO lines and level sensitive external interrupts pins.",
+          "hours": null
+        },
+        {
+          "title": "Interfacing with external world",
+          "topics": "Interfacing of LED with LPC 2148, interfacing of four digit 7 -segment common anode multiplexed LED display with LPC2148, interfacing of 16x2 LCD display (8-bit) with LPC2148, interfacing of stepper motor with LPC2148, Interfacing of DC motor using L298 with LPC2148, Interfacing of electromechanical relay with LPC 2148, LPC 2148 interfacing with On -Chip (Internal) ADC. Interfacing of GPS module with LPC2148, Interfacing of Bluetooth module with LPC2148, Serial Communication Using UART in LPC2148, Interfacing EEPROM IC(AT24CXX) with LPC2148, SD card Interfacing with LPC2148.",
+          "hours": null
+        },
+        {
+          "title": "Embedded Communication Protocols",
+          "topics": "Embedded networking introduction, Serial/Parallel communication, serial communication protocols, UARTs:RS-232, RS485, serial peripheral interface (SPI), q uad SPI, I2C: Data Transfer, Arbitration, Addressing, CAN: Architecture, Signalling, Arbitration, Framing, Bit Stuffing, USB Bus: Introduction, speed identification on the bus, USB states, USB bus communication, packets, data flow types, enumeration, descr iptors. CAN bus: Introduction, frames, bit stuffing, types of errors, nominal bit timing. PC parallel port programming, ISA/PCI bus protocols, firmware.",
+          "hours": null
+        },
+        {
+          "title": "Case Studies: Case Studies: Design and discussion of specific examples of complete",
+          "topics": "embedded system in application areas of Process Control System, Biomedical Instrumentation, and Communication: IoT Based Systems",
+          "hours": null
+        },
+        {
+          "title": "Case Studies: Case Studies: Design and discussion of specific examples of complete",
+          "topics": "embedded system in application areas of automotive, solar energy and building automation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-PRI",
+      "title": "Data Analytics",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Big Data and Analytics:",
+          "topics": "Nature and structure of process data: time-series, event-based, setpoint and control loop data. Introduction to Big Data for process industries. Limitations of conventional SCADA/Historian-based analysis. Intelligent data an alysis for control systems and Instrumentation. Four V's of Big Data in instrumentation: Volume (sensor data), Velocity (real-time measurements), Variety (process vs control dat a), Veracity (sensor noise/errors ). Role of analytics in safety, predictive maintenance, anomaly detection. Tools overview: Data historians (OSI PI, Wonder ware), Python for Instrumentation.",
+          "hours": null
+        },
+        {
+          "title": "Stream Data Analytics in Control Systems",
+          "topics": "Streaming architectures for control data. Data stream models: Sensor buses, MQTT, OPC - UA, and real-time protocols. Event detection and filtering from sensor noise. Stream sampling and aggregation: Down -sampling, moving average, EWMA for control loops. Real-time analytics for process alarms, fault detection, and batch monitoring. Case studies: Early detection of process faults, compressor surge detection, predictive pump failure.",
+          "hours": null
+        },
+        {
+          "title": "Distributed Storage and Processing of Process Data",
+          "topics": "Overview of distributed file systems for industrial data. Hadoop in industrial context: Integration with data historians and control systems. HDFS: architecture, use for archival of sensor data. Map Reduce for process event classification, batch process analysis. Case studies: Large-scale log analytics from DCS/PLC data.",
+          "hours": null
+        },
+        {
+          "title": "Real-Time Industrial Analytics Using Apache Spark",
+          "topics": "Overview of Spark and its relevance to industrial analytics. Spark with time-series and process datasets. Data Frames and Spark SQL for sensor data querying. Use of Spark Streaming with Kafka/OPC-UA for control loop analytics. NoSQL for Instrumentation metadata (MongoDB, HBase use cases in asset management).",
+          "hours": null
+        },
+        {
+          "title": "Scalable Algorithms for Instrumentation Applications",
+          "topics": "Anomaly detection in sensor networks and control loops. Similarity analysis in temperature/pressure profiles. Clustering techniques for operating modes in process systems. Machine learning algorithms for sensor validation and virtual sensing. Map Reduce and Spark ML lib-based models for predictive maintenance.",
+          "hours": null
+        },
+        {
+          "title": "Industrial Frameworks, Security and Visualization.",
+          "topics": "Data pipelines for process data: Edge -to-cloud architectures. Pig and Hive for structured analysis of process batches. Role of HBase and Zo okeeper in DCS/SCADA data management. Visualization dashboards: Grafana, Power BI, Tableau for control room analytics. Data security, compliance (IEC 62443), and audit trail in Instrumentation networks.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-PRI",
+      "title": "PG Lab-II",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        25,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-561A-PRI",
+      "title": "Advanced Control System",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": "Linear System Design: Design of Compensator, Lead, Lag and Lag -Lead Design.",
+          "topics": "PI, PD and PID Controller Design. Feedback Compensation",
+          "hours": null
+        },
+        {
+          "title": "Non-Linear Systems: Introduction to Nonlinear System , describing function,",
+          "topics": "Describing Function of Dead Zone and saturation non -linearity, Describing Funct ion of relay with dead zone and Hysteresis, Describing Function of Backlash Nonlinearity, Describing function analysis of Nonlinear System. Phase Plane and Phase Trajectory.",
+          "hours": null
+        },
+        {
+          "title": "Analysis and Design of Control Systems in State Space: Eigen values and Eigen",
+          "topics": "vectors, Similarity Transformation, Cayley Hamilton Theorem, Transformation of State Model, Control System Design by state variable feedback, Pole Placement approach, State Observer and Design of different state observer.",
+          "hours": null
+        },
+        {
+          "title": "Sampled Data Control System: Introduction, sampling Process, TF of LDS system,",
+          "topics": "Analysis of Sampler and ZOH, Analysis with impulse sampling, Analysis of Sampled Data Control System, Z- domain to S-domain relationship, stability analysis of sampled data control system.",
+          "hours": null
+        },
+        {
+          "title": "State Space Analysis of Discrete time control system: Discretization of",
+          "topics": "Continuous time state space Equation, Similarity Transformation, Pulse transfer function Matrix, solution of state difference equations, Controllability and stability, Observability and detect ability, effect of sampling on Controllability and observability, Multivariable systems.",
+          "hours": null
+        },
+        {
+          "title": "Optimal Control: Constrained Optimization, Unconstrained optimization, Concept",
+          "topics": "of Optimal Control, Quadratic Performance index, steady state optimal Control, Optimal state Regulators, linear quadratic Regulator, free final state, Hamiltonian Systems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-561B-PRI",
+      "title": "Batch Process Control",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        27,
+        27
+      ],
+      "units": [
+        {
+          "title": "Review of Batch Process:",
+          "topics": "Introduction to Batch Control System, Batch Process Classification, Batch Models",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Batch Processing :",
+          "topics": "Batch control types & components. Batch control system terminology & characteristics of batch processing. The hierarchical batch model & control structure.",
+          "hours": null
+        },
+        {
+          "title": "Batch Control Activities and Functions:",
+          "topics": "Recipe management, Production planning and scheduling, Production information management, Process management & Personnel and environmental protection.",
+          "hours": null
+        },
+        {
+          "title": "General Control Requirements of Batch Process:",
+          "topics": "Safety interlocking, sequential control of batch processes, batch & recipe management. Case studies of use in Pharma & Dairy processing.",
+          "hours": null
+        },
+        {
+          "title": "Batch Control Standards:",
+          "topics": "Recipes, computer aided formulations, electronic batch recorder & signatures, batch control optimization, batch control system selection criteria.",
+          "hours": null
+        },
+        {
+          "title": "Batch Reactor:",
+          "topics": "Temperature Control, Auxiliary Cooling, manipulating feed & product rates, Batch Distillation: Constant distillate rate, constant composition control, Maximizing product recovery. Batch drying: Rate of drying, Heat recovery. Selections of Controller for Batch Process. Batch Control function, Safety Interlocking. Reference 1. Bella G Liptak, ‘Instrument Engineer’ Handbook, Vol ‘3’ ,3rd edition, (CRC Press) (2002). 2. F. G. Shinskey ‘Process Control System’,3rd edition, (Mc Graw -Hill International Edition) 3. T. G. Fisher “Batch Control System”, ISA Series, 2nd edition,2010 4. B. Roffel and P. Chin, “Batch and Continuous Process Control,” Computer Control in the Process Industries, pp. 59–70, Jul. 2017, doi: 10.1201/9781315150482-6.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-561C-PRI",
+      "title": "Building Automation",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        28,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Fire Alarm System",
+          "topics": "Fire alarm System‐The History, Need for Fire alarm System, Classification of Fire Alarm System, Conventional Fire Alarm System, FAS architecture, Addressable Fire Alarm System, Principles of Operations, Its Applications.",
+          "hours": null
+        },
+        {
+          "title": "Fire Alarm Detection System Requirement",
+          "topics": "Stages of Fire Alarm System, Component within Fire Alarm System, FAS Loops‐Clas sification of Loops and Examples, Power Supply Requirement and its designing parameters",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Smart building and Security Systems",
+          "topics": "Basic Concepts of Access Control System. Basic Component of Access Control System, Benefits of Access Control System. Cable Used in Access Control System and Its Terminology, Access Control System Devices features, Protocols for access Control system.",
+          "hours": null
+        },
+        {
+          "title": "Access Security Systems: Basics of Access security systems, Types of Access",
+          "topics": "Control stems, Access Control Systems Components such as Cameras, Lenses, Recording devices, storage and Network components and systems, Access control system design.",
+          "hours": null
+        },
+        {
+          "title": "HVAC Systems:",
+          "topics": "Introduction to HVAC Systems components, Introduction to the Psychrometric Chart, Basic Air- Conditioning System, Zoned Air -Conditioning Systems, System Choice Matrix, Human Comfort, Introduction to Thermal Comfort, Seven Factors Influencing Thermal Comfort, and Conditions for Comfort, Ventilation Process & Applications",
+          "hours": null
+        },
+        {
+          "title": "HVAC& Air handling unit",
+          "topics": "Concept of Air handling unit. Design, working of different components in AHU damper, filter, cooling coil, heating coil, fan, heat recovery wheel, humidifier. Modes in AHU. Heating Process & Applications, Air Handlers and Unitary Equipment, Heaters, Boilers, Chillers, Cooling Towers. MCC Basics, Panel Components",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-562A-PRI",
+      "title": "Industrial Safety",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "International Standards and Regulations: IEC 61508",
+          "topics": "Functional Safety of Electrical/Electronic/Programmable Systems, IEC 61511 (ANSI/ISA - 84.00.01-2004): SIS in Process Industries, ANSI/ISA 84.01 -1996: Process Safety Instrumentation, NFPA 85: Boiler and Combustion Safety Systems, API RP 556 & API RP 14C: SIS in Refining and Offshore Platforms, OSHA 29 CFR 1910.119: Process Safety Management (PSM) for Highly Hazardous Chemicals, Regulatory Compliance and Audit Requirements.",
+          "hours": null
+        },
+        {
+          "title": "SIS Design and Implementation",
+          "topics": "Safety L ifecycle and SIS Design Philosophy, SIS Functional Requirements and System Architecture, Selection of Sensors, Logic Solvers, and Final Control Elements, SIS Redundancy, Reliability, and Availability Considerations, Fault Tolerance and Fail-Safe Design.",
+          "hours": null
+        },
+        {
+          "title": "SIS Testing, Maintenance, and Validation",
+          "topics": "Safety Instrumented System Testing: Factory Acceptance Testing (FAT) and Site Acceptance Testing (SAT), Proof Testing and Periodic Maintenance of SIS Components, Failure Modes, Effects, and Diagnostics Analysis (FMEDA), Common Cause Failures and Mitigation Strategies, SIS Performance Monitoring and Continuous Improvement.",
+          "hours": null
+        },
+        {
+          "title": "Advanced in SIS",
+          "topics": "Cybersecurity Considerations for Safety Instrumented Systems (IEC 62443), Advanced Diagnostics and Predictive Maintenance for SIS, Smart Safety Systems and Industry 4.0 Integration, Case Studies: SIS Failures, Lessons Learned, and Best Practices, Future Trends in Functional Safety and SIS Technologies. Reference 1. Paul Gruhn and Harry L. Cheddie,” Safety Instrumented systems: Design, Analysis and Justification”, ISA, 2nd edition, 2018. 2. Eric W. Scharpf, Heidi J. Hartmann, Harlod W. Thomas, “Practical SIL target selection: Risk analysis per the IEC 61511 safety Lifecycle”, exida2nd Edition 2 016. 3. William M. Goble and Harry Cheddie, “Safety Instrumented Systems Verification: Practical Probabilistic Calculations” ISA, 2005. 4. Edward Marszal, Eric W. Scharpf, “Safety Integrity Level Selection: Systematic Methods Including Layer of Protection Analysis”, ISA, 2002. 30 5. Standard - ANSI/ISA-84.00.01-2004 Part 1 (IEC 61511 -1 Mod) “Functional Safety: Safety Instrumented Systems for the Process Industry Sector - Part 1: Framework, Definitions, System, Hardware and Software Requirements”, ISA, 2004. 6. Safety Instrumented Systems Verification: Practical Probabilistic Calculation –...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-562B-PRI",
+      "title": "Advanced Signal Processing",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        31,
+        31
+      ],
+      "units": [
+        {
+          "title": "Discrete Fourier Transform and Its Applications: Basics of DFT, DFT as a Linear",
+          "topics": "Transformation, Conversion of Linear Convolution to Circular Convolution, Linear filtering using overlap and add, overlap and save method, Frequency analysis of discrete signal: Speech Signal, ECG/EEG Signal, Introduction to Two Dimensional DFT, Application of Two – Dimensional DFT for Image Filtering.",
+          "hours": null
+        },
+        {
+          "title": "Linear Prediction: Lattice structure realization, forward linear prediction, Auto",
+          "topics": "correlation methods, Covariance Methods, lattice methods, Linear Spectral Frequencies: LPC to LSFs/LSPs Transformation, LSFs to LPC Transformation, Application of Linear Prediction.",
+          "hours": null
+        },
+        {
+          "title": "Spectral Estimation: Estimation of Density Spectrum: Power and Energy Spectral",
+          "topics": "Density, Nonparametric method, parametric methods, other estimation methods, Evaluation of cepstrum.",
+          "hours": null
+        },
+        {
+          "title": "Multirate DSP and Applications: Decimation and Interpolation, sampling rate",
+          "topics": "conversion by I/D, Efficient Implementation of Interpolation and Decimation, Polyphaser Filter Structure, Multistage Filter Design, Sampling Rate Conversion of Band Pass Signals, Applications of Multirate DSP.",
+          "hours": null
+        },
+        {
+          "title": "DCT, WT and Applications : Discrete Cosine Transform and Discrete Sine",
+          "topics": "Transform, Applications of DCT, Short Time Fourier Transform, Wavelet Transform: Haar Wavelet and Multi resolution Analysis, Daubechies Wavelet, Some other standard Wavelets, Applications of WT.",
+          "hours": null
+        },
+        {
+          "title": "Adaptive filtering: Principles of Adaptive filtering, LMS and RMS Algorithms,",
+          "topics": "Applications in noise and echo cancellation, Homomorphic Signal Processing, homomorphic system for convolution, properties of complex -spectrum, Applications of homomorphic deconvolution.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-562C-PRI",
+      "title": "Artificial Intelligence and Machine Learning",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence: Introduction to Artificial Intelligence,",
+          "topics": "Foundations of Artificial Intelligence, History of Artificial Intelligence, State of the Art, Risks and Benefits of AI, Intelligent Agents, Agents and Environments, Good Behavior: Concept of Rationality, Nature of Environments, Structure of Agents.",
+          "hours": null
+        },
+        {
+          "title": "Problem solving using Artificial Intelligence: Solving Problems by Searching,",
+          "topics": "Problem-Solving Agents, Example Problems, Search Algorithms, Uninformed Search Strategies, Informed (Heuristic) Search Strategies, Heuristic Functions, Search in Complex Environments, Local Search and Optimization Problems.",
+          "hours": null
+        },
+        {
+          "title": "Planning: Automated Planning, Classical Planning, Algorithms for Classical",
+          "topics": "Planning, Heuristics for Planning, Hierarchical Planning, Planning and Acting in Nondeterministic Domains, Time, Schedules, and Resources, Analysis of Planning Approaches, Limits of AI, Ethics of AI, Future of AI, AI Components, AI Architectures",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Machine Learning: Introduction to Machine Learning,",
+          "topics": "Comparison of Machine learning with traditional programming, ML vs AI vs Data Science. Types of learning: Supervised, Unsupervised, and semi-supervised, reinforcement learning techniques, Models of Machine learning: Geometric model, Probabilistic Models, Logical Models, Grouping and grading models, Parametric and non -parametric models. Important Elements of Machine Learning- Data formats, Learn ability, Statistical learning approaches",
+          "hours": null
+        },
+        {
+          "title": "Supervised Learning: Regression: Bias, Variance, Generalization, Underfitting,",
+          "topics": "Overfitting, Linear regression, Regression: Lasso regression, Ridge regression, Gradient descent algorithm. Evaluation Metrics: MAE, RMSE, R2 Classification: Classification: K-nearest neighbor, Support vector machine. Ensemble Learning: Bagging, Boosting, Random Forest, Adaboost. Binary -vs-Multiclass Classification, Balanced and Imbalanced Multiclass Classification Problems, Variants of Multicla ss Classification: One- vs-One and One -vs-All Evaluation Metrics and Score: Accuracy, Precision, Recall, Fscore, Cross-validation, Micro Average Precision and Recall, Micro-Average F-score, Macro-Average Precision and Recall, Macro-Average F-score. #Exemplar/Case Studies P",
+          "hours": null
+        },
+        {
+          "title": "Unsupervised Learning: K-Means, K-medoids, Hierarchical, and Density-based",
+          "topics": "Clustering, Spectral Clustering. Outlier analysis: introduction of isolation factor, local outlier factor. Evaluation metrics and score: elbow method, extrinsic and intrinsic methods. Reference 1. Introduction to Machine Learning with Python by Andreas C. Müller, Sarah Guido 2. Machine Learning For Dummies by John Paul Mueller and Luca Massaron Fundamentals of Machine Learning for Predictive Data Ana lytics: Algorithms, Worked Examples, and Case Studies by John D. Kelleher, Brian Mac Namee, and Aoife D’Arcy 3. Machine Learning For Absolute Beginners by Oliver Theobald 4. Python Machine Learning by Sebastian Raschka and Vahid Mirja lili 5. Understanding Machine Learning by Shai Shalev-Shwartz and Shai Ben-David 6. Nilsson Nils J , “Artificial Intelligence: A new Synthesis”, Morgan Kaufmann Publishers Inc. San Francisco, CA, ISBN: 978-1-55-860467-4 7. Patrick Henry Winston, “Artificial Intelligence”, Addison-Wesley Publishing Company, 33 ISBN: 0-201-53377-4 8. Andries P. Engelbrecht-Computational Intelligence: An Introduction, 2nd Edition-Wiley India- ISBN: 978-0-470-51250-0 9. Stuart Russell and Peter Norvig, “Artificial Intelligence: A Modern Approach”, Th ird edition, Pearson, ...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "TS-571-PRI",
+      "title": "Seminar-1",
+      "semester": 2,
+      "type": "Technical Seminar",
+      "credits": 2,
+      "pages": [
+        34,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-631-PRI",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "RM",
+      "credits": 4,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research",
+          "topics": "Basic of Research: Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that describe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and ex planatory research. Qualitative and quantitative approaches. Engineering Research: Why? Research Questions, Engineering Ethics, conclusive proof -what constitutes, a research Project-Why take on? Case Study : Code of Ethics, IEEE Code of Ethics, ACM Softwar e Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects- environment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": null
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of review, Developing the objectives, Preparing the research design including sample Design, Sample size. Archival Literature, Why should engineers be ethical? Types of publications- Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study : Engineering dictionary, Shodhganga, The Library of Congres s, Research gate, Google Scholar, Bibliometric, Citations, Impact Factor, h -index, I-index, plagiarism, copyright infringement",
+          "hours": null
+        },
+        {
+          "title": "Analysis of Variance and Covariance",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short-cut method for one-way ANOVA, Coding method, Two-way ANOVA, ANOVA in Latin-square design, analysis of co-variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": null
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond google, impact factor, H-Index. IPR: What is IPR?, importance of patents, types of IPR, process of patent.",
+          "hours": null
+        },
+        {
+          "title": "Outcome of Research and Research Presentation",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, Testing validity of research outcomes, Suggestions and recommendations, identifying future scope. 37 Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OJT-641-PRI",
+      "title": "Internship/On Job Training",
+      "semester": 3,
+      "type": "Internship/ OJT (IN/OJT)",
+      "credits": 5,
+      "pages": [
+        38,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-632-PRI",
+      "title": "Seminar-2",
+      "semester": 3,
+      "type": "Technical Seminar",
+      "credits": 4,
+      "pages": [
+        39,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "RP-642-PRI",
+      "title": "Research Project-I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        41,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "RP-671-PRI",
+      "title": "Seminar on Project Stage-II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 4,
+      "pages": [
+        43,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "RP-681-PRI",
+      "title": "Research Project Stage-II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

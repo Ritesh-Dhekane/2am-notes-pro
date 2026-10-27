@@ -1,0 +1,210 @@
+{
+  "id": "r8-honor-course-lean-manufacturing-teandbe-2024-patt-mechanical-engineering-syllabus-rap",
+  "kind": "programme",
+  "programme": "Undergraduate Program – Third and Final Year Mechanical Engineering (Honor Course in Lean Manufacturing)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HLEA301MEC",
+      "title": "Lean Manufacturing Principles and Systems",
+      "semester": 5,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Evolution of Manufacturing",
+          "topics": "Evolution of manufacturing systems, craft production, mass production, world class manufacturing (WCM), Lean manufacturing, philosophy, objectives and benefits of Lean manufacturing, Toyota Production System (TPS), House of Toyota, pillars of TPS including Just-in-Time (JIT) and Jidoka, continuous improvement philosophy, comparison of conventional and Lean manufacturing systems.",
+          "hours": 8
+        },
+        {
+          "title": "Lean Principles",
+          "topics": "Lean thinking and the five Lean principles, customer value, value -added and non -value-added activities, value stream, value stream mapping (introduction), flow, pull production system, push versus pull production, perfection, continuous improvement and customer-focused manufacturing",
+          "hours": 8
+        },
+        {
+          "title": "Waste Identification and Lean Metrics",
+          "topics": "Lean waste concepts, seven wastes (Muda), unevenness (Mura), overburden (Muri), identification and elimination of waste, Lean performance metrics, productivity, cycle time, lead time, throughput, Overall Equipment Effectiveness (OEE), first pass yield (FPY), and continuous performance monitoring",
+          "hours": 8
+        },
+        {
+          "title": "Lean Production Systems",
+          "topics": "Cellular manufacturing, group technology (introduction), one-piece flow, continuous flow manufacturing, line balancing, takt time, cycle time, standard work, workstation design, production flow optimization, and principles of efficient production system design.",
+          "hours": 8
+        },
+        {
+          "title": "Lean Organization and Continuous Improvement",
+          "topics": "Lean organization, Lean culture, Lean leadership, employee involvement, Kaizen philosophy, continuous improvement process, daily management practices, Lean transformation, barriers to Lean implementation, and critical success factors for sustainable Lean implementation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HLEA302MEC",
+      "title": "Lean Manufacturing Laboratory",
+      "semester": 5,
+      "type": "Honor Course",
+      "credits": 1,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "HLEA351MEC",
+      "title": "Lean Tools and Industrial Applications",
+      "semester": 6,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Workplace Organization and Visual Lean Tools",
+          "topics": "Introduction to Lean tools, workplace organization using 5S methodology, workplace discipline and standardization, Visual Management principles, visual controls, workplace communication, Standard Work, work instructions, standard operating procedures (SOPs ), work standardization, ergonomics in Lean workplaces.",
+          "hours": 8
+        },
+        {
+          "title": "Quality and Flow Improvement Tools",
+          "topics": "Poka-Yoke (mistake proofing), types of Poka -Yoke devices, Jidoka (automation with a human touch), autonomous quality control, Kanban system, pull production, types of Kanban, Heijunka (production leveling), inventory reduction, production flow improvement.",
+          "hours": 8
+        },
+        {
+          "title": "Equipment and Process Improvement",
+          "topics": "Single Minute Exchange of Dies (SMED), setup time reduction, internal and external setup activities, Total Productive Maintenance (TPM), eight pillars of TPM, autonomous maintenance, planned maintenance, Overall Equipment Effectiveness (OEE), calculation and interpretation of OEE, equipment reliability and productivity improvement",
+          "hours": 8
+        },
+        {
+          "title": "Value Stream Mapping and Lean Shop Floor Management",
+          "topics": "Value Stream Mapping (VSM), current state mapping, future state mapping, identification of value-added and non-value-added activities, Gemba philosophy, Gemba walk, problem identification at the workplace, Andon system, visual signaling, production monitoring, continuous improvement using shop floor management.",
+          "hours": 8
+        },
+        {
+          "title": "Lean Manufacturing Applications and Case Studies",
+          "topics": "Lean implementation strategies in manufacturing industries, industrial case studies on Lean implementation, Lean practices adopted by Toyota, Tata Motors, Mahindra, Bosch, John Deere, and Cummins, challenges in Lean implementation, benefits of Lean transformation, best practices and future trends in Lean manufacturing.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HLEA352MEC",
+      "title": "Value Stream Mapping & Simulation Laboratory",
+      "semester": 6,
+      "type": "Honor Course",
+      "credits": 1,
+      "pages": [
+        23,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "HLEA401MEC",
+      "title": "Lean Six Sigma and Quality Engineering",
+      "semester": 7,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Lean Six Sigma",
+          "topics": "Introduction to quality engineering, Lean versus Six Sigma, integration of Lean and Six Sigma, benefits of Lean Six Sigma, customer focus and critical -to-quality (CTQ) characteristics, DMAIC methodology including Define, Measure, Analyze, Improve and Contr ol phases, statistical thinking, variation in manufacturing processes, process improvement methodology.",
+          "hours": 8
+        },
+        {
+          "title": "Statistical Process Control and Process Capability",
+          "topics": "Statistical Process Control (SPC), common cause and special cause variation, control charts for variables and attributes, X̄ chart, R chart, S chart, p chart, np chart, c chart and u chart, interpretation of control charts, process capability, process capa bility indices (Cp, Cpk, Pp and Ppk), process stability and capability analysis. Final Year Mechanical Engineering – 2024 Pattern - Faculty of Science and Technology",
+          "hours": 8
+        },
+        {
+          "title": "Root Cause Analysis and Risk Assessment",
+          "topics": "Problem-solving methodology, root cause analysis, Fishbone (Ishikawa) diagram, 5 Why analysis, Failure Mode and Effects Analysis (FMEA), severity, occurrence and detection ratings, Risk Priority Number (RPN), corrective and preventive actions (CAPA), continuous quality improvement.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Experiments and Quality Cost",
+          "topics": "Introduction to Design of Experiments (DOE), objectives and benefits of DOE, factors, levels and responses, full factorial and fractional factorial designs, screening experiments, optimization of process parameters, cost of quality, prevention cost, appraisal cost, internal failure cost, external failure cost, quality cost analysis and economic impact of quality improvement.",
+          "hours": 8
+        },
+        {
+          "title": "Lean Quality Improvement and Industrial Applications",
+          "topics": "Lean quality improvement strategies, integration of Lean tools with Six Sigma, defect reduction, waste elimination, process optimization, customer satisfaction, continuous improvement, quality culture, Lean Six Sigma implementation roadmap, industrial applications and case studies in manufacturing industries, challenges and success factors in Lean Six Sigma implementation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HLEA402MEC",
+      "title": "Lean Six Sigma Mini Project",
+      "semester": 7,
+      "type": "Honor Course",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "HLEA451MEC",
+      "title": "Smart Lean Manufacturing and Digital Factory",
+      "semester": 8,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        32,
+        34
+      ],
+      "units": [
+        {
+          "title": "Industry 4.0 and Smart Manufacturing",
+          "topics": "Evolution of industrial revolutions, Industry 4.0 concepts and principles, cyber -physical systems (CPS), Internet of Things (IoT), Artificial Intelligence (AI) in manufacturing, machine learning basics, Digital Twin, Digital Factory, Smart Factory, intelli gent manufacturing systems, digital transformation in manufacturing industries",
+          "hours": 8
+        },
+        {
+          "title": "Lean Manufacturing and Industry 4.0 Integration",
+          "topics": "Integration of Lean Manufacturing with Industry 4.0, Lean 4.0 concepts, Smart Kanban systems, Digital Total Productive Maintenance (Digital TPM), Radio Frequency Identification (RFID), Automated Guided Vehicles (AGVs), Manufacturing Execution Systems (MES), Enterprise Resource Planning (ERP), Cloud Manufacturing, digital workflow management, real-time production monitoring and control.",
+          "hours": 8
+        },
+        {
+          "title": "Smart Manufacturing Analytics",
+          "topics": "Manufacturing data collection, industrial dashboards, Key Performance Indicators (KPIs), Overall Equipment Effectiveness (OEE) analytics, production analytics, predictive maintenance, condition monitoring, data - driven decision making, manufacturing intelli gence, visualization of production performance, continuous monitoring of manufacturing systems.",
+          "hours": 8
+        },
+        {
+          "title": "Digital Factory Systems",
+          "topics": "Digital manufacturing systems, virtual factory concepts, simulation in manufacturing, digital production planning, smart inventory management, digital quality management, cloud -based manufacturing systems, industrial communication networks, industrial cybe rsecurity fundamentals, sustainable and connected manufacturing systems.",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Applications of Smart Lean Manufacturing",
+          "topics": "Smart Lean Manufacturing implementation in automotive industries, aerospace manufacturing, MSMEs, digital transformation strategies, Industry 4.0 maturity models, implementation challenges, benefits of Smart Lean Manufacturing, sustainability, future trends in intelligent manufacturing, industrial case studies and best practices..",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HLEA452MEC",
+      "title": "Industry Oriented lean Manufacturing Project",
+      "semester": 8,
+      "type": "Honor Course",
+      "credits": 2,
+      "pages": [
+        35,
+        37
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}
