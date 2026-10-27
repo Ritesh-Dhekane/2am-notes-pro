@@ -24,6 +24,8 @@ CATALOGUE = ROOT / "public" / "data" / "syllabus.json"
 # A page with fewer characters than this has no usable text; a file mostly made of such pages is scanned.
 EMPTY_PAGE = 30
 SCANNED_SHARE = 0.6
+# Text with more one-letter words than this is garbled.
+GARBLED = 0.3
 
 
 def load_doc_text(tools):
@@ -33,14 +35,30 @@ def load_doc_text(tools):
     return doc_text
 
 
+def single_letter_share(pages):
+    words = [w for text in pages for w in text.split()]
+    return sum(1 for w in words if len(w) == 1) / len(words) if len(words) >= 200 else 0
+
+
+def pages_plumber(pdf):
+    import pdfplumber
+
+    with pdfplumber.open(str(pdf)) as doc:
+        return [(p.extract_text() or "") for p in doc.pages]
+
+
+# pypdf rejects some PDFs (e.g. duplicate font entries) and garbles others into reversed, spaced-out letters
+# (a normal page has about 5% one-letter words); pdfplumber reads those, so the cleaner text wins.
 def read_pages(doc_text, pdf):
     try:
-        return doc_text.pages_pdf(pdf)
-    except Exception:  # pypdf rejects some PDFs (e.g. duplicate font entries); pdfplumber reads them
-        import pdfplumber
-
-        with pdfplumber.open(str(pdf)) as doc:
-            return [(p.extract_text() or "") for p in doc.pages]
+        pages = doc_text.pages_pdf(pdf)
+    except Exception:
+        return pages_plumber(pdf)
+    if single_letter_share(pages) > GARBLED:
+        other = pages_plumber(pdf)
+        if single_letter_share(other) < single_letter_share(pages):
+            return other
+    return pages
 
 
 def extract(doc_text, pdf):
