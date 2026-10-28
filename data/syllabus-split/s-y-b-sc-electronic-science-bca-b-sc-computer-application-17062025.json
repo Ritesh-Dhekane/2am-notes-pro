@@ -1,0 +1,112 @@
+{
+  "id": "s-y-b-sc-electronic-science-bca-b-sc-computer-application-17062025",
+  "kind": "programme",
+  "programme": "S.Y.B.Sc. Electronic Science [BCA B.Sc. (Computer Application)]",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ES – 241 - MN",
+      "title": "Data Communications",
+      "semester": 3,
+      "type": "Minor",
+      "credits": null,
+      "pages": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Communications",
+          "topics": "Data communications, Characteristics of Data Communication Data Representation – Text, Numbers, Images, Audio, Video Types of Data flow – Simplex, Half Duplex, Full Duplex Computer Networks applications –Business Application, Home Application, Mobile User Broadcast and point-to-point networks Network Topologies - Bus, Star, Ring, Mesh Network Types- LAN, MAN, WAN, Wireless Networks, Home Networks, internetworks Protocols and standards – Definition of a Protocol, Protocol standards: De facto and De jure, RFC",
+          "hours": 7
+        },
+        {
+          "title": "Network Models",
+          "topics": "OSI Model – layered architecture, peer-to-peer processes, encapsulation TCP/IP Model – layers and Protocol Suite Addressing-Physical, Logical, Port addresses, Specific addresses",
+          "hours": 7
+        },
+        {
+          "title": "Signals, Transmission & Performance",
+          "topics": "Analog and Digital data, Analog and Digital signals, Digital Signals-Bit rate, Bit length Baseband Transmission, Broadband Transmission Transmission Impairments– Attenuation, Distortion and Noise Data Rate Limits– Noiseless channel: Nyquist’s bit rate, noisy channel : Shannon’slaw Performance of the Network Bandwidth, Throughput, Latency (Delay), Bandwidth – Delay Product, Jitters Line Coding Characteristics, Line Coding Schemes–Unipolar -NRZ, Polar-NRZ-I, NRZ-L, RZ, Manchester and Differential Manchester, Problems Transmission Modes, Parallel Transmission and Serial Transmission– Asynchronous and Synchronous Multiplexing, FDM and TDM Switching-Circuit Switching, Message Switching and Packet Switching.",
+          "hours": 8
+        },
+        {
+          "title": "Framing, Error Detection, Channelization",
+          "topics": "Framing – Concept, Methods – Character Count, Flag bytes with Byte Stuffing, Starting & ending Flags with Bit Stuffing Error detection codes – Hamming Distance, CRC Elementary data link protocols - Simplex stop & wait protocol, Simplex protocol for noisy channel, PPP, HDLC Sliding Window Protocols – 1-bit sliding window protocols, Pipelining – Go-Back N and Selective Repeat Random Access Protocols - ALOHA– pure and slotted, CSMA-1- persistent, p-persistent and non-persistent CSMA/CD,CSMA/CA Controlled Access - Reservation, Polling and Token Passing Channelization – Definitions – FDMA, TDMA and CDMA",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "ES – 242 - MNP",
+      "title": "Data Communications Laboratory",
+      "semester": 3,
+      "type": "Minor",
+      "credits": null,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "Assignments",
+          "topics": "1 Study of Network devices: Hub, Switch, Router, Bridge, Gateway, Repeater etc. 2 Prepare a cross cable using RJ45 and UTP cable. 3 Prepare a straight cable using RJ45 and UTP cable. 4 Study of serial and parallel communication ports. 5 Program to transmit a string of characters using serial communication. 6 Implement Simple stop and wait protocol. 7 Implement 1-bit Sliding window protocol. 8 Program to generate a series of random numbers. 9 Program to print a text file using parallel communication. 10 Measuring upload and download speeds. 11 Program to simulate error detection using Hamming Distance. 12 Finding type of address (unicast, multicast or broadcast) from Ethernet destination address. 13 Program to carry out given operations on given polynomials.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ES – 291 - MN",
+      "title": "Communications Networks",
+      "semester": 4,
+      "type": "Minor",
+      "credits": null,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Internet Protocol, Address mapping and Routing",
+          "topics": "Review of basic concepts in Data Communication, Network models, Physical and Data Link Layers IPv4 addresses: Address space, Notations, Classful and Classless addressing, NAT Internetworking – Need of Network layer, Internet as a Datagram and as a connectionless network IPv4: Datagram, Fragmentation, checksum, options IPv6 addresses: Structure, addrss space, packet format, Extension headers Address mapping – ARP, RARP, BBOTP and DHCP ICMP – Types and formats of messages, Error reporting, Introduction to IGMP Direct and indirect delivery, Forwarding techniques, process and routing table Unicast and Multicast Routing protocols",
+          "hours": 8
+        },
+        {
+          "title": "UDP and TCP",
+          "topics": "6.1. Process-to-Process Delivery- Client-server, Multiplexing and De-multiplexing, Connectionless Vs. Connection oriented service, Reliable Vs. unreliable service 6.2. User Datagram Protocol (UDP) – Ports, User Datagram, Checksum, UDP operations, Use of UDP 6.3. Transmission Control Protocol (TCP) - TCP Services, TCP Features, Segment, TCP Connection, Flow Control, Error Control, Congestion Control",
+          "hours": 8
+        },
+        {
+          "title": "DNS, Remote Login, Email and File Transfer",
+          "topics": "Domain Name System (DNS) - Distribution of Name Space, DNS in the Internet, Resolutions, DNS Messages, Header, Records, Registers, DDNS, Encapsulation Remote Login – TELNET E-MAIL - Architecture, User Agent, Message Transfer Agent - SMTP, POP and IMAP, Web Based Mail FTP, Anonymous FTP",
+          "hours": 7
+        },
+        {
+          "title": "WWW and HTTP",
+          "topics": "WWW – Architecture, Client, Server, URL, Cookies, WEB Documents – Static, Dynamic and Active documents HTTP - HTTP Transaction, Persistent Vs. Nonpersistent connection, Proxy Server Introduction to Simple Network Management – Management components, structure of Management information, MIB, Security",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "ES – 292 - MNP",
+      "title": "Communications Networks Laboratory",
+      "semester": 4,
+      "type": "Minor",
+      "credits": null,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Assignments",
+          "topics": "1 Using Networking commands – ping, hostname, traceroute, netstat, ifconfig, who, nmap, nslookup etc. 2 Study of LAN Environment – IP, MAC addresses, DHCP Server. 3 Convert IP addresses from binary to dotted-decimal notation. 4 Convert IP addresses from dotted-decimal to binary. 5 Find netid and hostid of IP addresses. 6 Find class of IP addresses. 7 UDP Based Client-Server Echo application using socket programming. 8 TCP Based Client-Server Echo application using socket programming. 9 Settings options in GMAIL. 10 Backup email messages in gmail account. 11 Explore POP and IMAP in Gmail. 12 Use and study FTP Command. 13 Using HTTP protocol and standard ports. 14 Using TELNET.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

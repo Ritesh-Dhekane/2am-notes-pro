@@ -1,0 +1,683 @@
+{
+  "id": "t-y-b-sc-artificial-intelligence-and-machine-learning",
+  "kind": "programme",
+  "programme": "Bachelor of Science (B.Sc) With Major: ARTIFICIAL INTELLIGENCE (AI) and MACHINE LEARNING (ML)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "AIML-301-MJ-T",
+      "title": "Artificial Intelligence - II",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Quantifying Uncertainty",
+          "topics": "Acting under Uncertainty , Basic Probability Notation , Inference Using Full Joint Distributions, Independence, Bayes’ Rule and Its Use , Naive Bayes Models and types, Representing Knowledge in an Uncertain Domain , The Semantics of Bayesian Networks, Exact Inference in Bayesian Networks",
+          "hours": 8
+        },
+        {
+          "title": "Probabilistic Reasoning over Time",
+          "topics": "Time and Uncertainty, Inference in Temporal Models , Hidden Markov Models (HMMs), Kalman Filters , Dynamic Bayesian Networks",
+          "hours": 6
+        },
+        {
+          "title": "Making Simple Decisions",
+          "topics": "Combining Beliefs and Desires under Uncertainty , The Basis of Utility Theory , Utility Functions , Multi-attribute, Utility Functions , Decision Networks, The Value of Information , Unknown Preferences.",
+          "hours": 8
+        },
+        {
+          "title": "Making Complex Decisions",
+          "topics": "Sequential Decision Problems, Introduction to Markov Decision Process (MDP), Algorithms for MDPs, Bandit Problems, Partially Observable MDPs, Algorithms for Solving POMDPs.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "AIML-302-MJ-T",
+      "title": "Supervised Machine Learning Techniques",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "Meaning and evolution of Machine Learning , Artificial Intelligence vs Machine Learning vs Deep Learning , Types of Machine Learning: Supervis ed, Unsupervised, Reinforcement, Supervised Learning paradigm: labeled data, training and testing , Machine Learning workflow: data collection, preprocessing, model building, evaluation, Challenges in Machine Learning: overfitting, underfitting, bias -variance tradeoff , Applications of supervised learning in industry",
+          "hours": 6
+        },
+        {
+          "title": "Regression Techniques",
+          "topics": "Regression as a supervised learning technique , Linear Regression for prediction problems , Cost function and concept of loss minimization, Multiple Linear Regression (conceptual understanding) , Assumptions of regression models, Model evaluation: Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R² score , Interpretation of regression models in real -world applications",
+          "hours": 6
+        },
+        {
+          "title": "Neural Networks for Supervised Learning",
+          "topics": "Motivation for Neural Networks: Introduction, Architectures – feedforward and Feedback, TLNs, limitations of linear models , linear separability , Perceptron model and learning process , Activation functions: Step, Sigmoid, ReLU, Neural Networks for classification and regression Advantages and limitations of Neural Networks",
+          "hours": 6
+        },
+        {
+          "title": "Tree-Based and Instance-Based Learning",
+          "topics": "Decision Trees as supervised learning models , Decision Tree structure: root, nodes, branches, leaves , ID3 06 1,2,3,5 algorithm and concept of information gain, Overfitting in Decision Trees and basic pruning idea , k-Nearest Neighbors (kNN): working principle , Distance measures and choice of k, Comparison of Decision Trees and kNN",
+          "hours": 8
+        },
+        {
+          "title": "Margin-Based Learning and Model Evaluation",
+          "topics": "Support Vector Machines (SVM): intuition and motivation, Hyperplane, margin, and support vectors , Linear SVM for classification, Kernel trick, Classification performance metrics: Accuracy, Precision, Recall, F1 - Score, Confusion matrix and interpretation , Model selection and comparison in supervised learning , 5",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "AIML-303-MJ-T",
+      "title": "Cybersecurity Concepts and Artificial Intelligence",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Foundations of Cybersecurity",
+          "topics": "Cybersecurity principles: confidentiality, integrity, availability (CIA triad), Threats and vulnerabilities: malware, phishing, social engineering, Security models and policies, Basics of cryptography: symmetric/asymmetric encryption, hashing.",
+          "hours": null
+        },
+        {
+          "title": "Artificial Intelligence Basics for Security",
+          "topics": "Introduction to AI: intelligent agents, machine learning paradigm, AI techniques relevant to security: classification, clustering, anomaly detection, Neural networks and deep learning in intrusion detection, Case studies: AI in spam filtering, fraud detection.",
+          "hours": null
+        },
+        {
+          "title": "AI-Driven Cybersecurity Systems",
+          "topics": "Intrusion Detection Systems (IDS) and AI, Predictive analytics for threat intelligence, AI in malware analysis and detection, Limitations of AI in cybersecurity (adversarial attacks, bias).",
+          "hours": null
+        },
+        {
+          "title": "Ethical, Legal, and Future Perspectives",
+          "topics": "Ethical issues in AI and cybersecurity, Privacy concerns and data protection laws , AI governance frameworks in security , Future trends: autonomous defense systems, quantum-safe AI security.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AIML-304-MJ-T",
+      "title": "Prompt Engineering",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Prompt Engineering",
+          "topics": "Definition, importance, applications in AI, Introduction to AI, NLP, LLM, GPT, tokens, Hands-on: Explore basic prompts on ChatGPT/Copilot/ any other; observe differences in outputs",
+          "hours": 6
+        },
+        {
+          "title": "Fundamentals of Prompt Design",
+          "topics": "Elements/Components instructions, context, input data, and output indicators. Key principles for designing clear, specific, and effective prompts, techniques for writing clear instructions, using delimiters, and specifying output formats, prompt design best practices. Prompt health checklists, hands-on practice in crafting basic prompts for common tasks like summarization, Q&A, and classification, Prompt design Vs Prompt Engineering.",
+          "hours": 8
+        },
+        {
+          "title": "Prompt types and Patterns",
+          "topics": "Types of Prompts: Instructional, role-based, conversational, multi-modal prompts, compare outputs of 3 prompt styles on the same query. Prompt Structures: Templates, chaining, hierarchical prompts, Design prompts for generating a poem, a business email, and a lesson plan, Strategies for writing better prompts. Iterative Refinement: Testing, feedback loops, prompt tuning, Refine a poorly performing prompt through 3 iterations. 8 2,3 Evaluation Metrics: Accuracy, relevance, creativity, bias, Evaluate AI responses for bias; suggest refinements. Ethical Considerations: Concept of hallucinations, bias, misinformation, responsible use Case study: Prompts on cultural/social topics, analyze ethical risk.",
+          "hours": 12
+        },
+        {
+          "title": "Prompt Structures",
+          "topics": "Advanced Techniques: Zero-shot, One-, few- and multi- shot, providing examples within the prompt to guide the model's response, Chain-of-Thought (CoT), Zero-shot CoT. Prompting: Encouraging the model to think step-by-step for better reasoning, Specialized Techniques: Includes Tree-of-Thought (ToT), ReAct, Self-Consistency, Generated Knowledge, and Step-back prompting, Prompt Patterns- Applying established patterns like the Persona Pattern or the Flipped Interaction Pattern, implement few- shot prompts for summarization and problem-solving Domain-Specific Prompting: education, healthcare, business, coding, create prompts tailored to 3 different domains. Tools & Platforms: Copilot, ChatGPT, Bard, Claude – strengths & limitations, demo: test same prompt across 2 platforms; compare outputs.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "AIML-305-MJ-P",
+      "title": "Practical based on AIML-301-MJ-T",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-306-MJ-P",
+      "title": "Practical based on AIML-302-MJ-T",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        16,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-310-MJ-T",
+      "title": "Data Preprocessing and Visualization",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Foundations of Data Cleaning & Quality",
+          "topics": "Introduction to Data Quality: Definition and significance of data quality, Dimensions of data quality: accuracy, completeness, consistency, validity, timeliness, uniqueness, Role of data cleaning in AI/ML lifecycle, Types out (GIGO) principle, data integration. Handling Missing Data: Mechanisms of missing data (MCAR, MAR, MNAR). Imputation techniques: Mean, Median, Mode, and algorithmic imputation (KNN). Outlier Detection: Understanding outliers. Statistical detection methods: Z -score, Interquartile Range (IQR), Winsorization, and Isolation Forests.",
+          "hours": null
+        },
+        {
+          "title": "Feature Engineering & Dimensionality Reduction",
+          "topics": "Data Transformation: Normalization (Min-Max scaling), Standardization (Z-score scaling), Robust scaling, and Log transformations. Encoding Categorical Data: Ordinal vs. Nominal data. Label Encoding, One-Hot Encoding, Dummy variable trap, and Target Encoding. Dimensionality Reduction: The curse of dimensionality. Mathematical intuition and application of Principal Component Analysis (PCA).",
+          "hours": null
+        },
+        {
+          "title": "Grammar of Graphics & Static Visualization 7 T1, T2,",
+          "topics": "W1 Principles of Good Visualization: Edward Tufte’s principles, maximizing the data -ink ratio, avoiding visual clutter, and accessible color theory. Univariate Analysis: Best practices for Histograms, Bar charts, Pie charts (and when to avoid them), and Box plots. Bivariate/Multivariate Analysis: Scatter plots, Line graphs, Heatmaps, and Pair plots. Python Ecosystem: Architectural overview of Matplotlib (Figure and Axes objects) and Seaborn.",
+          "hours": 20
+        },
+        {
+          "title": "Interactive Visualization & Storytelling",
+          "topics": "Interactive Graphics: The cognitive benefits of interactivity (Zooming, Panning, Filtering, Hover tooltips). Advanced Tools: Introduction to the Plotly ecosystem and Bokeh architectures. Geospatial Data: Basics of visualizing coordinate and mapping data (Choropleth maps, point maps). Data Storytelling: Constructing user -centric dashboards, narrative flows, and presenting data to non -technical stakeholders.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AIML-311-MJ-P",
+      "title": "Lab course on AIML-310-MJ-T",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-312-MJ-T",
+      "title": "Vibe Coding",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Concept and philosophy of vibe coding. Overview of creative coding platforms (Sonic Pi, Processing, p5.js, Hydra). Applications in education, art, and entertainment.",
+          "hours": 6
+        },
+        {
+          "title": "Coding for Sound and Music",
+          "topics": "Basics of digital sound synthesis. Live coding music with Sonic Pi / SuperCollider. Rhythm, melody, and harmony generation through code. Create a simple music track using vibe coding.",
+          "hours": 8
+        },
+        {
+          "title": "Coding for Visuals and Interaction",
+          "topics": "Generative art with Processing/p5.js (or any other) . Real-time visuals with Hydra. User interaction: keyboard, mouse, and sensor inputs. Build an interactive visualizer responding to sound or user input.",
+          "hours": 8
+        },
+        {
+          "title": "Integrative Projects and Ethics",
+          "topics": "Combining sound, visuals, and interactivity. Collaborative vibe coding sessions (live performances). Ethical considerations: authorship, originality, and digital rights. A Mini- project like Create a vibe coding performance or any other related to AI use or installation. After competing this course, a student will be able to:",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "AIML-313-MJ-P",
+      "title": "Practical based on AIML-312-MJ-T",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-314-MJ-T",
+      "title": "Design and Analysis of Algorithms - II",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Backtracking",
+          "topics": "Introduction to backtracking, general strategy, comparison with brute force , N-Queens problem – recursive formulation , Graph coloring problem , Hamiltonian cycle problem , Sudoku solver using backtracking, Complexity analysis of backtracking algorithms.",
+          "hours": 9
+        },
+        {
+          "title": "Branch and Bound",
+          "topics": "Introduction to Branch & Bound, bounding functions, 0/1 Knapsack problem using B&B , Traveling Salesman Problem (TSP) , Comparison of backtracking vs branch & bound, Efficiency analysis and limitations.",
+          "hours": 9
+        },
+        {
+          "title": "Randomized algorithms",
+          "topics": "Introduction, Types of Randomized Algorithms – Las Vegas, Monte Carlo, Approximate Median, Randomized Quick Sort using Las Vegas method, shortest enclosing circle (for a set of points), min Cut (in graphs)",
+          "hours": 8
+        },
+        {
+          "title": "P & NP",
+          "topics": "Introduction to complexity classes (P, NP) , Polynomial time reductions , NP-complete problems – SAT, Clique, Vertex Cover , NP-hard problems and implications, Is P = NP? Current research directions.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "AIML-315-MJ-P",
+      "title": "Practical based on AIML-314-MJ-T",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        29,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-321-VSC-P",
+      "title": "Design Thinking",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-331-FP",
+      "title": "Field Project",
+      "semester": 5,
+      "type": "FP / OJT/ CEP",
+      "credits": 2,
+      "pages": [
+        32,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-341-MN-T",
+      "title": "Calculus for Machine Learning",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Calculus for Machine Learning",
+          "topics": "What is Machine Learning , Role of mathematics in ML, Why calculus is required in ML model training, Real-life applications of calculus in ML (image recognition, speech recogni tion, recommendation systems), Basic mathematical concepts: variables, c onstants, functions and graphs, Linear and non - linear functions, Concept of change in real-life systems , Types exponential, logarithmic, Graphical understanding of functions: plotting, interpretation, increasing and decreasing functions",
+          "hours": 8
+        },
+        {
+          "title": "Limits and Continuity",
+          "topics": "Meaning and intu itive understanding of limits, Left-hand and right -hand limits, Simple numerical examples, meaning of continuity, Continuous and discontinuous functions, Real-life interpretation of conti nuity, Importance of continuity in ML (continuous loss fu nctions, smooth optimization), Simple limit problems: polynomial and rational functions, limits using direct substitution",
+          "hours": 7
+        },
+        {
+          "title": "Differentiation and Applications in ML",
+          "topics": "Concept of derivative, Derivative as rate of change, Slope of a curve, Tangent to a curve, Basic rules of differentiation: constant rule, power rule, sum and diffe rence rule, simple chain rule, Common derivatives used in ML (polynomial, exponential, logarithmic functions), Applications of derivatives in ML-gradient and slope interpretation, error minimization, loss functions, Introduction to Gradient Descent – Simple numerical problems",
+          "hours": 8
+        },
+        {
+          "title": "Optimization for Machine Learning",
+          "topics": "Introduction to optimization, Need for optimization in ML, Concept of minimum and maxi mum of functions, Cost and loss 34 functions, Mean Squared Error (MSE), Visualizing loss curves, Gradient Descent: intuition, learning rate, iterative update rule, visual understanding, Simple one -variable optimization problems, ML-based real-life examples",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "AIML-351-MJ-T",
+      "title": "Introduction to Natural Language Processing (NLP)",
+      "semester": 6,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Foundations of NLP",
+          "topics": "Introduction to NLP, applications, challenges, text vs speech, linguistic basics - Collocations, use of Statistical Inference: n -gram Models over Sparse Data, Word Sense Disambiguation , Lexical Acquisition , use and importance of Corpus , Entropy – Joint and conditional, the noisy channel model lemmatization - Synsets and Hypernyms , stopword removal, normalization, regex",
+          "hours": 10
+        },
+        {
+          "title": "Morphology and Syntax",
+          "topics": "POS tagging, parsing, chunking, dependency trees. Semantic Analysis - Named Entity Recognition (NER), Word Sense Disambiguation, semantic similarity.",
+          "hours": 10
+        },
+        {
+          "title": "Text Representation",
+          "topics": "Bag-of-Words, TF -IDF, Word embeddings (Word2Vec, GloVe), contextual embeddings , Building your own corpus",
+          "hours": 6
+        },
+        {
+          "title": "Dependency Parsing, Constituency Parsing",
+          "topics": "Classical NLP Applications- Sentiment analysis, text classification, topic modelling, Recent trends and applications of NLP.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "AIML-352-MJ-T",
+      "title": "Unsupervised Machine Learning",
+      "semester": 6,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "Unsupervised Learning Foundations",
+          "topics": "Review of Machine Learning paradigms , Difference between supervised and unsupervised learning, Nature of unlabeled data , Similarity and distance measures, Feature representation, Applications",
+          "hours": 7
+        },
+        {
+          "title": "Clustering Techniques",
+          "topics": "Clustering as a learning task , K - Means clustering, Hierarchical clustering , Density-based clustering (DBSCAN) , Cluster evaluation measures , Choosing the number of clusters",
+          "hours": 8
+        },
+        {
+          "title": "Dimensionality Reduction Techniques",
+          "topics": "Curse of dimensionality, Feature reduction vs feature selection, Principal Component Analysis (PCA), Independent Component Analysis (ICA), Manifold learning (t -SNE / UMAP), Visualization of high-dimensional data",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Unsupervised Learning & Applications",
+          "topics": "Association rule mining (Apriori) , Anomaly and outlier detection, Topic modelling , Autoencoders, Density estimation, Graph-based unsupervised learning , Role of unsupervised learning in modern AI systems",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "AIML-353-MJ-T",
+      "title": "Human Computer Interface (HCI)",
+      "semester": 6,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction to Human Computer Interaction",
+          "topics": "Introduction to HCI , Evolution of Human –Computer Interaction, Importance of HCI in modern software and AI systems, Components of HCI: Human, Computer, Interaction, Goals of HCI: usability, efficiency, safety, learnability, User-centered design approach, Role of HCI in AI-based systems (chatbots, recommender systems, smart assistants), Case studies of successful and failed interface designs",
+          "hours": 8
+        },
+        {
+          "title": "Human Factors and Cognitive Aspects",
+          "topics": "Human information processing model , Memory, perception, and attention, Cognitive models in interface design , Mental models and user expectations , Ergonomics and human factors, Human errors and interface design Designing for different user groups",
+          "hours": 7
+        },
+        {
+          "title": "Interface Design and Interaction Styles",
+          "topics": "Principles of interface design , Interaction styles: command line, menu, form, GUI, touch, voice , Interface design standards and guidelines, UI components: buttons, forms, dialogs, navigation, Prototyping and wireframing concepts Design patterns in interface development , HCI design for mobile and web applications",
+          "hours": 8
+        },
+        {
+          "title": "Usability, Evaluation and Future Interfaces",
+          "topics": "Concept of usability, Usability engineering lifecycle , Heuristic evaluation, Usability testing methods , Accessibility and inclusive design , Ethical issues in HCI , Future of HCI: AR/VR, gesture interfaces, conversational interfaces, brain– computer interfaces 41",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "AIML-354-MJ-T",
+      "title": "Software testing",
+      "semester": 6,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software testing",
+          "topics": "Basics of Software testing, Testing Objectives , Testing Principles , Testing fundamentals, Activities of a Test Engineer , Software Testing Limitations and Terminology , Coverage Criteria for Testing",
+          "hours": 6
+        },
+        {
+          "title": "Testing Methods",
+          "topics": "White Box Testing, Types of white box testing, Black Box Testing, Types of black box testing. Software Testing Strategies - Software Testing Process, System Testing, Acceptance Testing (alpha, Beta testing)",
+          "hours": 6
+        },
+        {
+          "title": "Test Templates, and test case creation",
+          "topics": "Entry criteria Exit Criteria, Test scenario template, Test case template Test plan, Design test case for given application , Design test cases in Excel, Prepare test report for test cases, Demo software testing tools for Web Automation (like Selenium), Mobile Testing Tools (Espresso), API & Performance Testing Tools (JMeter)",
+          "hours": 10
+        },
+        {
+          "title": "Defect Management",
+          "topics": "Defect life Cycle , Defect Classification, Defect Report , Defect management , Finding defects, Logging defects, Tracking and managing defects Test Automation: Introduction and challenges, Use of AI in software Testing",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "AIML-355-MJ-P",
+      "title": "Practical based on AIML-351-MJ-T",
+      "semester": 6,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-356-MJ-P",
+      "title": "Practical based on AIML-352-MJ-T",
+      "semester": 6,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-360-MJ-T",
+      "title": "Business Intelligence",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business Intelligence and Power BI",
+          "topics": "Business Intelligence concepts, Components of BI, Introduction to Power BI, Power BI Architecture, Power BI Desktop Interface, Power BI Workflow.",
+          "hours": 6
+        },
+        {
+          "title": "Data Sources and Data Preparation in Power BI",
+          "topics": "Connecting to data sources (Excel, CSV), Power Query Editor, Data profiling, Handling missing values, Removing duplicates, Data type transformation",
+          "hours": 6
+        },
+        {
+          "title": "Data Modeling and DAX Basics",
+          "topics": "Data modeling concepts, Relationships, Cardinality, Calculated columns, Measures, Basic DAX functions (SUM, AVERAGE, COUNT, IF)",
+          "hours": 6
+        },
+        {
+          "title": "Data Visualization in Power BI",
+          "topics": "Charts and visuals (Bar, Line, Pie, Table, Card), Filters and slicers, Formatting visuals, Best practices for visualization",
+          "hours": 6
+        },
+        {
+          "title": "Reports, Dashboards, and Publishing",
+          "topics": "Report creation, Interactive dashboards, Drill-down and drill-through, Sharing and publishing reports, Power BI Service overview, Case studies",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "AIML-361-MJ-P",
+      "title": "Practical based on AIML-360-MJ-T",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-362-MJ-T",
+      "title": "AI Assisted Software Development",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to AI in Software Development",
+          "topics": "Evolution assisted tools (Copilot, ChatGPT, Tabnine, CodeWhisperer, Antigravity, Gemini etc ), Benefits and challenges of AI integration.",
+          "hours": 4
+        },
+        {
+          "title": "AI-Assisted Coding and Debugging",
+          "topics": "Code generation using AI tools (examples in Python/Java /VS Code), AI- assisted debugging and error detection , Automated documentation and test case generation.",
+          "hours": 12
+        },
+        {
+          "title": "Software Engineering Practices with AI",
+          "topics": "AI in requirement analysis, design patterns, and architecture suggestions, A I-assisted project management (task tracking, agile support), Integration of AI tools with IDEs and CI/CD pipelines , Introduction to Robotic Process Automation (RPA), Case studies of industry adoption.",
+          "hours": 8
+        },
+        {
+          "title": "Ethics, Interpretability, and Future Trends",
+          "topics": "Ethical considerations: plagiarism, bias, intellectual property, Interpretability and trust in AI-generated code, Productivity vs dependency debate, Future of AI in software engineering (autonomous coding agents).",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "AIML-363-MJ-P",
+      "title": "Practical based on AIML-362-MJ-T",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        54,
+        55
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-364-MJ-T",
+      "title": "Game Theory",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction to game theory, games and solutions, theory of competitive equilibrium, rational behaviour, strategies , payoffs and representing payoff matrices. Normal form games, Zero-sum (min max, max min) vs non-zero-sum games, dominance. Implementing simple 2 -player zero -sum games. Pure vs mixed strategies, Rock-Paper-Scissors simulation in Python. Strategic Games- Ordinal games in Strategic form - Game frames and games , Strict and weak dominance , Second- price auction , The pivotal mechanism , Iterated deletion procedures. Nash Equilibrium – definition, significance , mixed, corelated and evolutionary equilibrium. Games with infinite strategy sets – Bayesian Games.",
+          "hours": 8
+        },
+        {
+          "title": "Extensive games with Perfect information",
+          "topics": "Trees, frames and games , Backward induction , Strategies in perfect-information games General Dynamic Games - Imperfect Information , Strategies, Subgames, Subgame-perfect equilibrium , Games with chance moves Prisoner’s Dilemma repeated game simulation. Cooperative vs non -cooperative games. Coalition formation using NetworkX.",
+          "hours": 9
+        },
+        {
+          "title": "Games with Cardinal Payoffs",
+          "topics": "Expected Utility Theory - Money lotteries and attitudes to risk , The axioms in Expected utility. Interactive Epistemology - Individual knowledge , Interactive knowledge , Common knowledge , Belief, Interactive Belief and Common Belief s, Belief updation 57 and revision, Harsanyi consistency of beliefs or like - mindedness, agreeing to disagree",
+          "hours": 9
+        },
+        {
+          "title": "Bargaining Games",
+          "topics": "Bargaining and Game Theory , A Bargaining Game of Alternating Offers, Subgame Perfect Equilibrium, Variations and Extensions",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "AIML-365-MJ-P",
+      "title": "Practical based on AIML-364-MJ-T",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        58,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-371-VSC-P",
+      "title": "Database Technologies",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        60,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "AIML-381-OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "FP / OJT/ CEP",
+      "credits": 4,
+      "pages": [
+        62,
+        64
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

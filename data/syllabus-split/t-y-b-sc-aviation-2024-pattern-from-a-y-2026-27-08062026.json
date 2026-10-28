@@ -1,0 +1,251 @@
+{
+  "id": "t-y-b-sc-aviation-2024-pattern-from-a-y-2026-27-08062026",
+  "kind": "programme",
+  "programme": "Four Year B.Sc. Degree Program in Aviation",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "BAV-301-T",
+      "title": "Aircraft Electrical System",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        3,
+        3
+      ],
+      "units": [
+        {
+          "title": "Electrical Power",
+          "topics": "1. Batteries Installation and Operation; DC power generation; AC power generation; Emergency power generation.",
+          "hours": 15
+        },
+        {
+          "title": "Voltage Regulation & Distribution",
+          "topics": "2. Voltage regulation; Power distribution; Inverters, transformers, rectifiers; Circuit protection; External/Ground power.",
+          "hours": 20
+        },
+        {
+          "title": "Aircraft Lights",
+          "topics": "3. External: navigation, anti-collision, landing, taxiing, ice; Internal: cabin, cockpit, cargo; Emergency.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BAV-302-T",
+      "title": "Aircraft Instruments System",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        4,
+        4
+      ],
+      "units": [
+        {
+          "title": "Pitot Static System",
+          "topics": "1. Altimeter, air speed indicator, vertical speed indicator.",
+          "hours": 10
+        },
+        {
+          "title": "Gyroscopic Instruments",
+          "topics": "2. Artificial horizon; Attitude director; Direction indicator; Horizontal situation indicator; Turn and slip indicator; Turn coordinator.",
+          "hours": 20
+        },
+        {
+          "title": "Compass System",
+          "topics": "3. Compasses: direct reading, remote reading; Angle of attack indication, stall warning systems; Glass Cockpit; Other aircraft system indication.",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "BAV-303-T",
+      "title": "Skill Enhancement Course: Project-I",
+      "semester": 5,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-304-T",
+      "title": "Field Visit",
+      "semester": 5,
+      "type": "Field Visit",
+      "credits": 2,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-305-T",
+      "title": "Aircraft Modular Avionics & Digital System",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Integrated Modular Avionics",
+          "topics": "1. Functions that may be typically integrated in the Integrated Modular Avionic (IMA) modules are, among others: Fuel Management, Braking Control, Steering Control, Landing Gear Extension and Retraction, Tyre Pressure Indication, Oleo Pressure Indication, Brake Temperature Monitoring, etc.",
+          "hours": 10
+        },
+        {
+          "title": "Cabin Systems",
+          "topics": "2. The units and components which furnish a means of entertaining the passengers and providing communication within the aircraft (Cabin Intercommunication Data System) and between the aircraft cabin and ground stations (Cabin Network Service). Includes voice, data, music and video transmissions. The Cabin Intercommunication Data System provides an interface between cockpit/cabin crew and cabin systems. These systems support data exchange of the different related LRU's and they are typically operated via Flight Attendant Panels. The Cabin Network Service typically consists on a server, typically interfacing with, among others, the following systems: Data/Radio Communication, In-Flight Entertainment System.",
+          "hours": 10
+        },
+        {
+          "title": "Information Systems",
+          "topics": "3. The units and components which furnish a means of storing, updating and retrieving digital information traditionally provided on paper, microfilm or microfiche. Includes units that are dedicated to the information storage and retrieval function such as the electronic library mass storage and controller. Does not include units or components installed for other uses and shared with other systems, such as flight deck printer or general use display. Typical examples include Air Traffic and Information Management Systems and Network Server Systems.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BAV-306-P",
+      "title": "Aircraft Electrical System Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 4,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-307-P",
+      "title": "Aircraft Instruments System Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 4,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-351-T",
+      "title": "Aircraft Mechanical Systems",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Air Conditioning and Cabin Pressurization",
+          "topics": "1. Air supply: Sources of air supply including engine bleed, APU and ground cart. Air Conditioning: Air conditioning systems; Air cycle and vapour cycle machines; Distribution systems; Flow, temperature and humidity control system. Pressurization: Pressurization systems; Control and indication including control and safety valves; Cabin pressure controllers. Safety and warning devices: Protection and warning devices.",
+          "hours": 15
+        },
+        {
+          "title": "Fuel Systems",
+          "topics": "2. System lay-out; Fuel tanks; Supply systems; Dumping, venting and draining; Cross-feed and transfer; Indications and warnings; Refueling and defueling; Longitudinal balance fuel systems.",
+          "hours": 15
+        },
+        {
+          "title": "Ice & Rain Protection",
+          "topics": "3. Ice formation, classification and detection; Anti-icing systems: electrical, hot air and chemical; De-icing systems: electrical, hot air, pneumatic, chemical; Rain repellent; Probe and drain heating; Wiper Systems.",
+          "hours": 12
+        },
+        {
+          "title": "Oxygen System",
+          "topics": "4. System lay-out: cockpit, cabin; Sources, storage, charging and distribution; Supply regulation; Indications and warnings.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "BAV-352-T",
+      "title": "Propulsion-II",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        13,
+        13
+      ],
+      "units": [
+        {
+          "title": "FADEC",
+          "topics": "1. Electronic Engine control and fuel metering systems (FADEC).",
+          "hours": 15
+        },
+        {
+          "title": "Engine Indicating Systems",
+          "topics": "2. Exhaust gas temperature/ Interstage turbine temperature systems; Engine speed; Engine Thrust Indication: Engine Pressure Ratio, engine turbine discharge pressure or jet pipe pressure systems; Oil pressure and temperature; Fuel pressure, temperature and flow; Manifold pressure; Engine torque; Propeller speed.",
+          "hours": 25
+        },
+        {
+          "title": "Starting and Ignition Systems",
+          "topics": "3. Operation of engine start systems and components; Ignition systems and components; Maintenance safety requirements.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BAV-353-P",
+      "title": "Skill Enhancement Course Project-II",
+      "semester": 6,
+      "type": "Skill Enhancement Course",
+      "credits": 4,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-355-P",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "On Job Training",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-356-P",
+      "title": "Propulsion-II Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 4,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-357-P",
+      "title": "Aircraft Mechanical Systems Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 4,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

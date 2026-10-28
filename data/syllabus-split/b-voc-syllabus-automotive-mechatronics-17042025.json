@@ -1,0 +1,845 @@
+{
+  "id": "b-voc-syllabus-automotive-mechatronics-17042025",
+  "kind": "programme",
+  "programme": "Bachelor of Vocational (Engineering) AUTOMOTIVE MECHATRONICS",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "101",
+      "title": "Communication Skills",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": [
+        {
+          "title": "Communication",
+          "topics": "Meaning of Communication, Importance of Communication, Types of communication. Process of communication, Communication network in an organization, Barriers to communication, Essentials of good communication.",
+          "hours": 8
+        },
+        {
+          "title": "Remedial English Gramme",
+          "topics": "• Articles, agreement between verb and subject, uses of tenses, Modal and their uses, Prepositions. • Understanding and applying Vocabulary: One word substitutes, Synonyms and Antonyms • Word formation:-Prefixes, Bases and Suffixes.",
+          "hours": 7
+        },
+        {
+          "title": "Listening Skills",
+          "topics": "The process of listening, Types of listening, Benefits of effective listening, Barriers to listening, listening to announcements at work place.",
+          "hours": 7
+        },
+        {
+          "title": "Reading Skills",
+          "topics": "Process and methodologies of reading, Skimming and scanning, Levels of reading, Proofreading, Summarizing, Precise writing, Unseen comprehension passage, Note taking and reviewing, convert the given information into charts and graphs",
+          "hours": 7
+        },
+        {
+          "title": "Writing Skills",
+          "topics": "Main Forms of Written Communication: Notices, Drafting an E-mail. Correspondence: Personal and Official, Notices, Technical Report Writing, Preparing agenda and minutes of meetings",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "102",
+      "title": "Engineering Graphics",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        8
+      ],
+      "units": [
+        {
+          "title": "Introduction to drawing, lines and lettering",
+          "topics": "• Definition and classification of drawing • Drawing instruments such as; drawing board, drawing sheets, drafter. • Types of pencils, sheets, eraser etc. • Different types of lines (Straight line, inclined line and curved lines) • Practice engineering style for letters and numbers as BIS: SP:46-2003",
+          "hours": 7
+        },
+        {
+          "title": "Dimensioning and scale",
+          "topics": "• Importance of dimensioning • Types (i.e. chain, parallel and progressive etc.) and methods of placing dimensioning, Principles of dimensioning and practice dimensioning technique as BIS: SP: 46-2003, Free hand sketching of straight lines, circle, square, Polygons",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Projection",
+          "topics": "• Introduction to first and third angle projection, • Introduction to projection of point, line and plane, Sectioning of solids",
+          "hours": 7
+        },
+        {
+          "title": "Isometric and Orthographic projection",
+          "topics": "• Orthographic projection of simple geometric solids • Isometric drawing of simple geometric solids",
+          "hours": 9
+        },
+        {
+          "title": "Geometric and dimensioning Tolerance",
+          "topics": "• Component Drawing and interpretation • Geometric dimension and Tolerance • Introduction to CAD software used in drawing",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "103",
+      "title": "Fundamental of Industrial Management",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        9
+      ],
+      "units": [
+        {
+          "title": "Concept of Quality",
+          "topics": "• Quality: Definition, History, Importance • Approaches to define Quality, Cost of Quality, Hierarchy of Quality Management • Introduction to Quality Control.",
+          "hours": 8
+        },
+        {
+          "title": "Organizational Aspects of Quality Assurance",
+          "topics": "• Quality Assurance (QA): Introduction, Definition, Management principles in QA, QA in different stages, QualityPlanning. • ISO: Introduction, ISO 9000 series of standard, Benefits ofISO. • ISO 9001, Benefits of ISO 9001. • Quality survey: Scope, Types of audit, inspection methods, Quality budget, Vendor Quality Rating",
+          "hours": 7
+        },
+        {
+          "title": "Problem solving tools and techniques",
+          "topics": "• Definition of a problem • Type of problems, classification of problems • What is problem solving, barriers to problem solving, Problem solving tools: Cause and effect diagram, Histogram, flow charts, Check sheets, Histogram, Brain-storming, Pareto charts, Control charts, Scatter Diagram 3.5 Problem solving techniques: Brain storming, Flow diagram, PDCA Cycle etc",
+          "hours": 7
+        },
+        {
+          "title": "Total Quality Management",
+          "topics": "• Basic concept of TQM, features of TQM • principles of TQM • leadership concepts • Quality statements • Barriers to TQM implementation • Concept of TPM • Quality allied concept: KAIZEN, Poke yoke, JIT, KAPA",
+          "hours": 7
+        },
+        {
+          "title": "5 S and Safety",
+          "topics": "• Detailed concept of 5S and safety used in Industries • Integrated Management system.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "104",
+      "title": "Fundamentals of Computers-Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "105",
+      "title": "Engineering Graphics Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "106",
+      "title": "On Job Training",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "201",
+      "title": "Basics of electrical and Electronic",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        12
+      ],
+      "units": [
+        {
+          "title": "D.C Circuits",
+          "topics": "• Definition of Voltage, Current, Power, Resistance, Inductance and Capacitance with their units, Ohm’s law, Kirchhoff’s Law, Series -Parallel Circuit, Conversion of Current and Voltage Source.",
+          "hours": 8
+        },
+        {
+          "title": "Three Phase A.C Circuits",
+          "topics": "• Generation of 3 phase E.M.F, Difference between three-phase and single-phase supply, Star connection, Delta Connection and its Conversion.",
+          "hours": 7
+        },
+        {
+          "title": "Electrical Machines",
+          "topics": "• Construction, Principle of Operation, Basic Equations and Applications of DC Generators, DC Motors, Transformer, Induction Motor, Servo & Stepper motors.",
+          "hours": 7
+        },
+        {
+          "title": "Protective Devices & Safety Precautions",
+          "topics": "• Introduction to PPE (Personal Protective Equipment) & Safety Precautions, Introduction of Relays, Contactors, MCBs, ELCBs, Fuses, Concept of Neutral and Earthing.",
+          "hours": 7
+        },
+        {
+          "title": "Semiconductor Devices & its Applications",
+          "topics": "• Basic idea of semiconductors – P and N type; diodes, zener diodes and their applications, transistor – PNP and NPN, symbols, identification of terminals of transistor, current flowing in a transistor, its characteristics and uses. Characteristics and applications of a thyristor.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "202",
+      "title": "Basics of Mechatronics",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        13,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Introduction to Mechatronics –systems – concepts of Mechatronics approach • Need for Mechatronics • Emerging areas of Mechatronics • Classification of Mechatronic",
+          "hours": 8
+        },
+        {
+          "title": "Sensors",
+          "topics": "• Sensors and Transducers, Static & Dynamic characteristics of sensors • Potentiometers, LVDT, Capacitance sensors • Strain gauges, Eddy current sensors, hall effect sensors, • Temperature sensors • Light Sensors",
+          "hours": 6
+        },
+        {
+          "title": "Basic Programmable Logic Controller (PLC) and its Components",
+          "topics": "• Basic structure • Input and output processing • Programming • Timers, counters • Selection of PLC Introduction • Basic commands of PLC",
+          "hours": 6
+        },
+        {
+          "title": "Stepper and Servo motors",
+          "topics": "• Basics of Stepper and Servo motors • Types of Stepper and servo motors • Construction, working, principle • Advantages and Disadvantages",
+          "hours": 8
+        },
+        {
+          "title": "Basic of Design of Mechatronics, Pneumatics & Hydraulics system.",
+          "topics": "• Design Process • Stages of Design Process • Traditional & Mechatronics Design concept • Basics of Pneumatics& Hydraulics system",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "203",
+      "title": "Digital and Power Electronics",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Logic Levels and Pulse Waveforms • Elements and Functions of Digital Logic • Digital Integrated Circuits • Number system and codes • AND, OR, NAND, NOR, Gate Propagation Delay Time, Power Dissipation Norse Immunity, Fan In & Out, Loading Considerations • AND – OR Logic AOL Logic, XOR Logic, Universal Properly of NAND and NOR Logic – Half and Full Adders • Decoders and Encoders – Multiplexers and De-multiplexers",
+          "hours": 8
+        },
+        {
+          "title": "Boolean Algebra and Latches",
+          "topics": "• Boolean Operations, Logic Expressions • Rules and Laws of Boolean Algebra DE Morgan’s Theorem • Simplifications of Boolean Expressions, Karnaugh Map • Flip Flops, Different Types of Flip Flops, Flip Flops Operations, Operating Characteristics, Applications of Flip Flops",
+          "hours": 7
+        },
+        {
+          "title": "Power Semi-Conductor Devices",
+          "topics": "• Study of switching devices • Diode, SCR, TRIAC, GTO, BJT, MOSFET, IGBT-Static Dynamic characteristics, Triggering and commutation circuit for SCR • Design of Driver and Snubber circuit",
+          "hours": 7
+        },
+        {
+          "title": "Cyclo Converter",
+          "topics": "• Principle of Cyclo-converter operation. • Single phase to single phase circuit step up Cyclo converter • Single phase to single phase circuit step down Cyclo converter",
+          "hours": 7
+        },
+        {
+          "title": "Invrters",
+          "topics": "• Single phase and three phase voltage source inverters (both 1200 mod and 1800 mode) • Voltage & harmonic control • WM techniques: Sinusoidal PWM, modified sinusoidal PWM - multiple PWM • Introduction to space vector modulation • Current source inverter",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "204",
+      "title": "Basics of electrical and Electronic-Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "205",
+      "title": "Basics of Mechatronics -Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "206",
+      "title": "On Job Training",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "301",
+      "title": "Electrical Machines & Control systems",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": [
+        {
+          "title": "D.C. Machines:",
+          "topics": "• Constructional features • Principles of operation • EMF equation, Voltage build up phenomenon in a D.C. shunt generator, • Characteristics of different types of generators. • Principle of operation of DC motor, back emf, • Speed and torque equation, • Various characteristics of different motors",
+          "hours": 8
+        },
+        {
+          "title": "A.C. Machines:",
+          "topics": "• Constructional features • Concept of revolving magnetic field, and principle of operation of Three phase induction motors • Torque slip characteristics and power flow in induction motors • Induction motor as a transformer, equivalent circuit",
+          "hours": 7
+        },
+        {
+          "title": "Three Phase synchronous Machine:",
+          "topics": "• Constructional features EMF equation. • Armature reaction of synchronous generator • Voltage regulation of generators • Phasor diagrams and equivalent circuits of synchronous machine • Starting methods and principle of operation of synchronous motor",
+          "hours": 7
+        },
+        {
+          "title": "Control Systems",
+          "topics": "• Constructional features EMF equation • Introduction to control system, • Closed loop and open loop systems, examples • Temperature control, traffic control, numeric control • General block diagram of a control system, transfer function • Mason gain formula, Signal Flow graph.",
+          "hours": 7
+        },
+        {
+          "title": "Components of control systems",
+          "topics": "• Components of control systems, potentiometer. • Synchro and synchro transmitter and receiver. • 5.3 Controllers - two position controllers, preparation of controllers, analysis. • Integrated controllers, electronic PID controllers",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "302",
+      "title": "Measurement Metrology",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Measurement",
+          "topics": "• Aim, Definition, types, need of inspection, terminologies, methods of measurements, units of measurement, selection of instruments, concept of error (systematic and random), sources of error, Measurement standards, calibration, statistical concepts in metrology.",
+          "hours": 9
+        },
+        {
+          "title": "Linear and Angular Measurements",
+          "topics": "• Linear instruments, Surface plates (size, accuracy and material), slip gauges, Length bars–Calibration of the slip gauges, dial indicator, micrometers. Bevel protractor, spirit levels, sine bar, angle Gauges. Comparators, their types, relative merits and limitation. • Miscellaneous measurements: Taper & Radius measurement.",
+          "hours": 9
+        },
+        {
+          "title": "Measurement of Properties",
+          "topics": "• Temperature, Force, weight, Pressure& flow, Noise, Lux and vibrations. Concept of fitting, tightening and torqueing in a line and its equipment.",
+          "hours": 9
+        },
+        {
+          "title": "Screw thread and Gear teeth metrology",
+          "topics": "• Screw Measurement: Introduction, screw thread terminology, screw thread measurement • Gear measurement: Introduction, types of gears, gear terminology, Gear Teeth Measurement, errors in gears, measurement of spur gear.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "303",
+      "title": "Microcontroller and Programmable Logic Controller",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Comparing Microprocessors and Microcontrollers. • Technological trends in Microcontrollers development. • Microcontrollers- 8 bit, 16 bit, 32 bit microcontrollers. • Applications of microcontrollers",
+          "hours": 7
+        },
+        {
+          "title": "8051 Architecture",
+          "topics": "• Block diagram, pin. Diagram of 8051. • Functional descriptions of internal units, registers, PSW, internal RAM ROM, Stack, Oscillator and Clock. • Counters and timers, Serial data interrupt Serial data transmission and transmission modes. • Timer flag interrupt. External interrupt, software generated interrupts",
+          "hours": 7
+        },
+        {
+          "title": "8051 Instruction Set And Programming",
+          "topics": "• 8051 Instruction syntax, addressing modes, Data transfer instructions, logical instructions, arithmetic instructions, Jump and Call instructions. • Interrupts and interrupt handler subroutines. Writing assembly Language programs.",
+          "hours": 7
+        },
+        {
+          "title": "Programmable Logic Controllers",
+          "topics": "• Introduction – Parts of PLC, Principles of operation • PLC sizes – PLC hardware components – I/O section Analog I/O Section Analog I/O modules –digital I/O modules CPU processor memory module • Programming devices – PLC programming Simple instructions – Manually operated switches – Mechanically operated and Proximity switches • Output control devices - Latching relays PLC ladder diagram, Converting simple relay ladder diagram in to PLC relay ladder diagram",
+          "hours": 7
+        },
+        {
+          "title": "Timers, Counters and Their Applications",
+          "topics": "• Timer instructions ON DELAY, OFF DELAY and RETENTIVE Timers • UP COUNTER, DOWN COUNTER and UP DOWN COUNTERS • Control instructions – Data manipulating instructions, math instructions; Applications of PLC – Simple materials handling applications.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "304",
+      "title": "Microcontroller and Programmable Logic Controller-Lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "305",
+      "title": "Sensors and Transducers-Lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        21,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "306",
+      "title": "On Job Training",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "401",
+      "title": "Manufacturing Automation & Ergonomics",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        22,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Types and strategies of automation, pneumatic and hydraulic components circuits, Automation in machine tools. Mechanical feeding and tool changing and machine tool control transfer the automation. Manufacturing automation principles and elements in product realization • Methods, Mechanical buffer storage control function, Design and fabrication consideration. • Assembly process and systems assembly line, line balancing methods, ways of improving line balance, flexible assembly lines. Latest technologies being employed in Industry 4.0 era for achieving higher efficiency",
+          "hours": 8
+        },
+        {
+          "title": "Advancement in Manufacturing",
+          "topics": "• Application of Nanotechnology and allied field, AFM, SEM, TEM, Advanced electronic Packaging.",
+          "hours": 7
+        },
+        {
+          "title": "Introduction To Robotics",
+          "topics": "• Classifications of robots, Work envelope, manipulators- Electronic and Pneumatic manipulators, end effectors. Applications of Robots",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Ergonomics",
+          "topics": "• Evolution of Ergonomics, Introduction, Definitions of Ergonomics, The Scope of Ergonomics, Aspects of Ergonomics Application Areas of Ergonomics, Man and Machine Interaction.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "402",
+      "title": "Project Management",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        23,
+        23
+      ],
+      "units": [
+        {
+          "title": "Basics of Project Management",
+          "topics": "• Introduction to Project Management, Objective of Project Management, Project Characteristics, Product Life Cycle Management, Devising Product Life Cycle Management Database",
+          "hours": 7
+        },
+        {
+          "title": "Project Life cycle",
+          "topics": "• The Project Life Cycle, Phases of Project Management Life Cycle, Project Management Processes, Project Identification Process, Project Initiation",
+          "hours": 7
+        },
+        {
+          "title": "Project Planning",
+          "topics": "• Project Planning, Need of Project Planning, Project Planning Process, Project Identification Process, Project Initiation. Feasibility Studies, Project Break - even point, Project Planning, Need of Project Planning, Project Planning Process.",
+          "hours": 7
+        },
+        {
+          "title": "Project Execution and Control",
+          "topics": "• Project Execution, Project Close-out, Steps for Closing the Project, Project Termination, Project Follow -up, Classification of Projects, Project Performance Measurement, Project Performance Evaluation, Benefits and Challenges of Performance",
+          "hours": 7
+        },
+        {
+          "title": "Project Performance Measurement and Evaluation",
+          "topics": "• Measurement and Evaluation, Controlling the Projects, Work Breakdown Structure • Development of Project Network, PERT, CPM Model. Project Management Information System, Social Cost Benefit Analysis, Steps for Project Success, Case Studies in Project Management, Activity planning through GANTT Chart.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "403",
+      "title": "Plant Maintenance and Safety",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        24,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to Maintenance & its Planning",
+          "topics": "• History and evolution of maintenance strategies, classification of maintenance, Maintenance planning and need, Breakdown and Corrective Maintenance, Creation of Maintenance Notification, Release of Maintenance Notification, Maintenance Order creation from Notification, Material Requirement Planning, Purchase Order creation for Maintenance Materials",
+          "hours": 8
+        },
+        {
+          "title": "Maintenance Processing Execution",
+          "topics": "• Maintenance Order Release, Goods issue for Maintenance Order, Confirmation of Maintenance Order, Closing of Maintenance Order, Creation of Measuring Document",
+          "hours": 7
+        },
+        {
+          "title": "Preventive Maintenance",
+          "topics": "• Maintenance Strategy, Time based strategy Plan, Performance based strategy Plan, Condition based Maintenance, Creation of Maintenance Plan, Scheduling of Maintenance Plan, Preventive Maintenance Order execution, Dead line Monitoring",
+          "hours": 7
+        },
+        {
+          "title": "Security Systems",
+          "topics": "• Fundamentals: Introduction to Security Systems, Concepts, CCTV: Camera: Operation & types, Camera Selection Criteria, Camera Applications, CCTV Applications: CCTV Applications",
+          "hours": 7
+        },
+        {
+          "title": "Accident preventions, protective equipment’s and Safety",
+          "topics": "• : Personal protective equipment, Survey the plant for locations and hazards, Part of body to be protected, Education and training in safety, Prevention causes and cost of accident, Housekeeping, First aid, Firefighting equipment, Accident reporting, Investigations, Industrial psychology in accident prevention, Safety trials.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "404",
+      "title": "Applied Hydraulics and Pneumatics-Lab",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        25,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "405",
+      "title": "Computer Numerical Control Machines (CNC)-Lab",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        26,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "406",
+      "title": "On Job Training",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "501",
+      "title": "Mounting and Communication of sensor (MCS)",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        27,
+        27
+      ],
+      "units": [
+        {
+          "title": "Sensor Mounting and Location Principle",
+          "topics": "Introduction to sensor mounting, different type of sensor mounting, Mounting procedure of different type of robotics sensor (tactile, proximity, pressure, force, velocity, vision sensor etc.).",
+          "hours": 8
+        },
+        {
+          "title": "Calibration Methods of Sensors",
+          "topics": "Introduction to sensor calibration, need of calibration, different types of sensor calibration methods, Measurement characteristic of sensor, Calibration examples for different sensors",
+          "hours": 7
+        },
+        {
+          "title": "Sensor Interfacing",
+          "topics": "Introduction to sensor interfacing, different methodologies of sensor interfacing, IoT devices for sensor interfacing, Sensor interfacing applications.",
+          "hours": 7
+        },
+        {
+          "title": "Communication techniques of sensors",
+          "topics": "Communication and networking of sensors, control of manufacturing process, detection of machining faults, diagnostic systems, resonance vibration analyzer, sensing motor current for signature analysis, temperature sensing.",
+          "hours": 7
+        },
+        {
+          "title": "Communication System",
+          "topics": "Introduction to DAQ, Components of a Data Acquisition System; Sampling, sing, Sample and hold circuit, Quantization; Analog-to-digital converters (4 bit essive Approximation type ADC); Digital-to-Analog converters (4 bit R2R type DAC)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "502",
+      "title": "Rapid Prototyping and 3D Printing",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        28,
+        28
+      ],
+      "units": [
+        {
+          "title": "Various CAD issues",
+          "topics": "• Fundamentals of 3D printing and rapid prototyping (RP) technologies • for 3D printing and rapid prototyping, CAD and RP interfacing, triangular surface modelling and manipulation for 3D printing and additive manufacturing processes.",
+          "hours": 8
+        },
+        {
+          "title": "Reverse engineering",
+          "topics": "• Digitizing, laser scanning, CT-scanning, point cloud manipulation, data segmentation, surface reconstruction, model further processing.",
+          "hours": 7
+        },
+        {
+          "title": "Liquid based processes for 3D printing and additive manufacturing",
+          "topics": "• principles of • Stereo lithography and typical processes, such as the SLA process, solid ground curing and others. • Powder based processes for 3D printing and additive manufacturing: principles and typical processes, such as selective laser sintering and some other 3D printing processes.",
+          "hours": 7
+        },
+        {
+          "title": "Solid based processes for 3D printing and additive manufacturing",
+          "topics": "• principles and typical • Processes, such as fused deposition modelling, laminated object modelling and others.",
+          "hours": 7
+        },
+        {
+          "title": "Rapid tooling",
+          "topics": "• Principles and typical processes for quick batch production of plastic and metal parts through quick tooling. • Software for RP: STL files, Overview of Solid view, magic’s, mimics, magic communicator, etc. Internet based software, Collaboration tools.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "503",
+      "title": "Design of Mechatronics",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        29,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction To Mechatronics System Design",
+          "topics": "• Need for Mechatronics in Industries - Benefits • Mechatronics approach - Challenges before R&D in Mechatronics. • Integrated design issues in Mechatronics - Mechatronics key elements • The Mechatronics design process. • Advanced approaches in Mechatronics.",
+          "hours": 7
+        },
+        {
+          "title": "Principles Of Modeling & Simulation",
+          "topics": "• Introduction - Model categories. • FIELDS OF APPLICATION - Bottom up design - Top down design Relationship of design strategies to modeling - Modeling for the specification - Modeling for the design. • MODEL DEVELOPMENT - Structural modeling - Physical modeling - Experimental modeling. • Model verification - Model validation - Model simplification. • SIMULATORS & SIMULATION - Circuit - Logic – Multi-body - Block Diagram Finite element and Software simulation.",
+          "hours": 7
+        },
+        {
+          "title": "Basic System Models",
+          "topics": "• Mathematical models. • Mechanical system building blocks. • Electrical system building blocks. • Fluid system building block",
+          "hours": 7
+        },
+        {
+          "title": "Case Studies On Mechatronic System",
+          "topics": "• Introduction –Fuzzy based Washing machine – pH control system – Autofocus Camera • exposure control– Motion control using D.C.Motor& Solenoids, Control of pick and place robot",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Applications In Mechatronics System Design",
+          "topics": "• Sensors for condition monitoring • Mechatronic control in automated manufacturing. • Artificial intelligence in mechatronics. • Fuzzy logic applications in mechatronics. • Micro sensors in mechatronics.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "504",
+      "title": "Design of Mechatronics-Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        30,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "505",
+      "title": "Project Stage-I",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        31,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "506",
+      "title": "On Job Training",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "601",
+      "title": "Applied Mechatronics",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        32,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Introduction • Power Electronics Vs Linear Electronics • Scope & Applications",
+          "hours": 6
+        },
+        {
+          "title": "Power Semiconductor Devices",
+          "topics": "• Introduction • Basic Structure, Characteristics, Operation, Limitations Power Diodes • BJTs & MOSFETs Thyristors, GTOs IGBTs",
+          "hours": 6
+        },
+        {
+          "title": "Converters",
+          "topics": "• Introduction • Control of dc – converters • Buck Converter • Boost Converter • Buck - Boost Converter • Full Bridge dc - dc Converter",
+          "hours": 8
+        },
+        {
+          "title": "Ac To Ac Converters",
+          "topics": "• Single phase and Three phase AC voltage controllers–Control strategy- Power Factor Control – Multistage sequence control -single phase and three phase cyclo converters –Introduction to Matrix converters.",
+          "hours": 8
+        },
+        {
+          "title": "Phase Controlled Rectifiers",
+          "topics": "• Introduction • Thyristor Circuits • Single Phase Converters • Three Phase Converters",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "602",
+      "title": "Leadership & Quality Management",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        33,
+        33
+      ],
+      "units": [
+        {
+          "title": "Concept of Leadership",
+          "topics": "• Trait and Behavioral Approaches, Contingency Approach, Leadership and Values, Leadership Behaviors, Courage and Moral Leadership",
+          "hours": 8
+        },
+        {
+          "title": "Motivation and Empowerment",
+          "topics": "• Leadership Diversity, Leader as Social Architect, Leadership and Change",
+          "hours": 6
+        },
+        {
+          "title": "Problem Solving Methods",
+          "topics": "• Resource Management, Work effectively in a Team, Process and Product Quality Monitoring, • Evolution of Quality Management, Concepts of Product and Service Quality, Introduction to Process Quality, Graphical and statistical techniques for Process Quality Improvement,",
+          "hours": 8
+        },
+        {
+          "title": "7 QC Tools, Control Charts",
+          "topics": "• TQM, Benchmarking, Quality Audit, Quality Circles, OEM Guidelines, Quality Function Deployment • Design Failure Mode & Effect Analysis, Product Reliability Analysis, Case study on Six Sigma in Product Development, Kaizen, 5S, etc.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "603",
+      "title": "Project Stage-II",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        34,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "604",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

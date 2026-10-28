@@ -1,0 +1,690 @@
+{
+  "id": "sybfa-aa-sppu-nep-2025-26-18062025",
+  "kind": "programme",
+  "programme": "Bachelor of Fine Arts - Applied Arts",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "FA-AA T301 MJC",
+      "title": "Theory of Communication Design - III (THEORY)",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": [
+        {
+          "title": "Characteristics and Limitations of Communication Media",
+          "topics": null,
+          "hours": 7.5
+        },
+        {
+          "title": "Analysis of Major and Minor Media",
+          "topics": null,
+          "hours": 7.5
+        },
+        {
+          "title": "Media Selection Process",
+          "topics": null,
+          "hours": 7.5
+        },
+        {
+          "title": "Factors Influencing Media Selection",
+          "topics": null,
+          "hours": 7.5
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P302 MJC",
+      "title": "Drawing - III (PRACTICAL)",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": [
+        {
+          "title": "Drawing from Observation – Study of life, nature, human figures,",
+          "topics": "and manmade objects.",
+          "hours": 22.5
+        },
+        {
+          "title": "Understanding Light and Proportion – Drawing human figures",
+          "topics": "and actions with focus on light, shade, and accurate proportion.",
+          "hours": 22.5
+        },
+        {
+          "title": "Drawing in Context – Creating compositions in varied",
+          "topics": "environments; outdoor drawing practices and observation-based sketching.",
+          "hours": 22.5
+        },
+        {
+          "title": "Creative and Digital Drawing – Explorations in character",
+          "topics": "sketching, product rendering, and creative expressions using traditional and digital tools.",
+          "hours": 22.5
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P303 MJP",
+      "title": "Media Basics and Design - I (PRACTICAL)",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": [
+        {
+          "title": "Evolution of Advertising Media",
+          "topics": "Study of traditional vs. digital media and how media formats have evolved over time.",
+          "hours": 22.5
+        },
+        {
+          "title": "Understanding Information Hierarchy",
+          "topics": "Principles of organizing visual elements based on importance, readability, and user flow.",
+          "hours": 22.5
+        },
+        {
+          "title": "Media-Specific Layout Design",
+          "topics": "Designing layouts for different media: newspaper, magazine, poster, hoarding, leaflet, brochure, direct mail, etc.",
+          "hours": 22.5
+        },
+        {
+          "title": "Design Exploration and Application",
+          "topics": "Hands-on experimentation with media types like labels, stickers, and unconventional formats using traditional and digital tools.",
+          "hours": 22.5
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P304 MNP",
+      "title": "Typography (PRACTICAL)",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": [
+        {
+          "title": "Type Classification and Categories",
+          "topics": "Study of serif, sans-serif, script, display, decorative fonts; understanding their uses and impact.",
+          "hours": null
+        },
+        {
+          "title": "Spacing, Kerning, and Grid Systems",
+          "topics": "Exercises in letter spacing, word spacing, line spacing; introduction to modular and dynamic grids.",
+          "hours": null
+        },
+        {
+          "title": "Explorations in Typography",
+          "topics": "Use of typography in 2D, 3D, and animated formats; experimental and expressive typography.",
+          "hours": null
+        },
+        {
+          "title": "Typographic Research and Application",
+          "topics": "Study of Indian and international type designers; practical selection of typefaces based on topic and context.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P305 MNP",
+      "title": "Visualisation (PRACTICAL)",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": [
+        {
+          "title": "isual Language & Meaning",
+          "topics": "Understanding the role of shapes, colors, symbols, and elements in visual communication. Introduction to semiotics.",
+          "hours": null
+        },
+        {
+          "title": "Expression Through Imagery",
+          "topics": "Converting abstract thoughts into simple visuals; using metaphor, context, and storytelling.",
+          "hours": null
+        },
+        {
+          "title": "Design Thinking & Concept Building",
+          "topics": "Visual problem-solving using empathy, ideation, and prototyping — with exercises.",
+          "hours": null
+        },
+        {
+          "title": "Applied Visualisation",
+          "topics": "Developing visuals for real-world topics, social issues, brands, and campaigns.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P306 OE",
+      "title": "Identity Design- I (PRACTICAL)",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        20,
+        20
+      ],
+      "units": [
+        {
+          "title": "Brand Identity & Visual Language",
+          "topics": "Introduction to brand identity systems, consistency, tone of voice, and how visuals reflect values.",
+          "hours": null
+        },
+        {
+          "title": "Contextual Research & Identity Redesign",
+          "topics": "Analyzing existing identities; understanding historical, cultural, and market needs for redesign.",
+          "hours": null
+        },
+        {
+          "title": "New Identity Creation & Application",
+          "topics": "Designing logos/symbols for individuals or brands; development of stationery and visual extensions under umbrella branding.",
+          "hours": null
+        },
+        {
+          "title": "Brand Guidelines & Usage Manual",
+          "topics": "Structuring brand usage rules—logo specifications, typography, color palette, clear space, incorrect usage, and real-world adaptation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P307 VSC",
+      "title": "Printing Technology (PRACTICAL)",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": [
+        {
+          "title": "Evolution of Printing & Printing Processes",
+          "topics": "A historical overview of printing from manual methods to modern digital processes, with a focus on the impact of technology on print media.",
+          "hours": null
+        },
+        {
+          "title": "Printing Machinery & Material Classification",
+          "topics": "Study of different types of printing machines (offset, flexography, gravure, and screen printing), along with an understanding of their applications, pros, and cons.",
+          "hours": null
+        },
+        {
+          "title": "Print Production and Workflow",
+          "topics": "Overview of print production from design to final product, including paper sizes, folds, grids, and sequential design. Practical exploration of print finishing techniques.",
+          "hours": null
+        },
+        {
+          "title": "Color Profiles, Quality Control & Sustainability in Printing",
+          "topics": "Understanding of color models (CMYK, Pantone) and their impact on printing, along with sustainability practices in the printing industry. Focus on maintaining quality standards in production.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P308 AEC",
+      "title": "History of Art and Design - I (Theory)",
+      "semester": 3,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        22,
+        22
+      ],
+      "units": [
+        {
+          "title": "Prehistoric and Religious Art",
+          "topics": "Exploration of early human artistic expression through cave paintings, sculptures, and religious motifs in different cultures.",
+          "hours": 7.5
+        },
+        {
+          "title": "talian Renaissance",
+          "topics": "Study of the rebirth of classical antiquity, key artists like Leonardo da Vinci, Michelangelo, Raphael, and their revolutionary contributions to art.",
+          "hours": 7.5
+        },
+        {
+          "title": "Major Art Movements",
+          "topics": "Overview of key movements like Impressionism, Expressionism, Modernism, Surrealism, and Art Nouveau. Understanding their philosophical and cultural implications.",
+          "hours": 7.5
+        },
+        {
+          "title": "Art Deco and Art Nouveau",
+          "topics": "Delving into the design aesthetics and philosophy behind these movements, with a focus on their influence on architecture, graphic design, and industrial design.",
+          "hours": 7.5
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P309 CC",
+      "title": "Environment Science (Theory)",
+      "semester": 3,
+      "type": "Co-Curricular",
+      "credits": 1,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "ntroduction to Environmental Studies",
+          "topics": "• Definition, scope, and importance • Need for public awareness • Multidisciplinary nature of environmental studies",
+          "hours": null
+        },
+        {
+          "title": "Natural Resources and Ecosystems",
+          "topics": "• Renewable and non-renewable resources • Ecosystem structure, function, and energy flow • Ecological succession and biodiversity conservation",
+          "hours": null
+        },
+        {
+          "title": "Environmental Pollution and Biodiversity",
+          "topics": "• Types and sources of pollution • Impact of pollution on environment and health • Conservation of biodiversity and environmental ethics",
+          "hours": null
+        },
+        {
+          "title": "Social Issues, Population and Field Work",
+          "topics": "• Human population and environment • Sustainable development and social responsibilities • Case studies, field visits, and report writing",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P310 CC",
+      "title": "Cyber Security (Theory)",
+      "semester": 3,
+      "type": "Co-Curricular",
+      "credits": 1,
+      "pages": [
+        24,
+        24
+      ],
+      "units": [
+        {
+          "title": "ntroduction to Cyber Security",
+          "topics": "• Definition, need and importance • Concepts of information security, data privacy, and cyber threats",
+          "hours": null
+        },
+        {
+          "title": "Cybercrime and Cyber Law",
+          "topics": "• Types of cybercrimes (hacking, phishing, identity theft, etc.) • Basics of IT Act and cyber law in India",
+          "hours": null
+        },
+        {
+          "title": "Social Media and E-Commerce Security",
+          "topics": "• Responsible use of social media • Security concerns in e-commerce and digital payment systems",
+          "hours": null
+        },
+        {
+          "title": "Tools and Technologies for Digital Security",
+          "topics": "• Securing digital devices (phones, computers, tablets) • Firewalls, antivirus, two-factor authentication, password management",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA T401 MJC",
+      "title": "Theory of Communication Design - IV (Theory)",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        25,
+        25
+      ],
+      "units": [
+        {
+          "title": "ntroduction to Media Mix",
+          "topics": "• Definition and importance of media mix • Components: price, placement, time, seasonality, distribution, competition • Traditional and modern channels in media mix",
+          "hours": 7.5
+        },
+        {
+          "title": "Factors Influencing Media Mix",
+          "topics": "• Consumer behaviour and market trends • Budget allocation and cost-effectiveness • Competitive spending and benchmarking",
+          "hours": 7.5
+        },
+        {
+          "title": "Campaign Planning Structure",
+          "topics": "• What is a campaign? • Campaign goals: branding, awareness, action, social change • Principles and stages of planning a campaign",
+          "hours": 7.5
+        },
+        {
+          "title": "Strategic Integration of Media Mix in Campaigns",
+          "topics": "• Combining media for maximum impact • Role of creativity and context in campaign success • Evaluating campaign effectiveness",
+          "hours": 7.5
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P402 MJC",
+      "title": "Illustration (Practical)",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 3,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": "Rendering Techniques and Medium Exploration",
+          "topics": "• Hands-on with charcoal, watercolor, acrylics, photo inks, etc. • Observational to expressive rendering approaches",
+          "hours": 22.5
+        },
+        {
+          "title": "Style Development and Visual Storytelling",
+          "topics": "• Transitioning from realistic to stylized illustration • Basics of narrative flow and emotional expression through sequences",
+          "hours": 22.5
+        },
+        {
+          "title": "Audience and Context in Illustration",
+          "topics": "• Identifying themes and target groups (age, culture, context) • Developing a visual tone for different platforms (books, editorials, posters, etc.)",
+          "hours": 22.5
+        },
+        {
+          "title": "Professional Practice and Digital Integration",
+          "topics": "• Overview of renowned illustrators and their styles • Introduction to digital illustration tools • Presentation techniques and peer critique sessions",
+          "hours": 22.5
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P403 MJP",
+      "title": "Media Basics and Design - II (Practical)",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 3,
+      "pages": [
+        27,
+        27
+      ],
+      "units": [
+        {
+          "title": "ntroduction to 3D Media Formats",
+          "topics": "• Overview and design approach for 3D promotional materials: packaging, carry bags, PoP media • Understanding functionality, form, and aesthetics",
+          "hours": 22.5
+        },
+        {
+          "title": "Digital Media Analysis and Design",
+          "topics": "• Characteristics of digital platforms: screen size, resolution, user behavior • Visual consistency across devices and social platforms",
+          "hours": 22.5
+        },
+        {
+          "title": "Cross-Media Adaptation",
+          "topics": "• Layout transition: newspaper to Instagram, Instagram to website banner, poster to emailer • Responsive and adaptive design concepts",
+          "hours": 22.5
+        },
+        {
+          "title": "Design Continuity Across Platforms",
+          "topics": "• Translating one design idea into multiple formats (newspaper, hoarding, magazine, digital ad) • Maintaining brand language and hierarchy across formats",
+          "hours": 22.5
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P404 MINP",
+      "title": "UIUX (Practical)",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "ntroduction to UX/UI Design",
+          "topics": "• Core concepts of User Experience (UX) and User Interface (UI) • Understanding the user experience across digital, physical, and AR/VR platforms • Key UX elements: Accessibility, usability, consistency, and information hierarchy",
+          "hours": null
+        },
+        {
+          "title": "UX Methodologies & Heuristic Evaluation",
+          "topics": "• Introduction to heuristic evaluation and its role in UX design • User behavior analysis for different platforms (digital, physical, AR/VR) • Accessibility testing and methodology to ensure usability across diverse platforms",
+          "hours": null
+        },
+        {
+          "title": "Competitive Analysis and Platform Comparisons",
+          "topics": "• Performing competitive analysis on multiple platforms • Understanding design flaws and opportunities for improvement in user experience • Comparing two platforms and analyzing the usability gaps to propose enhancements",
+          "hours": null
+        },
+        {
+          "title": "UI Elements and Brand Alignment",
+          "topics": "• UI components: Asset creation, layout, icons, buttons, widgets, text construction • Design systems and reusable components • Ensuring brand alignment with UI design principles and creating consistent user experiences",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P405 OE",
+      "title": "Photography II (Practical)",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "History and Evolution of Photography",
+          "topics": "• Introduction to the history of photography: From the pinhole camera to DSLR • Impact of photographers and their contributions to the development of the art (ex: famous photographers and their iconic works) • Understanding the evolution of photographic techniques through different eras",
+          "hours": null
+        },
+        {
+          "title": "Types of Photography and Scope",
+          "topics": "• Exploring various photography types: Tabletop, Fashion, Industrial, Product, Food, Interior, and more • Practical demonstration and slideshows to understand the scope ## p30 of photography in various fields • Technical and creative approaches for each type of photography",
+          "hours": null
+        },
+        {
+          "title": "Camera Basics and Manual Mode",
+          "topics": "• Understanding the different camera modes and their functionalities (auto, manual, aperture priority, etc.) • Mastering the manual mode for full creative control over shutter speed, aperture, and ISO • Indoor and outdoor lighting techniques to control exposure • Practical exercises: Using shutter speed, aperture, and ISO to adjust light and capture movement",
+          "hours": null
+        },
+        {
+          "title": "Composition and Advanced Photography Techniques",
+          "topics": "• Focus on composition: Frame, texture, and thematic elements • Exploring the impact of light on composition and mood • Creating photographs with thematic depth and cultural context • Practical assignments: Photo features on culture and glamour, capturing essence through photography",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P406 OE",
+      "title": "Display Design (Practical)",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Space Design and Merchandising",
+          "topics": "• Understanding the concepts of space design, focusing on plan and elevation techniques for creating visually balanced displays • Exploring merchandising principles: How to plan and organize displays for effective customer engagement and product presentation • Understanding the relationship between space utilization and visual merchandising in both retail and event spaces",
+          "hours": null
+        },
+        {
+          "title": "ndoor and Outdoor Displays",
+          "topics": "• Introduction to indoor displays: Understanding different display types like window displays, stall designs, and stage designs • Overview of outdoor displays: Focus on creating displays for mobile vans, billboards, and large-scale outdoor events • Differences between indoor vs. outdoor display considerations, such as weather conditions, lighting, and audience interaction",
+          "hours": null
+        },
+        {
+          "title": "Point of Purchase (POP) and Display Elements",
+          "topics": "• In-depth study of POP displays and their role in customer ## p32 decision-making • Exploring design techniques for specific display types: window displays, stall designs, and stage designs • Understanding the importance of creating displays that effectively communicate the brand and engage the audience in a retail or exhibition context",
+          "hours": null
+        },
+        {
+          "title": "Materials, Execution, and Time Management",
+          "topics": "• Handling and understanding various materials used in display design (e.g., wood, acrylic, fabric, metal) and how to choose the right material for each display type • Practical insights into the execution process: Creating a display from concept to realization, including materials sourcing, assembly, and installation • Emphasizing the importance of time management and project planning to ensure efficient execution and timely delivery of displays",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P407 VSC",
+      "title": "User Experience Study - I (Practical)",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "ntroduction to Usability and Everyday Products",
+          "topics": "• Understanding usability in daily life, focusing on physical products, spaces, and digital products. • Exploring how usability affects user satisfaction, accessibility, and functionality in various contexts. • Hands-on analysis of common products and environments, identifying usability challenges and strengths.",
+          "hours": null
+        },
+        {
+          "title": "Usability of Physical Products",
+          "topics": "• Studying the usability of physical products (e.g., shoes, apparel, furniture), considering aspects like ergonomics, comfort, and ease of use. • Evaluating user habits and interaction with physical products to understand their functionality. • Identifying the pros and cons of a product’s usability and suggesting potential improvements.",
+          "hours": null
+        },
+        {
+          "title": "Usability of Spaces",
+          "topics": "• Analyzing the usability of different physical spaces (e.g., offices, public spaces, retail stores) and how design influences user behavior. • Observing and evaluating space design in terms of ## p34 accessibility, comfort, and functionality. • Proposing enhancements to improve usability, considering factors like traffic flow, accessibility, and ease of use.",
+          "hours": null
+        },
+        {
+          "title": "Usability of Digital Products",
+          "topics": "• Evaluating the usability of digital products (e.g., websites, mobile apps) by studying user interaction and satisfaction. • Identifying usability flaws in digital products, such as navigation issues, lack of responsiveness, or poor user feedback mechanisms. • Proposing enhancements to improve user experience, focusing on accessibility, ease of use, and functionality.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P408 SEC",
+      "title": "Copy writing/ Creative writing/ Formal and applied writing (Practical)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Copywriting in Communication Design",
+          "topics": "• Importance of copy in visual communication • Components of copy: headline, body, CTA, tagline • Types of copywriting: advertising, digital, print, outdoor • Tone of voice and articulation",
+          "hours": null
+        },
+        {
+          "title": "Foundations of Creative Writing",
+          "topics": "• Definition and purpose of creative writing • Elements: characterization, setting, tone, mood, theme • Structure and plot development • Point of view and resolution techniques",
+          "hours": null
+        },
+        {
+          "title": "Creative Writing Methods",
+          "topics": "• Segmentation and outlining techniques • Observation-based writing and idea generation • Identifying message and determining writing style • Rewriting and finalizing the narrative",
+          "hours": null
+        },
+        {
+          "title": "Formal & Applied Writing",
+          "topics": "• Academic and assignment writing basics • Blog writing and article writing for media • Writing emails, formal requests, and outreach • Professional tone and etiquette in public communication",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P409 RP",
+      "title": "Research Project (Practical)",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Unit 1: Introduction to Design Research",
+          "topics": "• Definition, purpose, and scope of design research • Importance of research in creative practices",
+          "hours": null
+        },
+        {
+          "title": "dentifying and Framing a Research Problem",
+          "topics": "• How to identify a research area/topic • Formulating research questions, aims, and objectives • Scope, significance, and feasibility • Observation and inquiry-based learning",
+          "hours": null
+        },
+        {
+          "title": "Research tools",
+          "topics": "• Research tools: surveys, interviews, case studies, observation",
+          "hours": null
+        },
+        {
+          "title": "Data Collection and Analysis",
+          "topics": "• Designing and conducting field research • Photography, note-taking, sketching, interviews • Drawing insights and making connections",
+          "hours": null
+        },
+        {
+          "title": "Unit 6: Documentation and Design Application",
+          "topics": "• Translating research into a design brief • Developing design interventions: posters, publications, prototypes • Visualizing insights through info graphics, mind maps, etc.",
+          "hours": null
+        },
+        {
+          "title": "Report Writing and Presentation",
+          "topics": "• Report structure: Abstract, Methodology, Analysis, Conclusion • Presentation formats: oral, visual, digital • Submission of research report and visual documentation",
+          "hours": null
+        },
+        {
+          "title": "Research project can be on the basis of various visits as follows",
+          "topics": "Visit 1: ## p37 Design Studio or Art Department Archive Objective: Understand how professionals document and research design problems. Activity: Interaction with faculty/designers on how they approach research. Visit 2: Public Spaces or Museums/Galleries Objective: Observe and document visual communication, signage systems, or user interaction. Activity: Field observation and documentation practice",
+          "hours": null
+        },
+        {
+          "title": "isit 3:",
+          "topics": "Local Market / Handicraft Cluster / Urban Space Objective: Contextual research based on students’ chosen topics Activity: Interview local vendors/artisans, photo-document visuals, sketch environment Visit 4: Design Fair / Advertising Agency / NGO / Startup Objective: Learn how research informs branding, advertising, or service design Activity: Interaction with professionals on design thinking process • Each visit will include a pre-visit briefing and post-visit reflection/assignment. • Visits should be tailored to align with students' research topics and local availability.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FA-AA P410 CC",
+      "title": "Field Project (Practical)",
+      "semester": 4,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Field Projects",
+          "topics": "- Definition, purpose, and scope of field projects - Importance of field projects in creative practices Identifying and Framing a Field Project Problem - Identifying a field project area/topic - Formulating project questions, aims, and objectives - Scope, significance, and feasibility - Observation and inquiry-based learning",
+          "hours": null
+        },
+        {
+          "title": "Field Project Tools",
+          "topics": "- Methods: surveys, interviews, case studies, observation Data Collection and Analysis - Designing and conducting fieldwork - Photography, note-taking, sketching, interviews - Drawing insights and making connections",
+          "hours": null
+        },
+        {
+          "title": "Visit 1: Design Studio/Art Department Archive",
+          "topics": "- Objective: Understand documentation and project practices - Activity: Interaction with faculty/designers Visit 2: Public Spaces or Museums/Galleries - Objective: Observe and document visual communication and user interaction - Activity: Field observation and documentation practice",
+          "hours": null
+        },
+        {
+          "title": "Field Visits (Part II)",
+          "topics": "Visit 3: Local Market/Handicraft Cluster/Urban Space ## p39 - Objective: Conduct contextual fieldwork - Activity: Interviews, photography, sketching Visit 4: Design Fair/Advertising Agency/NGO/Startup - Objective: Learn about field projects informing branding, advertising, service design - Activity: Interaction with professionals Documentation and Application - Translating fieldwork into a design brief - Developing design interventions: posters, publications, prototypes etc - Visualizing insights through info graphics, mind maps Report Writing and Presentation - Structure: Abstract, Methodology, Analysis, Conclusion - Presentation: Oral, visual, digital formats - Submission of field project report and visual documentation Integrated across project duration",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

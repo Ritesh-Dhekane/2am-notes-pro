@@ -1,0 +1,705 @@
+{
+  "id": "t-y-b-sc-cyber-and-digital-science",
+  "kind": "programme",
+  "programme": "Bachelor of Science (B.Sc) with Major : Cyber and Digital Science",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CDS-301-MJ",
+      "title": "Digital Forensic-I",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        106,
+        108
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Forensics 4 1",
+          "topics": "1.1WhatisDigitalForensics? 1.2NeedandImportanceinCyberSecurity 1.3TypesofCyberCrimes 1.4DigitalForensicInvestigationProcess 1.5RolesandResponsibilitiesofForensicInvestigator",
+          "hours": null
+        },
+        {
+          "title": "Digital Evidence & Acquisition 4 2",
+          "topics": "2.1ConceptofDigitalEvidence 2.2TypesandCharacteristicsofDigitalEvidence 2.3ChainofCustody 2.4EvidenceHandlingProcedures 2.5DataAcquisitionTechniques(LiveandDead) 2.6DiskImagingandCloning 2.7Tools:FTKImager,dd",
+          "hours": null
+        },
+        {
+          "title": "File Systems & Disk Analysis 6 3",
+          "topics": "3.1IntroductiontoFileSystems(FAT,NTFS,EXT) 3.2DiskStructureandPartitioning 3.3FileAllocationandStorageMechanism 3.4MetadataandTimestampAnalysis 3.5DeletedFileRecoveryTechniques 3.6IntroductiontoAutopsyTool",
+          "hours": null
+        },
+        {
+          "title": "Forensic Tools & Investigation Techniques 8 4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Network & Email Forensics 8 5",
+          "topics": "5.1IntroductiontoNetworkForensics 5.2PacketCapturingusingWireshark(Basic) 5.3NetworkLogAnalysis 5.4EmailStructureandHeaderAnalysis 5.5WebBrowserForensicsBasics 6 Reporting and Case Studies 6 6 6.1ImportanceofDocumentation 6.2ForensicReportWritingFormat 6.3EvidencePresentationBasics 6.4LegalAdmissibilityofDigitalEvidence 6.5CaseStudyonCybercrimeInvestigation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-305-MJP",
+      "title": "Practical based on CDS-301-MJ",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        109,
+        110
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-302-MJ",
+      "title": "Malware Analysis",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        111,
+        113
+      ],
+      "units": [
+        {
+          "title": "Introduction to Malware Analysis 4 2",
+          "topics": "1.1WhatisMalware? 1.2TypesofMalware 1.3MalwarevsVulnerabilityvsExploit 1.4MalwareLifecycle 1.5ObjectivesofMalwareAnalysis",
+          "hours": null
+        },
+        {
+          "title": "Analysis Setup & Techniques 4 2",
+          "topics": "2.1SafeMalwareAnalysisEnvironment 2.2VirtualMachines(VMware,VirtualBox) 2.3SandboxingBasics 2.4StaticvsDynamicAnalysis 2.5FileHashing(MD5,SHA) 2.6Tools:Strings,PEiD",
+          "hours": null
+        },
+        {
+          "title": "Static Malware Analysis 6 3",
+          "topics": "3.1ExecutableFileStructureBasics(PEFormatIntroduction) 3.2FilePropertyandHeaderAnalysis 3.3StringsAnalysis 3.4IdentifyingPackedandObfuscatedFiles 3.5Tools:PEview,DetectItEasy",
+          "hours": null
+        },
+        {
+          "title": "Dynamic Malware Analysis 8 4",
+          "topics": "4.1BehaviorAnalysisBasics 4.2MonitoringProcesses(ProcessExplorer) 4.3FileandRegistryChanges 4.4NetworkActivityAnalysis(Wireshark) 4.5BasicSandboxAnalysis 4.6IntroductiontoProcessMonitor(ProcMon)",
+          "hours": null
+        },
+        {
+          "title": "Malware Techniques and Detection 8 5",
+          "topics": "5.1CodeObfuscationBasics 5.2PackingandUnpackingConcepts 5.3RootkitsandKeyloggers 5.4MalwarePersistenceMechanisms 5.5Signature-BasedandBehavior-BasedDetection 5.6IntroductiontoAntivirusDetectionTechniques",
+          "hours": null
+        },
+        {
+          "title": "Reporting and Case Study 6 6",
+          "topics": "6.1MalwareAnalysisReportWriting 6.2IndicatorsofCompromise(IOCs) 6.3MalwareClassificationBasics",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-306-MJP",
+      "title": "Practical based on CDS-302-MJ",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        114,
+        115
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-303-MJ",
+      "title": "Cyber Threat Intelligence",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        116,
+        117
+      ],
+      "units": [
+        {
+          "title": "Introduction to CTI 4 1",
+          "topics": "1.1WhatisCyberThreatIntelligence 1.2ImportanceinCyberSecurity 1.3TypesofThreatIntelligence 1.4ThreatLandscape 1.5ThreatActors",
+          "hours": null
+        },
+        {
+          "title": "Intelligence Lifecycle 4 2",
+          "topics": "2.1ThreatIntelligenceLifecycle 2.2DataCollectionMethods 2.3DataProcessing 2.4IntelligenceAnalysis 2.5IntelligenceSharing",
+          "hours": null
+        },
+        {
+          "title": "Data Collection & Tools 6 3",
+          "topics": "3.1DataCollectionTechniques 3.2IndicatorsofCompromise(IOCs) 3.3ThreatIntelligencePlatforms 3.4Tools:MISP,OpenCTI,VirusTotal 3.5DataCorrelationBasics",
+          "hours": null
+        },
+        {
+          "title": "Threat Analysis 8 4",
+          "topics": "4.1ThreatAnalysisTechniques 4.2NetworkandMalware-basedAnalysis 4.3BehavioralAnalysis 4.4IntroductiontoMITREATT&CK 4.5IdentifyingAttackPatterns",
+          "hours": null
+        },
+        {
+          "title": "Security Operations 8 5",
+          "topics": "5.1IntelligenceSharingBasics 5.2RoleinSOC 5.3IncidentResponseusingCTI 5.4ThreatHuntingBasics 5.5IntegrationwithSIEM 6 Reporting and Trends 6 6 6.1ThreatIntelligenceReporting 6.2RiskAssessmentBasics 6.3DecisionMakingusingCTI 6.4CaseStudies 6.5EmergingTrendsinCTI",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-304-MJ",
+      "title": "Attack Surface Analysis & Threat Modeling",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        118,
+        120
+      ],
+      "units": [
+        {
+          "title": "Introduction to Attack Surface Analysis 4 1",
+          "topics": "1.1IntroductiontoCyberAttackSurface 1.2TypesofAttackSurfaces 1.3EntryPointsandExposure 1.4ImportanceofAttackSurfaceReduction 1.5BasicSecurityConcepts",
+          "hours": null
+        },
+        {
+          "title": "Fundamentals of Threat Modeling 4 2",
+          "topics": "2.1IntroductiontoThreatModeling 2.2Threats,VulnerabilitiesandRisks 2.3ThreatActorsandAttackVectors 2.4SecurityObjectives 2.5RiskAssessmentBasics",
+          "hours": null
+        },
+        {
+          "title": "Attack Surface Identification 6 3",
+          "topics": "3.1NetworkAttackSurface 3.2ApplicationAttackSurface 3.3UserandPhysicalAttackSurface 3.4AssetIdentification 3.5ToolsforSurfaceAnalysis(BasicOverview)",
+          "hours": null
+        },
+        {
+          "title": "Threat Modeling Techniques 8 4",
+          "topics": "4.1STRIDEModelBasics 4.2DREADRiskAssessmentBasics 4.3DataFlowDiagrams(DFD) 4.4IdentifyingThreatScenarios 4.5ThreatPrioritization",
+          "hours": null
+        },
+        {
+          "title": "Risk Mitigation and Security Controls 8 5",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-307-MJ",
+      "title": "Web and Network Security Fundamentals",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        121,
+        123
+      ],
+      "units": [
+        {
+          "title": "Introduction to Web and Network Security 4 1",
+          "topics": "1.1BasicsofNetworking(LAN,WAN,Internet) 1.2OSIandTCP/IPModelsOverview 1.3IntroductiontoWebApplications 1.4NeedforWebandNetworkSecurity 1.5CommonCyberThreats",
+          "hours": null
+        },
+        {
+          "title": "Web Application Fundamentals 4 2",
+          "topics": "2.1HTTPandHTTPSProtocols 2.2StructureofWebApplications 2.3Client-ServerArchitecture 2.4IntroductiontoWebVulnerabilities 2.5OWASPTop10Overview",
+          "hours": null
+        },
+        {
+          "title": "Network Security Fundamentals 6 3",
+          "topics": "3.1FirewallsandTypes 3.2IntrusionDetectionandPreventionSystems(IDS/IPS) 3.3VPNBasics 3.4NetworkScanningusingNmap 3.5PacketAnalysisusingWireshark",
+          "hours": null
+        },
+        {
+          "title": "Web and Network Attacks 8 4",
+          "topics": "4.1SQLInjectionBasics 4.2Cross-SiteScripting(XSS)Basics 4.3PhishingandSocialEngineering 4.4DenialofService(DoS)Overview 4.5BasicTrafficandLogAnalysis",
+          "hours": null
+        },
+        {
+          "title": "Security Measures and Best Practices 8 5",
+          "topics": "5.1SecureConfigurationofSystems 5.2PasswordPoliciesandAuthenticationMethods 5.3BasicsofEncryption(SSL/TLS) 5.4PatchManagementandUpdates 5.5RiskAssessmentBasics",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-308-MJP",
+      "title": "Practical based on CDS-307-MJ",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        124,
+        125
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-309-MJ",
+      "title": "Mobile Forensic",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        126,
+        128
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Forensics 4 1",
+          "topics": "1.1OverviewofMobileForensics 1.2TypesofMobileDevices 1.3MobileOperatingSystems(Android,iOSBasics) 1.4ImportanceofMobileEvidence 1.5ChallengesinMobileForensics",
+          "hours": null
+        },
+        {
+          "title": "Mobile Device Architecture 4 2",
+          "topics": "2.1MobileHardwareComponents 2.2SIM,MemoryandStorage 2.3FileSystemsinMobileDevices 2.4DataStorageLocations 2.5MobileSecurityFeatures",
+          "hours": null
+        },
+        {
+          "title": "Data Acquisition Techniques 6 3",
+          "topics": "3.1LogicalandPhysicalAcquisition 3.2ManualAcquisitionMethods 3.3BackupExtraction 3.4IntroductiontoMobileForensicTools 3.5DataPreservationTechniques",
+          "hours": null
+        },
+        {
+          "title": "Mobile Data Analysis 8 4",
+          "topics": "4.1CallLogsandContactsAnalysis 4.2SMSandMessagingAnalysis 4.3ApplicationDataAnalysis 4.4MediaFilesandDocumentAnalysis 4.5LocationandGPSDataAnalysis",
+          "hours": null
+        },
+        {
+          "title": "Tools and Investigation 8 5",
+          "topics": "5.1Tools:Cellebrite,Oxygen,Autopsy(Overview) 5.2MobileForensicToolkits 5.3EvidenceHandlingProcedures 5.4ChainofCustodyBasics 5.5LegalandEthicalConsiderations 6 Reporting and Case Study 6 6 6.1MobileForensicReportWriting 6.2DocumentationTechniques 6.3CaseStudyAnalysis 6.4EvidencePresentation 6.5BestPracticesinInvestigation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-310-MJP",
+      "title": "Practical based on CDS-309-MJ",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        129,
+        130
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-321-VSCP",
+      "title": "Linux and Web Server Hardening",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        131,
+        133
+      ],
+      "units": [
+        {
+          "title": "Introduction to Linux Security 4 1",
+          "topics": "1.1BasicsofLinuxOperatingSystem 1.2LinuxFileSystemStructure 1.3UserandGroupManagement 1.4PermissionsandAccessControl 1.5NeedforSystemSecurity",
+          "hours": null
+        },
+        {
+          "title": "Linux Hardening Techniques 4 2",
+          "topics": "2.1PasswordPolicies 2.2FilePermissionsandOwnership 2.3SecureShell(SSH)Configuration 2.4FirewallBasics(iptables,ufw) 2.5SystemUpdatesandPatchManagement",
+          "hours": null
+        },
+        {
+          "title": "Web Server Basics 6 3",
+          "topics": "3.1IntroductiontoWebServers 3.2ApacheandNginxOverview 3.3ServerInstallationandConfiguration 3.4VirtualHostingBasics 3.5ServerLogs",
+          "hours": null
+        },
+        {
+          "title": "Web Server Hardening 8 4",
+          "topics": "4.1SecuringApache/Nginx 4.2SSL/TLSConfiguration 4.3DirectoryListingandAccessControl 4.4ProtectingAgainstCommonAttacks 4.5LogMonitoringandAnalysis",
+          "hours": null
+        },
+        {
+          "title": "Monitoring and Security Tools 8 5",
+          "topics": "5.1IntrusionDetectionBasics 5.2LogMonitoringTools 5.3Fail2BanOverview 5.4SystemMonitoringTools 5.5BackupandRecovery 6 Best Practices and Case Study 6 6 6.1LinuxSecurityBestPractices 6.2ServerHardeningChecklist 6.3CaseStudyonServerAttack 6.4IncidentHandlingBasics 6.5SecureDeploymentPractices",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-331-FP",
+      "title": "Project",
+      "semester": 5,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        134,
+        135
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-341-MN",
+      "title": "Data Analytics and Business Intelligence",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        136,
+        138
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Analytics 4 1",
+          "topics": "1.1WhatisDataAnalytics 1.2TypesofData 1.3DataAnalyticsProcess 1.4ApplicationsofDataAnalytics 1.5ImportanceinBusiness",
+          "hours": null
+        },
+        {
+          "title": "Data Processing and Preparation 4 2",
+          "topics": "2.1DataCollectionMethods 2.2DataCleaning 2.3DataTransformation 2.4DataStorageConcepts 2.5IntroductiontoDatabases",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis Techniques 6 3",
+          "topics": "3.1DescriptiveAnalysis 3.2BasicStatisticalConcepts 3.3DataAggregation 3.4IntroductiontoExcelforAnalysis 3.5DataFilteringandSorting",
+          "hours": null
+        },
+        {
+          "title": "Data Visualization 8 4",
+          "topics": "4.1ImportanceofVisualization 4.2ChartsandGraphs 4.3DashboardBasics 4.4Tools:Excel,PowerBI(Overview) 4.5InterpretingVisualData",
+          "hours": null
+        },
+        {
+          "title": "Business Intelligence Concepts 8 5",
+          "topics": "5.1IntroductiontoBI 5.2BIArchitecture 5.3DataWarehousingBasics 5.4ReportingTools 5.5DecisionSupportSystems 6 Reporting and Case Study 6 6 6.1ReportPreparation 6.2DataInterpretation 6.3BusinessCaseStudies 6.4DecisionMakingusingData 6.5FutureTrendsinBI",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-351-MJ",
+      "title": "Digital Forensic-II",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        139,
+        141
+      ],
+      "units": [
+        {
+          "title": "Advanced Digital Forensics Concepts 4 1",
+          "topics": "1.1ReviewofDigitalForensicsFundamentals 1.2AdvancedForensicInvestigationProcess 1.3TypesofAdvancedDigitalForensics 1.4ChallengesinDigitalInvestigations 1.5LegalandEthicalConsiderations(Advanced)",
+          "hours": null
+        },
+        {
+          "title": "Memory and Live Forensics 4 2",
+          "topics": "2.1IntroductiontoMemoryForensics 2.2RAMAcquisitionTechniques 2.3LiveSystemForensics 2.4MemoryArtifactsAnalysis 2.5Tools:Volatility(Basics)",
+          "hours": null
+        },
+        {
+          "title": "Mobile Device Forensics 6 3",
+          "topics": "3.1IntroductiontoMobileForensics 3.2MobileDataAcquisitionMethods 3.3AndroidForensicsBasics 3.4MobileArtifacts(Calllogs,SMS,Appdata) 3.5Tools:Oxygen,Autopsy(MobileModule)",
+          "hours": null
+        },
+        {
+          "title": "Cloud and Network Forensics 8 4",
+          "topics": "4.1IntroductiontoCloudForensics 4.2CloudDataAcquisitionChallenges 4.3LogAnalysisinCloudEnvironments 4.4AdvancedNetworkForensics 4.5CorrelationofMultipleEvidenceSources",
+          "hours": null
+        },
+        {
+          "title": "Advanced Investigation Techniques 8 5",
+          "topics": "5.1TimelineAnalysis 5.2EventReconstruction 5.3Anti-ForensicsTechniques 5.4DetectionofAnti-Forensics 5.5Case-BasedInvestigationApproach 6 Reporting and Legal Procedures 6 6 6.1AdvancedForensicReportWriting 6.2ExpertWitnessandCourtProcedures 6.3EvidencePresentationTechniques 6.4LegalComplianceandStandards 6.5Real-worldCaseStudies",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-355-MJP",
+      "title": "Practical Based on CDS-351-MJ",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        142,
+        143
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-352-MJ",
+      "title": "Vulnerability Assessment & Penetration Testing",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        144,
+        146
+      ],
+      "units": [
+        {
+          "title": "Introduction to VAPT 4 1",
+          "topics": "1.1BasicsofVulnerabilityAssessment 1.2BasicsofPenetrationTesting 1.3DifferencebetweenVAandPT 1.4TypesofPenetrationTesting 1.5LegalandEthicalConsiderations",
+          "hours": null
+        },
+        {
+          "title": "VAPT Methodology 4 2",
+          "topics": "2.1VAPTLifecycle 2.2InformationGatheringTechniques 2.3ScanningandEnumeration 2.4VulnerabilityIdentification 2.5Tools:Nmap,Nikto",
+          "hours": null
+        },
+        {
+          "title": "Web Application Testing 6 3",
+          "topics": "3.1SQLInjectionTesting 3.2Cross-SiteScripting(XSS)Testing 3.3AuthenticationTesting 3.4SessionManagementTesting 3.5Tools:BurpSuite,OWASPZAP",
+          "hours": null
+        },
+        {
+          "title": "Network Penetration Testing 8 4",
+          "topics": "4.1NetworkScanningTechniques 4.2ServiceEnumeration 4.3ExploitationBasics 4.4PasswordAttacksBasics 4.5Tools:Metasploit(Basic),Hydra 4.6TrafficAnalysis",
+          "hours": null
+        },
+        {
+          "title": "Risk Assessment and Mitigation 8 5",
+          "topics": "5.1RiskAssessmentConcepts 5.2VulnerabilityScoring(CVSSBasics) 5.3PatchManagement 5.4SecureConfigurationPractices 5.5SecurityControlsandMitigation 6 Reporting and Case Study 6 6 6.1VAPTReportWriting 6.2DocumentationandEvidenceCollection 6.3VulnerabilityClassification 6.4CaseStudyonSecurityTesting 6.5RemediationTechniques",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-356-MJP",
+      "title": "Practical Based on CDS-352-MJ",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        147,
+        148
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-353-MJ",
+      "title": "Cyber Crime & Reports",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        149,
+        151
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Crime 4 1",
+          "topics": "1.1DefinitionofCyberCrime 1.2TypesofCyberCrimes 1.3CyberCrimeTrends 1.4ImpactofCyberCrimes 1.5OverviewofCyberLaws",
+          "hours": null
+        },
+        {
+          "title": "Cyber Laws and Legal Framework 4 2",
+          "topics": "2.1ITAct(India)Overview 2.2CyberLawProvisions 2.3LegalProceduresinCybercrimeInvestigation 2.4RolesofLawEnforcementAgencies 2.5DigitalEvidenceandLegalIssues",
+          "hours": null
+        },
+        {
+          "title": "Cyber Crime Investigation Process 6 3",
+          "topics": "3.1InvestigationMethodology 3.2EvidenceCollectionTechniques 3.3EvidencePreservation 3.4ChainofCustody 3.5UseofForensicToolsinInvestigation",
+          "hours": null
+        },
+        {
+          "title": "Analysis of Cyber Crimes 8 4",
+          "topics": "4.1CaseAnalysisTechniques 4.2FinancialCyberCrimes 4.3IdentityTheftandFraud 4.4SocialMediaCrimes 4.5EmailandPhishingAttacks 4.6IncidentAnalysis",
+          "hours": null
+        },
+        {
+          "title": "Legal and Ethical Issues 8 5",
+          "topics": "5.1PrivacyandDataProtection 5.2EthicalIssuesinCyberInvestigation 5.3ComplianceRequirements 5.4CyberSecurityPolicies 5.5LegalChallengesinCybercrimeCases Reporting and Documentation 6 6 6.1CyberCrimeReportWriting 6.2FIRandComplaintDocumentation 6.3EvidenceDocumentation 6.4CaseReportPreparation 6.5CourtPresentationBasics",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-354-MJ",
+      "title": "Active Directory fundamentals and attacks",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        152,
+        154
+      ],
+      "units": [
+        {
+          "title": "Introduction to Active Directory 4 1",
+          "topics": "1.1IntroductiontoActiveDirectory 1.2Domain,ForestandTreeConcepts 1.3ActiveDirectoryComponents 1.4RolesofDomainController 1.5ImportanceofActiveDirectoryinEnterprises",
+          "hours": null
+        },
+        {
+          "title": "AuthenticationandPolicies 4 2",
+          "topics": "2.1AuthenticationBasics 2.2KerberosAuthenticationOverview 2.3LDAPBasics 2.4GroupPolicyBasics 2.5UserandAccessManagement",
+          "hours": null
+        },
+        {
+          "title": "ActiveDirectoryAdministration 6 3",
+          "topics": "3.1UserandGroupManagement 3.2OrganizationalUnits(OU) 3.3PasswordandAccountPolicies 3.4ActiveDirectoryToolsOverview 3.5BasicADConfiguration",
+          "hours": null
+        },
+        {
+          "title": "ActiveDirectoryAttacks 8 4",
+          "topics": "4.1PasswordAttacksBasics 4.2Pass-the-HashOverview 4.3KerberoastingBasics 4.4PrivilegeEscalationConcepts 4.5EnumerationTechniques",
+          "hours": null
+        },
+        {
+          "title": "SecurityandMitigation 8 5",
+          "topics": "5.1HardeningActiveDirectory 5.2AccessControlBestPractices 5.3MonitoringandLogging",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-357-MJ",
+      "title": "Advanced Web Application Security",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        155,
+        157
+      ],
+      "units": [
+        {
+          "title": "Advanced Web Security Concepts 4 1",
+          "topics": "1.1ReviewofWebSecurityFundamentals 1.2AdvancedThreatLandscapeforWebApplications 1.3WebApplicationArchitectureOverview 1.4SecureDevelopmentLifecycle(SDLC) 1.5OWASPTop10(DetailedOverview)",
+          "hours": null
+        },
+        {
+          "title": "Advanced Web Vulnerabilities 4 2",
+          "topics": "2.1AdvancedSQLInjection 2.2Cross-SiteScripting(Advanced) 2.3Cross-SiteRequestForgery(CSRF) 2.4FileUploadVulnerabilities 2.5AuthenticationandSessionAttacks",
+          "hours": null
+        },
+        {
+          "title": "Web Application Testing Techniques File Systems & Disk",
+          "topics": "Analysis 6 3 3.1ManualTestingTechniques 3.2AutomatedTestingTools 3.3ParameterTampering 3.4InputValidationTesting 3.5Tools:BurpSuite(Advanced),OWASPZAP",
+          "hours": null
+        },
+        {
+          "title": "Exploitation Techniques 8 4",
+          "topics": "4.1ExploitingSQLInjection 4.2ExploitingXSS 4.3ExploitingFileUploadIssues 4.4SessionHijacking 4.5PrivilegeEscalationinWebApps 4.6Logic-BasedAttacks",
+          "hours": null
+        },
+        {
+          "title": "Security Controls and Secure Coding 8 5",
+          "topics": "5.1InputValidationTechniques 5.2SecureAuthenticationMechanisms 5.3SessionManagementSecurity 5.4WebApplicationFirewalls(WAF) 5.5SecureCodingBestPractices 6 Reporting and Case Study 6 6 6.1WebSecurityTestingReportWriting 6.2VulnerabilityClassification 6.3RiskAssessmentBasics 6.4CaseStudyofWebApplicationAttack 6.5RemediationTechniques",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-358-MJP",
+      "title": "Practical Based on CDS-357-MJ",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        158,
+        159
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-359-MJ",
+      "title": "Fin-Tech Cyber Security",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        160,
+        162
+      ],
+      "units": [
+        {
+          "title": "Introduction to Fin-Tech Security 4 1",
+          "topics": "1.1IntroductiontoFin-Tech 1.2DigitalBankingSystems 1.3PaymentSystemsOverview 1.4FinancialCyberThreats 1.5ImportanceofFin-TechSecurity",
+          "hours": null
+        },
+        {
+          "title": "Digital Payment Systems 4 2",
+          "topics": "2.1UPIandOnlinePayments 2.2Credit/DebitCardSystems 2.3PaymentGateways 2.4EncryptioninFinancialSystems 2.5AuthenticationMechanisms",
+          "hours": null
+        },
+        {
+          "title": "Financial Threats and Attacks 6 3",
+          "topics": "3.1PhishingandFraudAttacks 3.2CardSkimming 3.3OnlineBankingAttacks 3.4MalwareinFinancialSystems 3.5IdentityTheft",
+          "hours": null
+        },
+        {
+          "title": "Security Measures in Fin-Tech 8 4",
+          "topics": "4.1SecurePaymentProtocols 4.2Multi-FactorAuthentication 4.3FraudDetectionSystems 4.4RiskManagementTechniques 4.5TransactionMonitoring",
+          "hours": null
+        },
+        {
+          "title": "Compliance and Regulations 8 5",
+          "topics": "5.1RBIGuidelines(Overview) 5.2PCI-DSSStandards 5.3DataProtectioninFinance 5.4LegalCompliance 5.5RiskAssessment 6 Case Study and Reporting 6 6 6.1FinancialFraudCaseStudies 6.2IncidentReporting 6.3InvestigationTechniques 6.4RiskAnalysisReports 6.5FutureTrendsinFin-TechSecurity",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CDS-360-MJP",
+      "title": "Practical Based on CDS-359-MJ",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        163,
+        164
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-381-OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "FP/OJT/CEP",
+      "credits": 4,
+      "pages": [
+        165,
+        166
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-391-VSC",
+      "title": "Machine Learning for Data Analysis",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        167,
+        169
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Learning 4 1",
+          "topics": "1.1WhatisMachineLearning 1.2TypesofMachineLearning 1.3ApplicationsinCyberSecurity 1.4MLWorkflow 1.5DataTypes",
+          "hours": null
+        },
+        {
+          "title": "Data Preparation 4 2",
+          "topics": "2.1DataCollection 2.2DataCleaning 2.3DataPreprocessing 2.4FeatureSelection 2.5DataSplitting",
+          "hours": null
+        },
+        {
+          "title": "Basic ML Algorithms 6 3",
+          "topics": "3.1LinearRegression 3.2ClassificationBasics 3.3DecisionTrees 3.4ClusteringConcepts 3.5ToolsOverview(Python,Scikit-learn)",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis and Visualization 8 4",
+          "topics": "4.1DataVisualizationTechniques 4.2GraphsandCharts 4.3PatternIdentification 4.4Tools:Python,Matplotlib 4.5DataInterpretation",
+          "hours": null
+        },
+        {
+          "title": "Model Evaluation 8 5",
+          "topics": "5.1AccuracyandPerformanceMetrics 5.2ConfusionMatrix 5.3ModelValidation 5.4OverfittingandUnderfitting 5.5ImprovingModels 6 Case Study and Reporting 6 6 6.1MLCaseStudyinCyberSecurity 6.2DataAnalysisReports 6.3VisualizationReports 6.4DecisionMakingusingML 6.5FutureTrendsinML",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

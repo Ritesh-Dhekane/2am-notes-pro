@@ -1,0 +1,45 @@
+{
+  "id": "syllabus-of-cyber-security-program-at-undergraduate-level-22082026",
+  "kind": "course",
+  "programme": "Cyber Security Program at Undergraduate Level",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": null,
+      "title": "Course in Cyber Security",
+      "semester": null,
+      "type": null,
+      "credits": 4,
+      "pages": [1, 4],
+      "units": [
+        {
+          "title": "Introduction to Cyber security",
+          "topics": "Defining Cyberspace and Overview of Computer and Web-technology, Architecture of cyberspace, Communication and web technology, Internet, World wide web, Advent of internet, Internet infrastructure for data transfer and governance, Internet society, Regulation of cyberspace, Concept of cyber security, Issues and challenges of cyber security.",
+          "hours": null
+        },
+        {
+          "title": "Cybercrime and Cyber law",
+          "topics": "Classification of cyber -crimes, Common cyber -crimes cyber -crime targeting computers and mobiles, cyber -crime against women and children, financial frauds, social engineering attacks, malware and ransomware attacks, zero day and zero click attacks, Cybercriminals modus-operandi, reporting of cyber -crimes, Remedial and mitigation measures, Legal perspective of cyber-crime, IT Act 2000 and its amendments, Cyber -crime and offences, Organizations dealing with Cyber-crime and Cyber security in India, Case studies. Practical: Reporting phishing emails, Demonstration of email phishing attack and preventive measures.",
+          "hours": null
+        },
+        {
+          "title": "Social Media Overview and Security",
+          "topics": "Introduction to Social networks. Types of Social media, Social media platforms, Social media monitoring, Hashtag, Viral content, Social media marketing, Social media privacy, Challenges, opportunities and pitfalls in online social network, Security issues related to social media, Flagging and reporting of inappropriate content, Laws regarding posting of inappropriate content, Best practices for the use of Social media, Case studies. Practical: Reporting and redressal mechanism for violations and misuse of Social media platforms.",
+          "hours": null
+        },
+        {
+          "title": "E - Commerce and Digital Payments",
+          "topics": "Definition of E - Commerce, Main components of E-Commerce, Elements of E-Commerce security, E -Commerce threats, E -Commerce security best practices, Introduction to digital payments, Components of digital payment and stake holders, Modes of digital payments- Banking Cards, Unified Payment Interface (UPI), e-Wallets, Unstructured Supplementary Service Data (USSD), Aadhar enabled payments, Digital payments related common frauds and preventive measures. RBI guidelines on digital payments and customer protection in unauthorised banking transactions. Relevant provisions of Payament Settlement Act,2007. Practical: Configuring security settings in Mobile Wallets and UPIs.",
+          "hours": null
+        },
+        {
+          "title": "Digital Devices Security, Tools and Technologies for Cyber Security",
+          "topics": "End Point device and Mobile phone security, Password policy, Security patch management, Data backup, Downloading and management of third party software, Device security policy, Cyber Security best practices, Significance of host firewall and Ant -virus, Management of host firewall and Anti -virus, Wi -Fi security, Configuration of basic security policy and permissions. Practical: Setting, configuring and managing three password policy in the computer (BIOS, Administrator and Standard User), Security patch management and updates in Computer and Mobiles, Managing Application permissions in Mobile phone, Installation and configuration of computer Anti-virus, Installation and configuration of Computer Host Firewall.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

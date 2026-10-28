@@ -1,0 +1,175 @@
+{
+  "id": "sppu-nep-syb-com-ca-semester-iii-24062025",
+  "kind": "programme",
+  "programme": "Bachelor of Commerce in Computer Application (BCOM-CA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": null,
+      "title": "Data Structure",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures",
+          "topics": "1.1 Array, types of array and its representation, 1.2 Self referential structure, 1.3 Pointer and dynamic memory allocation, 1.4 Data types, Data Objects and Abstract Data Type(ADT), 1.5 Data structure and types of data structure, 1.6 Algorithm Analysis: Space complexity, time complexity, Asymptotic Notations(Big O, Omega Ω)",
+          "hours": null
+        },
+        {
+          "title": "Linear Data Structure",
+          "topics": "2.1 Introduction to Linear Data Structure Definition, Characteristics, Types of Linear Data Structure, 2.2 Sorting algorithms with time complexity Bubble sort, Insertion sort, Merge sort, Quick Sort, Selection Sort, 2.3 Searching techniques Linear Search, Binary search",
+          "hours": null
+        },
+        {
+          "title": "Linked List",
+          "topics": "3.1 Introduction to Linked List - Definition, Advantages and Disadvantages, 3.2 Implementation of Linked List - Static and Dynamic Representation, - Node Structure, 3.3 Types of Linked List: 3.3.1 Singly Linked list Operations - Create, Printing, Insertion(Begin, Middle, End), Deleting(Begin, Middle, End), Reverse, Searching, 3.3.2 Doubly Linked list Operations - Create, Printing, Insertion(Begin, Middle, End), Deleting(Begin, Middle, End), 3.3.3 Circularly Singly Linked list Operations - Create, Printing, 3.3.4 Circularly Doubly Linked list Operations - Create, Printing",
+          "hours": null
+        },
+        {
+          "title": "Stack and Queue",
+          "topics": "4.1 Introduction - Concept and characteristics (LIFO) Real-world examples: browser history, undo operations, 4.2 Stack Implementations - Static representation using arrays Dynamic representation using linked lists, 4.3 Stack Operations - Push, Pop, Peek, isEmpty, isFull, 4.4 Applications of Stacks, 4.5 Conversion of Infix, prefix, postfix , Evaluation of postfix and prefix, 4.6 Introduction to Queue - Advantages and Disadvantages of Queue - Application Queue, 4.7 Representation - Static & Dynamic - Queue using LinkedList, 4.8 Primitive Operations on Queue (Insert, Delete, Display), 4.9 Circular queue(insert, delete ,display)",
+          "hours": null
+        },
+        {
+          "title": "Tree and Graph",
+          "topics": "5.1 Tree Concept & Terminologies, 5.2 Binary tree, Binary search tree, 5.3 Operations on BT and BST – create, Insert, delete, 5.4 Tree Traversals (preorder, inorder, postorder), 5.5 Height balanced tree- AVL trees- Rotations, AVL tree examples., 5.6 Introduction of Graph, 5.7 Representation of Graph- Adjacency Matrix, Adjacency List, 5.8 Graph Traversals- BFS and DFS, 5.9 Degree of Graph, 5.10 Spanning Tree",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "PHP",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "PHP Basics & Control structure and loops",
+          "topics": "1.1 Setting up a development environment, 1.2 Variables, numbers and strings, 1.3 Calculations with PHP, 1.4 Conditional Statements, 1.5 Loops for Repetitive tasks, 1.6 Using Arrays, 1.7 Combing Loops and Arrays",
+          "hours": null
+        },
+        {
+          "title": "Functions, Objects and Errors",
+          "topics": "2.1 PHP's Built-in functions, 2.2 Creating Custom functions, 2.3 Passing Values by Reference, 2.4 Understanding Objects, 2.5 Differences between POST and GET, 2.6 Preserving User Input, 2.7 Working with Forms, 2.8 Building a Form, 2.9 Processing a Form's Data, 2.10 Types of Errors ,Error reporting",
+          "hours": null
+        },
+        {
+          "title": "More with Forms",
+          "topics": "3.1 Dealing with checkboxes and radiobuttons, 3.2 Retrieving values from lists, 3.3 Validating and restricting data, 3.4 Sending Email, 3.5 Storing and Protecting Data, 3.6 Setting and Reading Cookies, 3.7 Protecting Online Files, 3.8 Understanding Session Variables, 3.9 Sticky Forms, 3.10 Self processing",
+          "hours": null
+        },
+        {
+          "title": "MySQL Database Overview",
+          "topics": "4.1 phpMyAdmin Overview, 4.2 Using a MySQL Database, 4.3 Executing queries from PHP, 4.4 Prepared statements and parameter binding for security, 4.5 Reading and writing data",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Computer Laboratory based on DS, PHP(Practical)",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Introduction to Cyber Security",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Chapter 1: Introduction to Cyber Crime and Cyber Security",
+          "topics": "1.1 Introduction, 1.2 Cybercrime:Definition and significance of cybersecurity, Evolution and historical context of cybersecurity, 1.3 Cybercrime and Information Security, 1.4 Who are Cybercriminals?, 1.5 Hackers and Types of Hackers, 1.6 Types of Cybercrimes: E-Mail Spoofing, Spamming, Cyber defamation, Internet Time Theft, Salami Attack/Salami Technique, Data Diddling, Forgery, Web Jacking, Newsgroup, Spam/Crimes Emanating from Usenet Newsgroup, Industrial Spying/Industrial Espionage, Hacking, Online Frauds, Computer Sabotage, Email Bombing/Mail Bombs, Computer Network Intrusions, Password Sniffing, Credit Card Frauds, Identity Theft, 1.7 Vulnerability, Threats, and Harmful Acts, 1.8 CIA Triad",
+          "hours": null
+        },
+        {
+          "title": "Chapter 2:- Cybercrime Tools, Techniques and Cyber Laws",
+          "topics": "2.1 Introduction, 2.2 Proxy Servers and Anonymizers, 2.3 Phishing, 2.4 Password Cracking, 2.5 Keyloggers and Spyware, 2.6 Virus and Worms, 2.7 Trojan Horses and Backdoors, 2.8 Steganography, 2.9 DoS and DDoS Attacks, 2.10 SQL Injection, 2.11 Introduction: Cyber Laws, 2.12 Cybercrime and the Legal Landscape around the World, 2.13 Why Do We Need Cyberlaws: The Indian Context, 2.14 The Indian IT Act, 2.14.1 Challenges to Indian Law and Cybercrime Scenario in India, 2.14.2 Digital Signatures and the Indian IT Act, Amendments to the Indian IT Act, 2.15 Cybercrime and Punishment, 2.16 Cyberlaw, Technology and Students: Indian Scenario",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Web development tools",
+      "semester": 3,
+      "type": "Vocational Skill Development Course (VSC) (Practical)",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction to WordPress",
+          "topics": "What is WordPress? Overview of WordPress and its features, Brief history and evolution of WordPress, Benefits of using WordPress for website development, Setting up a WordPress Website: Choosing a domain and hosting: Selecting a domain name and web hosting service, Installing WordPress, WordPress Dashboard: Introduction and Overview of the WordPress dashboard and its features Widgets, Creating and editing posts in WordPress, Creating and editing pages in WordPress, Themes and Customization: Choosing a WordPress theme for a website, Customizing WordPress themes using the theme editor, Creating child themes in WordPress",
+          "hours": null
+        },
+        {
+          "title": "Content Management Through WordPress",
+          "topics": "Plugins and Extensions: Introduction of WordPress plugins and their uses, Installing plugins in WordPress, Overview of popular WordPress plugins, such as Yoast SEO and WooCommerce, Content Creation and Management: Creating high-quality content in WordPress, Optimizing content for search engines using keywords and meta tags, Managing content in WordPress, including Media Library and publishing posts, Security and Maintenance: Best practices for securing a WordPress website, Updating WordPress core, themes, and plugins, Backing up WordPress websites using plugins and manual methods",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Modern Indian Languages 1 : Marathi/Hindi/Sanskrit",
+      "semester": 3,
+      "type": "Ability Enhancement Course (AEC)",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Project based on Web Applications",
+      "semester": 3,
+      "type": "Field Projects (FP)",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "NSS/NCC/Yoga Education/Health and Wellness/Fine Arts-I",
+      "semester": 3,
+      "type": "Co-Curricular Courses (CC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

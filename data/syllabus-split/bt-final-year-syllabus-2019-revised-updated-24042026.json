@@ -1,0 +1,837 @@
+{
+  "id": "bt-final-year-syllabus-2019-revised-updated-24042026",
+  "kind": "programme",
+  "programme": "Final Year B. Tech Biotechnology",
+  "pattern": "2019",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "415461",
+      "title": "Biochemical Engineering",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Fermentation Process Kinetics: Introduction to Growth Kinetics, Balanced growth kinetics, Transient growth kinetics, Structured Kinetic models, Product formation kinetics, Thermal death Kinetics of cells and spores.",
+          "hours": 6
+        },
+        {
+          "title": "Unit II",
+          "topics": "Types of Fermenters, design & Operation: CSTR, Modes of operation in stirred reactors: discontinuous batch operation, continuous operation, open and closed loop controlled reactors, semi continuous reactors, periodic fed batch cultivation, bubble column reactors, air lift tray bioreactors, hollow fiber configuration and application of bioreactors.",
+          "hours": 7
+        },
+        {
+          "title": "Unit III",
+          "topics": "Fermenter Auxiliary design & Operation: Detailed study of design and operation of different types of fermenters, auxiliary fittings, like sampling port, impeller design, agitated power requirement, measurement and control of dissolved oxygen, CO2, temperature, pH and foam, effect of rheological properties and its importance in fermentation operation.",
+          "hours": 6
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Aeration and agitation: Aeration and agitation, effect of shear, oxygen requirement of microorganisms, mass transfer theory, diffusional resistance to oxygen transfer, methods of measurement of mass transfer co -efficients:kLameasurement methods- sulphite oxidation methods and Gassing out, Type of impellers, Case study onkLameasurement",
+          "hours": 7
+        },
+        {
+          "title": "Unit V",
+          "topics": "Scale up of Fermentation Process: Introduction to scale up, Applications, thumb rules to scale up, similarity principles, Environmental approach, regimen analysis, Economics of Scale-up.",
+          "hours": 6
+        },
+        {
+          "title": "Unit VI",
+          "topics": "Advanced Fermentation Techniques: Immobilization Techniques, Reactors with immobilized cells/enzymes, Animal and plant cell reactors: Case Study, semi synthetic fermentation process: Case Study, Disposable fermenters- Case study.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415462",
+      "title": "Bioinformatics",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        11
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Database concept and Bioinformatics Database concept, Database Management system: Data structure, Query language Basics of Structured Query Language (SQL), Relational Model, Object Model, Object oriented and Relational databases. Introduction and Scope of computational biology and Bioinformatics, File formats, PubMed, Genome and Organism specific databases",
+          "hours": 6
+        },
+        {
+          "title": "Unit II",
+          "topics": "Nucleic Acid Databases Major Genome Servers – Genbank at NCBI , DNA Data Bank of Japan (DDBJ), European Bioinformatics Institute is part of European Molecular Biology Laboratory (EMBL). Specialized genomic recourses like - SGD, UniGene.Data retrieval systems - Entrez, DBGET/LinkDB and SRS. Database Searching, Description of the entries and Sequence Data File, Sample Sequence Data File.",
+          "hours": 6
+        },
+        {
+          "title": "Unit III",
+          "topics": "Protein Databases Uniqueness of Polypeptide sequence and properties, Primary, Secondary, Tertiary & Quaternary Structure, Hydrophobicity, Disulphide bonds, Active Sites, Secondary structure composition, backbone flexibility, Ramchandran Plot Primary protein Databases UNIPROT - PIR, SWISS-PROT, TrEMBL, Description of the entries and Sequence Data File, Sample Sequence Data File, Representation of sequence.",
+          "hours": 6
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Structural Bioinformatics Secondary protein databases: Patterns, Motifs and Profiles databases like PROSITE, PRINTS, BLOCKS. Protein fold classification- SCOP, CATH, and FSSP. Various tools for protein Structure Visualization Rasmol, Jmol, PyMOL etc. Proteomics, Secondary and tertiary structure prediction methods.Basic Molecular Docking concept. 10",
+          "hours": 6
+        },
+        {
+          "title": "Unit V",
+          "topics": "Alignment of sequences Pairwise Sequence Alignment – Sequence alignment. Similarity, identity, homology, Local and Global Sequence Alignment, Needleman-Wunsch& Smith-Waterman Algorithm, Dot Plot.Scoring Matrices such as PAM and BLOSUM.Gap penalty concept, alignment's statistical significance, and heuristic alignments. Multiple Sequence Alignment – Clustal W.",
+          "hours": 6
+        },
+        {
+          "title": "Unit VI",
+          "topics": "Phylogenetic Analysis Definition of Phylogeney and phylogenetic trees, evolutionary tree construction, tree building methods, rooted and unrooted trees . Elements of phylogenetic models . Homologs, orthologs and paralogs.Phylogenetic data analysis: alignment, substitution, parsimony, building the data model, determining substitution model, phylogenetic prediction, data phylogenetic software like PHYLIP, CLUSTAL W, Tcofee, Phylogenetics on the web",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415463 (A)",
+      "title": "Bioprocess Equipment Design (Elective-III)",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        12,
+        14
+      ],
+      "units": [
+        {
+          "title": "Analysis of Bioreactors/Reactors",
+          "topics": "Modeling of non -ideal behavior in bioreactors, tanks -in-series and dispersion models-application to design of continuous sterilizers, air-lift loop reactors, fluidized- bed bioreactors, stability analysis of bioreactors.",
+          "hours": 7
+        },
+        {
+          "title": "Design Pressure Vessels",
+          "topics": "13 Geometric configuration, types of pressure vessels, material of construction, selection of corrosion allowance and weld joint efficiency, purging of vessels, Selection and design of various types of heads, flanges, nozzles, gaskets.",
+          "hours": 7
+        },
+        {
+          "title": "Design Principles of Bioreactors/Reaction Vessels",
+          "topics": "Introduction, accessories for bioreactors: agitators, aerators, air filters, stabilizers, power requirement , heating systems, various types of jackets like plain, half coil, channel, and limpet coil. Study and design of internal coil of reaction vessels. Mapping of Co urse Outcomes for Unit III",
+          "hours": 7
+        },
+        {
+          "title": "Heat Exchange Equipment’s",
+          "topics": "Heat Exchangers: codes and standards for heat exchangers, materials of construction, baffles and tie rods, tube joining methods, Design of shell and tube heat exchangers (U tube and fixed tube) as per IS: 4503 and TEMA standards. Design of heat exchange equipment’s such as evaporator, plate type heat exchanger.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Distillation Column",
+          "topics": "Design variables in distillation, design methods for binary systems, plate efficiency, approximate column sizing, plate contactors and plate hydraulic design. Model simulation using MATLAB-SIMULINK and ISIM software packages.",
+          "hours": 7
+        },
+        {
+          "title": "Engineering Aspects of Scale Up of Bioreactor",
+          "topics": "Introduction, engineering aspects of scale up, equipment, Installation, commissioning and validation.safety measures in bioreactors. Material for construction of bioreactors and selection criteria. Cost estimation methods and economic evaluation of projects.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "415463 (B)",
+      "title": "Environmental Biotechnology (Elective III)",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        15,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to water and waste water management",
+          "topics": "Domestic and industrial wastewater, types, sources and effects of water pollutants, Waste water characteristics –DO, BOD, COD, TOC, total suspended solids, colour and odour, bacteriological quality, oxygen deficit, determination of BOD constants, heavy metals, Water quality standards: ICMR, WHO, MPCB and CPCB. 16",
+          "hours": 6
+        },
+        {
+          "title": "Methods of wastewater treatment",
+          "topics": "Principles of primary treatment and secondary treatment, process design and basic operating principles of activated sludge (suspended growth) process, sludge treatment and disposal, Aerobic & Anaerobic systems - Trickling filters and their biological principle, different T.F media and their characteristics; principle, advantages and disadvantages of rotating biological contactors(RBC); aerated lagoons, oxidation ditches, Fluidized bed reactor (FBR), packed bed reactors air- sparged reactors; UASB, photo catalytic reactors, wet-air oxidation.",
+          "hours": 6
+        },
+        {
+          "title": "Industrial wastewaters",
+          "topics": "Treatment of industrial effluents: neutralization, proportioning, effluent sampling and characterization, treatment strategies and disposal standards for different industries: paper and pulp, sugar, distillery, textile, tannery, dairy.",
+          "hours": 6
+        },
+        {
+          "title": "Air Pollution- Sources, Effects and Control",
+          "topics": "Measurement ( 6 Hrs) Sources of air pollutants, Effects of air pollutants on human health, plants, animals, materials, Sampling and measurement of air pollutants, Air pollution control standards, Particulate pollution: cleaning methods, collection efficiency, particulate collection systems, Basic design and operating principles of settling chamber, cyclone separator, fabric filter, ele ctrostatic precipitator, Operating principles of spray tower, centrifugal scrubber, venturi scrubber, Selection of particulate collector, Gaseous pollution: Principles of control by absorption, adsorption, combustion or catalytic oxidation, removal of SOx, NOx. CO2 sequestration by algae.",
+          "hours": null
+        },
+        {
+          "title": "Hazardous and Solid Waste Management",
+          "topics": "Sources & Classification, physicochemical properties, Concept of Waste minimization, Hospital Waste Management, Solid Waste Management Plan: Sanitary land filling, Recycling, Incineration, Biotechnology application to hazardous waste management - Biodegradation and Biological detoxification; examples of cyanide and phenols",
+          "hours": 6
+        },
+        {
+          "title": "Bioremediation",
+          "topics": "Constraints and priorities of Bioremediation; Biostimulation and Bioaugmentation, in situ, ex situ, intrinsic & engineered bioremediation, Bioremediation Case studies: Oil pollution – treatment with micro-organisms, Recovery of metals from waste water and sludge, Xenobiotics – degradative capabilities of microorganisms with reference to toxicology, pesticides, herbicides, polyaromatic hydrocarbons; Solid phase bioremediation – land farming, prepared beds, soil piles; Phytoremediation, Bioventing &Biosparging; Composting, Wetland Management, Liquid phase bioremediation - suspended bioreactors, fixed biofilm reactors Membrane based waste water treatment processes.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415463 (C)",
+      "title": "Genomics (Elective III)",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Genomics",
+          "topics": "(6Hrs) Genome organization, C value paradox, repetitive DNA, gene families, structural genomics, human genome project, HAPMAP, 1000 Genome project, ENCODE",
+          "hours": null
+        },
+        {
+          "title": "Genome analysis",
+          "topics": "Sequencing strategies for whole genome analysis, Shotgun method, Sequencing methods, capillary sequencing, Next Gen sequencing methods, Comparative genomics, genome annotation, YAC, BAC libraries",
+          "hours": 8
+        },
+        {
+          "title": "Functional Genomics",
+          "topics": "Global analysis of gene expression, Transcriptomics and microarray, Microarray-Types, Analysis, Applications, RNA interference, siRNA, miRNA",
+          "hours": 8
+        },
+        {
+          "title": "Epigenetics",
+          "topics": "( 8Hrs) Epigenetics: Regulation of Organization & Gene Expression, Epigenetic Mechanisms, Methylation, Acetylation, Histone modifications, DNA methylation, model organisms for epigenetic studies, methods -CHIP on CHIP assays, CpG islands microarrays, Epigenetics and diseases.",
+          "hours": null
+        },
+        {
+          "title": "Genomics application: Pharmacogenomics",
+          "topics": "Introduction to Pharmacogenomics, Variation in drug response, ADME, Drug Metabolizing enzymes and genes, Slow metabolizers, Extensive metabolizers, Case studies in Pharmacogenomics, Traditional medicine based Pharmacogenomics, Toxicogenomics",
+          "hours": 8
+        },
+        {
+          "title": "Genomics Applications",
+          "topics": "Nutrigenomics- Overview of nutrigenomics, diet gene interactions. Diet, genes and diseases, Nutrigenomics and metabolic diseases, personalized nutrition. Metagenomics - tools and techniques, Role of metagenomics in health and disease, Genome Editing. Mapping of Cours e Outcomes for Unit VI",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "415464 (A)",
+      "title": "Bioenergy And Renewable Resources (Elective IV)",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        22,
+        25
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Energy resources and their utilization Indian and global energy sources, Energy demand, Energy exploited, Energy planning, Energy parameters (energy intensity, energy -GDP elasticity), Environmental impacts of the conventional and renewable sources, Renewab le Energy: Introduction to various sources of energy, Solar 23 thermal, Photovoltaic, Water power, Wind energy, Biomass, Ocean thermal, Tidal and wave energy, Geothermal energy, Hydrogen energy systems, Fuel cells, Decentralized and dispersed generation",
+          "hours": 6
+        },
+        {
+          "title": "Unit II",
+          "topics": "Wind and Geothermal energy Wind energy, Characteristics of wind: Effect of density, Frequency variances, Angle of attack, Wind velocity, Principles of wind turbine: operation, siting and control, Process of electricity generation and supply to the grid - wind energy farms, Types of wind machines and their characteristics, Horizontal and Vertical axis wind mills, Elementary design principles, Coefficient of performance of a wind mill rotor, Aerodynamic considerations in wind mill design, Selection of a wind mill, Availability of wind energy in India Geothermal: Uses of geothermal energy and the geothermal power plants, Mechanisms for deep geothermal heat extraction and power generation, Dry -steam Flash-steam and Binary -cycle, Shallow geothermal and heat -pumps, Wave and Tidal",
+          "hours": 6
+        },
+        {
+          "title": "Unit III",
+          "topics": "Solar energy and Photovoltaic Need of solar energy in the world and India, Basics of converting sunlight into electricity, Technologies of producing solar fuels, solar energy collectors, System components, Grid connection and applications, Solar thermal: Technologies and applications of solar thermal energy - Power production and heating applications, Solar heating and solar cooling, Concentrated solar power (CPV and CSP) for utility -scale applications",
+          "hours": 6
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Biodiesel Definition, advantages of biodiesel, properties of biodiesel, feedstocks - jatropha, Karanja, Neem, plantation, Transesterification, process issues, homogeneous and heterogeneous catalysis, biodiesel from microalgae, algae cultivation, types of photobioreactor, Indian perspective 24",
+          "hours": 6
+        },
+        {
+          "title": "Unit V",
+          "topics": "Alcohol fuels Feedstock for alcohol fuels, common methods for alcohol production, ethanol production from lignocellulosic materials, pretreatment -dilute acid, hot water, steam explosion, Ammonia; enzymatic hydrolysis, detoxification, fermentation, butanol fermentation, challenges in ethanol and butanol production, case studies, concept of biorefinery",
+          "hours": 6
+        },
+        {
+          "title": "Unit VI",
+          "topics": "Gaseous fuels Biomethanization, microbiological aspects of biogas production, biogas anaerobic fermentation & process, raw materials, factors affecting biodigestion, classification of biogas plants, methods for maintaining biogas production, problem in biogas plants, thermal processes, case study on biogas production, introduction to hydrogen as a fuel",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415464 (B)",
+      "title": "Nanotechnology (Elective-IV)",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Nanomaterials",
+          "topics": "Introduction to nanomaterials, Properties of materials &nanomaterials, role of size in nanomaterials, nanoparticles, semiconducting nanoparticles, nanowires, nanoclusters, quantum wells, conductivity and enhanced catalytic activity compared to the same materials in the macroscopic state. Synthesis of nano materials-Physical, chemical and Biological methods.",
+          "hours": 7
+        },
+        {
+          "title": "Characterization of Nanostructures",
+          "topics": "Characterization of Nanostructures-Structural CharacterizationX-ray diffraction, Small angle X-ray Scattering, Optical Microscope and their description, Scanning Electron Microscopy (SEM), Scanning Probe Microscopy (SPM), TEM and EDAX analysis, Scanning Tunneling Microscopy (STM), Atomic force Microscopy (AFM). Spectroscopic characterizations",
+          "hours": 7
+        },
+        {
+          "title": "Applications of Nanotechnology in Biotechnology",
+          "topics": "Applications of nanobiotechnology in early medical diagnostics, drug targeting, drug delivery, nanosurgery and other biomedical field.",
+          "hours": 7
+        },
+        {
+          "title": "Nano devices in Biotechnology",
+          "topics": "Nanodevices- Functionalization of Sensing Substrates, Biochip, Sensor for bio-medical applications: Cardiology, Neurology and as diagnostic tool, generation of biosensors, immobilization, characteristics, applications, Polymer based sensor.",
+          "hours": 7
+        },
+        {
+          "title": "Nanosensors",
+          "topics": "Nanosensors-Miniaturization of Biosensors, Nanomaterial Based Biosensors. Electron TransferofBimolecules, Nanoparticle-Biomaterial Hybrid Systems for Sensing and Electronic Devices. DNA Biosensors, optical sensors. Biochips.",
+          "hours": 7
+        },
+        {
+          "title": "Biological and Physicochemical techniques",
+          "topics": "Biosensor in biological and physicochemical techniques MEMS, Fuel Cells, Ethical Considerations. Respect for life, Potential dangers",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "415464 (C)",
+      "title": "Stem Cell Biology and Regenerative Medicine (Elective-IV)",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        29,
+        32
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "What are stem cells? Types :Totipotent, pluripotent, multipotent, unipotentprogenitorstem cells General properties of stem cells, Stem cell niche - what it is and how it regulates stem cell",
+          "hours": 6
+        },
+        {
+          "title": "Unit II",
+          "topics": "30 Establishment of embryonic stem cells (ESCs) , Characterizations of pluripotent stem cells (PSCs), Molecular mechanisms underlying pluripotency, Induction of pluripotency, Potential of induced pluripotent stem cells (iPSCs), in basic and clinical applications and ways to identify and isolate the stem cells",
+          "hours": 6
+        },
+        {
+          "title": "Unit III",
+          "topics": "Adult Stem Cells and Regeneration, Tissue regenerative capacity, Regeneration in planaria, zebrafish, axolotl, and mammals, Facultative stem cells, Transdifferentiation, Dedifferentiation and plasticity, Characteristics, Isolation, Culture and Characterization protocols somatic stem cells.",
+          "hours": 6
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Guidelines for stem cells therapy and clinical trails in India, Embryo ethics, Egg donation Ethics, ethics in gene editing, stem cell interventions in stem cell translations, communication and disclosure to public,",
+          "hours": 6
+        },
+        {
+          "title": "Unit V",
+          "topics": "Leveraging Tools to Study Stem Cell Biology , Editing the stem cell genome , In vivo tools in stem cell biology, Computational tools to dissect stem cell , heterogeneity, In vitro cultures of adult stem cells to analyse, differentiation and other properties, matrix in tissue engineering - hydrogel, matrix gel, scaffold s –natural, synthetic, 3D polymeric scaffold, porous microsphere scaffolds, bio ceramic etc.",
+          "hours": 6
+        },
+        {
+          "title": "Unit VI",
+          "topics": "Stem cells are ideal cells for clinical applications since they can regenerate and differentiate;The clinical translation process of stem cell technologies;Cell replacement therapies;Disease modeling;Drug screening; Personalized medicine.Cell replacement therapies from pluripotent cells: dopaminergic neurons or age- related macular degeneration, In vitro transdifferentiation: fibroblast to neuron (diseases and aging), in vivo transdifferentiation: cardiac fibroblasts into cardiomyocytes",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415465",
+      "title": "Biochemical Engineering Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "415466",
+      "title": "Bioinformatics Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "415467 (A)",
+      "title": "Bioprocess Equipment Design Lab (Elective-III Lab)",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        37,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "415467 (B)",
+      "title": "Environmental Biotechnology Lab (Elective III Lab)",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        39,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "415467 (C)",
+      "title": "Genomics Lab (Elective III Lab)",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        41,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "415468",
+      "title": "Project Stage 1",
+      "semester": 7,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "415469",
+      "title": "MOOCs NPTEL, COURSERA etc",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        45,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "415470",
+      "title": "Audit Course 5",
+      "semester": 7,
+      "type": "Audit course",
+      "credits": null,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "415471",
+      "title": "Bioprocess Modeling and Simulation",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "(Hrs 6)",
+          "topics": "Introduction to Modeling, Definitions: Model, Physical modeling, Chemical modeling, Fundamental laws: Total Continuity equation, Component Continuity equation, Energy equation, Equation of motion, Transport equation, Equation of state, Phase and chemical equilibrium, chemical kinetics, Model building, application of mathematical modeling, scope of coverage.",
+          "hours": null
+        },
+        {
+          "title": "(Hrs 6)",
+          "topics": "Models based on Mass, component, energy and force balance: Batch reactors, PFR’s, CSTR’s, Gravity flow systems, Reactors in series, Concept of Heated tank",
+          "hours": null
+        },
+        {
+          "title": "(Hrs 6)",
+          "topics": "Classification of mathematical modeling Classification based on variation of independent variables, classification based on state of the processes, classification based on type of the processes, comparison between rigid and stochastic processes and introduction of boundary conditions",
+          "hours": null
+        },
+        {
+          "title": "(Hrs 6)",
+          "topics": "Modeling of fermentation Batch reactor, Fed batch reactor, Modeling a continuous culture: Chemostat, Chemostat with recycles, substrate limited growth in Chemostat, theory of fed-batch culture control, product inhibition and substrate utilization kinetics",
+          "hours": null
+        },
+        {
+          "title": "(Hrs 6)",
+          "topics": "Modeling of fermenters: Modeling of suspended growth reactors, activated sludge systems, theory on agitated and sparged bioreactor, tower-aerobic and anaerobic bioreactors",
+          "hours": null
+        },
+        {
+          "title": "(Hrs 6)",
+          "topics": "Mass Transfer Equipment: Reactor with mass transfer, Ideal binary distillation column, Multi -component Batch distillation, Two phase CSTR with heat Removal, Single component vaporizer",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "415472",
+      "title": "Plant Engineering and Project Costing",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Basic engineering in processes design, Basic considerations in chemical/biochemical plant design, basic aspects of process design , definition of process design,design constraints, design factors, preliminary techno-economic feasibility and surveyprocess design steps and development, Process flo w Diagrams and symbols: Symbols of Process Equipments& their concepts.",
+          "hours": 7
+        },
+        {
+          "title": "Process Development",
+          "topics": "Study of alternative processes, pilot plant, scale up methods, flow sheet preparation, sketching techniques, equipment numbering, stream designation, material and energy balances. Plant Design: Design basis, process selection -selection of equipment, specification and design of equipment’s, material of construction, plant location, plant layout and installation, safety, start up, shutdown and operating guidelines, loss prevention and hazop study.",
+          "hours": 7
+        },
+        {
+          "title": "Piping Design & Layout",
+          "topics": "A brief revision covering friction factor, pressure drop for flow of non -compressible and compressible fluids, (Newtonian Fluids), pipe sizing, economic velocity. Pipe line networks and their analysis for flow in branches, Pipe supports, Isometric of pipin g, material selection for pipe and pipe fitting, expansion and contraction of piping,thermal insulation of piping, color code of pipeline, bill of material of piping.",
+          "hours": 7
+        },
+        {
+          "title": "Process utilities & Plant maintenance",
+          "topics": "Process water, boiler feed water, water treatment, waste treatment and disposal, disposal, steam, oil heating system, chilling plant, compressed air and vacuum. Necessity, types of plant maintenance, preventive, predictive, online, scheduled, corrective/breakdown, lubrication, plant start-up and shut down procedure.",
+          "hours": 7
+        },
+        {
+          "title": "Project scheduling and Financial Management",
+          "topics": "Critical path method (CPM): events and activities; network diagramming; earliest start time and earliest finish time ;latest start time and latest finish time; float, advantage of CPM; cost to finish the projects earlier than normal cost; precedence diagramming. Programme evaluation and review technique (PERT): pert network and time estimates. Profitability, alternative investments and replacement Methods for profitability evaluation, Evaluation of Break Even Point, % rate of return, Practical factors in alternative investment and replacement studies.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "415473 (A)",
+      "title": "Biomaterials (Elective V)",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        54,
+        57
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Overview of Biomaterials: General properties of materials, Classes of materials used in medicine: Metals, Polymers, Hydrogels, Bioresorbable and Biodegradable Materials, medical fibers and Smart materials Biological functional materials, textured and Porous materials.",
+          "hours": 6
+        },
+        {
+          "title": "Unit II",
+          "topics": "Biopolymers: Classification (nucleic acid, protein, polysaccharide), Manufacturing, chemistry and applications of polysaccharide such as dextran, xanthan, gellan, pullulan, chitin, chitosan, etc., Methods of structural identification and characterization",
+          "hours": 6
+        },
+        {
+          "title": "Unit III",
+          "topics": "Polyesters: Polyhydroxyalkanoates and biodegradable polymers such as polylactic acid, polyglycolide and polycaprolactone, Structure, physical and chemical properties with special emphasis on fermentative synthesis polyesters",
+          "hours": 6
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Biocatalytic transformations of precursors: Application of biocatalyst such as enzymes and microorganisms in biotransformation process, development of polymer precursors using Biotransformations processes Precursors: aromatic hydrocarbons, biological formation of specialty hydroxylated monomers, L-homophenylalanine production using membrane bioreactor.",
+          "hours": 6
+        },
+        {
+          "title": "Unit V",
+          "topics": "Nano-biomaterials: Types of bioadhesive, nano biomaterial, Characterize, predict, and control the biological properties of nano -biomaterials, composite biomaterial, Biodegradable plastic, design, synthesis, characterization and application of nanomaterials to biological and biomedical problems 57",
+          "hours": 6
+        },
+        {
+          "title": "Unit VI",
+          "topics": "Applications of materials in medicine, Dentistry and Biology: Cardiovascular medical devices, Nonthrombogenic treatments and Strategies, Dental implantation adhesive and Sealants, Ophthalmologic applications-intraocular lens implants, Case studies- Orthopedic biomaterials, Artificial organs and tissues.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415473 (B)",
+      "title": "Molecular Diagnostics (Elective V)",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        58,
+        62
+      ],
+      "units": [
+        {
+          "title": "Introduction to Molecular Diagnostics",
+          "topics": "History of diagnostics, Age of molecular diagnostics, Significance, Scope, Rise of diagnostic industr y in Indian and global scenario . Philosophy and general approach to clinical specimens, Sample collection - method of collection, transport and processing of samples, Interpretation of results",
+          "hours": 6
+        },
+        {
+          "title": "Molecular Biology Techniques for Diagnostics",
+          "topics": ".Introduction of molecular biology techniques such as . PCR, Real Time PCRHigh-Throughput NGS Sequencing Techniques, Non-PCR Methods -, Hybridization based Microarray . In-situ hybridization techniques – FISH and GISH Applications in diagnostics.",
+          "hours": 6
+        },
+        {
+          "title": "Immunodiagnostics Techniques",
+          "topics": "Introduction, Immunoassays – Antigen – antibody interactions- principles and applications, Fluorescent antibody test, Immunohistochemistry – principle and techniques RID, ODD, ELISA, RIA , LFA , Monoclonal antibodies and its medical applications, Human Leukocyte Antigens (HLA) typing. Case Studies",
+          "hours": 6
+        },
+        {
+          "title": "Infectious Disease Diagnosis",
+          "topics": "Traditional disease diagnosis methods and tools - Diagnosis of major bacterial, fungal diseases. Diagnosis of DNA and RNA viruses, Microbial Id entification and Strain Typing , Case studies in molecular testing of food pathogens, plant-pathogens bacterial blight, fungal, viral pathogens & GMO . Molecular diagnosis of bacterial/fungal/viral pathogens for human, animal and plants , Diagnosis of infectious diseases caused by microbial pathogens",
+          "hours": 6
+        },
+        {
+          "title": "Genetic Diseases and Karyotyping",
+          "topics": "60 Cytogenetics-Genetic disorders: Classification of genetic disorders, Single gene Disorders Genetic disorders- Sickle cell anemia. Sex – linked inherited disorders Chromosomal Disorders, Cytogenetic evaluation-Trisomy Down’s syndrome, Diagnosis of genetic disorders, Neonatal and Prenatal disease diagnostics. Preimplantation genetic diagnosis, Case Studies.",
+          "hours": 7
+        },
+        {
+          "title": "Emerging technologies in molecular",
+          "topics": "diagnostics (8Hrs) Lab on CHIP Technology, Point OfCare (POC) devices, Enzyme based biosensors. Omics Technology, Transcriptomics, Proteomics in diagnosis, High-Throughput NGS Approaches to Studying Virulence. Case Studies",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "415473 (C)",
+      "title": "Bio therapeutics Technology (Elective V)",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        63,
+        65
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Introduction to Biotherapeutics Development Overview of the pharmaceutical and biopharmaceutical industry. Definition of the terms: traditional pharmaceutical product, ‘biologic’ and ‘biopharmaceutical’, Advantages of producing biopharmaceuticals by recombinant means: ava ilability and scale of production, Overview of biopharmaceutical products now approved for use, Overview of the drug development process. Pre-clinical studies – safety, efficacy, in-vitro, in-vivo, Clinical trials",
+          "hours": 6
+        },
+        {
+          "title": "Unit II",
+          "topics": "Various systems used for production of Biotherapeutics: Recombinant Proteins Developing a recombinant therapeutic protein. Cloning in expression vector. Choices of vectors for Bacterial cells, Transfection methods for Bacterial cells. Choices of vectors for insect cell lines, Transfection methods insect cell lines. Choices of vectors for Mammalian cell lines, Transfection methods Mammalian cell lines, Examples of recombinant proteins, Production of EPO, hGH, Factor VIII",
+          "hours": 8
+        },
+        {
+          "title": "Unit III",
+          "topics": "Various systems used for production of Biotherapeutics: Monoclonal antibodies (MAbs). Hybridoma technique, Examples of MAbs in market. Vaccines and immunologics, Characterization of the expressed protein, Plants and transgenic animals as potential sources of biopharmaceuticals.",
+          "hours": 6
+        },
+        {
+          "title": "Unit IV",
+          "topics": "The biopharmaceutical manufacturing process The manufacturing process. Master and working cell banking systems. Clean rooms design and flow of operations. Decontamination, sanitation CDS and Generation of water for pharmaceutical / biopharmaceutical proces sing, WFI. Product flow through the facility and associated documentation, The QA function, Range and significance of biopharmaceutical product impurities like microorganisms, viruses, contaminant proteins, DNA and pyrogens. The range of QC tests carried o ut on typical biopharmaceutical products.Biopharmaceutical validation, Principles of validation, validation of chromatographic systems used in biopharmaceutical manufacture 65",
+          "hours": 8
+        },
+        {
+          "title": "Unit V",
+          "topics": "Formulation and drug delivery system of Biotherapeutics Formulation Introduction, Types of formulation: Oral, Topical, Parentral, Slow release, Degradation Routes, Physical Stability Issues and Chemical Stability Issues,The Routes of Chemical Instability, and Modeling for Streamlining. Accelerated stability, real time stability, agents aiding increase in stability, Advanced drug Delivery Systems:liposomes, PEGyaltion,microparticles and Nanoparticles, biodegradable drug delivery system (hydrogel based)",
+          "hours": 8
+        },
+        {
+          "title": "Unit VI",
+          "topics": "Biopharmaceutical regulation Regulatory requirements for Biotech product development, Hierarchal structure in Indian biotechnology, Current GMP, Role of DCGI, National & International guidelines, Toxicity studies, clinical trials, clinical research, IPR, patents, trademarks, trade secrets, Export, Import of product.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415474 (A)",
+      "title": "Management and Entrepreneurship (Elective VI)",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Management",
+          "topics": "Introduction – Meaning – Concept and features of Management, Scope and functional areas of management – Management as a science, art or profession – Management and administration – Roles of management, Levels of management, development of management thought – early management approaches – modern management approaches. Decision making – importance of planning – steps in planning",
+          "hours": 6
+        },
+        {
+          "title": "Organizing and Staffing",
+          "topics": "Nature and purpose of organization, principles of Organizations – Types of organization -Departmentation – Committees Centralization vs. Decentralization of authority and responsibility, span of Control, MBO, and MBE (Meaning only) Nature and importance of Staffing – process of selection and recruitment (in brief)",
+          "hours": 6
+        },
+        {
+          "title": "Directing & Controlling",
+          "topics": "Meaning and nature of directing – Leadership styles and motivation theories, communication – Meaning and importance – Coordination, meaning and importance and Techniques of Co – ordination",
+          "hours": 6
+        },
+        {
+          "title": "Entrepreneur",
+          "topics": "Meaning of Entrepreneur, Evolution of the Concept, Functions of an Entrepreneur, Types of Entrepreneur, Intrapreneur – an emerging Class, Development of Entrepreneurship steps in entrepreneurial process, Role of entrepreneurs in Economic Development: Entrepreneurship in India, Challenges to woman and achievements of woman Entrepreneurs, Identification of Business Opportunities",
+          "hours": 6
+        },
+        {
+          "title": "Small Scale Industry (Hrs 6)",
+          "topics": "Meaning, Nature of Support; Objectives,Definition, Characteristics, Need and rationale: Objectives: Scope, role of SSI in Economic Development, Advantages of SSI, Steps to start in SSI – Government policy towards SSI, Functions, Types of Help, Ancillary Industry and Tiny Industry (Definition only)",
+          "hours": null
+        },
+        {
+          "title": "Preparation Of Project (Hrs 6)",
+          "topics": "Meaning of Project, Project Identification, Project Selection, Project Report, Need and Significance of Report, Contents, formulation, Guidelines by Planning Commission for Project report, Network Analysis, Errors of Project Report, and Project Appraisal",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "415474 (B)",
+      "title": "Intellectual Property Rights (Elective VI)",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Introduction to Intellectual property: Origin and Development of IPR – Historical and theoretical basis for protection of IPR – Analysing and understanding the Interpretation of IP laws – Need for Protecting IP, types of intellectual property, importance of intellectual property rights.",
+          "hours": 7
+        },
+        {
+          "title": "Unit II",
+          "topics": "International IP Regime : World Intellectual Property Organisation (WIPO) – Functions of WIPO – Membership – GATT Agreement – Major Conventions on IP – Berne Convention – Paris Convention – TRIPS agreement",
+          "hours": 7
+        },
+        {
+          "title": "Unit III",
+          "topics": "Trade Marks: Domain name and trademark, purpose of trademark, requirements for registration for a trademark, Purpose and function of trademarks, acquisition of trade mark rights, protectable matter, selecting, and evaluating trade mark, trade mark registration processes",
+          "hours": 7
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Trade Secrets: Trade secrete law, determination of trade secrete status, liability for misappropriations of trade secrets, protection for submission, trade secrete litigation. Unfaircompetition:Misappropriation right of publicity, false advertising.",
+          "hours": 7
+        },
+        {
+          "title": "Unit V",
+          "topics": "Law of copy rights: Copyright Act, 1957 Terms of Copyright conditions for grant of copyright ,Fundamental of copy right law, originality of material, rights of reproduction, rights to perform the work publicly, copy right ownership issues, copy right registration, notice of copy right, international copy right law. Copyright in Literary, Dramatic and Musical, Works, Sound Recording, Cinematograph Films. Copyright in Computer Programme, Author Special Rights, Right of Broadcasting and performers. Protection of industrial design",
+          "hours": 8
+        },
+        {
+          "title": "Unit VI",
+          "topics": "Geographical indication of Goods: Types, Why. and how GI need protection and GI law, Indian GI act Traditional Knowledge: Indigenous, medicinal, bioprospecting knowledge, Examples. Need for protection positive protection, defensive protection, legal aspects.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "415474 (C)",
+      "title": "Industrial Organization and Management (Elective-VI)",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        72,
+        74
+      ],
+      "units": [
+        {
+          "title": "Management Science",
+          "topics": "Management, its growth, concepts of administration and management of organization, Definition of management, functions, authority and responsibility, Unity of command and direction, Decision making in management by objectives Business Organization: Different forms of organization, their formation and working, Different organization structure- line organization, functional organization, line and staff organization",
+          "hours": 6
+        },
+        {
+          "title": "Personnel Management",
+          "topics": "Manpower planning, sources of recruitment, selection and training of staff, Job evaluation, merit rating, performance appraisal, wage administration and system, of wage payment, incentive, motivations, industrial fatigue, Trade unions – industrial relations",
+          "hours": 6
+        },
+        {
+          "title": "Purchase and stores management",
+          "topics": "(6Hrs) Concepts of quotation, tenders and comparative statement, inspection and quality control, Inventory, carrying cost and fixed cost of inventory, examples of cost of Inventory, Stores management, functions of storekeeper, methods of inventory : LIFO, FIFO",
+          "hours": null
+        },
+        {
+          "title": "Marketing management",
+          "topics": "Concepts of selling, marketing, definition of marketing, market research and of pricing, penetration, pricing, skimming pricing, distribution of product, advertising and promotion",
+          "hours": 6
+        },
+        {
+          "title": "Export and import management",
+          "topics": "Concepts of international trade, duties, antidumping duty, cost involved in exporting a product, pricing of export product, Government aids for export promotion, export houses, export promotion counsel, MODVAT, patent and patent rights,Quality Management: TQM, quality circles, ISO systems",
+          "hours": 6
+        },
+        {
+          "title": "Management Laws",
+          "topics": "Concepts of contract act, offer, and acceptance, types of contracts, Void contract, concept of guarantee and warranty, Introduction of MRTP and FERA",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "415475",
+      "title": "Bioprocess Modeling & Simulation and Plant Engineering and Project Costing Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        75,
+        75
+      ],
+      "units": []
+    },
+    {
+      "code": "415476",
+      "title": "Elective V and VI TW/Oral",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        76,
+        76
+      ],
+      "units": []
+    },
+    {
+      "code": "415477",
+      "title": "Project Stage 2",
+      "semester": 8,
+      "type": "Project",
+      "credits": 6,
+      "pages": [
+        77,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Audit course 6",
+      "semester": 8,
+      "type": "Audit course",
+      "credits": null,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

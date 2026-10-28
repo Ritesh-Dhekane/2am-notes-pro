@@ -3,7 +3,7 @@
 
 import { ArrowRight } from 'lucide-react'
 import { useState } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import BirthdayField from '../components/BirthdayField.jsx'
 import PhoneField from '../components/PhoneField.jsx'
 import { ThemeToggle } from '../components/Shell.jsx'
@@ -79,6 +79,13 @@ export default function Setup() {
         <p className="mt-1 mb-8 text-body text-ink-2">
           Pick your course and semester. You'll only see that semester's subjects and the electives you take. You can change this later in Profile &amp;
           Settings.
+        </p>
+        <p className="-mt-5 mb-8 text-label text-ink-2">
+          Course not listed? Notes are added course by course. Meanwhile,{' '}
+          <Link to="/syllabus" className="font-semibold text-primary-ink hover:underline">
+            your syllabus is here
+          </Link>
+          , with downloads now that you're signed in.
         </p>
         <form id="setup" onSubmit={finish}>
           <StudyPicker value={draft} onChange={setDraft} />

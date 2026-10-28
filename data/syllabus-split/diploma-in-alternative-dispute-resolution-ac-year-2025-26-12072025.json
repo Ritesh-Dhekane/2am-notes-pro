@@ -1,0 +1,185 @@
+{
+  "id": "diploma-in-alternative-dispute-resolution-ac-year-2025-26-12072025",
+  "kind": "programme",
+  "programme": "Diploma in Alternative Dispute Resolution (ADR)",
+  "pattern": null,
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ADR -DT- 101",
+      "title": "Introduction of ADR: National and International Perspective",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Historical Development and Conceptual Framework of ADR",
+          "topics": "Meaning and Definition of ADR, Traditional dispute resolution & Indian Knowledge Systems (IKS) in ancient India: Panchayats, Nyaya Panchayats, village councils. Evolution of ADR mechanisms in India and globally, Arbitration Act 1940 limitations, Liberalization and UNCITRAL Model Law.",
+          "hours": null
+        },
+        {
+          "title": "Traditional ADR Systems in India",
+          "topics": "Indigenous dispute resolution mechanisms, community mediation, religious councils, and evolution toward statutory framework.",
+          "hours": null
+        },
+        {
+          "title": "Alternative Dispute Resolution in the Context of Access to Justice",
+          "topics": "Constitutional mandate under Article 21, 39A; Section 89 of Code of Civil Procedure 1908, role of ADR in reducing judicial pendency and promoting accessible justice.",
+          "hours": null
+        },
+        {
+          "title": "International Perspectives on ADR",
+          "topics": "International commercial arbitration, institutional arbitration centers (ICC, SIAC, LCIA), UNCITRAL Arbitration and Conciliation Rules, WTO Dispute Settlement Body.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ADR -DT- 102",
+      "title": "Law of Arbitration and Conciliation",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "General Provisions",
+          "topics": "Objectives and scope of Arbitration and Conciliation Act 1996, salient features, key definitions, distinction between arbitration, conciliation, mediation & negotiation.",
+          "hours": null
+        },
+        {
+          "title": "Arbitration & Arbitration Council of India",
+          "topics": "Arbitration agreement, composition of arbitral tribunal, jurisdiction, conduct of arbitral proceedings, making of arbitral award, termination, recourse against arbitral award (Section 34), finality and enforcement.",
+          "hours": null
+        },
+        {
+          "title": "Conciliation",
+          "topics": "Scope and applicability of Part III of 1996 Act, appointment of conciliators, conciliation procedure, settlement agreement and its legal effect.",
+          "hours": null
+        },
+        {
+          "title": "Enforcement of Foreign Awards",
+          "topics": "New York Convention Awards, Geneva Convention Awards, recognition and enforcement procedures, grounds for refusal in India: public policy and other defences, judicial precedents.",
+          "hours": null
+        },
+        {
+          "title": "Recent Developments and Amendments to the Arbitration and Conciliation Act, 1996",
+          "topics": "Major amendments (2015, 2019, 2021) to Arbitration and Conciliation Act 1996, institutional arbitration promotion in India.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ADR -DT- 103",
+      "title": "Negotiation and Mediation Law in India",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Theories and Process of Negotiation",
+          "topics": "Concepts, types: distributive and integrative negotiation, BATNA, WATNA, ZOPA, negotiation styles, strategies, and ethics in negotiation.",
+          "hours": null
+        },
+        {
+          "title": "The Mediation Act, 2023 - Historical Context & Key Provisions",
+          "topics": "Background and objectives of Mediation Act 2023, scope and applicability: civil, commercial, family and community disputes, definitions and institutional framework.",
+          "hours": null
+        },
+        {
+          "title": "Pre-Litigation and Court Referred Mediation",
+          "topics": "Pre-litigation mediation under Mediation Act 2023, mandatory mediation in specified disputes, exempted disputes (Schedule I), mediation process: notice, consent, timelines, court-annexed mediation.",
+          "hours": null
+        },
+        {
+          "title": "Conduct and Regulations of Mediation",
+          "topics": "Role, duties, and code of conduct of mediator, confidentiality, Mediated Settlement Agreement (MSA), registration and enforcement of MSA, challenge grounds.",
+          "hours": null
+        },
+        {
+          "title": "Cross-Border Mediation and the Singapore Convention",
+          "topics": "United Nations Convention on International Settlement Agreements Resulting from Mediation (Singapore Convention), international commercial mediation enforcement.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ADR -DT- 104",
+      "title": "ADR under Legal Services Authorities Act, 1987 & Other Laws",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "The Legal Services Authorities Act, 1987",
+          "topics": "NALSA, SLSA, DLSA, TLSC: composition, functions, powers, eligibility criteria for free legal aid under the Act.",
+          "hours": null
+        },
+        {
+          "title": "Lok Adalats and Permanent Lok Adalats",
+          "topics": "Lok Adalats: concept, jurisdiction, procedure, nature and binding effect of awards (Section 21). Permanent Lok Adalats (PLAs): public utility services jurisdiction, procedure.",
+          "hours": null
+        },
+        {
+          "title": "ADR Provisions in Other Legislations",
+          "topics": "Section 89 CPC, Commercial Courts Act 2015 pre-institution mediation, Family Courts Act 1984, Industrial Disputes Act 1947, Consumer Protection Act 2019 mediation cells, RERA conciliation forums.",
+          "hours": null
+        },
+        {
+          "title": "Landmark Judicial Decisions on ADR",
+          "topics": "Afcons Infrastructure, K. Srinivas Rao, Jagdish Chander, Vidya Drolia, BALCO, and other Supreme Court rulings promoting ADR.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ADR -DP- 105",
+      "title": "Practical Training & Field Work",
+      "semester": null,
+      "type": "Practical",
+      "credits": null,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Simulation Exercises and Mock Sessions",
+          "topics": "Mock Arbitration Sessions, Mock Mediation Sessions, Mock Lok Adalat Proceedings.",
+          "hours": null
+        },
+        {
+          "title": "Drafting Exercises",
+          "topics": "Drafting Domestic Arbitration Agreement, Application for appointment of Arbitrator, Application to set aside Arbitral Award, International Arbitration Clause, Mediated Settlement Agreement.",
+          "hours": null
+        },
+        {
+          "title": "Field Visits and Court Observations",
+          "topics": "Visits to Lok Adalats, DLSA offices, Mediation Centers, Arbitration Institutions; preparation of detailed observation reports.",
+          "hours": null
+        },
+        {
+          "title": "Viva-Voce Examination",
+          "topics": "Viva-voce examination on journal submission and practical training.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": "One-year annual diploma program; credits not specified in syllabus text."
+}

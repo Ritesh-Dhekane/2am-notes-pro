@@ -1,0 +1,741 @@
+{
+  "id": "second-year-b-tech-biotechnology-syallbus-ac-year-2025-2026-bio-090725-16072025",
+  "kind": "programme",
+  "programme": "Second Year B.Tech. Biotechnology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-BIO",
+      "title": "Microbiology",
+      "semester": 3,
+      "type": "Major Course 1",
+      "credits": 3,
+      "pages": [
+        11,
+        15
+      ],
+      "units": [
+        {
+          "title": "Introduction to Microbiology",
+          "topics": "History and scope of microbiology, Ultrastructure and functions of Prokaryotic and Eukaryotic cells, Microscopy techniques and staining methods, Classification of bacteria diversity, cell structure, and microscopy techniques.",
+          "hours": 9
+        },
+        {
+          "title": "Isolation and Culturing of Microorganisms",
+          "topics": "Nutritional and environmental requirements (macro/micronutrients, growth factors), Classification: Photoautotrophs, Photoheterotrophs, Chemoautotrophs, Chemoheterotrophs, Effect of environmental factors (temperature, oxygen, pH, osmotic pressure, extremophiles), Types, composition, and uses of microbial media (solid, liquid, semi-solid, selective, differential, enrichment), Microbial cultivation: Pure culture, co-culture, mixed culture, colony characteristics, Isolation techniques: Streak, spread, and pour plate methods, Anaerobic culture techniques, preservation, and maintenance methods II isolation, culturing, and preservation techniques.",
+          "hours": 9
+        },
+        {
+          "title": "Microbial Growth and Enumeration Techniques",
+          "topics": "Microbial reproduction: Binary fission, asexual reproduction, Growth curve, logarithmic bacterial population growth, generation time calculation, Enumeration techniques: Direct count, standard plate count, microscopic count, turbidimetry, flow cytometry, biomass determination, nucleic acid-based methods, Culture types: Batch, continuous, and synchronous cultures. III methods.",
+          "hours": 9
+        },
+        {
+          "title": "Control of Microorganisms",
+          "topics": "Concept and definitions of sterilization and disinfection, Physical control methods: Heat (dry, moist), pasteurization, radiation, filtration, Chemical control methods: Alcohols, quaternary ammonium compounds, phenolic compounds, disinfectants, antimicrobial agents, antibiotics, Concepts of Minimum Inhibitory Concentration (MIC) and Minimum Bactericidal Concentration (MBC), drug resistance. IV clinical, industrial, and environmental settings.",
+          "hours": 9
+        },
+        {
+          "title": "Microbial Interactions, Environmental and Medical Microbiology",
+          "topics": "Microbial interactions: Commensalism, antagonism, symbiosis, Microbiology of air, soil, food, milk, water, and wastewater, Water quality and potability assessment, Epidemiology of infectious diseases, Case-based learning approach to microbial pathogenesis, Bacterial diseases: Typhoid, Cholera, Tuberculosis, Viral diseases: Rabies, HIV, influenza, Fungal diseases: Candidiasis V significance in biogeochemical cycles, biotechnology, and medical microbiology, including microbial pathogenesis and infectious diseases.",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Microbiology",
+          "topics": "Activity 1: Gram Staining & Microscopy ● Task: Perform Gram staining on a clinical/environmental/Microbial Products sample and observe under microscope ● Real-Life Problem Addressed: Diagnosing bacterial infections/contaminations quickly and accurately ● Expected Outcome: Students will identify Gram-positive/negative bacteria and relate to infection types/microbiological quality of product Activity 2: Cell Structure Comparison ● Task: Case-based quiz on differences between prokaryotic and eukaryotic cells ● Real-Life Problem Addressed: Accurate diagnosis and treatment selection in clinical microbiology ● Expected Outcome: Understanding of cell structures and relevance in medical microbiology Activity 3: Comparative Report Assignment ● Task: Prepare a report comparing prokaryotic and eukaryotic pathogens ● Real-Life Problem Addressed: Understanding pathogen complexity for antibiotic development ● Expected Outcome: Ability to differentiate between types of microbes and their pathogenicity",
+          "hours": 6
+        },
+        {
+          "title": "Isolation and Culturing of Microorganisms",
+          "topics": "Activity 1: Media Preparation & Documentation ● Task: Prepare selective/differential media and document protocols ● Real-Life Problem Addressed: Designing culture media for new microbial isolates from extreme environments ● Expected Outcome: Mastery over media formulation and sterile techniques Activity 2: Pure Culture Techniques ● Task: Perform streak/ spread/pour plate techniques ● Real-Life Problem Addressed: Isolating specific bacteria from mixed populations ● Expected Outcome: Skills in isolating and growing microorganisms in pure cultures Activity 3: Mini Project ● Task: Design culture conditions for microbes from Arctic/soil/ocean ● Real-Life Problem Addressed: Culturing novel/environmental microbes for research or industry ● Expected Outcome: Creative and applied understanding of nutritional/environmental needs of microbes",
+          "hours": 6
+        },
+        {
+          "title": "Microbial Growth and Enumeration Techniques",
+          "topics": "Activity 1: Growth Curve Analysis ● Task: Analyze microbial growth data and calculate generation time ● Real-Life Problem Addressed: Optimizing fermentation (e.g., yogurt, probiotics) for industry ● Expected Outcome: Ability to calculate generation time and interpret growth phases Activity 2: Virtual/Practical Lab – Turbidimetry ● Task: Use simulations to measure microbial density ● Real-Life Problem Addressed: Non-invasive monitoring of microbial fermentation ● Expected Outcome: Understanding of indirect microbial quantification methods Activity 3: Reflection Discussion ● Task: Discuss effect of media/environment on growth ● Real-Life Problem Addressed: Improving yield in food and pharma industries ● Expected Outcome: Insight into how external conditions affect microbial productivity",
+          "hours": 6
+        },
+        {
+          "title": "Control of Microorganisms",
+          "topics": "Activity 1: Case Study Analysis ● Task: Choose appropriate sterilization for hospital, pharma, food setups ● Real-Life Problem Addressed: Preventing spread of drug-resistant microbes/contamination ● Expected Outcome: Knowledge of suitable microbial control strategies for different settings Activity 2: MIC Testing ● Task: Perform minimum inhibitory concentration test using agar diffusion ● Real-Life Problem Addressed: Combating antibiotic resistance by choosing effective drugs ● Expected Outcome: Ability to determine antibiotic sensitivity and resistance Activity 3: Role-Play Simulation ● Task: Act as infection control team solving an outbreak ● Real-Life Problem Addressed: Containing hospital-acquired infections ● Expected Outcome: Teamwork and decision-making in outbreak management",
+          "hours": 6
+        },
+        {
+          "title": "Microbial Interactions, Environmental and Medical Microbiology",
+          "topics": "Activity 1: Field-Based Water Testing ● Task: Sample and test local water/soil for pathogens ● Real-Life Problem Addressed: Post-disaster disease surveillance (e.g., floods) ● Expected Outcome: Hands-on skills in detecting and identifying environmental pathogens Activity 2: Group Presentations/Discussions ● Task: Compare microbes in environment Vs. disease ● Real-Life Problem Addressed: Understanding dual roles of microbes (beneficial vs. harmful) ● Expected Outcome: Broader understanding of microbial ecology and public health Activity 3: Diagnostic Matrix Assignment ● Task: Map diseases to organisms, transmission, control ● Real-Life Problem Addressed: Quick identification and control of infectious diseases ● Expected Outcome: Ability to link pathogens to symptoms and public health strategy",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-BIO",
+      "title": "Fluid Flow and unit Operations",
+      "semester": 3,
+      "type": "Major Course 2",
+      "credits": 3,
+      "pages": [
+        16,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Fluid Flow",
+          "topics": "System of units and conversions; Basics of Unit Operations & Fluid – Definition and important properties, viscosity, temperature and pressure dependence, Newton’s law, Classification of fluids; Fluid statics: hydrostatic forces on surface, Manometer & Inclined Manometer; Types of flow, Laminar and turbulent flow – Concept of Reynold’s number; Formation and separation of boundary layer. various applications.",
+          "hours": 9
+        },
+        {
+          "title": "Fluid Dynamics and Flow Measurements",
+          "topics": "Mass balances - Continuity equation and its applications to fluid dynamics, Energy balances in fluid dynamics: Euler’s equation, Bernoulli’s equation and its applications, Flow measurement using venturi meter, orifice meter and pitot tube; Hagen Poiseuelle equation, turbulent flow in pipes, effect of roughness, friction in flowing fluid, valves and its types. using various measuring devices.",
+          "hours": 9
+        },
+        {
+          "title": "Flow of Fluid Through Solids",
+          "topics": "Characteristics of flow through packed beds - Darcy’s equation, Equations for laminar flow (Kozeny Carmen) and turbulent flow (Burke Plummer), Ergun equation; Concepts of Fluidization, comp utational fluid dynamics (CFD), Fluid moving machinery- pumps, Types of pumps: positive displacement pump and centrifugal pumps, Characteristics of Centrifugal Pumps, NPSH; Mixing and Agitation - Necessity of mixing and agitation, Types of Impellers, Mixing equipment; Mixing equipment for pastes and viscous material concept of Computational Fluid Dynamics (CFD)",
+          "hours": 9
+        },
+        {
+          "title": "Particle Technology",
+          "topics": "Properties of solids - Particle size and shape, Mixtures of particles, Determination of particle size; Screening - Standard screen series, screen analysis, Screen effectiveness and capacity, Industrial screening equipment; Size reduction: Crushing efficiency, energy requirements calculations by using different crushing laws, Size reduction equipment: Primary crushers, secondary crushers, Intermediate and fine grinders, Open circuit and Closed circuit grinding and properties affected during handling.",
+          "hours": 9
+        },
+        {
+          "title": "Dynamics of Suspended Particles",
+          "topics": "Lift and drag forces, drag coefficients; Flow of solids through fluids: Gr avity settling of particles, Terminal velocity, Stoke’s law, Free and hindered settling, Sink and float method, Differential settling method; Sedimentation: Batch and continuous, equipments for sedimentation, Centrifugal settling: Advantages and equipments – cyclones and hydrocyclones the laws and performing the settling of solids.",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Fluid Flow",
+          "topics": "Activity 1: ● Task: Unit test ● Expected Outcome: Students will gain knowledge about properties of fluids, types of flows and unit operations and they will evaluated through unit test. Activity 2: ● Task: Assignments submission ● Expected Outcome: Ability to understand the concept of fluids, unit operations and its applications in the field of Biotechnology. Activity 3: ● Task: To present Virtual Lab (VLAB) of Fluid properties. ● Expected Outcome: Ability to understand the concept of fluids, proprieties of fluids virtually and learn its applications in the field of Biotechnology.",
+          "hours": 6
+        },
+        {
+          "title": "Fluid Dynamics and Flow Measurements",
+          "topics": "Activity 1: ● Task: Unit Test ● Expected Outcome: Students will gain knowledge about different laws involved in fluid dynamics and they will be evaluated through unit test. Activity 2: ● Task: Assignment submission. ● Expected Outcome: Understanding the concept of fluid dynamics and its applications in the field of Biotechnology.",
+          "hours": 6
+        },
+        {
+          "title": "Flow of Fluid Through Solids",
+          "topics": "Activity 1: ● Task: Case study & report writing on CFD and types of pumps & mixing equipments. ● Expected Outcome: Case studies will be valuable tool for teaching and learning, engaging students in active learning and critical thinking. Activity 2: ● Task: Assignment submission. ● Expected Outcome: Understanding the CFD, types of pumps & mixing units and its applications. Activity 3: ● Demonstration of various mixing equipment configurations virtually:  To show various mixers virtually.",
+          "hours": 6
+        },
+        {
+          "title": "Particle Technology",
+          "topics": "Activity 1: ● Task: Quiz and open book test on particle technology & particle size reduction equipment. Expected Outcome: To apply concepts and engage students in critical thinking, rather than simply recalling facts.",
+          "hours": 6
+        },
+        {
+          "title": "Dynamics of Suspended Particles",
+          "topics": "Activity 1: Quiz / Flash Cards  Task: Examining the selection of a settling method for the collection of suspended particles.  Outcome: The activity will enhance critical thinking ability of students.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-BIO",
+      "title": "Cell Biology & Tissue Culture",
+      "semester": 3,
+      "type": "Major Course 3",
+      "credits": 3,
+      "pages": [
+        20,
+        23
+      ],
+      "units": [
+        {
+          "title": "Cell Structure and Function of Organelles",
+          "topics": "Overview of prokaryotic and eukaryotic cell structure, plant and animal cells, Sub-cellular Compartmentalization, Organelles and their functions: Cytoplasm, Nucleus, Mitochondria, Ribosome, Endoplasmic reticulum, Golgi bodies, Lysosomes, Peroxisomes, Chloroplasts, Vacuoles, Extracellular Matrix, Locomotor Organelles organelles and their roles.",
+          "hours": 9
+        },
+        {
+          "title": "Cell Cycle",
+          "topics": "Cell Cycle, Types of cell division: Mitosis and Meiosis, Checkpoints and control system, Regulation of the cell cycle, Karyokinesis, Cytokinesis, Programmed cell death and its role in development and diseases, Cancer Biology. function, cell movement, ion transport, membrane proteins, endocytosis / exocytosis, cell-cell interactions, and extracellular vesicles in cellular processes.",
+          "hours": 9
+        },
+        {
+          "title": "Membrane Transport and Signalling",
+          "topics": "Fluid Mosaic Model, Cytoskeleton, Cell movement and motility mechanisms, Membrane proteins: Carrier proteins and active membrane transport, ATP dependent Proton pumps, Cotransport: Symport, Antiport, Transport in Prokaryotic cell, Mechanisms of Endocytosis / Exocytosis / Pinocytosis, Cell–cell interactions and cell junctions. Cell signalling molecules and receptors: types and functions, cAMP, cGMP, Calcium ion flux, G-protein intracellular signal transduction, cellular communication, cell cycle regulation, cell division, and apoptosis in cellular processes and development.",
+          "hours": 9
+        },
+        {
+          "title": "Tissues",
+          "topics": "Types of animal tissues and their functions: Epithelial tissue, Connective tissue, Muscle tissue, Nervous tissue, Blood and hematopoietic tissues, Stem cells: Hematopoietic stem cells, Embryonic stem cells, Role of stem cells in regeneration and development genes their roles in development and regeneration, and the biology of cancer, including its progression and characteristics.",
+          "hours": 9
+        },
+        {
+          "title": "Plant and Animal tissue Culture",
+          "topics": "Plant tissue culture: Internal organization of plant, Plant growth hormones, Totipotency, Types of culture: Callus culture, Pollen culture, Anther culture, Protoplast fusion, Application: Production of secondary metabolites, Transgenic plants. Animal tissue culture: Tissue culture media, Types of culture: Primary, explant, organ and continuous culture, Adherent cell lines and suspension cell cultures, Routine characterization of cells, Passaging, Preservation of animal cells mechanisms and developing therapeutic strategies.",
+          "hours": 9
+        },
+        {
+          "title": "Cell Structure and Function of Organelles",
+          "topics": "Activity 1: Overview of prokaryotic and eukaryotic cells ● Task: Poster making ● Expected Outcome: Students will understand and remember the cell compartmentalization and various cell organelles Activity 2: Chloroplasts: Role in energy conversion ● Task: Case Study ● Expected Outcome: Students will relate the experimental application of chloroplasts in real world (Plant Health and Ecosystem Balance)",
+          "hours": 6
+        },
+        {
+          "title": "Cell Cycle",
+          "topics": "Activity 1: Regulation of cell cycle ● Task: Flow Chart / Animation / Power point presentation / Video ● Expected Outcome: Students would practice communicating scientific ideas using visual aids for different audiences Activity 2: Cell division and development in model organism ● Task: Assignment based on study of literature Expected Outcome: Students will demonstrate the ability to interpret and summarize primary research involving model organisms.",
+          "hours": 6
+        },
+        {
+          "title": "Intracellular Signaling and the Cell Cycle",
+          "topics": "Activity 1: Signalling molecules and receptors  Task: Quiz / Crossword puzzle/ Flash cards  Expected Outcome: Recognize how components of signaling pathways interact Activity 2: ATP Dependent Proton pumps ● Task: Flow Chart / Animation / Power point presentation / Video ● Expected Outcome: Students would practice communicating scientific ideas using visual aids for different audiences",
+          "hours": 6
+        },
+        {
+          "title": "Tissues",
+          "topics": "Activity 1: Tissues of animals and their functions  Task: Identify real-world medical conditions associated with disfunctioning of epithelial tissue, connective tissue, muscle tissue, nervous tissue, blood and hematopoietic tissue  Expected Outcome: Analyze how dysfunction at the tissue level can lead to systemic problems. Activity 2: Stem Cell and Haematopoiesis  Task: Assignment  Expected Outcome : Students would be able to differentiate between types of stem cells and articulate their biological roles.",
+          "hours": 6
+        },
+        {
+          "title": "Plant and Animal tissue Culture",
+          "topics": "Activity 1: Plant Tissue Culture  Task: Design and experiment to regenerate plant from a single cell  Outcome: The activity will enhance critical thinking ability of students Activity 2: Animal Tissue Culture  Task: Case study  Outcome: Understand the application of animal tissue culture in real world",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-BIO",
+      "title": "Microbiology Lab",
+      "semester": 3,
+      "type": "Practical Lab 1",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-BIO",
+      "title": "Fluid Flow Unit Operations Lab",
+      "semester": 3,
+      "type": "Practical Lab 2",
+      "credits": 1,
+      "pages": [
+        26,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "*OEL",
+      "title": "*Open Elective-1",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-BIO",
+      "title": "Applied Biotechnology",
+      "semester": 3,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Applied Biotechnology",
+          "topics": "Definition and Scope of Applied Biotechnology, Historical Development and Milestones, Overview of Biotechnological Processes, Biotechnological Innovations in Various Industries biotechnology.",
+          "hours": 6
+        },
+        {
+          "title": "Biotechnology in Agriculture",
+          "topics": "Genetic Engineering for Crop Improvement, Biotechnology in Plant Breeding and Disease Resistance, Role of Biopesticides and Biofertilizers, Case Studies of Successful Biotech Crops applications in agriculture.",
+          "hours": 6
+        },
+        {
+          "title": "Biotechnology in Medicine",
+          "topics": "Biopharmaceuticals: Production and Applications, Gene Therapy and Genetic Disorders, Biotechnology in Vaccine Development, Ethical Considerations in Medical Biotechnology",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Biotechnology",
+          "topics": "Bioremediation: Techniques and Applications, Waste Management and Biofuels, Role of Biotechnology in Sustainable Development, Case Studies of Environmental Biotechnology Solutions",
+          "hours": 6
+        },
+        {
+          "title": "AI in Biotechnology",
+          "topics": "Introduction to Artificial Intelligence in Biotech, Machine Learning Applications in Genomic Data Analysis, AI in Drug Discovery and Development, Case Studies: Successful Integration of AI in Biotechnological Processes. applications.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC-231-BIO",
+      "title": "Universal Human Values & Professional Ethics",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "Understanding Value Education , Self-exploration as the Process for Value Education, Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment, Right Understanding, Relationship and Physical Facility, Happiness and Prosperity - Current Scenario, Method to Fulfil the Basic Human Aspirations education and see they have the potential to explore on their own right.",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "Understanding Human being as the co-existence of the Self and the Body, Distinguishing between the Needs of the Self and the Body, The Body as an Instrument of the Self, Understanding Harmony in the Self, Harmony of the Self with the Body, Programme to Ensure self-regulation and Health their real needs / basic aspirations clearly.",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "Harmony in the Family - the Basic Unit of Human Interaction \"Trust' - the Foundational Value in Relationship, 'Respect'- as the Right Evaluation, Values in Human-to-Human Relationship, Understanding Harmony in the Society, Vision for the Universal Human Order part of relationship and harmony in the family.",
+          "hours": 8
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "Understanding Harmony in the Nature, Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature, Realizing Existence as Co-existence at All Levels, The Holistic Perception of Harmony in Existence, Professional Ethics in the light of Right Understanding, Strategies for Transition towards Value-based Life and Profession inherent in the nature and the entire existence and draw ethical conclusions based on right understanding facilitating the holistic development.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "EEM-232-BIO",
+      "title": "Leadership & Personality Development",
+      "semester": 3,
+      "type": "Entrepreneurship/Economics/Management Course",
+      "credits": 2,
+      "pages": [
+        32,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "CEP-241-BIO",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        36,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-BIO",
+      "title": "Biochemistry",
+      "semester": 4,
+      "type": "Major Course 4",
+      "credits": 3,
+      "pages": [
+        41,
+        43
+      ],
+      "units": [
+        {
+          "title": "Water and Buffer",
+          "topics": "Weak interactions in aqueous systems, Ionization of water, weak acids and weak bases, Acids, Bases, and pH (Henderson – Hasselbach equation), Buffers, Titration Curve, Buffering against pH changes in biological systems, Water as a reactant, The fitness of the aqueous environment for living organisms, Numericals based on all the above topics",
+          "hours": 9
+        },
+        {
+          "title": "Amino Acids and Proteins",
+          "topics": "Common structural features of amino acids, Classification of amino acids (Based on R groups) Structure of peptides, Primary structure of protein, Secondary structure of protein (alpha helix, beta sheets, turns and loops), Tertiary structure of protein (Collagen, Myoglobin), Quaternary structure of protein (Haemoglobin), Protein stability and Protein folding",
+          "hours": 9
+        },
+        {
+          "title": "Enzymes",
+          "topics": "Introduction to enzymes – Naming and classification of enzymes, How enzymes work, Enzyme kinetics – Michaelis-Menten equation, Enzyme Inhibition, Effect of pH and temperature on the enzyme activity, Regulation of enzyme activity",
+          "hours": 9
+        },
+        {
+          "title": "Carbohydrates, Nucleotides and Nucleic acids",
+          "topics": "Monosaccharides and Disaccharides, Oligosaccharides and Polysaccharides, Glycoconjugates – Proteoglycans, Glycoproteins, and Glycosphingolipids, Basics of Nucleotides and nucleic acids – Characteristic bases and Pentoses, Phosphodiester bond, Properties of nucleotides, Structure of Nucleic acid, Nucleic acid chemistry, Other functions of nucleotides",
+          "hours": 9
+        },
+        {
+          "title": "Fatty acids and Lipids",
+          "topics": "Basic chemistry of lipids, Nomenclature of lipids, Classification of lipids – Storage lipids & Structural lipids, Fatty acids as hydrocarbon derivatives, Triacylglycerol, Structural lipids in membranes, Lipids as signals, cofactors, and pigments",
+          "hours": 9
+        },
+        {
+          "title": "Water and Buffer",
+          "topics": "Activity 1: Acids, Bases ● Task: Unit Test/ Quiz ● Expected Outcome: Students will get ability to distinguish substances on the basis of pH Activity 2: Buffers ● Task: Assignments submission/ Quiz ● Expected Outcome: Ability to understand the buffer system and resistance to change in pH",
+          "hours": 6
+        },
+        {
+          "title": "Amino Acids and Proteins",
+          "topics": "Activity 1: Protein Structure ● Task: Case Study ● Expected Outcome: Students will understand the importance of structural features of proteins through a case study. Activity 2: Protein Separation ● Task: Assignment submission ● Expected Outcome: Understand separation of proteins using their physical/chemical properties",
+          "hours": 6
+        },
+        {
+          "title": "Enzymes",
+          "topics": "Activity 1: Enzyme naming and classification ● Task: Quiz/Crossword puzzle/Flash cards ● Expected Outcome: Flash cards/ Crossword would develop critical thinking of students about naming and classification of enzymes Activity 2: Role of enzymes in Human metabolism  Task: Chart Preparation  Expected Outcome: Students will remember various enzymes crucial for life",
+          "hours": 6
+        },
+        {
+          "title": "Carbohydrates, Nucleotides, and Nucleic acids",
+          "topics": "Activity 1: Carbohydrates ● Task: Quiz / Unit Test ● Expected Outcome: Deepen the understanding of carbohydrates and their role various biochemical processes Activity 2: Nucleotides and Nucleic acids ● Task: Assignment – Nucleic acid/Nucleotide based drugs. ● Expected Outcome: Understanding the application of nucleic acid and nucleotides in real world.",
+          "hours": 6
+        },
+        {
+          "title": "Fatty Acids and Lipids",
+          "topics": "Activity 1: Nomenclature and Classification of Lipids  Task: Flashcards / Crossword Puzzle/ Quiz  Outcome: To remember names, classification and function of lipids Activity 2: Lipids as signals, cofactors, and pigments  Task: Case Study where lipids are shown as signalling molecules  Outcome: To study and explore lipids as signalling molecules / cofactors in biochemical pathways",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-BIO",
+      "title": "Genetics & Molecular Biology",
+      "semester": 4,
+      "type": "Major Course 5",
+      "credits": 3,
+      "pages": [
+        44,
+        47
+      ],
+      "units": [
+        {
+          "title": "Mendelian Genetics",
+          "topics": "Introduction, Mendelian inheritance pattern study and laws of heredity, Co -dominance, linkage, linkage maps, Hardy-Weinberg Equation, Model systems like Drosophila, C. Elegans, Zebra fish, Arabidopsis. patterns.",
+          "hours": 9
+        },
+        {
+          "title": "DNA and RNA Topology",
+          "topics": "Watson-Crick’s discovery of the structure of DNA, Chargaff’s rule, Physicochemical properties of DNA, DNA supercoiling, DNA packaging: Chromosome, Chromatin, Chromatid, Euchromatin, and Heterochromatin. Types of RNA, Coding and non-coding RNAs, RNA splicing, splicing pathways, ribozyme. acid structure.",
+          "hours": 9
+        },
+        {
+          "title": "DNA Replication in Eukaryotes and Prokaryotes",
+          "topics": "Central dogma of molecular biology, Introduction to replication of DNA, Chemistry of DNA synthesis, Mechanism of DNA polymerase, Replication Fork, DNA synthesis at the replication fork, Initiation, Elongation, Finishing replication, Telomere replication. Mutation and Repair. parameters.",
+          "hours": 9
+        },
+        {
+          "title": "Transcription in Eukaryotes and Prokaryotes",
+          "topics": "Transcription, RNA polymerase, Transcription cycle in bacteria, concept of Operon, Transcription cycle in eukaryotes, Reverse Transcriptase, Regulation",
+          "hours": 9
+        },
+        {
+          "title": "Translation in Eukaryotes and Prokaryotes",
+          "topics": "Genetic code, Protein synthesis in prokaryotes and eukaryotes, Translation Process: Initiation, Elongation, Termination of Translation, Regulation, Posttranslational modifications, chaperones, Heat shock proteins.",
+          "hours": 9
+        },
+        {
+          "title": "Mendelian Genetics",
+          "topics": "Activity 1: Data Analysis of Inherited Traits in a Sample Population ● Task: Survey at least 20 individuals for 3 Mendelian traits. Tabulate genotypic and phenotypic frequencies. Use Hardy-Weinberg Equation to calculate allele frequencies and analyze population equilibrium. ● Real-Life Problem Addressed: Applying population genetics to understand how genetic traits persist or change across generations. ● Expected Outcome: Students will develop skills in statistical genetics and interpretation of inheritance data. Activity 2: MCQ-Based Quiz on Genetic Crosses and Gene Mapping ● Task: Solve a 20-question quiz covering monohybrid/dihybrid crosses, recombination frequency, and linkage analysis. ● Real-Life Problem Addressed: Strengthening foundational understanding necessary for genomic diagnostics. ● Expected Outcome: Reinforcement of key concepts in classical and molecular genetics.",
+          "hours": 6
+        },
+        {
+          "title": "DNA and RNA Topology",
+          "topics": "Activity 1: Nucleic Acid Terminology Puzzle ● Task: Solve a crossword puzzle using key terms related to DNA and RNA. Use clues based on textbook definitions and class discussions. ● Real-Life Problem Addressed: Difficulty in remembering and applying essential molecular biology terms. ● Expected Outcome: Improved vocabulary retention and understanding of core concepts in nucleic acid biology. Activity 2: Molecular Basis and Therapeutic Design of Synthetic mRNA in Vaccine Development ● Task: Write a brief report (150–200 words) explaining how synthetic mRNA (like that used in COVID-19 vaccines) is designed and functions inside the body. ● Real-Life Problem Addressed: Understanding the molecular design of RNA therapeutics used in public health. ● Expected Outcome: Students relate RNA structure and processing to real-world biomedical applications.",
+          "hours": 6
+        },
+        {
+          "title": "DNA Replication in Eukaryotes and Prokaryotes",
+          "topics": "Activity 1: Thought Experiment – DNA Replication Without Topoisomerase ● Task: Imagine DNA replication without topoisomerase activity. Predict what will happen to the replication fork. Write a short paragraph with reasoning. ● Real-Life Problem Addressed: Encourages critical thinking about enzyme necessity in molecular biology. ● Expected Outcome: Understanding the mechanical stress and torsion control during replication. Activity 2: DNA Replication Flowchart ● Task: Cut out 6–8 steps of DNA replication written on paper slips. Mix them up and arrange in correct order with arrows. ● Real-Life Problem Addressed: Students often memorize steps without proper order or causality. ● Expected Outcome: Students internalize the logical flow of the replication process.",
+          "hours": 6
+        },
+        {
+          "title": "Transcription in Eukaryotes and Prokaryotes",
+          "topics": "Activity 1: Viral Hijacking of Transcription ● Task: Analyze a case study on how viruses like HIV manipulate host transcription using host RNA polymerase and transcription factors. Write down your understanding about this process with diagrams. ● Real-Life Problem Addressed: Understanding viral control over host gene expression is key to developing antiviral strategies. ● Expected Outcome: Students will relate transcriptional regulation to real-world disease mechanisms and therapeutic challenges. Activity 2: Open Book Assessment – Compare Polymerases ● Task: Using textbook content, compare DNA polymerase I, II, and III in prokaryotes. Write their primary function, proofreading ability, and unique roles, etc. ● Real-Life Problem Addressed: Confusion among DNA polymerase types and their features. ● Expected Outcome: Clear distinctions between enzymes critical for replication and repair.",
+          "hours": 6
+        },
+        {
+          "title": "Translation in Eukaryotes and Prokaryotes",
+          "topics": "Activity 1: Case Study – Antibiotics That Inhibit Protein Synthesis ● Task: Research and present how specific antibiotics (e.g., tetracycline, chloramphenicol, erythromycin) inhibit bacterial translation without affecting eukaryotic cells. ● Real-Life Problem Addressed: Importance of understanding molecular targets in drug design. ● Expected Outcome: Students appreciate the role of ribosomal structure in selective drug action. Activity 2: RNA World – Fact or Fiction Quiz ● Task: Students will attempt a 20-statement quiz based on concepts of RNA structure, function, and the RNA world hypothesis. For each statement, they must mark it as Fact or Fiction and correct the statement if it is false. ● Real-Life Problem Addressed: Students often memorize RNA facts but struggle to distinguish between accurate and outdated or oversimplified information. ● Expected Outcome: Students will develop critical thinking by identifying and correcting false scientific statements.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-BIO",
+      "title": "Material Balance & Stoichiometry",
+      "semester": 4,
+      "type": "Major Course 6",
+      "credits": 2,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Basic Chemical Calculations",
+          "topics": "Introduction to process calculation, Dimensions and systems of units, Fundamental quantities of units, Derived quantities, Definition and units of force, volume, pressure, work, energy, power, heat, Definition and calculations of mole, atomic weight, molecular weight, equivalent weight, specific gravity and API gravity, Composition of solid, liquid by weight % and mole % , Morality, normality, morality, gm/lit and related simple numericals calculating compositions of mixtures and solutions.",
+          "hours": 7
+        },
+        {
+          "title": "Material Balances without Biological/ Chemical",
+          "topics": "Reactions  Law of conversation of mass, Brief description and simple material balance calculation of drying, distillation, absorption, mixing, crystallization, evaporation, Single stage material balance calculation of leaching and extraction, Brief idea regarding recycle, by pass, Purge operation. at various physical steps",
+          "hours": 7
+        },
+        {
+          "title": "Material Balances involving Biological/ Chemical",
+          "topics": "Reactions  Definition: Limiting reactant, Excess reactant, conversion, yield and selectivity, Simple numerical for finding yield, conversion and composition, Simple calculation of material Balance based on reaction. biochemical reactions.",
+          "hours": 8
+        },
+        {
+          "title": "Energy Balances for a process involving chemical",
+          "topics": "reaction  Concept of conservation of energy, Heat capacity and specific heat, Calculations of heat capacity by integral equation up to three terms, Brief explanation of sensible Heat and latent heat of fusion, sublimation, vaporization, Calculations of standard heat of formation and heat of reaction from heat of combustion data unit processes and apply it to various processes with chemical changes",
+          "hours": 8
+        },
+        {
+          "title": "Basic Chemical Calculations",
+          "topics": "Activity 1: ● Task: Unit test ● Expected Outcome: Analyse importance of process calculation and unit conversions while calculating compositions of mixtures and solutions. Activity 2: ● Task: Assignments submission Expected Outcome: Assignments should be given to students on similar type of numericals in the field of Biotechnology for more practice.",
+          "hours": 6
+        },
+        {
+          "title": "Material Balances without Biological/ Chemical Reactions",
+          "topics": "Activity 1: ● Task: Unit Test ● Expected Outcome: Ability to understand and apply material balances to different physical steps in a process and thus efficiently design processes. Activity 2: ● Task: Assignment submission. ● Expected Outcome: Understanding the concept of material balance by solving more numerical based on mass balance for important unit operations",
+          "hours": 6
+        },
+        {
+          "title": "Material Balances involving Biological/ Chemical Reactions",
+          "topics": "Activity 1: ● Task: Numericals based on mass balance involving chemical/biological reactions along with real examples. ● Expected Outcome: Understand and apply material balances to different chemical/biological steps in a process and thus efficiently design processes. Activity 2: ● Task: Unit Test ● Expected Outcome: Apply material balances to different chemical/biological steps in a process and thus efficiently design processes.",
+          "hours": 6
+        },
+        {
+          "title": "Energy Balances for a process involving chemical reaction",
+          "topics": "Activity 1: ● Task: Assignment submission ● Expected Outcome: Understand how to quantify heat and energy changes accompanying unit operations and unit processes by solving more examples. Activity 2:  Task: Quiz and open book test on writing energy balances to various processes involving chemical/biological changes and for designing a process.  Expected Outcome: Quantify heat and energy changes accompanying unit operations and unit processes and apply it to various processes with chemical changes",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-BIO",
+      "title": "Biochemistry Lab",
+      "semester": 4,
+      "type": "Practical Lab 1",
+      "credits": 1,
+      "pages": [
+        51,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-BIO",
+      "title": "Genetics & Molecular Biology Lab",
+      "semester": 4,
+      "type": "Practical Lab 2",
+      "credits": 1,
+      "pages": [
+        52,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "*OEL",
+      "title": "*Open Elective-2",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-BIO",
+      "title": "Biodiversity",
+      "semester": 4,
+      "type": "Multidisciplinary Minor-2A",
+      "credits": 2,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Biodiversity",
+          "topics": "Definition and Importance of Biodiversity, Levels of Biodiversity: Genetic, Species, Ecosystem, Biodiversity Hotspots, Current Global Biodiversity Status and Trends significance, and current issues.",
+          "hours": 6
+        },
+        {
+          "title": "Biodiversity Conservation Strategies",
+          "topics": "Types of Conservation: In-situ vs. Ex-situ, Protected Areas and Conservation Policies, Role of Biodiversity in Ecosystem Services, Case Studies of Successful Conservation Programs: Tiger Project",
+          "hours": 6
+        },
+        {
+          "title": "Biodiversity and Ecosystem Functions",
+          "topics": "Ecosystem Dynamics and Interactions, the Role of Biodiversity in Ecosystem Resilience, Biodiversity Loss and Its Impacts on Ecosystems, Case Studies of Ecosystem Restoration",
+          "hours": 6
+        },
+        {
+          "title": "Biotechnological Applications in Biodiversity",
+          "topics": "Biotechnology for Conservation: Genetic Engineering, Cloning, and Database Systems, Use of Biotechnology in Sustainable Practices, Bioprospecting: Exploring Genetic Resources, Ethical Considerations in Biotechnology challenges.",
+          "hours": 6
+        },
+        {
+          "title": "Artificial Intelligence in Biodiversity Management",
+          "topics": "Introduction to AI and Machine Learning, applications of AI in Biodiversity Monitoring and Data Analysis, AI for Predicting Ecosystem Changes and Assessing Biodiversity, Case Studies: AI Tools in Conservation Practices and management.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "MDM-271-BIO",
+      "title": "Lifestyle and Nutrition",
+      "semester": 4,
+      "type": "Multidisciplinary Minor-2B",
+      "credits": 2,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction to Lifestyle and Nutrition",
+          "topics": "Introduction to Nutrition, Inter-relationship between food, nutrients & health, Role of lifestyle habits on health, Basics of Nutrition – Macronutrients, Micronutrients, Water, Nutrition and Hydration requirements in children and adults nutrients, and health.",
+          "hours": 6
+        },
+        {
+          "title": "Healthy eating habits",
+          "topics": "Eating Habits – eating disorders, skipping breakfast, junk food consumption , Balanced diet- Definition, Components, and importance for health, Meal Planning, Mindful eating, Diet trends, Supplements balanced diet, Identify strategies for meal planning, and compare various diet trends and supplements.",
+          "hours": 6
+        },
+        {
+          "title": "Essential Nutrients",
+          "topics": "Various essential nutrients including carbohydrate, protein, fats, fibers, vitamins, minerals; their sources, functions, and their deficiencies, Health problems related to Malnutrition, Micronutrient deficiency, and overnutrition (Overweight, Obesity, Diabetes, Heart disease, High blood pressure) and understand related health problems.",
+          "hours": 6
+        },
+        {
+          "title": "Nutritional requirement across life stages",
+          "topics": "Nutritional requirement for infants, Nutritional requirement for children, Nutritional requirement for adults, Nutritional requirement for Elderly",
+          "hours": 6
+        },
+        {
+          "title": "Impact of Lifestyle Factors, and Personal Habits",
+          "topics": "on Health and Well-being  Lifestyle related problems, Role of physical activity, Resting pattern – Circadian rhythm, Personal habits – alcoholism, and other tobacco products, electronic addiction etc., Stress management – Mental Health, Social and Cultural influence on health and well-being.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSEC-281-BIO",
+      "title": "Lab Practices & Data Analysis",
+      "semester": 4,
+      "type": "Vocational Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        58,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-BIO",
+      "title": "Modern Indian Language: (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        60,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-BIO",
+      "title": "Entrepreneurship",
+      "semester": 4,
+      "type": "Entrepreneurship/Economics/Management Course",
+      "credits": 2,
+      "pages": [
+        63,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "Concept, Knowledge, and skills requirement; Characteristics of successful entrepreneurs, role of entrepreneurship in economic development; Entrepreneurship process, factors impacting the emergence of entrepreneurship, managerial vs. entrepreneurial approach, and emergence of entrepreneurship, Challenges to women and achievements of women Entrepreneurs. and their study",
+          "hours": 6
+        },
+        {
+          "title": "Idea Generation and Opportunity Recognition",
+          "topics": "Starting the Venture : Generating business idea–sources of new ideas, methods of generating ideas, creative problem solving, opportunity recognition, environmental scanning, competitor and industry analysis. Feasibility study: Market feasibility, Technical/operational feasibility, Financial feasibility; drawing a business plan; preparing a project report; presenting a business plan to investors. feasibility study",
+          "hours": 6
+        },
+        {
+          "title": "Strategic Start up Planning",
+          "topics": "Functional Plans: Marketing plan – marketing research for the new venture, steps in preparing the marketing plan, and contingency planning. Organizational plan - Form of ownership, designing organization structure, job design, manpower planning. Financial plan - cash budget, working capital, Performance income statement, Performance cash flow, perform balance sheet, break-even analysis. finance and legal issues",
+          "hours": 6
+        },
+        {
+          "title": "Start-up Finance & Intellectual Property",
+          "topics": "Debtor equity financing, commercial banks, venture capital, and financial institutions support entrepreneurs. Intellectual property rights: patents, trademarks, copyrights, trade secrets, licensing, Franchising.",
+          "hours": 6
+        },
+        {
+          "title": "Project Development and Evaluation",
+          "topics": "Meaning of Project, Project Identification, Project Selection, Project Report, Need and Significance of Report, Contents, formulation, Guidelines by Planning Commission for Project report, Network Analysis, Errors of Project Report, and Project Appraisal.",
+          "hours": 6
+        },
+        {
+          "title": "Entrepreneurship",
+          "topics": "Activity 1: Case Study – Journey of a Successful Entrepreneur  Task: Study the story of a well-known entrepreneur (e.g., Dr. Kiran Mazumdar-Shaw or Ritesh Agarwal). Identify their key traits, challenges, and turning points.  Real-Life Relevance: Understand how entrepreneurs emerge and succeed in different industries.  Expected Outcome: Students will identify qualities and decisions that define real entrepreneurs. Activity 2: Assignment – Entrepreneur vs. Manager  Task: Write a short comparison between an entrepreneur and a manager with real-world examples.  Expected Outcome: Students will understand different roles in an organization.",
+          "hours": 6
+        },
+        {
+          "title": "Starting the Venture",
+          "topics": "Activity 1: Case Study – How a Biotech Startup Was Born  Task: elect a biotech startup and describe how the idea came up, how feasibility was studied, and how the plan was developed.  Real-Life Relevance: Demonstrates the early stages of venture creation.  Expected Outcome: Students will learn the steps from idea generation to business planning.  Activity 2: Assignment – Your Own Business Idea  Task: Think of a simple product or service and write how you would check if it’s feasible (market, technical, financial).  Expected Outcome: Practical understanding of feasibility study basics. ",
+          "hours": 6
+        },
+        {
+          "title": "Functional Plans",
+          "topics": "Activity 1: Case Study – Marketing & Financial Planning of a Startup  Task: Read about how a startup built its marketing strategy and managed its budget. Describe how they structured their team and resources.  Real-Life Relevance: Connects classroom concepts with actual business planning.  Expected Outcome: Students understand how startups plan for marketing, finance, and team structure.",
+          "hours": 6
+        },
+        {
+          "title": "Sources of Finance and Legal Issues:",
+          "topics": "Activity 1: Case Study – How Startups Raise Money  Task: Explore how a startup raised money through investors, banks, or government schemes. Write how it used the funds.  Real-Life Relevance: Shows how funding decisions affect growth.  Expected Outcome: Students learn about funding options and financial support for businesses. Activity 2: Assignment – Types of Intellectual Property  Task: Find and write examples of patents, trademarks, and copyrights used by real companies.  Expected Outcome: Students will understand the role of IP in protecting business ideas.",
+          "hours": 6
+        },
+        {
+          "title": "Preparation of Project",
+          "topics": "Activity 1: Case Study – Breakdown of a Real Project Report  Task: Go through a simple project report or proposal. Identify sections like goals, costing, planning, and timeline.  Real-Life Relevance: Helps in understanding how to prepare and structure a project idea.  Expected Outcome: Students learn how to frame and present project ideas professionally. Activity 2: Group Activity – Create a Project Idea  Task: In groups, create your own small business idea and make a basic project report including purpose, plan, and cost estimation.  Expected Outcome: Team-based learning of how projects are developed and presented.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-BIO",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Environment and Its Issues",
+          "topics": "Environment Meaning of Environment, Types of Environment, Components of Environment, Man- Environment relationship, importance of environment, Need for Public Awareness, Ecosystem- Meaning, Major Components of Ecosystem, Case studies of Forest Ecosystem, Grassland Ecosystem, Desert Ecosystem, Aquatic Ecosystem, Stability of Ecosystem in Sustainable Environment, Global issues: smog, acid rain, climate change exploration",
+          "hours": 7
+        },
+        {
+          "title": "Environnent Pollution",
+          "topics": "Definition of Pollution, Types of Pollution, Air Pollution-Meaning, Sources, effects of air pollution, Air Pollution Act, Water Pollution Meaning, Sources, Effects of Water pollution, Water Pollution Act, Water quality parameters: DO, BOD, COD, TOC, and TSS. Bacteriological indicators and standards (ICMR, WHO), Noise Pollution Meaning, Sources, Effect of Noise Pollution, Solid Waste Pollution Meaning, sources, Effect of Waste Pollution and global impacts like smog, acid rain, and climate change",
+          "hours": 7
+        },
+        {
+          "title": "Biochemical Principles in Environmental Systems",
+          "topics": "Microbial metabolism and environmental applications, Enzymes and biodegradation of pollutants, Bioreactors: aerobic and anaerobic, Role of algae in carbon capture, Bioremediation - Definition and scope, Role of bacteria, fungi, algae in degradation, In-Situ (Bioventing, biosparging, phytoremediation) and Ex-Situ Bioremediation techniques (Biopiles, land farming, bioreactors), Case studies of oil spill cleanup, pesticide-contaminated soils bioremediation techniques, and the application of bioreactors and algae in environmental clean-up.",
+          "hours": 8
+        },
+        {
+          "title": "E-Waste Managements and Acts",
+          "topics": "E-waste; composition and generation, Global context in e-waste; E-waste pollutants, E waste hazardous properties, Effects of pollutant (E-waste) on human health and surrounding environment, domestic e-waste disposal, Basic principles of E-waste management, Technologies for recovery of resources from electronic waste, resource recovery potential of e-waste, steps in recycling and recovery of materials-mechanical processing, technologies for recovery of materials, occupational and environmental health perspectives of recycling e-waste in India. E-waste minimization policies, treatment, recycle and technologies for recovery",
+          "hours": 8
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

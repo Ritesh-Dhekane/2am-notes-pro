@@ -1,0 +1,446 @@
+{
+  "id": "f-y-b-sc-aviation-2026-pattern-from-a-y-26-27-06082026",
+  "kind": "programme",
+  "programme": "First Year B.Sc. (Aviation)",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "BAV 101-T",
+      "title": "Basic Workshop Technology",
+      "semester": 1,
+      "type": "Subject-I",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": [
+        {
+          "title": "Basics of Workshop Practice",
+          "topics": "1. Safety Precautions-Aircraft and Workshop  Aspects of safe working practices including precautions to be taken when working with electricity, gases (especially oxygen), oils, and chemicals.  Fuel tank safety and fuel tank entry procedures and precautions. Awareness and precautions regarding aircraft equipped with ballistic recovery systems.  Also, instructions for the remedial action to be taken in the event of a fire or another accident with one or more of these hazards, including information on fire - extinguishing agents.",
+          "hours": 10
+        },
+        {
+          "title": "Basics Tools",
+          "topics": "2. Tools  Common hand tool types;  Common power tool types;  Operation and use of precision measuring tools;  Lubrication equipment and methods.  Operation, function and use of electrical general test equipment;",
+          "hours": 15
+        },
+        {
+          "title": "Fits and Clearances",
+          "topics": "3.  Drill sizes for bolt holes, classes of fits;  Common system of fits and clearances;  Schedule of fits and clearances for aircraft and engines;  Limits for bow, twist and wear;  Standard methods for checking shafts, bearings and other parts.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "BAV 102-P",
+      "title": "Basic Workshop Technology Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV 103-T",
+      "title": "Electrical Fundamentals",
+      "semester": 1,
+      "type": "Subject-II",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Basic Electricity",
+          "topics": "1. Electron Theory  Structure and distribution of electrical charges within: atoms, molecules, ions, compounds;  Molecular structure of conductors, semiconductors and insulators. 2. Static Electricity and Conduction  Static electricity and distribution of electrostatic charges;  Electrostatic laws of attraction and repulsion; Units of charge, Coulomb's Law;  Conduction of electricity in solids, liquids, gases and a vacuum. 3. Electrical Terminology The following terms, their units and factors affecting them:  Potential difference,  Electromotive force,  Voltage, current,  Resistance, conductance,  Charge, conventional current flow, electron flow. 4. Generation of Electricity Production of electricity by the following methods:  Light, heat,  Friction, pressure,  Chemical reaction, magnetism and motion. Description Allotted hours",
+          "hours": 10
+        },
+        {
+          "title": "DC Circuits",
+          "topics": "5. Sources of DC Electricity  Construction and basic chemical action of: primary cells, secondary cells, lead acid cells, nickel cadmium cells, lithium cells, nickel cells and other alkaline cells;  Cells connected in series and parallel;  Internal resistance and its effect on a battery;  Construction, materials and operation of thermocouples;  Operation of photo-cells. 6. DC Circuits  Ohms Law, Kirchoff's Voltage and Current Laws;  Calculations using the above laws to find resistance, voltage and current;  Significance of the internal resistance of a supply.",
+          "hours": 10
+        },
+        {
+          "title": "Resistors & Capacitors",
+          "topics": "7. Resistance/ Resistor Resistance-  Specific resistance;  Calculation of total resistance series, parallel and series parallel combinations;  Operation and use of potentiometers and rheostats;  Operation of Wheatstone bridge. Resistor-  Positive and negative temperature coefficient conductance;  Resistor colour code, values and tolerances, preferred values, wattage ratings;  Resistors in series and in parallel; 8. Capacitance/ Capacitor  Operation and function of a capacitor;  Factors that affect capacitance area of plates, distance between plates, number o f plates, dielectric and dielectric constant, working voltage, voltage rating;  Capacitor types, construction and function;  Capacitor colour coding;  Calculations of capacitance and voltage in series and parallel circuits;  Exponential charge and discharge of a capacitor, time constants;  Testing of capacitors.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BAV 104-P",
+      "title": "Electrical Fundamentals Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV 105-T",
+      "title": "Physics of Aircraft",
+      "semester": 1,
+      "type": "Subject-III",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Physics of the Atmosphere",
+          "topics": "1. Physics of the Atmosphere  Basic Aerodynamics,  Physics of the atmosphere,  International Standard Atmosphere (ISA),  Application to aerodynamics.",
+          "hours": 3
+        },
+        {
+          "title": "Physics of Aerodynamics",
+          "topics": "2. Aerodynamics  Airflow around a body;  Boundary layer, laminar and turbulen t flow, free stream flow, relative airflow, upwash and downwash, vortices, stagnation;  The terms: camber, chord, mean aerodynamic chord, profile (parasite) drag, induced drag, centre of pressure, angle of attack, wash in and wash out, fineness ratio, wing shape and aspect ratio; Thrust, Weight, Aerodynamic Resultant; Generation of Lift and Drag: Angle of Attack, Lift coefficient, Drag coefficient, polar curve, stall; Aerofoil contamination including ice, snow, frost. Description Allotted hours",
+          "hours": 15
+        },
+        {
+          "title": "Theory of Flight",
+          "topics": "3. Theory of Flight  Relationship between lift, weight, thrust and drag;  Glide ratio;  Steady state flights, performance;  Theory of the turn;  Influence of load factor: stall, flight envelope and structural limitations;  Lift augmentation.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "BAV 106-P",
+      "title": "Physics of Aircraft Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        22,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC 101-T",
+      "title": "Aviation Mathematics-I",
+      "semester": 1,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Relation & Functions",
+          "topics": "1.  Definition of relation & Function,  Types of relations, Equivalence Relation,  Function, Domain, Co-domain, Range,  Types of Functions and Their Graphs,  Composition of Functions.  Trigonometric Functions.",
+          "hours": 12
+        },
+        {
+          "title": "Limits, Continuity and Derivative",
+          "topics": "2.  Limit of a Function and Limit Laws,  Continuity of Function,  Derivatives of Functions,  Differentiation Rules.",
+          "hours": 10
+        },
+        {
+          "title": "Applications of Derivatives",
+          "topics": "3.  Equations of tangents and normal to a curve,  Increasing or decreasing function,  Function for maximum and minimum values,  Verify Mean value theorems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "IKS 101-T",
+      "title": "History of Knowledge Production in India",
+      "semester": 1,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        25,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to Indian Knowledge System",
+          "topics": "1.  Definition, Scope and importance of knowledge  Nature of Indian Knowledge System  Evolution of scientific approach",
+          "hours": 6
+        },
+        {
+          "title": "Development of Sciences",
+          "topics": "2.  Astronomy- Aryabhatta, Varahamihira, Sawai Jaisingh  Medicine- Ayurveda and Yunani  Metallurgy- Copper, Iron, Bronze & alloys",
+          "hours": 12
+        },
+        {
+          "title": "Development of Humanities",
+          "topics": "3.  Language - Prakrit, Sanskrit, Farsee  Philosophy- Vedic, Lokayat, Buddhist, Jaina  Education system in ancient India – Takshashila, Nalanda, Valabhi University  Architecture",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "AEC 101-ENG",
+      "title": "Developing Communicative Competence in English- I",
+      "semester": 1,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": "Building Vocabulary",
+          "topics": "1. a. Words as 'Power' b. Word and Sense c. Literal and Figurative Meaning d. Synonyms and Antonyms e. Prefixes and Suffixes f. Lexical Webs g. Collocations",
+          "hours": 15
+        },
+        {
+          "title": "Speaking for Different Purposes",
+          "topics": "2. a. Greeting and Introducing b. Asking for Information c. Seeking Permission d. Making Requests e. Making Suggestions f. Agreeing, Partly Agreeing and Disagreeing g. Making Apologies",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "VEC 101-T",
+      "title": "Environment Education-I",
+      "semester": 1,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Humans and the Environment",
+          "topics": "1. The man-environment interaction:  Humans as hunter-gatherers; Mastery of fire; Origin of agriculture;  Emergence of city-states; Great ancient civilizations and the environment;  Middle Ages and Renaissance;  Industrial revolution and its impact on the environment;  Population growth and natural resource exploitation; Global environmental change. The emergence of environmentalism:  Anthropocentric and eco-centric perspectives (Major thinkers);  The Club of Rome- Limits to Growth;  UN Conference on Human Environment 1972;  World Commissio n on Environment and Development and the concept of sustainable development;  Rio Summit and subsequent international efforts.",
+          "hours": 6
+        },
+        {
+          "title": "Natural Resources and Sustainable Development",
+          "topics": "2.  Overview of natural resources: Definition of resource; Classifica tion of natural resources biotic and abiotic, renewable and non-renewable.  Biotic resources: Major type of biotic resources - forests, grasslands, wetlands, wildlife and aquatic (fresh water and marine); Microbes as a resource; Status and challenges.  Water resources: Types of water resources - fresh water and marine resources; Availability and use of water resources; Environmental impact of over-exploitation, issues and challenges; Water scarcity and stress; Conflicts over water.  Soil and mineral resources: Important minerals; Mineral exploitation; Environmental problems due to extraction of minerals and use; Soil as a resource and its degradation. Description Allotted hours  Energy resources: Sources of energy and their classification, rene wable and non- renewable sources of energy; Conventional energy sources - coal, oil, natural gas, nuclear energy; Nonconventional energy sources - solar, wind, tidal, hydro, wave, ocean thermal, geothermal, biomass, hydrogen and fuel cells; Implications of energy use on the environment.  Introduction to sustainable development: Sustainable Development Goals (SDG...",
+          "hours": 8
+        },
+        {
+          "title": "Environmental Issues: Local, Regional and Global",
+          "topics": "3.  Environmental issues and scales: Concepts of micro -, meso -, synoptic and planetary scales; Temporal and spatial extents of local, regional, and global phenomena.  Pollution: Impact of sectoral processes on Environment, Types of Pollution - air, noise, water, soil, municipal solid wa ste, hazardous waste; Transboundary air pollution; Acid rain; Smog.  Land use and Land cover change: land degradation, deforestation, desertification, urbanization. Biodiversity loss: past and current trends, impact.  Global change: Ozone layer depletion; Climate change.",
+          "hours": 8
+        },
+        {
+          "title": "Conservation of Biodiversity and Ecosystems",
+          "topics": "4.  Biodiversity and its distribution: Biodiversity as a natural resource; Levels and types of biodiversity; Biodiversity in India and the world; Biodiversity hotspots; Species and ecosystem threat categories.  Ecosystems and ecosystem services: Major ecosystem types in India and their basic characteristics- forests, wetlands, grasslands, agriculture, coastal and marine; Ecosystem services- classification and their significance.  Threats to biodiversity and ecosystems: Land use and land cover change; Commercial exploitation of species; Invasive species; Fire, disasters and climate change.  Major conservation policies: in-situ and ex -situ conservation approaches; Major protected areas; Natio nal and International Instruments for biodiversity conservation; the role of traditional knowledge, community -based conservation; Gender and conservation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "BAV 151-T",
+      "title": "Workshop Technology",
+      "semester": 2,
+      "type": "Subject-I",
+      "credits": 2,
+      "pages": [
+        29,
+        29
+      ],
+      "units": [
+        {
+          "title": "Aircraft Handling and Storage",
+          "topics": "1.  Aircraft taxiing/ towing and associated safety precautions;  Aircraft jacking, chocking, securing and associated safety precautions;  Aircraft storage methods;",
+          "hours": 10
+        },
+        {
+          "title": "Disassembly, Inspection, Repair and Assembly Techniques",
+          "topics": "2.  Types of defects and visual inspection techniques;  Corrosion removal, assessment and reprotection;  Non-destructive inspection techniques including radiographic, eddy current and ultrasonic; including practical training in colour contrast penetrant inspection;  Disassembly and re-assembly techniques;  Troubleshooting techniques.",
+          "hours": 15
+        },
+        {
+          "title": "Abnormal Events",
+          "topics": "3. Inspections following lightning strikes and HIRF penetration 05 hrs",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "BAV 152-P",
+      "title": "Workshop Technology Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        30,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV 153-T",
+      "title": "Electronic Fundamentals",
+      "semester": 2,
+      "type": "Subject-II",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Diodes",
+          "topics": "1. Description and characteristics-  Diode symbols;  Diode characteristics and properties;  Diodes in series and parallel;  Materials, electron configuration, electrical properties;  P and N type materials: effects of impurities on conduction, majority and minority characters;  P N junction in a semiconductor, development of a potential across a P N junction in unbiased, forward-biased and reverse-biased conditions;  Diode parameters: peak inverse voltage, maximum forward current, temperature, frequency, leakage current, power dissipation;  Main characteristics and use of silicon -controlled rectifiers (thyristors), light - emitting diodes (LEDs), photo-conductive diodes, rectifier diodes.",
+          "hours": 15
+        },
+        {
+          "title": "Transistors & Integrated Circuits",
+          "topics": "2. Transistors  Transistor symbols;  Component description and orientation;  Transistor characteristics and properties. 3. Integrated Circuits  Description and operation of logic circuits and linear circuits/operational amplifiers.",
+          "hours": 10
+        },
+        {
+          "title": "Printed Circuit Boards",
+          "topics": "4.  Description of printed circuit boards.  Uses of printed circuit boards.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "BAV 154-P",
+      "title": "Electronic Fundamentals Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        33,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV 155-T",
+      "title": "Aircraft Metallurgy",
+      "semester": 2,
+      "type": "Subject-III",
+      "credits": 2,
+      "pages": [
+        34,
+        34
+      ],
+      "units": [
+        {
+          "title": "Aircraft Materials- Ferrous",
+          "topics": "1.  Characteristics, properties and identification of common alloy steels used in aircraft;  Heat treatment and application of alloy steels.",
+          "hours": 12
+        },
+        {
+          "title": "Aircraft Materials- Non Ferrous",
+          "topics": "2.  Characteristics, properties and identification of common non-ferrous materials used in aircraft;  Heat treatment and application of non-ferrous materials.",
+          "hours": 8
+        },
+        {
+          "title": "Corrosion",
+          "topics": "3.  Chemical fundamentals;  Formation by galvanic action process, microbiologica l contamination, mechanical stress;  Types of corrosion and their identification;  Causes of corrosion;  Material types, susceptibility to corrosion.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BAV 156-P",
+      "title": "Aircraft Metallurgy Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        35,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC 151-T",
+      "title": "Aviation Mathematics-II",
+      "semester": 2,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Co-ordinate Geometry 2 D",
+          "topics": "1.  Transformation & Matrices  Transformation of : point, straight line, parallel lines, intersecting line  Transformation : rotation , reflection, scaling  Rotation about arbitrary point  Reflection through arbitrary line",
+          "hours": 12
+        },
+        {
+          "title": "Three Dimensional Transformation",
+          "topics": "2.  Three Dimensional : Scaling , Shearing , rotation , reflection, translation  Multiple Transformation  Rotation About an axis  Reflection Through Arbitrary Plane",
+          "hours": 10
+        },
+        {
+          "title": "Applied Algebra",
+          "topics": "3.  System of linear equations, Matrix form of system of linear equations, Rank of a matrix;  Gauss Elimination and Gauss Jordan Methods;  Eigen values, Eigen vectors, characteristic equation of a matrix of order up to 3x3.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "AEC 151-ENG",
+      "title": "Developing Communicative Competence in English- II",
+      "semester": 2,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        38,
+        38
+      ],
+      "units": [
+        {
+          "title": "Joy of Reading",
+          "topics": "1. a. Reading for Comprehension b. Skimming and Scanning c. Speed Reading and Loud Reading d. Reading for Different Purposes e. Reading and Making Notes",
+          "hours": 15
+        },
+        {
+          "title": "Forms of Writing",
+          "topics": "2. a. Paragraph Writing b. Expansion of Ideas c. Summarizing d. Letter Writing e. Writing Notices, Agendas and Minutes f. E-mail Writing g. Writing for Digital Platforms",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "VEC 151-T",
+      "title": "Environment Education-II",
+      "semester": 2,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Environmental Pollution and Health",
+          "topics": "1.  Understanding pollution: Production processes and generation of wastes; Assimilative capacity of the environment; Definition of pollution; Point sources and non-point sources of pollution.  Air pollution: Sources of air pollution; Primary and secondary pollutants; Criteria pollutants carbon monoxide, lead, nitrogen oxides, ground -level ozone, particulate matter and sulphur dioxide; Other important air pollutants - Volatile Organic compounds (VOCs), Peroxyacetyl Nitrate (PAN), Polycyclic aromatic hydrocarbons (PAHs) and Persistent organic pollutants (POPs); Indoor air pollution; Adverse heal th impacts of air pollutants; National Ambient Air Quality Standards.  Water pollution: Sources of water pollution; River, lake and marine pollution, groundwater pollution; water quality Water quality parameters and standards; adverse health impacts of water pollution on human and aquatic life.  Soil pollution and solid waste: Soil pollutants and their sources; Solid and hazardous waste; Impact on human health.  Noise pollution: Definition of noise; Unit of measurement of noise pollution; Sources of noise poll ution; Noise standards; adverse impacts of noise on human health.  The...",
+          "hours": 8
+        },
+        {
+          "title": "Climate Change: Impacts, Adaptation and Mitigation",
+          "topics": "2.  Understanding climate change: Natural variations in climate; Structure of atmosphere; Anthropogenic climate change from greenhouse gas emissions – past, present and future; Projections of global climate change with special reference to temperature, rainfall, climate variability and extreme events; Importance of 1.5 °C and 2.0 °C limits to global warming; Climate change projections for the Indian sub- continent.  Impacts, vulnerability and adaptation to climate change: Observed impacts of climate change on ocean and land systems; Sea level rise, changes in marine and coastal ecosystems; Impacts on forests and natural ecosystems; Impacts on animal species, agriculture, health, urban infrastructure; the concept of vulnerability and its assessment; Adaptation vs. resilience; Climate -resilient development; Indigenous knowledge for adaptation to climate change.  Mitigation of climate change: Synergies between adaptation and mitigation measures; Green House Gas (GHG) reduction vs. sink enhancement; Concept of carbon intensity, energy intensity and carbon neutrality; National and international policy instruments for mitigation, decarbonizing pathways and net zero targets for t...",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Management",
+          "topics": "3.  Introduction to environmental laws and regulation: Constitutional provisions- Article 48A, Article 51A (g) and other derived environmental rights; Introduction to environmental legislations on the forest, wildlife and pollution control.  Environmental management system: ISO 14001 Life cycle analysis; Cost-benefit analysis Environmental audit and impact assessmen t; Environmental risk assessment, Pollution control and management; Waste Management - Concept of 3R (Reduce, Recycle and Reuse) and sustainability; Ecolabeling/ Ecomark scheme.",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Treaties and Legislation",
+          "topics": "4. An overview of instrum ents of international cooperation; bilateral and multilateral agreements; conventions and protocols; adoption, signature, ratification and entry into force; binding and non-binding measures; Conference of the Parties (COP).  Major International Environmenta l Agreements: Convention on Biological Diversity (CBD); Cartagena Protocol on Biosafety; Nagoya Protocol on Access and Benefit-sharing; Convention on International Trade in Endangered Species of Wild Flora and Fauna (CITES); Ramsar Convention on Wetlands o f International Importance; United Nations Convention to Combat Desertification (UNCCD); Vienna Convention for the Protection of the Ozone Layer; Montreal Protocol on Substances that Deplete the Ozone Layer and the Kigali Amendment; Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal; Rotterdam Convention on the Prior Informed Consent Procedure for Certain Hazardous Chemicals and Pesticides in International Trade; Stockholm Convention on Persistent Organic Pollu tants; Minamata Convention on Mercury; United Nations Framework Convention on Climate Change (UNFCCC); Kyoto Protocol; Paris Agreement; Desc...",
+          "hours": 10
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

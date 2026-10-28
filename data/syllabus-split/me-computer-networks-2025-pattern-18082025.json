@@ -1,0 +1,878 @@
+{
+  "id": "me-computer-networks-2025-pattern-18082025",
+  "kind": "programme",
+  "programme": "Master of Engineering in M. E. - Computer Networks",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-CNT",
+      "title": "Probability and Statistics",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Linear Algebra",
+          "topics": "Matrices, Vectors: Addition and Scalar Multiplication, Matrix Multiplication, Linear Systems of Equa- tions. Gauss Elimination, Linear Independence. Rank of a Matrix. Vector Space, Solutions of Linear Systems: Existence, Uniqueness, Inverse of a Matrix. Gauss–Jordan Elimination, Vector Spaces, Inner Product Spaces. Linear Transformations",
+          "hours": 12
+        },
+        {
+          "title": "Linear Algebra: Matrix Eigenvalue Problems",
+          "topics": "The Matrix Eigenvalue Problem, Determining Eigenvalues and Eigenvectors, Some Applications of Eigenvalue Problems, Symmetric, Skew-Symmetric, and Orthogonal Matrices, Eigenbases. Diagonal- ization. Quadratic Forms",
+          "hours": 12
+        },
+        {
+          "title": "Vector Space and Vector Calculus",
+          "topics": "Vectors in 2-Space and 3-Space, Inner Product (Dot Product), Vector Product (Cross Product), Vector and Scalar Functions and Their Fields. Vector Calculus: Derivatives, Curves. Arc Length. Curvature. Torsion, Functions of Several Variables. Optional, Gradient of a Scalar Field. Directional Derivative, Divergence of a Vector Field, Curl of a Vector Field",
+          "hours": 12
+        },
+        {
+          "title": "Probability Theory",
+          "topics": "Data Representation. Average. Spread, Experiments, Outcomes, Events, Probability , Permutations and Combinations, Random Variables. Probability Distributions, Mean and Variance of a Distribution, Binomial, Poisson, and Hypergeometric Distributions, Normal Distribution, Distributions of Several Random Variables",
+          "hours": 12
+        },
+        {
+          "title": "Mathematical Statistics",
+          "topics": "Statistics: Introduction to Statistical Inference Problems; Point Estimation; Interval Estimation; Test- ing of Hypotheses; Two Sample Problems Involving Normal Populations, Tests for Proportions, Chi- Square Goodness of Fit Test, Contingency Tables.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-CNT",
+      "title": "Advanced Computer Networks",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Computer Networks and the Internet",
+          "topics": "History of Computer Networking and the Internet, Networking Devices, The Network edge, The Net- work core, Access Networks and Physical media, ISPs and Internet Backbones. Networking Models: 5-layer TCP/IP Model, 7-Layer OSI Model, Internet Protocols and Addressing, Equal- Sized Packets Model: ATM.",
+          "hours": 12
+        },
+        {
+          "title": "Network Routing and Its Concepts",
+          "topics": "Structure of a Router, Basic Router Configuration, Building a Routing Table, Static Routing, Dy- namic Routing Distance Vector Routing Protocol (RIPv1, RIPv2, EIGRP), Link State Routing Protocols (OSPF).",
+          "hours": 12
+        },
+        {
+          "title": "Lan Switching: Switching and Its Concepts",
+          "topics": "LAN Switching: Switching and its concepts: Structure of a Switch, Basic Switch Configuration, Vir- tual LANs (VLANs), VLAN Trunking Protocol (VTP), Spanning Tree Protocol (STP), Inter-VLAN Rout- ing.",
+          "hours": 12
+        },
+        {
+          "title": "Wide Area Networks (WANS)",
+          "topics": "Introduction to WANs, Point-to-Point Protocol (PPP) concepts, Frame Relay concepts, Dynamic Host Configuration Protocol (DHCP), Network Address Translation (NAT), IPv6.",
+          "hours": 12
+        },
+        {
+          "title": "Advanced Network Technologies",
+          "topics": "Network Virtualization, Software-Defined Networking (SDN), Generic Multi-Protocol Label Switch- ing (GMPLS), Introduction to Optical Networks, Signal, Propagation in Optical Fibers, Client Layers of the Optical Layer",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-CNT",
+      "title": "Distributed Systems",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Basic Concepts",
+          "topics": "Definition of a distributed systems, Examples, Resource sharing and the Web, Challenges, System models, Architectural and fundamental models, Networking Interprocess communication, External data representation and marshalling, Client-server and Group communication. Definition of a distributed systems, Examples, Resource sharing and the Web, Challenges, System models, Architectural and fundamental models, Networking Interprocess communication, External data representation and marshalling, Client-server and Group communication.",
+          "hours": 12
+        },
+        {
+          "title": "Distributed Objects and Process",
+          "topics": "Distributed objects and remote invocation, Communication between distributed objects, Remote pro- cedure call, Events and notifications - The operating system layer, Protection, Processes and Threads, Communication and invocation, OS Architecture. Security techniques, Cryptographic algorithms, Ac- cess control, Digital signatures, Cryptography pragmatics, Needham-Schroeder, Kerberos, Securing electronics transaction, IEEE 802.11 WiFi. Logical time and event ordering - Global state and snapshot algorithms - distributed snapshots in VMs - clock synchronization - Distributed mutual exclusion - Group based Mutual Exclusion - leader election - deadlock detection - termination detection - Distributed Databases - implementations over a simple distributed system and case studies of distributed databases and systems - Distributed file systems: scalable performance, load balancing, and availability . Examples from Dropbox, Google FS (GFS)/ Hadoop Distributed FS (HDFS), Bigtable/HBase MapReduce, RDD",
+          "hours": 12
+        },
+        {
+          "title": "Operating System Issues:",
+          "topics": "Distributed file systems - Name services, Domain name system, Directory and discovery services, Peer to peer systems, Napster file sharing system, Peer to peer middleware routing overlays – Clocks, Events and process states Clock Synchronization - Logical clocks Global states - Distributed debugging - Distributed mutual exclusion - Elections - Multicast communication. Consistency control: Data Centric Consistency - Client Centric Consistency - Replica Management - Consistency Protocols. Fault tolerance and recovery: basic concepts - fault models - agreement problems and its applications - commit protocols - voting protocols - check pointing and recovery . Case Studies from Apache Spark, Google Spanner, Amazon Aurora, Block Chain Systems etc.",
+          "hours": 12
+        },
+        {
+          "title": "Distributed Transaction Processing",
+          "topics": "Transactions - Nested transactions - Locks - Optimistic concurrency control - Timestamp ordering - Flat and nested distributed transactions - atomic commit protocols - Concurrency control in dis- tributed transactions - Distributed deadlocks - Transaction recovery - Overview of replication, Dis- tributed shared memory and Web services. Transactions - Nested transactions - Locks - Optimistic concurrency control - Timestamp ordering - Flat and nested distributed transactions - atomic commit protocols - Concurrency control in dis- tributed transactions - Distributed deadlocks - Transaction recovery - Overview of replication, Dis- tributed shared memory and Web services.",
+          "hours": 12
+        },
+        {
+          "title": "Distributed Algorithms",
+          "topics": "Synchronous network model - Algorithms: leader election, maximal independent set - Asynchronous system model: I/O automata, operations on automata, fairness - Asynchronous shared memory model - Mutual exclusion: model, the problem, stronger conditions, lockout-free mutual exclusion algorithms, lower bound on the number of registers - Asynchronous network model - Asyn- chronous network algorithms: leader election in a ring and an arbitrary network.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-CNT",
+      "title": "Blockchain Technology",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Blockchain Security and Applications",
+          "topics": "Security in Blockchain: Understanding encryption, key management, and security challenges in blockchain networks Blockchain in Various Industries: Studying applications of blockchain in finance, healthcare, supply chain management, and government services Decentralized Finance (DeFi) and NFTs: Learning about DeFi, liquidity pools, yield farming, and creating, minting, and trading NFTs",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain Scalability and Interoperability",
+          "topics": "Blockchain Scalability: Sharding, Layer 2 scaling solutions, Consensus mechanism optimization, Block size increases, transaction processing optimization Blockchain Interoperability: Cross-chain bridges, interoperability protocols, Atomic swaps, Ulti-chain applications, Blockchain agnostic solutions, Use cases.",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain and Artificial Intelligence",
+          "topics": "Blockchain and AI Integration: Decentralized AI models, AI-powered smart contracts, Blockchain- based AI marketplaces, Applications of Blockchain and AI: Predictive maintenance, Supply chain optimization, Identity verification, Healthcare, Use cases.",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain and Cloud Computing",
+          "topics": "Blockchain and Cloud Computing Cloud-based Blockchain Solutions: Blockchain-as-a-Service (BaaS), Cloud-based node infrastructure, Scalable blockchain solutions, Challenges and Opportunities in Blockchain and cloud computing.",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain for Real World Applications",
+          "topics": "Crypto-currencies, Banking and Financial Services, Supply Chain, Healthcare, Real-Estate, Judiciary , IoT, Insurance, Government Sector, Energy and Utilities, Blockchain Integration with other Domains etc.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-CNT",
+      "title": "Computational Laboratory-I",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        22,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A-CNT",
+      "title": "Cloud Computing and Networking",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Overview on cloud and networking & Network Protocols",
+          "topics": "Introduction, Networks, Network Operating Systems, Network Architecture, Application Layer Proto- cols Transport Layer Protocols, Internet Layer Protocols, Network Interface Layer Protocols, Network Protocol Graph",
+          "hours": 8
+        },
+        {
+          "title": "Network Concepts, Design and Network Directory Services",
+          "topics": "Network Types, IP Addressing, Active Directory Logical Structure, Active Directory Design, Active Directory Implementation, Active Directory Deployment",
+          "hours": 8
+        },
+        {
+          "title": "Dynamic Host Service, Name Service & Networking with Windows PowerShell-(08",
+          "topics": "Hours) Dynamic Host Configuration Protocol, Domain Name System, Windows PowerShell, Networking with PowerShell, Microsoft Azure™ PowerShell",
+          "hours": null
+        },
+        {
+          "title": "Internet Data Transaction Protection and Internet Protocol Security",
+          "topics": "Secure Sockets Layer, Certificate Services, Enabling SSL, Certificates on Microsoft Azure™, TCP/IP- Related Security Issues, IP Security , Creating and Using IP Security (IPSec)",
+          "hours": 8
+        },
+        {
+          "title": "Routing and Remote Access Service & Virtual Private Network",
+          "topics": "Routing, Network Address Translation, Routing and Remote Access Service, Virtual Private Network Architecture, VPN Tunneling, VPN Security , Remote Accessing on Microsoft Azure™, Hybrid Cloud Solution, Hybrid Cloud Technology , System Center Virtual Machine Manager applications.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B-CNT",
+      "title": "Artificial Intelligence in Networking",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Architecture of Machine Learning-Empowered Network",
+          "topics": "Introduction, Architecture of Machine Learning-Empowered Network and Security Management, Su- pervised Learning, Classification, Regression. Semi supervised and Unsupervised Learning: Cluster- ing, Dimension Reduction, Semi Supervised Learning. Reinforcement Learning: Policy-Based, Value- Based. Industry Products on Network and Security Management: Network Management, Cisco DNA Center, Sophie, Juniper EX4400 Switch, Juniper SRX Series Services Gateway , Case Study: Cisco DNA Assurance: AI/ML guided IT operations (AIOps) At-a-Glance",
+          "hours": 8
+        },
+        {
+          "title": "Standards on Network and Security Management, Network Management",
+          "topics": "Cognitive Network Management, End-to-End 5G and Beyond Software-Defined Radio Access Net- work, Architectural Framework for ML in Future Networks. Security Management: Securing AI, Projects on Network and Security Management: Poseidon, Network ML, Credential-Digger, Adver- sarial Robustness Toolbox, Proof-of-Concepts on Network and Security Management, Classification: Phishing URL Classification, Intrusion Detection, Active Learning, Concept Drift Detection, Case Study: Network control with AI/ML – Standardization progress in ITU",
+          "hours": 8
+        },
+        {
+          "title": "Learning Network Intents for Autonomous Network Management",
+          "topics": "Motivation, The Hierarchical Representation and Learning Framework for Intention Symbols Infer- ence: Symbolic Semantic Learning (SSL): Connectivity Intention, Deadlock Free Intention, Perfor- mance Intention. Virtual Network Embedding via Hierarchical Reinforcement Learning: Preliminar- ies and Notations: Virtual Network Embedding, Substrate Network and Virtual Network, The VNE Problem, Evaluation Metrics, Reinforcement Learning Hierarchical Reinforcement Learning. White paper: Autonomous Networks for Service Providers",
+          "hours": 8
+        },
+        {
+          "title": "Virtual Network Embedding via Hierarchical Reinforcement Learning",
+          "topics": "Preliminaries and Notations: Virtual Network Embedding, Substrate Network and Virtual Network, The VNE Problem, Evaluation Metrics Reinforcement Learning, Hierarchical Reinforcement Learn- ing, The Framework of VNE-HRL: Overview, The High-level Agent, State Encoder for HEA, Esti- mated Long-term Cumulative Reward, Short-term High-level Reward: The Low-level Agent, State Encoder for LEA, Estimated Long-term Cumulative Reward, Short-term Low-level Reward, The Train- ing Method",
+          "hours": 8
+        },
+        {
+          "title": "Deep Learning for Software Defined Networks",
+          "topics": "Deep Learning for Software Defined Networks Introduction to SDN and its Key Properties, Using Deep Learning for Intelligent SDN Controllers, Traffic Engineering with Deep Reinforcement Learning, Security Enhancements Through Deep Learn- ing. Designing Deep Learning Models for Networks: Key Requirements and Consideration, Data Collection and Preprocessing, Model Architectures and Hyperparameters, Training, Testing and De- ployment Strategies,",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521C-CNT",
+      "title": "Software Defined Networks",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to SDN",
+          "topics": "History of Software Defined Networking (SDN) – Modern Data Center – Traditional Switch Architec- ture – Why SDN – Evolution of SDN – How SDN Works – Centralized and Distributed Control and Date Planes",
+          "hours": 8
+        },
+        {
+          "title": "Open Flow & SDN Controllers",
+          "topics": "Open Flow Specification – Drawbacks of Open SDN, SDN via APIs, SDN via Hypervisor Based Over- lays – SDN via Opening up the Device – SDN Controllers – General Concepts",
+          "hours": 8
+        },
+        {
+          "title": "Data Centers",
+          "topics": "Multitenant and Virtualized Multitenant Data Center – SDN Solutions for the Data Center Network – VLANs – EVPN – VxLAN – NVGRE",
+          "hours": 8
+        },
+        {
+          "title": "SDN Programming",
+          "topics": "Programming SDNs: Northbound Application Programming Interface, Current Languages and Tools, Composition of SDNs – Network Functions Virtualization (NFV) and Software Defined Networks: Concepts, Implementation and Applications.",
+          "hours": 8
+        },
+        {
+          "title": "SDN Applications",
+          "topics": "Juniper SDN Framework – IETF SDN Framework – Open Daylight Controller – Floodlight Controller – Bandwidth Calendaring – Data Center Orchestration",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521D-CNT",
+      "title": "Communication Technology Protocols",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Network Models",
+          "topics": "Network Models: Layered Tasks, The OSI Model, Layers in OSI Model, TCP/IP Protocol suite, Ad- dressing. Connecting devices: Passive Hubs, Repeaters, Active Hubs, Bridges, Two Layer Switches, Routers, Three Layer Switches, Gateway , Backbone Networks.",
+          "hours": 8
+        },
+        {
+          "title": "TCP, UDP & IP",
+          "topics": "TCP, UDP & IP: TCP Services, TCP Features, Segment, A TCP Connection, Flow Control, Error Control, Congestion Control, Process to Process Communication, User Datagram, Checksum, UDP Operation, IP Datagram, Fragmentation, Options, IP Addressing: Classful Addressing, IPV6.",
+          "hours": 8
+        },
+        {
+          "title": "Stream Control Transmission Protocol",
+          "topics": "Stream Control Transmission Protocol: SCTP Services, SCTP Features, Packet Format, Flow Control, Error Control, Congestion Control. Electronic Mail and SNMP, Architecture, User agents, addresses, delayed delivery , Aliases, Mail transfer agent SMTP commands & responses, mail transfer phases, MIME, Mail Delivery , mail access protocols.",
+          "hours": 8
+        },
+        {
+          "title": "Mobile Network Layer",
+          "topics": "Mobile Network Layer: Entities and Terminology , IP Packet Delivery , Agents, Addressing, Agent Dis- covery , Registration, Tunneling and Encapsulating, Inefficiency in Mobile IP. Mobile Transport Layer: Classical TCP Improvements, Indirect TCP, Snooping TCP, Mobile TCP, Fast Retransmit/Fast Recovery , Transmission, Timeout Freezing, Selective Retransmission, Transaction Oriented TCP.",
+          "hours": 8
+        },
+        {
+          "title": "Wireless Access Protocol",
+          "topics": "Wireless Access Protocol WAP (Wireless Application Protocol) architecture, Wireless Datagram, Wire- less Transport layer security , wireless transaction, Wireless Session, Wireless Application Environ- ment, WML",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-522-CNT",
+      "title": "Skill Based Laboratory - I",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        34,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-CNT",
+      "title": "Wireless and Mobile Networks",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "The Cellular Concept-System Design Fundamentals",
+          "topics": "Introduction, Frequency Reuse, Channel Assignment Strategies, Handoff Strategies- Prioritizing Hand- offs, Practical Handoff Considerations, Interference and system capacity – Co channel Interference and system capacity , Channel planning for Wireless Systems, Adjacent Channel interference, Power Control for Reducing interference, Trunking and Grade of Service, Improving Coverage & Capacity in Cellular Systems- Cell Splitting, Sectoring.",
+          "hours": 12
+        },
+        {
+          "title": "Mobile Radio Propagation: Large-Scale Path Loss",
+          "topics": "Introduction to Radio Wave Propagation, Free Space Propagation Model, Relating Power to Elec- tric Field, The Three Basic Propagation Mechanisms, Reflection-Reflection from Dielectrics, Brewster Angle, Reflection from prefect conductors, Ground Reflection (Two-Ray) Model, Diffraction-Fresnel Zone Geometry , Knife-edge Diffraction Model, Multiple knife-edge Diffraction, Scattering, Outdoor Propagation Models- Longley-Ryce Model, Okumura Model, Hata Model, PCS Extension to Hata Model, Walfisch and Bertoni Model, Wideband PCS Microcell Model, Indoor Propagation Models- Partition losses (Same Floor), Partition losses between Floors, Log-distance path loss model, Ericsson Multiple Breakpoint Model, Attenuation Factor Model, Signal penetration into buildings, Ray Tracing and Site Specific Modeling.",
+          "hours": 12
+        },
+        {
+          "title": "Mobile Radio Propagation",
+          "topics": "Small –Scale Fading and Multipath: Small Scale Multipath propagation-Factors influencing small scale fading, Doppler shift, Impulse Response Model of a multipath channel- Relationship between Bandwidth and Received power, Small-Scale Multipath Measurements-Direct RF Pulse System, Spread Spectrum Sliding Correlator Channel Sounding, Frequency Domain Channels Sounding, Parameters of Mobile Multipath Channels-Time Dispersion Parameters, Coherence Bandwidth, Doppler Spread and Coherence Time, Types of Small-Scale Fading-Fading effects Due to Multipath Time Delay Spread, Flat fading, Frequency selective fading, Fading effects Due to Doppler Spread-Fast fading, slow fad- ing, Statistical Models for multipath Fading Channels-Clarke’s model for flat fading, spectral shape due to Doppler spread in Clarke’s model, Simulation of Clarke and Gans Fading Model, Level crossing and fading statistics, Two-ray Rayleigh Fading Model.",
+          "hours": 12
+        },
+        {
+          "title": "Equalization and Diversity",
+          "topics": "Introduction, Fundamentals of Equalization, Training A Generic Adaptive Equalizer, Equalizers in a communication Receiver, Linear Equalizers, Nonlinear Equalization- Decision Feedback Equaliza- tion (DFE), Maximum Likelihood Sequence Estimation (MLSE) Equalizer, Algorithms for adaptive equalization-Zero Forcing Algorithm, Least Mean Square Algorithm, Recursive least squares algo- rithm. Diversity Techniques-Derivation of selection Diversity improvement, Derivation of Maximal Ratio Combining improvement, Practical Space Diversity Consideration-Selection Diversity , Feedback or Scanning Diversity , Maximal Ratio Combining, Equal Gain Combining, Polarization Diversity , Fre- quency Diversity , Time Diversity , RAKE Receiver.",
+          "hours": 12
+        },
+        {
+          "title": "Wireless Networks",
+          "topics": "Wireless Networks Introduction to wireless Networks, Advantages and disadvantages of Wireless Local Area Networks, WLAN Topologies, WLAN Standard IEEE 802.11, IEEE 802.11 Medium Access Control, Comparison of IEEE 802.11 a,b,g and n standards, IEEE 802.16 and its enhancements, Wireless PANs, Hiper Lan, WLL.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-CNT",
+      "title": "Internet of Things",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction & Basic of IoT",
+          "topics": "Definition, Characteristics, Physical and Logical Designs, challenges, Technological trends in IOT, IoT Examples, M2M",
+          "hours": 12
+        },
+        {
+          "title": "IoT: Components, Communication and Networking",
+          "topics": "Introduction to Sensing and Networking: Sensing & actuation, Wireless Senor network, Senor nodes, Communication Protocols, M2M Communication, Networking Hardware, Networking Protocols.",
+          "hours": 12
+        },
+        {
+          "title": "IoT System Management",
+          "topics": "Network Operator Requirements, IoT Platform Design Specification – Requirements, Process, Do- main Model, Service, IoT Level, Function, Operational view, Device and Component Integration, Application development.",
+          "hours": 12
+        },
+        {
+          "title": "Networking and Computing",
+          "topics": "File Handling, Python Packages for IoT, IoT Physical Servers – Cloud Storage Models, Communication APIs.",
+          "hours": 12
+        },
+        {
+          "title": "IoT Clouds and Data Analytics and Applications",
+          "topics": "RESTful Web API, Amazon Web Services for IoT, Apache Hadoop, Batch Data Analysis, Chef, Chef Case Studies, Puppet, NETCONF-YANG. Case studies: smart cities, smart home, connected vehicles, Industrial IOT.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-CNT",
+      "title": "Network Security",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction, Security services, Need of Security , Key Principles of Security , Threats and Vulnerabil- ities, Vulnerability categories: Technical, Procedural and behavioral Types of Attacks, ITU-T X.800 Security Architecture for OSI, Security Policy and mechanisms, Operational Model of Network Secu- rity , Symmetric and Asymmetric Key Cryptography Algorithms, Data Integrity and Digital Signature Algorithms.",
+          "hours": 12
+        },
+        {
+          "title": "Application and Transport Layer Security",
+          "topics": "SECURITY AT THE APPLICATION LAYER: S/MIME-Functionality , Messages and Certificate Process- ing, Domain Keys Identified Mail, Pretty Good Privacy (PGP), GNU Privacy Guard (GPG). SECURITY AT THE TRANSPORT LAYER: SSL/TLS Architecture, Handshake Protocol, Change Cipher Spec Protocol, Alert Protocol, Record",
+          "hours": 12
+        },
+        {
+          "title": "Wireless & Network Layer Security",
+          "topics": "WIRELESS NETWORK SECURITY: Wireless Security , Mobile Device Security , IEEE 802.11i Wireless LAN Security , WEP and WPA Protocols. SECURITY AT THE NETWORK LAYER: IP Security Overview, IP Security Policy , Encapsulating Secu- rity Payload, internet Key Exchange, Authentication Header.",
+          "hours": 12
+        },
+        {
+          "title": "System Security",
+          "topics": "Authentication applications: Kerberos X.509 Authentication services: Firewalls, Types of Firewalls, Firewall design principles, Trusted System. Intruders, Intrusion detection, Viruses and related threats, Virus Countermeasures. Google Application Layer Transport Security (ALTS)",
+          "hours": 12
+        },
+        {
+          "title": "Security in Mobile and IOT",
+          "topics": "Security Threats to SDN, FV Security Attack Surfaces, ETSI Perspective, Cloud Security: Security Issues, Risks, Data Protection: Security As A Service, Addressing Cloud Security , IOT Security , Vul- nerability Patching.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-CNT",
+      "title": "Computational Laboratory-II",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        43,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-561A-CNT",
+      "title": "Bio-Inspired Computing",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Natural Computing",
+          "topics": "From nature to natural computing, Introduction, sample idea, Philosophy of natural computing, Natural computing approaches, Conceptualization – introduction, general concept, Problem solving as a search track, Hill climbing, Simulated annealing.",
+          "hours": 8
+        },
+        {
+          "title": "Evolutionary Computing",
+          "topics": "Evolutionary computing, Evolutionary biology , Evolutionary computing standard evolutionary algorithm, Genetic algorithm, evolutionary strategies, Evolutionary programming.",
+          "hours": 8
+        },
+        {
+          "title": "Swarm Intelligence",
+          "topics": "Swarm intelligence-biological motivation, from natural to artificial, standard algorithm of Ant colony optimization, Ant clustering algorithm, Particle swarm optimization.",
+          "hours": 8
+        },
+        {
+          "title": "Biological Motivation",
+          "topics": "Biological motivation, from natural to artificial, standard algorithm of cuckoo search, bat algorithm, flower pollination, firefly algorithm, framework for self-tuning algorithms - case study of firefly al- gorithm. The essence of life, Examples of A Life projects- flocks, herds and schools, synthesizing emotional behavior, Scope of artificial life,",
+          "hours": 8
+        },
+        {
+          "title": "Immune Systems",
+          "topics": "Immune system, Artificial immune systems - biological motivation, Design principles, main types of algorithms - Bone marrow, Negative selection, Clonal selection, Continuous immune network models, Discrete immune network models, Scope of artificial immune systems, computer viruses, AIBO robot, Turtles, termites, and traffic jams, framsticks, Current trends and open problems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-561B-CNT",
+      "title": "Optical Networking",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Optical Networks",
+          "topics": "Telecommunications Networks Architecture, Services, Circuit Switching and Packet switching, Opti- cal Networks, Optical Packet Switching, Transmission Basics, Components: Multiplexers and Filter Switches, Wavelength Converters",
+          "hours": 8
+        },
+        {
+          "title": "Client layers of the optical layer",
+          "topics": "SONET/SDH: optical transport network, IP, routing and forwarding, multiprotocol label switching. WDM network elements: optical line terminals and amplifiers, optical add/drop multiplexers, OADM architectures, reconfigurable OADM, optical cross connects.",
+          "hours": 8
+        },
+        {
+          "title": "Control and Management",
+          "topics": "Network management functions, optical layer services and interfacing, performance and fault man- agement, configuration management, optical safety .",
+          "hours": 8
+        },
+        {
+          "title": "Network Survivability",
+          "topics": "Protection in SONET/SDH & client layer, optical layer protection schemes. WDM network design: LTD and RWA problems, dimensioning wavelength routing networks, statisti- cal dimensioning models.",
+          "hours": 8
+        },
+        {
+          "title": "Access networks",
+          "topics": "Optical time division multiplexing, synchronization, header processing, burst switching, test beds, Introduction to PON, GPON, AON",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-561C-CNT",
+      "title": "Social Media Analytics",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Foundations of Social Media Analytics",
+          "topics": "Introduction to Social Media, Web platforms and world wide websites (www), types of social me- dia data, Text, Image, Video, Metadata, Social media data characteristics, Volume, Velocity , Variety , Veracity , challenges in social media data analysis, SMA applications, marketing, politics, healthcare, disaster management, SMA architecture, ingestion, storage, analysis, visualization, data ecosystem, analytics opportunities across platforms, domain-specific applications of SMA.",
+          "hours": 8
+        },
+        {
+          "title": "Data Acquisition and Preprocessing",
+          "topics": "Overview of social media APIs, Facebook Graph, Reddit, X-Twitter, Instagram, structure and access policies, web scraping, architecture, ethics, and methods, text preprocessing, tokenization, case fold- ing, stopword removal, stemming, lemmatization, handling multilingual text, hashtags, mentions, emojis, metadata, data challenges, spam, bots, noise, redundancy , techniques for extracting and preparing social media data, common challenges in raw social data.",
+          "hours": 8
+        },
+        {
+          "title": "Text Analytics and Natural Language Processing",
+          "topics": "Text representation, Bag-of-Words, TF-IDF, Word Embeddings, Sentiment Analysis, Rule-based ap- proaches, ML-based approaches, topic modeling, Latent Dirichlet Allocation (LDA), Non-negative Ma- trix Factorization (NMF), Named Entity Recognition (NER), Overview of deep learning approaches, BERT, transformers, NLP techniques to sentiment and topic analysis, extracting insight from text data and evaluation.",
+          "hours": 8
+        },
+        {
+          "title": "Social Network and User Interaction Analysis",
+          "topics": "Introduction to graph theory , nodes, edges, degree, centrality , social graphs, user mentions, replies, retweets, network metrics, Betweenness, Closeness, PageRank, community detection: modularity , Louvain algorithm, Influence and virality analysis, Behavioral analytics: likes, shares, content en- gagement patterns, graph-based representation of social networks",
+          "hours": 8
+        },
+        {
+          "title": "Applications of social media",
+          "topics": "Applications of Politics - Election sentiment, propaganda detection, Healthcare - Vaccine hesitancy , pandemic trend tracking, Disaster response - Earthquake, flood, or COVID alerting via social me- dia, Agriculture - Farmer sentiment, feedback analytics, Visual analytics: Word clouds, sentiment timelines, conceptual network diagrams, Ethics - data privacy , fake news, bots, bias, misinformation, real-world applications of SMA, ethical and responsible use of social media data",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-561D-CNT",
+      "title": "Generative Adversarial Networks",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to GANs",
+          "topics": "GANs and their applications, understand the intuition behind the basic components of GANs, and build your very own GAN using PyTorch.",
+          "hours": 8
+        },
+        {
+          "title": "Deep Convolutional GAN",
+          "topics": "Build a sophisticated GAN using convolutional layers, activation functions, batch normalization, and transposed convolutions to tune your GAN architecture, build an advanced DCGAN specifically for processing images.",
+          "hours": 8
+        },
+        {
+          "title": "Wasserstein GANs with Normalization",
+          "topics": "Reduce instances of GANs failure due to imbalances between the generator and discriminator by learning advanced techniques such as WGANs to mitigate unstable training and mode collapse with a W-Loss and an understanding of Lipschitz Continuity .",
+          "hours": 8
+        },
+        {
+          "title": "Conditional and Controllable GANs",
+          "topics": "Understand how to effectively control your GAN, modify the features in a generated image, and build conditional GANs capable of generating examples from determined categories.",
+          "hours": 8
+        },
+        {
+          "title": "Generative Models",
+          "topics": "Generative Models: Maximum likelihood estimator, Naive Bayes, Linear Discriminant Analysis, La- tent variables and Expectation-maximization algorithm, Bayesian learning",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562A-CNT",
+      "title": "Federated Learning",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to Federated Learning",
+          "topics": "Introduction to federated learning, need for federated learning, data privacy , decentralization, edge AI. Centralized vs decentralized vs federated paradigms, clients, server, rounds, model aggregation, Benefits, privacy-preserving, bandwidth-efficient, collaborative learning, federated learning life cycle. concept of drivers of federated learning, centralized ML and federated ML paradigms.",
+          "hours": 8
+        },
+        {
+          "title": "Federated Learning Architectures and Algorithms",
+          "topics": "Architecture of federated learning, horizontal federated learning, vertical federated learning, feder- ated transfer learning federated learning, federated averaging, algorithm and work flow, federated SGD, advanced aggregation techniques, synchronous and asynchronous federated learning, optimiza- tion challenges with non- independent and identically distributed (non-IID) data, compression and quantization for efficient communication in federated learning, performance evaluation under vari- ous data and system conditions.",
+          "hours": 8
+        },
+        {
+          "title": "Privacy and Security in Federated Learning",
+          "topics": "Threats in federated learning, model inversion, poisoning, membership inference Differential Privacy (DP) and differentially private stochastic gradient descent (DP-SGD), Secure Ag- gregation: encryption and secure multiparty computation (SMC), homomorphic encryption and fed- erated cryptographic techniques, a nonymity and trust in decentralized settings, privacy-preserving techniques in federated models, security vulnerabilities and defenses in federated learning systems.",
+          "hours": 8
+        },
+        {
+          "title": "Federated Learning Systems and Frameworks",
+          "topics": "Architecture of federated system: clients, coordinator, data flow. Open-source frameworks, Ten- sorFlow Federated, PySyft, Flower, NVIDIA Clara. Resource constraints: computation, memory , communication. System-level challenges: stragglers, client selection, dropouts, Bench-marking and evaluation of federated system models, federated system development using tools and frameworks, system-level considerations in real-world deployment",
+          "hours": 8
+        },
+        {
+          "title": "Applications of Federated Learning",
+          "topics": "Real-world applications of federated system, Healthcare: cross-institutional model training, Finance: fraud detection. Smart devices: predictive keyboard, face unlock. Agriculture: collaborative crop disease detection. Ethical aspects: bias, fairness, transparency . federated reinforcement learning, personalized federated system, swarm learning, ethical and legal implications of deploying federated system.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562B-CNT",
+      "title": "Real-Time Operating Systems",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Real Time Operating System",
+          "topics": "Introduction to real-time operating systems. Hard versus soft real-time systems and their timing constraints. Temporal parameters of real-time process: Fixed, Jittered and sporadic release times, ex- ecution time. Types of real-time tasks, Precedence constraints and data dependency among real-time tasks, other types of dependencies for real-time tasks. Functional parameters and Resource param- eters of real-time process. Real-time task and task states, task and data. Approaches to real-time scheduling: clock driver, weighted round-robin, priority-driven- Fixed priority and dynamic priority algorithms –Rate Monotonic (RM), Earliest-Deadline-First (EDF), Latest-Release-Time (LRT), Least- Slack- Time-First (LST). Static and Dynamic systems, on-line and off-line scheduling, Scheduling aperiodic and sporadic real-time tasks",
+          "hours": 8
+        },
+        {
+          "title": "Inter-Process Communication",
+          "topics": "Resources and resource access control-Assumption on resources and their usage, Enforcing mutual exclusion and critical sections, resource conflicts and blocking, Effects of resource contention and resource access control - priority inversion, priority inheritance. Inter-process communication-semaphores, message queues, mailboxes and pipes. Other RTOS services- Timer function, events, Interrupts - enabling and disabling interrupts, saving and restoring context, interrupt latency , shared data problem while handling interrupts. Interrupt routines in an RTOS environment.",
+          "hours": 8
+        },
+        {
+          "title": "Scheduling Algorithms",
+          "topics": "Scheduling algorithms: FCFS, SJF, Priority , Round Robin, UNIX Multi-level feedback queue schedul- ing, Thread Scheduling, Multiprocessor Scheduling concept, Concurrency: Principles of Concurrency , Mutual Exclusion H/W Support, software approaches, Semaphores and Mutex, Message Passing tech- niques. Time Management, Timer Management, Resource Management Disable/Enable Interrupts, Lock/Unlock Semaphores, Mutex, Deadlocks, Synchronization.",
+          "hours": 8
+        },
+        {
+          "title": "Real-Time Communication",
+          "topics": "Network Topologies, Protocols, Clocks, A Non-Fault Tolerant, synchronization Algorithm, Impact of Faults, Fault Tolerant Synchronization in Hardware, Synchronization in Software. Fault Tolerant Techniques: Fault Types, Fault Detection, Fault and error Containment, Redundancy , Data Diversity , Reversal Checks, Malicious or Byzantine Failures, Integrated Failure Handing, Obtaining Parameter Values, Reliability Models for Hardware edundancy , Software Error models, Taking Time into Ac- count.",
+          "hours": 8
+        },
+        {
+          "title": "Real Time Systems",
+          "topics": "Real-time operating systems: Capabilities of commercial real-time operating systems, QNX/Neutrino, Microc/OS-II, VxWorks, Windows CE and RTLinux. Real-time applications: Guidance and control, Signal processing, Multimedia, real-time databases. Real-Time Databases: Real-Time Vs General-Purpose Databases, Main Memory Databases, Transac- tion Priorities, Transaction Aborts, Concurrency Control Issues, Disk Scheduling algorithm, A Two Phase Approach To Improve Predictability , Maintain Serialization Consistency , Databases for Hard Real Time Systems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562C-CNT",
+      "title": "Information Security",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Information Security Basics",
+          "topics": "Introduction to Information Security – Risk Analysis – Legal Issues – Secure Design – Policy , Stan- dards, Procedures and Guidelines – Security Organization structure",
+          "hours": 8
+        },
+        {
+          "title": "Information Security Policy and Compliance",
+          "topics": "Authentication and Authorization principles - Securing unstructured data – Information Rights Man- agement – Storage security – Data base security;",
+          "hours": 8
+        },
+        {
+          "title": "Secure Application",
+          "topics": "Secure application design – Writing Secure Software – J2EE vulnerabilities; Secure Infrastructure Management: Security Operations Management – Disaster Recovery and Backups – Physical Security .",
+          "hours": 8
+        },
+        {
+          "title": "Information Security Risk Management",
+          "topics": "Development of concepts required for risk-based planning and risk management of computer and information systems (Risk analysis, risk perception, Communicating risk, risk mitigation); Objectives and methods for vulnerability assessment for natural disaster, technological hazards, and terrorist threats; implications for emergency response, vulnerability of critical infrastructure",
+          "hours": 8
+        },
+        {
+          "title": "Scripting languages for information security",
+          "topics": "Java Script: Introduction to JavaScript, Basic Syntax, Control Structures, Writing Functions, Working with Arrays, The Document Object Model, Events Handling, Client-side Validation, Form Validation & RegExps, ASP, Perl CGI, & Form Methods, SSI & Cookies, Frames & Windows, mime Types, plugins, & Java",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562D-CNT",
+      "title": "Next Generation Networks",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        58,
+        59
+      ],
+      "units": [
+        {
+          "title": "Introduction and NGN Networks: Perspectives and Potentials",
+          "topics": "Introduction, Challenges, The Network Evolution Towards NGN, The Telecom Environment and Cor- porate Responsibility: NGN Networks: Perspectives and Potentials, Some Possible Scenarios.",
+          "hours": 8
+        },
+        {
+          "title": "NGN Requirements on Technology and Management & NGN Functional Architecture",
+          "topics": "(08 Hours) NGN Requirements on Technology , NGN Requirements on Management, The ITU NGN Functional Architecture, The Proposed NGN Functional Architecture",
+          "hours": null
+        },
+        {
+          "title": "NGN Customer and CTE & Network and Service Evolution towards NGN",
+          "topics": "NGN Operator, Provider, Customer and CTE; Major Evolution Steps for the Networks and Services of Today , Fixed Network Evolution, Mobile Network Evolution, Cable Network Evolution, Internet Evolution,IP Network Problems Critical to be Solved",
+          "hours": 8
+        },
+        {
+          "title": "NGN Key Development Areas",
+          "topics": "Terminal Area, Access Network Area, Backhaul Network Area, Core Transport Network Area, Ser- vice Creation Area, Network Control and Management Area, Service Control and Management Area, Advanced Technologies for Network and Service Management",
+          "hours": 8
+        },
+        {
+          "title": "NGN Standardizations",
+          "topics": "ITU and GSI-NGN, ETSI and TISPAN-NGN, ATIS and NGN, CJA and NGN. TMF and NGOSS, NGMN Alliance and NGMN, and 3GPP and LTE/SAE",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-581-CNT",
+      "title": "Technical Seminar - I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        60,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-CNT",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research:",
+          "topics": "Basic of Research : Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de- scribe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research : Why? Research Questions, Engineering Ethics, conclusive proof-what con- stitutes, A research project-Why take on? Case Study : Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects- en- vironment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": 12
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of review , Developing the objectives, Preparing the research design includ- ing sample Design, Sample size. Archival Literature, Why should engineers be ethical? Types of publications- Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study : Engineering dictionary , Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h-index, I-index, plagiarism, copyright infringement",
+          "hours": 12
+        },
+        {
+          "title": "Analysis of Variance and Covariance:",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short-cut method for oneway ANOVA, Coding method, Two-way ANOVA, ANOVA in Latin-square design, analysis of co-variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": 12
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond google, impact factor, H-Index. IPR: What is IPR?, importance of patents, types of IPR, process of patent.",
+          "hours": 12
+        },
+        {
+          "title": "Outcome of Research and Research Presentation:",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, Testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-CNT",
+      "title": "On Job Training/Internship",
+      "semester": 3,
+      "type": "OJT/Internship",
+      "credits": 5,
+      "pages": [
+        69,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-CNT",
+      "title": "Technical Seminar II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        72,
+        76
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-CNT",
+      "title": "Research Project-I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        77,
+        80
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-CNT",
+      "title": "Technical Seminar III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        81,
+        85
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-CNT",
+      "title": "Research Project -II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        86,
+        88
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

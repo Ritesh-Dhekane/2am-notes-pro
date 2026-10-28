@@ -1,0 +1,914 @@
+{
+  "id": "te-ie-syllabus-sppu-2024-pattern-nep",
+  "kind": "programme",
+  "programme": "Third Year Industrial Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-IND",
+      "title": "Total Quality Management",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Definition of Quality, Dimensions of Quality, Quality Planning, Quality costs steps in reporting on quality cost – Basic, concepts of Total Quality Management, Historical Review, Principles of TQM, and Quality in Business and commerce, Leadership Principles, role of Senior Management, Economic Issues – Quality and Price – Quality and Market Share– Quality and Cost, Quality Council, Quality Statements, strategic quality planning, service quality and product quality, determinants of service quality, Barriers to TQM Implementation",
+          "hours": 6
+        },
+        {
+          "title": "Principles of Total Quality Management",
+          "topics": "Elements of TQM, Benefits of Total TQM, customer satisfaction, customers perception of quality, Customer Complaints , Service Quality Customer Retention Employee Involvement Teamwork, Training, Recognition and reward, performance Appraisal, Continual process Improvement, Supplier partnership, Performance measures Deming’s 14 Point program – PDCA Cycle, The Juran Philosophy – The Juran Quality Tr ilogy. The Crosby and 14 Point program. The Taguchi Loss Function, 5S, Kaizen",
+          "hours": 6
+        },
+        {
+          "title": "TQM Tools",
+          "topics": "Ishikawa ‘s Seven Quality Tools, Ishikawa Fish bone diagram ,Quality Circles, Poka Yoke (Mistake Proofing), Zero defect, JIT, Kanban, Benchmarking, Benchmarking process, code of conduct for Benchmarking, Types of Benchmarking, Steps in Benchmarking, Advantages and limitations in Benchmarking Quality, Function Deployment (QFD), House of Quality, QFD Process, Benefits, Total Productive Maintenance (T PM) Concept, FMEA, Stages of FMEA",
+          "hours": 6
+        },
+        {
+          "title": "Reliability",
+          "topics": "Concept and Components, Types of failure, Reliability of system , Success and Failure models in series and parallel– Methods of achieving higher reliability – Concept of maintainability and availability ,Weibull Distribution (Bath Tub curve), Comparison with reliability ,MTBF, MTTF and FMEA 15",
+          "hours": 6
+        },
+        {
+          "title": "Quality Management Standards",
+          "topics": "ISO-Introduction, Major elements of ISO 9001:2000, ISO 9001:2000 QMS Requirements, Implementation o f ISO 9001, ISO documentation, quality system 9000, Environmental management systems, SO 14000 series standards, requirements of ISO 14001, implementation and operation of EMS, Checking and corrective action, benefits of EMS, ISO 27001:2005 Information Security Management System, ISO / TS16949:2002 for Automobile Industry, CMMI Fundamentals and Concepts",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-IND",
+      "title": "Facilities Planning",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Facilities Planning",
+          "topics": "Definition, objectives, and scope of facilities planning, Importance of facilities planning in manufacturing and service industries Facilities planning framework, Types of facilities and facility systems, Factors affecting facility planning decisions, Relationship between product design, process selection, and facility planning",
+          "hours": 6
+        },
+        {
+          "title": "Plant Location and Site Selection",
+          "topics": "Need and significance of plant location, Factors influencing plant location, Location theories and models, Location evaluation techniques: Factor Rating Method, Load-Distance Method, Center of Gravity Method, Break-even Analysis, Site selection and plant expansion considerations",
+          "hours": 6
+        },
+        {
+          "title": "Facility Layout Planning",
+          "topics": "objectives and principles of plant layout, Types of layouts: Product Layout, Process Layout, Fixed Position Layout, Cellular Layout, Hybrid Layout, Layout design procedures, Systematic Layout Planning (SLP), Computer-Aided Layout Planning Layout evaluation and improvement",
+          "hours": 6
+        },
+        {
+          "title": "Material Handling and Storage Systems",
+          "topics": "Principles and objectives of material handling, Material handling equipment and selection, Automated Material Handling, systems, Conveyors, cranes, Automated Guided Vehicles (AGVs), Warehouse planning and storage systems, Unit load concept and packaging considerations, Safety aspects in material handling 17",
+          "hours": 6
+        },
+        {
+          "title": "Facilities Design and Modern Trends",
+          "topics": "Space requirements analysis, Facilities design for manufacturing and service organizations, Lean facility design, Green and sustainable facilities, Flexible manufacturing facilities, Smart factories and Industry 4.0 concepts in facility planning, Facility maintenance and performance evaluation",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-IND",
+      "title": "Metrology and Instrumentation",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Concept of measurement, Limits, fits and tolerances",
+          "topics": "(06Hours) Linear Measurement: Precision and Non-Precision Measuring instruments, Slip Gauges. Angular Measurement: Sine bar, Sine Center, Uses of sine bars, angle gauges, Auto Collimator, Angle Dekkor. Comparators: Uses, Types, Advantages and Disadvantages of various Comparators. Cost-Tolerance relationship, concept of Interchangeability, selective assembly, Indian Standard System. Design of limits Gauges using Taylor’s Principle, Interferometry: Introduction, Flatness testing by interferometry, NPL Interferometer. 19",
+          "hours": null
+        },
+        {
+          "title": "Measurement of Thread, Gear and Surface finish Transforms",
+          "topics": "Screw Thread Metrology: External Screw Thread terminology, effective diameter measurement methods, Pitch and flank Measurement of External Screw Thread, Application of Tool Maker's Microscope, Use of Profile Projector. Gear Metrology: Spur Gear Parameters, Gear tooth thickness measurement: Gear tooth vernier caliper, Constant chord method, Span Micrometer, Base tangent method. Surface Finish Measurement: methods of evaluation of surface roughness, Tomlinson’s Surface Recorder, Talysurf and Taylor- Hobson Surface Meter Recent Trends in Engineering Metrology, Universal coordinate measuring machine (CMM)",
+          "hours": 6
+        },
+        {
+          "title": "Quality Assurance tools and techniques",
+          "topics": "Meaning of Quality, Quality of Product, Quality of Service, Cost of Quality, Value of Quality, Introduction to Statistical Quality Control: Control Charts, X, R, P and C Charts, Sampling inspection, OC Curves and Sampling Plans, Process Capability Index (PCI), Quality Assurance tools and techniques, Total quality management (T.Q.M):- Deming’s and Juran’s Approach, Seven quality tools and new seven quality tools, Q.F.D., Quality Circles, Kaizen, six sigma, T.P.M. Introduction to ISO 9001-2000, ISO 9000- 1998 Series standards, ISO 14000, TS 16949 Standards",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to measuring Instruments",
+          "topics": "Classification of measuring instrument, Stages in generalized measuring system – Sensor-Transducer stage, Signal Conditioning stage, Readout-Recording stage; Types of input quantities; Active and Passive transducers. Performance characteristic of measuring devices –Static and dynamic",
+          "hours": 6
+        },
+        {
+          "title": "Measurement of stress, vibration and temperature",
+          "topics": "Measuring instruments for - Strain and Stress Measurement, Force and torque, Vibration measurement, Temperature Measurement",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-IND",
+      "title": "Total Quality Management Lab",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-IND",
+      "title": "Machining Science and Technology Lab",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-321-IND",
+      "title": "Program Elective1- a) Finite Element Analysis",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction, One-Dimensional Problem, Finite Element modeling, Coordinate and Shape function, Derivation of stiffness matrix and Load Vector using Potential Energy approach, Properties of Stiffness Matrix, Assemb ly of Global Stiffness Matrix and Load Vector, Elimination and penalty approach, shape function, Quadratic Shape Function.",
+          "hours": 6
+        },
+        {
+          "title": "Trusses",
+          "topics": "Introduction to different approaches used in FEA such as direct approach, Variational approach, weighted residual, energy approach, Galerkin and Raleigh Ritz approach, Introduction to Plane trusses, Assembly of global Stiffness Matrix for Banded Skyline solutions.",
+          "hours": 6
+        },
+        {
+          "title": "Two-Dimensional Problem Using Constant Strain Triangles",
+          "topics": "Introduction, finite element formulation, load considerations and boundary conditions, problem modeling, member end forces, plane frame. 23 Formulation of elemental stiffness matrix and load vector for Plane stress/strain such as Linear Strain Rectangle (LSR), Constant Strain Triangles (CST), Pascal‘s triangle , primary and secondary variables, properties of shape functions.",
+          "hours": 6
+        },
+        {
+          "title": "Axi-symmetric solids subjected to axi-symmetric loading",
+          "topics": "Introduction, axi-symmetric formulation, finite element modeling of triangular element Two-dimensional iso-parametric elements- Introduction, four node quadrilateral, introduction to higher order elements.",
+          "hours": 6
+        },
+        {
+          "title": "Finite element analysis of heat transfer and Dynamic analysis",
+          "topics": "Introduction, steady state heat transfer - 1D and 2D heat conduction and convection, governing differential equation, boundary conditions, formulation of element, Types of dynamic analysis, General dynamic equation of motion, point and distributed mass, lumped and Consistent mass, Mass matrices formulation of bar and beam element.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-321-IND",
+      "title": "Program Elective1- b) Advanced Manufacturing Systems",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction of Advanced Manufacturing Systems",
+          "topics": "System – ways to analyze the system – Model - types of models – Simulation – Definition – Types of simulation models – steps involved in simulation – Advantages & Disadvantages. Parameter estimation – estimator – properties – estimate – point estimate – confidence interval estimates – independent – dependent – hypothesis – types of hypothesis- steps – types 1& 2 errors – Framing – strong law of large numbers.",
+          "hours": 6
+        },
+        {
+          "title": "Building of Simulation model",
+          "topics": "validation – verification – credibility – their timing – principles of valid simulation Modeling – Techniques for verification – statistical procedures for developing credible model. Modeling of stochastic input elements – importance – various procedures – theoretical distribution – continuous – discrete – their suitability in modeling.",
+          "hours": 6
+        },
+        {
+          "title": "Generation of random variants",
+          "topics": "factors for selection – methods – inverse transform – composition – convolution – acceptance – rejection – generation of random variables – exponential – uniform – weibull – normal Bernoullie – Binomial – uniform – poison. Simulation languages – comparison of simulation languages with general purpose languages – Simulation languages vs Simulators – software features – statistical capabilities – G P S S – SIMAN- SIMSCRIPT –Simulation of M/M/1 queue – comparison of simulation languages. 25",
+          "hours": 6
+        },
+        {
+          "title": "Output data analysis",
+          "topics": "Types of Simulation with respect to output data analysis – warm up period Welch algorithm – Approaches for Steady – State Analysis – replication – Batch means methods – comparisons.",
+          "hours": 6
+        },
+        {
+          "title": "Applications of Simulation",
+          "topics": "flow shop system – job shop system – M/M/1 queues with infinite and finite capacities – Simple fixed period inventory system – New boy paper problem",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-321-IND",
+      "title": "Program Elective1- c) Machine Tool design",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Gear Box Design",
+          "topics": "Design considerations for drives based on continuous and intermittent requirement of power, Types and selection of motor for the drive, Regulation and range of speed based on preferred number series, geometric progression. Design of speed gear box for spindle drive and feed gear box.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Machine Tool Structures",
+          "topics": "Analysis of forces on machine tool structure, static and dynamic stiffness. Design of beds, columns, housings, bases and tables. Design of spindle and spindle support using deflection and rigidity analysis, analysis of Antifriction bearings, preloading of antifriction bearing.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Guide ways and Power Screw",
+          "topics": "Functions and types of guide ways, design criteria and calculation for slide way s, design of Hydrodynamic, hydrostatic and aerostatic slide ways, Stick -Slip motion in slide ways. Design of power screws: Distribution of load and rigidity analysis.",
+          "hours": 7
+        },
+        {
+          "title": "Controls and Stability of machine tools",
+          "topics": "Dynamic characteristics of the cutting process, Stability analysis, vibrations of machine tools. Control Systems: Mechanical and Electrical, Adaptive Control System, relays, push button control, electrical brakes, drum control.",
+          "hours": 6
+        },
+        {
+          "title": "Special Features of Machine Tools",
+          "topics": "Design considerations of Stepless drives, electromechanical system of regulation, friction, and ball variators, PIV drive, Epicyclic drive, principle of self-locking, Machine tool monitoring and safety.",
+          "hours": 67
+        }
+      ]
+    },
+    {
+      "code": "PEC-321-IND",
+      "title": "Program Elective1- d) Supply Chain Management",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Supply Chain – Fundamentals –Evolution- Role in Economy - Importance - Decision Phases - Supplier- Manufacturer Customer chain. - Enablers/ Drivers of Supply Chain Performance. Supply chain strategy - Supply Chain Performance Measures.",
+          "hours": 6
+        },
+        {
+          "title": "Strategic Sourcing",
+          "topics": "Outsourcing – Make Vs buy - Identifying core processes - Market Vs Hierarchy - Make Vs buy continuum -Sourcing stra tegy - Supplier Selection and Contract Negotiation. Creating a world class supply base- Supplier Development - World Wide Sourcing.",
+          "hours": 6
+        },
+        {
+          "title": "Warehouse Management",
+          "topics": "Stores management -stores systems and procedures -incoming materials control -stores accounting and stock verification Obsolete, surplus and scrap -value analysis-material handling-transportation and traffic management -operational efficiency productivity-cost effectiveness-performance measurement",
+          "hours": 6
+        },
+        {
+          "title": "Supply Chain Network",
+          "topics": "Distribution Network Design – Role - Factors Influencing Options, Value Addition – Distribution Strategies - Models for Facility Location and Capacity allocation. Distribution Center Location 29 Models. Supply Chain Network optimization models. Impact of uncertainty on Network Design - Network Design decisions using Decision trees",
+          "hours": 6
+        },
+        {
+          "title": "Planning Demand, Inventory and Supply",
+          "topics": "Managing supply chain cycle inventory. Uncertainty in the supply chain –- Analyzing impact of supply chain redesign on the inventory - Risk Pooling - Managing inventory for short life - cycle products - multiple item -multiple location inventory management. Pricing and Revenue Management.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-322-IND",
+      "title": "Program Elective1-Lab - a) Finite Element Analysis",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        30,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-IND",
+      "title": "Program Elective1-Lab - b) Advanced Manufacturing Systems",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        31,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-IND",
+      "title": "Program Elective1-Lab - c) Machine Tool design",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        32,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-IND",
+      "title": "Program Elective1-Lab - d) Supply Chain Management",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        33,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-331-IND",
+      "title": "MDM-3-IoT and Machine Learning",
+      "semester": 5,
+      "type": "MDM",
+      "credits": 3,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "IoT Architecture and Data Pipeline",
+          "topics": "IoT concepts and architecture (device–gateway–cloud–application), data acquisition and streaming concepts, edge, fog and cloud computing, overview of IoT communication protocols (MQTT, HTTP), introduction to IoT data pipeline and AWS cloud ecosystem.",
+          "hours": 6
+        },
+        {
+          "title": "Cloud Infrastructure for IoT",
+          "topics": "(AWS Based) (06Hours) Introduction to AWS cloud platform, EC2 (virtual machines), S3 (cloud storage), IAM (identity and access management), AWS IoT Core (overview), data ingestion and storage workflow, hosting basic applications and dashboards on cloud.",
+          "hours": null
+        },
+        {
+          "title": "IoT Data Processing and Visualization",
+          "topics": "IoT data cleaning and preprocessing, API integration concepts, cloud database overview, monitoring and logging (CloudWatch concept), data visualization using AWS services, Excel and free BI tools, security considerations in IoT cloud systems.",
+          "hours": 6
+        },
+        {
+          "title": "IoT Data Processing and Visualization",
+          "topics": "Machine learning life cycle for IoT, supervised and unsupervised learning overview, anomaly detection and predictive maintenance concepts, confusion matrix and evaluation metrics, model deployment concept in cloud, applications in smart agriculture, industrial monitoring and robotics. Assignments / Practical Exercises (6 suggested) 1. Creating AWS account and understanding cloud environment 2. Launching and configuring EC2 instance 3. Uploading and managing data using S3 4. Implementing IoT data ingestion workflow 5. Creating basic cloud-based dashboard 6. Data preprocessing using Excel or cloud tools 7. Applying simple ML model on IoT dataset 35 8. Mini Project: Cloud-based IoT Monitoring and Prediction System",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE",
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-342-IND",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "ELC",
+      "credits": 1,
+      "pages": [
+        36,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-IND",
+      "title": "Simulation, Modeling and Digital Twin",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Modeling and Simulation",
+          "topics": "Introduction to systems, models, and simulation, Types of models: Physical, Mathematical, and Computer Models, Continuous and Discrete System Models, Deterministic and Stochastic Models, Simulation methodology and life cycle, Applications of modeling and simulation in engineering",
+          "hours": 6
+        },
+        {
+          "title": "Mathematical Modeling and Simulation Techniques",
+          "topics": "Development of mathematical models, State -variable and input -output models, Differential equation - based modeling, Probability distributions and random number generation, Monte Carlo simulation, Queuing and inventory system modeling Model verification and validation",
+          "hours": 6
+        },
+        {
+          "title": "Discrete Event and Manufacturing System",
+          "topics": "Simulation (06Hours) Fundamentals of discrete-event simulation, Event scheduling and process interaction approaches, Simulation of manufacturing systems, Production line and assembly system simulation, Material handling system simulation, Performance measures and bottleneck analysis, Introduction to simulation software (Arena, FlexSim, AnyLogic, Simul8)",
+          "hours": null
+        },
+        {
+          "title": "Digital Twin Technology",
+          "topics": "Introduction to Digital Twin, Evolution from simulation to digital twin, Components and architecture of a digital twin, Data acquisition and sensor integration, Cyber-Physical Systems (CPS), Internet of Things (IoT) and cloud connectivity, Real-time monitoring and synchronization, Digital twin lifecycle management 38",
+          "hours": 6
+        },
+        {
+          "title": "Applications of Digital Twins and Smart Manufacturing",
+          "topics": "Digital twins in manufacturing and production systems, Predictive maintenance and condition monitoring, Digital twins for robotics and automation. Smart factories and Industry 4.0, AI and Machine Learning integration with digital twins, Case studies in aerospace, automotive, healthcare, and smart cities, Challenges, security issues, and future trends",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-IND",
+      "title": "Process Engineering and Resource Planning",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Process Engineering",
+          "topics": "Product design and role of product designer Analysis of part print: Method of reading and interpreting the part print, identification of nature of work to be performed, Identification of functional surfaces, grouping of related surfaces to be machined, Identification of basic process for processing and sequence of operation from part print. Process engineering and its functions, Co-ordination of process Engineering with other departments., Organization chart, general manufacturing processes, concept of design for manufacturing, communication in engineering Industry, glossary of terms used in process planning.",
+          "hours": 6
+        },
+        {
+          "title": "Geometric dimensioning and tolerance analysis",
+          "topics": "Dimensional Analysis: Types of dimensions, concept of baseline dimensions, datum selection, dimensional chain and linkage analysis, concept of straightness, flatness, roundness, concentricity and other geometrical forms. Surface quality and surface finish/surfa ce integrity and its effect on product properties. Tolerance Analysis: Producing accuracies and attainable accuracies - process capability 40 relation with statistical accuracies, prime accuracies, tolerance chart, tolerance grades and calculations, tolerance stack, tolerance analysis for assembly.",
+          "hours": 6
+        },
+        {
+          "title": "Work-piece control and selection of operations",
+          "topics": "(06Hours) Causes of work-piece variations, variables influencing work-piece control, equilibrium theories, mechanical, geometrical and dimensional control, Concept of location – fundamentals of locating, datum features, errors in location and clamping, establishing process areas, guidelines for identifying holding areas, supporting areas and critical areas. Study of basic process operations, principal processes and auxiliary processes, Identification of major, critical, qualifying, re-qualifying and supporting operations. Selection of single or combined operations, Identification of finishing operations, Establishing manufacturing sequence.",
+          "hours": null
+        },
+        {
+          "title": "Equipment & Tooling Selection",
+          "topics": "Factors to be considered in equipment/machine selection, determining machine up and down time. Types of tooling, Factors affecting selection of tooling, use of multi-tooling set-up. Process Sheet Design: Study of the part-print , logical design of process plan, stock preparation, blank size selection with material estimates, Selection of datum surfaces, identification of machining surfaces, dimension and tolerance analysis, selection of machining methods with time estimates and standard time for each operation, Preparation of process picture sheet and operation route sheet for complete manufacturing part.",
+          "hours": 6
+        },
+        {
+          "title": "Process Selection, Capacity Planning and Computer aided",
+          "topics": "process planning (06Hours) Component of process selection, Factor affecting on process selection decisions, Deigning the process (Process flow analysis ,Process Re-engineering, Product –Process Mix, Operations Strategy, Capacity utilization, Capacity Planning, Importance of capacity decisions, Defining and measuring capacity, Dimensions of capacity, Determining capacity requirements, , Factors determining effective capacity, OEE and its calculation, Advantages over manual process planning, approaches for CAPP: Generative Process Planning, Knowledge-based Process Planning, Feature Recognition in Computer Aided Process Planning, recent trends",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-IND",
+      "title": "Simulation, Modeling and Digital Twin Lab",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        41,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-354-IND",
+      "title": "Process Engineering and Resource Planning Lab",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        42,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-361-IND",
+      "title": "Program Elective 2- a) Advanced Manufacturing Processes",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Unconventional Machining Processes-I",
+          "topics": "Need & types of non -conventional methods & importance of methods, Principle of working, equipment, Mechanism of material removal, Process parameters, performance characterization, Applications of following process such as Abrasive jet machining ( AJM), Water jet machining (WJM), Abrasive Water jet machining (AWJM), Ultrasonic machining (USM).",
+          "hours": 6
+        },
+        {
+          "title": "Unconventional Machining Processes -II",
+          "topics": "Principle of working, equipment, Mechanism of material removal, Process parameters, performance characterization, Applications of following process such as Electrochemical machining (ECM), Electro discharge machining (EDM), Electron beam machining (EBM), Laser beam machining (LBM) processes, working principal of Plasma arc machining.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Casting Processes",
+          "topics": "Metal mould casting, Continuous casting, Squeeze casting, Vacuum mould casting, Evaporative pattern casting, Ceramic shell casting.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Welding Processes",
+          "topics": "Heat Flow in Welding: Calculation of peak temperature; Width of Heat Affected Zone (HAZ); cooling rate and solidification rates; weld thermal cycles; residual stresses and their measurement; weld distortion and its prevention. Weld Design: Types of welds & joints, Joint Design, Welding Symbols, weld defects, Inspection/testing of welds, Introduction to Welding Procedure Specification & Procedure Qualification Record. 44",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Fine Finishing Process and special manufacturing processes",
+          "topics": "Magnetic Abrasive Finishing (MAF), Magneto Rheological Abrasive Finishing (MRAF) - Process principle; Process equipment; Process Parameters; Process Capabilities; Applications; Limitations. Broaching: Types of broaching machines. Parts of the machines and their functions. Components machined on broaching machine. Broach geometry. Gear Manufacturing: Gear cutting processes- Gear hobbing, Gear shaping, Gear shaving, Gear lapping and gear grinding. Construction and working of the machines. Thread Manufacturing; Thread cutting, chasers and dies. Thread milling, thread rolling, thread lapping and thread Grinding",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-361-IND",
+      "title": "Program Elective 2- b) Mechatronics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Sensors and Transducers",
+          "topics": "Introduction to Mechatronics, Open and Closed loop control system, Block Diagram Algebra With respect to Types, Range, and Applications and limitations, Thermocouples, Thermistors and Resistance Temperature Detectors With respect to Construction, Working and Ap plications, Linear Variable Differential Transducer. With respect to Principle, Types, and Applications, Strain Gauges, Gauge Factor and Measurement of Strain With respect to construction, working and specifications Electromagnetic Flow meter. With respect to specifications and applications, Capacitive and Inductive Proximity sensors Angular Velocity measurement, Tacho generators, Rotary Encoders 46",
+          "hours": 7
+        },
+        {
+          "title": "Analog Signal Conditioning",
+          "topics": "Passive Circuits, Voltage dividers, Wheatstone‘s bridge, Low pass , high pass and bandpass filters. Op - Amps, Characteristics and Specifications, Voltage Follower, Inverting Amplifier, Non-Inverting Amplifier, Summing Amplifier, Instrumentation Amplifier, Integrator, Differentiator. Current To Voltage Converter, Current to Voltage Converter Numerical Examples based on Wheatstone‘s Bridge and Op-Amps",
+          "hours": 7
+        },
+        {
+          "title": "Interfacing",
+          "topics": "Logical Gates, Boolean Algebra, Binary, Octal and Hexadecimal Number Systems and their significance. Analog to Digital Conversion SAR & R -2R Di gital to Analog Conversion Sample and Hold Circuits, Sampling Theorem, Samplifing Frequency, Quantization. Numerical Examples based on ADC, DAC and Sampling",
+          "hours": 7
+        },
+        {
+          "title": "Control System",
+          "topics": "Controller Actions, Proportional Controllers (P Mode), Integral Controllers (I Mode) with examples of plotting controller action vs time for respective error time plot Proportional-Integral Controllers (PI Mode) with examples Derivative Controllers (D Mode) Proportional-Derivative Controllers (PD Mode) with examples Proportional-Integral-Derivative Controllers (PID Mode) with examples",
+          "hours": 7
+        },
+        {
+          "title": "PLC Programming",
+          "topics": "Introduction to PLC Programming, Types of PLC Languages, Ladder Diagram Format, Ladder Relay Instructions, Ladder Relay Programming, Timer Instructions with example Counter Instructions with example",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-361-IND",
+      "title": "Program Elective 2- c) Production Tooling",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Design of Blanking dies and progressive dies",
+          "topics": "Strip layouts, percent utiliza tion, analysis of cutting force and stripping force, Method of reducing the cutting forces, calculation of press tonnage, clearance, Standards and specifications. Aspects of die design and drawing",
+          "hours": 7
+        },
+        {
+          "title": "Design of Drawing and Bending Dies",
+          "topics": "Design of shallow and deep drawing dies, Calculation of blank size by area and graphical method percentage reduction and diameter and height of cup in each stage in each stage, number of draws, drawing force and blank holding force in each draw, press capacity . Types of Bending dies, Developed length calculation, bending force, spring back 48",
+          "hours": 7
+        },
+        {
+          "title": "Design of Forging Dies",
+          "topics": "Multi Impression Die: Design of forging die for multi -impression die-: selection of parting line, stock size calculation, flash and gutter, drafts, fillet & comer radii, ribs and webs, design of fullering, edging, blocking, finishing impressions, trimming dies, Die block dimensions, die inserts. Upsetting die: Rules for upset forging, design of upset die.",
+          "hours": 7
+        },
+        {
+          "title": "Die casting die design",
+          "topics": "Die casting process, machines, die casting materials, specific details of die constructions, casting ejection, cores, slides, loose die pieces, types of cores, directional solidification, types of feeders, die venting, water cooling, classification of dies- single, combination, multi-impression. General details of die design, inserted impressions, die casting defects & their remedies, die lubrication- types & methods",
+          "hours": 7
+        },
+        {
+          "title": "Design of Injection mold",
+          "topics": "Plastic molding materials, types of plastic processing techniques, Determination of number of cavities, design of feed system- design of sprue, sprue puller, runners & gates, types of cooling system, design of cooling channels, heat 32 transfer considerations, , determination of mould opening force & ejection force, design of ejector system, use of CAD for mould design.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-361-IND",
+      "title": "Program Elective 2- D) Industrial Robotics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of robotics",
+          "topics": "Introduction: History, Definitions specified by Agencies, Classification and Applications, Laws of robotics, Specifications of robots, Flex ible automation Vs. Robotics technology, Safety measures in robotics, Role of Robots in Automation. Robot Anatomy and configurations: Cartesian, Cylindrical, Polar, Articulated, SCARA, Pendulum Arm, Multiple Joint Arm, Parallel Manipulator, Work Envelope/Volume, Degree of Freedom associated with Robot Arm & Wrist, Joints & Joint Notification Scheme, Precision of Movement",
+          "hours": 7
+        },
+        {
+          "title": "Robot Drive Systems",
+          "topics": "Pneumatic Drives, Hydraulic Drives, Mechanical Drives, Electrical Drives - D.C. Servo Motors, Stepper Motors, A.C. Servo Motors, BLDC - Salient Features, Applications and Comparison of all these Drives, Micro actuators, Selection of drive, Power and Motion Transmission Systems for Robot, Motion Conversion, Determination of Power of motor, Types of Gearbox - Planetary, Harmonic, Cycloidal Gearbox and Gear Ratio, Variable Speed Arrangements",
+          "hours": 7
+        },
+        {
+          "title": "End-effectors & Sensors",
+          "topics": "End-effectors/Grippers/Tooling: Introduction, Types, Classification, Construction, Working, Selection and Design Considerations of End-Effectors/Grippers/Tooling Interface used in various Robotic Applications, Active and Passive Compliance Sensors/Transducers: Introduction, Types, Classification, Construction, Working, Selection and Design Considerations of Transducers, Sensors, Resolvers, Encoders, Switches, Position/ Range/ Touch/ Force/ 50 Torque/ Safety Sensors and Transduces",
+          "hours": 7
+        },
+        {
+          "title": "Machine Vision System and Robot Programming",
+          "topics": "Machine Vision System: Vision System Devices, Image acquisition, Masking, Sampling and quantization, Image processing techniques, Noise reduction methods, Edge detection, Segmentation. Robot Programming: Methods of robot Programming, Methods of defining positions in space, Motion interpolation, branching, Textual robot programming languages.",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Applications of Robots and Robot Interfacing",
+          "topics": "Pick and place Robot, Arc Welding Robots, Assembly and mega-assembly Robots, Walking Robots, Climbing Robots, Machine mounted Robots. Interfacing Robots with computers.Obstacle Avoidance: Lee's Algorithm; Counter Path Defining using 'via' point, blending technique.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-IND",
+      "title": "Program Elective 3- a) Product Design and Development",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Introduction to Product Design and Development",
+          "topics": "Product design and Development definition, Objectives of Product design and development, Engineering Design Process, Engineering Development Process (Gateway System), Product Design Vs Product Development, Features of succ essful product design and development, Essential Factors for product design, The challenges of product development, ASIMOW Model/Morphology of product design, Who design and develops product -Concurrent engineering approach/CFT Approach, Reasons for new product failure, Product Life Cycle",
+          "hours": 7
+        },
+        {
+          "title": "Market Survey & Product Specification Finalization",
+          "topics": "Product definition, Types of products, Customer Population and Market segmentation - Types of customers and Needs, Customer need Models - Introduction to Kano Model, Triz Method/Altshuller Matrix, Design Thinking, etc. Types of Design information and the Various Sources of information, Product planning and its Phases, Mission statement and Technical Questioning, Technology forecasting and S-curve, Tools for gathering Customer needs, QFD and House of quality 52",
+          "hours": 7
+        },
+        {
+          "title": "Concept Inception, Verification and selection",
+          "topics": "Idea generation and Idea generation approaches -Triz Method, Benchmarking, Brainstorming, Alternate thinking, Reverse Engineering etc, Pro duct Policy of an organization, Selection of Profitable Concept - SWOT Analysis, Concept Selection Process, Pugh’s Concept selection process, Concept Analysis - Marketing aspect, Product characteristics (Functional/ Operational/Durability/Aesthetic/Ergonomic Aspects), Economic analysis, Production aspect, functional Modelling and decomposition - Functional analysis system technique, Subtract and operate procedure",
+          "hours": 7
+        },
+        {
+          "title": "Concept Exploration & Development",
+          "topics": "Solid Modelling of part and assembly, Product architecture, Digital product design of part and assembly with respect to Engineering drawing definition, Classification of engineering drawing, Elements of production drawing, Bill of material, Types of dimensions, Arrangement of dimensions, Principles of dimensioning, Limits, Fits and Tolerances, Geometric Tolerances, Datum System, Design for Assembly, Design for manufacturing, Design for processes, Product design Steps, Introduction of Ergonomics in product design, Design Review/Part Print Analysis",
+          "hours": 7
+        },
+        {
+          "title": "Design Verification and Validation",
+          "topics": "FEA-CFD-MBD-FSI, Simulation driven design, Additive manufacturing, Policy and Homologation certification by National and International agencies, Introduction to Break Even analysis and Production capacity planning, Make VS buy Decision, Business case Preparation, Facility tooling and gauges design and Development- Vendor Development, Letter of Intent, Purchase order, Product costing, Product Testing and Validation, Introduction to Production part approval process tools (PPAP)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-IND",
+      "title": "Program Elective 3- b) Nano Engineering",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Ultra-precision Machining Processes",
+          "topics": "Introduction to nanoscale material removal process analysis, Ductile Mode Cutting of Brittle Materials, Advances and recent developments in material removal processes, Precision (micro and nano) machining processes, Applications of precision Turning, Drilling, Milling and Grinding processes, cutting tools and instrumentation used in precision (micro and nano) machining processes, use of Diamond Tools in Micromachining,",
+          "hours": 7
+        },
+        {
+          "title": "Ultra-precision Forming Processes",
+          "topics": "Introduction to precision (micro and nano) forming processes, Applications of precision forging, Plastic forming and Roller Imprinting, extrusion, sheet metal forming and hydroforming, tools and instrumentation used in precision (micro and nano) forming processes",
+          "hours": 7
+        },
+        {
+          "title": "Non‐conventional micro‐nano machining",
+          "topics": "Introduction to Non‐conventional micro‐nano manufacturing Processes, principle and applications of – Abrasive Jet Micro Machining, WAJMM, Micro EDM, Micro WEDM, Micro EBM, Micro ECM, Micro LBM, Fundamentals of lasers, Laser microfabrication, Laser nanofabrication. 54",
+          "hours": 7
+        },
+        {
+          "title": "Nano Finishing Processes",
+          "topics": "Introduction to Nano Finishing Processes, Magneto-rheological Finishing (MRF) processes, Magneto- rheological abrasive flow finishing processes (MRAFF) – process principle and applications, Elastic Emission Machining (EEM) – machine description, applications, Ion Beam Machining (IBM) – principle, mechanism of material removal, applications, Chemical Mechanical Polishing (CMP) – Schematic diagram, principle and applications.",
+          "hours": 6
+        },
+        {
+          "title": "Micro-nano Fabrication and Micro -nano Measurements",
+          "topics": "Introduction to Micro and Nano Fabrication: basics, flowchart, basic chip making processes, Introduction to Nanofabrication, Nanofabrication using soft lithography– principle, applications, Introduction to Carbon nano materials – CN Tubes properties and applications Introduction to micro and nano measurements, defining the scale, uncertainty Scanning Electron Microscopy – description, principle, Optical Microscopy– description, application, Scanning Probe Microscopy, scanning tunneling microscopy description, application, Introduction to On-Machine Metrology",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-IND",
+      "title": "Program Elective 3- c) Statistics and Numerical Methods",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "Statistical hypothesis and tests",
+          "topics": "Testing of Hypothesis Sampling distributions - Estimation of parameters, Statistical hypothesis, Large sample tests based on Normal distribution for single mean and difference of means, -Tests based on t, Chi -square and F distributions for mean, variance and proportion - Contingency table (test for independent) - Goodness of fit.",
+          "hours": 7
+        },
+        {
+          "title": "Design and Analysis of Experiments",
+          "topics": "Design and Analysis of Experiments: Importance of experiments, Experimental strategies, Basic Principles of Design Terminology, ANOVA, steps in experimentation, two and three full Factorial experiments, Taguchi Methods, Design using Orthogonal Arrays, S/N ratios, Data Analysis",
+          "hours": 7
+        },
+        {
+          "title": "Errors & approximations analysis",
+          "topics": "Errors & approximations: types of errors, error propagation. Numerical solution of algebraic and transcendental equations by bisection method. Newton Raphson Method. Numerical solution of Linear Simultaneous Equations by Gauss Elimination Method, Gauss-Siedel Method 56",
+          "hours": 7
+        },
+        {
+          "title": "Methods of curve fitting",
+          "topics": "Numerical methods - Curve Fitting, methods of curve fitting. Least square criterion- 1st and 2nd order Interpolation: Lagrange’s formula, Newton forward difference method. Methods of moment for curve fitting.",
+          "hours": 6
+        },
+        {
+          "title": "Numerical Differentiation and Optimization Methods",
+          "topics": "Interpolation, Newton’s forward and backward difference interpolation, Numerical Differentiation and Numerical Integration, Lagrange’s and Newton’s divided difference, Approximation of derivatives using interpolation, polynomials – Numerical single and double integrations using Trapezoidal and Simpson’s 1/3 rules, Manufacturing Optimization- Method of Lagrange multipliers, steepest descent method, Introduction of classical optimization and multiple optimization. Generalized reduced gradient Method. Introduction to GA and SA. Case studies",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-IND",
+      "title": "Program Elective 3- d) Financial Management",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        57,
+        58
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Financial function, Scope, goals and tools. Sources of finance, corporate planning and financial management. Financial Statements: Balance sheet, profit and loss account. Ratio Analysis: Classification, Ratio Analysis and its limitations. Operating and Financial Leverage",
+          "hours": 7
+        },
+        {
+          "title": "Working Capital Management",
+          "topics": "Concept and design of Working C apital, types of working capital, sources of working capital, time value of money, cost and capital, cost of capital. Funds Flow Analysis: Concepts, Objectives, and Techniques of Funds Flow Statement",
+          "hours": 7
+        },
+        {
+          "title": "Cositng",
+          "topics": "Methods of costing and elements of cost. Material Cost: Different methods of pricing of issue of materials. Material losses - Wastage and its consideration. Labour Cost: Different methods wages and 58 incentive plans. Principles of good remunerating system, labour turnover and its methods.",
+          "hours": 7
+        },
+        {
+          "title": "Working Capital Management",
+          "topics": ".Concept and design of Working Capital, types of working capital, sources of working capital, time value of money, cost,and capital, cost of capital. Funds Flow Analysis: Concepts, Objectives, and Techniques of Funds Flow Statement.",
+          "hours": 6
+        },
+        {
+          "title": "Type of Coating Methods",
+          "topics": "Concept, development & use of standard costing. Material, Labour, Overhead, Sales. Profit, Product-mix and Yield Variance, Marginal Costing: Concept, Use of Marginal Costing in decision-making",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-363-IND",
+      "title": "Program Elective 2 -Lab - a) Advanced Manufacturing Processes",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        59,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363-IND",
+      "title": "Program Elective 2 -Lab - b) Mechatronics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        60,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363-IND",
+      "title": "Program Elective 2 -Lab - c) Production Tooling",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        61,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363-IND",
+      "title": "Program Elective 2 -Lab - d) Industrial Robotics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        62,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-IND",
+      "title": "MDM-4-Materials Management",
+      "semester": 6,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        63,
+        64
+      ],
+      "units": [
+        {
+          "title": "Introduction to Material Management",
+          "topics": "Definition, scope, and objectives of Material Management, Importance in production systems , Functions of material management , Relationship with other departments (Production, Finance, Marketing) , Types of materials: Raw materials, WIP, Finished goods, Consumables , Integrated material management concept",
+          "hours": 6
+        },
+        {
+          "title": "Purchasing Management",
+          "topics": "Objectives and functions of purchasing, purchasing cycle and procedures, Vendor selection and evaluation, Make-or-buy decision, Tendering process and negotiation techniques, Purchase documentation (RFQ, PO, etc.), Ethical issues in purchasing",
+          "hours": 6
+        },
+        {
+          "title": "Inventory Management and Stores Management",
+          "topics": "Meaning and types of inventory, Inventory costs (ordering, carrying, shortage), Techniques of inventory control:-EOQ (Economic Order Quantity), ABC analysis, VED analysis, FSN analysis, Safety stock and reorder level, Just-In-Time (JIT) concept Store keeping principles, Codification and classification of materials Store records (Bin card, Stores ledger), Material handling systems and equipment, Stock verification and auditing, Tutorials (5–6 suggested topics) Case study: Implementation of quality management in a manufacturing company Control chart problems (X-bar, R, P, C charts) Process capability calculation exercises (Cp, Cpk) Acceptance sampling exercises using single and double sampling plans Six Sigma DMAIC case study for a process improvement scenario 64 Analysis of quality award winners (Deming Prize / ISO certified companies) Assignments / Practical Exercises (6 suggested) Prepare a quality manual for a small manufacturing setup (",
+          "hours": 6
+        },
+        {
+          "title": "application)",
+          "topics": "Construct control charts using sample data from lab or hypothetical process (unit 2) Calculate process capability indices (Cp, Cpk) for given production data Perform a failure mode and effect analysis (FMEA) for a simple product or process (unit 3) Conduct a mini audit of a lab or workshop process for compliance with ISO 9001 standards Analyze a real-life case study for TQM implementation and prepare a report with recommendations",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MDM-372-IND",
+      "title": "VSEC-Fabrication Lab",
+      "semester": 6,
+      "type": "VSEC",
+      "credits": 1,
+      "pages": [
+        65,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC381-IND",
+      "title": "Experiential Learning Course (Internship/OJT)",
+      "semester": 6,
+      "type": "ELC",
+      "credits": 4,
+      "pages": [
+        66,
+        67
+      ],
+      "units": []
+    }
+  ],
+  "notes": "NEP-2020 Compliant Curriculum (2024 Pattern), Semesters V & VI."
+}

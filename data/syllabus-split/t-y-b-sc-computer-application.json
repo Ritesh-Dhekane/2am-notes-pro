@@ -1,0 +1,685 @@
+{
+  "id": "t-y-b-sc-computer-application",
+  "kind": "programme",
+  "programme": "Third Year B. Sc. (Computer Applications)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA-301-PCC",
+      "title": "Software Engineering and Testing",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 4,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to System Engineering",
+          "topics": "1.1 Introduction, Definition of Software 1.2 Elements of the System 1.3 Characteristics of the System 1.4 Definition of Software Engineering 1.5 Need for Software Engineering 1.6 Types of System 1.7 System Analyst 1.7.1 Role of System Analyst 1.7.2 Skill Set Required by an Analyst",
+          "hours": 8
+        },
+        {
+          "title": "Software Development Models and Requirement",
+          "topics": "Engineering 14 Hours 2.1 Introduction - A Generic Process Model 2.2 SDLC, and Umbrella Activities 2.3 Waterfall Model 2.4 Spiral Model 2.5 Prototyping 2.6 RAD 2.7 Incremental Model 2.8 Agile Model Principles 2.8.1 Agile Process 2.8.2 Scrum 2.9 Requirement Engineering tasks - Inception, Elicitation, Elaboration, Negotiation 2.9.1 Fact-Finding Techniques - Questionnaires, Interviews, Observation, Record Review 2.9.2 Feasibility study 2.10 SRS 2.10.1 Characteristics of SRS 2.11 Introduction to Object oriented modelling and design",
+          "hours": null
+        },
+        {
+          "title": "System Analysis and Design Tools",
+          "topics": "3.1 Introduction 3.2 Data Flow Diagram (Process Modeling) 3.3 E-R Model (Data Modelling) 3.4 Decision Table 3.5 Decision Tree 3.6 Input and Output Design 3.7 Coupling and Cohesion 3.8 Case Study on the above topics 3.9 Introduction to UML diagrams",
+          "hours": 14
+        },
+        {
+          "title": "Introduction to Software Testing",
+          "topics": "4.1 Introduction, Nature of errors, 4.2 Testing Objectives 4.3 Testing principles 4.4 Testing fundamentals, 4.5 Software reviews, Formal Technical reviews, 4.6 Inspection and walkthrough 4.7 Testing Life Cycle 4.8 Basic Metrics –size-oriented metric, Function –oriented metric 4.9 Cyclometic Complexity 4.10 Software Quality Assurance And Audit Trail 4.11 McCall’s Quality Factors",
+          "hours": 8
+        },
+        {
+          "title": "Software Testing Methods",
+          "topics": "5.1 White Box Testing and types of white box testing 5.2 Test Case Design 5.3 Black Box Testing and types of black box testing 5.4 Gray Box Testing 5.5 Software Testing Process 5.6 Unit Testing 5.7 Integration- Top-down, Bottom up 5.8 System Testing 5.9 Acceptance Testing (alpha, Beta Testing) 5.10 Validation and Verification 5.11 Performance Testing 5.12 Regression Testing 5.13 Smoke Testing 5.14 Load Testing",
+          "hours": 8
+        },
+        {
+          "title": "Testing Tools and Software Quality Assurance",
+          "topics": "6.1 JUnit, Apache JMeter, Selenium 6.2 Load runner, Rational Robot 6.3 Quality Concepts, Quality Movement, Background Issues, SQA activities 6.4 Formal approaches to SQA 6.5 Statistical Quality Assurance 6.6 Software Reliability 6.7 The ISO 9000 Quality Standards 6.8 SQA Plan 6.9 Six sigma",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CA-302-PCC",
+      "title": "Fundamentals of Artificial Intelligence",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "1.1 Introduction and History of Artificial Intelligence 1.2 Applications and Techniques of Artificial Intelligence 1.3 Types of Artificial Intelligence (ANI, AGI, ASI) 1.4 Machine Learning, Deep Learning and Artificial Intelligence – Comparative Overview 1.5 Agents and Environments: Types of Agents 1.6 Structure of Intelligent Agents and Rationality 1.7 Ethics and Risks in Artificial Intelligence",
+          "hours": 5
+        },
+        {
+          "title": "Problem, Problem Space and Search",
+          "topics": "2.1 Defining the problem as a State Space Search (e.g- Water Jug Problem) 2.2 Problem Characteristics 2.3 Heuristic Search, Hill Climbing Method 2.4 Game Playing: Min-Max algorithm, Alpha beta Pruning 2.5 Additional Problems: The Missionaries and Cannibal Problems, The Tower of Hanoi, Monkey Banana Problem",
+          "hours": 5
+        },
+        {
+          "title": "Game Theory",
+          "topics": "3.1 Optimal Decisions in Games 3.2 Heuristic Alpha–Beta Tree Search 3.3 Monte Carlo Tree Search 3.4 Stochastic Games 3.5 Partially Observable Games 3.6 Limitations of Game Search Algorithms 3.7 Constraint Satisfaction Problems (CSP)",
+          "hours": 10
+        },
+        {
+          "title": "Machine Learning",
+          "topics": "4.1 Introduction to Machine Learning (Definition, Relationship between Artificial Intelligence and Machine learning, Need and Importance of Machine Learning) 4.2 Types of Machine Learning (Supervised, Unsupervised and Reinforcement Learning) 4.3 Key concept of Machine Learning (Dataset, Training Data, Testing Data, Features, Labels, Model, Learning Algorithm with example, prediction, Over fitting, Under fitting) 4.4 Deep Learning: Definition, Basic concepts, ANN, Structure of neural network, Activation function (concept only) Natural Language Processing, Computer Vision, Speech Recognition, Robotics, Generative AI. 4.5 Ethical issues in Machine Learning. 4.6 Applications: Healthcare, Banking and finance, education, E-commerce, Recommendation System",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CA-303-PCCP",
+      "title": "Lab course on CA-302-PCC",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-304-PCC",
+      "title": "Fundamentals of Data Science",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        16,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Science",
+          "topics": "1.1 Introduction to Data Science 1.1.1 Definition and scope of Data Science 1.1.2 Evolution of Data Science 1.1.3 Data Science vs Data Analytics vs Big Data 1.2 Data Science Lifecycle 1.2.1 Problem understanding 1.2.2 Data collection 1.2.3 Data preprocessing 1.2.4 Data analysis 1.2.5 Data visualization 1.2.6 Decision making and deployment 1.3 Types of Data 1.3.1 Based on Structure 1.3.1.1 Structured data 1.3.1.2 Semi-structured data 1.3.1.3 Unstructured data 1.3.2 Based on Nature 1.3.2.1 Qualitative data 1.3.2.2 Quantitative data 1.3.3 Based on Values 1.3.3.1 Discrete data 1.3.3.2 Continuous data 1.4 Data Sources 1.4.1 Primary data sources 1.4.2 Secondary data sources 1.4.3 Databases 1.4.4 Web data 1.4.5 APIs 1.4.6 Sensor and IoT data 1.4.7 Social media data 1.5 Data Formats 1.5.1 Text data 1.5.2 Numeric data 1.5.3 Time-series data 1.5.4 Image data 1.5.5 Audio and video data 1.5.6 Common file formats: 1.5.6.1 CSV 1.5.6.2 JSON 1.5.6.3 XML 1.5.6.4 Excel 1.5.6.5 Database tables",
+          "hours": 6
+        },
+        {
+          "title": "Statistical Data Analysis",
+          "topics": "2.1 Introduction to Statistics 2.1.1. Importance of statistics in Data Science 2.1.2 Types of data in statistical analysis 2.2 Descriptive Statistics 2.2.1. Measures of Central Tendency 2.2.1.1. Mean 2.2.1.2. Median 2.2.1.3. Mode 2.2.2. Measures of Dispersion 2.2.2.1. Range 2.2.2.2. Variance 2.2.2.3. Standard Deviation 2.2.3. Measures of Position 2.2.3.1. Quartiles 2.2.3.2. Percentiles 2.2.4. Graphical representation of descriptive statistics 2.3 Inferential Statistics 2.3.1. Population and Sample 2.3.2. Sampling techniques 2.3.3. Concept of estimation 2.3.4. Hypothesis testing 2.3.5. Levels of significance 2.3.6. Type I and Type II errors 2.4. Measuring Data Similarity and Dissimilarity 2.4.1. Data Matrix versus Dissimilarity Matrix 2.4.2. Proximity Measures 2.4.2.1. Nominal Attributes 2.4.2.2. Binary Attributes 2.4.3. Dissimilarity measures 2.4.3.1. Euclidean distance 2.4.3.2. Manhattan distance 2.5. Concept of Outliers 2.5.1. Definition of outliers 2.5.2. Types of outliers 2.5.3. Detection of outliers 2.5.3.1 Statistical methods",
+          "hours": 6
+        },
+        {
+          "title": "Data Collection, Data Preprocessing and Data",
+          "topics": "Transformation 06Hours 3.1 Data Collection 3.1.1 Data collection methods 3.1.2 Data sources: databases, web data, APIs, sensors 3.2 Introduction to Data Preprocessing 3.2.1 Need for data preprocessing 3.2.2 Data quality issues 3.2.2.1 Missing values 3.2.2.2 Noisy data 3.2.2.3 Inconsistent data 3.3 Data Cleaning 3.3.1 Handling missing values 3.3.2 Noise reduction techniques 3.3.3 Outlier handling 3.3.4 Removing duplicate data 3.4 Data Munging / Data Wrangling 3.4.1 Concept of data munging and wrangling 3.4.2 Data merging and joining 3.4.3 Data reshaping and restructuring 3.4.4 Filtering and sorting data 3.4.5 Feature selection and feature extraction 3.5 Data Transformation 3.5.1 Concept and need for data transformation 3.5.2 Rescaling methods 3.5.2.1 Min–Max normalization 3.5.2.2 Standardization (Z-score normalization) 3.5.3 Encoding Techniques 3.5.3.1 Label Encoding 3.5.3.2 One-Hot Encoding 3.6 Data Integration and Data Reduction 3.6.1 Data integration techniques 3.6.2 Data redundancy removal 3.6.3 Data reduction methods 3.6.3.1 Dimensionality reduction 3.6.3.2 Sampling",
+          "hours": null
+        },
+        {
+          "title": "Data Visualization",
+          "topics": "4.1 Introduction to Data Visualization 4.1.1. Importance of data visualization 4.1.2. Role of visualization in Data Science 4.1.3. Data Visualization libraries 4.2. Types of Data Visualization 4.2.1. Comparison visualizations (bar chart, column chart) 4.2.2. Trend visualizations (line chart, area chart) 4.2.3. Distribution visualizations (histogram, box plot) 4.2.4. Relationship visualizations (scatter plot, bubble chart) 4.2.5. Composition visualizations (pie chart, stacked bar chart) 4.2.6. Geographical visualizations (maps, geo-plots) 4.3. Specialized Data Visualization Techniques 4.3.1. Heat maps 4.3.2. Tree maps 4.3.3. Geo-spatial visualizations (maps) 4.3.4. Network graphs 4.3.5. Time-series visualizations 4.3.6. Multivariate visualizations",
+          "hours": 6
+        },
+        {
+          "title": "Data Science Tools, Ethics, Security and Case",
+          "topics": "Studies 06 Hours 5.2 Data Science Tools 5.2.1. Programming languages for Data Science: 5.2.2. Python (overview) 5.2.3. R (overview) 5.3 Libraries and frameworks: 5.3.1. NumPy 5.3.2. Pandas 5.3.3. Scikit-learn (intro) 5.3.4. Development environments: 5.3.5. Jupyter Notebook 5.3.6. Google Colab 5.4 Ethics and Security 5.4.1. Data privacy and confidentiality 5.4.2. Data ethics 5.4.3. Bias in data and algorithms 5.4.4. Data security challenges 5.4.5. Legal and ethical issues in data handling 5.5 Case Studies and Applications 5.5.1. Predictive analytics case study 5.5.2. Recommendation systems (intro) 5.5.3. Fraud detection (concept) 5.5.4. Future trends and career opportunities in Data Science",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-305-PCCP",
+      "title": "Lab course on CA-304-PCC",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-310-PEC",
+      "title": "User Interface and User Experience (UI-UX) Design",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        23,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to UI and UX Design",
+          "topics": "1.1 Overview of UI and UX 1.1.1 Definition and scope of UI and UX 1.1.2 Difference between UI and UX 1.1.3 Importance of UI/UX in software development 1.2 User-centered design process 1.2.1 Phases of User-centered Design 1.2.2 Benefits of User-centered Design 1.2.3 Stakeholder involvement in User-centered Design 1.2.4 Iterative design and continuous improvement 1.3 Roles of UI/UX designers 1.3.1 Role of UI Designer 1.3.2 Role of UX Designer 1.3.3 Collaboration between UI and UX Designers",
+          "hours": 5
+        },
+        {
+          "title": "User Research and Information Architecture",
+          "topics": "2.1 Understanding users and user needs 2.1.1 Meaning of users and target audience 2.1.2 Identifying user goals, expectations, and problems 2.1.3 Importance of understanding users in UI/UX design 2.1.4 Relationship between user needs and product success 2.2 User research methods 2.2.1 Interviews 2.2.2 Surveys 2.2.3 Observations 2.3 Personas and empathy maps 2.3.1 Personas - fictional users based on research, User goals, behavior, skills, and challenges 2.3.2 Empathy maps - understand what users think, feel, say, and do, designing user-focused solutions 2.4 User journey mapping 2.4.1 Visual representation - user interaction with a system, 2.4.2 Displaying steps taken by users to achieve a goal, 2.4.3 Identifying pain points and opportunities for improvements 2.4.4 Improving overall user experience 2.5 Information architecture 2.5.1 Organization and structure of content 2.5.2 Navigation, menus, and content hierarchy 2.5.3 Usability and clarity of interface 2.6 Use cases and scenarios 2.6.1 Use cases - interactions between user and system 2.6.2 Scenarios - real-world situations of system usage 2.6.3 Functional requirements 2.6.4 Planning user flows and interactions",
+          "hours": 7
+        },
+        {
+          "title": "UI and UX Design Principles",
+          "topics": "3.1 UI Design Principles 3.1.1 Visual design fundamentals 3.1.2 Color theory and typography 3.1.3 Layouts and grid systems 3.2 UI elements and components 3.2.1. Responsive and adaptive design 3.2.2 Design consistency 3.3 UX Design Principles 3.3.1. Interaction design fundamentals 3.3.2. Navigation design 3.3.3. Accessibility and inclusive design (WCAG overview) 3.4 Designing for multiple platforms 3.4.1 Designing for mobile, tablet, and desktop 3.4.2 Consistent user experience across devices 3.4.3 Layout adaptation for different screen sizes 3.4.4 Responsive and adaptive design 3.5 Wireframing techniques 3.5.1 Basic structure of user interface 3.5.2 Paper and digital wire framing methods 3.5.3 Planning layout and user flow 3.6 Introduction to gamification",
+          "hours": 6
+        },
+        {
+          "title": "Prototyping and UI/UX Tools",
+          "topics": "4.1 Low-fidelity and high-fidelity prototyping 4.1.1 Concept and purpose of prototyping 4.1.2 Characteristics of low-fidelity prototypes (paper sketches, basic wireframes) 4.1.3 Advantages and limitations of low-fidelity prototyping 4.1.4 Characteristics of high-fidelity prototypes (visual accuracy, interactivity) 4.1.5 Use cases and benefits of high-fidelity prototyping 4.1.6 Selection criteria for appropriate prototyping level 4.2 Wireframes vs prototypes 4.2.1 Definition and purpose of wire framing 4.2.2 Types of wireframes (low, mid, high fidelity) 4.2.3 Key differences between wireframes and prototypes 4.2.4 Role of wireframes and prototypes in UX documentation 4.3. Introduction to tools: Figma / Adobe XD 4.3.1 Overview and features of Figma and Adobe XD 4.3.2 Tools for wire framing and Prototyping 4.3.3 Benefits of using Figma / Adobe XD 4.4. Design handoff for developers 4.4.1 Importance of design handoff in product development 4.4.2 Preparing design specifications and assets 4.4.3 Exporting assets for development 4.4.4 Collaboration between designers and developers 4.4.5 Tools and best practices for efficient handoff",
+          "hours": 6
+        },
+        {
+          "title": "Usability Testing and Evaluation",
+          "topics": "5.1 Importance of usability testing 5.1.1 Meaning and purpose of usability testing 5.1.2 Ensuring ease of use, efficiency, and user satisfaction 5.1.3 Identifying usability issues at early stages of design 5.1.4 Role of usability testing in improving product quality 5.1.5 Impact of usability testing on cost reduction and design validation 5.2 Types of usability testing 5.2.1 Formative testing 5.2.2 Summative testing 5.2.3 Moderated testing 5.2.4 Unmoderated testing 5.2.5 Remote usability testing 5.3 Collecting and analyzing user feedback 5.3.1 Feedback collected through surveys, interviews, and observation 5.3.2 Identify user difficulties and expectations, and Satisfaction levels. 5.3.3 Introduction to UX Matrices: Task Success Rate, Error Rate, Time Taken for completion, user satisfaction Score 5.3.4 Design improvements 5.3.5 Converting user feedback into actionable design changes 5.4 A/B testing basics 5.4.1 Concept of A/B testing 5.4.2 Comparison of two design versions (Version A and Version B) 5.4.3 Common use cases: layouts, buttons, and navigation structure 5.4.4 Role of A/B testing in improving user experience 5.4.5 Limitations of A/B testing 5.5 Iterative design proces...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CA-311-PECP",
+      "title": "Lab course on CA - 310- PEC",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-312-PEC",
+      "title": "Cloud Computing",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": "1.1 Overview and Evolution 1.1.1 What is computing? 1.1.2. Types of computing Distributed Computing, Grid Computing, Cluster Computing, Utility Computing 1.2 Introduction to Cloud Computing 1.2.1 Features/Characteristics of a cloud 1.2.2 Advantages and Disadvantages of Cloud Computing 1.2.3 Deployment Models (Types of Cloud) - Public, Private, Hybrid and Community 1.3 Cloud Architecture 1.3.1 Deployment Models Public, Private, Hybrid and Community Cloud 1.3.2 Service Models Infrastructure as a Service, Platform as a Service, Software as a Service, Everything as a Service. 1.4 Cloud Service providers 1.5 Data center technology 1.6 Multitenant technology 1.7 Challenges of cloud computing",
+          "hours": 6
+        },
+        {
+          "title": "Abstraction and Virtualization",
+          "topics": "2.1 Virtualization Technologies 2.1.1. Introduction to virtualization 2.1.2 Types of Virtualizations 2.1.3 Benefits and Disadvantages of Virtualization 2.2 Load Balancing ad Virtualization 2.2.1 What is Load Balancing 2.2.2 Working of Load Balancers 2.2.3 Advantages of Load Balancing 2.3 Hypervisors 2.3.1 What is Hypervisors 2.3.2 Types of Hypervisors 2.4 VM Migration 2.5 Virtual Machine Provisioning 2.6 Virtual Machine Life Cycle/ VM Provisioning Process",
+          "hours": 6
+        },
+        {
+          "title": "Programming Environment and Cloud Technologies",
+          "topics": "3.1 Programming support for Google App Engine 3.2 Programming with Amazon AWS 3.3 Programming with Microsoft Azure 3.4 Programming with Google Cloud 3.5 Emerging Cloud software Environments",
+          "hours": 6
+        },
+        {
+          "title": "Emerging trends in cloud computing",
+          "topics": "4.1 Multi-Cloud Vs Omni-Cloud 4.2 Integrated Block chain technology 4.3 Kubernetes 4.4 Cloud AI 4.5 Intelligent SaaS 4.6 Docker 4.7 Google Vertex AI Agent Builder",
+          "hours": 6
+        },
+        {
+          "title": "Cloud Security",
+          "topics": "5.1 Overview of Cloud Security 5.2 Cloud Security Threats 5.3 Cloud Security Challenges and Risk 5.4 Security Governance 5.5 Identity Management and Access Control 5.5.1 Identity Management Multi-Factor Authentication(MFA) 5.5.2 Identity Verification 5.5.3 Authentication, Authorization, and Accountability (AAA) 5.5 Disaster Recovery in Clouds.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CA-313-PECP",
+      "title": "Lab course on CA - 312- PEC",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-314-PEC",
+      "title": "Cyber Security",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Security",
+          "topics": "1.1 Definition and Importance of Cyber Security 1.2 Cyber Space and Cyber Crime 1.3 Who are Cybercriminals? 1.4 Classifications of Cybercrimes: E-Mail Spoofing, Spamming, Cyber defamation, Internet Time Theft, Salami Attack/Salami Technique, Data Diddling, Forgery, Web Jacking, Newsgroup, Online Frauds, Computer Sabotage, Email Bombing/Mail Bombs, Computer Network Intrusions, Password Sniffing, Credit Card Frauds, Identity Theft 1.5 Security Goals: (CIA Triad) 1.6 Types of Cyber Threats: 1.6.1 Malware (Virus, Worm, Trojan, Ransom ware, Spyware) 1.6.2 Phishing and Social Engineering 1.6.3 Insider Attacks 1.7 Cyber Security Challenges in AI and Modern Systems 1.8 Introduction to use of AI in Security",
+          "hours": 5
+        },
+        {
+          "title": "Cyber Offenses and Cyber Stalking",
+          "topics": "2.1 Introduction to Cyber Offenses: Meaning and scope of cyber offenses, Difference between traditional crime and cybercrime, Evolution of cybercrime in the digital era, Impact on individuals, organizations, and society 2.2 Techniques Used in Cyber Offenses: Password attacks (brute force, credential stuffing), Network based attacks: MITM, packet sniffing 2.3 Cyber Stalking: Definition and Characteristics of cyber stalking, Key behaviours: persistent monitoring, unwanted contact, intimidation, Types of Cyber Stalking: Email harassment, social media stalking, Impersonation and fake profiles, Continuous monitoring of online activity, Real- Life Incident of Cyber stalking 2.4 Tools and Methods Used by Stalkers: Tracker links and IP grabbers, Misuse of social network features, GPS/geolocation misuse, Account takeover techniques",
+          "hours": 7
+        },
+        {
+          "title": "Tools and Methods Used in Cybercrime",
+          "topics": "3.1 Introduction 3.2 Proxy Servers and Anonymizers 3.3 Phishing 3.4 Password Cracking 3.5 Keyloggers and Spywares 3.6 Trojan Horses and Backdoors 3.7 Steganography 3.8 DoS and DDoS Attacks 3.9 Attacks on Wireless 3.10 SQL Injection",
+          "hours": 7
+        },
+        {
+          "title": "Cryptography and Encryption",
+          "topics": "4.1 Data Encryption standards. 4.2 Symmetric and Asymmetric Encryption 4.3 RSA Cryptosystem, ECC Cryptography, SSL and TLS in cryptography 4.4 Digital Signature 4.5 Block Cipher 4.6 Types of Encryption methods 4.7 Process of Encrypting and Decrypting data",
+          "hours": 5
+        },
+        {
+          "title": "Cyber Forensics",
+          "topics": "5.1 Introduction to Cyber Forensics:- 5.1.1 Meaning, Objectives and importance of cyber forensics 5.1.2 Scope and application of cyber forensics 5.2 Cyber Crimes and Digital Evidence: - 5.2.1 Types of Cyber Crimes: -Hacking, Identity theft, Cyber stalking 5.2.2 Concept of Digital Evidence 5.2.3 Types of Digital Evidence - Volatile evidence, on-volatile evidence 5.3 Cyber Forensics Investigation Process: - 5.3.1 Phases of Cyber Forensic Investigation 5.4 Cyber Forensics Tools and Techniques 5.4.1 Software Tools: -EnCase, FTK (Forensic Toolkit), Autopsy 5.4.2 Hardware Tools: Write blockers 5.4.3 Basic forensic techniques: -Disk imaging, Data recovery, Log analysis",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CA-315-PECP",
+      "title": "Lab course on CA-314-PEC",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-321-VSEC",
+      "title": "Core Java Programming",
+      "semester": 5,
+      "type": "VSEC",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-331-FP",
+      "title": "Field Project",
+      "semester": 5,
+      "type": "FP",
+      "credits": 2,
+      "pages": [
+        41,
+        44
+      ],
+      "units": [
+        {
+          "title": "Attendance and Participation",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Daily Diary / Log Book",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Report writing and contents",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Presentation and Viva",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Industry Supervisor Feedback",
+          "topics": "FP Activities Students are expected to engage in practical IT-oriented tasks such as: Software/Application Development Website Design & Development Database Design and Automation Data Analysis and Visualization Testing and Debugging IT Support and System Maintenance Digital Marketing / Content Management Requirement Analysis and Documentation Any domain-specific IT-related implementation work Note:  The Field Project must be distinct from CEP/NSS/NCC activities.  Students should preferably work on real-world problems or live projects.  Online field work may be permitted but with proper verification and monitoring.  Students are encouraged to adopt interdisciplinary approaches and innovative technologies. Project Report Structure: The FP report should include: ● Title Page ● Certificate from Organization ● Acknowledgement ● Abstract ● Organization Profile ● Objectives of the project ● Technologies Used ● Work Done / Tasks Performed ● Learning Outcomes ● Challenges Faced ● Solutions Implemented ● Conclusion ● Annexure (Screenshots, Code, Certificates, etc.)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-351-PCC",
+      "title": "Software Project Management",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Project Management",
+          "topics": "1.1 Project Definition 1.2 Project versus Flow type work 1.3 Project Lifecycle 1.4 Processes and Knowledge Areas in Project Management (PM) 1.5 Build or Buy decision 1.6 Work Breakdown Structure (WBS) and its types 1.7 Introduction to PMBOK 1.8 Program and Portfolio Management",
+          "hours": 6
+        },
+        {
+          "title": "Project Planning and Project Management Tools",
+          "topics": "2.1 Project Planning 2.2 Steps for Project Planning, 2.3 PERT and Gantt Charts 2.4 Introduction to Project Management using Gantt Project 2.5 Objectives of Activity planning 2.6 Project Schedules, Activities, Sequencing and Scheduling 2.7 Network Planning Models, 2.8 Formulating Network Model.",
+          "hours": 6
+        },
+        {
+          "title": "Activity based Scheduling",
+          "topics": "3.1 Introduction 3.2 Objectives of Activity Planning 3.3 Activity relationships (FS, SF, SS, FF) 3.4 Forward Pass technique 3.5 Backward Pass techniques 3.6 Critical Path concept and remedies",
+          "hours": 6
+        },
+        {
+          "title": "Project Tracking and Control",
+          "topics": "4.1 Introduction 4.2 Collection of Project data 4.3 Visualizing progress 4.4 Cost monitoring 4.5 Earned Value Analysis 4.6 Project tracking 4.7 Change Control 4.8 Software Configuration Management 4.9 Managing contracts and Contract Management.",
+          "hours": 6
+        },
+        {
+          "title": "Agile Project Management",
+          "topics": "5.1 Predictive versus Empirical Management 5.2 Comparison between Non-Agile and Agile Project 5.3 Three stages of Agile Project 5.4 Estimation 5.5 Scope Management 5.6 Role and Responsibilities 5.7 Scheduling and Tracking",
+          "hours": 6
+        },
+        {
+          "title": "Ken Schwaber, \"Agile Project Management\", Microsoft Press, 1st Edition, 2004.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Walker Royce, \"Software Project Management\", Addison-Wesley, 1st Edition, 1998.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Pankaj Jalote, \"Software Project Management in Practice\", Addison-Wesley",
+          "topics": "Professional, 1st Edition, 2002.",
+          "hours": null
+        },
+        {
+          "title": "Project Management Institute, \"A Guide to the Project Management Body of",
+          "topics": "Knowledge (PMBOK Guide)\", Project Management Institute, 7th Edition, 2021.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-352-PCC",
+      "title": "Web Programming",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Client-Side Web Programming",
+          "topics": "1.1 Introduction to JavaScript: Overview of JavaScript, Need and applications, Advantages and Limitations 1.2 Using JavaScript in HTML: Embedded JavaScript, External JavaScript 1.3 JavaScript Basics: Variables, Data types 1.3 Control Structures: if–else statement, switch case 1.4 Loop Control Statements: for loop, while loop, “for..in” loop 1.5 Functions and Dialog Boxes: Functions, Alert, Confirm, Prompt boxes 1.6 Events and Cookies: JavaScript events, Cookies.",
+          "hours": 6
+        },
+        {
+          "title": "Server-Side Web Programming - PHP",
+          "topics": "2.1 Introduction to server-side scripting, Role of server-side scripting vs client-side 2.2 Introduction to PHP, PHP - Lexical structure, Language basics. 2.3 Control Structures 2.4 Defining and calling a function, Function parameters, String Functions 2.5 Indexed Vs Associative Arrays, identifying elements of an array, storing data in array, Multidimensional arrays, Extracting multiple values, Traversing arrays",
+          "hours": 7
+        },
+        {
+          "title": "Core OOP Concepts in PHP",
+          "topics": "3.1 Classes and Objects: Defining classes and creating objects, Class templates vs object instances Using $this keyword 3.2 Properties and Methods: Public, private, and protected members, Static properties and methods 3.3 Constructors and Destructors: construct () and destruct () functions 3.4 Encapsulation: Data hiding and access modifiers, Getters and setters. 3.5 Inheritance: Extending classes (extends), Parent vs child behavior. 3.6 Polymorphism and Method Overriding, Use in class hierarchies 3.7 Abstract Classes and Interfaces: Abstract classes, Interfaces and contract-based design",
+          "hours": 8
+        },
+        {
+          "title": "Database Connectivity",
+          "topics": "4.1 Introduction to relational databases (MySQL) 4.2 CRUD operations: SELECT, INSERT, UPDATE, DELETE 4.3 PHP-MySQL integration: connecting to database, executing queries 4.4 Displaying database results in web pages",
+          "hours": 5
+        },
+        {
+          "title": "Introduction to XML",
+          "topics": "5.1 Introduction to XML 5.2 Uses of XML 5.3 Simple XML examples 5.4 XML key components 5.5 DTD and Schemas 5.6 Using XML in web applications.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CA-353-PCCP",
+      "title": "Lab course on CA-352-PCC",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        51,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-354-PCC",
+      "title": "Operating system Design",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 4,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operating System",
+          "topics": "1.1 Operating Systems Overview- System Overview and Functions of operating systems 1.2 What does an OS do? 1.3 Operating system Operations 1.4 Operating system structure 1.5 Protection and security 1.6 Computing Environments- Traditional, mobile, distributed, Client/server, peer to peer computing 1.7 Open-source operating System 1.8 Booting 1.9 Operating System services 1.10 System calls Types of System calls and their working.",
+          "hours": 12
+        },
+        {
+          "title": "Process and Process Scheduling",
+          "topics": "2.1 Process Concept – The processes, Process states, Process control block. 2.2 Process Scheduling – Scheduling queues, Schedulers, context switch 2.3 Operations on Process – Process creation with program using fork (), Process termination 2.4 Basic Concept - CPU I/O Burst Cycle, Scheduling Criteria, CPU Schedular, Preemptive Scheduling, Dispatcher 2.5 Scheduling Algorithm – FCFS, SJF, Priority Scheduling, Round-Robin Scheduling, Multiple Queue Scheduling, Multilevel Feedback Queue Scheduling",
+          "hours": 12
+        },
+        {
+          "title": "Synchronization",
+          "topics": "3.1 Background 3.2 Critical Section Problem 3.3 Semaphores: Usage, Implementation 3.4 Classic Problems of Synchronization – The bounded buffer problem, The reader writer problem, The dining philosopher problem",
+          "hours": 7
+        },
+        {
+          "title": "Deadlock",
+          "topics": "4.1 What is deadlock? 4.2 Deadlock Characterization – Necessary Conditions 4.3 Resource Allocation Graph 4.4 Deadlock Prevention 4.5 Deadlock Avoidance - Safe state, Resource-Allocation-Graph Algorithm, Banker's Algorithm 4.6 Deadlock Detection 4.7 Recovery from Deadlock – Process Termination, Resource Preemption",
+          "hours": 10
+        },
+        {
+          "title": "Memory Management",
+          "topics": "5.1 Background – Basic Hardware, Address Binding, Logical Versus Physical Address Space, Dynamic Loading, Dynamic Linking and Shared Libraries, Overlays 5.2 Swapping 5.3 Contiguous Memory Allocation – Memory mapping and protection, Memory allocation, Fragmentation 5.4 Paging – Basic Method, Hardware support, Protection, Shared Pages 5.5 Segmentation – Basic concept, Hardware 5.6 Virtual Memory Management – Demand paging, Performance of demand paging, Page replacement – FIFO, Optimal, LRU, Second Chance Algorithm",
+          "hours": 12
+        },
+        {
+          "title": "File System Management and Disk Scheduling",
+          "topics": "5.1 Basic Concepts: File, File attributes, File operations. 5.2 Allocation Methods – Contiguous allocation, Linked allocation, Indexed allocation 5.3 Free Space Management and Disk Structure–Free space management techniques: Bit vector, linked list, Grouping, Counting. 5.4 Disk structure 5.5 Introduction to Disk Scheduling- Need of disk scheduling, Disk access time components (Seek time, Rotational latency, Transfer time) 5.6 Goals of disk scheduling-Minimize seek time, maximize throughput, Fairness, Reduce response time. 5.7 Disk Scheduling Algorithms- First Come First Serve (FCFS), Shortest Seek Time First (SSTF), SCAN (Elevator Algorithm), C-SCAN (Circular SCAN), LOOK, C-LOOK 5.8 Performance Evaluation-Head movement calculation, Average seek time, Comparison of disk scheduling algorithms, Numerical problems based on (Total head movement and Average seek time) 5.9 Disk Management (Basic Concepts)-Disk formatting, Disk partitioning, Booting from disk.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "CA-355-PCCP",
+      "title": "Lab course on CA-354-PCC",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        56,
+        57
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-360-PEC",
+      "title": "Prompt and Generative AI",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        58,
+        60
+      ],
+      "units": [
+        {
+          "title": "Fundamental of Prompt Engineering",
+          "topics": "1.1 Introduction 1.2 What is a prompt? Why prompts are important? 1.3 Types of prompts 1.3.1 Simple prompts 1.3.2 Instruction prompts 1.3.3 Role-based prompts 1.4 Prompt structure or Prompt Components 1.4.1 Context 1.4.2 Task 1.4.3 Input / Output format 1.5 Good vs Bad prompts",
+          "hours": 5
+        },
+        {
+          "title": "Advanced Prompting Techniques",
+          "topics": "2.1 Prompt Refinement and Optimization 2.2 Advanced Prompt Techniques 2.2.1 Chain-of-Thought Prompting 2.2.2 Role-Based Prompting 2.2.3 Tree of Thought (ToT) Prompting 2.3 Image Generation 2.3.1 Text-to-Image Models 2.3.2 Prompting for Image Quality 2.4 Code Generation using AI 2.5 AI for Data Analysis and Summarization 2.6 Prompt Evaluation Techniques",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Generative AI",
+          "topics": "3.1 What is Generative AI? 3.2 History and Evolution of Generative Models 3.3 Artificial Intelligence vs Machine Learning vs Deep Learning 3.4 Types of Generative Models 3.4.1 Rule-based Systems 3.4.2 Neural Networks 3.5 Transformer Models 3.6 Applications of Generative AI",
+          "hours": 6
+        },
+        {
+          "title": "Large Language Models (LLMs) and Prompting Strategies",
+          "topics": "4.1 Introduction to Large Language Models (LLMs) 4.2 Architecture of Transformer Models 4.3 Tokens, Embeddings, Attention Mechanism 4.4 Advantages and Disadvantages and Application of LLM’s 4.5 Prompting for Code Generation 4.6 AI-assisted Debugging and Optimization 4.7 Prompting for Research and Documentation 4.8 Prompting for Data Analysis",
+          "hours": 7
+        },
+        {
+          "title": "Ethical, Legal and Social Aspects of AI",
+          "topics": "5.1 Ethical Issues in Generative AI 5.2 Responsible AI and AI Ethics 5.3 Data Privacy and Security 5.4 Copyright and Plagiarism Issues 5.5 AI Bias and Fairness 5.6 Misuse of Generative AI 5.7 Responsible AI Guidelines and Future Scope",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CA-361-PECP",
+      "title": "Lab course on CA-360 - PEC",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-362-PEC",
+      "title": "Big Data and Analytics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        63,
+        65
+      ],
+      "units": [
+        {
+          "title": "Introduction to Big data",
+          "topics": "1.1 Big Data: Definition and taxonomy 1.2 Sources of Big Data 1.3 Big Data Architecture 1.4 3V’s of Big Data (need for Hadoop 1.5 Varying data structures 1.6 Characteristics of Big Data 1.7 Applications of Big Data 1.8 Challenges in Big Data 1.9 Big Data Implications for Industries, Big Data Analytics for Telecom/Banking/Retail/HealthCare/IT/Operations",
+          "hours": 6
+        },
+        {
+          "title": "Emerging Database Landscape",
+          "topics": "2.1 Scale-Out Architecture, RDBMS Vs Non-Relational Database 2.2 Database Workload and its Characteristics 2.3 Implication of Big Data Scale on Data Processing",
+          "hours": 3
+        },
+        {
+          "title": "Application Architecture and Data Modeling for Big Data and",
+          "topics": "Analytics 06Hours 3.1 Big Data Warehouse and Analytic 3.2 Life Cycle Phases of Big Data 3.3 Big data Warehouse System requirements and Hybrid Architectures 3.4 Enterprise Data Platform Ecosystem 3.5 Big Data and Master Data Management 3.6 Understanding data integration Pattern 3.7 Big Data Workload Design Approaches 3.8 Map-Reduce patterns, Algorithms and Use Cases",
+          "hours": null
+        },
+        {
+          "title": "The Hadoop Ecosystem",
+          "topics": "4.1 Introduction to Hadoop 4.2 Hadoop Architecture 4.3 History of Hadoop-Facebook, Dynamo, Yahoo, Google 4.4 Hadoop Components: HDFS, MapReduce 4.5 Introduction to Pig, Hive, HBase, Mahout 4.6 Installation of single node cluster- installation of java Hadoop configuration",
+          "hours": 8
+        },
+        {
+          "title": "Extracting Value from Big Data",
+          "topics": "5.1 Real Time Analytics 5.2 Data Sample- Definition, Advantage and Challenges of data sampling, Types, Method Process 5.3 In-Memory Data Grid for real Time Analysis 5.4 Map reduce & Real Time Processing, Use Cases 5.5 Big Data Analytics Methodology- Analyze and evaluate business cases 5.6 Develop Business Hypothesis –Analyze outcomes, Build and Prepare Data Sets, Select and Build Analytical Model Design for Big Data scale, build production ready system, setting up the Big Data Analytics system, Gathering data, measure and monitor",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CA-363-PECP",
+      "title": "Lab course on CA-362 - PEC",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        66,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-364-PEC",
+      "title": "Mobile Application Development",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        68,
+        71
+      ],
+      "units": [
+        {
+          "title": "Basics of Mobile Technologies and Android Programming",
+          "topics": "1.1 Introduction to Mobile Computing. 1.1.1 Need, 1.1.2 Features, 1.1.3 Advantages and Disadvantages 1.1.4 Applications 1.2 Factors in Developing Mobile Applications. 1.3 Concept of Mobility, Portability and Hand off. 1.4 Types of Mobile Applications. 1.5 Introduction to Mobile Operating System. (IOS, Black Berry, Android, Windows Phone, Palm OS, Symbian OS, Phone Gap.) 1.6 Introduction to Android: 1.6.1 Evolution 1.6.2 Features of Android 1.6.3 Applications of Android 1.7 Architecture of Android. 1.8 Android development Environment Setup 1.8.1 Android - SDK 1.8.2 Eclipse 1.8.3 Emulators /Android AVD",
+          "hours": 5
+        },
+        {
+          "title": "Fundamentals of Android Programming",
+          "topics": "2.1 Activities and Services. 2.1.1 Activity Lifecycle 2.1.2 Service Lifecycle 2.2 Overview of Resources and Manifest File 2.3 Creating your first Android Application 2.4 Broadcast Receivers and Content providers. 2.5 Intents: 2.5.1 Types 2.5.2 Linking Activities using Intents. 2.5.3 Calling built-in applications using Intents 2.6 Fragments: 2.6.1 Adding Fragments Dynamically 2.6.2 Lifecycle of Fragment 2.7 Toast: 2.7.1 Overview 2.7.2 Purpose",
+          "hours": 6
+        },
+        {
+          "title": "Android User Interface Designing",
+          "topics": "3.1. Layout Manager and View Groups: 3.1.1 Layouts - Linear Layout, Absolute Layout, Table Layout, Relative Layout, Frame Layout, Scroll Layout, Constraint Layout. 3.1.2 Views and View Groups - Scroll View, Web View, List View, Grid View, Image View 3.2 Android UI Components: 3.2.1 Text Fields- TextView, EditText, AutoCompleteTextView 3.2.2 Dialog box- Alert Dialog box, Custom Dialog box, Date Picker, Time Picker. 3.2.3 Buttons: Simple Button, ImageButton, ToggleButton, CheckBox, RadioButton, RadioGroup, Spinner. 3.2.4 : Bar Types: ProgressBar, SeekBar, RatingBar. 3.3 Event-driven Programming 3.3.1 List, Menu 3.3.2 Split Screen / Multi-Screen Activities 3.3.3 Adaptors 3.4 Android Styles and Themes",
+          "hours": 10
+        },
+        {
+          "title": "Databases- SQLite, Messaging, E-mail, and Location Based",
+          "topics": "Services 05 Hours 4.1 Android Database – SQLite  Introduction to SQLite  SQLiteOpenHelper Class – Creating and Managing Databases  Creating, Opening and Closing Database  Building and Executing SQL Queries  CRUD Operations – Insert, Update, Delete, Query  Working with Cursors  Content Providers – SQLite Programming 4.2 Accessing Phone Services  Introduction to Phone Services  Making Phone Calls using Intent  SMS Messaging – Basic Concepts  Sending SMS using Intent  Receiving SMS Messages  Required Permissions 4.3 E-mail Services  Introduction to E-mail in Android  Sending E-mail using Intent  Sending E-mail with Attachments",
+          "hours": null
+        },
+        {
+          "title": "Location-Based Services and Google Map",
+          "topics": "5.1 Location Based Services 5.1.1 Introduction to Location Services 5.1.2 Getting Current Location (GPS / Network) 5.1.3 Displaying Location on Google Map (Basic) 5.2 Display Google Maps 5.2.1 Creating the project 5.2.2 Obtaining the Maps API Key 5.2.3 Displaying the Map 5.2.4 Displaying the Zoom Control 5.2.5 Changing Views 5.2.6 Navigating to a specific location 5.2.7 Adding Markers 5.2.8 Getting the location that was touched 5.3 Getting Location Data 5.4 Monitoring a Location",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CA-365-PECP",
+      "title": "Lab course on CA-364 - PEC",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 2,
+      "pages": [
+        72,
+        73
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-371-VSEC",
+      "title": "Advanced JAVA Programming",
+      "semester": 6,
+      "type": "VSEC",
+      "credits": 2,
+      "pages": [
+        74,
+        75
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-381-OJT",
+      "title": "On-Job Training/ Internship",
+      "semester": 6,
+      "type": "OJT",
+      "credits": 4,
+      "pages": [
+        76,
+        79
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

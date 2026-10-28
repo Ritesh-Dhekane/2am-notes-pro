@@ -1,0 +1,100 @@
+{
+  "id": "s-y-b-sc-electronic-science-bca-and-b-sc-computer-application-31072025",
+  "kind": "programme",
+  "programme": "S.Y. B.Sc. Electronic Science (BCA and B.Sc. Computer Application)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ELS – 241 - MN",
+      "title": "Data Communications",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Communications",
+          "topics": "Introduction of data communication: Components of Data communications (message, sender, receiver, transmission medium), Transmission Media: Guided (twisted pair, coaxial, fiber optic) and unguided media. Characteristics of Data Communication: Delivery, Accuracy, Timeline, Jitter, Data Representation: Text, Numbers, Images, Audio, Video Types of data flow: Simplex, Half duplex, Full duplex, Types of communication: Baseband and Broadband communication, parallel communication, and Serial communication: asynchronous and synchronous.",
+          "hours": 8
+        },
+        {
+          "title": "Signal, Transmission and Error Detection",
+          "topics": "Signal type: Analog and Digital data, Analog and Digital signals, Digital Signals: Bit rate, Bit length, baud rate, Transmission Impairments: Attenuation, Distortion, Noise channel capacity, Nyquist theorem, Signal to noise ratio, Noise Figure, Shannon theorem Line Coding: Characteristics, Line Coding Schemes–Unipolar -NRZ, Polar-NRZ-I, NRZ-L, RZ (Concept level) Error Detection and Correction: Introduction of ARQ(Automatic repeat request), FEC (Concept and type), Hamming code.",
+          "hours": 7
+        },
+        {
+          "title": "Modulation, Multiplexing and MAC",
+          "topics": "Digital modulation techniques: ASK, FSK, PSK (concept block diagram waveform) Multiplexing technique: FDM and TDM (concept block diagram waveform) Protocols and standards – Definition of a Protocol, Protocol standards: De facto and De jure, Media access control: Random Access Protocols: ALOHA (concept), CSMA, CSMA/CD, CSMA/CA; Controlled Access Protocol: Reservation, Polling and Token Passing; Channelization Protocol: (Definitions) – FDMA, TDMA and CDMA.",
+          "hours": 8
+        },
+        {
+          "title": "Computer Networks",
+          "topics": "Network Topologies - Bus, Star, Ring, Mesh Network Types- LAN, MAN, WAN, Wireless Networks, Ethernet: Ethernet protocol, standard Ethernet, 100 MBPS Ethernet, Gigabit Ethernet, 10 Gigabit Ethernet.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "ELS – 242 - MNP",
+      "title": "Data Communications Laboratory",
+      "semester": 3,
+      "type": "Minor Laboratory",
+      "credits": 2,
+      "pages": [
+        2,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS – 291 - MN",
+      "title": "Communication Networks",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "Network Models",
+          "topics": "Review of basic concepts in Data Communication, network. Computer network model: OSI Model – layered architecture, peer-to-peer processes, encapsulation; TCP/IP Model – layers and Protocol Suite Addressing: Physical, Logical, Port addresses, Specific addresses.",
+          "hours": 7
+        },
+        {
+          "title": "Address Mapping and Routing",
+          "topics": "IPv4 addresses: Address space, Notations, Classful and Classless addressing, IPv6 addresses: Structure, address space, packet format, Extension headers; Address mapping – ARP, RARP, BBOTP and DHCP; Introduction to ICMP; Routing: Concept, types, routing protocol: unicast, multicast",
+          "hours": 7
+        },
+        {
+          "title": "Wireless Communication Protocol",
+          "topics": "Short range Technologies: Infrared (IR): frequency band, range, and applications, Bluetooth: Bluetooth architecture, Bluetooth frame format; Zigbee: Characteristics, System Structure (Coordinator, router, end device), Topology, applications; Z wave: Components of Z-wave network, characteristics, applications RFID: Working of RFID system, types of RFID tags, RFID frequencies, GPS system: Components of GPS system (space segment, control segment, user segment), Applications",
+          "hours": 9
+        },
+        {
+          "title": "Wireless Networks",
+          "topics": "Long range wireless technology: Low power local area networking (LPLAN), Low power wide area networking (LPWAN) technologies, comparison of LoRa, Sigfox, NB-IoT, Cat –M. Wireless Sensor Network: WSN Architecture, WSN topologies, Types of nodes (Coordinator, Router and End Device). Satellite communication: Basic concept, segments, orbits, applications.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "ELS – 292 - MNP",
+      "title": "Communication Networks Laboratory",
+      "semester": 4,
+      "type": "Minor Laboratory",
+      "credits": 2,
+      "pages": [
+        4,
+        5
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

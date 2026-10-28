@@ -1,0 +1,1015 @@
+{
+  "id": "b-a-b-sc-mathematics-syllabus-18062025",
+  "kind": "programme",
+  "programme": "B.A./B.Sc. (Honours/Honours with Research) MATHEMATICS",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MTS 101",
+      "title": "Algebra and Calculus I",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Integers",
+          "topics": "1.1 Well Ordering Principle and Principle of Mathematical Induction (First Principle). 1.2 Divisibility in integers ( Z) -Definition and elementary properties, Division algorithm, Greatest Common Divisor (GCD), Least Common Multiple (LCM) of integers, basic properties of GCD, Euclidean Algorithm, relatively prime integers. 14 1.3 Prime numbers- Definition, fundamental theorem of Arithmetic, Euclid’s lemma, Theory of Congruences, basic properties, Fermat’s theorem, Euler’s phi function, Euler’s theorem.",
+          "hours": 9
+        },
+        {
+          "title": "Polynomials",
+          "topics": "2.1 Definition of a polynomial, degree of a polynomial, algebra of polynomials, division algo- rithm (Statement only) and examples, Greatest Common Divisor (GCD) of two polyno- mials (Definition and examples). 2.2 Synthetic division, Remainder theorem, Factor theorem. 2.3 Relation between roots and co-efficient of a polynomial.",
+          "hours": 6
+        },
+        {
+          "title": "Real Numbers",
+          "topics": "3.1 Number system - N,Z,Q,R, Algebraic and Order properties of R. 3.2 Absolute Value of a real number, geometrical meaning, Absolute value properties of R , triangle inequality, examples on absolute value of R. 3.3 Boundedness of R -Neighborhood of a point on real line, Intervals, Lower bound, Upper bound and examples, Well Ordering Principle of N, Supremum and Infimum of a subset of R and examples, Completeness property of R.",
+          "hours": 6
+        },
+        {
+          "title": "Limits and Countinuity",
+          "topics": "4.1 Limit of Real valued function-Definitions and examples, Algebra of limits and examples. 4.2 Limit theorems- Squeeze theorem and some results, one sided limits and limits at infinity and examples. 4.3 Continuity - Definition of deleted neighborhood of a point, Continuity of a function at a point - Definitions and examples, Algebra of continuous functions, properties, Conti- nuity on an interval - Definition and examples, Bounded function, Boundedness theorem (Statement only), Absolute maximum and minimum of a function - definition, Maximum- Minimum theorem (statement only), Location of roots theorem statement only), Bolzano’s theorem (statement only) the intermediate value theorem",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "MTS 102",
+      "title": "Practicals based on MTS-101 (Algebra and Calculus I)",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "IKS 101 MTS",
+      "title": "Generic IKS",
+      "semester": 1,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-101 MTS",
+      "title": "Python-I",
+      "semester": 1,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Python Basics and IDE",
+          "topics": "1.1 Introduction of Python. 1.2 Installing Python 1.3 Running Simple Program. 1.4 Removing Keys. 1.5 Traversing a Dictionary - Practical 1 based on unit 1.",
+          "hours": 4
+        },
+        {
+          "title": "Basics of Python",
+          "topics": "2.1 Data type of Python. 2.2 Variable declaration rule. 2.3 Python Identifier and reserved words. 2.4 Input Output Function. 17 2.5 Operator of Python. 2.6 Advanced Python operator(Membership and identity). 2.7 Comments in Python. 2.8 Line and Indentation. - Practical 2, Practical 3 based on unit 2.",
+          "hours": 8
+        },
+        {
+          "title": "Conditional structure",
+          "topics": "3.1 if Statements 3.2 if -else and statement 3.3 Nested if 3.4 if-elif-else ladder - Practical 4 and Practical 5 based on unit 3.",
+          "hours": 8
+        },
+        {
+          "title": "Iteration statement",
+          "topics": "4.1 Loop Control Structure. 4.1.1 While loop 4.1.2 For loop 4.2 Nested loop 4.3 Break Statement 4.4 Continue Statement 4.5 Pass Statement - Practical 6, Practical 7 and Practical 8 based on unit 4.",
+          "hours": 12
+        },
+        {
+          "title": "String and Function",
+          "topics": "5.1 String Basics. 5.2 Accessing and updating String. 5.3 Built-in String Methods. 5.4 Function in Python. 5.5 Declaration and Calling function. 5.6 Function Argument 5.7 Anonymous Functions - Practical 9, Practical 10 and Practical 11 based on unit 5. 18",
+          "hours": 12
+        },
+        {
+          "title": "List and Tuple",
+          "topics": "6.1 Python Lists. 6.2 Accessing and updating List. 6.3 Basic List Operation. 6.4 Built-in List Methods. 6.5 Python Tuple. 6.6 Accessing and updating tuple. 6.7 Basic tuple operation. 6.8 Built-in tuple Method. - Practical 12 to Practical 15 based on unit 6.",
+          "hours": 16
+        }
+      ]
+    },
+    {
+      "code": "OE-101 MTS",
+      "title": "Basic Mathematics- I",
+      "semester": 1,
+      "type": "OE(T)",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Integers",
+          "topics": "1.1 Introduction to number system, Basic operations of integers 1.2 Highest Common Factor (H.C.F.) and Least Common Multiple (L.C.M.) 1.3 Square root and cube Root",
+          "hours": 12
+        },
+        {
+          "title": "Ratio, Proportion and Percentage",
+          "topics": "2.1 Introduction to ratio and proportion 2.2 Finding ratio and proportion 2.3 Types of ratios 26",
+          "hours": 8
+        },
+        {
+          "title": "Average",
+          "topics": "3.1 Introduction to average 3.2 Finding the average",
+          "hours": 4
+        },
+        {
+          "title": "Profit and Loss",
+          "topics": "4.1 Introduction to profit and loss 4.2 Finding profit and loss",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-102 MTS",
+      "title": "Applied Mathematics - I",
+      "semester": 1,
+      "type": "OE(P)",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Mensuration",
+          "topics": "Perimeter of circle, triangle, square and rectangle. Area of circle, square, rectangle and triangles. Surface area of cylinder, sphere, cube and cuboid. Volume of cube, cuboid, sphere, hemisphere, cylinder and cone.",
+          "hours": 8
+        },
+        {
+          "title": "Trigonometry",
+          "topics": "Degree and radian, Trigonometric ratios and identities, Angle of elevation and depression, Height and distance problems.",
+          "hours": 8
+        },
+        {
+          "title": "Arithmetic",
+          "topics": "Arithmetic Mean, Geometric Mean, Harmonic Mean, Ratio, Proportion, Percentage, Profit and Loss, Partnership, Brokerage, (True) Discount, Simple and Compound Interest, Time and Work, Distance",
+          "hours": 8
+        },
+        {
+          "title": "Data Interpretation",
+          "topics": "Tabulation, missing data problem. Graphs and Charts - Table, Line, Bar and Pie.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "MTS-151",
+      "title": "Algebra and Calculus II",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Systems of Linear Equations and Matrices",
+          "topics": "Section I: Matrix 1.1 Review of Matrices, Operations on Matrices. 1.2 Symmetric, Skew-symmetric, Hermitian, Skew-Hermitian matrices. 1.3 Elementary Row Operations, Row Echelon form and Reduced Row Echelon form, Rank of matrix. 1.4 Inverse of a Matrix using Elementary Row Operations. 1.5 Diagonal, Triangular, and Symmetric Matrices [Definitions and examples only] 1.6 More on Linear Systems and Invertible Matrices 1.7 Introduction to Systems of Linear Equations 1.8 Gaussian Elimination Method.",
+          "hours": 8
+        },
+        {
+          "title": "Determinants",
+          "topics": "2.1 Determinants by Cofactor Expansion. 2.2 Evaluating Determinants by Row Reduction. 2.3 Properties of Determinants; Cramer’s Rule (Without Proof). 2.4 Applications towards Balancing Chemical Equations. 2.5 Applications in Cryptography. Note: Theorems 2.1.1, 2.1.2, 2.2.3, 2.2.4, 2.3.1, 2.3.6, 2.3.8 are without proof",
+          "hours": 7
+        },
+        {
+          "title": "Differentiation",
+          "topics": "3.1 The Derivative as a Function. 3.2 Differentiation Rules 3.3 The Derivative as a Rate of Change 3.4 Derivatives of Trigonometric Functions 3.5 The Chain Rule 3.6 Applications",
+          "hours": 6
+        },
+        {
+          "title": "Mean Value Theorems",
+          "topics": "4.1 Extreme Values of Functions. 4.2 The Mean Value Theorem 4.3 L ′ Hospital ′ s Rule (without proof) 21 4.4 Cauchy’s Mean Value Theorem",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "MTS 152",
+      "title": "Practicals based on MTS-151 (Algebra and Calculus II)",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-151 MTS",
+      "title": "Python-II",
+      "semester": 2,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Dictionaries",
+          "topics": "1.1 Dictionary Literals 1.2 Adding Keys and Replacing Values 1.3 Accessing Values 1.4 Removing Keys 1.5 Traversing a Dictionary -Practical 1 and Practical 2 based on unit 1.",
+          "hours": 8
+        },
+        {
+          "title": "Simple Graphics",
+          "topics": "2.1 Overview of Turtle graphics 2.2 Turtle operations 2.3 Setting up a turtle.cfg file and running IDLE. 2.4 Object instantiation and the turtle module 2.5 Drawing two dimensional shapes 23 2.6 Examining an object’s attributes 2.7 Manipulating a Turtle’s screen 2.8 Taking a random walk 2.9 Colours and the RGB system -Practical 3, Practical 4 and Practical 5 based on unit 2.",
+          "hours": 12
+        },
+        {
+          "title": "Complex Numbers in Python",
+          "topics": "3.1 Introduction to complex numbers 3.2 Complex numbers with Python -Practical 6 and Practical 7 based on unit 3.",
+          "hours": 8
+        },
+        {
+          "title": "File Handling",
+          "topics": "4.1 Opening Files: File Modes 4.2 The basic file methods 4.2.1 Reading and Writing 4.2.2 Piping output 4.2.3 Reading and writing lines 4.2.4 Closing files 4.2.5 Using the basic files methods 4.3 Iterating over file content 4.3.1 One character at a time 4.3.2 One line at a time 4.3.3 Reading everything 4.3.4 Lazy line iteration with file input 4.3.5 File iterators -Practical 8 and Practical 9 based on unit 4.",
+          "hours": 8
+        },
+        {
+          "title": "NumPy",
+          "topics": "5.1 NumPy basics 5.2 NumPy arrays 5.3 Copying / Sorting 5.4 Array manipulation. 5.5 Mathematics 5.6 Basic Statistics 24 -Practical 10, Practical 11 and Practical 12 based on unit 5.",
+          "hours": 12
+        },
+        {
+          "title": "Matrix Algebra in Python",
+          "topics": "6.1 Vectors 6.2 Matrices 6.3 Linear Algebra 6.4 Matrix addition 6.5 Matrix subtraction 6.6 Matrix multiplication 6.7 Transpose of a matrix. 6.8 Determinant. 6.9 Inverse matrix - Practical 13 and Practical 14 based on unit 6. - Practical 15 is based on",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "OE-151 MTS",
+      "title": "Basic Mathematics - II",
+      "semester": 2,
+      "type": "OE(T)",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Time, Work and Wages",
+          "topics": "1.1 Introduction to Time, Work and Wages 1.2 Finding Time and Amount of Work 1.3 Finding Speed, Distance and Time 1.4 Finding Speed of Boats and Stream",
+          "hours": 12
+        },
+        {
+          "title": "Problems on Ages",
+          "topics": "2.1 Introduction to Linear Equations 2.2 Finding Age Some Years Ago, Present Age and Age Some Years hence",
+          "hours": 6
+        },
+        {
+          "title": "Simple Interest and Compound Interest",
+          "topics": "3.1 Introduction to Simple Interest and Compound Interest 3.2 Finding Simple Interest 3.3 Finding Compound Interest",
+          "hours": 6
+        },
+        {
+          "title": "Mensuration",
+          "topics": "4.1 Introduction to the Concept of Mensuration 4.2 Finding Area, Perimeter, and Some Basic Facts 4.3 Introduction to Solids and Cubes 4.4 Finding Surface Area and Volume",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-152 MTS",
+      "title": "Applied Mathematics - II",
+      "semester": 2,
+      "type": "OE(P)",
+      "credits": 2,
+      "pages": [
+        29,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "MTS-201MJ",
+      "title": "Calculus of Several Variables",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Limits and Continuity",
+          "topics": "1.1 Functions of Several Variables: Definition, domain, range, level curves, graphs 1.2 Limits of Functions of Several Variables: Definition, evaluating limits along different paths 1.3 Techniques to Evaluate Limits: Direct substitution, Path approach, Squeeze theorem 1.4 Continuity in Functions of Several Variables: Definition, properties",
+          "hours": 6
+        },
+        {
+          "title": "Partial Derivatives",
+          "topics": "2.1 Definition and examples. 2.2 Higher Derivatives, Clairaut’s Theorem (Statement Only) 2.3 Differentiable function - Definition, Necessary condition for differentiability (with proof), sufficient condition for differentiability (without proof), Examples, Differentials 2.4 Chain Rule, Homogeneous Functions, Euler’s theorem 2.5 Extreme values of functions of two variables 2.6 Necessary conditions for extreme values 2.7 Second Derivative Test (without proof) 2.8 Lagrange’s Multipliers (with one constraint) 34",
+          "hours": 14
+        },
+        {
+          "title": "Multiple Integrals",
+          "topics": "3.1 Double Integrals in Cartesian Coordinates: Definition and computation 3.2 Change of order of integration 3.3 Double Integrals in Polar Coordinates: Converting limits to polar form 3.4 Change of Variables in Multiple Integrals: Jacobian transformation 3.5 Applications of Double Integrals: Area calculation 3.6 Triple Integrals in Cartesian Coordinates: Volume computation 3.7 Triple Integrals in Cylindrical & Spherical Coordinates: Conversion and computation",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "MTS-202MJ",
+      "title": "Laplace Transform and its Applications",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Laplace Transform",
+          "topics": "1.1 Introduction to the Laplace Transform 1.2 Continuity Requirements 1.3 Piecewise Continuity 1.4 Exponential Order Functions 1.5 Laplace Transform of Some Exponential Order Functions 1.6 Properties of Laplace Transforms and Some Examples",
+          "hours": 8
+        },
+        {
+          "title": "Inverse Laplace Transform",
+          "topics": "2.1 Inverse of the Laplace Transform 2.2 Unit Step Function 2.3 Translation Theorems 2.4 Differentiation and Integration of the Laplace Transform 2.5 Use Partial Fractions to find Inverse Laplace Transform",
+          "hours": 9
+        },
+        {
+          "title": "Applications of Laplace Transform",
+          "topics": "3.1 Gamma Function and its Laplace Transform 3.2 Periodic Functions and their Laplace Transforms 3.3 Laplace Transform of Derivatives 3.4 Applications to solve Ordinary Differential Equations i. Initial Value Problems ii. Boundary Value Problems iii. Systems of Differential Equations 3.5 Applications of Laplace Transform in Electrical Circuits 3.6 Convolution Theorem and its Applications 3.7 Error Function and its Laplace Transform 3.8 Beta Function and its Laplace Transform",
+          "hours": 13
+        }
+      ]
+    },
+    {
+      "code": "MTS-203MJP",
+      "title": "Practicals on Calculus of Several Variables and Laplace Transform and its Applications",
+      "semester": 3,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        36,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "MTS-241MN",
+      "title": "(A) Mathematics for Physical Science-I",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Partial Differentiation",
+          "topics": "1.1 Definition of function of several variables 1.2 Definition of the partial derivative 1.3 The total differential and total derivative 1.4 Exact and inexact differentials 1.5 The chain rule 1.6 Change of variables",
+          "hours": 10
+        },
+        {
+          "title": "Vector Algebra",
+          "topics": "1.1 Vector Algebra 1.2 Scalars and vectors 1.3 Addition and subtraction of vectors 1.4 Multiplication by a scalar 1.5 Magnitude of a vector 1.6 Angle between the vectors 38 1.7 Multiplication of vectors 1.8 Scalar Product 1.9 Vector Product 1.10 Scalar Triple Product 1.11 Vector Triple Product",
+          "hours": 10
+        },
+        {
+          "title": "Vector Calculus",
+          "topics": "3.1 Differentiation of vectors 3.2 Vector operators: i. Gradient of a scalar field; ii. Divergence of a vector field; iii. Curl of a vector field 3.3 Vector operator formulae i. Vector operators acting on sums and products ii. Combinations of grad, div and curl",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "MTS-241MN",
+      "title": "(B) Mathematics for the Life Sciences-I",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Functions",
+          "topics": "1.1 Real Number System 1.2 Sets and Their Representations 1.3 Functions 1.4 Linear Functions 1.5 Linear Inequalities 1.6 Other Sample Functions 1.7 More on Functions 1.8 Limit as x tends to infinity.",
+          "hours": 10
+        },
+        {
+          "title": "Exponential and Logarithm Functions",
+          "topics": "2.1 Exponential Functions 2.2 Inverse Functions and Logarithms 2.3 Log-Log and Semi-log Plots 2.4 Natural Logarithms and Exponentials 2.5 Exponential Growth and Decay",
+          "hours": 10
+        },
+        {
+          "title": "Vectors and Matrices",
+          "topics": "3.1 Vectors in Two Dimensions 3.2 The Inner Product 3.3 Relative Velocities 40 3.4 Forces 3.5 Matrices 3.6 Applications of Matrices",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "MTS-241MN",
+      "title": "(C) Mathematics for Computer Science-I",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Algebraic and Transcendental Equation",
+          "topics": "1.1 Errors 1.2 Bisection Mehtod 1.3 False Position Method 1.4 Newton-Raphson Method",
+          "hours": 6
+        },
+        {
+          "title": "Calculus of Finite Differences and Interpolation",
+          "topics": "2.1 Differences 2.1.1 Forward Differences 2.1.2 Backward Differences 2.1.3 Central Differences 2.1.4 Other Differences 2.2 Relation between Operators 2.3 Newton’s Gregory Formula for Forward Interpolation 2.4 Newton’s Gregory Formula for Backward Interpolation 2.5 Lagrange’s Interpolation Formula 2.6 Divided Difference 2.7 Newton’s Divided Difference Formula",
+          "hours": 10
+        },
+        {
+          "title": "Numerical Integration",
+          "topics": "3.1 General Quadrature Formula 3.2 Trapezoidal Rule 3.3 Simpson’s one-Third Rule 3.4 Simpson’s Three-Eight Rule",
+          "hours": 6
+        },
+        {
+          "title": "Numerical Solution of Ordinary Differential Equation",
+          "topics": "4.1 Euler’s Method 4.2 Euler’s Modified Method 4.3 Runge-Kutta Second Order Method 4.4 Runge-Kutta Fourth Order Method (Without Proof)",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "MTS-242MN",
+      "title": "Practical on (A) Mathematics for Physical Science-I",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        42,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "MTS-242MN",
+      "title": "Practical on (B) Mathematics for Life Sciences-I",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        42,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "MTS-242MN",
+      "title": "Practical on (C) Mathematics for Computer Science-I",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        42,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "IKS-201MTS",
+      "title": "Indian Knowledge System - Mathematics",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "1.1 Overview of the Indian Knowledge System, significance, sources 1.2 Katapayadi and Bhut Sankhya number systems",
+          "hours": 3
+        },
+        {
+          "title": "Contributions to Geometry",
+          "topics": "2.1 Geometry in Sulba Sutra: Construction of altars, Bodhayana-Pythagorean theorem 2.2 Methods of Squaring a circle, and circling a square etc. 2.3 Approximation of square roots and irrational numbers 2.4 Cyclic quadrilaterals",
+          "hours": 4
+        },
+        {
+          "title": "Contributions to Arithmetic and Number Theory",
+          "topics": "3.1 Concept of zero, its history and development 3.2 Operations with negative numbers, algebraic identities 3.3 Development of Indian numeral system and its impact 3.4 Kuttaka method for solving indeterminate equations 3.5 Chakraval Method to Solve Pell’s equation",
+          "hours": 7
+        },
+        {
+          "title": "Algebra and Calculus",
+          "topics": "4.1 Solutions to linear and quadratic equations 4.2 Approximations of π 4.3 Some problems from the books- Ganitasarasangraha, Lilavati, Bijaganita 44 4.4 Infinite series, early concepts of calculus. 4.5 Contribution of Kerala School of Mathematics",
+          "hours": 5
+        },
+        {
+          "title": "Combinatorics and Astronomy-Related Mathematics",
+          "topics": "5.1 Binomial coefficients and early combinatorial methods 5.2 Pingala’s algorithm for binary number system 5.3 Hemachandra-Fibonacci sequence in Indian texts (prosody, Sanskrit meter) 5.4 Sine functions and tables by Aryabhata, Bhaskar I, Madhava 5.5 Use of mathematics in Indian astronomy (planetary motion, time calculations)",
+          "hours": 6
+        },
+        {
+          "title": "Legacy of Indian Mathematics and Vedic Techniques",
+          "topics": "6.1 Jain and Buddhist mathematicians 6.2 Proof techniques by Indian mathematicians 6.3 List of books by Indian mathematicians 6.4 List of Indian concepts of mathematics 6.5 Introduction to techniques of Vedic mathematics 6.6 Conclusion: journey of mathematics from ancient to modern times",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "MTS-221VSC",
+      "title": "Foundation of Mathematics",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Successive Differentiation & Methods of Integration",
+          "topics": "1.1 Calculation of the nth Derivative (some standard result). 1.2 Determination of nth derivatives of rational functions. 1.3 Integration of Algebraic Rational Functions. 1.4 Integration by Parts. 1.5 Reduction formulae for sin n x, cosn x",
+          "hours": 14
+        },
+        {
+          "title": "Ordinary Differential Equations",
+          "topics": "2.1 Linear first order equations. 2.2 Separable equations. 2.3 Exact differential equations 2.4 Determination of Integrating factor",
+          "hours": 10
+        },
+        {
+          "title": "Complex Numbers",
+          "topics": "3.1 Sums and Products, Basic Algebraic Properties, Moduli, Complex Conjugates, Exponen- tial form, Products and Quotients, De-Moivre’s theorem. 3.2 Roots of Complex Numbers: The nth roots of unity.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-201MTS",
+      "title": "(A) Mathematics For Competitive Exams",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Number System and Basic Numeracy",
+          "topics": "1.1 Number Systems: Basic Calculation (Addition, Subtraction, Multiplication, and Division) and Simplification, BODMAS, Place Value, Face Value 1.2 Test of Divisibility, LCM and HCF 1.3 Decimals and Fractions 1.4 Simplification 1.5 Powers, Square root, and Cube root 1.6 Logarithm 1.7 Surds and Indices 1.8 Percentage 1.9 Average 1.10 Problems on Ages 1.11 Series Test: Odd Man Out and Series Completion",
+          "hours": 12
+        },
+        {
+          "title": "Quantitative Ability (Applied Mathematics-I)",
+          "topics": "2.1 Ratio and Proportion 2.2 Mixtures and Allegations 2.3 Partnership 48 2.4 Profit and Loss 2.5 Simple Interest & Compound Interest",
+          "hours": 9
+        },
+        {
+          "title": "Quantitative Ability (Applied Mathematics-II)",
+          "topics": "3.1 Time & Work: Problems on Unitary Methods, Problems on Alternate days and wages, Problems on Chain Rule, Problems on Pipes and Cisterns 3.2 Speed, Time, and Distance: Problems on Average and Relative Speed, Problems on Trains, boats, and streams",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "OE-201MTS",
+      "title": "(B) Mathematics for Social Science-I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Statistics, Population and Sample",
+          "topics": "1.1 Meaning of Statistics as a Science. Importance of Statistics. Scope of Statistics: In the field of Social Sciences, Psychology, Industry, Economics, Management sciences, Agricul- ture, Insurance, Information technology, Education etc. 1.2 Notion of a statistical population: Finite population, infinite population, homogeneous population and heterogeneous population. Notion of a sample and a random sample 1.3 Methods of sampling (Description only): Simple random sampling with and without replacement (SRSWR and SRSWOR) stratified random sampling, systematic sampling, illustrations for each sampling method.",
+          "hours": 10
+        },
+        {
+          "title": "Types of characteristics",
+          "topics": "2.1 Attributes: Nominal scale, ordinal scale, 2.2 Variables: Interval scale, ratio scale, discrete and continuous variables, difference between linear scale and circular scale 2.3 Types of data: (a) Primary data, Secondary data (b) Cross-sectional data, time series data, directional data. 2.4 Classification: Raw data and its classification, inclusive and exclusive methods of clas- sification, open end classes, ungrouped frequency distribution, Sturges’ rule, grouped frequency distribution, cumulative frequency distribution and relative frequency distribu- tion. 2.5 Representation of data: Bar Diagrams, Pie-Diagram, Histogram, frequency polygon, fre- quency curve and Ogive curves",
+          "hours": 10
+        },
+        {
+          "title": "Statistical Averages",
+          "topics": "3.1 Concept of central tendency of statistical data, Statistical averages, characteristics of a good statistical average. 3.2 Arithmetic Mean (A.M.): Definition, effect of change of origin and scale, combined mean of a number of groups, merits and demerits, trimmed arithmetic mean. 3.3 Mode and Median: Definition, formulae (for ungrouped and grouped data), Empirical relation between mean, median and mode (without proof). 3.4 Partition Values: Quartiles, Deciles and Percentiles (for ungrouped and grouped data), Box plot. Situations where one kind of average is preferable to others. 3.5 Case study",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OE-201MTS",
+      "title": "(C) Commercial Mathematics I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Quadratic Equations and Progressions",
+          "topics": "1.1 Quadratic equations and solutions 1.2 Polynomials and their factorizations 1.3 Number series and Progressions: Problems on Arithmetic progression, Geometric Pro- gression and Harmonic Progressions 1.4 Problems on Number and letter series 51",
+          "hours": 10
+        },
+        {
+          "title": "Counting Principles",
+          "topics": "2.1 Permutations: Linear and Circular, Permutations with or without repetitions 2.2 Combinations 2.3 Fundamental principles of counting: Problems on Addition and multiplication rule 2.4 Elementary problems on permutations and Combinations 2.6 Binomial theorem",
+          "hours": 8
+        },
+        {
+          "title": "Probability",
+          "topics": "3.1 Introduction to Probability 3.2 Meaning of probability 3.3 Basic concepts: random experiment, sample space, event, types of events (simple, com- pound, mutually exclusive, exhaustive, independent, dependent) 3.4 Classical and empirical definitions of probability 3.5 Addition theorem (for mutually exclusive and non-mutually exclusive events) 3.6 Multiplication theorem (for independent and dependent events) 3.7 Complementary events 3.8 Conditional Probability 3.9 Definition and application 3.10 Use of multiplication rule in conditional probability 3.11 Bayes’ Theorem: Statement and application of Bayes’ theorem in solving problems",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "MTS-251MJ",
+      "title": "Linear Algebra",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Vector Spaces",
+          "topics": "1.1 Vector Spaces and Subspaces 1.2 Linear Combination, Dependence, Independence, Basis, and Dimension 1.3 Null Space and Column spaces 1.4 Orthogonality of Vectors and Subspaces",
+          "hours": 10
+        },
+        {
+          "title": "Linear Transformations",
+          "topics": "2.1 Linear transformation: Definition, Properties and Examples 2.2 Matrix of a Linear transformation with respect to standard basis 2.3 Kernel and Range of Linear Transformation 2.4 Rank-Nullity Theorem (Statement and Problems only)",
+          "hours": 6
+        },
+        {
+          "title": "Eigen Values and Eigen Vectors",
+          "topics": "3.1 Introduction to Eigenvalues: Ax = λx 3.2 Eigen Vectors 3.3 Characteristic Equations, Caley-Hamilton Theorem (Statement and Problems only)",
+          "hours": 8
+        },
+        {
+          "title": "Inner Product Spaces",
+          "topics": "4.1 Inner Product Spaces: Definition, Properties and Examples 4.2 Orthogonal and Orthonormal vectors 53 4.3 Norm of a vector 4.4 Gram - Schmidt Process of Orthonormalization",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "MTS-252MJ",
+      "title": "Vector Calculus",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Vector Valued Functions",
+          "topics": "1.1 Curves in Space, Limits and Continuity, Derivatives and Motion, Differentiation Rules for Vector Function, Vector Functions of Constant Length. 1.2 Integrals of Vector Functions. 1.3 Arc Length along a Space Curve, Speed on a Smooth Curve, Unit Tangent Vector. 54 1.4 Curvature of a Plane Curve, Circle of Curvature for Plane Curves, Curvature and Normal Vectors for a Space Curve.",
+          "hours": 8
+        },
+        {
+          "title": "Integrals",
+          "topics": "2.1 Line Integral of Scalar Functions, Additivity, Line integral in the Plane. 2.2 Vector Fields, Gradient of a scalar field, Line Integral of Vector Fields, Line Integrals. 2.3 Work done by a Force over a Curve in Space, Flow Integrals and Circulation for Velocity Fields, Flux across the Simple Closed Plane Curve. 2.4 Path Independence, Conservative and Potential Functions. 2.5 Divergence, Two forms for Green’s Theorem, Green’s Theorem in the Plane (1 - form only)",
+          "hours": 14
+        },
+        {
+          "title": "Surface Integrals",
+          "topics": "3.1 Parameterizations of Surfaces, Implicit surfaces, surface area, surface integrals. 3.2 The Curl of Vector Field, Conservative Fields and Stokes’ Theorem (without proof). 3.3 Divergence in three Dimensions, Divergence Theorem (without proof).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "MTS-253MJP",
+      "title": "Practical on Linear Algebra and Vector Calculus",
+      "semester": 4,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        54,
+        55
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251MTS",
+      "title": "LaTex",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        55,
+        57
+      ],
+      "units": [
+        {
+          "title": "LaTeX Basics",
+          "topics": "1.1 What is Latex? 1.2 How LaTeX works 1.3 The LaTeX input files 1.4 Installation of MikTex 1.5 Introduction of Console 1.6 Overleaf-online LaTeX Editor",
+          "hours": 4
+        },
+        {
+          "title": "Creating LaTex Document",
+          "topics": "2.1 Document Classes 2.2 Packages 2.3 Making a Title page 2.4 Making a Table of contents 2.5 Page styles 2.6 Margins",
+          "hours": 6
+        },
+        {
+          "title": "Within the Text",
+          "topics": "3.1 Changing Type Style and Size 56 3.2 Spaces 3.3 Drawing Rules 3.4 Centering 3.5 Making Lists",
+          "hours": 6
+        },
+        {
+          "title": "Tabular Environment in Latex",
+          "topics": "4.1 Changing Type Style and Size 4.2 Spaces 4.3 Drawing Rules 4.4 Centering 4.5 Multicolumn and multirow",
+          "hours": 8
+        },
+        {
+          "title": "Typesetting Mathematics",
+          "topics": "5.1 In-line Math 5.2 Display Math 5.3 AMS packages 5.4 Simple Mathematical formulas 5.5 Equation Environment (numbered and unnumbered) 5.6 Creating Matrices 5.7 Building Mathematical Expressions",
+          "hours": 20
+        },
+        {
+          "title": "Including Graphics",
+          "topics": "6.1 Graphics environment 6.2 Importing Graphic into LaTeX document 6.3 Captions and Sub-captions 6.4 Images through TexCAD 6.5 Tikz LaTex",
+          "hours": 4
+        },
+        {
+          "title": "Beamer presentation",
+          "topics": "7.1 Documentclass 7.2 Beamerthemes 7.3 Beamercolors 7.4 Creating frames 7.5 Animations 57 7.6 LaTeX for quizes",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "MTS-291MN",
+      "title": "(A) Mathematics for Physical Science-II",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        58,
+        59
+      ],
+      "units": [
+        {
+          "title": "Differential Equations",
+          "topics": "1.1 Introduction 1.2 Nature of Solutions 1.3 Separable Equations 1.4 First Order Linear Equations 1.5 Exact Equations 1.6 Homogeneous Equations 1.7 Integrating Factors 1.8 Real life applications of First Order Differential Equations i. Bacterial growth ii. Half-Life decay of radioactive materials iii. Age of fossil iv. Newton’s law of cooling v. Population dynamics (Logistic Model) 59",
+          "hours": 15
+        },
+        {
+          "title": "Second Order Differential Equations",
+          "topics": "2.1 Introduction 2.2 Second-order linear equations 2.3 General solutions to homogeneous differential equations with constant coefficients 2.4 Real life applications of Second Order Differential Equations:- i. Vibrations and oscillations ii. Undamped Simple Harmonic Motion iii. Damped Vibrations (without external force).",
+          "hours": 8
+        },
+        {
+          "title": "Numerical Solutions to Differential Equations",
+          "topics": "3.1 Introduction to the Initial value problems 3.2 Euler’s method 3.3 Improved / Modified Euler’s method 3.4 Second Order Runge-Kutta Method 3.5 Fourth Order Runge-Kutta Method (Without Derivation)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "MTS-291MN",
+      "title": "(B) Mathematics for the Life Sciences-II",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        60,
+        61
+      ],
+      "units": [
+        {
+          "title": "The Derivative",
+          "topics": "1.1 Increments and Rates 1.2 Limits 1.3 More on Limits 1.4 Continuous Functions 1.5 The Derivative 1.6 Derivatives of Power Functions 1.7 Derivatives of Products and Quotients 1.8 Derivatives of Composite Functions 1.9 Higher Derivatives",
+          "hours": 10
+        },
+        {
+          "title": "Applications of Derivative",
+          "topics": "2.1 Analysis of Curves 2.2 Maxima and Minima 2.3 Applications of Maxima and Minima 2.4 Newton’s Method 2.5 The Differentials dx and dy. 2.6 Implicit Differentiation 2.7 Parametric Equations 61",
+          "hours": 10
+        },
+        {
+          "title": "Integration",
+          "topics": "3.1 Antiderivatives 3.2 Method of Substitution 3.3 Tables of Integrals 3.4 Method of Partial Fractions 3.5 Trigonometric Substitutions 3.6 Integration by Parts",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "MTS-291MN",
+      "title": "(C) Mathematics for Computer Science-II",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": [
+        {
+          "title": "Two dimensional transformations",
+          "topics": "1.1 Introduction 1.2 Representation of points 1.3 Transformations and matrices. 1.4 Transformation of points. 1.5 Transformation of straight lines 1.6 Midpoint Transformation 1.7 Transformation of parallel lines 1.8 Transformation of intersecting lines 1.5 Transformation: rotations, reflections, scaling, shearing 1.6 Combined transformations 1.7 Transformation of a unit square. 1.8 Solid body transformations 1.9 Translations and homogeneous coordinates",
+          "hours": 10
+        },
+        {
+          "title": "Three dimensional transformations",
+          "topics": "2.1 Introduction 2.2 Three dimensional Scaling, shearing, rotation, reflection, translation 2.3 Multiple transformations 2.4 Rotation about an axis parallel to coordinate axes, 2.5 Reflection through coordinate planes",
+          "hours": 7
+        },
+        {
+          "title": "Projection",
+          "topics": "3.1 Orthographic projections. 3.2 Axonometric projections. 3.3 Oblique projections. 3.4 Application of projection",
+          "hours": 7
+        },
+        {
+          "title": "Plane Curves",
+          "topics": "4.1 Introduction 4.2 Curve representation 4.3 Parametric curves",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "MTS-292MN",
+      "title": "Practical on (A) Mathematics for Physical Science-II",
+      "semester": 4,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        63,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "MTS-292MN",
+      "title": "Practical on (B) Mathematics for Life Sciences-II",
+      "semester": 4,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        63,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "MTS-292MN",
+      "title": "Practical on (C) Mathematics for Computer Science-II",
+      "semester": 4,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        63,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251MTS",
+      "title": "(A) Mathematics for Competitive Exams-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        64,
+        65
+      ],
+      "units": [
+        {
+          "title": "Calendar and Clocks",
+          "topics": "1.1 Calendar Problems 1.2 Clock Problems",
+          "hours": 5
+        },
+        {
+          "title": "Geometry and Mensuration",
+          "topics": "2.1 Lines and Angles 2.2 Triangles 2.3 Quadrilaterals 2.4 Circles 2.5 Polygons 2.6 Areas and Volumes",
+          "hours": 10
+        },
+        {
+          "title": "Permutation and Combination",
+          "topics": "3.1 Problems on linear arrangement 3.2 Problems on circular arrangement 3.3 Problems when repetitions are allowed 3.4 Problems on selections 65",
+          "hours": 8
+        },
+        {
+          "title": "Probability",
+          "topics": "4.1 Problems on coins, dice, leap year and non-leap year 4.2 Problems on deck of cards, balls 4.3 Problems on addition and multiplication theorems",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "OE-251MTS",
+      "title": "(B) Mathematics for Social Science-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        65,
+        66
+      ],
+      "units": [
+        {
+          "title": "Measures of Dispersion",
+          "topics": "1.1 Concept of dispersion, characteristics of good measure of dispersion. 1.2 Range, Semi-interquartile range (Quartile deviation): Definition. Mean deviation: Defini- tion, statement of minimal property (without proof). Mean squared deviation: Definition, minimal property of mean squared deviation (without proof). 1.3 Variance and standard deviation: Definition, effect of change of origin and scale (without proof). 1.4 Measures of dispersion for comparison: coefficient of range, coefficient of quartile deviation and coefficient of mean deviation, coefficient of variation (C.V.)",
+          "hours": 15
+        },
+        {
+          "title": "Moments, Skewness and Kurtosis",
+          "topics": "2.1 Moments: Raw moments and Central moments for ungrouped and grouped data, Effect of change of origin and scale on central moments (without proof). Relations between central moments and raw moments, upto 4-th order (only formulae) 2.2 Skewness: Concept of skewness of frequency distribution, positive skewness, negative skewness, symmetric frequency distribution. 2.3 Bowley’s coefficient of skewness: Bowley’s coefficient of skewness lies between -1 and 1(without proof ), Karl Pearson’s coefficient of skewness. 2.4 Kurtosis: Concepts of kurtosis, leptokurtic, mesokurtic and platykurtic frequency distri- butions. Measures of kurtosis based on moments. Comment on type of skewness.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "OE-251MTS",
+      "title": "(C) Commercial Mathematics II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        67,
+        68
+      ],
+      "units": [
+        {
+          "title": "Simple Interest and Compound Interest",
+          "topics": "1.1 Simple Interest - The time between dates - Equation of value - Partial payments - Simple discount 1.2 Compound interest - Accumulated value - Equivalent rates - Discounted value - Accumulated and discounted values for fractional periods - Finding the rate - Finding the time - Equation of value - Compound discount a ta discount rate",
+          "hours": 15
+        },
+        {
+          "title": "Annuities and Loans",
+          "topics": "2.1 Annuities Definition and notation - Accumulated value of an ordinary simple annuity - Discounted value of an ordinary simple annuity - Other simple annuities - Finding the term of an annuity - Finding the interest rate - General annuities - Perpetuities - Annuities whose payments vary 68 2.2 Loans and sinking funds - EMI using flat interest rate method - EMI using floating interest rate methods - Amortization of a debt - Outstanding principal - Mortgages - Refinancing a loan - Sinking funds - Comparison of amortizations and sinking fund methods",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "MTS-271VSC",
+      "title": "R Programming",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Introduction to R",
+          "topics": "1.1 Getting Started with R Programming R is a free, Open Source Programming Language, so students can download from R Programming project Website and install on their own machine (Linux, Windows or MacOS). They do have RStudio, which is an integrated development environment (IDE) that provides a user-friendly interface. The section covers the following topics. - Installation of R - Use of R console - R script/ editor file, R Prompt, Menu Ribbon, Saving R editor/script file - Clearing R console, - Comments (single line, multiple line) - Packages, - Taking help in R - Closing R session. 1.2 R Operators: Assignment Operators: = , < − , − > , <<− , − >> ,assign() Arithmetic Operators: addition ( + ), subtraction ( - ), multiplication ( * ), division( / ), exponent (ˆ or ** ), remainder operator ( %% ), Integer division (%/%) Comparison Operators: equal to (==), less than ( < ), greater than ( >), less than or equal to ( <=), greater than or equal to ( >=), not equal to ( ! = ) Logical Operators: element wise logical AND (&), logical AND (&&), element wise logical OR ( | ), logical OR ( | |), logical NOT ( ! ), xor(), isTRUE(), isF ALSE(). 70 1.3 Data Structures and R Objects: Consta...",
+          "hours": 20
+        },
+        {
+          "title": "Matrix Operations in R",
+          "topics": "2.1 Matrix Manipulation: dim(), colnames(), rownames(), cbind() , rbind(), colSums(), row- Sums(), colMeans(), rowMeans(), apply(). 2.2 Arithmetic Operations on matrix: Addition, subtraction, multiplication of matrices, row sums and column sums of matrix, power of a matrix. 2.3 Matrix Product: matrix multiplication ( %*% ), crossprod(), Outer product (%o%). 2.4 Rank of matrix using rankMatrix(), transpose of a matrix using t(), Finding determinant of matrix using det(), finding inverse of matrix using solve(), trace of a matrix. 2.5 Verifying properties of trace of matrix and transpose of matrix, solving system of linear equations using solve().",
+          "hours": 15
+        },
+        {
+          "title": "Differentiation and Integration in R",
+          "topics": "3.1 Defining mathematical functions in R, expression(), D(), deriv, eval(), numericDeriv(), 3.2 integrate(), uniroot(), ysym(), Sym(), lim(), Limit(). 71 3.3 Examples on differentiation and integration. 3.4 Solving polynomial equations using polyroot()",
+          "hours": 10
+        },
+        {
+          "title": "Data Visualization in R",
+          "topics": "4.1 Importing data available in .csv and .txt files into R, 4.2 Exporting outputs and base R datasets in .csv and .txt files from R. 4.3 Pie diagram for raw data and frequency table, Venn diagrams. 4.4 Barplot: simple barplot, subdivided barplot, multiple barplot. 4.5 line plot for time series data, spike plot for discrete frequency distribution, 4.6 Histogram for raw data and continuous frequency distribution with equal and unequal class width. 4.7 Exporting plots and diagrams from R in MS-word.",
+          "hours": 15
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

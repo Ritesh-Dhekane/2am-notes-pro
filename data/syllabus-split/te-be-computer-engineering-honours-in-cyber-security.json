@@ -1,0 +1,222 @@
+{
+  "id": "te-be-computer-engineering-honours-in-cyber-security",
+  "kind": "programme",
+  "programme": "Honour Course in Cyber Security",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HCYS301COM",
+      "title": "Cryptography &Network Security",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Security Fundamentals & Modular Arithmetic",
+          "topics": "Security goals (CIA triad + Non-repudiation), Cryptographic attacks, Services and Mechanisms. Modular arithmetic: Euclid’s GCD, Extended Euclidean Algorithm, Chinese Remainder Theorem (CRT). Security nomenclature, access control matrix, OS security basics.",
+          "hours": 9
+        },
+        {
+          "title": "Classical & Symmetric Cryptography",
+          "topics": "Classical ciphers: Substitution, Transposition, Stream vs Block ciphers. DES: structure, rounds, S-boxes, key schedule, Triple-DES. AES: SubBytes, ShiftRows, MixColumns, AddRoundKey , key expan- sion. RC5 algorithm. Cryptanalysis: brute force, differential, linear attacks.",
+          "hours": 9
+        },
+        {
+          "title": "Asymmetric Cryptography & Key Exchange",
+          "topics": "RSA algorithm: key generation, encryption, decryption, security analysis. Diffie-Hellman key ex- change and its vulnerabilities. ElGamal cryptosystem. Elliptic Curve Cryptography (ECC) and ECDH. Comparison of symmetric vs asymmetric systems. Hybrid cryptosystems.",
+          "hours": 9
+        },
+        {
+          "title": "Hash Functions, Digital Signatures & PKI",
+          "topics": "Cryptographic hash functions: SHA-1, SHA-256, SHA-512, WHIRLPOOL, MD5. Iterated hash functions, collision resistance. Digital Signatures: RSA-based, DSA, ECDSA. Digital Signature Stan- dard (DSS). X.509 certificates, Public Key Infrastructure (PKI), Certificate Authorities (CAs), Kerberos, Needham-Schroeder protocol.",
+          "hours": 9
+        },
+        {
+          "title": "Network Security Protocols",
+          "topics": "IP Security (IPSec): Authentication Header (AH), Encapsulating Security Payload (ESP), IKE, VPN. Web Security: SSL/TLS handshake, HTTPS, HSTS. Email Security: PGP, S/MIME, DKIM, SPF. DNS Security (DNSSEC). Firewalls: packet-filtering, stateful, application-layer. Intrusion Detection Systems (IDS/IPS).",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HCYS302COM",
+      "title": "Cybersecurity Fundamentals & Secure Coding Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        10,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "HCYS51COM",
+      "title": "Ethical Hacking &Penetration Testing",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Ethical Hacking Methodology & Reconnaissance",
+          "topics": "Penetration testing standards: PTES, OWASP, CEH methodology , MITRE ATT&CK framework. Phases: Reconnaissance, Scanning, Exploitation, Post-Exploitation, Reporting. Passive recon: OSINT, Google Dorks, Shodan, Maltego, theHarvester, WHOIS, DNS enumeration. Active recon: Nmap, Netdiscover, Masscan.",
+          "hours": 9
+        },
+        {
+          "title": "Scanning, Enumeration & Vulnerability Assessment",
+          "topics": "Port scanning techniques: SYN, NULL, FIN, Xmas, UDP scans. Service fingerprinting and OS detec- tion. Vulnerability scanners: Nessus, OpenVAS, Nikto. Banner grabbing, SMB/SNMP/LDAP enumera- tion. CVE, CVSS scoring, vulnerability prioritisation. Metasploit db_nmap and auxiliary modules.",
+          "hours": 9
+        },
+        {
+          "title": "System Exploitation & Privilege Escalation",
+          "topics": "Exploitation frameworks: Metasploit (msfconsole, meterpreter, payloads, encoders). Buffer over- flow exploitation: stack-based, heap-based. Shell code, NOP sleds, return-oriented programming (ROP) basics. Privilege escalation: Linux (SUID, sudo misconfigs, kernel exploits), Windows (token impersonation, UAC bypass). Pass-the-Hash, Pass-the-Ticket. Credential dumping with Mimikatz.",
+          "hours": 9
+        },
+        {
+          "title": "Web Application Penetration Testing",
+          "topics": "OWASP Top 10 (2021): Injection, Broken Auth, XSS, IDOR, SSRF, Security Misconfig, Vulnerable Components, etc. Tools: BurpSuite Pro, OWASP ZAP, SQLMap, Nikto. Cross-Site Scripting (reflected, stored, DOM). CSRF, Clickjacking, XXE, Directory Traversal, File Upload vulnerabilities. API security testing basics.",
+          "hours": 9
+        },
+        {
+          "title": "Wireless, Social Engineering & Post-Exploitation",
+          "topics": "Wireless attacks: WEP/WPA2 cracking with Aircrack-ng, Evil Twin AP, PMKID attack. Social engi- neering: phishing, vishing, smishing, pretexting frameworks (SET – Social Engineering Toolkit). Post- exploitation: persistence mechanisms, lateral movement, pivoting with proxychains, data exfiltration, covering tracks (anti-forensics). C2 frameworks overview (Cobalt Strike concepts).",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HCYS352COM",
+      "title": "Ethical Hacking & Penetration Testing Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "HCYS401COM",
+      "title": "Cybersecurity Operations, Threat Intelligence & SOC",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Security Operations Centre",
+          "topics": "(SOC) Fundamentals (09 Hours) SOC types (in-house, MSSP, hybrid), tiers (L1/L2/L3), roles and responsibilities. SOC metrics: MTTD, MTTR, false positive rate, alert fatigue. Security event vs security incident. Log sources: Windows Event Logs, Syslog, NetFlow, DNS logs, proxy logs. Log management and SIEM architecture. Ticketing systems and escalation procedures.",
+          "hours": null
+        },
+        {
+          "title": "SIEM, Log Analysis & Threat Detection",
+          "topics": "SIEM platforms: Splunk, IBM QRadar, Microsoft Sentinel, ELK Stack (Elasticsearch, Logstash, Kibana). Log correlation rules and use-case development. Detection engineering: Sigma rules, YARA rules. Network traffic analysis: baseline establishment, anomaly detection. Use cases: brute force, lateral movement, data exfiltration, C2 beaconing detection. Dashboard and reporting.",
+          "hours": 9
+        },
+        {
+          "title": "Cyber Threat Intelligence",
+          "topics": "(CTI) (09 Hours) CTI lifecycle: planning, collection, processing, analysis, dissemination, feedback. Intelligence types: strategic, operational, tactical, technical. CTI frameworks: MITRE ATT&CK, Cyber Kill Chain, Diamond Model, STIX 2.1/TAXII 2.1. Threat actor profiling: APT groups, TTPs, motivations. Dark web intelligence and OSINT for CTI. CTI platforms: MISP, OpenCTI, ThreatConnect. IOC management.",
+          "hours": null
+        },
+        {
+          "title": "Incident Response & Digital Forensics Basics",
+          "topics": "NIST SP 800-61 and SANS IR methodology: Preparation, Identification, Containment, Eradication, Recovery , Lessons Learned (PICERL). Playbooks for: ransomware, phishing, insider threat, DDoS, APT. Evidence collection principles, chain of custody . Memory forensics with Volatility: process listing, network connections, artefact extraction. Disk forensics: timeline analysis, deleted file recovery . Legal admissibility .",
+          "hours": 9
+        },
+        {
+          "title": "Threat Hunting & Advanced Detection",
+          "topics": "Threat hunting maturity model. Hypothesis-driven hunting: IOC-based, TTP-based, analytics- driven. Hunting tools: Velociraptor, OSQuery , Sysmon (Windows event logs for hunting). Lateral movement and persistence hunting. Hunting in cloud environments (AWS CloudTrail, Azure logs). Threat hunting reporting and feedback loop to detections. Purple teaming concepts.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HCYS402COM",
+      "title": "Digital Forensics & Malware Analysis Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        19,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "HCYS451COM",
+      "title": "AI, Cloud Security& Cyber Law",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Cloud Security Architecture",
+          "topics": "Cloud service models (IaaS/PaaS/SaaS) and shared responsibility matrix. Cloud security threats: misconfigurations, insecure APIs, excessive permissions, cloud hopping. AWS security: IAM, Security Groups, CloudTrail, GuardDuty , Macie, KMS. Azure security: Azure AD, Defender for Cloud, Sentinel, Key Vault. GCP: Security Command Centre, VPC Service Controls. CASB, CSPM, CWPP tools. Zero Trust in cloud environments.",
+          "hours": 9
+        },
+        {
+          "title": "AI & Machine Learning for Cybersecurity",
+          "topics": "ML pipeline for security: feature engineering, model training, evaluation. Supervised: malware classification (Random Forest, SVM, deep learning). Unsupervised: anomaly detection (Isolation For- est, Autoencoders). NLP for log analysis and phishing detection. Graph-based approaches for fraud and APT detection. Federated learning for privacy-preserving threat intelligence sharing. AI-powered tools: Darktrace, Vectra, CrowdStrike Falcon.",
+          "hours": 9
+        },
+        {
+          "title": "Adversarial AI & AI Security",
+          "topics": "Adversarial ML: evasion attacks (FGSM, PGD, CW), poisoning attacks, model inversion, member- ship inference. Defences: adversarial training, input sanitisation, differential privacy , model distil- lation. Deepfakes and synthetic media threats. LLM security: prompt injection, jailbreaking, data poisoning in RAG systems. AI governance: NIST AI RMF, EU AI Act implications. Securing AI pipelines and MLOps.",
+          "hours": 9
+        },
+        {
+          "title": "DevSecOps & Secure Software Development",
+          "topics": "DevSecOps culture and shift-left security . Secure SDLC (SSDLC): threat modelling (STRIDE, DREAD), secure design patterns. Static Application Security Testing (SAST): Semgrep, SonarQube, Checkmarx. Dynamic Application Security Testing (DAST): OWASP ZAP, BurpSuite. Software Composition Anal- ysis (SCA): OWASP Dependency-Check, Snyk. Container security: Docker bench, Trivy , Kubernetes security . Infrastructure as Code (IaC) security: Checkov, Terrascan. CI/CD pipeline security: GitHub Actions secrets management, SBOM.",
+          "hours": 9
+        },
+        {
+          "title": "Governance, Risk & Compliance",
+          "topics": "(GRC) (09 Hours) GRC frameworks: ISO/IEC 27001/27002, NIST Cybersecurity Framework (CSF 2.0), COBIT 5, CIS Controls v8. Risk management: risk identification, qualitative and quantitative assessment, risk treat- ment (accept, mitigate, transfer, avoid). Security auditing and continuous monitoring. Compliance standards: PCI-DSS v4, HIPAA, SOC 2 Type II, FedRAMP. Vendor risk management and third-party assessment. BCDR: BCP, DRP, RTO, RPO.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "HCYS452COM",
+      "title": "Advanced SecurityLab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        24,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "HCYS452COM",
+      "title": "Honours Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

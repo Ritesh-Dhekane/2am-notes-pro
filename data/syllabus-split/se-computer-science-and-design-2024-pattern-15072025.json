@@ -1,0 +1,564 @@
+{
+  "id": "se-computer-science-and-design-2024-pattern-15072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (2024 Pattern) in Computer Science and Design (CSD)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-CSD",
+      "title": "Data Structures and Algorithms",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Algorithm and Data Structures",
+          "topics": "Basics Concepts -Data, Data objects, Data types, Data structure, Abstract Data Types (ADT), Primitive and non - primitive, linear and nonlinear, static and dynamic, persistent and ephemeral data structures. Algorithms-Introduction, Characteristics, Analysis of algorithms Co mplexity of algorithms - Space complexity, Time complexity, Asymptotic notation. Algorithmic Strategies- Introduction to Algorithm design strategies- Divide and Conquer, and Greedy strategy.",
+          "hours": 9
+        },
+        {
+          "title": "Sequential Organization and Searching",
+          "topics": "Sequential Organization- Concept, Array as an abstract data type, Memory representation and address calculation, Inserting and deleting an element, Concept of Ordered List. Searching: Search Techniques-Sequential Search/Linear Search, Variant of Sequential Search- Sentinel Search, Binary Search, Fibonacci Search, and Indexed Sequential Search.",
+          "hours": 9
+        },
+        {
+          "title": "Sorting",
+          "topics": "Sorting: Types of Sorting -Internal and External Sorting, General Sort Concepts-Sort Order, Stability, Efficiency, and Number of Passes, Comparison Based Sorting Methods -Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Shell Sort, Non-comparison Based Sorting Methods-Radix Sort, Counting Sort, and Bucket Sort, Comparison of All Sorting Methods and their complexities.",
+          "hours": 9
+        },
+        {
+          "title": "Linked List",
+          "topics": "Linked lists-Concept, Linked list as an Abstract data type, Comparison of sequential and linked organizations Realization of Linked list - using arrays, using dynamic memory management, header node, advantages and disadvantages of linked list Linked list operations -Insert a node, delete a node, traverse, copy, reverse, concatenate, delete list Types of linked list -Linear, circular , Doubly linked list and operations, introduction to GLL",
+          "hours": 9
+        },
+        {
+          "title": "Stack & Queue",
+          "topics": "Stacks-Concept, Stack as an ADT, Representation of stacks using array and linked list, stack operations, Multi - stacks Applications of Stack- Polish notation, expression conversion and evaluation, Processing of function calls and Returns Recursion - Concept, Types o f Recursion -Direct recursion. Queues - Concept, Queue as ADT, Representation of queues using arrays and linked list, Circular queue, Dequeue, Multi -queues, Linked queue and operations. Applications of Queue: Scheduling, Josephus problem",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-CSD",
+      "title": "Database Management System",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to DBMS & ER Model",
+          "topics": "Fundamentals of DBMS: Purpose of Database Systems, Database-System Applications, View of Data (Physical, Logical, Conceptual), Database Languages (DDL, DML, DCL, TCL), Database System Struc- ture. Data Models & ER Model: Types of Data Models: Hierarchical, Network, Relational, Entity- Relationship (ER) Model: Entities, Attributes, Relationships, Constraints ER Diagram & Design Pro- cess Extended ER Features (Specialization, Generalization, Aggregation), Converting ER and EER diagrams into tables. Relational Model & Integrity Constraints: Basic Concepts: Attributes, Domains, Tuples, CODD‟s Rules for Relational Databases, integrity Constraints: Domain Integrity, Referential Integrity, Enterprise Constraints",
+          "hours": 9
+        },
+        {
+          "title": "SQL and PL/SQL",
+          "topics": "Introduction to SQL: Characteristics and advantages of SQL Data Types and Literals SQL Commands & Operators: Data Definition Language (DDL): CREATE, ALTER, DROP, TRUNCA, TE, RENAME, Data Manipulation Language (DML): INSERT, UPDATE, DELETE, Data Control Language (DCL): GRANT, REVOKE, Transaction Control Language (TCL): COMMIT, ROLLBACK, SAVEPOINT, SQL Operators: Arithmetic, Comparison, Logical, Set Operators, Tables & Constraints: Creating, Modifying, Delet- ing Tables, Integrity Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL Views & Indexes: Creating, Dropping, Updating Views, Indexes: Types and Usage SQL Queries: SELECT Query & Clauses: , Tuple Variables, Aggregate Functions. Advanced SQL Features: Nested Queries & Subqueries, Database Modification: INSERT,UPDATE, DELETE Queries, Stored Procedures & Func- tions, Triggers: Row-level & Statement-level, Cursors: Implicit & Explicit, Embedded SQL: Using SQL within programming languages (Java, Python, C) PL/SQL & Advanced SQL Features: Views: Creating, Dropping, Updating using Indexes, Stored Procedures and Functions, Cursors & Triggers, Assertions, Roles, and Privileges",
+          "hours": 9
+        },
+        {
+          "title": "Relational Database Design & Normalization",
+          "topics": "Features of Good Database Design: Atomic Domains & First Normal Form (1NF), Functional Depen- dencies. Normalization & Decomposition: 2NF, 3NF, BCNF, Decomposition using Functional Depen- dencies, Algorithms for Decomposition. Introduction to Transactions & ACID Properties: Database Transactions, Transaction States & ACID Properties",
+          "hours": 9
+        },
+        {
+          "title": "Transaction Management & Recovery",
+          "topics": "Schedules and Serializability: Concept of Schedules & Serial Schedules, Serializability: Conflict & View Serializability, Cascaded Aborts, Recoverable & Non-Recoverable Schedules. Concurrency Con- trol Mechanisms: Lock-Based Proto cols: Timestamp-Based Protocols, Deadlock Handling. Database Recovery Methods Shadow Paging ,Log-Based Recovery, Checkpoints, Deferred & Immediate Database Modifications",
+          "hours": 9
+        },
+        {
+          "title": "NoSQL Databases & Advanced Database Technology",
+          "topics": "NoSQL Databases & CAP Theorem: Introduction to Distributed Databases, Advantages & Disadvan- tages, CAP Theorem ,Types of Data: Structured, Unstructured, Semi-Structured, NoSQL Concepts & Types: Need for NoSQL, Features of NoSQL Types of NoSQL Databases: Key-Value Store, Document Store, Graph Database, Wide Column Stores, BASE vs. ACID Properties, Comparative Study: RDBMS vs. NoSQL, Advanced Database Technologies: Semi-Structured Data: JSON & XML, Object-Relational Database System (ORDBMS),Spatial Databases: Geographic & Geometric Data",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-CSD",
+      "title": "Discrete Mathematics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Set and Propositions",
+          "topics": "Introduction and significance of Discrete Mathematics, Propositional Logic- logic, Propositional Equiv- alences, Application of Propositional Logic- Translating English Sentences, Proof by Mathematical Induction and Strong Mathematical Induction. Sets– Naïve Set Theory (Cantorian Set Theory), Ax- iomatic Set Theory , Set Operations, Cardinality of set, Principle of inclusion and exclusion. Types of Sets – Bounded and Unbounded Sets, Diagonalization Argument, Countable and Uncountable Sets, Finite and Infinite Sets, Countably Infinite and Uncountably Infinite Sets, Power set. Case study: Know about the great philosophers- Georg Cantor, Richard Dedekind and Aristotle. Design a recommendation system using logical propositions and predicates to filter movies based on user preferences.",
+          "hours": 9
+        },
+        {
+          "title": "Relations and Functions",
+          "topics": "Introduction to Relations and their Properties Representation of Relations using Matrices and Di- graphs Equivalence relations, Partial orderings, Partitions, Hasse diagram, Lattices, Chains and Anti- Chains, Transitive closure and Warshall‘s algorithm. Functions: Types of Functions (Injective, Surjective, Bijective) , Composition and Inverse of Func- tions , Recursive Functions and Applications in Algorithms, Counting Functions and Growth of Func- tions Cast Study - Know about the great philosophers-Dirichlet",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Trees",
+          "topics": "Introduction to Trees and Properties, Binary Trees and Binary Search Trees (BST), Tree Traversal Techniques: Preorder, Inorder, Postorder , Huffman Trees and Data Compression Algorithms, Appli- cations of Trees in File Systems, The Max flow- Min Cut Theorem in Transport network. Case Studies - Algebraic Expression Tree, Tic-Tac-Toe Game Tree, implement a file directory system using a tree structure, allowing hierarchical organization of files and folders",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Graph Theory",
+          "topics": "Introduction to Graphs : Types and Representation, Graph Traversals: BFS and DFS ,Connected Components and Path finding Algorithms, Eulerian and Hamiltonian Paths and Circuits , Planar Graphs and Graph Coloring, Dijkstra’s Algorithm for Shortest Paths , Spanning Trees and Minimum Spanning Tree Algorithms (Prim’s and Kruskal’s) Case study : Model a social media platform using directed graphs to represent relationships such as “follower” or “friend.” Three utility problem, Web Graph, Google map",
+          "hours": 9
+        },
+        {
+          "title": "Counting Principles and Algebraic Structures",
+          "topics": "Basic Counting Techniques: Addition and Multiplication Principles, Permutations and Combina- tions, Binomial Coefficients and Pascal’s Triangle, Pigeonhole Principle and its Applications, Inclusion- Exclusion Principle, Generating Functions for Counting Problems. The structure of algebra - Algebraic Systems, Semi Groups, Monoids, Groups, Homomorphism and Normal Subgroups and Congruence relations, Rings, Integral Domains and Fields. Case Studies - Study Sudoku solving algorithms and algorithm for generation of new SUDOKU. Study Hank-shake Puzzle and algorithm to solve it Calculate the number of possible password com- binations given specific constraints on length, character types, and repetition",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-CSD",
+      "title": "Data Structures and Algorithms Laboratory",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-CSD",
+      "title": "Database Management System Laboratory",
+      "semester": 3,
+      "type": "Program Core Courses",
+      "credits": 1,
+      "pages": [
+        27,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "*OpenElective-I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-CSD",
+      "title": "Digital Electronics",
+      "semester": 3,
+      "type": "Multi Disciplinary",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Logic Minimization",
+          "topics": "Boolean Function Representation: Sum of Product (SOP) and Product of Sum (POS) form of Boolean Expression, Standard SOP and POS form. Minimization Technique: Karnaugh map ( K-map) representation of Logical Function, Simplification of Logical Function using K-map, Minimization of SOP forms, Minimization of POS forms, Implemen- tation of Digital Circuits using Universal gates.",
+          "hours": 6
+        },
+        {
+          "title": "Combinational Logic Design - I",
+          "topics": "Adder, Subtractor, Look ahead Carry Adder, BCD Adder, Design of Full Adder, Subtractor and BCD Adder Codes: Binary Code, BCD Code (Binary-Coded Decimal), Excess-3 Code, Gray Code, Alphanumeric Code, Error Detecting and Correcting Codes, Code Converters",
+          "hours": 6
+        },
+        {
+          "title": "Combinational Logic Design - II",
+          "topics": "Multiplexer, Multiplexer IC 74151, Multiplexer Tree, Demultiplexer, Demultiplexer Tree, Comparator, Encoder, Priority Encoder, Decoder, Combinational Circuit Design using Mux, DeMux Case Study (Any one): IC 74181 (ALU), BCD to 7-Segment Display Controller, Calendar Subsystem",
+          "hours": 6
+        },
+        {
+          "title": "Sequential Circuit Design-1",
+          "topics": "Flip Flop: 1-bit memory cell, Clocked S-R Flip Flop, J-K Flip Flop, race around condition, M/S J-K Flip Flop, D and T Flip Flop, Excitation Table, Flip-Flop Conversion. Counter: Asynchronous and Synchronous Counters, Design of Asynchronous counter, Modulus Asyn- chronous Counters, IC 7490, Design of Synchronous Counter, Modulus Synchronous Counter, Case Study: Security Monitoring System.",
+          "hours": 6
+        },
+        {
+          "title": "Sequential Circuit Design-2",
+          "topics": "Shift Register: SISO (Serial-In, Serial-Out), SIPO (Serial-In, Parallel-Out), PIPO (Parallel-In, Parallel- Out), PISO (Parallel-In, Serial-Out), Bidirectional Shift Register, Universal Shift Register, Ring and Twisted Ring/Johnson Counter. Moore / Mealy Machine: Representation Techniques, State Diagrams, State Tables, State Reduction, State Assignment, Implementation using Flip-Flops, Design of Sequence Generator and Detector.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-CSD",
+      "title": "Entrepreneurship Development",
+      "semester": 3,
+      "type": "Entrepreneurship/ Management",
+      "credits": 2,
+      "pages": [
+        34,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "Introduction, Concept of Entrepreneur, Entrepreneurship and Enterprise, Definition of Entrepreneur- ship, Objectives of Entrepreneurship Development, Phases of Entrepreneurship Development, Role of Entrepreneurship, The Entrepreneurial Mindset, Characteristics of Entrepreneurship, Traits of En- trepreneurship, Introduction to Entrepreneurship Skills Case Study: The Journey of Steve Jobs: The Rise of Apple Inc.",
+          "hours": 3
+        },
+        {
+          "title": "Entrepreneurship Development Skills",
+          "topics": "Meaning of Entrepreneurship skill, Types of Entrepreneurship Skills: Business management skills, Teamwork and leadership skills, Communication and listening, Customer service skills, Financial skills, Analytical and problem-solving skills, Critical thinking skills, Strategic thinking and planning skills, Technical skills, Time management and organizational skills, Branding, marketing and net- working skills , How to improve entrepreneurial skills, Entrepreneurial skills in the workplace, En- trepreneurial Imagination And Creativity Case Study: The Entrepreneurship Development Journey of Sara Blakely (Spanx)",
+          "hours": 3
+        },
+        {
+          "title": "Creating and Starting the Venture",
+          "topics": "Sources of new Ideas, Methods of generating ideas, creating problem solving, product planning and development process Case Study Airbnb emerged from the founders’ personal need to make extra income by renting out space.",
+          "hours": 3
+        },
+        {
+          "title": "The Business Plan",
+          "topics": "Nature and scope of Business plan, Writing Business Plan, Evaluating Business plans, Using and implementing business plans. Marketing plan, financial plan and the organizational plan, Launching formalities. Case Study: Tesla’s Disruptive Model: Tesla’s business plan",
+          "hours": 3
+        },
+        {
+          "title": "Financing and Managing the new venture",
+          "topics": "Sources of capital, Record keeping, recruitment, motivating and leading teams, financial controls. Marketing and sales controls. E-commerce and Entrepreneurship, Internet advertising Case Study: Amazon’s Rise from Garage to Global: Jeff Bezos started Amazon with a clear business plan, sourcing capital from personal savings and angel investors.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-CSD",
+      "title": "Universal Human Values and Professional Ethics",
+      "semester": 3,
+      "type": "Value Education",
+      "credits": 2,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self-exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment (iv) Right Understanding, Relationship and Physical Facility (v) Happiness and Prosperity - Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "(i) Understanding Human being as the Co-existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Programme to Ensure self-regulation and Health",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship (ii) ’Respect’ - as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order",
+          "hours": 8
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "(i) Understanding Harmony in the Nature (ii) Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co-existence at All Levels (iv) The Holistic Perception of Harmony in Existence",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-CSD",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        42,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-CSD",
+      "title": "Advance Data Structures",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Hashing",
+          "topics": "Hash Table- Concepts-hash table, hash function, basic operations, bucket, collision, probe, synonym, overflow, open hashing, closed hashing, perfect hash function, load density , full table, load factor, re- hashing, issues in hashing, hash functions- properties of good hash function, division, multiplication, extraction, mid-square, folding and universal, Collision resolution strategies- open addressing and chaining, Hash table overflow- open addressing and chaining, extendible hashing, closed addressing and separate chaining. Skip List- representation, searching and operations- insertion, removal.",
+          "hours": 9
+        },
+        {
+          "title": "Trees",
+          "topics": "Tree- basic terminology , General tree and its representation, representation using sequential and linked organization, Binary tree- properties, converting tree to binary tree, binary tree traversals (re- cursive and non-recursive)- inorder, preorder, post order, depth first and breadth first, Operations on binary tree. Huffman Tree (Concept and Use), Binary Search Tree (BST), BST operations, Threaded binary search tree- concepts,",
+          "hours": 9
+        },
+        {
+          "title": "Graphs",
+          "topics": "Basic Concepts, Storage representation, Adjacency matrix, adjacency list, adjacency multi list, inverse adjacency list. Traversals-depth first and breadth first, Minimum spanning Tree, Greedy algorithms for computing minimum spanning tree- Prims and Kruskal Algorithms, Dikjtra’s Single source shortest path, All pairs shortest paths- Flyod-Warshall Algorithm, Topological sort ordering.",
+          "hours": 9
+        },
+        {
+          "title": "Search Trees",
+          "topics": "Symbol Table-Representation of Symbol Tables- Static tree table and Dynamic tree table, Weight balanced tree - Optimal Binary Search Tree (OBST), OBST as an example of Dynamic Programming, Height Balanced Tree- AVL tree. Red-Black Tree, AA tree, K-dimensional tree, Splay Tree",
+          "hours": 9
+        },
+        {
+          "title": "Indexing and Multiway Trees",
+          "topics": "Indexing and Multiway Trees- Indexing, indexing techniques-primary , secondary , dense, sparse, Mul- tiway search trees, B-Tree- insertion, deletion, B+Tree - insertion, deletion, use of B+ tree in Index- ing, Trie Tree.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-CSD",
+      "title": "System Programming and Operating System",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction to Systems Programming, Need of systems programming, Software Hierarchy , Types of software: system software and application software. Evolution of components of systems programming: Text Editors, Assembler, Macros, Compiler, Inter- preter, Loader, Linker, Debugger, Device Drivers, Operating System. Case Study: Evolution (Brief History) of Microprocessors",
+          "hours": 6
+        },
+        {
+          "title": "Compilers, Linkers and Loaders",
+          "topics": "Introduction to Compilers: Phases of Compiler with one example, Comparison of compiler and Interpreter. Introduction to Linkers: Definition, purpose, and importance of linking in system programming. Linker Types: Static linker, dynamic linker, and load-time linker. Introduction, Loader schemes: Compile and Go, General Loader Scheme, Absolute Loaders.",
+          "hours": 6
+        },
+        {
+          "title": "Operating System",
+          "topics": "Introduction: Evolution of OS, Operating System Services, Functions of Operating System. Process Management: Process, Process States: 5 and 7 state model, process control block Process Scheduling: Uni-processor Scheduling, Scheduling: Preemptive, Non-preemptive, Long- term, Medium-term, Short term scheduling. Scheduling Algorithms: FCFS, SJF, RR, and Priority .",
+          "hours": 6
+        },
+        {
+          "title": "Memory Management",
+          "topics": "Introduction: Memory Management concepts, Memory Management requirements. Memory Partitioning: Fixed Partitioning, Dynamic Partitioning, Paging, Segmentation, Address trans- lation. Placement Strategies: First Fit, Best Fit, Next Fit and Worst Fit. Page Replacement Policies: First In First Out (FIFO), Last Recently Used (LRU), Optimal.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Linux",
+          "topics": "Overview of Linux: History , features, Structure, Basic commands and advantages of Linux Linux file system: File system hierarchy , file types, and permissions Linux Processes and Job Control: Process management: Creating, listing, and managing processes",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-CSD",
+      "title": "Computer Graphics",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computer Graphics and Scan Conversion",
+          "topics": "Introduction to computer graphics primitives: Pixel, Resolution, Aspect ratio, Frame buffer, Com- puter graphics Applications. Display Devices: Random scan display , Raster scan display , OLED, Micro-OLED, Active Matrix OLED (AMOLED), Quantum Dot (QLED) Scan conversion: Line drawing algorithms: Digital Differential Analyzer (DDA), Bresenham; Circle drawing algorithms: DDA, Bresenham, and Midpoint; Introduction to aliasing and anti-aliasing. #Exemplar/Case studies: 1. Real-Time Map Rendering in GPS Navigation Systems using Line and Circle Drawing Algorithms",
+          "hours": 9
+        },
+        {
+          "title": "Polygons and Clipping",
+          "topics": "Polygons: Types: Convex, Concave, and Complex. Edge table, Vertex inside-outside tests: Odd-even rule, Winding number rule. Polygon Filling Algorithms: Seed Fill, Flood Fill (4-connected and 8-connected), Scan Line Polygon Fill, Filling with patterns. 2D Viewing: Viewing Pipeline, Window-to-Viewport Coordinate Transformation. 2-D Clipping: Point Clipping, Line Clipping, Cohen-Sutherland Line Clipping Algorithm. Polygon Clipping: Sutherland-Hodgeman Polygon Clipping Algorithm, Weiler-Atherton Polygon Clip- ping Algorithm, Interior and Exterior Clipping, Text clipping. #Exemplar/Case Studies - 3D pipeline / polygonal modelling and applications",
+          "hours": 9
+        },
+        {
+          "title": "2D and 3D Transformations",
+          "topics": "2D Transformations: Introduction, Basic Transformations: Translation, Rotation, Scaling, Shear; Matrix Representation and Homogeneous Coordinate System, Composition of Transformations; Ro- tation, scaling, and shearing with respect to any arbitrary fixed point (other than origin); 3D Transformations: Translation, Rotation, Scaling, Shear; 3D Rotation about any arbitrary axis. Types of Projections: Parallel (Oblique: Cavalier, Cabinet and orthographic: isometric, diametric, trimetric) and Perspective ( Vanishing Points: 1 point, 2 point and 3 point) #Exemplar/Case Studies- 1Affine Transformations Vlab (Vlab link: https://cse19-iiith.vlabs.ac.in/exp/affine- transformation/theory .html ) Image augmentation in Deep learning",
+          "hours": 9
+        },
+        {
+          "title": "Hidden Surface Removal Methods, Curves and Fractals",
+          "topics": "Color Models: Properties of Light, Standard primaries, XYZ Color Model, CIE Chromaticity Diagram, Intuitive color concepts, RGB, CMY and HSV Color models, Color selection applications. Hidden-Surface Removal Methods: Types of Methods, Back Face Elimination, Depth (Z) Buffer Algo- rithm, Depth Sorting (Painter’s) Algorithm, Area-Subdivision (Warnock’s) Algorithm. Curves: Introduction, Curve generation, Interpolation, Blending functions, B-Spline curve, Bezier curve. Fractals: Classification of fractals, Fractal dimension, Geometric construction of deterministic self- similar fractals: Snowflake, Koch curve, Hilbert curve, Applications. #Exemplar/Case study :Fractal generation software",
+          "hours": 9
+        },
+        {
+          "title": "Applications",
+          "topics": "Computer Animation: Introduction, conventional and computer-based animation, design of anima- tion sequences, key-frame, morphing. Gaming: Introduction, Gaming Platform: NVidia, advances in gaming. GPU and GPU Programming: Need for parallelism, multicore, streamlining multiprocessors, GPU organization, vertex shader, fragment shader. OpenGL: Special purpose packages vs. general programming packages, Graphics software standards, History , OpenGL architecture, Programming with OpenGL, Basic OpenGL syntax, GLUT library func- tions, primitives and attributes, simple modelling and rendering of two and three dimensional objects. #Exemplar/Case Studies - 1) Relation between computer vision and computer graphics",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-CSD",
+      "title": "Advance Data Structures Laboratory",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        54,
+        57
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-CSD",
+      "title": "Computer Graphics Laboratory",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        58,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "*OpenElective-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-CSD",
+      "title": "Computer Organization and Architecture",
+      "semester": 4,
+      "type": "Multi Disciplinary Minor",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computer Organization and Architecture",
+          "topics": "Computer Organization and Architecture, Structure and Function, Designing for Performance, , per- formance assessment. Computer Components, Computer Function, Interconnection structure, bus interconnection, Von Neumann Model, Harvard Architecture.",
+          "hours": 6
+        },
+        {
+          "title": "Arithmetic Operations",
+          "topics": "Arithmetic operations, Introduction to ALU: Definition, purpose, ALU components and importance of ALU in computer architecture. Data Representation and Arithmetic Algorithms: Integer Data Computation- Addition and Subtrac- tion, Multiplication: unsigned and signed multiplication, Booth’s algorithm, Divisions: Restoring and Non-restoring algorithm.Floating point representation: IEEE 754 floating point number representa- tion.",
+          "hours": 6
+        },
+        {
+          "title": "Processor Organization",
+          "topics": "Evolution of Intel processor architecture- 4 bit to 64 bit Processor Organization, Programmers model, Instruction cycle, Instruction format Case Study-Intel 8086, Addressing modes and Formats- Addressing modes- immediate, direct, in- direct, register, register indirect, displacement and stack, Instruction Pipelining- Pipelining strategy , pipeline performance, Performance measures: Speedup, Efficiency , Throughput, Pipeline Hazards.",
+          "hours": 6
+        },
+        {
+          "title": "Project Execution and Control",
+          "topics": "Characteristics of Memory , Memory Hierarchy: cost and performance measurement. Memory Hierarchy Properties: Inclusion, Coherency and Locality Cache Memory: Cache memory Concepts, Structure, Cache Operations, Design problems based on mapping techniques, Cache Co- herency , Write Policies.Introduction to Associative memory and SCM (Storage Class Memory)",
+          "hours": 6
+        },
+        {
+          "title": "RISC and CISC Processor Architecture",
+          "topics": "Characteristics of RISC and CISC Processor, RISC vs CISC architecture, Use of Large Register File, Compiler - Based Register Optimization Superscalar Architecture, Features of Superscalar Architec- ture.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSE- 281-CSD",
+      "title": "Object Oriented Programming (JAVA)",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        63,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282- CSD",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        66,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283 CSD",
+      "title": "Engineering Product Design",
+      "semester": 4,
+      "type": "Entrepreneurship/ Management",
+      "credits": 2,
+      "pages": [
+        68,
+        72
+      ],
+      "units": [
+        {
+          "title": "Foundations of Product Design and Design Thinking",
+          "topics": "Introduction to product design: Definitions, scope, and relevance in computer engineering, Evolu- tion of product design in the digital age, Introduction to the Design Thinking Process: Empathize, Define, Ideate, Prototype, Test, Role of empathy in engineering design, Need-finding techniques: Observations, interviews, surveys, User personas and journey mapping. Case study: Apple iPhone: User-centric product evolution Google Maps: Empathy in redesign for accessibility",
+          "hours": 3
+        },
+        {
+          "title": "Ideation, Creativity and Innovation Strategies",
+          "topics": "Techniques for ideation: Brainstorming, SCAMPER, Mind Mapping, Convergent vs Divergent think- ing, Idea evaluation frameworks: Weighted Decision Matrix, NUF Test, Innovation principles: Frugal innovation, disruptive innovation, Enhancing creative confidence in engineering students. Case study: Swiggy / Zomato UI Evolution: Ideation based on user feedback Tata Nano: Innovation with constraints",
+          "hours": 3
+        },
+        {
+          "title": "Prototyping and Product Validation",
+          "topics": "Importance of prototyping in the product development lifecycle, Types of prototypes: Low-fidelity vs High-fidelity , digital vs physical, Tools for prototyping: Canva, Figma, TinkerCAD, Arduino, Role of MVP (Minimum Viable Product) in product development, Basic user testing methods: Heuristic evaluation, A/B testing, surveys, Collecting, analyzing, and applying user feedback. Case study: lipkart UX Revisions: Digital prototype testing Arduino-based Smart Irrigation: Low-cost IoT prototype",
+          "hours": 3
+        },
+        {
+          "title": "Sustainable, Inclusive and Ethical Design",
+          "topics": "Principles of inclusive and universal design, Designing for differently-abled and underserved com- munities, Environmental impact and sustainability in design, Ethical design: Privacy , safety , and cultural sensi- tivity , Regulatory and legal aspects (e.g., BIS, ISO, accessibility standards). Case Study: Microsoft Adaptive Accessories – Assistive Technology for All Jaipur Foot: Inclusive, affordable prosthetic design",
+          "hours": 3
+        },
+        {
+          "title": "Documentation, Communication and Reflection in Product Design",
+          "topics": "Purpose and components of product design documentation, Methods of visually representing de- signs: Sketches, infographics, storyboards, Creating effective pitch decks and presentations, Writing technical reports and reflective journals, Role of peer review, feedback, and iteration. Case study: IDEO Project Methodology: Design documentation walkthrough SmartBin : Effective product pitch for smart waste bins",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-284 CSD",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        73,
+        75
+      ],
+      "units": [
+        {
+          "title": "Environment and its issues",
+          "topics": "a) Environment Meaning of Environment, Types of Environment, Components of Environment, b) Man- Environment relationship, importance of environment, c) Need for Public Awareness d) Ecosystem-Meaning, Major Components of Ecosystem e) Case studies of Forest Ecosystem, Grassland Ecosystem, Desert Ecosystem, Aquatic Ecosystem f) Stability of Ecosystem in Sustainable Environment",
+          "hours": 7
+        },
+        {
+          "title": "Environment Pollution",
+          "topics": "a) Definition of Pollution, Types of Pollution b) Air Pollution-Meaning, Sources, effects of air pollution, Air Pollution Act c) Water Pollution Meaning, Sources, Effects of Water pollution, Water Pollution Act d) Noise Pollution Meaning, Sources, Effect of Noise Pollution e) Solid Waste Pollution Meaning, sources, Effect of Waste Pollution",
+          "hours": 7
+        },
+        {
+          "title": "E-Waste Managements and Acts",
+          "topics": "E- waste; composition and generation. Global context in e- waste; E-waste pollutants, E waste haz- ardous properties, Effects of pollutant (E- waste) on human health and surrounding environment, domestic e-waste disposal, Basic principles of E waste management, Technologies for recovery of resources from electronic waste, resource recovery potential of e-waste, steps in recycling and re- covery of materials-mechanical processing, technologies for recovery of materials, occupational and environmental health perspectives of recycling e-waste in India.",
+          "hours": 8
+        },
+        {
+          "title": "E-waste Control and measures",
+          "topics": "Need for stringent health safeguards and environmental protection laws in India, Extended Produc- ers Responsibility (EPR), Import of e-waste permissions, Producer-Public-Government cooperation, Administrative Controls & Engineering controls, monitoring of compliance of Rules, Effective regula- tory mechanism strengthened by manpower and technical expertise, Reduction of waste at source Practical Assignments Week Topic to be covered 1 Introduction : Group discussion and poster making on \"Why Environmental Studies Matter for Technologists\" 2 Eco Mapping: Identify and document elements of an ecosystem within the college campus 3 Model the Food Web: Create food chains and food webs using flowcharts (digital tools like Canva / Lucid chart) 4 Case Study Review: Present real-world examples of forest, grassland, and aquatic ecosystems 5 Soil and Water Testing Activity: Test soil pH, water quality (use school-level kits), and interpret results 6 Field Visit / Virtual Tour: Document deforestation or mining impact in a chosen region; students prepare a comparative report 7 Water Audit Exercise: Estimate water usage at home/hostel and identify areas of overuse; propose conservation measu...",
+          "hours": 8
+        }
+      ]
+    }
+  ],
+  "notes": null
+}
