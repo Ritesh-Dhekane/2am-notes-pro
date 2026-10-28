@@ -1,0 +1,454 @@
+{
+  "id": "se-it-2024-pattern-syllabus-15072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (2024 Pattern) in Information Technology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-ITT",
+      "title": "Data Structures & Algorithms",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures & Algorithms 07",
+          "topics": "Hours Introduction to Data Structures: Data, Data Object, Data types, Abstract Data Types (ADT), Data structures, Classification of Data Structure: primitive and non-primitive, Static and Dynamic, Persistent and Ephemeral data structures Introduction to Algorithms: Definition and Characteristics of an algorithm, Algorithm Specification, Introduction to algorithm design strategies Performance Analysis- Time and space complexity, Asymptotic notations, Best, Average and worst cases. Finding complexity using step count method, Analysis of program ming Constructs -Linear, Quadratic, Cubic, Logarithmic Basic Searching Algorithms: Linear Search, Binary Search Basic Sorting Algorithm: Bubble Sort, Selection Sort, Insertion Sort Exemplars /Case Studies Case Study 1: Efficient Data Retrieval in Large Databases Case Study 2: Student Attendance Tracker",
+          "hours": null
+        },
+        {
+          "title": "Linear Data Structures",
+          "topics": "Linked Lists: Singly LL, Doubly LL, Circular LL. Linked list as an ADT. Stack: Stack as an ADT, Arrays and Linked Lists implementation, Implicit vs explicit stack, Applications of stack: recursion, converting expressions from infix to postfix or prefix form, evaluating postfix or prefix form Queue: Queue as an ADT, Arrays and Linked Lists implementation, Types: Circular Queue, Double- ended Queue (Deque), Applications Exemplars/Case Studies 1. Linked Lists (Doubly LL): A music player application uses a doubly linked list to store songs in a playlist. Users can navigate forward and backward through the playlist. Each song node contains data about the song and references to both the previous and next songs. 2. Stack: Undo/Redo Feature in Text Editors. 3. Queue: In a network router, a queue is used to buffer packets for transmission. The packets arrive in order and are transmitted in the same order, ensuring smooth data flow through the network. In a real-time system, a deque could be used to handle urgent tasks at both ends of the queue.",
+          "hours": 7
+        },
+        {
+          "title": "Non- Linear data Structures",
+          "topics": "Tree-Definitions and Concepts, Representation of binary tree, Binary tree traversal (Inorder, postorder, preorder), Threaded binary tree, Binary search trees, Conversion of General Trees To Binary Trees, Applications Of Trees Some balanced tree mechanism, eg. AVL trees, 2-3 trees, Height Balanced, Weight Balance, Graph-Matrix Representation Of Graphs, Elementary Graph operations,(Breadth First Search, Depth First Search, Spanning Trees, Shortest path, Minimal spanning tree- Prims and Kruskals Algorithm ) Heap: Heap data structure, Min and Max Heap, Heap sort, applications of heap Exemplars/Case Studies 1 Recommendation System for E-commerce (tree) 2 Optimizing Product Filtering Performance on a High-Traffic E- commerce Site(tree) 3 “India Airlines\" Flight Search Optimization (Graph)",
+          "hours": 9
+        },
+        {
+          "title": "Hashing, String processing",
+          "topics": "Applications 08 Hours Hashing: Hash Functions, Collision Handling Techniques (Chaining, Open Addressing) String Processing: Naïve String Matching, Rabin-Karp Algorithm, Knuth-Morris-Pratt (KMP) Algorithm Applications of DSA: , Social Network Graph Analysis, and AI Search Algorithms Exemplars/Case Studies Case Studies on File Systems",
+          "hours": null
+        },
+        {
+          "title": "Advanced Algorithms",
+          "topics": "Divide and Conquer: Merge Sort, Quick Sort, Matrix Multiplication; Greedy Algorithms: Activity Selection, Fractional Knapsack, Huffman Coding; Dynamic Programming: 0/1 Knapsack, Longest Common Subsequence (LCS), Floyd-Warshall. Exemplars/Case Studies 1. Efficient Parcel Sorting in a Warehouse (Concepts: Merge Sort, Quick Sort) 2. Optimizing Ad Slot Allocation in Online Streaming (Concepts: Activity Selection, Fractional Knapsack (Greedy)) Scenario: Choose the best set of ads to show within a fixed break time to maximize revenue.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-ITT",
+      "title": "Object Oriented Programming",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        18,
+        21
+      ],
+      "units": [
+        {
+          "title": "Foundations of Object",
+          "topics": "Oriented Programming 06 Hours Introduction to OOP: Limitations of Procedural Programming, Need for Object-Oriented Programming, Fundamentals of Object-Oriented Programming: Objects, Classes, Data Members, Methods, Messages, Data Encapsulation, Data Abstraction and Information Hiding, Inheritance, Polymorphism, Static and Dynamic Binding, Message Passing. Class: Creating a Class, Visibility/Access Modifiers, Encapsulation. Exemplars/Case Studies Model a real world scenario (vehicle class, fruit class, student management in university etc.) using Object Oriented Paradigm",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-ITT",
+      "title": "Basics of Computer Network",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computer Networking",
+          "topics": "Fundamentals 06 Hours Communication Systems: Overview of data transmission systems, including key elements like sender, receiver, medium, and protocols. Networks: Concept of interconnected devices for data exchange, categorized by scale (e.g., LAN, MAN, WAN) and structure. Topologies: Physical and logical arrangements of network nodes, such as star, ring, mesh, and hybrid. Protocols: Rules governing data exchange, ensuring reliable communication across networks. Network Architecture: Structured design using layered models for efficient data transfer. OSI Model: A seven-layer framework defining network functions, from physical to application layers. TCP/IP Suite: A practical set of protocols for internet communication, including IP, TCP, and application-layer protocols. Exemplars/Ca se Studies Case study on LAN setup in a small office. Learning Outcomes Understand network types, topologies, and layered models.",
+          "hours": null
+        },
+        {
+          "title": "Data Communications",
+          "topics": "Signals: Characteristics of analog and digital waveforms used in data transmission. Digital-to- Digital: Encoding digital data into digital signals. Analog-to-Digital: Converting analog signals to digital (e.g., PCM). Digital-to-Analog: Modulating digital data onto analog signals. Analog- to-Analog: Transforming analog signals (e.g., AM, FM). Transmission Modes: Communication directions, including simplex, half -duplex, and full - duplex. Modulation: Methods to encode data onto carrier signals (e.g., amplitude, frequency, phase modulation). Multiplexing: Strategies like Frequency Division Multiplexing (FDM) and Time Division Multiplexing (TDM) to share a medium. Transmission Media: Wired: Cables such as twisted pair, coaxial, and optical fiber. Wireless: Radio waves, microwaves, and infrared. Switching Techniques: Circuit Switching: Dedicated path for communication. Packet Switching: Data divided into packets for transmission. Datagram Approach: Connectionless packet delivery. Virtual Circuit: Connection-oriented packet routing. Exemplars/Ca se Studies Analysis of fiber optics in high-speed internet. Learning Outcomes Explain signal types, encoding, and media characteristics....",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-ITT",
+      "title": "Data Structures & Algorithms Lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-ITT",
+      "title": "Object Oriented Programming Lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        27,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective - I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-ITT",
+      "title": "Digital Electronics and Logic Design",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction To Digital Electronics",
+          "topics": "Digital Logic families: Digital IC Characteristics; TTL: Standard TTL characteristics, Operation of TTL NAND gate; CMOS: Standard CMOS characteristics, operation of CMOS NAND gate; Comparison of TTL & CMOS. Signed Binary number representation and Arithmet ic: Sign Magnitude, 1’s complement & 2’s complement representation, unsigned Binary arithmetic (addition, subtraction, multiplication, and division), subtraction using 2’s complement; IEEE Standard 754 Floating point number representations. Codes: Binary , BCD, octal, hexadecimal, Excess-3 , Gray code & their conversions Exemplars/Case Studies 1) CMOS 4000 series ICs 2) Practical applications of various codes in computers",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-ITT",
+      "title": "Principles of Management & Entrepreneurship",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        33,
+        37
+      ],
+      "units": [
+        {
+          "title": "Management and",
+          "topics": "Planning Fundamentals 03 Hours Definition, nature, and characteristics of management, Scope and functional areas, Management as art, science, and profession, Management vs. administration, Roles and levels of management, Development of management thought (classical to modern), Planning: nature, importance, objectives, types (meaning only), Decision-making and planning process, planning hierarchy Exemplars/Case Studies Google’s adoption of OKRs for strategic planning and innovation alignment.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-ITT",
+      "title": "Universal Human Vales and Professional Ethics",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education and Harmony in the Human Being",
+          "hours": 7,
+          "topics": "Need, Basic Guidelines, and Content of Value Education Self-exploration: What is it? – Its content and process The Basic Human Aspirations – Continuous Happiness and Prosperity Understanding the Human Being as a Co-existence of Self ('I') and Body Harmony of Self with the Body: Sanyam and Health Activities of the Self and the Body – Understanding the needs of Self and Body"
+        },
+        {
+          "title": "Harmony in Family and Society",
+          "hours": 7,
+          "topics": "Harmony in the Family – Trust and Respect as the Foundation Nine Universal Values in Relationships Justice and Responsibility in Human Conduct Harmony in the Society – Resolution, Prosperity, Fearlessness, and Co-existence Four Orders of Nature – Self, Material Order, Plant/Bio Order, Animal Order"
+        },
+        {
+          "title": "Harmony in Nature and Existence",
+          "hours": 8,
+          "topics": "Understanding Harmony in Nature – Interconnectedness and Mutual Fulfillment Holistic Perception of Harmony: Existence as Co-existence Natural Acceptance and Self-regulation as a Way of Life Cyclicity in Nature and Responsibility of Human Being Implications of Imbalance in Nature: Environmental and Societal Consequences"
+        },
+        {
+          "title": "Professional Ethics and Application of Values",
+          "hours": 8,
+          "topics": "Competence in Professional Ethics: Ability to Utilize Values in Decision-Making Ethical Human Conduct – The Foundation of Universal Human Order Vision for a Value-Based Society Case Studies: Ethical Dilemmas in the IT Sector Integration of Human Values with Technical Education"
+        }
+      ]
+    },
+    {
+      "code": "CEF-241-ITT",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        40,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-ITT",
+      "title": "Database Management System",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        44,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database",
+          "topics": "Management System 08 Hours Basic concepts, Advantages of DBMS over file processing systems, Data abstraction and Data independence, Database languages, Components of a DBMS and Overall structure of DBMS, Multi-user DBMS architecture, Data Modeling: Basic concepts, entity, attributes, relationships, relations, constraints, keys, Data models. ER and EER diagrams: Components of ER model, Conventions, Converting ER diagrams into tables, EER Model components, converting EER diagram into tables. Exempla rs/Case Studies 1. Library Management System: Exemplar · Students understand basic DBMS concepts · They apply E-R model concepts to represent book and user data. · Sample Activity: Create an ER diagram and relational schema for the system. 2. Online Retail Store (e.g., Amazon): Case Study · Students analyze how DBMS supports operations like search, filters, and checkout.",
+          "hours": null
+        },
+        {
+          "title": "Relational Model and Database",
+          "topics": "Design 08 Hours Relational Model: Relational Model Concepts (Domains, Attributes, Tuples, and Relations), Relational Model Constraints, Relational Database Schemas, Codd’s rules. Database design: Features of good relational database design, Purpose of Normalization, Data Redundancy and Data Anomalies, Functional Dependencies, Normal Forms (1NF, 2NF, 3NF, BCNF). Exemplar s/Case Studies Student/Timetable/ Reservation any Data Management System",
+          "hours": null
+        },
+        {
+          "title": "Structured Query Language (SQL)",
+          "topics": "& Procedural SQL (PL/SQL) 08 Hours Introduction to SQL, Basic Data Types and SQL Syntax, Data Definition Language (DDL), Constraints, Data Manipulation Language (DML), Clauses with SELECT statement: WHERE, ORDER BY, Pattern Matching with LIKE, IN, BETWEEN, Aggregate functions with GROUP BY` and HAVING, Joins, Sub-queries, Set Operations, Views, Index. Introduction to PL/SQL: Overview of PL/SQL architecture, control structures, Cursors, PL/SQL Advanced Features: Procedures and Functions, Triggers.",
+          "hours": null
+        },
+        {
+          "title": "Transaction Management and",
+          "topics": "Concurrency Control 08 Hours Transaction Management: Introduction to Database Transaction, Transaction states, ACID Properties, Concept of Schedule: Serial and concurrent Schedule. Serializability: Conflict and View, Cascaded Schedules, Recoverable Schedules. Concurrency Control and Recovery Management: Need for Concurrency Control, Lock-based protocols, Time stamp based protocol, Validation-based protocol, Multiple Granularity, Deadlock. Recovery Techniques: Shadow-Paging, Log-based Recovery, Check Point.",
+          "hours": null
+        },
+        {
+          "title": "Emerging Trends in Database",
+          "topics": "Technologies 06 Hours Needs, Challenges with traditional databases, Need for scalability, flexibility, and speed. NoSQL Databases: Definition and types: Document, Key-Value, Column, Graph; Example using MongoDB. Cloud Databases: What is DBaaS (Database-as-a-Service), Examples: AWS/Google Firebase; Benefits: scalability, cost, easy setup. Introduction to Modern Database: Big Data and Hadoop: Basics of Big Data, Introduction to Hadoop and HDFS, Real-world examples (e.g., social media, online shopping), Simple explanation of how they store relationships. AI/ML with Databases: Basic idea of machine learning inside databases, Real-world applications: recommendations, fraud detection. Exemplar s/Case Studies · Short quiz on types of NoSQL databases · Assignment: Compare SQL vs NoSQL · Viva on real-life applications of modern databases · Mini-project idea: Student Attendance using NoSQL DB",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-ITT",
+      "title": "Computer Graphics",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Graphics Primitives and",
+          "topics": "OpenGL Basics 06 Hours Introduction to Computer Graphics: Definition, significance, and applications, Display devices: CRT, LCD, LED; frame buffer, resolution, aspect ratio Graphics Primitives: Pixel, line, circle, polygon basics (types: convex, concave and complex) Introduction to OpenGL: Architecture, primitives, attributes, Simple modeling and rendering of 2D/3D objects Exemplars/Case Studies GLUT, OpenGL Architecture Review Board (ARB)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-ITT",
+      "title": "Probability & Statistics",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        50,
+        53
+      ],
+      "units": [
+        {
+          "title": "Probability Fundamentals and Set Theory",
+          "topics": "Algebra of sets, Axiomatic, classical, and frequentist definitions of probability, Conditional probability, independence, Bayes’ theorem. Exemplars /Case Studies  Medical Testing and False Positives Context: Use of conditional probability and Bayes’ Theorem in understanding false positives in COVID-19 tests. Learning Outcome: Apply conditional probability and Bayes' Theorem to real-world diagnostic scenarios. Reference Books S.M. Ross, Introduction to Probability and Statistics for Engineers and Scientists – Chapters 1–2 V.K. Rohatgi & A.K. Md. E. Saleh, An Introduction to Probability and Statistics – Chapter 2 H.J. Larson, Introduction to Probability Theory and Statistical Inference – Chapter 1",
+          "hours": 5
+        },
+        {
+          "title": "Random Variables and Expectation",
+          "topics": "Types of random variables (discrete, continuous, mixed), PMF, PDF, CDF, Expectation, variance, higher-order moments, Moment generating functions, Markov and Chebyshev inequalities Exemplars/Case Studies Warranty Analysis in Manufacturing Context: Modeling the life of a product (e.g., a LED bulb) using exponential and normal distributions. Learning Outcome: Calculate expected life, variance, and reliability.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-ITT",
+      "title": "Database Management System Lab",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        54,
+        55
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-ITT",
+      "title": "Computer Graphics Lab",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        56,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective - II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-ITT",
+      "title": "Processor Architecture",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of PIC Microcontroller",
+          "hours": null,
+          "topics": "Introduction Of Microcontroller, Microprocessor Vs Microcontroller, What is PIC Microcontroller, Architecture, Core Components of Microcontroller, Types of PIC Microcontrollers, Development Tools, Programming Languages for PIC Microcontroller, Typical Applications of PIC Microcontroller. Exemplars/Case Studies: PIC-Based Temperature and Humidity Monitoring System."
+        },
+        {
+          "title": "PIC Microcontroller Architecture",
+          "hours": 8,
+          "topics": "Introduction to microcontroller, Criteria for selection of microcontroller, Features and architecture, Comparison of PIC 18 series microcontrollers; Details of Pins, Pin Diagram PIC 18 internal Architecture: ALU, EEPROM, RAM, IO Ports, Timer, ADC, Serial port PIC18 microcontroller programming model, Bus architecture Registers of PIC18F, Interrupts of PIC18F Program memory and data memory organization. Exemplars/Case Studies: Compare and contrast PIC18 microcontrollers with other microcontroller families."
+        },
+        {
+          "title": "PIC I/O Ports Timer, Counter",
+          "hours": 8,
+          "topics": "I/O Port Programming in PIC18 Microcontroller (Structure and configuration of I/O Ports (PORTx, TRISx, LATx) , Bit -level I/O Control and Manipulation (Bitwise operations), Programming examples using Embedded C ), Timers and Counters in PIC18 Microcontroller (Timer/Counter modules (Timer0, Timer1, etc.) and associated Registers, Delay Generation using Timers, Timer Programming in Embedded C). Exemplars/Case Studies: Smart LED Blinker with Timer Interrupts."
+        },
+        {
+          "title": "PIC Interfacing",
+          "hours": 8,
+          "topics": "Interrupt: Interrupt Structure of PIC18F with SFR, PORTB change Interrupts, use of timers with interrupts. CCP modes: Capture, Compare and PWM generation, DC Motor speed control with CCP, Block diagram of in -built ADC with Control registers, Sensor interfacing using ADC: All programs in embedded C. Interfacing of LED, Interfacing 16X2 LCD and Key board, 7 -segment display interfacing, Interfacing Relay & Buzzer. Basics of Serial communication protocols: Study of RS232, I2C, SPI, UART, Serial communication programming using Embedded C."
+        },
+        {
+          "title": "Current Trends in Processor Architecture",
+          "hours": 8,
+          "topics": "ARM & RISC: ARM and RISC design philosophy, Introduction to ARM processor & its versions, Features & advantages of ARM processor, Suitability of ARM processor in embedded applications, Programmers model. CPSR registers, Difference between PIC and ARM, Improving performance current techniques of processor architectures. Exemplars/Case Studies: Exploring use cases in automotive, IoT and data centers."
+        }
+      ]
+    },
+    {
+      "code": "VSE-281-ITT",
+      "title": "Digital Marketing and social media",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        62,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-ITT",
+      "title": "Modern Indian Language (Marathi/Hindi)",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        65,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-ITT",
+      "title": "E-Commerce",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        68,
+        75
+      ],
+      "units": [
+        {
+          "title": "Introduction to E-Commerce",
+          "hours": 2,
+          "topics": "Definition and Scope of E-Commerce, Features and Benefits of E-Commerce, Types of E-Commerce, E-Commerce Business Models and Examples, Digital Markets and Digital Goods Traditional Commerce vs. E-Commerce, E-Commerce Trade Cycle, Advantages and Disadvantages of E-Commerce, Future of E-Commerce, Impact of E-Commerce on society and business."
+        },
+        {
+          "title": "Technology Backbone of E-Commerce",
+          "hours": 3,
+          "topics": "Introduction to E-Commerce Technology, Client-Server Architecture in E-Commerce, Hardware Requirements for E-Commerce, Software Requirements and Platforms, Internet and Web Protocols for E-Commerce, Cloud Computing and Hosting for E-Commerce, Mobile Commerce Infrastructure, Database Management for E-Commerce, Security Infrastructure in E-Commerce, Performance and Scalability in E-Commerce, Emerging Technologies in E-Commerce Infrastructure."
+        },
+        {
+          "title": "E-Commerce Payment Solutions: An Overview",
+          "hours": 3,
+          "topics": "Introduction to Payment Systems, Traditional Payment Model, Characteristics of Payment Systems, Online Payment Basics, Types of E-Commerce Payment Systems Payment Instruments and Technologies, SET Protocol for Credit Card Payment Payment Gateways and Service Providers, Security in Online Payments Internet Technologies and the Banking Industry, Regulatory and Legal Framework Trends and Innovations in Payment Systems."
+        },
+        {
+          "title": "E-Commerce Marketing & Sales Revolution",
+          "hours": 2,
+          "topics": "Introduction to Online Selling and Marketing, Selling on the Web: Revenue Models and Building a Web Presence, Online Marketplaces and Platforms, Website as a Selling Platform Marketing on the Web: Strategies and Communication, Creating and Maintaining Brands on the Web, Emerging Web Selling and Marketing Models, Digital Marketing Fundamentals Paid Advertising and Campaigns, Pricing Strategies and Discounts, Customer Support and Service, Legal and Ethical Considerations in Online Marketing, Emerging Trends in Web Selling and Marketing."
+        },
+        {
+          "title": "E-Business Fundamentals and Model Development",
+          "hours": 3,
+          "topics": "Definition and Characteristics of E-Business, Elements and Structure of E-Business Evolution and Stages of E-Business, E-Business Models, Impact of E-Business Challenges in E-Business, Characteristics of Internet-Based Software and E-Business Solutions Developing an E-Business Model."
+        },
+        {
+          "title": "E-Commerce Security: Tools and Best Practices",
+          "hours": 2,
+          "topics": "Introduction to E-Commerce Security, Security Threats and Vulnerabilities in E-Commerce, Cryptographic Tools for E-Commerce Security, Authentication and Authorization Mechanisms, Secure Payment Systems, Network and Application Security Tools, Data Privacy and Protection, Integration of E-Commerce Security with Business Systems, Emerging Trends in E-Commerce Security."
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-ITT",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 2,
+      "pages": [
+        75,
+        77
+      ],
+      "units": [
+        {
+          "title": "Introduction to Environmental Studies & it’s Ecosystems",
+          "topics": "Definition of environment and components (biotic & abiotic), importance and scope of environmental studies, concept of sustainability and sustainable development, multidisciplinary nature of environmental studies. Definition, structure and function of ecosystems, food chains, food webs, and ecological pyramids, energy flow and ecological succession Case studies: Forest, grassland, desert, and aquatic ecosystems Exemplars/Case Studies -Plastic waste crisis in India, Use of solar rooftops in Gujarat - Sundarbans Mangrove Forests, Water pollution impact on river Yamuna ecosystem",
+          "hours": 7
+        },
+        {
+          "title": "Natural Resources: Renewable and Non-renewable Resources",
+          "topics": "Land Resources: Land use change, soil erosion, land degradation. Deforestation: Impacts of mining and dam projects on forests and biodiversity. Water Resources: Overuse of surface and groundwater; water conflicts. Atmosphere: Air circulation and precipitation basics. Energy Resources: Renewable and non-renewable energy; alternative sources. Exemplars/Case Studies Rainwater Harvesting in Tamil Nadu, Narmada Bachao Andolan – Dam building and displacement",
+          "hours": 6
+        },
+        {
+          "title": "Biodiversity and Conservation",
+          "topics": "Definition of Biodiversity: L evels of biodiversity: genetic, species, ecosystem, India’s biogeographic zones and hotspots Value of biodiversity: Ecological, economic, social, ethical, aesthetic, and informational values of biodiversity with examples. Threats to biodiversity: Habitat loss, poaching, invasions. Conservation methods: In-situ and Ex-situ Exemplars/Case Studies Project Tiger – Conservation success, man-animal conflict in Sundarbans Unit No: IV Environmental Pollution and Human Role 06 Hours Types of pollution & their causes, effects and controls : Air, water, soil, noise, nuclear, Control measures and pollution case studies Global concerns: Climate change, ozone depletion, acid rain. Environmental laws: EPA, Forest Act, Water and Air Act Human impact : Population, carbon footprint, ethics. Environmental movements - Chipko, Silent valley, Bishnios of Rajasthan and public awareness Environmental ethics: Role of Indian and other religions and cultures in environmental conservation. Environmental communication and public awareness, case studies (e.g., CNG vehicles in Delhi). E-waste management and laws Exemplars/Case Studies Solid Waste Management by Indore Municipal...",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,408 @@
+{
+  "id": "s-y-b-sc-animation-24072025",
+  "kind": "programme",
+  "programme": "B Sc Animation",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ANM-201-MJ",
+      "title": "3D Animation (3Ds Max)",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to 3ds Max",
+          "topics": "1.1 Overview of 3D animation and Autodesk 3ds Max 1.2 Interface layout and navigation 1.3 Viewports and coordinate systems 1.4 Import & Export File Management 1.5 Project Setting",
+          "hours": 5
+        },
+        {
+          "title": "Basic Modeling Concepts",
+          "topics": "2.1. Standard primitives and extended primitives, Transform tools (move, rotate, scale) 2.2. Object properties and modifiers 2.3. Editable poly and mesh modeling, Vertex, edge, border, polygon, and element manipulation 2.4. Smoothing groups and subdivision surfaces",
+          "hours": 10
+        },
+        {
+          "title": "Advanced Modeling Techniques",
+          "topics": "10 B. Sc. Animation Syllabus from 2025-26 Page 10 | 37 3.1 NURBS modeling 3.2 Boolean operations 3.3 Spline modeling and compound objects 3.4 Advance modifiers",
+          "hours": 5
+        },
+        {
+          "title": "Materials and Texturing",
+          "topics": "4.1 Material Editor (Standard, Physical, and PBR materials) 4.2 UV mapping and types 4.3 Applying and editing textures (bitmaps, procedural maps)",
+          "hours": 5
+        },
+        {
+          "title": "Lighting and Rendering",
+          "topics": "5.1 Standard and photometric lights 5.2 3-point lighting setup, Global Illumination and HDR lighting 5.3 Standard Rendering 5.4 Render settings and output formats",
+          "hours": 10
+        },
+        {
+          "title": "3D Visualization",
+          "topics": "6.1 Basics of Interior Design & Modeling 6.2 Introduction to Exterior Design & Modeling 6.3 Basics of Automobile modeling and Image plane setup",
+          "hours": 10
+        },
+        {
+          "title": "Cameras and Composition",
+          "topics": "7.1. Introduction to Cameras in 3ds Max 7.2. Camera movement and Animation 7.3. Timeline, keyframes, and the curve editor 7.4. Object animation (position, rotation, scale)",
+          "hours": 10
+        },
+        {
+          "title": "Final Project and Portfolio Development",
+          "topics": "8.1 Project planning and pre-production 8.2 Execution of a short 3D animated scene",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ANM-202-MJ",
+      "title": "Lab Course on ANM-201-MJ",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-221-VSC",
+      "title": "Film Making Fundamentals",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-231-FP",
+      "title": "Mini Project based on Graphic design.",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-241-MN",
+      "title": "Design Thinking",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Design Thinking",
+          "topics": "1.1 What is Design Thinking? 1.2 Why it matters in creative industries. 1.3 Visual literacy & observation skills.",
+          "hours": 4
+        },
+        {
+          "title": "Creative Thinking & Story Ideation",
+          "topics": "2.1. Introduction to Design Thinking & the Animation Pipeline. 2.2. Sources of Ideas (Observation, Memory, Emotion, Culture, Trends) 2.3. Empathy: Understanding the Audience & Character Needs. 2.4. Explain the Basic Principles.",
+          "hours": 4
+        },
+        {
+          "title": "Design Thinking to Writing",
+          "topics": "3.1. Types of Stories and Storytelling Techniques. 3.2. Writing Skills for Storytelling. 3.3. Fundamentals of Story. 3.4. Idea to Story Development. 3.5. Show reel of animation films and writing for animation 16 B. Sc. Animation Syllabus from 2025-26 Page 16 | 37",
+          "hours": 5
+        },
+        {
+          "title": "Character Ideation and Design",
+          "topics": "4.1. Developing original animated characters from simple or abstract ideas.(understanding personality, visual design, and function) 4.2. Designing characters from core ideas (From characters to animation film stories) 4.3. Writing exercises for animated scripts. 4.4. Animation across platforms: OTT, games, films",
+          "hours": 5
+        },
+        {
+          "title": "Empathy – Observing & Listening Deeply",
+          "topics": "5.1 Using empathy to generate authentic characters and scenarios. 5.2 Emotional mapping: How emotions shape stories. 5.3 Visual style exploration. 5.4 Building emotional intelligence and character depth.",
+          "hours": 5
+        },
+        {
+          "title": "Ideate – Generating Animation Concepts",
+          "topics": "6.1 Creative brainstorming techniques: SCAMPER, Mind Mapping, Story Circles. 6.2 From idea to narrative: transforming abstract ideas into usable story concepts. 6.3 Story development in animation: conflict, character arcs, pacing",
+          "hours": 4
+        },
+        {
+          "title": "Case Studies",
+          "topics": "7.1. Understanding case studies and practical application on various films Material and textures. 7.2. Case study on pre-production of films by Pixar. 7.3. Understanding the three step process of animation film making and making Case study on the same lifecycle of animation film making.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-242-MN",
+      "title": "2D Animation (Animate)",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-203-OE",
+      "title": "Designing & Video Animation for Social Media",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Design & Animation",
+          "topics": "1.1 What is Graphic Design? 1.2 7 Elements of Design. 1.3 Types of Animation. 1.4 Motion Graphics.",
+          "hours": 6
+        },
+        {
+          "title": "Color Theory & Typography for Digital Media",
+          "topics": "2.1 RGB vs. CMYK color modes. 2.2 Color schemes and harmony. 2.3 Typography (Grabs Attention, Enhances Readability, Brand Identity). 2.4 Principles of Typography. 2.5 Basic Elements of Typography.",
+          "hours": 6
+        },
+        {
+          "title": "Design Tools & Software Basics",
+          "topics": "3.1 Introduction to Following Software 3.2 Adobe Photoshop 3.3 Adobe Illustrator 3.4 Adobe After Effects 20 B. Sc. Animation Syllabus from 2025-26 Page 20 | 37 3.5 Adobe Premiere Pro 3.6 Understanding file types: PSD, PNG, JPEG, SVG, GIF, MOV.",
+          "hours": 6
+        },
+        {
+          "title": "Branding & Visual Identity Basics",
+          "topics": "4.1 Logo design fundamentals. 4.2 Choosing brand colors and typography. 4.3 Creating a basic brand style guide. 4.4 Designing branded assets (business cards, banners, stationery, etc.)",
+          "hours": 6
+        },
+        {
+          "title": "Social Media Design",
+          "topics": "5.1 Strategy & Planning Branding. 5.2 Design Preparation. 5.3 Content Creation (Design Phase). 5.4 Understand Social Media Image & Video Ratios by All Platform. 5.5 Design / Animation / Motion Graphics. 5.6 Copywriting & Text Integration. 5.7 Export & Publish. Reference Books & Links 1. E-Books on Digital Marketing : https://www.7boats.com/academy/freeebooks/Dynamics_of_Digital_Media_PDF_Book 2. Adobe Photoshop : https://helpx.adobe.com/pdf/photoshop_reference.pdf 3. Adobe Illustrator : https://helpx.adobe.com/pdf/illustrator_reference.pdf 4. Adobe Premiere Pro : https://helpx.adobe.com/archive/en/premiere- pro/cc/2015/premiere_pro_reference.pdf Adobe After Effects : https://helpx.adobe.com/pdf/after_effects_reference.pdf",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ANM-200-IKS",
+      "title": "Film Appreciation and Visual Communication",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": 2,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Visual Communication",
+          "topics": "1.1 Definition, scope, and importance of visual communication. 1.2 Elements of visual design: Line, shape, color, texture, space, form. 1.3 Semiotics: Signs, symbols, codes. 1.4 Visual perception and psychology. 1.5 Mass media and visual culture.",
+          "hours": 2
+        },
+        {
+          "title": "Basics of Film Language and Techniques",
+          "topics": "2.1. Cinematic language: Frame, shot, scene, sequence. 2.2. Scene: Lighting, costume, props, setting Moving the selected area. 2.3. Camera angles and movements 2.4. Editing techniques: Continuity, montage, jump cut. 2.5. Sound design and music in film",
+          "hours": 4
+        },
+        {
+          "title": "History and Evolution of Cinema",
+          "topics": "3.1. Global history: Silent era, Golden Age of Hollywood, Italian Neorealism, French New Wave. 3.2. Indian cinema: Evolution from Dadasaheb Phalke to contemporary cinema. 3.3. Evolution of genres: Documentary, fiction, experimental 3.4. Introduction to world cinema and auteurs.",
+          "hours": 5
+        },
+        {
+          "title": "Film Analysis and Criticism",
+          "topics": "4.1. Narrative structures: Linear, non-linear, circular 4.2. Film theories: Auteur theory, Feminist film theory, Psychoanalysis, Marxist film theory. 4.3. Themes and motifs in cinema 4.4. Case studies: Selected classic and contemporary films 4.5. Writing a critical film review 22 B. Sc. Animation Syllabus from 2025-26 Page 22 | 37",
+          "hours": 6
+        },
+        {
+          "title": "Applications of Visual Communication",
+          "topics": "5.1 Visual storytelling in advertising, journalism, and digital media 5.2 Storyboarding and scripting for visual media 5.3 Role of visual communication in social and political campaigns 5.4 Short film or video project: Concept to execution 5.5 Ethics in visual representation",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "ANM-251-MJ",
+      "title": "Advance 3D Animation – I (Maya)",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to Autodesk Maya",
+          "topics": "1.1 Maya Viewport and Menu bar 1.2 Maya Shelfs, Command panel, 1.3 Maya Attribute editor, Channel Box/ Layer editor 1.4 Workspace, Outliner, Animation Timeline, Tool editor 1.5 Introduction to Hypershade interface, Basic render concept 1.6 Creating Maya Projects, Creating a New Project, Editing and Changing Projects",
+          "hours": 5
+        },
+        {
+          "title": "Polygonal & NURBS Modeling Fundamentals",
+          "topics": "2.1 Understanding Polygon Geometry, Standard primitives and extended primitives, Transform tools (move, rotate, scale), Smooth polygons. 2.2 Using Extrude, Booleans, Insert Edge loop tool, Multi-cut tool, Merge Geometry, Bridge Polygons, Mirror tool, Bevel, Symmetry, Grouping and Combining. 2.3 Drawing and editing NURBS curves 2.4 Creating surfaces via revolve, loft, planar, extrude, Converting NURBS to polygons for rendering 25 B. Sc. Animation Syllabus from 2025-26 Page 25 | 37",
+          "hours": 12
+        },
+        {
+          "title": "Texturing Basics & UV Mapping",
+          "topics": "3.1 Introduction to texturing and standard shaders 3.2 Arnold Shaders, Different types of Arnold shaders e.g., AI standard, Ambient occlusion, AI Mix, AI Wireframe etc. 3.3 UV mapping and its types. Using the UV Editor 3.4 Texture maps and Types.",
+          "hours": 10
+        },
+        {
+          "title": "Lighting & Rendering",
+          "topics": "4.1 Overview of Maya light types 4.2 Arnold Lights and their Attributes, Arnold Light -Area Light, Sky Dome light, Mesh Light, Photometric light, etc. Basic three-point lighting setup, HDRI lighting Setup 4.3 Standard Maya Rendering, Arnold Renderer in Maya, Render settings, Resolution gate, samplings and file formats. 4.4 Batch/sequence rendering basics",
+          "hours": 10
+        },
+        {
+          "title": "Fundamentals of 3D Animation & Camera",
+          "topics": "5.1 Timeline, keyframes, and the curve editor 5.2 Creating and controlling cameras, Animating cameras along paths 5.3 Object animation (position, rotation, scale)",
+          "hours": 8
+        },
+        {
+          "title": "Advance 3D Visualization",
+          "topics": "6.1 Interior & Exterior Design, Blue print, Walkthrough. 6.2 Terrain Sculpting, Village/Town Visualization 6.3 Basic Automobile Modeling 6.4 Cartoonistic Character using Box Modeling, Reference image plane setup, Character Texturing, Props modeling",
+          "hours": 10
+        },
+        {
+          "title": "Final Project and Portfolio Development",
+          "topics": "7.1 Project planning and pre-production 7.2 Execution of a 3D Showreel.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ANM-252-MJ",
+      "title": "Lab Course on ANM-251-MJ",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-271-VSC",
+      "title": "Mini Project based on Graphic Design",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-281-CEP",
+      "title": "Documentary on Community Engagement and Service",
+      "semester": 4,
+      "type": "Community Engagement Program",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-291-MN",
+      "title": "Video Editing (Premiere)",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Editing",
+          "topics": "1.1 History and Evolution of Editing, 1.2 Principal of Video Editing, 1.3 Liner & Nonlinear Editing Aesthetics of Editing",
+          "hours": 2
+        },
+        {
+          "title": "Techniques of editing",
+          "topics": "2.1. Cut on Action 2.2. Cut Away 2.3. Continuity match 2.4. Match cut 2.5. Pace and Rhythm",
+          "hours": 5
+        },
+        {
+          "title": "Intro to Premiere Pro",
+          "topics": "3.1. Premiere Pro interface and basic setup. 3.2. Overview of Premiere Pro and its applications 3.3. Interface tour: Workspace, Timeline, 3.4. Source Monitor, and Program Monitor 3.5. Setting up a new project: Sequence 3.6. settings and file organization 3.7. Importing media: Video, audio, and graphics 3.8. Keyboard shortcuts for efficient editing 3.9. Practical: Create a new project and import media files.",
+          "hours": 5
+        },
+        {
+          "title": "Basic Video Editing Techniques",
+          "topics": "33 B. Sc. Animation Syllabus from 2025-26 Page 33 | 37 4.1. Objective: Learn essential tools and 4.2. Techniques for video editing. 4.3. Adding clips to the timeline and trimming 4.4. Working with the Razor tool for cutting clips 4.5. Using the Ripple Edit and Rolling Edit tools 4.6. Understanding the timeline: Tracks, markers and snapping 4.7. Adjusting clip speed: Slow motion and fast motion",
+          "hours": 3
+        },
+        {
+          "title": "Audio Editing",
+          "topics": "5.1 Importing and editing audio files 5.2 Adjusting audio levels and keyframes 5.3 Applying audio effects and transitions 5.4 Using the Essential Sound 5.5 panel for audio cleanup 5.6 Syncing audio and video",
+          "hours": 2
+        },
+        {
+          "title": "Transitions and Effects",
+          "topics": "6.1 Objective: Enhance videos 6.2 Transitions and effects. 6.3 Applying video transitions: Cut, 6.4 dissolve, and wipe 6.5 Using the Effects panel: Blur, 6.6 color effects, and distortions 6.7 Keyframing for animation effects 6.8 Adding and adjusting motion: 6.9 Position, scale, and rotation 6.10 Introduction to nested sequences 6.11 Practical: Apply transitions and 6.12 Effects to a video sequence.",
+          "hours": 3
+        },
+        {
+          "title": "Color Correction",
+          "topics": "7.1. Understanding Lumetri Color panel 7.2. Adjusting exposure, contrast, and saturation 7.3. Using color wheels and curves for grading 7.4. Creating and applying LUTs (Look-Up Tables) 7.5. Matching colors between clips",
+          "hours": 5
+        },
+        {
+          "title": "Titles, Graphics",
+          "topics": "8.1 Adding and customizing text with 8.2 the Essential Graphics panel 8.3 Creating lower thirds and animated titles 8.4 Adding captions or subtitles 8.5 Export settings: File formats 8.6 Presets (H.264, 4K, etc.) 8.7 Rendering and exporting the final video 8.8 Media Encoder",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ANM-292-MN",
+      "title": "Lab Course on ANM-291-MN",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        34,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-253-OE",
+      "title": "Explainer Video Animation & Designing for Social Media",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        35,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-254-SEC",
+      "title": "Stop Motion Techniques",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

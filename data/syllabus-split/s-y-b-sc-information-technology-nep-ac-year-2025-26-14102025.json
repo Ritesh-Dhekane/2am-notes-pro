@@ -1,0 +1,811 @@
+{
+  "id": "s-y-b-sc-information-technology-nep-ac-year-2025-26-14102025",
+  "kind": "programme",
+  "programme": "S.Y.B.Sc. (Information Technology)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "IT201MJ",
+      "title": "Object Oriented Programming using Python",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction to OOP & Classes in Python",
+          "topics": "1.1 Basics of Object-Oriented Programming (OOP) – Need for OOP, Procedural vs. OOP, OOP Principles 1.2 Classes and Objects – Defining a Class, Creating Objects, Instance Variables & Methods 1.3 The self Parameter, Class Attributes vs. Instance Attribute 1.4 Constructor (__init__() method) and Destructor",
+          "hours": 5
+        },
+        {
+          "title": "Encapsulation & Data Hiding",
+          "topics": "2.1 Data Hiding and Access Modifiers – Public, Private, and Protected Members 2.2 Getters and Setters – Using Property Decorators (@property) 2.3 Name mangling in Python",
+          "hours": 5
+        },
+        {
+          "title": "OOP with Modules and Packages",
+          "topics": "3.1 Introduction to Modules, Standard Python Modules Overview of commonly used built-in modules: math, random, datetime, os, sys, time 3.2 Creating User-Defined Modules Writing your own .py files as modules 3.3 Introduction to Packages Using __init__.py & its role, Importing from packages",
+          "hours": 8
+        },
+        {
+          "title": "Error Handling in OOP",
+          "topics": "4.1 Try-except in modular code 4.2 Raising and handling custom exceptions 4.3 Creating a custom exception class in a module",
+          "hours": 4
+        },
+        {
+          "title": "GUI and Object-Oriented Programming",
+          "topics": "5.1Review of GUI Basics Recap of Tkinter basics (widgets, layout managers, events) 5.2 Advanced Widgets and Controls Treeview widget (displaying tables)Notebook (Tabbed interfaces) Spinbox, Scale, Progressbar Widget customization (fonts, styles, colors) 5.3 File Dialogs and Data Integration Using filedialog for file I/O messagebox and simpledialog Reading/writing files from GUI (text, CSV, JSON)",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "IT202MJ",
+      "title": "Relational Database Management System",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Introduction to PL/PGSQL",
+          "topics": "1.1 Introduction 1.2 Data Types 1.3 Language structure 1.4 Controlling the program flow: conditional statements, loops 1.5 Functions 1.6 Handling errors and exceptions 1.7 Cursors 1.8 Triggers",
+          "hours": 8
+        },
+        {
+          "title": "Transaction Concepts",
+          "topics": "2.1 Transaction 2.2 Properties of transaction 2.3 States of transactions 2.4 Schedules 2.5 Types of schedules 2.6 Concept of serializability 2.7 Precedence graph for serializability",
+          "hours": 8
+        },
+        {
+          "title": "Concurrency Control",
+          "topics": "3.1 Locks, Types of Locks 3.2 Ensuring serializability by locks, 3.3 Lock Based Protocols - 2PL, 2PL and its variations. 3.4 Multiple Granularity locking protocol 3.5 Basic Timestamp method for concurrency, 3.6 Thomas Write Rule 3.7 Deadlock 3.8 Deadlock Detection and Recovery (Wait for graph). 3.9 Deadlock Prevention Algorithms (Wound-wait, Wait-die)",
+          "hours": 9
+        },
+        {
+          "title": "Crash and recovery",
+          "topics": "4.1 Concepts of failure, Failure Classification 4.2 Recovery concepts 4.3 Log base recovery techniques (Deferred and Immediate update) 4.4 Checkpoints 4.5 Recovery with concurrent transactions 4.6 Database backup and recovery from catastrophic failures",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "IT203MJP",
+      "title": "Practical Based on IT201MJ + IT202MJ",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        9,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "IT221VSC",
+      "title": "E-commerce",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to E Commerce",
+          "topics": "1.1 Introduction To Electronic Commerce : Definition, Features of E-Commerce, Need to study e-commerce, Scope of e-commerce 1.2 Unique features of E-Commerce 1.3 History and Evolution of E -commerce : History and Evolution of E -commerce, Importance of E-Commerce in the Modern Business Environment, Difference between E- Commerce and E-Business 1.4 E-Commerce Architecture Types : Client-Server Architecture, Two-Tier Architecture, Three-Tier Architecture 1.5 Types of E-Commerce Models : B2C, B2B, C2C, C2B, P2P, B2G 1.6 Advantages and Limitations of E-Commerce 1.7 Uses of E-Commerce",
+          "hours": 6
+        },
+        {
+          "title": "Internet Service Provider",
+          "topics": "2.1 Electronic Commerce – A Generic Framework 2.2 ELECTRONIC DATA INTERCHANGE (EDI) – Definition, Components of EDI, Advantages & Disadvantages of EDI, EDI Standards 2.3 Issues involved in E-Commerce 2.4 Basic Concepts of Internet : Definition, Domain Name System, Advantages of Internet, Requirements of Internet 2.5 Internet Service Provider, Types of Internet Service Providers 2.6 World Wide Web, WWW Technologies 2.7",
+          "hours": 4
+        },
+        {
+          "title": "Electronic Payment Systems",
+          "topics": "3.1 Electronic Payment System : Introduction, Types of Electronic Payment Systems, Traditional Payment System vs Electronics Payment System 3.2 E-Commerce Platforms : Overview of major platforms like Amazon, eBay, Shopify, etc. 3.3 Social networks and online communities, Online auctions, E-commerce portals 3.4 E-Commerce Payment Systems: Credit Cards, Debit Card, Smart Card, E -Money, PayPal, Digital Wallets, Electronic Fund Transfer (EFT) etc. 3.5 Electronic billing presentment and Electronics payments and Protocols",
+          "hours": 6
+        },
+        {
+          "title": "Legal, Ethical, and Security Issues in E-Commerce",
+          "topics": "4.1 Legal Aspects: Consumer protection, digital contracts, data privacy, and intellectual property 4.2 Cybersecurity in E-Commerce: Secure online payments, fraud prevention, and safe data handling 4.3 Ethical Issues: Privacy concerns, online transparency, and responsible marketing 4.4 Security Issues : Security Requirements in Electronic Payment Systems , Threats in Computer Systems: Virus, Cyber Crime Network Security: Encryption, Security Protocols in Security –SSL, SHTTP 4.5 Protecting Web server with a Firewall, Firewall and the Security Policy, Network Firewalls and Application Firewalls, Proxy Server.",
+          "hours": 7
+        },
+        {
+          "title": "Digital Marketing Concepts & Optimizing E-Commerce",
+          "topics": "System 7 hours 5.1 Digital Marketing :- Definition, Online Advertisement, Display Ad Marketing, 5.2 E-mail Marketing, Affiliate Marketing, Social Marketing, Mobile Marketing, Local Marketing, Online Marketing Metrics 5.3 Search Engine Optimization, Working mechanisms of Search Engines, On Page SEO, Off Page SEO, Page Ranks 5.4 Using Google Analytics, Social Media Analytics 5.5 Recommendation Systems: Collaborative, Content Based, Use of Recommendation Systems in E-commerce",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "IT231FP",
+      "title": "Mini Project",
+      "semester": 3,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "IT241MN",
+      "title": "Wireless Networking",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Wireless Networking",
+          "topics": "1.1 Basics of wireless communication 1.2 Multiple Access Techniques: FDMA, TDMA, CDMA. 1.3 Spread Spectrum Techniques : DSSS, FHSS 1.4 Evolution of wireless generations – 1G to 5G (Based on technological differences and advancements) 1.5 Wireless Networking 1.5.1 Advantage of Wireless Networking 1.5.2 Needs of Wireless Networking",
+          "hours": 6
+        },
+        {
+          "title": "Wireless Network Standards & Protocols",
+          "topics": "2.1 IEEE 802.11 (Wi-Fi) standards and architecture 2.2 WLAN components: Access points, clients, SSID, BSS, ESS 2.2 Bluetooth: Bluetooth architecture, Bluetooth protocol stack, Bluetooth frame structure 2.3 Zigbee: Architecture, topologies, applications, Z wave: Protocol architecture, applications 2.4 RFID: working of RFID system, types of RFID tags, RFID frequencies, applications",
+          "hours": 6
+        },
+        {
+          "title": "Wireless Network Type",
+          "topics": "3.1 Infrastructure-based Wireless Networks 3.2 Ad-hoc wireless networks 3.3 Wireless Sensor Networks (WSN) 3.4 Wireless Mesh Network (WMN) 3.5 Cellular Network Architecture 3.6 Software-Defined Wireless Networks (SDWN)",
+          "hours": 8
+        },
+        {
+          "title": "Wireless Network Security",
+          "topics": "4.1 Wireless Network Security Threats 4.2 Types of Wireless Security Encryption ( WEP,WPA,WPA2,WPA3) 4.3 Intrusion Detection Systems (IDS) in wireless environments 4.4 Best practices for securing wireless network",
+          "hours": 5
+        },
+        {
+          "title": "Emerging Trends in Wireless Networking",
+          "topics": "5.1 Role of wireless networking in IoT 5.2 Communication between IoT devices using MQTT, CoAP 5.3 Case studies: Wireless Sensor Networks in Smart cities , Helathcare, Agriculture, Automation. 5.4 Future trends: AI in Wireless Networks",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "IT241MN",
+      "title": "Public Cloud -Google, AWS, Azure",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Public Cloud Platforms",
+          "topics": "1.1 Introduction to Cloud Computing 1.2 Overview of Public Cloud Providers 1.3 Cloud Service Models-IaaS (Infrastructure as a Service), PaaS (Platform as a Service), SaaS (Software as a Service) 1.4 Cloud Deployment Models: Public, Private, and Hybrid Cloud., Multi-cloud environments. 1.5 Introduction to Google Cloud Platform (GCP), AWS, and Azure. 1.6 Comparative Analysis of Features, Pricing, and Use Cases. 1.7 Core Cloud Services (Compute, Storage, Networking) 1.8 Cloud Market Trends and Adoption in Enterprises",
+          "hours": 6
+        },
+        {
+          "title": "Google Cloud Platform (GCP)",
+          "topics": "2.1 Introduction to Google Cloud Platform 2.2 Key GCP Services: Compute Engine, Cloud Storage, Cloud SQL, BigQuer, Data analytics platform. 2.3 GCP Pricing and Billing 2.4 Deploying Applications on GCP",
+          "hours": 5
+        },
+        {
+          "title": "Amazon Web Services (AWS): Compute and Storage Services",
+          "topics": "3.1 Introduction to AWS 3.2 Key AWS Services: EC2 (Elastic Compute Cloud), S3 (Simple Storage Service), RDS (Relational Database Service), Server less Computing with AWS Lambda, 3.3 Compute Engine: Virtual Machines and Auto-Scaling 3.4 AWS Pricing and Billing 3.5 Deploying Applications on AWS 3.6 Hands-on Lab: Launch and manage VMs in each platform 3.7 Kubernetes Engine (GKE) and Containerization. 3.8 Virtual Private Cloud (VPC), Firewalls, Load Balancers 3.9 BigQuery for Data Analytics 3.10 AI & Machine Learning Services in GCP",
+          "hours": 8
+        },
+        {
+          "title": "Microsoft Azure: Compute and Storage Services",
+          "topics": "4.1 Introduction to Microsoft Azure Architecture 4.2 Key Azure Services: Virtual Machines (VM), Azure Functions, App Services 4.3 Storage & Database Services: Azure Blob Storage, Azure SQL Database, Cosmos DB 4.4 Block & File Storage: EBS, File store, Azure Disk/File 4.4 4.5 Networking & Security in Azure 4.6 Data Encryption & Security Best Practices. 4.7 Azure Pricing and Billing 4.8 Deploying Applications on Azure 4.9 Hands-on Lab: Upload, retrieve and manage data in each platform",
+          "hours": 6
+        },
+        {
+          "title": "Deploying Applications in cloud computing",
+          "topics": "5.1 Introduction 5.2 Cloud Migration 5.3 Challenges and Benefits of cloud Migration 5.4 Moving Applications to Cloud 5.5 Application Hosting in Azure 5.6 Google Cloud Applications",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "IT242MNP",
+      "title": "Practical Based on Wireless Networking",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "IT242MNP",
+      "title": "Practical Based on Public Cloud –Google, AWS, Azure",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "OE201IT",
+      "title": "E commerce I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "E- Commerce and Business Model Concepts",
+          "topics": "1.1. Introduction to E Commerce: Definition, Goals, Technical Components, Functions, Status, Prospects, Significance, Advantages, Disadvantages E-Commerce 1.2. Business Models: Major Business to Consumer (B2C) Business Model Portal, E-tailor, Major Business to Business (B2B) Business Mode, E Distributor, E-Procurement, Exchanges 1.3 Business models in Emerging E-Commerce Areas - C2C, P2P, and B2G.,case studies.",
+          "hours": 7
+        },
+        {
+          "title": "E-Marketing and E- Commerce Application",
+          "topics": "2.1. Introduction, Identifying Goals, Definition 2.2. Browsing Behavior Model 2.3. Online Marketing 2.3.1 e-Commerce and retailing 2.3.2 e-Commerce and banking, 2.4. E-Advertising –Introduction, Purpose, Goals, advantages, disadvantages. 2.5. Internet Marketing Trends 2.6. Target Markets 2.7. E-Branding 2.8. Marketing Strategies 2.9. Consumer Online: The Internet Audience and Consumer Behaviors 2.10. E-cycle of Internet Marketing",
+          "hours": 7
+        },
+        {
+          "title": "E-commerce Payment Method",
+          "topics": "3.1. The requirements of an electronic payment system 3.2. Traditional payment system, Electronic payment technology. 3.3. Electronic payment gateways. 3.4. B2B electronic payments. 3.5. Third-party payment processing, electronic or digital currency, characteristics, operation. 3.6. Online credit card payments and smart cards.",
+          "hours": 6
+        },
+        {
+          "title": "E-Commerce Laws & Regulations",
+          "topics": "4.1. Introduction to E-Commerce Laws 4.2. Information Technology (IT) Act, 2000 (India). 4.3. GDPR (General Data Protection Regulation) – EU. 4.4. Other Global E-Commerce Laws.",
+          "hours": 5
+        },
+        {
+          "title": "Future Trends in E-Commerce",
+          "topics": "5.1. AI & Chatbots in E-Commerce. 5.2. AR/VR Shopping Experiences. 5.3. Personalization & Data Analytics. 5.4. The Role of IoT in E-Commerce.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "OE202IT",
+      "title": "Web Design I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Web Design",
+          "topics": "1.1 Introduction 1.2 Working of the Internet. 1.3 Role of Web Servers, Clients(Communication) 1.4 Web Browsers 1.5 Working of the Internet, Intranet and WWW 1.6 E-Mail Servers and Protocols 1.7 E-mail Clients and Web Based Mail Access using Browser 1.8 Messenger Services and Clients(Chat) 1.9 Advantages and Disadvantages of Internet 1.10 Concept of effective Web Design (Web site, classification of website, Advantages and Disadvantages. Of website) 1.11 Fundamental Principles of Web page design and issues",
+          "hours": 8
+        },
+        {
+          "title": "Getting Started with HTML",
+          "topics": "2.1 Introduction to scripting Languages 2.2 HTML Editing Tools 2.3 WYSISYG Authoring Tools 2.3.1 HTML Script 2.3.2 Basic HTML Document Structure 2.3.3 Common HTML Tags and its attributes 2.3.4 Design HTML Tags 2.3.5 Text Formatting and Styles 2.3.6 Images and Graphics 2.3.7 Button, Formatting and Style 2.3.8 Lists 2.3.9 Hyperlinks 2.4 Multimedia 2.5 Frames 2.6 HTML Forms 2.7 Linking Web pages 2.8 Publishing Web Pages",
+          "hours": 6
+        },
+        {
+          "title": "Tables",
+          "topics": "3.1 Table Structure 3.2 Table tags 3.3 Affecting table appearance 3.4 Table troubleshooting 3.5 Tips and tricks 3.6 Standard table templates 3.7 Multipart images in tables",
+          "hours": 6
+        },
+        {
+          "title": "Frame / Forms",
+          "topics": "4.1. Introduction to frames 4.2. Basic frameset structure 4.3. The frame function, appearance and Targeting frames. 4.4. The Inline (Floating) frames and Frame design tips and tricks 4.5. Forms: FORM elements, FORM attributes, Unconventional use of FORM elements 4.8. Demystifying CGI 4.9. Retrieving parameter value using getParameter () method Case Studies 4 hours Case study 1: Creation of forms, small case study to create HTML pages using all the above learnt techniques. Case study 2: Creation of Forms layout designing by using div element with CSS property Case study 3: Create Multiple Web pages link them to publish a small website.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE203IT",
+      "title": "Digital Marketing I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "History of Digital Marketing",
+          "topics": "1.1. Introduction 1.2. Offline digital marketing - Electronic billboards, Radio marketing, T.V. marketing, Phone marketing 1.3. Online marketing - Search Engine Optimization (SEO), Social media marketing, E-mail marketing 1.4. Difference between conventional marketing and online marketing.",
+          "hours": 8
+        },
+        {
+          "title": "Internet Marketing",
+          "topics": "2.1. Structure of Website - Team 2.2. Types of website - Static Website, Dynamic website, Personal, Commercial, Governmental, Non- profit organization 2.3. Web Portals - Type of Portals",
+          "hours": 8
+        },
+        {
+          "title": "Classification of e-Commerce",
+          "topics": "3.1. Business to Business (B2B) Model 3.2. Business to Consumer(B2C) Model 3.3. Consumer to Consumer(C2C) Model 3.4. Consumer to Business (B2B) Model Case Study 6 Hours Case Study 1: Digital Platform like subscription-based streaming service that offers a vast library of TV shows, movies, documentaries, and original content. (eg. Prime Video, Netfix etc ) Case Study 2: Any Private sector bank in India–Digital Transformation and Customer Engagement, Retail banking, corporate banking, credit cards, loans, digital banking, etc. Case Study 3: Multispecialty Hospital in 2- Tier city -Cardiology and Orthopedic Departments Case Study 4: Content Marketing - like HupSpots Content Marketing creates valuable content like blog posts, e-books and infographics that address their target audience and establishing themselves as though leaders and attracting potential customers. Case Study 5: Any Newspaper like The New York Times – Digital Subscription Growth- Transition from print to digital revenue through subscriptions",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE204IT",
+      "title": "AI for everyone I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "1.1 Definition and scope of AI 1.2 Historical overview and key milestones 1.3 Differentiating AI from human intelligence 1.4 Types of AI tools: Text, image, audio, video, coding, and automation. 1.5 Where to find free AI tools? (Google AI, Open AI, Hugging Face, etc.)",
+          "hours": 8
+        },
+        {
+          "title": "AI Subfields",
+          "topics": "2.1 Machine learning: Supervised, unsupervised, and reinforcement learning 2.2 Deep learning and neural networks 2.3 Natural language processing (NLP) and computer vision",
+          "hours": 6
+        },
+        {
+          "title": "Applications of AI",
+          "topics": "3.1 AI in healthcare: Diagnosis, treatment, and medical imaging 3.2 AI in finance: Fraud detection, algorithmic trading, and risk assessment 3.3 AI in transportation: Autonomous vehicles and traffic optimization 3.4 AI in customer service and chatbots 3.5 AI in education: Personalized learning and intelligent tutoring systems",
+          "hours": 8
+        },
+        {
+          "title": "Ethical and Social Implications of AI",
+          "topics": "4.1 Bias and fairness in AI systems. 4.2 Privacy and data protection concerns 4.3 Impact of AI on employment and the workforce 4.4 AI and social inequality",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "IT201IKS",
+      "title": "Indian Knowledge System in Computing",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Vedic Mathematics & Computational Thinking",
+          "topics": "1.1 Introduction to Vedic Mathematics: Origins and importance in ancient India, Sutras and their logical foundation 1.2 Basic Arithmetic using Vedic Methods: Addition, subtraction, multiplication, and division tricks 1.3 Algebraic Applications of Vedic Mathematics: Squaring, square roots, cube roots, and factorization",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Nyaya (Indian Logic)",
+          "topics": "2.1 Introduction to Nyaya Philosophy: Introduction to Nyaya (Indian Logic), Overview of Indian philosophical schools, Importance of Nyaya in logical reasoning, Types of reasoning (Anumana, Pramana, etc.) 2.2 Nyaya’s Four Sources of Knowledge (Pramaṇa): Perception, inference, comparison, verbal Testimony 2.3 Types of Argumentations in Nyaya Vada (truth -based), Jalpa (debate -focused), Vitanda (criticism) Applications in AI & Machine Learning : Logical reasoning models, expert systems, and rule-based AI",
+          "hours": 8
+        },
+        {
+          "title": "Panini’s Astadhyayi & Chandasāstra",
+          "topics": "3.1 Introduction to Panini’s Astadhyayi: Historical background and linguistic importance 3.2 Rule-Based System of Sanskrit Grammar: Sutras, meta-rules, recursion, and transformations 3.3 Chandasastra’s Binary logic and combinatorial techniques",
+          "hours": 8
+        },
+        {
+          "title": "Applications of IKS in Computer Science",
+          "topics": "4.1 Mind and cognition in Samkhya and Yoga: AI insights 4.2 Machine Learning and Indian philosophies: Understanding of human cognition in Indian philosophical schools (Advaita, Samkhya and Yoga) 4.3 Cryptography and Security: Ancient cryptographic methods in Kautilya’s Arthashastra, protecting information: analogies from Indian traditions",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "IT251MJ",
+      "title": "Python Ecosystem : A Practical Approach with Libraries and Framework",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Foundations of Python Ecosystem",
+          "topics": "1.5 Introduction to Python Ecosystem, Setting up Python environments (Anaconda, Virtualenv, venv) 1.6 Package management with pip and conda 1.7 Introduction to Jupyter Notebooks and IDEs (VS Code, PyCharm)",
+          "hours": 5
+        },
+        {
+          "title": "Data Handling and Analysis Libraries",
+          "topics": "2.1 Working with NumPy for numerical computations, 2.2 Data manipulation with Pandas 2.3 Working with DateTime and Missing Data",
+          "hours": 5
+        },
+        {
+          "title": "Application and Web Development Frameworks",
+          "topics": "3.1 Building command-line apps with argparse and Click 3.2 GUI Development using Tkinter or PyQt 3.3 Web Development with Flask and introduction to FastAPI",
+          "hours": 7
+        },
+        {
+          "title": "Visualization and Reporting",
+          "topics": "3.1 Introduction to Data Visualization, Matplotlib – Basic Plotting, Seaborn – Statistical Plots 3.2Creating Summary Reports using pandas-profiling. 3.3Exporting Reports (PDF, Excel)",
+          "hours": 4
+        },
+        {
+          "title": "Automation, Utilities, and Applied Libraries",
+          "topics": "4.1 File I/O and OS Operations (os, shutil, pathlib),Working with csv, json, and xml files 4.2 Email and Notification Automation (smtplib, email) 4.3 Working with PDFs and Excel (PyPDF2, openpyxl, xlsxwriter) 4.4 Introduction to Scheduling with schedule and time",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "IT252MJ",
+      "title": "Exploratory Data Analysis",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        38,
+        40
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of EDA",
+          "topics": "1.1 Meaning of Exploratory Data Analysis 1.2 Importance of Data Analysis 1.3 Different types of data analysis. 1.4 Data analysis vs exploratory data analysis; 1.5 Main phases/steps involved in exploratory data analysis, 1.6 Advantages and Applications areas of EDA. 1.7 The software tools required for/used in EDA. 1.8 Different types of Exploratory Data Analysis 1.9 EDA techniques: Univariate non -graphical, Multivariate non -graphical, Univariate graphical, Multivariate graphical.",
+          "hours": 4
+        },
+        {
+          "title": "Understanding Data Analysis",
+          "topics": "5.2 Significance of EDA – Making sense of data. 5.3 Types of data qualitative and quantitative data; 5.4 Measurement scales-Comparing EDA with classical and Bayesian analysis. 5.5 Python libraries : Python libraries numpy, pandas, scipy. Data preprocessing: Steps involved in data preprocessing. 5.6 Data transformation techniques/Data Wrangling: functionalities of data Wrangling, Combining and Merging Datasets, filtering dataset, removing duplication, Reshaping and Pivoting.",
+          "hours": 8
+        },
+        {
+          "title": "Graphical Exploratory Data Analysis",
+          "topics": "3.1 Python libraries for visualization : matplotlib and seaborn , Difference between seaborn and matplotlib libraries. 3.2 Visual Aids for EDA : Implementing various types of Plots using matplotlib and seaborn Line plot, Bar plot, Scatter plot, Table chart, Box plot, Histogram plot, Pie chart, etc.",
+          "hours": 8
+        },
+        {
+          "title": "EDA Methods and Techniques",
+          "topics": "4.1 EDA methods: Data visualization, Correlation analysis and its types, Dimension reduction (PCA), Clustering (k-means and hierarchical clustering), Outlier detection (Z- score ,IQR). 4.2 Types of analysis : Univariate, Bivariate and Multivariate analysis , Multivariate analysis using Titanic dataset. 4.3 Grouping dataset: Understanding groupby(), groupby mechanics, cross tabulation.",
+          "hours": 6
+        },
+        {
+          "title": "Descriptive Statistics and Inferential Statistics",
+          "topics": "5.1 Understanding statistics 5.2 Types of statistics (descriptive and inferential), Frequency Distribution, Measures of central tendency (Mean, Median, Mode), Inferential Statistics: Hypothesis testing, Types of hypothesis testing, Z- test , T- test 5.3 Regression Analysis, Types of regression (simple, multiple, polynomial, logistic). 5.4 Advanced data visualization tool: Tableau-Connecting to data, Creating Sheets and Dashboards. Text Books: 1. “Hands-On Exploratory Data Analysis with Python”, Suresh Kumar Mukhiya, UsmanAhmed. Packt Publication. 2. “Python for Data Analysis”, Wes Mckinney, O’REILLY Publication. 2017 3. Fundamental of mathematical statistics-S C Gupta & V K Kapoor Published by Sultan Chand & Sons.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "IT253MJP",
+      "title": "Practical Based on IT251MJ + IT252MJ",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        41,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "IT231VSC",
+      "title": "Software Engineering",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": "1.1 Definition of Software Engineering 1.2 Characteristics of Software 1.3 General Principles 1.4 Software Application Domain 1.5 Need for software Engineering 1.6 Software Engineering : A layered technology",
+          "hours": 5
+        },
+        {
+          "title": "Software Development Life Cycle (SDLC)",
+          "topics": "2.1 Introduction 2.2 Activities of SDLC 2.3 A Generic Process Model 2.4 Software Paradigms 2.4.1 Waterfall Model 2.4.2 Incremental Process Models 2.4.3 Evolutionary process Models (Prototyping and Spiral Model) 2.4.4 RAD Model 2.4.5 Concurrent Models",
+          "hours": 8
+        },
+        {
+          "title": "Requirement Engineering",
+          "topics": "3.1 Introduction 3.2 Requirement Engineering Tasks 3.2.1 Inception 3.2.2 Elicitation 3.2.3 Elaboration 3.2.4 Negotiation 3.2.5 Specification 3.2.6 Validation 3.3 Software Requirement Specification (SRS) 3.3.1 Developing Use Cases (UML) 3.4 Feasibility Study",
+          "hours": 7
+        },
+        {
+          "title": "Analysis and Design Engineering",
+          "topics": "4.1 Introduction to DFD 4.2 Basic Notations 4.3 Context Level DFD 4.4 1st Level DFD 4.5 2nd Level DFD 4.6 Input and Output Screen Design 4.7 Cover at least three case studies on above topics",
+          "hours": 6
+        },
+        {
+          "title": "Agile Development",
+          "topics": "5.1 What is Agility? 5.2 Agile Process 5.2.1 Agility Principles 5.2.2 The Politics of Agile Development 5.3 Extreme Programming (XP)",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "IT281FP",
+      "title": "Mini Project",
+      "semester": 4,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        47,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "IT291MN",
+      "title": "Cryptography & Network Security",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Computer Security Essentials",
+          "topics": "1.1 Computer and Network Security – an Introduction 1.2 Need for Security 1.3 Security Approaches and Principles 1.4 OSI Security Architecture 1.5 Security Services and Mechanisms 1.6 Network Security Model 1.7 Email Security (Domain Key Identified Mail (DKIM))",
+          "hours": 3
+        },
+        {
+          "title": "Symmetric Key Cryptographic Algorithms- Substitution Techniques",
+          "topics": "2.1 Introduction, Algorithm Types and Modes 2.2 Symmetric Cipher Model (Plain Text and Cipher Text, Cryptography, Cryptanalysis, Brute- Force Attack) 2.3 Encryption and Decryption 2.4 Substitution Techniques (Caesar Cipher, Monoalphabetic Ciphers, Playfair Cipher, Hill Cipher, Polyalphabetic Ciphers, One-Time Pad) 2.5 Types of security Attacks (General view and Technical view, Active and Passive attacks) 2.6 Possible Types of Attacks on substitution technique",
+          "hours": 5
+        },
+        {
+          "title": "Symmetric Key Cryptographic Algorithms- Transposition Techniques",
+          "topics": "3.1 Transposition Techniques (Single Columnar, Double Columnar) - Rail Fence technique, Simple Columnar transposition Technique 3.2 Possible Types of Attacks on transposition technique 3.3 Key Range and Key Size 3.4 Block Cipher Principles and modes of operations 3.5 Introduction to Data Encryption Standard (DES), Advanced Encryption Standard (AES) 3.6 Stream Ciphers 3.7 RC4 , RC5 , Blowfish 3.8 Steganography (Applications, Limitations)",
+          "hours": 10
+        },
+        {
+          "title": "Asymmetric Key Cryptographic Algorithms",
+          "topics": "4.1 Asymmetric Key Cryptography – Introduction, History and Outline 4.2 Principles of Public Key Cryptosystems 4.3 RSA Algorithm with example 4.4 Diffie Hellman Key Exchange algorithm with example 4.5 Knapsack Algorithm",
+          "hours": 4
+        },
+        {
+          "title": "Public Key Infrastructure",
+          "topics": "5.1 Introduction 5.2 Digital Certificates, Creation of Digital Certificates 5.3 Digital Signatures-Direct Digital Signature, Digital Signature Standard (DSS) 5.4 Private Key Management (PKI and PKIX Model) 5.5 Public Key Cryptographic Standards (PKCS), PKI and XML Security 5.6 Public key – distribution of secret keys, elliptic curve cryptography",
+          "hours": 4
+        },
+        {
+          "title": "Cryptographic Hash Functions",
+          "topics": "6.1 Introduction and Applications 6.2 Simple Hash Functions (XOR and rotated XOR, XOR with Cipher Block Chaining (CBC) mode) 6.3 Requirements and Security 6 6.4 Hash Functions based on Cipher Block Chaining 6.5 Secure Hash Algorithms (SHA), SHA-3, SHA-256",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "IT291MN",
+      "title": "Automation tools for cloud Deployment",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing and Automation",
+          "topics": "1.1 Introduction to Cloud Computing: Definition and characteristics, Cloud service models: IaaS, PaaS, And SaaS. Cloud deployment models: Public, Private, Hybrid. Benefits and challenges of cloud deployment, 1.2 Need for Automation in Cloud Deployment: Benefits of automation, Speed, efficiency, consistency, Challenges of manual deployment, Use cases of automation in cloud environments. 1.3 Automation Concepts in Cloud: Infrastructure as Code (IaC), Configuration management basics, Continuous Integration and Continuous Deployment (CI/CD). 1.4 Overview of Cloud Platforms: AWS, Azure, and Google Cloud Platform (GCP), Native automation tools: Cloud Formation, Azure Resource Manager, GCP Deployment Manager.",
+          "hours": 7
+        },
+        {
+          "title": "Infrastructure as Code (IaC) Tools",
+          "topics": "2.1 Introduction to Infrastructure as Code (IaC) 2.2 Terraform 2.3 AWS CloudFormation 2.4 Comparison of IaC Tools",
+          "hours": 6
+        },
+        {
+          "title": "Configuration Management and CI/CD Tools",
+          "topics": "3.1 Configuration Management: Definition and significance, Tools: Ansible, Chef, Puppet, Automating cloud configuration with Ansible, Managing cloud instances with Ansible playbooks. 3.2 Continuous Integration and Continuous Deployment (CI/CD): CI/CD concepts and benefits, Tools: Jenkins, GitLab CI/CD, GitHub Actions. Automating deployment processes in cloud environments. 3.3 CI/CD Pipeline Deployment: Creating CI/CD pipelines, Automating testing and deployment, Integrating Docker and Kubernetes with CI/CD pipelines.",
+          "hours": 8
+        },
+        {
+          "title": "Cloud Automation Best Practices and Security",
+          "topics": "4.1 Best Practices for Cloud Automation: Automation principles Error handling and logging. Monitoring and scaling automated services. 4.2 Security and Compliance in Cloud Automation: Security risks in cloud automation, Automating security enforcement, Secure IaC practices, Automating compliance checks. 4.3 Cloud Automation Case Studies: Real-world cloud automation projects, Examples from AWS, Azure, and GCP. 4.4 Emerging Trends in Cloud Automation: AI-driven cloud automation, Serverless frameworks, Cloud-native DevOps and GitOps. Future of automation in cloud deployment.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "IT292MNP",
+      "title": "Practical Based on Cryptography & Network Security",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        54,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "IT292MNP",
+      "title": "Practical Based on Automation Tools for Cloud Deployment",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        55,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "OE251IT",
+      "title": "E commerce II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        57,
+        58
+      ],
+      "units": [
+        {
+          "title": "E-Commerce Logistics and Supply Chain Management",
+          "topics": "1.1. E-Commerce Supply Chain Overview 1.2. Inventory Management in E-Commerce 1.3. Role of Warehousing and Fulfillment Centers 1.4. Last-Mile Delivery Challenges 1.5. Reverse Logistics and Return Policies 1.6. Green and Sustainable Supply Chains",
+          "hours": 6
+        },
+        {
+          "title": "Data Analytics and Consumer Behavior in E-Commerce",
+          "topics": "2.1. Importance of Data Analytics in E-Commerce 2.2. Key Performance Indicators (KPIs) and Metrics 2.3. Web Analytics (Google Analytics, Heatmaps, A/B Testing) 2.4. Predictive Analytics & Customer Insights 2.5. Recommendation Engines & Personalization 2.6. Conversion Rate Optimization (CRO) 2.7. Fraud Detection Using AI in E-Commerce",
+          "hours": 7
+        },
+        {
+          "title": "E-Commerce Security and Privacy",
+          "topics": "3.1. Importance of Security in E-Commerce 3.2. Threats to E-Commerce (Phishing, Fraud, Cyber Attacks 3.3. Cryptography & Secure Transactions (SSL/TLS, Encryption) 3.4. Digital Signatures & Certificates 3.5. Firewalls & Intrusion Detection Systems",
+          "hours": 6
+        },
+        {
+          "title": "Advanced E-Commerce Technologies",
+          "topics": "4.1. Machine Learning for Product Recommendations 4.2. Block chain for Secure Transactions and Smart Contracts 4.3. Cloud Computing and SaaS Platforms for E-Commerce 4.4. The Role of 5G in E-Commerce Growth",
+          "hours": 5
+        },
+        {
+          "title": "Global Trends of E-Commerce",
+          "topics": "5.1. Cross-Border E-Commerce and Global Expansion 5.2. Mobile Commerce (M-Commerce) Innovations 5.3. Subscription-Based E-Commerce Models 5.4. Social Commerce (Instagram, Facebook Shops, TikTok Commerce) 5.5. Ethical and Sustainable E-Commerce Practices 5.6. Future Challenges in E-Commerce",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE252IT",
+      "title": "Web Design II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        59,
+        60
+      ],
+      "units": [
+        {
+          "title": "CSS(Cascading Style Sheet)",
+          "topics": "1.1. Introduction of CSS and its Syntax 1.2. Ways to Insert CSS and Background image handling 1.3. Background colour management using CSS 1.4. Text and Font management using CSS 1.5. Managing Hyperlinks and List using CSS 1.6. Designing Borders and Outline 1.7. Setting Page Margin using CSS",
+          "hours": 8
+        },
+        {
+          "title": "XML(Extensible Markup Language)",
+          "topics": "2.1. XML Namespaces and Infoset and Document Type 2.2. Definitions (DTDs) 2.3. XML Schemas and XML-Parser 2.4. Data Modeling, Document and Object Model (DOM) 2.5. Displaying XML with XSLT",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to JavaScript",
+          "topics": "3.1. Concept of Script, Types of Scripts, Scripting Languages 3.2. Introduction to JavaScript. 3.3. Variables, identifier and Operator, Control structure. 3.4. Examples on JavaScript Operators. 3.5. Functions 3.6. Event Handling in JavaScript with examples. Case Study 6 Hours Case study 1: Creation of forms, small case study to create HTML pages using all the above learnt techniques. Case study 2: Redesigning the Website of a Small Business. Case study 3:Create a Styled Web Page for a Coffee Shop.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE253IT",
+      "title": "Digital Marketing II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": [
+        {
+          "title": "Online Consumer Behavior Analysis",
+          "topics": "1.1 Consumer Behavior 1.2 Segmentation and Targeting online customers 1.3 Psychological Responses 1.4 Social Trends",
+          "hours": 8
+        },
+        {
+          "title": "Social Media Marketing",
+          "topics": "2.1. Social Media Sites 2.2. - Influence of Social Media Marketing 2.3. Power of Social Media 2.4. Monetization through Social Media",
+          "hours": 8
+        },
+        {
+          "title": "Future of Digital Marketing",
+          "topics": "3.1. Use of Artificial Intelligence (AI) in Digital Marketing. 3.2. Common use of household gadgets for online marketing. 3.3. Digital Marketing strategies. Case Study 6 Hours Case Study 1 Experiential Learning: Creating a website. Case Study 2 Online Consumer Behavior Analysis for an E-Commerce Fashion Brand",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE254IT",
+      "title": "AI for everyone - II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        63,
+        64
+      ],
+      "units": [
+        {
+          "title": "Advanced AI Fundamentals",
+          "topics": "1.1 Deep Dive into AI, Machine Learning & Deep Learning 1.2 Types of AI Models: Generative AI, NLP, Computer Vision, Reinforcement Learning 1.3 Latest AI Trends: AGI, Large Language Models (LLMs), and multimodal AI 1.4 Exploring AI Frameworks & APIs: Open AI, Hugging Face, Google AI",
+          "hours": 6
+        },
+        {
+          "title": "AI for Advanced Text & Content Creation",
+          "topics": "2.1 AI for Long-form Writing & Reports 2.2 Automating Research & Citation Management 2.3 AI for SEO & Content Optimization 2.4 Using AI for Professional Emails & Business Writing",
+          "hours": 8
+        },
+        {
+          "title": "Advanced AI for Image & Video Processing",
+          "topics": "3.1 AI Image Generation Beyond Basics 3.2 Deepfake Technology & Ethical Concerns 3.3 AI Video Editing & Creation 3.4 AI Animation & Motion Capture",
+          "hours": 8
+        },
+        {
+          "title": "AI Tools",
+          "topics": "4.1 Chat GPT (Open AI) 4.2 Google Gemini (Bard AI) 4.3 Canva, Beautiful. AI, Gamma, Slides AI 4.4 Rytr, Grammarly",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEC251IT",
+      "title": "Linux Operating System",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        65,
+        67
+      ],
+      "units": [
+        {
+          "title": "Introduction to Linux Operating System",
+          "topics": "1.1 Introduction to Operating System 1.2 Types of Operating Systems 1.3 History, Evolution, and Overview of Linux 1.4 Linux Releases: Ubuntu, CentOS, Kali 1.5 Features and Advantages of Linux 1.6 Architecture of Linux (Including Overview of Linux Kernel) 1.7 Shell: Bourne, Korn, Cshell, Bash",
+          "hours": 6
+        },
+        {
+          "title": "General Purpose Utilities",
+          "topics": "2.1 System Information: uname: Knowing Your Machine Characteristics, who: Who Are the Users? , tty: Knowing Your Terminal 2.2 User Management: passwd (Changing Your Password) 2.3 Session/Terminal Management: cal: The Calendar, date: Displaying the System Date, echo: Displaying Messages, printf: An Alternative to echo, bc: The Calculator, script: Recording Your Session, stty: Displaying and Setting Terminal Characteristics.",
+          "hours": 6
+        },
+        {
+          "title": "Linux File Management and Command Line Basics",
+          "topics": "3.1 Concept of Directories: Home directory, Directory handling commands: cd, mkdir, rmdir, pwd 3.2 File Concept: File types, File system tree 3.3 File Handling Commands: ls, cat, cp, mv, rm, wc, more, cmp, diff 3.4 Basic File Attributes: Viewing and changing file attributes (e.g., permissions, ownership), chmod: Changing file or directory permissions 3.5 File Filters: cut, paste, sort, uniq, head, tail, grep 3.6 Command Linking: Using Pipe (|) Operator, Command Substitution (e.g., $(command))",
+          "hours": 6
+        },
+        {
+          "title": "The vi Editor",
+          "topics": "4.1 The vi Editor Overview: Introduction to vi, The vi Interface. 4.2 vi Basic Operations: Entering vi, Modes of vi: Command mode, Input mode (Insert mode), Ex mode, Switching between modes (e.g., i, o, a, Esc). 4.3 vi Command Mode Operations: Cursor Movements, Basic navigation using h, j, k, l, Word navigation using b, e, w, Moving to line extremes using 0, |, $, Absolute movement using G, Editing Commands, Deleting characters, words, and lines (d, x, dd), Joining lines (J) , Undo/Redo operations (u, Ctrl+r), Repeating commands (using the repeat factor.) 4.4 vi Input Mode Operations: Switching to Input Mode, Inserting and replacing text 4.5 vi Saving and Exiting: Saving Files- :w, :x, :q , :wq, Selecting and writing lines to another file- :w filename, Exiting vi- q! ,:x, ZZ 4.6 Searching and Replacing in vi: Searching for Patterns: Forward search /pattern, Backward search ?pattern, Repeat Search, Search and Replace (:s/pattern/replacement/g)",
+          "hours": 6
+        },
+        {
+          "title": "Shell Scripting Fundamentals",
+          "topics": "5.1 Introduction to Shell Scripting- What is Shell Scripting?, Definition of shell scripting and its role in automating tasks, Overview of common shell environments (Bash, Zsh, etc.), Difference between shell commands and shell scripts. 5.2 Writing Basic Shell Scripts- Creating a Script File: How to create a basic shell script (.sh file). Setting file permissions (chmod +x script.sh), Writing a simple \"Hello, World!\" script, Understanding the shebang (#!/bin/bash), Executing a Script: Running a script directly or with the bash command, Troubleshooting common errors when running shell scripts. 5.3 Variables in Shell Scripting- Defining Variables: Assigning values to variables (e.g. var=value), Accessing variables ($var, ${var}), Using environment variables and user-defined variables. Special Variables: $0, $1, $2, ..., $#, $@, $?, etc. (positional parameters and exit status). 5.4 Conditional Statements in Shell Scripting- Using if Statements: Syntax and structure of if, elif, and else statements, Comparison operators (e.g., -eq, -ne, -lt, -gt, -le, -ge, =, !=), Example: Simple script using if to check file existence. Using test Command or [ ] for Conditions (file checks, string...",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

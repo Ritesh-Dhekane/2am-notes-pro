@@ -1,0 +1,38 @@
+{
+  "id": "t-y-b-sc-mathematics-computer-science",
+  "kind": "course",
+  "programme": null,
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MTC-341 MN",
+      "title": "B) Operations Research",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "title": "Linear Programming Problem",
+          "topics": "1.1 Basic concepts of linear programming problem 1.2 Slack, Surplus variable and standard form of Simplex method. 1.3 Artificial variable and Big−M method. 1.4 Types of solutions of linear programming problems. 1.5 Linear programming in Python Programming.",
+          "hours": 12
+        },
+        {
+          "title": "Transportation Problem",
+          "topics": "2.1 Mathematical model of transportation problem. 2.2 Linear programming formulation of transportation problem. 2.3 Initial basic solution of transportation problem. (a) North West Corner Rule. (b) Lowest Cost Entry Method. (c) Vogel’s Approximation Method (VAM) 2.4 Optimal solution by Modified Distribution Method (MODI Method). 2.5 Transportation Problem in Python Programming",
+          "hours": 10
+        },
+        {
+          "title": "Assignment Problem",
+          "topics": "3.1 Mathematical model of assignment problem. 3.2 Linear programming formulation of assignment problem. 3.3 Hungarian method for solving assignment problem. 3.4 Assignment Problem in Python Programming.",
+          "hours": 8
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,434 @@
+{
+  "id": "t-y-b-sc-psychology-syllabus-from-2026-2027",
+  "kind": "programme",
+  "programme": "B.Sc. Psychology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PSY-305-MJ",
+      "title": "Fundamentals of Cognitive Psychology",
+      "semester": 5,
+      "type": "Major Core (Theory)",
+      "credits": 4,
+      "pages": [
+        4,
+        6
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO COGNITIVE PSYCHOLOGY",
+          "topics": "1.1 Cognitive Psychology: Definition and domains 1.2 History and methods of cognitive psychology 1.3 Theories of cognitive development – Piaget & Vygotsky 1.4 Current paradigms of cognitive psychology – Information processing approach, ecological approach 1.5 Application: Cognitive style and cognitive map 5",
+          "hours": 15
+        },
+        {
+          "title": "SENSATION, ATTENTION AND PERCEPTION",
+          "topics": "2.1 Sensation – Definition, nature and process 2.2 Attention – Definition, types, determinants and functions of attention: divided attention, selective attention, sustained attention and span of attention 2.3 Perception – Definition, Gestalt principles, perceptual constancies, Bottom-Up (feature analysis, template matching, prototypes), Top-Down and Pandemonium 2.4 Subliminal perception and perceptual defence 2.5 Application: Meaning & types of Extra-sensory perception",
+          "hours": 15
+        },
+        {
+          "title": "LEARNING",
+          "topics": "3.1 Learning: Definition, nature and types. 3.2 Methods of Learning: Trial and error -Thorndike’s experiment and laws, Observational Learning, Social Leaning, and insightful learning 3.3 Meaning & types of Conditioning – Classical Conditioning-Pavlov’s Experiment and Operant Conditioning – Skinners Experiment 3.4 Meaning, types and schedules of Reinforcement & Shaping 3.5 Applications of conditioning",
+          "hours": 15
+        },
+        {
+          "title": "MEMORY PROCESSES AND PROBLEM SOLVING",
+          "topics": "4.1 Definition, Process Functions and types of memory – Memory Models: Multi-Store Model of Memory- Atkinson & Shiffrin Model, Level of Processing Model – Craik & Lockhart and Connectionist (PDP) Model – Rumelhart & McClelland 4.2 Meaning & Causes of forgetting; Memory Improvement Techniques 4.3 Problem: Definition, problem solving cycle , types, obstacles, aids; Problem solving approaches – Algorithm; heuristics: means-end analysis computer simulation, and analogy 4.4 Reasoning and decision -making: Types of reasoning – Inductive reasoning, Deductive reasoning, Syllogistic and Conditional; factors influencing decision-making 4.5 Application: Artificial intelligence",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "PSY-306-MJ",
+      "title": "Personality Theories",
+      "semester": 5,
+      "type": "Major Core (Theory)",
+      "credits": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO PERSONALITY",
+          "topics": "1.1 Meaning, Determinants and Nature of Personality 1.2 History of Personality 1.3 Idiographic and Nomothetic Approaches 1.4 Types of Personality Theories: Trait, Psychoanalytic, Humanistic, Behavioural, Cognitive, Social",
+          "hours": null
+        },
+        {
+          "title": "TRAIT AND MODERN PERSPECTIVES",
+          "topics": "2.1 Trait Approach: Basic concepts and significance 8 2.2 Big Five Personality Traits: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism 2.3 HEXACO Model: Honesty-Humility and relevance to modern research 2.4 Life-span Trait Perspective: Integrating traits with development",
+          "hours": null
+        },
+        {
+          "title": "PSYCHOANALYTIC AND NEO-PSYCHOANALYTIC PERSPECTIVES",
+          "topics": "3.1 Freud’s Psychoanalytic Theory: Id, Ego, Superego and defence mechanisms 3.2 Erikson’s Psychosocial Theory: Identity and ego development across life-span 3.3 Adler’s Individual Psychology: Inferiority, compensation, social interest 3.4 Jung’s Analytical Psychology: Archetypes, psychological types, collective unconscious",
+          "hours": null
+        },
+        {
+          "title": "HUMANISTIC, LEARNING, COGNITIVE AND SOCIAL PERSPECTIVES",
+          "topics": "4.1 Maslow’s Hierarchy of Needs and Self-Actualization 4.2 Rogers’ Theory of Self: Growth and fully functioning person 4.3 Bandura’s Social-Cognitive Theory: Observational learning and self-efficacy 4.4 Cognitive and Constructivist Approaches: Kelly’s Personal Construct Theory and modern cognitive styles",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PSY-307-MJP",
+      "title": "Research Project",
+      "semester": 5,
+      "type": "Major Core (Practical)",
+      "credits": 4,
+      "pages": [
+        9,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-315-MJE",
+      "title": "Industrial and Organizational Psychology",
+      "semester": 5,
+      "type": "Major Elective (Theory)",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO INDUSTRIAL PSYCHOLOGY",
+          "topics": "1.1 Definition, meaning and subject matter of industrial psychology. 1.2 History and origin of industrial psychology. 1.3 Time and Motion studies: Frederick Taylor, Gilbreth 1.4 Sub-fields of industrial psychology.",
+          "hours": 10
+        },
+        {
+          "title": "SCOPE AND FUNCTIONS OF INDUSTRIAL PSYCHOLOGY",
+          "topics": "2.1 Functions of industrial psychology. 2.2 Industrial psychology in the present. 2.3 Challenges before industrial psychology. 2.4 Applications of Psychological tools in Industry. 15",
+          "hours": 10
+        },
+        {
+          "title": "WORK MOTIVATION AND JOB SATISFACTION",
+          "topics": "3.1: Concept and importance of work motivation 3.2: Concept and importance of job satisfaction 3.3: Need theories: McClelland, Herzberg 3.4: Cognitive theories: Goal Setting Theory, Self Efficacy Theory",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY-317-MJEP",
+      "title": "Psychological Testing Based on I/O Psychology (Practical)",
+      "semester": 5,
+      "type": "Major Elective (Practical)",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-316-MJE",
+      "title": "Applied Psychology",
+      "semester": 5,
+      "type": "Major Elective (Theory)",
+      "credits": 2,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Applied Psychology",
+          "topics": "1.1 Definition, nature & scope 1.2 Link between theory and application 1.3 Fields of application (clinical, community, education, industry) 1.4 Ethical issues and professional responsibilities in applied psychology 1.5 Application of applied psychology principles in everyday life and social settings",
+          "hours": null
+        },
+        {
+          "title": "Health Psychology",
+          "topics": "1.1 Bio psychosocial model of health and illness 19 1.2 Stress, coping and lifestyle diseases 1.3 Health behaviour and behaviour change theories 1.4 Role of psychology in health promotion, prevention, and public health interventions 1.5 Application: Designing stress-management and wellness programs",
+          "hours": null
+        },
+        {
+          "title": "Consumer & Advertising Psychology",
+          "topics": "1.1 Consumer behaviour theories 1.2 Psychological impact of advertisements 1.3 Methods: surveys, observation 1.4 Ethical issues in advertising and consumer protection 1.5 Application: Applying consumer psychology to design effective marketing campaigns and assess advertisement impact on target audiences",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PSY-318-MJEP",
+      "title": "Psychological Testing Based on Applied Psychology (Practical)",
+      "semester": 5,
+      "type": "Major Elective (Practical)",
+      "credits": 2,
+      "pages": [
+        21,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-325-VSC",
+      "title": "Psychological Testing Skills",
+      "semester": 5,
+      "type": "VSC (Theory)",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "FOUNDATIONS OF PSYCHOLOGICAL TESTING",
+          "topics": "1.1 Introduction to Psychological Testing 1.2 Basic Psychological Testing Skills 1.3 Ethical Principles in Psychological Testing 1.4 Role and Responsibilities of a Test Administrator",
+          "hours": null
+        },
+        {
+          "title": "BASICS OF TEST ADMINISTRATION",
+          "topics": "2.1 Preparing the testing environment 2.2 Individual vs group testing: procedures and challenges 2.3 Rapport building and giving instructions clearly 25 2.4 Dealing with unexpected situations during tests (technical issues, test anxiety, distractions)",
+          "hours": null
+        },
+        {
+          "title": "TEST CONDUCTION & REPORT WRITING SKILLS",
+          "topics": "3.1 Administering individual vs group tests, Following test manuals and standardized procedures 3.2 Scoring accuracy and error minimization 3.3 Importance of reporting in psychological assessment 3.4 Writing concise and clear reports",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PSY-335-FP",
+      "title": "Qualitative Research Project",
+      "semester": 5,
+      "type": "Field Project (FP)",
+      "credits": 2,
+      "pages": [
+        26,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-345-MN",
+      "title": "Positive Psychology",
+      "semester": 5,
+      "type": "Minor (Theory)",
+      "credits": 2,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "FOUNDATIONS OF POSITIVE PSYCHOLOGY",
+          "topics": "1.1 Meaning, definition, and scope of Positive Psychology 1.2 Historical background and emergence of Positive Psychology 1.3 Positive Psychology versus traditional psychology, Criticisms and limitations of Positive Psychology 1.4 Concepts of happiness and well-being, Types of happiness, Measurement of happiness 32",
+          "hours": null
+        },
+        {
+          "title": "POSITIVE EMOTIONS AND STRENGTHS",
+          "topics": "2.1 Nature and functions of positive emotions 2.2 Broaden-and-Build theory of positive emotions 2.3 Character strengths and virtues 2.4 Cultivating positive emotions",
+          "hours": null
+        },
+        {
+          "title": "APPLICATIONS OF POSITIVE PSYCHOLOGY",
+          "topics": "3.1 Importance of positive psychology in relationships and social well-being 3.2 Motivation, goal setting, and flow 3.3 Mindfulness and stress management 3.4 Applications in education, workplace, and mental health",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PSY-355-MJ",
+      "title": "Fundamentals of Psychopathology",
+      "semester": 6,
+      "type": "Major Core (Theory)",
+      "credits": 4,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "CLINICAL FOUNDATIONS OF PSYCHOPATHOLOGY",
+          "topics": "1.1 Definition, Nature and scope of Psychopathology 1.2 Differentiate between normal & abnormal behaviour 35 1.3 History of DSM 1.4 ICD 1.5 Classification of mental disorders as per DSM- 5.",
+          "hours": null
+        },
+        {
+          "title": "SCHIZOPHRENIA SPECTRUM AND OTHER PSYCHOTIC DISORDERS",
+          "topics": "2.1 Nature and clinical features of psychosis 2.2 Schizophrenia: Positive and negative symptoms, 2.3 Types of Schizophrenia 2.4 Other psychotic disorders: Delusional Disorder, Brief Psychotic Disorder 2.5 Psychosocial impact of psychotic disorders",
+          "hours": null
+        },
+        {
+          "title": "PERSONALITY DISORDERS",
+          "topics": "3.1 Personality disorders: Meaning, Nature, diagnostical criteria 3.2 Cluster A: Meaning, Nature, Types and diagnostical criteria 3.3 Cluster B: Meaning, Nature, Types and diagnostical criteria 3.4 Cluster C: Meaning, Nature, Types and diagnostical criteria 3.5 Treatment for personality development.",
+          "hours": null
+        },
+        {
+          "title": "OTHER DISORDERS",
+          "topics": "4.1 Eating Disorders: Meaning, Nature, Types and diagnostical criteria 4.2 Sleep Disorders: Meaning, Nature, Types and diagnostical criteria 4.3 Substance related Disorders: Meaning, Nature, Types and diagnostical criteria 4.4 Learning Disorders: Meaning, Nature, Types and diagnostical criteria 4.5 Technology and Lifestyle-Related Disorders: Internet Addiction, Smartphone Addiction, Gaming Disorder",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PSY-356-MJ",
+      "title": "Introduction to Psycho-diagnostics",
+      "semester": 6,
+      "type": "Major Core (Theory)",
+      "credits": 4,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "BASICS OF PSYCHO-DIAGNOSTICS",
+          "topics": "1.1 Meaning, definition, nature and scope of Psycho-diagnostics 1.2 Historical development of psycho- diagnostics 1.3 Difference between the concepts: Assessment, testing, and diagnosis 1.4 Ethical issues in Psycho-diagnostics 1.5 Applications of psycho-diagnostics: Clinical, Educational, Counselling, Industrial settings 38",
+          "hours": 12
+        },
+        {
+          "title": "PSYCHOLOGICAL ASSESSMENT METHODS",
+          "topics": "2.1 Psychological assessment: concept and process 2.2 Methods of assessment/diagnostic: Clinical interview, Case history method, Observation method, Psychological testing 2.3 Mental Status Examination (MSE) 2.4 International personality disorder Examination (IPDE) 2.5 Sources of error in assessment",
+          "hours": 15
+        },
+        {
+          "title": "APPLICATION OF PSYCHOLOGICAL TESTING",
+          "topics": "3.1 Behavioural Assessment: Psychophysiological assessment 3.2 Projective techniques for personality assessment: Projective technique: Types & Basic information 3.3 Psychological test for personality assessment: MMPI 3.4 Intellectual assessment: Wechsler’s adult intelligence scale for adult 3.5 Emotional functioning: Emotional Intelligence Test, Beck depression inventory,",
+          "hours": 17
+        },
+        {
+          "title": "ETHICAL, CULTURAL AND PROFESSIONAL ISSUES IN PSYCHO-DIAGNOSTICS",
+          "topics": "(16 HOURS) 4.1 Ethical principles in psychological assessment 4.2 Ethical issues in psycho-diagnostics 4.3 Cultural and socio-economic considerations in psycho-diagnostics 4.4 Professional ethics in psycho-diagnostics 4.5 Ethical Issues in Online Psychological Assessment",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PSY-357-MJP",
+      "title": "Practicum: Case Study",
+      "semester": 6,
+      "type": "Major Core (Practical)",
+      "credits": 4,
+      "pages": [
+        40,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-365-MJE",
+      "title": "Counseling Psychology",
+      "semester": 6,
+      "type": "Major Elective (Theory)",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO COUNSELING PSYCHOLOGY",
+          "topics": "1.1 Definition, meaning and nature of counseling. 1.2 Historical and Indian Approaches to Counseling 1.3 Goals and Objectives of Counseling 1.4 Types of Counseling: Individual counseling, Group Counseling, Tele-counseling etc.",
+          "hours": 10
+        },
+        {
+          "title": "COUNSELING PROCESS AND SKILLS",
+          "topics": "2.1 Stages of Counseling Process 2.2 Factors influencing counseling process: Physical setting, Client factors, Counselor factors 2.3 Ethical Guidelines in counseling 46 2.4 Counseling Skills: Rapport building, Attending skills, Active listening, Confidentiality, Empathy, Non verbal behavior, Questioning etc.",
+          "hours": 10
+        },
+        {
+          "title": "Introduction to Counseling Areas",
+          "topics": "4.1: School and career counseling 4.2: Counseling for Special Population 4.3: Counseling at workplace 4.4: Couple and Family Counseling",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY-367-MJEP",
+      "title": "Psychological Testing based on Counseling Psychology (P)",
+      "semester": 6,
+      "type": "Major Elective (Practical)",
+      "credits": 2,
+      "pages": [
+        47,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-366-MJE",
+      "title": "Child Psychology",
+      "semester": 6,
+      "type": "Major Elective (Theory)",
+      "credits": 2,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "FOUNDATIONS OF CHILD PSYCHOLOGY",
+          "topics": "1.1 Meaning, nature, and scope of Child Psychology 1.2 Importance of the study of child behavior 1.3 Stages of child development 1.4 Factors influencing development: heredity and environment",
+          "hours": 10
+        },
+        {
+          "title": "DEVELOPMENTAL PROCESSES IN CHILDHOOD",
+          "topics": "2.1 Physical and motor development 2.2 Cognitive development: Piaget’s theory 2.3 Language development 2.4 Emotional development in childhood 50",
+          "hours": 10
+        },
+        {
+          "title": "SOCIAL DEVELOPMENT AND INDIVIDUAL DIFFERNCES IN",
+          "topics": "BEHAVIOUR (10 HOURS) 3.1 Social development and socialization 3.2 Development of self-concept and self-esteem 3.3 Individual differences in children 3.4 Overview of d evelopmental disorders: Intellectual Disabilities, Learning Disabilities , ADHD, Autism Spectrum Disorder",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PSY-368-MJEP",
+      "title": "Psychological Testing based on Child Psychology (P)",
+      "semester": 6,
+      "type": "Major Elective (Practical)",
+      "credits": 2,
+      "pages": [
+        51,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-375-VSC",
+      "title": "Psychotherapies & Counselling Skills",
+      "semester": 6,
+      "type": "VSC (Theory)",
+      "credits": 2,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "FOUNDATIONS OF PSYCHOTHERAPY",
+          "topics": "1.1 Meaning, definition, nature, and scope of psychotherapy 1.2 Objectives of psychotherapy and areas of application 1.3 Psychotherapy and counseling: similarities and differences 1.4 Therapist–client relationship and qualities of an effective therapist",
+          "hours": 10
+        },
+        {
+          "title": "MAJOR PSYCHOTHERAPEUTIC APPROACHES",
+          "topics": "2.1 Psychoanalytic therapy 2.2 Behavior therapies 2.3 Cognitive and Cognitive Behavioral Therapies 2.4 Humanistic therapies 54",
+          "hours": 10
+        },
+        {
+          "title": "BASIC COUNSELING AND THERAPEUTIC SKILLS",
+          "topics": "3.1 Counseling process and stages of therapy 3.2 Core skills: empathy, rapport building and active listening 3.3 Questioning techniques and communication skills in therapy 3.4 Ethical issues, confidentiality, and professional boundaries REFERNCE BOOKS: • Singh, A. K. (2012). Counselling Psychology. New Delhi: Global Vision Publishing House. • Corey, G. (2017). Theory and Practice of Counseling and Psychotherapy (10th ed.). Boston: Cengage Learning. • Nelson-Jones, R. (2014). Basic Counselling Skills: A Helper’s Manual (3rd ed.). London: SAGE Publications. • Seligman, L. W. (2013). Theories of Counseling and Psychotherapy: Systems, Strategies, and Skills (4th ed.). Boston: Pearson Education. • Misra, G. (Ed.). (2011). Handbook of Psychology. New Delhi: Oxford University Press. • Kapur, M. (2015). Counselling Children and Adolescents. New Delhi: SAGE Publications India. • Rastogi, R., & Dave, R. (2014). Counselling and Psychotherapy. New Delhi: Pearson Education India.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY-385-OJT",
+      "title": "On The Job Training",
+      "semester": 6,
+      "type": "OJT",
+      "credits": 4,
+      "pages": [
+        55,
+        60
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

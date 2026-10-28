@@ -1,0 +1,482 @@
+{
+  "id": "se-instrumentation-and-control-2024-course-updated-3rd-july-2025-10072025",
+  "kind": "programme",
+  "programme": "SE – Instrumentation and Control Engineering (2024 Pattern)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-INC",
+      "title": "Sensors and Transducers",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Pressure Measurement",
+          "topics": "Classification and selection criteria of transducers. Definition, pressure scale, units and relations, manometers and their types, elastic pressure sensors, piezoelectric secondary pressure sensors, differential pressure sensors, high -pressure sensors, low -pressure sensors, standards, working principle, types, materials, capacitive (delta cell), Differential Pressure Transmitter (DPT), concept of live, dead zero, two and four wire transmitters, Dead Weight Tester.",
+          "hours": 10
+        },
+        {
+          "title": "Temperature Measurement",
+          "topics": "Temperature scales, units and relations, classification of temperature sensors, working principle, types, materials, Non electrical sensors (bimetallic, thermometer), electrical sensors (RTD, Thermocouple, Thermistor, IC sensor LM35), Non-Contact temperature sensors (Radiation and optical). Design of signal conditioning circuits for RTD and Thermocouple.",
+          "hours": 8
+        },
+        {
+          "title": "Flow Measurement",
+          "topics": "Classification of Flow transducers, types of flow, Bernoulli's equation for incompressible flow, primary or quantity meters (positive displacement flow meter), secondary or rate meter (obstruction type, variable area type), electrical flow sensors (turbine type, electromagnetic type, and ultrasonic type), flow switches, Vortex shedding, anemometers, mass flowmeter: Coriolis flow meter, Application of DPT for flow measurement.",
+          "hours": 8
+        },
+        {
+          "title": "Level, Force and Torque Measurement",
+          "topics": "Standards, working principle, types, float, displacers, bubbler, and DP - cell, ultrasonic, capacitive, microwave, radar, laser type transducers, level gages, resistance, solid level detectors, fibre optic level detectors, Application of DPT for level measurement Force and Torque measurement: Elastic elements, strain gauges, load cells, strain gauge torque meter, inductive torque meter and MEMS accelerometers",
+          "hours": 8
+        },
+        {
+          "title": "Miscellaneous sensors",
+          "topics": "Displacement Measurement: Inductive-LVDT, capacitive, ultrasonic, optical and proximity sensors. Speed Measurement: Tachometer, Magnetic pickups, Encoders, and Photo electric pickups. Vibration Measurement: Piezoelectric, Seismic, Potentiometric. Viscosity: Say bolt, Searle's rotating cylinder, Cone and plate, Falling and rolling ball Density: Chain-balanced float type, Hydrometer (Buoyancy type) flame sensor, smoke sensor, motion sensor List of Experiments: Students are expected to perform minimum 8 experiments out of which one experiment should be based on signal conditioning. 1. Calibration of pressure gauge using dead weight pressure tester. 2. To study differential pressure transmitter and its application for flow measurement 3. To study differential pressure transmitter and its application for level measurement 4. Compare performance of Thermocouple and RTD for temperature measurement 5. Determine temperature using LM35 6. Compare performance of Orifice and Venture for flow measurement 7. Evaluate performance characteristics of strain gauge load cell for weight measurement. 8. Determine characteristics LVDT for displacement measurement. 9. Compare performance of encoder ...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-INC",
+      "title": "Signals and Systems",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Signals",
+          "topics": "Representation of Continuous and Discrete -time Signals, Unit Step, Unit Ramp, Unit Impulse, Sinusoidal and Complex Exponentials. Classification of signals – Periodic and Aperiodic Signal, Even and Odd Signal, Energy and Power Signal, Deterministic and Random signals. Transformation of Independent Variables –Time Shifting, Time Scaling and Time Reversal.",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Systems",
+          "topics": "Representation of Continuous and Discrete Time Systems. Classification of systems - Static and Dynamic, Linear and Nonlinear, Time variant and Time Invariant, Causal and Non –Causal, Stable and unstable, Invertible and non - invertible systems. Block Diagram Representation and Interconnection of Systems Continuous-Time LTI Systems: The Convolution Integral, Discrete-Time LTI Systems: The Convolution Sum. Properties of Linear Time-Invariant Systems.",
+          "hours": 8
+        },
+        {
+          "title": "Fourier analysis of Continuous Time Signals",
+          "topics": "Fourier Series Representation of Continuous-Time Periodic Signals, Convergence of the Fourier Series, Properties of Continuous-Time Fourier Series, Dirichlet condition for existence of Fourier series, orthogonality, basis functions, Magnitude and phase response. Fourier Transform (FT) representation of Continuous -Time Aperiodic signals, Dir ichlet condition for existence of Fourier transform, Properties of Continuous-Time Fourier Transform, Magnitude and phase response, FT of standard Continuous-Time signals.",
+          "hours": 8
+        },
+        {
+          "title": "Laplace Transform",
+          "topics": "Definition of Laplace Transform (LT), Limitations of Fourier transform and need of Laplace transform, ROC, Laplace transform of standard periodic and Aperiodic functions, properties of Laplace transform and their significance, Laplace transform evaluation using properties, Inverse Laplace tran sform based on partial fraction expansion, stability considerations in S -domain, Application of Laplace transform to the LTI system analysis.",
+          "hours": 8
+        },
+        {
+          "title": "Z-Transform",
+          "topics": "Z-Transform, Significance and Properties of Region of Convergence, Properties of Z-Transform, Inverse Z Transform, relationship of Z -transform with Fourier transform, applications of Z - transform to solutions of difference equations.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-INC",
+      "title": "Linear Integrated Circuits",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Closed loop Op- Amplifier circuits",
+          "topics": "Introduction to feedback amplifiers, Loading effect. Voltage series feedback (non -inverting amplifier with feedback): deriving close loop gain, input impedance, output impedance and bandwidth; Voltage follower and its applications. Voltage shunt feedback ( Inverting amplifier with feedback): deriving close loop gain, input impedance, output impedance and bandwidth; Inverter circuit, Differential amplifier with one op-amp. With derivation of close loop gain.",
+          "hours": 8
+        },
+        {
+          "title": "Linear Applications of an Operational amplifier",
+          "topics": "Voltage summing and subtracter, Integrator and practical integrator, Differentiator and practical differentiator, Instrumentation amplifier with three Op-amps, Current to Voltage converter with zero and span adjustment circuit, Voltage to current converter with zero and span adjustment circuit.",
+          "hours": 8
+        },
+        {
+          "title": "Non-Linear Applications of an Operational amplifier",
+          "topics": "Comparator and its characteristics, Zero Crossing Detector (ZCD) and its use, Schmitt trigger with external bias, Precision half wave and full wave rectifiers. Sine wave oscillators using op-amp.: Barkhausen criteria, Wein bridge oscillator, RC phase shift oscillator.",
+          "hours": 7
+        },
+        {
+          "title": "Timers and Special purpose ICs",
+          "topics": "Design and applications of Astable, Monostable (Re -triggerable and non -retrigger able) and Bistable Multivibrators using LM555. Voltage controlled oscillator (LM 566), Phase locked Loop (LM 565), V to F and F to V converter (LM331), Analog Multiplexer/Demultiplexer (CD 4051).",
+          "hours": 8
+        },
+        {
+          "title": "Active filters and Regulators",
+          "topics": "Filters: Definition, types and Difference between active and passive filters, their merits and demerits. Filter terminology: Pass band, stop band, cut off, Ripple, Q and order of the filter. Butterworth approximations, Low pass (LP), High pass (HP), Band pass (BP), Narrow band pass, Band reject, Notch filter, First and second order filters, (Design of LP, HP and BP filter). Regulators: Performance parameters (line regulation, load regulation, ripple rejection), Fixed volt regulators (IC78xx, 79xx), Linear voltage regulator I C 723(High voltage, low voltage regulator circuits). List of Experiments: Students are expected to perform minimum 8 experiments 1. Designing and implementation of Instrumentation amplifier using LM324 2. Designing and implementation of Wien bridge oscillator using LM 741. 3. Designing and implementation of Comparator, Schmitt trigger and Zero Crossing detector using LM 741. 4. Designing and implementation of Astable and Monostable multivibrator using LM555. 5. Design and implement VCO to determine free running frequency (F0) using LM 566. 6. Design and perform Analog Multiplexer/Demultiplexer using CD 4051. 7. Design and implement first/second order Butte...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective -I *",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-INC",
+      "title": "Data Structures",
+      "semester": 3,
+      "type": "Multidisciplinary Minor-I",
+      "credits": 3,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Python Basics",
+          "topics": "Variables, Data Types, Loops and Conditionals, Functions, Lambda Expressions, List Comprehension, Python Modules (Collections, Queue, Etc.).",
+          "hours": 4
+        },
+        {
+          "title": "Linked List and Sorting Algorithms",
+          "topics": "Linked List - Node Creation, Node Structure, Insert, Delete, Traverse, Singly Linked List, Doubly Linked, Reversing a Linked Li st, List, Circular Linked List, Comparison to Python Lists and Applications of Linked Lists.",
+          "hours": 6
+        },
+        {
+          "title": "Recursion, Searching and Sorting Algorithms",
+          "topics": "Recursion- Base Case and Recursive Case, Call Stack Visualization, Examples Like Factorial, Fibonacci, Reverse String, Tower of Hanoi, Recursion Vs Iteration. Sorting & Searching Algorithms - Bubble Sort, Insertion Sort, Merge Sort, Quicksort, Stable Sorting, Linear Search and Binary Search.",
+          "hours": 8
+        },
+        {
+          "title": "Trees & Graphs",
+          "topics": "Trees - Tree Terminology: Root, Leaf, Height, Depth, Binary Tree Structure Binary Search Tree: Insert, Search, Delete, Traversal Methods: In order, Preorder, Post order, Level-Order (Using Queue) Graphs: What is a Graph, Representation: Adjacency Matrix, Adjacency List (Dictionary of Lists), Directed Vs Undirected, Weighted Vs Unweighted. Graph Traversal - Depth-First Search (DFS), Breadth-First Search (BFS) List of Experiments: Students are expected to perform minimum 8 experiments 1. Write a Python program to implement Singly Linked List. 2. Write a Python program to implement Doubly Linked List. 3. Write a Python program to implement Circular Linked List. 4. Write a Python program to implement bubble sort. 5. Write a Python program to implement selection sort. 6. Write a Python program to implement merge sort, quick sort. 7. Write a Python program on linear search and binary search. 8. Write a Python programs to implement stacks using arrays / linked lists. 9. Write a Python programs to implement queues using arrays / linked lists. 10. Write a Python program to perform Binary Tree traversal operations. 11. Write a Python programs to perform Binary search tree operations. 12...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-INC",
+      "title": "Entrepreneur Skills",
+      "semester": 3,
+      "type": "Entrepreneurship/ Economics/ Management",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "VEC-232-INC",
+      "title": "Universal Human Values & Professional Ethics",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self-exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment (iv) Right Understanding, Relationship and Physical Facility (v) Happiness and Prosperity - Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "(i) Understanding Human being as the Co-existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Program to Ensure self-regulation and Health",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship (ii) ’Respect’ - as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "(i) Understanding Harmony in the Nature (ii) Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co-existence at All Levels (iv) The Holistic Perception of Harmony in Existence (v) Professional Ethics in the light of Right Understanding (vi) Strategies for Transition towards Value-based Life and Profession",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-INC",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Field Projects /Community Engagement Projects",
+      "credits": 2,
+      "pages": [
+        27,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-INC",
+      "title": "Feedback Control System",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Control System",
+          "topics": "Basic concept of control system, classification of control systems: Open Loop and Closed Control System, Transfer Function, concept of pole and zero, Modelling of Electrical and Mechanical systems using differential equations and transfer function, analogy between electrical and mechanical systems, Block diagram algebra, Signal Flow Graph: Mason’s gain formula.",
+          "hours": 10
+        },
+        {
+          "title": "Time domain analysis of Control System",
+          "topics": "Standard test signals: step, ramp, parabolic and impulse signal, type and order of control system, Concept of transient and steady state response, time response of first and second order systems to unit impulse, unit step input, time domain specifications of second order systems, derivation of time domain specifications, steady state error and static error coefficients.",
+          "hours": 8
+        },
+        {
+          "title": "Stability analysis and Root Locus",
+          "topics": "Concept of stability: BIBO, nature of system response for various locations of poles in S -plane, Routh’s-Hurwithz criterion. Root Locus: Angle and magnitude condition, Basic properties of root locus. Construction of root locus, Stability analysis using root locus.",
+          "hours": 8
+        },
+        {
+          "title": "Frequency domain analysis",
+          "topics": "Introduction to Frequency domain specifications, Polar Plot, Introduction to Bode plot, Asymptotic approximation: sketching of Bode plot, stability analysis using Bode plot.",
+          "hours": 8
+        },
+        {
+          "title": "Control Actions and Tuning",
+          "topics": "Process Characteristics: Process equation, capacity, self – regulation, disturbances, control lag, process lag, distance/velocity lag (dead time). Control actions (ON-OFF, proportional, integral, derivative, proportional plus integral, proportional plus derivative, proportional plus integral plus derivative, Controller tuning by Ziegler-Nichols methods, Cohen Coon tuning method. List of Experiments: (Experiment No: 1 to 7 to be performed on MATLAB software, Expt.No.8 and 9 to be performed on hardware setup.) 1. Introduction to Control System Toolbox in MATLAB. 2. Introduction to Simulink (Basic blocks used in Control system). 3. Calculation of time domain specifications. 4. Stability analysis using root locus approach. 5. Calculation of Steady state error of Type 0, 1, 2 systems. 6. Stability analysis using frequency response approach (Bode plot approach). 7. Simulation of controller settings of P, PI, PID controllers (Kp, Ti, Td) obtained through Ziegler Nichols method, Cohen-Coon method. 8. Step Response of RC electrical system. 9. Study of under damped, over damped and critically damped response of second order system (RLC electrical ckt). 10. Case study on control system.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-INC",
+      "title": "Control System Components",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Industrial Control Devices",
+          "topics": "Switches: Principle, symbolic representation, working , application of Toggle switch, Slide switch, DIP switch, Rotary switch, Thumbwheel switch , Selector switch, Push button, Drum switch, Limit switch, Temperature switch, Pressure switch, Level switch, Flow switch. Relays: Working, sp ecifications/selection criteria and applications of electromechanical relay, Solid state relays. Contactors: Working, specifications and applications of contactors. Comparison between relay & contactor.",
+          "hours": 8
+        },
+        {
+          "title": "Sequencing & Interlocking for Motors",
+          "topics": "Standard symbols used in motor control wiring diagrams. Sequencing and Interlocking Concepts: Applications in motor control: Start and stop operations, Emergency shutdown procedures and Direct-On-Line (DOL) and Star-Delta starting methods. Motor Protection Techniques: Short circuit protection, Overload protection, Low/under-voltage protection, Phase reversal protection and Over-temperature protection. Advanced Motor Control Operations: Reversing the direction of motor rotation, Braking methods, Variable speed starting and Jogging and inching controls. Motor Control Canters (MCCs): Concept and wiring diagrams of MCCs for industrial applications.",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Pneumatic & Hydraulic Systems",
+          "topics": "Comparison in between Pneumatic, hydraulic & electrical systems. Pneumatic & Hydraulic components: Pneumatic & Hydraulic Power Supply and its components, Cylinders: Single acting & Double acting cylinder, Cushion, Double rod, Tandem, Multiple position, Rotary. Pneumatic & Hydraulic motors. Direction controlled valves and flow control, Special types of valves like relief valve, pressure reducing, Time delay valve, Pneumatic relay (Bleed & Non bleed, Reverse & direct). Pneumatic & Hydraulic Circuits: Standard Symbols used for developing pneumatic & hydraulic circuits, Sequence diagram (step-displacement), Direction control, Speed control, Reciprocating, Sequencing, and Meter in, Meter out for hydraulic circuits.",
+          "hours": 8
+        },
+        {
+          "title": "Power Control Elements",
+          "topics": "Principle, characteristics, specifications and applications of SCR, UJT, TRIAC, DIAC, MOSFET, IGBT, Triggering and Commutation of SCR. Circuit Breaker and Fuses. Actuators: Advantages, disadvantages and applications of spring and diaphragm, piston cylinder actuators and smart actuators. Design of a spring and diaphragm actuators.",
+          "hours": 8
+        },
+        {
+          "title": "Control valves",
+          "topics": "Control valve terminology: Rangeability, turndown, viscosity index, valve capacity, distortion coefficient, AO, AC, fail-safe actions, cavitation, flashing and noise, their effects and remedies. Control valve characteristics: Inherent and installed. Control valve classification : advantages, disadvantages a nd applications of globe - Single seated, double seated, 3-way, diaphragm, rotary, angle, Gate, Needle, ball and butterfly valve. Designing control valve for gas, vapor and liquid services: valve sizing by ANSI/ISA 75.01 std., high temperature-pressure service valves. Positioners: Need, applications, types, effect on performance of control valve. Definition of Cavitation and Flashing.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-INC",
+      "title": "Digital Electronics",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Logic Families",
+          "topics": "Logic families: TTL, CMOS, RTL, DTL logic family. Digital IC specification terminology. CD40XX /74XX series digital ICs. Characteristics of TTL logic family. Interfacing of logic family. Tristate Logic, Comparison of Different logic families.",
+          "hours": 6
+        },
+        {
+          "title": "Number system & Logic circuit minimization",
+          "topics": "techniques (06 Hours) Number system: Introduction to number system and number system conversion. Boolean algebra, De-Morgan's Thermos, Minimization of combinational logic functions using SOP and PSO forms. Don’t care Conditions. K-Maps up to 4 variables and Quine-McCuskey techniques.",
+          "hours": null
+        },
+        {
+          "title": "Combinational Logic Circuits",
+          "topics": "Introduction to Combinational logic circuits: half adder, full adder, half subtractor, full subtractor, decimal adder, decimal subtractor, magnitude comparator, decoders, encoders, multiplexer & demultiplexer. Implementation of combinational logic circuits.",
+          "hours": 6
+        },
+        {
+          "title": "Sequential Logic",
+          "topics": "Flip Flops: Study of SR, JK, MSJK, D, T types of flip flop, excitation tables, Conversion of Flip Flop. Counters: Binary, BCD, Up-Down counters. Design of synchronous and asynchronous counter using T and D flip flops, Realization of counters using ICs 7490, 7492,7493 and 74193. Shift Registers: Serial in Serial out, Parallel in Parallel out shift registers, Ring counter, Johnson counter. Programmable logic array (PLA) - Input, Output Buffers, AND, OR, Invert/ Non-Invert Matrix.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-INC",
+      "title": "Digital Electronics and Control System Components Lab",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        38,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective -II*",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-INC",
+      "title": "Data Science",
+      "semester": 4,
+      "type": "Multidisciplinary Minor-II",
+      "credits": 3,
+      "pages": [
+        40,
+        42
+      ],
+      "units": [
+        {
+          "title": "Data Science",
+          "topics": "Data Science Life Cycle, Data Science Software Tools, Programming Languages for Data Science, Applications of Data Science, types of data. Data Collection and Sampling. Statistics: Descriptive Statistics: Measurement of central tendency (Mean, median and mode), measurement of spread (Range, IQR, varian ce, standard deviation), correlation, covariance and Inferential Statistics (Probability, Hypothesis testing).",
+          "hours": 5
+        },
+        {
+          "title": "Data Science Packages",
+          "topics": "NumPy- Array Operation, Indexing//slicing, mathematical operations, Matrix operations, String operation. Pandas- Basic pandas’ operation on data frame, append, loc and iloc, missing values, merge, concat, join, group by, pivot, melt, date time index, Matplotlib- Histogram, Line chart, bar chart, pie chart, scatter plot, subplot, imshow. Seaborn- Histogram, line chart, pie chart, bar chart, scatter pot, heatmap, pair plot SciPy- used for scientific purpose SkLearn- used for Machine learning",
+          "hours": 8
+        },
+        {
+          "title": "Exploratory Data Analysis",
+          "topics": "Identification of variables and data types, Univariate, bivariate, multivariate analysis, Variable transformations, Missing value treatment (Mean /median/mode methods) Outlier treatment (Percentile, Std dev, IQR, Boxplot, Z score).",
+          "hours": 6
+        },
+        {
+          "title": "Data Cleaning and Data Visualization",
+          "topics": "Categorical to Numerical: One hot encoding, dummies, Label encoding, Correlation Analysis, Feature Selection, Feature Rescaling (Normalization and Standardization ) Feature Transformation(Log, exponential, square ) Tableau Desktop: Different types of Databases, Connecting With Data, different types of charts, Creating Views and Analysis, case study. List of Experiments: Students are expected to perform minimum 8 experiments Tools Used: Anaconda, Language = Python, Data Visualization Tool , Tableau 1. Statistical Analysis of Dataset. 2. EDA of Dataset. Database: Toyota.csv 3. Classification of Cars. Database: Toyota.csv 4. Data Analysis of Dataset. Correlation Analysis of Dataset Database: Toyota.csv 5. Students Performance Analysis. Database: Students Performance.csv 6. Data visualization: Plot frequency distribution of fuel type using bar plot. Database: Toyota.csv 7. Create ‘Price class for cars’ having three categories: Low, Medium and High using control loops. Database: Toyota.csv 8. Case study on Tableau dashboard. 9. Text Analytics: Extract Sample document and apply following document preprocessing methods: Tokenization, POS Tagging, stop words removal, Stemming and Lemm...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "VSE- 281-INC",
+      "title": "Excel Programming",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-INC",
+      "title": "Modern Indian Languages-Marathi",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 1,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-INC",
+      "title": "Industrial Organization and Management",
+      "semester": 4,
+      "type": "Entrepreneurship /Economics/ Management",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Concepts of Industrial Management",
+          "topics": "Management, business characteristics and classifications, types of business organizations, Merits and Demerits, levels of management, Functions of management- planning, organizing, leading, and controlling , Developing Business environment: SWOT analysis, BCG Matrix, Porter’s 5 forces of competition. Management techniques for developing strategy: Balanced score card . Performance Management and analysis techniques: Ishikawa diagrams, Business process Re - engineering",
+          "hours": 4
+        },
+        {
+          "title": "Inspection, Quality, Standards and Business Management",
+          "topics": "Inspection: objectives, Principles, standards, Qualities of inspector, Role of R & D , Quality Circles/ Forums, Quality Objectives, Statistical Process Control Standards: Introduction to ISO 9001 and ISO 14001 Business Management: Business expansion, Diversion, Mergers and Takeovers",
+          "hours": 4
+        },
+        {
+          "title": "Human Resources (Personnel) Management",
+          "topics": "Objectives and functions of Personnel Management, Manpower planning, training and development, Motivation, Leadership, Appraisal and increments management, Job Descriptions / Role Summary",
+          "hours": 4
+        },
+        {
+          "title": "Professional ethics, IT and e-business, Management",
+          "topics": "Concept of Ethics, ethics and morals, Professional ethics, Introduction to Management Information System (MIS), Enterprise Resource Planning Systems (ERP), e -business and strategies. Tools: P-D-C-A cycle, Total Quality Management (TQM), 5 Whys?, ‘5 S’, Kaizen, Introduction to Six sigma.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-INC",
+      "title": "Environmental Instrumentation",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Sensors, Detectors, Analysers for Environmental Instrumentation",
+          "topics": "Necessity of Instrumentation & Control for environment, sensor requirement for environment. Instrumentation methodologies: Ultraviolet analysers, total hydrocarbon analysers using flame, ionization detector, Gas chromatography in environmental analysis, photo ionization, portable & stationary analytical instruments. Ingress protection, IP packages for environmental protection.",
+          "hours": 5
+        },
+        {
+          "title": "Water Quality Parameters and Water Treatment",
+          "topics": "Standards of raw & treated water, sources of water & their natural quality, effects of water quality. Water quality parameters: Thermal conductivity detectors, Opacity monitors, pH analysers & their application, conductivity analysers & their application. Water treatment: Requirement of water treatment facilities, process design.",
+          "hours": 6
+        },
+        {
+          "title": "Waste Water Treatment plant",
+          "topics": "Ground water monitoring, Instrumentation in assessment of soil & ground water pollution. Instrumentation set up for waste water treatment plant, Chemical Oxygen Demand (COD), Biochemical Oxygen Demand (BOD). Flow monitoring: Non open channel flow measurement, open channel waste water flow measurement.",
+          "hours": 6
+        },
+        {
+          "title": "Air Pollution and Sound Monitoring Systems",
+          "topics": "Definitions, energy environment relationship, importance of air pollution, Air sampling methods & equipment’s, analytical methods for air pollution studies. Control of air pollution. Sound pollution: basics of sound pollution, its effect to environment. Ac oustic noise measurement & monitoring, Environmental Laws. Instruments in Weather st ation: Instruments in Weather station like Barometer, Rain gauge, Ceilometer etc., Global environmental analysis, Virtual Instruments in Environmental Engineering Laboratory, Rover Environmental Monitoring station (REMS)",
+          "hours": 9
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

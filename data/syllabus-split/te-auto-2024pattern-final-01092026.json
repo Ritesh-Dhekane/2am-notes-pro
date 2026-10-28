@@ -1,0 +1,712 @@
+{
+  "id": "te-auto-2024pattern-final-01092026",
+  "kind": "programme",
+  "programme": "TE - Third Year Engineering in Automobile Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC301-ABE",
+      "title": "Automotive Design - I",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Machine Design 10 hours",
+          "topics": "Introduction of Machine Design, Design procedure, Design Process, Design considerations, Static and fluctuating loads, Simple stresses in Machine components, Selection of materials & Factor of safety. Design of Cotter Joint, Design of Knuckle Joint, Levers - hand / foot lever, Principal Planes and Principal stresses, Theories of failures, Design of components subjected to eccentric loading.",
+          "hours": 10
+        },
+        {
+          "title": "Design of Keys, Couplings and Shafts 10 hours",
+          "topics": "Keys and Splines: Design of square and rectangular parallel taper keys, Kennedy key, Design of splines. Couplings: Rigid muff coupling, Rigid flange coupling, Bush pin type flexible coupling. Shafts: Shaft design on the Strength basis, torsional rigidity basis and lateral rigidity basis, Design of shaft as per A.S.M.E. code. Design of propeller shafts.",
+          "hours": 10
+        },
+        {
+          "title": "Design of Power Screws, Bolted Joints, Riveted joints and Welded joints",
+          "topics": "Power Screw: Terminology of Power Screw, Torque analysis and Design of power screws with square and trapezoidal threads, Collar friction torque, Self -locking screw, Efficiency of square threaded screw, Efficiency of self - locking screw, Design of screw jack and C-Clamp. Bolted Joints: Basic types of fastenings, Design of bolted joints under tension, ecce ntrically loaded bolted joint in shear and parallel to axis of bolt, torque requirement for tightening. Welded Joints: Welding symbols, types of welds, stresses in butt and fillet welds, strength of butt, parallel and transverse fillet welds, eccentric load in plane of weld, welded joints subjected to bending and torsion. Riveted Joints: Types of rivets, rivet materials, analysis of riveted joints, joint efficiency, failures of riveted joints.",
+          "hours": 10
+        },
+        {
+          "title": "Design for Fluctuating Loads 8 hours",
+          "topics": "Fatigue Failure, Stress -Life (S –N) Curve and Endurance Limit, Factors Affecting Endurance Strength (Modifying Factors and Notch Sensitivity), Reversed Stress Concept, Fatigue Failure Theories: Soderberg, Goodman, and Gerber Criteria, Modified Goodman Diagram for Design Applications, Design for Finite and Infinite Life.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Spur, Helical, Bevel and Worm Gears 10 hours",
+          "topics": "Spur Gears: Force analysis, Number of teeth, Face width & Beam strength of gear tooth, Incremental dynamic tooth load, Effective load on gear tooth, Estimation of module based on beam strength and wear strength. Helical Gears: Virtual number of teeth, Tooth proportions, Force analysis, Beam strength and Wear strength of helical gears, Effective load on gear tooth, Herringbone gears. Bevel Gears: Types, Terminology of bevel gears, Force analysis, Beam strength and Wear strength of bevel gears, Effective load on gear tooth. Worm Gears: Terminology, Force analysis, Friction in worm gears, Strength rating and wear rating of worm gears, Thermal considerations.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC302-ABE",
+      "title": "Kinematics & Dynamics of Machines",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Automotive Linkages and Mechanisms 7 hours",
+          "topics": "Mechanisms: Links, kinematic pairs, degrees of freedom (Mobility), inversions, Kutzbach’s criterion for planar mechanisms (Four-bar and slider-crank chains). Steering Gear Mechanisms : Condition for correct steering. Comparative study and kinematic analysis of Davis and Ackermann steering gear mechanisms. Universal Joints : Hooke’s Joint (Single and Double) – polar velocity diagrams, angular velocity ratio, maximum and minimum speed of the driven shaft. 20",
+          "hours": 7
+        },
+        {
+          "title": "Velocity and Acceleration Analysis 7 hours",
+          "topics": "Velocity Analysis: Instantaneous Center (I-Center) method, Kennedy’s theorem of three centers. Relative velocity method for four-bar and slider-crank mechanisms. Acceleration Analysis: Relative acceleration method for core automotive mechanisms (four-bar and slider- crank). Rubbing velocity at pin joints. Coriolis Component: Coriolis component of acceleration: acceleration analysis of mechanisms involving slider amplification (e.g., crank and slotted lever mechanism).",
+          "hours": 7
+        },
+        {
+          "title": "Vehicle Transmission Kinematics: Gears and Cams 8 hours",
+          "topics": "Spur Gears: Involute tooth profile properties, terminology, law of gearing. Path of contact, arc of contact, contact ratio. Interference and undercutting (concept and prevention). Gear Trains: Simple, compound, and epicyclic gear trains. Torque and holding torque analysis in epicyclic gear trains. Cams & Followers: Classification. Construction of cam using displacement diagrams for Simple Harmonic Motion (SHM) and Uniform Acceleration and Retardation (UARM) only.",
+          "hours": 8
+        },
+        {
+          "title": "Automotive Clutches and Braking Dynamics 7 hours",
+          "topics": "Friction Clutches : Friction considerations in torque transmission. Uniform pressure and uniform wear theories. Torque capacity derivations for single -plate, multi -plate, and cone clutches. Braking Systems: Kinematic and force analysis of shoe, band and shoe-band brakes. 21",
+          "hours": 7
+        },
+        {
+          "title": "Vehicle Balancing and Gyroscopic Stabilization",
+          "topics": "Balancing of Reciprocating Masses : Concept of static and dynamic unbalance. Single Cylinder partial balancing, Graphical method for balancing of multi-cylinder engine. Gyroscopic Effects in Vehicles: Concept of gyroscopic couple and precession. Vehicle Stability Analysis: Gyroscopic and centrifugal couples acting on a four-wheeler taking a turn and a two-wheeler (motorcycle) negotiating a curve.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC303-ABE",
+      "title": "Automotive HVAC",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        22,
+        25
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Refrigeration and Automotive HVAC",
+          "topics": "Vapour Compression Refrigeration System (VCRS): working principle, components such as compressor, condenser, expansion valve and evaporator, p-h and T-s diagrams, advantages and limitations. Refrigerants: properties of refrigerants, primary and secondary refrigerants, refrigerants R12, R134a, R1234yf, eco-friendly refrigerants and their applications. Environmental Impacts: ozone depletion potential (ODP), global warming potential (GWP), Montreal Protocol and environmental regulations. Need of HVAC in Automobiles: thermal comfort, cabin cooling and heating requirements, defogging and demisting, air quality control. Passenger Comfort Requirements: temperature control, humidity control, air circulation, noise reduction, thermal sensation and comfort parameters. Automotive HVAC Applications: HVAC systems in passenger vehicles, buses, trucks and electric vehicles (EVs), challenges in EV HVAC systems, energy-efficient HVAC systems, automatic climate control systems.",
+          "hours": 8
+        },
+        {
+          "title": "Psychrometry and Human Comfort",
+          "topics": "Psychrometric Properties of Air: properties of moist air, psychrometric terms and definitions. Dry Bulb, Wet Bulb and Dew Point Temperature: measurement and significance in HVAC systems. Relative Humidity and Specific Humidity: humidity ratio, degree of saturation and HVAC applications . Psychrometric Chart and Processes: sensible heating and cooling, humidification, dehumidification and air mixing processes, sensible heat factor and cooling load concepts. Human Thermal Comfort: comfort parameters, thermal sensation and comfort zone. Effective Temperature: concept and application in automotive cabin comfort. Cabin Ventilation Requirements: fresh air circulation, airflow distribution and ventilation standards. Air Quality Stand ards in Vehicles: indoor air quality, cabin air filtration, CO₂ control and pollutant reduction.",
+          "hours": 7
+        },
+        {
+          "title": "Automotive HVAC Components and System Layout",
+          "topics": "Automotive HVAC Systems and Components: classification of automotive air conditioning systems, manual and automatic HVAC systems, single zone and multi-zone AC systems. Air Distribution and Control in Vehicle Cabins: airflow distribution methods, ducting system, vents, blower operation and cabin temperature control. ASHRAE Standards for Automotive AC Systems: thermal comfort standards, ventilation requirements and automotive HVAC performance standards. HVAC Components: Compressor: types, working principle and drive mechanisms. Condenser: construction, heat rejection process and condenser cooling methods . Receiver -Drier / Accumulator: moisture removal, refrigerant storage and filtration. Expansion Valve / Fixed Orifice Valve: refrigerant flow control and pressure reduction. Evaporator: cooling and dehumidification process inside vehicle cabin . Anti -Frosting Devices: frost prevention methods and temperatu re sensors. Basic Control Switches: thermostat switch, pressure switch, blower control and safety switches.",
+          "hours": 8
+        },
+        {
+          "title": "Cooling Load and Thermal Analysis",
+          "topics": "Sources of Heat Load in Vehicles: external and internal heat loads, conductive, convective and radiant heat transfer in vehicle cabins. Solar Radiation Effects: solar heat gain through windshield and windows, greenhouse effect in cabins, solar load reduction methods. Occupancy Load: heat generated by passengers and its effect on cabin cooling requirements. Engine and Exhaust Heat Transfer: engine compartment heat, exhaust heat influence and insulation methods. Ventilation Load: fresh air load, infiltration load and air circulation requirements. Pull-Down Load Calculations: initial cabin cooling load estimation and pull-down time concepts. Cooling Load Estimation for Passenger Vehicles: sensible and latent heat load calculations, cooling capacity determination. HVAC Impact on Fuel Economy: compressor power consumption, fuel efficiency reduction and energy optimization techniques. Thermal Management in Electric Vehicles: EV cabin thermal management, battery cooling and energy - efficient HVAC operation. HVAC Systems in Hybrid an d Electric Vehicles: electric compressors, high - voltage HVAC systems and regenerative energy utilization. Battery Thermal Management Systems: battery cooli",
+          "hours": 8
+        },
+        {
+          "title": "HVAC Controls & Diagnostics",
+          "topics": "Electrical and Electronic Control: Electrical Principles, Sensors and Actuators, Testing Sensors and Actuators, Oscilloscope Waveform Sampling, Multiplex Wiring Systems, OBD and EOBD, Reading Wiring Diagrams, Automotive A/C Manual Control System (Case Study 1), Automotive A/C Auto Temperature Control System (Case Study 2), Automotive Climate Control System (Case Study 3) Diagnostics, Troubleshooting, and Service: Vehicle Inspection, Temperature & Pressure Testing, Leak Detection, Sight Glass Check, Servicing Precautions, Refrigerant Recovery & Charging, System Oil & Flushing, Odour Removal, Retrofitting, Compressor Component Replacement, Fixed Orifice Valve Service",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC304-ABE",
+      "title": "Automotive Electrical & Electronics Systems",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        26,
+        29
+      ],
+      "units": [
+        {
+          "title": "Automotive Electrical Architecture, Wiring, Communication and",
+          "topics": "EMC [07 Hr.] Introduction to automotive electricity generation, storage and distribution systems; vehicle electrical loads; 12 V, 24 V and 48 V electrical systems; high -voltage awareness in EV/HEV; wiring harness design considerations, fuses, relays, protection devices , connectors and terminals; earthing concepts and return paths; instrument cluster and driver information system; introduction to vehicle communication networks - CAN, LIN, Flex Ray , automotive Ethernet; OBD -II and UDS overview; electromagnetic interferenc e, susceptibility and compatibility - need, coupling methods, sources of EMI, testing methods, related ISO / CISPR / SAE / AIS standards and automotive case studies.",
+          "hours": null
+        },
+        {
+          "title": "Battery, Power Supply and Electrical Protection Systems",
+          "topics": "Lead-acid batteries in IC engine vehicles: construction, working principle, electrolyte, cell voltage and battery voltage; battery ratings such as Ah rating, reserve capacity and cold cranking amperes; battery charging/discharging characteristics, capacity, efficiency, self -discharge, sulphation and common failures; battery testing by hydrometer, open-circuit voltage, load test and conductance test. Automotive power supply system: 12 V and 24 V systems, dual -battery arrangement in commercial vehicles, battery selection for two-wheelers, passenger cars, tractors and commercial vehicles; jump-starting precautions, battery terminals, cables, earthing/grounding, voltage drop and loose connection diagnosis. Electrical protection and distribution: fuses, fusible links, relays, circuit breakers, ignition switch, fuse/relay box layout and power distribution to starter, alternator, ignition, lighting and accessories; basic diagnosis of batte ry drain, overcharging, undercharging and no -crank/no-start faults; safe handling, maintenance and recycling of lead-acid batteries.",
+          "hours": 7
+        },
+        {
+          "title": "Starting, Charging and Ignition System",
+          "topics": "Starting system: requirements; construction, working and characteristics of starter motor; starter drives, solenoid switches, starter relays, protection and control circuits; starter motor testing, no -crank and slow - crank fault diagnosis; design considerations and start-stop system overview. Charging system: requirements; construction and working of alternator; rectification, voltage regulators, charging indicator circuit and charging characteristics; charging circuit layout, alternator testing, overcharging and undercharging diagnosis, charging system faults and maintenance. Ignition system : requirements; battery ignition system components and working; electronic ignition, distributor-less ignition, coil -on-plug ignition and CDI overview; spark plugs - construction, heat range, types and characteristics; ignition timing control, misfire detection and diagnostic approach. 28",
+          "hours": 7
+        },
+        {
+          "title": "Automotive Sensors, Actuators, ECU and Diagnostics",
+          "topics": "Engine sensors - manifold absolute pressure sensor, mass air flow sensor, knock sensor, coolant and intake air temperature sensors, exhaust oxygen sensor, throttle position sensor, accelerator pedal position sensor, crankshaft and camshaft position sensors; chassis/body/safety sensors - steering angle, wheel speed/RPM, torque, load cell, proximity, rain, crash, vibration and acceleration sensors; actuators - solenoids, relays, stepper motors, DC motors, PWM-controlled actuators and piezo actuators; ECU signal conditioning, sensor power supply and grounding; scan tools, diagnostic trouble codes, freeze -frame data, live data, oscilloscope/multimeter testing and basic calibration/fault diagnosis.",
+          "hours": 7
+        },
+        {
+          "title": "Engine Management, ADAS, Safety and Connected Vehicle",
+          "topics": "Systems [08 Hr.] Engine management system layout; open-loop and closed-loop control; SI engine management - TBI, MPFI, GDI, group and sequential injection strategies, fuel system components, cold/warm start, idle speed control, acceleration/deceleration enrichment, full-load enrichment, fuel cut-off and spark timing control; CI engine management - CRDI, fuel quantity control, injection timing control, idle speed control, fuel maps and advancements; ABS layout and working; supplementary restraint system - airbags, seat belts, retractor, pretensioner and load limiter; ADAS - driver state monitoring, adaptive cruise control, automatic emergency braking, collision avoidance, lane departure warning, tire pressure monitoring, smart parking assist, adaptive front lighting and head-up display; ADAS sensors - camera, radar, lidar and ultrasonic overview; connected vehicle, GPS, keyless entry, cybersecurity awareness and functional safety overview.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC305-ABE",
+      "title": "Advance Manufacturing Technology",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        30,
+        33
+      ],
+      "units": [
+        {
+          "title": "Mechanics of Metal Cutting",
+          "topics": "Introduction to metal cutting, Elements of machining process, Geometry of single-point cutting tool, Orthogonal and Oblique cutting processes, Chip formation, Types of chips, Chip thickness ratio, Process parameters and their effect on machining, chip breakers, Merchant’s Circle of forces analysis – forces and energy calculation s, power consumed – MRR- Effect of Cutting variables on forces, Concept of Machinability Factors affecting machinability, Machinability Index, Tool Life, Tool life equation of Taylor, Tool wear and its types, Factors affecting on tool life. tool materials/ coatings, surface -finish influence, cutting fluids, Minimum Quantity Lubrication (MQL) and sustainable machining practices. Introduction of multi point cutting tools, Nomenclature of multipoint cutting tools like milling, drilling, reaming and taps, Selection criteria for multipoint cutters.",
+          "hours": 7
+        },
+        {
+          "title": "Gear Manufacturing and CNC Programming",
+          "topics": "Introduction and classification of gear manufacturing, Gear milling, standard cutters and limitations, Indexing and numerical on indexing, Gear Hobbing, Gear Shaping, Gear Shaving and Gear Grinding processes, process-selection focus for automotive gears, gear finishing. Thread Manufacturing: Various methods of thread manufacturing, thread rolling, die threading & tapping, Thread milling, Thread grinding etc., Rolled-thread applications and basic quality considerations. CNC Programming-CNC part programming adaptable to suitable controller. Steps in developing CNC part program. CNC part programming for Lathe Machine – Threading & Grooving cycle (Canned cycle). CNC part programming for Milling Machine - Linear & circular interpolation, milling cutter, tool length compensation & cutter radius compensation. Pocketing, contouring & drilling, subroutine and Do loop using canned cycle",
+          "hours": 7
+        },
+        {
+          "title": "Jigs & Fixtures",
+          "topics": "Importance of jigs and fixtures in mass production, Concept of Interchangeability, degree of freedom, six- point principle or 3 -2-1 location method, Fundamental principles for the design of jigs and fixtures. Jigs Definition, locating methods and devices, C lamping principles, Drill bushes, Types of jigs - Template jig, Leaf jig, Box Jig or Tumble Jig, Indexing Jig, Angular post jig. Fixtures: Definition. Design principles of fixture, Types of fixtures - Turning fixture, grinding fixture, welding fixture, Indexing fixtures, Inspection fixtures. Numerical on simple jig or fixture design . Modular fixtures, CNC work -holding, quick-change fixtures, flexible fixtures and poka-yoke.",
+          "hours": 7
+        },
+        {
+          "title": "Modern Machining Processes",
+          "topics": "Introduction to modern manufacturing processes, Need and classification of modern manufacturing methods. Introduction, Working Principle, equipment, process parameters, process-selection criteria material removal rates of Mechanical Energy Process machining processes : Abrasive Jet Machining (AJM), 32 Water Jet Machining (WJM), Ultra Sonic Machining (USM), Energy Assisted Modern Fabrication Process : Laser beam machining (LBM), Focused Ion beam (FIB) Electro -chemical Machining Process : Electro chemical machining (ECM), Photochemical machining (PCM) Electro-thermal Machining Process : Electric discharge machining (EDM), Wire Electric Discharge Machining (W -EDM). Introduction to micromachining and hybrid machining processes.",
+          "hours": 7
+        },
+        {
+          "title": "Additive Manufacturing",
+          "topics": "Introduction to AM, Classification of AM Processes (Process -based, material form based, application - based- direct and indirect processes and Micro - and Nano-additive processes), Light-Based Photo-curing: Stereolithography (SLA), Digital Light Processing (DLP), Laser -Based Melting: Selective Laser Sintering (SLS), Direct Metal Laser Sintering (DMLS), Selective Laser Melting (SLM). Extrusion-Based Deposition: Fused Deposition Modeling (FDM). Inkjet(droplet) -Based Deposition and Fusion: Multi -jet Modeling (MJM), Polyjet Printing, Nanoparticle Jet, Quality considerations and post-processing techniques: Requirements and Techniques, Support Removal, Sanding, Acetone treatment, Polishing. End-to-end CAD- to-print workflow, STL/3MF, slicing, build orientation, DfAM, defects, quality and automotive applications.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC306-ABE",
+      "title": "Automotive Design -I- LAB",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        34,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC307-ABE",
+      "title": "Automotive HVAC Laboratory",
+      "semester": 5,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        36,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM321-ABE",
+      "title": "Autotronics Laboratory",
+      "semester": 5,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        39,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM322-ABE",
+      "title": "Integrated Mechanism Lab.",
+      "semester": 5,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        44,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM323-ABE",
+      "title": "Advanced Manufacturing Laboratory",
+      "semester": 5,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        48,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "OLE324",
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC351-ABE",
+      "title": "Automotive Design II",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Engine Design- Cylinder, Piston and Connecting rod 10 hours",
+          "topics": "Materials of different engine components, Cylinder: Introduction, Stresses in cylinder wall of IC engine, Design of cylinder liner, cylinder head design. Piston: Introduction, Empirical relationship for d esign of piston head, piston ribs, piston cup, piston ring & piston barrel. Design of piston skirt and piston pin. Connecting rod: Introduction, Buckling of connecting rod, Design of big and small end bearings, Design of big end cap and bolts, Whipping stress in connecting rod.",
+          "hours": 10
+        },
+        {
+          "title": "Engine Design- Crankshaft & Valve Mechanism 10 hours",
+          "topics": "Crankshaft: Introduction, Types of crankshaft and their construction, Design of center crankshaft at Top- Dead Centre position. Valve-gear mechanism: Introduction, Design of valves, Ports, Rocker arm, Valve spring, Tappet, Push rod, Follower, Cam, Cam shaft & Pulley belt drive.",
+          "hours": 10
+        },
+        {
+          "title": "Flywheels 8 hours",
+          "topics": "Introduction to flywheel, Flywheel and Governor, Torque analysis of flywheel, Coefficient of fluctuation of energy of flywheel. Torque -angle (T -Ө) Diagram for flywheel. Numerical treatment on applications of flywheel for electric motor, single cylinder & multi cylinder engine. Design of solid disk and rimmed flywheel, Stresses in rimmed flywheel.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Bearings 10 hours",
+          "topics": "Sliding Contact Bearing : Basic modes of lubrication, Application of Petroff’s equation, Sommerfel d number & effect of temperature for Bearing design of the crankshaft of an engine. Rolling Contact Bearing : Types of Rolling -contact Bearings, Static and dynamic load carrying capacities, equivalent bearing load, load life relationship, selection of bearing life, selection of rolling contact bearings.",
+          "hours": 10
+        },
+        {
+          "title": "Design of Springs & Brakes 10 hours",
+          "topics": "53 Springs: Types and applications of springs, Stress and deflection equ ations for helical compression Design of helical s prings for suspension system of a vehicle , Springs in series and parallel, Spring Design for Fluctuating Stresses, Design of Multi-leaf springs for vehicles, Nipping of Leaf springs. Brakes: Introduction, Types of brakes, Material, Design of band brake, Design of Internal expanding shoe brakes & disc brakes for vehicle braking system.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC352-ABE",
+      "title": "Automotive Chassis and Transmission Systems",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        54,
+        57
+      ],
+      "units": [
+        {
+          "title": "Vehicle Layouts, Chassis, Front Axle and Steering Systems",
+          "topics": "Classification of automobiles; types of vehicle layouts with reference to engine location and type of drive; chassis layouts for two-wheelers, three-wheelers, passenger cars, buses and trucks; functions and types of chassis frames; basic frame materials and cross-members; front axle functions and types; stub axle and wheel bearing; steering system requirements and layout; steering g eometry - caster, camber, king pin inclination, toe-in, toe -out, included angle, scrub radius and self -centering action; Ackermann and Davis steering mechanisms; steering gear boxes; power steering and electric power steering overview; wheel alignment checking and common steering faults.",
+          "hours": 7
+        },
+        {
+          "title": "Vehicle Suspension Systems and Ride Control",
+          "topics": "Road irregularities and need of suspension system; sprung and unsprung mass; ride comfort and road holding; suspension requirements; suspension springs - leaf spring, coil spring, torsion bar, rubber spring and air spring; characteristics of springs; independent front and rear suspension systems; MacPherson strut, double wishbone, trailing arm and multi -link suspension overview; shock absorbers - need, construction, working and types; anti -roll bar and stabilizer bar; roll centre and body roll; hydro -elastic suspension, air suspension, active and semi -active suspension overview; suspension inspection, noise, vibration and ride - related fault diagnosis.",
+          "hours": 7
+        },
+        {
+          "title": "Wheels, Tyres and Braking Systems",
+          "topics": "Requirements of wheels and Tyres; types of road wheels and wheel assembly; wheel balancing; tyre construction, materials, tube and tubeless Tyres, cross-ply and radial Tyres; tyre size designation, aspect ratio, tread pattern, valve, inflation pressure, tyre rotation, tyre matching, tyre wear patterns and causes, tyre retreading and tyre selection for different applications. Braking system requirements; types of brakes; elementary theory of shoe brake; drum brake and disc brake arrangements; self -energizing action; brake friction materials; hydraulic brake system and components; brake fluids; air brakes, vacuum servo assistance, parking brake, dual -circuit brake, fail -safe braking, engine exhaust brake; braking ratio, weight transfer, brake efficiency and testing; ABS and anti-skid braking overview.",
+          "hours": 7
+        },
+        {
+          "title": "Clutches and Manual Gearboxes",
+          "topics": "Need, principle and functions of clutch; clutch requirements and torque capacity; cone clutch, single -plate clutch, diaphragm spring clutch, multi -plate clutch, centrifugal clutch, electromagnetic clutch and overrunning clutch; clutch lining materials; clutch control systems - mechanical, hydraulic and cable - operated; clutch faults and adjustments. Necessity and functions of gear box; resistance to vehicle motion; gear ratio and tractive effort; requirements and types of gearboxes; sliding mesh, constant mesh and synchromesh gearboxes; synchronizing unit construction and working; helical gears; gear selector mechanism; two -wheeler gearbox; lubrication of gearbox; overdrive gears; common gearbox faults and service considerations.",
+          "hours": 7
+        },
+        {
+          "title": "Driveline, Final Drive, Differential and Automatic Transmissions",
+          "topics": "Driving thrust and torque reaction; propeller shaft, slip joint, universal joint and constant velocity joint; Hotchkiss drive and torque tube drive; final drive purpose, final drive ratio and types; differential need, construction and working; differential lock, limited-slip differential overview and differential housing; rear axle functions, loads on rear axle, semi-floating, full-floating and three-quarter floating axles; final drive and axle lubrication. Fluid flywheel and torque converter - principle, construction, working, characteristics, advantages and limitations; epicyclic gear train and gear ratios; clutches and brakes in epicyclic gearboxes; hydraulic control system overview; semi-automatic and automatic transmission; CVT, AMT and DCT overview; transmission performance characteristics and service precautions.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC353-ABE",
+      "title": "Vehicle Aerodynamics & Body Engineering",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Vehicle Aerodynamics (Remember, Understand)",
+          "topics": "• Scope and History of Vehicle Aerodynamics: introduction, evolution of aerodynamic design, importance in vehicle performance, fuel economy and stability, present and future aerodynamic trends. • Flow Phenomena: external flow around vehicle body, boundary layer, flow separation, wake formation, internal airflow in cabins, ventilation ducts and HVAC systems. • Drag and Lift on Aerofoils: aerodynamic forces, lift and drag generation, pressure distribution, pressure drag, skin friction drag and induced drag. • Resistance to Vehicle Motion: rolling resistance, aerodynamic resistance and gradient resistance 59 affecting vehicle performance and fuel consumption. • Passenger Car as Bluff Body: bluff body characteristics, stagn ation regions, wake regions and vortex formation around passenger cars. • EV Aerodynamics: smooth underbody design, aerodynamic wheels, flush door handles, active grille shutters and drag reduction techniques in EVs.",
+          "hours": 8
+        },
+        {
+          "title": "Shape Optimization & Drag Reduction (Apply)",
+          "topics": "• Drag Fractions and Low Drag Optimization: contribution of front end, rear end, underbody, wheels and cooling airflow to aerodynamic drag, drag source analysis, streamlined body design, flow separation reduction and drag coefficient improvement techniques. • Aerodynamic Performance Improvement: front and rear end modifications, bumper and diffuser design, windshield and A -pillar optimization, roof contour design, spoilers, air dams and wheel housing airflow management. • Body Shape Development Strategies: aerodynamic design objectives, detail optimiz ation, vehicle facelift considerations and aerodynamic adaptation of external attachments. • Water and Dirt Accumulation: airflow effects on water and dust deposition, windshield contamination and aerodynamic cleaning strategies. • Active Aerodynamics: adaptive spoilers, active grille shutters, deployable diffusers and variable aerodynamic devices for drag reduction, cooling control and vehicle stability.",
+          "hours": 7
+        },
+        {
+          "title": "Wind Tunnels, CFD & Wind Noise (Analyze)",
+          "topics": "Wind Tunnel Testing: principles of wind tunnel testing, airflow simulation, drag and lift measurement, flow visualization techniques, open and closed-circuit wind tunnels, climatic wind tunnel applications. Simulation and Scale Models: limitations of aerodynamic simulations, reduced scale model testing, similarity parameters and scaling effects. CFD Methodology: basics of CFD, meshing, boundary conditions, post-processing and turbulence models such as k-ε and k-ω models. Wind Noise: virtual aerodynamic testing, wind noise ge neration around mirrors, pillars and gaps, cabin noise reduction techniques, digital twin simulations. AI/ML Driven Aerodynamic Optimization: AI-based CFD optimization, machine learning assisted aerodynamic analysis and hybrid wind tunnel-CFD validation techniques. 60",
+          "hours": 7
+        },
+        {
+          "title": "Car & Bus Body Details",
+          "topics": "• Car Body Details: car body types such as saloon, convertible, limousine, estate van, racing and sports cars; front assembly, roof structure, underfloor construction, bonnet and body panel integration. • Bus Body Details: mini bus, single decker, double decker and articulated bus; floor height, engine location, entrance/exit arrangement, seating layout, passenger comfort, frame construction, double skin and integral construction, ergonomic layouts for EV buses and autonomous shuttles. • Regulations and Safety Design: driver visibility requirements, visibility tests, mirror and glazing standards, passenger space management, crash safety and structural reinforcement. • Commercial Vehicle Body Details: flat platform, tipper and tanker bodies, driver cabin design, chassis frame integration, load distribution, lightweight composite cabins and modular body structures. CCE Activities: • CCE Assignment: Prepare a comparative study of visibility and ergonomics in a sedan vs a city bus. Suggest design improvements for driver comfort and passenger safety. • Design a tipper body layout for a commercial truck considering load distribution, driver cabin ergonomics, and safety standards. • Real-",
+          "hours": 7
+        },
+        {
+          "title": "Body Loads & Ergonomics (Evaluate, Create)",
+          "topics": "• Idealized Structures and Structural Surfaces: load carrying structures, stressed skin construction and shear panel method. • Vehicle Load Distribution: symmetric and asymmetric vertical loads, longitudinal load distribution and dynamic load transfer. • Ergonomics and Anthropometry: driver workstation layout, human body dimensions, seat comfort and safety considerations. • Seats and Safety Systems: types of seats, safety belts, energy absorbing systems and steering impact protection. • Automobile Bumpers: bumper construction, impact absorption and pedestrian safety. • Crashworthy BIW and Smart Safety Systems: composite BIW structures, airbags, ADAS safety systems and adaptive seating for autonomous vehicles.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC354-ABE",
+      "title": "Automotive Design II- LAB",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        62,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC355-ABE",
+      "title": "Power Transmission Systems Lab",
+      "semester": 6,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        64,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC361A-ABE",
+      "title": "Finite Element Analysis",
+      "semester": 6,
+      "type": "Program Elective",
+      "credits": 3,
+      "pages": [
+        68,
+        71
+      ],
+      "units": [
+        {
+          "title": "Introduction of FEA 8 hours",
+          "topics": "Introduction of FEA: Brief History of FEM, general fem procedure, applications of fem in various field, advantages and disadvantages of fem, difference between FEM and FDM consistent units’ system, approximate methods of solving differential equations, weighted residual method (Galerkin method, variation method , Ritz method). 69",
+          "hours": 8
+        },
+        {
+          "title": "1D Elements 7 hours",
+          "topics": "Introduction to different approaches used in FEA such as direct approach, variational approach, weighted residual (Galerkin) for 1D elements. Types of 1D element. Displacement function, Global and local coordinate systems, Order of element, primary and secondary variables, shape functions and its properties. Bar, Beam and Truss Element - Element stiffness matrix, Assembling stiffness Equation, Load vector, and stress and reaction forces calculations.",
+          "hours": 7
+        },
+        {
+          "title": "2D Elements 7 hours",
+          "topics": "Types of 2D elements, Plane Stress, Plane Strain, axi-symmetric problems in 2D elasticity. Constant Strain Triangle (CST) - Element Stiffness matrix, Shape Function of CST , Shape function of Linear Strain Triangle (LSR) and Linear Strain Rectangle (LSR), compression of 2D elements.",
+          "hours": 7
+        },
+        {
+          "title": "Thermal Analysis problems 7 hours",
+          "topics": "70 1D Steady State Heat Transfer Problems: Introduction, Governing differential equation, steady state heat transfer formulation of 1D element for conduction and convection problem, boundary conditions and solving for temperature distribution.",
+          "hours": 7
+        },
+        {
+          "title": "FEA modelling Technique 7 hours",
+          "topics": "Introduction to Commercial FEA Software, Pre -processing, Geometry Creation, Meshing Techniques, Material Assignment, material model, modelling of linear and nonlinear problem, Boundary Conditions, Solver Settings, Post -processing, Interpretation of Results , Convergence Study, Error Estimation, effects of mesh quality on results, priori and post error estimation, Case Studies in Automobile Engineering.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC361B-ABE",
+      "title": "Computational Fluid Dynamics",
+      "semester": 6,
+      "type": "Program Elective",
+      "credits": 3,
+      "pages": [
+        72,
+        75
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computational Fluid Dynamics",
+          "topics": "73 Introduction to Computational Fluid Dynamics, CFD as a research and design tool, Applications in various branches of Engineering, Derivation and physical interpretation of governing equations (conservation of mass, momentum and energy) in differential form, Concept of substantial derivative, divergence and curl of velocity, Mathematical behavior of Governing Equations and boundary conditions, Discretization methods for the CFD (FDM, FVM, FEM, Hybrid Methods), Intro to Meshless Methods, Meshed Vs Meshless Methods",
+          "hours": 8
+        },
+        {
+          "title": "Basic Discretization Techniques",
+          "topics": "Introduction to grid generation (Types of grids such as structured, unstructured, hybrid, multiblock, Cartesian, body fitted and polyhedral etc.), Need to discretize the domain and governing equations, Finite difference approximation using Taylor series, for first order (Forward Difference Approximation, Backward Difference Approximation, Centra difference Approximation) and second order (based on 3 node, 4 node and 5 node points),explicit and Implicit approaches applied to 1D transient conduction equation, Couette flow equation (∂p/∂x = 0) using FTCS and Crank Nicholson’s Method, Stability Criteria concept and physical interpretation, Thomas Tri-diagonal matrix solver",
+          "hours": 7
+        },
+        {
+          "title": "Two Dimensional Steady and unsteady heat conduction",
+          "topics": "Solution of two dimensional steady and unsteady heat conduction equation with Dirichlet, Neumann, Robbins and mixed boundary condition – solution by Explicit and Alternating Direction Implicit method (ADI Method), Approach for irregular boundary for 2D heat conduction problems. 74",
+          "hours": 7
+        },
+        {
+          "title": "Application of Numerical Methods to Convection – Diffusion system",
+          "topics": "Convection: first order wave equation solution with upwind, Lax –Wendroff, Mac Cormack scheme, Stability Criteria concept and physical interpretation Convection –Diffusion: 1D and 2D steady Convection Diffusion system – Central difference approach, Peclet Number, stability criteria, upwind difference approach, 1 D transient convection-diffusion system",
+          "hours": 7
+        },
+        {
+          "title": "Incompressible fluid flow",
+          "topics": "Solution of Navier -Stoke’s equation for incompressible flow using SIMPLE algorithms and its variation (SIMPLER), Application to flow through pipe, Introduction to finite volume method.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC361C-ABE",
+      "title": "Automotive Control Systems",
+      "semester": 6,
+      "type": "Program Elective",
+      "credits": 3,
+      "pages": [
+        76,
+        79
+      ],
+      "units": [
+        {
+          "title": "Introduction 7 hours",
+          "topics": "Open loop and closed loop systems-Transfer function of elements - Modeling of physical systems - Mechanical systems - Translational and Rotational systems - Thermal systems - Introduction to Block Diagrams - Signal Flow Graphs. 77",
+          "hours": 7
+        },
+        {
+          "title": "System Response",
+          "topics": "First order, Second order control system response for Step, Ramp and Impulse inputs - Characteristic Equation, Poles and Zeroes concept.",
+          "hours": 7
+        },
+        {
+          "title": "Stability Analysis",
+          "topics": "Stability analysis- Routh Hurwitz stability criteria – stability in the frequency domain –gain and phase margins",
+          "hours": 7
+        },
+        {
+          "title": "Control System Design",
+          "topics": "78 Proportional, Integral, Derivative controllers, P, PI, and PID control - Design in the frequency domain- lead, lag compensator design",
+          "hours": 7
+        },
+        {
+          "title": "Modeling of Physical Systems",
+          "topics": "Fundamentals of State Space representation - State Models .Modeling of Suspension System Power steering System. ABS control systems –control of yaw dynamics – engine model for lambda control - knock control",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC362A-ABE",
+      "title": "Vehicle Product Design and Development",
+      "semester": 6,
+      "type": "Program Elective",
+      "credits": 3,
+      "pages": [
+        80,
+        85
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Vehicle Product Development",
+          "topics": "Introduction to Vehicle Product Development: need of product development, product lifecycle in automotive industry, role of design and development teams. Stages of Vehicle Development: concept development, feasibility study, prototype development, pilot production, mass production. Product Plannin g and Benchmarking: product planning process, competitor benchmarking, vehicle performance comparison. Automotive Market and Customer Analysis: market segmentation, customer requirements, Voice of Customer (VOC), customer expectation mapping. Automotive Standards and Regulations: safety regulations, emission norms, BS -VI regulations, homologation overview. Introduction to Electric Vehicle Development: EV architecture basics, battery electric vehicles, hybrid electric vehicles, EV market trends.",
+          "hours": 8
+        },
+        {
+          "title": "Vehicle Concept Design and System Engineering",
+          "topics": "82 Product Requirement Specification (PRS): functional requirements, performance requirements, safety requirements, cost targets. Concept Generation Techniques: brainstorming, morphological analysis, functional decomposition, concept screening. Vehicle Architecture Selection: front engine layout, rear engine layout, mid -engine layout, FWD, RWD and AWD systems. Chassis and Powertrain Layout: ladder frame chassis, monocoque chassis, powertrain integration, transmission layout. EV Battery Packaging: battery placement methods, thermal management basics, weight distribution, packaging constraints. Ergonomics and Vehicle Packaging: driver seating position, human comfort factors, visibility considerations, cabin space optimization. Concept Evaluation: Pugh matrix method, feasibility analysis, performance comparison, cost-performance trade-off. CCE Assignments 1. Develop conceptual layout of an electric scooter or compact EV. 2. Prepare Product Requirement Specification (PRS) for a city commuter vehicle. 3. Compare FWD, RWD and AWD systems with suitable applications. 4. Design ergonomic seating layout for a passenger vehicle cabin.",
+          "hours": 7
+        },
+        {
+          "title": "Automotive Product Engineering and CAE",
+          "topics": "Design for Manufacturing (DFM): manufacturing constraints, ease of production, cost -effective design, tolerance considerations. Design for Assembly (DFA): assembly sequence, fastener reduction, modular assembly concepts, serviceability. Automotive Material Selection: steel alloys, aluminium alloys, composite materials, lightweight materials. CAD Modeling: 2D drafting, 3D part modeling, surface modeling, assembly modeling. Finite Element Analysis (FEA): meshing basics, boundary conditions, static structural analysis, stress and deformation analysis. 83 Crashworthiness Basics: impact loading, energy absorption, structural reinforcement, safety zones. NVH (Noise, Vibration and Harshness): vibration sources, noise reduction methods, ride comfort, vibration isolation. Lightweight Vehicle Design: weight optimization, material substitution, structural optimization, fuel efficiency improvement. CAE Software Exposure: CATIA, SolidWorks, ANSYS, HyperMesh. CCE Assignments 1. Create CAD model of an automotive component using Modeling tools. 2. Perform basic FEA on suspension bracket or chassis member. 3. Study lightweight materials used in modern automobiles. 4. Analyze crashworthiness featur",
+          "hours": 7
+        },
+        {
+          "title": "Prototype Development, Testing and Validation",
+          "topics": "Prototype Development: physical prototypes, digital prototypes, functional prototypes, prototype fabrication methods. Rapid Prototyping Techniques: 3D printing, additive manufacturing, CNC prototyping, laser cutting. Prototype Stages: alpha prototype, beta prototype, pre-production prototype, production prototype. Vehicle Testing Procedures: performance testing, road testing, brake testing, suspension testing. Durability and Reliability Testing: fatigue testing, life cycle testing, environmental testing, reliability prediction. Failure Analysis: Failure Mode and Effects Analysis (FMEA), root cause analysis, corrective actions, risk assessment. Design Verification and Validation: Design Verification Plan and Report (DVP&R), validation procedures, compliance testing, quality assurance. Homologation Basics: regulatory approvals, vehicle certification, safety compliance, emission compliance. 84 CCE Assignments 1. Prepare prototype development plan for a vehicle subsystem. 2. Develop testing and validation procedure for brake or suspension system. 3. Perform Failure Mode and Effects Analysis (FMEA) for an automotive component. 4. Prepare DVP&R sheet for an EV battery enclosure or chassi",
+          "hours": 7
+        },
+        {
+          "title": "PLM, Industry 4.0 and Sustainable Mobility",
+          "topics": "Product Lifecycle Management (PLM): product data handling, lifecycle stages, engineering change management, collaborative development. Product Data Management (PDM): design data storage, BOM management, version control, documentation management. Industry 4.0 in Automotive Manufacturing: smart factories, IoT in manufacturing, cyber -physical systems, automation and robotics. Digital Manufacturing Systems: digital twins, virtual manufacturing, simulation -based production, real- time monitoring. Reverse Engineering: 3D scanning, CAD reconstruction, product redesign, dimensional inspection. Sustainable Automotive Design: green manufacturing, eco-friendly materials, energy -efficient vehicles, sustainable mobility concepts. Vehicle Recycling and Carbon Reduction: end-of-life vehicle recycling, recyclable materials, carbon footprint reduction, circular economy concepts. Connected and Autonomous Vehicles: vehicle connectivity, ADAS basics, autonomous driving concepts, smart mobility systems. CCE Assignments 1. Prepare report on Industry 4.0 applications in automotive manufacturing. 2. Study PLM implementation in automotive industries. 3. Analyze sustainability practices adopted in EV man",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC362B-ABE",
+      "title": "Automotive Driver Assistance Systems",
+      "semester": 6,
+      "type": "Program Elective",
+      "credits": 3,
+      "pages": [
+        86,
+        89
+      ],
+      "units": [
+        {
+          "title": "Introduction to ADAS and Vehicle-Level Architecture",
+          "topics": "Need and scope of Advanced Driver Assistance Systems; active safety, passive safety and driver assistance; ADAS terminology; SAE levels of driving automation with emphasis on Level 0 to Level 2 systems; block diagram of ADAS; vehicle, driver and environment interaction; basic architecture consisting of sensors, ECU/domain controller, communication network, actuators and HMI; overview of longitudinal, lateral, parking and driver monitoring assistance; role of ADAS in reducing driver error and improving road safety; limitations, misuse and driver responsibility; Indian road conditions and ADAS adoption challenges. 87",
+          "hours": 7
+        },
+        {
+          "title": "ADAS Sensors, Perception and Communication",
+          "topics": "ADAS sensors: camera, radar, ultrasonic sensor, lidar, GPS/GNSS and IMU; working principles, range, field of view, resolution, advantages and limitations; sensor mounting locations and environmental effects such as rain, fog, dust, glare, shadows and occlusion; object detection, lane detection, distance measurement, relative speed estimation and road sign recognition basics; introduction to sensor fusion and redundancy; sensor calibration and alignment awareness; communication requirements in ADAS - CAN, CAN -FD, automotive Ethernet and diagnostic interface; data quality, latency and failure modes.",
+          "hours": 7
+        },
+        {
+          "title": "Longitudinal and Lateral Driver Assistance Systems",
+          "topics": "Longitudinal assistance systems: adaptive cruise control, forward collision warning, automatic emergency braking, emergency brake assist and traffic jam assist overview; time headway, time -to-collision, safe distance and braking intervention concepts; lateral assistance systems: lane departure warning, lane keeping assist, lane centering assist, blind spot detection, rear cross traffic alert and evasive steering support overview; steering, braking and powertrain actuator interface; system operating conditio ns, warnings, limitations, fail-safe behaviors and driver override.",
+          "hours": 7
+        },
+        {
+          "title": "Parking, Visibility, Driver Monitoring and HMI Systems",
+          "topics": "Parking and low-speed assistance: rear parking sensor, reverse camera, 360 -degree surround view, rear cross traffic alert and smart parking assist; visibility systems: adaptive front lighting, automatic high beam, traffic sign recognition and head -up display overview; driver an d occupant monitoring: driver drowsiness detection, distraction monitoring, seat belt reminder and occupant detection; HMI design for ADAS: visual, audio and haptic warnings; warning priority, driver acceptance, false alarms and nuisance alerts; service precautions for cameras, radar, ultrasonic sensors, airbags and safety-related systems.",
+          "hours": 7
+        },
+        {
+          "title": "ADAS Testing, Validation, Safety and Future Trends",
+          "topics": "Need for ADAS testing and validation; requirement-based testing; simulation, software -in-loop, hardware-in-loop, driver -in-loop and proving -ground testing overview; basic test scenarios for AEB, ACC, LDWS, parking assist and blind spot detection; diagnostic trouble codes, service calibration a nd maintenance awareness; functional safety overview with ISO 26262 concepts at introductory level; SOTIF awareness for performance limitations; cybersecurity and data privacy awareness; NCAP and regulatory trends; connected vehicle and V2X overview; futur e trends toward software-defined vehicles and autonomous driving.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC362C-ABE",
+      "title": "Alternative Fuels and Emission Control",
+      "semester": 6,
+      "type": "Program Elective",
+      "credits": 3,
+      "pages": [
+        90,
+        94
+      ],
+      "units": [
+        {
+          "title": "Alternative Automotive Fuels: Need, Properties and Sustainability",
+          "topics": "Need for alternative fuels; Indian and global energy scenario; fuel property requirements for SI and CI engines - calorific value, density, viscosity, volatility, flash point, auto -ignition temperature, octane number, cetane number, lubricity, sulphur, oxy gen content and carbon intensity; classification of alternative fuels - alcohol fuels, biodiesel, renewable diesel/HVO, biogas/CBG, LPG, CNG, LNG, hydrogen, e -fuels and synthetic fuels; well-to-wheel and life-cycle emission concepts; feedstock, food-vs-fuel, land/water use, safety, storage, transport and dispensing considerations; overview of fuel testing standards and engine compatibility.",
+          "hours": 8
+        },
+        {
+          "title": "Alcohol Fuels, Biodiesel and Renewable Liquid Fuels",
+          "topics": "Ethanol and methanol as automotive fuels; production routes, properties, advantages and limitations; E10, E20, E85, E100, M15 and M100 concepts; flex-fuel vehicle requirements - fuel system material compatibility, cold starting, corrosion, calibration and oxygenated -fuel effects; biodiesel production by transesterification, feedstocks, fuel properties, biodiesel blends and quality issues; renewable diesel/HVO and sustainable biofuel pathways; DME as a CI engine fuel; effect of alcohols and biodiesel on engine performance, combustion, fuel economy, NOx, CO, HC, PM and aldehyde emissions; storage, handling and safety precautions.",
+          "hours": 7
+        },
+        {
+          "title": "Gaseous Fuels, Hydrogen and Advanced Low-Carbon Fuels",
+          "topics": "LPG, CNG, LNG, biogas and compressed biogas (CBG/Bio -CNG): production, composition, storage cylinders, pressure regulation, fuel supply systems, safety devices, engine modifications and emission characteristics; dual-fuel and bi-fuel operation; methane number, methane slip and greenhouse gas concerns; hydrogen as an IC engine fuel - production routes including green hydrogen, storage methods, safety, backfire/pre-ignition, NOx tendency, mixture formation and combu stion control; hydrogen blending with CNG/natural gas; synthetic fuels and e -fuels overview; suitability of alternative fuels for two -wheelers, passenger cars, buses, tractors and heavy-duty applications.",
+          "hours": 7
+        },
+        {
+          "title": "Automotive Emissions, Standards and Measurement Techniques",
+          "topics": "Sources and classification of vehicular emissions: CO, HC, NOx, PM, PN, smoke, SOx , CO2, N2O, ammonia, aldehydes and evaporative emissions; health, environmental and climate effects; emission formation in SI and CI engines; effect of air -fuel ratio, combustion temperature, injection timing, EGR, turbocharging, compression ratio, ignition timing, fuel properties and transient operation; Bharat Stage norms with focus on BS-VI, fuel sulphur reduction, OBD Stage I/II and Real Driving Emissions; emission test cycles and methods - chassis dynamometer, engine dynamometer, CVS, WLTC, WMTC, PEMS, SHED/EVAP test, free acceleration smoke test and inspection/maintenance; emission analyzers - NDIR, FID, CLD/chemiluminescence, PM/PN measurement and smoke meter.",
+          "hours": 7
+        },
+        {
+          "title": "Emission Control Technologies and Diagnostics",
+          "topics": "In-cylinder emission control: combustion chamber design, air motion, fuel injection strategy, ignition control, EGR, turbocharging, after -cooling, variable valve timing and engine calibration; gasoline after -treatment - three-way catalytic converter, oxygen sensor feedback, closed-loop lambda control, gasoline particulate filter, EVAP system, charcoal canister, purge control and PCV system; diesel after -treatment - diesel oxidation catalyst, diesel particulate filter, active/passive regeneration, selective catalytic reduction, urea/AdBlue dosing, ammonia slip catalyst, lean NOx trap and sensor feedback; alternative -fuel engine emission control strategies; OBD monitoring of catalyst, oxygen sensor, EGR, DPF/SCR, misfire and evaporative systems; 93 fault symptoms , diagnostic trouble codes, limp -home strategy, maintenance and durability issues; future trends - onboard emission monitoring, remote sensing and carbon-neutral fuel integration. Low Temperature Combustion Technologies: Concept and need of LTC for simultaneous reduction of NOx and soot; NOx –PM trade -off in conventional diesel combustion; role of EGR, premixing, injection timing, compression ratio and fuel reactivity;",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "MDM371-ABE",
+      "title": "Metrology and Quality Engineering",
+      "semester": 6,
+      "type": "Multidisciplinary Course",
+      "credits": 2,
+      "pages": [
+        95,
+        97
+      ],
+      "units": [
+        {
+          "title": "Introduction to Metrology and their fundamentals",
+          "topics": "Introduction: Principles of Engineering metrology and Applications, Measurement standards: line standards, end standards, Types and sources of errors, Accuracy and Precision, calibration. Measurement Instruments: Vernier Caliper, Micrometer, Gear Tooth vernier calliper, Slip gauges. Types of Gauges and Comparators: Different types of gauges and gauge materials, limits, fits, tolerances, Comparators: mechanical, optical, electrical, pneumatic comparators.",
+          "hours": 5
+        },
+        {
+          "title": "Recent Trends in Metrology",
+          "topics": "Introduction of Coordinate Measuring Machine, Types of Coordinate Measuring Machine, Types of probes : scanning and optical probes. Profile Projector, Machine Vision Systems, Laser interferometers, Applications.",
+          "hours": 4
+        },
+        {
+          "title": "Total Quality Management",
+          "topics": "Quality Tools: Introduction to TQM, 5S, Kaizen, Poka yoke, Kanban, JIT, FMECA, zero defect, TPM, Six Sigma, Quality Function Deployment and Quality Management System.",
+          "hours": 5
+        },
+        {
+          "title": "Quality Engineering",
+          "topics": "Introduction to Quality: Definition, Quality characteristics, Seven Quality Tools, Quality of performance, Cost of quality and value of quality, Quality Circles, Deming’s cycles & 14 Points, Juran Trilogy approach. Quality assurance, Cost of rework and repair, Quality and Inspection.",
+          "hours": 5
+        },
+        {
+          "title": "Statistically Quality Control",
+          "topics": "97 Statistical quality control: Concept, Control Chart for Variable (X & R Chart) & Attribute (P & C Chart), Process capability Indices: cp, cpk, ppk, Statistical Process Control (Numerical), Frequency diagram, Concept of variance analysis. Acceptance Sampling: Concept, sampling methods, Different types of sampling plans and Numerical, OC Curve, merits and demerits of acceptance sampling, Comparison of Plan, calculation of sample size, Probability of Acceptance (Numerical)",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "MDM372-ABE",
+      "title": "Measurement and Quality LAB",
+      "semester": 6,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        98,
+        99
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM373-ABE",
+      "title": "Industrial Hydraulics & Pneumatics- LAB",
+      "semester": 6,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        100,
+        101
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE381",
+      "title": "Simulation and Analysis Lab.",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 1,
+      "pages": [
+        102,
+        105
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

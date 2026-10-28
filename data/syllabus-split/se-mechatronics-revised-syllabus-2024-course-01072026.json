@@ -1,0 +1,492 @@
+{
+  "id": "se-mechatronics-revised-syllabus-2024-course-01072026",
+  "kind": "programme",
+  "programme": "Second Year Engineering (2024 Pattern) – Mechatronics Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-MXE",
+      "title": "Sensors and Instrumentation",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Sensors",
+          "topics": "Static and Dynamic Characteristics of Sensors, Classification of Sensors, Motion and Dimension Measurement: Potentiometer, Optical encoders (Incremental and absolute), LVDT, Hall effect sensor, Inductive Proximity Sensors, Capacitive Proximity Sensors",
+          "hours": 8
+        },
+        {
+          "title": "Displacement Sensors",
+          "topics": "Strain Gauge: Principle, types, Wheatstone bridge, Gauge Factor, Temperature Compensation. Strain gauge as force and torque sensor, Accelerometer: Principle, types (Piezoelectric, Capacitive, MEMS), Gyroscope: Mechanical, Optical, MEMS, Tactile sensor: Principle, types, applications in robotics and automation",
+          "hours": 8
+        },
+        {
+          "title": "Pressure , Flow, Temperature sensors",
+          "topics": "Pressure Sensor: Diaphragm, Bellows, Bourdon Tube, Piezoelectric, Capacitive, Flow Sensor: Differential pressure (Orifice, Venturi), Turbine, Electromagnetic, Ultrasonic, Vortex, Temperature Sensor: RTD, Thermocouple, Thermistor, Pyrometer, Optical and Radiation Sensor: Photodiode, Phototransistor, LDR, Infrared sensor, Image sensor (CCD, CMOS)",
+          "hours": 8
+        },
+        {
+          "title": "Oscilloscope",
+          "topics": "Display Devices: Working principle and applications of Light Emitting Diodes (LEDs), Liquid Crystal Displays (LCDs), Organic Light Emitting Diodes (OLEDs), and Seven Segment Displays. Oscilloscopes: Digital Storage Oscilloscope (DSO): Block diagram, working principle, features, and advantages over analog oscilloscopes, Signal measurement using DSO: Voltage, frequency, phase angle, and rise/fall time, Virtual Instrumentation (VI): Concept, architecture, and applications in data acquisition and control",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-MXE",
+      "title": "Engineering Thermodynamics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Modes of Heat Transfers",
+          "topics": "Conduction: Fourier's law of heat conduction, thermal conductivity, one-dimensional steady-state heat conduction through plane walls, cylinders, and spheres, electrical analogy, Convection: Newton's law of cooling, free and forced convection, overall heat transfer coefficient, Radiation: Stefan-Boltzmann law, blackbody radiation, emissivity, Kirchhoff's law, Heat Exchangers: Types of heat exchangers, Logarithmic Mean Temperature Difference (LMTD) method, NTU method",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Thermodynamics",
+          "topics": "Basic concepts: System, boundary, surroundings, universe, types of systems, Macroscopic and microscopic viewpoints, Concept of continuum, Thermodynamic properties, state, process, cycle, Thermodynamic equilibrium, Quasi-static process, work and heat transfer: Path and point functions, work done in various quasi-static processes (constant volume, constant pressure, constant temperature, adiabatic, polytropic)",
+          "hours": 6
+        },
+        {
+          "title": "Laws of Thermodynamics",
+          "topics": "Zeroth Law of Thermodynamics: Concept of temperature and thermometry, First Law of Thermodynamics: First law applied to non-flow and steady flow processes, Steady Flow Energy Equation (SFEE) and its applications to boiler, nozzle, turbine, compressor, Second Law of Thermodynamics: Limitations of first law, Kelvin-Planck and Clausius statements, reversible and irreversible processes, Carnot cycle, Clausius inequality, concept of entropy, entropy change for ideal gas processes",
+          "hours": 10
+        },
+        {
+          "title": "Steam Generators",
+          "topics": "Classification of steam boilers, Mountings and accessories, Equivalent evaporation and boiler efficiency, Heat balance sheet of a boiler, Introduction to Refrigeration & Air Conditioning: Refrigeration: Working principle of Vapour Compression Refrigeration System (VCRS), components, P-h and T-s diagrams, COP calculation, Air Conditioning: Working principle of window and split air conditioners, psychrometric chart and basic psychrometric processes",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-MXE",
+      "title": "Linear Integrated Circuits",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operational Amplifers",
+          "topics": "Block diagram of an operational amplifier, Inverting and non-inverting amplifier, differential amplifier, Characteristics of Op-Amp: CMRR, Slew Rate, Input Offset Voltage, Input Offset Current, Input Bias Current, Frequency Response and Bandwidth, Open-loop and closed-loop configurations, Virtual ground concept",
+          "hours": 6
+        },
+        {
+          "title": "Applications of the Operational Amplifiers",
+          "topics": "Linear Applications: Summing Amplifier, Difference Amplifier, Voltage Follower (Buffer), Integrator and Differentiator, Instrumentation Amplifier: Three Op-Amp configuration, working, derivation of gain, applications in sensor signal conditioning, Active Filters: First-order and second-order Low Pass and High Pass Butterworth filters (Bandwidth and cutoff frequency calculations)",
+          "hours": 6
+        },
+        {
+          "title": "Basic Convertors",
+          "topics": "Digital-to-Analog Converters (DAC): Binary weighted resistor type, R-2R ladder type, specifications (resolution, accuracy, settling time), Analog-to-Digital Converters (ADC): Flash type, Successive approximation type, Dual-slope integrating type, specifications (quantization error, conversion time), Voltage-to-Current and Current-to-Voltage Converters, Voltage-to-Frequency (V/F) and Frequency-to-Voltage (F/V) converters (applications in data acquisition)",
+          "hours": 8
+        },
+        {
+          "title": "Timers and Regulators",
+          "topics": "IC 555 Timer: Internal block diagram, working modes: Monostable Multivibrator, Astable Multivibrator, applications (Pulse generation, PWM, Frequency division), Voltage Regulators: Linear voltage regulators (78xx, 79xx, LM317), adjustable regulators, Switching Regulators: Buck, Boost, and Buck-Boost converters (principle of operation and advantages over linear regulators)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective- I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-MXE",
+      "title": "Control System Components",
+      "semester": 3,
+      "type": "Multidisciplinary Minor",
+      "credits": 4,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Industrial Control Devices",
+          "topics": "Switches: Construction, symbolic representation, working, application of Toggle switch, Slide switch, DIP switch, Rotary switch, Thumb wheel switch, Selector switch, Push button, Drum switch, Limit switch, Temperature switch, Pressure switch, Level switch, Flow switch. Relays: Construction, working, specifications/selection criteria and applications of Electromechanical relay, Reed relay, Hermetically sealed relay, Solid state relays. Contactors: Construction, working, specifications and applications of contactors and their comparison with relays",
+          "hours": 8
+        },
+        {
+          "title": "DC Motors",
+          "topics": "DC Motor: Types of DC Motors, principle of operation, EMF equation-characteristics and control. DC Servomotor – Types of PMDC & BLDC motors – principle of operation- EMF and torque equations – characteristics and control. Construction, working & applications of: Synchros (Transmitter and Receiver), Standard symbols used for Electrical Wiring Diagram, Electrical Wiring Diagram in relation to motors",
+          "hours": 8
+        },
+        {
+          "title": "AC Motors",
+          "topics": "Three phase Induction Motor: Constructional features, working principle types, torque equation, torque-slip characteristics, control. Single Phase Induction Motor: Constructional features, working principle, types, torque equation, torque-slip characteristics, control. Protection of motors: Short circuit protection, over load protection, Low/Under voltage protection, Phase reversal Protection, Over temperature protection.",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Pneumatic Components",
+          "topics": "Pneumatic components: Pneumatic Power Supply and its components, Pneumatic relay Single acting & Double acting cylinder, Special cylinders: Cushion, Double rod, Tandem, Multiple position, and Rotary, Pneumatic valves. Pneumatic Circuits: Standard Symbols used for developing pneumatic circuits, Different Pneumatic Circuits: Reciprocating, Sequencing, Direction control and Speed regulation.",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Hydraulic components",
+          "topics": "Hydraulic components: Hydraulic supply, Hydraulic pumps, Actuator (cylinder & motor), Hydraulic valves. Hydraulic Circuits: Standard Symbols for developing hydraulic circuits, Different Hydraulic Circuits: Meter in, Meter out, Reciprocating, speed control, Sequencing of cylinders and Direction control. Comparison of Pneumatic, Hydraulic & Electrical systems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-MXE",
+      "title": "Fundamentals of Economics and Business Management",
+      "semester": 3,
+      "type": "Entrepreneurship / Economics / Management",
+      "credits": 1,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to Economics",
+          "topics": "Definitions, foundation stones of economics, types of goods; Difference between Microeconomics & Macroeconomics; Theory of Demand & Supply: meaning, determinants, law of demand, law of supply, equilibrium between demand & supply; Elasticity: elasticity of demand, price elasticity, income elasticity, cross elasticity",
+          "hours": null
+        },
+        {
+          "title": "Nature of Organization and Management",
+          "topics": "Nature of Organization: Aim of organization, Need for corporate objectives, Types of business organization. Introduction to Management: Definitions, Management & Administration, levels, skill, types and roles of managers, Management concepts: Scientific Management Theory, Classical Organization Theory, Management Science Approach, Functions of Management: Planning, Organizing, Staffing, Directing, Controlling, Coordinating",
+          "hours": null
+        },
+        {
+          "title": "Human Resource and Financial Management",
+          "topics": "Human Resource Management: Recruitment & Selection, Appraisal of employees; Theories of Motivation: Maslow’s theory of Hierarchy of needs and McGregory’s theory X and Y, Introduction to Corporate Social Responsibility; Ethics. Financial Management: Need for monetary control, financial accounting - balance sheet, profit and loss account, ratio analysis; Management accounting: costing, marginal costing, depreciation",
+          "hours": null
+        },
+        {
+          "title": "Marketing and Production Management",
+          "topics": "Introduction to Marketing management: Marketing Mix, concepts of marketing, demand forecasting and its qualitative methods, market segmentation. Markets: Meaning, types of markets & their characteristics (Perfect Competition, Monopoly, Monopolistic Competition, Oligopoly). Production Management: Organization of manufacturing- Job production, batch production, flow production, group technology; Production planning & control: Planning, routing, scheduling, dispatching, expediting, inspection; Plant location and plant layout. Introduction to TQM, ISO9000, Six Sigma: Basic concept, principle, brief methodology",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-MXE",
+      "title": "Universal Human Values and Professional Ethics",
+      "semester": 3,
+      "type": "Value Education",
+      "credits": 2,
+      "pages": [
+        27,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self-exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment (iv) Right Understanding, Relationship and Physical Facility (v) Happiness and Prosperity - Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "(i) Understanding Human being as the Co-existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Programme to Ensure self-regulation and Health",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction 'Trust' - the Foundational Value in Relationship (ii) 'Respect' - as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "(i) Understanding Harmony in the Nature (ii) Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co-existence at All Levels (iv) The Holistic Perception of Harmony in Existence",
+          "hours": 3
+        },
+        {
+          "title": "Implications of the Holistic Understanding - Professional Ethics Look",
+          "topics": "(i) Basis for Universal Human Values (ii) Definitiveness of (Ethical) Human Conduct (iii) Professional Ethics in the light of Right Understanding (iv) A Basis for Humanistic Education, Humanistic Constitution and Universal Human Order (v) Holistic Technologies, Production Systems and Management Models Typical Case Studies (vi) Strategies for Transition towards Value-based Life and Profession",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-MXE",
+      "title": "Community Engagement Projects",
+      "semester": 3,
+      "type": "Field Projects /Community Engagement Projects",
+      "credits": 2,
+      "pages": [
+        32,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-MXE",
+      "title": "Automatic Control System",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Control Systems",
+          "topics": "Basic concepts of control systems: Open-loop and closed-loop systems, servomechanisms, examples of control systems in engineering, Mathematical modeling of physical systems: Transfer function concept, impulse response, mechanical translational and rotational systems, electrical analogous systems (Force-Voltage and Force-Current analogies), Block diagram algebra and reduction techniques, Signal Flow Graphs (SFG) and Mason's gain formula",
+          "hours": 10
+        },
+        {
+          "title": "Time domain analysis of Control System",
+          "topics": "Standard test signals: Step, ramp, parabolic, impulse, Time response of first-order systems to step and ramp inputs, Time response of second-order systems to step input: Transient response specifications (delay time, rise time, peak time, peak overshoot, settling time), Steady-state errors and error constants (Kp, Kv, Ka) for Type 0, Type 1, and Type 2 systems",
+          "hours": 8
+        },
+        {
+          "title": "Stability Analysis",
+          "topics": "Concept of stability: BIBO stability, absolute stability, relative stability, Characteristic equation and location of roots in the s-plane, Routh-Hurwitz stability criterion: Necessary conditions, special cases (zero in the first column, entire row of zeros), applications and limitations, Root Locus Technique: Basic principles, construction rules of root locus, determination of system gain K, stability analysis using root locus",
+          "hours": 8
+        },
+        {
+          "title": "Frequency Domain Analysis",
+          "topics": "Introduction to frequency response: Advantages of frequency domain analysis, Correlation between time and frequency response specifications, Bode Plots: Magnitude and phase angle plots, gain margin (GM) and phase margin (PM), determination of stability from Bode plots, Polar Plots and Nyquist Stability Criterion: Principle of argument, mapping, Nyquist plot construction, assessment of stability, Introduction to control system design: Basic concepts of Lead, Lag, and Lead-Lag compensators, introduction to P, PI, PD, and PID controllers",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-MXE",
+      "title": "Analysis of Mechanical Structures",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Simple Stress & Strain",
+          "topics": "Introduction, normal, shear and bearing stresses, Deformation of axillary loaded members, stress-strain diagram for ductile & brittle materials, Stresses & deformations in member of varying cross sections, composite sections and thermal stresses, Elastic constants and relation between them, Generalized Hook’s law, Thin cylindrical & spherical shells, Volumetric strain, Wire wound thin cylinders",
+          "hours": 8
+        },
+        {
+          "title": "SFD & BMD",
+          "topics": "Types of beams, loads, and reactions, Concept of Shear Force and Bending Moment, Shear Force and Bending Moment diagrams for statically determinate beams: Cantilever beams, Simply supported beams, Overhanging beams, Subjected to: Point loads, Uniformly Distributed Loads (UDL), Uniformly Varying Loads (UVL), Point of contraflexure, relation between load, shear force, and bending moment",
+          "hours": 6
+        },
+        {
+          "title": "Bending Stress on a Beam",
+          "topics": "Theory of simple bending, Assumptions in pure bending theory, Flexure formula: Derivation and applications, Moment of resistance, Section modulus for standard structural sections, Bending stress distribution diagrams across beam sections, Flitched / composite beams, Shear Stress in Beams: Concept of transverse shear stress, Shear stress distribution formula for beam cross sections, Shear stress distribution diagrams for Rectangular, Circular, I-section, T-section beams",
+          "hours": 10
+        },
+        {
+          "title": "Torsion of circular shafts",
+          "topics": "Theory of pure torsion, Assumptions in torsion theory, Torsion formula for solid and hollow circular shafts, Polar moment of inertia and torsional section modulus, Angle of twist and torsional stiffness, Power transmission through circular shafts, Comparison of solid and hollow shafts based on strength and weight, Stresses in shafts subjected to combined bending and torsion",
+          "hours": 8
+        },
+        {
+          "title": "Principal Stresses",
+          "topics": "Concept of normal and shear stresses on inclined planes, Analytical method: Derivation of expressions for principal stresses and maximum shear stress, Location of principal planes and planes of maximum shear, Mohr's circle method for plane stress analysis, Construction of Mohr's circle for: Uniaxial stress state, Biaxial stress state, Combined normal and shear stresses, Application of Mohr's circle to determine principal stresses and planes",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-MXE",
+      "title": "Digital Electronics",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        42,
+        44
+      ],
+      "units": [
+        {
+          "title": "Boolean Algebra and Combinational Logic Design",
+          "topics": "Overview of Digital System Design in Mechatronics, Boolean Algebra: Basic Identities, Laws, Algebraic Simplification Techniques, Standard Forms: SOP and POS, Karnaugh Map Simplification (Up to 4 Variables), Don’t Care Conditions in K-Map, Design and Implementation of Simple Combinational Circuits",
+          "hours": 6
+        },
+        {
+          "title": "Combinational Circuits and Applications",
+          "topics": "Design of Adders: Ripple Carry Adder, Subtractors: Half and Full Subtractors, Multiplexers (MUX): Concept and Applications, Demultiplexers (DEMUX), Encoders and Decoders, Comparators: 1-bit and 4-bit, Parity Generators and Checkers, Use of Combinational Circuits in Mechatronics Subsystems",
+          "hours": 6
+        },
+        {
+          "title": "Sequential Logic Circuits",
+          "topics": "Concept of Clocking and Timing in Digital Circuits, Flip-Flops: SR, D, JK, T (Edge-triggered), Master-Slave Flip-Flops, Applications of Flip-Flops, Counters: Asynchronous and Synchronous (Up/Down), Mod-N Counters, Shift Registers: SISO, SIPO, PISO, PIPO, Use of Sequential Circuits in Mechatronic Devices",
+          "hours": 6
+        },
+        {
+          "title": "Logic Families and Memory Devices",
+          "topics": "Logic Families: TTL, CMOS – Characteristics and Comparison, Parameters: Fan-in, Fan-out, Propagation Delay, Noise Margin, Memory Types: ROM, RAM (Static & Dynamic), PROM, EPROM, EEPROM, Basics of Memory Organization and Addressing, Memory Interfacing Techniques (Basic Concepts), Introduction to Programmable Logic Devices: PAL, PLA, FPGA – Basic Architecture & Use Case",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective- II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-MXE",
+      "title": "Data Structures",
+      "semester": 4,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        45,
+        47
+      ],
+      "units": [
+        {
+          "title": "Python Basics",
+          "topics": "Data types, operators, flow control, functions, list, tuples, sets, dictionaries, Modules and Packages, regular expressions, files and directories, Object oriented programming with Python: classes, objects, inheritance, polymorphism, encapsulation, exception handling",
+          "hours": 6
+        },
+        {
+          "title": "Recursion, Searching and Sorting Algorithms",
+          "topics": "Divide and conquer, Recursion: Direct recursion, indirect recursion, linear recursion, binary recursion, Analysis of algorithms: Time and Space complexity, Order of growth, Big O notation, Searching: Linear search, Binary search, Sorting: Bubble sort, Selection sort, Insertion sort, Merge sort, Quick sort",
+          "hours": 6
+        },
+        {
+          "title": "Linked List and Sorting Algorithms",
+          "topics": "Abstract data type, Arrays: Dynamic arrays, Stacks: Implementation of stack using list and array, Applications of stacks: Reversing a list, Balanced parenthesis, Queue: Implementation of queue using list and array, Circular queue, Deque, Singly linked list, Doubly linked list, Circular linked list, Implementation of stack and queue using linked list",
+          "hours": 6
+        },
+        {
+          "title": "Trees & Graphs",
+          "topics": "Basic terminology, Binary Tree: Representation, Traversals: Preorder, Inorder, Postorder, Binary Search Tree: Search, Insert, Delete, AVL Tree: Rotations, Balance factor, Graphs: Basic terminology, Representation of graphs: Adjacency matrix, Adjacency list, Graph traversal: Depth First Search (DFS), Breadth First Search (BFS), Minimum Spanning Tree: Prim's algorithm, Kruskal's algorithm, Shortest path algorithm: Dijkstra's algorithm",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "VSE-281-MXE",
+      "title": "Computer Aided Drafting and Computing",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to CAD tools",
+          "topics": "Introduction of different CAD tools, Commands, Interactive Techniques, Toggle Drawing Modes, Units and Limit Command, Coordinate System. Geometry & Selection Commands: Lines, Circles, Rectangles, Poly-lines, Object Snaps, Trim, Extend, Offset, Fillet, Chamfer, Move, Copy, Rotate, Mirror, Scale, Array, Hatching. Layers & Dimensioning: Creating & Managing Layers, Lineweights, Linetypes, Dimension Styles, Tolerancing, Text Styles, Multi-line Text. 2D Drafting of Mechanical Components: Orthographic Projections, Sectional Views, Detail Views, Assembly Drawings of Simple Mechanical Systems. 3D Modeling Basics: Isometric Drawings, 3D Solids, Extrude, Revolve, Sweep, Loft, Boolean Operations (Union, Subtract, Intersect). Model Modification & Presentation: Filleting 3D Edges, Chamfering, Render Settings, Camera Views, Exporting DXF/DWG/PDF Files",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to computational tool for engineers",
+          "topics": "Introduction of SCILAB/MATLAB/OCTAVE, Command Window, Workspace, Script Files (m-files), Variable Types, Operators. Mathematical Operations & Matrices: Array and Matrix Operations, Solving Linear Equations, Matrix Inversion, Eigenvalues & Eigenvectors. Plotting & Data Visualization: 2D Plotting (Plot, Subplot, Title, Labels, Legend, Grid), 3D Plotting (Mesh, Surf), Formatting Graphs. Scripting and Functions: Writing Custom Functions, Conditional Statements (If-Else), Loops (For, While), Vectorization Techniques. Simulation of Mechanical/Mechatronic Systems: Mathematical Modeling of Spring-Mass-Damper Systems, Numerical Solutions of Ordinary Differential Equations (ODEs) using ODE45 / SCILAB ODE Solvers. Signal Generation & Basic Analysis: Generating Sine, Square, Ramp Signals, Basic Noise Addition, Plotting Frequency Response, Numerical Integration & Differentiation",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "AEC-282-MXE",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 1,
+      "pages": [
+        50,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-MXE",
+      "title": "Economics for Engineers",
+      "semester": 4,
+      "type": "Entrepreneurship / Economics / Management / Industrial Organization",
+      "credits": 1,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Introduction and Demand Analysis",
+          "topics": "Principles of economics, how markets work: market forces of supply and demand, elasticity and its applications. Theory of consumer behaviour: consumption, wants, its characteristics, utility, law of diminishing marginal utility, consumer’s surplus, indifference curves, equilibrium of consumer. Theory of Demand: meaning, law of demand, types of demand, demand elasticity, demand forecasting (meaning and qualitative methods)",
+          "hours": null
+        },
+        {
+          "title": "Theory of Production, Cost and Firms",
+          "topics": "Meaning of production, elements of production, factors of production: land, labour, capital, organisation. Production function, law of variable proportion, returns to scale. Theory of cost: cost concepts, cost output relationship in short run and long run, break-even analysis. Market structures: perfect competition, monopoly, monopolistic competition, oligopoly",
+          "hours": null
+        },
+        {
+          "title": "Engineering Economy",
+          "topics": "Time value of money, interest rates, nominal and effective interest, cash flow diagrams, present worth analysis, future worth analysis, annual worth analysis, rate of return analysis (IRR), benefit-cost ratio analysis, depreciation: straight line, declining balance, sum-of-years-digits methods",
+          "hours": null
+        },
+        {
+          "title": "Indian Economy",
+          "topics": "Basic characteristics of Indian economy, major economic issues: inflation, unemployment, poverty, balance of payments. Overview of monetary and fiscal policies in India, Reserve Bank of India (RBI) and banking system, public finance: taxes, government expenditure, fiscal deficit. Contemporary economic reforms and developments in India",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-MXE",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "Environment",
+          "topics": "a) Environment Meaning of Environment, Types of Environment, Components of Environment, b) Man- Environment relationship, importance of environment, c) Need for Public Awareness",
+          "hours": null
+        },
+        {
+          "title": "Ecosystem",
+          "topics": "a) Ecosystem-Meaning, Major Components of Ecosystem b) Case studies of Forest Ecosystem, Grassland Ecosystem, Desert Ecosystem, Aquatic Ecosystem c) Stability of Ecosystem in Sustainable Environment",
+          "hours": null
+        },
+        {
+          "title": "Environment Pollution",
+          "topics": "a) Definition of Pollution, Types of Pollution b) Air Pollution-Meaning, Sources, effects of air pollution, Air Pollution Act c) Water Pollution Meaning, Sources, Effects of Water pollution, Water Pollution Act d) Noise Pollution Meaning, Sources, Effect of Noise Pollution e) Solid Waste Pollution Meaning, sources, Effect of Waste Pollution",
+          "hours": null
+        },
+        {
+          "title": "Environmental Pollution Acts",
+          "topics": "a) Environment Protection Act Air (Prevention and control of Pollution) Act, b) Water Act (Prevention and control of Pollution) Act. c) Solid waste Pollution Act in India d) E-waste management",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

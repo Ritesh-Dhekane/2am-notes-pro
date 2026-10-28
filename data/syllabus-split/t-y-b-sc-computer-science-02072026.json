@@ -1,0 +1,712 @@
+{
+  "id": "t-y-b-sc-computer-science-02072026",
+  "kind": "programme",
+  "programme": "T.Y.B.Sc. (Computer Science)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CS-301-MJ-T",
+      "title": "Core Java",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "An Introduction to Java",
+          "topics": "1.1 Object Oriented Programming Concepts 1.2 Introduction to Java 1.3 Features of Java 1.4 Java Environment: 1.4.1 Structure of Java Program 1.5 Java Development Tools 1.6 Basic concepts in Java- 1.6.1 Comments, Data Types 1.6.2 Tokens 1.6.3 Variable 1.7 Control Flow Statements 1.8 Arrays in Java 1.9 Accepting Input (Command Line Arguments, BufferedReader, DataInputStream, Scanner)",
+          "hours": 5
+        },
+        {
+          "title": "Objects and Classes",
+          "topics": "2.1 Defining your own classes 2.2 Access Specifiers: public, protected, private, default 2.3 Array of Objects 2.4 Constructors, Overloading Constructors 2.5 Use of ‘this’ keyword static block, static fields and methods 2.6 Predefined Classes 2.6.1 Object Class, Methods (equals(), toString(),hashcode(), getClass()) 2.6.2 String Class And StringBuffer Class,Formatting String data using format() method 2.7 Creating , Accessing And Using Packages 2.8 Wrapper Classes",
+          "hours": 6
+        },
+        {
+          "title": "Inheritance and Interface",
+          "topics": "3.1 Inheritance Basics (extends Keyword) and Types of Inheritance 3.2 Superclass, Subclass and use of Super Keyword 3.3 Method Overriding and runtime polymorphism 3.4 Use of final keyword related to method and class 3.5 Use of abstract class and abstract methods 3.6 Defining and Implementing Interfaces 3.7 Runtime polymorphism using interface 3.8 Functional Interface and Marker Interface 3.8 Adapters and Anonymous Inner Class",
+          "hours": 6
+        },
+        {
+          "title": "Exception and File Handling",
+          "topics": "4.1 Dealing with errors 4.2 Exception class 4.2.1 Checked and Unchecked Exception 4.2.2 Logger Class 4.2.3 Catching Exceptions, 4.2.4 Multiple Catch Block 4.2.5 Nested try block 4.2.6 Creating User Defined Exception 4.3 Introduction to Files and Streams 4.3.1 Input-OutputStream : FileInput/OutputStream, BufferedInput/OutputStream, 4.3.2 DataInput/OutputStream 4.3.2.1 Reader-Writer : FileReader/Writer, BufferedReader/Writer, 4.3.2.2 InputStreamReader, OutputStreamWriter",
+          "hours": 5
+        },
+        {
+          "title": "User Interface with JavaFX",
+          "topics": "5.1 What is JavaFX? 5.2 Architecture of JavaFX 5.3 LifeCycle of a JavaFX Application 5.4 Common JavaFX Layouts 5.4.1 HBox,VBox, BorderPane, GridPane, FlowPane, StackPane 5.5 Containers and Components 5.5.1 Button, Label, Text, TextArea, CheckBox And RadioButton, List, ComboBox, Menu And related Classes 5.6 JavaFX Charts 5.6.1 Pie Chart, Line Chart, Area Chart, Bar Chart 5.7 Event Handling: Adding and Removing Event Handlers",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CS-302-MJ-T",
+      "title": "Operating Systems",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operating System",
+          "topics": "1.1 Basic concepts-Definition, operating system functions and services, need or purpose of operating system. 1.2 Operating system Structure. 1.3. Types of Operating System. 1.4 Operating system operation 1.5 Booting process of Operating system 1.6 Advantage and disadvantages of operating System.",
+          "hours": 3
+        },
+        {
+          "title": "Process and Process Scheduling",
+          "topics": "2.1 Basic Concepts: Process, Process states, Process Control Block, Operations on Process 2.2 Process Scheduling- Scheduling, Scheduling queues, CPU Schedulers and its type, context switching, CPU and I/O Burst Cycle, Scheduling Criteria, types of scheduling. 2.3 Scheduling Algorithms: First Come First Serve(FCFS),Shortest Job First(SJFs), Priority Scheduling , Round Robin (RR)",
+          "hours": 7
+        },
+        {
+          "title": "Memory Management",
+          "topics": "3.1 Introduction to memory management, address binding, Logical versus physical address space, Role and functions of Memory Management Unit (MMU) 3.2 Paging concepts-paging model, page table structure and working of paging. 3.3 Segmentation concepts–Segmentation, Hardware, Paging VS Segmentation 3.4 Virtual Memory Management-Concept, Demand paging, Performance of demand paging 3.5 Page replacement algorithms – FIFO, Optimal, LRU, MFU.",
+          "hours": 8
+        },
+        {
+          "title": "Deadlock",
+          "topics": "4.1 Basic Concepts-Deadlock definition, process synchronization, resource allocation graph and Necessary condition. 4.2 Deadlock handling Methods- Deadlock Prevention, Deadlock Avoidance (Safe state, Banker’s Algorithm), Deadlock Detection 4.3 Recovery from Deadlock – Process termination, Resource preemption.",
+          "hours": 7
+        },
+        {
+          "title": "File System Management and Disk Scheduling",
+          "topics": "5.1 Basic Concepts: File, File attributes, File operations. 5.2 Allocation Methods – Contiguous allocation, Linked allocation, Indexed allocation 5.3 Free Space Management and Disk Structure–Free space management techniques: Bit vector, linked list, Grouping, Counting. 5.4 Disk structure 5.5 Disk Scheduling algorithms- FCFS Scheduling, SSTF Scheduling, Scan scheduling, and look scheduling. 5.6",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CS-303-MJ-T",
+      "title": "Web Technology-I",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Frontend Fundamentals (HTML, CSS, Core JavaScript)",
+          "topics": "1.1 HTML5 Fundamentals 1.1.1 Structure of HTML5 document (<!DOCTYPE>, <html>, <head>, <body>) 1.1.2 Semantic elements (header, nav, section, article, footer, aside)- Forms and input controls-Input types, labels, validation attributes, Form submission methods (GET/POST) 1.1.3 Multimedia elements – Audio, video, iframe embedding, Accessibility considerations (alt text, captions) 1.2 CSS3 Styling & Layout- Selectors, specificity, pseudo-classes, pseudo-elements, Box model, margin, padding, border, overflow, Layout techniques -Flexbox alignment and distribution, CSS Grid rows, columns, areas, Responsive design, Media queries, mobile-first approach, Fluid images and typography 1.3 Core JavaScript-Variables, data types, operators, Conditional statements and loops, Functions and scope, Arrays and objects manipulation, DOM selection, traversal, and modification, Event handling (click, submit, keyboard, load)",
+          "hours": 9
+        },
+        {
+          "title": "Advanced JavaScript (ES6+)",
+          "topics": "2.1 ES6 Syntax Features-Arrow functions and lexical this, Template literals and string interpolation, Object and array destructuring, Default parameters 2.2 Advanced Operators and Modules-Spread and rest operators, ES6 modules (import, export, module structure) 2.3 Asynchronous JavaScript-Callback concept and limitations, Promises lifecycle (pending, fulfilled, rejected), Chaining promises and error propagation, async / await syntax and try-catch handling 2.4 Logic-Building Programs-Mathematical logic (prime, factorial, Fibonacci), Pattern generation using loops, Searching and sorting fundamentals",
+          "hours": 5
+        },
+        {
+          "title": "Node.js Fundamentals",
+          "topics": "3.1 Node.js Environment-Node runtime architecture, npm installation, package management, Understanding package.json 3.2 Execution Model-Event loop phases, Non-blocking I/O and callbacks 3.3 Core Modules-File system (fs), Path utilities (path), HTTP server creation (http) 3.4 Basic Server Development-Creating and running HTTP server, Handling requests and responses, Executing JavaScript outside browser",
+          "hours": 10
+        },
+        {
+          "title": "File Handling with Node.js",
+          "topics": "4.1 File Operations- Reading, writing, appending, deleting files, Synchronous vs asynchronous methods 4.2 JSON Handling-Parsing JSON data, Writing structured JSON files 4.3 Directory Management-Creating, listing, renaming, deleting folders 4.4 File Upload Basics-Introduction to upload middleware, Handling uploaded file storage",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CS-304-MJ-T",
+      "title": "Theory of Computer Science",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Finite Automaton",
+          "topics": "1.1 Introduction: Symbol, Alphabet, String, Prefix and Suffix of Strings, 1.2 Deterministic finite Automaton – Definition, and Examples. 1.3 Nondeterministic finite automaton – Definition and Examples. 1.4 NFA To DFA (NFA without Epsilon) 1.5 Finite automaton with output – Moore machine and Mealy machine, Definition and Examples. 1.6 Difference between Moore machine and Mealy machine 1.7 Minimization of DFA, Algorithm and Problem using Table Method.",
+          "hours": 8
+        },
+        {
+          "title": "Regular Expressions and Languages",
+          "topics": "2.1 Regular Expressions (RE): Definition and Example 2.2 Regular language -Definition and Examples. 2.3 Conversion of RE to FA-Examples. 2.4 Pumping lemma for regular languages and applications.",
+          "hours": 6
+        },
+        {
+          "title": "Context-Free Grammars and Languages",
+          "topics": "3.1 Definition of CFG 3.1.1 Components: Non-terminals, Terminals, Production Rules, Start Symbol 3.2 Simplification of CFG: 3.2.1 Removing Useless Symbols 3.2.2 Unit Production 3.2.3 ϵ-production 3.2.4 Nullable Symbol. 3.3 Normal Forms: Chomsky Normal Form (CNF), Examples 3.4 Greibach Normal Form (GNF), Examples",
+          "hours": 5
+        },
+        {
+          "title": "Push Down Automata",
+          "topics": "4.1 Definition of PDA and examples 4.2 Construction of PDA using empty stack and final State method: Examples using stack method.",
+          "hours": 5
+        },
+        {
+          "title": "Turing Machine",
+          "topics": "5.1 The Turing Machine Model, Definition and Design of TM 5.2 Problems on language recognizers. 5.3 Language accepted by TM.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CS-305-MJ-P",
+      "title": "Lab Course based on CS-302-MJ-T",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-306-MJ-P",
+      "title": "Lab Course based on CS-301-MJ-T & CS-303-MJ-T",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        26,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-307-MJ-T",
+      "title": "Data Science And Analytics",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Science",
+          "topics": "1.1 Introduction to data science 1.2 Concept of big data – 1.2.1 Definition 1.2.2 Data types with example (Structured, Semi-Structured, Unstructured Data) 1.2.3 Challenges with unstructured data 1.2.4 Data Sources (Open Data, Social Media Data, Multimodal Data, standard datasets) 1.2.5 Data Formats (Integers, Floats, Text Data, Text Files, Dense Numerical Arrays, Compressed or Archived Data, CSV Files, JSON Files, XML Files, HTML Files, Tar Files, GZip Files, Zip Files, Image Files 1.2.6 3 V’s of bigdata (Volume, Velocity, Variety)give 1.3 Application of Data Science 1.4 Data Science Lifecycle 1.5 Role of Data Scientist 1.6 Data Scientist’s Toolbox(Programming Languages, Libraries, Database, Visualization tools)",
+          "hours": 4
+        },
+        {
+          "title": "Data Understanding and Preprocessing",
+          "topics": "2.1 Concepts of data – 2.1.1 Definition 2.1.2 Types of Data (Qualitative (categorical) – Nominal, Ordinal and Quantitative (numerical) – Discrete, Continuous) 2.1.3 Outlier – Types of outlier with example 2.2 Data Pre-processing – 2.2.1 Definition 2.2.2 Need to pre-process the data 2.2.3 Data quality 2.2.4 Measures of Data Quality (Accuracy, Completeness, Consistency, Timeliness, Validity, and Uniqueness)",
+          "hours": 3
+        },
+        {
+          "title": "Data Pre-processing Techniques",
+          "topics": "3.1 Data Pre-processing techniques- 3.1.1 Data Cleaning – Missing Value, Noisy Data, Inconsistent Data 3.1.2 Data Integration - Problems in data integration 3.1.3 Data Transformation – Strategies of data transformation (Rescaling, Normalizing, Binarizing, Standardizing, Label and One Hot Encoding) 3.2 Data Reduction - 3.2.1 Dimensionality Reduction 3.2.2 Feature Selection 3.2.3 Feature Extraction 3.2.4 Data Cube Aggregation 3.2.5 Numerosity Reduction 3.3 Data Discretization – 3.3.1 Approaches of data Discretization (Top-down, Bottom-up) 3.3.2 Types of Data Discretization techniques (Equal Width Binning, Equal Frequency Binning) 3.5 Introduction to Exploratory Data Analysis(EDA)",
+          "hours": 7
+        },
+        {
+          "title": "Data Visualization",
+          "topics": "4.1 Introduction 4.2 Advantages of data Visualization 4.3 Advantages and visual encoding 4.4 Data visualization libraries 4.5 Data visualization tools - Histograms, Bar charts/graphs, Scatter plots, Line charts, Area plots, Pie charts, Donut charts, Boxplots, Bubble plots, Heat map, Dendrogram, Venn diagram, Treemap, 3D scatter plots 4.5 Advanced data visualization tools- Wordclouds, Visualization of geospatial data",
+          "hours": 3
+        },
+        {
+          "title": "Introduction to Data Analytics",
+          "topics": "5.1 Introduction 5.2 Life Cycle of Data Analytics 5.3 Types of data analytics - Descriptive Analytics, Diagnostic Analytics, Predictive Analytics, Prescriptive Analytics 5.4 Mathematical models - Introduction, Need of mathematical models in Data Analytics 5.5 Model evaluation – Metrics for evaluating classifiers – Accuracy, Confusion matrix, Precision, Recall and F1 Score, ROC(Receiver-Operator Characteristic), AUC (Area Under ROC Curve), Mean Squared Error (MSE), Cross Validation, Log-loss",
+          "hours": 4
+        },
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "6.1 Introduction to Machine Learning, Deep Learning, Artificial intelligence 6.2 Applications for machine learning in data science 6.3 Modelling process, Engineering features and selecting a model 6.4 Training the model 6.5 Validating the model 6.6 Predicting new observations 6.7 Types of machine learning- Supervised learning, Unsupervised learning, Semi-supervised learning, Reinforcement Learning 6.8 Machine learning models – 6.8.1 Supervised Learning Model – Regression (Linear Regression, Polynomial Regression, Logistic Regression), Classification (KNN, Random Forest) 6.8.2 Unsupervised Learning Models - Clustering (K-means clustering), Association (Apriori Algorithm)",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "CS-308-MJ-P",
+      "title": "Lab Course based on CS-307-MJ-T",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-309-MJ-T",
+      "title": "Database Technologies",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Evolution of Databases and Modern Data Management",
+          "topics": "1.1 Evolution of data storage systems 1.2 Limitations of traditional RDBMS in Big Data and cloud environments 1.3 Structured vs semi-structured vs unstructured data 1.4 Introduction to Modern Database Technologies 1.4.1 SQL databases (relational, traditional) 1.4.2 NoSQL databases: Document, Key–Value, Column-Family, Graph 1.4.3 Distributed and cloud databases 1.4.4 Big Data platforms (HDFS, Hadoop ecosystem) 1.4.5 Comparison: Features, scalability, consistency, availability 1.5 Industrial relevance and emerging trends",
+          "hours": 5
+        },
+        {
+          "title": "NoSQL Databases – Concepts & Architecture",
+          "topics": "2.1 Introduction to NoSQL databases 2.1.1. Definition, need, and evolution of NoSQL 2.1.2. Limitations of traditional RDBMS and why NoSQL is needed 2.2 CAP Theorem & ACID vs BASE 2.2.1. Consistency, Availability, Partition Tolerance (CAP) 2.2.2. ACID properties in RDBMS vs BASE properties in NoSQL 2.3 Distributed data storage concepts 2.3.1. Data partitioning (sharding), replication, clustering 2.3.2. Nodes, clusters, and data distribution in distributed systems 2.4 Scalability, replication, and fault tolerance 2.4.1 Vertical vs Horizontal scaling 2.4.2 Replication strategies 2.4.3 Handling failures and ensuring data availability",
+          "hours": 6
+        },
+        {
+          "title": "NoSQL Data Models",
+          "topics": "3.1 Types of NoSQL Databases 3.1.1 Key–Value: Redis, DynamoDB - Overview and applications 3.1.2 Column-Family: Cassandra, HBase - Concept and applications 3.1.3 Graph: Neo4j - Nodes, relationships, Cypher query overview 3.1.4 Document-oriented model – MongoDB 3.1.4.1 MongoDB architecture & installation 3.1.4.2 Collections & documents 3.1.4.3 Data types in MongoDB 3.1.4.4 CRUD operations 3.1.5 Indexing and aggregation framework 3.1.6 Mini project design (Student Management / Blog System)",
+          "hours": 3
+        },
+        {
+          "title": "Big Data Technologies and Hadoop Ecosystem",
+          "topics": "4.1 Introduction to Big Data – characteristics, sources, challenges 4.2 Hadoop ecosystem overview – HDFS, MapReduce basics 4.3 Comparison: RDBMS vs NoSQL vs Big Data platforms 4.4 Real-world case studies – IoT, E-commerce, Social Media",
+          "hours": 4
+        },
+        {
+          "title": "Distributed & Cloud NoSQL Databases, Security, and",
+          "topics": "Emerging Trends 5.1 Overview of distributed and cloud NoSQL databases – Cassandra, Redis, Neo4j (conceptual) 5.2 Security challenges in NoSQL and cloud databases 5.3 Authentication and authorization concepts 5.4 Backup and recovery in distributed databases 5.5 Industrial applications of NoSQL databases 5.5.1 Case studies (E-commerce, Social Media, IoT) 5.5.2 Emerging trends and career opport",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CS-3010-MJ-P",
+      "title": "Lab Course on CS-309-MJ-T",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-3011-MJ-T",
+      "title": "Embedded Systems",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded system",
+          "topics": "1.1 Definition and Characteristics of Embedded Systems 1.2 Evolution of Embedded Systems 1.3 Embedded Systems vs General Purpose Computing Systems 1.4 Classification of Embedded Systems: 1.4.1 Based on generation 1.4.2 Based on complexity and performance 1.4.3 Based on deterministic behavior (hard/soft real-time) 1.4.4 Based on triggering mechanisms 1.5 Purpose and Functional Aspects of Embedded Systems: 1.5.1 Data acquisition, storage, and representation 1.5.2 Data communication 1.5.3 Signal processing 1.5.4 Monitoring and control 1.5.5 Application-specific user interface 1.6 Major Application Areas: Consumer electronics, automotive, medical, industrial, communication, and IoT systems.",
+          "hours": 8
+        },
+        {
+          "title": "Embedded System Architecture",
+          "topics": "2.1 Typical Embedded System Block Diagram and Functional Explanation 2.2 Processing Core of Embedded Systems: 2.2.1 General purpose processors 2.2.2 Domain-specific processors 2.2.3 ASICs, PLDs, and COTS components 2.3 Memory Organization: 2.3.1 RAM, ROM, PROM, Flash memory 2.3.2 Criteria for memory selection in embedded systems 2.4 Sensors and Actuators: 2.4.1 Introduction to sensors and classification 2.4.2 Actuators: types and applications 2.5 Communication Interfaces: 2.5.1 On-board interfaces: UART, I2C, SPI, Parallel Interface 2.5.2 External interfaces: RS-232, USB, IrDA",
+          "hours": 8
+        },
+        {
+          "title": "Arduino Fundamentals",
+          "topics": "3.1 Introduction to Single Board Computers (SBCs) 3.2 Arduino Ecosystem and Open-Source Philosophy 3.3 Arduino UNO Architecture: ATmega328P Block Diagram 3.4 Power Supply, Clock System, and Reset Circuitry 3.5 Arduino Development Board Variants and Shields 3.6 Arduino IDE: Installation, Sketch Structure, and Compilation Process",
+          "hours": 7
+        },
+        {
+          "title": "Programming & Interfacing with Arduino",
+          "topics": "4.1 Digital Input/Output Programming 4.2 Analog Input, ADC, and PWM Concepts 4.3 Timers, Interrupts, and Serial Communication (UART, I2C, SPI) 4.4 Interfacing Sensors: Temperature, Light, Motion Sensors 4.5 Interfacing Actuators: LED, Relay, DC Motor, Servo Motor 4.6 Case Studies: Home Automation, Security Systems, Environmental Monitoring, Industrial Automation",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CS-3012-MJ-P",
+      "title": "Lab Course on CS-3011-MJ-T",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-321-VSC-P",
+      "title": "Foundation of Artificial Intelligence and Machine Learning",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        43,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-331-FP",
+      "title": "Project",
+      "semester": 5,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        46,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-351-MJ-T",
+      "title": "Advanced Java",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        50,
+        52
+      ],
+      "units": [
+        {
+          "title": "Collections",
+          "topics": "1.1 Introduction to the Collection framework 1.1.1 List - ArrayList, LinkedList 1.1.2 Set - HashSet, TreeSet, 1.1.3 Map – HashMap ,Hashtable and TreeMap 1.2 Interfaces 1.2.1Comparator, Iterator, ListIterator, 1.2.2 Enumeration",
+          "hours": 4
+        },
+        {
+          "title": "Multithreading",
+          "topics": "2.1 Introduction of Thread 2.2 Life cycle of thread 2.3 Creating threads 2.3.1 Thread class 2.3.2 Runnable interface 2.4 Thread priorities 2.5 Multiple Thread 2.5.1 Synchronization 2.5.2 Interthread communication",
+          "hours": 4
+        },
+        {
+          "title": "Database Programming",
+          "topics": "3.1 Introduction to Java Database Connectivity 3.2 The design of JDBC 3.3 Types of drivers 3.4 Executing SQL statements, query execution 3.5 Scrollable and updatable ResultSet",
+          "hours": 6
+        },
+        {
+          "title": "Servlets and JSP",
+          "topics": "4.1 Introduction to Servlet and Hierarchy of Servlet 4.2 Life cycle of servlet 4.3 Handing GET and POST request (HTTP) 4.4 Handling data from HTML to servlet 4.5 Retrieving data from database to servlet 4.6 Session tracking Techniques 4.6.1 User Authorization, 4.6.2 URL rewriting, 4.6.3 Hidden form fields, 4.6.4 Cookies 4.6.5 HttpSession 4.7 Introduction to JSP, Life cycle of JSP 4.8 Implicit Objects 4.9 Scripting elements 4.9.1 Declarations 4.9.2 Expressions, 4.9.3 Scriplets 4.9.4 Comments 4.10 JMixing Scriplets and HTML Chapter Spring Boot and REST API 10 Hours 5.1 Introduction of Spring framework 5.2 Spring Framework Modules 5.3 Inversion of Control, Types Ioc Containers 5.4 Spring Boot Basics 5.5 Spring Boot MVC Fundamentals 5.6 Spring Boot with Database and Data JPA 5.7 Spring Boot - REST API",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CS-352-MJ-T",
+      "title": "Design Framework",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Angular",
+          "topics": "1.1 Introduction to Angular Framework 1.1.1 Angular Features and Architecture 1.1.2 SPA Concepts 1.1.3 Angular vs AngularJS 1.2 TypeScript Fundamentals 1.2.1 Data Types, Classes, Interfaces 1.2.2 Functions and Arrow function 1.2.2 Modules and Decorators 1.3 Angular Design Philosophy 1.3.1 Component reusability 1.3.2 Maintainable application structure 1.3.3 Separation of concerns",
+          "hours": 4
+        },
+        {
+          "title": "Understanding Components & Data Bindings",
+          "topics": "2.1 Angular CLI(Angular Command line Interface) 2.1.1 ng new, ng generate, ng build, ng serve 2.1.2 Project Structure 2.2 Components and Templates 2.2.1 Creating Components and Components Lifecycle Hooks(ngOnlnit, ngOnChanges, ngOnDestroy 2.2.2 Template Syntax 2.3 Data Binding 2.3.1 Interpolation 2.3.2 Property Binding 2.3.3 Event Binding 2.3.4 Two-way Binding 2.4 Directives and Pipes 2.4.1 Structural Directives 2.4.2 Attribute Directives 2.4.3 Built-in Pipes",
+          "hours": 7
+        },
+        {
+          "title": "Angular Routing",
+          "topics": "3.1 Introduction to Angular Router 3.1.1 Concept of Client-side Routing 3.1.2 Router Module and router-outlet 3.1.3 Navigation using router Link 3.2 Route Configuration 3.2.1 Defining Routes and Path Mapping 3.2.2 Default and Wildcard Routes 3.2.3 Passing Parameters in Routes 3.3 Advanced Routing Concepts 3.3.1 Child Routes 3.3.2 Route Guards (CanActivate, CanDeactivate) 3.3.3 Lazy Loading of Modules 3.4 Preloading Strategies 3.4.1 Preload all modules 3.4.2 Custom preloading strategy 3.4.3 Error handling during navigation, Handling 404 and Error Routes",
+          "hours": 7
+        },
+        {
+          "title": "Services and Dependency Injection",
+          "topics": "4.1 Introduction to Services 4.1.1. Creating a Service 4.1.2 Built in Services (HTTP Services, Routing Services, From Services) 4.2 Dependency Injection 4.2.1 Core concepts in Dependency Injection 4.2.2 Need for DI in modern applications 4.2.3 Benefits of DI 4.2.4 Angular DI Framework 4.2.5 Providing Dependencies 4.2.6 Injection Tokens 4.2.7 DI Decorators 4.3 Providers 4.3.1 Types of Providers 4.3.2 Using RESTful services with DI",
+          "hours": 6
+        },
+        {
+          "title": "Angular Forms and Validation",
+          "topics": "5.1 Introduction to Angular Forms 5.1.1 Data flow in forms 5.2 Template driven forms 5.2.1 Form Controls 5.2.2 Built-in Validators 5.2.3 Custom Validation 5.3 Reactive forms 5.3.1 FormGroup and FormControl 5.3.2 Dynamic Forms 5.4 Handling input fields with forms 5.5 Use of ngModel & ngGroup 5.6 Angular Validating 5.6.1 Validating forms with ngModel & ngGroup 5.6.2 Validating specific validation error 5.6.3 Output error messages",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CS-353-MJ-T",
+      "title": "Web Technology-II",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Database Connectivity",
+          "topics": "1.1 PostgreSQL Integration- Installing PostgreSQL and pg module, Establishing database connection 1.2 Performance and Security-Connection pooling, Parameterized queries, Environment variables configuration, SQL injection prevention techniques",
+          "hours": 4
+        },
+        {
+          "title": "CRUD Operations and REST API",
+          "topics": "2.1 REST Architecture- REST principles and resource design, HTTP methods and status codes 2.2. Express Framework Structure- Routing and middleware, MVC architectural overview 2.3. CRUD Implementation-Create, Read, Update, Delete APIs, Pagination and filtering techniques 2.4. API Documentation-Postman collections, Swagger/ OpenAPI basics",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to React",
+          "topics": "3.1 React Fundamentals- Components and JSX syntax, Rendering flow and virtual DOM concept 3.2. State Management- Props vs state, Updating UI dynamically 3.3. React Hooks- useState for state handling, useEffect for lifecycle and API calls 3.4. Integration and Routing- Fetching backend APIs, Basic client-side routing",
+          "hours": 10
+        },
+        {
+          "title": "Forms, Sessions and Cookies",
+          "topics": "4.1 Session Management-Express-session configuration, Session storage and lifecycle 4.2. Cookies Handling-Creating, reading, deleting cookies, Secure and HTTP-only flags 4.3. Form Processing-Server-side validation, Login and logout workflow 4.4. Authentication Models- Session-based vs token-based comparison",
+          "hours": 7
+        },
+        {
+          "title": "Authentication and Authorization",
+          "topics": "5.1 Credential Security-Password hashing using bcrypt, Salting and verification 5.2. Token-Based Authentication-JWT structure and lifecycle, Token generation and validation 5.3. Access Control-Role-based authorization, Middleware for protected routes",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "CS-354-MJ-T",
+      "title": "Compiler Construction",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "Context-Free Grammars and Languages",
+          "topics": "1.1 Context-Free Grammar (CFG) 1.1.1 Basics of CFG 1.1.2 Parse Tree 1.1.3 Left-most Derivation (LMD) – Definition and Example 1.1.4 Right-most Derivation (RMD) – Definition and Example 1.1.5 Examples of CFG for simple expressions or statements 1.2 Ambiguous Grammar 1.2.1 Definition / Concept of Ambiguity 1.2.2 Examples of Ambiguous Grammar 1.2.3 Effect of Ambiguity on Parsing 1.2.4 Resolving Ambiguity (Briefly: precedence & associativity)",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Compiler",
+          "topics": "2.1 Definition of Compiler 2.2 Structure of Compiler 2.2.1 Front End 2.2.2 Back End 2.3 Phases of Compiler 2.3.1 Lexical Analysis 2.3.2 Syntax Analysis 2.3.3 Semantic Analysis (idea only) 2.3.4 Intermediate Code Generation (idea) 2.3.5 Code Optimization (idea) 2.3.6 Code Generation (idea) 2.4 Types of Compiler (One-pass, Multi-pass, Cross Compiler) 2.4.1 Definition 2.4.2 Advantages / Disadvantages / Features 2.4.3 Examples",
+          "hours": 4
+        },
+        {
+          "title": "Lexical Analysis(Scanner)",
+          "topics": "3.1 Role of Lexical Analyzer 3.2 Tokens, Lexemes & Patterns 3.2.1 Definitions + Example 3.3 Finite Automata as Lexical Analyzer 3.3.1 Role of FA in token recognition 3.3.2 FA Structure and Working 3.3.3 Identifier and Number Recognition Using FA 3.3.4 Lexical Error Detection 3.3.5 Advantages of FA in Lexical Analysis",
+          "hours": 5
+        },
+        {
+          "title": "Syntax Analysis (Parser)",
+          "topics": "4.1 Introduction to Parser 4.1.1 Definition of Parser 4.1.2 Types of Parsers 4.1.2.1 Top-Down Parsers 4.1.2.2 Bottom-Up Parsers 4.2 Top-Down Parsers 4.2.1 Backtracking: Method & Problems 4.2.2 Drawbacks of Top-Down Parsing with Backtracking 4.2.3 Left Recursion 4.2.3.1 Direct Left Recursion 4.2.3.2 Indirect Left Recursion 4.2.3.3 Examples 4.2.4 Left Factoring 4.2.4.1 Need for Left Factoring 4.2.4.2 Examples 4.3 Recursive Descent Parsing 4.3.1 Definition 4.3.2 Implementation of Recursive Descent Parser Using Recursive Procedures 4.3.3 Examples 4.4 FIRST & FOLLOW 4.4.1 Definition of FIRST Set 4.4.2 Definition of FOLLOW Set 4.4.3 Rules to Find FIRST & FOLLOW 4.4.4 Examples 4.5 Predictive Parser (LL(1) Parser) 4.5.1 Definition 4.5.2 Model 4.5.3 Implementation 4.5.4 Examples 4.6 Bottom-Up Parsers 4.6.1 Definition 4.6.2 Examples of Bottom-Up Parser Implementation 4.6.3 Types of Bottom-Up Parsers 4.6.3.1 Shift-Reduce Parsing 4.6.3.2 LR Parsers (SLR, CLR, LALR) 4.6.3.3 Operator Precedence Parsing 4.7 Shift-Reduce Parsing 4.7.1 Stack Implementation 4.7.2 Operations 4.7.2.1 Shift 4.7.2.2 Reduce 4.7.2.3 Accept 4.7.2.4 Error 4.7.3 Example(s) 4.8 LR Parsers 4.8.1 Components of LR Parser  ...",
+          "hours": 12
+        },
+        {
+          "title": "Code Generation and Optimization",
+          "topics": "5.1 Compilation of expression 5.2 Concepts of operand descriptors and register descriptors with example. 5.3 Intermediate code for expressions 5.3.1 Postfix notations 5.3.2 Triples 5.3.3 Quadruples 5.3.4 Expression trees. 5.4 Code Optimization 5.4.1 Optimizing transformations 5.4.2 Compile time evaluation 5.4.3 Elimination of common sub expressions 5.4.4 Dead code elimination 5.4.5 Frequency reduction 5.4.6 Strength reduction",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "CS-355-MJ-P",
+      "title": "Lab Course based on CS-352-MJ-T",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        62,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-356-MJ-P",
+      "title": "Lab Course based on CS-351-MJ-T & CS-353-MJ-T",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        64,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-357-MJ-T",
+      "title": "Android Programming",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Android Programming",
+          "topics": "1.1 Introduction to Android. 1.2 Overview and History of Android 1.3 Need and features of Android. 1.4 Android Architecture.",
+          "hours": 3
+        },
+        {
+          "title": "Introduction to Android Environment",
+          "topics": "2.1 Android Environment 2.1.1 Android IDE - Android Studio, Eclipse, Visual Studio with Xamarin 2.1.2 Android SDK and JDK 2.1.3 Android Tools – Android Development Tools(ADT), Android Virtual Devices(AVD), and Emulator 2.1.4 Dalvik Virtual Machine Vs Java Virtual Machine 2.2 Android App/ Project folder structure 2.3 Resources and Manifest file 2.4 Android Application Hello World",
+          "hours": 3
+        },
+        {
+          "title": "Activities, Intents and Layouts",
+          "topics": "3.1 Introduction to Activity 3.1.1 Activity Life Cycle 3.2 Introduction to Intent 3.2.1 Types of Intents: Implicit, Explicit 3.3 Introduction to Layout and Types 3.3.1 View and View Group 3.3.2 Linear Layout 3.3.3 Relative Layout 3.3.4 Constraint Layout 3.3.5 Frame layout 3.3.6 Table Layout 3.3.7 Grid Layout 3.3.8 Scroll Layout",
+          "hours": 7
+        },
+        {
+          "title": "Android User Interface Design: GUI Components, menus",
+          "topics": "and events 4.1 GUI Components 4.1.1 Display Components – TextView, ImageView, AutoComplete TextView 4.1.2 Input Components – EditText, CheckBox, RadioButton, RadioGroup, Spinner 4.1.3 Action Components – Button, ImageButton, ToggleButton 4.3.3 Notification Component - Toast 4.2 Data Display Controls 4.2.1 List View 4.2.2 Grid View 4.3 Dialog Box 4.3.1 Alert Dialog 4.3.2 Date Picker Dialog 4.3.3 Time Picker Dialog 4.3.4 Custom Dialog 4.4 Menus 4.4.1 Option Menu 4.4.2 Context Menu 4.4.3 Popup Menu 4.5 Event driven programming in Android 4.5.1 Event Source 4.5.2 Event Listener 4.5.3 Event Handler",
+          "hours": 9
+        },
+        {
+          "title": "Android Components and SQLite Database",
+          "topics": "5.1 Components in Android: Activity, Services, Broadcast Receiver, Content Provider 5.2 Life Cycle of Android Components: Services, Broadcast Receiver 5.3 SQLite Database 5.3.1 Introduction to SQLite Database 5.3.2 SQLite, OpenHelper, and SQlite Database 5.3.3 Creating, Opening and Closing databases 5.3.4 Insert, Update, Delete operations in database 5.3.5 Fetching data from database.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CS-358-MJ-P",
+      "title": "Lab Course based on CS-357-MJ-T",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        70,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-359-MJ-T",
+      "title": "Software Testing Tools",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        72,
+        74
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Testing",
+          "topics": "1.1 Introduction to Software Testing 1.2 Applications of Software Testing 1.3 Tester and Role of tester 1.4 Testing lifecycle 1.5 Verification and Validation 1.6 Software Testing – Myths 1.7 Understanding Errors, Bugs and Defects 1.7.1 Definitions: Error, Bug, Defect, Failure 1.7.2 Types of errors: syntax, logical, runtime 1.7.3 Examples of common application bugs 1.7.4 Impact of bugs on software quality 1.8 Techniques for Identification of Errors & Bugs 1.8.1 Requirement analysis and ambiguity detection 1.8.2 Code walkthrough and reviews 1.8.3 Static vs Dynamic testing for defect detection 1.8.4 Common bug types in web and desktop applications",
+          "hours": 4
+        },
+        {
+          "title": "Software Testing Life Cycle & Types of Software Testing",
+          "topics": "2.1Software Testing Life Cycle ( STLC ) 2.2 Software Testing Environment 2.3 Types of Software Testing 2.3.1 Manual Testing 2.3.1.1 White Box Testing i. Path testing ii. Conditional testing Iii. Loop testing iv. Unit testing v. Testing the code from memory point of view vi. Testing the code from performance point of view 2.3.1.2 Black Box Testing a) Functional Testing i. Unit Testing ii. Integration Testing - Incremental & Non-incremental iii. System Testing iv.Acceptance Testing b) Non-functional i. Performance Testing - Load Testing, Volume Testing ii. Usability Testing 2.3.1.3 Grey Box Testing 2.3.2 Automated Testing 2.4 Introduction to tools ( Manual and Automated testing)",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Test case design",
+          "topics": "3.1 Introduction to Defects 3.1.1 Defects, Defect Life Cycle, Defect Report 3.1.2 Defect Management Process - Stages, Advantages, Disadvantages 3.1.3 Introduction of Defect Tracking Tool - - Open-source Tool - Bugzilla, MantisBT, Redmine - Non-open source tool - Jira, HP ALM 3.2 Basics of Test Case Design 3.2.1 Definition of test case and test scenario 3.2.2 Importance of test case design in STLC 3.2.3 Difference between test case, test suite and test script 3.2.4 Characteristics of a good test case 3.3 Entry Criteria for Test Case Design 3.4 Exit Criteria for Test Case Execution 3.5 Designing Test Cases Using Excel 3.5.1 Structure of a test case template in Excel 3.5.2 Creating reusable templates 3.5.3 Version control and documentation standards 3.6 Features of Effective Testing Methods 3.6.1 Characteristics of good test cases 3.6.2 Risk-based testing approach 3.6.3 Importance of repeatability and traceability 3.6.4 Advantages of structured test case design 3.7 Designing and documenting test cases for 3.7.1 simple programs 3.7.2 programs using loops and control structures",
+          "hours": 7
+        },
+        {
+          "title": "Writing Test Cases and Test Plan",
+          "topics": "4.1 Write Test Plan for given Application with Resources required 4.1.1 Test Plan Template 4.1.2 Create a Test Plan 4.2 Write Test Case for given Application 4.2.1 Test Case Template 4.2.2 Writing Test Case 4.3 Prepare Test Report for Test Cases Executed 4.3.1 Test Incident Report 4.3.2 Test Summary Report 4.4 Case Study",
+          "hours": 6
+        },
+        {
+          "title": "Software Testing Tools",
+          "topics": "5.1 Software Testing Tools - Definition, Need, Advantages and limitations 5.2 Acceptance Testing Tools 5.2.1 FitNesse 5.2.2 Cucumber 5.3 Functional Testing Tools 5.3.1 TestComplete 5.3.2 Selenium 5.4 Performance Testing Tools 5.4.1 Apache JMeter 5.4.2 LoadRunner",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CS-3510-MJ-P",
+      "title": "Lab Course based on CS-359-MJ-T",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        74,
+        76
+      ],
+      "units": [
+        {
+          "title": "Software Testing Tools",
+          "topics": "5.1 Software Testing Tools - Definition, Need, Advantages and limitations 5.2 Acceptance Testing Tools 5.2.1 FitNesse 5.2.2 Cucumber 5.3 Functional Testing Tools 5.3.1 TestComplete 5.3.2 Selenium 5.4 Performance Testing Tools 5.4.1 Apache JMeter 5.4.2 LoadRunner",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CS-3511-MJ-T",
+      "title": "Internet of Things",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        77,
+        78
+      ],
+      "units": [
+        {
+          "title": "IoT Fundamentals and System Architecture",
+          "topics": "1.1 What is IoT? Definition, Characteristics, Application areas; Things in IoT and smart objects 1.2 Overview of Industrial Revolutions: Industry 1.0 to Industry 4.0 1.3 IoT Reference Model: 7-layer IoT reference model Published by the IoTWF 1.4 IoT enabling Technology (Concept only): WSN, Cloud Computing, Big Data, Embedded systems and boards, communication protocols, User Interfaces 1.5 WSN: Architecture, types of nodes 1.6 IoT Levels: Level-1 to level-5 1.7 IoT Distinction: IoT Versus Embedded Systems, IoT Versus WSN",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Sensor, actuation, Hardware",
+          "topics": "Platforms & Cloud Integration: 2.1 Sensors: Classification and examples 2.2 Actuators: Concept and Types of Actuators 2.3 Hardware Platform in IoT: 2.3.1 Introduction Raspberry Pi, Architecture Overview 2.3.2 Operating System for Raspberry Pi 2.3.3 Installation & configuration 2.3.4 GPIO architecture 2.3.5 Interfacing of LED, Switch and its Programming using Python 2.4 Cloud Computing for IoT: 2.4.1 Need and advantages of Cloud integration in IoT 2.4.2 Cloud Deployment Models: Public, Private, and Hybrid 2.4.3 Cloud Services: SaaS, PaaS, and Iaas 2.4.4 IoT cloud platforms (Overview)",
+          "hours": 8
+        },
+        {
+          "title": "IoT Communication Protocols and Networking",
+          "topics": "technologies: 3.1 IoT Protocols: MQTT, CoAP, XMPP, 6LoWPAN 3.2 IoT communication technologies: Zigbee, Z-Wave, NFC, Wi-Fi 3.3 Networking technologies: 3.3.1 Low power local area networking (LPLAN) 3.3.2 Low power wide area networking (LPWAN) 3.3.3 Comparative study of LoRa, Sigfox NB-IoT, LTE Cat –M",
+          "hours": 7
+        },
+        {
+          "title": "IoT Challenges, Security and Real-World Application",
+          "topics": "4.1 Challenges in IoT 4.2 Privacy and Data protection issues; 4.3 Case Study: 4.3.1 Smart Home 4.3.2 Smart Agricultural 4.3.3 Industrial IoT (IIoT) 4.3.4 Integration of IoT with AI",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CS-3512-MJ-P",
+      "title": "Lab Course based on CS-3511-MJ-T",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        78,
+        80
+      ],
+      "units": [
+        {
+          "title": "IoT Communication Protocols and Networking",
+          "topics": "technologies: 3.1 IoT Protocols: MQTT, CoAP, XMPP, 6LoWPAN 3.2 IoT communication technologies: Zigbee, Z-Wave, NFC, Wi-Fi 3.3 Networking technologies: 3.3.1 Low power local area networking (LPLAN) 3.3.2 Low power wide area networking (LPWAN) 3.3.3 Comparative study of LoRa, Sigfox NB-IoT, LTE Cat –M",
+          "hours": 7
+        },
+        {
+          "title": "IoT Challenges, Security and Real-World Application",
+          "topics": "4.1 Challenges in IoT 4.2 Privacy and Data protection issues; 4.3 Case Study: 4.3.1 Smart Home 4.3.2 Smart Agricultural 4.3.3 Industrial IoT (IIoT) 4.3.4 Integration of IoT with AI",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CS-371-VSC-P",
+      "title": "Agile Processes",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        81,
+        84
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-381-OJT",
+      "title": "OJT",
+      "semester": 6,
+      "type": "FP/OJT/CEP",
+      "credits": 4,
+      "pages": [
+        85,
+        86
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

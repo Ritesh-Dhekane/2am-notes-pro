@@ -1,0 +1,68 @@
+{
+  "id": "foundation-course-in-gis-and-remote-sensing-28092026",
+  "kind": "course",
+  "programme": null,
+  "pattern": null,
+  "language": "en",
+  "subjects": [
+    {
+      "code": null,
+      "title": "Foundation Course in GIS and Remote Sensing",
+      "semester": null,
+      "type": "Foundation Course",
+      "credits": 2,
+      "pages": [
+        1,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction to Remote Sensing",
+          "topics": "Definition and scope of remote sensing (RS), Historical development of remote sensing technology, Basic principles and concepts: Energy source and radiation, Interaction with atmosphere and surface, Data acquisition and interpretation, Applications of remote sensing in: Agriculture, forestry, water resources, Urban planning, disaster management, Environmental monitoring and biodiversity",
+          "hours": null
+        },
+        {
+          "title": "Electromagnetic Spectrum in Remote Sensing",
+          "topics": "Overview of the Electromagnetic Spectrum (EMS), Important spectral regions used in RS Visible, Infrared (Near, Mid, Thermal), Microwave, Spectral signatures and reflectance characteristics, Atmospheric windows and their relevance in RS",
+          "hours": null
+        },
+        {
+          "title": "Platforms and Sensors",
+          "topics": "Classification of remote sensing platforms: Ground-based, Airborne (Aircraft, UAVs/Drones), Spaceborne (Satellites); Sensor types and characteristics: Spatial, spectral, temporal, and radiometric resolution; Types of sensors: Optical, Thermal, Microwave, Multispectral, Hyperspectral; Overview of major remote sensing satellites and missions (e.g., Landsat, Sentinel, IRS)",
+          "hours": null
+        },
+        {
+          "title": "Types of Remote Sensing",
+          "topics": "Passive Remote Sensing: Concept and working principle, Sun as energy source, Examples: Optical and thermal sensors; Active Remote Sensing: Concept and working principle: Artificial energy sources (microwave/laser), Comparison: Passive vs Active RS (advantages and limitations); Overview of: Radar (Radio Detection and Ranging), Lidar (Light Detection and Ranging)",
+          "hours": null
+        },
+        {
+          "title": "Remote Sensing – Practical",
+          "topics": "Introduction to Satellite Image Interpretation: Introduction to Google Earth as a visualization tool, Understanding geographical coordinates (Latitude/Longitude), Identifying major landforms and features using satellite imagery; Visual interpretation techniques: Shape, size, tone, texture, pattern, shadow, and association, Urban vs. Rural features, vegetation vs. water bodies; Overview of satellite data sources and portals; Hands-on exercise: USGS Earth Explorer, Copernicus Open Access Hub",
+          "hours": null
+        },
+        {
+          "title": "Fundamentals of GIS",
+          "topics": "Definition and scope of GIS, Spatial and non-spatial data, Layers, features, and attributes; Components of GIS: Hardware, software, data, people, and methods; GIS Data Models: Raster model, Vector model; Coordinate Systems: GCS vs PCS, Common coordinate systems (WGS 84, UTM); Map Projections: Concept and necessity, Examples (Mercator, Lambert, UTM); Georeferencing: Definition and importance, Techniques to align maps/images with real-world coordinates",
+          "hours": null
+        },
+        {
+          "title": "Practical in GIS",
+          "topics": "Introduction to QGIS: Installation and interface navigation, project files, toolbars, panels, layer management, Loading data (vector, raster, CSV, shape files), Coordinate reference systems; Georeferencing Scanned Maps: Adding and managing control points, QGIS Georeferencer Plugin, Transforming raster maps; Digitization and Vector: Creating vector layer, Heads-up digitization, Editing tools, Attribute table management, length, and count calculations",
+          "hours": null
+        },
+        {
+          "title": "Remote Sensing Data Analysis and Applications",
+          "topics": "Image Preprocessing: Radiometric Correction, Geometric Correction, Resampling techniques; Image Classification Techniques: Unsupervised Classification (ISODATA, K-means), Supervised Classification (training sample collection, Maximum Likelihood, Minimum Distance, Accuracy assessment); NDVI, LULC, and Change Detection: NDVI formula and interpretation, LULC Mapping, Change Detection; Applications of RS and GIS: Disaster Management, Agriculture Monitoring, Urban Planning, Water resource management",
+          "hours": null
+        },
+        {
+          "title": "Remote Sensing Data Analysis and Applications – Practical",
+          "topics": "Image Processing and Classification in QGIS and SAGA GIS: Importing and visualizing satellite images, Layer stacking and band combination, Image enhancement, Unsupervised and Supervised classification; NDVI Calculation and Vegetation Mapping: Calculating NDVI using raster calculator, Creating NDVI-based vegetation health maps; Thematic Mapping Project: Creating a Thematic Map Using Multi-Source Spatial Data, Area of Interest, Map design elements and layout export",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,201 @@
+{
+  "id": "tybca-semester-v-nep-syllabus-02072026",
+  "kind": "programme",
+  "programme": "Batchelor of Computer Application (BCA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MJ-301-JP",
+      "title": "Java Programming",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        1,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Java",
+          "topics": "1.1 Introduction to Java: 1.1.1. Why Java, 1.1.2. Programming Paradigms, 1.1.3. Java vs C/C++, 1.1.4. Features of Java, 1.2 Basics of Java: 1.2.1. Structure of Java Program, 1.2.2. Tokens, Statements, Data Types, 1.2.3. Variables, Constants, Operators, Type Casting, 1.2.4. Execution Process, JVM & JDK Tools, 1.2.5. Command Line Arguments, 1.3 Arrays and Strings: 1.3.1. Single & Multidimensional Arrays, 1.3.2. String, StringBuffer & StringTokenizer, 1.4 Packages and Wrapper Classes: 1.4.1. java. lang and java.util Packages, 1.4.2. Wrapper Classes (Integer, Float, Double, Character, Boolean etc)",
+          "hours": null
+        },
+        {
+          "title": "Classes and Objects",
+          "topics": "2.1 Classes and Objects: 2.1.1 Classes, Objects, and Constructors, 2.1.2. Methods and Recursion, 2.1.3. Method/Constructor Overloading, 2.2 Java Keywords-new, this, static, 2.3 Inheritance and Polymorphism: 2.3.1 Inheritance and Types, 2.3.2. Method Overriding, 2.3.3. Dynamic Method Dispatch, 2.3.4 super Keyword, 2.4 Abstraction and Encapsulation: 2.4.1 Abstraction, 2.4.2 Encapsulation, 2.4.3 Abstract Classes, 2.4.4 Interfaces, 2.5 Garbage Collector",
+          "hours": null
+        },
+        {
+          "title": "Packages, Exception Handling and Multithreading",
+          "topics": "3.1 Packages: 3.1.1 Built-in and User-Defined Packages, 3.1.2. Import Statements, 3.1.3Access Modifiers, 3.2 Exception Handling: 3.2.1 Exception and Error, 3.2.2 Built-in Exceptions, 3.2.3 try, catch, throw, throws and finally, 3.2.4 User Defined Exceptions, 3.3 Multithreading: 3.3.1 Introduction to Multithreading, 3.3.2 Thread Life Cycle ,Methods, 3.3.3 Synchronization, 3.3.4 wait(), notify(), notifyAll() Methods",
+          "hours": null
+        },
+        {
+          "title": "Collection Framework, Applet, AWT, Swing and JDBC",
+          "topics": "4.1 Collection Framework: 4.1.1 Introduction to Collection Framework, 4.1.2 Interfaces: Collection, List, Set, Map, 4.1.3 Navigation Interfaces: Enumeration, Iterator, ListIterator, 4.1.4 List Interface and Classes: ArrayList, LinkedList, Vector, 4.1.5 Set Interface and Classes: HashSet, TreeSet, 4.1.6. Map Interface and Classes: HashMap, LinkedHashMap, TreeMap, 4.2 Applet, AWT and Swing: 4.2.1. Applet Basics & Lifecycle, 4.2.2. AWT Components & Layout Managers, 4.2.3. Event Handling (Delegation Model), 4.2.4. Swing Components: JFrame, JPanel, JButton, JTextField, JTable, 4.3 JDBC (Java Database Connectivity): 4.3.1. JDBC Architecture & Drivers, 4.3.2. Establishing Connection, 4.3.3. Executing Queries using Statement, PreparedStatement & CallableStatement, 4.3.4. ResultSet & Metadata Handling",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-302-UIX",
+      "title": "User Interface and User Experience Design",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Introduction to UI and UX Design",
+          "topics": "1.1.1 Introduction to UI and UX, 1.1.2 Difference between UI and UX, 1.1.3 Rules and Skills of UI/UX, 1.1.4 Fundamental Principles of UI/UX Design, 1.1.5 Future Scope and Demand of UI/UX, 1.1.6 Tools for UI/UX Design, 1.1.7 Overview of Design Thinking",
+          "hours": null
+        },
+        {
+          "title": "UX Design and Research",
+          "topics": "2.1.1 Introduction to UX Design, 2.1.2 User-Centered Design (UCD), 2.1.3 Mental Models, 2.1.4 User Personas and Empathy Mapping, 2.1.5 User Journey and User Flow, 2.1.6 Content Organization Techniques, 2.1.7 UX Research Methods, 2.1.8 Surveys, Interviews, and Observation, 2.1.9 Eye Tracking and Clickstream Analysis, 2.1.10 Competitor Analysis",
+          "hours": null
+        },
+        {
+          "title": "Wireframing and Prototyping",
+          "topics": "3.1.1 Wireframing Concepts, 3.1.2 Prototyping Techniques, 3.1.3 Prototype Fidelity (Low/Medium/High), 3.1.4 Paper and Digital Prototypes, 3.1.5 Mockups and Interactive Design, 3.1.6 Information Architecture, 3.1.7 Grid and Layout Systems, 3.1.8 Navigation Design, 3.1.9 Mobile and Responsive Design, 3.1.10 Design Tools: Figma, Adobe XD, Sketch,Canva",
+          "hours": null
+        },
+        {
+          "title": "Visual Foundations of UI/UX",
+          "topics": "4.1.1 Typography and Color Theory, 4.1.2 Layout and Grid Systems, 4.1.3 Visual Hierarchy, 4.1.4 Responsive Design, 4.1.5 Accessibility Principles",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-303-JPP",
+      "title": "Computer Laboratory based on Java Programming",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        8,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "MJE-304-UIXP",
+      "title": "Computer Laboratory based on UI-UX Design",
+      "semester": 5,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        12,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "MJE-301-ECC",
+      "title": "Essentials of Cloud Computing",
+      "semester": 5,
+      "type": "Major Elective 1",
+      "credits": 4,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": "1.1 Introduction to Cloud Computing, 1.2 Cloud Computing vs. Cluster Computing vs. Grid, 1.3 Characteristics, Pros and Cons of Cloud, 1.4 Introduction to Dockers, 1.5 Introduction to Container",
+          "hours": null
+        },
+        {
+          "title": "Cloud Service Models and Deployment Models",
+          "topics": "2.1 Cloud Service Models - IAAS, PAAS, SAAS & its, 2.2 Cloud Deployment Models-Public, Private, Hybrid,, 2.3 XAAS- Anything as a Service – Storage as a service,",
+          "hours": null
+        },
+        {
+          "title": "Virtualization",
+          "topics": "3.1. Introduction to Virtualization concept & Hypervisors, 3.2. Core Types of Virtualization, Pros and Cons of Virtualization, 3.3. Machine Image, Virtual Machine (VM), 3.4. Xen: Para virtualization, VMware: Full Virtualization, 3.5. Microsoft Hyper-V, 3.6. Open-Source Virtualization Manager",
+          "hours": null
+        },
+        {
+          "title": "Cloud Storage Economics & Management",
+          "topics": "4.1. Cloud Storage Types: Block, File, Object Storage, 4.2. Web Services: SOAP and REST, 4.3. Relating SOA and Cloud Computing., 4.4. Service Level Agreement (SLA), Billing, Pricing, and, 4.5. Cloud Management Tools",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MN-301-SE",
+      "title": "Software Engineering",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 4,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": "1.1 Software - Definition, Characteristics of software, 1.2 Software Engineering: Definition, Need, 1.3 Software Development Life Cycle, 1.4 SDLC Models: Waterfall Model, Prototype, Spiral, RAD (Rapid Application Development) Model, Agile Model",
+          "hours": null
+        },
+        {
+          "title": "Requirement Engineering and SRS",
+          "topics": "2.1 Requirement: Definition, 2.2. Requirement gathering techniques, 2.3 Requirement Engineering, 2.6 Software Requirement Specification (SRS) (IEEE format)",
+          "hours": null
+        },
+        {
+          "title": "Requirements Modelling-UML",
+          "topics": "3.1. Object oriented concepts, 3.2. Difference between SSAD and OOAD, 3.3. Object Oriented Methodologies: Booch Methodology, 3.4. Introduction of Unified Modelling Language (UML) & Notations, 3.5. UML Diagrams: 3.5.1. Use case Diagram, 3.5.2. Class Diagram, 3.5.3. Object Diagram, 3.5.4. Activity Diagram, 3.5.5. Interaction Diagram: Sequence and Collaboration, 3.5.6. Component and Deployment Diagram",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Agile",
+          "topics": "Agile software development principles, Scrum framework, Sprint planning and execution, Agile testing and delivery",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSC – 301-ES",
+      "title": "Entrepreneurship Essentials",
+      "semester": 5,
+      "type": "Vocational Skill Development Course(VSC)",
+      "credits": 2,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurship Fundamentals & Problem Identification",
+          "topics": "1.1 Meaning and concept, attributes and mind-set of entrepreneurial, 1.2 Understanding and analysing the macro -Problem and Industry, 1.3 Aligning passion, identifying and defining problem using design thinking principles",
+          "hours": null
+        },
+        {
+          "title": "Customer Discovery, Ideation and Solution Design",
+          "topics": "2.1 Understanding customer, customer segmentation, creating and validating customer personas, 2.2 Understanding Customer Jobs -to-be-done and crafting innovative solution design, 2.3 Examining ideation techniques and generating solution ideas, 3.1 Developing Problem -solution fit in an iterative manner, 3.2 Developing a feasibility prototype with differentiating value, 3.3 Introduction to revenue model and its types, Lean approach",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "FP-301-MM",
+      "title": "Project based on Major Mandatory",
+      "semester": 5,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

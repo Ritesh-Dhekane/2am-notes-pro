@@ -1,0 +1,462 @@
+{
+  "id": "s-y-b-sc-aviation-25062025",
+  "kind": "programme",
+  "programme": "Second Year B.Sc. (Aviation)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "VSC-201-BAV-T",
+      "title": "Aircraft Structure",
+      "semester": 3,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "Aeroplane Flight Controls",
+          "topics": "1.  Operation and effect of:  Roll control: ailerons and spoilers,  Pitch control: elevators, stabilators, variable incidence stabilisers and canards,  Yaw control, rudder limiters;  Control using elevons, ruddervators;  High lift devices: slots, slats, flaps;  Drag inducing devices: spoilers, lift dumpers, speed brakes;  Operation and effect of trim tabs, servo tabs, control surface bias;",
+          "hours": 20
+        },
+        {
+          "title": "High Speed Flight",
+          "topics": "2.  Speed of sound, subsonic flight, transonic flight,  supersonic flight, Mach number, critical Mach number,",
+          "hours": 10
+        },
+        {
+          "title": "Airframe Structures",
+          "topics": "3.  Fundamentals of structural systems;  Zonal and station identification systems;  Electrical bonding;  Lightning strike protection provision.  Primary controls: aileron, elevator, rudder, spoiler;  Trim control;  System operation: manual, hydraulic, pneumatic;  Artificial feel, Yaw damper, Mach trim, rudder limiter, gust locks.  Stall protection systems;",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "VSC-202-BAV-T",
+      "title": "Thermodynamics",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "The first Law of thermodynamics",
+          "topics": "a. Basic Ideas and definitions: Thermodynamic system, Boundary, Types of systems, State of systems, Properties of system b. Classification of properties, Thermodynamic Process & cycle, Work transfer and Heat Transfer c. The first Law of thermodynamics: Application of First law to Closed system, Application of First law to Open system with Steady Flow, S.F.E.E., Application of SFEE, PPM-I d. Concept of steady flow, unsteady flow, control volume & control mass.",
+          "hours": 16
+        },
+        {
+          "title": "The second Law of Entropy",
+          "topics": "a. Limitations of First Law, H.E., H.P. and refrigerator b. Kelvin Plank and Clausis Statements and their equivalence c. Reversible process, cycle, Carnot theorem for Heat Engine d. Efficiency of reversible cycle, PMM-II e. Introduction to Entropy, Enthalpy, Carnot Cycle (T-s Diagram).",
+          "hours": 16
+        },
+        {
+          "title": "Ideal Gas Properties and process",
+          "topics": "a. Definition, Laws pertaining to Ideal Gas, Specific Heats b. Various process (Const P/T/V/H and Polytrophic, p-v diagrams) c. Evaluation of Work transfer, Heat transfer, P-v diagram of Carnot Cycle with Ideal Gas d. Introduction to Gas Power Cycle. Working & regeneration of Brayton cycle.",
+          "hours": 18
+        }
+      ]
+    },
+    {
+      "code": "BAV-201-P",
+      "title": "Industrial Visit",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-202-T",
+      "title": "Aircraft Hardware",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Aircraft Fasteners",
+          "topics": "1. Screw Threads  Screw nomenclature;  Thread forms, dimensions and tolerances for standard threads used in aircraft;  Measuring screw threads; 2. Bolts, Studs and Screws  Bolt types: specification, identifi cation and marking of aircraft bolts, international standards;  Nuts: self-locking, anchor, standard types;  Machine screws: aircraft specifications;  Studs: types and uses, insertion and removal;  Self-tapping screws, dowels. 3. Locking Devices  Tab and spring washers, locking plates, split pins, palnuts, wire locking, quick release fasteners, keys, circlips, cotter pins. 4. Aircraft Rivets  Types of solid and blind rivets: specifications and identification, heat treatment.",
+          "hours": 20
+        },
+        {
+          "title": "Aircraft Plumbing",
+          "topics": "5. Pipes and Unions  Identification of, and types of rigid and flexible pipes and their connectors used in aircraft;  Standard unions for aircraft hydraulic, fuel, oil, pneumatic and air system pipes. Description Allotted hours",
+          "hours": 10
+        },
+        {
+          "title": "Aircraft Mechanism",
+          "topics": "6. Springs  Types of springs, materials, characteristics and applications. 7. Bearings  Purpose of bearings, loads, material, construction;  Types of bearings and their application. 8. Transmissions  Gear types and their application;  Gear ratios , reduction and multiplication gear systems, driven and driving gears, idler gears, mesh patterns;  Belts and pulleys, chains and sprockets.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OE-201-BAV-T",
+      "title": "Fundamentals of Computer & Programming Languages",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": [
+        {
+          "title": "Basic Computer Structure",
+          "topics": "a. Introduction, characteristics of computers, Basic computer structure- ALU, CU & CPU. b. Applications of Computers. c. Computer ter minology (including bit, byte, software, hardware, CPU, IC, and various memory devices such as RAM, ROM, PROM); d. Aircraft Computer technology- FMC, CDU, DTS.",
+          "hours": 10
+        },
+        {
+          "title": "Basics of Microprocessor",
+          "topics": "a. Layout & block diagram of the major components in a microcomputer includin g their associated bus systems (data bus, address buss & control bus). b. Working of microprocessor- fetch, decode, execute. c. Instructions and its types of 8085 microprocessor. d. Register array- PC, SP, Flag & general purpose register.",
+          "hours": 10
+        },
+        {
+          "title": "Programming Language ‘C’",
+          "topics": "a. Feature of C, Basic concepts, structure of a C program, declarations, vari ables, data types & operators. b. Operators, Input and Output functions - Scanf and printf. Decision control s tructure: if else, nested if else, cascaded if else and switch statement.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "IKS-201-BAV-T",
+      "title": "Human behaviour",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Human Factors & Errors",
+          "topics": "1. General  The need to take human factors into account;  Incidents attributable to human factors/human error;  ‘Murphy's’ law. 2. Human Performance and Limitations  Vision;  Hearing;  Information processing;  Attention and perception;  Memory;  Claustrophobia and physical access.",
+          "hours": 10
+        },
+        {
+          "title": "Factors Affecting Performance",
+          "topics": "3. Social Psychology  Responsibility: individual and group;  Motivation and de-motivation;  Peer pressure;  ‘Culture’ issues;  Team working;  Management, supervision and leadership 4. Factors Affecting Performance  Fitness/ health;  Stress: domestic and work related;  Time pressure and deadlines; Description Allotted hours  Workload: overload and underload;  Sleep and fatigue, shiftwork;  Alcohol, medication, drug abuse.",
+          "hours": 10
+        },
+        {
+          "title": "Human Error, Hazards in Workplace & Aviation Eco System",
+          "topics": "5. Human Error  Error models and theories;  Types of error in maintenance tasks;  Implications of errors (i.e accidents)  Avoiding and managing errors. 6. Hazards in the Workplace  Recognizing and avoiding hazards;  Dealing with emergencies.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BAV-203-T",
+      "title": "Language Proficiency",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Grammar and vocabulary",
+          "topics": " Parts of speech  Tenses- a. Present tense- Simple, Continuous, Perfect, Perfect continuous b. Past tense- Simple, Continuous, Perfect, Perfect continuous tense c. Future tense- Simple, Continuous, Perfect, Perfect continuous tense  Word formation process- Affixation, Borrowing, Coinage, and Blending  Sentences and its types  Subject- verb- concord",
+          "hours": 8
+        },
+        {
+          "title": "Writing skill",
+          "topics": " Writing a letter  Application letter  Complaint letter  Enquiry letter  Writing a Resume",
+          "hours": 6
+        },
+        {
+          "title": "Communication skill",
+          "topics": " Introduction to communication skill and its types,  Importance and principles of effective communication.  Important aspects and ways of self-introduction.",
+          "hours": 6
+        },
+        {
+          "title": "Poetry (Any one)",
+          "topics": " The felling of the Banyan tree- Dilip Chitre  The Indian Women- Shiv K Kumar  Abou Ben Adhem- James Leigh Hunt",
+          "hours": 3
+        },
+        {
+          "title": "Prose (Any One)",
+          "topics": " The gift of the Magi- O’ Henry  The Bet- Anton Checkhov",
+          "hours": 3
+        },
+        {
+          "title": "Short stories (Any One)",
+          "topics": " The Axe- R.K. Narayan  Luck- Mark Jwain",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "BAV-204-P",
+      "title": "Computer Programming Lab",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-205-P",
+      "title": "Aircraft Structure Lab",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-206-P",
+      "title": "Aircraft Hardware Lab",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-251-T",
+      "title": "Communication and Navigation System",
+      "semester": 4,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        18,
+        18
+      ],
+      "units": [
+        {
+          "title": "Communication Systems",
+          "topics": "1. Fundamentals of system lay-outs and operation of:  Very High Frequency (VHF) communication  High Frequency (HF) communication",
+          "hours": 20
+        },
+        {
+          "title": "ELT, CVR & VOR",
+          "topics": "2. Fundamentals of system lay-outs and operation of:  Emergency Locator Transmitters  Cockpit Voice Recorder  Very High Frequency unidirectional range (VOR)",
+          "hours": 15
+        },
+        {
+          "title": "Navigation Systems",
+          "topics": "3. Fundamentals of system lay-outs and operation of:  Automatic Direction Finding (ADF)  Instrument Landing System (ILS)",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BAV-252-T",
+      "title": "Digital Electronics",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Number Systems and Logic Circuits",
+          "topics": "1. Electronic Instrument Systems  Typical systems arrangements and cockpit layout of electronic instrument systems. 2. Numbering Systems  Decimal & Binary,  Octal and hexadecimal;  Demonstration of conversions between the decimal and binary, octal and hexadecimal systems and vice versa. 3. Data Conversion  Analogue Data,  Digital Data;  Operation and application of analogue to digital, and digital to analogue converters, Inputs and outputs, limitations of various types. 4. Logic Circuits  Identification of common logic gate symbols, tables and equivalent circuits;  Logic gates, their Boolean expressions and truth tables: AND, OR, EXOR, NOT, NOR, NAND.  Representation of other gates in terms of Universal gates.  Applications used for aircraft systems, schematic diagrams. Description Allotted hours",
+          "hours": 15
+        },
+        {
+          "title": "Fiber Optics & ESDs",
+          "topics": "5. Fibre Optics  Advantages and disadvantages of fibre optic data transmission over elect rical wire propagation;  Fibre optic data bus;  Fibre optic related terms; Terminations; Couplers, control terminals, remote terminals;  Application of fibre optics in aircraft systems. 6. Electronic Displays  Principles of operation of common types of displays used in modern aircraft, including Cathode Ray Tubes, Light Emitting Diodes and Liquid Crystal Display. 7. Electrostatic Sensitive Devices  Special handling of components sensitive to electrostatic discharges;  Awareness of risks and possible damag e, component and personnel anti -static protection devices.",
+          "hours": 15
+        },
+        {
+          "title": "Electronic/ Digital Aircraft Systems",
+          "topics": "8. General arrangement of typical electronic/digital aircraft systems and associated BITE (Built In Test Equipment) testing such as:  ACARS-ARINC Communication and Addressing and Reporting System  EICAS-Engine Indication and Crew Alerting System  FBW-Fly by Wire  FMS-Flight Management System  IRS-Inertial reference system  ECAM-Electronic Centralized Aircraft Monitoring  EFIS-Electronic Flight Instrument System  GPS-Global Positioning System  TCAS-Traffic Collision Avoidance system",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "BAV-253-P",
+      "title": "Industrial Visit",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-254-T",
+      "title": "Propulsion-I",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        22,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction to Propulsion and Fundamentals",
+          "topics": "1.  Potential energy, kinetic energy, Newton's laws of motion, Brayton cycle;  The relationship between force, work, power, energy, velocity, acceleration;",
+          "hours": 10
+        },
+        {
+          "title": "Turbine Engines",
+          "topics": "2. Constructional arrangement and operation of turbojet, turb ofan, turbo shaft and turbo propeller engines.",
+          "hours": 10
+        },
+        {
+          "title": "Engine Performance",
+          "topics": "3.  Thrust horsepower, specific fuel consumption;  Engine efficiencies;  Pressure, temperature and velocity of the gas flow;  Engine ratings, static thrust, influence of speed, altitude and hot climate",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OE-251-BAV-T",
+      "title": "Professional Communication Skill",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        23,
+        23
+      ],
+      "units": [
+        {
+          "title": "Verbal & Nonverbal Communication Skills",
+          "topics": "1.  Ways to increase your vocabulary.  Verbal and nonverbal communication, including body language, facial expressions, eye contact, and tone of voice.",
+          "hours": 10
+        },
+        {
+          "title": "Written Communication Skills",
+          "topics": "2.  Written communication in the workplace  Email writing, and etiquettes  Proof reading and editing",
+          "hours": 10
+        },
+        {
+          "title": "Professional Skills",
+          "topics": "3.  Prepare and deliver presentations  Team management skills  Curriculum Vitae or resume writing  Interview skills",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "AEC-251-BAV-T",
+      "title": "Basic Radar & Radio System",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        24,
+        24
+      ],
+      "units": [
+        {
+          "title": "Basic Radio Systems",
+          "topics": "1.  Fundamentals of radio wave propagation, an tennas, transmission lines, communication, receiver and transmitter  Modulation & Demodulation",
+          "hours": 7
+        },
+        {
+          "title": "Basic Principles of Radar System",
+          "topics": "2.  Introduction, the Origin of Radar, Block Diagram and Operation.  Radar Frequencies, types of Radar, Radar perfor mance factors, Maximum Unambiguous Range, Radar Waveforms.",
+          "hours": 7
+        },
+        {
+          "title": "Auto Flight",
+          "topics": "3. Fundamentals of system lay-outs and operation of Auto flight 6 hrs",
+          "hours": 6
+        },
+        {
+          "title": "Integrated Modular Avionics",
+          "topics": "4. Functions that may be typically integrated in the Integrat ed Modular Avionic (IMA) modules are, among others: Bleed Management, Air Pressure Control, Air Ventilation and Control, Avionics and Cockpit Ventilation Control, Temperature Control, Air Traffic Communication, Avionics Communication Router, Electrical Loa d Management, Circuit Breaker Monitoring, Electrical System BITE, etc.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BAV-255-P",
+      "title": "Digital Electronics Lab",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        25,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-256-T",
+      "title": "Soft Skills and Organisational Behaviour",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to Soft Skills at Work Place: (Min 1 case Study)",
+          "topics": "a. Definition of soft skills and synonym to People Skills, Interpersonal skills And transferable skills b. Soft skills development and its types and its application.",
+          "hours": 10
+        },
+        {
+          "title": "Key Soft Skills: (Min 01 Case Study)",
+          "topics": "a. Communication, Team work and Professional Ethics. b. Interpersonal skills and Leadership. c. Critical thinking, problem solving, and Creativity. d. Self-introduction.",
+          "hours": 10
+        },
+        {
+          "title": "Organizational Behavior Model: (Min 01 Case Study)",
+          "topics": "a. Learning objectives and definition and need to study O B Model. b. Study of O B attributes like Personality, Perception and Motivation at work Place. c. Introduction an application of Herzberg’s. Two Fact or theory and Maslow’s Need Hierarchy Theory in aviation field.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BAV-257-P",
+      "title": "Communication & Navigation Lab",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        27,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "BAV-258-P",
+      "title": "Propulsion-I Lab",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        28,
+        28
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,80 @@
+{
+  "id": "s-y-b-a-home-economics-syllabus-ac-year-2025-26-20092025",
+  "kind": "programme",
+  "programme": "SYBA Home Economics",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HOE-241-[T]",
+      "title": "Home Economics -Ist",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        2,
+        8
+      ],
+      "units": [
+        {
+          "title": "Study of Sociology",
+          "topics": "1.1 Meaning, definition and concept of sociology 1.2 Nature & Scope of Sociology 1.3 Subject Matter of Sociology 1.4 Features of Sociology 1.5 Importance of Sociology",
+          "hours": null
+        },
+        {
+          "title": "Indian Family",
+          "topics": "2.1 Family-Definition & Concept of Family 2.2 Origin of family 2.3 Family as a Social Institution 2.4 Social Structure of the Indian Family 2.5 Function of Family 2.6 Causes of Family 2.7 Importance Elements of Indian Family",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "HOE-242-[P]",
+      "title": "Home Economics -IInd",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "HOE-291[T]",
+      "title": "Home Economics -III",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Marriage as an Institution",
+          "topics": "1.1Meaning & Nature of Indian Marriage 1.2 Evaluation of Marriage 1.3 Types of Marriage 1.4 Importance of Marriage in Indian Family 1.5 Features of Marriage 1.6 Functions of Marriage",
+          "hours": null
+        },
+        {
+          "title": "Family Organization",
+          "topics": "2.1 Meaning & Definition of Family organization 2.2 Nature of Family organization 2.3 Scope of Family organization 2.4 Disorganization – Meaning, Causes & Effects 2.5 Social Stratification – Meaning , Concept & Definition 2.6 Feature of Social Stratification",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "HOE 292[P]",
+      "title": "Home Economics -IV",
+      "semester": 4,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

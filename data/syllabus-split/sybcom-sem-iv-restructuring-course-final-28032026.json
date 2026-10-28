@@ -1,0 +1,506 @@
+{
+  "id": "sybcom-sem-iv-restructuring-course-final-28032026",
+  "kind": "programme",
+  "programme": "Four Year B.Com Degree Program (Restructuring)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA251RE-T",
+      "title": "Corporate Accounting-II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        6,
+        8
+      ],
+      "units": [
+        {
+          "title": "Holding Companies",
+          "topics": "1.1 Meaning and Definition of Holding Company 1.2 Advantages and Disadvantages of Holding Companies 1.3 Meaning of Wholly-Owned Subsidiary and Partly Owned Subsidiary 1.4 Legal Framework and Practical Preparation of Consolidated Balance Sheet with One Subsidiary Only: - Meaning of Goodwill/Capital Reserve (Cost of Control), Non-controlling Interest (Minority Interest), Capital Profits and Revenue Profits, Pre-acquisition and Post-acquisition profits, Treatment of Unrealized Profits on Stock, Contingent Liability, Revaluation of Assets and Liabilities, Treatment of Dividend and Bonus Shares (Inter-company Elimination)",
+          "hours": 15
+        },
+        {
+          "title": "Accounting Ratios Analysis",
+          "topics": "Meaning, Advantages and Limitations of Accounting Ratios. Classification of Ratios: Traditional Classification and Functional Classification Types of Functional Classification of Ratios: Profitability Ratios, Turnover Ratios, Financial Ratios. Numerical Problems",
+          "hours": 8
+        },
+        {
+          "title": "Profit or Loss Prior to Incorporation",
+          "topics": "Meaning and Importance of Prior and Post Incorporation Profits. Basis of Apportionment of Expenses and Incomes between Pre and Post Incorporation Period. Preparation of Profit and Loss Account and Statement of Profit and Loss.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "AS252RE-T",
+      "title": "Applied Statistics–II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        9,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to probability",
+          "topics": "Concept of probability, random experiment, sample space, events, types of events. Mathematical definition of probability, statistical definition of probability. Axiomatic definition of probability. Addition theorem of probability, conditional probability, multiplication theorem of probability, Bayes theorem.",
+          "hours": 15
+        },
+        {
+          "title": "Standard Discrete probability distribution",
+          "topics": "Concept of random variable, probability mass function, cumulative distribution function. Mathematical expectation, mean, variance. Discrete uniform distribution, Binomial distribution, Poisson distribution: properties, mean, variance and applications.",
+          "hours": 15
+        },
+        {
+          "title": "Standard Continuous probability distribution",
+          "topics": "Concept of continuous random variable, probability density function, cumulative distribution function. Mathematical expectation, mean, variance. Continuous uniform distribution, Normal distribution: properties, mean, variance and applications.",
+          "hours": 15
+        },
+        {
+          "title": "Sampling Theory",
+          "topics": "Concept of population, sample, parameter, statistic. Need of sampling. Census method vs sampling method. Types of sampling: probability sampling, non-probability sampling. Simple random sampling with and without replacement, stratified random sampling, systematic sampling. Sampling distribution, standard error.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BKFN253RE-T",
+      "title": "Banking and Finance–II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        12,
+        14
+      ],
+      "units": [
+        {
+          "title": "Financial and Insurance Regulators in India",
+          "topics": "1.1 Role of RBI, SEBI, IRDAI, and PFRDA 1.2 Powers and Responsibilities of SEBI in Regulating Capital Markets 1.3 Insurance Regulatory Framework: Role of IRDAI in Life and General Insurance 1.4 Regulation of Pension Funds and Provident Funds (PFRDA)",
+          "hours": 15
+        },
+        {
+          "title": "Overview of Financial Markets",
+          "topics": "2.1 Money Market: Functions, Types of Instruments, Call Money, Treasury Bills 2.2 Capital Market: Primary vs. Secondary Markets, Role of Stock Exchanges 2.3 Foreign Exchange Market: Exchange Rate Mechanisms, Forex Trading 2.4 Commodity Markets: Role of Commodity Exchanges in India",
+          "hours": 15
+        },
+        {
+          "title": "Financial Instruments",
+          "topics": "3.1 Debt Instruments: Bonds, Debentures, Treasury Bills, Commercial Papers 3.2 Equity Instruments: Shares, Mutual Funds, ETFs, ADRs/GDRs 3.3 Derivative Instruments: Futures, Options, Forwards, Swaps 3.4 Hybrid Instruments: Convertible Bonds, Preference Shares",
+          "hours": 15
+        },
+        {
+          "title": "Recent Trends in Financial Markets",
+          "topics": "4.1 Innovations in Financial Instruments 4.2 Green Bonds and ESG Investment Products 4.3 Rise of Digital Currencies: CBDCs, Crypto currency Market, and Regulations 4.4 Impact of Global Economic Trends on Indian Financial Markets",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CASM254RE-T",
+      "title": "Computer Applications and Systems Management(CASM-II)",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        15,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to HTML",
+          "topics": "1.1 Introduction 1.2 HTML Elements 1.3 Basic HTML Structure 1.4 Physical and Logical HTML 1.5 HTML Tags: Paired Tags, Singular Tags 1.6 Common HTML Tags - HTML Tag, Home Tag, Title Tag, Body Tag, Text Formatting Tags, Heading Tags, Paragraph Tag, Font Tag, Line Break Tag, Horizontal Rule Tag, Marquee Tag, Blockquote Tag 1.7 Special Characters in HTML 1.8 Comments in HTML 1.9 HTML Colors 1.10 HTML Hyperlink - Creating Hyperlink, Anchor Tag with Href, Target Attribute, Name Attribute, Mailto Attribute",
+          "hours": 15
+        },
+        {
+          "title": "Creation of List, Table and Frames Tags",
+          "topics": "2.1 List tag: Unordered Lists, Ordered Lists, Definition Lists, Nested Lists 2.2 Table tag: Attributes of table tag, Attributes of th, Attributes of td, Rowspan and Colspan, Cellpadding and Cellspacing 2.3 Frame tag: Frameset tag with cols and Rows, Frame tag with src, name, scrolling, noresize attributes",
+          "hours": 15
+        },
+        {
+          "title": "Creating Forms and Images",
+          "topics": "3.1 Form Element 3.2 Input Element 3.3 Select Element 3.4 Button Element 3.5 HTML Input Types: text, password, submit, reset, radio, checkbox, button, file, hidden, date, color, email, number, range 3.6 Image Maps",
+          "hours": 15
+        },
+        {
+          "title": "HTML and CSS",
+          "topics": "4.1 Need for CSS 4.2 Introduction to CSS 4.3 Basic syntax and structure 4.4 Using CSS: background images, colors and properties, manipulating texts, using fonts, borders and boxes, margins, padding lists, positioning 4.5 Overview and features of CSS2",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CWA255RE-T",
+      "title": "Cost and Works Accounting-II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        20,
+        24
+      ],
+      "units": [
+        {
+          "title": "Key Aspects of Labor Cost.",
+          "topics": "1.1 Introduction to Employee Cost as per CAS 7. 1.2 Various aspects of labor cost control. 1.3 Time keeping and Time Booking: Meaning, traditional and modern methods. 1.4 Methods of Remuneration: Time Rate System, Piece Rate System, Incentive Schemes (Halsey, Rowan, Taylor). 1.5 Labor Turnover: Meaning, causes, effects and methods. 1.6 Practical sums on methods of remuneration and labor turnover.",
+          "hours": 15
+        },
+        {
+          "title": "Overhead Costing.",
+          "topics": "2.1 Introduction to overheads CAS3. 2.2 Classification of overheads. 2.3 Steps of Overhead Accounting: Collection, Allocation, Apportionment, Absorption. 2.4 Primary and secondary distribution. 2.5 Under and over absorption. 2.6 Practical sums on primary and secondary distribution (Repeated distribution, Simultaneous equation method) and machine hour rate.",
+          "hours": 15
+        },
+        {
+          "title": "Job Costing, Batch Costing and Operating Costing,",
+          "topics": "3.1 Introduction to methods of costing and Key aspects in Costing. 3.2 Job Costing: Meaning, Definition, Features, Advantages and Procedure. 3.3 Batch Costing: Meaning, Definition, Features, Advantages and Economic Batch Quantity. 3.4 Operating Costing: Meaning, Definition, Features, Advantages and Transport Costing. 3.5 Uniform Costing and Inter firm Comparison. 3.6 Practical sums on operating costing.",
+          "hours": 15
+        },
+        {
+          "title": "Cost Accounting Records",
+          "topics": "4.1 Introduction to cost accounting records U/S 148 Companies Act 2013. 4.2 Need of cost records. 4.3 Appointment of Cost Auditor, rights and duties of cost Auditor. 4.4 Introduction to Just in Time (JIT). 4.5 Introduction to Computer Aided Manufacturing (CAM). 4.6 Introduction to Enterprise Resource Planning (ERP).",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ENTD256RE-T",
+      "title": "Entrepreneurship and Development(ENTD)- II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        25,
+        29
+      ],
+      "units": [
+        {
+          "title": "Supportive Agencies for Entrepreneurship-",
+          "topics": "Concept of Supportive Agencies in Entrepreneurship Development, MIDC: Introduction, objectives & Function, DIC: Introduction, objectives & Function, MCED: Introduction, objectives & Function, Role of Banking Sector, Role of Fintech",
+          "hours": 15
+        },
+        {
+          "title": "Innovation and Invention-",
+          "topics": "2.1 Innovation and Invention: Meaning & Difference, 2.2 Innovation theory of Schumpeter, 2.3 Max Webers theory, 2.4 Concept of Consumer psychology - Meaning & Importance, 2.5 Buying motives, 2.6 Appeals",
+          "hours": 15
+        },
+        {
+          "title": "Legal Aspects of Entrepreneurship",
+          "topics": "Concept of Business idea and trend Analysis - Meaning & Importance, Sources of generating ideas, Need for protecting ideas from being stolen or lost, Introduction to patents, IPR & Copyright, Recent Terminologies used in Business: a) Consumer Acquisition cost, b) Product Market fit, 3.6 Case study",
+          "hours": 15
+        },
+        {
+          "title": "Global trends &Entrepreneurship-",
+          "topics": "Green entrepreneurship: Meaning, opportunities and challenges. Agricultural entrepreneurship: Meaning, opportunities and challenges. Social entrepreneurship: Meaning, opportunities and challenges. Corporate entrepreneurship: Meaning opportunities and challenges. Digital Entrepreneurship: Meaning, opportunities and challenges. Impact of AI in Entrepreneurship",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "IOAD257RE-T",
+      "title": "Industrial Organization and Administration(IOAD)-II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        30,
+        34
+      ],
+      "units": [
+        {
+          "title": "HUMAN RESOURCE MANAGEMENT",
+          "topics": "1.1 Meaning, definition and Scope of Human Resource Management 1.2 Importance of Human Resource Management 1.3 Functions of Human Resource Management 1.4 Human Resource Planning-Meaning and Importance 1.5 Human Resource Planning-Process 1.6 Challenges in modern HRM",
+          "hours": 15
+        },
+        {
+          "title": "RECRUITMENT, SELECTION AND TRAINING",
+          "topics": "2.1 Recruitment- Meaning, Definition, Importance of Recruitment 2.2 Sources of Recruitment-Internal and External 2.3 Selection-Meaning, Definition and Importance 2.4 Difference between Recruitment and Selection 2.5 Training- Meaning, Definition and Importance 2.6 Methods of Training",
+          "hours": 15
+        },
+        {
+          "title": "INTRODUCTION TO MARKETING",
+          "topics": "3.1 Meaning, Definition and Importance of Marketing 3.2 Functions of Marketing 3.3 Difference between Marketing & Selling, Role of Marketing Manager 3.4 Marketing Environment-Meaning, Definition and Importance 3.5 Internal and External Marketing Environment 3.6 Marketing Strategies-Meaning and Importance",
+          "hours": 15
+        },
+        {
+          "title": "RECENT TRENDS IN HUMAN RESOURCE MANAGEMENT AND MARKETING",
+          "topics": "4.1 Work-life Balance and Employee Engagement 4.2 Digital HR Tools 4.3 Emotional Intelligence at the workplace 4.4 Digital Marketing 4.5 Green Marketing",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "RD258RE-T",
+      "title": "Rural Development–II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        35,
+        37
+      ],
+      "units": [
+        {
+          "title": "Government Schemes for Agriculture and Rural Development",
+          "topics": "1.1 Pradhan Mantri Fasal Bima Yojana (PMFBY) 1.2 Pradhan Mantri Krishi Sinchai Yojana (PMKSY) 1.3 Rashtriya Krishi Vikas Yojana (RKVY) 1.4 Maharashtra-Specific Schemes: Jalyukt Shivar Abhiyan, Baliraja Chetana Abhiyan",
+          "hours": 15
+        },
+        {
+          "title": "Agricultural Lending and Financial Institutions",
+          "topics": "2.1 Role of Cooperative Banks, Regional Rural Banks (RRBs), and NABARD 2.2 Kisan Credit Card (KCC) Scheme and Agricultural Credit 2.3 Crop Insurance Schemes and Debt Waiver Programs 2.4 Role of Microfinance Institutions (MFIs) and Self-Help Groups (SHGs) in Rural Credit",
+          "hours": 15
+        },
+        {
+          "title": "Cropping Patterns and Yield Enhancement",
+          "topics": "3.1 Cropping Systems in India and Maharashtra 3.2 Factors Affecting Agricultural Yield: Climate, Soil, Irrigation, Technology 3.3 Organic Farming and Sustainable Agricultural Practices 3.4 Initiatives to Increase Productivity: Seed Varieties, Fertilizers, and Pesticides",
+          "hours": 15
+        },
+        {
+          "title": "New Technology in Agriculture",
+          "topics": "4.1 Precision Farming: Use of GIS, GPS, and Remote Sensing 4.2 Drip and Micro-Irrigation Systems 4.3 Use of Biotechnology in Crop Improvement: GM Crops, Hybrid Seeds 4.4 Smart Farming: IoT, Drones, and AI in Monitoring and Managing Crops",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "PUBR259RE-T",
+      "title": "Public Relations-II",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        38,
+        41
+      ],
+      "units": [
+        {
+          "title": "Public Relations Officer (PRO)",
+          "topics": "1.1 PRO Qualifications, Qualities & Skills 1.2 Duties and Responsibilities of PRO 1.3 Planning and executing PR campaigns 1.4 Identifying and managing PR crises 1.5 Developing Crisis Communication Plans",
+          "hours": 15
+        },
+        {
+          "title": "Public Relations and Ethics",
+          "topics": "2.1 Ethics in PR: Meaning, definition, and importance of ethical practice 2.2 Code of Ethics and Code of Conduct for Public Relations 2.3 Core ethical principles in PR: honesty, transparency and integrity 2.4 Unethical Practices in Public Relations 2.5 Crisis communication and Ethics – Ethical responsibilities during crises 2.6 Ethical Leadership and Corporate Social Responsibility 2.7 Ethics and Technology: Use of influencers & PR campaigns 2.8 Ethics in Press Releases and Media Statements 2.9 Case Studies of Ethical Vs Unethical Crisis Handling",
+          "hours": 15
+        },
+        {
+          "title": "The Public Relations Process",
+          "topics": "3.1 PR Process : Definition and Scope 3.2 Importance of a structured approach in PR 3.3 The PR process (RACE): Research, Action, Communication, Evaluation 3.4 Action and Planning: setting objectives, Target audience, Budgeting 3.5 Communication: Message design, selection of communication channels",
+          "hours": 15
+        },
+        {
+          "title": "Recent Trends and Career Opportunities in Public Relations",
+          "topics": "4.1 Influencer Marketing: Meaning, Uses of Influencer Marketing 4.2 Social media : Role of social media in PR 4.3 Data Analytics 4.4 Strategic communication 4.5 AI in PR 4.6 Digital Marketing PRO/PR Assistant 4.7 Virtual PR Events",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ME291T",
+      "title": "Monetary Economics",
+      "semester": 4,
+      "type": "Minor Subject",
+      "credits": 4,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "OE 251 ECO",
+      "title": "Analysis of Stock Market",
+      "semester": 4,
+      "type": "Generic OR Open Elective Subjects(OE)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "OE – 251- ENG",
+      "title": "Business English",
+      "semester": 4,
+      "type": "Generic OR Open Elective Subjects(OE)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "CA271-P",
+      "title": "Computerized Accounting-II",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Courses(VSEC)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC251COM",
+      "title": "Goods and Services Tax Act",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Courses(VSEC)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Marathi-II",
+      "semester": 4,
+      "type": "AbilityEnhancementCourses(AEC)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Hindi-II",
+      "semester": 4,
+      "type": "AbilityEnhancementCourses(AEC)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Sanskrit-II",
+      "semester": 4,
+      "type": "AbilityEnhancementCourses(AEC)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Co-curricular Courses (CC)",
+      "semester": 4,
+      "type": "Co-curricular Courses (CC)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "AS281CEPP-RE",
+      "title": "CEP in Applied Statistics",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "BKFN282 CEPP - RE",
+      "title": "CEP in Banking and Finance",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "CASM283 CEPP - RE",
+      "title": "CEP in Computer Applications and Systems Management",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "CWA284 CEPP - RE",
+      "title": "CEP in Cost and Works Accounting",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "ENTD285 CEPP - RE",
+      "title": "CEP in Entrepreneurship and Development",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "IOAD286 CEPP - RE",
+      "title": "CEP in Industrial Organization and Administration",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "RD287CEPP-RE",
+      "title": "CEP in Rural Development",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "PUBR288CEPP-RE",
+      "title": "CEP in Public Relations",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

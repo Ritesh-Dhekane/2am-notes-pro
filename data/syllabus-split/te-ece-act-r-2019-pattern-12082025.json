@@ -1,0 +1,1401 @@
+{
+  "id": "te-ece-act-r-2019-pattern-12082025",
+  "kind": "programme",
+  "programme": "T.E Electronics & Communication Engineering (Advanced Communication Technology)",
+  "pattern": "2019",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "304301",
+      "title": "Cellular Networks",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Communication",
+          "topics": "(08 Hrs.) Savitribai Phule Pune University Third Year of Electronics and Communication Engineering (Advanced Communication Technology) (2019 Course) 304301: Cellular Networks Teaching Scheme: Credit Examination Scheme: Theory: 03 hrs. / week 03 In-Sem (Theory): 30 Marks End Sem (Theory): 70 Marks Prerequisite Courses, if any: 1. Basic knowledge of - Probability, Random variables and Modulation. Companion Course, if any: Communication Engineering Lab-I Course Objectives: To make the students understand  Various propagation Model and Estimation techniques of wireless communication system.  OFDM and MIMO technologies to explain modern wireless systems.  Various aspects of mobile communication system.  Various aspects of wireless-system planning.  Different Generation of Mobile Networks.  Diversified issues that can enhance Network Performance. Course Outcomes: On completion of the course, learner will be able to - CO1: Understand fundamentals of wireless communications. CO2: Discuss and study OFDM and MIMO concepts. CO3: Elaborate fundamentals mobile communication. CO4: Describes aspects of wireless system planning. CO5: Understand of modern and futuristic wireless ne...",
+          "hours": null
+        },
+        {
+          "title": "Introduction of Wireless Channel",
+          "topics": "(06 Hrs.) Introduction, Free Space Propagation Model, Ground-Reflection Scenario, Hata Model and Receiver-Noise Computation. Channel Estimation techniques and Diversity in wireless communications. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Understand fundamentals of wireless communications.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Orthogonal Frequency Division Multiplexing",
+          "topics": "(06 Hrs.) Introduction, Motivation and Multicarrier basics, OFDM example, bit error rate for OFDM. Multiple-Input Multiple-Output Wireless Communications: Introduction to MIMO Wireless Communications, MIMO System Model and MIMO-OFDM. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Discuss and study OFDM and MIMO concepts.",
+          "topics": "Introduction to Cellular Service Progression, Cell Geometry, Overview of Cellular mobile and Network architecture, Cellular radio system design-- Frequency assignments, frequency reuse channels, Concept of cell splitting and Cell sectoring. Significance of Handover in cellular systems with Handoff algorithms and roaming. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Elaborate fundamentals mobile communication.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Wireless System Planning",
+          "topics": "(06 Hrs.) Link-Budget Analysis, Tele-traffic Theory, Tele-traffic System Model and Steady State Analysis. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Describes aspects of wireless system planning.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Wireless and Mobile Technologies and Protocols",
+          "topics": "and their performance evaluation (06 Hrs.) Introduction, Wireless and mobile technologies, LTE- advanced, 5G – Architecture, wireless local area network and Simulations of wireless networks. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Understand of modern and futuristic wireless networks",
+          "topics": "architecture",
+          "hours": null
+        },
+        {
+          "title": "Performance Analysis Issues",
+          "topics": "(08 Hrs.) Introduction to Network coding, basic hamming code and significance of Information Theory. Interference suppression and Power control. MAC layer scheduling and connection admission in mobile communication. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Summarize different issues in performance analysis",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304302",
+      "title": "Radiation and Microwave Techniques",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Fundamental Theory of Radiation and",
+          "topics": "Radiating Elements 6 Hrs. Fundamental equations for free space propagation, Friis transmission equation, Definition of antenna, radiation mechanism and types of antenna, performance parameters such as radiation pattern, directivity, gain, efficiency, half power beam width, bandwidth, polarization, input impedance, radiation efficiency, effective length, effective area, radiation sphere. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Apply the fundamentals of electromagnetic to derive free space",
+          "topics": "propagation equation and distinguish various performance parameters of antenna.",
+          "hours": null
+        },
+        {
+          "title": "Transmission Lines and Waveguides 6 Hrs.",
+          "topics": "Introduction to microwaves, short history of microwave engineering, frequency band definitions, advantages and applications of microwaves (overall applications). Introduction to wave guides, advantages of waveguides, comparison of waveguides and co-axial cables, Rectangular waveguides, modes of propagation in waveguides, cut off frequency, dominant mode, waveguide characteristics and parameters, excitation in waveguides, coupling methods (probe, slot, loop), application of re-entrant cavities, coupling of cavities, Striplines: Structural details, types and applications. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Identify various modes in the waveguide. Compare: coaxial line,",
+          "topics": "rectangular waveguides & striplines and identify applications of the same.",
+          "hours": null
+        },
+        {
+          "title": "Passive Microwave Components 6 Hrs.",
+          "topics": "Construction, working principle and scattering analysis of passive microwave components such as E- plane, H-plane and magic tee. Ferrite composition, characteristics and Faraday rotation principle. Construction, working principle and scattering analysis of isolator, circulator and directional coupler. Construction and operation of gyrator. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Explore construction and working of principles passive microwave",
+          "topics": "devices / components.",
+          "hours": null
+        },
+        {
+          "title": "Active Microwave Components 6 Hrs.",
+          "topics": "Limitations of conventional tubes, O and M type classification of microwave tubes, re-entrant cavity, velocity modulation. Construction, operation, performance analysis and applications of -Single cavity and two cavity klystron, Cylindrical wave magnetron and Helix traveling wave. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Explore construction and working of principles active microwave",
+          "topics": "devices/components.",
+          "hours": null
+        },
+        {
+          "title": "Solid State Microwave Devices 6 Hrs.",
+          "topics": "Introduction, Principle of operation, construction, characteristics, parameters with analysis of Microwave transistors, MOSFET, Varactor diodes, Parametric amplifiers, PIN diodes, Tunnel diodes, application as amplifiers, oscillators, modulators, demodulators, Schottky Barrier diodes, Transferred Electron devices: Gunn diode, Avalanche diode, Transit Time devices like IMPATT, TRAPATT diodes. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Analyze the structure, characteristics, operation, equivalent circuits and",
+          "topics": "applications of various microwave solid state active devices.",
+          "hours": null
+        },
+        {
+          "title": "Microwave Systems and Microwave",
+          "topics": "Measurement Techniques 6 Hrs. Microwave terrestrial and satellite communication system, Fundamentals of RADAR and RADAR range equation. Industrial applications of microwaves such as microwave heating, medical application such as microwave diathermy. Microwave measurement devices such as slotted line, tunable detector, VSWR meter, power meter, and their working principles. Microwave measurement techniques to measure S- parameters, frequency, power, attenuation, VSWR, impedance. Radiation hazards and protection. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Know the various microwave systems, device set ups of microwave",
+          "topics": "measurement devices and Identify the effect of radiations on environmental sustainability.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304183",
+      "title": "Database Management",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to DBMS",
+          "topics": "(07 Hrs.) Introduction to Database Management Systems, Purpose of Database Systems, Database-System Applications, Data Abstraction and Database System Structure. Relational Model: Structure of relational databases, Domains, Relations, Relational algebra – fundamental operators and syntax, relational algebra queries, tuple relational calculus. Entity-Relationship model: Basic Concepts, Entity Set, Relationship Sets and Weak Entity Sets, Mapping Cardinalities, Keys, E-R diagrams, Design Issues, Extended E-R Features, Converting E-R & EER diagram into tables. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Ability to implement the underlying concepts of a database system.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Relational Database Design",
+          "topics": "(06 Hrs.) Basic concepts, CODD's Rules, Relational Integrity: Domain, Referential Integrities, Enterprise Constraints. Database Design: Features of Good Relational Designs, Normalization, Atomic Domains and First Normal Form, Decomposition using Functional Dependencies, Algorithms for Decomposition, 2NF, 3NF, 4NF and BCNF. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Design and implement a database schema for a given problem",
+          "topics": "domain using data model.",
+          "hours": null
+        },
+        {
+          "title": "Basics of SQL",
+          "topics": "(07 Hrs.) DDL, DML, DCL, Structure: Creation, Alteration, Defining constraints – Primary key, Foreign key, Unique key, Not null, Check, IN operator, Functions - Aggregate Functions, Built-in Functions – Numeric, Date, String Functions, Set operations, sub- queries, correlated subqueries, Use of group by, having, order by, join and its types, Exist, Any, All, view and its types. Transaction control commands : Commit, Rollback, Save- point PL/SQL Concepts: Cursors, Stored Procedures, Stored Function, Database Triggers. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Formulate, using SQL/DML/DDL commands, solutions to a wide",
+          "topics": "range of query and update problems.",
+          "hours": null
+        },
+        {
+          "title": "Database Transactions Management",
+          "topics": "(07 Hrs.) Basic concepts of a Transaction, Transaction Management, Properties of Transactions, Concept of Schedule, Serial Schedule, Serializability: Conflict and View, Cascaded Aborts, Recoverable and Non- recoverable Schedules, Concurrency Control: Need, Locking Methods, Deadlock handling and Time- stamp based Protocols. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Implement transactions, concurrency control, and be able to do",
+          "topics": "Database recovery.",
+          "hours": null
+        },
+        {
+          "title": "Parallel Databases",
+          "topics": "(06 Hrs.) Introduction to Database Architectures: Multi-user DBMS Architectures, Case study- Oracle Architecture. Parallel Databases : Performance Parameters for Parallel Databases, Types of Parallel Database Architecture, Evaluating Parallel Query in Parallel Databases and Virtualization on Multicore processors. Mapping o f Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Able to understand various Parallel Database Architectures and",
+          "topics": "applications.",
+          "hours": null
+        },
+        {
+          "title": "Distributed Databases",
+          "topics": "(07 Hrs.) Distributed Databases: Distributed Database Management System, Factors Encouraging DDBMS, Advantages of Distributed Databases, Types of Distributed Databases, Architecture of Distributed Databases, Distributed Database Design, Distributed Data Storage, and Distributed Transaction: Basics, Failure modes, Commit Protocols, Concurrency Control in Distributed Database. Mapping o f Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Able to understand various Distributed Databases and its",
+          "topics": "applications.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304184",
+      "title": "Microcontrollers",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Microcontroller Architecture",
+          "topics": "(06 Hrs.) Difference between microprocessor and microcontroller Introduction to the Microcontroller classification, Feature and block diagram of 8051 and explanation, Program Status Word (PSW), 8051. Overview of Instruction set, memory organization, Interrupt structure, timers and its modes, Serial communication: concept of baud rate, Data transmission and reception using Serial port. Sample programs of data transfer, Delay using Timer (0&1) and interrupt, Data transmission and reception using Serial port. I/O Port Programming, All programs in C language. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Understand the fundamentals of microcontroller and programming",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "IO Port Interfacing-I",
+          "topics": "(06 Hrs.) Pin diagram and its functioning Port structure, IO Interfacing Requirements, Interfacing of: LEDS, Keys, 7- segment multiplexed display, DAC 0808, ADC 0809 Stepper motor, Relay, Buzzer, Opto-isolators, \\ Design of Data acquisition System (DAS): All programs in C language Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Interface various electronic components with microcontrollers",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "PIC 18F XXXX Microcontroller Architecture",
+          "topics": "(06 Hrs.) Comparison of PIC family, Criteria for Choosing Microcontroller, features, PIC18FXX architecture with generalized block diagram. MCU, Program and Data memory organization, Bank selection using Bank Select Register, Pin out diagram, Reset operations, Watch Dog Timers, Configuration registers and oscillator options (CONFIG), Power down modes , Brief summary of Peripheral support, Overview of instruction set. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Analyze the features of PIC18F XXXX",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Peripheral Support in PIC 18FXXXX",
+          "topics": "(06 Hrs.) Timers and its Programing (mode 0 &1), Interrupt Structure of PIC18F with SFR, PORTB change Interrupts, use of timers with interrupts, CCP modes: Capture, Compare and PWM generation, DC Motor speed control with CCP, Block diagram of in-built ADC with Control registers, Sensor interfacing using ADC: All programs in embedded C. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Describe the programming details in peripheral support",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Real Word Interfacing With 18FXXXX",
+          "topics": "(06 Hrs.) Port structure with programming, Interfacing of LED, LCD and Key board, Motion Detectors, DAC for generation of waveform, Design of PIC test Board and debugging, Home protection System: All programs in embedded C. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Develop interfacing models according to applications",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Serial Port Programming interfacing with",
+          "topics": "18FXXXX (06 Hrs.) Basics of Serial Communication Protocol: Study of RS232, RS 485, I2C, SPI, MSSP structure (SPI & I2C), USART (Receiver and Transmitter), interfacing of RTC (DS1307) with I2C and EEPROM with SPI. Design of Traffic Light Controller; All programs in embedded C. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Evaluate the serial communication details and interfaces",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304303 (A)",
+      "title": "Electronic Measurements (Elective - I)",
+      "semester": 5,
+      "type": "Elective - I",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Basics of Measurements",
+          "topics": "(06 Hrs.) Units Systems, Standards, Measurement system characteristics (static and dynamic), Statistical metrics in measurement systems, probability of errors, Calibration of measurement system. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Understand the metrics for the measurement system.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Electronics Measurements",
+          "topics": "(07 Hrs.) Voltage & current measurement, Digital Voltmeter (DVM), types of DVM, Digital Multi meter, true r.m.s. voltmeter, Vector voltmeter, Impedance meter, Q-meter, Harmonic Distortion analyzers, Wave analyzer, Spectrum Analyzer, Network Analyzer, Logic Analyzer. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Select and use the instruments for measurement & analysis of basic",
+          "topics": "electronic parameters.",
+          "hours": null
+        },
+        {
+          "title": "Signal Generators",
+          "topics": "(06 Hrs.) Audio, RF, Micro wave signal generators, Frequency synthesis techniques, Synthesizers, digital signal generators, Noise generators, characteristics of Pulse, signal and noise. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Identify and use different signal generators for specific",
+          "topics": "applications.",
+          "hours": null
+        },
+        {
+          "title": "Special purpose CRO",
+          "topics": "(07 Hrs.) Dual trace CRO, DSO, Sampling CRO, curve Tracer, Power Oscilloscopes, Delayed sweep CRO, Component Test, Z-modulation and X-Y mode operations, Measurements on oscilloscope, Oscilloscope accessories. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Understand the principles of different Oscilloscopes for specific",
+          "topics": "applications.",
+          "hours": null
+        },
+        {
+          "title": "Display devices, Recorders and universal",
+          "topics": "counter / Timer (06 Hrs.) LCD Display, LED/OLED Display, Plasma Display, X-Y Plotters, Strip Chart Recorders, Universal counter/ Timers (for time period, time interval, frequency, frequency ratio and pulse measurement ), Communication buses PC / instruments ( EIA/TIA 232, 423, 422, 488), Internal & external acquisition cards. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Identify the use of other display devices, recorders and",
+          "topics": "timer/counter in measurement system.",
+          "hours": null
+        },
+        {
+          "title": "Advanced measurement systems",
+          "topics": "(06 Hrs.) Automatic Test Equipments, Microwave measurements using Network Analyzer, EMI/EMC test instruments, OTDR, Field Strength Meter, Industrial revolutions & their impact on Industrial Automation, Case study of Electronics Measurement Systems ( e.g. DSO, Multi trace CRO, Spectrum Analyzer, Logic Analyzer) Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Use the advanced measurement systems for electronics parameter",
+          "topics": "measurement.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304303 (B)",
+      "title": "Fundamentals of JAVA Programming (Elective - I)",
+      "semester": 5,
+      "type": "Elective - I",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "JAVA Fundamentals",
+          "topics": "(08 Hrs.) Review of Object oriented concepts, Evolution of Java, Comparison of Java with other programming languages, Java features, Java and World Wide Web, Java Run Time Environment. JVM architecture. Overview of Java Language, Simple Java Program, Java Program Structure. Installing and Configuring Java. Java Tokens, Java Statements, Constants, variables, data types. Declaration of variables, Giving values to variables, Scope of variables, arrays, Symbolic constants, Typecasting, Getting values of variables, Standard default values, Operators, Expressions, Type conversion in expressions, Operator precedence and associatively, Mathematical functions, Control statements- Decision making & looping. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Understand the basic principles of Java programming language.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Classes and Objects",
+          "topics": "(06 Hrs.) Class Fundamentals, Creating Objects, Accessing Class members, Assigning Object reference variables, Methods, Constructors, using objects as parameters, Argument passing, returning objects, Method Overloading, static members, Nesting of Methods , this keyword, Garbage collection, finalize methods, , final variables and methods, final class. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Apply the concepts of classes and objects to write programs in Java",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Methods & Inheritance in JAVA",
+          "topics": "(06 Hrs.) Abstract Methods and classes, Strings, O n e dimensional and two dimensional arrays, wrapper classes, enumerated types, Command line arguments Inheritance: Inheritance in Java, Creating Multilevel hierarchy, Constructors in derived class, Method overriding, Dynamic method dispatch. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Demonstrate the concepts of methods & Inheritance.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Interfaces & Packages",
+          "topics": "(06 Hrs.) Interfaces: Define, implement and extend, Accessing Interface variables, Default interface methods, Using static method in interface. Packages: Java API Packages, Using System Packages, Creating accessing and using a package, Importing packages, Adding a class to a Package, Hiding classes. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Use the concept of interfaces & packages for program implementation.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Multithreading & Exception Handling",
+          "topics": "(06 Hrs.) Introduction to multithreading: Introduction, Creating thread and extending thread class. Concept of Exception handling: Introduction, Types of errors, Exception handling syntax, Multiple catch statements. I/O basics, Reading console inputs, Writing Console output. Applets: Concepts of Applets, differences between applets and applications, life cycle of an applet, types of applets, creating a simple applet. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Understand multithreading and Exception handling in Java to develop",
+          "topics": "robust programs",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304303 (C)",
+      "title": "Computer Networks (Elective - I)",
+      "semester": 5,
+      "type": "Elective - I",
+      "credits": 3,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Data Link Layer",
+          "topics": "(06 Hrs.) Savitribai Phule Pune University Third Year of Electronics and Communication Engineering (Advanced Communication Technology) (2019 Course) 304303 (C): Computer Networks (Elective - I) Teaching Scheme: Credit Examination Scheme: Theory: 03 hrs. / week 03 In-Sem (Theory): 30 Marks End Sem (Theory): 70 Marks Prerequisite Courses, if any: 1. Principles of Communication Systems 2. Digital Communication Companion Course, if any: Computer Networks Lab Course Objectives:  To understand the concepts of networking, its standards and protocols.  To learn controlling techniques in networking at different layers.  To learn protocols at different layers of reference model.  To understand routing and networking in inter and intra domain.  To learn network programming.  To understand applications, protocols and its implication in networks. Course Outcomes: On completion of the course, learner will be able to - CO1: Design LAN using appropriate networking architecture, topologies, transmission media, and networking devices. CO2: Understand the working of controlling techniques for flawless data communication using data link layer protocols. CO3: Learn the functions of network l...",
+          "hours": null
+        },
+        {
+          "title": "Basics of Network & Physical Layer",
+          "topics": "(07 Hrs.) Types of networks, Network topologies, Design issues for Layers, Network models, OSI model & TCP / IP protocol suite, Types of addressing. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Design LAN using appropriate networking architecture, topologies,",
+          "topics": "transmission media, and networking devices. Data link control, Framing, Flow and error control, Protocols for Noiseless, and Noisy Channels, HDLC, Point to Point Protocol, Media Access Control: Random Access, Controlled Access- Reservation, Channelization protocols. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Understand the working of controlling techniques for flawless data",
+          "topics": "communication using data link layer protocols",
+          "hours": null
+        },
+        {
+          "title": "Network Layer -I",
+          "topics": "(07 Hrs.) Introduction to Network Layer: Network-Layer Services, Circuit switching, Packet Switching, Network-Layer Performance, IPv4 Addresses, Forwarding of IP Packets, Network Layer Protocols: Internet Protocol (IP), ICMPv4, Next Generation IP: IPv6 Addressing, The IPv6 Protocol, The ICMPv6 Protocol, Transition from IPv4 to IPv6. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Learn the functions of network layer, various switching techniques and",
+          "topics": "internet protocol addressing.",
+          "hours": null
+        },
+        {
+          "title": "Network Layer - II",
+          "topics": "(07 Hrs.) Unicast & Multicast Routing: Introduction, Routing Algorithms, Unicast Routing Protocols, Introduction, Multicasting Basics, Intra-domain Multicast Protocols, Inter-domain Multicast Protocols, IGMP Distance Vector, Link State, Path Vector, Routing in Internet: RIP, OSPF, BGP. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Explore various interior and exterior, unicasting and multicasting",
+          "topics": "protocols.",
+          "hours": null
+        },
+        {
+          "title": "Transport Layer",
+          "topics": "(06 Hrs.) Introduction to transport layer, User Datagram Protocol, Transmission Control Protocol, TCP Congestion Policy, Stream Control Transmission Protocol, Congestion control and QoS, socket programing . Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Analyze data flow using TCP/UDP Protocols, congestion control",
+          "topics": "techniques for QoS.",
+          "hours": null
+        },
+        {
+          "title": "Application Layer",
+          "topics": "(05 Hrs.) Introduction to Application Layer, Standard Client Server Protocols: World Wide Web and HTTP, Telnet, FTP, Email, SMTP, IMAP, POP, DNS, BOOTP, DHCP. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Illustrate the use of protocols at application layer.",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304303 (D)",
+      "title": "Network Security (Elective-I)",
+      "semester": 5,
+      "type": "Elective - I",
+      "credits": 3,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Attacks on Computers and Computer",
+          "topics": "Security (06 Hrs.) Introduction, The need for security, Security approaches, Principles of security, Types of Security attacks, Security services, Security Mechanisms, A model for Network Security Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Analyze attacks on computers and computer security.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Cryptography-Concepts and Techniques",
+          "topics": "(06 Hrs.) Introduction, plain text and cipher text, substitution techniques, transposition techniques, encryption and decryption, symmetric and asymmetric key cryptography, stenography, key range and key size, possible types of attacks. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Demonstrate knowledge of cryptography techniques.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Symmetric and Asymmetric key for Ciphers",
+          "topics": "(08 Hrs.) Block Cipher principles & Algorithms (DES, AES, Blowfish), Differential and Linear Crypt analysis, Block cipher modes of operation, Stream ciphers, RC4, Location and placement of encryption function, Key distribution, Asymmetric key Ciphers, Principles of public key crypto systems, Algorithms (RSA, Diffie- Hellman, ECC), Key Distribution. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Illustrate various Symmetric and Asymmetric keys for Ciphers.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Message Authentication Algorithms and Hash",
+          "topics": "Functions (07 Hrs.) Authentication requirements, Functions, Message authentication codes, Hash Functions, Secure hash algorithm, HMAC, CMAC, Digital signatures, knapsack algorithm, Authentication Applications such as Kerberos, X.509 Authentication Service, Public – Key Infrastructure, Biometric Authentication. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Evaluate different Message Authentication Algorithms and Hash",
+          "topics": "Functions.",
+          "hours": null
+        },
+        {
+          "title": "E-Mail Security",
+          "topics": "(06 Hrs.) Pretty Good Privacy, S/MIME, IP security overview, IP Security architecture, Authentication Header, Encapsulating , Security payload, Combining security associations, Key management Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Get acquainted with various aspects of E-Mail Security",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Web Security",
+          "topics": "(07 Hrs.) Web security considerations, Secure Socket Layer and Transport Layer Security, Secure electronic transaction, Intruders, Intrusion detection, password management, virus and related threats, Countermeasures, Firewall design principles, types of firewalls, Secure Inter-branch Payment Transactions, Cross site Scripting Vulnerability, Virtual E lections. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Assimilate various aspects of Web Security",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304304",
+      "title": "Communication Engineering Lab-I",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "304305",
+      "title": "Database Management Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        31,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "304306",
+      "title": "Microcontroller Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        33,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "304307 (A)",
+      "title": "Electronic Measurements Lab (Elective-I)",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        34,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "304307 (B)",
+      "title": "Fundamentals of JAVA Programming Lab (Elective - I)",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "304307 (C)",
+      "title": "Computer Networks Lab (Elective – I)",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        37,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "304307 (D)",
+      "title": "Network Security Lab (Elective – I)",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        38,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "304308",
+      "title": "Skill Development",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        39,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "304191 (A)",
+      "title": "Mandatory Audit Course - 5",
+      "semester": 5,
+      "type": "Mandatory Audit Course",
+      "credits": null,
+      "pages": [
+        43,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "304309",
+      "title": "Optical Fiber Communication",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        46,
+        49
+      ],
+      "units": [
+        {
+          "title": "Optical Fibers for Telecommunication 8 Hrs.",
+          "topics": "Fundamentals of Optical Communication: EM spectrum - Optical Spectral bands, Shannon channel capacity, power units (watts, dB & dBm), Block diagram of optical fiber communications link, advantages of optical fibers. Optical Fiber Waveguides: Introduction, Total internal reflection, acceptance angle, numerical aperture, fiber types, mode theory for circular waveguides: overview of modes & key modal concepts (V number, number of modes, power in clad), single mode fibers, cutoff wavelength Transmission characteristics of optical fibers: attenuation - material absorption, scattering losses, fiber bend loss, loss due to fiber misalignment, splices and connectors; signal distortion - intermodal delay, intramodal dispersion or chromatic dispersion, modal delay, bit rate-distance product, plot of material & waveguide dispersions for standard single mode, dispersion shifted and dispersion flattened fibers; optical fibers for 5G networks, comparison. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Explain the working of components and measurement equipment in optical",
+          "topics": "fiber networks. CO2: Calculate the important parameters associated with optical components used in fiber optic telecommunication systems. CO3: Compare and contrast the performance of major components in optical links.",
+          "hours": null
+        },
+        {
+          "title": "Optical Sources 7 Hrs.",
+          "topics": "Optical Sources: Introduction, wavelength and material consideration (direct & indirect bandgap semiconductors); requirements from optical sources for telecommunication. LED: principle of working, quantum efficiency, optical output power characteristics, spectral width, effect of temperature on characteristics, modulation bandwidth, analog modulation, digital modulation, LED analog transmitter; Semiconductor Laser Diodes: absorption, spontaneous emission, stimulated emission, concept of population inversion and optical feedback, output power characteristics of LASER; Bias point and amplitude modulation range for analog applications of LEDs & laser diodes, comparison of LEDs & Lasers. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Explain the working of components and measurement equipment in optical",
+          "topics": "fiber networks. CO2: Calculate the important parameters associated with optical components used in fiber optic telecommunication systems. CO3: Compare and contrast the performance of major components in optical links.",
+          "hours": null
+        },
+        {
+          "title": "Photodetectors 6 Hrs.",
+          "topics": "Introduction, requirements from optical detectors, material considerations, types: p-n, pin, Avalanche photodiode, photo transistor, principle of working, quantum efficiency, responsivity, long cutoff wavelength, detector response time, comparison of photodetectors, thermal noise, dark current noise, quantum noise and receiver sensitivity, bit error rate Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Explain the working of components and measurement equipment in optical",
+          "topics": "fiber networks. CO2: Calculate the important parameters associated with optical components used in fiber optic telecommunication systems. CO3: Compare and contrast the performance of major components in optical links.",
+          "hours": null
+        },
+        {
+          "title": "Fiber Optic Link Design & WDM Systems 8 Hrs.",
+          "topics": "Point to point optical link: Choice of components, system design considerations, optical power budget, rise time budget, bit rate for RZ and NRZ pulse format. Optical system design and performance analysis using software tools. WDM Concepts & Components: Overview of WDM, WDM components: 2 x 2 fiber coupler, isolator, circulator, basics of fiber grating filters, optical add/drop multiplexer, architecture of optical amplifiers (SOA, EDFA & FRA), Noise figure, OSNR & system impact of ASE. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Explain the working of components and measurement equipments in",
+          "topics": "optical fiber networks. CO4: Evaluate the performance viability of optical links using the power and rise time budget analysis. CO5: Design digital optical link by proper selection of components and check its viability using simulation tools.",
+          "hours": null
+        },
+        {
+          "title": "Optical Networks 7 Hrs.",
+          "topics": "Optical Network concepts: fundamentals, network terminology, desirable properties, elements of an optical network, optical network topology types, advantages of optical network. Overview of Optical Networks: FDDI, SONET/SDH, FTTX, FTTP, FTTH, PON, GPON, Long haul, Metro, Access, Submarine optical networks, role of fiber optic network in the 5G networks. Current technology trends, standards and challenges. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Compile technical information related to the state of art components,",
+          "topics": "standards, simulation tools and current technological trends by accessing the online resources to update their domain knowledge.",
+          "hours": null
+        },
+        {
+          "title": "Optical Fiber Measurements 6 Hrs.",
+          "topics": "Overview of Measurement Standards for fiber optics: Test Equipments for field work: Test support lasers, visual fault indicator, optical power meter, Optical Time Domain Reflectometry (OTDR), optical spectrum analyzer (OSA), BER test equipment Measurements: measurement of: optical power, numerical aperture of fiber, fiber attenuation (cutback method, insertion loss method, OTDR), macrobending loss, fiber dispersion System performance evaluation: Eye Diagram Test, study of OTDR. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Explain the working of components and measurement equipment in optical",
+          "topics": "fiber networks. CO6: Compile technical information related to state of art components, standards, simulation tools and current technological trends by accessing the online resources to update their domain knowledge.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304193",
+      "title": "Project Management",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        50,
+        53
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Project Management",
+          "topics": "(06 Hrs.) Basics of Project Management: Definition of Project, The Project Life Cycle, Definition of project management, Need of Project management, Project Management process and its importance, The Project Manager (PM), Phases of Project Management Life Cycle, Project Management Processes, Impact of Delays in Project Completions, Essentials of Project Management Philosophy, Project Management Principles. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Apply the fundamental knowledge of project management for effectively",
+          "topics": "handling the projects.",
+          "hours": null
+        },
+        {
+          "title": "Project Identification, Selection & Planning",
+          "topics": "(06 Hrs.) Project Identification and Selection: Introduction, Project Identification Process, Project Initiation, Pre- Feasibility Study, Feasibility Studies, Project Break-even point. Project Planning: Introduction and need for Project Planning, Project Life Cycle, Roles, Responsibility and Team Work, Project Planning Process, Work Breakdown Structure (WBS) Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Identify and select the appropriate project based on feasibility study",
+          "topics": "and undertake its effective planning.",
+          "hours": null
+        },
+        {
+          "title": "Project Organizational structure & Issues",
+          "topics": "(07 Hrs.) Organizational Structure and Organizational Issues: Introduction, Concept of Organizational Structure, Roles and Responsibilities of Project Leader, Relationship between Project Manager and Line Manager, Leadership Styles for Project Managers, Conflict Resolution, Team Management and Diversity Management, Change management Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Assimilate effectively within the organizational structure of project",
+          "topics": "and handle project management related issues in an efficient manner.",
+          "hours": null
+        },
+        {
+          "title": "Project Scheduling",
+          "topics": "(07 Hrs.) PERT and CPM: Introduction, Development of Project Network, Time Estimation, Determination of the Critical Path, PERT Model, Measures of variability, CPM Model, Network Cost System Resources Considerations in Projects: Introduction, Resource Allocation, Scheduling, Project Cost E stimate and Budgets, Cost Forecasts Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Apply the project scheduling techniques to create a Project Schedule",
+          "topics": "plan and accordingly utilize the resources to meet the project deadline.",
+          "hours": null
+        },
+        {
+          "title": "Project Risk & Financial Management",
+          "topics": "(08 Hrs.) Project Risk Management: Introduction, Risk, Risk Management, Role of Risk Management in Overall Project Management, Steps in Risk Management, Risk Identification, Risk Analysis, Reducing Risks Introduction to Project Management Tools such as: Trello, JIRA and Asana. Financial Management in Projects: Project Finance structure, Process of Project Financial Management: Conducting Feasibility Studies, Planning the Project Finance, Arranging the Financial Package, Controlling the Financial Package, Controlling Financial Risk, Options Models. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Identify and assess the project risks and manage finances in line with",
+          "topics": "Project Financial Management Process.",
+          "hours": null
+        },
+        {
+          "title": "Product Development & Entrepreneurship",
+          "topics": "(08 Hrs.) Product Development: Introduction, Development Process and organizations, product planning, identifying customer needs, Product Significations, concept generation, selection, testing, Design for Manufacturing, Prototyping, Robust Design Entrepreneurship: Concept, knowledge, and skills requirement; characteristic of successful entrepreneurs; entrepreneurship process; factors impacting emergence of entrepreneurship Legal issues related to Product development and Entrepreneurship: Intellectual property rights- patents, trademarks, copyrights, trade secrets, licensing, franchising. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Develop new products assessing their commercial viability and",
+          "topics": "develop skillsets for becoming successful entrepreneurs while being fully aware of the legal issues related to Product development and Entrepreneurship.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304310",
+      "title": "Information Theory and Coding Techniques",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        54,
+        56
+      ],
+      "units": [
+        {
+          "title": "Information Theory & Source Coding",
+          "topics": "(06 Hrs.) Introduction to information theory, Entropy and its properties, Source coding theorem, Huffman coding, Shannon-Fano coding, The Lempel Ziv algorithm, Run Length Encoding, Discrete memory less channel, Mutual information, Examples of Source coding-Audio and Video Compression. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Perform information theoretic analysis of communication system.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Information Capacity & Channel Coding",
+          "topics": "(08 Hrs.) Channel capacity, Channel coding theorem, Differential entropy and mutual Information for continuous ensembles, Information Capacity theorem, Linear Block Codes: Syndrome and error detection, Error detection and correction capability, Standard array and syndrome decoding, Encoding and decoding circuit, Single parity check codes, Repetition codes and dual codes, Hamming code, Golay Code, Interleaved code. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Design a channel coding scheme for a communication system .",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Cyclic Codes",
+          "topics": "(06 Hrs.) Galois field, Primitive element & Primitive polynomial, Minimal polynomial and generator polynomial, Description of Cyclic Codes, Generator matrix for systematic cyclic code, Encoding for cyclic code, Syndrome decoding of cyclic codes, Circuit implementation of cyclic code. Mapping o f Cours e Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Understand the error detection and correction capacity for Cyclic",
+          "topics": "code.",
+          "hours": null
+        },
+        {
+          "title": "BCH and Convolutional Codes",
+          "topics": "(08 Hrs.) Binary BCH code, Generator polynomial for BCH code, Decoding of BCH code, RS codes, generator polynomial for RS code, Decoding of RS codes, Cyclic Hamming code and Golay code. Introduction of convolution code, State diagram, Tree diagram, Trellis diagram, Sequential decoding and Viterbi decoding. Mapping o f Cours e Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Understand and Design BCH codes for varying error correction capacity and compare the performance with RS codes.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Data Communication & Physical Layer",
+          "topics": "(09 Hrs.) Data Communications: Networks, Network models, OSI model, Layers in OSI model, TCP / IP protocol suite, Addressing, Guided and Unguided Transmission media. Data link control: Framing, Flow and error control, Protocols for Noiseless and Noisy Channels - HDLC.",
+          "hours": null
+        },
+        {
+          "title": "Information Theory and coding applications",
+          "topics": "and case study (07 Hrs.) Channel coding techniques for 5G wireless networks, LDPC and Polar codes Codes, Advantages, and drawbacks of LDPC codes and Polar codes. Quasi Cyclic LDPC code. Case study: LDPC (low density parity check) Codes in many of the standards including mMTC (massive machine type communication) and D2D (device to device communication) Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: To apply LDPC codes to 5G wireless networks for given",
+          "topics": "specification.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304311(A)",
+      "title": "Smart Antennas (Elective - II)",
+      "semester": 6,
+      "type": "Elective-II",
+      "credits": 3,
+      "pages": [
+        57,
+        59
+      ],
+      "units": [
+        {
+          "title": "Radiating Elements and Array 8 Hrs.",
+          "topics": "Comparison of various radiating elements- Infinitesimal dipole, small dipole, finite length dipole, half wave length dipole, and analytical treatment of these elements. Types of Array antenna, two element array, N-element array, Uniform amplitude-uniformed spaced linear broadside and end fire array. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Compare various linear wire antenna and uniform array in terms",
+          "topics": "of antenna parameters and analyze them based on the current distribution and identify an appropriate wire antenna for given application.",
+          "hours": null
+        },
+        {
+          "title": "Microstrip and Reconfigurable Antenna 6 Hrs.",
+          "topics": "Microstrip antenna: Introduction, feeding techniques, Fractal antenna and array. Re-configurable Antenna: Classification of re-configurable antenna, Re-configurable techniques, Multiple Re-configurable features in antenna. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Classify Microstrip & re-configurable antenna and techniques.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Smart Antennas 8 Hrs.",
+          "topics": "Introduction, Need for Smart Antennas, Overview: Smart Antenna Configurations, Switched-Beam Antennas, Adaptive Antenna Approach, beam steering, degree of freedom. Architecture of a Smart Antenna System: Transmitter and Receiver, Types of Smart Antennas, Benefits and Drawbacks of Smart Antennas, Mutual Coupling Effects, Applications of Smart Antennas. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Describe smart antenna systems and discuss the beam steering and",
+          "topics": "mutual coupling effects.",
+          "hours": null
+        },
+        {
+          "title": "Direction of Arrival Estimation",
+          "topics": "(DOA) Methods 6 Hrs. Spectral estimation methods, linear prediction method, Maximum entropy method, Maximum likelihood method, Eigen structure methods, MUSIC algorithm – root music and cyclic music algorithm, the ESPRIT algorithm. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Explain DOA estimation methods and classify.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Beam Forming Methods 6 Hrs.",
+          "topics": "Classical Beam former, Statistically Optimum Beam-forming Weight Vectors, Maximum SNR Beam former, Multiple Sidelobe Canceler and Maximum, SINR Beam former, Minimum Mean Square Error (MMSE), Direct Matrix Inversion (DMI), Linearly Constrained Minimum Variance (LCMV), Adaptive Algorithms for Beam forming. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Classify the beam forming methods.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "MIMO Antennas 6 Hrs.",
+          "topics": "Introduction, Principles of MIMO systems: SISO, SIMO, MISO MIMO, Hybrid antenna array for mm Wave, massive MIMO: concept and applications. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Describe and Compare MIMO systems.",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304311 (B)",
+      "title": "Advanced JAVA Programming (Elective - II)",
+      "semester": 6,
+      "type": "Elective-II",
+      "credits": 3,
+      "pages": [
+        60,
+        62
+      ],
+      "units": [
+        {
+          "title": "Applet",
+          "topics": "(06 Hrs.) Applet Basics – Introduction, limitations of AWT, Applet architecture – HTML APPLET tag – Passing parameter to Appletget, DocumentBase() and getCodeBase() , Japplet: Icons and Labels Text Fields Buttons, Combo Boxes , Checkboxes, Tabbed Panes, Scroll Panes, Trees: Tables Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Design and develop GUI applications using Applets.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Event Handling using AWT/Swing components",
+          "topics": "(08 Hrs.) Event Handling: Events, Event sources, Event classes, Event Listeners, Delegation event model, handling mouse and keyboard events, Adapter classes, inner classes. The AWT class hierarchy, user interface components- labels, button, canvas, scrollbars, text components, checkbox, checkbox groups, choices, lists panels – scroll pane, dialogs, menu bar, graphics, layout manager – layout manager types – boarder, grid, flow, card and grib bag. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Apply relevant AWT/ swing components to handle the given event.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "GUI Programming",
+          "topics": "(06 Hrs.) Designing Graphical User Interfaces in Java, Components and Containers, Basics of Components, Using Containers, Layout Managers, AWT Components, Adding a Menu to Window, Extending GUI Features Using Swing Components, Java Utilities (java.util Package) The Collection Framework: Collections of Objects, Collection Types, Sets, Sequence, Map, Understanding Hashing, and Use of Array List & Vector. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Design and develop GUI applications using Abstract Windowing Toolkit",
+          "topics": "(AWT), Swing and Event Handling.",
+          "hours": null
+        },
+        {
+          "title": "Database Programming using JDBC",
+          "topics": "(06 Hrs.) The Concept of JDBC, JDBC Driver Types & Architecture, JDBC Packages, A Brief Overview of the JDBC process, Database Connection, Connecting to non-conventional Databases Java Data Based Client/server, Basic JDBC program Concept, Statement, Result Set, Prepared Statement, Callable Statement, Executing SQL commands, Executing queries Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Learn to access database through Java programs, using Java Database",
+          "topics": "Connectivity (JDBC).",
+          "hours": null
+        },
+        {
+          "title": "Remote Method Invocation",
+          "topics": "(RMI) (06 Hrs.) Remote Method Invocation: Architecture, RMI registry, the RMI Programming Model; Interfaces and Implementations; Writing distributed application with RMI, Naming services, Naming and Directory Services, Setting up Remote Method Invocation – RMI with Applets, Remote Object Activation; The Roles of Client and Server, Simple Client/Server Application using RMI. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Invoke the remote methods in an application using Remote Method",
+          "topics": "Invocation (RMI)",
+          "hours": null
+        },
+        {
+          "title": "Networking",
+          "topics": "(08 Hrs.) The java.net package, Connection oriented transmission – Stream Socket Class, creating a Socket to a remote host on a port (creating TCP client and server), Simple Socket Program Example. InetAddress, Factory Methods, Instance Methods, Inet4Address and Inet6Address, TCP/IP Client Sockets. URL, URLConnection, HttpURLConnection, The URI Class, Cookies, TCP/IP Server Sockets, Datagrams, DatagramSocket, DatagramPacket, A Datagram Example. Connecting to a Server, Implementing Servers, Sending Email, Servlet overview – the Java web server – The Life Cycle of a Servlet, your first servlet. Mapping o f Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Develop program for client /server communication using Java",
+          "topics": "Networking classes.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304311 (C)",
+      "title": "Sensors and Actuators (Elective -II)",
+      "semester": 6,
+      "type": "Elective-II",
+      "credits": 3,
+      "pages": [
+        63,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to Sensors &Transducers",
+          "topics": "(06 Hrs.) Concept of Sensor, Concept of Transducer, Comparison between Sensors and Transducers , Role of Sensors in Automation, Broad Classification of Sensors and Transducers, Role of Transducer in measurement Systems, Block Diagram Measurement system, Study of Static and Dynamic Characteristics of Measurement Systems: Accuracy, Precision, Reproducibility, Linearity, repeatability, resolution, Sensitivity, Range, Span, Dead Zone, Hysteresis, Backlash, Dynamic Characteristics: Fidelity, Time response and frequency response, Classification of errors – Error analysis. Concept a nd Basic Principle of working of Resistive, Capacitive and Inductive sensors. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: Understand the concepts of Sensors / Transducers, classify and evaluate",
+          "topics": "static and Dynamic Characteristics of Measurement Systems.",
+          "hours": null
+        },
+        {
+          "title": "Sensors for Temperature",
+          "topics": "and Humidity Measurement (06 Hrs.) Temperature Measurement: Units of Temperature Measurement / Temp Measurement Scales; Celsius Scale, Fahrenheit Scale, Kelvin Scale, Rankine Scale-",
+          "hours": null
+        },
+        {
+          "title": "onversions Broad Classification of Temperature",
+          "topics": "Transducers, RTD (e.g.PT-100), Thermocouple, Thermistors, Optical Fiber Sensors. (Basic Principle of Working, Selection Criteria, Signal Conditioning (e.g Instrumentation Amplifier . DC bridge: Wheatstone bridges, AC Bridge: Wein Bridge, Schering Bridge, Signal Conditioning: 2 Wire, 3- Wire and 4-Wire Compensation. IR Temperature Sensor: Non-Contact Human Body Infrared Temperature Measurement Module. Humidity: Hygrometer, Soil Humidity Sensor. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: Choose the proper sensor comparing different standards and",
+          "topics": "guidelines for measurements of Temperature and Humidity.",
+          "hours": null
+        },
+        {
+          "title": "Sensors for Force, Pressure, Stress and Flow",
+          "topics": "(06 Hrs.) (Basic Principle of Working, Selection Criteria, Installation and Calibration, Signal Conditioning) • Pressure scales: Newton, Bar, Pascal, PSI -",
+          "hours": null
+        },
+        {
+          "title": "onversions",
+          "topics": "• Absolute, Gauge and Vacuum Pressure Classification of Pressure sensors: Strain gauge (Load Cell using Strain gauge), Piezoelectric Transducer, Solid State Pressure Sensors. Differential Pressure Transducer flow measurement. (only Mention of basic Principle of working, Bernoulli's theorem), Orifice, Venturi, Nozzle flow meter (only Descriptive), Pneumatic sensors (bellows, diaphragm), Ultrasonic and Hall effect Sensors for flow Measurement. Solid State Flow Sensors: Fiber-Optic Sensors. Mapping o f Cours e Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: Choose the proper sensor comparing different standards and",
+          "topics": "guidelines for measurements of Force, Pressure, Stress and Flow.",
+          "hours": null
+        },
+        {
+          "title": "Sensors for Displacement, Vibration,",
+          "topics": "Acceleration and Level (06 Hrs.) (Basic Principle of Working, Selection Criteria, Installation and Calibration, Signal Conditioning) Classification of Displacement Sensors: Potentiometer, Strain-gauged element, Capacitive element, Differential transformers, Eddy current proximity sensors, Inductive and Capacitive Proximity switch, Optical encoders. Pneumatic sensors ( Bellows, Diaphragm ), Hall effect sensors, Accelerometer, Gyroscope and Magnetometer, Electro-Optical Sensors, Position Encoders. Mapping o f Cours e Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: Choose the proper sensor comparing different standards and",
+          "topics": "guidelines for measurements of Displacement, Vibration, Acceleration and Level.",
+          "hours": null
+        },
+        {
+          "title": "Electrical Actuators",
+          "topics": "(06 Hrs.) Definition, types and selection of Actuators; linear; rotary; Logical and Continuous Actuators. Electrical actuating systems: Solid-state switches, Solenoids, Electric Motors- Principle of operation and its application: D.C motors - AC motors - Single phase & 3 Phase Induction Motor; Synchronous Motor; Stepper motors - Piezoelectric Actuator. Introduction of Micro actuators. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Understand basic laws and phenomena that define behavior of",
+          "topics": "actuators.",
+          "hours": null
+        },
+        {
+          "title": "Pneumatic and Hydraulic Actuation Systems",
+          "topics": "(07 Hrs.) Pneumatic and hydraulic systems, Directional Control valves, Pressure control valves, Cylinders, Servo and proportional control valves. IoT Based Case Studies: Case Study 1: IoT based Agriculture/ Greenhouse Systems (Block Diagram). Case Study 2: IoT based Automobile Sector (Engine Management System). Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: Understand Pneumatic and Hydraulic actuation Systems and",
+          "topics": "Explore IoT based applications of Sensors and Transducers.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304311(D)",
+      "title": "Power Devices and Circuits (Elective -II)",
+      "semester": 6,
+      "type": "Elective-II",
+      "credits": 3,
+      "pages": [
+        67,
+        70
+      ],
+      "units": [
+        {
+          "title": "Study of Power Devices",
+          "topics": "(06 Hrs.) Construction, VI characteristics (input, output and transfer if any), switching characteristics of SCR, GTO, Power MOSFET and IGBT, Performance overview of Silicon, Silicon Carbide & GaN based MOSFET and IGBT, various repetitive and non-repetitive ratings of SCR, GTO , Power MOSFET & IGBT and their significance, requirement of a typical triggering / driver (such as opto isolator) circuits for various power devices, importance of series and parallel operations of various power devices (no derivation and numerical). Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: To differentiate based on the characteristic parameters among SCR,",
+          "topics": "GTO, MOSFET & IGBT and identify suitability of the power device for certain applications and understand the significance of device ratings. CO2: To design triggering / driver circuits for various power devices",
+          "hours": null
+        },
+        {
+          "title": "AC to DC Power Converters",
+          "topics": "(06 Hrs.) Concept of line & forced commutation, Single phase Semi & Full converters using SCR for R and R-L loads and its performance analysis and numerical, Effect of source inductance, Significance of power factor and its improvement using PWM based techniques, Three phase Full converters using SCR for R load and its performance analysis, Single Phase PWM Rectifier using IGBT, Three Phase Controlled Rectifier Using IGBT, Difference between SCR based conventional rectifiers and IGBT based rectifiers. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: To evaluate and analyze various performance parameters of the different",
+          "topics": "converters and its topologies.",
+          "hours": null
+        },
+        {
+          "title": "DC to AC Converters",
+          "topics": "(06 Hrs.) Single phase half and full bridge square wave inverter for R and R-L load using MOSFET / IGBT and its performance analysis and numerical, Cross conduction in inverter, need of voltage control and strategies in inverters, classifications of voltage control techniques, control of voltage using various PWM techniques and their advantages, concept and need of harmonic elimination / reduction in inverters, Three Phase voltage source inverter for balanced star R load with 120 and 180 degree mode of operation, device utilization factor, Advanced Converters like matrix inverter, multi-level inverters and their topologies and its driver circuits ( no derivation and numerical). Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: To evaluate and analyze various performance parameters of the",
+          "topics": "different converters and its topologies.",
+          "hours": null
+        },
+        {
+          "title": "DC to DC Converters",
+          "topics": "(06 Hrs.) Classification of choppers, Step down chopper for R and RL load and its performance analysis, Step up chopper, various control strategies for choppers, types of choppers (isolated and non isolated) such as type A, B, C, D & E, switch mode power supply (SMPS) viz buck, boost and buck-boost, Fly back, Half and full Bridge isolated and non-isolated interleaved bidirectional topologies, and concept of integrated converter and design of LM3524 based choppers, concept of maximum power point tracking (MPPT). Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: To evaluate and analyze various performance parameters of the different",
+          "topics": "converters and its topologies.",
+          "hours": null
+        },
+        {
+          "title": "Power Devices Protection and Circuits",
+          "topics": "(06 Hrs.) Over voltage, over current, di/dt and dv/dt protection circuits and their design, Various cooling techniques and heat sink design, Resonant converters such as Zero current switching (ZCS) and Zero voltage switching ( ZVS), Electromagnetic interference such as radiated and conducted EMI, Difference between EMI and EMC, EMI sources and soft switching and minimizing / shielding techniques for EMI, Various EMI and EMC standards, Importance of isolation transformer. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: To understand significance and design of various protections circuits for",
+          "topics": "power devices.",
+          "hours": null
+        },
+        {
+          "title": "Power Electronics Applications",
+          "topics": "(06 Hrs.) AC Voltage Controller using IGBT & SCR, Fan Regulator, Electronic Ballast, LED Lamp driver, DC motor drive for single phase separately excited dc motor, BLDC motor drive, Variable voltage & variable frequency three phase induction motor drive, On-line and Off- line UPS, study of various selection criteria and performance parameters of batteries in battery operated power systems, battery charging models and modes for EVs, Architecture of EVs battery charger, PFC stage circuit topologies with details of Full-bridge boost rectifier and Full-bridge interleaved for EV battery charger, case study of power electronics in electric vehicle and photovoltaic solar system Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: To evaluate the performance of uninterruptible power supplies, switch",
+          "topics": "mode power supplies and battery. CO6: To understand case studies of power electronics in applications like electric vehicles, solar systems etc.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304311 (E)",
+      "title": "Embedded Processors (Elective - II)",
+      "semester": 6,
+      "type": "Elective-II",
+      "credits": 3,
+      "pages": [
+        71,
+        73
+      ],
+      "units": [
+        {
+          "title": "Embedded Processor Fundamentals",
+          "topics": "(06 Hrs.) Programming in Embedded C: Using C for Embedded C, data types, storage class, operators, Branching: if, else-if, Looping: for, while, do-while. Embedded System Development Environment: IDE (Introduction) types of file generated on cross- compilation, assembler, disassembler, Simulators and Debuggers. Embedded System definition, Embedded Processor definition and classification, The RISC and CISC, von Neumann and Harvard Architecture, ARM processors and its versions, features of ARM Processor Families: ARM7, ARM9 & ARM11, ARM Design Philosophy. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1: To understand basics of Embedded C Programming and usage of",
+          "topics": "Embedded C and study different software tools for programming microcontrollers.",
+          "hours": null
+        },
+        {
+          "title": "ARM7 Based Microcontroller",
+          "topics": "(08 Hrs.) ARM core data flow model, Programmers model, Registers, CPSR and SPSR, Processor modes, ARM Nomenclature. LPC2148: Features, Block Diagram and Description, System Control Block, Memory Map, System Control Block (PLL and VPB divider), Pin Connect Block, GPIO, Timer Block for Delay Generation, LPC 2148 Interfacing with LED, Switches, Relay, Interfacing LCD and keypad. Mapping o f Cours e Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2: To get acquainted with various Embedded Processor architectures",
+          "topics": "related to industrial application.",
+          "hours": null
+        },
+        {
+          "title": "Real World Interfacing with ARM7 Based",
+          "topics": "Microcontroller (06 Hrs) UART Programming for transmission and reception of characters, Interfacing the peripherals to LPC2148: GSM and GPS using UART, on-chip ADC using interrupt (VIC), EEPROM using I2C, on-chip DAC for waveform generation, Interfacing with ARM 7 with DHT 11 sensor and servomotor. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3: To Know about the programming of ARM 7 based microcontroller",
+          "topics": "with on chip peripherals and external peripherals.",
+          "hours": null
+        },
+        {
+          "title": "Introduction to ARM CORTEX M4 Based",
+          "topics": "Microcontroller (08 Hrs) Introduction to ARM CORTEX series: CORTEX A, R, M processors , Firmware development using CMSIS Standard. Introduction to ARM CORTEX M4 microprocessor core, programmer model, Processor Modes, Memory Map, Introduction Arm Cortex-M cores, STM32F4xx Architecture, ARM STM Bus Architecture, STM32F4xx Clock and SYSCLK, Peripheral Clock, PLL clock, Interrupts and Exceptions in STM32F4xx. Mapping o f Cours e Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4: To understand the architectures of ARM Cortex M4",
+          "topics": "Microcontrollers and its advantages over ARM 7 Microcontrollers.",
+          "hours": null
+        },
+        {
+          "title": "Real World Interfacing with Cortex M4 Based",
+          "topics": "Microcontroller (06 Hrs.) GPIO Programming, Interfacing seven segment LED, LDR and MQ3 sensor with STM32F4xx, STM32F4xx: Counters and Timers: Timer and Delay Generation, UART Programming, on chip ADC and On- chip DAC for waveform generation. Mapping o f Cou r s e Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5: Implement the real world programming of ARM 7 based",
+          "topics": "microcontroller with on chip peripherals and external peripherals.",
+          "hours": null
+        },
+        {
+          "title": "Case Studies with Cortex M Based",
+          "topics": "Microcontroller (06 Hrs.) STM32F4xx Interfacing with accelerometer MPU 6050, Ultrasonic Sensor HC-SR04, PWM: Controlling speed and direction of DC Motor CAN Bus: Features, CAN Frame, sequence of transmitting and receiving data on CAN Bus. Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO6: To become aware of the interfacing of real world sensors and",
+          "topics": "standard buses. Will also able to develop embedded application using different case studies.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304312",
+      "title": "Optical Fiber communication Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        74,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "304313",
+      "title": "Information Theory and Coding Techniques Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        75,
+        75
+      ],
+      "units": []
+    },
+    {
+      "code": "304314 (A)",
+      "title": "Smart Antenna Lab (Elective-II)",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        76,
+        76
+      ],
+      "units": []
+    },
+    {
+      "code": "304314 (B)",
+      "title": "Advanced JAVA Programming Lab (Elective – II)",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        77,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": "304314(C)",
+      "title": "Sensors and Actuators Lab (Elective - II)",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        78,
+        78
+      ],
+      "units": []
+    },
+    {
+      "code": "304314 ( D)",
+      "title": "Power Devices and Circuits Lab (Elective - II)",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        79,
+        79
+      ],
+      "units": []
+    },
+    {
+      "code": "304314 (E)",
+      "title": "Embedded Processors Lab (Elective – II)",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        80,
+        80
+      ],
+      "units": []
+    },
+    {
+      "code": "304315",
+      "title": "Internship",
+      "semester": 6,
+      "type": "Internship",
+      "credits": 4,
+      "pages": [
+        81,
+        85
+      ],
+      "units": []
+    },
+    {
+      "code": "304316",
+      "title": "Mini Project",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        86,
+        88
+      ],
+      "units": []
+    },
+    {
+      "code": "304191 (B)",
+      "title": "Mandatory Audit Course - 6",
+      "semester": 6,
+      "type": "Mandatory Audit Course",
+      "credits": null,
+      "pages": [
+        89,
+        90
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

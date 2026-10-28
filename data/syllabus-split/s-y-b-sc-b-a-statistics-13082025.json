@@ -1,0 +1,497 @@
+{
+  "id": "s-y-b-sc-b-a-statistics-13082025",
+  "kind": "programme",
+  "programme": "S. Y. B. Sc. / S. Y. B. A. Statistics",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "STS-201-MJ",
+      "title": "Discrete Probability Distributions",
+      "semester": 3,
+      "type": "Major (Core)",
+      "credits": 2,
+      "pages": [
+        7,
+        9
+      ],
+      "units": [
+        {
+          "title": "Mathematical Expectation (Bivariate Random Variable)",
+          "topics": "1.1 Definition of raw and central moments, moment generating function (m.g.f), cumulant generating function (c.g.f.). 1.2 Theorems on expectations of sum and product of two jointly distributed random variables. 1.3 Conditional expectation. 1.4 Definitions of conditional mean and conditional variance. 1.5 Definition of covariance, coefficient of correlation, independence and uncorrelatedness of two variables. 1.6 Variance of linear combination of variables Var(aX + bY). 1.7 Numerical examples",
+          "hours": null
+        },
+        {
+          "title": "Poisson distribution",
+          "topics": "2.1 Notation: X ~ P(m) Probability mass function (p. m. f.) of the distribution 𝑃(𝑋 = 𝑥) = { 𝑒−𝑚𝑚𝑥 𝑥! ; 𝑥 = 0,1,2, . . . ; 𝑚 > 0 0; 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒 2.2 M. G. F. and C. G. F. Raw and central moments, mean and variance from M.G.F. & C.G.F. Skewness and kurtosis. 2.4 Situations where this distribution is applicable. 2.5 Additive property. 2.6 Conditional distribution of X given (X+Y). 8 2.7 Numerical examples",
+          "hours": null
+        },
+        {
+          "title": "Geometric distribution",
+          "topics": "3.1 Notation: X ~ G(p), Geometric distribution on support (0, 1, 2, ...,) with p. m. f. p(x) = pqx . 3.2 Geometric distribution on support (1, 2,. . .) with p. m. f. p(x) = pqx-1 . 0 < p < 1, q = 1 –p. 3.3 Situations where this distribution is applicable. 3.4 Distribution function and lack of memory property. 3.5 M. G. F. and C. G. F. Mean and variance from M.G.F. & C.G.F. 3.6 Numerical examples.",
+          "hours": null
+        },
+        {
+          "title": "Negative Binomial Distribution",
+          "topics": "4.1 Probability mass function (p. m. f.) 𝑃(𝑋 = 𝑥) = { (𝑥 + 𝑘 − 1𝑥 ) 𝑝𝑘𝑞𝑥 0; 𝑂𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒 ; 𝑥 = 0, 1, . . . ; 0 < 𝑝 < 1; 𝑞 = 1 − 𝑝; 𝑘 > 0 Notation X ~ NB(k,p) 4.2 Graphical nature of p.m.f., 4.3 Negative binomial distribution as a waiting time distribution, 4.4 M. G. F. and C. G. F. Mean and variance from M.G.F. & C.G.F. Skewness, kurtosis. 4.5 Additive property. 4.6 Relation between geometric distribution and negative binomial distribution. 4.7 Poisson approximation to negative binomial distribution. Real life situations. 4.8 Numerical problems.",
+          "hours": null
+        },
+        {
+          "title": "Multinomial Distribution",
+          "topics": "5.1 Probability mass function (p.m.f.) 𝑃(𝑋 = 𝑥) = 𝑛! 𝑝1𝑥1𝑝2𝑥2. . . 𝑝𝑘 𝑥𝑘 𝑥1! 𝑥2! . . . 𝑥𝑘! ; 𝑥𝑖 = 0, 1, . , 𝑛 − ∑ 𝑥𝑟; 𝑖−1 𝑟=1 𝑥1 + 𝑥2+ . . . +𝑥𝑘 = 𝑛 0 < 𝑝𝑖 < 1; 𝑖 = 1, 2, . . . , 𝑘; 𝑝1 + 𝑝2+ . . . +𝑝𝑘 = 1 9 = 0; otherwise Notations: (X1, X2, . . ., Xk) ~ MD(n, p1, p2, . . ., pk) 𝑋 ~ 𝑀𝐷 (𝑛, 𝑝) 𝑤ℎ𝑒𝑟𝑒 𝑋 = (𝑋1, 𝑋2, . . . , 𝑋𝑘) & 𝑝 = (𝑝1, 𝑝2, . . . , 𝑝𝑘) 5.2 Joint MGF of (𝑋1, 𝑋2, . . . , 𝑋𝑘 ). Mean, variance, covariance, total correlation coefficient, variance – covariance matrix from joint MGF. Rank of variance – covariance matrix and its interpretation, 5.3 Additive property. 5.4 Univariate marginal distribution, distribution of Xi + Xj, 5.5 Conditional distribution of Xi given Xj = r (without proof). 5.6 Conditional distribution of Xi given Xi + Xj= r (without proof). 5. 7 Numerical problems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "STS-202-MJ",
+      "title": "Continuous Probability Distributions",
+      "semester": 3,
+      "type": "Major (Core)",
+      "credits": 2,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Continuous Univariate Distributions",
+          "topics": "1.1 Continuous sample space: Definition, illustrations. Continuous random variable: Definition, probability density function (p. d. f.), cumulative distribution function (c. d. f.), properties of c. d. f. (without proof), probabilities of events related to random variable. 1.2 Expectation of continuous r. v., expectation of function of r. v. E[g(x)], mean, variance, geometric mean, harmonic mean, raw and central moments. 1.3 Moment generating function (MGF): Definition, properties (without proof). Cumulant generating function (CGF): Definition, properties (without proof). 1.4 Mode, partition values: quartiles (Q1, Q2, Q3), deciles, percentiles. 1.5 Probability distribution of function of r. v. Y = g(X ) : using i) Jacobian of transformation for g(.) monotonic function and one-to-one, on to functions, ii) Distribution function for Y = X2, Y = |X|. iii) M.G.F. of g(X)",
+          "hours": null
+        },
+        {
+          "title": "Continuous Bivariate Distributions",
+          "topics": "2.1 Continuous bivariate random vector or variable (X, Y): Joint p. d. f., joint c. d. f, properties (without proof), probabilities of events related to random variables (events in terms of regions bounded by regular curves, circles, straight lines). Marginal and conditional distributions. 2.2 Expectation of r. v. (X, Y), expectation of function of r. v. E[g(X, Y)], joint moments, Cov(X,Y), Corr(X,Y), conditional mean, conditional variance, regression as a conditional expectation. 2.3 Independence of random variables X and Y. 2.4 Theorems on expectation: 11 i) E(X+Y) = E(X) + E(Y) ii) E(XY) = E(X)E(Y) if X and Y are independent. iii) E(aX + bY + c) & Var(aX + bY + c) (statement only proof not expected) 2.5 Moment generating function (MGF): MXY(t1, t2), MGF of marginal distribution of random variables(r.v.s.), properties: i) MX,Y(t1,t2) = Mx(t1,0) MY(0, t2) if X and Y are independent r.v.s. ii) MX+Y(t) = MX(t) MY(t) if X and Y are independent r.v.s. 2.6 Probability distribution of transformation of bivariate r. v. 2.7 Numerical Examples",
+          "hours": null
+        },
+        {
+          "title": "Standard Univariate Continuous Distributions",
+          "topics": "3.1 Uniform or Rectangular Distribution 3.1.1 Probability density function (p.d.f.) 𝑓(𝑥) = { 𝑏 − 𝑎 , 𝑎 ≤ 𝑥 ≤ 𝑏 0, 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒 Notation : X ~ U[a, b], 3.1.2 Sketch of p. d. f., c. d. f., mean, variance, symmetry, MGF. 3.1.3 Distributions of i) 𝑥−𝑎 𝑏−𝑎 , ii) 𝑏−𝑥 𝑏−𝑎, iii) Y = F(X) where F(X) is the c. d. f. of continuous r. v. 3.1.4 Application of the result to model sampling. (Distributions of X + Y, X–Y, XY and X/Y are not expected.) 3.2 Normal Distribution 3.2.1. Probability density function (p. d. f.) 𝑓(𝑥) = { √2𝜋𝜎 𝑒 −1 2 (𝑥−𝜇𝜎 )2; −∞ < 𝑥 < ∞, −∞ < 𝜇 < ∞, 𝜎 > 0 0; 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒 Notation: X ~ N(µ, σ2) 3.2.2 p. d. f. curve, identification of scale and location parameters, properties of probability curve, mean, variance, MGF, CGF, central moments, mode, points of inflexion of probability curve, mean deviation, additive property. 3.2.3 Probability distribution of : i) ( 𝑥−𝜇 𝜎 ) ,standard normal variable (S.N.V.), ii) aX + b, 12 iii) aX + bY +c, where X and Y are independent normal variates. Probability distribution of ̅𝑋̅, the mean of n i.i.d. N(µ, σ2) r. v s., computations of normal probabilities using normal probability integra...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "STS-203-MJP",
+      "title": "Statistics Practical III",
+      "semester": 3,
+      "type": "Major (Core) Practical",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "STS-221-VSCP",
+      "title": "Statistical Computing Using MS EXCEL-I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "STS-231-FP",
+      "title": "Field Project",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "STS-241-MN",
+      "title": "Probability Distributions and Demography",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Standard Discrete Probability Distributions",
+          "topics": "1.1 Poisson distribution- p.m.f., mean, variance, mode, real life situations where it is applicable, statement of additive property, statement of limiting case of B(n, p). (Consider only statements of above terms, proofs are not expected) 1.2 Geometric distribution -p.m.f., mean, variance, mode, real life situations where it is applicable. Statement of lack of memory property. (Consider only statements of above terms, proofs are not expected) 1.3 Negative binomial distribution -p.m.f., mean, variance, real life situations where it is applicable. Relation with geometric distribution, concept of waiting time distribution. (Consider only statements of above terms, proofs are not expected) 1.4 Numerical Examples",
+          "hours": null
+        },
+        {
+          "title": "Continuous Univariate Distributions",
+          "topics": "2.1 Continuous sample space: Definition, illustrations. Continuous random variable: Definition, probability density function (p.d.f.), cumulative distribution function (c.d.f.), properties of c.d.f. (without proof) 2.2 Mathematical expectation, variance, quartiles and quartile deviation. 2.3 Moment generating function (MGF), Cumulant generating function (CGF): Definition, properties (without proof). 2.4 Numerical Examples",
+          "hours": null
+        },
+        {
+          "title": "Standard Continuous Probability Distributions",
+          "topics": "3.1 Uniform distribution- statements of p.d.f., c.d.f., mean, variance, nature of p.d.f. curve. Normal distribution- statement of p.d.f., c.d.f., mean, variance, median, mode, nature of p.d.f. curve, statement of additive property, skewness. Standard normal distribution. 18 3.2 Exponential distribution- statement of p.d.f., c.d.f., mean, variance, nature of p.d.f. 3.3 Numerical Examples",
+          "hours": null
+        },
+        {
+          "title": "Demography",
+          "topics": "4.1 Vital events, vital statistics, methods of obtaining vital statistics, rates of vital events, sex ratios, dependency ratio. 4.2 Death/Mortality rates: Crude death rate, specific (age, sex etc.) death rate, standardized death rate (direct and indirect), infant mortality rate. 4.3 Fertility/Birth rate: Crude birth rate, general fertility rate, specific (age, sex etc.) fertility rates, total fertility rate. 4.4 Growth/Reproduction rates: Gross reproduction rate, net reproduction rate. (Simple Numerical examples only). 4.5 Interpretations of different rates, uses and applications. 4.6 Numerical Examples",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "STS-242-MNP",
+      "title": "Statistics Practical on Probability Distributions and Demography",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-201-STS",
+      "title": "Business Statistics – I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Time Series",
+          "topics": "1.1 Meaning and utility 1.2 Visualization of Time series 1.3 Components of time series 1.4 Additive and multiplicative models 1.5 Methods of estimating trend using moving average method (3,4 and 5 yearly cycle)",
+          "hours": null
+        },
+        {
+          "title": "Theory of Attributes",
+          "topics": "2.1 Attributes: Concept of a Likert scale, classification, notion of manifold classification, dichotomy, class - frequency, order of a class, positive class- frequency, negative class frequency, ultimate class frequency, relationship among different class frequencies (up to two attributes), and dot operator to find the relation between frequencies, fundamental set of class frequencies. 2.2 Consistency of data up to 2 attributes. 2.3 Concepts of independence and associatio n of two attributes. Yule’s coefficient of association (Q), −1 ≤ Q ≤ 1, interpretation.",
+          "hours": null
+        },
+        {
+          "title": "Demography",
+          "topics": "3.1 Vital events, vital statistics, methods of obtaining vital statistics, rates of vital events, sex ratios, dependency ratio. 21 3.2 Death/Mortality rates: Crude death rate, infant mortality rate. 3.3 Fertility/Birth rate: Crude birth rate, general fertility rate, specific (age, sex etc.) fertility rates, total fertility rate. 3.4 Growth/Reproduction rates : Gross reproduction rate, net reproduction rate. 3.5 Interpretations of different rates, uses and applications. 3.6 Trends in vital rates as revealed in the latest census.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OE-202-STS",
+      "title": "Applied Statistics - I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Tabulation",
+          "topics": "1.1 Raw data, types of characteristics of data (Attribute and variable), Type of variables (Discrete and continuous) 1.2 Construction of frequency distribution table: parts of table, two way and three-way types of tabulations",
+          "hours": null
+        },
+        {
+          "title": "Graphical and diagrammatic representation of the data",
+          "topics": "2.1 Diagrammatic representation of the data: Bar plot, Subdivided, Multiple, Pie chart 2.2 Graphs - Histogram, frequency curve, less than and more than ogive curves",
+          "hours": null
+        },
+        {
+          "title": "Measures of Central Tendency",
+          "topics": "3.1 Requisition of good measure of central tendency 3.2 mean, (definitions, formulae, merits and demerits, examples) 3.3 median (definitions, formulae, merits and demerits, examples) 3.4 mode (definitions, formulae, merits and demerits, examples)",
+          "hours": null
+        },
+        {
+          "title": "Measures of Dispersion",
+          "topics": "4.1 Range, Quartile deviation (definitions, formula, merits and demerits) 4.2 Coefficient of variation (definitions, formula, merits and demerits) 23",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "STS-201-IKS",
+      "title": "Development of Statistics in India",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Historical Perspective of Statistics in India",
+          "topics": "Data collection system in ancient times, Statistics and Mathematics in ancient Indian poetry, Inferential Statistics and Statistical Economics before and during 4CE (Vishalaksha’s contributions to inference and Kautilya’s Arthashastra), Statistical System during British India, Statistical System in Independent India, Research Teaching and Training in Statistics.",
+          "hours": null
+        },
+        {
+          "title": "History and Concept of Probability in ancient India",
+          "topics": "Concept of permutation and combination in ancient India, notations and rule for binomial expansion given by Pingala and others, history of probability – Rug veda, Mahabharata, Indian-Jaina philosophy.",
+          "hours": null
+        },
+        {
+          "title": "Contribution of Statisticians in the development of Statistics in India",
+          "topics": "P. C. Mahalanobis, Pandurang Vasudeo Sukhatme, Raghu Raj Bahadur, Debabrata Basu, Gopinath Kallianpur, Keshav Raghavan Nair, Calyampudi Radhakrishna Rao, Vasant Shankar Huzurbazar",
+          "hours": null
+        },
+        {
+          "title": "Official Statistics in India",
+          "topics": "Know about Ministry of Statistics and Programme Implementation (MoSPI) of Indian Government, Standing Committee on Statistics (its past and new overhaul. Historical perspective of Official Statistics in India. Overview of present Indian Statistical System: Statistical organizations and their functions – ISI, CSO, NSO. Evaluation Pattern Internal Evaluation: 20 Marks 25 Presentation – Poster or PPT, Preparation of Report on given topic, Examination with Objective questions, External Evaluation: 30 Marks 1) Multiple choice (Solve any 5 out of 6 questions) – 1 mark each 2) Fill in the blanks (Solve any 5 out of 6 questions) – 1 mark each 3) True or False (Solve any 5 out of 6 questions) – 1 mark each 4) Match the following (Solve any 5 out of 6 questions)– 1 marks each 5) Define or explain the following (Solve any 10 out of 12 questions) – 1 mark each",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "STS-251-MJ",
+      "title": "Test of Significance and Statistical Methods",
+      "semester": 4,
+      "type": "Major (Core)",
+      "credits": 2,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Tests of Significance",
+          "topics": "1.1 Statistics and Parameter, Random sample 𝑥1, 𝑥2, … , 𝑥𝑛 from a distribution. Sampling distribution of a statistic, standard error with illustrations. Statistical hypothesis, null and alternative hypothesis, one sided and two sided alternative hypothesis, critical region, 𝑡𝑦𝑝𝑒 − 𝐼 and 𝑡𝑦𝑝𝑒 − 𝐼𝐼 error, level of significance, 𝑝 − 𝑣𝑎𝑙𝑢𝑒. Two sided confidence interval. Tests of hypotheses using i) critical region approach, 𝑖𝑖) 𝑝 − 𝑣𝑎𝑙𝑢𝑒 approach and iii) confidence interval approach. 1.2 Test for population means (large sample / approximate tests): 𝑖) 𝐻0 ∶ µ = µ0 against H1: µ ≠ µ0 H1: µ > µ0, H1: µ < µ0, (variance known) 𝑖𝑖) 𝐻0 ∶ µ1 = µ2 against H1: µ1 ≠ µ2 H1: µ1 > µ2, H1: µ1 < µ2. (variances known) 𝑖𝑖𝑖)Construction of two sided confidence interval for µ and µ1 − µ2. 1.3 Tests for population proportions: 𝑖) 𝐻0 ∶ 𝑃 = 𝑃0 against H1: 𝑃 ≠ 𝑃0 H1: 𝑃 > 𝑃0, H1: 𝑃 < 𝑃0, 𝑖𝑖) 𝐻0 ∶ 𝑃1 = 𝑃2 against H1: 𝑃1 ≠ 𝑃2 H1: 𝑃1 > 𝑃2, H1: 𝑃1 < 𝑃2. 𝑖𝑖𝑖) Construction of two sided confidence interval for 𝑃 and 𝑃1 − 𝑃2.",
+          "hours": null
+        },
+        {
+          "title": "Multiple Linear Regression Model",
+          "topics": "2.1 Introduction to trivariate data, Notion of multiple linear regression. Yule’s notation (trivariate case) (statement only). 28 Fitting of regression plane of 𝑌 𝑜𝑛 𝑋1and 𝑋2, 𝑌 = 𝛽0 + 𝛽1𝑋1 + 𝛽2𝑋2 + 𝜀 by the method of least squares; obtaining normal equations, solution of normal equations. Definition and interpretation of partial regression coefficients 𝛽1 and 𝛽2. 2.2 Residual: Definition, order, derivation of variance, properties. Finding multiple and partial correlation coefficients if (𝑋1, 𝑋2, 𝑋3)~𝑀𝐷(𝑛, 𝑃1, 𝑃2, 𝑃3). 2.3 Definition of multiple correlation coefficient 𝑅𝑌.𝑋1,𝑋2. 2.4 Properties of multiple correlation coefficient. 𝑖) 0 ≤ 𝑅𝑌.𝑋1,𝑋2 ≤ 1 𝑖𝑖) 𝑅𝑌.𝑋1,𝑋2 ≥ {𝑟𝑦𝑥1, 𝑟𝑦𝑥2} 2.5 Interpretation of coefficient of multiple determination 𝑅𝑌,𝑋1,𝑋22 as 𝑖) Proportion of variation explained by the linear regression 𝑖𝑖)𝑅𝑌.𝑋1,𝑋22 = 1 𝑖𝑖𝑖)𝑅𝑌.𝑋1,𝑋22 = 0 2.6 Partial correlation coefficient: Definition and property (−1 ≤ 𝑟𝑦𝑥1.𝑥2 , 𝑟𝑦𝑥2.𝑥1 ≤ 1)(Statement only)",
+          "hours": null
+        },
+        {
+          "title": "Time series analysis",
+          "topics": "3.1 Examples of time series, Objectives of time series, Meaning and utility of time series. 3.2 Components of time series: trend, seasonal variations, cyclical variations, irregular (error) fluctuations or noise. 3.3 Exploratory data analysis: Time series plot to (i) check any trend and seasonality in the time series (ii) identify the nature of trend 3.4 Methods of trend estimation: (i) moving average, (ii) linear, parabolic curve fitting by least squares principle (iii) exponential smoothing. 3.5 Measurement of seasonal variations: ratio to moving average method, ratio to trend where linear trend is calculated by method of least square. (Describe the method only, take problems in practical)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "STS-252-MJ",
+      "title": "Sampling Distributions and Exact Test",
+      "semester": 4,
+      "type": "Major (Core)",
+      "credits": 2,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Gamma Distribution",
+          "topics": "1.1 Probability density function (p.d.f.) of Gamma distribution with parameter 𝛼, 𝜆. 𝑓(𝑥) = 𝛼𝜆 Γλ 𝑒−𝛼𝑥𝑥 𝜆−1, 𝑥 > 0, 𝛼, λ > 0 = 0 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒 Notation:𝑋~𝐺(𝛼, 𝜆) (𝛼=scale parameter and 𝜆= shape parameter). Plotting of p.d.f. curve for various parameter values, special cases: i) 𝛼 = 1, ii) 𝜆 = 1 1.2 Mode, cumulative distribution function (c. d. f.), M.G.F. and its use to find mean, variance, moments, skewness, kurtosis, C.G.F., additive property.",
+          "hours": null
+        },
+        {
+          "title": "Chi-square Distribution",
+          "topics": "2.1 Definition of Chi-square r.v. as a sum of squares of i.i.d. standard normal variables, derivation of the p.d.f. of Chi -square variable with n degrees of freedom (d.f.) using M.G.F. Notation: 𝑋 ~𝜒𝑛2. Plotting of p.d.f. curve for various parameter values. 2.2 M.G.F. and its use to find mean, variance, moments, skewness, kurtosis , C.G.F., mode, additive property. Use of chi -square tables for calculations of probabilities. 2.3 Normal approximation: 𝜒𝑛2−𝑛 √2𝑛 (statement only). Distribution of 𝑋̅ and 𝑛𝑠2 𝜎2 = 𝜎2 ∑ (𝑋𝑖 − 𝑋̅)2𝑛𝑖=1 for a random sample from a normal distribution using orthogonal transformation, independence of 𝑋̅ and 𝑆2.",
+          "hours": null
+        },
+        {
+          "title": "Student’s – t distribution",
+          "topics": "31 3.1 Definition of t r.v. with n d.f. in the form of 𝑡 = 𝑈 √𝑉𝑛 , where 𝑈 ~ 𝑁(0, 1) and V is Chi -square with n d.f., where U and V are independent random variables. Notation: 𝑡 ~ 𝑡𝑛. 3.2 Derivation of the p.d.f of t distribution. Plotting of p.d.f. curve for various parameter values, mean, variance, moments, mode. Use of t -tables for calculations of probabilities, statement of normal approximation. 3.3 Distinction between density curves of normal and t-distributions.",
+          "hours": 5
+        },
+        {
+          "title": "Snedecor’s F – distribution",
+          "topics": "4.1 Definition of F r.v. with 𝑛1 and 𝑛2 d.f. as 𝐹𝑛1,𝑛2 = 𝑋1 𝑛1⁄ 𝑋2 𝑛2⁄ where 𝑋1 and 𝑋2 are independent Chi -square variables with 𝑛1 and 𝑛2 d.f., Notation: 𝐹 ~ 𝐹𝑛1,𝑛2. 4.2 Derivation of the p.d.f, plotting of p.d.f. curve for various parameter values, mean, variance, moments, mode. 4.3 Distribution of 𝐹𝑛1,𝑛2 ,use of F - tables for calculation of probabilities. Interrelationship between Chi-square, t and F distributions.",
+          "hours": null
+        },
+        {
+          "title": "Tests of Hypothesis based on sampling distributions",
+          "topics": "5.1 Tests based on chi-square distribution: (a) Test for independence of two attributes arranged in 2 × 2 contingency table (with Yate’s correction to be covered in practical) (b) Test for independence of two attributes arranged in 𝑟 × 𝑠 contingency table (problems to be covered in practical). (c) Test for goodness of fit (problems to be covered in practical). (d) Test for variance ( 𝐻0: 𝜎2 = 𝜎02) against one -sided and two -sided alternatives i) for known mean, ii) for unknown mean. 5.2 Tests based on t - distribution: (a) Tests for population means: (i) Single sample with unknown variance and two sample for unknown equal variances (for one-sided and two-sided alternatives.) (ii) 100(1 − 𝛼)% two-sided confidence interval for population mean and difference of means of two independent normal populations. (b) Paired t-test for one-sided and two-sided alternatives. 5.3 Test based on F-distribution: Test for 𝐻0: 𝜎12 = 𝜎22 : against one-sided and two-sided alternatives when i) means are known and ii) means are unknown.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "STS-253-MJP",
+      "title": "Statistics Practical –IV",
+      "semester": 4,
+      "type": "Major (Core) Practical",
+      "credits": 2,
+      "pages": [
+        33,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "STS-271-VSCP",
+      "title": "Statistical Computing using MS EXCEL-II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        34,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "STS-281-CEP",
+      "title": "Community Engagement Project",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "STS-291-MN",
+      "title": "Sampling Distributions and Statistical Inference",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Sampling Distributions",
+          "topics": "1.1 Chi-square Distribution Statement of p.d.f., mean and variance, applications of the chi -square distribution, use of chi-square tables for calculations of probabilities. (Without proof) 1.2 Student’s 𝐭 distribution Statement of p.d.f., mean and variance, applications of the 𝑡 distribution, use of 𝑡 tables for calculations of probabilities. (Without proof) 1.3 Snedecor’s 𝐅 distribution Statement of p.d.f., mean and variance, applications of the 𝐹 distribution, use of 𝐹 tables for calculations of probabilities. (Without proof)",
+          "hours": 8
+        },
+        {
+          "title": "Testing of significance",
+          "topics": "2.1 Statistic and Parameter: Random sample 𝑋1, 𝑋2, … , 𝑋𝑛 from a distribution, concept of statistic, sampling distribution of a statistic, standard error of a statistic. Notion of parameter and parameter space. Concept of family of distributions. 2.2 Introduction to problem of estimation and testing of hypothes is. Estimator and estimate, difference between estimator and estimate. Point and interval estimation 2.3 Statistical hypothesis, null and alternative hypotheses, simple and composite hypotheses, one-sided and two -sided alternative hypotheses, critical region, type-I and type-II error, notion of size and power of test, level of significance, p-value. Two-sided confidence interval. 06 H 38",
+          "hours": null
+        },
+        {
+          "title": "Tests based on normal distribution",
+          "topics": "3.1 Test for population means: 𝑖) 𝐻0 ∶ µ = µ0 against H1: µ ≠ µ0 H1: µ > µ0, H1: µ < µ0, (variance known) 𝑖𝑖) 𝐻0 ∶ µ1 = µ2 against H1: µ1 ≠ µ2 H1: µ1 > µ2, H1: µ1 < µ2 (variances are known) 3.2 Tests for population proportions: 𝑖) 𝐻0 ∶ 𝑃 = 𝑃0 against H1: 𝑃 ≠ 𝑃0 H1: 𝑃 > 𝑃0, H1: 𝑃 < 𝑃0, 𝑖𝑖) 𝐻0 ∶ 𝑃1 = 𝑃2 against H1: 𝑃1 ≠ 𝑃2 H1: 𝑃1 > 𝑃2, H1: 𝑃1 < 𝑃2.",
+          "hours": 6
+        },
+        {
+          "title": "Tests based on sampling distributions",
+          "topics": "4.1 Test for independence of two attributes 4.2 Test for goodness of fit. 4.3 Test for population variance. 4.4 Tests for population means: a) one sample and two sample b) two -sided confidence interval for population mean (variance unknown). 4.5 Paired t-test. 4.6 Test for equalities of variance when i) means are known and ii) means are unknown. 4.7 Examples.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "STS-292-MNP",
+      "title": "Practical on Sampling Distributions and Statistical Inference",
+      "semester": 4,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        39,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251-STS",
+      "title": "Business Statistics - II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Preparation of Questionnaires",
+          "topics": "1.1 Characteristics of a good questionnaire, Problems faced in data collection: problem of non- response, sampling errors, non-sampling errors 1.2 Designing questionnaires for surveys (i.e. survey forms) (with various sections if required) using various online platforms such as Google Forms, Survey Monkey, Form Façade (an add-on to customize Google Forms), etc., Aesthetic presentation of survey forms, Flow of questions. 1.3 Processing Survey Data: Downloading responses as MS-Excel sheets, computation of summated scores (for Likert scale-based questions)",
+          "hours": null
+        },
+        {
+          "title": "Index Number",
+          "topics": "2.1 Concept and uses of Index numbers in different fields 2.2 Simple and weighted index numbers 2.3 Cost of living index numbers 2.4 Lasprayes, Paasches and Fisher’s Index numbers",
+          "hours": null
+        },
+        {
+          "title": "Concepts and definitions related to test of significance",
+          "topics": "3.1 Concept of testing of hypothesis and theory of estimation 3.2 Definitions: population, sample, SRSWR, SRSWOR, random sample from a probability distribution, parameter, statistic. 3.3 Concept of null hypothesis and alternative hypothesis, critical region, level of significance, type I and type II error, one sided and two sided tests, p-value. 3.4 Examples based on concepts.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OE-252-STS",
+      "title": "Applied Statistics - II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Index Number",
+          "topics": "1.1 Concept and uses of Index numbers in different fields 1.2 Simple and weighted index numbers 1.3 Cost of living index numbers 1.4 Lasprayes, Paasches and Fisher’s Index numbers",
+          "hours": null
+        },
+        {
+          "title": "Time Series",
+          "topics": "2.1 Introduction, Meaning and utility 2.2 Visualization of Time series 2.3 Components of time series 2.4 Additive and multiplicative models 2.5 Methods of estimating trend using moving average method (3,4 and 5 yearly cycle) 3.6 Numerical problems",
+          "hours": null
+        },
+        {
+          "title": "Concepts and definitions related to testing of Significance",
+          "topics": "3.1 Concept of testing of hypothesis and theory of estimation 3.2 Definitions: population, sample, SRSWR, SRSWOR, random sample from a probability distribution, parameter, statistic. 43 3.3 Concept of null hypothesis and alternative hypothesis, critical region, level of significance, type I and type II error, one sided and two sided tests, p-value. 3.4 Examples and rough sketch based on concepts.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "SECP-251-STS",
+      "title": "Descriptive Statistics Using R Software",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": [
+        {
+          "title": "Introduction to R Studio and Basic Commands",
+          "topics": "1.1 Introduction with R Studio interface and environment. 1.2 Using c, seq, rep, and scan functions to create vectors. 1.3 Arithmetic operations on vectors using operators +, - , * , / , ^. 1.4 Creating data frames using data.frame. 1.5 Importing and managing datasets from external sources (read.csv, read.table). 1.6 Exploring datasets in R (mtcars, iris, etc.).",
+          "hours": null
+        },
+        {
+          "title": "Diagrammatic and Graphical Representation",
+          "topics": "2.1 Data Visualization a) Bar diagrams (simple, subdivided, and multiple) and pie charts. b) Stem-and-leaf plots and boxplots for data distribution. 2.2 Graphs a) Histograms (equal and unequal class intervals). 45 b) Scatterplots and line plots for trends in data. c) Density plots using density () for smooth visualization.",
+          "hours": null
+        },
+        {
+          "title": "Measures of Central Tendency and Dispersion",
+          "topics": "4.1 Computing arithmetic mean, geometric mean, harmonic mean, mode and median. 4.2 Partition values: Quartiles, deciles, and percentiles. 4.3 Range, variance, standard deviation, interquartile range, and coefficient of variation. Using boxplots for visualizing data spread and identifying outliers.",
+          "hours": null
+        },
+        {
+          "title": "Data Summarization",
+          "topics": "4.1 Generating frequency and cumulative frequency tables. 4.2 Creating ogive curves for grouped data. 4.3 Summary Statistics u sing fivenum() and summary() for quick data summaries. 4.4 Exploring skewness and kurtosis using moments package",
+          "hours": null
+        },
+        {
+          "title": "Correlation and Regression Analysis",
+          "topics": "a. Computing and interpreting Pearson and Spearman correlation coefficients, Scatterplots for identifying relationships between two variables and trends. b. Estimating parameters for the linear regression model using least squares. c. Evaluating goodness of fit with residual plots and R².",
+          "hours": null
+        },
+        {
+          "title": "Probability Distributions",
+          "topics": "6.1 Discrete Probability Distributions a) Simulating data from Bernoulli, Binomial, and Poisson distributions. b) Calculating probabilities and percentiles using dbinom, pbinom, dpois, etc. 6.2 Continuous Probability Distributions a) Visualization of normal, Chi square, t -distribution using dnorm, pnorm, dchisq, pchisq,dt,pt. b) Applications of standard normal distribution (Z-scores). 46",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

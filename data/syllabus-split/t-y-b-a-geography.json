@@ -1,0 +1,463 @@
+{
+  "id": "t-y-b-a-geography",
+  "kind": "programme",
+  "programme": "Bachelor of Arts (B.A.) in Geography",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "GEO- 301- MJ",
+      "title": "Fundamentals of Climatology",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Climatology",
+          "topics": "i. Definition, Nature and Scope ii. Weather and Climate iii. Elements of Weather and Climate iv. Branches of Climatology",
+          "hours": null
+        },
+        {
+          "title": "Energy System",
+          "topics": "of Earth Atmosphere i. Solar radiation and Earth–Sun relationship ii. Insolation and its spatial variation iii. Terrestrial radiation iv. Earth’s heat budget",
+          "hours": null
+        },
+        {
+          "title": "Atmospheric",
+          "topics": "Circulation and Weather Systems i. Atmospheric pressure belts ii. Planetary wind systems iii. General circulation of the atmosphere",
+          "hours": null
+        },
+        {
+          "title": "Atmospheric",
+          "topics": "Moisture and Precipitation i. Humidity: concept and measurement ii. Condensation processes iii. Cloud types and classification iv. Forms of precipitation v. Mechanisms of rainfall: Convectional, Orographic and Cyclonic",
+          "hours": null
+        },
+        {
+          "title": "Climate Change",
+          "topics": "i. Climate variability vs. climate change ii. Evidence of climate change iii. Natural and anthropogenic causes iv. Global Warming",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-302-MJ",
+      "title": "Regional Geography of India",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "i. Geographical and relative location of India ii. Frontiers of India. iii. Strategic Significance",
+          "hours": null
+        },
+        {
+          "title": "Physiography",
+          "topics": "Main physiographic divisions & their importance i. The northern mountains ii. The north Indian Plain iii. The peninsular plateau iv. The coastal lowlands v. The islands",
+          "hours": null
+        },
+        {
+          "title": "Drainage Systems",
+          "topics": "A) Himalayan drainage systems: i. Ganga ii. Brahmaputra iii. Indus B) Peninsular drainage system 1.West Flowing Rivers: i. Narmada ii. Tapi iii. Mahi",
+          "hours": null
+        },
+        {
+          "title": "Climate",
+          "topics": "A) Main Seasons & Associated weather conditions: i. The winter ii. The summer iii. The rainy/monsoon B) Origin and mechanism of monsoon: i. Traditional concept: Halley’s view ii. Recent Concept a. Role of Tibet plateau",
+          "hours": null
+        },
+        {
+          "title": "Soils",
+          "topics": "A) Major soil types and their distribution in India: i. Alluvial soil ii. Black soil",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO -303-MJP",
+      "title": "Practicals in Climatology & Soil Geography",
+      "semester": 5,
+      "type": "Major Core Practical",
+      "credits": 4,
+      "pages": [
+        14,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-310",
+      "title": "Soil Geography",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "i. Meaning and Definition of Soil ii. Definition of Soil Geography iii. Nature and Scope of Soil Geography iv. Importance of soil studies",
+          "hours": null
+        },
+        {
+          "title": "Soil Formation",
+          "topics": "and Profile i. Factors Affecting Soil Formation -Parent rock, Climate, Relief, Living Organisms, Time, Anthropogenic ii. Components of Soil iii. Soil Profile: Meaning and Horizons",
+          "hours": null
+        },
+        {
+          "title": "Soil",
+          "topics": "Degradation & Conservation i. Soil Degradation-Definition, Types, Causes and Effects ii. Soil Conservation- Definition and need of soil conservation iii. Methods of Soil Conservation iv. Role of RS and GIS in Soil Conservation. By the end of this course, students will be able to: CO 1: Explain the meaning, nature, scope, and importance of soil geography.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-311 MJ",
+      "title": "Fundamentals of GIS",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to GIS",
+          "topics": "i. Meaning and Definition of Geographic Information System (GIS) ii. History of GIS iii. Components of GIS - Hardware, Software, Data, People, Methods",
+          "hours": null
+        },
+        {
+          "title": "GIS Data",
+          "topics": "Models i. Spatial and Non-Spatial Data ii. Sources of Spatial Data -Toposheets, Surveying, Aerial photographs, Satellite data and images iii. Types of Spatial Data - Characteristics of Vector Data and Raster Data iv. Vector Data Model-Point, Line, Polygon v. Raster Data Model-Grid and Cells",
+          "hours": null
+        },
+        {
+          "title": "GIS Data Editing",
+          "topics": "i. Methods of Data Input -Scanning, Digitization, GPS ii. Georeferencing iii. Topology building , Topological errors, Locational errors, edge matching iv. Attribute Data linking",
+          "hours": null
+        },
+        {
+          "title": "GIS Analysis",
+          "topics": "and Applications i. Basic GIS Operations - Overlay Analysis, Buffer Analysis, ii. Topographic Analysis - DEM and DTM iii. Applications of GIS",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-312-MJP",
+      "title": "Practicals in Fundamentals of Mapping",
+      "semester": 5,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-313- MJP",
+      "title": "Practicals in GIS",
+      "semester": 5,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-321-VSC",
+      "title": "Introduction to Tourism Geography",
+      "semester": 5,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction of",
+          "topics": "Tourism Geography i. Definition of Tourism Geography ii. Definition of Tourist and Tourism iii. Nature and Scope of Tourism Geography iv. Importance of Tourism",
+          "hours": null
+        },
+        {
+          "title": "Types and",
+          "topics": "Classification of Tourism a. Classification based on i. Nationality ii. Travel Time iii. Purpose a. Concept of Tourism i. Geo-tourism ii. Eco-Tourism iii. Wildlife Tourism iv. Agro-Tourism v. Health/Medical Tourism vi. Sports & Adventure Tourism",
+          "hours": null
+        },
+        {
+          "title": "Determinants and",
+          "topics": "Policies of Tourism Determinants a. Physical i. Relief ii. Climate iii. Forest & Wildlife iv. Water bodies b. Socio-Cultural i. Religious ii. Historical iii. Sports iv. Architectural Attractions",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-322-VSC",
+      "title": "Watershed Management",
+      "semester": 5,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to",
+          "topics": "watershed management i. Concept of watershed management ii. Components of watershed: land, water & vegetation iii. Physical and socio -economic characteristic of watershed iv. Watershed delineation v. Classification of watershed based on area",
+          "hours": null
+        },
+        {
+          "title": "Function and",
+          "topics": "structure of watershed i. Morphological characteristics of watershed: linear, aerial and relief aspects ii. Climatic characteristics of watershed (water cycle): evaporation, condensation, precipitation, interception, infiltration, percolation, transpiration, runoff and storage",
+          "hours": null
+        },
+        {
+          "title": "Watershed Management",
+          "topics": "i. Concept of Land Evaluation ii. Land Capability Evaluation a) Definition of land capability b) Classification of land capability based on Food and Agriculture Organization (FAO) guidelines iii. Land Suitability Evaluation a) Definition of land suitability",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-331-FP",
+      "title": "Field Visit and Report Writing",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-341-MN",
+      "title": "Environmental Geography",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "i. Meaning, nature and scope of Environmental Geography ii. Components of environment iii. Human–environment relationship",
+          "hours": null
+        },
+        {
+          "title": "Environmental",
+          "topics": "Problems and Challenges Definition, Causes and effects of i. Climate change ii. Global warming iii. Environmental pollution (air, water, soil) iv. Loss of biodiversity",
+          "hours": null
+        },
+        {
+          "title": "Environmental",
+          "topics": "Management i. Environmental Management ii. Concept of sustainable development iii. Environmental (Protection) Act, 1986 iv. Biological Diversity Act, 2002 By the end of this course, students will be able to: CO 1: Explain the meaning, nature, scope, and components of Environmental Geography.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-351-MJ",
+      "title": "Introduction to Economic Geography",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Economic Development",
+          "topics": "i. Concept of Economic Development ii. Levels of Economic Development (Developed, Developing and Underdeveloped Countries) iii. Rostow’s Model of Economic Growth",
+          "hours": null
+        },
+        {
+          "title": "Agriculture",
+          "topics": "i. Meaning and Types of Agriculture (Commercial grain, Plantation, Mixed) ii. Determinants of Agriculture (Physical, Economic, Social, Technological, Political and Biological) iii. Von Thunen’s Model of agricultural land use",
+          "hours": null
+        },
+        {
+          "title": "Industry",
+          "topics": "i. Meaning and Classification of Industries ii. Factors affecting Industrial Location iii. Weber’s Theory of Industrial Location Transportation i. Transport: Factors Affecting Transportation ii. Modes of Transport iii. Major World; Transport Routes",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-352-MJ",
+      "title": "Geography of Resource Management",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of",
+          "topics": "Resource Management i. Concept, meaning, and classification of resources ii. Resource use and human–environment relationship iii. Sustainable development: concept and goals a) Role of geography in resource management",
+          "hours": null
+        },
+        {
+          "title": "Land and Water",
+          "topics": "Resource Management i. Land Resource a) Land-use and land-cover changes b) Land degradation: soil erosion, salinity, desertification c) Land conservation and management strategies ii. Water Resource a) Sources of water b) Water scarcity and water pollution c) Water conservation and water resource management",
+          "hours": null
+        },
+        {
+          "title": "Forest, Mineral",
+          "topics": "and Energy Resource Management Forest Resources a) Types of forests b) Deforestation: causes and impacts c) Social forestry and joint forest management Mineral and Energy Resources a) Types and distribution of mineral resources (Iron ore, Bauxite, Copper) b) Conventional energy resources (Coal and oil) d) Non-conventional and renewable energy resources (Solar energy and wind energy)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-353-MJP",
+      "title": "Practicals in Spatial Analysis",
+      "semester": 6,
+      "type": "Major Core Practical",
+      "credits": 4,
+      "pages": [
+        38,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO- 360- MJ",
+      "title": "Geography of Disaster Management",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction to",
+          "topics": "Disaster Management i. Meaning and definition of disaster management ii. Concepts of hazard, disaster, risk, and vulnerability iii. Classification of disasters: natural and man -made disasters iv. Major natural disasters: floods, cyclones, landslides, tsunami. v. Major man-made disasters: industrial accidents, toxic waste water disposal",
+          "hours": null
+        },
+        {
+          "title": "Disaster Risk",
+          "topics": "Reduction and Management i. Principles of disaster management ii. Disaster management cycle: mitigation, preparedness, response, recovery iii. Disaster management policies and institutional framework in India (NDM-NDRF, SDMA-SDRF) iv. Early warning systems and disaster preparedness strategies v. Role of community participation in disaster risk reduction",
+          "hours": null
+        },
+        {
+          "title": "Tools and",
+          "topics": "Approaches in Disaster Management i. Role of GIS and Remote Sensing in disaster management ii. Training, awareness programmes, and mock drills iii. Sustainable approaches for disaster management and resilience building",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-361-MJ",
+      "title": "Introduction to Remote Sensing",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Remote Sensing",
+          "topics": "i. Definitions, Concepts ii. History, Developmental Stages, iii. Types, Satellite data, Aerial Photography iv. Applications of Remote Sensing (RS)",
+          "hours": null
+        },
+        {
+          "title": "Electromagnetic",
+          "topics": "Radiation (EMR) and Spectral Signature a) EMR: Characteristics, Electromagnetic Radiation b) Interaction with Earth’s Atmosphere: Reflection, Absorption, Transmission, Scattering and Refraction. c) Spectral Signature : meaning and concepts",
+          "hours": null
+        },
+        {
+          "title": "Platforms and Sensors",
+          "topics": "a) Types of Platforms b) Types of Sensors- Active and Passive, Satellite Orbits c) Indian Remote Sensing Program By the end of this course, students will be able to:",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-362-MJP",
+      "title": "Practicals in Economic Geography",
+      "semester": 6,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-363-MJP",
+      "title": "Practicals in Remote Sensing",
+      "semester": 6,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-371-VSC",
+      "title": "Practical in Tour Planning",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-372-VSC",
+      "title": "Practicals in Advanced Surveying",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        50,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-381-OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "On Job Training",
+      "credits": 4,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,578 @@
+{
+  "id": "se-ie-syllabus-sppu-2024-pattern-revised-03082026",
+  "kind": "programme",
+  "programme": "Second Year Engineering (Industrial Engineering)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-IND",
+      "title": "Mathematics III",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Linear Differential Equations (LDE) and Applications",
+          "topics": "LDE of nth order with constant coefficients, Method of variation of parameters, Cauchy's & Legendre's DE, Simultaneous & Symmetric simultaneous DE. Applications of LDE to engineering problems.",
+          "hours": 7
+        },
+        {
+          "title": "Transforms",
+          "topics": "Fourier Transform (FT): Complex Fourier transform, Fourier Sine and Cosine transform, inverse transforms, Fourier transforms of simple functions. Z-Transform (ZT): Introduction, Definition, Standard properties, ZT of standard sequences and their inverse.",
+          "hours": 7
+        },
+        {
+          "title": "Statistics",
+          "topics": "Measures of central tendency, Dispersion, Moments, Skewness and Kurtosis, Curve fitting: fitting of straight line, parabola and exponential curves, Correlation and Regression, Reliability of Regression estimates.",
+          "hours": 7
+        },
+        {
+          "title": "Probability and Probability Distributions",
+          "topics": "Probability, Theorems on Probability, Baye's theorem, Random variables, Mathematical Expectation, Probability distributions: Binomial, Poisson, Normal, Test of Hypothesis: Chi-square test, t-test.",
+          "hours": 6
+        },
+        {
+          "title": "Vector Calculus",
+          "topics": "Vector differentiation, Physical interpretation of Gradient, Divergence and Curl, Directional derivative, Solenoidal and Irrotational fields, Vector identities. Line, Surface and Volume integrals, Work done, Green's Lemma, Gauss's Divergence theorem and Stoke's theorem.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-IND",
+      "title": "Manufacturing processes",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Casting processes",
+          "topics": "Introduction to casting, Sand Casting: Pattern types, materials and allowances, Moulding sand properties and testing, Cores, Gating and Riser design principles. Special casting processes: Die casting, Investment casting, Centrifugal casting, Continuous casting, Casting defects and inspection methods.",
+          "hours": 7
+        },
+        {
+          "title": "Metal Joining",
+          "topics": "Classification of welding processes, Principles and applications of: Shielded Metal Arc Welding (SMAW), Gas Metal Arc Welding (GMAW/MIG), Gas Tungsten Arc Welding (GTAW/TIG), Submerged Arc Welding (SAW), Resistance welding processes: Spot, Seam, Projection. Solid-state welding: Friction welding, Ultrasonic welding. Brazing and Soldering, Welding defects and testing.",
+          "hours": 7
+        },
+        {
+          "title": "Machine Tools-I: Lathe and Milling",
+          "topics": "Lathe: Types, specifications, construction, operations: turning, facing, threading, taper turning, knurling, cutting parameters, capstan and turret lathes. Milling: Working principle, types of milling machines, milling cutters, milling operations, up-milling and down-milling, dividing head and indexing methods.",
+          "hours": 7
+        },
+        {
+          "title": "Machine Tools-II: Drilling and Grinding",
+          "topics": "Drilling: Types of drilling machines, geometry of twist drill, drilling operations: reaming, boring, counterboring, countersinking, tapping. Grinding: Types of grinding machines, grinding wheel: abrasive types, grain size, grade, structure, bond, designation of grinding wheels, selection of grinding wheel, wheel balancing and truing.",
+          "hours": 6
+        },
+        {
+          "title": "Super finishing processes",
+          "topics": "Introduction to super finishing operations: Honing, Lapping, Burnishing, Polishing, Buffing. Advanced finishing processes: Abrasive flow machining, Magnetic abrasive finishing. Surface roughness parameters and measurement methods.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-IND",
+      "title": "Operations Management",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operations Management",
+          "topics": "Operations system, Scope and historical evolution, Production systems: Job, Batch, Mass and Continuous production. Product design and development: Life cycle, Standardization, Simplification, Modular design. Facility location and plant layout: Factors affecting location, Types of plant layouts, Line balancing.",
+          "hours": 7
+        },
+        {
+          "title": "Demand forecasting",
+          "topics": "Role of forecasting in operations, Forecasting errors, Qualitative methods: Delphi technique, Market survey, Life cycle analogy. Quantitative methods: Simple moving average, Weighted moving average, Exponential smoothing, Trend projection, Seasonality analysis, Tracking signal.",
+          "hours": 7
+        },
+        {
+          "title": "Inventory management",
+          "topics": "Role of inventory, Inventory costs, Deterministic models: Classical EOQ model, EOQ with price discounts, Production order quantity model. Selective inventory control techniques: ABC, VED, FSN, XYZ analysis. Safety stock determination, Reorder point (ROP), Continuous (Q) and Periodic (P) review systems.",
+          "hours": 7
+        },
+        {
+          "title": "Master production schedule",
+          "topics": "Aggregate production planning (APP): Chase strategy, Level strategy, Mixed strategy. Disaggregation: Master Production Schedule (MPS), Rough-cut Capacity Planning (RCCP). Material Requirements Planning (MRP-I): Inputs, MRP logic, Bill of Materials (BOM), Lot sizing techniques. Overview of MRPII and ERP.",
+          "hours": 7
+        },
+        {
+          "title": "Capacity planning and control",
+          "topics": "Capacity measurement: Design capacity, Effective capacity, Utilization, Efficiency. Capacity Planning: Long-range, Medium-range, Short-range capacity planning. Scheduling and Sequencing: Priority sequencing rules for single machine and n-machines (Johnson's rule), Shop floor control, Production activity control.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-IND",
+      "title": "Manufacturing processes Lab",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-IND",
+      "title": "Operations Management Lab",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        21,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-221",
+      "title": "Open Elective - I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-222-IND",
+      "title": "Operations Research",
+      "semester": 3,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Linear Programming - 1",
+          "topics": "Introduction to OR, Formulation of Linear Programming Problem (LPP), Graphical solution method, Simplex method: Slack, surplus and artificial variables, Big-M method, Two-phase simplex method, Duality in LPP and sensitivity analysis basics.",
+          "hours": 6
+        },
+        {
+          "title": "Linear Programming - 2",
+          "topics": "Transportation problem: Initial basic feasible solution (North-West corner rule, Least cost method, Vogel's approximation method), Optimality test using MODI method, Degeneracy in transportation. Assignment problem: Hungarian algorithm, Unbalanced assignment, Traveling salesman problem.",
+          "hours": 6
+        },
+        {
+          "title": "Queuing Theory and Dynamic programming",
+          "topics": "Queuing theory: Characteristics of queuing system, Kendall's notation, Single-server models (M/M/1: Infinity/FIFO and M/M/1: N/FIFO). Dynamic programming: Principle of optimality, Formulation and solution of dynamic programming problems, Stagecoach problem, Resource allocation.",
+          "hours": 6
+        },
+        {
+          "title": "PERT & CPM",
+          "topics": "Network analysis: Network representation, Critical Path Method (CPM): Forward pass, Backward pass, Float analysis (Total, Free, Independent floats). Project Evaluation and Review Technique (PERT): Three time estimates, Expected time, Variance, Probability of project completion, Crashing of project network.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-IND",
+      "title": "Engineering Economics",
+      "semester": 3,
+      "type": "EEM",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Fundamental Economic Principles",
+          "topics": "Introduction to economics, Law of demand and supply, Elasticity of demand, Concept of utility, Theory of firm, Time value of money, Simple and compound interest, Cash flow diagrams, Equivalence principles.",
+          "hours": 2
+        },
+        {
+          "title": "Economic Evaluation of Engineering Projects",
+          "topics": "Methods of comparison: Present Worth (PW) method, Future Worth (FW) method, Annual Equivalent (AE) method, Rate of Return (ROR) method, Benefit-Cost ratio (B/C) method, Payback period method.",
+          "hours": 3
+        },
+        {
+          "title": "Cost Estimation and Break-even Analysis",
+          "topics": "Elements of cost, Classification of costs, Direct and indirect costs, Overhead allocation, Break-even analysis: Mathematical formulation, Break-even charts, Margin of safety, Profit-volume ratio.",
+          "hours": 2
+        },
+        {
+          "title": "Depreciation Methods",
+          "topics": "Concept and causes of depreciation, Straight line method, Declining balance method, Sum-of-the-years-digits method, Sinking fund method, Tax considerations and salvage value.",
+          "hours": 2
+        },
+        {
+          "title": "Replacement Analysis and Risk Considerations",
+          "topics": "Reasons for replacement, Economic life of an asset, Replacement of existing asset with new asset, Defender and challenger analysis, Sensitivity analysis in economic decision making under risk and uncertainty.",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-IND",
+      "title": "Universal Human Values",
+      "semester": 3,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Self-Exploration and Understanding Aspirations",
+          "topics": "Orientation, values clarification, reflective journaling, understanding self and human aspirations, desire mapping, material vs non-material needs.",
+          "hours": 8
+        },
+        {
+          "title": "Harmony in Relationships and Society",
+          "topics": "Trust, respect, appreciation, family harmony, living with others, society cooperation, harmony with nature, campus sustainability reflection.",
+          "hours": 8
+        },
+        {
+          "title": "Empathy, Ethics and Right Conduct",
+          "topics": "Perspective taking, empathy exercises, ethics and right conduct in daily life, ethical dilemma games, decision-making when it's hard.",
+          "hours": 6
+        },
+        {
+          "title": "Professional Ethics and Inner Alignment",
+          "topics": "Ethics in tech and engineering, responsible innovation, vision and goal setting, personal growth plan, project presentations and reflection.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-IND",
+      "title": "Mini-project/ Case study/ Seminar",
+      "semester": 3,
+      "type": "CEP",
+      "credits": 2,
+      "pages": [
+        28,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-IND",
+      "title": "Industrial Electronics and Electrical Machines",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Industrial Electronics",
+          "topics": "Power semiconductor devices: Diode, SCR, TRIAC, MOSFET, IGBT. Working, characteristics and applications, Phase-controlled rectifiers, Inverters, Choppers and SMPS basics. Optocouplers and industrial relay drivers.",
+          "hours": 7
+        },
+        {
+          "title": "Embedded Systems for Automation",
+          "topics": "Introduction to microcontrollers (Arduino / ESP32 architecture), GPIO programming, Interfacing with sensors (temperature, ultrasonic, proximity), ADC conversion, Actuator interfacing (relays, DC motors via H-Bridge, servo motors), Introduction to PLC and ladder logic.",
+          "hours": 7
+        },
+        {
+          "title": "DC Machines",
+          "topics": "DC Generators: Principle of operation, construction, EMF equation, types. DC Motors: Principle, back EMF, torque equation, characteristics of shunt, series and compound motors, Starting methods, Speed control techniques, Industrial applications.",
+          "hours": 7
+        },
+        {
+          "title": "AC Machines",
+          "topics": "Three-phase induction motors: Principle, construction (squirrel cage and slip ring), slip-torque characteristics, losses and efficiency, starters (DOL, Star-Delta), speed control methods. Single-phase induction motors: Types, working, industrial applications.",
+          "hours": 6
+        },
+        {
+          "title": "Special Purpose Motors",
+          "topics": "Stepper motors: Working principle, types, half-step and micro-stepping, drive circuits. BLDC motors: Construction, working, electronic commutation, comparison with brushed DC motors. Servomotors: AC and DC servo systems, closed-loop position control.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-IND",
+      "title": "Work study and Ergonomics",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Productivity and Work Study",
+          "topics": "Definition and scope of productivity, Factors affecting productivity, Work study: Definition, objectives, human factor in work study, Role of management, supervisor and operator in work study implementation.",
+          "hours": 7
+        },
+        {
+          "title": "Method study and Work Measurement",
+          "topics": "Method study procedure, Selection of jobs, Recording techniques: Process charts (Operation, Flow, Two-handed), Flow diagrams, String diagrams, Multiple activity charts, SIMO charts, Critical examination, Principles of motion economy, Therbligs.",
+          "hours": 7
+        },
+        {
+          "title": "Time Study",
+          "topics": "Direct time study: Equipment, rating systems (Westinghouse, synthetic, objective), allowances (fatigue, personal, delay), standard time calculation. Predetermined Motion Time Systems (PMTS): MTM, Work factor system, Work sampling: Principles, sample size determination, control charts in work sampling.",
+          "hours": 7
+        },
+        {
+          "title": "Ergonomics",
+          "topics": "Introduction to Ergonomics / Human Factors Engineering, Anthropometry: Principles of anthropometric data collection, percentiles, workspace design (sitting, standing), biomechanics, posture and musculoskeletal disorders (MSDs), NIOSH lifting equation.",
+          "hours": 7
+        },
+        {
+          "title": "Man Machine Interaction",
+          "topics": "Information processing, Visual and auditory displays, Control design and compatibility, Environmental factors: Lighting, noise, vibration, thermal comfort and their effects on human performance, Human error and safety engineering.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-IND",
+      "title": "Design of Machine Elements",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Design process and design of Simple Machine elements",
+          "topics": "General design procedure, Stress concentration and notch sensitivity, Factor of safety, Design against static and fatigue loading, Soderberg, Goodman and Gerber criteria, Design of levers and cotter joints.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Shafts and Gears",
+          "topics": "Design of solid and hollow shafts based on strength, rigidity and torsional deflection (ASME code). Design of spur gears: Gear tooth failure modes, Lewis equation, Buckingham dynamic load, wear load, beam strength.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Power Screws",
+          "topics": "Mechanics of power screw, Square, Acme, Buttress threads, Torque requirements for lifting and lowering loads, Self-locking condition, Efficiency of power screw, Stresses in screw body, Design of screw jack.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Springs",
+          "topics": "Types of springs, Stress and deflection in helical compression and tension springs, Wahl factor, Buckling and surge in springs, Concentric springs, Design of multi-leaf springs.",
+          "hours": 6
+        },
+        {
+          "title": "Threaded and welded joints",
+          "topics": "Design of bolted joints under static and eccentric loading, Initial tension and bolt stiffness. Design of welded joints: Butt weld, fillet weld, transverse and parallel welds, eccentric loaded welded joints.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-IND",
+      "title": "Industrial Electronics and Electrical Machines Lab",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        37,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-IND",
+      "title": "Design of Machine Elements Lab",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        38,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-271",
+      "title": "Open Elective - II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-272-IND",
+      "title": "Fundamentals of Marketing and Finance",
+      "semester": 4,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to Marketing Concepts",
+          "topics": "Definition and scope of marketing, Marketing philosophies (Production, Product, Selling, Marketing, Societal), Marketing mix (4Ps and 7Ps), Market segmentation, Targeting and Positioning (STP), Digital marketing fundamentals.",
+          "hours": 6
+        },
+        {
+          "title": "Consumer Behavior and Market Research",
+          "topics": "Factors influencing consumer buying behavior, Decision-making process, B2B vs B2C marketing, Marketing research: Objectives, process, primary and secondary data collection, questionnaire design, market analysis.",
+          "hours": 6
+        },
+        {
+          "title": "Basics of Financial Management",
+          "topics": "Introduction to financial management, Financial statements: Balance sheet, Profit & Loss statement, Cash flow statement, Financial ratio analysis: Liquidity, solvency, profitability, turnover ratios.",
+          "hours": 6
+        },
+        {
+          "title": "Financial Decision Making and Integration with Marketing",
+          "topics": "Sources of finance: Short-term and long-term financing, Working capital management, Capital budgeting basics (NPV, IRR), Marketing ROI, Pricing strategies and cost-volume-profit relationship.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSEC-281-IND",
+      "title": "Work Measurement Lab",
+      "semester": 4,
+      "type": "VSEC",
+      "credits": 1,
+      "pages": [
+        41,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "VSEC-282-IND",
+      "title": "Creative Problem Solving and Critical Thinking",
+      "semester": 4,
+      "type": "VSEC",
+      "credits": 1,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Creative Problem Solving and Critical Thinking Foundations",
+          "topics": "Structured methods of critical thinking, reasoning, cognitive biases, lateral thinking, creative problem-solving techniques.",
+          "hours": 8
+        },
+        {
+          "title": "Innovation, Lateral Thinking and Communicating Ideas",
+          "topics": "Edward de Bono's Six Thinking Hats, TRIZ basics, visual thinking, storytelling for innovation, elevator pitch for solutions, poster design.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "AEC-283-IND",
+      "title": "Modern Indian Languages (Marathi/Hindi)",
+      "semester": 4,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": [
+        {
+          "title": "Conversational Skills and Role-Playing",
+          "topics": "Role-playing everyday scenarios, dialogue delivery, conversational Marathi and social cues.",
+          "hours": 15
+        },
+        {
+          "title": "Reading, Summarizing and Creative Expression",
+          "topics": "Newspaper reading and analysis, creative writing, blogs and social media posts up to 200 words.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EEM-284-IND",
+      "title": "Behavioural Science",
+      "semester": 4,
+      "type": "EEM",
+      "credits": 2,
+      "pages": [
+        47,
+        49
+      ],
+      "units": [
+        {
+          "title": "Emotional Intelligence & Self-Awareness",
+          "topics": "Goleman's model of Emotional Intelligence, self-esteem, self-efficacy, motivation, stress causes and management, mindfulness, journaling.",
+          "hours": 10
+        },
+        {
+          "title": "Interpersonal & Group Dynamics",
+          "topics": "Verbal and non-verbal communication, Belbin team roles, group behavior, conflict handling, empathy exercises, collaborative teamwork.",
+          "hours": 10
+        },
+        {
+          "title": "Decision-Making and Problem Solving",
+          "topics": "Rational vs emotional decisions, cognitive biases in decision-making, ethical decision-making, personal development plan.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "VEC-285-IND",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to Environment and Ecosystem",
+          "topics": "Multidisciplinary nature of environmental studies, Ecosystems: structure and function, energy flow, food chains, ecological succession, Biodiversity: values, threats, conservation.",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Pollution and Control Measures",
+          "topics": "Air, water, soil, noise pollution: causes, effects, control measures. Solid waste management: urban and industrial wastes, disaster management: floods, earthquakes, cyclones.",
+          "hours": 6
+        },
+        {
+          "title": "E-Waste Management",
+          "topics": "Definition, composition, sources of e-waste, global context, major pollutants, hazardous properties, health and environmental effects, resource recovery technologies.",
+          "hours": 6
+        },
+        {
+          "title": "E-Waste Control, Laws, and Regulatory Framework",
+          "topics": "E-waste management rules, Extended Producer Responsibility (EPR), collection mechanisms, disposal standards, international conventions (Basel convention).",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

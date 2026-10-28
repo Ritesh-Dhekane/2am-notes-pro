@@ -1,0 +1,43 @@
+{
+  "id": "elc-341-mn-t-robotics-and-automation-for-t-y-b-sc-computer-science-24092026",
+  "kind": "course",
+  "programme": "T. Y. B. Sc. (Computer Science)",
+  "pattern": null,
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ELC-341-MN-T",
+      "title": "Robotics and Automation",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "title": "Introduction to Robotics",
+          "topics": "1.1 Introduction to Robotics: Definition and characteristics of robots, Evolution of robotics, Robotics and automation, Advantages and limitations, Basic robot architecture: Sense–Think–Act 1.2 Types of Robots: Industrial robots, Mobile robots, Service robots, Collaborative robots, Autonomous robots 1.3 Robot Components: Links and joints, Sensors, Actuators, Controller, Power supply, End effector, Robot drive system: basic concept 1.4 Robot Configuration: Degree of freedom, Revolute and prismatic joints, Basic robot configurations (Cartesian, Cylindrical, Spherical/Polar, Articulated, SCARA) 1.5 Applications of Robots: Manufacturing, Healthcare, Agriculture, Domestic and Service applications Case Study 1: Robotic Arm in Automobile Manufacturing",
+          "hours": 7
+        },
+        {
+          "title": "Sensors, Actuators and Robot Motion",
+          "topics": "2.1 Sensors for Robotics: Position and motion sensors, Encoders, Accelerometer and gyroscope, Proximity and distance sensors, Ultrasonic and infrared sensors, Camera and basic vision sensors, Force and torque sensors: basic concept 2.2 Actuators: DC motor, Servo motor, Stepper motor, Pneumatic and hydraulic actuators, Selection of actuators based on application 2.3 Robot Motion: Position, Velocity, Acceleration, Linear and angular motion, Joint and end-effector motion 2.4 Robot Kinematics – Basic Concepts: Coordinate system, Reference frame, Robot workspace, Forward kinematics, Inverse kinematics 2.5 Robot Control: Open-loop and closed-loop control, Feedback, Position and velocity control, PID control – concept only. (No detailed mathematical derivation of kinematic equations or DH parameters) Case Study 2: Ultrasonic sensor-based obstacle avoidance",
+          "hours": 8
+        },
+        {
+          "title": "Automation and Intelligent Robotics",
+          "topics": "3.1 Fundamentals of Automation: Definition of automation, Fixed, programmable and flexible automation, Robotics versus automation, Levels of industrial automation - basic concept 3.2 Industrial Automation: Sensors, controllers and actuators, PLC – architecture and working, HMI – basic concept, SCADA – basic concept, Industrial control system – basic architecture 3.3 Industrial Robots: Robotic work cell, Pick-and-place, Welding, Assembly, Material handling, Automated inspection 3.4 Industry 4.0: Smart manufacturing, Cyber-physical systems, Connected machines, Digital twins – basic concept, Predictive maintenance – basic concept 3.5 Connected and Intelligent Robots: Robot communication, Ethernet and Wi-Fi, IoT-enabled robotics, Remote monitoring, Edge and cloud robotics – basic concept, AI in robotics, Computer vision – basic concept Case Study 3: Robotic pick-and-place work cell",
+          "hours": 8
+        },
+        {
+          "title": "Applications, Safety and Future of Robotics",
+          "topics": "4.1 Robotic Applications: Industrial robotics, Healthcare robotics, Agricultural robotics, Service robots, Autonomous vehicles, AGVs and AMRs 4.2 Autonomous Robots: Autonomous versus remote-controlled robots, Perception, Planning, Decision-making, Navigation, Localization – basic concept, Obstacle avoidance. 4.3 Robot Safety: Human–robot interaction, Safety hazards, Emergency stop, Collision avoidance, Collaborative robots, Basic robot safety principles and safety standards 4.4 Emerging Trends: Cobots, Humanoid robots, Swarm robotics, Drones, AI-powered robots, Cloud robotics, Robotics in smart cities 4.5 Challenges and Future: Safety, Reliability, Human–robot collaboration, Employment and skills, Ethical and social considerations, Cybersecurity in connected robotics, Future of robotics and automation Case Study 4: Autonomous mobile robots (AMRs) in warehouses Case Study 5: Agricultural robots",
+          "hours": 7
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

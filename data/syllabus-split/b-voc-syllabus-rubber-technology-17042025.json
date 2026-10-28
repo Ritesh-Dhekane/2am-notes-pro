@@ -1,0 +1,843 @@
+{
+  "id": "b-voc-syllabus-rubber-technology-17042025",
+  "kind": "programme",
+  "programme": "Bachelor of Vocational (Engineering) RUBBER TECHNOLOGY",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "101",
+      "title": "Communication Skill",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        8
+      ],
+      "units": [
+        {
+          "title": "Communication:",
+          "topics": "Meaning of Communication, Importance of Communication, Types of c ommunication. Process of communication, Communication network in an organization, Barriers to communication, Essentials of good communication.",
+          "hours": 6
+        },
+        {
+          "title": "Remedial English Grammar:",
+          "topics": "Articles, agreement between verb and subject, uses of tenses, Modal and their uses, Prepositions. Understanding and applying Vocabulary: One -word substitutes, Synonyms and Antonyms. Word formation: -Prefixes, Bases and Suffixes.",
+          "hours": 8
+        },
+        {
+          "title": "Listening Skills:",
+          "topics": "The process of listening, Types of listening, Benefits of effective listening, Barriers to listening, listening to announcements at work place.",
+          "hours": 6
+        },
+        {
+          "title": "Reading Skills:",
+          "topics": "Process and methodologies of reading, Skimming and scanning, Levels of reading, Proofreading, Summarizing, Precise writing, Unseen comprehension passage, Note taking and reviewing, convert the given information into charts and graphs.",
+          "hours": 8
+        },
+        {
+          "title": "Writing Skills:",
+          "topics": "Main Forms of Written Communication: Notices, Drafting an E -mail. Correspondence: Personal and Official, Notices, Technical Report Writing, Preparing agenda and minutes of meetings.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "102",
+      "title": "Engineering Graphics",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction to drawing, lines and lettering",
+          "topics": "• Definition and classification of drawing • Drawing instruments such as; drawing board, drawing sheets, drafter. • Types of pencils, sheets, eraser etc. • Different types of lines (Straight line, inclined line and curved lines) • Practice engineering style for letters and numbers as BIS: SP:46-2003",
+          "hours": 7
+        },
+        {
+          "title": "Dimensioning and scale",
+          "topics": "• Importance of dimensioning • Types (i.e. chain, parallel and progressive etc.) and methods of placing dimensioning, Principles of dimensioning and practice dimensioning technique as BIS: SP: 46-2003, Free hand sketching of straight lines, circle, square, Polygons",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Projection",
+          "topics": "• Introduction to first and third angle projection, • Introduction to projection of point, line and plane, Sectioning of solids",
+          "hours": 7
+        },
+        {
+          "title": "Isometric and Orthographic projection",
+          "topics": "• Orthographic projection of simple geometric solids • Isometric drawing of simple geometric solids",
+          "hours": 9
+        },
+        {
+          "title": "Geometric and dimensioning Tolerance",
+          "topics": "• Component Drawing and interpretation • Geometric dimension and Tolerance • Introduction to CAD software used in drawing",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "103",
+      "title": "Polymer Chemistry",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        10,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction:",
+          "topics": "Monomer, Oligomer, Polymer, Molecular weight-average, MWD, Poly-diversity, Functionality: Terms & Definition, Classification of Polymers: Rubbers, Plastics, Fibers, Paint Initials Catalyst, Emulsifier.",
+          "hours": 8
+        },
+        {
+          "title": "Catalysts and catalytic reaction",
+          "topics": "Catalysts and catalytic reaction, Redox initials, Ziggler Natta Catalyst and other common catalyst. Free Generators and initials eg.H₂O₂, K₂S₂O₈. Anionic, cationic, Neonic, Emulsifier- Principle, example and use.",
+          "hours": 7
+        },
+        {
+          "title": "Polymer Structures:",
+          "topics": "Homopolymers, Copolymers, Terpolymers. Linear, Branched, cross linked Polymers.",
+          "hours": 7
+        },
+        {
+          "title": "Random, Block copolymers, Graft copolymers, Geometrical isomers- Tacticity.",
+          "topics": "Explanation as above with example.",
+          "hours": 7
+        },
+        {
+          "title": "Types of polymerizations:",
+          "topics": "a. Free radical polymerization. b. Ionic Polymerization: Anionic, Cationic c. Condensation Polymerization",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "104",
+      "title": "Engineering Graphics-Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "105",
+      "title": "Basic Science- Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "106",
+      "title": "On Job Training",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "201",
+      "title": "Rubber Processing",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "Mixing:",
+          "topics": "Description and comparison of mixers and compounding equipment, introduction to safe working practice .",
+          "hours": 8
+        },
+        {
+          "title": "Extrusion:",
+          "topics": "description of general mechanical construction of a single screw extruder. Screw design and feed arrangement.",
+          "hours": 7
+        },
+        {
+          "title": "Description of die construction, die swell.",
+          "topics": "Description of the function and layout of ancillary equipment for standard extrusion operations.",
+          "hours": 7
+        },
+        {
+          "title": "Different type of rubber extruders",
+          "topics": "viz, hot feed, cold feed, pin barrel, cross head, co extrusion, etc.",
+          "hours": 7
+        },
+        {
+          "title": "Calendaring-",
+          "topics": "Description of the construction, function and use of calendaring machinery and general layout of calendaring, other methods of textile coating, viz, spreading.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "202",
+      "title": "Rubber Materials-I",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        15,
+        15
+      ],
+      "units": [
+        {
+          "title": "Source, manufacture, grading, types, basic mix design",
+          "topics": "Source, manufacture (in outline), grading, types, basic mix design,",
+          "hours": 8
+        },
+        {
+          "title": "Processing, vulcanization and properties",
+          "topics": "Processing, vulcanization and properties of NR, SBR, CR, IIR, EPDM, NBR.",
+          "hours": 7
+        },
+        {
+          "title": "Main characteristics",
+          "topics": "Main characteristics- of BR, IR, EPR, Silicon, fluorocarbon, acrylate, polyurethane, epichlorohydrin",
+          "hours": 7
+        },
+        {
+          "title": "Halo butyl, solution polymerized PBR",
+          "topics": "Halo butyl, solution polymerized PBR",
+          "hours": 7
+        },
+        {
+          "title": "Oxysulphides, chlorosulphonated polythene",
+          "topics": "Oxysulphides, chlorosulphonated polythene.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "203",
+      "title": "Fundamentals of Industrial Management",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": [
+        {
+          "title": "Concept of Quality",
+          "topics": "• Quality: Definition, History, Importance • Approaches to define Quality, Cost of Quality, Hierarchy of Quality Management • Introduction to Quality Control.",
+          "hours": 8
+        },
+        {
+          "title": "Organizational Aspects of Quality Assurance",
+          "topics": "• Quality Assurance (QA): Introduction, Definition, Management principles in QA, QA in different stages, Quality Planning. • ISO: Introduction, ISO 9000 series of standard, Benefits of ISO. • ISO 9001, Benefits of ISO 9001. • Quality survey: Scope, Types of audits, inspection methods, Quality budget, Vendor Quality Rating",
+          "hours": 7
+        },
+        {
+          "title": "Problem solving tools and techniques:",
+          "topics": "• Definition of a problem • Type of problems, classification of problems • What is problem solving, barriers to problem solving • Problem solving tools: Cause and effect diagram, Histogram, flow charts, Check sheets, Histogram, Brain-storming, Pareto charts, Control charts, Scatter Diagram 3.5 Problem solving techniques: Brain storming, Flow diagram, PDCA Cycle etc",
+          "hours": 7
+        },
+        {
+          "title": "Total Quality Management:",
+          "topics": "• Basic concept of TQM, features of TQM • principles of TQM • leadership concepts • Quality statements • Barriers to TQM implementation • Concept of TPM • Quality allied concept: KAIZEN, Poke yoke, JIT, KAPA",
+          "hours": 7
+        },
+        {
+          "title": "5 S and Safety:",
+          "topics": "• Detailed concept of 5S and safety used in Industries • Integrated Management system.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "204",
+      "title": "Rubber Materials-I Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "205",
+      "title": "Rubber Processing Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "206",
+      "title": "On Job Training",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "301",
+      "title": "Rubber Material – II",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        20,
+        20
+      ],
+      "units": [
+        {
+          "title": "Polymer blends and properties",
+          "topics": "Awareness about polymer blends and the properties of PVC and thermosetting phenol formaldehyde resins.",
+          "hours": 7
+        },
+        {
+          "title": "Compounding ingredients",
+          "topics": "Function and example of: activators, peptizes, blowing agents, softness, extruders pigment, tackifiers, and release against reclaim rubber, factice, ground crumb, mineral rubber, retarders",
+          "hours": 7
+        },
+        {
+          "title": "Curing systems",
+          "topics": "Conventional, Semi-EV, EV systems, Classification of accelerators, peroxides, metal oxides and resins.",
+          "hours": 7
+        },
+        {
+          "title": "Filler-reinforcing and extending fillers",
+          "topics": "black and nonblack outline of the manufacturer of carbon black, classification of carbon black.",
+          "hours": 7
+        },
+        {
+          "title": "Mix design and selection of polymers",
+          "topics": "NR, SBR, NBR, IIR, CR and EPDM compound for: low cost: high strength, high elongation, high and low hardness and modulus, maximum resistance to hydrocarbon oils and solvents, Maximum resistance to heat ageing, weathering and ozone, electrical insulation, conduction and antistatic, process ability high resilience, low set, flex cracking resistance, microcellular and multicellular structure, flame resistance, low temperature , flexibility, non-toxicity for food stuff and applications.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "302",
+      "title": "Polymer Composite Materials",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        21,
+        21
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION",
+          "topics": "Historical Development- Concept of Composite- Basic Definitions and Classifications of Composites - MMC, CMC and PMC- Advantages and Limitations of Composites Materials",
+          "hours": 8
+        },
+        {
+          "title": "MATRIX MATERIALS - THERMOSETS-I",
+          "topics": "PF, UF and MF Resins – Preparation properties and uses – Moulding powders – Additives Epoxy-Preparation properties and uses Unsaturated Polyester, Vinyl Ester",
+          "hours": 7
+        },
+        {
+          "title": "MATRIX MATERIALS - THERMOSETS-II",
+          "topics": "Cyanate Ester, Furan resins, Polyimides and BMI‟s - preparation, properties and applications phthalonitrile resins, Benzoxazine resin – Preparation properties and applications",
+          "hours": 7
+        },
+        {
+          "title": "FIBROUS REINFORCEMENTS",
+          "topics": "Reinforcements-Classification-Role and Selection of fibers - Glass fiber -classification, Manufacture and properties, Carbon fiber -classification, Manufacture and properties, Aromatic polyamides, PE fibers, Boron Fibers, Natural Fibers",
+          "hours": 7
+        },
+        {
+          "title": "ADDITIVES FOR COMPOSITES",
+          "topics": "Cross linkers, coupling agents, Fillers -particulate, Whiskers, Nano fillers - carbons based, silica based, cellulose based, self-reinforcing composites",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "303",
+      "title": "Rubber Testing – I",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        22,
+        22
+      ],
+      "units": [
+        {
+          "title": "Specification and standardization.",
+          "topics": "Specification and standardization.",
+          "hours": 8
+        },
+        {
+          "title": "Stress/ strain properties",
+          "topics": "Tensile strength, elongation, tear, abrasion, compression set under constant stress/ strain, original and after ageing.",
+          "hours": 7
+        },
+        {
+          "title": "Effect of environment and ageing of rubbers",
+          "topics": "Swelling, oxidation agency and ozone cracking tests.",
+          "hours": 7
+        },
+        {
+          "title": "Electrical properties of rubber",
+          "topics": "Determination of resistivity, relative permittivity, Power factor and die -electrical strength.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "304",
+      "title": "Polymer Science lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "305",
+      "title": "Rubber Testing-I Lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        24,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "306",
+      "title": "On Job Training",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "401",
+      "title": "Physical Properties of Polymers",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": "STATES OF AGGREGATIONS IN POLYMERS",
+          "topics": "Glassy and rubbery states - Segmental mobility and glass transition Temperature - Thermodynamics and significance - Factors affecting transitions - Multiple transitions – Semi crystalline state - Requirements for crystallization - Crystallization from polymer solutions and melts-Crystal nucleation and growth-",
+          "hours": 7
+        },
+        {
+          "title": "DEFORMATION & FAILURE IN POLYMERS",
+          "topics": "Stress – strain properties of polymers - Comparison with conventional materials - short term mechanical properties - Flexural strength - Impact strength - Fatigue endurance - Ductile and Brittle failure - Ductile-Brittle transitions - Long term mechanical properties - Creep and Stress relaxation - Boltzmann Superposition principle",
+          "hours": 7
+        },
+        {
+          "title": "TRIBOLOGICAL PROPERTIES OF POLYMERS",
+          "topics": "Theory of Friction – surface and bulk material characteristics affecting coefficient of friction- Static and Dynamic Coefficient of friction – Factors affecting Friction in polymers – Elastic deformation – single contacts – multiple contacts – Rolling friction – sliding friction of rubbers and rigid polymers – lubrication by fluids – solid lubricants -",
+          "hours": 7
+        },
+        {
+          "title": "ELECTRICAL AND OPTICAL PROPERTIES OF POLYMERS",
+          "topics": "Volume and surface resistivity - Polar and Non-polar polymers - Polarization - Dielectric properties of polymers - Factors affecting dielectric properties - Dielectric relaxation spectroscopy in polymers - Dielectric breakdown- Anti static and conducting polymers - Optical applications of polymers - Reflection - Refraction - Light scattering - Light transfer and Absorption - Rheoptical properties - Photoelastic effect s and analysis in polymers - Birefringence and orientation in polymers",
+          "hours": 7
+        },
+        {
+          "title": "ENVIRONMENTAL AND SPECIALITY PROPERTIES",
+          "topics": "Barrier properties: Sorption, Diffusion and Permeation - Chemical resistance, Thermal stability and photo degradation in Polymers - Flammability Characteristics - magneto- rheological behaviour in polymer systems - Properties and applications of polyelectrolytes - properties and applications of hydrogels - Piezoelectric properties of polymers - Shape memory polymer systems - Ablative plastics and their applications",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "402",
+      "title": "Environmental Science",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "ENVIRONMENT, ECOSYSTEMS AND BIODIVERSITY",
+          "topics": "Definition, scope and importance of environment – need for public awareness - concept of an ecosystem – structure and function of an ecosystem – producers, consumers and decomposers – energy flow in the ecosystem – ecological succession – food chains, food webs and ecological pyramids",
+          "hours": 7
+        },
+        {
+          "title": "ENVIRONMENTAL POLLUTION",
+          "topics": "Definition – causes, effects and control measures of: (a) Air pollution (b) Water pollution (c)Soil pollution (d) Marine pollution (e) Noise pollution (f) Thermal pollution (g) Nuclear hazards– soil waste management: causes, effects and control measures of municipal solid wastes – role of an individual in prevention of pollution – pollution case studies – disaster management: floods, earthquake, cyclone and landslides. Field study of local polluted site – Urban / Rural / Industrial / Agricultural.",
+          "hours": 7
+        },
+        {
+          "title": "NATURAL RESOURCES",
+          "topics": "Forest resources: Use and over -exploitation, deforestation, case studies- timber extraction, mining, dams and their effects on forests and tribal people – Water resources: Use and overutilization of surface and ground water, floods, drought, conflicts over water, dams - benefits and problems – Mineral resources: Use and exploitation, environmental effects of extracting and using mineral resources, case studies – Food resources: World food problems, changes caused by agriculture and overgrazing, effects of modern agriculture, fertilizer-pesticide problems, water logging, salinity, case studies – Energy resources: Growing energy needs, renewable and non -renewable energy sources, use of alternate energy sources. case studies – Land resources: Land as a resource, land degradation, man induced landslides, soil erosion and desertification",
+          "hours": 8
+        },
+        {
+          "title": "SOCIAL ISSUES AND THE ENVIRONMENT",
+          "topics": "From unsustainable to sustainable development – urban problems related to energy – water conservation, rain water harvesting, watershed management – resettlement and rehabilitation of people; its problems and concerns, case studies – role of non- governmental organization- environmental ethics: Issues and possible solutions – climate change, global warming, acid rain, ozone layer depletion, nuclear accidents and holocaust, case studies. – wasteland reclamation – consumerism and waste products – environment production act– Air (Prevention and Control of Pollution) act – Water (Prevention and control of Pollution) act – Wildlife protection act – Forest conservation act – enforcement machinery involved in environmental legislation- central and state pollution control boards- Public awareness.",
+          "hours": 7
+        },
+        {
+          "title": "HUMAN POPULATION AND THE ENVIRONMENT",
+          "topics": "Population growth, variation among nations – population explosion – family welfare programme – environment and human health – human rights – value education – HIV / AIDS – women and child welfare – role of information technology in environment and human health – Case studies.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "403",
+      "title": "Rubber Testing-II",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        29,
+        29
+      ],
+      "units": [
+        {
+          "title": "Time dependent properties",
+          "topics": "Determination of rebound resilience, effect of temperature and resilience,",
+          "hours": 7
+        },
+        {
+          "title": "Heat buildup",
+          "topics": "Determination of heat buildup by Goodrich thermometer.",
+          "hours": 7
+        },
+        {
+          "title": "Creep and stress relaxation",
+          "topics": "Determination of creep and stress relaxation.",
+          "hours": 7
+        },
+        {
+          "title": "Dynamic properties",
+          "topics": "Effect of temperature frequency and aptitude of vibration on dynamic properties, forced and free vibration machines, determination of loss modulus.",
+          "hours": 8
+        },
+        {
+          "title": "Quality management systems",
+          "topics": "ISO 9001;2008 Quality management systems",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "404",
+      "title": "CAD Practice Lab",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        30,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "405",
+      "title": "Rubber Testing-II Lab",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        31,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "406",
+      "title": "On Job Training",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "501",
+      "title": "Rubber Compounding",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        33,
+        33
+      ],
+      "units": [
+        {
+          "title": "SCIENCE OF COMPOUNDING",
+          "topics": "Technical approach to compound development, standard practices, compounding for general and specific application, design of rubber compounds, processability, properties, performance and cost",
+          "hours": 7
+        },
+        {
+          "title": "COMPONENTS",
+          "topics": "Compounding additives, cross linkers, age resistors, reinforcers, process enablers, extenders, flexibilisers, thermal aging resistors, special functional additives, homongenisers. Safe handling of various rubber chemicals - environmental regulations.",
+          "hours": 7
+        },
+        {
+          "title": "COMPOUNDING FOR GENERAL PURPOSE RUBBERS",
+          "topics": "Hardness specified NR, SBR, compounds for age resistance, compression set resistance, flexural fatigue, abrasion resistance, vibration mounts and isolation pads, bridge bearing, conveyor belting.",
+          "hours": 7
+        },
+        {
+          "title": "COMPOUNDING FOR SPECIFIC END USES",
+          "topics": "Principles and materials for EPDM, CR, halo butyls, nitriles, silicones, fluorocarbons, chlorosulphonated polyethylene‟s, acrylates, polyurethanes, hydrogenated nitriles.",
+          "hours": 7
+        },
+        {
+          "title": "QC ASPECTS",
+          "topics": "Application of QC, statistics on compounding, DOE, traceability, role of specific gravity on end use, sustainability, control and disposal of off spec compounds, matching of hardness.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "502",
+      "title": "Rubber Materials-III",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        34,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Rubber Elasticity – Requirements for rubber elasticity- flexible chain and Tg- Effect of chemical structure on the properties of rubbers - Natural Rubber Latex, tapping, processing, properties and applications – Conversion of Latex into dry rubber – Properties of dry rubber – Classification based on technical specifications – mastication of NR",
+          "hours": 8
+        },
+        {
+          "title": "Diene Rubbers",
+          "topics": "Modifications of Natural Rubber–Applications –epoxidase natural rubber - Synthetic polyisoprene– BR-Polyalkenamers and polynorbornene-Nitrile Rubber NBR-PVC blends, Butyl Rubber, halo butyl rubber, Polychloprene Rubbers",
+          "hours": 7
+        },
+        {
+          "title": "Special Purpose Elastomers",
+          "topics": "Ethylene Propylene Rubber and Ethylene – Vinyl acetate copolymers – Elastomers based on modified polyethylene – Acrylate rubbers Polysulphide rubbers- polyether rubbers – selection criteria for the special purpose rubbers for various applications",
+          "hours": 7
+        },
+        {
+          "title": "High Performance Elastomers",
+          "topics": "HNBR- Fluoroelastomers-VDF based fluoro rubbers-perfluoro rubbers- base resistant rubbers- silicone elastomers- Preparation, structure, properties and applications – liquid silicone rubbers – silicones in medical applications",
+          "hours": 7
+        },
+        {
+          "title": "Polyurethanes and thermoplastic Elastomers",
+          "topics": "Poly urethanes- diisocyanates, polyols and chain extenders – castable PUs-millable PUs- Requirements for thermoplastic elastomeric behaviour – SBS and SIS Block copolymers – Thermoplastic Polyurethane elastomers – Thermoplastic-co-polyesters – Thermoplastic elastomers based on Plastic – Rubber Blends – Dynamic Vulcanization.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "503",
+      "title": "Mould Design",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        35,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to mould construction",
+          "topics": "Introduction to detail study of mould construction for different moulding process. Including feeding of raw materials to mould component ejection system.",
+          "hours": 8
+        },
+        {
+          "title": "Detail designing of mould components",
+          "topics": "Detail designing of mould components core, cavity, moving parts, etc. Design of guide pin bushes.",
+          "hours": 7
+        },
+        {
+          "title": "Compression moulds:",
+          "topics": "Design of positive mould, semi-positive mould Single cavity and multicavity mould Flash allowance, shrinkage allowance and draft allowance.",
+          "hours": 7
+        },
+        {
+          "title": "Transfer moulds:",
+          "topics": "design of transfer pot and punch",
+          "hours": 7
+        },
+        {
+          "title": "Extrusion die design:",
+          "topics": "aspects of pipe die, Mandrel, Land length, Angle of entry. Profile dies elementary study.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "504",
+      "title": "Project Stage-I",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        36,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "505",
+      "title": "On Job Training",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "601",
+      "title": "Rubber Testing – III",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        39,
+        39
+      ],
+      "units": [
+        {
+          "title": "Destruction tests",
+          "topics": "Theories of tearing. Relative merits of various tests",
+          "hours": 7
+        },
+        {
+          "title": "Abrasion resistance",
+          "topics": "Determination of abrasion resistance to crack invitation and crack growth by the De Mattia method, review of other flex cracking test",
+          "hours": 8
+        },
+        {
+          "title": "flexural fatigue failure",
+          "topics": "flexural fatigue failure in rubber fabric comparatives.",
+          "hours": 7
+        },
+        {
+          "title": "Adhesion/ Band testing",
+          "topics": "Peel test, shear test.",
+          "hours": 7
+        },
+        {
+          "title": "Environmental Management Systems",
+          "topics": "ISO 14001:2004 Environmental Management Systems - Introduction and awareness",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "602",
+      "title": "Rubber Processing and Product Manufacturing",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        38,
+        38
+      ],
+      "units": [
+        {
+          "title": "COMPOUNDING AND MIXING OPERATIONS",
+          "topics": "Rubber mixing mechanism, mixing machinery – construction and operations - Open mill mixing – Internal mixing – Energy mixing, Continuous mixing – Factors affecting mixing – Flow behavior of gum and rubber compound, processability test, Common problems in mixing.",
+          "hours": 8
+        },
+        {
+          "title": "FORMING OPERATIONS",
+          "topics": "Extrusion- construction and operations - Screw type – L/D ratio and its influence – Hot and cold feed extruders – Pin barrel extruder – Twin screw extruder –Factors affecting the extrusion process, Common problems in extrusions. Calendaring – construction and operations - Sheeting – Coating – Fractioning – Topping – Roll configurations – Control of thickness - Factors affecting the calendaring process, common problems in calendaring process.",
+          "hours": 7
+        },
+        {
+          "title": "MOULDING AND OTHER VULCANISING TECHNIQUES",
+          "topics": "Compression, transfer and injection molding process – Blanks & pre -heating techniques, preparation of surfaces for bonding, common problems in molding. Vulcanization –Batch vulcanization- Autoclaves, Hot air chambers - curing of hand built up products - tank, pipe lining, roller covering. Continuous vulcanization - L.C.M. (Liquid Curing Media), Microwave curing, Roto cure, Hot air oven, common problems in curing.",
+          "hours": 7
+        },
+        {
+          "title": "MANUFACTURE OF RUBBER PRODUCTS",
+          "topics": "Belting, Hoses, Cables, Rubber Footwear, Sports goods, molded products -Rubber to Metal bonded products - Bridge Bearings, Engine mountings, Finishing of rubber components.",
+          "hours": 7
+        },
+        {
+          "title": "PLANT DESIGN FOR RUBBER COMPONENTS MANUFACTURING",
+          "topics": "Plant layout design, Plant services, Power transmission, Hydraulics, Heating and cooling systems - automation, Safety systems, man power requirements, Storage and Flow pattern of materials, Energy conservation- Case study.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "603",
+      "title": "Project Stage-II",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        40,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "604",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

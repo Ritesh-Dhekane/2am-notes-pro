@@ -1,0 +1,210 @@
+{
+  "id": "sybca-semester-iii-revised-syllabus-02072026",
+  "kind": "programme",
+  "programme": "Second Year Bachelor of Computer Application (SYBCA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA – 201 - MJ",
+      "title": "Data Structures",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": null,
+      "pages": [
+        2,
+        3
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structure",
+          "topics": "1.1 Introduction, Basic concepts, Data types and data objects., 1.2 Abstract Data Types (ADT), 1.3 Types of Data Structures: Linear and non -linear, 1.4 Algorithm analysis: Frequency counts, Space and Time complexity, Asymptotic notation: Big O, Omega (Ω) (With examples)",
+          "hours": 2
+        },
+        {
+          "title": "Arrays",
+          "topics": "2.1 Introduction, 2.2 Matrix representation using arrays: Row and column major, operations on matrices, Sparse Matrix, 2.3 Sorting techniques with time complexity: Bubble sort, Insertion sort, Merge sort, Quick sort, 2.4 Searching techniques with time Complexity: Linear search and Binary search",
+          "hours": 8
+        },
+        {
+          "title": "Linked Lists",
+          "topics": "3.1 Introduction, 3.2 Representation, 3.3 Types of linked lists: Singly, Doubly, Circular (Singly, Doubly), 3.4 Operations on link list: Create, Display, Insert, Delete, Reverse, Search, Sort, Concatenation, Merge, 3.5 Real world applications of Link list : Polynomial Representation, Addition of two polynomials",
+          "hours": 10
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": "4.1 Introduction, 4.2 Representation of Stack: Using arrays and Linked Lists, 4.3 Operations on stack: push, pop, 4.4 Applications of Stack: Recursion, Expressions: Infix to postfix, postfix to infix, 4.5 Representation of Queues: Static (Array) and Dynamic (Linked List), 4.6 Operations on queue: insert, delete, 4.7 Types of queues: Circular queue and Priority queue, 4.8 Real world Applications of queue (Implementation not expected)",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CA - 202 - MJP",
+      "title": "Lab course on CA – 201 - MJ",
+      "semester": 3,
+      "type": "Major Core Practical",
+      "credits": null,
+      "pages": [
+        4,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "CA - 221 - VSC",
+      "title": "C++ Programing",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": null,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Introduction to CPP",
+          "topics": "1.1 Basic concepts, advantages and applications of OOP, 1.2 Introduction, applications of C++, 1.3 Input and Output operator in C++, 1.4 Elementary C++ program",
+          "hours": 2
+        },
+        {
+          "title": "Beginning with CPP",
+          "topics": "2.1 Data type and Keywords, 2.2 Declaration of variables, dynamic initialization of variables, reference variable, 2.3 Operators: Scope resolution operator, Memory management operators, 2.4 Manipulators, 2.5 Functions: Function prototyping, call by reference and return by reference, Inline functions",
+          "hours": 5
+        },
+        {
+          "title": "Classes and Objects",
+          "topics": "3.1 Class, Object and its structure, 3.2 Access specifiers, defining data member, 3.3 Defining member functions, 3.4 C++ program using class, 3.5 Memory allocation, 3.6 Static data members and static member functions, 3.7 Array of objects, 3.8 Friend function and Friend class",
+          "hours": 6
+        },
+        {
+          "title": "Constructors & Destructors",
+          "topics": "4.1 Constructors and its types, 4.2 Multiple constructors in a class and with default argument, 4.3 Dynamic constructor, 4.4 Destructor",
+          "hours": 5
+        },
+        {
+          "title": "Inheritance",
+          "topics": "5.1 Introduction: Defining Base class and Derived class, 5.2 Types of Inheritance, 5.3 Virtual base class and abstract class",
+          "hours": 4
+        },
+        {
+          "title": "Polymorphism",
+          "topics": "6.1 Compile Time Polymorphism: Introduction, rules for overloading operators, Function overloading, Operator Overloading, String manipulation using operator overloading, 6.2 Runtime Polymorphism: Virtual functions and pure virtual functions",
+          "hours": 4
+        },
+        {
+          "title": "Managing console, I/O operations",
+          "topics": "7.1 C++ streams and C++stream classes, 7.2 Formatted and Unformatted I/O operations, 7.3 File Handling: Stream Classes for File operations, File operations -Opening, Closing and updating, File updating with random access. Error handling during File operations",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CA - 221 - VSC",
+      "title": "C++ Programing",
+      "semester": 3,
+      "type": "Vocational Skill Course Practical",
+      "credits": null,
+      "pages": [
+        8,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "CA - 231 - FP",
+      "title": "Field work",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": null,
+      "pages": [
+        10,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS- 241-MN",
+      "title": "Data Communication",
+      "semester": 3,
+      "type": "Minor",
+      "credits": null,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Communication",
+          "topics": "1.1 Definition and components of data communication, 1.2 Data representation (text, numbers, audio, video), 1.3 Communication models: Sender, Receiver, Medium, Message, Protocol, 1.4 Types of data transmission: Analog vs Digital, 1.5 Data flow directions: Simplex, Half-duplex, Full-duplex, 1.6 Networks and their categories (LAN, WAN, MAN), 1.7Protocols and standards",
+          "hours": 5
+        },
+        {
+          "title": "Transmission Media",
+          "topics": "2.1 Guided Media: Twisted pair, Coaxial cable, Optical fiber, 2.1 Unguided Media: Radio waves, Microwaves, Infrared, 2.2 Comparison of media types (speed, cost, distance, security), 2.3 Transmission impairments: Attenuation, Noise, Distortion",
+          "hours": 5
+        },
+        {
+          "title": "Data Encoding and Transmission",
+          "topics": "3.1 Digital-to-Digital Encoding (NRZ, Manchester, etc.), 3.2 Analog-to-Digital Conversion (Sampling, Quantization, PCM, Delta Modulation), 3.3 Digital-to-Analog (ASK, FSK, PSK, QAM), 3.4 Analog-to-Analog (AM, FM, PM), 3.5 Bandwidth and Bitrate, 3.6 Transmission Modes: Synchronous & Asynchronous",
+          "hours": 5
+        },
+        {
+          "title": "Network Devices and Topologies",
+          "topics": "4.1 Devices: Hub, Switch, Router, Bridge, Gateway, Modem, 4.2 Network Topologies: Bus, Ring, Star, Mesh, Hybrid, 4.3 Comparison and Applications of each topology",
+          "hours": 5
+        },
+        {
+          "title": "Emerging Trends in Data Communication",
+          "topics": "5.1 Mobile communication (4G/5G overview), 5.2 Wireless networks (Wi-Fi, Bluetooth, Zigbee), 5.3 Satellite Communication, 5.4 IoT (Internet of Things) basics, 5.5 Network virtualisation & cloud-based networking",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ELS- 242- MNP",
+      "title": "Lab course on ELS – 241 - MN",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": null,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "CA – 200 – IKS",
+      "title": "Indian Knowledge System for Computing",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": null,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Indian Knowledge Systems (IKS)",
+          "topics": "1.1 Introduction IKS, 1.2 Defining Indian Knowledge System (IKS) and its components,, 1.3 Contribution of Aryabhata and Brahmagupta, Buddhist logico-epistemology, 1.4 The knowledge triangle, 1.5 Prameya -A vaiśeṣikan approach to physical reality, 1.6 Dravyas -the constituents of the physical reality, 1.7 Attributes -the properties of substances and Action -the driver of conjunction and disjunction, 1.8 sāmānya, viśēṣa, samavāya, 1.9 Pramāṇa -the means of valid knowledge, 1.10 Samsaya-ambiguities in existing knowledge.",
+          "hours": 5
+        },
+        {
+          "title": "Number Systems and Units of Measurement",
+          "topics": "2.1 Number systems in India -Historical evidence, 2.2 Salient Features of the Indian Numeral System, 2.2.1 Concept of zero and its importance,, 2.2.2 Large numbers and their representation, 2.2.3 Place Value of Numerals, 2.2.4 Decimal System, 2.3 Unique approaches to represent Numbers, 2.3.1 Bhūta-Saṃkhyā system, 2.3.2 Śūnyabindu System, 2.3.3. Piṅgala and the Binary system, 2.4. Measurements for time, distance, and weight in ancient India",
+          "hours": 12
+        },
+        {
+          "title": "Linguistics",
+          "topics": "3.1 Introduction to Linguistics, 3.2 Aṣṭādhyāyī, 3.3 Phonetics, 3.4 Word generation, 3.5 Computational aspects, 3.6 Mnemonics, 3.7 Recursive operations -Introduction to use of Kaprekar Constant 6174 in recursion, 3.8 Rule based operations, 3.9 Sentence formation, 3.10 Verbs and prefixes, 3.11 Role of Sanskrit in natural language processing",
+          "hours": 8
+        },
+        {
+          "title": "Ancient Cryptography and Security Systems",
+          "topics": "4.1 The Evolution of India’s Intelligence Culture-Kautilya’s Discourse on Secret Intelligence in the Arthashastra, 4.2 Kaṭapayādi system, 4.3 Steganography in Kautilya’s Arthashastra, 4.4 Cryptographic methods in ancient Indian texts, 4.5 Relevance to modern-day cybersecurity and encryption, 4.6 Introduction to use of Kaprekar Constant (6174) in cryptography",
+          "hours": 5
+        }
+      ]
+    }
+  ],
+  "notes": null
+}
