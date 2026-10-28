@@ -1,0 +1,878 @@
+{
+  "id": "me-eandtc-signal-processing-2025-pattern-28082025",
+  "kind": "programme",
+  "programme": "Master of Engineering (2025 Pattern) in Electronics & Telecommunication (Signal Processing)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-SGP",
+      "title": "Advanced Digital Signal Processing",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Discrete Fourier Transform",
+          "topics": "DFT, Properties of DFT, circular convolution, linear convolution, Computation of linear convolution using circular convolution, FFT, decimation in time and decimation in frequency using Radix -2 FFT algorithm, Introduction to Discrete Cosine Transform.",
+          "hours": 8
+        },
+        {
+          "title": "FIR and IIR Filters",
+          "topics": "Ideal filter requirements, Gibbs phenomenon, FIR filters using windowing techniques, characteristics and comparison of different window functions, design techniques of linear phase FIR filters using frequency sampling method, IIR filters by IIR filter design by impulse invariance method, bilinear transformation",
+          "hours": 8
+        },
+        {
+          "title": "Multi Rate DSP",
+          "topics": "Decimation, Interpolation, Sampling rate conversion by a non -integer factor, Multistage decimator, polyphase structure, applications of Multirate DSP",
+          "hours": 8
+        },
+        {
+          "title": "Adaptive Filters",
+          "topics": "Need of adaptive filters, adaptive filters as system identification, Wiener Hopf Equation, LMS adaptive algorithms, configuration of adaptive filters, recursive least square algorithms, adaptive telephone echo cancellation, Adaptive filtering of ocular artifacts from the human EEG.",
+          "hours": 8
+        },
+        {
+          "title": "DSP Processors",
+          "topics": "DSP Architectures: Von Neumann Architecture, Harvard Architecture, Super Harvard Architecture, VLIW Architecture, Fixed and Floating point DSPs , Multiple access memory, multiport memory, circular buffering, MC unit, Barrel shifter, Parallel processing and pipelining, Application of DSP in Medical Imaging MRI and CT scan, interference cancellation in ECG, Speech coding and compression, Vibration signature analysis for defective gear teeth.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-SGP",
+      "title": "Digital Image and Video Processing",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Image Representation and Transform",
+          "topics": "Gray scale and color images, image sampling and quantization, Fundamentals of color image processing. Color models - RGB, CMY, YIQ, HIS, Pseudo – coloring, Two dimensional orthogonal transforms: DFT, Haar transform, DCT and Wavelet Transform.",
+          "hours": 8
+        },
+        {
+          "title": "Image Enhancement",
+          "topics": "Point and Mask processing of images, filters in spatial and frequency domains, histogram-based processing, homomorphic filtering. Edge detection , LOG filters. Pseudo coloring",
+          "hours": 8
+        },
+        {
+          "title": "Image Restoration",
+          "topics": "A model of the image degradation/restoration process, noise models, restoration in the presence of noise–only spatial filtering, W einer filtering, constrained least squares filtering, geometric transforms; Introduction to the Fourier transform and the frequency domain, estimating the degradation function",
+          "hours": 8
+        },
+        {
+          "title": "Image Segmentation",
+          "topics": "Image Segmentation: Pixel classification, Bi-level thresholding, Multi -level thresholding, P -tile method, Adaptive thresholding, Spectral & spatial classification, Edge detection, Hough transform, Region growing and region merging. Morphological operators. Boundary Extraction, Boundary representation, Region representation, Moment representation, Structure, Shape features, Texture feature",
+          "hours": 8
+        },
+        {
+          "title": "Video Processing",
+          "topics": "Fundamental Concepts in Video –Types of video signals, Analog video, Digital video, Color models in video, Motion Estimation; Video Filtering; Video Compression, Video coding standards",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-SGP",
+      "title": "Linear Algebra Statistics and Probability",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Linear Algebra",
+          "topics": "Matrices, Vectors: Addition and Scalar Multiplication, Matrix Multiplication, Linear Systems of Equations. Gauss Elimination, Linear Independence. Rank of a Matrix. Vector Space, Solutions of Linear Systems: Existence, Uniqueness, Inverse of a Matrix. Gauss –Jordan Elimination, Vector Spaces, Inner Product Spaces. Linear Transformations.",
+          "hours": 8
+        },
+        {
+          "title": "Linear Algebra: Matrix Eigenvalue Problems",
+          "topics": "The Matrix Eigenvalue Problem, Determining Eigenvalues and Eigenvectors, Some Appli cations of Eigenvalue Problems, Symmetric, Skew-Symmetric, and Orthogonal Matrices, Eigenbases. Diagonalization. Quadratic Forms",
+          "hours": 8
+        },
+        {
+          "title": "Vector Space and Vector Calculus",
+          "topics": "Vectors in 2 -Space and 3 -Space, Inner Product (Dot Product), Vector Product (Cross Product), Vector and Scalar Functions and Their Fields. Vector Calculus: Derivatives, Curves. Arc Length. Curvature. Torsion, Functions of Several Variables. Optional, Gradient of a Scalar Field. Directional Derivative, Divergence of a Vector Field, Curl of a Vector Field",
+          "hours": 8
+        },
+        {
+          "title": "Probability Theory",
+          "topics": "Data Representation. Average. Spread, Experiments, Outcomes, Events, Probability, Permutations and Combinations, Random Variables. Probability Distributions, Mean and Variance of a Distribution, Binomial, Poisson, and Hypergeometric Distributions, Normal Distribution, Distributions of Several Random Variables",
+          "hours": 8
+        },
+        {
+          "title": "Mathematical Statistics",
+          "topics": "Statistics: Introduction to Statistical Inference Problems; Point Estimation; Interval Estimation; Testing of Hypotheses; Two Sample Problems Involving Normal Populations, Tests for Proportions, Chi-Square Goodness of Fit Test, Contingency Tables",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-SGP",
+      "title": "VLSI Chip Design and Fabrication",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Design with HDL",
+          "topics": "Basics of Verilog: Typical HDL-flow, why Verilog HDL, trends in HDLs. Gate -Level Modelling: Modelling using basic Verilog gate primitives, description of and/or and buffer/not type gates, rise, fall and turn - off delays, min, max, and typical delays. Behavioral Modelling: Structured procedures, initial and always, blocking and non - blocking statements, delay control, generate statement, event control, conditional statements, Multiway branching, loops, sequential and parallel blocks",
+          "hours": 9
+        },
+        {
+          "title": "ASIC Design Part I",
+          "topics": "Types of ASIC and Comparisons, ASIC Design Flow, Logic Synthesis, Simulation, EDA Tools, ASIC Physical Design : Architecture Design, Physical Design, CAD Tools, System partitioning, Partitioning Strategies, Floor planning, Placement, Routing",
+          "hours": 9
+        },
+        {
+          "title": "ASIC Design Part II",
+          "topics": "ASIC Timing Analysis: Static timing analysis, Timing constraints, Delay estimation, ASIC Verification and Testing: Different Chip Test Methods, Fault Models, Scan Test, Partia l Test, Digital scan standards, BIST architecture, BILBO, Boundary Scan, Self-Test, JTAG, ATPG",
+          "hours": 9
+        },
+        {
+          "title": "Chip Design",
+          "topics": "Crystal Growth and Wafer Preparation: Introduction, Electronic-Grade Silicon, Czochralski Crystal Growing. Epitaxy: Introduction, Vapour-Phase Epitaxy. Lithography: Introduction, Optical Lithography, Electron Lithography, X-ray Lithography, Ion Lithography. Reactive Plasma, Etching: Introduction, Plasma Properties, Feature-Size Control and Anisotropic Etch Mechanisms, Reactive Plasma-Etching Techniques and Equipment.",
+          "hours": 9
+        },
+        {
+          "title": "Chip Fabrication",
+          "topics": "Ion Implantation: Introduction, Range Theory, Implantation Equipment, Annealing, Shallow Junctions, High-Energy Implantation. Metallization: Introduction, Metallization Applications, Metallization Choices, Physical Vapor Deposition, Patterning, Metallization problems.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-SGP",
+      "title": "Signal Processing Laboratory-I",
+      "semester": 1,
+      "type": "Program Core Course – Lab",
+      "credits": 2,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A-SGP",
+      "title": "Mixed Signal Processing",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "D/A Converter Architectures",
+          "topics": "Digital to analog converter specifications, DAC architectures: Cyclic DAC, Pipeline DAC, R -2R ladder DAC, Charge-scaling DAC.",
+          "hours": 8
+        },
+        {
+          "title": "A/D Converter Architectures",
+          "topics": "Analog to digital converter specifications, Sample -and-Hold (S/H) Characteristics, ADC architectures: Flash ADC, Pipeline ADC, Integrating A DCs, Successive Approximation ADC, Oversampling ADC.",
+          "hours": 8
+        },
+        {
+          "title": "Data Converter SNR",
+          "topics": "Data Converter SNR: An Overview, Improving SNR using Averaging, Decimating Filters for ADCs, Interpolating Filters for DACs, Using Feedback to Improve SNR.",
+          "hours": 8
+        },
+        {
+          "title": "Phase-Locked Loops(PLL)",
+          "topics": "Simple Phase-Locked Loops(PLL), Charge-pump PLLs, Nonideal effects in PLL, Delay-locked loops, Applications of PLL.",
+          "hours": 8
+        },
+        {
+          "title": "Switched-Capacitor Circuits",
+          "topics": "Switched capacitor amplifiers, Switched capacitor integr ators, First and second order switched capacitor Circuits",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B-SGP",
+      "title": "Blockchain",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Blockchain Foundations & Cryptography",
+          "topics": "Evolution of blockchain: Bitcoin to Web3, Blockchain architecture: Blocks, chains, nodes, P2P network, Permissioned vs. permissionless blockchains, Distributed Ledger Technologies (DLT), Cryptographic principles:Hashing, Merkle Trees, Digital Signatures, Zero-Knowledge Proofs (zkSNARKs, zkSTARKs), Consensus mechanisms:Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), Practical Byzantine Fault Tolerance (PBFT), Directed Acyclic Graphs (DAG)",
+          "hours": 9
+        },
+        {
+          "title": "Smart Contracts & Decentralized Applications (DApps)",
+          "topics": "Smart contract fundamentals and design principles, Economic and legal aspects of smart contracts, Oracles and hybrid contracts: Conceptual overview, Security considerations: Common vulnerabilities, Mitigation strategies, Gas costs and optimization concepts.",
+          "hours": 7
+        },
+        {
+          "title": "Enterprise Blockchain Frameworks & Cross-Chain",
+          "topics": "Interoperability 08 Hours Hyperledger Fabric, Corda, Quorum — architecture and use-cases, Cross-chain interoperability: Polkadot, Cosmos — concepts and industry relevance, Case studies and real-world examples.",
+          "hours": null
+        },
+        {
+          "title": "Decentralized Finance (DeFi), NFTs & Regulations",
+          "topics": "DeFi ecosystem, NFTs, DAOs, CBDCs — trends and conceptual frameworks, Regulatory frameworks: GDPR, KYC and AML, compliance challenges, Sustainability and green blockchain initiatives.",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Trends-IoT, AI, Cloud Integration",
+          "topics": "Blockchain for IoT: Secure device identity, data integrity, Blockchain for AI: Data provenance, AI model trustworthiness, Blockchain for Cloud: case study of Decentralized storage, edge computing integration, Privacy -enhancing techniques: Mixers, ring signatures, confidential transactions.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-521C-SGP",
+      "title": "Business Intelligence",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Business Intelligence and Information Exploitation",
+          "topics": "Why Business Intelligence? The Information Asset, Exploiting Information, Business Intelligence and Program Success, what is Business Intelligence? Actionable Knowledge Business Case, Business Intelligence Process, System Infrastructure, Information Access, Delivery, and Analysis Services, Management Issues",
+          "hours": 8
+        },
+        {
+          "title": "Business Models",
+          "topics": "Smart contract fundamentals and design principles, Economic and legal aspects of smart contracts, Oracles and hybrid contracts: Conceptual overview, Security considerations: Common vulnerabilities, Mitigation strategies, Gas co sts and optimization concepts. Business Models and Information Flow: The Business Case, Information Processing and Information Flow, the Information Flow Model Usage in Practice Modeling Frameworks Manageme Data Warehouses, Online Analytical Processing, an d Metadata: The Business Case, Data Models, The Data Warehouse, The Data Mart, Online Analytical Processing, Metadata, Management Issuesnt Issues",
+          "hours": 7
+        },
+        {
+          "title": "Data Quality and Information Compliance",
+          "topics": "Business Rules: Business Case, Business Rules Approach, What Is a Business Rule? What Is a Business Rule System? Sources of Business Rules, Management Issues Data Profiling: The Business Case, Data Profiling Activities, Data Model Inference, Attribute Analysis, Relationship Analysis, Management , Issues Data Quality and Information Compliance: Business Case, More Than Just Names and Addresses, Types of Errors, Data Cleansing, Business Rule-Based Information Compliance, Management Issues.",
+          "hours": 8
+        },
+        {
+          "title": "Information Integration",
+          "topics": "Information Integration: The Business Case, ETL: Extract, Transform, Load, Enterprise Application Integration and Web Services, Record Linkage and Consolidation, Management Issues ,The Value of Parallelism: Business Case, Parallelism and Granularity, Parallel Processing Systems, Dependence, Parallelism and Business Intelligence, Management Issues Alternate Information Contexts: Business Case, Psychographics and Demographics, Geographic Data , Web Behavior Intelligence, Management Issue.",
+          "hours": 8
+        },
+        {
+          "title": "Data Enhancement, Knowledge Discovery",
+          "topics": "and Data Mining 08 Hours Data Enhancement: The Business Case, Types of Data Enhancement, Incremental Enhancements, Batch Enhancements, Standardization Example: Address Standardization, Enhancement Methodologies Management Issues Knowledge Discovery and Data Mining: The Business Case, Data Mining and the Data Warehouse, The Virtuous Cycle, Directed versus Undirected Knowledge Discovery, Six Basic Tasks of Data Mining, Data Mining Techniques, Management Issues Using Publicly Available Data: Business Case, Management Issues, Public Data, Data Resources Semi Structured Data, The Myth of Privacy",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-521D-SGP",
+      "title": "Estimation and Detection Theory",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Statistical Decision Theory",
+          "topics": "Bayesian, minimax, and Neyman -Pearson decision rules, likelihood ratio, receiver operating characteristics, generalized LRT, composite hypothesis testing, locally optimum tests, detector comparison techniques, asymptotic relative efficiency.",
+          "hours": 8
+        },
+        {
+          "title": "Detection of Deterministic Signals",
+          "topics": "Detection of deterministic Signals: Deterministic Signals, Matched filter detector and its performance; generalized matched filter; detection of sinusoid with unknown amplitude, phase, frequency and arrival time, Detection in linear signal models.",
+          "hours": 7
+        },
+        {
+          "title": "Detection of Random Signals",
+          "topics": "Estimator-correlator structure, Linear model for random signals, General Gaussian detection, Gaussian random signals with unknown parameters, Detection of weak signals.",
+          "hours": 8
+        },
+        {
+          "title": "Nonparametric Detection",
+          "topics": "Detection in the absence of complete statistical description of observations, Non -parametric detectors: sign detector, Wilcoxon detector, detectors based on quantized observations, robustness of detectors.",
+          "hours": 8
+        },
+        {
+          "title": "Estimation of Signal Parameters",
+          "topics": "Minimum variance unbiased estimation, Fisher information matrix, Cramer -Rao bound, sufficient statistics, minimum statistics, complete statistics, linear models; best linear unbiased estimation, maximum likelihood estimation, invariance principle; estimation efficiency, Bayesian estimation: philosophy, nuisance parameters, risk functions, minimum mean square error estimation, maximum a posteriori estimation Linear Bayesian estimation, Weiner filtering, dynamical signal model, discrete Kalman filtering.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-522-SGP",
+      "title": "Skill Based Laboratory - I",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 1,
+      "pages": [
+        34,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-SGP",
+      "title": "Biomedical and Speech Signal Processing",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "Biomedical Signals and Acquisition",
+          "topics": "Overview of ECG, EEG, EMG signals and physiological origins. Electrode types, instrumentation amplifie rs, front -end design and requirements, CMRR and its importance, Sampling theory for biomedical signals,anti -aliasing filtering and quantization issues for biomedical signals.",
+          "hours": 8
+        },
+        {
+          "title": "Time & Frequency Domain Methods, Wavelets and",
+          "topics": "Denoising 07 Hours Noise sources in biomedical recordings: powerline interference, motion artifacts, electrode noise, Grounding, shielding and isolation techniques, Signal preprocessing workflows in medical devices, Motion artifact suppression techniques,Powerline interference removal methods (notch filters, adaptive approaches),Baseline wander correction methods.",
+          "hours": null
+        },
+        {
+          "title": "Biomedical Signal Feature Extraction & Adaptive",
+          "topics": "Processing 08 Hours STFT and spectrogram interpretation for non -stationary signals. DWT based denoising , thresholding and mother wavelet selection. Adaptive filtering (LMS) for artifact removal and baseline wander correction. Feature extraction: QRS detection, HRV metrics and EEG band-power computation.",
+          "hours": null
+        },
+        {
+          "title": "Speech Production, Short-Time Analysis and Coding",
+          "topics": "Source-filter model, vocal tract representation and formants. LPC analysis, Levinson -Durbin algorithm and pitch detection methods. Speech coding basics (LPC vocoder, ADPCM) and perceptual considerations. Evaluation metrics for speech quality (PESQ, segmental SNR).",
+          "hours": 8
+        },
+        {
+          "title": "Speech Applications and ML Integration",
+          "topics": "MFCC pipeline, delta features and feature normalization. ASR overview: HMM -GMM to DNN transitions and basic decoding (Viterbi). Speaker recognition & verification techniques, and clinical speech analysis. Telemedicine and assistive speech tech applications.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-SGP",
+      "title": "Embedded Technologies and IoT",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "ARM, Raspberry Pi Microcontroller",
+          "topics": "Basics of Raspberry Pi (RPi) board, Features and architecture, pin configurations, Installing OS on RPi, connecting to network, Programming languages with examples, Various interfaces e.g. I2C, UART, SPI, CAN. Node MCU ESP8266 Pin configuration, S tation, AP, ST -AP modes, NodeMCU as web server, posting sensor data to gateway",
+          "hours": 9
+        },
+        {
+          "title": "Buses and Protocols",
+          "topics": "CAN Bus: Features and applications, CAN Frame, sequence of transmitting and receiving data on CAN Bus. Ethernet and USB Bus: Features an d applications.Protocols: PHY/MAC Layer (3GPP MTC, IEEE 802.11, IEEE 802.15), Bluetooth Low Energy, Zigbee Smart Energy, Network Layer -IPv4, IPv6, 6LoWPAN, Transport Layer (TCP, MPTCP, UDP) Session Layer HTTP, CoAP, XMPP, AMQP, MQTT",
+          "hours": 9
+        },
+        {
+          "title": "IoT Fundamentals",
+          "topics": "IoT Architecture and Design Concepts: IoT – An architectural overview, Design Principles and capabilities, M2M & IOT Technology Fundamentals - End Devices and gateways, Local and wide area networking, Challenges Associated with IoT, Cloud Platforms for IoT. Sensors: Different types of sensors and Actuators, Working, Networking Basics, RFID Principals and components, Wireless Sensor Networks, Physical Design of an IoT, Logical design of IoT Communication Models, Communication API’s, Concept of IoE, Difference between IoT and IoE.",
+          "hours": 8
+        },
+        {
+          "title": "Industrial IoT",
+          "topics": "Introduction, Key Industrial IOT (IIoT) technologies, Catalysts, and precursors of IIoT, Innovation and the IIoT, Applications of IIoT Examples: Healthcare, Oil and Gas Industry, Lo gistics and the Industrial Internet, Retail applications, IoT innovations and design methodologies",
+          "hours": 9
+        },
+        {
+          "title": "IoT Applications",
+          "topics": "Applications: Smart Environment: Forest Fire Detection, Air Pollution, Smart Cities: Parking, Structural Health, Noise U rban maps, Smart Metering: Smart Grid, Tank level, Photovoltaic Installations, Health: Fall Detection, Medical Fridges, Sportsmen Care, Patients Surveillance",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-SGP",
+      "title": "Statistical Signal Processing",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Discrete Time Random Processes",
+          "topics": "Filtering of Random Processes, Spectral Factorization, Innovations representation of Random Process, AR, MA and ARMA processes",
+          "hours": 8
+        },
+        {
+          "title": "Signal Modeling",
+          "topics": "Least Square methods for signal modeling and its disadvantages, PadeApproximation, Prony‘s and Shank‘s Methods for signal Modeling.",
+          "hours": 8
+        },
+        {
+          "title": "Linear Prediction",
+          "topics": "Forward and Backward linear prediction, Yule -Walker equation, Reflection coefficients, Lattice structures, Relationship of AR process to linear prediction, Solution of Normal equations, Levinson - Durbin alg orithm, selection of order of LPC filter, Schur algorithm, Wiener filter, noise cancellation using FIR wiener filter",
+          "hours": 10
+        },
+        {
+          "title": "Adaptive Filters",
+          "topics": "Need of adaptive filters, steepest descent method, LMS algorithm, convergence, application using LMS algorithms, Normalize LMS. Echo cancellation in telephone circuits, and adaptive beamforming.",
+          "hours": 9
+        },
+        {
+          "title": "Parameter Estimation",
+          "topics": "Principle of estimation and applications, Properties of estimates, unbiased and consistent estimators, Minimum Variance Unbiased Estimates (MVUE), Maximum likelihood estimation. Spectral estimation, method of periodogram, Bartlett method, Welch method, Blackman -Tukey method, Power spectrum estimation using AR model.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-SGP",
+      "title": "Signal Processing Lab II",
+      "semester": 2,
+      "type": "Program Core Course - Lab",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-571A-SGP",
+      "title": "Computational Intelligence",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Foundations & Optimization Algorithms",
+          "topics": "Multi-Layer Perceptron (MLP) and Universal Approximation Theorem. Backpropagation – derivation and implementation. Optimization algorithms – SGD, Adam. Regularization techniques – L1/L2, dropout, batch normalization, early stopping.",
+          "hours": 8
+        },
+        {
+          "title": "CNNs and Vision Models",
+          "topics": "Basics of Convolutional Neural Networks – convolution, pooling, activation, normalization. Classic Architectures – AlexNet, VGG, ResNet. Vision tasks – object detection (R-CNN, YOLO) and segmentation (U-Net, DeepLab). Applications in medical imaging, autonomous vehicles, and industrial inspection.",
+          "hours": 8
+        },
+        {
+          "title": "Sequence Models: RNN, LSTM, and Attention Mechanisms",
+          "topics": "Recurrent Neural Networks (RNNs) – architecture and challenges. Long Short -Term Memory (LSTM) and GRU for sequential data. Attention mechanisms and encoder –decoder frameworks. Applications in NLP, speech recognition, and time-series forecasting.",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Topics & Deployment",
+          "topics": "Transformer basics and self-attention; Transformer models – BERT, GPT, and Vision Transformers. Model compression – pruning, quantization, distillation. Edge AI – model conversion, optimization, and deployment on embedded devices. Ethical aspects – fairness, bias, and privacy in intelligent systems.",
+          "hours": 8
+        },
+        {
+          "title": "Fuzzy Logic & Neuro-Fuzzy Systems",
+          "topics": "Fuzzy sets, fuzzy numbers, and membership functions. Fuzzy relations, rule base, and inference systems. Adaptive Neuro -Fuzzy Inference System (ANFIS) – architecture and learning. Applications in control, decision-making, and pattern recognition.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-571B-SGP",
+      "title": "Biometrics",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Biometric Fundamentals",
+          "topics": "Definition, Biometrics versus traditional techniques, Operation of Biometric system, Characteristics of biometrics, Key biometric processes: Verification - Identification-Biometric matching, performance measures in biometric systems, Assessing the privacy risks of biometrics, Different biometric standards, Application of Biometrics",
+          "hours": 8
+        },
+        {
+          "title": "Physiological Biometrics",
+          "topics": "Least Square methods for signal modeling and its disadvantages, PadeApproximation, Prony‘s and Shank‘s Methods for signal Modeling. Introduction to various physiological biometrics like Facial scan, Ear scan, Retina scan, Iris scan, Finger scan, Automated fingerprint identification system in detail, Palm print, Hand geometry analysis, hand vascular pattern technology, dental identification",
+          "hours": 8
+        },
+        {
+          "title": "Behavioural Biometrics",
+          "topics": "Signature scan, Keystroke scan, Voice scan, Gait recognition, Gesture recognition, Video face, Mapping the body technology.Biometric User Interface and Applications : Biometric interfaces: Human machine interface Human side interface: Iris scanner interface, Hand geometry and fingerprint sensor, Machine side interface: Parallel port -Serial port-Network topologies, Case study: Palm Scanner interface. Categorizing biometric applications, Application areas: Criminal and citizen identification",
+          "hours": 10
+        },
+        {
+          "title": "Introduction to Multibiometrics",
+          "topics": "Introduction and need of multi-biometric system, levels of fusion – sensor level fusion, feature level fusion – feature normalization, score level fusion, Examples of multimodal biometric systems.",
+          "hours": 8
+        },
+        {
+          "title": "Security of Biometric Systems",
+          "topics": "Threat Model for Biometric Systems, Extrinsic Attacks, Presentation Attacks, Attacks on Biometric Processing, Attacks on the Template Database",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-571C-SGP",
+      "title": "Machine Learning",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "Introduction, Definition and motivation, History and ev olution of Machine learning, types: Supervised, Unsupervised, Semi -supervised, Reinforcement, Machine Learning Models: Geometric, Probabilistic, Logical, and Parametric. Non -parametric, Applications of Machine Learning in Signal processing, speech recognition, image processing, Wireless communications,",
+          "hours": 8
+        },
+        {
+          "title": "Supervised Machine Learning",
+          "topics": "Introduction to Supervised Learning, Types of Supervised Problems, Regression Models: Linear Regression, Types of Linear Regression, cost function, gradient des cent of linear regression, Evaluation Metrics for Linear Regression, Classification Models: Logistic Naive Bayes algorithm KNN algorithm Support Vector Machine (SVM).",
+          "hours": 8
+        },
+        {
+          "title": "Unsupervised Machine Learning",
+          "topics": "Introduction, Types of Unsupervised L earning: Clustering, Association Rule Learning, Dimensionality Reduction, K-means Clustering algorithm, Evaluation: Elbow method, Silhouette score, Density -Based Methods, Dimensionality Reduction Techniques, Principal Component Analysis (PCA).",
+          "hours": 8
+        },
+        {
+          "title": "Feature Engineering",
+          "topics": "Importance of feature engineering in Machine Learning pipeline, handling missing values, outliers, encoding: Label, One-Hot, Ordinal, Target Scaling: Min-Max, Standardization, Normalization, Feature selection: Filter (Chi-square), Wrapper (RFE), Embedded (Lasso)",
+          "hours": 7
+        },
+        {
+          "title": "Ensemble Learning and Model Evaluation",
+          "topics": "Introduction to Ensembles, Need of Ensemble Learning, Basic Ensemble Learning Techniques: Voting (Hard/Soft), Advanced Ensemble Learning Techniques: Bagging (Rand om Forest), Boosting (AdaBoost, XGBoost), Stacking, Cross-validation: Hold-out, K-Fold, LOOCV, Model comparison using t-test, McNemar’s test, Hyperparameter tuning (Grid Search, Random Search)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-571D-SGP",
+      "title": "Optimization Techniques",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Introduction to optimization methods",
+          "topics": "Use of optimization methods. Introduction to classical optimization techniques, motivation to the simplex method, simplex algorithm, sensitivity analysis.",
+          "hours": 8
+        },
+        {
+          "title": "Techniques employed in optimization and problem-solving",
+          "topics": "Search methods - Unrestricted search, exhaustive search, Fibonacci method, Golden section method, Direct search method, Random search methods, Univariate method, simplex method, Pattern search method.",
+          "hours": 8
+        },
+        {
+          "title": "Numerical Optimization",
+          "topics": "Descent methods, Gradient of function, steepest descent method, conjugate gradient method. Characteristics of constrained problem, Direct methods, the complex method, cutting plane method.",
+          "hours": 8
+        },
+        {
+          "title": "Global Optimization Techniques",
+          "topics": "Global optimization techniques such as Monte Carlo method, Simulated annealing and Tunneling algorithm, Probabilistic Methods, Deterministic Methods",
+          "hours": 9
+        },
+        {
+          "title": "Genetic Algorithms",
+          "topics": "Genetic algorithm-Selection process, Crossover, Mutation, Schema theorem, Comparison between binary and floating-point implementation.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-572A-SGP",
+      "title": "Generative Artificial Intelligence and Agentic Artificial Intelligence",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "GANs & VAEs Basics",
+          "topics": "Introduction to generative modeling & applications, GAN architecture: generator, discriminator, minimax formulation, Training dynamics & stability issues in GANs, DCGAN: convolutional GAN architecture, WGAN: Wasserstein distance and improvements, Introduction to VAEs: latent variables and probabilistic modelling, ELBO derivation and VAE training process, training challenges.",
+          "hours": 8
+        },
+        {
+          "title": "Diffusion Models & Transformers",
+          "topics": "Introduction to diffusion models & historical context, Forward noise process and mathematical formulation, Reverse denoising steps & training objective, Applications in image/audio generation, Comparison of diffusio n models vs GANs/VAEs, Advancements: DDPM, DDIM, score -based models, Scaling diffusion for large datasets (e.g., Stable Diffusion)",
+          "hours": 8
+        },
+        {
+          "title": "Transformers for Generation",
+          "topics": "Transformer architecture basics: attention, positional encoding, Encoder –decoder vs decoder -only models, Autoregressive transformers: GPT -style generation, Decoder -only models in large language models (LLMs), Autoregressive vs decoder -only transformers, Transformer efficiency: scaling laws & optimization, Multimodal generation: t ext-to-image, text -to-speech, cross -modal tasks, Emerging transformer architectures: Vision Transformers, Speech Transformers",
+          "hours": 8
+        },
+        {
+          "title": "Agentic AI & RL Essentials",
+          "topics": "Introduction to Agentic AI and autonomous decision-making, MDP formulation: states, actions, rewards, transitions, Value-based methods: Q-learning, deep Q-networks, Policy-based methods: REINFORCE, actor-critic, Planning (A*, MPC) basics, Multi-agent coordination",
+          "hours": 8
+        },
+        {
+          "title": "Safety, Evaluation & Deployment",
+          "topics": "Safety challenges in g enerative and agentic AI, Hallucination & calibration, Uncertainty estimation, Evaluation methods: BLEU, FID, human evaluation, Deployment trade -offs: on-device vs server/cloud deployment, Robustness and adversarial attacks in generative AI, Ethical considerations",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-572B-SGP",
+      "title": "Design and Analysis of Algorithm",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        57,
+        58
+      ],
+      "units": [
+        {
+          "title": "Introduction to Algorithm Design",
+          "topics": "Characteristics of Algorithms, Time and Space Complexity, Asymp totic Notations, Recurrence Relations and Solution Methods (Substitution, Recursion Tree, Master’s Theorem),Performance analysis: Worst, Average, Best Case, Divide and Conquer Technique: Merge Sort, Quick Sort, Binary Search",
+          "hours": 8
+        },
+        {
+          "title": "Greedy and Dynamic Programming Approaches",
+          "topics": "Greedy Strategy: Activity Selection, Huffman Coding, Minimum Spanning Tree (Prim’s, Kruskal’s), Dijkstra’s Algorithm,Dynamic Programming (DP): Principle of Optimality,Examples: Matrix Chain Multiplication, Longest Common Subs equence (LCS), Knapsack Problem, Floyd -Warshall, Bellman - Ford,Comparison of Greedy and DP Approaches",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Data Structures and Graph Algorithms",
+          "topics": "Graph Representations: Adjacency Matrix, List Graph Traversals: BFS, DFS, Topological So rting, Shortest Path Problems, Minimum Spanning Trees, Network Flow Algorithms: Ford -Fulkerson, Edmonds-Karp,Union-Find, Disjoint Set, Applications in Kruskal’s Algorithm,Advanced Trees: AVL, Red-Black, B-Trees, Tries",
+          "hours": 8
+        },
+        {
+          "title": "Backtracking, Branch & Bound, and Complexity Classes",
+          "topics": "Backtracking: N-Queens, Hamiltonian Cycle, Graph Coloring, Subset Sum,Branch and Bound: Knapsack, Traveling Salesman Problem (TSP),Complexity Theory: P, NP, NP-Complete, NP-Hard Problems, Cook’s Theorem, Satisfiability Problem (SAT), Polynomial Reductions",
+          "hours": 8
+        },
+        {
+          "title": "Parallel Algorithm Design and CUDA Perspective",
+          "topics": "Introduction to Parallel Algorithms and GPU Computing,Basics of CUDA Programming (Threads, Blocks, Grids, Memory Hierarchy),Parallelizing Classical Algorith ms using CUDA: Sorting, Matrix Multiplication, Graph Traversals, Complexity Analysis in Parallel Models (PRAM, Work -Time model),Applications in Engineering and Machine Learning",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-572C-SGP",
+      "title": "Cloud Architecture Protocols",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        59,
+        60
+      ],
+      "units": [
+        {
+          "title": "Cloud Ontology & Architectural Frameworks",
+          "topics": "Foundational Models: NIST essential characteristics, SPI service model taxonomy, resource abstraction layers. Deployment Topologies: Public, Private and Hybrid structural patterns, community cloud governance frameworks. Virtualization Theory: Hypervisor architectures (Bare-metal/Hosted), container isolation formalisms, docker basics and architecture.",
+          "hours": 8
+        },
+        {
+          "title": "Network Virtualization & Protocol Architectures",
+          "topics": "Encapsulation System s: VXLAN/Geneve header structures, NVGRE protocol mechanics, virtual switching paradigms. Data Center Fabrics: BGP -EVPN control plane theory, Clos topology mathematics, spine -leaf routing algebras. Transport Layer Theory: TCP congestion control formalisms, QoS traffic shaping models, packet scheduling algorithms.",
+          "hours": 8
+        },
+        {
+          "title": "Storage Networks",
+          "topics": "Storage network design considerations: NAS and FC SANs, hybrid storage networking technologies (iSCSI, FCIP, FCoE), design for storage virtualization in cloud computing, host system design considerations. Replications in NAS and SAN environments. Data archiving solutions, analyzing compliance and archiving design considerations.",
+          "hours": 8
+        },
+        {
+          "title": "Security Protocols & Cryptographic Frameworks",
+          "topics": "Identity Systems: SAML 2.0 assertion flows, OAuth 2.0 grant type formalisms, RBAC/ABAC policy algebras. Cryptographic Systems: TLS 1.3 handshake state machine, AES -GCM mode operations, PKI trust hierarchies. Network Security Models: Zero Trust formal architectures, IPsec/IK Ev2 tunneling protocols, firewall policy verification.",
+          "hours": 7
+        },
+        {
+          "title": "Scalability & Reliability Theory",
+          "topics": "Elasticity Frameworks: Autoscaling hysteresis models, M/M/c queueing systems, horizontal scaling proofs. Failure Engineering: Weibull failure distribu tions, RTO/RPO calculus, chaos engineering principles. Cost Governance Ontologies: TCO analytical frameworks, bin packing optimization, cloud governance taxonomies.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-572D-SGP",
+      "title": "Artificial Intelligence for Industrial and Telecommunication Data",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        61,
+        62
+      ],
+      "units": [
+        {
+          "title": "Foundations of Industrial & Telecom Data Systems",
+          "topics": "SCADA, telemetry, IoT data characteristics, CDR structure and processing,- Time synchronization and data labeling,- Time-series feature engineering (lags, frequency domain features)",
+          "hours": 8
+        },
+        {
+          "title": "Anomaly Detection & RUL",
+          "topics": "Statistical approaches: Control charts (Shewhart, CUSUM, EWMA), trend analysis, Machine learning approaches: Autoencoders, Isolation Forest, One -Class SVM, Anomaly detection in telecom: fraud detection, intrusion detection, network fault diagnosis, Anomaly detection in industry: predictive maintenance, quality control, Basics of RUL estimation: degradation modeling, regression-based RUL, survival analysis,Deep learning methods for RUL estimation (LSTM, CNN for sensor streams)",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Forecasting and Intelligent Resource",
+          "topics": "Optimization 08 Hours ARIMA/SARIMA, LSTM/GRU -based fo recasting,- Network capacity planning and traffic prediction, Reinforcement Learning: Q-learning, DQN for resource/spectrum allocation",
+          "hours": null
+        },
+        {
+          "title": "Case Studies & Deployment",
+          "topics": "Churn prediction in telecom: customer segmentation, supervised ML models, Predictive maintenance case study in industrial IoT,Fraud detection case study using CDRs and anomaly detection, Model deployment: edge vs cloud AI, containerization, MLOps lifecycle, Deployment challenges: latency, scalability, reliability, data privacy, Model monitoring and retraining: handling model drift, adaptive learning",
+          "hours": 8
+        },
+        {
+          "title": "Emerging AI Techniques in Industry and Telecommunication",
+          "topics": "Explainable AI (XAI), Federated Learning, Graph Neural Networks, - Security-focused AI, AI in 5G/6G networks, digital twins, sustainable AI",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-581- SGP",
+      "title": "Seminar – I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        63,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-SGP",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 5,
+      "pages": [
+        69,
+        72
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research",
+          "topics": "Basic of Research : Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de- scribe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied rese arch. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research : Why? Research Questions, Engineering Ethics, conclusive proof -what con- stitutes, A research project-Why take on? Case Study : Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering d iscipline, various aspects - environment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": 12
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of review , Developing the objectives, Prepar ing the research design including sample Design, Sample size. Archival Literature, Why should engineers be ethical? Types of publications - Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study : Engineering dictionary, Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h-index, I-index, plagiarism, copyright infringement",
+          "hours": 12
+        },
+        {
+          "title": "Analysis of Variance and Covariance",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Techn ique, Setting up Analysis of Variance Table, short-cut method for oneway ANOVA, Coding method, Two -way ANOVA, ANOVA in Latin -square design, analysis of co -variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": 12
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thes is, SCOPUS Index, citations, search engines beyond google, impact factor, H -Index. IPR: What is IPR?, importance of patents, types of IPR, process of patent.",
+          "hours": 12
+        },
+        {
+          "title": "Outcome of Research and Research Presentation",
+          "topics": "Relevance, interest, available da ta, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, Testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-SGP",
+      "title": "On Job Training / Internship",
+      "semester": 3,
+      "type": "OJT / Internship",
+      "credits": 5,
+      "pages": [
+        73,
+        75
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-SGP",
+      "title": "Seminar – II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 3,
+      "pages": [
+        76,
+        79
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-SGP",
+      "title": "Research Project - I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        80,
+        84
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-SGP",
+      "title": "Seminar – III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        85,
+        86
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-SGP",
+      "title": "Research Project-II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        87,
+        89
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

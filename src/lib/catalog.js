@@ -74,6 +74,12 @@ export const COURSES = [
   { id: 'BSc', name: 'B.Sc.', full: 'Bachelor of Science' },
 ]
 
+// The notes course a programme or course name belongs to, or undefined if it has no notes.
+export function notesCourseOf(programme) {
+  const name = String(programme || '').toUpperCase().replace(/\./g, '')
+  return COURSES.find((c) => new RegExp(`\\b${c.id}\\b`).test(name) || name.includes(c.full.toUpperCase()))
+}
+
 export const SEMESTERS = [
   {
     // 2025 pattern (from 2025-26); Semesters II and III below are the 2024 pattern.

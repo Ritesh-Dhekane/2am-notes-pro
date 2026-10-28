@@ -22,6 +22,7 @@ const Privacy = lazy(() => import('./pages/Privacy.jsx'))
 const Syllabus = lazy(() => import('./pages/Syllabus.jsx'))
 const SyllabusView = lazy(() => import('./pages/SyllabusView.jsx'))
 const SyllabusProgramme = lazy(() => import('./pages/SyllabusProgramme.jsx'))
+const SyllabusCourse = lazy(() => import('./pages/SyllabusCourse.jsx'))
 
 // A course family's page (/syllabus/f/<slug>/, pre-rendered for search engines) opens it in the finder.
 function SyllabusFamily() {
@@ -82,6 +83,8 @@ export default function App() {
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/syllabus/p/:slug" element={<SyllabusProgramme />} />
         <Route path="/syllabus/f/:family" element={<SyllabusFamily />} />
+        <Route path="/syllabus/c/:course" element={<SyllabusCourse />} />
+        <Route path="/syllabus/c/:course/:file/:subject" element={<SyllabusCourse />} />
         <Route path="/syllabus/:id" element={<SyllabusView />} />
         {!user && <Route path="/" element={<Welcome />} />}
         <Route

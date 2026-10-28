@@ -1,0 +1,584 @@
+{
+  "id": "sppu-se-aandr-nep2020-2025-26-16052026",
+  "kind": "programme",
+  "programme": "Second Year Engineering in Automation & Robotics Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC201AUR",
+      "title": "Materials and Machine Elements",
+      "semester": 3,
+      "type": "Major Course-1",
+      "credits": 3,
+      "pages": [
+        17,
+        20
+      ],
+      "units": [
+        {
+          "title": "Crystal Structures and Deformation of Materials",
+          "topics": "Crystal structures, Miller indices, imperfections in crystals, slip and twinning, plastic deformation, strain hardening, recovery, recrystallization and grain growth.",
+          "hours": 8
+        },
+        {
+          "title": "Ferrous & Non-Ferrous Materials",
+          "topics": "Iron-Carbon equilibrium diagram, TTT curves, heat treatment processes: annealing, normalizing, hardening, tempering, surface hardening. Alloy steels, tool steels, stainless steels, copper, aluminium and titanium alloys.",
+          "hours": 8
+        },
+        {
+          "title": "Simple Stress & Strain",
+          "topics": "Mechanical properties of materials, stress-strain relationship, Hooke's law, Poisson's ratio, elastic constants, thermal stresses, stresses in composite sections.",
+          "hours": 8
+        },
+        {
+          "title": "Shear Force & Bending Moment Diagrams",
+          "topics": "Types of beams, loads and supports, Shear force and Bending moment diagrams for simply supported, cantilever and overhanging beams under point loads, UDL and UVL.",
+          "hours": 8
+        },
+        {
+          "title": "Shear Stress & Torsion",
+          "topics": "Theory of simple bending, bending stress distribution, shear stress distribution across rectangular, circular, I and T sections. Torsion of circular shafts, angle of twist, power transmission.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC202AUR",
+      "title": "Industrial Electronics & Controls",
+      "semester": 3,
+      "type": "Major Course-2",
+      "credits": 3,
+      "pages": [
+        21,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Electronics",
+          "topics": "Power semiconductor devices: Power Diodes, SCR, TRIAC, MOSFET, IGBT, working characteristics and industrial ratings, protection circuits (snubber), gate drive circuits.",
+          "hours": 8
+        },
+        {
+          "title": "Power Electronics & Conversion Techniques",
+          "topics": "Phase controlled rectifiers (single-phase and three-phase), DC-DC converters (choppers), inverters (VSI, CSI), Pulse Width Modulation (PWM) techniques, SMPS and UPS.",
+          "hours": 6
+        },
+        {
+          "title": "Industrial Control Systems & Automation",
+          "topics": "Open loop and closed loop control systems, transfer functions, block diagram algebra, signal flow graph, transient response analysis, P, PI, PID controllers.",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Sensors & Instrumentation",
+          "topics": "Classification of sensors, principles of LVDT, strain gauges, thermocouples, RTD, optical encoders, proximity sensors, Hall-effect sensors, signal conditioning circuits, ADC/DAC.",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Automation & Communication",
+          "topics": "PLC architecture, programming with Ladder diagram, SCADA systems, industrial communication protocols: Modbus, Profibus, CAN, Ethernet/IP, IoT gateways.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC203AUR",
+      "title": "Manufacturing Technology",
+      "semester": 3,
+      "type": "Major Course-3",
+      "credits": 3,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Casting and Foundry Processes",
+          "topics": "Pattern making, sand moulding, core making, melting furnaces, gating system design, casting defects and inspection, special casting: investment, die casting, centrifugal casting.",
+          "hours": 8
+        },
+        {
+          "title": "Joining and Welding Processes",
+          "topics": "Arc welding (SMAW, GMAW, GTAW, SAW), resistance welding (spot, seam, projection), friction stir welding, laser beam welding, brazing and soldering, welding metallurgy and defects.",
+          "hours": 8
+        },
+        {
+          "title": "Theory of Metal Cutting",
+          "topics": "Mechanics of chip formation, Merchant's force circle, cutting forces, tool life (Taylor's equation), tool wear, cutting tool materials, cutting fluids, surface finish.",
+          "hours": 8
+        },
+        {
+          "title": "Metal Forming and Sheet Metal Working",
+          "topics": "Hot and cold working, rolling, forging, extrusion, wire drawing. Sheet metal operations: shearing, blanking, piercing, bending, deep drawing, die design fundamentals.",
+          "hours": 8
+        },
+        {
+          "title": "Polymer Processing",
+          "topics": "Classification of polymers, processing methods: injection moulding, extrusion, blow moulding, compression and transfer moulding, thermoforming, additive manufacturing basics.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC204AUR",
+      "title": "Material Testing and Characterisation Laboratory",
+      "semester": 3,
+      "type": "Major Course-3A",
+      "credits": 1,
+      "pages": [
+        28,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM221AUR",
+      "title": "Engineering Mathematics - III",
+      "semester": 3,
+      "type": "Multidisciplinary Course-1",
+      "credits": 3,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Linear Differential Equations (LDE) and Applications",
+          "topics": "LDE of nth order with constant coefficients, method of variation of parameters, Cauchy's and Legendre's equations, simultaneous differential equations, applications to mechanical systems.",
+          "hours": 7
+        },
+        {
+          "title": "Statistics & Probability",
+          "topics": "Measures of central tendency, dispersion, correlation and regression, probability theory, random variables, binomial, Poisson and normal distributions.",
+          "hours": 8
+        },
+        {
+          "title": "Numerical methods for solving algebraic and transcendental equations",
+          "topics": "Bisection method, Newton-Raphson method, Gauss elimination, Gauss-Seidel method, eigenvalues and eigenvectors by power method.",
+          "hours": 8
+        },
+        {
+          "title": "Numerical Interpolation and solution of ODE",
+          "topics": "Newton's forward and backward interpolation, Lagrange's interpolation, numerical integration: Trapezoidal and Simpson's rules, Euler's method, Runge-Kutta 4th order method.",
+          "hours": 8
+        },
+        {
+          "title": "Vector Calculus",
+          "topics": "Vector differentiation, gradient, divergence, curl, directional derivatives, solenoidal and irrotational fields, line, surface and volume integrals, Green's, Stokes' and Gauss divergence theorems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "MDM222AUR",
+      "title": "Industrial Electronics & Controls Laboratory",
+      "semester": 3,
+      "type": "Multidisciplinary Course-1A",
+      "credits": 1,
+      "pages": [
+        34,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "Open Elective-I",
+      "title": "Open Elective-I",
+      "semester": 3,
+      "type": "Open Elective-I",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE231AUR",
+      "title": "Workshop Practices",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 1,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "HSSM232AUR",
+      "title": "Entrepreneurship Development and Innovation",
+      "semester": 3,
+      "type": "Entrepreneurship/Management Course",
+      "credits": 1,
+      "pages": [
+        40,
+        42
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurial Mindset, Creativity and Innovation",
+          "topics": "Concept of entrepreneurship, entrepreneurial traits, creativity and lateral thinking, design thinking process, empathetic inquiry, problem definition, ideation techniques.",
+          "hours": 8
+        },
+        {
+          "title": "Opportunity Identification and Business Modelling",
+          "topics": "Market research and feasibility analysis, Business Model Canvas (BMC), value proposition, customer segments, cost structure and revenue streams, intellectual property basics.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "VEC233AUR",
+      "title": "Universal Human Values",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "Need, basic guidelines, content and process for value education, self-exploration, continuous happiness and prosperity, basic human aspirations.",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "Human being as co-existence of Self and Body, needs of Self and Body, harmony of Self with Body, Sanyam and Swasthya.",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "Values in relationships: trust (Vishwas), respect (Samman), affection, care, guidance, reverence, glory, gratitude, and love. Comprehensive human goal.",
+          "hours": 8
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "Four orders in nature, interconnectedness, mutual fulfillment, recyclability and self-regulation in nature, existence as co-existence.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP241AUR",
+      "title": "Community Engagement activity / Field Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC251AUR",
+      "title": "Principles of Robotics",
+      "semester": 4,
+      "type": "Major Course-4",
+      "credits": 3,
+      "pages": [
+        49,
+        52
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Robotics",
+          "topics": "Historical development, robot anatomy, work volume, robot drive systems, control systems and dynamic performance, precision of movement, end effectors, sensors in robotics.",
+          "hours": 8
+        },
+        {
+          "title": "End Effectors",
+          "topics": "Types of end effectors, mechanical grippers, magnetic grippers, vacuum grippers, adhesive grippers, gripper force analysis, tools as end effectors, considerations in gripper selection and design.",
+          "hours": 8
+        },
+        {
+          "title": "Mathematical Modeling of a robot",
+          "topics": "Spatial descriptions, homogeneous transformations, Denavit-Hartenberg (D-H) representation, forward and inverse kinematics of serial manipulators, Jacobian, singularities.",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Robot Programming and Applications",
+          "topics": "Lead-through programming, teach pendant, textual robot programming languages, motions commands, robot safety standards, material handling, machine loading/unloading, welding, spray painting.",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Robot Programming Techniques",
+          "topics": "Offline programming, simulation of robotic cells, integration of vision systems with robot controllers, trajectory planning, collision avoidance, collaborative robots (Cobots).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC252AUR",
+      "title": "Kinematics of Machines",
+      "semester": 4,
+      "type": "Major Course-5",
+      "credits": 3,
+      "pages": [
+        53,
+        56
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Mechanism",
+          "topics": "Kinematic link, pair, chain, mechanism, machine, degrees of freedom, Kutzbach and Grubler's criteria, inversions of four-bar chain, single and double slider-crank chains.",
+          "hours": 8
+        },
+        {
+          "title": "Mechanisms in Automation Systems",
+          "topics": "Straight line motion mechanisms, steering gear mechanisms, indexing mechanisms, Geneva mechanism, ratchet and pawl, intermittent motion mechanisms used in automated assembly.",
+          "hours": 8
+        },
+        {
+          "title": "Kinematic Analysis of Mechanisms: Analytical Method",
+          "topics": "Loop closure equations for four-bar and slider crank mechanisms, displacement, velocity and acceleration analysis using complex algebra and vector methods.",
+          "hours": 6
+        },
+        {
+          "title": "Kinematic Analysis of Mechanisms: Graphical Method",
+          "topics": "Relative velocity method, instantaneous centre of velocity, Kennedy's theorem, relative acceleration method, Coriolis acceleration component and its applications.",
+          "hours": 8
+        },
+        {
+          "title": "Synthesis of Mechanisms",
+          "topics": "Type, number, and dimensional synthesis, function generation, path generation, Freudenstein's equation, two-position and three-position synthesis using graphical and analytical methods.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC253AUR",
+      "title": "Electric Drives for Automation Systems",
+      "semester": 4,
+      "type": "Major Course-6",
+      "credits": 3,
+      "pages": [
+        57,
+        60
+      ],
+      "units": [
+        {
+          "title": "DC Motors",
+          "topics": "Principles of operation, torque-speed characteristics of shunt, series, and compound DC motors, starting, braking, and speed control methods (armature and field control).",
+          "hours": 8
+        },
+        {
+          "title": "Induction Motors",
+          "topics": "Three-phase induction motors, rotating magnetic field, torque-slip characteristics, starting and braking, speed control using VFD (Variable Frequency Drives), V/f control.",
+          "hours": 6
+        },
+        {
+          "title": "Synchronous Machines and Special purpose motors",
+          "topics": "Synchronous motors, permanent magnet synchronous motors (PMSM), stepper motors (types, micro-stepping), brushless DC (BLDC) motors, servo motors for robotic joints.",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Electric Drives",
+          "topics": "Components of electric drives, choice of electric motors, multi-quadrant operation of drives, closed loop control of drives, torque and speed control loops.",
+          "hours": 8
+        },
+        {
+          "title": "Application of Electric Drives",
+          "topics": "Selection of motor rating for continuous, intermittent, and short-time duty, industrial drive applications in robotics, CNC machine tools, automated guided vehicles (AGVs), packaging systems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC254AUR",
+      "title": "Robots & Drive System Laboratory",
+      "semester": 4,
+      "type": "Major Course-4A",
+      "credits": 1,
+      "pages": [
+        61,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC255AUR",
+      "title": "Kinematics of Machines Laboratory",
+      "semester": 4,
+      "type": "Major Course-6A",
+      "credits": 1,
+      "pages": [
+        65,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM271AUR",
+      "title": "Artificial Intelligence & Machine Learning",
+      "semester": 4,
+      "type": "Multidisciplinary Course-2",
+      "credits": 2,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Introduction to AIML and Feature Extraction and Selection",
+          "topics": "Overview of AI and ML, supervised, unsupervised, and reinforcement learning, data preprocessing, normalization, feature extraction and dimensionality reduction (PCA).",
+          "hours": 6
+        },
+        {
+          "title": "ML Algorithms: Classification & Regression",
+          "topics": "Linear and polynomial regression, logistic regression, Decision Trees, Random Forests, Support Vector Machines (SVM), k-Nearest Neighbors (k-NN), Naive Bayes.",
+          "hours": 6
+        },
+        {
+          "title": "Feature Engineering, Development of ML Model & Evaluation",
+          "topics": "Model training, validation, cross-validation, hyperparameter tuning, evaluation metrics: confusion matrix, precision, recall, F1-score, ROC-AUC, bias-variance tradeoff.",
+          "hours": 6
+        },
+        {
+          "title": "Reinforced and Deep Learning",
+          "topics": "Artificial Neural Networks (ANN), perceptron, backpropagation algorithm, Convolutional Neural Networks (CNN) basics, Reinforcement Learning concepts: agent, environment, reward, Q-learning.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "Open Elective-II",
+      "title": "Open Elective-II",
+      "semester": 4,
+      "type": "Open Elective-II",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE281AUR",
+      "title": "Product Development Laboratory",
+      "semester": 4,
+      "type": "Vocational & Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        72,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE282AUR",
+      "title": "Data Science & Artificial Intelligence Laboratory",
+      "semester": 4,
+      "type": "Vocational & Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        75,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC283AUR",
+      "title": "Modern Indian Language: Marathi",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        78,
+        79
+      ],
+      "units": [
+        {
+          "title": "Conversational Skills and Role-Playing",
+          "topics": "Role-playing everyday scenarios, dialogue delivery, conversational Marathi and social cues.",
+          "hours": 15
+        },
+        {
+          "title": "Reading, Summarizing and Creative Expression",
+          "topics": "Newspaper reading and analysis, creative writing, blogs and social media posts up to 200 words.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "HSSM284AUR",
+      "title": "Engineering Economics and Financial Management",
+      "semester": 4,
+      "type": "Entrepreneurship/Management Course",
+      "credits": 1,
+      "pages": [
+        80,
+        82
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business Economics and Finance",
+          "topics": "Basic economic concepts, law of demand and supply, elasticity of demand, time value of money, cash flow diagrams, present worth, future worth.",
+          "hours": 6
+        },
+        {
+          "title": "Cost Accounting",
+          "topics": "Elements of cost, direct and indirect costs, cost classification, overhead allocation, preparation of cost sheet, break-even analysis.",
+          "hours": 5
+        },
+        {
+          "title": "Financial Accounting",
+          "topics": "Double entry bookkeeping, journal, ledger, trial balance, preparation of Profit and Loss account and Balance Sheet.",
+          "hours": 5
+        },
+        {
+          "title": "Budget and Budgetary Control",
+          "topics": "Meaning and objectives of budget, types of budgets: sales, production, cash, master budget, zero-base budgeting.",
+          "hours": 6
+        },
+        {
+          "title": "National and International Business and Finance",
+          "topics": "Sources of project finance, working capital management, foreign exchange basics, international trade and financial institutions.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC285AUR",
+      "title": "Environmental Science and Sustainable Development",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        83,
+        85
+      ],
+      "units": [
+        {
+          "title": "Introduction to ESD",
+          "topics": "Multidisciplinary nature of environmental studies, concept of sustainable development, sustainable development goals (SDGs).",
+          "hours": 6
+        },
+        {
+          "title": "Soil Conservation and Management",
+          "topics": "Soil erosion causes and effects, soil conservation practices, land degradation and restoration.",
+          "hours": 6
+        },
+        {
+          "title": "Water Sources and Management",
+          "topics": "Water resources, water pollution, rainwater harvesting, watershed management, wastewater treatment and recycling.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainability and Sustainability Practices",
+          "topics": "Ecological footprint, carbon footprint, circular economy, waste management (solid and hazardous), life cycle assessment.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Habitat and Sustainable Energy",
+          "topics": "Green buildings, renewable energy sources (solar, wind, biomass), energy conservation and auditing, environmental policy and legislation.",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,908 @@
+{
+  "id": "t-y-b-sc-data-science",
+  "kind": "programme",
+  "programme": "B.Sc. (Data Science)-Third Year",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DS-301-MJ-T",
+      "title": "Data Visualization and Modelling",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 5",
+          "topics": "Savitribai Phule Pune University B.Sc. Data Science (2024 Pattern) Sem-V DS-301-MJ-T : Data Visualization and Modelling No. of Credits: Teaching Scheme Theory: 4 Hrs/Week Examination Scheme Continuous Evaluation: 30 Marks End Semester : 70 Marks Prerequisites ● Fundamental understanding of programming concepts using Python ● Basic knowledge of statistics Objectives ● To introduce fundamental concepts of data visualization and data handling ● To develop skills in loading, cleaning, and preprocessing data using Python libraries ● To provide knowledge of exploratory data analysis techniques for understanding data ● To build a foundation in predictive modelling and machine learning algorithms ● To enable students to apply data science techniques to real-world datasets",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Data Visualization and Data",
+          "topics": "Handling 11 CO1, CO2 1.1 Introduction to Data Visualization Need for Data Visualization, Importance of Data Visualization, Applications of Data, Visualization, Challenges of Data Visualization. 1.2 Data Loading and Preprocessing Loading datasets from CSV and Excel files, Data loading using Pandas, Data cleaning techniques, Data preprocessing methods. 1.3 Introduction to Data Science Libraries NumPy, Pandas, Matplotlib, Seaborn, Plotly, SciPy, Statsmodels, Scikit –learn, XGBoost 1.4 Basic Charts and Graphs Bar Chart ,Line Chart, Histogram, Pie Chart, Scatter Plot, Spike Plot SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 6",
+          "hours": null
+        },
+        {
+          "title": "Advanced Data Visualization and Exploratory",
+          "topics": "Data Analysis 10 CO1, CO2, CO3 2.1 Advanced Visualization Techniques Box Plot / Box Whisker Plot, Violin Plot, Joint Plot, Pair Plot, Heatmap, Word Cloud, Bubble Chart, Area Chart, Subplots 2.2 Exploratory Data Analysis (EDA) Concept and importance of EDA, Identifying data patterns and trends, Correlation analysis using visualization, Visual techniques for exploratory analysis.",
+          "hours": null
+        },
+        {
+          "title": "Predictive Modelling and Machine Learning 20 CO3, CO4",
+          "topics": "1.1 Introduction to Machine Learning Definition of Machine Learning, Types of Machine Learning (Supervised Learning, Unsupervised Learning, Reinforcement Learning), Applications of Machine Learning. 1.2 Introduction to Statistical Modelling Model building process, Training and testing data concepts. 1.3 Simple Linear Regression Model formulation, Assumptions of Linear Regression, Interpretation of regression coefficients. 1.4 Multiple Linear Regression Model formulation, Interpretation of regression coefficients, Multicollinearity 1.5 Model Evaluation for Regression Models R-square, Adjusted R-square, Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Residual analysis, Interpretation and comparison of regression models. 1.6 Regularization Techniques Ridge Regression, Lasso Regression. 1.7 Practical Applications of Regression Models",
+          "hours": null
+        },
+        {
+          "title": "Classification and Ensemble Learning 10 CO4",
+          "topics": "1.1 Classification Algorithms Logistic Regression, K -Nearest Neighbors (KNN), Decision Tree Classifier, Naïve Bayes Classifier. 4.2 Ensemble Learning Techniques Concept of Bagging and Boosting, Random Forest, Gradient Boosting, Ada Boost. 4.3 Model Evaluation Techniques for Classification Confusion Matrix, Accuracy, Precision, Recall, F1 Score, ROC Curve and AUC, Interpretation and comparison of classification models. 4.4 Model Performance Issues Bias–Variance Trade-off, Overfitting, Underfitting.",
+          "hours": null
+        },
+        {
+          "title": "Unsupervised Learning and Association 9 CO5",
+          "topics": "SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 7 Analysis 5.1 Introduction to Unsupervised Learning 5.2 Clustering Techniques Concept of clustering, Distance and similarity measures, K-Means Clustering, Applications of clustering, Hierarchical Clustering, DBSCAN. 5.3 Dimensionality Reduction Principal Component Analysis (PCA). 5.4 Association Rule Mining Concept of Association Rules, Apriori Algorithm, Market Basket Analysis.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-302-MJ-T",
+      "title": "R Programming",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction to R Programming 5 CO1",
+          "topics": "1.1 Introduction to R, History, Features and Applications 1.2 Installing R and RStudio, Running Simple Programs 1.3 Data Types, Variables, Operators and Type Conversion 1.4 Meaning of package, base (standard package) package, to install a package, to load a package, to delete a package, learning about a package, getting help. 1.5 Operators & expressions in R – Arithmetic, logical, relational operators & expressions, precedence rule.",
+          "hours": null
+        },
+        {
+          "title": "Working with Vectors 5 CO1, CO3",
+          "topics": "2.1 Vectors: creating a vector, modifying a vector, deleting a vector. 2.2 Working with vectors: the functions to be discussed-c(), rep(), rev(), sort(), diff(), max(), min(), colon operator(:), seq(), scan(), cut(), cat(), table(), which(), unique(), is.vector(), as.vector(), print() 2.3 Mathematical functions: abs(), sqrt(), ceiling(), floor(), trunc(), log(), log10(), exp(), sin(), SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 9 cos(), tan(), atan(), sign(), round(), range(), length(), prod(), sum(),. 2.4 Character functions: nchar(), substr(), grep(), sub(), paste(), strsplit(), toupper(), tolower(). Meaning of data frame, creation of data frame, modifying a data frame, deleting data frame, extracting elements from a data frame, use of $ sign. Functions to be discussed: subset(), transform(), attach(), detach(), with(), data.entry(), edit(), is.data.frame(), as.data.frame()",
+          "hours": null
+        },
+        {
+          "title": "Matrix Operations 4 CO1, CO3",
+          "topics": "3.1 Creating a matrix, scalar multiplication of matrix, matrix addition, subtraction and multiplication, transpose of a matrix, inverse of a matrix, solving system of linear equations, finding row and column sums and means. 3.2 The functions to be discussed: matrix(), colMeans(), colSums(), rowMeans(), rowSums(), solve(), t(), diag(), is.matrix(), as.matrix()",
+          "hours": null
+        },
+        {
+          "title": "Data Handling and Visualization 5 CO2, CO4",
+          "topics": "4.1 Reading and Writing Data Files, Data Preprocessing and Cleaning 4.2 Packages used for Data Visualization 4.3 Diagrams - Simple bar diagram, Subdivided bar diagram, multiple bar diagram, Pie diagram, Stem and leaf diagram 4.4 Graphs - Boxplot for one and more than one variables, spike plot, histogram for both equal and unequal class intervals, frequency polygon, ogive curves",
+          "hours": null
+        },
+        {
+          "title": "Statistical Analysis and Predictive Modelling 6 CO3, CO5",
+          "topics": "5.1 Measures of Central tendency - mean, mode, median, Partition values - quartiles, deciles, percentiles, geometric mean and harmonic mean. 5.2 Dispersion: variance, standard deviation, coefficient of variation, mean deviation. 5.3 Summary Statistics using fivenum() and summary() for quick data summaries. 5.4 Skewness: Bowley’s coefficient and Karl Pearson’s coefficient of skewness. 5.5 Moments: Computations of raw and central moments, measures of skewness and kurtosis. 5.6 Correlation and Regression Analysis 6 Probability Distributions and Hypothesis Testing 5 CO6 6.1 Discrete Probability Distributions a) Simulating data from Bernoulli, Binomial, and Poisson distributions. b) Calculating probabilities and percentiles using dbinom, pbinom, dpois, etc. 6.2 Continuous Probability Distributions a) Visualization of normal, Chi square, t-distribution, f-distribution using R b) Applications of standard normal distribution (Z-scores) 6.3 Hypothesis Testing : t test, Chi square test, f Test for testing variances, One Way ANOV A",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-303-MJ-T",
+      "title": "Foundations of Artificial Intelligence",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence 5 CO1",
+          "topics": "• What is Artificial Intelligence? • Scope and importance of Artificial Intelligence • Brief Histroy and Evolution of AI • Types of Artificial Intelligence • AI Problems and Basic Concepts • Application of Artificial Intelligence o Game Playing o Natural Language Processing o Computer Vision o Speech Processing",
+          "hours": null
+        },
+        {
+          "title": "Problem Solving Techniques in Artificial",
+          "topics": "Intelligence",
+          "hours": null
+        },
+        {
+          "title": "CO2",
+          "topics": "• Problem definition and problem space • Characteristics of AI Problem • State space representation • Production systems • Problem reduction SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 11 • Issues in the Design of Search Programs",
+          "hours": null
+        },
+        {
+          "title": "Knowledge Representation 6 CO3",
+          "topics": "• Role of knowledge in Artificial Intelligence • Knowledge representation and mapping • Approaches to knowledge representation • Issues in knowledge representation • Rule-based systems • Procedural versus Declarative knowledge",
+          "hours": null
+        },
+        {
+          "title": "Logic-Based Representation and Reasoning under",
+          "topics": "Uncertainty 8 CO3 • Propositional Logic • Predicate Logic: • Representing facts and relationships • Modus Ponens • Inference techniques: • Resolution • Natural Deduction • Forward chaining and Backward chaining • Structured knowledge representation: • Semantic Networks • Frames • Reasoning under uncertainty: • Probabilistic reasoning (conceptual overview) • Certainty factors • Comparison of logical and probabilistic reasoning",
+          "hours": null
+        },
+        {
+          "title": "Learning and Expert Systems 4 CO4",
+          "topics": "Learning in Artificial Intelligence • Concept of learning in AI • Types of learning: Rote learning Learning by taking advice Learning in problem solving Learning by induction Explanation-based learning Expert Systems • Need and justification of expert systems • Components of an expert system • Limitations of expert systems 6 Ethical Issues in AI 2 CO5 SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 12 • Ethical challenges in AI • Bias and fairness in AI systems • Transparency and Eexplainability • Privacy and data protection • Social impact of Artificial Intelligence • Responsible and trustworthy AI",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-304-MJ-P",
+      "title": "Lab Course on DS-301-MJT (Data Visualization and Modelling)",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Overview of Python Programming Environment",
+          "topics": "and Data Visualization Libraries 12 CO1 Overview of Python environment, installation and use of Jupyter Notebook. Introduction to data visualization libraries: NumPy, Pandas, Matplotlib, ggplot2 and Seaborn SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 14",
+          "hours": null
+        },
+        {
+          "title": "Data Cleaning, and Preprocessing using Pandas 4 CO1",
+          "topics": "Loading datasets from CSV/Excel files. Handling missing values, data type conversion, filtering, sorting, and data preprocessing",
+          "hours": null
+        },
+        {
+          "title": "Basic and Advanced Data Visualization 8 CO2",
+          "topics": "Creating basic plots such as line plot, bar chart, histogram, and scatter plot using data visualization libraries such as Matplotlib. Advanced visualizations including boxplot, joint plot, violin plot, pair plot, word cloud, bubble chart, area chart, pie chart, and heatmap.",
+          "hours": null
+        },
+        {
+          "title": "Exploratory Data Analysis (EDA) and Correlation",
+          "topics": "Analysis with Visualization 12 CO1, CO2 Performing Exploratory Data Analysis to understand data patterns and trends. Correlation analysis using correlation matrix and visualization using heatmaps.",
+          "hours": null
+        },
+        {
+          "title": "Simple Linear Regression 8 CO3, CO4",
+          "topics": "Implementation of Simple Linear Regression model. Interpretation of regression coefficients, analysis of residual plots and visualization of regression line. 6 Multiple Linear Regression and Model Evaluation 8 CO4, CO5 Building Multiple Linear Regression model using Python. Evaluation of model performance using metrics such as R², MAE, MSE, and RMSE. 7 Logistic Regression and K-Means Clustering 8 CO4, CO5 Building Logistic Regression model using Python for classification. Application of K-Means Clustering technique for grouping unlabeled data. Selection of appropriate number of clusters and visualization of clusters using Python.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-305-MJ-P",
+      "title": "Lab Course on DS-302-MJT (R Programming)",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to R and RStudio: Writing and executing basic R",
+          "topics": "programs, understanding R environment and packages",
+          "hours": null
+        },
+        {
+          "title": "Working with R Data Types and Operators: Variables, type",
+          "topics": "conversion, arithmetic, logical and relational operations",
+          "hours": null
+        },
+        {
+          "title": "Creating and Manipulating Vectors in R using built-in functions",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Mathematical and Character Functions in R",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Creating and Managing Data Frames: Data extraction,",
+          "topics": "modification, and summary using R SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 16 6 Matrix Operations in R: Matrix creation, arithmetic operations, transpose, inverse, and solving linear equations 7 Diagrammatic Representation of Data using R (Bar diagrams, Pie charts, Stem-and-Leaf) 8 Graphical Representation of Data using R (Histogram, Boxplot, Frequency Polygon, Ogive Curves) 9 Measures of Central Tendency and Dispersion using R 10 Summary Statistics, Skewness, and Kurtosis Computation using R 11 Correlation and Regression Analysis using R 12 Probability Distributions and Hypothesis Testing using R (Binomial, Normal, t-test, Chi-square test, ANOVA)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-310-MJ-T",
+      "title": "Business Analytics",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION 05 CO 1",
+          "topics": "1.1 Definition of analytics, Evolution of analytics, Concept of analytics, Types of Analytics. 1.2 The Growing Role of Business Analytics, the distinction between Business Analysis (Process), BI (Reporting), and Data Science (Algorithms). 1.3 Applications of Business Analytics: Marketing and Sales, Human Resource, Healthcare, Product Design, Service Design, finance, operation, Customer Service and Support. 1.2 Categorization of Analytical methods and models: - Descriptive (What happened?), Diagnostic (Why?), Predictive (What will happen?), and Prescriptive (How to make it happen?). 1.3 The process of translating a vague business problem into a structured data query. 1.4 The analytical decision -making process vs. intuitive decision -making vs. evidence -based decision making. SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 18",
+          "hours": null
+        },
+        {
+          "title": "DATA BASES, DATA WAREHOUSING 05 CO 2",
+          "topics": "2.1 Importance of data in business analytics, Differences between data, information and knowledge, Quality of data. 2.2 Types of Data Sources- Structured Vs. Semi structured Vs. Unstructured data, 2.3 Data Warehouse Vs. Databases, Relational Database Vs. Non -Relational Database, RDBMS Data structures, and Columnar Data structures. 2.4 5Vs (Volume, Velocity, Variety, Veracity, Value) of Big Data, Big Data Collection and Ethics. 2.5 Ethical collection methods, and data privacy laws (GDPR/Digital Personal Data Protection basics). 2.6 Data preparation for knowledge discovery: Data understanding and data cleaning tools, Data transformation, Data Discretization, Data Visualization. 2.7 Data Mining Process: CRISP and SEEMA, Supervised and unsupervised learning techniques.",
+          "hours": null
+        },
+        {
+          "title": "DESCRIPTIVE AND DIAGNOSTIC BUSINESS",
+          "topics": "ANALYTICS (focus must on \"how to interpret and apply\" using Python.) 10 CO 3 3.1 Comparative Analysis: Benchmarking performance across categories (Region, Product, and Department) or fixed time periods. Statistical Tools: Mean, Median, Variance, Standard Deviation, and Coefficient of Variation (for stability analysis). Visual Tools: Side-by-Side Bar Charts and Box-and-Whisker plots for distribution comparison. 3.2 Value-Based Analysis (Impact Analysis): Identifying high -impact business segments and resource optimization. Statistical Tools: Pareto Analysis (80/20 Rule) , ABC Analysis (Inventory/Customer classification), and Cumulative Frequency Distribution. 3.3 Trend & Growth Analysis (Historical): Identifying secular, seasonal, and cyclical shifts; distinguishing \"Noise\" from \"Signal.\" Statistical Tools: Moving Averages (Simple & Exponential), Percentage Change, YoY Growth, and CAGR (Compound Annual Growth Rate).",
+          "hours": null
+        },
+        {
+          "title": "PREDICTIVE AND RELATIONSHIP ANALYTICS (focus",
+          "topics": "must on \"how to interpret and apply\" using Python.) 10 CO 4, CO 5 4.1 Correlation & Relationship Analysis: Measuring the strength and direction between business drivers (e.g., Marketing Spend vs. Revenue). Statistical Tools: Pearson’s Correlation (Linear), Spearman’s Rank (Non-linear), and Scatter Plot Matrices. 4.2 Regression Analysis (Causal Modeling): Predicting continuous business outcomes based on one or more predictors. Statistical Tools: Simple and Multiple Linear Regression. Diagnostics: 𝑅2 (Goodness of fit) , P -values (Significance), and Residual Analysis for error checking. 4.3 Time Series Forecasting (Predictive): Analyzing interval-based data to project future business metrics. Components: Trend, Seasonality, Cyclicity, and Irregularity. Models: Decomposition models, Autoregression (AR), and Holt-Winters Exponential Smoothing. Accuracy Metrics: Mean Absolute Error (MAE) and Mean Squared Error (MSE). SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 19",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-311-MJ-P",
+      "title": "Lab Course on DS-310-MJT (Business Analytics)",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Write a program to identify missing values, duplicate records, and",
+          "topics": "outliers in a business dataset using pandas and seaborn.",
+          "hours": null
+        },
+        {
+          "title": "Create a script to convert continuous variables (e.g., Age) into categorical",
+          "topics": "bins (e.g., Age Groups) and apply One-Hot Encoding to unstructured text categories.",
+          "hours": null
+        },
+        {
+          "title": "Use Python to generate histograms and density plots to analyze the",
+          "topics": "Volume and Variety of a dataset.",
+          "hours": null
+        },
+        {
+          "title": "Write a program to compare sales across different regions using",
+          "topics": "Groupby operations and visualize the consistency using Side-by-Side Bar Charts and Box-and-Whisker plots.",
+          "hours": null
+        },
+        {
+          "title": "Implement a script to calculate cumulative contribution of products to",
+          "topics": "total revenue and identify the top 20% \"Vital Few.\" By using Pareto (80/20) analysis. 6 ABC Inventory Classification: Create a program to categorize inventory/customers based on usage value into A, B, and C classes. SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 21 7 Trend & Growth Calculator: Write a script to calculate Year-over-Year (YoY) growth and Compound Annual Growth Rate (CAGR) for a 5- year financial dataset. 8 Apply Simple and Exponential Moving Averages to smooth out daily fluctuations in stock or sales data 9 9. Correlation Matrix & Scatter Plot Matrix: Write a program using seaborn.pairplot() to measure the strength of relationships between multiple business drivers like \"Marketing Spend,\" \"Social Media Reach,\" and \"Sales.\" 10 Simple & Multiple Linear Regression: Implement a regression model using statsmodels to predict sales and interpret the R-squared and P- values to check model significance. 11 Time Series Decomposition: Create a script to decompose a business time-series into its Trend, Seasonality, and Residual components. 12 Holt-Winters Forecasting: Use the ExponentialSmoothing library to forecast future demand and calculate accuracy using Mean Absolut...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-312-MJ-T",
+      "title": "Social Media Analytics",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Social Media Analytics: An Overview 6 CO1, CO2",
+          "topics": "1.1 Core Characteristics of Social Media, Types of Social Media. 1.2 Need for Social Media Analytics (SMA), SMA in small & large organizations. 1.3 Social Media vs. Traditional Business Analytics. 1.4 Seven Layers of Social Media Analytics. 1.5 Types of Social Media Analytics, 1.6 Social Media Analytics Cycle 1.6 Challenges to Social Media Analytics 1.7 Social Media Analytics Tools SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 23",
+          "hours": null
+        },
+        {
+          "title": "Social Network Structure, Measures &",
+          "topics": "Visualization 8 CO3, CO4, CO5 2.1 Basics of Social Network Structure - Nodes, Edges & Tie 2.2 Describing the Networks Measures - Degree Distribution, Density, Connectivity, Centralization 2.3 Centrality: Degree Centrality, Eigenvector Centrality, Katz Centrality, PageRank, Betweenness, Centrality, Closeness Centrality, Group Centrality 2.4 Network Visualization - Graph Layout, Visualizing Network features, Scale Issues. 2.5 Social Media Network Analytics - Common Network Terms, Common Social Media Network Types 2.6 Types of Networks, Common Network Terminologies, Network Analytics Tools.",
+          "hours": null
+        },
+        {
+          "title": "Social Media Text, Action and Hyperlink",
+          "topics": "Analytics 10 CO3,CO5 3.1 Social Media Text Analytics- Types of Social Media Text, Purpose of Text Analytics, Steps in Text Analytics, Social Media Text Analysis Tools 3.2 Social Media Action Analytics -What Is Actions Analytics? Common Social Media Actions, Actions Analytics Tools 3.3 Social Media Hyperlink Analytics-Types of Hyperlinks, Types of Hyperlink Analytics, Hyperlink Analytics Tool",
+          "hours": null
+        },
+        {
+          "title": "Social Media Location & Search Engine Analytics 6 CO4, CO5",
+          "topics": "4.1 Location Analytics - Sources of Location Data, Categories of Location Analytics, Location Analytics and Privacy Concerns, Location Analytics Tools 4.2 Search Engine Analytics - Types of Search Engines, Search Engine Analytics, Search Engine Analytics Tools",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-313-MJ-P",
+      "title": "Lab Course on DS-312-MJT (Social Media Analytics)",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Study various",
+          "topics": "i) Social Media platforms (Facebook, X, YouTube etc) ii) Social Media analytics tools (Facebook insights, google analytics etc) iii) Applications of Social media analytics for business. e.g. Google Analytics: https://marketingplatform.google.com/about/analytics/",
+          "hours": null
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Select two social media platforms (e.g., Facebook &",
+          "topics": "Instagram OR Twitter/X & LinkedIn). Study their network characteristics, types of users, and interaction patterns. • Identify network type (ego network, follower network, community network) • Identify nodes, edges, and ties • Compare user engagement mechanisms",
+          "hours": null
+        },
+        {
+          "title": "CO2, CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Data Cleaning and Storage - Preprocess, filter and store",
+          "topics": "social media data for business (Using Python, MongoDB, etc)",
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": "SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 25",
+          "hours": null
+        },
+        {
+          "title": "Analyze engagement metrics of a selected social media",
+          "topics": "page/account. Tasks:  Compute likes, shares, comments, reach",
+          "hours": null
+        },
+        {
+          "title": "CO2, CO4",
+          "topics": "• Identify best-performing content • Suggest business insights",
+          "hours": null
+        },
+        {
+          "title": "Plot the given graph in python and calculate its Degree",
+          "topics": "centrality, density, connectivity",
+          "hours": null
+        },
+        {
+          "title": "CO1",
+          "topics": "6 Analyze public sentiment on a trending topic (e.g., budget, movie release, product launch). Tasks: • Clean text data • Perform sentiment analysis • Generate word cloud",
+          "hours": null
+        },
+        {
+          "title": "CO3,",
+          "topics": "CO4 7 Data Collection-Select the social media platforms of your choice (X, Facebook, LinkedIn, YouTube, Web blogs etc), connect to and capture social media data for business (scraping, crawling, parsing).",
+          "hours": null
+        },
+        {
+          "title": "CO3,",
+          "topics": "CO4 8 Use Google Trends to study interest patterns for a topic/product. Tasks: • Compare keyword trends • Analyze regional popularity • Correlate with social media trends",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-321-VSC-P",
+      "title": "Business Intelligence and Dashboarding Tools",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Tableau and Data Visualization 12 CO1, CO2",
+          "topics": "➢ Introduction to Business Intelligence (BI) and Data Visualization ➢ Importance of visualization in data science and analytics ➢ Overview of Tableau: features, architecture, and applications ➢ Installation of Tableau Public / Tableau Desktop ➢ Tableau interface: worksheets, dashboards, stories ➢ Understanding data types, measures, and dimensions ➢ Connecting Tableau to Excel, CSV , and text files for data visualization.",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis and Dashboarding using Tableau 12 CO2",
+          "topics": "➢ Data preparation and data cleaning in Tableau ➢ Creating basic and advanced visualizations ➢ Formatting and customization of charts ➢ Filters, sorting, and grouping ➢ Calculated fields and table calculations ➢ Parameters for dynamic analysis ➢ Designing interactive dashboards SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 27 ➢ Dashboard actions and story creation ➢ Best practices for effective dashboard design",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Power BI and Data Modeling 16 CO3, CO4",
+          "topics": "➢ Introduction to Power BI and its components ➢ Installation and overview of Power BI Desktop ➢ Connecting Power BI to various data sources ➢ Introduction to Power Query Editor ➢ Data cleaning and transformation ➢ Data modelling concepts ➢ Creating and managing relationships ➢ Understanding cardinality and star schema",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis and Reporting using Power BI 12 CO4",
+          "topics": "➢ Introduction to DAX (Data Analysis Expressions) ➢ DAX syntax and structure ➢ Calculated columns and measures ➢ Aggregation and statistical DAX functions ➢ Basic statistical calculations using DAX • Aggregation functions: SUM(), A VERAGE(), MIN(), MAX(), COUNT() • Logical functions: IF(), SWITCH() • Statistical functions: MEDIAN(), STDEV .P(), V AR.P() ➢ Filter context and row context ➢ Using CALCULATE() function ➢ Time intelligence functions • TOTALYTD(), TOTALMTD(), TOTALQTD() ➢ Creating interactive reports using filters and slicers",
+          "hours": null
+        },
+        {
+          "title": "Advanced Power BI and Integration 8 CO5",
+          "topics": "➢ Introduction to Python and R integration in Power BI ➢ Installing and configuring Python and R environments for Power BI ➢ Using Python scripts in Power BI for data preprocessing and visualization ➢ Executing R scripts in Power BI for statistical analysis and modelling ➢ Creating Python/R visuals within Power BI reports ➢ Advantages and limitations of using Python and R scripts in Power BI Desktop",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-331-FP",
+      "title": "Project on Data Analytics & Visualization",
+      "semester": 5,
+      "type": "FP/CEP",
+      "credits": 2,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Problem Statement",
+          "topics": "• Define the project problem • Identify objectives and scope SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 29 • Determine expected outputs Students should choose a real-world problem from areas such as: • Healthcare • Banking • Education • Agriculture • Retail • Finance • Social Media • Sports Analytics • Transportation and many more",
+          "hours": null
+        },
+        {
+          "title": "Data Collection",
+          "topics": "• Collect data from reliable sources • Understand dataset structure and attributes",
+          "hours": null
+        },
+        {
+          "title": "Data Preprocessing",
+          "topics": "Using Python/R perform: • Missing value handling • Duplicate removal • Data cleaning • Data transformation • Feature selection",
+          "hours": null
+        },
+        {
+          "title": "Exploratory Data Analysis (EDA)",
+          "topics": "Students should analyze: • Trends • Relationships • Correlations • Outliers • Statistical summaries Visualization Techniques • Bar Charts • Histograms • Pie Charts • Scatter Plots • Heat Maps • Line Graphs",
+          "hours": null
+        },
+        {
+          "title": "Model Building (Optional)",
+          "topics": "• Using Regression, Classification or Clustering techniques of statistics 6 Dashboard Development Using Power BI or Tableau: • Create interactive dashboards • Add filters and slicers • Include KPI indicators • Display summary reports and charts SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 30 7 Result Interpretation Students should: • Explain analytical findings • Compare outcomes • Draw conclusions from data 8 Documentation and Presentation • Students should prepare: • Project report (Hardcopy & Softcopy) • PPT presentation • Dashboard demonstration",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-341-MN-T",
+      "title": "Categorical and Multivariate Data Analysis",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Categorical Data Analysis 08 CO1, CO2",
+          "topics": "Types of Categorical Data: Nominal vs Ordinal variables, Binary data, multinomial data, Contingency tables (2-way and r×c tables) Measures of Association: Odds and Odds Ratio, Relative Risk, Yule’s Q, Phi coefficient, Cramér’s V Chi-Square Methods: Pearson’s Chi-square test, Likelihood ratio test, Test of independence, Test of homogeneity Exact & Trend Tests: Fisher’s Exact Test, Mantel–Haenszel Test, Test for linear trend (ordinal data)",
+          "hours": null
+        },
+        {
+          "title": "Log-linear Models for Categorical Data 07 CO3",
+          "topics": "Log-linear Models: Poisson regression model , Two-way log -linear model , Interaction terms , Model selection (Backward/Forward approach) Logistic Regression: Binary logistic regression , Interpretation of coefficients , Odds ratio interpretation, Goodness-of-fit measures Multinomial & Ordinal Logistic Models: Baseline category logit model , Proportional odds model (overview) SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 32",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Multivariate Data Analysis 07 CO4, CO5",
+          "topics": "Multivariate Concepts: Random vectors, Mean vector & covariance matrix, Correlation matrix, Mahalanobis distance Multivariate Normal Distribution: Definition and properties (without proof) Principal Component Analysis (PCA): Eigenvalues and eigenvectors , Variance explained, Dimensionality reduction Factor Analysis: Model formulation , Factor loadings , Communality, Varimax rotation (conceptual overview)",
+          "hours": null
+        },
+        {
+          "title": "Dimension Reduction and Classification 08 CO6",
+          "topics": "Discriminant Analysis: Linear Discriminant Analysis (LDA) , Classification rule Misclassification probability Cluster Analysis: Hierarchical clustering, K-means clustering, Distance measures Introduction to Canonical Correlation Analysis: Concept, Interpretation, Applications in data science",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-351-MJ-T",
+      "title": "NoSQL databases",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction to NOSQL 8 CO1",
+          "topics": "1.1 Evolution of data management systems 1.2 Limitations of RDBMS for Big Data 1.3 Characteristics of Big Data (5Vs) 1.4 Introduction to NoSQL databases 1.5 CAP Theorem and BASE properties 1.6 ACID vs BASE 1.7 Types of NoSQL databases 1.8 Schema-agnostic nature of NoSQL databases 1.9 Use cases in Data Science and Big Data ecosystems SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 35",
+          "hours": null
+        },
+        {
+          "title": "Aggregation Models 8 CO2",
+          "topics": "2.1 Concept of aggregation in NoSQL systems 2.2 Aggregate-oriented databases 2.3 Key-Value aggregation model 2.4 Document aggregation model 2.5 Column-family aggregation model 2.6 Aggregate design principles 2.7 Query-driven data modelling 2.8 Comparison with relational normalization 2.9 Schema flexibility and schema evolution in aggregate models",
+          "hours": null
+        },
+        {
+          "title": "Distribution Models 10 CO3",
+          "topics": "3.1 Need for distributed data storage 3.2 Data partitioning strategies 3.3 Sharding techniques: Range-Based Sharding, Hashed Sharding, Zone-Based Sharding (Tag- Aware Sharding) 3.4 Replication models: Master–Slave Replication, Multi-Master Replication, Peer-to-Peer architectures, Log-Based/Incremental Replication 3.6 Consistency models: strong consistency, weak consistency (including eventual consistency), and causal consistency 3.8 Fault tolerance and availability 3.9 Version stamps and conflict resolution in distributed systems",
+          "hours": null
+        },
+        {
+          "title": "NoSQL Databases : Key Value & Column Family 8 CO4",
+          "topics": "4.1 Key-Value databases: concepts and architecture 4.2 Operations and data access patterns 4.3 In-memory databases 4.4 Redis architecture and commands 4.5 Riak overview 4.6 Column-family databases 4.7 Cassandra architecture and data model 4.8 HBase architecture 4.9 Data modelling and querying 4.10 Use cases in analytics, caching, and logging",
+          "hours": null
+        },
+        {
+          "title": "NoSQL Databases: Document Store & Graph",
+          "topics": "Database 10 CO5 5.1 Document-oriented databases 5.2 JSON, BSON, and XML document formats 5.3 MongoDB architecture 5.4 CRUD operations and indexing 5.5 Aggregation framework in MongoDB 5.6 Graph database fundamentals 5.7 Property graph model 5.8 Neo4j architecture 5.9 Graph traversal and queries 5.10 Use cases: Social Networks, Recommendation Engines SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 36 6 Polyglot Persistence, Map Reduce 8 CO6,CO8 6.1 Introduction to Polyglot Persistence 6.2 Benefits and challenges 6.3 Database selection strategies 6.4 Integrating multiple data stores 6.6 Introduction to MapReduce 6.7 Map and Reduce functions 6.8 Hadoop ecosystem overview 6.9 Database Performance Monitoring tools 6.10 Introduction to cloud databases: Amazon RDS, Google Cloud Firestore, Microsoft Azure SQL Database 6.11 Introduction to AI Databases: Pinecone, Milvus, Weaviate, Qdrant 7 NoSQL in Data Science Applications 8 CO7,CO8 7.1 Role of NoSQL in Data Science lifecycle 7.2 Data ingestion and preprocessing 7.3 NoSQL for real-time analytics 7.4 Handling unstructured and semi-structured data 7.5 NoSQL integration with Python and R 7.6 Case studies: • Recommendation systems • Soc...",
+          "hours": null
+        },
+        {
+          "title": "NoSQL Distilled: Pramod J. Sadalage and Martin Fowler, Addison-Wesley, Pearson",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "NoSQL for Mere Mortals, Dan Sullivan, Addison-Wesley",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Professional NoSQL, Shashank Tiwari, Wrox Press",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "MongoDB: The Definitive Guide, Kristina Chodorow, O’Reilly Media.",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Seven Databases in Seven Weeks, Eric Redmond and Jim R. Wilson, Pragmatic Bookshelf.",
+          "topics": "6 Ian Robinson, Jim Webber, and Emil Eifrem, Graph Databases, O’Reilly Media. Online Learning Resources",
+          "hours": null
+        },
+        {
+          "title": "MongoDB University – Practical labs and case studies",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Apache Cassandra Documentation – Industry-grade reference",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Redis University – Key-Value store fundamentals",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Neo4j GraphAcademy – Hands-on graph database learning",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-352-MJ-T",
+      "title": "Artificial Intelligence in Data Science",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Problem Solving Using Search Techniques 9 CO1,CO2",
+          "topics": "1.1 Problems Solving methods 1.2 Problem-Solving Agents 1.3 Example Problems 1.4 Search Algorithms SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 38 1.5 Blind Search Techniques: • Breadth-first search(BFS) • Depth-first search(DFS) • Uniform cost Search. 1.6 Heuristic search techniques: - • Hill Climbing • Best First search • Constraint Satisfaction • A*",
+          "hours": null
+        },
+        {
+          "title": "Game Theory and Decision Making 9 CO3,CO4",
+          "topics": "2.1 Introduction Game Theory • Types of Game 2.2 Optimal Decisions in Games • Application of Optimal Decisions in Games 2.3 Heuristic Alpha–Beta Tree Search • Application of Heuristic Alpha–Beta Tree Search 2.4 Monte Carlo Tree Search • Application of Monte Carlo Tree Search 2.5 Constraint Satisfaction Problems (CSP). • Application of Constraint Satisfaction Problem 2.6 Limitations of Game Search Algorithms",
+          "hours": null
+        },
+        {
+          "title": "Planning and Scheduling for Data Science",
+          "topics": "Applications 7 CO5 3.1 Introduction to Classical and Automated Planning 3.2 Planning Algorithms and State-Space Models 3.3 Heuristic-Based Planning Techniques 3.4 Hierarchical Task Planning 3.5 Planning under Uncertainty and Resource Constraints 3.6 Comparative Analysis of Planning Approaches",
+          "hours": null
+        },
+        {
+          "title": "Recent Trends and Role of AI in Data Science 5 CO6",
+          "topics": "4.1 Role of AI in Data Science 4.2 Information Retrieval and Information Extraction 4.3 Introduction to Generative AI 4.4 Explainable AI and Ethical Considerations 4.5 Computer Vision Applications 4.6 AI Applications in Social Media and Finance 4.7 AI Application in Business and HR Analytics",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-353-MJ-T",
+      "title": "Data Privacy and Security",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Security 4 CO1",
+          "topics": "1.1 Introduction: CIA triad: confidentiality, integrity, availability 1.2 Types of threats: malware, phishing, insider threats 1.3 Vulnerabilities: software bugs, weak passwords, misconfigurations 1.4 Risk assessment and mitigation strategies 1.5 Security policies: organizational rules, compliance requirements",
+          "hours": null
+        },
+        {
+          "title": "Cryptography Basics 8 CO2",
+          "topics": "2.1 Introduction: Plain text and cipher Text 2.2 Substitution techniques 2.3 Transposition techniques SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 40 2.4 Symmetric and Asymmetric key cryptography (Only introduction of DES,AES,RSA,SHA,MD-5) 2.4 Steganography 2.5 Digital signatures and certificates",
+          "hours": null
+        },
+        {
+          "title": "Privacy Concepts 6 CO3",
+          "topics": "3.1 Definitions: privacy vs. security 3.2 Legal frameworks: GDPR, Indian IT Act, HIPAA basics 3.3 Data anonymization: k-anonymity, l-diversity 3.4 Pseudonymization and masking techniques 3.5 Privacy in data publishing and sharing",
+          "hours": null
+        },
+        {
+          "title": "Secure Systems in Data Science 6 CO4",
+          "topics": "4.1 Access control models: RBAC (Role Based), ABAC (Attribute Based) 4.2 Authentication methods: passwords, biometrics, multifactor authentication 4.3 Secure storage: encryption at rest, database security 4.4 Secure transmission: Introduction to SSL/TLS, VPNs 4.5 Cloud security: shared responsibility model, data isolation 4.6 Big data security: Hadoop/NoSQL vulnerabilities, secure pipelines",
+          "hours": null
+        },
+        {
+          "title": "Emerging Topics 6 CO5",
+          "topics": "5.1 Differential privacy: noise addition, privacy budget 5.2 Blockchain: distributed ledger, immutability, smart contracts 5.3 AI‑driven threat detection: anomaly detection, intrusion detection systems 5.4 Security challenges in IoT 5.5 Ethical considerations in data security and privacy",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-354-MJ-P",
+      "title": "Lab Course on DS-351-MJ-T (NoSQL databases)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "DS-355-MJ-P",
+      "title": "Lab Course on DS-352-MJ-T (Artificial Intelligence in Data Science)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        43,
+        45
+      ],
+      "units": [
+        {
+          "title": "Assignment on Uninformed Search Techniques 6 CO1, CO5",
+          "topics": "• Implementation of Breadth First Search (BFS) • Implementation of Depth First Search (DFS) • Implementation of UCS for a weighted graph • Application Oriented Implementation: o Cycle Detection in data pipelines(DFS) o Network traversal (BFS) o Supply Chain Analytics using UCS",
+          "hours": null
+        },
+        {
+          "title": "Assignment on Informed (Heuristic )Search",
+          "topics": "Techniques 8 CO1, CO4,CO5 • Implementation of A* Search Algorithm • Implementation of Hill Climbing • Implementation of Best First Search • Application Oriented Implementation: o Delivery Route Optimization using A* Search o Hill Climbing Algorithm for Feature Selection o Best First Search for Delivery Prioritization o Heuristic Planning for Task Scheduling using Best First Search SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 45",
+          "hours": null
+        },
+        {
+          "title": "Assignment on Constraint Satisfaction Problem 6 CO2, CO4",
+          "topics": "• Application-Oriented Implementation o Resource Allocation using Constraint Satisfaction Techniques o Scheduling using Constraint Satisfaction Techniques",
+          "hours": null
+        },
+        {
+          "title": "Assignment on Game Theory 4 CO3, CO5",
+          "topics": "• Implement of Alpha–Beta Pruning Algorithm • Application Oriented Implementation: o Tic-Tac-Toe game using Alpha–Beta Pruning",
+          "hours": null
+        },
+        {
+          "title": "Assignment on Rule based system 6 CO5",
+          "topics": "• Implementation of Simple Chabot • Implementation of Rule-based Spam Filter • Implementation of Rule-based Fraud Detection",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-360-MJ-T",
+      "title": "HR Analytics",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "HR analytics :Introduction 5 CO1",
+          "topics": "1.1. Analytics in HR, Defined Predictive HR analytics 1.2. Introduction of HCM (Human Capital Management) Model, Metrics and Analytics 1.3. Understanding Descriptive Analytics and Perspective Analytics, 1.4. Understanding the need (and business case) for mastering and utilizing predictive HR analytic techniques 1.5. Human capital data storage and ‘big (HR) data’ manipulation 1.6. Predictors, prediction and predictive modelling 1.7. Current state of HR analytic capabilities and professional or academic training 1.8. Business applications of modelling 1.9. HR analytics and HR people strategy 1.10. Becoming a persuasive HR function",
+          "hours": null
+        },
+        {
+          "title": "HR information systems and data 5 CO2",
+          "topics": "SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 47 1.1. Information sources 1.2. Analysis software options 1.3. Using artificial intelligence and large language models to aid analyses Using R 1.4. Importing and merging data 1.5. Big data",
+          "hours": null
+        },
+        {
+          "title": "Analysis strategies 12 CO3",
+          "topics": "1.1. From descriptive reports to predictive analytics 1.2. Statistical Significance 1.3. HR analytic metrics/measures 1.4. Data integrity 1.5. Types of data, Categorical and Continuous variables 1.6. Group level and individual level data 1.7. Dependent and Independent variables 1.8. Types of statistical tests 1.9. Statistical test for categorical data 1.10. Statistical test for continuous data/interval level data 1.11. Factor analysis and reliability analysis",
+          "hours": null
+        },
+        {
+          "title": "Case Studies in HR analytics 8 CO4",
+          "topics": "1.1. Diversity analytics: Equality, diversity and inclusion, Approaches to measuring and managing D&I, Testing the impact of diversity. 1.2. Employee attitude surveys: employee engagement and workforce perceptions, measure employee engagement, Interrogating the measures, 1.3. Predicting employee turnover: Descriptive turnover analysis, measuring turnover 1.4. Predicting employee performance: measures for performance, predict performance using multiple linear regression .",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-361-MJ-P",
+      "title": "Lab Course on DS-360-MJ-T (HR Analytics)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "R Studio Environment 4 CO1",
+          "topics": "• Explore R Studio Environment, Revision Data types, Data structures (vectors, lists, matrices, arrays), create Data set and Data frame, Make plots and visualize data (line, scatter, pie, bar), Importing and Merging Data.",
+          "hours": null
+        },
+        {
+          "title": "Diversity analytics 8 CO2",
+          "topics": "SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 49 • Prepare and import data set with useful attributes for Gender and grade analysis • Write Program using R for Gender and job grade analysis using frequency tables and Chi square • Write Program using R for exploring ethnic diversity across teams descriptive statistics • Write Program using R for Multiple linear regression to model and predict ethnic diversity variation across teams.",
+          "hours": null
+        },
+        {
+          "title": "Employee Attitude Survey 16 CO3",
+          "topics": "• Prepare datasets for Employee survey to assess employee engagement. • Write Program using R for Exploratory and factor analysis • Write Program using R for Regression and descriptive analytics for survey data",
+          "hours": null
+        },
+        {
+          "title": "Predicting Employee Turnover 16 CO4",
+          "topics": "• Prepare datasets suitable for do the analytics regarding employee turnover including attributes like Gender,Age,LengthOf Service, AppraisalRating, Country, LeaverStatus etc. • Write Program in R language using frequency tables to explore regional differences in staff turnover • Write Program in R language using Chi-square analysis to explore regional differences in individual staff turnover • Write Program in R language for predicting individual turnover • Write Program in R language for comparing expected length of service for men vs women.",
+          "hours": null
+        },
+        {
+          "title": "Predicting Employee Performance 16 CO5",
+          "topics": "• Prepare datasets suitable for do the analytics regarding employee turnover • Write Program in R language uses multiple regression to predict sickness absence using employee attitude scores. • Write Program in R language uses multiple regression to explore patterns of performance with employee profile data in an organisation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-362-MJ-T",
+      "title": "Financial Analytics",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Corporate Finance, Financial Modeling & &",
+          "topics": "Portfolio Management 15 CO 1, CO 3 1.1 Introduction to Finance & Accounting: Understanding financial statements (Balance Sheet, P&L, Cash Flow), data sources, and data cleaning for accounting analytics. 1.2 Project Analysis & Modeling: Cash flow forecasting, Cost of Capital (WACC) using sensitivity analysis, and Financial Break-even modeling. 1.3 Capital Budgeting Models: Payback Period, NPV , IRR, and MIRR. 1.4 Bankruptcy & Fraud Analytics: Modeling corporate distress using Beaver’s t-test, Ohlson’s Logistic Regression, and the Altman Z-score. Introduction to Fraud detection in accounting data. 1.5 Modern Portfolio Theory: Markowitz’s Mean-Variance Optimization and the Capital Asset Pricing Model (CAPM). 1.6 Performance Metrics: Sharpe Ratio, Treynor Ratio, and Cluster Analysis for portfolio categorization. SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 51",
+          "hours": null
+        },
+        {
+          "title": "Financial Market & Time Series Analysis 15 CO 2, CO 4",
+          "topics": "2.1 Data Acquisition: Importing financial data from web portals (APIs), adjusting for stock splits and mergers, and handling time-series gaps. 2.2 Risk and Return: Estimation and prediction of returns for bonds and stocks. 2.3 Advanced Time Series Modeling: Examining data stationarity, EWMA (Exponentially Weighted Moving Average), and Value at Risk (VaR). 2.4 Volatility Modeling: Implementing ARMA, ARCH, and GARCH models to predict market fluctuations. 2.5 Technical Indicators: RSI (Relative Strength Index), ROC, MACD, and Moving Averages. 2.6 Visual Analytics: Candlestick chart patterns and volume analysis.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-363-MJ-P",
+      "title": "Lab Course on DS-362-MJ-T (Financial Analytics)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Import raw CSV/Excel accounting data and use dplyr to calculate key",
+          "topics": "liquidity and profitability ratios.",
+          "hours": null
+        },
+        {
+          "title": "Write an R function to calculate NPV and IRR for uneven cash flows and",
+          "topics": "perform sensitivity analysis on the discount rate.",
+          "hours": null
+        },
+        {
+          "title": "Implement a script to compare multiple projects using Payback Period",
+          "topics": "and MIRR (Modified Internal Rate of Return).",
+          "hours": null
+        },
+        {
+          "title": "Apply the Altman Z-Score formula to real-time company data to classify",
+          "topics": "financial distress zones.",
+          "hours": null
+        },
+        {
+          "title": "Use the Portfolio Analytics package to plot the Markowitz Efficient",
+          "topics": "Frontier and identify the minimum variance portfolio. 6 Calculate Beta ( β) for a stock by regressing its returns against a market index (e.g., Nifty 50) to determine the Cost of Equity. SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 53 7 Compute and visualize the Sharpe and Treynor Ratios for a multi-asset portfolio using the Performance Analytics library. 8 Use quantmod to fetch live stock data via Yahoo Finance API and adjust for stock splits and dividends. 9 Perform the Augmented Dickey-Fuller (ADF) test on stock prices and transform them into log-returns for analysis. 10 Calculate the Value at Risk (VaR) using the Historical Simulation and Parametric (Gaussian) methods in R. 11 Fit ARCH and GARCH (1,1) models to capture volatility clustering in financial returns using the rugarch package. 12 Generate and plot RSI, MACD, and Moving Averages overlaid on interactive Candlestick charts using tidyquant. 13 Analyze the correlation between trading volume and price breakouts using visual scatter plots and ROC (Rate of Change) indicators.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-371-VSC-P",
+      "title": "Lab Course on Statistical Analysis using PSPP",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Data Import and Coding: Importing data from Excel/CSV , Recoding",
+          "topics": "variables (Recode into Same/Different Variables)",
+          "hours": null
+        },
+        {
+          "title": "Data Visualization: Frequency tables, Diagram and graphs",
+          "topics": "SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 55",
+          "hours": null
+        },
+        {
+          "title": "Descriptive Statistics – Univariate Analysis: Computation of Mean,",
+          "topics": "Median, Mode, Standard deviation, Variance",
+          "hours": null
+        },
+        {
+          "title": "Cross Tabulation and Chi -Square Test: Creating contingency tables,",
+          "topics": "Performing Chi-square test of independence, Interpretation of output 6 Correlation Analysis: Computation of Pearson’s correlation coefficient, Spearman’s rank correlation, Testing significance, Interpretation of correlation matrix 7 Fitting of Simple, Multiple and Logistic Linear Regression Model 06 8 Testing of hypothesis: Testing difference between two means, Checking homogeneity of variance, Interpretation of output 9 Parametric and Non-parametric Tests 06 10 Reliability Analysis: Cronbach’s Alpha, Scale reliability, Interpretation for survey data",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DS-381-OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "OJT",
+      "credits": 4,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Student must undergo for OJT/Internship during semester-VI after teaching and",
+          "topics": "practical hours",
+          "hours": null
+        },
+        {
+          "title": "Student are expected to complete the related work/project within assigned by",
+          "topics": "organization (company/ industry/ consultancy/ institution)",
+          "hours": 120
+        },
+        {
+          "title": "The internship work may involve the Data Analytics or IT related assignment(s) OR the",
+          "topics": "maintenance of existing project OR the design/development of new project OR equivalent work",
+          "hours": null
+        },
+        {
+          "title": "College should assign the mentors/guides for students to monitor the progress",
+          "topics": "throughout the OJT",
+          "hours": null
+        },
+        {
+          "title": "Students have to submit the weekly progress report duly signed by the concern",
+          "topics": "authorities of organization to the assigned mentor 6 At the end of OJT, students should prepare the documentation and submit a report to the college in prescribed format given below 7 After completion, the final presentation and documentation will be evaluated by the examination panel as per the University norms OJT Report Documentation Format • Front Page • College Certificate • Company Certificate • Index SPPU T.Y.B.Sc. Data Science Syllabus from 2026-27 57 1) Learning objectives Every OJT comes with learning objectives, something you want to gain and acquire from that company. Hence, listing down the knowledge and skills will allow the employers/directors to know if you’ve accomplished your learning objectives upon finishing the OJT. 2) Company information [Company name] was founded in [year] with the vision to [details of the vision]. The company’s mission is to [mission statement]. [Company name] plays an important role in the [name of the industry] industry. I chose to OJT in this organization because I want to contribute to their mission which is aligned and relevant to my career goals. 3) OJT description My role at [Company name] was to [details of your job description...",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,66 @@
+{
+  "id": "aec-ability-enhancement-course-aec-urdu-syllabus-ac-2025-2026",
+  "kind": "programme",
+  "programme": "Urdu AEC Syllabus For S.Y.B.A/ B.Sc./ B. Com/B. Sc(CS)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "AEC 201 URD",
+      "title": "Functional Urdu I",
+      "semester": 3,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Alphabets, Words, Sentences, Numbers",
+          "topics": "Alphabets : Alif to Ye, Making words from alphabets, Making sentence with word, Numbers: 1 to 100 (Figures and words).",
+          "hours": null
+        },
+        {
+          "title": "Vocabulary and Everyday Terms",
+          "topics": "Days of the Week, Months, Festivals, Seasons, Relations, Professions, Greetings.",
+          "hours": null
+        },
+        {
+          "title": "Grammar and Reading Comprehension",
+          "topics": "Grammar: Singular & Plural, Gender: Masculine & Feminine, Antonyms & Synonyms, Reading short text / Reading comprehension.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AEC 251 URD",
+      "title": "Functional Urdu II",
+      "semester": 4,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Grammar",
+          "topics": "Noun (Ism), Adjective (Sifat), Pronoun (Zameer), Verb (Fel), Tense (Zamana).",
+          "hours": null
+        },
+        {
+          "title": "Communication Skill",
+          "topics": "Punctuation, Formation of sentences, Dialogues.",
+          "hours": null
+        },
+        {
+          "title": "Short Poems",
+          "topics": "Hamdardi by Allama Iqbal, Parinde ki Faryad by Allama Iqbal, Nasihat by Ismail Meeruthi, Achi Urdu Pyari Urdu by Asna Badr, Hamara Watan dil se Pyara by Shafiuddin Nayyar.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

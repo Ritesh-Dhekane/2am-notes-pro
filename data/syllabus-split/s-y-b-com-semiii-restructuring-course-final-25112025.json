@@ -1,0 +1,673 @@
+{
+  "id": "s-y-b-com-semiii-restructuring-course-final-25112025",
+  "kind": "programme",
+  "programme": "Four Year B.Com Degree Program (Restructuring)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA201RE-T",
+      "title": "Corporate Accounting-I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Financial Statements of Company",
+          "topics": "Ind AS-1: Presentation of Financial Statements and Schedule-III Numerical Problems on Financial Statements of Company i.e. Balance Sheet, and Statement of Profit and Loss as per Part-I & II of Schedule-III including all adjustments",
+          "hours": 15
+        },
+        {
+          "title": "Liquidation of Company",
+          "topics": "Meaning of Liquidation or Winding up, Modes of Winding up, Consequences of Winding up, Preparation of Liquidator’s Final Statement of Account (Section 348 and Rule 328)",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "AS202RE-T",
+      "title": "Applied Statistics–I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to statistics",
+          "topics": "Definition of statistics, scope, applications, classification and tabulation of data, frequency distribution, graphical presentation of data: histogram, frequency curve, frequency polygon, ogive curves",
+          "hours": 15
+        },
+        {
+          "title": "Measures of central tendency",
+          "topics": "Concept of central tendency, criteria for good measure of central tendency, Arithmetic mean, Median, Mode, Geometric mean, Harmonic mean: properties, merits, demerits, computation and applications",
+          "hours": 15
+        },
+        {
+          "title": "Correlation and Regression analysis",
+          "topics": "Concept of correlation, types of correlation, scatter diagram, Karl Pearson coefficient of correlation, Spearman rank correlation. Concept of regression, linear regression, regression equations, regression coefficients and properties",
+          "hours": 15
+        },
+        {
+          "title": "Random Variable",
+          "topics": "Concept of random variable, discrete and continuous random variables, probability mass function, probability density function, cumulative distribution function, mathematical expectation, variance",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BKFN203RE-T",
+      "title": "Banking and Finance–I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "History of Banking",
+          "topics": "1.1 Evolution of Banking in India: Pre-Independence and Post-Independence eras 1.2 Major Banking Reforms (1969, 1980 Nationalization, 1991 Financial Sector Reforms) 1.3 Role of Banking in Economic Development 1.4 Emerging Global Banking Trends",
+          "hours": 15
+        },
+        {
+          "title": "Structure and Functioning of Indian Banking System",
+          "topics": "2.1 Classification of Banks: Commercial Banks, Cooperative Banks, Regional Rural Banks (RRBs), Small Finance Banks, Payments Banks 2.2 Functions of Commercial Banks: Primary and Secondary Functions 2.3 Non-Performing Assets (NPAs): Meaning, Causes, and Recovery Mechanisms 2.4 NBFCs and Their Integration with the Banking System",
+          "hours": 15
+        },
+        {
+          "title": "Overview of Reserve Bank of India (RBI)",
+          "topics": "3.1 Role, Functions, and Powers of RBI as the Central Bank 3.2 Monetary Policy Tools: CRR, SLR, Repo Rate, Reverse Repo Rate, MSF, Open Market Operations 3.3 Developmental and Promotional Role of RBI in the Indian Economy 3.4 Regulatory Sandboxes and Support for Financial Inclusion and FinTech",
+          "hours": 15
+        },
+        {
+          "title": "Banking Laws and Regulations",
+          "topics": "4.1 Banking Regulation Act, 1949: Key Provisions 4.2 Negotiable Instruments Act, 1881: Instruments, Dishonor, and Dispute Resolution 4.3 SARFAESI Act, 2002: Key Features and Implementation 4.4 Overview of Insolvency and Bankruptcy Code (IBC) in Banking",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CASM204RE-T",
+      "title": "Computer Applications and Systems Management(CASM-I)",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        14,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to MIS",
+          "topics": "1.1 Concept of Data, Information, and System 1.2 Definition, Nature, and Scope of MIS 1.3 Role and Importance of MIS in Business 1.4 Structure/Framework of MIS 1.5 Characteristics of an Effective MIS 1.6 Challenges in Implementing MIS",
+          "hours": 15
+        },
+        {
+          "title": "Decision Support System",
+          "topics": "2.1 Definition, Characteristics, and Capabilities of DSS 2.2 Components of DSS: Dialogue, Data, Model Management 2.3 Difference between MIS and DSS 2.4 Types of Decisions and Models of Decision-Making (Herbert Simon Model) 2.5 Group Decision Support Systems (GDSS) 2.6 Applications of DSS in Business",
+          "hours": 15
+        },
+        {
+          "title": "Google Docs, Sheets and Slides",
+          "topics": "3.1 Overview of Google Workspace 3.2 Google Docs: Creating, formatting, editing, and sharing documents 3.3 Google Sheets: Creating spreadsheets, using basic formulas, data sorting and filtering 3.4 Google Slides: Designing presentations, slide transitions, inserting media 3.5 Collaboration features: Commenting, sharing permissions, version history",
+          "hours": 15
+        },
+        {
+          "title": "Google Forms",
+          "topics": "3.1 Creating a google form 3.2 Adding various styles of the questions 3.3 settings of the google form 3.4 Creating the links of the google form and sharing the link 3.5 Creating and managing the permissions 3.6 Managing the data collected through Google form",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CWA205RE-T",
+      "title": "Cost and Works Accounting-I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        18,
+        22
+      ],
+      "units": [
+        {
+          "title": "Basics of cost and Management Accounting",
+          "topics": "1.1 Concept of Cost, Costing, Cost Accounting, Cost Accountancy 1.2 Objectives, Scope, and Functions of Cost Accounting 1.3 Advantages and Limitations of Cost Accounting 1.4 Difference between Financial Accounting, Cost Accounting, and Management Accounting 1.5 Cost Classification and Elements of Cost 1.6 Role of Cost Accountant in modern business",
+          "hours": 15
+        },
+        {
+          "title": "Methods and Techniques of Costing",
+          "topics": "2.1 Methods of Costing: Job, Batch, Contract, Process, Operating, Single/Output Costing 2.2 Techniques of Costing: Historical, Absorption, Marginal, Standard, Uniform Costing 2.3 Cost Units and Cost Centres 2.4 Installation of Costing System",
+          "hours": 15
+        },
+        {
+          "title": "Cost Sheet",
+          "topics": "3.1 Meaning, Concept, and Significance of Cost Sheet 3.2 Components of Total Cost: Prime Cost, Factory Cost, Cost of Production, Cost of Goods Sold, Cost of Sales 3.3 Treatment of Stock: Raw Materials, Work-in-Progress, Finished Goods 3.4 Preparation of Simple and Estimated Cost Sheet with Numerical Problems",
+          "hours": 15
+        },
+        {
+          "title": "Key Aspects of Material Costing",
+          "topics": "4.1 Concept and Importance of Material Cost Control 4.2 Material Procurement Procedure 4.3 Inventory Control Techniques: ABC Analysis, EOQ, Stock Levels (Minimum, Maximum, Reorder, Danger Levels) 4.4 Methods of Pricing Material Issues: FIFO, LIFO, Simple Average, Weighted Average Methods with Numerical Problems",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ENTD206RE-T",
+      "title": "Entrepreneurship and Development(ENTD)- I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        23,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Concept of Entrepreneur, Entrepreneurship, Characteristics and Qualities of successful entrepreneurs, Functions of an Entrepreneur, Theories of Entrepreneurship (Schumpeter, McClelland), Entrepreneurial Motivation",
+          "hours": 15
+        },
+        {
+          "title": "Business Environment & Entrepreneurship",
+          "topics": "Role of Entrepreneurship in Economic Development, Micro, Small and Medium Enterprises (MSMEs): Concept, Classification, and Significance. Opportunities and challenges faced by MSMEs in India",
+          "hours": 15
+        },
+        {
+          "title": "Types of Business",
+          "topics": "Classification of Entrepreneurs: Innovative, Imitative, Fabian, Drone. Women Entrepreneurship: Concept, Problems, and Remedial Measures. Social Entrepreneurship, Rural Entrepreneurship, Corporate Entrepreneurship (Intrapreneurship)",
+          "hours": 15
+        },
+        {
+          "title": "Government and Entrepreneurship",
+          "topics": "Government policies and initiatives supporting startups and entrepreneurs: Startup India, Standup India, Make in India. Schemes of central and state government for financial and non-financial support",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "IOAD207RE-T",
+      "title": "Industrial Organization and Administration(IOAD)-I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        27,
+        32
+      ],
+      "units": [
+        {
+          "title": "MODERN INDUSTRY",
+          "topics": "1.1 Meaning, Definition and Characteristics of Modern Industry 1.2 Evolution of Indian Industry: Pre and Post-Independence 1.3 Industrial Development under Five Year Plans 1.4 Role of Public, Private, Joint, and Cooperative Sectors 1.5 Problems and Prospects of Indian Industries 1.6 Liberalization, Privatization, and Globalization (LPG) impact on Indian Industry",
+          "hours": 15
+        },
+        {
+          "title": "PRINCIPLES AND PRACTICES OF MANAGEMENT",
+          "topics": "2.1 Meaning, Nature, and Scope of Management 2.2 Henry Fayol’s Principles of Management 2.3 F.W. Taylor’s Scientific Management 2.4 Functions of Management: Planning, Organizing, Staffing, Directing, Coordinating, Controlling 2.5 Modern Trends in Management",
+          "hours": 15
+        },
+        {
+          "title": "PRODUCTION AND QUALITY MANAGEMENT",
+          "topics": "3.1 Meaning, Nature, and Scope of Production Management 3.2 Plant Location and Plant Layout 3.3 Production Planning and Control (PPC) 3.4 Concept of Total Quality Management (TQM) 3.5 Quality Control Tools and ISO Standards 3.6 Six Sigma, Kaizen, and 5S methodology",
+          "hours": 15
+        },
+        {
+          "title": "RECENT TRENDS IN BUSINESS AND INDUSTRY",
+          "topics": "4.1 Corporate Social Responsibility (CSR) 4.2 Business Ethics and Corporate Governance 4.3 Digital Transformation in Industry: Industry 4.0, IoT, AI, Automation 4.4 Green Business and Sustainable Industrial Practices 4.5 E-Commerce and Digital Supply Chain",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "RD208RE-T",
+      "title": "Rural Development–I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Rural Development",
+          "topics": "Concept, Nature, and Scope of Rural Development, Objectives and Importance of Rural Development in India, Rural Demography: Population characteristics, poverty, unemployment, migration, Indicators of Rural Development",
+          "hours": 15
+        },
+        {
+          "title": "Overview of Indian Agriculture",
+          "topics": "Role of Agriculture in Indian Economy, Agricultural production and productivity trends, Land reforms in India, Problems of Indian Agriculture: small holdings, monsoon dependency, credit, marketing",
+          "hours": 15
+        },
+        {
+          "title": "Maharashtra State Agriculture",
+          "topics": "Overview of Agriculture in Maharashtra: Agro-climatic zones, major crops, Irrigation facilities and water management, Problems and challenges of farmers in Maharashtra, Agricultural policies of Maharashtra Government",
+          "hours": 15
+        },
+        {
+          "title": "Agricultural and Allied Businesses in Maharashtra",
+          "topics": "Dairy farming, Poultry, Fisheries, Sericulture, Apiculture, Horticulture and Floriculture, Food processing industry, Agro-tourism in Maharashtra: potential and government incentives",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "PUBR209RE-T",
+      "title": "Public Relations-I",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        36,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Public Relations",
+          "topics": "1.1 Definition, Nature, and Scope of Public Relations 1.2 Evolution and History of Public Relations in India and Globally 1.3 Objectives and Functions of Public Relations 1.4 Differences between PR, Advertising, Publicity, and Propaganda 1.5 Qualities and Role of a PR Practitioner",
+          "hours": 15
+        },
+        {
+          "title": "Public Relations and Media",
+          "topics": "2.1 Types of Media: Print, Electronic, Digital, and Social Media 2.2 Media Relations: Press Release, Press Conference, Media Kit, Press Briefing 2.3 Organizing Press Tours and Interviews 2.4 Ethics in Media Relations and Avoiding Misinformation",
+          "hours": 15
+        },
+        {
+          "title": "Public Relations in Practice",
+          "topics": "3.1 Internal Public Relations: Employee Communication, House Journals, Notice Boards, Open Door Policy 3.2 External Public Relations: Customer Relations, Community Relations, Government Relations, Shareholder Relations 3.3 Event Management and PR: Product Launches, Annual General Meetings, Exhibitions",
+          "hours": 15
+        },
+        {
+          "title": "Public Relations at Corporate Level",
+          "topics": "4.1 Corporate Identity and Image Building 4.2 Corporate Social Responsibility (CSR) and PR 4.3 Crisis Management and Crisis Communication Strategies 4.4 Measurement and Evaluation of PR Campaigns",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "AMSI231IKS-RE-T",
+      "title": "Ancient and Modern Statistics in India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Basic Vedic Mathematics",
+          "topics": "Introduction to Vedic Mathematics, history and origin, 16 Sutras and 13 Sub-Sutras, Applications of Vedic Mathematics in basic arithmetic calculations, multiplication, division, squaring and square roots",
+          "hours": 15
+        },
+        {
+          "title": "Development of Statistics in India",
+          "topics": "Historical development of statistics in ancient India: Sulba Sutras, Arthashastra by Kautilya. Modern statistical contributions of Indian statisticians: P.C. Mahalanobis, C.R. Rao, Indian Statistical Institute (ISI), National Sample Survey (NSS)",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ABSI232IKS-RE-T",
+      "title": "Ancient Banking Systems in India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Indigenous Banking Institutions",
+          "topics": "History and evolution of indigenous banking in India: Vedic period, Mauryan period (Arthashastra), Mughal era. Functions and working of indigenous bankers: Shroffs, Sahukars, Mahajans, Chettiars. Traditional credit instruments: Hundis (types, features, negotiation)",
+          "hours": 15
+        },
+        {
+          "title": "Early Development of Joint Stock Banks",
+          "topics": "Evolution of modern banking under British rule: Agency Houses, Presidency Banks, Imperial Bank of India, Transition from indigenous banking to organized modern banking systems",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ACSI233IKS-RE-T",
+      "title": "Ancient Computing Systems in India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Ancient Tools & Early Computation",
+          "topics": "Counting mechanisms in ancient India, origin and concept of Zero (Shunya), decimal place value system, ancient mathematical texts and computing methods (Aryabhata, Brahmagupta, Bhaskara)",
+          "hours": 15
+        },
+        {
+          "title": "A Historical Overview",
+          "topics": "Algorithm concepts in ancient Indian mathematics: Pingala’s binary system (Chhandashastra), Katapayadi system, planetary calculation methods in Indian astronomy, contribution to modern computer science algorithms",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CSAI234IKS-RE-T",
+      "title": "Cost and Management Systems in Ancient India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Indian System of Cost and Management Accounting",
+          "topics": "Cost concepts in ancient Indian literature: Kautilya’s Arthashastra on cost classification, measurement of work, and pricing. State control over prices, taxation, accounting records, auditing, and cost determination in ancient times",
+          "hours": 15
+        },
+        {
+          "title": "Concept of Labour, Expenses and funds in Indian Vedic Texts",
+          "topics": "Wage fixation and labor regulations in ancient India, treatment of direct and indirect expenses, state treasury management (Kosha), fund allocation for public works and defense in ancient Indian governance",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "AMEI235IKS-RE-T",
+      "title": "Ancient and Modern Entrepreneurship in India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "IKS and Business Entrepreneurship",
+          "topics": "Traditional Indian entrepreneurial ethos: Purusharthas (Dharma, Artha, Kama, Moksha), ethics in wealth creation, guild systems (Shrenis) in ancient India, trade routes (Silk Route, Spice Route) and maritime commerce",
+          "hours": 15
+        },
+        {
+          "title": "Entrepreneurship in Indian Traditions and Modern Application",
+          "topics": "Evolution of traditional family-owned businesses in India, Indian trading communities, modern resurgence of entrepreneurship, blending indigenous wisdom with modern management practices and sustainable business models",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "IOADAI236IKS -RE-T",
+      "title": "Industrial Organisation, Administration and Marketing Practices in Ancient India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Industrial Organisation, Administration Practices in Ancient India",
+          "topics": "Organization of artisanal industries and craft guilds (Shrenis, Nigamas) in ancient India, organizational structure, administration, dispute resolution, state support, labor welfare and quality benchmarks",
+          "hours": 15
+        },
+        {
+          "title": "Marketing Practices in Ancient India",
+          "topics": "Trade mechanisms, market centers (Pattanas, Nigamas), barter system, coinage, pricing strategies, market supervision by state officials (Panyadhyaksha in Arthashastra), consumer protection in ancient India",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "RDAI237IKS-RE-T",
+      "title": "Rural Development in Ancient in India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Traditional Rural Systems in India",
+          "topics": "1. Ancient water management – wells, tanks, stepwells 2. Traditional farming practices – organic manure, crop rotation 3. Local economic systems – community sharing and cooperation 4. Village governance – role of local decision-making bodies",
+          "hours": 15
+        },
+        {
+          "title": "Traditional Knowledge for Today’s Rural Growth",
+          "topics": "1. Using local knowledge in farming and land use 2. Traditional rural crafts and skills for employment 3. Eco-friendly rural development ideas 4. Community participation in rural planning and schemes",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "PUBR238IKS-RE-T",
+      "title": "Public Relations in Ancient India",
+      "semester": 3,
+      "type": "IKS (Major Related)",
+      "credits": 2,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Public Relations Practices in Ancient India",
+          "topics": "Concept and practice of public communication and public relations in ancient India: Ashoka’s rock edicts, royal messengers (Dutas), state proclamation systems, maintaining public trust and ruler-subject harmony in ancient Indian governance",
+          "hours": 15
+        },
+        {
+          "title": "Communication media for PR in ancient India",
+          "topics": "Traditional communication channels: oral tradition, folk media, drama, storytelling, temple gatherings, festivals, stone inscriptions, pillar edicts, copper plates, diplomatic communication in ancient Indian states",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ME241-T",
+      "title": "Micro Economics",
+      "semester": 3,
+      "type": "Minor Subject",
+      "credits": 4,
+      "pages": [
+        2,
+        2
+      ],
+      "units": []
+    },
+    {
+      "code": "OE201ECO-T",
+      "title": "Introduction to Stock Market",
+      "semester": 3,
+      "type": "Generic OR Open Elective Subjects(OE)",
+      "credits": 2,
+      "pages": [
+        2,
+        2
+      ],
+      "units": []
+    },
+    {
+      "code": "OE - 201-ENG",
+      "title": "Business English (For Commerce Faculty)",
+      "semester": 3,
+      "type": "Generic OR Open Elective Subjects(OE)",
+      "credits": 2,
+      "pages": [
+        2,
+        2
+      ],
+      "units": []
+    },
+    {
+      "code": "CA221-P",
+      "title": "Computerized Accounting-I",
+      "semester": 3,
+      "type": "Vocational and Skill Enhancement Courses(VSEC)",
+      "credits": 2,
+      "pages": [
+        2,
+        2
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Marathi-I",
+      "semester": 3,
+      "type": "AbilityEnhancementCourses(AEC)",
+      "credits": 2,
+      "pages": [
+        2,
+        2
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Hindi-I",
+      "semester": 3,
+      "type": "AbilityEnhancementCourses(AEC)",
+      "credits": 2,
+      "pages": [
+        2,
+        2
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Sanskrit-I",
+      "semester": 3,
+      "type": "AbilityEnhancementCourses(AEC)",
+      "credits": 2,
+      "pages": [
+        2,
+        2
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Co-curricular Courses (CC)",
+      "semester": 3,
+      "type": "Co-curricular Courses (CC)",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "APST231FP-RE-P",
+      "title": "Field Project in Applied Statistics",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "BKFN232FP-RE-P",
+      "title": "Field Project in Banking and Finance",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "CASM233FP-RE-P",
+      "title": "Field Project in Computer Applications and Systems Management",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "CSA234FP-RE-P",
+      "title": "Field Project in Cost and Works Accounting",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "ENTD235FP-RE-P",
+      "title": "Field Project in Entrepreneurship and Development",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "IOAD236FP-RE-P",
+      "title": "Field Project in Industrial Organization and Administration",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "RD237FP-RE-P",
+      "title": "Field Project in Rural Development",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "PUBR238FP-RE-P",
+      "title": "Field Project in Public Relations",
+      "semester": 3,
+      "type": "Field Projects",
+      "credits": 2,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

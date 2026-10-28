@@ -1,0 +1,197 @@
+{
+  "id": "t-y-b-a-restructuring-pattern-23062026",
+  "kind": "programme",
+  "programme": "T.Y.B.A. Restructuring Pattern (Semester-V and VI)",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "VSC-321-RE-HM-T",
+      "title": "Agricultural Economics -III",
+      "semester": 5,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Farm Management and Budget",
+          "topics": "1.1. Meaning and Importance 1.2. Management of agricultural Inputs - Water, Fertilizers, Seed, Pesticides 1.3. Types of Farm Budget 1.4. Preparation of Farm Budget",
+          "hours": 8
+        },
+        {
+          "title": "Agriculture and External Sector",
+          "topics": "2.1. Role of APEDA and NHB 2.2. Agro Economic Zone 2.3. WTO and Agriculture",
+          "hours": 8
+        },
+        {
+          "title": "Agricultural Finance",
+          "topics": "3.1.Sources of Agricultural Finance 3.2. Role of NABARD in Agricultural Finance 3.3. Kisan Credit Card Scheme 3.4. Problems of Agricultural Finance",
+          "hours": 8
+        },
+        {
+          "title": "Agricultural Marketing",
+          "topics": "4.1. Functions of Agricultural Marketing- Packing, Transportation, Grading, Storage, Warehousing 4.2. Co-operative commodity marketing 4.3. Controlled markets 4.4. Minimum support price",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSC-322-RE-MC-T",
+      "title": "Mass Communication- III",
+      "semester": 5,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        12,
+        14
+      ],
+      "units": [
+        {
+          "title": "Advanced Concepts of Mass Communication",
+          "topics": "Meaning, scope, and functions of mass communication, Models of communication, Mass communication theories: Hypodermic Needle, Two-Step Flow, Uses and Gratifications, Agenda Setting, Mass media and society: media, public opinion, and democracy",
+          "hours": 15
+        },
+        {
+          "title": "Media Systems and Contemporary Trends",
+          "topics": "Structure of print, radio, television, and digital media, Media ownership and control, News, entertainment, and infotainment, New media, citizen journalism, and media convergence",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "VSC-323-RE-HM-T",
+      "title": "Horticulture & its Management–III",
+      "semester": 5,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Credit-I: Introduction to Horticulture and Fruit Production",
+          "topics": "Chapter-1: Introduction, Scope and importance of horticultural crops, Horticultural zones of India and Maharashtra. Chapter-2: Scenario of horticulture, Global and national scenario. Chapter-3: Horticultural zones. Chapter-4: Soil and climate requirement. Chapter-5: Macro and Micro propagation methods. Chapter-6: Commercial cultivation of fruit crops (Sapota, Guava, Banana, Pomogranet, Apple, Lemon). Chapter-7: Fruit production Technology, Preparation of different fruit products jam, jelly, marmalade, ketchup.",
+          "hours": 15
+        },
+        {
+          "title": "Credit-II: Vegetable Cultivation and Crop Products",
+          "topics": "Chapter-8: Different Production System of Vegetable, Modern Methods of Vegetable Cultivation. Chapter-9: Importance of vegetable cultivation in India. Chapter-10: Commercial cultivation of Vegetable (Cabbage, Cauliflower). Chapter-11: Cultivation of Leguminous vegetable crops (Cluster bean, Cow pea, Dolichos). Chapter-12: Seed extraction in Vegetable Crops. Chapter-13: Vegetable Crop products, fresh, raw and processed products, Powdered, Freeze-Dried.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "FP-331-RE-AE",
+      "title": "Agricultural Economics",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        17,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "FP-332-RE-MC",
+      "title": "Mass Communication -III Field Projects",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        19,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "FP-333-RE-HM",
+      "title": "Horticulture and Its Management -Field Project",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        23,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-371-RE-AE-P",
+      "title": "Agricultural Economics -VI",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        26,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-372-RE-MC-P",
+      "title": "Mass Communication",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-373-RE-HM-P",
+      "title": "Horticulture & its Management Practical",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "CEP-381-RE-AE",
+      "title": "Agricultural Economics.",
+      "semester": 6,
+      "type": "Community Engagement Program",
+      "credits": 2,
+      "pages": [
+        32,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "CEP-382-RE-MC",
+      "title": "Mass Communication CEP",
+      "semester": 6,
+      "type": "Community Engagement Program",
+      "credits": 2,
+      "pages": [
+        34,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "CEP-383-RE-HM",
+      "title": "Horticulture & its Management Practical",
+      "semester": 6,
+      "type": "Community Engagement program",
+      "credits": 2,
+      "pages": [
+        39,
+        42
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

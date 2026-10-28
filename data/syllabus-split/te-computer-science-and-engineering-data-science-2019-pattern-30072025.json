@@ -1,0 +1,1164 @@
+{
+  "id": "te-computer-science-and-engineering-data-science-2019-pattern-30072025",
+  "kind": "programme",
+  "programme": "Third Year of Computer Science and Engineering in Data Science",
+  "pattern": "2019",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "310641",
+      "title": "Data Warehousing & Mining",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        14
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO DATA WAREHOUSE DATA MINING",
+          "topics": "Data Warehousing: Overview, Definition, Data Warehousing Components, Building a Data Warehouse, Warehouse Database, Mapping the Data Warehouse to a Multiprocessor Architecture, Difference between Database System and Data Warehouse, Multi-Dimensional Data Model, Data Cubes, Stars, Snow Flakes, Fact Constellations, Concept, Definition of Data Mining, Kind of Data,Data Mining Functionalities, Kinds of Patterns, Classification of Data Mining Systems System",
+          "hours": 7
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "DATA WAREHOUSING AND ON-LINE ANALYTICAL",
+          "topics": "PROCESSING (06 Hours) OLAP Cube, OLAP Operations, OLAP Server Architecture-ROLAP, MOLAP and HOLAP,Data Warehouse Process and Technology: Warehousing Strategy, Warehouse /management and Support Processes, Warehouse Planning and Implementation, Hardware and Operating Systems for Data Warehousing, Client/Server Computing 12 | Page Model & Data Warehousing. Finance",
+          "hours": null
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "DATA WAREHOUSING AND DATA CUBE TECHNOLOGY",
+          "topics": "Data Warehouse Implementation, Data Generalization by Attribute-Oriented Induction.DATA CUBE TECHNOLOGY: Efficient Methods for Data Cube Computation, Exploration And Discovery in Multidimensional Databases. PREPROCESSING: Data Quality, Major Tasks in Data Preprocessing, Data Reduction, Data Transformation and Data Discretization, Data Cleaning and Data Integration.",
+          "hours": 7
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "DATA WAREHOUSING AND ON-LINE ANALYTICAL",
+          "topics": "PROCESSING (08 Hours) Basic Concepts, Efficient and Scalable Frequent Item set Mining Methods, Are All the Pattern Interesting, Pattern Evaluation Methods, Applications of frequent pattern and associations.Association Rules: Problem Definition, Frequent Item Set Generation, The APRIORI Principle,Support and Confidence Measures, Association Rule Generation; APRIOIRI Algorithm, Growth Algorithms, Compact Representation of Frequent Item Set- Maximal Frequent Item Set, Closed Frequent Item Set.",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "DATA WAREHOUSING AND ON-LINE ANALYTICAL",
+          "topics": "PROCESSING (06 Hours) Classification: Problem Definition, General Approaches to solving a classification problem, Evaluation of Classifiers, Classification techniques, Decision Trees-Decision tree Construction, Algorithm for Decision Tree Induction; Naive-Bayes Classifier, Bayesian Belief Networks; K-Nearest Neighbour Classification-Algorithm and Characteristics branch classification.",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "DATA WAREHOUSING AND ON-LINE ANALYTICAL",
+          "topics": "PROCESSING (08 Hours) CLUSTER ANALYSIS: Basic Concepts of Cluster Analysis, Clustering structures, Major Clustering Approaches, Partitioning Methods, Hierarchical Methods, Density-Based Methods, Model Based Clustering - The Expectation-Maximization Method, Other Clustering Techniques, Clustering. High-Dimensional Data, Constraint-Based and User-Guided Cluster Analysis, Link-Based Cluster Analysis, Semi-Supervised Clustering and Classification, Bi-Clustering, Collaborative Clustering.. 13 | Page with K-Means",
+          "hours": null
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310244",
+      "title": "Computer Networks and Security",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        15,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction To Computer Networks",
+          "topics": "Definition, Types of Networks: Local area networks (LAN), Metropolitan area networks (MAN), Wide area networks (WAN), Wireless networks, Networks Software, Protocol, Design issues for the Network layers. Network Models: The OSI Reference Model, TCP/IP Model, Network Topologies, Types of Transmission Medium. Network Architectures: Client-Server, Peer To Peer, Hybrid. Network Devices: Bridge, Switch, Router, Gateway, Access Point. Line Coding Schemes: Manchester and Differential Manchester Encodings, Frequency Hopping (FHSS) and Direct Sequence Spread Spectrum (DSSS).",
+          "hours": 6
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Data Link Layer",
+          "topics": "15 | Page Introduction, functions. Design Issues: Services to Network Layer, Framing. ARQ strategies: Error Detection and correction, Parity Bits, Hamming Codes (11/12 -bits) and CRC. Flow Control Protocols: Unrestricted Simplex, Stop and Wait, Sliding Window Protocol. WAN Connectivity: PPP and HDLC. MAC Sub layer: Multiple Access Protocols: Pure and Slotted ALOHA, CSMA, WDMA, CSMA/CD, CSMA/CA, Binary Exponential Back-off algorithm, Introduction to Ethernet IEEE 802.3, IEEE 802.11 a/b/g/n, IEEE 802.15 and IEEE 802.16 Standards.",
+          "hours": 8
+        },
+        {
+          "title": "CO2,",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Network Layer",
+          "topics": "Introduction: Functions of Network layer. Switching Techniques: Circuit switching, Message Switching, Packet Switching. IP Protocol: Classes of IP (Network addressing), IPv4 , IPv6, Network Address Translation, Sub-netting , CIDR. Network layer Protocols: ARP, RARP, ICMP, IGMP. Network Routing and Algorithms: Static Routing, Dynamic Routing, Distance Vector Routing, Link State Routing, Path Vector. Routing Protocols: RIP, OSPF, BGP, MPLS. Routing in MANET: AODV, DSR, Mobile IP.",
+          "hours": 8
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Transport Layer",
+          "topics": "Process to Process Delivery, Services, Socket Programming. Elements of Transport Layer Protocols: Addressing, Connection establishment, Connection release, Flow control and buffering, Multiplexing, Congestion Control. Transport Layer Protocols: TCP and UDP, SCTP, RTP, Congestion control and Quality of Service (QoS), Differentiated services, TCP and UDP for Wireless networks.",
+          "hours": 7
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Application Layer",
+          "topics": "Introduction, Web and HTTP, Web Caching, DNS, Email: SMTP, MIME, POP3, Webmail, FTP, TELNET, DHCP, SNMP. e.g. Wireshark",
+          "hours": 6
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Security",
+          "topics": "(07 16 | Page Hours) Introduction, Security services, Need of Security, Key Principles of Security, Threats and Vulnerabilities, Types of Attacks, ITU-T X.800 Security Architecture for OSI, Security Policy and mechanisms, Operational Model of Network Security, Symmetric and As ymmetric Key Cryptography. Security in Network, Transport and Application: Introduction of IPSec, SSL, HTTPS, S/MIME, Overview of IDS and Firewalls. Application Layer using network protocol analyzer. e.g. Wireshark",
+          "hours": null
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310643",
+      "title": "Artificial Intelligence",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        19,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction to Artificial Intelligence, Foundations of Artificial Intelligence, History of Artificial Intelligence, State of the Art, Risks and Benefits of AI, Intelligent Agents, Agents and Environments, Good Behavior: Concept of Rationality, Nature of Environments, Structure of Agents. Prepare For The 4th Industrial Revolution 19 | Page",
+          "hours": 7
+        },
+        {
+          "title": "CO1, CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Problem-Solving",
+          "topics": "Solving Problems by Searching, Problem-Solving Agents, Example Problems, Search Algorithms, Uninformed Search Strategies, Informed (Heuristic) Search Strategies, Heuristic Functions, Search in Complex Environments, Local Search and Optimization Problems.",
+          "hours": 7
+        },
+        {
+          "title": "CO2, CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Adversarial Search and Games",
+          "topics": "Game Theory, Optimal Decisions in Games, Heuristic Alpha –Beta Tree Search, Monte Carlo Tree Search, Stochastic Games, Partially Observable Games, Limitations of Game Search Algorithms, Constraint Satisfaction Problems (CSP), Constraint Propagation: Inference in CSPs, Backtracking Search for CSPs. A Fully Sustainable Business",
+          "hours": 7
+        },
+        {
+          "title": "CO3, CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Knowledge",
+          "topics": "Logical Agents, Knowledge-Based Agents, The Wumpus World, Logic, Propositional Logic: A Very Simple Logic, Propositional Theorem Proving, Effective Propositional Model Checking, Agents Based on Propositional Logic, First-Order Logic, Representation Revisited, Syntax and Semantics of First-Order Logic, Using First- Order Logic, Knowledge Engineering in First-Order Logic Echo And Google Home Chatbots",
+          "hours": 7
+        },
+        {
+          "title": "CO3, CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Reasoning",
+          "topics": "Inference in First -Order Logic, Propositional vs. First -Order Inference, Unification and First -Order Inference, Forward Chaining, Backward Chaining, Resolution, Knowledge Representation, Ontological Engineering, Categories and Objects, Events, Mental Objects and Modal Logic, Reasoning Systems for Categories, Reasoning with Default Information",
+          "hours": 7
+        },
+        {
+          "title": "CO4, CO5",
+          "topics": "20 | Page",
+          "hours": null
+        },
+        {
+          "title": "Planning",
+          "topics": "Automated Planning, Classical Planning, Algorithms for Classical Planning, Heuristics for Planning, Hierarchical Planning, Planning and Acting in Nondeterministic Domains, Time, Schedules, and Resources, Analysis of Planning Approaches, Limits of AI, Ethics of AI, Future of AI, AI Components, AI Architectures. Intelligence And Robots To Drive Performance",
+          "hours": 7
+        },
+        {
+          "title": "CO4, CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310242",
+      "title": "Theory of Computation",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        23,
+        26
+      ],
+      "units": [
+        {
+          "title": "Formal Language Theory and Finite Automata",
+          "topics": "Finite Automata (FA): An informal picture of FA, Finite State Machine (FSM), Language accepted by FA, Definition of Regular Language. FA without output: Deterministic and Nondeterministic FA (DFA and NFA), epsilon- NFA and inter-conversion. Minimization of DFAs. FA with output: Moore and Mealy machines -Definition, models, inter-conversion.",
+          "hours": 7
+        },
+        {
+          "title": "C01",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Regular Expressions",
+          "topics": "(RE) (07 Hours) Introduction, Operators of RE, Precedence of operators, Algebraic laws for RE, Language to Regular Expressions, Equivalence of two REs. Conversions: RE to NFA, DFA, DFA to RE using Arden’s theorem, Pumping Lemma for 23 | Page Regular languages, Closure and Decision properties of Regular languages. Myhill-Nerode theorem.",
+          "hours": null
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Context Free Grammar",
+          "topics": "(CFG) and Context Free Language (CFL) (07 Hours) Basic Elements of Grammar, Formal Definition of Context Free Grammar, Sentential form, Derivation and Derivation Tree/ Parse Tree, Context Free Language (CFL), Ambiguous Grammar, writing grammar for language. Simplification of CFG: Eliminating Є-productions, unit productions, useless production, and useless symbols. Normal Forms: Chomsky Normal Form, Greibach Normal Form, Pumping Lemma for CFG, Closure properties of CFL, Decision properties of CFL, Chomsky Hierarchy, Cock-Younger-Kasami Algorithm.",
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Pushdown Automata",
+          "topics": "(PDA) (07 Hours) Introduction, Formal definition of PDA, Equivalence of Acceptance by Final State and Empty stack, Non- deterministic PDA (NPDA), PDA and Context Free Language, Equivalence of PDA and CFG, PDA vs CFLs. Deterministic CFLs. simulation showing use of PDA",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Turing Machines",
+          "topics": "(TM) (07 Hours) Turing Machine Model, Formal definition of Turing Machines, Language Acceptability by Turing Machines, Design of TM, Description of TM, Techniques for TM Construction, Computing function with Turing Machine, Variants of Turing Machines, Halting Problem of TM, Halting vs Looping, A Turing-unrecognizable language, Reducibility, Recursion Theorem. The Model of Linear Bounded Automata.",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": "24 | Page",
+          "hours": null
+        },
+        {
+          "title": "Computability and Complexity Theory",
+          "topics": "Computability Theory: Decidable Problems and Un-decidable Problems, Church-Turing Thesis. Reducibility: Undecidable Problems that is recursively enumerable, A Simple Un-decidable. Complexity Classes: Time and Space Measures, The Class P, Examples of problems in P, The Class NP, Examples of problems in NP, P Problem Versus NP Problem, NP-completeness and hard Problems. Problem (PCP)",
+          "hours": 7
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310645A",
+      "title": "Human Computer Interface",
+      "semester": 5,
+      "type": "Elective I",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction and Foundation of HCI",
+          "topics": "Foundation: Human Memory. Thinking: Reasoning and Problem Solving, Emotion, Individual Difference, Psychology and design of Interactive systems, The Computer-Text Entry Device,Positioning, Pointing, Display devices, Devices for virtual reality and 3D Interaction, The Interactions-Models of Interaction, Frameworks and HCI, Ergonomics, Interaction styles,Ergonomics, Elements of WIMP Interface, Interactivity, Measurable Human Factors, The context of Interaction. Importance of User Interface: Defining user Interface, Brief History of HumanComputer Interface, Good and Poor Design- Importance of good design. *",
+          "hours": 7
+        },
+        {
+          "title": "CO1, CO6",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Human Perspective in Interaction",
+          "topics": "Design Process (07 Hours) 27 | Page Know your user/client: Understanding how people interact with computers, Important human characteristics in Design, Human considerations in design of Business systems, Human Interaction speeds, Performance versus Preference, Methods of gaining an understanding of users, Miller’s Law. Design G uidelines: Navigating the interface, Organizing the display, Getting user’s attention, Facilitating data entry. Principles: Determine user’s skill level, Identify the tasks, Choose an interaction style, Natural Language, Eight Golden rules of Interface design, Prevent errors, Ensuring Human control while increasing automation. Theories: Design-by-level, Stages of action, Consistency, Contextual Theories, Dynamic theories. *",
+          "hours": null
+        },
+        {
+          "title": "CO1,CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Interaction Styles and HCI in Software Process",
+          "topics": "Design, Process of Interaction Design. Interaction styles: Command line, Menu Selection, Form fill -in, Direct Manipulation. Graphical User Interface: Popularity of Graphics, Concept of direct manipulation, Advantages, Disadvantages and characteristics of G raphical user interface. Web User Interface: Popularity and Characteristics, Merging of Graphical business systems and the Web Characteristics of Intranet versus Internet, Web page versus application design, Principles for user interface design, Software life cycle, Usability Engineering, Iterative design and prototyping, Design Rationale. *",
+          "hours": 7
+        },
+        {
+          "title": "CO1,CO3,CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Unit IV Usability Evaluation and Universal Design 07 Hours",
+          "topics": "User interface design process: Designing for People: Seven commandments, Usability Assessment in the Design process, Common Usability problems, Practical and Objective measures of Usability, Formative and Summative evaluation, Usability specifications for evaluation, Analytic methods, Model based analysis, GOMS model, Empirical methods, Field studies, Usability testing in Laboratory, Controlled experiments, Heuristic Evaluation, Cognitive Walkthrough. Evaluation framework: Paradigms and techniques, DECIDE: a framework to guide evaluation, Universal design principles, Multi-modal interaction, Designing for diversity. *",
+          "hours": 7
+        },
+        {
+          "title": "CO1,CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "HCI Paradigms",
+          "topics": "Paradigms for Interaction: Time sharing, Video display units, Programming toolkits, Personal computing, The metaphor, Direct manipulation, Hypertext, Computer -supported cooperative work, Agent based interfaces. Ubiquitous Computing: Sensor -based and contex t-aware interaction, Data Integrity versus Data immunity, Handling missing data, Data entry and fudgeability, Auditing versus Editing, Retrieval in Physical World, Retrieval in Digital world, Constrained Natural Language output, Five stage search framework, Dynamic queries and faceted search, The social aspects of search. Pattern Recognition: Introduction, Examples, Role of Machine Learning, Pattern Recognition Process, Pattern Recognition in HCI. *",
+          "hours": 7
+        },
+        {
+          "title": "CO1,CO3,CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "HCI for Mobile and Handheld devices",
+          "topics": "Designing for Mobile and other devices: Anatomy of a Mobile app, Mobile form factors, Handheld ormat apps, Tablet format apps, Mini-tablet format apps, Mobile Navigation, Content, and control idioms- browse controls, Navigation and toolbars, Drawers, Tap-to-reveal and direct manipulation, Searching, Sorting and Filtering, Welcome and help screens, Multi-touch gestures, Inter-app integration, Android Accessibility Guidelines. Other devices: Designing for kiosks, Designing for 10-foot interfaces, Designing for automotive interfaces, Designing for audible interfaces. 28 | Page *",
+          "hours": 7
+        },
+        {
+          "title": "CO3,CO5,CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310645B",
+      "title": "Internet of Things and Embedded System",
+      "semester": 5,
+      "type": "Elective I",
+      "credits": 3,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems",
+          "topics": "Definition, Characteristics of Embedded System, Real time systems, Real time tasks. Processor basics: General Processors in Computer Vs Embedded Processors, Microcontrollers, Microcontroller Properties, Components of Microcontrollers, System-On-Chip and its examples, Components of Embedded Systems, Introduction to embedded processor. *",
+          "hours": 7
+        },
+        {
+          "title": "CO1, CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Internet of Things : Concepts",
+          "topics": "30 | Page Introduction to Internet of Things (IoT): Definition, Characteristics of IoT, Vision, Trends in Adoption of IoT, IoT Devices, IoT Devices Vs Computers, Societal Benefits of IoT, Technical Building Blocks. Physical Design of IoT: Things in IoT, Interoperability of IoT Devices, Sensors and Actuators, Need of Analog / Digital Conversion. Logical Design of IoT: IoT functional blocks, IoT enabling technologies, IoT levels and deployment templates, Applications in IoT. IDE/ Python, Interfacing. Other IoT Devices. *",
+          "hours": 7
+        },
+        {
+          "title": "CO1,CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "IoT: Design Methodology",
+          "topics": "IoT Design Methodology: Steps, Basics of IoT Networking, Networking Components, Internet Structure, Connectivity Technologies, IoT Communication Models and IoT Communication APIs, Sensor Networks, Four pillars of IoT: M2M, SCADA, WSN, RFID. Parser, CFG for Palindromes, Parenthesis Match *",
+          "hours": 7
+        },
+        {
+          "title": "CO3,CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "IoT Protocols",
+          "topics": "Protocol Standardization for IoT, M2M and WSN Protocols, RFID Protocol, Modbus Protocol, Zigbee Architecture. IP based Protocols: MQTT (Secure), 6LoWPAN, LoRa. *",
+          "hours": 7
+        },
+        {
+          "title": "CO4,CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Cloud Platforms for IoT",
+          "topics": "Software Defined Networking, Introduction to Cloud Storage Models, Communication API. WAMP: AutoBahn for IoT, Xively Cloud for IoT. Python Web Application Framework: Django Architecture and application development with Django, Amazon Web Services for IoT, SkyNet IoT Messaging Platform, RESTful Web Service, GRPC,SOAP. * for",
+          "hours": 7
+        },
+        {
+          "title": "Smart parking, Forest Fire Detection",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Security in IoT",
+          "topics": "Introduction, Vulnerabilities of IoT, Security Requirements, Challenges for Secure IoT, Threat Modeling. Key elements of IoT Security: Identity establishment, Access control, Data and message security, Non-repudiation and availability, Security model for IoT, Challenges in designing IOT applications, lightweight cryptography. 31 | Page Studies Home Intrusion Detection *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "CO4, CO5",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310645C",
+      "title": "Software Modeling and Design",
+      "semester": 5,
+      "type": "Elective I",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Concepts of Software Modelling",
+          "topics": "Software Modelling: Introduction to Software Modelling, Advantages of modelling, Principles of modelling. Evolution of Software Modeling and Design Methods: Object oriented analysis and design methods, Concurrent, Distributed Design Methods and Real-Time Design Methods, Model Driven Architecture (MDA), 4+1 Architecture, Introduction to UML, UML building Blocks, COMET Use Case–Based Software Life Cycle. Requirement Study: Requirement Analysis, SRS design, Requirements Modeling. Use Case: Actor and Use case identification, Use case relationship (Include, Extend, Use case Generalization, Actor Generalization), Use case template. (e.g., Online shopping system) *",
+          "hours": 7
+        },
+        {
+          "title": "CO1,CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Static Modelling",
+          "topics": "Study of classes (analysis level and design level classes). Methods for identification of classes: RUP (Rational Unified Process), CRC (Class, Responsibilities and Collaboration), Use of Noun Verb analysis (for identifying entity classes, controller classes and boundary classes). Class Diagram: Relationship between classes, 33 | Page Generalization/Specialization Hierarchy, Composition and Aggregation Hierarchies, Associations Classes, Constraints. Object diagram, Package diagram, Component diagram, Composite Structure diagram, Deployment Diagram. *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "CO1 ,CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Dynamic Modelling",
+          "topics": "Introduction, Objectives of Activity Planning, Project Schedules. Activities: Sequencing and Scheduling, Network Planning Models, Formulating Network Model, Activity relationships (FS,SF,SS,FF), Forward Pass and Backward Pass techniques, Critical Path concept and remedies *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "CO1 ,CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Software Architecture and Quality Attributes",
+          "topics": "Introduction to Software Architecture, Importance of Software Architecture, Architectural Structure and Views. Architectural Pattern: common module, Common component -and-connector, Common allocation. Quality Attributes: Architecture and Requirements, Quality Attributes and Considerations *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Architectural Design and Documentation",
+          "topics": "Architecture in the Life Cycle: Architecture in Agile Projects, Architecture and Requirements, Designing an Architecture. Documenting Software Architecture: Notations, Choosing and Combining views, Building the documentation Package, Documenting Behavior, Documenting Architecture in an Agile Development Project *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4 , CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Design Patterns",
+          "topics": "Design Patterns: Introduction, Different approaches to select Design Patterns. Creational patterns: Singleton, Factory, Structural pattern: Adapter, Proxy. Behavioral Patterns: Iterator, Observer Pattern with applications. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4, CO5",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310645D",
+      "title": "Pattern Recognition",
+      "semester": 5,
+      "type": "Elective I",
+      "credits": 3,
+      "pages": [
+        36,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Pattern Recognition",
+          "topics": "Pattern Recognition, Classification and Description, Pattern and Feature Extraction with Examples: Patterns and Features, Pattern Distortions, Examples: Features Extraction Using Generalized Cylinders for 3 -D object Description and Classification, Generating RST Invariant Features and Application to 2 -D Figure Recognition, The Feature Vector and Feature Space, Classifiers, Decision Regions and Boundaries and Discriminant Functions, Training and Learning in PR Systems: using A Priori knowledge or Experience, Learning Curves, Training Approaches, Pattern Recognition Approaches: Statistical, Syntactic, Neural Patten Recognition Approach, Examples of Pattern Recognition Approaches. *",
+          "hours": 7
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Statistical Pattern Recognition",
+          "topics": "Introduction to statistical pattern recognition, The Gaussian case and class dependance, Discriminant function, Additional Examples, Extensions: Training, Alternative Classification Procedures, Unsupervised Approaches, Classifier Performance, Risk and Errors: Measurement of Classification Performance, General Measures of Classification Risk. *",
+          "hours": 7
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Syntactic Pattern Recognition",
+          "topics": "Overview, Qualifying structure in Pattern Description and Recognition, Grammar -Based Approach and Applications, Elements of Formal Grammars, Examples of String Generation as Pattern Description, Syntactic Recognition Via Parsing and other Grammars: -Recognition of Syntactic Descriptions, Parsing, CYK Parsing Algorithm, ATN in Parsing, Higher Dimensional Grammars, Stochastic Grammars and Applications. *",
+          "hours": 7
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Graphical Approaches & Grammatical Inference in",
+          "topics": "Syntactic Pattern Recognition (07 Hours) Graphical Approaches: Graph Based Structural Representation, Graph Isomorphism, A Structured Strategy to Compare Attribute Graphs, Other Attributed Graph Distance or Similarity measures. Learning Via Grammatical Inference: Learning Grammars, Problem formulation, Grammatical Inference (GI) Approaches, Procedures to Generate Constrained Grammars.",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Neural Pattern Recognition",
+          "topics": "Introduction to Neural Networks: Neurons and Neural Nets, Neural Network Structures for PR Applications, Physical Neural Networks, The Artificial Neural Network Model. Introduction to Neural Pattern Associators and Matrix Approaches: Neural Network Based Pattern Associators, Matrix Approaches (Linear Associative Mappings) and Examples",
+          "hours": 7
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Feedforward Networks & Unsupervised Learning in",
+          "topics": "Neural Pattern Recognition (07 Hours) Multilayer, Feedforward Network Structure, Training the Feedforward Network: The Delta Rule, Generalized Delta Rule(GDR), Extension of the DR for Units in the Hidden layers, Pattern Associator for Character Classification, Unsupervised Learning in NeurPR: Self organizing Networks: Introduction, Adaptive Resonance Architectures, Self-Organizing Feature Maps(Kohonen). PR:Character Recognition, Relational Constraint Satisfaction(Coloring)",
+          "hours": null
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310646",
+      "title": "Data Warehousing & Mining Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        40,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "310247",
+      "title": "Computer Networks and Security Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        43,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "310648",
+      "title": "Laboratory Practice - I (Artificial Intelligence & Elective I)",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        46,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "310649",
+      "title": "Seminar -I",
+      "semester": 5,
+      "type": "Tutorial",
+      "credits": 1,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "310650",
+      "title": "Environmental Studies",
+      "semester": 5,
+      "type": "Tutorial",
+      "credits": 1,
+      "pages": [
+        52,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "310651",
+      "title": "Audit Course 5",
+      "semester": 5,
+      "type": "Audit Course",
+      "credits": null,
+      "pages": [
+        54,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "310251",
+      "title": "Data Science and Big Data Analytics",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        63,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Science and Big Data",
+          "topics": "Basics and need of Data Science and Big Data, Applications of Data Science, Data explosion, 5 V’s of Big Data, Relationship between Data Science and Information Science, Business intelligence versus Data Science, Data Science Life Cycle, Data: Data Types, Data Collection. Need of Data wrangling, Methods: Data Cleaning, Data Integration, Data Reduction, Data Transformation, Data Discretization. preprocessing using techniques of data cleaning and data transformation",
+          "hours": 7
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Statistical Inference",
+          "topics": "Need of statistics in Data Science and Big Data Analytics, Measures of Central Tendency: Mean, Median, Mode, Mid-range. Measures of Dispersion: Range, Variance, Mean Deviation, Standard Deviation. Bayes theorem, Basics and need of hypothesis and hypothesis testing, Pearson Correlation, Sample Hypothesis testing, Chi-Square Tests, t-test 61 | Page measure of dispersion for statistical analysis of given data.",
+          "hours": 7
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Big Data Analytics Life Cycle",
+          "topics": "Introduction to Big Data, sources of Big Data, Data Analytic Lifecycle: Introduction, Phase 1: Discovery, Phase 2: Data Preparation, Phase 3: Model Planning, Phase 4: Model Building, Phase 5: Communication results, Phase 6: Operationalize. (GINA).",
+          "hours": 7
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Predictive Big Data Analytics with Python",
+          "topics": "Introduction, Essential Python Libraries, Basic examples. Data Preprocessing: Removing Duplicates, Transformation of Data using function or mapping, replacing values, Handling Missing Data. Analytics Types: Predictive, Descriptive and Prescriptive. Association Rules: Apriori Algorithm, FP growth. Regression: Linear Regression, Logistic Regression. Classification: Naïve Bayes, Decision Trees. Introduction to Scikit-learn, Installations, Dataset, matplotlib, filling missing values, Regression and Classification using Scikit-learn. methods",
+          "hours": 7
+        },
+        {
+          "title": "CO4, CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Big Data Analytics and Model Evaluation",
+          "topics": "Clustering Algorithms: K-Means, Hierarchical Clustering, Time -series analysis. Introduction to Text Analysis: Text-preprocessing, Bag of words, TF -IDF and topics. Need and Introduction to social network analysis, Introduction to business analysis. Model Evaluation and Selection: Metrics for Evaluating Classifier Performance, Holdout Method and Random Subsampling, Parameter Tuning and Optimization, Result Interpretation, Clustering and Time -series analysis using Scikit -learn, sklearn.metrics, Confusion matrix, AUC - ROC Curves, Elbow plot.",
+          "hours": 7
+        },
+        {
+          "title": "CO4, CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Data Visualization and Hadoop",
+          "topics": "Introduction to Data Visualization, Challenges to Big data visualization, Types of data visualization, Data Visualization Techniques, Visualizing Big Data, Tools used in Data Visualization, Hadoop ecosystem, Map Reduce, Pig, Hive, Analytical techniques used in Big data visualization. Data Visualization using Python: Line plot, Scatter plot, Histogram, Density plot, Box- plot.",
+          "hours": 7
+        },
+        {
+          "title": "CO5, CO6",
+          "topics": "62 | Page",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310252",
+      "title": "Web Technology",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        67,
+        70
+      ],
+      "units": [
+        {
+          "title": "Web Essentials and Mark-up language",
+          "topics": "HTML (07 Hours) The Internet, basic internet protocols, the world wide web, HTTP Request message, HTTP response message, web clients, web servers. HTML: Introduction, history and versions. HTML elements: headings, paragraphs, line break, colors and fonts, links, frames, lists, tables, images and forms, Difference between HTML and HTML5. CSS: Introduction to Style Sheet, CSS features, CSS core syntax, Style sheets and HTML, Style rule cascading and inheritance, text properties. Bootstrap and using style sheet Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Client Side Technologies: JavaScript and DOM",
+          "topics": "65 | Page JavaScript: Introduction to JavaScript, JavaScript in perspective, basic syntax, variables and data types, statements, operators, literals, functions, objects, arrays, built in objects, JavaScript debuggers. DOM: Introduction to Document Object Model, DOM history and levels, intrinsic event handling, modifying element style, the document tree, DOM event handling, jQuery, Overview of Angular JS. (Add Entry feature)",
+          "hours": 7
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Java Servlets and XML",
+          "topics": "Servlet: Servlet architecture overview, A “Hello World” servlet, Servlets generating dynamic content, Servlet life cycle, parameter data, sessions, cookies, URL rewriting, other Servlet capabilities, data storage, Servlets concurrency, databases (MySQL) and Java Servlets. XML: XML documents and vocabularies, XML declaration, XML Namespaces, DOM based XML processing, transforming XML documents, DTD: Schema, elements, attributes. AJAX: Introduction, Working of AJAX.",
+          "hours": 7
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "JSP and Web Services",
+          "topics": "JSP: Introduction to Java Server Pages, JSP and Servlets, running JSP applications, Basic JSP, JavaBeans classes and JSP, Support for the Model -view-controller paradigm, JSP related technologies. Web Services: Web Service concepts, Writing a Java Web Service, Writing a Java web service client, Describing Web Services: WSDL, Communicating Object data: SOAP. Struts: Overview, architecture, configuration, actions, interceptors, result types, validations, localization, exception handling, annotations. various resources (servlets, HTML documents, etc.) to an integrated web application that follows the MVC paradigm",
+          "hours": 7
+        },
+        {
+          "title": "CO3, CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Server Side Scripting Languages",
+          "topics": "PHP: Introduction to PHP, uses of PHP, general syntactic characteristics, Primitives, operations and expressions, output, control statements, arrays, functions, pattern matching, form handling, files, cookies, session tracking, using MySQL with PHP, WAP and WML. Introduction to ASP.NET: Overview of the .NET Framework, Overview of C#, Introduction to ASP.NET, ASP.NET Controls, Web Services. Overview of Node JS. 66 | Page",
+          "hours": 7
+        },
+        {
+          "title": "CO5, CO6",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Ruby and Rail",
+          "topics": "Introduction to Ruby: Origins & uses of Ruby, scalar types and their operations, simple input and output, control statements, fundamentals of arrays, hashes, methods, classes, code blocks and iterators, pattern matching. Introduction to Rails: Overview of Rails, Document Requests, Processing Forms, Rails Applications and Databases, Layouts, Rails with Ajax. Introduction to EJB.",
+          "hours": 7
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310652",
+      "title": "Machine Learning",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        71,
+        74
+      ],
+      "units": [
+        {
+          "title": "Introduction To Machine Learning",
+          "topics": "ntroduction to Machine Learning, Comparison of Machine learning with traditional programming, ML vs AI vs Data Science.Types of learning: Supervised, Unsupervised, and semi-supervised, reinforcement learning techniques,Models of Machine learning: Geometric model, Probabilistic Models, Logical Models,Grouping and grading models, Parametric and non-parametric models.Important Elements of Machine Learning- Data formats, Learnability, Statistical learningapproaches. given.Understand the requirements of the client * for",
+          "hours": 6
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Feature Engineering",
+          "topics": "69 | Page Concept of Feature, Preprocessing of data: Normalization and Scaling, Standardization, Managing missing values, Introduction to Dimensionality Reduction, Principal Component Analysis (PCA),Feature Extraction: Kernel PCA, Local Binary Pattern.Introduction to various Feature Selection Techn iques, Sequential Forward Selection, Sequential Backward Selection. Statistical feature engineering: count-based, Length, Mean, Median, Mode etc. based feature vectorcreation. Multidimensional Scaling, Matrix Factorization Techniques. running a few campaigns from the past few months, but no campaign seemseffective. Client provides you the data of customers, product sales and past campaign success. They want to increase their sales and figure out which marketing strategy isworking the best for them? Questions for data scientists: 1. What data analysis approach will you follow? 2. What statistical approach do you need to follow? How will you select important features? * for",
+          "hours": 7
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Supervised Learning: Regression",
+          "topics": "Classification: K-nearest neighbour, Support vector machine.Ensemble Learning: Bagging, Boosting, Random Forest,Adaboost. Binary-vs-Multiclass Classification, Balanced and Imbalanced Multiclass Classification Problems,Variants of Multiclass Classification: One -vs-One and One -vs-All Evaluation Metrics and Score: Accuracy, Precision, Recall, Fscore, Cross-validation, MicroAverage Precision and Recall, Micro-Average F-score, Macro-Average Precision and Recall,Macro-Average F-score. * for",
+          "hours": 6
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Supervised Learning: Classification",
+          "topics": "Classification: K-nearest neighbour, Support vector machine.Ensemble Learning: Bagging, Boosting, Random Forest, Adaboost. Binary-vs-Multiclass Classification, Balanced and Imbalanced Multiclass Classification Problems,Variants of Multiclass Classification: One-vs-One and One-vs-All Evaluation Metrics and Score: Accuracy, Precision, Recall, Fscore, Cross-validation, MicroAverage Precision and Recall, Micro-Average F- score, Macro-Average Precision and Recall,Macro-Average F-score. Euthyroid-sick,and Euthyroid using multiclass classifier. * for",
+          "hours": 8
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Unsupervised Learning",
+          "topics": "K-Means, K-medoids, Hierarchical, and Density-based Clustering, Spectral Clustering. Outlier analysis: introduction of isolation factor, local outlier factor. Evaluation metrics and score: elbow method, extrinsic and intrinsic methods 70 | Page disease surveillance. * for",
+          "hours": 7
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Introduction To Neural Networks",
+          "topics": "Artificial Neural Networks: Single Layer Neural Network, Multilayer Perceptron, Back Propagation Learning, Functional Link Artificial Neural Network, and Radial Basis Function Network, Activation functions, Introduction to Recurrent Neural Networks and Convolutional Neural Networks * for",
+          "hours": 7
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310653A",
+      "title": "Robotics and Automation",
+      "semester": 6,
+      "type": "Elective II",
+      "credits": 3,
+      "pages": [
+        75,
+        77
+      ],
+      "units": [
+        {
+          "title": "Introduction to Automation and Robotics",
+          "topics": "Introduction to Automation, Types, Strategies, Automated Flow Lines, Automated Guided Vehicles, Automated Storage and Retrieval Systems, Introduction to CAD/ CAM/ CIM, Industry 4.0 Introduction to Robotics – Laws of Robotics, Robot Anatomy, Classification of Robots, Robots Links and Joints, Degrees of Freedom, Robot Configurations, Work Envelope",
+          "hours": 6
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Robot Sensors and Vision",
+          "topics": "Sensors – Contact and Proximity, Position, Force, velocity, Touch, Range, Tactile, Acoustic, Light Curtain, Sensor Selection Robot Vision – Components of vision system, image acquisition, Cameras, Image Storage and Image Processing, feature Extraction, Object recognition.",
+          "hours": 7
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Robot Kinematics and Dynamics",
+          "topics": "3 Robot Kinematics – Translation and Rotation representation, Coordinate Transformation, Denavit Hartenberg parameters, Forward and Inverse Kinematics, Jacobian, Singularity and Statics Robot Dynamics – Forward and Inverse Dynamics, Equation of Motion using Euler – Lagrange Formulation and Newton – Euler Formulation",
+          "hours": 7
+        },
+        {
+          "title": "CO3",
+          "topics": "73 | Page",
+          "hours": null
+        },
+        {
+          "title": "Robot End Effectors and actuation systems",
+          "topics": "Robot End Effectors – Grippers - Mechanical, Pneumatic, Hydraulic, Magnetic, Vacuum Grippers; Two Fingered and Three Fingered Grippers; Internal Grippers and External Grippers Actuators - Pneumatic Drives, Hydraulic Drives, Mechanical Drives, Electrical Drives - Servo Motors, Stepper Motors, BLDC motor, Micro actuators, selection of actuators, Power transmission systems for robot, Motion conversion.",
+          "hours": 7
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Robot Control System",
+          "topics": "Embedded Systems – microcontroller architecture, Integration of Sensors and Actuators Basics of Control – Open and Closed Loop, Transfer Functions, Control Law Partitioning, PID Control, Linear and Nonlinear control, Force / Position Control, Adaptive control Introduction to Trajectory Planning, Artificial Intelligence in Robotics, Robotic Simulation",
+          "hours": 7
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Robot Performance, Applications and programming",
+          "topics": "Robot Performance – Resolution, repeatability, accuracy, dexterity, Compliance, RCC Applications of Robots – in Unmanned systems, Defense, medical, Industries Robot Programming – Methods of Robot Programming, Lead through Programming, Motion Interpolation, Robot Language Structure, Programming in VAL II, motion commands, End effector and Sensor Commands, Monitor mode commands",
+          "hours": 7
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310653B",
+      "title": "Natural Language Processing",
+      "semester": 6,
+      "type": "Elective II",
+      "credits": 3,
+      "pages": [
+        78,
+        80
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Word level processing",
+          "topics": "Savitribai Phule Pune University Second Year of Computer Science and Engineering (Data Science) (2019 Course) Elective II 310653(B): Natural Language Processing Teaching Scheme: Credit Examination Scheme: TH: 03 Hours/Week 03 In_Semester(TH): 30 Marks End_Semester(TH): 70 Marks Prerequisite Courses, if any: Mathematical Foundation for Data Science ()Data Structures and Algorithms (),Artificial Intelligence () Companion Course, if any: Laboratory Practice II (310654) Course Objectives: • To understand the basic concepts of Natural Language Processing (NLP) • To understand use of morphological aspect in NLP • To learn and implement syntax parsing techniques • To learn and implement semantics parsing techniques • To learn and implement Machine Translation techniques • To design and develop different application using NLP Course Outcomes: On completion of the course, learners should be able to CO1: Understand the fundamental concepts in field of NLP CO2: Understand morphological aspect and processing in NLP CO3: Distinguish among various techniques of syntax parsing CO4: Understand use of various parsing techniques to parse sentence and extract meaning from its structure. CO5: App...",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Natural Language Processing",
+          "topics": "History of NLP, Generic NLP system, levels of NLP, Knowledge in language processing, Ambiguity in Natural language, stages in NLP, challenges of NLP, Applications of NLP, Approaches of NLP: Rule based, Data Based, Knowledge Based approaches respect to functionalities provided, platform dependence, supported NLP approaches, supported NLP tasks, advantages and disadvantages etc. 76 | Page Types of Morphology: English and Indian Languages, Finite-State Morphological Parsing, building a Finite-State Lexicon, Finite-State Transducers, FSTs for Morphological Parsing, Transducers and Orthographic rules, The Porter Stemmer, Word and Sentence Tokenization, Detecting and Correcting Spelling Errors, Minimum Edit Distance, Human Morphological Processing N–Grams: Building N-gram for spelling corrections, N-gram for language model.",
+          "hours": 6
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Syntax Parsing",
+          "topics": "Constituency Grammars: Context free grammer , grammar rules for English, treebanks, grammar equivalence and normal forms, lexicalized grammer. Constituency Parsing: Ambiguity, CKY parsing, span based neural constituency parsing, evaluation parsers, partial parsing, CCG parsing, Dependancy parsing: d ependancy relations, dependancy formalism, dependancy treebank, transition and graph based dependency parsing, evaluations.",
+          "hours": 8
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Semantic Parsing",
+          "topics": "Word Senses and WordNet: Word senses, relation between senses, WordNet, wordsense disambituition, WSD algorithm and task, Word sense inductions Semantic role labelling: semantic roles, diathesis alteration, problems with thematic roles, proposition bank, framenet, semantic role labelling, selection restrictions, decomposition of predicates, Lexicon for sentiment, affect and connotation: emotions, sentiment and affect lexicons, Creating Affect Lexicons by Human Labeling, Semi-supervised Induction of Affect Lexicons, Supervised Learning of Word Sentiment, Using Lexicons for Sentiment Recognition, Other tasks: Personality, Affect Recognition, Lexicon-based methods for Entity-Centric Affect, Connotation Frames",
+          "hours": 8
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Machine Translation",
+          "topics": "(MT) (08 Hours) Need of MT, Problems of Machine Translation, MT Approaches, Direct Machine Translations, RuleBased Machine Translation, Knowledge Based MT System, Statistical Machine Translation (SMT), Parameter learning in SMT (IBM models) using EM), Encoder-decoder architecture, Neural Machine Translation",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": "77 | Page",
+          "hours": null
+        },
+        {
+          "title": "Applications of NLP Applications of NLP",
+          "topics": "Information retrieval-Vector Space Model, Information Extraction using sequence labelling, Question answers system, categorization, summarization, sentiment analysis, Named Entity Recognition. Analyzing text with NLTK, Chatbot using Dialogflow.",
+          "hours": 7
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310653C",
+      "title": "Cloud Computing",
+      "semester": 6,
+      "type": "Elective II",
+      "credits": 3,
+      "pages": [
+        81,
+        84
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": "Importance of Cloud Computing, Characteristics, Pros and Cons of Cloud Computing, Migrating into the Cloud, Seven-step model of migration into a Cloud, Trends in Computing. Cloud Service Models: SaaS, PaaS, IaaS, Storage. Cloud Architecture: Cloud Computing Logical Architecture, Developing Holistic Cloud Computing Reference Model, Cloud System Architecture, Cloud Deployment Models.",
+          "hours": 7
+        },
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Data Storage and Cloud Computing",
+          "topics": "79 | Page Data Storage: Introduction to Enterprise Data Storage, Direct Attached Storage, Storage Area Network, Network Attached Storage, Data Storage Management, File System, Cloud Data Stores, Using Grids for Data Storage. Cloud Storage: Data Management, Provisioning Cloud storage, Data Intensive Technologies for Cloud Computing. Cloud Storage from LANs to WANs: Cloud Characteristics, Distributed Data Storage.",
+          "hours": 7
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Virtualization in Cloud Computing",
+          "topics": "Introduction: Definition of Virtualization, Adopting Virtualization, Types of Virtualization, Virtualization Architecture and Software, Virtual Clustering, Virtualization Application, Pitfalls of Virtualization. Grid, Cloud and Virtualization: Virtualization in Grid, Virtualization in Cloud, Virtualization and Cloud Security. Virtualization and Cloud Computing: Anatomy of Cloud Infrastructure, Virtual infrastructures, CPU Virtualization, Network and Storage Virtualization. V",
+          "hours": 7
+        },
+        {
+          "title": "CO3",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Security in Cloud Computing",
+          "topics": "Amazon Web Services (AWS): Amazon Web Services and Components, Amazon Simple DB, Elastic Cloud Computing (EC2), Amazon Storage System, Amazon Database services (Dynamo DB). Microsoft Cloud Services: Azure core concepts, SQL Azure, Windows Azure Platform Appliance. Cloud Computing Applications: Healthcare: ECG Analysis in the Cloud, Biology: Protein Structure Prediction, Geosciences: Satellite Image Processing, Business and Consumer Applications: CRM and ERP, Social Networking, Google Cloud Application: Google App Engine. Overview of OpenStack architecture.",
+          "hours": 7
+        },
+        {
+          "title": "CO4",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Advanced Techniques in Cloud Computing",
+          "topics": "Risks in Cloud Computing: Risk Management, Enterprise-Wide Risk Management, Types of Risks in Cloud Computing. Data Security in Cloud: Security Issues, Challenges, advantages, Disadvantages, Cloud Digital persona and Data security, Content Level Security. Cloud Security Services: Confidentiality, Integrity and Availability, Security Authorization Challenges in the Cloud, Secure Cloud Software Requirements, Secure Cloud Software Testing.",
+          "hours": 7
+        },
+        {
+          "title": "CO5",
+          "topics": "80 | Page",
+          "hours": null
+        },
+        {
+          "title": "Data Warehousing and Data Mining",
+          "topics": "Future Tends in cloud Computing, Mobile Cloud, Automatic Cloud Computing: Comet Cloud. Multimedia Cloud: IPTV, Energy Aware Cloud Computing, Jungle Computing, Distributed Cloud Computing Vs Edge Computing, Containers, Docker, and Kubernetes, Introduction to DevOps. IOT and Cloud Convergence: The Cloud and IoT in your Home, The IOT and cloud in your Automobile, PERSONAL: IoT in Healthcare.",
+          "hours": 7
+        },
+        {
+          "title": "CO6",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "310256",
+      "title": "Data Science and Big Data Analytics Laboratory",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        85,
+        90
+      ],
+      "units": []
+    },
+    {
+      "code": "310257",
+      "title": "Web Technology Laboratory",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        91,
+        94
+      ],
+      "units": []
+    },
+    {
+      "code": "310654",
+      "title": "Laboratory Practice II ( Machine Learning Laboratory & Elective II )",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        95,
+        100
+      ],
+      "units": []
+    },
+    {
+      "code": "310655",
+      "title": "Internship",
+      "semester": 6,
+      "type": "Internship",
+      "credits": 4,
+      "pages": [
+        101,
+        104
+      ],
+      "units": []
+    },
+    {
+      "code": "310657",
+      "title": "Audit Course 6",
+      "semester": 6,
+      "type": "Audit Course",
+      "credits": null,
+      "pages": [
+        105,
+        108
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,227 @@
+{
+  "id": "computer-engineering-double-minor-in-software-development",
+  "kind": "programme",
+  "programme": "Double Minor in Software Development",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DMSE301COM",
+      "title": "Object-OrientedProgramming",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to OOP Concepts and Control Structure",
+          "topics": "Programming paradigms - Introduction to programming paradigms, Introduction to four main Programming paradigms- procedural, object oriented, functional, and logic & rule based. Need of object-oriented programming, Fundamentals of object-oriented programming: objects, classes, data members, member func- tions, data encapsulation, data abstraction and information hiding, inheritance, polymorphism. Access Control, constructors, destructors, operators, static data members, array of objects, ‘const’ keyword and reference variables.",
+          "hours": 9
+        },
+        {
+          "title": "Function and Overloading",
+          "topics": "Function prototypes, default and constant arguments, inline functions, static member functions, Function overloading, friend function, Operator Overloading : Need, rules,overloading the unary and binary operators using member and friend function, overloading relational and and assignment operator",
+          "hours": 6
+        },
+        {
+          "title": "Inheritance",
+          "topics": "Inheritance: Super classes and Subclasses, protected members, relationship between super classes and subclasses, types of Inheritance, constructors in subclasses, object class. Polymorphism: Abstract classes and methods, final methods and classes, dynamic binding, poly- morphism examples and Interfaces.",
+          "hours": 9
+        },
+        {
+          "title": "Exceptions Handling",
+          "topics": "Pointers to objects, ‘this’ pointer, Pointers to derived class, virtual function, pure virtual function, abstract class, virtual destructors, early and late binding Exception Handling: try , catch and throw, MultipleExceptions, Exceptions with arguments.",
+          "hours": 9
+        },
+        {
+          "title": "Templates",
+          "topics": "Function template and class template, overloading function template,member function templates and template arguments, Introduction to Standard Template Library (STL), containers, iterators and algorithms. Template class-List, Vector",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMSE302COM",
+      "title": "Object-OrientedProgramming Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        5,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "DMSE351COM",
+      "title": "Data Structure",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures and Algorithms",
+          "topics": "Introduction: Introduction to Data Structures: Abstract Data Types (ADT), Linear and Non-linear, Static and Dynamic, Persistent and Ephemeral data structures Algorithms: Space complexity , Time complexity , Asymptotic notation- Big-O, Theta and Omega, finding complexity using step count method, Analysis of programming constructs-Linear, Quadratic, Cubic, Logarithmic. Algorithmic Strategies: Introduction to algorithm design strategies- Divide and Conquer, and Greedy strategy plication using Greedy strategy",
+          "hours": 9
+        },
+        {
+          "title": "Linear Data Structures, searching and sorting",
+          "topics": "Overview of Array, Array as an Abstract Data Type, Operations on Array , Storage Representa- tion, Multidimensional Arrays[2D, nD], Sparse matrix representation using 2D Searching: Sequential Search/Linear Search, Binary Search, Fibonacci Search, and Indexed Sequential Search. Sorting: Concepts- Stability , Efficiency , and Number of Passes, Internal and External Sorting, Bub- ble sort, Insertion Sort lions of users.",
+          "hours": 9
+        },
+        {
+          "title": "Stacks, Queues and Linked Lists",
+          "topics": "Stacks: Stack operations, Multiple Stacks, Applications of Stack for Expression Conversion [infix, prefix and postfix], Postfix expression evaluation Queues: Queue Operations, Circular Queue, Priority Queue and its advantages and applications Linked list: Introduction of Linked Lists, Primitive Operations on Linked List- Create, Traverse, Search, Insert, Delete, Sort, and Concatenate. Types of Linked List: Singly linked, linear and Circular Linked Lists Case study: Implementation of Stack and Queue operations using Linked lists",
+          "hours": 9
+        },
+        {
+          "title": "Hashing",
+          "topics": "Hash Table : Concepts-hash table, hash function, basic operations, bucket, collision, probe, syn- onym, overflow, open hashing, closed hashing, perfect hash function, load density , full table, load factor, rehashing, properties of good hash function Case study : Dictionary Application using Hash Tables, Description: Implement a dictionary where words and meanings are stored and retrieved using hashing with collision resolution",
+          "hours": 9
+        },
+        {
+          "title": "Graphs and Trees",
+          "topics": "Graphs: Basic Concepts, Storage representation, Adjacency matrix, adjacency list, Traversals-depth first and breadth first, Minimum spanning Tree Trees: General tree and its representation: sequential and linked organization, Binary tree- prop- erties, converting tree to binary tree, binary tree traversals (recursive and non-recursive) - inorder, preorder, post order, Operations on binary tree. Case study: GPS/Navigation system that models a city map as a weighted graph and applies core graph algorithms ZIP/GZIP file compression using frequency-based encoding. using Huffman tree",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMSE352COM",
+      "title": "Data Structure Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        11,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "DMSE01COM",
+      "title": "Database Management System",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database Management System",
+          "topics": "Introduction to Database Management Systems, Purpose of Database Systems, Database-System Applications, View of Data, Database Languages, Database System Structure, Enterprise Constraints Data Models, Database Design and ER Model: Entity , Attributes, Relationships, Constraints, Keys, De- sign Process, Entity Relationship Model, ER Diagram, Design Issues, Extended E-R Features, Converting E-R & EER diagram into tables. for any problem given in previous Question Papers.",
+          "hours": 9
+        },
+        {
+          "title": "SQL and PL/SQL",
+          "topics": "SQL: DDL, DML, Select Queries, String, Date and Numerical Functions, Aggregate Functions ,View, Indexes, Group by and Having Clause, Join Queries, Set, Set operation, Set membership, Nested queries, DCL, TCL PL/SQL: Control Statement, Cursor, Stored Procedure and Function, Trigger to manage students, courses, and faculty members efficiently . The system should store and retrieve relevant data, ensuring integrity , security , and performance optimization.",
+          "hours": 9
+        },
+        {
+          "title": "Relational Database Design",
+          "topics": "Relational Model: Basic concepts, Attributes and Domains, CODD’s Rules, Relational Integrity , Referential Integrities, Database Design: Features of Good Relational Designs, Normalization, Atomic Domains and First Normal Form, Decomposition using Functional Dependencies, 2NF, 3NF, BCNF. Case study: Design and Optimization of a Relational Database for a University Management Sys- tem",
+          "hours": 9
+        },
+        {
+          "title": "Database Transactions",
+          "topics": "Basic concept of a Transaction, Transaction Management, Properties of Transactions, ACID, Concept of Schedule, Serial Schedule, Serializability: Conflict and View, Cascaded Aborts, Recoverable and Non-recoverable Schedules, Concurrency Control: Need, Locking Methods. Case study : Design Online Shopping Cart Transaction Management In an e-commerce platform, multiple users simultaneously add, update, and purchase products. To ensure data consistency and reliability , the system must handle concurrent transactions effectively .",
+          "hours": 9
+        },
+        {
+          "title": "NoSQL Database",
+          "topics": "Introduction to NoSQL Database, NoSQL data models, CAP theorem and BASE Properties, Compar- ative study of SQL and NoSQL, MongoDB: CRUD Operations, Indexing and Aggregation. Case study: Study NoSQL Database Selection for a Social Media Platform.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMSE402COM",
+      "title": "Database Management System Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        19,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "DMSE451COM",
+      "title": "SoftwareEngineering",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "overing latest and advanced trends in software engineering",
+          "topics": "Course Objectives: The course aims to: 1. To understand fundamental principles and challenges of software engineering. 2. To study software process models and requirement engineering techniques. 3. To apply software modelling concepts using UML diagrams. 4. To understand project management, testing concepts. 5. To introduce students to modern and advanced software engineering practices. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Explain software engineering principles and software development life cycle models. • CO2: Analyze and document software requirements using standard practices. • CO3: Design software systems using UML-based software modelling techniques. • CO4: Apply project management, testing, and quality assurance techniques. • CO5: Understand and evaluate modern and advanced trends in software engineering. \u0005Course Contents",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": "Software Engineering: Definition, Importance, Software Crisis, Software Myths & Reality , The Software Process: Software Process Framework, SDLC, Prescriptive Process Models: Waterfall, V- Model, Incremental, Evolutionary Process Models: Prototyping, Spiral, Rapid Application Develop- ment (RAD), Agile Development Models: What Is Agility? Agility and the Cost of Change, Extreme Programming, Other Agile Process Models, Overview of Scrum and Kanban. Cycle Models and Software Process Structures.",
+          "hours": 9
+        },
+        {
+          "title": "Requirements Engineering",
+          "topics": "Requirements Engineering, Establishing the Groundwork: Identifying Stakeholders, Recogniz- ing Multiple Viewpoints, working toward Collaboration, Asking the First Questions, Non-functional Requirements, Traceability Eliciting Requirements: Collaborative Requirements Gathering, Usage Sce- narios, Elicitation Work Products, Developing Use Cases, Building the Analysis Model, Elements of the Analysis Model, Negotiating Requirements: Requirement Validation and Management. Software Requirements Specification (SRS) stakeholder identification, requirement elicitation, use case modelling, non-functional requirements, validation and traceability .",
+          "hours": 9
+        },
+        {
+          "title": "Software Modelling",
+          "topics": "Introduction to Software Architecture, Architectural design principles and patterns, Types of ar- chitectures: Layered, Client-Server, Micro services, MVC, Architectural styles and quality attributes, Architecture documentation (4+1 view model), Object Modelling Using UML Basic Object-Orientation Concepts, Unified Modelling Language (UML), UML Diagrams, Use Case Model, Class Diagrams, Interaction Dia- grams, State Chart Diagram, Activity Diagrams, Package Diagrams, Component Diagrams, Deployment Diagram. tion, modularity , object-oriented design principles, and complete UML modelling including structural and behavioural diagrams.",
+          "hours": 9
+        },
+        {
+          "title": "Software Project Management and Testing",
+          "topics": "Software Project Management Complexities, Project Planning, Metrics for Project Size Estimation, Project Estimation Techniques, Empirical Estimation Techniques, COCOMO—A Heuristic Estimation Technique, Scheduling, Organisation and Team Structures, Staffing, Risk Management, Software Con- figuration Management. Software Testing, A Strategic Approach to Software Testing, Test Strategies for Conventional Soft- ware, Test Strategies for Object-Oriented Software, Test Strategies for WebApps, Validation Testing, System Testing, Debugging, Defect Life Cycle, Manual and Automated testing ment for an E-Governance Citizen Service Portal using COCOMO and empirical estimation techniques.",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Concepts in Software Engineering",
+          "topics": "Agile and DevOps practices, CI/CD pipelines, DevSecOps and Secure Software Development, Soft- ware Architecture Patterns (Event-Driven, Serverless, Reactive Systems), AI in Software Engineering (AI- assisted development, automated testing), Low-Code / No-Code Platforms, Software Sustainabil- ity and Green Computing. vOps, CI/CD pipelines, Microservices architecture, Cloud-native deployment, and reusable software components.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMSE452COM",
+      "title": "SoftwareEngineering Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "DMSE452COM",
+      "title": "Minor Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

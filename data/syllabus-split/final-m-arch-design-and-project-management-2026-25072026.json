@@ -1,0 +1,394 @@
+{
+  "id": "final-m-arch-design-and-project-management-2026-25072026",
+  "kind": "programme",
+  "programme": "Masters in Architecture M. Arch (Design and Project Management)",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "2026DPM101",
+      "title": "Planning Scheduling Studio",
+      "semester": 1,
+      "type": "C",
+      "credits": null,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction Management; Familiarisation Building Projects",
+          "topics": "Project brief, Area usage: FAR / Area Statement, Bye laws, Soil Investigation, Architectural appraisal, Configuration spaces, plans, sections, elevations, levels, landscaping etc., Structural appraisal: Foundation system, Structural system, Details structural members including sizes material specifications, MEP appraisal: Conceptual drawings, SLDs, actual drawings showing location services. Interaction MEP other aspects.",
+          "hours": null
+        },
+        {
+          "title": "Study construction logic its role developing efficient planning systems building projects",
+          "topics": "Study construction logic its role developing efficient planning systems building projects.",
+          "hours": null
+        },
+        {
+          "title": "Planning scheduling Identification Activities, Milestones Construction Sequencing",
+          "topics": "Identification Activities, Milestones Construction Sequencing considering their relationships inter-dependencies.",
+          "hours": null
+        },
+        {
+          "title": "Relationship between time cost scheduling decisions",
+          "topics": "Focus this unit understanding relationship between time cost scheduling decisions.",
+          "hours": null
+        },
+        {
+          "title": "Resource Material Management",
+          "topics": "Resource Material Management principles, allocation, and tracking.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM102",
+      "title": "Construction Technology Alternative Materials",
+      "semester": 1,
+      "type": "SP1",
+      "credits": null,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Subsurface Soil Exploration",
+          "topics": "Planning considerations foundation superstructure systems Multi-storeyed tall buildings. Construction basements water proofing techniques. Landslide vulnerability; detailing buildings including codal provisions; Technologies seismic risk reduction.",
+          "hours": null
+        },
+        {
+          "title": "Special concrete",
+          "topics": "High performance concrete, self-compacting concrete, impervious concrete, architectural finishes aesthetic concrete, Alternative aggregates, Pre-cast, pre-stressed concrete composite construction.",
+          "hours": null
+        },
+        {
+          "title": "Structural Steel Construction",
+          "topics": "Fabrication erection steel structures.",
+          "hours": null
+        },
+        {
+          "title": "Repair technologies materials strengthening retrofitting existing / distressed buildings",
+          "topics": "Advancements formwork systems - tunnel form, aluminium forms, slip forms, jump forms, flying forms, ganged forms, etc.",
+          "hours": null
+        },
+        {
+          "title": "Critical appraisal emerging construction materials",
+          "topics": "Critical appraisal emerging construction materials.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM103",
+      "title": "Advanced Building Services",
+      "semester": 1,
+      "type": "SP2",
+      "credits": null,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Water Waste water systems",
+          "topics": "a) Water supply systems - demand assessment, quality quantity various sources, on-premise treatment facility, underground overhead storage, pumping, conveyance distribution system, fittings fixtures. b) Sanitation System - Sanitary fixtures, waste water soil water conveyance - piping system, ICs Manholes, Sewage Treatment Plant Effluent Treatment Plant c) Measures effective water management; Net zero water approach.",
+          "hours": null
+        },
+        {
+          "title": "Fire Protection System",
+          "topics": "a) Fundamentals fire behaviour classification, Fire load hazard assessment, b) Passive Fire Protection system - Fire Tower, Compartmentation, fire doors, fire resistant material construction.",
+          "hours": null
+        },
+        {
+          "title": "Electrical Systems",
+          "topics": "Electrical systems design, distribution, substation, transformers, power backup, and earthing.",
+          "hours": null
+        },
+        {
+          "title": "HVAC system types components",
+          "topics": "a) HVAC system types components, Heating cooling load determination, ventilation systems b) District cooling.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM104",
+      "title": "Elective I (Technical Appraisal Project)",
+      "semester": 1,
+      "type": "EL",
+      "credits": null,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Technical Appraisal Project Typologies",
+          "topics": "1. Hospitality Projects 2. Industrial Projects 3. Healthcare Projects 4. Commercial / office Projects 5. Residential Projects. Sessional work on technical appraisal examining intent, construction details, and integration of building services.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM105",
+      "title": "Software-Lab I : Design Tools",
+      "semester": 1,
+      "type": "L",
+      "credits": null,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Role AEC industry",
+          "topics": "Importance coordination among consultants, clients contractors.",
+          "hours": null
+        },
+        {
+          "title": "BIM tool",
+          "topics": "BIM coordination among architecture, structure, MEP, Clash detection resolution.",
+          "hours": null
+        },
+        {
+          "title": "Cloud-based or on-premise centralized documentation data management",
+          "topics": "Workflow standardization, centralized data repository.",
+          "hours": null
+        },
+        {
+          "title": "Communication review tools",
+          "topics": "Task assignment, tracking, change logs, commenting redlining.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM201",
+      "title": "Design Development Process Interface Studio",
+      "semester": 2,
+      "type": "C",
+      "credits": null,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Conceptualization",
+          "topics": "a) Business Vision, Financial Goals organization, Brand aspirations, Business case terms its value addition feasibility analysis, Detailed Report b) Briefing - formulation program basis report.",
+          "hours": null
+        },
+        {
+          "title": "Design Development Processes",
+          "topics": "a) Design Sourcing: procurement strategy services expertise b) Stages Design development, criteria stage gates, stage-wise deliverables c) Pre-construction process schedule associated cost risk management, Alignment construction schedule.",
+          "hours": null
+        },
+        {
+          "title": "Design Coordination and Systems Integration",
+          "topics": "Coordination between architectural, structural, MEP, and specialized building systems.",
+          "hours": null
+        },
+        {
+          "title": "Approvals, Compliance and Sign-off",
+          "topics": "Statutory approvals, regulatory compliance, quality verification, and client sign-off procedures.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM202",
+      "title": "Management: PMBoK Framework",
+      "semester": 2,
+      "type": "SP1",
+      "credits": null,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction Frameworks",
+          "topics": "This unit introduces concept frameworks structured sets principles practices that guide planning delivery projects. Students study Body Knowledge (PMBOK Guide) globally recognized standard that consolidates best practices across industries. PMBOK purpose, evolution, structure, emphasizing its principles performance domains.",
+          "hours": null
+        },
+        {
+          "title": "Fundamentals Core Concepts",
+          "topics": "Exploration life cycles, project phases, and governance structures.",
+          "hours": null
+        },
+        {
+          "title": "Performance Domains and Process Groups",
+          "topics": "Scope, schedule, cost, quality, resource, communication, risk, procurement, and stakeholder management domains.",
+          "hours": null
+        },
+        {
+          "title": "Tailoring and Integration",
+          "topics": "Tailoring methodologies, agile, hybrid, and traditional approaches for AEC project delivery.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM203",
+      "title": "Procurement",
+      "semester": 2,
+      "type": "SP2",
+      "credits": null,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Procurement Process and Contracts",
+          "topics": "Unit procurement process; Study procurement guidelines international institutions (e.g. World Bank, ADB); Type contracts (EPC other forms); Tender documents (RFP, RFQ); Pre-qualification contractors; Evaluation technical financial bid proposals; Negotiation award.",
+          "hours": null
+        },
+        {
+          "title": "Contracts Procurement Professional Services",
+          "topics": "Contracts procurement professional services; Selection criterias professionals professional services (Design, services); Fee structures contractual conditions; Joint ventures professional teams (including equity construction organizations).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM204",
+      "title": "Elective-II (Functional Performance Buildings)",
+      "semester": 2,
+      "type": "EL",
+      "credits": null,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Functional Performance Topics",
+          "topics": "1. Envelope Performance Energy efficiency optimization 2. Acoustic Lighting Performance 3. Integrated Building System 4. Building Adaptation Techniques.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM205",
+      "title": "Software-Lab II : Analytical tools",
+      "semester": 2,
+      "type": "L",
+      "credits": null,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction Statistical Analysis AEC Context",
+          "topics": "a) Role statistical analysis b) Introduction statistical analysis software tools such MS Excel, SPSS, R-Package etc.",
+          "hours": null
+        },
+        {
+          "title": "Qualitative Data Analysis",
+          "topics": "a) Nature sources qualitative data AEC projects b) Coding, categorizing, thematic analysis c) Using software-assisted qualitative analysis.",
+          "hours": null
+        },
+        {
+          "title": "Quantitative Data Analysis",
+          "topics": "a) Descriptive statistics: mean, median, mode, variance, standard deviation b) Inferential statistics: hypothesis testing, regression.",
+          "hours": null
+        },
+        {
+          "title": "Decision Support and Reporting",
+          "topics": "Data visualization, dashboards, interpretation of analytical outputs for project decision-making.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DPM301",
+      "title": "Cost Contract Studio",
+      "semester": 3,
+      "type": "C",
+      "credits": null,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DPM302",
+      "title": "Professional Practice Training",
+      "semester": 3,
+      "type": "SP1",
+      "credits": null,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DPM303",
+      "title": "Quality Systems",
+      "semester": 3,
+      "type": "SP2",
+      "credits": null,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DPM304",
+      "title": "Elective-III (Specialized Areas)",
+      "semester": 3,
+      "type": "EL",
+      "credits": null,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DPM305",
+      "title": "Software-Lab III : AI",
+      "semester": 3,
+      "type": "L",
+      "credits": null,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DPM401",
+      "title": "Project",
+      "semester": 4,
+      "type": "C",
+      "credits": null,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DPM402",
+      "title": "Elective -IV",
+      "semester": 4,
+      "type": "EL",
+      "credits": null,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    }
+  ],
+  "notes": "Title for 2026DPM401 omitted in structure table, listed as Project. Individual course credits not specified in tables or course detail sections."
+}

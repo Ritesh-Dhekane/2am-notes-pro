@@ -1,0 +1,766 @@
+{
+  "id": "b-arch-curriculum-2025-0102025",
+  "kind": "programme",
+  "programme": "Bachelor of Architecture (B.Arch.)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "1202501",
+      "title": "Basic Design",
+      "semester": 1,
+      "type": null,
+      "credits": 6,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials I",
+      "semester": 1,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "1202503",
+      "title": "Structures I",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Fundamentals of Architecture",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Drawing and Graphics I",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Computer Aided Drawing I",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "1202507",
+      "title": "Workshop I",
+      "semester": 1,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "1202508",
+      "title": "Architectural Design I",
+      "semester": 2,
+      "type": null,
+      "credits": 7,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials II",
+      "semester": 2,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "1202510",
+      "title": "Structures II",
+      "semester": 2,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Diagramming, Sketching, Visualisation",
+      "semester": 2,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Drawing and Graphics II",
+      "semester": 2,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Computer Aided Drawing II",
+      "semester": 2,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "1202514",
+      "title": "Workshop II",
+      "semester": 2,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "2202515",
+      "title": "Architectural Design II",
+      "semester": 3,
+      "type": null,
+      "credits": 8,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials III",
+      "semester": 3,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202517",
+      "title": "Structures III",
+      "semester": 3,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202518",
+      "title": "Building Services I",
+      "semester": 3,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "History of Architecture I",
+      "semester": 3,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202520",
+      "title": "Climatology",
+      "semester": 3,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202521",
+      "title": "Site Survey Systems",
+      "semester": 3,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Design III",
+      "semester": 4,
+      "type": null,
+      "credits": 8,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials IV",
+      "semester": 4,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202524",
+      "title": "Structures IV",
+      "semester": 4,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202525",
+      "title": "Building Services II",
+      "semester": 4,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "History of Architecture II",
+      "semester": 4,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202527",
+      "title": "Environmental Science",
+      "semester": 4,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "2202528",
+      "title": "Indian Knowledge Systems Elective",
+      "semester": 4,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Design IV",
+      "semester": 5,
+      "type": null,
+      "credits": 5,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202530",
+      "title": "Landscape Design",
+      "semester": 5,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials V",
+      "semester": 5,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202532",
+      "title": "Building Services III",
+      "semester": 5,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "History of Architecture III",
+      "semester": 5,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Codes and Bylaws",
+      "semester": 5,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202535",
+      "title": "Working Drawing I",
+      "semester": 5,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Quantity Surveying and Specification Writing",
+      "semester": 5,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202537",
+      "title": "Architectural Design V",
+      "semester": 6,
+      "type": null,
+      "credits": 6,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Appraisal",
+      "semester": 6,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials VI",
+      "semester": 6,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202540",
+      "title": "Building Services IV",
+      "semester": 6,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "History of Architecture IV",
+      "semester": 6,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202542",
+      "title": "Settlement Studies",
+      "semester": 6,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202543",
+      "title": "Working Drawing II",
+      "semester": 6,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "3202544",
+      "title": "Professional Elective",
+      "semester": 6,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Design VI",
+      "semester": 7,
+      "type": null,
+      "credits": 7,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "4202546",
+      "title": "Design Elective",
+      "semester": 7,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials VII",
+      "semester": 7,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "4202548",
+      "title": "Design Detailing",
+      "semester": 7,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Research in Architecture I",
+      "semester": 7,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "4202550",
+      "title": "Interdisciplinary Elective",
+      "semester": 7,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Professional Practice and Conduct",
+      "semester": 7,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Design VII",
+      "semester": 8,
+      "type": null,
+      "credits": 7,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "4202553",
+      "title": "Creativity Elective",
+      "semester": 8,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Building Construction and Materials VIII",
+      "semester": 8,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "4202555",
+      "title": "Urban Studies",
+      "semester": 8,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Research in Architecture II",
+      "semester": 8,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "4202557",
+      "title": "Project Management",
+      "semester": 8,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "4202558",
+      "title": "Technology Elective",
+      "semester": 8,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "5202559",
+      "title": "Practical Training",
+      "semester": 9,
+      "type": null,
+      "credits": 26,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Architectural Design Project",
+      "semester": 10,
+      "type": null,
+      "credits": 18,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "5202561",
+      "title": "Skill Elective",
+      "semester": 10,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "5202562",
+      "title": "Open Elective",
+      "semester": 10,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Entrepreneurship Development",
+      "semester": 10,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    }
+  ],
+  "notes": "Curriculum structure rules and course tables for Semesters I to X; detailed syllabi not included in this document."
+}
