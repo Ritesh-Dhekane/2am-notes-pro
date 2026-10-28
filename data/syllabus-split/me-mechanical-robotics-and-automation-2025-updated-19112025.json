@@ -1,0 +1,914 @@
+{
+  "id": "me-mechanical-robotics-and-automation-2025-updated-19112025",
+  "kind": "programme",
+  "programme": "Master of Engineering (2025 Pattern) in ME- Mechanical (Robotics & Automation)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-RAU",
+      "title": "Machine Vision System",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Vision and Image Acquisition Introduction",
+          "topics": "Human vision, Machine vision and Computer vision, Benefits of mach ine vision. Image acquisition: Scene constraints, Lighting parameters, Lighting sources, Selection, LightingTechniques, Types and Selection, Machine Vision Lenses and Optical Filters, Specifications and Selection, Imaging Sensors, CCD and CMOS, Specifications, Interface Architectures, Analog and Digital Cameras, Digital Camera Interfaces.",
+          "hours": null
+        },
+        {
+          "title": "Image Processing and Analysis in Machine Vision Image processing",
+          "topics": "Machine Vision Software, Fundamentals of Digital Image, Image Acquisition Modes, Image Processing in Spatial and Frequency Domain, Point Operation, Thresholding, Grayscale Stretching, Neighborhood Operations, Image Smoothing and Sharpening, Edge Detection, Binary Morphology Color image processing. Image analysis: Feature extraction, Region Features, Shape and Size features, Texture Analysis, Template Matching and Classification.",
+          "hours": null
+        },
+        {
+          "title": "Applications of Machine Vision in Industry and Emerging Fiel",
+          "topics": "Applications of Machine Vision in Industry and Emerging Fields Machine vision applications in manufacturing, electronics, printing, pharmaceutical, textile, applications in non-visible spectrum, metrology and gauging, OCR and OCV, vision guided robotics, Field and Service Applications, Agricultural, and Bio medical field, augmented reality, surveillance, bio-metrics.",
+          "hours": null
+        },
+        {
+          "title": "Industrial Machine Vision Systems and Standards Industrial M/C vision",
+          "topics": "Industrial machine vision in production and services, structure of industrial m/c vision, generic standards, rules of thumb, illumination, optics, image processing, interfacing machine vision system, vision system calibration",
+          "hours": null
+        },
+        {
+          "title": "Object Detection, Classification, and Tracking in Machine Vi",
+          "topics": "Object Detection, Classification, and Tracking in Machine Vision Object Detection and Classification - Shape based object classification, motion -based object classification, Silhouette -Based Method for Object Classification, Viola Jones object de tection 11 2025 Course_ ME Mechanical Robotics & Automation_ Syllabus_ Savitribai Phule Pune Page 11 framework, Multiclass classifier boosting. Multi-Object Tracking- Classification of multiple interacting objects from video, Region-based Tracking, Contour-based Tracking, Feature-based Tracking, Model-based Tracking and Hybrid Tracking.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-RAU",
+      "title": "Total Integrated Automation Industry 4.0",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Automation and Production Economics Introduction",
+          "topics": "Automation in Production Syste m, Principles and Strategies of Automation, Basic Elements of an Automated System, Advanced Automation Functions, Levels of Automations. Production Economics: Methods of Evaluating Investment Alternatives, Costs in Manufacturing, Break Even Analysis, Unit cost of production, Cost of Manufacturing Lead time and Work-in process.",
+          "hours": null
+        },
+        {
+          "title": "Automated Flow Lines and Analysis of Transfer Systems Automa",
+          "topics": "Automated Flow Lines and Analysis of Transfer Systems Automated Flow lines, Methods of Work part Transport, Transfer Mechanism, Buffer Storage, Control Functions, and Automation for Machining Operations, Design and Fabrication Considerations. Analysis of Automated Flow Lines: General Terminology and Analysis, Analysis of Transfer Lines Without Storage, Partial Automation, Automated Flow Lines with Storage Buffers, Computer S imulation of Automated Flow Lines.",
+          "hours": null
+        },
+        {
+          "title": "Material Handling, Identification, and Automated Assembly Sy",
+          "topics": "Material Handling, Identification, and Automated Assembly Systems Material handling and Identification Technologies: The material handling function, Types of Material Handling Equipment, Analysis for Material Handling Systems, Design of the System, Conveyor Systems, Automated Guided Vehicle Systems. Automated Storage Systems: Storage System Performance, Automated Storage/Retrieval Systems, Work -in-process Storage, Interfacing Handling and Storage with Manufacturing. Product identification system: Barcode, RFID etc. Automated Assembly Systems: Design for Automated Assembly, Types of Automated Assembly Systems, Part Feeding Devices, Analysis of Multi-station Assembly Machines, Analysis of a Single Station Assembly Machine.",
+          "hours": null
+        },
+        {
+          "title": "Control Technologies and Computer-Based Industrial Automatio",
+          "topics": "Control Technologies and Computer-Based Industrial Automation Control Technologies in Automation: Industrial Control Systems, Process Industries Verses Discrete Manufacturing Industries, Continuous Verses Discrete Control, Computer Pro cess Control and its Forms. Computer Based Industrial Control: Introduction & Automatic Process Control, Building Blocks of Automation System: LAN, Analog & Digital I/O Modules, SCADA System & RTU. 13 2025 Course_ ME Mechanical Robotics & Automation_ Syllabus_ Savitribai Phule Pune Page 13",
+          "hours": null
+        },
+        {
+          "title": "Automated Inspection, Testing, and Quality Control Automated",
+          "topics": "Automated Inspection, Testing, and Quality Control Automated Inspection and Testing: Inspection and testing, Statistical Quality Control, Automated Inspection Principles and Methods, Sensor Technologies for Automated Inspection, Coordinate Measuring Machines, Other Contact Inspection Methods, Machine Vi sion, Other optical Inspection Methods.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-RAU",
+      "title": "Robotics application",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION",
+          "topics": "History of robots, Classification o f robots, Present status and future trends. Basic components of robotic system. Basic terminology - Accuracy, Repeatability, Resolution, Degree of freedom. Mechanisms and transmission, End effectors, Grippers -different methods of gripping, Mechanical grippers-Slider crank mechanism, Screw type, Rotary actuators, Cam type gripper, Magnetic grippers, Vacuum grippers, Air operated grippers; Specifications of robot. DRIVE SYSTEMS AND SENSORS: Drive system- hydraulic, pneumatic and electric systems Sensors in ro bot – Touch sensors, Tactile sensor, Proximity and range sensors, Robotic vision sensor, Force sensor, Light sensors, Pressure sensors.",
+          "hours": null
+        },
+        {
+          "title": "KINEMATICS AND DYNAMICS OF ROBOTS",
+          "topics": "2D, 3D Transformation, scaling, rotation, translation, homogeneous coordinat es, multiple transformation, simple problems. Matrix representation, forward and reverse kinematics of three degree of freedom, homogeneous transformations, inverse kinematics of robot, robot arm dynamics, d -h representation of robots, basics of trajectory planning.",
+          "hours": null
+        },
+        {
+          "title": "MANIPULATORS CONSTRUCTION OF MANIPULATORS",
+          "topics": "Manipulators Construction of Manipulators, Manipulator Dynamic and Force Control, Electronic and Pneumatic manipulators Classification of End effectors – Tools as end effectors. Drive system for grippers- Mechanical adhesive-vacuum-magnetic-grippers. Hooks & scoops. Gripper force analysis and gripper design. Active and passive grippers.",
+          "hours": null
+        },
+        {
+          "title": "PATH PLANNING & PROGRAMMING",
+          "topics": "Path planning & Programming Trajectory planning and avoidance of obstacles, path planning, skew motion, joint integrated motion – straight line motion-Robot languages-computer control and Robot software.",
+          "hours": null
+        },
+        {
+          "title": "ROBOT CONTROL, PROGRAMMING AND APPLICATIONS",
+          "topics": "Robot Control, Programming and Applications Robot controls -Point to poin t control, Continuous path control, Intelligent robot, Control system for robot joint, Control actions, Feedback devices, Encoder, Resolver, LVDT, Motion Interpolations, Adaptive control. Introduction to Robotic Programming, On -line and off -line programmin g, programming examples. Robot applications - Material handling, Machine loading and unloading, assembly, Inspection, Welding, Spray painting",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-RAU",
+      "title": "Robotic Operating system",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        15,
+        15
+      ],
+      "units": [
+        {
+          "title": "BASICS OF ROBOTICS",
+          "topics": "History – Definition – Components – Building a robot – The Robot drive mechanism. ROBOT SIMULATION: Mathematical modelling of the robot - Robot kinematics- Concepts of ROS and Gazebo.",
+          "hours": null
+        },
+        {
+          "title": "DESIGNING CHEFBOT HARDWARE",
+          "topics": "Specifications - Block diagram - Working with Robotic Actuators and Wheel Encoders - Interfacing DC geared motor with Tiva C Launch Pad - Interfacing quadrature encoder with Tiva C Launchpad - Working with Dynamixel actuators.",
+          "hours": null
+        },
+        {
+          "title": "WORKING WITH ROBOTIC SENSORS",
+          "topics": "Working with ultrasonic distance sensors - Working with the IR proximity sensor - Working with Inertial Measurement Unit.",
+          "hours": null
+        },
+        {
+          "title": "PYTHON AND ROS",
+          "topics": "Introduction to OpenCV, Open NI, and PCL - Programming Kinect with Python using ROS, OpenCV, and Open NI - Working with Point Clouds using Kinect, ROS, Open NI, and PCL.",
+          "hours": null
+        },
+        {
+          "title": "INTERFACING IT INTO ROS, USING PYTHON",
+          "topics": "Building ChefBot hardware -Writing a ROS Python driver for ChefBot - Understanding ChefBot ROS launch files - Working with ChefBot Python nodes and launch files - The Calibration and Testing of ChefBot - The Calibration of Xbox Kinect using ROS - Wheel odometry calibration - Testing of the robot using GUI.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-RAU",
+      "title": "Lab Practice-1 (on Core Subjects)",
+      "semester": 1,
+      "type": "Laboratory-I",
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-520-RAU-A",
+      "title": "Sensors Application in Manufacturing",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Sensors and Tr ansducers",
+          "topics": "Performance terminology, static and dynamic characteristics of transducers, classification of sensors and transducers, signal processing and signal conditioning. Operational amplifiers, filters, protection devices, analog to digital converter, digital to analog converter.",
+          "hours": null
+        },
+        {
+          "title": "Sensors and their applications",
+          "topics": "Inductive, capacitive, magnetic, various types of photo sensors, detection methods, through -beam detection, reflex detection & proximity detection, ultrasonic and microwave sensors. Applications and understanding of the above sensors.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Sensor Technologies",
+          "topics": "Laser production, characteristics of lasers, types of laser sensors, bar code sensors, benefits of bar coding, transponder, RFID (Radio Frequency Identification), electromagnetic identifier, optical encoders, color sensors, sensing principles, color theory, unit color measurement, colour comparator, color sensing algorithm, fuzzy logic color sensor. fuzzy logic for optelectronic colour sensor in manufacturing. Sensors in Flexible Manufacturing Systems: Vision sensors, image transformations, robotvisual sensing tasks, detecting partially visible objects, sensors in flexible manufacturing.",
+          "hours": null
+        },
+        {
+          "title": "Networking",
+          "topics": "Networking of sensors, control of manufacturing process, trac king- the meantime between operations interventions, tracking the yield and mean process time, detection of machining faults, diagnostic systems, resonance vibration analyzer, sensing motor current for signature analysis, temperature sensing.",
+          "hours": null
+        },
+        {
+          "title": "Sensors for Special Applications",
+          "topics": "A multi objective approach for selection of sensors in manufacturing, cryogenic manufacturing applications, semiconductor absorption sensors, semiconductor temperature detector sensor, Photoluminescence temperature detectors using point- contact, sensors in process manufacturing plants, measurement of high temperature, robot control through sensors, other sensors, collection and generation of process signals in decentralized manufacturing system.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-520-RAU-B",
+      "title": "Mechatronics",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        18,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mechatronics, Sensors &Actuators",
+          "topics": "Introduction to Mechatronics and its Applications; Measurement Characteristics: Static and Dynamic; Sensors: Position sensors - Potentiometer, LVDT, incremental Encoder; Proximity Sensors-Optical, Inductive, Capacitive; Temperat ure sensor -RTD, Thermocouples; Force / Pressure Sensors-Strain gauges; Flow Sensors-Electromagnetic; Actuators: Stepper motor, Servo motor, Solenoids; Selection of Sensor & Actuator",
+          "hours": null
+        },
+        {
+          "title": "Block Diagram Representation Introduction to Mechatronic Sys",
+          "topics": "Block Diagram Representation Introduction to Mechatronic System Design; Identification of key elements of Mechatronics systems and represent into Block Diagram; Open and Closed loop Control System; Concept of Transfer Function; Block Diagram & Reduction principles; Applications of Mechatronic systems: Household, Automotive, Industrial shop floor",
+          "hours": null
+        },
+        {
+          "title": "Data Acquisition Introduction to Signal Communication & Type",
+          "topics": "Data Acquisition Introduction to Signal Communication & Types-Synchronous Asynchronous, Serial, Parallel; Bit width, Sampling theorem, Aliasing, Sample and hold circuit, Sampling frequency; Interfacing of Sensors / Ac tuators to Data Acquisition system; 4 bit Successive Approximation type ADC; 4 bit R2R type DAC; Current and Voltage Amplifier.",
+          "hours": null
+        },
+        {
+          "title": "Programmable Logic Control Introduction to PLC; Architecture",
+          "topics": "Programmable Logic Control Introduction to PLC; Architecture of PLC Selection of PLC; Ladder Logic programming for different types of logic gates; Latching; Timers, Counter; Practical examples of Ladder Programming.",
+          "hours": null
+        },
+        {
+          "title": "Control System (Proportional (P), Integral (I) and Derivativ",
+          "topics": "Control System (Proportional (P), Integral (I) and Derivative (D) control actions; PI, PD and PID control systems in parallel form; Unit step Resp onse analysis via Transient response specifications: Percentage overshoot, Rise time, Delay time, Steady state error; Manual tuning of PID control; Linear Quadratic Control (LQR).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-520-RAU-C",
+      "title": "Microcontrollers and Single Board Computers",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to the concepts of microprocessors, microcontro",
+          "topics": "Introduction to the concepts of microprocessors, microcontrollers, RISC, CISC, Harvard and Von Neumann architectures. Applications of microcontrollers. Microcontrollers: Introduction to Intel 8 bit &16-bit Microcontrollers, 8051- Architecture and pin details, Memory organization, Addressing Modes and exercises.",
+          "hours": null
+        },
+        {
+          "title": "Hardware description of 8051",
+          "topics": "Instruction formats, Instruction sets, interrupt Structure & interrupt priorities, Port structures & Operation linear counter Functions, different Modes of Operation and Programming examples. Features of machine language, assembly language, middle- level and high-level languages, Instruction set: Classification, syntax and function of instructions, example programs.",
+          "hours": null
+        },
+        {
+          "title": "Features of I/O ports. Byte size I/O, bit addressability and",
+          "topics": "Features of I/O ports. Byte size I/O, bit addressability and configuring I/O ports, interface I/O devices such as LED, buzzer, push -button switch, relay, example programs with assembly & C. Polling & interrupt methods, executing an interrupt, different types, IE and IP registers, enabling, disabling and priority setting, example programs in assembly and C. Interfacing the 8051,LED Interfacing to Microcontroller, 7 -Segment Display interfacing circuit, LCD Interfacing to Microcontroller, Stepper motor interfacing circuit, Matrix keypad interfacing to 8051.",
+          "hours": null
+        },
+        {
+          "title": "Bit structure and function of TMOD and TCON registers, mode",
+          "topics": "Bit structure and function of TMOD and TCON registers, mode 1 & mode 2 operations of timers and counters, time delay generation & example programs in assembly and C. Bit structure and function of SCON register, SBUF register, TI and RI flags, working of serial port, connecting 8051 to RS 232, serial data transmission and reception, example programs in assembly and C.",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Raspberry PI and various models, Application",
+          "topics": "Introduction to Raspberry PI and various models, Applications, Types and standards, difference between microcontroller and single board computer, Embedded system with single board computer and Microcontroller.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-520-RAU-D",
+      "title": "CAD/CAM",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        20,
+        20
+      ],
+      "units": [
+        {
+          "title": "GEOMETRIC MODELLING",
+          "topics": "Surfaces, Representation of surfaces, types of surfaces, Coons patch surface, Bezier, B -Spline, NURBS Surface, Surface Modeling [Only Theory, No numerical.",
+          "hours": null
+        },
+        {
+          "title": "THE INTRODUCTION AND SCOPE OF CIM",
+          "topics": "Introduction to CIM, definition of CIM, CIM wheel, evolution of CIM, development of numerical control, computers, computer – aided design (CAD), computer -aided manufacturing (CAM), islands of automation, evolution of the CIM concept, CIM II, benefits of CIM. Needs of CIM hardware, CIM software, CIM workstations.",
+          "hours": null
+        },
+        {
+          "title": "REVERSE ENGINEERING",
+          "topics": "Introduction, Conversion of surface models into solid. Point cloud data for inspection and creating CAD models in CAD. CAT and CAI (e.g. CMM inspection, Machine Vision, RP etc.). Application based CAD modeling techniques.",
+          "hours": null
+        },
+        {
+          "title": "FUNDAMENTALS OF COMMUNICATIONS Introduction, information",
+          "topics": "types of communications. Fundamentals of computer communications, representation of data, coding, transmission, medium, types of communication lines, communications hardware. Network architectures - the seven layers-OSI model, local area network (LAN), manufacturing automation protocol (MAP).",
+          "hours": null
+        },
+        {
+          "title": "PRODUCT DESIGN",
+          "topics": "Needs of the market, design and engineering, the design process, computer-aided design (CAD), areas of ap plication, benefits of CAD, computer graphics, CAD hardware and software, CAD/CAM workstations. Three -dimensional capabilities - principles of curve generation, representation of 3D surfaces, from CAD to CAM. CAE - finite element technique.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-521-RAU-A",
+      "title": "Sensors Application in Manufacturing- Fieldwork Assignments",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        21,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-RAU-B",
+      "title": "Mechatronics -Fieldwork Assignments",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        22,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-RAU-C",
+      "title": "Microcontrollers and Single Board Computers- Fieldwork Assignments",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-RAU-D",
+      "title": "CAD/CAM -Fieldwork Assignments",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        24,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-RAU",
+      "title": "Artificial Intelligence and Machine learning for Robotics",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        25,
+        25
+      ],
+      "units": [
+        {
+          "title": "Scope of AI and Problem solving",
+          "topics": "Introduction to Artificial Intelligence - Introduction, Intelligent agents, Problem solving by search, Adversarial search. Planning: The planning problem, planning with state -space search, partial -order planning, planning graph, planning with propositional logics. Planning & acting in the real world.",
+          "hours": null
+        },
+        {
+          "title": "Knowledge Representation & Learning",
+          "topics": "Uncertainty, probabilistic reasoning- Bayesian Network, probabilistic reasoning over time-Inference in temporal Model, Hidden Markov models- Kalman filters, Dynamic Bayesian Network, speech recognition. Learning: Concept of learning, learning automation, genetic algorithm, learning by inductions, neural nets. Programming Language: Introduction to programming Language. Handling Uncertainties: Non- monotonic reasoning, Probabilistic reasoning, use of certainty factors, Fuzzy logic",
+          "hours": null
+        },
+        {
+          "title": "Expert system – Introduction, difference between expert syst",
+          "topics": "Expert system – Introduction, difference between expert system and conventional programs, basic activities of expert system – Interpretation, Prediction, Diagnosis, Design, Planning, Monitoring, Debugging, Repair, Instruction, Control. Basic aspects of expert system – Acquisition Unit, Knowledge base – Production rules, semantic net, frames. Inference engine – Backward chaining and forward chaining. Explanatory interface.",
+          "hours": null
+        },
+        {
+          "title": "Communication & Perception",
+          "topics": "Communication, Probabilistic language processing, probabilistic-language models, information retrieval, extraction, machine translation, perception - image formation, image processing operations, object recognition",
+          "hours": null
+        },
+        {
+          "title": "AI in Robotics",
+          "topics": "Robotic perception, localization, mapping - configuring space, planning uncertain movements, dynamics and control of movement, Ethics and risks of artificial intelligence in robotics. Case study of AI in robotics.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-RAU",
+      "title": "Kinematics & dynamics",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Definition of robots; types of robots, robot application, degrees of freedom; degrees of movements, robot configuration, definition and factor affecting the control resolution, spatial resolution, accuracy and repeatability, specification of a robot, actuators and sensors, drives and transmission systems used in robotics.",
+          "hours": null
+        },
+        {
+          "title": "Kinematic analysis & coordinate transformation",
+          "topics": "Direct kinematic problem in robotics, geometry based direct kinematic analysis coordinate & vector transformation using matrices, the orientation matrix & translator vector, homogeneous transformation matrices, three dimensional homogeneous transformations, joint space, and cartesian space, Denavit Hartenberg convention - implementing the dh convention, obtaining the dh displacement matrices. Applications of DH method- three axis robot arms, three axis wrists, six axis robot manipulators, assigning the tool coordinate system. Inverse manipulator kinematics Solvability, algebrai c solution by reduction to polynomial, examples of inverse manipulator kinematics, robot kinematics constraints, robot workspace-degree of freedom, holonomic robots, definition of Jacobian matrix, Jacobian matrix for positioning, the Jacobian matrix for positioning & orienting, Jacobian singularity, examples of manipulator singularity.",
+          "hours": null
+        },
+        {
+          "title": "Trajectory generation",
+          "topics": "Introduction, general considerations in path description and generation, joint-space schemes cartesian-space schemes, geometric problems with cartesian paths",
+          "hours": null
+        },
+        {
+          "title": "Manipulator dynamics",
+          "topics": "Introduction, acceleration of a rigid body, mass distribution, Force, Inertia, and Energy, Newton's equation, Euler's equation iterative Newton -Euler dynamic formulation, iterative vs. closed form, formulating manipulator dynamics in Cartesian space, examples for an equation of motion of manipulator.",
+          "hours": null
+        },
+        {
+          "title": "Mobile robot planning & navigation",
+          "topics": "Introduction, competences for navigation- planning & reacting, path planning, obstacle avoidance. Navigation architectures-modularity for code reuse & sharing, control localization, techniques for decomposition, case studies - tiered robot architectures. Case Studies: Software simulations, Inverse and forward kinematics of rigid manipulators, Singularity and workspace generation, form and force closure analysis of flexible manipulator. Self-Study: Case studies on different robot configurations.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-RAU",
+      "title": "Industrial Automation",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        27,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Automation in Production System, Principles and Strategies of Automation, Basic Elements of an Automated System, Advanced Automation Functions, Levels o f Automations. Production Economics: Methods of Evaluating Investment Alternatives, Costs in Manufacturing, Break-Even Analysis, Unit cost of production, Cost of Manufacturing Lead time and Work-in process.",
+          "hours": null
+        },
+        {
+          "title": "Detroit -Type Automation",
+          "topics": "Automated Flow lines, Methods of Work -part Transport, Transfer Mechanism, Buffer Storage, Control Functions, and Automation for Machining Operations, Design and Fabrication Considerations. Analysis of Automated Flow Lines: General Terminology and Analysis, Analysis of Tr ansfer Lines Without Storage, Partial Automation, Automated Flow Lines with Storage Buffers",
+          "hours": null
+        },
+        {
+          "title": "Material handling and Identification Technologies",
+          "topics": "The material handling function, Types of Material Handling Equipment, Analysis for Material Handling Sys tems, Design of the System, Conveyor Systems, Automated Guided Vehicle Systems. Automated Storage Systems: Storage System Performance, Automated Storage/Retrieval Systems, Work -in-process Storage, Interfacing Handling and Storage with Manufacturing. Produc t identification system: Barcode, RFID etc.",
+          "hours": null
+        },
+        {
+          "title": "Automated Assembly Systems Design for Automated Assembly, Ty",
+          "topics": "Automated Assembly Systems Design for Automated Assembly, Types of Automated Assembly Systems, Part Feeding Devices, Analysis of Multi-station Assembly Machines, Analysis of a Single Station Assembly Machine. Control Technologies in Automation Industrial Control Systems, Process Industries Verses Discrete - Manufacturing Industries, Continuous Verses Discrete Control, Computer Process Control and its Forms. Computer Based Industrial Control: Introductio n & Automatic Process Control, Building Blocks of Automation System: LAN, Analog & Digital I/O Modules, and SCADA System & RTU.",
+          "hours": null
+        },
+        {
+          "title": "Automated Inspection and Testing",
+          "topics": "Inspection and testing, Statistical Quality Control, Automated Inspection Principles and Methods, Sensor Technologies for Automated Inspection, Coordinate Measuring Machines, Other Contact Inspection Methods, Machine Vision, Other optical Inspection Methods.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-RAU",
+      "title": "Lab Practice- 2 (on Core Subjects)",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        28,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-571-RAU-A",
+      "title": "Flexible Manufacturing Systems",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        29,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "FMS definition and classification of manufacturing systems, automated production cycle, Need of flexibility , Concept of flexibility, Types of flexibilities and its measurement.",
+          "hours": null
+        },
+        {
+          "title": "FMS Equipment",
+          "topics": "Why FMS, Factors responsible for the growth of FMS, FMS types and applications, Economic justification for FMS, Functional requirements for FMS equipment’s, FMS processing and QA equipment, e.g., turning and machining centers, Co -ordinate measuring machines, Cleaning and deburring machines.",
+          "hours": null
+        },
+        {
+          "title": "FMS system support equipment, Automated material handling an",
+          "topics": "FMS system support equipment, Automated material handling and storage equipment, cutting tool and tool management, W ork holding considerations, Fixture considerations in FMS environment. Group Technology: GT concepts, Advantages of GT, Part family formation -coding and classification systems; Part-machine group analysis.",
+          "hours": null
+        },
+        {
+          "title": "Methods for cell formation , Use of differe nt algorithms, m",
+          "topics": "Methods for cell formation , Use of differe nt algorithms, mathematical programming and graph theoretic model approach for part grouping, Cellular Vs FMS production. FMS related problem and Solution Methodology.",
+          "hours": null
+        },
+        {
+          "title": "FMS Design",
+          "topics": "Part assignment, Machine selection, Storage system selection, Select ion of pallets and fixtures, Selection of computer hardware and software, designing for layout integration of machine storage, Material handling System and computer system, Communication networks.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571-RAU-B",
+      "title": "Industrial Robotics & material handling system",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        30,
+        30
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION",
+          "topics": "Types of industrial robots, Load handling capacity, general considerations in Robotic material handling, material transfer, machine loadin g and unloading, CNC machine tool loading, Robot centered cell, Data-Processing Software and Robot Languages.",
+          "hours": null
+        },
+        {
+          "title": "ROBOT GRIPPERS / END EFFECTORS",
+          "topics": "Gripper force analysis and gripper design for typical applications, design of multiple degrees of freedom, active and passive grippers, actuation mechanisms based on gripper forces.",
+          "hours": null
+        },
+        {
+          "title": "SELECTION OF ROBOT",
+          "topics": "Factors influencing the choice of a robot, robot performance testing, economics of robotization, Impact of robot on industry and society. Decision -Making System of Robots, Decision Making for Autonomous Behaviours, Image-Guided Motion Planning and Control.",
+          "hours": null
+        },
+        {
+          "title": "ROBOTS FOR INSPECTION",
+          "topics": "Robotic vision systems, image representation, image processing- object recognition and categorization, depth measuremen t, image data compression, Visual inspection, software considerations.",
+          "hours": null
+        },
+        {
+          "title": "OTHER APPLICATIONS",
+          "topics": "Application of Robots in continuous arc welding, Spot welding, Spray painting, assembly operation, cleaning, robot for underwater applications, aerial robotics and intelligent vehicles. TEXTBOOKS: 1. Klafter Richard D, Thomas Achmielewskiand, Mickael Negin― Robotic Engineering – An integrated Approach, Prentice Hall India, New Delhi, 2001. 2. Groover Mikell P, \"Automation, Production Systems, and Computer-Integrated Manufacturing\", Pearson Education, 2015.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571-RAU-C",
+      "title": "Additive Manufacturing & Tooling",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        31,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Historical developments, Fundamentals of Rapid prototyping Systems and its Classification, Rapid prototyping process chains, 3D modelling and mesh gene ration, Data conversion and transmission.",
+          "hours": null
+        },
+        {
+          "title": "Rapid Prototyping Systems",
+          "topics": "Liquid polymer based rapid prototyping systems, Teijin Seikis’ solid form and other similar commercial RP systems, Solid input materials based rapid prototyping systems, laminated object manufacturing (LOM) and fused deposition modelling systems etc",
+          "hours": null
+        },
+        {
+          "title": "Power based rapid prototyping systems , selective Laser sint",
+          "topics": "Power based rapid prototyping systems , selective Laser sintering, Soligen Diren’s shell production casting (DSPC), Fraunhofer’s multiphase jet solidification (MJS) and MIT’s 3D printing (3DP) etc.",
+          "hours": null
+        },
+        {
+          "title": "Rapid prototyping Database",
+          "topics": "Rapid prototyping data formats, STL format, STL file problems, STL file repair, Network based operations, Digital inspection, Data warehousing and learning from process data.",
+          "hours": null
+        },
+        {
+          "title": "Rapid prototyping Applications",
+          "topics": "Development of dies for moulding, RP applications in developing prototypes of products, application in medical fields, Development of bone replacements and tissues, etc., RP materials and their biological acceptability.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571-RAU-D",
+      "title": "Process Planning and Automation",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        32,
+        32
+      ],
+      "units": [
+        {
+          "title": "Process Modelling",
+          "topics": "Introduction to Process control and process instrumentation - Hierarchies in process control systems-Theoretical Models-Transfer Function-State space models- Time series models -Development of empirical models from process data -chemical reactor modelling-. Analysis using software’s",
+          "hours": null
+        },
+        {
+          "title": "Feedback &Feedforward Control",
+          "topics": "Feedback controllers -PID design, tuning, trouble shooting, Cascade control, Selective control loop, Ratio control. Frequency Response: Control system design based on Frequency response Analysis, Direct digital design, Feed-forward and ratio control. State feedback control. LQR problem, Pole placement.",
+          "hours": null
+        },
+        {
+          "title": "Software Simulations of control sys tem",
+          "topics": "Simulation using softwares, Control system instrumentation, Control valves, Codes and standards, Preparation of P& I Diagrams.",
+          "hours": null
+        },
+        {
+          "title": "Advanced process control",
+          "topics": "Multi-loop and multivariable control, Process Interactions, Singular value analysis, tuni ng of multi loop PID control systems, decoupling control, strategies for reducing control loop interactions, Real-time optimization.",
+          "hours": null
+        },
+        {
+          "title": "Plant Control",
+          "topics": "Model predictive control -Batch Process control -Plant-wide control & monitoring- Plant wide control design- Instrumentation for process monitoring-Statistical process control- Introduction to Fuzzy Logic in Process Control -Introduction to OPC. Introduction to environmental issues and sustainable development relating to process industries. Comparison of performance different types of control with examples on softwares .",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-RAU-A",
+      "title": "Robot vision system",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Vision System",
+          "topics": "Camera Geometry and Color Sensing, Basic Components - Elements of visual perception: structure of human eye, image formation in the eye – pinhole cameras - colour cameras – image formation model – imaging components and illumination tech niques - picture coding – basic relationship between pixels - Camera-Computer interfaces, Image capture and digitization.",
+          "hours": null
+        },
+        {
+          "title": "Low Level Vision Algorithms",
+          "topics": "Sources of imagery, physics of imaging, Representing, acquiring, and displaying images, Grayscal e, color, noise, lens distortion, and filtering. Image representation – image transformation & calibration, gray level transformations, Histogram equalization, image subtraction, image averaging – Filters: smoothing spatial filters, sharpening spatial filt ers, smoothing frequency domain filters, sharpening frequency domain filters – edge detection, image Convolution.",
+          "hours": null
+        },
+        {
+          "title": "High Level Vision Algorithms",
+          "topics": "Image Segmentation (based on discontinuity and similarity), Edge linking and boundary detection, thresholding, Region-oriented segmentation, the use of motion – Description: Boundary Descriptors, Regional Descriptors, Recognition: Decision- Theoretic methods, structural methods. Enhancing features and correcting imperfections, addressing noise, lens distortion, and blurring, Image Morphing, Image Blending, Image Carving, Image transforms; digital Fourier transform, fast Fourier transform, other transforms, correlation; image enhancement; image restoration; Geometric transformation; image compression; error fr ee and lossy compression; edge detection; hough transform, region based segmentation; image feature/region representation and descriptors.",
+          "hours": null
+        },
+        {
+          "title": "Object Recognition",
+          "topics": "Object recognition, Approaches to Object Recognition, Recognition by combination of views – objects with sharp edges, using two views only, using a single view, use of dept values, SVM and Object Recognition. Applications: Camera Calibration - Stereo Imaging - Transforming sensor reading, Mapping Sonar Data, Aligning laser scan measurements - Vision and Tracking: Following the road, Iconic image processing, Multiscale image processing, Video Tracking - Learning landmarks: Landmark spatiograms, K-means Clustering, EM Clustering, Kalman Filtering.",
+          "hours": null
+        },
+        {
+          "title": "Robot Vision",
+          "topics": "Basic introduction to Robotic operating System (ROS) - Real and Simulated Robots - Introduction to OpenCV, Open NI and PCL, installing and testing ROS camera Drivers, ROS to OpenCV – The cv_bridge Package",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-RAU-B",
+      "title": "Internet of things",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        34,
+        34
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO IOT",
+          "topics": "Definition and Overview, History, Physical design, Logical design, Levels, communication technologies, Applications. Energy Monitoring and Control Device, legal and security aspects.",
+          "hours": null
+        },
+        {
+          "title": "NETWORKING",
+          "topics": "Client/Server Model, An overview of internet communications: IP Address, MAC addresses, TCP and UDP protocols, Application Layer Protocols, AT Commands.",
+          "hours": null
+        },
+        {
+          "title": "MIDDLEWARE FOR IOT",
+          "topics": "Platform middleware, Embedded IoT Devices, communication middleware, M2M, RFID, WSN, SCADA, software middleware, Frameworks, Data standards, IoT information Security, Challenges.",
+          "hours": null
+        },
+        {
+          "title": "IOT DESIGN METHODOLOGY",
+          "topics": "Purpose, requirements, process -domain, information, service, function, operation, component integration, Application development.",
+          "hours": null
+        },
+        {
+          "title": "CLOUD OF THINGS",
+          "topics": "Introduction to Cloud Storage Models, Grid, SOA, cloud computing, cloud mi ddleware, mobile cloud, Could of Things Architecture, Big -Data Analytics and Visualization, Dependability, Security, Maintainability, IoT Standards. CASE STUDIES: IoT System for weather monitoring-IoT System for home automation- Wi-Fi-controlled Mobile Robot – Remote.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-RAU-C",
+      "title": "Simulation and Modelling",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        35,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction modelling strategy",
+          "topics": "System, environment, input and output variables, State variables; Static and Dynamic systems; Hierarchy of knowledge about a system and Modeling Strategy. Introduction of Physical Modeling: Dimensions analysis, Dimensionless grouping of input and output var iables of find empirical relations, similarity criteria and their application to physical models",
+          "hours": null
+        },
+        {
+          "title": "Modelling of System with Known Structure",
+          "topics": "Review of conservation laws and the governing equation for heat, mass and momentum transfer, Deterministic m odel-(a) distributed parameter models in terms of partial identification and their solutions and (b) lumped parameter models in terms of differential and difference equations, state space model, transfer functions block diagram and sub systems, stability of transfer functions, modelling for control.",
+          "hours": null
+        },
+        {
+          "title": "Optimizations and Design of Systems",
+          "topics": "Summary of gradient based techniques: Nontraditional Optimizations techniques genetic Algorithm (GA) -coding, GA operations elitism, Application using MATLAB: Simulated Annealing.",
+          "hours": null
+        },
+        {
+          "title": "Neural Network Modeling of Systems only with Input -output Database",
+          "topics": "Neurons, architecture of neural networks, knowledge representation, learning algorithm. Multilayer feed forward network and its back propagation learning algorithm, Application to complex engineering systems and strategy for optimum output",
+          "hours": null
+        },
+        {
+          "title": "Modeling Based on Expert Knowledge",
+          "topics": "Fuzzy sets, Membership functions, Fuzzy Inference systems, Expert Knowledge and Fuzzy Models, Design of Fuzzy Controllers. Simulation o f Engineering Systems: Monte-Carlo simulation, Inventory Control Simulation using Monte Carlo Technique, Simulation of continuous and discrete processes with suitable examples from engineering problems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572-RAU-D",
+      "title": "Automatic control & Power System",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        36,
+        36
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION",
+          "topics": "Components of Automatic control systems, Open loop and closed loop systems, Examples, Transfer function, Modelling of physical systems, Mechanical Systems, Translational and Rotational systems, Thermal, Hydraulic systems and E lectrical Systems – Transfer function of DC servomotor, AC servomotor, Potentiometer, Tacho -generator, Stepper motor – Block diagram - reduction techniques, Signal flow graph – Mason‘s gain formula.",
+          "hours": null
+        },
+        {
+          "title": "TIME DOMAIN ANALYSIS",
+          "topics": "Continuous time signals, Standard Test signals, Classification of continuous time systems, Linear- Nonlinear Time variant, Time invariant, Static, Dynamic, Time response of second order system, Time domain specifications, Types of systems, Steady state error constants, Generalized error series, Introduction to P, PI and PID modes of feedback control.",
+          "hours": null
+        },
+        {
+          "title": "STATE SPACE ANALYSIS",
+          "topics": "Limitations of conventional control theory, Concepts of state, state variables and state model, state model for linear time invariant systems, Introduction to state space representation using physical, Phase and canonical variables State equations, Transfer function from the State model, Solutions of the state equations, State Transition Matrix -Concepts of controllability and observability.",
+          "hours": null
+        },
+        {
+          "title": "FREQUE NCY RESPONSE OF SYSTEMS",
+          "topics": "Frequency domain specifications, Estimation for second order systems, Correlation between time and frequency domain specifications for second order systems. SYSTEM STABILITY: Concept of stability, stability & location of the poles in S-plane, Characteristic equation, Routh-Hurwitz stability criterion, Root Locus concepts",
+          "hours": null
+        },
+        {
+          "title": "FREQUENCY DOMAIN ANALYSIS",
+          "topics": "Bode plot, Determination of Transfer Function from Bode plot, All pass minimum phase and non -minimum phase systems, Polar plot - Determination of gain and phase Margins from the plots.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "SEM-580-RAU",
+      "title": "Seminar-I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-RAU",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 5,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Research Methodology",
+          "topics": "Objectives and Motivation of Research, Types of Research, Research Approaches, Significance of Research, Research Methods verses Methodology, Research and Scientific Method, Important of Research Methodology, Research Process, Criteria of Good Research, Problems Encountered by Researchers in India, Benefits to the society in general. Defining the Research Problem: Definition of Research Problem, Problem Formulation, Necessity of Defining the Problem, Technique involved in Defining a Problem.",
+          "hours": null
+        },
+        {
+          "title": "Literature Survey",
+          "topics": "Importance of Literature Survey, Sources of Information, Assessment of Quality of Journals and Articles, Information through Internet. Literature Review: Need of Review, Guidelines for Review, Record of Research Review. Research Design: Meaning of Research Design, Need of Research Design, Feature of a Good Design Important Concepts Related to Research Design, Different Research Designs, Basic Principles of Experimental Design, Developing a Research Plan, Design of Experimental Set -up, Use of Standards and Codes.",
+          "hours": null
+        },
+        {
+          "title": "Data Collection",
+          "topics": "Collection of primary data, Secondary data, Data organization, Methods of data grouping, Diagrammatic representation of data, Graphic representation of data. Sample Design, Need for sampling, some important sampling definitions, Estimation of population, Role of Statistics for Data Analysis, Parametric V/s Non -Parametric methods, Descriptive Statistics, Measures of central tendency and Dispersion, Hypothesis testing, Use of Statistical software",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis",
+          "topics": "Deterministic and random data, Uncertainty analysis, Tests for significance: Chi -square, student ’s t -test, Regression modeling, Direct and Interaction effects, ANOVA, F-test, Time Series analysis, Autocorrelation and Autoregressive modeling. Research Report Writing: Format of the Research report, Synopsis, Dissertation, Thesis its Differentiation, References/Bibliography/Webliography, Technical paper writing/Journal report writing, making presentation, Use of visual aids. Research Proposal Preparation: Writing a Research Proposal and Research Report, Writing Research Grant Proposal.",
+          "hours": null
+        },
+        {
+          "title": "Nature of Intellectual Property",
+          "topics": "Patents, Designs, Trade and Copyright. Process of Patenting and Development: technological research, innovation, patenting, and development. International Scenario: International cooperation on Intellectual Property. Procedure for grants of patents, Patenting under PCT. Patent Rights: Scope of Patent Rights. Licensing and transfer of technology. Patent information and databases. Geographical Indications.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-RAU",
+      "title": "On Job Training/Internship",
+      "semester": 3,
+      "type": "On Job Training/ Internship",
+      "credits": 5,
+      "pages": [
+        42,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-RAU",
+      "title": "Seminar II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 3,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-RAU",
+      "title": "Project Stage I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-RAU",
+      "title": "Seminar III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-RAU",
+      "title": "Project Stage II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

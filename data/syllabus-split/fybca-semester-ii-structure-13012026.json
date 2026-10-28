@@ -1,0 +1,109 @@
+{
+  "id": "fybca-semester-ii-structure-13012026",
+  "kind": "programme",
+  "programme": "Bachelor of Computer Application",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA-151-T",
+      "title": "Advanced C Programming",
+      "semester": 2,
+      "type": "Major Mandatory (Theory)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "CA-152-P",
+      "title": "Lab course on CA-151 – T",
+      "semester": 2,
+      "type": "Major Mandatory (Practical)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "CA-153-T",
+      "title": "Introduction to Microcontrollers",
+      "semester": 2,
+      "type": "Minor (Theory)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "CA-154-P",
+      "title": "Lab course on CA-153-T",
+      "semester": 2,
+      "type": "Minor (Practical)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "CA-155-T",
+      "title": "Linear Alg ebra",
+      "semester": 2,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "CA-156-P",
+      "title": "Lab course on CA-155-T",
+      "semester": 2,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective",
+      "semester": 2,
+      "type": "Open Elective (OE)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "VSEC-151-P",
+      "title": "Software Tools for Business Communication",
+      "semester": 2,
+      "type": "Vocational Skill Enhancement Course (VSEC)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "AEC-151-ENG",
+      "title": "Course from University Basket",
+      "semester": 2,
+      "type": "Ability Enhancement Course (AEC)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": "VEC-151-ENV",
+      "title": "Environment Education - II",
+      "semester": 2,
+      "type": "Value Education Course (VEC)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Physical Education",
+      "semester": 2,
+      "type": "Co-Curricular Courses (CC)",
+      "credits": 2,
+      "pages": [1, 1],
+      "units": []
+    }
+  ],
+  "notes": "Structure table only"
+}

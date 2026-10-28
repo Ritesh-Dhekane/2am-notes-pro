@@ -1,0 +1,148 @@
+{
+  "id": "sybca-semester-iv-syllabus-17-12-2025-23122025",
+  "kind": "programme",
+  "programme": "Bachelor of Computer Application (BCA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA-251-MJ",
+      "title": "Database Management Systems",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database 6",
+          "topics": "1.1 Data, Information, Metadata 1.2 File Processing System vs DBMS 1.3 Need for DBMS 1.4 Database, Types of Databases: Hierarchical, Network, Relational, NoSQL (overview) 1.5 DBMS Architecture: 1-Tier, 2-Tier, 3-Tier,Structure of DBMS 1.6 Components of DBMS: Users, Hardware, Software Database applications in real world (banking, e- commerce, social media)",
+          "hours": null
+        },
+        {
+          "title": "Relational Algebra 10",
+          "topics": "2.1 Codd’s Rule 2.2 Introduction a. Need for relational algebra b. Procedural query language concept 2.3 Basic Relational Algebra Operations a. Selection (σ) b. Projection (π) c. Union (∪) d. Set Difference (−) e. Cartesian Product (×) f. Rename (ρ) g. Joins (⋈) 2.4 Relational database language 2.5 Data definition in SQL, Views 2.6 Queries in SQL, Specifying constraints and Indexes in SQL, Specifying constraints management systems (Extra Reading: Relational Calculus)",
+          "hours": null
+        },
+        {
+          "title": "Relational Model Design – ER Diagram 9",
+          "topics": "3.1 ER Diagram: Representation of Entities, Attributes, Relationships and their Types, Cardinality, Generalization, Specialization, Aggregation - Case Studies 3.2 Database Design – ER to Relational 3.3 E-R to Relational Tables Conversion",
+          "hours": null
+        },
+        {
+          "title": "Relational Model Design – Normalization 9",
+          "topics": "4.1 Database design using Normalization – Normal forms - 1NF, 2NF, 3NF, BCNF 4.2 Case Studies",
+          "hours": null
+        },
+        {
+          "title": "Transaction Management, Concurrency Control & Data",
+          "topics": "Security 6 12% 5.1 Definition of Transaction, state of transactions 5.2 Introduction of schedules 5.3 Introduction to Concurrency control techniques a) locking and b) Deadlock 5.4 Overview of security, backup and Recovery",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-252-MJP",
+      "title": "Lab course on CA-251-MJ",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        5,
+        9
+      ],
+      "units": [
+        {
+          "title": "Lab course on CA-251-MJ",
+          "topics": "Savitribai Phule Pune University Second Year Bachelor of Computer Applications CA – 252 - MJP: Lab course on CA - 251 - MJ Teaching Scheme: Practical: 04 Hrs./Week/ Batch Credits 02 Examination Scheme: Continuous Evaluation: 15 Marks End-Semester: 35 Marks 1. Course Objectives: 2. To understand fundamental concepts of DBMS including data, metadata, architectures, and types of databases. 3. To develop the ability to write and execute SQL queries using DDL, DML, joins, constraints, indexing, and views. 4. To design ER diagrams for real-world applications and convert them into relational schemas with appropriate keys. 5. To enhance database design skills through normalization, identification of functional dependencies, and schema decomposition. 6. To understand and implement concepts of transaction management, concurrency control, database security, backup, and recovery techniques. Course Outcomes: After successful completion of this course, learner will be able to CO1: Explain fundamental DBMS concepts including data, metadata, architectures, database types, relational algebra, and normalization. CO2: Implement SQL operations such as DDL, DML, joins, constraints, indexing, grouping,",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-271-CEP",
+      "title": "Community Services Project",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        10,
+        13
+      ],
+      "units": [
+        {
+          "title": "Community Services Project",
+          "topics": "Savitribai Phule Pune University Second Year Bachelor of Computer Applications CA – 271 - CEP: Community Services Project Teaching Scheme: Practical: 04 Hrs./ Week Credits Examination Scheme: Continuous Evaluation: 15 Marks End-Semester: 35 Marks Course Objectives: 1. To provide exposure to the students and sensitize them for community issues/problems 2. To know levels of community engagements (Informative, participative and decision- making participations) Course Outcomes: After successful completion of this course, the learners will be able to CO1: Identify and define community engagement service to address community problem CO2: Analyze and propose possible solutions to solve community problems. Guidelines for the faculty - A faculty shall be assigned as a guide for each group of 2-3 students. - Assist the group in choosing a suitable community project topic and defining clear objectives and expected outcomes. - Guide students in planning surveys, questionnaires, data collection methods, and using the necessary tools and resources. - Provide advice on possible solutions and approaches to address the community issues effectively. - Monitor the students’ progress throughout the se",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-251-MN",
+      "title": "Communication Networks",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Networking layers 8",
+          "topics": "1.1 Introduction to Communication Network 1.2 Key components 1.3 Need for layering 1.4 ISO-OSI 7 Layer Model 1.5 TCP/IP model 1.6 OSI Model vs TCP/IP model 1.7 Data Encapsulation 1.8 PDU Formation 1.9 Data Link Standards",
+          "hours": null
+        },
+        {
+          "title": "Network Protocols Concepts and Applications 10",
+          "topics": "2.1 Core Protocol Suites and Addressing TCP/IP 2.2. IPv4 addressing 2.2.1. Basic sub netting concepts with numerical 2.3. Fundamentals of IPv6 2.3.1. Advantages of IPv6 2.3.2. Addressing scheme 2.4. Private Networks (VPNs) Tunneling Protocols 2.4.1. PPTP 2.4.2. L2TP 2.4.3. IPsec framework for secure communication. 2.5. HTTP and HTTPS 2.6. FTP for file transfer TELNET 2.7. Electronic Mail Protocols",
+          "hours": null
+        },
+        {
+          "title": "Windows Server & Network Security 12",
+          "topics": "% 3.1.Fundamentals of Windows 3.1.1Windows 11 Client Operating System 3.1.2 Key features 3.1.3 Applications 3.2 Windows Server 2022 3.2.1. Key features 3.2.2 Editions 3.4 Network Security 3.4.1 Introduction and need for Network Security 3.4.2 CIA Triangle(Confidentiality , Integrity , Availability) 3.4.3 Common Threats 3.4.4 Active and Passive attacks 3.4.5. Cryptography (Symmetric and Asymmetric) 3.5. Firewall 3.5.1 Functions 3.5.2 Types 3.5.3 Architecture 3.5.4 Limitations 3.5.5 Security",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-251-MNP",
+      "title": "Lab course on CA -291 –MN",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        17,
+        20
+      ],
+      "units": [
+        {
+          "title": "Lab course on CA -291 –MN",
+          "topics": "Savitribai Phule Pune University Second Year Bachelor of Computer Applications CA - 251 - MNP: Lab course on CA -291 –MN Teaching Scheme: Practical: 04 Hrs./Week/ Batch Credits Examination Scheme: Continuous Evaluation: 15 Marks End-Semester: 35 Marks Course Objectives: 1. To understand the basic ideas, structure, and hardware used in different computer networks. 2. To study the TCP/IP protocol suite including its layer models, addressing schemes. 3. To study how Windows systems work and understand the basics of network security and firewalls. Course Outcomes: After successful completion of this course, learner will be able to CO1: Understand the principles of the OSI and TCP/IP models CO2: Apply network protocol fundamentals to configure IPv4 and IPv6 addressing CO3: Understand the Windows Server features & network security fundamentals Guidelines for Instructor's Manual The instructor shall prepare an instructor's manual consisting of university syllabus, conduction and Assessment guidelines. Instructors can use mentioned tools for the demonstration, almost all tools are available for free:- PC/Laptop, Notepad, Internet browser, optional OSI simulator Wireshark, Internet connecti",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CA-251-CEP",
+      "title": "Community Engagement Program through Social Awareness",
+      "semester": 4,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": [
+        {
+          "title": "Community Engagement Program through Social Awareness",
+          "topics": "Savitribai Phule Pune University Second Year Bachelor of Computer Applications Course Code: CA - 251 - CEP Course Name: Community Engagement Program through Social Awareness Teaching Scheme: Theory: 04 Hrs./Week Credits 2 credits Examination Scheme: Continuous Evaluation: 00 Marks End-Semester: 50 Marks This will be of 60 Hrs. Duration and to be conducted on field in collaboration with any NGO. Detail guidelines will be shared soon.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

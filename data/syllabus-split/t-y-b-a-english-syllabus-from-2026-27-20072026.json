@@ -1,0 +1,393 @@
+{
+  "id": "t-y-b-a-english-syllabus-from-2026-27-20072026",
+  "kind": "programme",
+  "programme": "T.Y.BA. English",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ENG-301-MJ",
+      "title": "Appreciating Novel",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Theory of Novel",
+          "topics": "1. Definition and evolution of the novel 2. Elements of the Novel: o Plot, Character, Theme o Narrative Techniques & Point of View o Setting, Conflict, Structure 3. Types of Novels: o Bildungsroman o Realistic Novel o Psychological Novel o Historical Novel o Postcolonial Novel o Science Fiction o Dystopian Fiction 4. Key Literary Terms related to fiction",
+          "hours": 30
+        },
+        {
+          "title": "Text",
+          "topics": "Nineteen Eighty-Four by George Orwell Practical",
+          "hours": 30
+        }
+      ]
+    },
+    {
+      "code": "ENG-302-MJP",
+      "title": "Appreciating Novel (Practical)",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        7,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-303-MJ",
+      "title": "Introduction to Literary Criticism",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Romantic Criticism",
+          "topics": "1. S. t. Coleridge’s theory of imagination (Ref. Biographia Literaria) 2. Wordsworth’s rejection of neo-classical concept of poetry (Ref. Preface to Lyrical Ballads) 3. P. B. Shelley’s views on poetry (Ref. ‘A Defense of Poetry’)",
+          "hours": 15
+        },
+        {
+          "title": "Victorian Criticism",
+          "topics": "1. The function of criticism according to Matthew Arnold (Ref. ‘The Function of Criticism at the Present Time’) 2. John Ruskin’s three orders of imagination (Re. Modern Painters II) 3. Walter Pater’s views on style in poetry (Ref. ‘On Style’) Practical",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ENG-304-MJP",
+      "title": "Introduction to Literary Criticism (Practical)",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-310-MJE",
+      "title": "Studying Autobiography",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Autobiography (Background Study)",
+          "topics": "Definition of Autobiography. Characteristics of Autobiography Elements of Autobiography Types of Autobiography Difference between Autobiography and Biography",
+          "hours": 10
+        },
+        {
+          "title": "Autobiography (Literary Study)",
+          "topics": "Sachin Tendulkar: Playing It My Way Practical",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "ENG-311-MJEP",
+      "title": "Studying Autobiography (Practical)",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        19,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-312-MJE",
+      "title": "Studying Short Story",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Short Story (Background Study)",
+          "topics": "1. Definition of Short Story 2. Characteristic Features of Short Story 3. Elements of Short Story 4. Types of short story",
+          "hours": 6
+        },
+        {
+          "title": "Short Story (Literary Study)",
+          "topics": "1.R.K. Narayan: Under the Banyan Tree 2. Hansda Shekhar: The Adivasi will not Dance 3. Katherine Mansfield: Miss Brill",
+          "hours": 12
+        },
+        {
+          "title": "Short Story (Literary Study)",
+          "topics": "1. Somerset Maugham: The Verger 2. Shirley Jackson: The Lottery 3. Stephen Crane: A Dark Brown Dog Practical",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "ENG-313-MJEP",
+      "title": "Studying Short Story (Practical)",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        23,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-321-VSC",
+      "title": "Linguistics: Theory and Practice",
+      "semester": 5,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        27,
+        30
+      ],
+      "units": [
+        {
+          "title": "Branches of Linguistics",
+          "topics": "1. Phonetics 2. Phonology 3. Morphology 4. Syntax 5. Semantics 6. Pragmatics 7. Historical Linguistics 8. Sociolinguistics 9. Psycholinguistics 10. Computational Linguistics 11. Applied Linguistics",
+          "hours": 15
+        },
+        {
+          "title": "Syntax",
+          "topics": "1. Phrase Structure Rules 2. Types of Phrases 3. Clauses 4. Parts of Clauses 5. Types of Sentences Note: Units from Semester V in the textbook Illumination: Theory and Practice of Language are prescribed for both Semester V and Semester VI. No units are prescribed from Semester VI.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ENG-331-FP",
+      "title": "Digital Humanities (Practical)",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        30,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-391-MN",
+      "title": "Travel Literature",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        33,
+        37
+      ],
+      "units": [
+        {
+          "title": "Orientation",
+          "topics": "1. Meaning, nature and scope of Travel Literature. 2. History of Travel Literature: Classical Travel Narratives, Medieval Travel Narratives, Colonial Travel Writing, Indian Travel Writing, Contemporary Travel Writing. 3. Forms of Travel Literature: travelogues, journals and diaries, travel memoirs, digital travel narratives (Blogs and social media) Unit II Texts 15 Clock Hours 1. Pico Iyer: Why we Travel? 2. Amitav Ghosh: In an Antique Land",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "ENG-351-MJ",
+      "title": "Appreciating Novel",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "Text: The White Tiger by Arvind Adiga",
+          "topics": null,
+          "hours": 30
+        },
+        {
+          "title": "Text: The Beloved by Tony Morrison",
+          "topics": "Practical",
+          "hours": 30
+        }
+      ]
+    },
+    {
+      "code": "ENG-352-MJP",
+      "title": "Appreciating Novel (Practical)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        39,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-353-MJ",
+      "title": "Introduction to Literary Criticism",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Modern Criticism",
+          "topics": "1. T. S. Eliot’s criticism of William Wordsworth’s definition of poetry (Ref. ‘Tradition and the Individual Talent’) 2. I. A. Richards’ Concept of Four Kinds of Meaning (Ref. Practical Criticism: A Study of Literary Judgement) 3. William Empson’s concept of ambiguity (Ref. Seven Types of Ambiguity)",
+          "hours": 20
+        },
+        {
+          "title": "New Criticism",
+          "topics": "1. The New Critical concept of autotelic text 2. John Crowe Ransom’s concept of criticism (Ref. ‘Criticism, Inc.’) 3. Cleanth Brooks’ concept of heresy of paraphrase (Ref. The Well Wrought Urn)",
+          "hours": 20
+        },
+        {
+          "title": "Key Concepts",
+          "topics": "1. Key concepts of Marxist criticism 2. Key concepts of Psychoanalytical criticism 3. Key concepts of Feminist criticism 4. Key Concepts of Postcolonial criticism",
+          "hours": 20
+        },
+        {
+          "title": "Critical Concepts",
+          "topics": "1. Impact of psychoanalysis on literature according to Lionel Trilling (Ref. ‘Freud and Literature’) 2. Simone de Beauvoir's concept of woman as other (Ref. The Second Sex) Practical",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "ENG-354-MJP",
+      "title": "Introduction to Literary Criticism (Practical)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        43,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-360-MJE",
+      "title": "Studying Memoir",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Memoir (Background Study)",
+          "topics": "1. Definition of Memoir 2. Characteristics of Memoir 3. Elements Memoir 4. Types of Memoirs 5. Difference between Memoir and Autobiography",
+          "hours": 10
+        },
+        {
+          "title": "Memoir (Literary Studies)",
+          "topics": "Sudha Murty: The Old Man and His God: Discovering the Spirit of India Practical",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "ENG-361-MJEP",
+      "title": "Studying Memoir (Practical)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        47,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-362-MJE",
+      "title": "Studying One Act Play",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        50,
+        50
+      ],
+      "units": [
+        {
+          "title": "One Act Play",
+          "topics": "Definition of One-Act Play Characteristics of One-Act Play Elements of One-Act Play Types of One-Act Plays",
+          "hours": 6
+        },
+        {
+          "title": "One Act Play (Literary Studies)",
+          "topics": "1. Ravindranath Tagore: Chitra 2. Floyd Dell: Sweet and Twenty 3. August Strindberg: Pariah Practical",
+          "hours": 24
+        }
+      ]
+    },
+    {
+      "code": "ENG-363-MJEP",
+      "title": "Studying One Act Play (Practical)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        50,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "ENG-371-VSC",
+      "title": "Linguistics: Theory and Practice",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        54,
+        56
+      ],
+      "units": [
+        {
+          "title": "Practical-I",
+          "topics": "(Expressing Likes, Dislikes, Hopes, Wishes, Regrets, Concerns, Sympathy, Condolences etc.)",
+          "hours": 30
+        },
+        {
+          "title": "Practical-II",
+          "topics": "(Quantity, Manner, Frequency, Assuming, Inferring, Comparisons, Words and Actions etc.)",
+          "hours": 30
+        }
+      ]
+    },
+    {
+      "code": "ENG-381-OJT",
+      "title": "On Job Training (Practical)",
+      "semester": 6,
+      "type": "On Job Training",
+      "credits": 4,
+      "pages": [
+        56,
+        61
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

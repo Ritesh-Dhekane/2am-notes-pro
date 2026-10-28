@@ -1,0 +1,428 @@
+{
+  "id": "s-y-b-sc-physics-09072025",
+  "kind": "programme",
+  "programme": "Second Year B.Sc. Program in Physics",
+  "pattern": "2023",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PHY-201-MJ",
+      "title": "Mathematical Physics-I",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Complex Numbers",
+          "topics": "1.1 Introduction to Complex Numbers 1.2 Rectangular, Polar and Exponential forms of a complex numbers 1.3 De Moivre’s Theorem 1.4 Power, Root and Logarithm of Complex number 1.5 Trigonometric, Exponential and Hyperbolic Functions 1.6 Applications of Complex Numbers in Physics Numerical Problems",
+          "hours": 10
+        },
+        {
+          "title": "Partial Differentiation",
+          "topics": "2.1 Introduction of Partial Differentiation 2.2 Successive, Total and Exact Differentiation 2.3 Chain Rule 2.4 Theorems of Differentiation 2.5 Implicit and explicit functions 2.6 Applications of Partial differentiation in Physics Numerical Problems",
+          "hours": 8
+        },
+        {
+          "title": "Scalar and Vector Algebra",
+          "topics": "3.1 Introduction to Scalars and Vectors 3.2 Scalar and Vector product of two vectors 3.3 Scalar Triple Product 3.4 Vector Triple Product 3.5 Scalar and Vector Fields 3.6 Laplacian operator 3.7 Gradient of Scalar field and its physical significance 3.8 Divergence of scalar field and its physical significance 3.9 Curl of vector field and its significance 3.10 Vector Identities Numerical Problems 15 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 15",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PHY-202(A)-MJ",
+      "title": "Electronics",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Semiconductor Devices",
+          "topics": "1.1. Introduction to Diodes 1.2. Transistors: Construction, Symbol, and its types 1.3. Bipolar Junction Transistor (BJT): 1.3.1 Operation of BJT. 1.3.2 BJT Circuit Configuration a) Common base (CB) configuration, b) Common emitter (CE) configuration, c) Common collector (CC) configuration, d) Current gain factors ( and ) and their relations 1.3.3 Input, and Output characteristics of CE configuration. 1.3.4 Biasing method : Voltage divider Bias method (Load line and Operating point (Q-point)). 1.3.5 Applications: a) Transistor as a switch. b) Transistor as an amplifier. 1.4. Unijunction Transistor (UJT): 1.4.1 Construction, Symbol, working principle of UJT 1.4.2 Application of UJT (states the list) Numerical Problems",
+          "hours": 10
+        },
+        {
+          "title": "Operational Amplifiers",
+          "topics": "2.1. Introduction to OP-amp: 17 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 17 2.1.1 Symbol and Internal block diagram of OP-AMP 2.1.2 OP-AMP parameters 2.1.3 Pin diagram of Op-Amp and Feedback (introduction) 2.1.4 Ideal characteristics of OP-AMP 2.2. Concept of: 2.2.1 Virtual ground, 2.2.2 Real ground, 2.2.3 Difference between virtual and real ground. 2.3.Applications of Op-Amp: 2.3.1 Inverting Amplifier, 2.3.2 Non-Inverting Amplifier, 2.3.3 Op-Amp as an Adder, 2.3.4 Op-Amp as subtractors, Numerical Problems",
+          "hours": 10
+        },
+        {
+          "title": "Digital Electronics",
+          "topics": "3.1. Introduction to Analog and Digital Signals: 3.1.1 Logic Levels and 3.1.2 Digital Waveforms 3.2. Number System and Interconversion: 3.2.1 Binary, 3.2.2 Octal, 3.2.3 Hexadecimal 3.3. Binary Arithmetic: 3.3.1 Addition 3.3.2 Subtraction (1’s and 2’s complement only) 3.4. Boolean Algebra and Logic Gates: 3.4.1 Basic gates with truth table : OR, AND, NOT 3.4.2 Boolean algebra laws 3.4.3 Derived gates : NOR, NAND, EX-OR, EX-NOR 3.5 De Morgan Theorem (First and Second) Numerical Problems",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY-202(B)-MJ",
+      "title": "Instrumentation",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Measurement",
+          "topics": "1.1 Aims of measurement 1.2 Functional elements of typical measurement system (block diagram and its explanation) 1.3 Standard measurements and types of calibration methods 1.4 Static characteristics (accuracy, precision, sensitivity, linearity, repeatability, reproducibility, drift, hysteresis, resolution , range, span, dead zone) 1.5 Dynamic characteristics: concepts, first and second order systems, examples of first-order resistance thermometer and thermal element, examples of second order: U -tube manometer and seismic motion 1.6 Errors in measurement Numerical Problems",
+          "hours": 8
+        },
+        {
+          "title": "Transducers",
+          "topics": "2.1 Classification of Transducers and its characteristics 2.2 Displacement Transducer a. Resistive Type: Linear and Angular (Rotary) Potentiometer, Strain Gauge: Bonded and Unbonded b. Inductive Type: 20 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 20 Self inductive: Variable number of turns, Variable Reluctance Mutual Inductive: LVDT c. Piezoelectric Type: Quartz Crystal 2.3 Force Transducer: Cantilever beam, Column type devices",
+          "hours": 9
+        },
+        {
+          "title": "Measurement of Pressure and Temperature",
+          "topics": "3.1 Unit of pressure, concept of vacuum, absolute gauge, and differential pressure 3.2 Elastic transducer – diaphragm, corrugated diaphragm, bellows, Bourdon tube 3.3 Electric type – strain gauge. 3.4 Pressure transducer – calibration by dead weight tester method. 3.5 Temperature Measurement 3.5.1 Scales for temperature: Celsius, Kelvin and Fahrenheit 3.5.2 Temperature Measurement Techniques a. Non-electrical: Liquid filled thermometer and bimetallic thermometer b. Electrical Methods: i) Platinum Resistance Thermometer ii) Thermistor: PTC and NTC with characteristics iii) Thermocouple: Seebeck effect and Peltier effect, iv) Types of Thermocouple Numerical Problems.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PHY-203-MJP",
+      "title": "General Physics Lab-III",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-251-MJ",
+      "title": "Oscillation, Waves and Sound",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Oscillation",
+          "topics": "1. Undamped (Free) Oscillation o Introduction o Simple Harmonic Motion (SHM) and its Properties o Differential equation for undamped oscillations and its solution o Applications of SHM in Day-to-Day Life Examples: Simple Pendulum, Springs (Clocks, Musical Instruments, etc.) o Composition of two SHM o Lissajous figures and its application 2. Damped Oscillation o Introduction o Differential equation for damped oscillations and its solution o Applications of damped oscillations in Day-to-Day Life a) Forced Oscillations o Differential Equation for a Forced Oscillator and Its Solution o Coupled Oscillation b) Resonance o Types of Resonance o Applications of Resonance in Daily Life c) Log decrement Numerical Problems",
+          "hours": 12
+        },
+        {
+          "title": "Wave Motion",
+          "topics": "2.1 Introduction to Wave Motion o Definition of Waves o Longitudinal and Transverse Waves o Characteristics of Waves 2.2 Applications of Longitudinal and Transverse Waves in Day- to-Day Life 2.3 Seismic Waves o Qualitative Discussion o Applications 2.4 Gravitational Waves o Qualitative Discussion o Applications 2.5 Standing Waves o Qualitative Discussion o Applications: • Structural Engineering (Vibrations in Buildings and Bridges) • Microwaves in Ovens • Musical Instruments (Strings and Air Columns) 25 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 25 Numerical Problems",
+          "hours": 10
+        },
+        {
+          "title": "Sound and Doppler Effect",
+          "topics": "3.1 Introduction to Sound o Definition of Sound o Types of Sound Waves:  Audible  Infrasonic  Ultrasonic o Musical Sound vs. Noise 3.2 Concept of Reverberation Time and Reverberation in a Hall 3.3 Sabine’s Formula 3.4 Doppler Effect o Explanation of the Doppler Effect o Applications: • Red Shift and Blue Shift • Medical Imaging • Radar and Speed Trap Guns Numerical Problems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PHY-252-MJ",
+      "title": "Optics",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Geometrical Optics",
+          "topics": "1.1 Introduction to lenses and sign conventions. 1.2 Thin lenses: lens equation for convex lens 1.3 Lens maker equation 1.4 Magnification, deviation and power of thin lens 1.5 Concept of Equivalent focal length and cardinal points 1.6 Aberration and its types 1.7 Types of Monochromatic aberrations: Coma and Astigmatism and their reduction 1.8 Types of chromatic aberrations: Longitudinal and Lateral 1.9 Applications of lenses in daily life Numerical Problems",
+          "hours": 12
+        },
+        {
+          "title": "Interference and Diffraction",
+          "topics": "Interference 2.1 Introduction to Interference 2.2 Phase change on reflection. (Stokes treatment) 28 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 28 2.3 Optical Path 2.4 Interference due to wedge shaped thin film 2.5 Applications of Interference : Newton’s ring Diffraction 2.6 Introduction to Fresnel’s and Fraunhoffer’s diffraction 2.7 Fraunhoffer’s diffraction at single slit, 2.8 Rayleigh criterion for resolution 2.9 Applications of Diffraction: Security holograms, medical imaging, etc. Numerical Problems",
+          "hours": 10
+        },
+        {
+          "title": "Polarization and Optical Instruments",
+          "topics": "3.1 Introduction to polarization 3.2 Brewster’s law 3.3 Law of Malus 3.4 Polarization by double refraction 3.5 Nicol Prism 3.6 Microscope : Simple and Compound Microscope 3.7 Eye piece : Ramsden’s and Huygens’s eye piece Numerical Problems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PHY-253-MJP",
+      "title": "General Physics Lab-IV",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-241-MN",
+      "title": "Applied Physics-I",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        32,
+        34
+      ],
+      "units": [
+        {
+          "title": "Nanotechnology and its Applications",
+          "topics": "1.1 Introduction to Nanotechnology and nanoscience 1.2 Nanomaterials and its properties 1.3 Introduction to synthesis of materials using various methods 1.4 Applications of nanomaterials",
+          "hours": 8
+        },
+        {
+          "title": "LASERS and its Applications",
+          "topics": "2.1 Introduction to LASER 2.2 Principles of LASER action 2.3 Einstein’s Coefficient 2.4 Characteristic of LASER Light 2.5 Population Inversion 2.6 Components of Lasers 2.7 Types of LASER 2.8 Applications of LASER",
+          "hours": 7
+        },
+        {
+          "title": "Physics basis of Life",
+          "topics": "3.1 Introduction to Biophysics : Definition and Scope, Importance of physics principles in understanding biological systems, Applications of biophysics in medicine, biology, and technology 3.2 Molecular Basis of Life : Structure and function of proteins, DNA and RNA, Water as a biological solvent: Properties and significance, Concept of molecular interactions: Hydrogen bonding, Van der Waals forces, and hydrophobic interactions",
+          "hours": 7
+        },
+        {
+          "title": "Astrophysics and Space Mission",
+          "topics": "4.1 Astrophysics: Planets, Asteroids, Meteors, Comets. Origin and age of solar System, distances, physical size, mass, density, temperature, rotation period determination, Celestial hemisphere, Galaxies, Dark Matter and Dark Energy, the universe, Light a nd telescopes, Cosmology, 4.2 Space Mission: Natural and Artifical Sattelite, Geosyncronysed and Geostationary Sattelite, Different organization working in Space Mission, Purpose, Indian Organization -ISRO, Different Mission of ISRO and their purpose. Targets achived by ISRO. Applications of Space Missions to human beings. 34 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 34",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PHY-242-MNP",
+      "title": "Applied Physics Lab-I",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-291-MN",
+      "title": "Applied Physics-II",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Artificial Intelligence in Physics",
+          "topics": "1. Introduction to AI, Machine learning, deep learning, and neural networks 2. Current research and applications of AI in Phys ics such as Materials Physics, Astrophysics etc., 3. Ethics and limitations of AI in Physics research and applications",
+          "hours": 8
+        },
+        {
+          "title": "Data Analysis in Physics",
+          "topics": "1. Overview of data analysis 2. Types of data (experimental, simulated, observational) 3. Statistical analysis (mean, median, variance, standard deviation) and Error analysis. 4. Data filtering, cleaning and normalization, 38 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 38 5. Data visualization and exploration using e.g. Origin, Microsoft Excel etc.",
+          "hours": 8
+        },
+        {
+          "title": "Instrumentation",
+          "topics": "1. Introduction and Overview of instrumentation in physics 2. Types of instruments (analog, digital, hybrid) 3. Measurement principles (accuracy, precision, resolution) 4. Introduction to electrical and electronic instruments : A) Multimeters B) Oscilloscopes C) signal generators etc. 5. Introduction to Optical and Spectroscopic Instruments : A) Spectrometers (visible, UV, IR) B) Microscopes (optical, electron) C) Interferometers etc.",
+          "hours": 14
+        }
+      ]
+    },
+    {
+      "code": "PHY-292-MNP",
+      "title": "Applied Physics Lab-II",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-221-VSC-P",
+      "title": "Introduction to Computational Physics-I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        41,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-271-VSC-P",
+      "title": "Introduction to Computational Physics-II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "IKS-201-PHY",
+      "title": "India’s Contribution to Physics",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": 2,
+      "pages": [
+        47,
+        51
+      ],
+      "units": [
+        {
+          "title": "Ancient Indian Contributions to Physics",
+          "topics": " Philosophical Foundations: o Nyaya and Vaisheshika schools: Concepts of atoms (anu), time. o Classification of Predicable (Padartha), States of matter, Theory of gravitation and laws of motion in Vaisheshik Philosophy o Vedic concepts about Electricity, Sound and accoustics  Astronomy and Physics in Vedic Texts: o Astronomical references in the Vedas o Astronomical model and algorithms of the Vedāṅga-jyotiṣa o The Pañca-siddhāntikā of Varāhamihir- Meteorology and planetary science o Āryabhaṭīya of Āryabhaṭa o Calendrical computations",
+          "hours": 8
+        },
+        {
+          "title": "Modern Indian Physicists and Their Contributions",
+          "topics": "Contributions 08 H  19th and Early 20th Century: o J.C. Bose:  Contributions to electromagnetism and the demonstration of wireless communication.  Studies on the properties of metals and plant physiology from a physical perspective. o C.V. Raman:  Raman Effect: Scattering of light and its implications in spectroscopy.  Nobel Prize-winning work and its applications. o Meghnad Saha:  Saha Ionization Equation: Its importance in astrophysics and stellar atmospheres. o Satyendra Nath Bose: 49 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 49  Bose-Einstein statistics and its role in quantum mechanics.  Collaboration with Albert Einstein.  Post-Independence Era: o Homi Bhabha:  Development of nuclear physics in India.  Contributions to cosmic ray research. o Vikram Sarabhai:  Contributions to space physics and the establishment of ISRO. o Harish-Chandra: o Work in mathematical physics and representation theory.",
+          "hours": 8
+        },
+        {
+          "title": "India in Global Physics Research",
+          "topics": " Development of Research Institutions: o Indian Association for the Cultivation of Science (IACS). o Tata Institute of Fundamental Research (TIFR). o Saha Institute of Nuclear Physics. o Physical Research Laboratory (PRL).  Major Experiments and Discoveries: o Raman Spectroscopy and its modern applications. o Advances in particle physics and neutrino studies at INO (India-based Neutrino Observatory). o Contributions to LIGO and gravitational wave detection.",
+          "hours": 8
+        },
+        {
+          "title": "Contemporary Indian Contributions",
+          "topics": " Space and Astrophysics: o Contributions of ISRO in space exploration and physics. o Astrosat and its role in multi-wavelength astronomy.  Quantum Physics and Material Science: o Research in Bose-Einstein condensates and quantum computing. 50 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 50 o Advances in nanotechnology and material physics by Indian scientists.  High-Energy Physics: o Participation in CERN and the Large Hadron Collider. o Indian contributions to the study of Higgs boson",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-221-PHY -T",
+      "title": "Eco-friendly Energy for Modern Living",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to Renewable Energy",
+          "topics": "1.1 Conventional and Non-conventional energy sources 1.2 Renewable energy 1.3 Needs and importance of renewable energy sources",
+          "hours": 5
+        },
+        {
+          "title": "Renewable energy sources",
+          "topics": "53 rbb Savitribai Phule Pune University, Pune (SYBSc Physics, NEP-Pattern-2023) 53 2.1 Solar energy & importance of solar energy, Advantages, Disadvantage and Applications (solar photovoltaic system, solar water heater, solar distillation, solar cooker) (Only the different applications listing) 2.2 Wind Energy, advantages and limitations of wind energy, Advantages, Disadvantage and Applications (only listing the different applications) 2.3 Tidal Energy, advantages of tidal energy, applications and limitations of tidal energy, Advantages, Disadvantage and Applications (only listing the different applications) 2.4 Hydropower energy Advantages, Disadvantage and Applications (only listing the different applications) 2.5 Environmental impact of conventional energy sources.",
+          "hours": 15
+        },
+        {
+          "title": "Application in daily life",
+          "topics": "3.1 Construction and working of Wind mill 3.2 Construction and working of solar cooker 3.3 Use of wind energy in Agriculture and Food Production 3.4 Case study of Residential Solar Power Systems or Hospital Solar Power Systems 3.5 Study the website of the Tidal energy producing company 3.6 Study of hydro power plant",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OE-271-PHY -P",
+      "title": "Li-Battery - Repairing and Maintenance",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        54,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251-PHY-P",
+      "title": "Basic Instrumentation Skills",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        57,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-252-PHY-P",
+      "title": "Sensors and Detection Technology",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        59,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-253-PHY-P",
+      "title": "Introduction to Physics of Devices",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        62,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-254-PHY-P",
+      "title": "Technical Design and Drawing of Electronic Circuit",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        64,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "FP",
+      "title": "Field Project",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        66,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "CEP",
+      "title": "Community Engagement Programme",
+      "semester": 4,
+      "type": "Community Engagement Programme",
+      "credits": 2,
+      "pages": [
+        69,
+        70
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

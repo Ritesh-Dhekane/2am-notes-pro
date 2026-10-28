@@ -1,0 +1,478 @@
+{
+  "id": "rules-and-regulations-for-mca-under-engineering-programme-2025-pattern-18022026",
+  "kind": "programme",
+  "programme": "Master of Computer Applications (Under Engineering)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-MCA",
+      "title": "Mathematical foundation for Computer Application",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-502-MCA",
+      "title": "Data Structures and Algorithms",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-503-MCA",
+      "title": "Object Oriented Programming",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-530-MCA",
+      "title": "Research Methodology",
+      "semester": 1,
+      "type": "RM",
+      "credits": 3,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-520A-MCA",
+      "title": "A. Artificial Intelligence",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-520B-MCA",
+      "title": "B. Mobile Computing",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-520C-MCA",
+      "title": "C. Data Analytics",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-504-MCA",
+      "title": "Data Structures Laboratory",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-505-MCA",
+      "title": "Object Oriented Programming Laboratory",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-MCA",
+      "title": "Elective-I Laboratory",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-506-MCA",
+      "title": "Python Programming Laboratory",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-MCA",
+      "title": "Operating System and Network Fundamentals",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-552-MCA",
+      "title": "Database Management System",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-553-MCA",
+      "title": "Software Engineering and Project Management",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-554-MCA",
+      "title": "Java and Advance Java Programming",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-570A-MCA",
+      "title": "A. Machine Learning",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-570B-MCA",
+      "title": "B. Internet of Things",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-570C-MCA",
+      "title": "C. Data Mining and Data Warehousing",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-555-MCA",
+      "title": "Java Programming Laboratory",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-556-MCA",
+      "title": "Database Laboratory",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-557-MCA",
+      "title": "Project Based Learning",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "OJT-581-MCA",
+      "title": "Internship",
+      "semester": 2,
+      "type": "Internship/OJT (IN/OJT)",
+      "credits": 3,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-601-MCA",
+      "title": "Software Testing and Quality Assurance",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-602-MCA",
+      "title": "Data Science",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-603-MCA",
+      "title": "Web Technology",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-604-MCA",
+      "title": "Cyber Security",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-620A-MCA",
+      "title": "A. Deep learning",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-620B-MCA",
+      "title": "B. Block Chain",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-620C-MCA",
+      "title": "C. Business Intelligence",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-605-MCA",
+      "title": "Lab Practice-I",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-606-MCA",
+      "title": "Web Technology Laboratory",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-607-MCA",
+      "title": "Cyber Security Laboratory",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-608-MCA",
+      "title": "Corporate Communication and Aptitude Skills Development",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-631-MCA",
+      "title": "Research Project",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 3,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-670A-MCA",
+      "title": "A. Generative AI and Prompt Engineering",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-670B-MCA",
+      "title": "B. Dev Ops",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-670C-MCA",
+      "title": "C. Cloud Computing",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-680-MCA",
+      "title": "Technical Seminar",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "OJT-681-MCA",
+      "title": "Field Project/Major Project",
+      "semester": 4,
+      "type": "Internship/OJT (IN/OJT)",
+      "credits": 15,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    }
+  ],
+  "notes": "Structure and rules for Two Years MCA (Under Engineering) Programme 2025 Pattern. Course details/syllabi are published separately."
+}
