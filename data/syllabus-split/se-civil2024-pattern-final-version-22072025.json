@@ -1,0 +1,554 @@
+{
+  "id": "se-civil2024-pattern-final-version-22072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (2024 Pattern) - Revised Civil Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-CVL",
+      "title": "Mechanics of Structures",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Simple Stresses and Strains",
+          "topics": "Concepts, Types, Stress-Strain Diagram (elastic, plastic, brittle materials), Concept of axial stresses (compression, tension), strains (linear, lateral, shear, volumetric), Elastic constants and their relations, Stresses and strains due to change in temperature, Stresses, strains, and deformations in determinate and indeterminate structures for homogeneous and composite sections under concentrated loads and temperature changes.",
+          "hours": 8
+        },
+        {
+          "title": "Shear Force and Bending Moment",
+          "topics": "Concept of shear force and bending moment, Relationship between shear force, bending moment, and intensity of loading, Shear force and bending moment diagrams for determinate beams under different loadings (concentrated, uniformly distributed, uniformly varying loads, and couples), Point of Contra-flexure & inflexion.",
+          "hours": 8
+        },
+        {
+          "title": "Bending and Shear Stresses in Beams",
+          "topics": "Bending Stresses in Beams: Theory of simple bending, assumptions, derivation of flexure formula, Bending stress distribution diagrams and Moment of Resistance of cross-sections. Shear Stresses in Beams: Concept of shear, complementary shear, derivation of shear stress formula, Shear stress distribution for various cross-sections, maximum and average shear stress for circular and rectangular sections.",
+          "hours": 8
+        },
+        {
+          "title": "Torsion, Principal Stresses and Strains",
+          "topics": "Torsion of Circular Shafts: Theory of torsion, assumptions, derivation of torsion formula, Stresses, strains and deformations in determinate and indeterminate shafts of solid and hollow sections under twisting moments, Power transmitted by shafts. Principal Stresses and Strains: Concept of principal planes and principal stresses, Normal and shear stresses on an oblique plane, magnitude and orientation of principal stresses, maximum shear stress.",
+          "hours": 8
+        },
+        {
+          "title": "Axially Loaded Columns, Slope and Deflection of Beams",
+          "topics": "Axially Loaded Columns: Concept of critical load and buckling, Euler's formula for buckling load with hinged ends, Equivalent length for various end conditions, Rankine's formula, safe load on column, limitations of Euler's formula. Direct and bending stresses for eccentrically loaded short columns, Structural components under eccentric loading (retaining walls, dams, chimneys), Effect of lateral force and self-weight, resultant stress diagrams, Concept of core of section. Slope and deflection of determinate beams by Macaulay's method.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-CVL",
+      "title": "Surveying",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Distance Measurements and Angle Measurement",
+          "topics": "Introduction, definition, object of survey, primary division of surveying, classification of surveys, principles of surveying, units of measurement, scale and R.F. Instruments for measuring distance, Survey stations, base line, check line, tie line and offsets. Booking field notes. Modern instruments: drone surveying, laser scanners, SBPS. Compass traversing: prismatic compass, bearing of lines, meridians, WCB and RB system, fore and back bearings, local attraction, dip, magnetic declination. Plane table surveying: accessories, methods: radiation, intersection, traversing and resection. DGPS equipment.",
+          "hours": 8
+        },
+        {
+          "title": "Levelling",
+          "topics": "Object and use of levelling, definitions, types of levels: dumpy level, auto level, digital level, laser level. Levelling staff. Temporary adjustment of level, types of levelling operations: simple, differential, fly, longitudinal profile, cross-sectional levelling, checks. Curvature and refraction correction. Reciprocal levelling. Methods of calculation of reduced level: collimation system and rise and fall system. Permanent adjustment of level: two peg test.",
+          "hours": 8
+        },
+        {
+          "title": "Theodolite Traversing",
+          "topics": "Study of 20\" vernier transit theodolite, definitions, fundamental lines (axes), conditions of adjustments, temporary adjustments, measurement of horizontal angle by repetition and reiteration method. Measurement of vertical angle. Direct angles, deflection angles. Setting out an angle, prolonging a line. Computation of latitude and departure. Balancing of traverse: omitted measurements.",
+          "hours": 8
+        },
+        {
+          "title": "Tacheometry Survey and Total Station Survey",
+          "topics": "Tachometry: introduction, instruments, principle, theory of stadia tacheometry, tacheometric constants. Fixed hair method - horizontal or inclined, staff held vertically. Contouring: definition, uses, characteristics, methods, interpolation. Tachometric contour survey. Total station survey: parts, methods: radiation, resection, RDM, REM. Robotic Total station, Laser based Total Station, Smart Stations, Applications. Drone Survey applications.",
+          "hours": 8
+        },
+        {
+          "title": "Curves",
+          "topics": "Introduction, different forms of curves. Definitions: degree of curve, relation between radius and degree of curve, super elevation, centrifugal ratio. Types of horizontal curves. Properties of simple circular curve. Setting by offsets from chord produced and Rankine's method of deflection angles. Field procedure by one and two theodolite methods. Compound curve. Transition curves. Vertical curves: definition, gradient, rate of change of grade, length, types.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-CVL",
+      "title": "Building Construction and Materials",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Building Technology",
+          "topics": "Definition and scope, classification of buildings as per NBC. Type of structures: load bearing & framed structures, type of loads. Building components and functions: foundation, types of foundations, wall construction techniques: masonry, framed structures components: footing, column, beam, lintels, arches, slabs, precast panels, flooring and roofing: types and methods, openings: doors and windows.",
+          "hours": 8
+        },
+        {
+          "title": "Conventional Building Materials and Techniques",
+          "topics": "Conventional Building Materials - Properties, Types and Uses: Stone, Brick, Cement, Concrete, Concrete Blocks, Flooring Materials-Tiles, Roofing Materials, Mortars and Plasters, Admixtures, Pigments, Timber, Steel and Aluminum, Plumbing Materials, Sanitary Wares, Electrical Materials, Finishing Materials. Conventional Building Techniques: Load-Bearing Construction, Brick Masonry, Stone Masonry, Timber, Bamboo, Mud and Clay, Lime Plaster, Thatch and Bamboo Roofing. Formwork and Scaffolding, Construction Site Safety.",
+          "hours": 8
+        },
+        {
+          "title": "Modern Construction Techniques",
+          "topics": "Modern Construction Process: RCC Construction, Concrete Frame Construction, Prefabrication Construction, Steel Frame Construction, Modular Construction, 3D printing in buildings, Dry Construction Techniques, Automation in Construction Sector, Applications and Case Studies.",
+          "hours": 8
+        },
+        {
+          "title": "Green Building planning and Sustainable Materials",
+          "topics": "Concept of Green Buildings and Green Ratings (LEED, GRIHA, IGBC), Green Construction: Green Roof, Importance of Sustainability, Passive Solar Design and Bioclimatic Architecture, Thermal Insulation. Eco-friendly Materials: Bamboo, Recycled Aggregates, Fly Ash Bricks, AAC Blocks, Green Concrete, Geopolymer Concrete, Industrial and Agricultural Waste Materials, Energy-Efficient Building Materials, Energy Efficiency-Policies.",
+          "hours": 8
+        },
+        {
+          "title": "Building Bye-Laws and Drawings",
+          "topics": "Necessity of Bye-Laws, UDCPR (Maharashtra State): Plot Sizes, Road Width, Open Spaces, Marginal Distances, Building Line, Control Line, Room Sizes, Area Calculations: Built-up Area, Carpet Area, FSI, TDR, Norms for Ventilation, Lighting, Vertical Circulation, Sanitation, Parking. Building drawing: Principles of Building Planning and Architectural Design, Scales, Dimensioning, Abbreviations and Symbols as per IS 962, Norms for Residential and Public Building, Line Plan, Detailed Plan, Elevation, and Section.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-CVL",
+      "title": "Building Construction and Materials Lab",
+      "semester": 3,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        22,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-CVL",
+      "title": "Mechanics of Structures Lab",
+      "semester": 3,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective - I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-CVL",
+      "title": "Engineering Mathematics - III",
+      "semester": 3,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Linear Differential Equations (LDE) and Applications",
+          "topics": "LDE of nth order with constant coefficients, Complementary Function, Particular Integral, General method, Short cut methods, Method of Variation of parameters, Cauchy's and Legendre's DE, Simultaneous DE. Modelling of problems on bending of beams and whirling of shafts.",
+          "hours": 8
+        },
+        {
+          "title": "Statistics and Probability",
+          "topics": "Statistics: Measures of central tendency, Measures of dispersion, Coefficient of variation, Moments, Skewness and Kurtosis, Correlation and Regression, Reliability of Regression estimates. Probability: Introduction, Probability density function, Probability distributions: Binomial, Poisson, Normal and Test of hypothesis: Chi-square test and t-test.",
+          "hours": 8
+        },
+        {
+          "title": "Numerical Methods for solving Algebraic and Transcendental Equations",
+          "topics": "Numerical Solution of Algebraic and Transcendental equations: Bisection, Secant, Regula-Falsi, Newton-Raphson and Successive Approximation Methods, Convergence and Stability. Numerical Solutions of System of linear equations: Gauss elimination with partial pivoting, LU Decomposition, Jacobi and Gauss-Seidel Methods.",
+          "hours": 8
+        },
+        {
+          "title": "Numerical Interpolation and Solution of ODE",
+          "topics": "Interpolation: Finite Differences, Newton's and Lagrange's Interpolation formulae, Numerical Differentiation. Numerical Integration: Trapezoidal and Simpson's rules, Bound of truncation error. Solution of Ordinary differential equations (ODE): Euler's, Modified Euler's, Runge-Kutta 4th order methods and Predictor-Corrector methods.",
+          "hours": 8
+        },
+        {
+          "title": "Vector Calculus",
+          "topics": "Vector differentiation, Gradient, Divergence, Curl, Directional derivative, Solenoidal & Irrotational fields, Vector identities. Line, surface and volume integrals, Green's theorem, Gauss's Divergence theorem and Stokes' theorem.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-CVL",
+      "title": "Economics for Civil Engineers",
+      "semester": 3,
+      "type": "Entrepreneurship / Economics / Management",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Construction Economics",
+          "topics": "Introduction to Construction Economics, Scope and importance of economics in construction, Developed and Developing Economies, New Economic Policy, Basic economic principles: supply, demand, equilibrium, Economic cycles and their impact, Market Structure & Pricing Mechanisms, Cost-price relationships, Macroeconomics and microeconomics, Factors Affecting Construction, Government regulations and policies, Sustainability and Green Economics.",
+          "hours": 3
+        },
+        {
+          "title": "Financial Management in Construction",
+          "topics": "Basic concept of finance in construction sector, Structure of Indian Financial System, Long Term and short term sources of finance, Goal of financial management, Financial Statements: Balance Sheet, Profit & Loss Statement, Break-Even Analysis, Cash Flow Statement. Financial institutions in India, Housing finance institutions, EBIT concept and use, Simple Numerical on calculation of EBIT and leverage ratio.",
+          "hours": 3
+        },
+        {
+          "title": "Contract Costing",
+          "topics": "Contract: definition, types of Civil Engineering contract, Cost Concepts in Construction, Types of costs: fixed, variable, direct, indirect, Segregation of cost, Balance Depreciation: definition, types, simple numerical of calculation of depreciation. Public Sector Economics & Infrastructure Development: PPP, Infrastructure Financing & budgeting. Escalation clause with case study.",
+          "hours": 3
+        },
+        {
+          "title": "Capital Budgeting and Taxation",
+          "topics": "Budget, types of budgets in construction, preparation of budget for construction company, time value of money concept, Interest rate and their types, simple numerical on calculation of interest rates, Working capital: definition, types, essential of working capital, Numerical of working capital estimation. Project Appraisal & its types. Capital Budgeting Techniques. Tax: Definition, Structure of Indian Taxation System, Types of tax: direct, indirect, Difference between VAT and GST, advantages and disadvantages of GST, Property tax: Types, calculation.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-CVL",
+      "title": "Universal Human Values and Professional Ethics",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "Understanding Value Education, Self-exploration as the Process for Value Education, Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment, Right Understanding, Relationship and Physical Facility, Happiness and Prosperity - Current Scenario, Method to Fulfil the Basic Human Aspirations.",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "Understanding Human being as the Co-existence of the Self and the Body, Distinguishing between the Needs of the Self and the Body, The Body as an Instrument of the Self, Understanding Harmony in the Self, Harmony of the Self with the Body, Programme to Ensure self-regulation and Health.",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "Harmony in the Family - the Basic Unit of Human Interaction. 'Trust' - the Foundational Value in Relationship. 'Respect' - as the Right Evaluation. Values in Human-to-Human Relationship. Understanding Harmony in the Society. Vision for the Universal Human Order.",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in the Nature",
+          "topics": "Understanding Harmony in the Nature, Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature, Realizing Existence as Coexistence at All Levels, The Holistic Perception of Harmony in Existence, Professional Ethics in the light of Right Understanding, Strategies for Transition towards Value-based Life and Profession.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "FP-241-CVL",
+      "title": "Field Survey Project",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-CVL",
+      "title": "Fluid Mechanics",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Properties of Fluids and Fluid Statics",
+          "topics": "Properties of fluids: fluid, fluid mechanics, ideal fluids, real fluids, mass density, specific weight, specific volume, specific gravity, viscosity - dynamic and kinematic, classification of fluids (rheological diagram), surface tension, capillarity, vapour pressure, compressibility and elasticity. Fluid statics: pressure, Pascal's law, hydrostatic law, atmospheric, absolute, gauge and negative pressure, pressure measuring devices. Total pressure, center of pressure. Pressure on horizontal, vertical, inclined and curved surfaces.",
+          "hours": 8
+        },
+        {
+          "title": "Fluid Kinematics",
+          "topics": "Eulerian and Lagrangian approach, velocity and acceleration in Cartesian co-ordinates, Classification of flows, streamline, stream tube, path line, streak line, control volume. Equation of continuity for 3-D flow, components of rotation, velocity potential, stream function, flow net.",
+          "hours": 8
+        },
+        {
+          "title": "Fluid Dynamics",
+          "topics": "Forces acting on fluid mass in motion, Euler's equation of motion along a streamline and integration to get Bernoulli's equation and its limitations, Modified Bernoulli's equation, HGL and TEL, Application of Bernoulli's equation: Venturimeter, Orifice meter, Rota-meter and Pitot tube.",
+          "hours": 8
+        },
+        {
+          "title": "Flow Through Pipes",
+          "topics": "Characteristics of laminar flow, Hagen Poiseuille equation, Hazen-Williams formula. Characteristics of turbulent flow, Darcy-Weisbach Equation, Moody's diagram, Major and minor losses of energy in pipes, flow through pipes in simple and compound pipe, pipes in series, parallel, Dupit's equation, Introduction to pipe network and design: Hardy cross method.",
+          "hours": 8
+        },
+        {
+          "title": "Open Channel Flow",
+          "topics": "Classification of channels, channel flows and geometric elements, Velocity distribution in open channel flow and hydraulic jump. Uniform flow: Chezy's and Manning's formulae, Factors affecting Manning's roughness coefficient. Most efficient channel sections: rectangular, trapezoidal. Depth-Energy Relationships: Specific energy and Specific force diagram, Depth discharge Diagram, Critical depth, Conditions for critical flow, Froude's number, flow classification, Introduction to channel transition.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-CVL",
+      "title": "Structural Analysis",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Structure and Analysis of Redundant Beams",
+          "topics": "Types and classification of structures based on structural forms, concept of indeterminacy: static and kinematic indeterminacy. Analysis of propped cantilever, fixed beam and continuous beams within determinacy up to second degree by consistent deformation method.",
+          "hours": 8
+        },
+        {
+          "title": "Analysis of Redundant Frames",
+          "topics": "Analysis of redundant trusses by unit load method for external loading, lack of fit, sinking of support and temperature changes (indeterminacy up to second degree). Approximate methods of analysis of upto two-storied two-bay, 2-D rigid jointed frames by Cantilever and Portal method.",
+          "hours": 8
+        },
+        {
+          "title": "Slope-Deflection Method",
+          "topics": "Slope-deflection equations, equilibrium equation, application to beams with and without joint translation and rotation, yielding of support, application to non-sway rigid jointed rectangular portal frames, shear force and bending moment diagram. Sway analysis of rigid jointed portal frames (up to three unknowns).",
+          "hours": 8
+        },
+        {
+          "title": "Moment Distribution Method",
+          "topics": "Stiffness factor, carry over factor, distribution factor, application of moment distribution method to beams with and without joint translation and yielding of support. Application to non-sway rigid jointed rectangular portal frames, shear force and bending moment diagram. Sway analysis of rigid jointed portal frames (up to three unknowns).",
+          "hours": 8
+        },
+        {
+          "title": "Stiffness Method",
+          "topics": "Fundamental concepts of matrix methods: flexibility and stiffness. Stiffness method of analysis: Structure approach & Member approach. Application to beams by structure approach (up to three unknowns). Application to rigid jointed portal frames by structure approach (up to three unknowns).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-CVL",
+      "title": "Concrete Technology",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Concrete Technology",
+          "topics": "Introduction to concrete and its importance. Cement: Raw materials, manufacturing, composition, types, hydration, and properties. Aggregates: Types, properties, quality control, and recycled aggregates. Water: Quality requirements and its role. Admixtures: Types, functions, and modern admixtures. Fibers: Types, and functions.",
+          "hours": 6
+        },
+        {
+          "title": "Properties of Fresh and Hardened Concrete",
+          "topics": "Workability and factors affecting workability. Tests on fresh concrete: Slump, compaction factor, Vee-Bee, flow table test. Setting time and bleeding of concrete. Strength development: Compressive, tensile, flexural strength. Factors affecting strength and durability. Microstructure of hardened concrete. Permeability. Non-destructive testing: Rebound hammer, ultrasonic pulse velocity, penetration resistance, pull-out test.",
+          "hours": 6
+        },
+        {
+          "title": "Concrete Mix Design",
+          "topics": "Principles of mix design. Design mix, nominal mix, methods of concrete mix design. Batching, mixing, transportation, placement, compaction, curing. IS 10262 method of concrete mix design. Case studies of concrete failure due to improper mix design. Introduction and mix design of High Strength Concrete, Ultra High Performance concrete (UHPC).",
+          "hours": 6
+        },
+        {
+          "title": "Durability and Sustainability of Concrete",
+          "topics": "Importance of durability. Causes and mechanisms of deterioration: Sulphate attack, chloride ingress, alkali-silica reaction. Corrosion of reinforcement: Mechanism and prevention. Permeability, porosity, and water absorption. Sustainable concrete: Use of recycled aggregates, industrial by-products, and green cements. Introduction to life cycle analysis of concrete.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced and Special Concretes",
+          "topics": "High performance concrete, self-compacting concrete, fiber reinforced concrete. Lightweight concrete, pervious concrete, high density concrete. 3D printed concrete and digital fabrication techniques. Smart concrete: Self-healing concrete, sensor embedded concrete. Nano technology in concrete. Green concrete. Composite concrete.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-CVL",
+      "title": "Concrete Technology Lab",
+      "semester": 4,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        39,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-CVL",
+      "title": "Fluid Mechanics Lab",
+      "semester": 4,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        40,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective - II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-CVL",
+      "title": "Engineering Geology",
+      "semester": 4,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        41,
+        43
+      ],
+      "units": [
+        {
+          "title": "Rock Science",
+          "topics": "Introduction to Applied Engineering Geology. Mineral Definition, types of minerals, Industrial minerals (Computer, Medicine, Electronics Industry). Petrology: Rocks Definition, Types, Importance, Application in Civil Industry and other industries. Economic zones in India.",
+          "hours": 6
+        },
+        {
+          "title": "Remote Sensing and GIS, Hydrogeology",
+          "topics": "Remote Sensing: Concepts, platforms, types of Sensors, Fundamentals of EMR, Resolutions, Visual Interpretation, Applications. GIS: Introduction, Definition, Components, GIS data types, Applications in Engineering, Smart Cities planning. Hydrogeology: Fundamentals, Groundwater, Water table, depth zones, Hydrogeological properties, Aquifers and its types, Artificial recharge of groundwater, Conservation of groundwater, Watershed development and management, Indian Knowledge System for Hydrology.",
+          "hours": 6
+        },
+        {
+          "title": "Structural Geology and Preliminary Geological Exploration",
+          "topics": "Structural Geology: Plate tectonics, Mountain building activity, Outcrop, dip and strike, unconformity and overlap. Major geological structures: faults, folds, joints and their types, Recognition and significance in civil engineering. Preliminary Geological Exploration: reconnaissance survey, surface and subsurface investigations: Direct methods: test & trial pits, pilot trenches, drilling. Indirect methods: Resistivity, seismic survey.",
+          "hours": 6
+        },
+        {
+          "title": "Preliminary Geological Investigation of Dam Tunnel and Highways",
+          "topics": "Dams: Types and foundation requirement, geological and geotechnical factors for dam site selection, seepage control and grout curtain, Reservoir-induced seismicity. Tunnel: Geological and geotechnical investigations for tunnels, Rock mass classification (RMR, Q-system), Methods of tunnelling: Drill & blast, TBM, and NATM, Geological hazards in tunnelling. Highways: Geotechnical considerations in highway alignment, Slope stability and landslide mitigation, Geological mapping and remote sensing, Use of geo-synthetics.",
+          "hours": 6
+        },
+        {
+          "title": "Geohazards",
+          "topics": "Definition, and types. Causes, Effects, Precautions and case studies: Floods, Earthquakes, Landslides.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSEC-281-CVL",
+      "title": "Vocational Skill Course: Applications of Python",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        44,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-CVL",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        48,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-CVL",
+      "title": "Project Management",
+      "semester": 4,
+      "type": "Entrepreneurship / Economics / Management",
+      "credits": 2,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Introduction to Project Management",
+          "topics": "Importance, objectives & functions of management, principles of management, categories of project, project failure, project life cycle concept and cost components, PMBOK different domain areas, project management institute and certified project management professionals (PMP), Importance of organizational structure in management.",
+          "hours": 3
+        },
+        {
+          "title": "Project Planning and Scheduling",
+          "topics": "WBS, Gantt / Bar chart & its limitations, network planning, network analysis, CPM - Activity on Arrow (AOA), critical path and type of floats, precedence network analysis (AON), types of Precedence Relationship, PERT Analysis.",
+          "hours": 3
+        },
+        {
+          "title": "Project Resources and Site Planning",
+          "topics": "Objectives of materials management, material procurement procedures, record keeping: use of excel sheets, ERP software, inventory control: ABC analysis, EOQ technique, introduction to equipment management: productivity studies, site layout and planning, safety norms - measures and precautions on site, implementation of safety programs.",
+          "hours": 3
+        },
+        {
+          "title": "Project Monitoring, Control and Appraisal",
+          "topics": "Resource allocation: resource smoothening and leveling, network crashing - time-cost relationship, resource optimization, project monitoring: methods, updating and earned value analysis, introduction to use of project management software: MS project / Primavera. Types of appraisals: political, social, environmental, technical, financial and economical, project feasibility report and DPR, role of project management consultants.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-CVL",
+      "title": "Environmental Awareness",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Environmental Studies and Natural Resources",
+          "topics": "Introduction to Environmental Studies: Multidisciplinary nature, components of the environment (atmosphere, hydrosphere, lithosphere, biosphere), scope and importance, sustainability and sustainable development. Ecosystems: Structure and function, energy flow (food chains, food webs, ecological succession), case studies. Natural Resources: Land use change, land degradation, soil erosion, desertification; deforestation; water use and over-exploitation, floods, droughts; renewable and non-renewable energy, alternate sources, energy needs.",
+          "hours": 6
+        },
+        {
+          "title": "Biodiversity and its Conservation",
+          "topics": "Levels of Biodiversity: Genetic, species, and ecosystem diversity; biogeographic zones of India; global biodiversity hotspots; India as a mega-biodiversity nation. Biodiversity in India: Endangered and endemic species; threats to biodiversity. Conservation and Value of Biodiversity: In-situ and ex-situ conservation methods; biodiversity and ecosystem services: ecological, economic, social, ethical, aesthetic, and informational value.",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Pollution and Climate Issues",
+          "topics": "Types, causes, effects, and control of pollution: air, water, soil, chemical, noise. Nuclear hazards and health risks. Solid waste management. Climate change, global warming, ozone depletion, acid rain. Environmental laws: Environment Protection Act, Air and Water Acts, Wildlife Protection Act, Forest Conservation Act. International agreements: Montreal Protocol, Kyoto Protocol, CBD, CWC. Nature reserves, tribal rights, human-wildlife conflicts.",
+          "hours": 6
+        },
+        {
+          "title": "Human and Social Aspects of Environment",
+          "topics": "Human population growth and its impact on environment and health, Carbon footprint and environmental ethics, Resettlement and rehabilitation of displaced populations, Disaster management: floods, earthquakes, cyclones, landslides, Environmental movements: Chipko, Silent Valley, Bishnois of Rajasthan, Role of religions and cultures in conservation, Environmental communication and public awareness.",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

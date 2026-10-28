@@ -1,0 +1,652 @@
+{
+  "id": "t-y-b-sc-animation",
+  "kind": "programme",
+  "programme": "T.Y.B.Sc. (Animation)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ANM-301-MJ",
+      "title": "Advance 3D Animation - II (Maya)",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Advanced Modeling & Production Workflow 6",
+          "topics": "1.1 Advanced polygon modeling techniques (hard surface & organic modeling) 1.2 Human character modeling (anatomy-based approach, edge flow optimization) 1.3 Retopology techniques and mesh optimization for animation 1.4 High-poly to low-poly workflow (game & film pipeline basics)",
+          "hours": null
+        },
+        {
+          "title": "Advanced Texturing, Shading & Look Development 5",
+          "topics": "2.1 Advanced UV Unwarping 2.2 Texture creation in Photoshop/Illustrator 2.3 Texture mapping 2.4 Bump/Normal/displacement Maps and applications",
+          "hours": null
+        },
+        {
+          "title": "Character Rigging & Deformation Systems 11",
+          "topics": "3.1 Introduction to rigging pipeline and skeleton creation (joint hierarchy) 3.2 Mechanical Rig 3.3 Deformers Lattice, Wrap, Cluster, Sculpt, Jiggle, Wire 3.4 Working with Bones & Biped Bone Setup 3.5 Constraints (parent, orient, point, aim, scale constraints) 3.6 Forward Kinematics (FK) and Inverse Kinematics (IK) systems 3.7 Rigging human character 3.8 Controllers creation 3.9 Skinning techniques (smooth bind, rigid bind, weight painting) 3.10 Deformation tools (blend shapes, corrective shapes) 3.11 Facial Rigging",
+          "hours": null
+        },
+        {
+          "title": "Character Animation 10",
+          "topics": "4.1 Principles of animation (timing, spacing, squash & stretch, anticipation) 4.2 Graph editor and animation curves refinement 4.3 Walk cycle and run cycle (body mechanics) 4.4 Facial animation using blend shapes/morph targets 4.5 Lip-Sync, Dialogue & Facial Animation 4.6 Animation using props (constraints) 4.7 Acting and performance animation fundamentals(Push/pull) 4.8 Moving object/character using Motion Path constraint",
+          "hours": null
+        },
+        {
+          "title": "Dynamics, Simulations & Effects 18",
+          "topics": "5.1 Introduction to Particle Dynamics - Particle Emission , Fields & dynamic properties 5.2 Controlling Physical properties of particle- Shape Instance & Color 5.3 Introduction to dynamics (rigid body & soft body simulations 5.4 Cloth simulation using nCloth (garments, flags) 5.5 Hair and fur using XGen (grooming basics) 5.6 Working With Sprite Wizard, Rendering process 5.7 Working with 3D Container(Blast,Smoke etc) 5.8 Bifrost basics (fluids: water, liquid simulations) 5.9 MASH tools for motion graphics and procedural animation",
+          "hours": null
+        },
+        {
+          "title": "Final Project & Showreel Development 10",
+          "topics": "6.1 Short film/Scene with all preproduction documents minimum 1 Minimum & 5 Min maximum 6.2 Final 3D Showreel Submission",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-302-MJ",
+      "title": "Lab Course on ANM-301-MJ",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-303-MJ",
+      "title": "Blender Animation",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "THE BLENDER ECOSYSTEM & WORKFLOW",
+          "topics": "1.1 Introduction to Blender: Open Source philosophy and industry standing. 1.2 UI Customization: Viewports, Outliner, Properties, and Workspaces. 1.3 Navigation Mastery: Essential shortcuts and the \"Industry Compatible\" keymap. 1.4 Scene Management: Collections, Naming Conventions, and File Linking/Appending.",
+          "hours": 9
+        },
+        {
+          "title": "INTRODUCTION TO ADVANCED 3D MODELING TECHNIQUES",
+          "topics": "2.1. Hard Surface Modeling: Boolean workflows, Beveling, and Topology flow. 2.2. Organic Modeling: Introduction to Digital Sculpting and Retopology. 2.3. Modifiers: Mastering Mirror, Array, Solidify, and Subdivision Surface. 2.4. Geometry Nodes: Basics of procedural modeling and scattering.",
+          "hours": 5
+        },
+        {
+          "title": "UV MAPPING & TEXTURING",
+          "topics": "3.1. Unwrapping: Marking Seams, UV Packing, and minimizing distortion. 3.2. Shading: Understanding the Principled BSDF shader. 3.3. Texture Painting: Direct painting on 3D models and stencil usage. 3.4. PBR Workflow: Using Albedo, Roughness, Normal, and Metallic maps.",
+          "hours": 8
+        },
+        {
+          "title": "LIGHTING & CINEMATOGRAPHY",
+          "topics": "4.1. Light Types: Point, Sun, Spot, and Area lights. 4.2. HDRI Environments: Setting up world lighting for realism. 4.3. Camera Settings: Focal length, Depth of Field (Bokeh), and Composition. 4.4. Three-Point Lighting: Applying classic studio techniques in 3D.",
+          "hours": 8
+        },
+        {
+          "title": "RIGGING & CHARACTER DEFORMATION",
+          "topics": "5.1 Armatures: Creating bones, parenting, and bone hierarchies. 5.2 Constraints: Implementing IK (Inverse Kinematics) and FK (Forward Kinematics). 5.3 Weight Painting: Ensuring smooth mesh deformation. 5.4 Shape Keys: Creating facial expressions and corrective shapes.",
+          "hours": 7
+        },
+        {
+          "title": "ANIMATION PRINCIPLES IN 3D",
+          "topics": "6.1 Timeline & Graph Editor: Managing keyframes and interpolation curves. 6.2 Dope Sheet: Timing and spacing of actions. 6.3 Walk Cycles: Creating seamless loops for characters. 6.4 Non-Linear Animation (NLA): Mixing and layering different animation clips.",
+          "hours": 10
+        },
+        {
+          "title": "VISUAL EFFECTS & PHYSICS",
+          "topics": "7.1. Particles: Creating hair, fur, and instanced objects (grass/forests). 7.2. Physics Simulations: Basic Cloth, Rigid Body (collisions), and Fluid basics. 7.3. Grease Pencil: Integrating 2D hand-drawn elements into a 3D scene.",
+          "hours": 8
+        },
+        {
+          "title": "RENDERING & COMPOSITING",
+          "topics": "8.1 Engine Comparison: Eevee (Real-time) vs. Cycles (Path Tracing). 8.2 Render Passes: Exporting AO, Mist, and Shadow passes. 8.3 Node-Based Compositing: Color correction and post-processing within Blender. 8.4 Optimization: Reducing noise and render times for production. 8.5 Blender AI : Introduction to AI Tools in Blender.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ANM-304-MJ",
+      "title": "Lab Course on ANM-303-MJ",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-310-ME",
+      "title": "Motion Graphics & Compositing (After Effects)",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Adobe After Effects 5",
+          "topics": "1.1 Interface of Adobe After Effects 1.2 Customization 1.3 creating composition 1.4 working with layers",
+          "hours": null
+        },
+        {
+          "title": "Basic Tools 5",
+          "topics": "2.1 Tool bar 2.2 Render settings 2.3 Various exporting formats 2.4 Frame rate.",
+          "hours": null
+        },
+        {
+          "title": "Chroma Key effects 3",
+          "topics": "3.1 Chroma removal 3.2 Compositing 3.3 Key light and other key",
+          "hours": null
+        },
+        {
+          "title": "Applying effects 5",
+          "topics": "4.1 All Effect controls panels 4.2 Use of few effects 4.3 Particles and their use",
+          "hours": null
+        },
+        {
+          "title": "Wire Removal & Rotoscopy Techniques 3",
+          "topics": "5.1 Rotoscopy using masks 5.2 Clean Plates 5.3 Create BG Plates 5.4 Wire Removal",
+          "hours": null
+        },
+        {
+          "title": "Tracking 3",
+          "topics": "6.1 One point tracking 6.2 2 & 4-point tracking 6.3 Camera tracking",
+          "hours": null
+        },
+        {
+          "title": "Camera 3",
+          "topics": "7.1 Camera controls 7.2 Lights 7.3 Using camera and lights.",
+          "hours": null
+        },
+        {
+          "title": "Titling & Rendering 3",
+          "topics": "8.1 Creating credits 8.2 Creating motion graphics 8.3 Adding Comps to the Render Queue & Exploring Key Render Queue Settings",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-311-ME",
+      "title": "Lab Course on ANM-310-ME",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-312-ME",
+      "title": "Visual Effect (Silhouette)",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Visual Effects & Silhouette 5",
+          "topics": "1.1 Introduction to Visual Effects (VFX) and production pipeline 1.2 Overview of Boris FX Silhouette 1.3 Understanding node-based workflow and project setup 1.4 Interface navigation (Viewer, Node Graph, Timeline, Parameter panels) 1.5 Importing footage and image sequences 1.6 Basic playback, caching, and frame range settings 1.7 File formats and project management",
+          "hours": null
+        },
+        {
+          "title": "Silhouette Fundamentals 5",
+          "topics": "2.1 Intro to Stabilization 2.2 Keying Overview using zMatte and Keying Nodes 2.3 Warping, Morphing 2.4 Pin Warp, Lens Flare 2.5 Intro to Depth Node - 2D to 3D Conversion",
+          "hours": null
+        },
+        {
+          "title": "Rotoscoping Fundamentals 5",
+          "topics": "3.1 Introduction to rotoscoping and its applications in VFX 3.2 Creating and editing shapes (Bezier, B-Spline tools) 3.3 Keyframing shapes and basic animation 3.4 Shape hierarchy and layer management 3.5 Edge control (feathering, falloff, motion blur handling) 3.6 Basic roto for simple objects (hands, props, foreground elements)",
+          "hours": null
+        },
+        {
+          "title": "Advanced Rotoscoping & Tracking Techniques 5",
+          "topics": "4.1 Tracking-assisted roto (planar and point tracking basics) 4.2 Roto for complex subjects (hair, motion blur, transparency) 4.3 Garbage mattes and holdout mattes 4.4 Matte refinement (motion blur, edge blending, matte cleanup) 4.5 Using roto nodes in multi-layer compositions 4.6 Roto Using IK & FK handles",
+          "hours": null
+        },
+        {
+          "title": "Paint & Cleanup Techniques 4",
+          "topics": "4.1 Introduction to paint tools (clone, brush, blur, smear) 4.2 Wire/rig removal techniques 4.3 Object removal and clean plate creation 4.4 Frame-by-frame paint vs. temporal cloning 4.5 Dust, scratches, and unwanted object cleanup 4.6 Paint node workflow and layer management",
+          "hours": null
+        },
+        {
+          "title": "Advanced Paint, Tracking & Integration 5",
+          "topics": "5.1 Paint with motion tracking (stabilize and match-move workflows) 5.2 Advanced object removal using tracked paint 5.3 Integration of roto and paint for seamless compositing 5.4 Multi-pass cleanup workflows 5.5 Working with multiple nodes and render outputs 5.6 Quality control and error checking",
+          "hours": null
+        },
+        {
+          "title": "Final Project & Showreel Development 1",
+          "topics": "Silhouette Roto Showreel Submission (minimum 1 Min, Maximum 2 Min)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-313-ME",
+      "title": "Lab Course on ANM-312-ME",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-321-VSC",
+      "title": "3D Sculpting (ZBrush)",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction To Zbrush & Interface 3",
+          "topics": "1.1 ZBrush Interface Layout & Controls 1.2 Working with canvas and documents 1.3 Interface Elements & Navigation basics (rotate, zoom, pan)",
+          "hours": null
+        },
+        {
+          "title": "Introduction to 3D Tools & Primitives 5",
+          "topics": "2.1 Working with 3D ZTools 2.2 Standard Primitives 2.3 Polymesh 3D & Base Head Creation 2.4 Sculpting Controls, Symmetry & Dynamics",
+          "hours": null
+        },
+        {
+          "title": "Advanced Brushes, Alpha & Surface Detailing 6",
+          "topics": "3.1 Types of Brushes for Detailing 3.2 Alpha & Stamp surface texture imprint,skin, scales, wrinkles) 3.3 Dynamesh Project & Brush Controls(Alpha settings, stroke types, Masking) 3.4 Custom Brushes, Masking & Transform Tools 3.5 Sculpting Anatomy Parts (Face & Details) 3.6 Wings, Muscles & ShadowBox",
+          "hours": null
+        },
+        {
+          "title": "Modeling with ZSphere chain 6",
+          "topics": "4.1 Introduction to ZSphere & Basic Setup 4.2 ink, Bones & Hierarchy 4.3 Skinning & Mesh Generation 4.4 Sculpting with Dynamesh & Brushes 4.5 Detailing with Alpha & IMM Brushes",
+          "hours": null
+        },
+        {
+          "title": "Principles of Posing & Techniques 3",
+          "topics": "5.1 Principles of posing and posing Techniques(Use of Transpose move or rotate tool according the pose) 5.2 Lighting Setup & 3-Point Lighting 5.3 Changing the color of the light",
+          "hours": null
+        },
+        {
+          "title": "Rendering 2",
+          "topics": "6.1 ZBrush Rendering & BPRFinal 3D Showreel Submission & Render Settings 6.2 Render Passes & Export( Shadow, Ambient Occlusion, SSS)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-331-FP",
+      "title": "Mini Project based on 2D/3D Animation (Animate/Maya/Blender)",
+      "semester": 5,
+      "type": "FP/CEP",
+      "credits": 2,
+      "pages": [
+        26,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-341-MN",
+      "title": "White Board Animation and SketchUp Design",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        29,
+        32
+      ],
+      "units": [
+        {
+          "title": "Video Scribe Course Introduction",
+          "topics": "1.1 What is Video Scribe? 1.2 Overview of the Project Screen. 1.3 Customizing the Default Settings. Creating a New Project. 1.4 Brief overview of the Tools and Saving the Project.",
+          "hours": null
+        },
+        {
+          "title": "Whiteboard Animation Basics",
+          "topics": "2.1 Changing the Default Drawing Hand. 2.2 Canvas Color and Texture. 2.3 Adding the First Image and Adjusting it. Image Properties. 2.4 Adding Text. 2.5 More Text Properties and Exporting Your Video.",
+          "hours": null
+        },
+        {
+          "title": "Camera Settings, Transitions and Timeline Edits",
+          "topics": "3.1 Camera Settings. 3.2 More Camera Settings and Creating a New Scene 3.3 Timeline and Relocating Copied Elements. 3.4 Drawing Elements without Hand Leaving the Screen.",
+          "hours": null
+        },
+        {
+          "title": "Charts, Graphs, Colors and More Effects",
+          "topics": "4.1 Charts and their types. 4.2 Importing Charts from Microsoft Excel etc. 4.3 The Erase Effect. 4.4 Problem with the Erase Effect and its Solution. 4.5 Using HEX Codes to Generate any Color. 4.6 Graphic Enhancements and Filter Effects. 4.7 GIF Files in VideoScribe. 4.8 Making tour own GIF files and Importing to VideoScribe. 4.9 Recoding Voice Over. 4.10 Closing Remarks.",
+          "hours": null
+        },
+        {
+          "title": "Introduction to SketchUp Design 4",
+          "topics": "5.1 Introduction to Sketch Up Interface 5.2 Navigation and Workspace Setup 5.3 Drawing Basic 2D Shapes 5.4 Push/Pull Tool and 3D Object Creation 5.5 Line, Arc, Rectangle and Circle Tools 5.6 Selection and Modification Tools, Components and Groups 5.7 Importing and Exporting Models, Measurements and Scale Setup",
+          "hours": null
+        },
+        {
+          "title": "3D Modeling and Architectural Design in SketchUp 5",
+          "topics": "6.1 Creating 3D Architectural Models 6.2 Interior and Exterior Design Basics 6.3 Materials and Textures, Lighting and Shadow Settings 6.4 Creating Doors, Windows and Furniture Models 6.5 Scene Management and Layering 6.6 Using SketchUp Warehouse Models 6.7 Basic Rendering Concepts 6.8 Dimensioning and Annotation",
+          "hours": null
+        },
+        {
+          "title": "Advanced Animation and Multimedia Integration 3",
+          "topics": "7.1 Advanced Timeline Management, Multi-scene Animation Projects 7.2 Audio Editing and Background Music, Lip-sync and Character Animation Basics 7.3 Green Screen Concepts 7.4 Branding and Logo Animation",
+          "hours": null
+        },
+        {
+          "title": "Project Development and Portfolio Creation 3",
+          "topics": "8.1 Planning Animation Projects, Script Writing and Storyboarding 8.2 Educational and Commercial Animation Design 8.3 3D Presentation Development, Rendering and Video Compression 8.4 Portfolio Preparation, Publishing on Digital Platforms 8.5 Client Presentation Techniques 8.6 Final Mini Project / Case Study",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-351-MJ",
+      "title": "Visual Effect-I (Nuke)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to VFX & Nuke Workflow 5",
+          "topics": "1.1 Introduction to VFX & Digital Compositing 1.2 VFX pipeline overview 1.3 Role of Compositor in film/OTT/games 1.4 Node-based vs Layer-based compositing 1.5 Nuke Interface (Viewer, Node Graph, Properties) 1.6 Read node, Write Node, Import, Export, Project saving",
+          "hours": null
+        },
+        {
+          "title": "Keying & Matte Extraction 5",
+          "topics": "2.1 Chroma keying (Green/Blue screen) 2.2 Keying nodes (Keylight, Primatte, IBK) 2.3 Edge blending & despill 2.4 Matte Creation and Manipulation, Matte refinement 2.5 Matting Techniques, Procedural Matte Extraction",
+          "hours": null
+        },
+        {
+          "title": "Rotoscopy & Paint (Cleanup Techniques) 8",
+          "topics": "3.1 Introduction to Roto Node and tools 3.2 Rotopaint (clone, reveal, repair), Hair Roto 3.3 Garbage mattes & edge refinement, Alpha Channel 3.4 Introduction to Paint, Clean plate 3.5 Clean plate creation, wire removal",
+          "hours": null
+        },
+        {
+          "title": "Fundamental of 2D Compositing & Color Correction 10",
+          "topics": "4.1 Introduction to 2D compositing 4.2 Merge Node, transform Node 4.3 Colour Corrections, Filters & Effects (Blur, Sharpen, Edge Blur, Glow) 4.4 Color theory & grading (Exposure, contrast, gamma) 4.5 Layering and Shot Building 4.6 Render Output, Render settings, File formats (JPG, PNG, EXR, MOV)",
+          "hours": null
+        },
+        {
+          "title": "Tracking & Matchmoving 8",
+          "topics": "5.1 Tracking, Tracker Node, Corner pin 2D 5.2 Stabilization & match move 5.3 Planar tracking basics, Screen Tracking 5.4 Introduction to camera tracking 5.5 Tracking Multiple Points (2 Point & 4 Point)",
+          "hours": null
+        },
+        {
+          "title": "3D Compositing in Nuke 10",
+          "topics": "6.1 3D workspace (camera, lights, geometry) 6.2 Intro to 3D Nodes, Scanline Render, Ray Render 6.3 Cards, projections & textures 6.4 Camera projection techniques 6.5 Set extensions",
+          "hours": null
+        },
+        {
+          "title": "Advanced Compositing 12",
+          "topics": "7.1 Animation, Timeline control, Keyframe Indication, Curve Editor, Dope sheet 7.2 Particle system, Crowd Duplication 7.3 Composite CG render passes, Multi-pass compositing, Depth compositing 7.4 Light wrap & integration techniques 7.5 Motion blur & lens effects 7.6 Introduction to Ai in Nuke 7.7 Ai Upscaling & Denoising (Quality Improvement) 7.8 Ai Motion Track (Smart Vector)",
+          "hours": null
+        },
+        {
+          "title": "Nuke Showreel Development 2",
+          "topics": "Nuke Showreel Submission Including all the Nuke assignment presentation with Music and Title (minimum 1 Min, Maximum 2 Min)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-352-MJ",
+      "title": "Lab Course on ANM-351-MJ",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-353-MJ",
+      "title": "Augmented Reality (AR) (Unity)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        38,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to Augmented Reality and Unity 5",
+          "topics": "1.1 Introduction to Augmented Reality 1.2 Understanding the AR Ecosystem 1.3 Introduction to Unity 1.4 Unity Project Structure 1.5 Building Your First Unity Scene",
+          "hours": null
+        },
+        {
+          "title": "Unity Fundamentals 5",
+          "topics": "2.1 Unity GameObjects and Components 2.2 Understanding Coordinate Systems 2.3 Materials and Textures 2.4 Lighting in Unity 2.5 Camera Fundamentals",
+          "hours": null
+        },
+        {
+          "title": "C# Programming for AR Development 5",
+          "topics": "3.1 Introduction to C# 3.2 Conditional Statements 3.3 Loops and Arrays 3.4 Functions and Classes 3.5 Unity Scripting Basics",
+          "hours": null
+        },
+        {
+          "title": "3D Concepts for AR 5",
+          "topics": "4.1 Basics of 3D Graphics 4.2 3D Models and Meshes 4.3 Importing 3D Models 4.4 Materials and Shaders 4.5 Animation Fundamentals",
+          "hours": null
+        },
+        {
+          "title": "Introduction to AR Foundation 5",
+          "topics": "5.1 AR Foundation Overview 5.2 ARCore and ARKit 5.3 Installing AR Foundation Packages 5.4 Setting up AR Session 5.5 Creating Your First AR App",
+          "hours": null
+        },
+        {
+          "title": "Plane Detection and Object Placement 5",
+          "topics": "6.1 Understanding Plane Detection 6.2 Raycasting in AR 6.3 Object Placement System 6.4 Object Anchoring",
+          "hours": null
+        },
+        {
+          "title": "AR Interaction Techniques & Image Tracking AR 10",
+          "topics": "7.1 Gesture-Based Interaction 7.2 Scaling AR Objects 7.3 Rotation Controls 7.4 Object Selection Techniques 7.5 Introduction to Image Tracking 7.6 Reference Image Libraries 7.8 Detecting and Tracking Images 7.9 Displaying 3D Content on Images",
+          "hours": null
+        },
+        {
+          "title": "Face Tracking and Human Tracking 5",
+          "topics": "8.1 Face Tracking Fundamentals 8.2 AR Face Manager 8.3 Creating Face Filters 8.4 Human Body Tracking",
+          "hours": null
+        },
+        {
+          "title": "Advanced AR Features 5",
+          "topics": "9.1 Environment Understanding 9.2 Occlusion in AR 9.3 Light Estimation 9.4 Persistent AR Experiences",
+          "hours": null
+        },
+        {
+          "title": "Face Tracking and Human Tracking 10",
+          "topics": "10.1 Final Industry-Level AR Project",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-354-MJ",
+      "title": "Lab Course on ANM-353-MJ",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-360-ME",
+      "title": "Visual Effect- II (Silhouette)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        43,
+        45
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Visual Effects & Silhouette 5",
+          "topics": "1.1 Introduction to Visual Effects (VFX) and production pipeline 1.2 Overview of Boris FX Silhouette 1.3 Understanding node-based workflow and project setup 1.4 Interface navigation (Viewer, Node Graph, Timeline, Parameter panels) 1.5 Importing footage and image sequences 1.6 Basic playback, caching, and frame range settings 1.7 File formats and project management",
+          "hours": null
+        },
+        {
+          "title": "Silhouette Fundamentals 5",
+          "topics": "2.1 Intro to Stabilization 2.2 Keying Overview using zMatte and Keying Nodes 2.3 Warping, Morphing 2.4 Pin Warp, Lens Flare 2.5 Intro to Depth Node - 2D to 3D Conversion",
+          "hours": null
+        },
+        {
+          "title": "Rotoscoping Fundamentals 5",
+          "topics": "3.1 Introduction to rotoscoping and its applications in VFX 3.2 Creating and editing shapes (Bezier, B-Spline tools) 3.3 Keyframing shapes and basic animation 3.4 Shape hierarchy and layer management 3.5 Edge control (feathering, falloff, motion blur handling) 3.6 Basic roto for simple objects (hands, props, foreground elements)",
+          "hours": null
+        },
+        {
+          "title": "Advanced Rotoscoping & Tracking Techniques 5",
+          "topics": "4.1 Tracking-assisted roto (planar and point tracking basics) 4.2 Roto for complex subjects (hair, motion blur, transparency) 4.3 Garbage mattes and holdout mattes 4.4 Matte refinement (motion blur, edge blending, matte cleanup) 4.5 Using roto nodes in multi-layer compositions 4.6 Roto Using IK & FK handles",
+          "hours": null
+        },
+        {
+          "title": "Paint & Cleanup Techniques 4",
+          "topics": "4.1 Introduction to paint tools (clone, brush, blur, smear) 4.2 Wire/rig removal techniques 4.3 Object removal and clean plate creation 4.4 Frame-by-frame paint vs. temporal cloning 4.5 Dust, scratches, and unwanted object cleanup 4.6 Paint node workflow and layer management",
+          "hours": null
+        },
+        {
+          "title": "Advanced Paint, Tracking & Integration 5",
+          "topics": "5.1 Paint with motion tracking (stabilize and match-move workflows) 5.2 Advanced object removal using tracked paint 5.3 Integration of roto and paint for seamless compositing 5.4 Multi-pass cleanup workflows 5.5 Working with multiple nodes and render outputs 5.6 Quality control and error checking",
+          "hours": null
+        },
+        {
+          "title": "Final Project & Showreel Development 1",
+          "topics": "Silhouette Roto Showreel Submission (minimum 1 Min, Maximum 2 Min)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-361-ME",
+      "title": "Lab Course on ANM-360-ME",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-362-ME",
+      "title": "Motion Graphics & Compositing (After Effects)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        47,
+        49
+      ],
+      "units": [
+        {
+          "title": "Advanced Interface & Workflow Management 5",
+          "topics": "1.1. New features in After Effects 2026 1.2. Custom workspace creation 1.3. Project organization techniques 1.4. Advanced timeline controls 1.5. Import/export optimization 1.6. Dynamic Link with Premiere Pro 1.7. Keyboard shortcuts & workflow speedup",
+          "hours": null
+        },
+        {
+          "title": "Advanced Animation Principles 5",
+          "topics": "2.1 Motion principles 2.2 Graph Editor mastery 2.3 Speed graph & value graph 2.4 Easy Ease advanced techniques 2.5 Parenting & null objects 2.6 Motion smoothing 2.7 Camera movement animation",
+          "hours": null
+        },
+        {
+          "title": "Motion Graphics Design 3",
+          "topics": "3.1 Shape layers advanced tools 3.2 Motion graphics templates 3.3 Infographics animation 3.4 Typography animation 3.5 Lower thirds & broadcast graphics 3.6 Essential Graphics Panel",
+          "hours": null
+        },
+        {
+          "title": "Visual Effects & Compositing 5",
+          "topics": "4.1 Green screen keying 4.2 Rotoscoping 4.3 Mask tracking 4.4 Blend modes 4.5 Chroma key 4.6 Advanced compositing 4.7 Matte techniques 4.8 Object removal",
+          "hours": null
+        },
+        {
+          "title": "Working With Audio 2",
+          "topics": "5.1 Understanding Audio in Motion Graphics 5.2 Previewing and Mixing Audio 5.3 Enhancing Audio Tracks with Effects",
+          "hours": null
+        },
+        {
+          "title": "Animation Basics 3",
+          "topics": "6.1 Importing Illustrator or Photoshop Files 6.2 Animating Opacity , Understanding Anchor Points 6.3 Animating Position ,Animating Rotation, Animating Scale 6.4 The Puppet Tool , Copy and Paste Key frames , Animation Sort cuts",
+          "hours": null
+        },
+        {
+          "title": "Creating And Animating Text 2",
+          "topics": "7.1 Creating and Editing Text 7.2 Applying Text Animation Presets 7.3 Animating Text Manually 7.4 Applying Layer Styles to Texts",
+          "hours": null
+        },
+        {
+          "title": "Professional Project & Rendering 5",
+          "topics": "8.1 Render Queue 8.2 Adobe Media Encoder 8.3 Export settings 8.4 Social media formats 8.5 Broadcast export 8.6 Portfolio creation 8.7 Freelancing workflow 8.8 Client project management",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ANM-363-ME",
+      "title": "Lab Course on ANM-362-ME",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-371-VSC",
+      "title": "Showreel and Project",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        52,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "ANM-381-OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "FP/OJT/CEP",
+      "credits": 4,
+      "pages": [
+        55,
+        63
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

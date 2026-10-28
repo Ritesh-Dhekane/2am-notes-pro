@@ -1,0 +1,512 @@
+{
+  "id": "s-y-b-a-geography-17072025",
+  "kind": "programme",
+  "programme": "Bachelor of Arts (B.A.) in Geography",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "GEO-201- MJ",
+      "title": "Fundamentals of Geomorphology",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction of Geomorphology",
+          "topics": "1. Definition of geomorphology 2. Nature and scope of geomorphology 3. Branches of geomorphology 4. Significance of geomorphology",
+          "hours": null
+        },
+        {
+          "title": "Tectonics and Crustal Movements",
+          "topics": "1. Origin of continents and oceans: i. Theory of plate tectonics, ii. Theory of sea floor spreading 2. Classification of crustal movements: i. Slow movements- folding and faulting and its types, ii. Rapid movements - volcanism and earthquakes: causes, consequences",
+          "hours": null
+        },
+        {
+          "title": "Weathering",
+          "topics": "1. Definition of Weathering 2. Types of weathering: (i) Physical (ii) Chemical (iii) Biological",
+          "hours": null
+        },
+        {
+          "title": "Agents of Erosion and Deposition",
+          "topics": "1. Erosional and depositional landforms created by the following geomorphic agents: (i) River (ii) Sea wave",
+          "hours": null
+        },
+        {
+          "title": "Applied Geomorphology",
+          "topics": "1. Definition and significance of applied geomorphology 2. Concept of Geomorphosites 3. Human activity and geomorphology: (i) Settlement (ii) Mining (iii) Urbanization (iv) Land Degradation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-202-MJP",
+      "title": "Practicals in Fundamentals of Geomorphology",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Introduction to Geomorphological Tools and Techniques",
+          "topics": "1. Introduction to SOI topographic sheets and understanding geomorphological features based on contour patterns/relief 2. Identifying fluvial features such as 'V' shaped valley, gorge, waterfall, pot holes, meanders, deltas, floodplains etc. using contour patterns or Google Earth programming 3. Identifying coastal features: beaches, sea cliff, sea island etc. using contour patterns or Google Earth",
+          "hours": null
+        },
+        {
+          "title": "Slope and Drainage Basin Analysis",
+          "topics": "1. Measuring slope angles 2. Identifying drainage patterns and their geomorphological significance 3. Profile- Drawing and interpretation of cross-section of river 4. Stream order and number by Strahlers method",
+          "hours": null
+        },
+        {
+          "title": "Field Mapping Techniques (Field excursion)",
+          "topics": "1. Techniques for mapping landforms in the field using SOI toposheet or GPS 2. Field survey for locating bench mark/spot height / triangulation mark with reference to SOI toposheet 3. Identifying landforms in the field (at least any two depositional or erosional landforms of fluvial /coastal/ aeolian) 4. Report writing on the basis of geomorphic landscape (Conduct a field visit or field excursion lasting one or more days)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-221- VSC",
+      "title": "Introduction to Cartography",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cartography",
+          "topics": "1. Definition of cartography 2. History of cartographic techniques 3. Essence of cartography: i. Atlas, ii. Globe, iii. Map 4. Branches of cartography 5. Importance and applications of cartographic techniques",
+          "hours": null
+        },
+        {
+          "title": "Map and Map Scale",
+          "topics": "1. Map: i. Definition, ii. Aspects, iii. Types 2. Map Scale: i. Definition, ii. Types of map scale: verbal, representative fraction and graphical",
+          "hours": null
+        },
+        {
+          "title": "Map Projections",
+          "topics": "1. Meaning 2. Classification of map projection on the basis of use and construction 3. Selection of map projection 4. Concept and significance of UTM Projection",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO -222 -VSC",
+      "title": "Introduction to Surveying",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Land Measurement",
+          "topics": "1. Definition of land measurement 2. Development of land measurement 3. Types of land measurement: a. Linear methods, b. Areal methods 4. Importance of land measurement",
+          "hours": null
+        },
+        {
+          "title": "Surveying",
+          "topics": "1. Definition of surveying 2. Types of surveys: Plane surveying and geodetic surveying 3. Classification of survey: a. On the basis of area, b. On the basis of objectives, c. On the basis of survey instruments (conventional and modern) 4. Importance of Surveying",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO -231-FP",
+      "title": "Field Visit and Report Writing",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO -241-MN",
+      "title": "Physical Geography of India",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Location and Physical Setting",
+          "topics": "1. Location, relation with neighboring countries 2. Physical divisions: a. The Northern Mountains, b. The North Indian Plains, c. The Peninsular Plateau, d. The Coastal Lowlands and Islands",
+          "hours": null
+        },
+        {
+          "title": "Drainage System and Climate",
+          "topics": "1. Drainage system: a. East flowing rivers- Ganga, Bramhputra, Godawari, Krushna and Kaveri, b. West flowing rivers- Indus, Narmda, Tapi and Vashishti 2. Major Seasons and weather associated with them: a. Summer, b. Monsoon, c. Winter",
+          "hours": null
+        },
+        {
+          "title": "Soil and Forest",
+          "topics": "1. Soil types and distribution 2. Soil conservation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO -242 -MNP",
+      "title": "Practicals in Map Reading",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to Map",
+          "topics": "1. Map: definition and elements 2. Classification of map: based on scale and purpose 3. Use of map",
+          "hours": null
+        },
+        {
+          "title": "Map Scale",
+          "topics": "1. Definition 2. Types of scale: verbal, numerical and graphical 3. Conversion of scale (British and Metric system): a. Verbal scale to representative fraction, b. Representative fraction into verbal scale 4. Construction of simple graphical scale (At least two examples from each)",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Map Projection",
+          "topics": "1. Definition and types of map projection 2. Basic concepts of projection: latitude, longitude, parallel of latitude, meridian of longitude, prime meridian, equator, direction 3. Calculation of time basis on meridian and GMT (Calculation of minimum two examples)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OE -201-GEO",
+      "title": "Political Geography",
+      "semester": 3,
+      "type": "Generic/Open Elective",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Political Geography",
+          "topics": "1. Definition, nature and scope 2. Historical development 3. Concept of geopolitics",
+          "hours": null
+        },
+        {
+          "title": "Concepts in Political Geography",
+          "topics": "1. Nation, state and nation state 2. Nation building 3. Frontiers and boundaries 4. Maritime boundaries",
+          "hours": null
+        },
+        {
+          "title": "Current Political Issues",
+          "topics": "1. Political Issues: i. India - Pakistan, ii. Russia-Ukraine, iii. Problems in Bangladesh 2. International river water disputes of India 3. Geopolitical importance of Indian ocean",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO- 201- IKS",
+      "title": "Indian Geographical Knowledge",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction to Indian Knowledge System (IKS)",
+          "topics": "1. Concept of IKS 2. Nature and Scope of IKS 3. IKS based approaches on knowledge paradigms 4. IKS from ancient to medieval period.",
+          "hours": null
+        },
+        {
+          "title": "Indian Geographical knowledge",
+          "topics": "1. Geographical Literature - Vaidikas, Puranas, the Ramayana, the Mahabharata, the works of Buddhists, Jains and Gandhian philosophy. 2. Geographical concepts in ancient India – eclipses, earth, size of earth, latitude and longitude, atmosphere, weather and climate, division of celestial sphere (Panchang), planetary computation 3. Regional geography of ancient India: continents, Bharatvarsa, mountains and rivers",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-251-MJ",
+      "title": "Introduction to Population and Settlement Geography",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Population Geography",
+          "topics": "1. Definition, nature and scope of population geography 2. Relation of population geography with other disciplines 3. Concepts: a. Population as Resource, b. Over Population, c. Optimum Population, d. Under Population",
+          "hours": null
+        },
+        {
+          "title": "Components and Growth of Population",
+          "topics": "1. Concept of population growth 2. Factors affecting population growth 3. Components of population growth: a. Fertility, b. Mortality, c. Migration 4. Spatio-temporal variation in population growth (special reference to India) 5. Impact of over population in India",
+          "hours": null
+        },
+        {
+          "title": "Population Theory and Policies",
+          "topics": "1. Population Theories- Malthusian theory 2. Population Policies of India 3. Population Policies of Norway",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Settlement Geography",
+          "topics": "1. Definition, nature and scope of settlement geography 2. Factors affecting growth and distribution of settlement 3. Concepts in settlement geography: a.) Site and situation of settlements, b.) Growth of settlements, c.) Rehabilitated settlements, d.) Ideal village, e.) Planned city",
+          "hours": null
+        },
+        {
+          "title": "Rural Settlement",
+          "topics": "1. Pattern of settlement 2. Characteristics and function of rural settlement",
+          "hours": 8
+        },
+        {
+          "title": "Urban Settlement",
+          "topics": "1. Concepts: i. Town, ii. City, iii. Metropolitan City, iv. Megalopolis, v. Conurbation, vi. Smart City, vii. CBD 2. Rural-Urban Fringe 3. Kingsley Davis Model of urbanization 4. Urbanization in India 5. Problems associated with urbanization in India",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO- 252-MJP",
+      "title": "Practicals in Population and Settlement Geography",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Measures of Population Growth",
+          "topics": "1. Measures of Fertility: i. Crude Birth Rate (CBR), ii. General Fertility Rate (GFR), iii. Age Specific Fertility Rates (ASF) 2. Measures of Mortality Rate: i. Crude Death Rate (CDR), ii. Infant Mortality Rate (IMR)",
+          "hours": null
+        },
+        {
+          "title": "Methods of Population Density and Population Projection",
+          "topics": "1. Measures of Population Density: i. Arithmetic Population Density, ii. Physiological Population Density, iii. Agricultural Population Density 2. Population Projections: i. Total Projections and Regional Projections, ii. High, Medium and Low Projections of Population 3. Measures of Population Projection: i. Arithmetic Progression (AP) Method, ii. Geometric Progression (GP) Method",
+          "hours": null
+        },
+        {
+          "title": "Settlement Analysis",
+          "topics": "1. Gravity Model 2. Lorenz Curve, Gini Coefficient for assessment of amenities 3. Urbanization Curve",
+          "hours": null
+        },
+        {
+          "title": "Case Studies",
+          "topics": "1. A case study of demography and amenities in nearby village 2. A case study of Ideal Village",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-271-VSC",
+      "title": "Practicals in Cartography",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction of Map",
+          "topics": "1. Meridians, parallels, graticule, prime meridian, equator and direction 2. Calculation of time basis on meridian and GMT 3. Thematic mapping techniques- properties, uses and limitations. 4. Diagrams: Drawing of diagrams along with appropriate scale - One dimensional, Two dimensional and Three dimensional.",
+          "hours": null
+        },
+        {
+          "title": "Map Scale",
+          "topics": "1. British and Metric measurement system 2. Conversion of map scale (British and Metric System): a. Verbal scale to representative fraction, b. Representative fraction to verbal scale 3. Construction of simple graphical scale 4. Construction of comparative graphical Scale",
+          "hours": null
+        },
+        {
+          "title": "Cartographic Technique",
+          "topics": "1. Techniques of representation of data: a. Choropleth map, b. Isopleth map, c. Dot map",
+          "hours": null
+        },
+        {
+          "title": "Map Projection",
+          "topics": "1. Zenithal projection 2. Conical projection 3. Cylindrical projection 4. Mercator projection",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO - 272 -VSC",
+      "title": "Practicals in Surveying",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Measurement of Distances and Computation of Areas",
+          "topics": "1. Distance measurements by taping: a. Measure a road for a length of minimum 500 meters adjacent to college campus, b. Measure an area of a building/plot/agricultural farm/garden in vicinity of the college campus 2. Area conversion measured by students: a. Square meter to Guntha, b. Square meter to acre, c. Bigha to hectare, d. Square foot to acre, e. Measure a square mile area from a toposheet and convert it into hectare, f. Measure square kilometer area from a toposheet 3. Computation of areas: a. By triangles, b. By squares",
+          "hours": null
+        },
+        {
+          "title": "Plane Table Survey",
+          "topics": "1. Survey an area with the help of plane table: a. Radiation method, b. Intersection method",
+          "hours": null
+        },
+        {
+          "title": "GPS Survey",
+          "topics": "1. Survey along a line with the help of Dumpy/Auto Level 2 Survey of an area with the help of GPS: a. Line survey, b. Area survey 3. Preparation of map with the help of survey data collected by GPS",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-281-CEP",
+      "title": "Community Engagement Programme",
+      "semester": 4,
+      "type": "Community Engagement Program",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO-291-MN",
+      "title": "Physical Geography of Maharashtra",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Administrative Set up of Maharashtra",
+          "topics": "1. Geographical location 2. Adjoining states 3. Administrative divisions",
+          "hours": null
+        },
+        {
+          "title": "Physiography and Climate",
+          "topics": "1. Physical structure (mountain, plateau and plains) 2. Drainage pattern (east and west flowing rivers) 3. Major seasons and weather associated with them",
+          "hours": null
+        },
+        {
+          "title": "Soil and Forest",
+          "topics": "1. Soil types and distribution 2. Soil Conservation 3. Forest types and distribution 4. Forest Conservation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO-292-MNP",
+      "title": "Practicals in Weather Observation",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Weather Instruments",
+          "topics": "1. Understanding weather Instruments: mechanisms, functions, and usage: i. Measurement of temperature: Simple Thermometer, ii. Measurement of humidity: Hygrograph, iii. Measurement of precipitation: Rain Gauge, iv. Measurement of air pressure: Barograph, v. Identification of wind direction: Wind Vane, vi. Measurement of wind velocity: Cup Anemometer 2. Practical activities: i. Demonstrating the use of weather instruments, ii. Recording and interpreting climatological readings",
+          "hours": null
+        },
+        {
+          "title": "Isobaric Patterns",
+          "topics": "1. Drawing of isobaric patterns and associated weather: i. Cyclone, ii. Anticyclone 2. Secondary depression and Col",
+          "hours": null
+        },
+        {
+          "title": "Weather Maps",
+          "topics": "1. Introduction to IMD weather maps/reports 2. Symbols in daily weather report used by (IMD) 3. Reading and interpretation of weather maps of three seasons: summer, rainy and winter 4. Weather applications: Mausam, Meghdoot, Damini 5. Visit to nearby weather station",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OE -251- GEO",
+      "title": "Introduction to GPS",
+      "semester": 4,
+      "type": "Generic/Open Elective",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to GPS",
+          "topics": "1. Definition of GPS 2. Components of GPS – space, control & user segments 3. GPS Applications- civil applications, navigation, environmental studies, disaster management, urban and rural planning, agriculture, military applications 4. Surveying and mapping 5. Introduction to IRNSS",
+          "hours": null
+        },
+        {
+          "title": "GPS Equipment and Data Collection",
+          "topics": "1. Types of GPS devices: handheld, differential, and high-precision receivers 2. Satellite signals and codes 3. GPS time and coordinate systems 4. GPS field survey methods: static, kinematic, real-time 5. Data logging, waypoints, routes, and tracks 6. Conduct survey using GPS instrument 7. Manual plotting of survey data: on 2D & 3D graph",
+          "hours": null
+        },
+        {
+          "title": "GPS Data Processing and Integration (Software Based)",
+          "topics": "1. Data Import - Downloading and Format Types (e.g.GPX, KML, CSV) 2. Integration with GIS software (any professional or open source GIS software) 3. Post-processing techniques 4. Calculation of area 5. Mapping (Layout Creation / Map Making)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "SEC- 251- GEO",
+      "title": "Practical in Fundamentals of Statistics",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to Statistics",
+          "topics": "1. Definition and concepts of statistics 2. Scope of statistics 3. Application of statistics",
+          "hours": null
+        },
+        {
+          "title": "Data Types and Sampling Methods",
+          "topics": "1. Scales of Measurement: nominal scale, ordinal scale, Interval scale, ratio scale, 2. Types of data: primary and secondary, discrete and continuous 3. Concept of sample and population 4. Sampling methods: random sampling, stratified sampling, systematic sampling 5. Graphical representation of data: histogram, frequency curve and frequency polygon, ogive curve. (At least two examples each)",
+          "hours": null
+        },
+        {
+          "title": "Measures of Central Tendency",
+          "topics": "1. Concept and significance of central tendency 2. Mean, median, and mode for ungrouped and grouped data 3. Comparison of mean, median, and mode (Merits and demerits) (At least two examples each)",
+          "hours": null
+        },
+        {
+          "title": "Measures of Dispersion",
+          "topics": "1. Concept of dispersion, Characteristics of a good measure of dispersion 2. Range: Definition, computation, merits and demerits. 3. Semi-interquartile range (Quartile deviation): Definition, computation, merits and demerits. 4. Standard deviation and variance: Definition, computation, merits and demerits 5. Measures of dispersion for comparison: coefficient of range, coefficient of quartile deviation, coefficient of variation. (At least two examples each)",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

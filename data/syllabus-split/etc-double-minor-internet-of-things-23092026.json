@@ -1,0 +1,196 @@
+{
+  "id": "etc-double-minor-internet-of-things-23092026",
+  "kind": "programme",
+  "programme": "Double Minor in Internet of Things",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DMIT 301 ETC",
+      "title": "Sensors and Analog Electronics",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [4, 6],
+      "units": [
+        {
+          "title": "Introduction to Sensors",
+          "topics": "Introduction to sensors and transducers, classification of sensors, active and passive sensors, analog and digital sensors. Static characteristics of sensors: range, sensitivity, accuracy, precision, resolution and linearity. Sensor errors and calibration. Basic signal conditioning and sensor interfacing. Introduction to commonly used IoT sensors such as temperature, light, humidity, gas and proximity sensors.",
+          "hours": 9
+        },
+        {
+          "title": "Displacement, Level & Flow Sensors",
+          "topics": "Displacement measurement, linear and angular displacement, potentiometric sensor, LVDT: construction, working and applications, basic concepts of capacitive and inductive displacement sensors. Level measurement using float, capacitive and ultrasonic sensors. Flow measurement using rotameter, turbine, electromagnetic and ultrasonic flow sensors. Applications of displacement, level and flow sensors in IoT.",
+          "hours": 9
+        },
+        {
+          "title": "Pressure sensors & Smart sensors",
+          "topics": "Pressure Measurement: Microphones, Elastic pressure transducers, bellows and piezoelectric pressure sensors, High Pressure Measurements, Bridge man gauge. Smart sensors: Evolution from traditional to smart sensors, Definition and architecture of smart sensors, Differences between conventional and smart sensors. Key points: Sensing elements and transduction principles, Signal conditioning circuits (amplifiers, filters), DAQ in smart sensors, Communication protocols used in smart sensors. Wireless sensors and WSN: Introduction to wireless sensors. Detailed architecture of WSN",
+          "hours": 9
+        },
+        {
+          "title": "Design and Analysis of EMOSFET Amplifier",
+          "topics": "Introduction to MOSFET, construction and working of Enhancement MOSFET (E-MOSFET), drain and transfer characteristics, MOSFET parameters. MOSFET as an amplifier. Common Source (CS) amplifier: circuit, working, voltage gain, input and output resistance. Basic concepts of Common Drain (CD) and Common Gate (CG) amplifiers and their comparison. Applications of MOSFET amplifiers in sensor signal conditioning.",
+          "hours": 9
+        },
+        {
+          "title": "EMOSFET and OPAMP Applications",
+          "topics": "E-MOSFET Applications - CMOS inverter, E-MOSFET as a switch and its applications in LED, relay and basic motor interfacing. Introduction to OP-AMP, ideal characteristics and basic operation. Inverting and non-inverting amplifiers, voltage follower, summing amplifier, difference amplifier and comparator. Basic signal conditioning and active filter applications. OP-AMP and E-MOSFET applications in sensor interfacing and IoT systems.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMIT 302 ETC",
+      "title": "Sensors and Analog Electronics Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [7, 9],
+      "units": []
+    },
+    {
+      "code": "DMIT 351 ETC",
+      "title": "Digital Electronics",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [10, 12],
+      "units": [
+        {
+          "title": "Digital Fundamentals and Logic Gates",
+          "topics": "Number systems: binary, decimal, octal and hexadecimal; number system conversions; 1’s and 2’s complement; binary arithmetic; Boolean algebra and basic laws; De Morgan’s theorems; basic logic gates AND, OR, NOT, NAND, NOR, XOR and XNOR; universal gates and realization of basic gates using NAND and NOR; Boolean expressions and truth tables.",
+          "hours": 9
+        },
+        {
+          "title": "Combinational Logic Circuits",
+          "topics": "Introduction to combinational circuits; Boolean function simplification using Karnaugh Map (K-map); SOP and POS forms; half adder and full adder; half subtractor and full subtractor; parallel binary adder; multiplexer and demultiplexer; encoder and decoder; applications of combinational circuits.",
+          "hours": 9
+        },
+        {
+          "title": "Sequential Logic Circuits",
+          "topics": "Introduction to sequential circuits and difference between combinational and sequential circuits; latches and flip-flops; SR, JK, D and T flip-flops; characteristic and excitation tables; race-around condition and master-slave JK flip-flop; registers and shift registers; applications of flip-flops and registers.",
+          "hours": 9
+        },
+        {
+          "title": "Counters and Memory Devices",
+          "topics": "Introduction to counters; asynchronous and synchronous counters; up, down and up/down counters; mod-n counters; decade counter; ring and Johnson counters; applications of counters. Introduction to semiconductor memories; RAM, ROM, PROM, EPROM and EEPROM; basic memory organization and applications.",
+          "hours": 9
+        },
+        {
+          "title": "Digital Logic Families and Data Converters",
+          "topics": "Introduction to digital logic families; basic characteristics of TTL and CMOS; comparison of TTL and CMOS; propagation delay, power dissipation, fan-in and fan-out, noise margin. Introduction to Digital-to-Analog Converter (DAC) and Analog-to-Digital Converter (ADC); binary weighted resistor and R-2R ladder DAC; flash and successive approximation ADC; applications of ADC and DAC in embedded and IoT systems.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMIT 352 ETC",
+      "title": "Digital Electronics Laboratory",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [13, 15],
+      "units": []
+    },
+    {
+      "code": "DMIT 401 ETC",
+      "title": "Microcontroller and applications",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [16, 17],
+      "units": [
+        {
+          "title": "Introduction to Microcontroller Architecture",
+          "topics": "Overview of MCS-51 architecture, Block diagram and explanation of 8051, Port structure , memory organization, Interrupt structure, timers and its modes, serial communication modes.",
+          "hours": 9
+        },
+        {
+          "title": "IO Port Interfacing-I",
+          "topics": "Overview of Instruction set, Sample programs (assembly): Delay using Timer and interrupt, Programming Timer 0&1, Data transmission and reception using Serial port",
+          "hours": 9
+        },
+        {
+          "title": "Parallel Port Interfacing-II",
+          "topics": "Interfacing of: LEDS, Keypad, 7-segment multiplexed display, LCD, ADC 0809(All programs in assembly). Programming environment: Study of software development tool chain (IDE), hardware debugging tools (timing analysis using logic analyzer)",
+          "hours": 9
+        },
+        {
+          "title": "PIC Microcontroller Architecture",
+          "topics": "Features, comparison & selection of PIC series as per application. PIC18FXX architecture- MCU, Program and Data memory organization,Pin out diagram, Reset operations, Oscillator options (CONFIG), BOD, power down modes & configuration bit settings,timer and its programming,Brief summary of Peripheral support, Overview of instruction set.",
+          "hours": 9
+        },
+        {
+          "title": "Real World Interfacing",
+          "topics": "Port structure with programming, Interrupt Structure (Legacy and priority mode) of PIC18FWith SFRS. Interfacing of LED, LCD (4&8 bits), and Key board, use of timers with interrupts, CCP modes: Capture, Compare and PWM generation, DC Motor speed control with CCP: All programs in embedded C",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMIT 402 ETC",
+      "title": "Microcontroller and applications Laboratory",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [18, 20],
+      "units": []
+    },
+    {
+      "code": "DMIT 451 ETC",
+      "title": "IOT and industrial applications",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [21, 23],
+      "units": [
+        {
+          "title": "Introduction to IoT",
+          "topics": "Introduction, Definitions, Characteristics of IoT, History of IoT, Trends in Adaptation of IoT, Difference between IoT Devices. Physical & Logical Design of IoT, IoT frameworks, IOT Enabling Technologies, (Wireless Sensor Network, Cloud Computing, Big Data Analysis), IoT and M2M, Comparison of IoT & IoE, Concept of IIoT. #Exemplar Introduce IOT in live applications like home appliances, internet",
+          "hours": 9
+        },
+        {
+          "title": "IOT Design Methodology and Platform",
+          "topics": "IoT Design Methodology Steps and IoT System Design Cycle. , Basics of IoT Networking, Networking components of IoT, IoT communication Models, IoT Communication APIs Hardware Platforms – Introduction to Arduino & Basic Programming, Introduction to Raspberry Pi & Basic Programming Interfacing basics ( SPI,I2C,UART,CAN).",
+          "hours": 9
+        },
+        {
+          "title": "IOT Protocols",
+          "topics": "Non IP Based Protocols : IEEE 802.11, Bluetooth, ZigBee IP Based Protocols: IPV4, IPv6, 6LowPAN, Application Based Protocols: AMPQ, MQTT. Authorization and Access Control in IOT",
+          "hours": 9
+        },
+        {
+          "title": "IoT Security and Privacy",
+          "topics": "Introduction, Vulnerabilities of IOT, Security requirements, Challenges and threats to IoT security, Encryption and authentication techniques, Privacy concerns and regulations, best practices for securing IoT devices, Security Model for IOT.",
+          "hours": 9
+        },
+        {
+          "title": "Industrial Applications & Case Studies",
+          "topics": "Designing IoT Applications : Requirement Analysis and Architecture, Development of a sample IoT application, Integration with Cloud Services and APIs. System integration and real- world challenges. Case studies: Smart agriculture, Smart health, Smart cities, Smart transportation, Industrial IoT. Study of ESP32.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMIT 452 ETC",
+      "title": "IOT and industrial applications Laboratory",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [23, 24],
+      "units": []
+    },
+    {
+      "code": "DMIT 453 ETC",
+      "title": "Minor Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [25, 27],
+      "units": []
+    }
+  ],
+  "notes": null
+}
+

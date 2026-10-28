@@ -1,0 +1,375 @@
+{
+  "id": "advanced-course-cyber-and-india-s-national-security-from-the-academic-year-2025-26-2609202",
+  "kind": "programme",
+  "programme": "Advanced Diploma in Cyber Security and India’s National Security",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CSNS 1.1",
+      "title": "Fundamentals of Cyber Security",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Basic of Computer and Cyber Security",
+          "topics": "1.1 History of Computer and Generations, 1.2 Computer and its Components, 1.3 Introduction to Operating Systems, 1.4 Introduction to Cloud Security, 1.5 Email Security, Web Security and Database Security, 1.6 HTTP, HTTPS, SSL and Firewall",
+          "hours": null
+        },
+        {
+          "title": "Foundations of Cyber Security and Emerging Threats",
+          "topics": "1.1 Definition, Scope, and Importance, 1.2 CIA Triad: Confidentiality, Integrity, Availability, 1.3 Threat Landscape: Viruses, Worms, Trojan, Malware, Zero Days, 1.4 AI-Driven Attacks: Deepfakes, APTs, RaaS, Internet of Things, 1.5 Remote Work Vulnerabilities and Expanded Attack Surfaces",
+          "hours": null
+        },
+        {
+          "title": "Legal, Ethical, and Governance Frameworks",
+          "topics": "2.1 Information Technology Act 2000 and Amendments, 2.2 International Cyber Law Frameworks: GDPR, WTO, Interpol, WCAG, 2.3 Computer Hacking and Bharatiya Nyaya Sanhita, 2023, 2.4 Digital Rights, Online Privacy, Right to Forget and Surveillance Debates, 2.5 Evolution of Ransomware: Encryption, Data Theft, Extortion, Data Recovery",
+          "hours": null
+        },
+        {
+          "title": "Network Security: Protocols, Systems, and Applications",
+          "topics": "3.1 Network protocols: TCP/IP, DNS, HTTPS, P2P, 3.2 Cyber Security Tools: Antivirus,VPN, IDPS, IAM, DLP, EDR, Honeypots, 3.3 Network attacks: DDoS, DNS/IP/MAC Spoofing, Password Attacks, 3.4 Fundamentals of Cloud Security, 3.5 Crypto Jacking, E- Commerce and Digital Payment Frauds",
+          "hours": null
+        },
+        {
+          "title": "Encryption, Cryptography and Cyber Forensics",
+          "topics": "4.1 Encryption: Symmetric vs. Asymmetric vs. Hashing, 4.2 Digital Signatures, Electronic Signatures and Digital Certificates, 4.3 Digital Forensics Cycle: Identification, Preservation and Collection of Evidence, 4.4 Forensics Tools: Wireshark, Autospy, Cellebrite, Encase, HashKeeper, 4.5 Cyber Security Policies and Compliance: ISO 27001, NIST Framework, COBIT",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 1.2",
+      "title": "Cyber Security and India’s National Security",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Foundations and Threat Landscape",
+          "topics": "1.1 Introduction to National Security: Key Concepts and Definition, 1.2 Introduction to Cyber Security, 1.3 Introduction to Cyber Crime, 1.4 Cyber Crimes: Modes and Classification, 1.5 Cyber Crime: Tools and Technology, 1.6 Cyber Crimes and Bharatiya Nyaya Sanhita 2023",
+          "hours": null
+        },
+        {
+          "title": "Cyber Warfare, Information Security and Legal Frameworks",
+          "topics": "2.1 Introduction to Cyber Warfare: Concept and Definition, 2.2 Attack Vectors: State-Sponsored, Non-State, Rogue State, Insider, Hacktivist, 2.3 Cyber Defense Architecture: CERT, NCIIPC, NTRO, NCCC, I4C, MHA, MoD, 2.4 Legal Instruments: IT Act 2000, UAPA, NSA, National Cyber Security Policy, 2.5 Comparative Doctrines: NATO Cyber Defense vs India's Joint Cyber Doctrine",
+          "hours": null
+        },
+        {
+          "title": "Strategic Technology and Disinformation",
+          "topics": "3.1 Emerging Technologies: Artificial Intelligence, Blockchain, Internet of Things, 3.3 Information, Misinformation and Disinformation, 3.4 National Cybersecurity Strategy and Capacity Building, 3.4 Case Studies: Ukraine Drone Warfare, Stuxnet, Solar Winds Attack, 3.5 Activity: Timeline of Major Cyber Incident related to Cyber Warfare",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 1.3",
+      "title": "Cyber Terrorism and its Security Challenges",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Terrorism",
+          "topics": "1.1 Introduction, Concepts and Definitions on Cyber Terrorism, 1.2 Historical Evolution: Early Origins, Growth and Increased Sophistication, 1.3 Motivations & Actors: Ideological, Political, Economic, Religious Drivers, 1.4 Cyber Terrorism vs. Cybercrime vs. Non-State Actors, 1.5 Case Study: Stuxnet Attack",
+          "hours": null
+        },
+        {
+          "title": "Cyber Infrastructure and Vulnerabilities",
+          "topics": "2.1 Critical Infrastructure: Power Grids, Banking Systems, Public Transport, Healthcare, 2.2 Anomaly Detection, Zero-Day Vulnerability, Exploits & Attacks, 2.2 Attack Vectors: Malware, Ransomware, APTs, Wireless Access, 2.4 Case Study: Estonia Attack, 2.5 Activity: Diagramming India’s Critical Infrastructure and Key Ministers",
+          "hours": null
+        },
+        {
+          "title": "Legal and Policy Frameworks",
+          "topics": "3.1 Global Conventions: ITU Resolutions, Budapest Convention, G20 Declarations, 3.2 Challenges in Enforcement: Jurisdiction, Anonymity, Speed, Accountability, 3.3 Information Technology Act and Cyber Terrorism, 3.4 Comparative Framework: India vs. USA vs. China, 3.5 Activity: Draft Cyber Security Policy for a Business Organization",
+          "hours": null
+        },
+        {
+          "title": "Cyber Terrorism and National Security",
+          "topics": "4.1 Social Media: Misinformation, Disinformation and Online Radicalization, 4.2 Psychology of Terror: Understanding Motivation and Counter-Radicalization Measures, 4.3 Role of Law Enforcement Agencies and their Mandate, 4.4 Activity: Timeline of Major Terror incidents affecting India’s National Security, 4.5 Case Study: Colonial Pipeline Attack",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 1.4",
+      "title": "Cyber Security, Polices, Governance and Compliance",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Foundations of Cyber Governance, Risks and Compliance",
+          "topics": "1.1 Introduction, Definition and Scope of Cyber Governance, 1.2 Importance of Cyber Governance in Risks and Compliance, 1.3 Key Stakeholders: Boards, CISOs, Regulators, Investors and Audits, 1.4 Cyber Governance Frameworks: NIST, ISO/IEC 27001, ZTA, PCI DSS, 1.5 Evolution of International Cyber Norms: Budapest Convention, Paris Call, UN-OEWG",
+          "hours": null
+        },
+        {
+          "title": "Strategic Threats and Policy Responses",
+          "topics": "3.1 Types of Cyber Threats: Non-State Actors, Supply Chain Attack, CI, Espionage, 3.2 National Cybersecurity Strategy and Military Doctrines, 3.3 Cyber Threat Intelligence and Incident Response, 3.4 Role of Artificial Intelligence, Machine Learning and Quantum Technology.",
+          "hours": null
+        },
+        {
+          "title": "Cyber Laws of P5 Nations",
+          "topics": "3.1 USA, UK, Russian Federation, France, China, 3.2 United Nations Charter and Jus Ad Bellum in Cyberspace, 3.3 Digital Sovereignty, Piracy, Data Privacy and Countermeasures, 3.4 Public-Private Partnerships (PPP), 3.5 Cyber Resilience and Business Continuity Plan",
+          "hours": null
+        },
+        {
+          "title": "Comparative Frameworks and Future Directions",
+          "topics": "4.1 Privacy vs. Security: Exploring differences and relationships, 4.2 Emerging Trends: Zero Trust Architecture, Quantum Computing Threats, 4.3 Social Media Vis-à-vis Human Rights, 4.4 Digital Diplomacy, Soft Power and International Relations, 4.5 Digital Money Laundering: Modes and Classification",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 1.5",
+      "title": "Practical Component: Case Studies",
+      "semester": 1,
+      "type": "Elective Paper",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "Incident Response & Management",
+          "topics": "1.1 Role Play Scenarios building for Security Breach and Response Strategy, 1.2 Draft Incident Reports, 1.3 Hands-on SIEM Tools. (McAfee Enterprise Security Manager), 1.4 Activity: Create Information Security Incident Report Template.",
+          "hours": null
+        },
+        {
+          "title": "Compliance & Audit Simulations",
+          "topics": "2.1 Mock Audits for ISO/IEC 27000 and PCI-DSS, 2.2 Breach & Attack Simulation for Compliance, 2.3 Policy Drafting, Gap Analysis, Risk Assessment, Review Policies and Control, 2.4 Cybersecurity Compliance Audit Simulation, 2.4 Activity: Create Risk Assessment Templates.",
+          "hours": null
+        },
+        {
+          "title": "Setting up Firewall and Intrusion Detection Systems",
+          "topics": "3.1 Install and Configure Intrusion Detection System, 3.2 Update Signature and Firmware, 3.3 Install Firewall in Linux, 3.4 Install and Update Windows Firewall Systems, 3.5 Turn On/Off Windows Firewall.",
+          "hours": null
+        },
+        {
+          "title": "Simulate Incident Response Scenarios",
+          "topics": "4.1 Perform, Protect, Detect, Act and Respond to Malware and Phishing, 4.2 Observe, Orient, Decide and Act (OODA) Loop, 4.3 Protect, Detect, Response (PDR), 4.4 Perform Network Traffic Analysis, 4.5 Activity: Describe Various Networks based Attacks.",
+          "hours": null
+        },
+        {
+          "title": "Social Engineering",
+          "topics": "5.1 Overview of Social Engineering Attacks, 5.2 Do and Don’ts for Social Media Users, 5.3 Standard Operating Procedures (SOP), 5.4 Role Play Social Engineering Attacks, 5.5 Exercise: Power Point Presentation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 1.6",
+      "title": "Cyber Security and Research Methodology",
+      "semester": 1,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Problem Identification",
+          "topics": "1.1 Define a Precise Research Question, 1.2 Problem Statement, 1.2 Align Research with recent Cyber Threats and Technological Shifts, 1.3 Conduct Online Research on the said topic",
+          "hours": null
+        },
+        {
+          "title": "Literature Review",
+          "topics": "2.1 Survey: Academic Journals, White Papers, Geopolitical Policy Briefs, 2.2 Identify Information Gap in areas like Information Security, AI and Forensics Tools, 2.3 Conduct Review of Literature on Cyber Security Publications",
+          "hours": null
+        },
+        {
+          "title": "Research Design",
+          "topics": "3.1 Choose Research Methodology based on your Objective: Qualitative or Quantitative, 3.2 Observational: User Online Behavioral Pattern or Social Media Monitoring Exercise, 3.3 Experiment: How People Respond to Disinformation vs. Fact Checking, 3.4 Applied: Develop and Test Cyber Security Guidelines, Procedures and SOP’s",
+          "hours": null
+        },
+        {
+          "title": "Data Collection",
+          "topics": "4.1 Post Events Analysis: Incident Handling Timeline, 4.2 Verify Compliance with Privacy Laws and Institutional Board Standards, 4.3 Collect Data through Primary and Secondary Sources, 4.4 Data Collection Methods: Surveys, Questionnaires, Interviews, Field and Library Visits, 4.5 Activity: Visit Various Cyber Crime Reporting Portal (Online)",
+          "hours": null
+        },
+        {
+          "title": "Academic: Report and Essay Writing",
+          "topics": "5.1 Book Review, 5.2 Article Review, 5.3 Commentary, 5.4 Blog Writing, 5.5 Report Writing, 5.6 Essays and Monographs",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 2.1",
+      "title": "Geopolitics and Cyber Security",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Geopolitical Shifts and Tech Sovereignty",
+          "topics": "1.1 Basic Concepts of Cyber Security, Geopolitics and Cyber Power, 1.2 Understand Geopolitical Shifts and Technological Landscapes, 1.3 Case Study: US-China-India Tech Rivalry, 1.4 Trade Wars, Market Instability and Strategic Alliances, 1.5 Mapping Critical Technologies",
+          "hours": null
+        },
+        {
+          "title": "Cybersecurity as Economic Strategy",
+          "topics": "2.1 Global Financial Systems and Supply Chain Risks, 2.2 Digital Assets, Blockchain and Money Laundering, 2.3 Cyber and Industrial Espionage, 2.4 Cyber Space vis-vis Intellectual Property Rights, 2.5 Trade Negotiations Amidst Cyber Attack",
+          "hours": null
+        },
+        {
+          "title": "Regulatory Landscapes, Cryptocurrency and Blockchain",
+          "topics": "3.1 Data Localization and Cross-Border Compliance, 3.2 Comparative Analysis: India’s PDP Act vs. GDPR, 3.3 Cryptocurrencies, Blockchain, and Sanction Evasion, 3.4 Blockchain Forensics and Dark Web Forensics",
+          "hours": null
+        },
+        {
+          "title": "Global Cyber Norms and Emerging Tech Diplomacy",
+          "topics": "4.1 Role of WTO, UN, and Regional Blocs in Tech Diplomacy, 4.2 Cyber Security Norms across G20, G8, EU, SAARC, SCO, 4.3 International Cyber Diplomacy and Quantum Technology, 4.4 Activity: Draft International Cyber Ethics Charter, 4.5 Case Studies: List Abbreviations on Global Cyber Security Norms",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 2.2",
+      "title": "Emerging and Disruptive Technologies",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Foundations of Emerging Disruptive Technologies",
+          "topics": "1.1 Definition, Classification and Identification Criteria, 1.2 Strategic Relevance in Defence, Intelligence and War, 1.3 Overview of Key Technologies: Virtual Reality, Augmented Reality, 5G & 6G, 1.4 Emerging Technologies and Disruptive Strategic Thinking",
+          "hours": null
+        },
+        {
+          "title": "Risks, Vulnerabilities, and Ethical Challenges",
+          "topics": "2.1 Job Displacement, Algorithmic Bias and Autonomous Vehicles, 2.2 Cyber Warfare Threats and Systemic Vulnerabilities, 2.3 Legal and Ethical Issues: Regulation, Privacy, Accountability, 2.4 International Norms and Governance Dilemmas",
+          "hours": null
+        },
+        {
+          "title": "Global Power Shifts and Strategic Competition",
+          "topics": "3.1 Global Tech Supremacy: US-China-India-Saudi Arabia AI Competition, 3.2 Digital Sovereignty, Strategic Alliances and Partnerships, 3.3 Role of Global Institutions in Trade Wars: WTO-DSB, G20, G8, BRICS, SCO, 3.4 Geopolitical Faultline: Armed Conflicts, Nationalism and Protectionism",
+          "hours": null
+        },
+        {
+          "title": "Artificial Intelligence in Indian Context and Case Studies",
+          "topics": "4.1 India’s AI Initiatives and Institutional Capacity Building, 4.2 Integration of AI in ISR, C3, Training and Simulation, 4.3 Case Studies: Autonomous Drone, Border Surveillance and Electronic Warfare, 4.4 Contemporary Example: AI Infrastructure, Advanced Computing, Startups and Research",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 2.3",
+      "title": "Social Media, Disinformation and Cybersecurity",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Understanding the Digital Ecosystem",
+          "topics": "1.1 Introduction to Social Media, 1.1 Evolution of Social Media Platforms, 1.2 User Behaviour Patterns, Data Analytics and Infographics, 1.3 Comparative Digital Governance: Western vs. Indian Regulatory Platforms, 1.4 Activities: Timeline of Major Platforms, Glossary Building & Military Terminology",
+          "hours": null
+        },
+        {
+          "title": "Anatomy and Impact of Disinformation",
+          "topics": "2.1 Types of Disinformation: Fake News, Fake Narratives, Viral Content, Hashtags, 2.2 Comparative Lens: Democratic vs. Authoritarian Regime Disinformation Tactics, 2.3 Activities: COVID-19 Disinformation Case Study, 2.4 Suggested Format: Infographic + Case Summaries",
+          "hours": null
+        },
+        {
+          "title": "Social Media as a Threat Vector",
+          "topics": "3.1 Types of Social Media: Facebook, Twitter, LinkedIn, Instagram, YouTube, 3.2 Social Media Algorithms, Echo Chambers, Online Hate, Misinformation, 3.3 Bot Networks, Troll Armies, Dark Room, Micro Blogging, Vlogging, Hangouts, 3.4 Impact of Social Media: Digital Activism, Citizen Journalism, Digital Divide, 3.5 Activity: Getting Organisation ready for Social Media Content Management",
+          "hours": null
+        },
+        {
+          "title": "Cyber Security, Ethics, and Digital Resilience",
+          "topics": "4.1 Cognitive Hacking, Psychological Operations, Hybrid Warfare, Cyber Warfare, 4.2 Legal and Ethical Challenges: Speech vs. Harm, Privacy, Accountability, 4.3 Building Resilience: Media Literacy, Fact-Checking, Community Interventions, 4.4 Activities: Create Disinformation Toolkit",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 2.4",
+      "title": "Dissertation",
+      "semester": 2,
+      "type": "Dissertation",
+      "credits": 4,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "CSNS 2.5",
+      "title": "Conceptual Framework of National Security",
+      "semester": 2,
+      "type": "Elective Paper",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Key Concepts",
+          "topics": "1.1. Nation, 1.2. State, 1.3. Nation-State, 1.4. Nationalism, 1.5. National Power and Sovereignty, 1.6. National Interest",
+          "hours": null
+        },
+        {
+          "title": "Conceptual Understanding of Security",
+          "topics": "2.1 What is Security, 2.2 Concepts and Theories on Security, 2.3 Traditional Security vs Non-Traditional Security, 2.4 National Security, 2.5 International Security, 2.6 Humanitarian Crises & Global Interventions",
+          "hours": null
+        },
+        {
+          "title": "Strategic Studies: Concept and Scope",
+          "topics": "3.1 Strategic Studies: Key Concept, 3.2 Theories and Causes of War, 3.3 Key Thinkers; Sun Tzu, Carl von Clausewitz, Thucydides, Chanakya, 3.4 Strategic Studies, International Relations and Cold War, 3.5 India’s Nuclear Strategy, 3.6 Pakistan’s Nuclear Strategy, 3.7 China’s Nuclear Strategy",
+          "hours": null
+        },
+        {
+          "title": "Contemporary Security and Strategic Issues",
+          "topics": "4.1 Overview and Timeline of World Wars, 4.2 Cyber Threat, 4.3 Economic Threat, 4.4 Nuclear Threat, 4.5 Critical Infrastructure Threat, 4.6 Terrorism and Cyber Terrorism",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CSNS 2.6",
+      "title": "Cyber Internship / On Job Training.",
+      "semester": 2,
+      "type": "On Job Training",
+      "credits": 4,
+      "pages": [
+        26,
+        26
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}
+

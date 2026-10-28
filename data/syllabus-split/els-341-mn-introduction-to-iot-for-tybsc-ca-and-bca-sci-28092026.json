@@ -1,0 +1,43 @@
+{
+  "id": "els-341-mn-introduction-to-iot-for-tybsc-ca-and-bca-sci-28092026",
+  "kind": "course",
+  "programme": null,
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ELS-341-MN-T",
+      "title": "Introduction to IoT",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "title": "Internet of Things Concepts",
+          "topics": "1.1 Definition, Characteristics of IoT, 1.2 Trends in Adoption of IoT, 1.3 IoT Devices, IoT Devices Vs Computers, 1.4 Basic Building Blocks of an IOT Device",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to IOT design methodology and Protocols",
+          "topics": "2.1 Physical Design of IoT: - Things in IoT, Interoperability of IoT Devices,, 2.2 Sensors and Actuators for IOT, 2.3 Signal conditioning techniques: bridge amplifier, noise suppression techniques (filters for noise removal and cancellation), Linearization techniques, 2.4 Need of Analog/Digital Conversion: Block diagrams of successive approximation ADC, Dual Slope ADC, Simultaneous ADC, Comparison of the three based on the parameters. IC examples of the ADC and DAC and their parameters, 2.5 Logical Design of IoT:- IoT functional blocks, IoT Enabling technologies, IoT levels and deployment templates, Applications of IoT, 2.6 Design Steps, 2.7 Basics of IoT Networking, Networking Components, 2.8 IoT Communication Models and IoT Communication APIs",
+          "hours": 10
+        },
+        {
+          "title": "Cloud Platforms for IOT",
+          "topics": "3.1 Sensor nodes and sensor networks, 3.2 Protocol Standardization for IoT, 3.3 M2M and WSN Protocols, 3.4 RFID Protocol,, 3.5 Modbus Protocol, Zigbee Architecture., 3.6 Cloud for IoT, 3.7 Application of Amazon Web Services for IoT and SkyNet IoT",
+          "hours": 6
+        },
+        {
+          "title": "Applications of IoT",
+          "topics": "4.1 IOT for Smart home, 4.2 Smart agriculture using IOT, 4.3 IOT based health care system, 4.4 Demonstration of AWS working",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

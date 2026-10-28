@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/useAuth.js'
 import { trackEvent } from '../lib/analytics.js'
-import { COURSES } from '../lib/catalog.js'
+import { notesCourseOf } from '../lib/catalog.js'
 import { describeEntry, libraryUrl } from '../lib/syllabus.js'
 import { ThemeToggle } from './Shell.jsx'
 import { Logo, MadeBy } from './ui.jsx'
@@ -87,8 +87,7 @@ export function SourceCredit({ library, className = '' }) {
 
 // "Notes for this course": only for courses the app has notes for (lib/catalog.js COURSES).
 export function CourseNotesLink({ programme }) {
-  const name = String(programme || '').toUpperCase().replace(/\./g, '')
-  const course = COURSES.find((c) => new RegExp(`\\b${c.id}\\b`).test(name) || name.includes(c.full.toUpperCase()))
+  const course = notesCourseOf(programme)
   if (!course) return null
   return (
     <Link to="/" className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-4 hover:border-line-strong">

@@ -1,0 +1,569 @@
+{
+  "id": "se-aiandml-2024-pattern-syllabus-15072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (2024 Pattern) in Artificial Intelligence and Machine Learning",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-AIM",
+      "title": "Data Structures & Algorithms",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures &",
+          "topics": "Algorithms  Introduction to Data Structures: Data, Data Object, Data types, Abstract Data Types (ADT), Data structures, Classification of Data Structure: primitive and non-primitive, Static and Dynamic, Persistent and Ephemeral data structures Introduction to Algorithms: Definition and Characterist ics of an algorithm, Algorithm Specification, Introduction to algorithm design strategies Performance Analysis - Time and space complexity, Asymptotic notations, Best, Average and worst cases. Finding complexity using step count method, Analysis of program ming Constructs- Linear, Quadratic, Cubic, Logarithmic Basic Searching Algorithms: Linear Search, Binary Search Basic Sorting Algorithm: Bubble Sort, Selection Sort, Insertion Sort Exemplars /Case Studies Case Study 1: Efficient Data Retrieval in Large Databases Case Study 2: Student Attendance Tracker",
+          "hours": 7
+        },
+        {
+          "title": "Linear Data Structures",
+          "topics": "Linked Lists: Singly LL, Doubly LL, Circular LL. Linked list as an ADT. Stack: Stack as an ADT, Arrays and Linked Lists implementation, Implicit vs explicit stack, Applications of stack: recursion, converting expressions from infix to postfix or prefix form, evaluating postfix or prefix form Queue: Queue as an ADT, Arrays and Linked Lists implementation, Types: Circular Queue, Double-ended Queue (Deque), Applications Exemplars/Case Studies 1. Linked Lists (Doubly LL): A music player application uses a doubly linked list to store songs in a playlist. Users can navigate forward and backward through the playlist. Each song node contains data about the song and references to both the previous and next songs. 2. Stack: Undo/Redo Feature in Text Editors. 3. Queue: In a network router, a queue is used to buffer packets for transmission. The packets arrive in order and are transmitted in the same order, ensuring smooth data flow through the network. In a real-time system, a deque could be used to handle urgent tasks at both ends of the queue.",
+          "hours": 7
+        },
+        {
+          "title": "Non- Linear data Structures",
+          "topics": "Tree-Definitions and Concepts, Representation of binary tree, Binary tree traversal (Inorder, postorder, preorder), Threaded binary tree, Binary search trees, Conversion of General Trees To Binary Trees, Applications Of Trees Some balanced tree mechanism, eg. AVL trees, 2-3 trees, Height Balanced, Weight Balance, Graph-Matrix Representation Of Graphs, Elementary Graph operations,(Breadth First Search, Depth First Search, Spanning Trees, Shortest path, Minimal spanning tree- Prims and Kruskals Algorithm ) Heap: Heap data structure, Min and Max Heap, Heap sort, applications of heap Exemplars/Case Studies 1 Recommendation System for E-commerce (tree) 2 Optimizing Product Filtering Performance on a High-Traffic E- commerce Site(tree) 3 “India Airlines\" Flight Search Optimization (Graph)",
+          "hours": 9
+        },
+        {
+          "title": "Hashing, String processing Applications",
+          "topics": "Hashing: Hash Functions, Collision Handling Techniques (Chaining, Open Addressing) String Processing: Naïve String Matching, Rabin-Karp Algorithm, Knuth-Morris-Pratt (KMP) Algorithm Applications of DSA: , Social Network Graph Analysis, and AI Search Algorithms Exemplars/Case Studies Case Studies on File Systems",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Algorithms",
+          "topics": "Divide and Conquer: Merge Sort, Quick Sort, Matrix Multiplication; Greedy Algorithms: Activity Selection, Fractional Knapsack, Huffman Coding; Dynamic Programming: 0/1 Knapsack, Longest Common Subsequence (LCS), Floyd-Warshall. Exemplars/Case Studies 1. Efficient Parcel Sorting in a Warehouse (Concepts: Merge Sort, Quick Sort) 2. Optimizing Ad Slot Allocation in Online Streaming (Concepts: Activity Selection, Fractional Knapsack (Greedy)) Scenario: Choose the best set of ads to show within a fixed break time to maximize revenue.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-AIM",
+      "title": "Object Oriented Programming",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Foundations of Object-",
+          "topics": "Oriented Programming  Introduction to OOP: Limitations of Procedural Programming, Need for Object-Oriented Programming, Fundamentals of Object-Oriented Programming: Objects, Classes, Data Members, Methods, Messages, Data Encapsulation, Data Abstraction and Information Hiding, Inheritance, Polymorphism, Static and Dynamic Binding, Message Passing. Class: Creating a Class, Visibility/Access Modifiers, Encapsulation. Exemplars/Case Studies Model a real world scenario (vehicle class, fruit class, student management in university etc.) using Object Oriented Paradigm",
+          "hours": 6
+        },
+        {
+          "title": "Methods and Constructors",
+          "topics": "Methods: Adding a Method to a Class, Returning a Value, Adding a Method That Takes Parameters, The this Keyword, Method Overloading, Object Creation, Using Object as a Parameter, Returning Objects, Array of Objects. Memory Allocation: new, Static Data Members, Static Methods. Constructors: Introduction, Use of Constructors, Characteristics of Constructors, Types of Constructors, Constructor Overloading. Garbage Collection: Destructors and Finalizers. Exemplars/Case Studies  Represent a vector using class and include appropriate methods to perform various tasks.  A book shop inventory",
+          "hours": 6
+        },
+        {
+          "title": "Inheritance & Polymorphism",
+          "topics": "Inheritance: Introduction, Need of Inheritance, Types of Inheritance, Benefits of Inheritance, Cost of Inheritance, Constructors in Derived Classes, Method Overriding, Abstract Classes and Interfaces. Polymorphism and Software Reuse: Introduction, Types of Polymorphism, Compile-Time and Run-Time Polymorphism, Mechanisms for Software Reuse, Efficiency and Polymorphism. Exemplars/Case Studies  A bank account system",
+          "hours": 6
+        },
+        {
+          "title": "Exception Handling and Generic",
+          "topics": "Programming  Exception Handling: Errors, Types of Errors, Exceptions and Their Types, Exception-Handling Fundamentals, Uncaught Exceptions, Using try and catch, Multiple catch Clauses, Nested try Statements, User- Defined Exceptions using throw. Generics: Introduction, Introduction to Language-Specific Collection Interfaces: List Interface and Set Interface, Collection Classes: ArrayList Class and LinkedList Class. Exemplars/Case Studies  Exception handling and generic programming using array list (ArrayList class)",
+          "hours": 6
+        },
+        {
+          "title": "File Handling and Design Patterns",
+          "topics": "File Handling: Introduction; Concepts of Streams, Stream Classes, Byte Stream Classes, Character Stream Classes, Using Streams and Other Useful I/O Classes, Using the File Class, Input/output Exceptions, Creation of Files, Reading/Writing Characters, Reading/Writing Bytes, Handling Primitive Data Types, Concatenating and Buffering Files, Random Access Files. Design Patterns: Introduction, Types of Design Patterns, Adapter, Singleton, Iterator. Exemplars/Case Studies  Student Management System",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-AIM",
+      "title": "Foundation of Artificial Intelligence",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to AI",
+          "topics": "Definition of AI- Understanding AI as an academic discipline, AI vs Human Intelligence. History of AI- Timeline and major milestones, Turing Test, and early symbolic AI. Applications of AI- AI in healthcare, robotics, finance, education, defense, Intelligent Agents - Agent and environment, Rationality, PEAS description (Performance measure, En vironment, Actuators, Sensors). Types: Simple Reflex, Model - based, Goal-based, Utility-based. Properties of Task Environment- Observable Vs Partially Observable, Deterministic vs Stochastic, Episodic vs Sequential, Static vs Dynamic, Discrete vs Continuous Exemplars/ Case Studies AI in Healthcare – Use of AI in COVID-19 Diagnosis and Forecasting. (Explore how AI was utilized to analyze medical images and predict outbreak trends.) Reference Books Artificial Intelligence: A Modern Approach, 4th US ed. by Stuart Russell and Peter Norvig",
+          "hours": 8
+        },
+        {
+          "title": "Problem Solving based on Searching",
+          "topics": "Problem Formulation- State space, initial state, goal state, operators, path cost. Uninformed Search Strategies- Breadth-First Search (BFS), Depth -First Search (DFS), Uniform Cost Search, Iterative Deepening DFS. Informed (Heuristic) Search - Heuristic functions (admissibility, consistency), Greedy Best-First Search, A* Search Algorithm. Performance Metrics- Completeness, Optimality, Time, and Space complexity Exemplars/ Case Studies A* in GPS Navigation, Airline Crew Scheduling Using Hill Climbing, Example: 8- puzzle, vacuum cleaner Reference Books Artificial Intelligence: A Modern Approach, 4th US ed. by Stuart Russell and Peter Norvig",
+          "hours": 8
+        },
+        {
+          "title": "Constraint Satisfaction Problems and Adversarial",
+          "topics": "Search  Adversarial Search – Games, The minimax algorithm, Optimal decisions in multiplayer games, Alpha - Beta Pruning, Evaluation functions, Cutting off search, Games with an Element of Chance. Logical Agents – Knowledge-Based agents Constraint satisfaction Problem: Graph Coloring problem, Water Jug Problem Exemplars/ Case Studies 1.Study of Computer Othello using Minimax and Alpha Beta Pruning 2.Study of IBM’s deep Blue Reference Books Artificial Intelligence: A Modern Approach, 4th US ed. by Stuart Russell and Peter Norvig",
+          "hours": 8
+        },
+        {
+          "title": "Knowledge Representation And Reasoning",
+          "topics": "Introduction to Logic and Reasoning -Propositional Logic-First Order Logic-Inference in First Order Logic- Unification, Forward Chaining, Backward Chaining, Resolution. Quantifying Uncertainty - Bayes Rule -Bayesian Belief Network- Approximate Inference in Bayesian networks Exemplars/ Case Studies Use forward chaining and backward chaining for identifying common illnesses on given symptoms Reference Books Artificial Intelligence: A Modern Approach, 4th US ed. by Stuart Russell and Peter Norvig",
+          "hours": 8
+        },
+        {
+          "title": "AI Applications and Future Trends",
+          "topics": "Applications of AI in: Robotics, Natural Language Processing (NLP), Expert Systems, Computer Vision Systems, Autonomous Vehicles. Emerging Trends : Explainable AI (XAI) -LIME/SHAP frameworks, Federated Learning, Generative AI & Large Language Models (LLMs) – GPT, BERT, DALL·E, ChatGPT, Prompt Engineering – Crafting effective prompts for LLMs. Exemplars/ Case Studies AI in Autonomous Vehicles – Tesla’s Self-Driving Capabilities (Explore perception, decision-making, and ethical dilemmas in autonomous navigation.) Reference Books Artificial Intelligence: A Modern Approach, 4th US ed. by Stuart Russell and Peter Norvig",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-AIM",
+      "title": "Data Structures & Algorithms Lab",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        25,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-AIM",
+      "title": "Object Oriented Programming Lab",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        29,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "Open Elective I",
+      "title": "Open Elective I",
+      "semester": 3,
+      "type": "OEL",
+      "credits": 2,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-AIM",
+      "title": "Digital Electronics and Logic Design",
+      "semester": 3,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction To Digital Electronics",
+          "topics": "Digital Logic families: Digital IC Characteristics; TTL: Standard TTL characteristics, Operation of TTL NAND gate; CMOS: Standard CMOS characteristics, operation of CMOS NAND gate; Comparison of TTL & CMOS. Signed Binary number representation and Arithmet ic: Sign Magnitude, 1’s complement & 2’s complement representation, unsigned Binary arithmetic (addition, subtraction, multiplication, and division), subtraction using 2’s complement; IEEE Standard 754 Floating point number representations. Codes: Binary , BCD, octal, hexadecimal, Excess-3 , Gray code & their conversions Exemplars/Case Studies CMOS 4000 series ICs 2) Practical applications of various codes in computers",
+          "hours": 6
+        },
+        {
+          "title": "Combinational Logic Design",
+          "topics": "Logic minimization: Representation of truth-table, SOP form, POS form, Simplification of logical functions, Minimization of SOP and POS forms, don’t care Conditions. Reduction techniques: K-Maps up to 4 variables CLC design using SSI chips – Code converters, Half- Adder, Full Adder, Half Subtractor, Full Subtractor, n bit Binary adder Introduction to MSI functions & chips - Multiplexers (IC 74151 and IC 74153), Decoder / Demultiplexer (IC 74138), Binary adder (IC 7483). Design using MSI chips: BCD adder using IC 7483, Implementation of logic functions using IC 74153, IC 74151 & 74138. Exemplars/Case Studies Quine–McCluskey Minimization Technique, Encoder (IC 74147), BCD to 7 segment decoder driver (IC 7447 )",
+          "hours": 6
+        },
+        {
+          "title": "Flip Flops and their Applications",
+          "topics": "Introduction to sequential circuits . Difference between combinational circuits and sequential circuits, memory element – latch. Flip- Flops: Design, truth table, excitation table of SR, JK, D, T flip flops. Study of flip flops with asynchronous and synchronous Preset & Clear, Master Slave configuration, conversion from one type to another type of flip flop. Study of flip flop ICs - 7473, 7474, 7476 Application of flip-flops – Bounce elimination switch, Counters- asynchronous, synchronous and modulo counters, Study of modulus n counter ICs - 7490 & their applications to implement mod counters Exemplars/Case Studies Simple Traffic Light controller",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Computer Architecture",
+          "topics": "Sequential Logic Design  Registers- Buffer register, shift register types - SISO, SIPO, PISO & PIPO, applications of shift registers - ring counter, twisted ring counter Basic design steps-State diagram, State table, State reduction, State assignment, Mealy and Moore machines representation Sequence generators using counters & sequence detector using Moore & Mealy model Exemplars/Case Studies Electronic Voting Machine (EVM)",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Computer Architecture",
+          "topics": "Computer organization & computer architecture, organization, functions & types of computer units- CPU(typical organization ,Functions , Types), Memory ( Types & their uses in computer ), IO( types & functions) & system bus( Address, data & control , Typical control lines, Multiple- Bus Hierarchies ); Von Neumann & Harvard architecture; Instruction cycle state diagram Von Neumann Machine: Structure of IAS computer, Registers: PC,MAR,MBR,IR,AC,MQ,IBR and their roles Control unit : Control signals & typical organization of hard wired & micro programmed Control Unit. Exemplars/Case Studies 8086 Architecture",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-AIM",
+      "title": "Principles of Management & Entrepreneurship",
+      "semester": 3,
+      "type": "EEM",
+      "credits": 2,
+      "pages": [
+        36,
+        40
+      ],
+      "units": [
+        {
+          "title": "Management and Planning",
+          "topics": "Fundamentals  Definition, nature, and characteristics of management, Scope and functional areas, Management as art, science, and profession, Management vs. administration, Roles and levels of management, Development of management thought (classical to modern), Planning: nature, importance, objectives, types (meaning only), Decision -making and planning process, planning hierarchy Exemplars/Case Studies Google’s adoption of OKRs for strategic planning and innovation alignment. Reference Books 1. Robbins & Coulter, “Management”, Pearson Lumen Learning: Principles of Management",
+          "hours": 3
+        },
+        {
+          "title": "Organizing, Staffing, Directing, and",
+          "topics": "Controlling  Organization: nature, purpose, principles, types, departmentation, committees, Centralization vs. decentralization; span of control, MBO & MBE, Staffing: process of selection and recruitment, directing: leadership styles, motivation theories, communication, coordination (meaning, importance, techniques), Controlling: steps, essentials, methods Exemplars/Case Studies Netflix’s team structure and leadership approach for creative project management. Reference Books 1. Northouse, “Leadership: Theory and Practice”, SAGE 2. Robbins & Coulter, “Management”, Pearson",
+          "hours": 3
+        },
+        {
+          "title": "Entrepreneurship and Entrepreneurial",
+          "topics": "Development  Entrepreneur: meaning, evolution, functions, types, emerging class, Concept and stages of entrepreneurship, Role of entrepreneurs in economic development, Entrepreneurship in India; barriers to entrepreneurship Exemplars/Case Studies The journey of Freshworks from a startup to a global SaaS provider",
+          "hours": 3
+        },
+        {
+          "title": "Small Scale Industries and Institutional",
+          "topics": "Support  SSI: definition, characteristics, objectives, scope, role in economic development, Steps to start an SSI; government policy and support, Impact of liberalization, privatization, globalization, WTO/GATT on SSI, Supporting agencies: TECKSOK, KIADB, KSSIDC, KSIMC, DIC, SISI, NSIC, SIDBI, KSFC, Single Window Agency Exemplars/Case Studies Zoho’s growth as a bootstrapped Indian small-scale software company.",
+          "hours": 3
+        },
+        {
+          "title": "Project Preparation and Industrial",
+          "topics": "Ownership  Project: meaning, identification, selection, report preparation (need, significance, contents, formulation, errors), Guidelines by Planning Commission, network analysis, project appraisal, Feasibility studies: market, technical, financial, social, Industrial ownership: partnership (definition, characteristics, types, agreement, registration, rights/duties, advantages/disadvantages), sole proprietorship (features, scope, pros/cons) Exemplars/Case Studies Razorpay’s project report and funding journey in the Indian fintech ecosystem.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-AIM",
+      "title": "Universal Human Values",
+      "semester": 3,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        41,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education and Harmony in the Human Being",
+          "topics": "Need, Basic Guidelines, and Content of Value Education Self-exploration: What is it? – Its content and process The Basic Human Aspirations – Continuous Happiness and Prosperity Understanding the Human Being as a Co-existence of Self ('I') and Body Harmony of Self with the Body: Sanyam and Health Activities of the Self and the Body – Understanding the needs of Self and Body",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in Family and Society",
+          "topics": "Harmony in the Family – Trust and Respect as the Foundation Nine Universal Values in Relationships Justice and Responsibility in Human Conduct Harmony in the Society – Resolution, Prosperity, Fearlessness, and Co-existence Four Orders of Nature – Self, Material Order, Plant/Bio Order, Animal Order",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in Nature and Existence",
+          "topics": "Understanding Harmony in Nature – Interconnectedness and Mutual Fulfillment Holistic Perception of Harmony: Existence as Co-existence Natural Acceptance and Self-regulation as a Way of Life Cyclicity in Nature and Responsibility of Human Being Implications of Imbalance in Nature: Environmental and Societal Consequences",
+          "hours": 8
+        },
+        {
+          "title": "Professional Ethics and Application of Values",
+          "topics": "Competence in Professional Ethics: Ability to Utilize Values in Decision-Making Ethical Human Conduct – The Foundation of Universal Human Order Vision for a Value-Based Society Case Studies: Ethical Dilemmas in the IT Sector Integration of Human Values with Technical Education",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEF-241-AIM",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "CEP/FP",
+      "credits": 2,
+      "pages": [
+        44,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-AIM",
+      "title": "Database Management System",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database Management System",
+          "topics": "Basic concepts, Advantages of DBMS over file processing systems, Data abstraction and Data independence, Database languages, Components of a DBMS and Overall structure of DBMS, Multi-user DBMS architecture, Data Modeling: Basic concepts, entity, attributes, relationships, relations, constraints, keys, Data models. ER and EER diagrams: Components of ER model, Conventions, Converting ER diagrams into tables, EER Model components, converting EER diagram into tables.",
+          "hours": 8
+        },
+        {
+          "title": "Relational Model and Database Design",
+          "topics": "Relational Model: Relational Model Concepts (Domains, Attributes, Tuples, and Relations), Relational Model Constraints, Relational Database Schemas, Codd’s rules. Database design: Features of good relational database design, Purpose of Normalization, Data Redundancy and Data Anomalies, Functional Dependencies, Normal Forms (1NF, 2NF, 3NF, BCNF). Exemplars/ Case Studies Student/Timetable/ Reservation any Data Management System",
+          "hours": 8
+        },
+        {
+          "title": "Structured Query Language (SQL) &",
+          "topics": "Procedural SQL (PL/SQL)  Introduction to SQL, Basic Data Types and SQL Syntax, Data Definition Language (DDL), Constraints, Data Manipulation Language (DML), Clauses with SELECT statement: WHERE, ORDER BY, Pattern Matching with LIKE, IN, BETWEEN, Aggregate functions with GROUP BY` and HAVING, Joins, Sub-queries, Set Operations, Views, Index. Introduction to PL/SQL: Overview of PL/SQL architecture, control structures, Cursors, PL/SQL Advanced Features: Procedures and Functions, Triggers.",
+          "hours": 8
+        },
+        {
+          "title": "Transaction Management and Concurrency",
+          "topics": "Control  Transaction Management: Introduction to Database Transaction, Transaction states, ACID Properties, Concept of Schedule: Serial and concurrent Schedule. Serializability: Conflict and View, Cascaded Schedules, Recoverable Schedules. Concurrency Control and Recovery Management: Need for Concurrency Control, Lock-based protocols, Time stamp based protocol, Validation-based protocol, Multiple Granularity, Deadlock. Recovery Techniques: Shadow- Paging, Log-based Recovery, Check Point.",
+          "hours": 8
+        },
+        {
+          "title": "Emerging Trends in Database Technologies",
+          "topics": "Needs, Challenges with traditional databases, Need for scalability, flexibility, and speed. NoSQL Databases: Definition and types: Document, Key-Value, Column, Graph; Example using MongoDB. Cloud Databases: What is DBaaS (Database-as-a-Service), Examples: AWS/Google Firebase; Benefits: scalability, cost, easy setup. Exemplars/ Case Studies 1. Library Management System: Exemplar · Students understand basic DBMS concepts · They apply E-R model concepts to represent book and user data. · Sample Activity: Create an ER diagram and relational schema for the system. 2. Online Retail Store (e.g., Amazon): Case Study · Students analyze how DBMS supports operations like search, filters, and checkout. Introduction to Modern Database: Big Data and Hadoop: Basics of Big Data, Introduction to Hadoop and HDFS, Real-world examples (e.g., social media, online shopping), Simple explanation of how they store relationships. AI/ML with Databases: Basic idea of machine learning inside databases, Real-world applications: recommendations, fraud detection. Exemplars/ Case Studies · Short quiz on types of NoSQL databases · Assignment: Compare SQL vs NoSQL · Viva on real-life applications of modern data...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-AIM",
+      "title": "Foundation of Machine Learning",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "Overview of Human Learning and Machine Learning, Comparison of Machine learning with traditional programming, ML vs AI vs Data Science. Types of Machine Learning: Supervised, Unsupervised, Reinforcement learning Basic/Key concepts: Generalization, Overfitting, Underfitting Statistics & Linear Algebra: Probability, Bayes’ theorem, Distributions, Variance, CoVariance, Matrices, Vectors, Eigenvalues, Gradient Descent Data and Dimensionality: Feature Sets, Feature Extraction and Subset Selection, Feature Transformation. Dimensionality reduction techniques- PCA and LDA Exemplars/Case Studies Analyze Product Reviews",
+          "hours": 6
+        },
+        {
+          "title": "Supervised Learning: Classification",
+          "topics": "Types of Supervised learning: Regression and Classification, Difference between Classification and Regression Model Evaluation and Validation: Confusion Matrix, Accuracy, Precision, Recall, ROC Curve, F1- score, Cross-validation techniques (k-fold, stratified k-fold), Sub Sampling Classification Algorithms: Bayesian Learning - Naive Bayes Classifier, Bayesian Network, Applications of Bayesian Network, k-Nearest Neighbors (k-NN) Decision Trees - Introduction, Learning Decision Tree Using ID3 and Gini Index, CART, Overfitting, Ensemble Methods- Bagging (Random Forest), Boosting (XG Boost) Support Vector Machines (SVM) - Support Vectors, Kernels: Linear, Polynomial and Radial Basis Function Kernel Multiclass Classification techniques -One vs One, One vs Rest. Exemplars/Case Studies House Price Prediction",
+          "hours": 6
+        },
+        {
+          "title": "Supervised Learning: Regression",
+          "topics": "Foundational Concepts: Different types of regression models, distributions, hypothesis testing, and confidence intervals. Univariate Regression – Model Representation, Least-Square Method for finding values of the regression coefficients. Cost Functions: MSE, MAE, R-Square, Performance Evaluation, Optimizing Simple Linear Regression with Gradient Descent Algorithm. Multivariate Regression –Model Representation, Polynomial Regression. Performance enhancement with Regularization techniques. Generalization Issues- Overfitting Vs. Underfitting, Bias Vs. Variance, Maximum Likelihood Function Logistic Regression – Model, Cost Function Exemplars/Case Studies Stock Price Prediction",
+          "hours": 6
+        },
+        {
+          "title": "Unsupervised Learning",
+          "topics": "Introduction of Unsupervised Learning, Application of unsupervised learning, Types of Unsupervised learning: Clustering algorithms - Partitioning Methods - k-means and k-Medoids, Hierarchical Methods - Agglomerative, Divisive, Density-based methods – DBSCAN, Apriori algorithm for association rule learning Exemplars/Case Studies Anomaly Detection in Network Security",
+          "hours": 6
+        },
+        {
+          "title": "Advance topics in Machine Learning",
+          "topics": "Overview of Reinforcement Learning, Components of Reinforcement Learning Introduction to ML Frameworks: Definition and Importance of ML Frameworks – Types of ML Frameworks – Tensorflow – PyTorch – Scikit-learn – Keras – Challenges in ML Frameworks Case-study of ML applications : Image recognition, speech recognition, Email spam filtering, Online fraud detection, Market basket analysis, Healthcare applications Exemplars/Case Studies Install and explore ML frameworks (Scikit-learn, Tensorflow, PyTorch, Keras)",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-AIM",
+      "title": "Probability and Statistics",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        54,
+        57
+      ],
+      "units": [
+        {
+          "title": "Probability Fundamentals and Set Theory",
+          "topics": "Algebra of sets, Axiomatic, classical, and frequentist definitions of probability, Conditional probability, independence, Bayes’ theorem. Exemplars/Case Studies  Medical Testing and False Positives Context: Use of conditional probability and Bayes’ Theorem in understanding false positives in COVID-19 tests.  Learning Outcome: Apply conditional probability and Bayes' Theorem to real-world diagnostic scenarios.",
+          "hours": 6
+        },
+        {
+          "title": "Random Variables and Expectation",
+          "topics": "Types of random variables (discrete, continuous, mixed), PMF, PDF, CDF, Expectation, variance, higher -order moments, Moment generating functions, Markov and Chebyshev inequalities. Exemplars/ Case Studies Warranty Analysis in Manufacturing Context: Modeling the life of a product (e.g., a LED bulb) using exponential and normal distributions. Learning Outcome: Calculate expected life, variance, and reliability. Reference Books E.J. Dudewicz & S.N. Mishra, Modern Mathematical Statistics – Chapter V.K. Rohatgi, An Introduction to Probability and Statistics – Chapters 3–4 S.M. Ross, Introduction to Probability and Statistics – Chapters 3–4 Mood, Graybill & Boes, Introduction to the Theory of Statistics – Chapters 2–3",
+          "hours": 6
+        },
+        {
+          "title": "Distributions and Functions of Random Variables",
+          "topics": "Binomial, Poisson, Geometric, Exponential, Normal, Gamma, Beta, Transformation techniques, Joint distributions, marginal and conditional distributions, Covariance, correlation, bivariate normal distribution Exemplars/ Case Studies  Traffic Flow Modeling Using Poisson Distribution  Context: Modeling the number of vehicles passing a toll gate per minute using Poisson distribution.  Learning Outcome: Understand real-world applications of discrete distributions and parameter estimation.",
+          "hours": 6
+        },
+        {
+          "title": "Hypothesis Testing and Decision Theory",
+          "topics": "Introduction to Sampling and Estimation: Sampling distributions, Central Limit Theorem, Point estimation: unbiasedness, consistency, Maximum likelihood and method of moments, Confidence intervals Hypothesis formulation, critical regions, Type I & II errors, Neyman -Pearson lemma, Z, t, Chi-square, and F tests, Goodness-of-fit, tests for proportions and variance, Applications in engineering and sciences. Exemplars/ Case Studies Market Survey for Launching a New Product  Context: A company samples 100 consumers to estimate the average monthly expenditure on a fitness product.  Learning Outcome: Construct confidence intervals and evaluate sample bias. A/B Testing in E-commerce  Context: Comparing two website versions to determine which leads to better conversion rates using hypothesis testing. Learning Outcome : Formulate null and alternative hypotheses, conduct z/t-tests, and interpret results.",
+          "hours": 7
+        },
+        {
+          "title": "Hypothesis Testing and Decision Theory",
+          "topics": "Hypothesis formulation, critical regions, Type I & II errors, Neyman-Pearson lemma, Z, t, Chi -square, and F tests, Goodness -of-fit, tests for proportions and variance, Applications in engineering and sciences. Exemplars/ Case Studies A/B Testing in E-commerce  Context: Comparing two website versions to determine which leads to better conversion rates using hypothesis testing.  Learning Outcome: Formulate null and alternative hypotheses, conduct z/t-tests, and interpret results.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-AIM",
+      "title": "Database Management System Lab",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        58,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-AIM",
+      "title": "Foundation of Machine Learning Lab",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        60,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "Open Elective II",
+      "title": "Open Elective II",
+      "semester": 4,
+      "type": "OEL",
+      "credits": 2,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-AIM",
+      "title": "Internet of Things",
+      "semester": 4,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        63,
+        65
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO IOT",
+          "topics": "IoT Definition, General Observations, Overview and Motivation, Examples of Application, Exemplary Devices: Raspberry Pi and Arduino, Types of Sensor, IPv6 Role, Areas Development and Standardization, Scope of the Present Investigation. Exemplars/ Case Studies Install Arduino IDE 1.8.19 and use various IoT Sensors. Reference Books 1. Daniel Minoli, “Building the Internet of Things with IPv6 and MIPv6: The Evolving World of M2M Communications”, Willy Publication- 2013 978-1-118-47347-4, 466.",
+          "hours": 6
+        },
+        {
+          "title": "MIDDLE WARE FOR IoT",
+          "topics": "Platform middleware, Embedded IoT Devices, Communication Middleware – M2M, RFID, WSN, SCADA, Software Middleware, Frameworks, Data standards, 5G for IoT, IoT information Security, Privacy and Governance. Exemplars/Case Studies Design IoT Solution using RFID, WSN and SCADA middleware",
+          "hours": 6
+        },
+        {
+          "title": "FUNDAMENTAL IoT",
+          "topics": "MECHANISMS AND KEY TECHNOLOGIES  Identification of IoT Objects and Services, Structural Aspects of the IoT, Environment Characteristics, Traffic Characteristics, Scalability, Interoperability, Security and Privacy, Open Architecture, Key IoT Technologies, Device Intelligence, Communication Capabilities, Mobility Support, Device Power, Sensor Technology, RFID Technology, Satellite Technology. Exemplars/Case Studies Design IoT based solution considering various Structural Aspects",
+          "hours": 6
+        },
+        {
+          "title": "DATA AND ANALYTICS FOR IOT",
+          "topics": "An Introduction to Data Analytic for IoT, IoT Data Analytic Overview, IoT using Machine Learning, Big Data Analytic Tools and Technology, Characteristics of big data, NoSQL Databases, Hadoop, Cloud Service, Edge Analytic Core Functions, Distributed Analytic Systems. Exemplars/Case Studies Develop IoT Solution and use Data Analytic tools.",
+          "hours": 6
+        },
+        {
+          "title": "CASE STUDIES",
+          "topics": "Case Studies: Smart Metering/Advanced Metering Infrastructure, e-Health/Body Area Networks, City Automation, Automotive Applications, Home Automation, Smart Cards Tracking (Following and Monitoring Mobile Objects). Exemplars/Case Studies Develop IoT based Smart Solution for various societal problems.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC-281-AIM",
+      "title": "Digital Marketing and Social Media",
+      "semester": 4,
+      "type": "VSEC",
+      "credits": 2,
+      "pages": [
+        66,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-AIM",
+      "title": "Modern Indian Language (Marathi/Hindi)",
+      "semester": 4,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        69,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-AIM",
+      "title": "E-Commerce",
+      "semester": 4,
+      "type": "EEM",
+      "credits": 2,
+      "pages": [
+        72,
+        79
+      ],
+      "units": [
+        {
+          "title": "Introduction to E-Commerce",
+          "topics": "1) E-Commerce Foundations - LinkedIn Learning https://www.linkedin.com/learning/ecommerce-foundations 2) Introduction to E-Commerce - Coursera (University of Illinois) https://www.coursera.org/learn/ecommerce 3) What is E-Commerce? - Investopedia https://www.investopedia.com/terms/e/ecommerce.asp",
+          "hours": 6
+        },
+        {
+          "title": "Technology Backbone of E-Commerce",
+          "topics": "4) E-Commerce Infrastructure - TutorialsPoint https://www.tutorialspoint.com/e_commerce/e_commerce_infrastructure.htm 5) Cloud Computing for E-Commerce - edX https://www.edx.org/learn/cloud-computing",
+          "hours": 6
+        },
+        {
+          "title": "E-Commerce Payment Solutions: An Overview",
+          "topics": "6) Introduction to Payment Systems - Coursera https://www.coursera.org/learn/payment-systems 7) Payment Gateway Explained - PayPal https://www.paypal.com/uk/webapps/mpp/payment-gateway 8) Payment Security Basics - PCI Security Standards Council https://www.pcisecuritystandards.org/",
+          "hours": 6
+        },
+        {
+          "title": "E-Commerce Marketing & Sales Revolution",
+          "topics": "9) Digital Marketing Specialization - Coursera (University of Illinois) https://www.coursera.org/specializations/digital-marketing 10) Inbound Marketing Course - HubSpot Academy https://academy.hubspot.com/courses/inbound-marketing",
+          "hours": 6
+        },
+        {
+          "title": "E-Business Fundamentals and Model Development",
+          "topics": "11) E-Business Concepts - OpenLearn https://www.open.edu/openlearn/money-business/leadership-management/e- business/content-section-0 12) Business Model Generation - Coursera https://www.coursera.org/learn/business-model-generation",
+          "hours": 6
+        },
+        {
+          "title": "E-Commerce Security: Tools and Best Practices",
+          "topics": "13) E-Commerce Security Fundamentals - Pluralsight https://www.pluralsight.com/courses/ecommerce-security-fundamentals 14) Cybersecurity for E-Commerce - Coursera https://www.coursera.org/learn/cyber-security 15) OWASP Top Ten Security Risks https://owasp.org/www-project-top-ten/",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-AIM",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        80,
+        83
+      ],
+      "units": [
+        {
+          "title": "Introduction to Environmental Studies & it’s Ecosystems",
+          "topics": "Definition of environment and components (biotic & abiotic), importance and scope of environmental studies, concept of sustainability and sustainable development, multidisciplinary nature of environmental studies. Definition, structure and functio n of ecosystems, food chains, food webs, and ecological pyramids, energy flow and ecological succession Case studies: Forest, grassland, desert, and aquatic ecosystems Exemplars/Case Studies -Plastic waste crisis in India, Use of solar rooftops in Gujarat - Sundarbans Mangrove Forests, Water pollution impact on river Yamuna ecosystem",
+          "hours": 7
+        },
+        {
+          "title": "Natural Resources: Renewable and Non-renewable Resources",
+          "topics": "Land Resources: Land use change, soil erosion, land degradation. Deforestation: Impacts of mining and dam projects on forests and biodiversity. Water Resources: Overuse of surface and groundwater; water conflicts. Atmosphere: Air circulation and precipitation basics. Energy Resources: Renewable and non-renewable energy; alternative sources. Exemplars/Case Studies Rainwater Harvesting in Tamil Nadu, Narmada Bachao Andolan – Dam building and displacement",
+          "hours": 6
+        },
+        {
+          "title": "Biodiversity and Conservation",
+          "topics": "Definition of Biodiversity: L evels of biodiversity: genetic, species, ecosystem, India’s biogeographic zones and hotspots Value of biodiversity: Ecological, economic, social, ethical, aesthetic, and informational values of biodiversity with examples. Threats to biodiversity: Habitat loss, poaching, invasions. Conservation methods: In-situ and Ex-situ Exemplars/Case Studies Project Tiger – Conservation success, man-animal conflict in Sundarbans",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Pollution and Human Role",
+          "topics": "Types of pollution & their causes, effects and controls : Air, water, soil, noise, nuclear, Control measures and pollution case studies Global concerns: Climate change, ozone depletion, acid rain. Environmental laws: EPA, Forest Act, Water and Air Act Human impact : Population, carbon footprint, ethics. Environmental movements- Chipko, Silent valley, Bishnios of Rajasthan and public awareness Environmental ethics: Role of Indian and other religions and cultures in environmental conservation. Environmental communication and public awareness, case studies (e.g., CNG vehicles in Delhi). E-waste management and laws Exemplars/Case Studies Solid Waste Management by Indore Municipal Corporation, Air Pollution in Delhi NCR – Health and Policy Implications",
+          "hours": 5
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

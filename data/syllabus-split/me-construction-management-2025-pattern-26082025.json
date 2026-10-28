@@ -1,0 +1,914 @@
+{
+  "id": "me-construction-management-2025-pattern-26082025",
+  "kind": "programme",
+  "programme": "Master of Engineering – Civil Engineering (Construction Management)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-CON",
+      "title": "Construction Management and Project Planning",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Management Concepts",
+          "topics": "Basics of Management: Modern scientific management, management theories of F. W. Taylor, Fayol & Mayo, Fourteen principles of management -by Henry Fayol. Hawthrone Experiment - by Elton Mayo. Functions of Management. Styles of Management. SWOT Analysis in construction. Construction Project Management: Types of Organizations with their merits and demerits. Forms of organizations. Construction Project lifecycle. Project feasibility reports -Technical analysis, financial analysis, Economic analysis, Ecological analysis. Project cleara nce procedures and necessary documentation for major works like dams, multistoried structures, ports, tunnels. Qualities, role and responsibilities of project manager. Role of Project Management Consultants.",
+          "hours": 12
+        },
+        {
+          "title": "Project Planning and Scheduling",
+          "topics": "Defining Project scope. Developing Work breakdown structure for residential, industrial and infrastructure projects. Use of Project scheduling Techniques like Gantt Chart, Critical Path Method (CPM) (with numerical), Programme Evalua tion and Review Technique (PERT) (with numerical), Line of Balance Technique (LOB)-concept only, Precedence Network Analysis (with numerical). Constrained resource scheduling. Software in Construction scheduling.",
+          "hours": 12
+        },
+        {
+          "title": "Project Administration and Control",
+          "topics": "Project controlling: Network crashing with numerical. Resource allocation and leveling (with numerical). Project updating. Earn value analysis. project performance record keeping and reporting - (i) Daily reporting: Daily progress report (DPR), Material inward report, Material transfer receipt (MTR), Material issue slip, Daily store consumption report, Daily (Departmental) labor slip, Watchman’s report, Clarification report, Memo details, (ii) Weekly reporting: Cash bills, Settlement of accounts, Ident (Requisition), Rending Indent, (iii) Monthly reporting: Monthly material consumption report, Monthly cement consumption report, Electric meter reading report, Water meter reading report, Machinery and instrument report, E xcess material list, Construction progress chart, Cube testing report, Other aspects: Site mobilization and demobilization aspects. Training for Construction Managers, Engineers, Supervisors. Application of MIS in project management. Enterprise Resource Planning (ERP).",
+          "hours": 12
+        },
+        {
+          "title": "Construction Safety",
+          "topics": "Causes of Accidents on various sites, safety measures and safety policies to be adopted, determination of safety parameters, personal protective equipment. The Construction (General Provisions) Regulations 1961, The Construction (Lifting operations) Regulations 1961, The Construction (Working places) Regulations 1966, The Construction (Health and Welfare) Regulations 1966, The health and Safety act 1974, Workmen compensation Act, Construction Hazards and their prevention-Trench excavation, shaft excavation, Scaffolding, Falsework, Crane operation, Tunneling, Sewer work, Work in confined spaces, Demolition work, Hazard Identifications and Control Techniques - HAZOP, FMEA, FMECA. Cost of Construction Injuries-Legal Implications Safety Organization –Safety Policy, Safety audit, Safety Record Keeping, Safety Culture, Employer’s responsibilities, Employee’s responsibilities, safety manual, safety training",
+          "hours": 12
+        },
+        {
+          "title": "Work Study & Incentive Schemes",
+          "topics": "Definition, Objectives, basic procedure, method study and work measurement, Work study applications in Civil Engineering. Method study – Definition, Objective, Procedure for selecting the work, recording facts, symbols, flow process charts, multiple activity charts, string diagrams. Work measurement – Time and motion studies, Concept of standard time and various allowances, time study, equipment performance rating. Activity sampling, time -lapse , photography technique, Analytical production studies, Incentive Schemes - Necessity, Merit rating, job eval uation, installation, modification and maintaining of incentive schemes based on implementation experience.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-CON",
+      "title": "Construction Technology",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Pile Construction",
+          "topics": "Introduction, uses, selection of piles, Classification of piles based on function, pile driving techniques, grouping of piles, efficiency of group of piles, pile cap and pile shoe, load tests on piles, loads on piles, pulling of piles, causes of failures of piles and precautionary measures, Use of NDT in pile construction.",
+          "hours": 12
+        },
+        {
+          "title": "Underground Construction",
+          "topics": "Tunnel alignment, size and shape of tunnel, tunneling in hard and soft strata, tunnel shaft -sinking and construction, tunnel lining, ventilation and lighting in tunnel, advanced techniques for tunnel maintenance, Micro Tunneling.",
+          "hours": 12
+        },
+        {
+          "title": "Underwater Construction",
+          "topics": "Problems encountered in excavation, Underwater drilling, blasting, Grouting methods in soft and hard soil including Jet grouting and Chemical grouting, dewatering in shallow and deep excavations using different methods, Vacuum Dewatering and Well point system, electro -osmosis, injections with cement and chemical, freezing process, vibro-flotation.",
+          "hours": 12
+        },
+        {
+          "title": "Cofferdams & Caissons",
+          "topics": "Cofferdams: types, selection, design features of coffer dams and construction of single, double wall, Sheet pile cofferdams, concrete wall movable cofferdam, land cofferdams. Caissons: Definition, uses, types of caissons, Construction of pneumatic and precast caissons, floating of caissons, cutting edges, sinking of caisson, tilting of caisson, caisson diseases",
+          "hours": 12
+        },
+        {
+          "title": "Construction using Concrete Technology",
+          "topics": "Concrete – Various types and erection methods of shuttering, Operation and erection of Ready Mix Concrete Plant, Pumped Concrete, Concrete mix design with various methods of concreting and also underwater concreting using tremie method, Concreting for unde rwater Construction, Self -compacting concrete.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-CON",
+      "title": "Total Quality Management",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Concepts of Quality",
+          "topics": "Definition of quality as given by Deming, Juran , Crosby, difference between Quality control, Quality Assurance (QA/QC). Total quality control (TQC) and Total Quality Management (TQM), Need for TQM in construction industry. Organization necessary for implementation of quality, Quality manual -Contents, data required, preparation, responsibility matrix, monitoring for quality - PDCA Cycle. Quality aspects in every phase in the life cycle of Construction project.",
+          "hours": 12
+        },
+        {
+          "title": "Statistical quality Control &Quality Control Tools",
+          "topics": "Histogram, Pareto diagram, Fishbone diagram, Quality control chart -Testing required for quality control of construction material used in RCC Work- destructive and Non destructive Test (NDT) Statistical Quality Control- Necessity, Benchmarking, Application of dispersion methods in quality control of construction activity.",
+          "hours": 12
+        },
+        {
+          "title": "Quality Control Team & Six Sigma and Application",
+          "topics": "Development of quality circles, quality inspection team, inspection reports, monitoring and control, 360‘feedback for quality. Definition of six sigma, evolution – Historical aspects, probability distribution Six sigma ratings, Six sigma training, six sigma as an effective tool in TQM. Application: RCC Work in building, DLC and PQC layers in road construction, Assessment of overall construction process from concept to completion of a 16-construction project",
+          "hours": 12
+        },
+        {
+          "title": "Training and development of Human Resources for QM & Study",
+          "topics": "of ISO 9004- Quality System Standards (12 hours) Training needs assessment, technical and managerial competencies necessary for achieving quality, preparation for training. Training on Project Rework Reduction Tool (PRRT) software- training for preparation of checklist necessary for RCC work, for commonly used formats. Purpose of ISO Standards. Difference between ISO 9001 and ISO 9004.Certification process for ISO 9001. Certification bodies involved. Eight Principles of ISO -Basic meaning, applying these principles for an effective quality process in the organization. Management support and commitment necessary for achieving implementation for quality system standards.",
+          "hours": null
+        },
+        {
+          "title": "Achieving TQM on Construction Projects",
+          "topics": "Advantages, barriers, principles, steps in implementation, seven types of construction defects. Determining cost of poor quality including hidden cost. Quality functions deployment (QFD). Importance of third-party quality audits. CIDCCQRA quality rating systems, customers satisfaction surveys, Non Conformity reports (NCR), remedial strategy for reducing NCR‘s.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-CON",
+      "title": "Material Management",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Materials Management",
+          "topics": "Definition and significance of materials management in construction. Objectives and scope of materials management. Functions and role of a Materials manager. Integrated approach to materials planning, procurement, and usage. Interdepartmental coordination: procurement, finance, scheduling. Ethical sourcing, sustainable procurement, and environmental considerations. Global sourcing and impact of international logistics. Circular economy in construction materials, Net Zero Material Management.",
+          "hours": 12
+        },
+        {
+          "title": "Codification, Standardization and Procurement",
+          "topics": "Codification and classification of construction materials (By type, use, source). Material analysis: ABC (Always Better Control), VED (Vital -Essential-Desirable), HML (High -Medium-Low). National and international material standards (IS, ASTM, BS, ISO). Procurement lifecycle: planning, requisition, tendering, contracting. MRP (Material Requirements Planning) and BOM (Bill of Materials). Vendor management: prequalification, evaluation, performance rati ng. Risk in procurement and vendor relations. E - procurement and supply chain digitization. Smart Contracts in procurement, Sustainable Procurement Strategies (SPP), Environmental, Social and Governance (ESG) in supply chain.",
+          "hours": 12
+        },
+        {
+          "title": "Inventory and Stores Management",
+          "topics": "Inventory Management :Inventory types and functions. Inventory control techniques: EOQ, Reorder Point, Safety Stock, Stockout analysis. Inventory review systems: Periodic vs. Continuous. Just -In-Time (JIT) and Lean Inventory Systems. Inventory effectiveness indices: ITR (Inventory Turno ver Ratio), Fill Rate, Deadstock. AI for demand forecasting. RFID, IoT -enabled inventory systems, Digital Inventory Dashboards. Stores Management : Stores layout planning and material stacking systems. Material receipt, inspection, documentation, and record keeping. Prevention of material loss (damage, theft, deterioration). Site logistics and scheduling. Bulk purchasing: benefits and risks. Drone -based material tracking, Mobile warehousing solutions.",
+          "hours": 12
+        },
+        {
+          "title": "Material Quality Control",
+          "topics": "Importance and methods of material quality control. Acceptance criteria: IS codes for aggregates, cement, steel, concrete, etc. Sampling methods and Statistical Quality Control (SQC). Process control methods in material handling. Quality economics: cost -benefit analysis of testing and assurance. Life Cycle Assessment (LCA) of materials. Use of smart sensors and NDT (Ultrasonic, Rebound Hammer, etc.). AI -based predictive quality analytics.",
+          "hours": 12
+        },
+        {
+          "title": "Advanced Material Management",
+          "topics": "Overview of digital material management systems (MMS). Software tools in material management, MMS integration with scheduling softwares. Cost control and performance analytics using MMS. Block chain for procurement transparency and smart contracts. Digital twins and BIM integration for material traceability. AI, ML, and Data Analytics in material planning. Carbon tracking in supply chain, Environmental, Social and Governance (ESG) reporting tools in MMS. Waste management and recycled material usage. Autonomous delivery robots, Decentralized logistics, Construction cloud platforms.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-CON",
+      "title": "Practical 1 (On Core Subjects)",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-510-CON a",
+      "title": "Construction Quality and Safety Management",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 3,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Construction Quality Management",
+          "topics": "Definitions, objectives, and significance of quality in construction. Factors influencing quality: materials, equipment, workmanship, and human resources. Roles, responsibilities, and authority of stakeholders in quality implementation. Quality objectives, quality policy, quality circles, and management guidelines. Concepts of consumer satisfaction, ergonomics, completion time, and statistical tolerance. Overview of standards, contracts, documents, and programming in quality assurance.",
+          "hours": 8
+        },
+        {
+          "title": "Quality Assurance and Quality Control Techniques",
+          "topics": "Role of regulatory agencies, owners, designers, and contractors in QA/QC.Tools for quality assurance/control: checklists, audits, appraisals, statistical methods. Failure Mode and Effects Analysis (FMEA) and critical failure aspects. Reliability concepts: optimum design, stability methods, prediction models. Taguchi’s concept of quality and application of cost-benefit models in construction QA",
+          "hours": 8
+        },
+        {
+          "title": "Safety Management and Safety Programs",
+          "topics": "Significance and current status of safety in construction projects . Problem areas in construction safety (scaffolding, lifting, excavation, high -rise works). Components of effective safety programs : job-site assessments, toolbox talks, safety meetings, and safety incentives. Safety training modules, documentation, and feedback systems for safety improvement. Development of safety culture : characteristics, strategies, and organizational responsibilities. Roles of workers, supervisors, managers, safety personnel, and subcontractors in safety compliance.",
+          "hours": 8
+        },
+        {
+          "title": "Construction Accidents and Legal Aspects",
+          "topics": "Causes and types of accidents in construction (mechanical, electrical, human error, natural). Human factors and behaviour-based safety (BBS) approaches. Cost of accidents and their impact on productivity and project performance. Hazard identification and risk assessment methods. Legal frameworks in India : Acts, Rules, Provisions (Factories Act, BOCW Act, IS: 3786, OSHA guidelines). Case studies of construction accidents and related legal judgments.",
+          "hours": 8
+        },
+        {
+          "title": "Integrated Quality and Safety in Construction",
+          "topics": "Relationship between quality management and safety management. Importance of sustainability and ethics in QA/QC and safety practices. Role of codes and standards (IS 456, IS 800, IS 1200, ISO 9001, OSHA). Cost implications of quality failures and accidents – preventive vs corrective costs. Best practices and future trends in construction quality and safety integration (digital monitoring, AI, BIM -enabled QA/QC, IoT -based safety).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-511-CON a",
+      "title": "Practical 2 (On Elective Subject) Construction Quality and Safety Management",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 1,
+      "pages": [
+        30,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-510-CON b",
+      "title": "Sustainable Building Materials",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 3,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Sustainable Building Materials",
+          "topics": "Introduction to sustainable building materials, qualities, use, examples - Natural building materials, Role of Material: Carbon from Cement, alternative cements and cementitious material, Alternative fuel for cements for reduction in carbon emission. Susta inability issues for concrete. Role of quality, minimization of natural resource utilization, concrete with alternative material for sustainability.",
+          "hours": 8
+        },
+        {
+          "title": "Traditional and Alternate Building Materials",
+          "topics": "Traditional Building materials and their characteristics (Carbon Negative BM) - Mud, Stone, Thatch, Bamboo, Binders- Lime, Laterite Quarry waste. Alternate Building Materials - Requirement of Alternate Building Materials, Flyash concrete, Bamboo Reinforced Concrete, Phospho-gypsum, Furnace Slag, Fiber Reinforced Concrete. Aerated Concrete, Ferro cement concrete, High performance concrete, self -healing concrete, Recycled Plastics concrete, chemicals/admixtures. Innovative building materials- – environmentally friendly, reliable and durable Buil ding Materials, Permeable Concrete, Nanocellulose composite brick, Argo bricks.",
+          "hours": 8
+        },
+        {
+          "title": "Smart Building Materials",
+          "topics": "Introduction- Characteristics of smart materials in comparison to common building materials, Types of Smart Materials, Application of smart materials on building components – Piezometric material, shape memory alloys (SMAs), Nano material, Characteristic a nd application of Photochromic, Thermochromics,",
+          "hours": 8
+        },
+        {
+          "title": "Concept of Embodied Energy and Carbon Footprint",
+          "topics": "Idea of embodied energy - Development of the concept, factors to be considered, calculation techniques for embodied energy - Data sets available for calculation of embodied energy - Case studies of embodied energy calculations - carbon footprint of material , calculation techniques, methods to off-set high embodied energy - Cradle to cradle material, whole life cycle and life cycle costing analysis techniques.",
+          "hours": 8
+        },
+        {
+          "title": "Environment Impact Assessment",
+          "topics": "Impact of development projects of civil engineering on environment - Environmental Impact Assessment (EIA) concept, limitations, Legal provisions on EIA, methods of EIA, Addressing the issues related to the Project Affected People-ISO 14000, EIA for infrastructure projects – Bridges – Stadium – Highways – Dams – Multi-storey Buildings – Water Supply and Drainage Projects,",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-511-CON b",
+      "title": "Practical-2- Elective-I -(Sustainable Building Materials)",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 1,
+      "pages": [
+        34,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-510-CON c",
+      "title": "Real Estate Practices and Management",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 3,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Real Estate Market and Statutory Framework",
+          "topics": "Real Estate Scope – classification of real estate activities and peculiarities – Factors affecting real estate market – Role of Government in real estate market; Laws – rules and regulation – land use controls in property development – registration And licensing requirements – Knowledge base for assessment and forecasting the Real Estate market – environmental issues related to Real Estate Transactions.",
+          "hours": 8
+        },
+        {
+          "title": "Participants, Stakeholders, and Ethical Practices",
+          "topics": "Role – Scope – working characteristics and principal functions of real estate participants and stakeholders – real estate consultants and their activities – role and responsibilities of property managers – Code of ethics for Real Estate participants – Good practices and managerial responsibilities.",
+          "hours": 8
+        },
+        {
+          "title": "Real Estate Development and Project Management",
+          "topics": "Functions of real development like project formulation – feasibility studies – developing – costing and financing – managing including planning – Scheduling and monitoring of real estate projects – risk management – Facilities management – marketing/advertising – post construction management etc – Real estate investment, Sources and related issues.",
+          "hours": 8
+        },
+        {
+          "title": "Documentation, Appraisal, and Legal Transactions",
+          "topics": "Types of real estate interests and property rights, Documentation in real estate processes, Transfer of titles, records, and registration requirements, Real estate appraisal and valuation methods, Agreements between consultants, developers, and principals, Closing of real estate transactions and compliance issues",
+          "hours": 8
+        },
+        {
+          "title": "Post-Construction and Emerging Practices",
+          "topics": "Post-construction property management and facility services. Real estate investment approaches and income - based models. Digital tools in real estate (GIS, BIM, PropTech applications). Sustainable real estate and green building practices. Future trends: sma rt cities, co -working spaces, and global real estate transformations.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-511 c",
+      "title": "Practical 2 (On Elective Subject) Real Estate Practices and Management",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 1,
+      "pages": [
+        37,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-510-CON d",
+      "title": "Statistical Methods in Construction Management",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 3,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Statistics & Data Relationships",
+          "topics": "Scope and limitations of statistical methods in construction, Concepts of population and sample, frequency distribution, Measures of central tendency (mean, median, mode), Measures of dispersion (range, variance, standard deviation, coefficient of variation), Skewness and correlation (simple and multiple), Scatter diagrams, curve fitting methods, and introduction to regression.",
+          "hours": 8
+        },
+        {
+          "title": "Regression, Probability & Distributions",
+          "topics": "Linear regression, multiple regression, and introduction to multivariate analysis, Review of probability concepts: rules of probability, random variables, And Discrete Probability Distributions: Binomial, Poisson, Geometric, Hyper geometric, Continuous probability distributions: Exponential and Normal, Applications of probability distributions in construction and highway engineering.",
+          "hours": 8
+        },
+        {
+          "title": "Statistical Inference & Hypothesis Testing",
+          "topics": "Introduction to statistical decisions and hypothesis formulation, Significance levels and confidence intervals, Tests concerning means (one -sample and two -sample), Testing equality of means of two populations, Tests concerning variance, Chi -square test for goodness of fit., Z -test, t-test and practical applications in construction management.",
+          "hours": 8
+        },
+        {
+          "title": "Forecasting & Time Series",
+          "topics": "Forecasting in engineering and construction contexts, Time series components: trend, seasonal variation, cyclical variation, irregular components, Methods: smoothing, moving averages, trend analysis, Applications in construction and transportation planning,",
+          "hours": 8
+        },
+        {
+          "title": "Statistical Quality Control",
+          "topics": "Statistical Quality Control (SQC): concept of process variation, control charts for variables ( X̄ & R charts) and attributes (p, np, c charts), Process capability analysis and quality improvement in construction projects.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-511-CON d",
+      "title": "Practical 2 (On Elective Subject)-Statistical Methods in Construction Management",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 1,
+      "pages": [
+        41,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-506-CON",
+      "title": "Construction Contracts and Legal Disputes",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        44,
+        46
+      ],
+      "units": [
+        {
+          "title": "Legal Framework of Construction Contracts",
+          "topics": "Indian Contract Act, 1872: Definitions, valid/void/voidable contracts, Clauses of offer, acceptance, consideration, legality , Clauses 1 to 75 in construction contracts, Breach of contract: causes, effects, remedies, Workmen’s Compensation Act, 1923: Applicability in construction, C ommon legal terms in contracts, Case studies: breach and remedy analysis, Digital execution and e -signing of contracts (legality & enforceability under Indian law), Integration of AI tools in contract review and compliance checking, Use of contract lifecycle management (CLM) systems in large -scale projects, Legal implications of remote/on -site hybrid workforce agreements.",
+          "hours": 12
+        },
+        {
+          "title": "Contract Formation and Tendering",
+          "topics": "CPWD, MES, and PWD contract forms, Methods of tendering: open, limited, negotiated, two-stage, Pre-bid meetings, pre -qualification criteria, Tender scrutiny, bid evaluation, comparative statements, Contract duration, obligations, payment terms, Pricing methods: item rate, lump sum, cost -plus, Contract correspondence and closure, E-Tendering in India, Ethical practices in procurement , Blockchain in tendering for transparency and traceability, AI -based bid evaluation systems, Integration of e -Governance platforms (GeM, eProcure), Green procurement and sustainable bidding practic es, Mandating Environmental, Social and Governance (ESG) compliance in public contracts",
+          "hours": 12
+        },
+        {
+          "title": "Conditions of Contracts",
+          "topics": "General vs Particular Conditions, CPWD and MOSPI model contracts, Stakeholder agreements: client, contractor, supplier, Clauses: risk, escalation, variation, Insurance and indemnity clauses Force majeure and termination, Digital risk management and clause tracking using smart contract tools, Climate change and Environmental, Social and Governance ( ESG)-linked escalation clauses, Use of Building Information Modeling (BIM) in defining scope and terms, Smart contract enforcement through blockchain, Dynamic insurance solutions integrated with IoT-enabled construction monitoring",
+          "hours": 12
+        },
+        {
+          "title": "International Contract Standards",
+          "topics": "Institution of Civil Engineers (ICE) historical background and contract terms, International Federation of Consulting Engineers (FIDIC) structure: Red, Yellow, Silver Books, Employer vs contractor roles and liabilities, Short form contracts – risks and applicability, FIDIC usage in India and developing nations, Comparison of Indian and FIDIC standards, Common disputes in international contracts, Increasing use of FIDIC in Indian PPP/infrastructure projects, Integration of Dispute Avoidance and Adjudication Boards (DAAB), International arbitration hubs and their growing relevance (e.g., Singapore International Arbitration Centre (SIAC), The London Court of International Arbitration (LCIA)), FIDIC digital contract versions (online interactive templates), Application of FIDIC in climate-resilient infrastructure projects",
+          "hours": 12
+        },
+        {
+          "title": "Construction Claims and Contract Administration",
+          "topics": "Claims: delays, cost overruns, quality failures, Claim documentation and justification, Dispute prevention strategies, Dispute resolution: negotiation to arbitration, Dispute Review Board (DRBs) and Arbitration & Conciliation Act (1996 vs 1940), Arbitral tr ibunal: powers and procedures, Enforcement of awards, Digital documentation in arbitration, Online Dispute Resolution (ODR) platforms in construction, Role of Artificial Intelligence in claim analysis and evidence sorting, Use of drones and sensors for rea l-time claim validation, Fast-track arbitration clauses in international contracts, Block chain evidence systems for tamper -proof documentation, Contract administration lifecycle,Labour law and legal compliance, IoT -based real -time safety monitoring and au tomated compliance alerts,Taxation and GST aspects, Legal audits and statutory inspections, Use of contract management software.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-507-CON",
+      "title": "Operations Research",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operation Research",
+          "topics": "Origin of Operations Research, Historical Standpoint, Methodology, Different Phases, Characteristics, Scope and Application in Civil Engineering and Managerial Decision -making process. Introduction to Optimization Techniques and their application in Engineering Planning, Design and Construction.",
+          "hours": 12
+        },
+        {
+          "title": "Linear Programming",
+          "topics": "Linear programming: Formulation of Linear optimization models, Civil engineering applications. Simplex method, special cases in simplex method, Method of Big M, two phase method, duality, sensitivity analysis.",
+          "hours": 12
+        },
+        {
+          "title": "Decision Theory",
+          "topics": "a) Transportation Model and its variants b) Assignment Model and its variants. c) Decision theory",
+          "hours": 12
+        },
+        {
+          "title": "Inventory Control Models",
+          "topics": "Deterministic Inventory control models: functional role of inventory, inventory costs, model building, Single item inventory control model without shortages, with shortage and quantity discount. Inventory control model with uncertain demand, service level, safety stock, P and Q systems.",
+          "hours": 12
+        },
+        {
+          "title": "Queuing Theory & Game Theory",
+          "topics": "Queuing Theory, Simulation, Sequencing model – n jobs through 2, 3 and M machines, Replacement models. Introduction, Characteristics of Game Theory, Two Person, zero sum games, Pure strategy. Dominance theory, Mixed strategies (2x2, mx2), Algebraic and graphical methods.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-508-CON",
+      "title": "Project Economics & Financial Management",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Principles of Economics and Capital Requirements",
+          "topics": "Importance of economic background in project decision-making, Objectives and growth of business firms, Constraints on firm expansion, Study of current economic scenarios, Capital: Working capital needs, estimation, credit and cash management, corpus fund formation",
+          "hours": 12
+        },
+        {
+          "title": "Economic Analysis, Cost Planning, and Risk Assessment",
+          "topics": "Cost implications: construction types, material lifecycle, installation, and operating costs. Capital investment and project cost analysis. Cost planning during design and cost control during construction. Depreciation methods, break-even analysis, and cash flow analysis. Risk identification, management, and role of Lender’s Engineer. Pricing methods in construction projects.",
+          "hours": 12
+        },
+        {
+          "title": "Financial Planning and Budgeting",
+          "topics": "Sources and need for project finance, Long -term financing: shares, loans, debentures, public deposits, Dividend policy and issuance of bonus shares, Creation of reserves and market value of shares, Types of budgets: capital, operational, zero -based, flexible, Budget p reparation procedures and master budget formation, Budgetary control and variance analysis, Budget manual and financial governance, Accounting Information Systems (AIS) in construction finance, Project commentary and running financial commentary.",
+          "hours": 12
+        },
+        {
+          "title": "Corporate Finance, Taxation, and Financial Institutions",
+          "topics": "Corporate financial planning and tax implications, corporate tax planning strategies, Role and function of credit rating agencies (ICRA, CRISIL, CARE), Global financial markets and their influence on construction, Role of financial institutions (HUDCO, NHB, SIDBI, ADB, World Bank), SEBI regulations and compliance for construction companies, Structure and applicability of GST: CGST, SGST, IGST, Overview of direct taxation system and tax courts",
+          "hours": 12
+        },
+        {
+          "title": "Construction Accounts, Financial Reporting, and Case Studies",
+          "topics": "Accounting processes in construction industry, Preparation of profit and loss account and balance sheet (Companies Act 2013), Preparation of project -specific contract accounts, Site accounting vs. head office accounting systems, Ratio analysis: profitability, liquidity, solvency, efficiency, Escrow accounts: structure and application in PPP projects, Fund tracking and reconciliation techniques, Financial documentation and compliance Case studies (PPP, MRTS, dams, government -funded projects) focusing on: Project appraisal techniques, Funding strategies and financial structuring, Cost-to-completion analysis using financial tools",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-509-CON",
+      "title": "Practical 3 (On core subjects)",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        51,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-512-CON a",
+      "title": "Thrust Areas in Project Management",
+      "semester": 2,
+      "type": "Major Elective II",
+      "credits": 3,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Project Pre-planning and Partnering",
+          "topics": "Project preplanning: - Project Influence cost diagram. Need for project preplanning in the context of time and cost overruns, reduction in economic benefits. Definition selecting pre -planning team and evaluation of alternatives. Decision whether to invest in project design Conc ept of PDRI — Project definition rating index. PDRI for residential and industrial buildings. Utility of PDRI with respect to benchmarking. Any case study on Project pre—planning. Project partnering: - Delimitation, partnering as an effective risk sharing mechanism, partnering charter, partnering workshop. Advantages of partnering role in preventing construction disputes, risk management and QM. C Critical success factors for implementation Any case study on pro ject partnering.",
+          "hours": 8
+        },
+        {
+          "title": "S. W. O. T. analysis and S. C. M",
+          "topics": "S. W. O. T Strengths, Weaknesses, opportunity, threats analysis. Conduct S. W. O. T. for individual construction organization, Indian Construction industry. Advantages, S. W. O. T. matrix utility of S. W. O. T. matrix on strategic planning and management. S. C. M. Supply Chain Management. Concept of Supplier and customer in context of ISO. Identifying the chain associated connecting various processes between the supplier and the customer in context of construction project. Management strategy for implementing S. S. C. M. in construction organizations and on construction projects. Benefits of S. C. M.",
+          "hours": 8
+        },
+        {
+          "title": "Critical Chain Management (CCM)",
+          "topics": "Critical Chain Management (CCM): -- Concept of critical chain in construction projects based on the theory of constraints. Developing critical chain plans for a single project and multiple projects. Measuring, monitoring and controlling the critical chain. Advantages of CCM.",
+          "hours": 8
+        },
+        {
+          "title": "Fast Track Construction",
+          "topics": "Fast Track Construction: -- Diagrammatic representation of the concept of the fast track construction. Advantage, suitability of fast-track construction. Form of contract suitable for fast track projects. Concept of guaranteed maximum pricing (GMP). Any one case study on fast track constriction.",
+          "hours": 8
+        },
+        {
+          "title": "Earned Value Analysis and Project Reporting Earned",
+          "topics": "Value Analysis (08 hours) Definition of earned value. Importance of Earned value analysis. Concepts of cost variance, schedule variance, cost performance index and schedule performance index methods of determining earned value viz. Ratio method, repetitive type work package method, Complex construction work package method, start or finish method. Accounting practices for determining the earned value.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-512-CON b",
+      "title": "Infrastructure Development",
+      "semester": 2,
+      "type": "Major Elective II",
+      "credits": 3,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction to Infrastructure Development",
+          "topics": "Definition of infrastructure; Multiplier effects of infrastructure development on economic development of the nation (Reduce/Reuse/Recycle/Refuse/Repair/Repurpose), Current Scenario of Sustainable Design: India and world.",
+          "hours": 8
+        },
+        {
+          "title": "Private Involvement in Infrastructure",
+          "topics": "Introduction to infrastructure development through PPP route; Benefits of PPP mode of procurement; Types of PPP Models and their contractual structure, Financial and Economic Appraisal of BOT Projects; VFM evaluation, Case study – Procurement process of Indian PPP projects.",
+          "hours": 8
+        },
+        {
+          "title": "Challenges To Successful Infrastructure Planning and",
+          "topics": "Implementation (08 hours) Mapping and Facing the Landscape of Risks in Infrastructure Projects, Economic and Demand Risks: The Case study for Political Risks, Socio -Environmental Risks, Cultural Risks in International Infrastructure Projects, Legal and Contractual Issues in Infrastructure, Challenges in Construction and Maintenance of Infrastructure.",
+          "hours": null
+        },
+        {
+          "title": "Infrastructure Modeling and Life Cycle Analysis",
+          "topics": "Techniques (08 hours) Information Technology and Systems for Successful Infrastructure Management, - Innovative Design and Maintenance of Infrastructure Facilities, Infrastructure Modeling and Life Cycle Analysis Techniques, Capacity Building and Improving the Governments Role in Infrastructure Implementation, An Integrated Framework for Infrastructure Management Systems and Future Directions.",
+          "hours": null
+        },
+        {
+          "title": "Strategies For Successful Infrastructure Project",
+          "topics": "Implementation (08 hours) Risk Management Framework for Infrastructure Projects, Shaping the Planning Phase of Infrastructure Projects to mitigate risks, Designing Sustainable Contracts, Introduction to Fair Process and Negotiation, Negotiating with multiple Stakeholders on Infrastructure Projects.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-512-CON c",
+      "title": "Value Engineering and Valuation",
+      "semester": 2,
+      "type": "Major Elective II",
+      "credits": 3,
+      "pages": [
+        58,
+        59
+      ],
+      "units": [
+        {
+          "title": "Value Engineering",
+          "topics": "Definition, Importance to Contractors, Potential Applications Value: basic and secondary functions, factors contributing to value such as aesthetic, ergonomic, technical, economic: identifying reasons or unnecessary costs.",
+          "hours": 8
+        },
+        {
+          "title": "Value Engineering Methodology",
+          "topics": "Orientation phase, Information phase, Function Analysis phase, Creative Phase, Evaluation Phase, Development Phase, Presentation Phase, implementation Phase.",
+          "hours": 8
+        },
+        {
+          "title": "Application of Value Engineering to a Construction Project",
+          "topics": "VE during the Planning Phase of a Construction Project, VE during the Design Phase of a Construction Project, VE during the Construction Phase of a Construction Project",
+          "hours": 8
+        },
+        {
+          "title": "Life Cycle Costing",
+          "topics": "Forecasting of Capital as well as operating & maintenance costs, time value, present worth analysis, DCF methods, ROR analysis, and sensitivity analysis.",
+          "hours": 8
+        },
+        {
+          "title": "Valuation and Report",
+          "topics": "Types of value, purposes of valuation factors affecting value, Valuation Report, contents, standard formats, Case study of any one Report.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-512-CON d",
+      "title": "Construction Site Administration and Control",
+      "semester": 2,
+      "type": "Major Elective II",
+      "credits": 3,
+      "pages": [
+        60,
+        61
+      ],
+      "units": [
+        {
+          "title": "Indian Construction Industry",
+          "topics": "Overview and Introduction to Indian Construction industry – Various sectors in Indian Construction Industry, Various reasons of project delays, Contribution of Indian Construction Industry towards the GDP, Project as a business",
+          "hours": 8
+        },
+        {
+          "title": "Project Life Cycle and Delivery Systems",
+          "topics": "Project Life Cycle – Understanding the project from concept to completion/closeout, Role of client/owner, consultant, and contractor in different stages of the project. Project delivery systems– Different Project delivery systems their merits and demerits, role of agencies and people involved in different project delivery systems.",
+          "hours": 8
+        },
+        {
+          "title": "Construction Site Management",
+          "topics": "Job Site Layout, Facilities Setup, Site Safety and accident prevention, documentation and record keeping, contract appreciation document for contract administration and coordination.",
+          "hours": 8
+        },
+        {
+          "title": "Field Procedure Manual (Fpm)",
+          "topics": "Field Procedure Manual and its importance, Labor and subcontractor management, Site waste management, measurement and billing, project control estimate, and project escalations.",
+          "hours": 8
+        },
+        {
+          "title": "Project Communication and Case Studies",
+          "topics": "Meetings, review, inter & intra organizational relationships, Enterprise resource planning, Case Studies – Construction project case studies.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-513-CON a",
+      "title": "Automation in Construction Industry",
+      "semester": 2,
+      "type": "Major Elective III",
+      "credits": 3,
+      "pages": [
+        62,
+        63
+      ],
+      "units": [
+        {
+          "title": "Introduction to Automation in Construction",
+          "topics": "Introduction to automation and digitization in construction; evolution from manual methods to mechanization and automation; classification of automation; benefits such as productivity, quality, safety, and cost savings; challenges in Indian context vs global practices; applications across planning, design, execution, and monitoring phases.",
+          "hours": 8
+        },
+        {
+          "title": "Tools and Technologies for Automation",
+          "topics": "Overview of modern automated construction equipment including mixers, pavers, TBMs; automation in precast systems; use of drones for surveying and monitoring; IoT in construction safety and monitoring; role of AI and data analytics; comparison of on-site and off-site automation.",
+          "hours": 8
+        },
+        {
+          "title": "Robotics, 3D Printing & Modular Construction",
+          "topics": "Applications of robotics in construction tasks; 3D printing methods and materials; case studies on global and Indian 3D printed projects; introduction to modular construction; automated prefabrication; case studies on modular hospitals and schools; concept of Design for Manufacture and Assembly (DfMA).",
+          "hours": 8
+        },
+        {
+          "title": "BIM and Digital Integration in Automated",
+          "topics": "Construction (08 hours) Basics of BIM and its role in planning, design, and management; BIM dimensions from 3D to 7D; introduction to Digital Twin technology and its comparison with BIM; automation through project management tools; applications in clash detection, scheduling, and smart construction site integration.",
+          "hours": null
+        },
+        {
+          "title": "Digital Integration & Future Trends in Automated",
+          "topics": "Construction (08 hours) Digital Twin Technology: concept, applications, and comparison with BIM. Project management tools for automation and smart construction site integration. Smart construction technologies: sensor -based monitoring, cloud-based collaboration. Industry 4.0 and Construction 4.0 applications. Case studies of successful automation projects (Indian & global). Future scope: AI -driven design, robotics -enabled site execution , sustainability through automation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-513 CON b",
+      "title": "Disaster Management and Mitigation",
+      "semester": 2,
+      "type": "Major Elective III",
+      "credits": 3,
+      "pages": [
+        64,
+        65
+      ],
+      "units": [
+        {
+          "title": "Disasters & Management",
+          "topics": "Natures and extent of disasters, natural calamities such as earthquake, floods, drought volcanoes, forest, coasts hazards, landslides etc. Manmade disasters such as chemical and industrial hazards, nuclear hazards, fire hazards etc. Disaster Management – Financing relief expenditure, legal aspects, rescue operations. Casual management, risk management.",
+          "hours": 8
+        },
+        {
+          "title": "Emergency Management Program",
+          "topics": "Administrative setup and organization. Hazard analysis, training of personnel, information management, emergency facilities and equipment necessary public awareness creation, preparation and execution of the emergency management program.",
+          "hours": 8
+        },
+        {
+          "title": "Organizations",
+          "topics": "Various organizations registered with Government and NGO‗s working for disaster relief -Challenges faced by organizations.",
+          "hours": 8
+        },
+        {
+          "title": "Method Of Assessment of Disaster Management",
+          "topics": "Methods of assessment - Methods of assessment of impact of disasters such as photogrammetric methods, media survey, ground data collection",
+          "hours": 8
+        },
+        {
+          "title": "International Adopted Practices",
+          "topics": "-International adopted practices for disaster mitigation. Rules and regulations, Monitoring aspects of disaster mitigations programs. Term Work 1. Prepare a Case Study Report on a Disaster Event In -depth analysis of a natural or manmade disaster. Should cover causes, extent of damage, rescue and relief operations, financing, legal aspects, and lessons learned. 2. Design an Emergency Management Plan (EMP) for a selected scenario (e.g., college campus, factory, flood - prone village). Must include hazard analysis, resources, emergency facilities, public awareness plans. 3. Prepare a report on the role of an NGO or government body in disaster management. Include organizational setup, challenges, and methods used for assessment like ground surveys, media analysis. 4. Group or individual presentation/poster on international disaster mitigation rules, policies, or monitoring programs. Encourages research and global awareness.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-513-CON c",
+      "title": "International Contracting",
+      "semester": 2,
+      "type": "Major Elective III",
+      "credits": 3,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Introduction to International Contracting",
+          "topics": "Meaning, scope, and relevance of international contracting , Global construction market: trends and opportunities, Role of Asia -Pacific countries in global construction development, WTO and GATS: impact on Indian construction market (domestic and export sector) , Human resource selection for overseas projects: adaptation to socio -economic and environmental differences , Structuring of multinational construction organizations",
+          "hours": 8
+        },
+        {
+          "title": "FIDIC and Global Regulatory Framework",
+          "topics": "Overview and applications of FIDIC Conditions of Contract (Red, Yellow, Silver Books ). International regulatory and legal frameworks in construction contracting. Project exports from India: strategies, challenges, and market access. International trade practices and alliances in cross -border construction projects.",
+          "hours": 8
+        },
+        {
+          "title": "Global Financial Institutions and Funding Mechanisms",
+          "topics": "Role of World Bank (WB), IMF, ADB, AfDB in infrastructure financing. Bilateral and multilateral funding mechanisms.Financial risk allocation and structuring of international construction projects.Case insights on funding strategies for large-scale infrastructure.",
+          "hours": 8
+        },
+        {
+          "title": "International Project Delivery Models (PPP & BOT Variants)",
+          "topics": "Classification and features of BOT-type models: BOT, BOOT, BOO, DBFO, DBO, BLT, BTO, BOR, MOOT, ROT, ROO, BOLT. Contractual procedures, tendering, and documentation in concession projects. Legal & commercial features of international PPP models. Risk allocation and operation/revenue-sharing mechanisms in global projects.",
+          "hours": 8
+        },
+        {
+          "title": "Dispute Resolution in International Contracting",
+          "topics": "Common disputes in international projects: causes and implications. International courts and their jurisdiction. Dispute Resolution Boards (DRBs): constitution, procedures, Indian/global experience. UNICTRAL Model Law, International Arbitration forums: ICC, LCIA, SIAC, CIDC. Case studies of at least two international projects focusing on dispute and resolution.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-513-CON d",
+      "title": "Advanced Construction Technology",
+      "semester": 2,
+      "type": "Major Elective III",
+      "credits": 3,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Construction Of High-Rise Structures",
+          "topics": "Steel and concrete composites construction methods, techniques, automation used for construction, Fabrication and erection of heavy structures including prefab construction, Erection of different cranes like mobile, lifting, tower, roof truss. Innovative m ethods of construction – Jump form, Aluform & Tunnel Form Technology, Drywall technology.",
+          "hours": 8
+        },
+        {
+          "title": "Construction Of Metro and Monorail",
+          "topics": "Underground and over ground structures, different methods and techniques of construction. Problems and solutions – during maintenance and up -keep of structures. Fire, Ventilation, Dewatering and power supply, Subsidence, Vibration etc.",
+          "hours": 8
+        },
+        {
+          "title": "Construction of Special structures",
+          "topics": "Features and functions of the special types of civil engineering structures: Silos, Elevated service reservoir, domes and arches, Construction of power generating structures – Atomic Power stations, Thermal power stations. Cogeneration power plant, Windmills, Transmission towers, Chimneys.",
+          "hours": 8
+        },
+        {
+          "title": "Construction Of Bridges",
+          "topics": "Types, Construction methods for substructure and super - structure, various launching methods, Steel Bridges, Arch Bridges, Cantilever Bridges, Segmental construction & Box Girders. Construction of special types of bridges such as cable stayed bridge, suspension and Prestressed bridge.",
+          "hours": 8
+        },
+        {
+          "title": "Marine and offshore structures",
+          "topics": "Beacons, Oil drilling Platforms, light houses. Barges- types, Function, utilization & economics of barges. Term Work 1.Prepare a report, individual or in a group, focusing on one method (e.g., Aluform, Tunnel Form, Jump Form, Prefab construction). Include materials, equipment, advantages, and real-world applications. 2. Case Study on a completed metro/monorail project (preferably local/national), covering construction techniques, structural challenges, fire and ventilation systems, and solutions to problems. 3. Group or individual presentation/poster on structures like silos, windmills, or chimneys. Should include features, construction methods, and unique challenges. 4. Create a detailed method sheet or infographic for construction of any one bridge type (e.g., cable-stayed, cantilever, prestressed). Should include steps, equipment, safety measures. 5. Prepare a physical model or detailed drawing of any advanced construction element or system (e.g., tower crane setup, segmental bridge, dome). Assessed for technical accuracy and creativity.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-514-CON",
+      "title": "Technical Seminar I",
+      "semester": 2,
+      "type": "Seminar I",
+      "credits": 2,
+      "pages": [
+        72,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-CON",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        75,
+        76
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Research: Meaning of research, types of research, process of research, Sources of research problem, Criteria / Characteristics of a good research problem, Errors in selecting a research problem, Scope and objectives of research problem, formulation of research hypotheses. Search for causation. Research Proposal: Developing a Research Proposal Format of research proposal, Individual research proposal, Institutional research proposal, Significance, objectives, methodology, Funding for the proposal, Different funding agencies. Framework for the planning",
+          "hours": 12
+        },
+        {
+          "title": "Literature survey & Research ethics",
+          "topics": "Definition of literature and literature survey, need of literature survey, sources of literature, elements and objectives of literature survey, styles of literature survey, and strategies of literature survey. Ethical Issues, Ethical Principles that govern Research, ethically valid Information Sources, Regulatory Compliance.",
+          "hours": 12
+        },
+        {
+          "title": "Data collection & Preliminary Analysis",
+          "topics": "Classification of data, benefits and drawbacks of data, evaluation of data, methods of data collection, Sampling, sample size, sampling strategy, attitude measurement and scaling, types of measurements, criteria of good measurements, classification of scales. Data Analysis: Testing of hypothesis- concepts and testing, analysis of variance techniques, introduction to non- parametric tests. Validity and reliability, Approaches to qualitative and quantitative data analysis.",
+          "hours": 12
+        },
+        {
+          "title": "Advanced data analysis techniques",
+          "topics": "Correlation and regression analysis, Introduction to factor analysis, discriminant analysis, cluster analysis, multidimensional scaling, Descriptive statistics, Inferential statistics, Multi -dimensional measurement and factor analysis",
+          "hours": 12
+        },
+        {
+          "title": "Report writing",
+          "topics": "Need of effective documentation, importance of report writing, types of reports, report structure, report formulation, Plagiarism. Research briefing, presentation styles, impact of presentation, elements of effective presentation, writing of research paper, presenting and publishing paper, patent procedure.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-CON",
+      "title": "On Job Training / Internship",
+      "semester": 3,
+      "type": "On Job Training / Internship",
+      "credits": 5,
+      "pages": [
+        77,
+        78
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-CON",
+      "title": "Technical Seminar II",
+      "semester": 3,
+      "type": "Seminar II",
+      "credits": 4,
+      "pages": [
+        79,
+        80
+      ],
+      "units": []
+    },
+    {
+      "code": "PRJ-605-CON",
+      "title": "Research Project Stage I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        81,
+        84
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-604-CON",
+      "title": "Technical Seminar III",
+      "semester": 4,
+      "type": "Seminar III",
+      "credits": 4,
+      "pages": [
+        85,
+        85
+      ],
+      "units": []
+    },
+    {
+      "code": "PRJ-606-CON",
+      "title": "Research Project – Stage II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        86,
+        88
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

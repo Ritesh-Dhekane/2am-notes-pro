@@ -1,0 +1,196 @@
+{
+  "id": "sppu-nep-sybba-ca-semester-iii-24062025",
+  "kind": "programme",
+  "programme": "Bachelor of Business Administration in Computer Application (BBA-CA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": null,
+      "title": "Data Structure",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structure",
+          "topics": "s 1.1 Array, types of array and its representation 1.2 Self referential structure 1.3 Pointer and dynamic memory allocation 1.4 Data types, Data Objects and Abstract Data Type(ADT) 1.5 Data structure and types of data structure 1.6 Algorithm Analysis: Space complexity, time complexity, Asymptotic Notations(Big O, Omega Ω)",
+          "hours": null
+        },
+        {
+          "title": "Linear Data Structure",
+          "topics": "2.1 Introduction to Linear Data Structure Definition, Characteristics, Types of Linear Data Structure 2.2 Sorting algorithms with time complexity Bubble sort, Insertion sort, Merge sort, Quick Sort, Selection Sort 2.3 Searching techniques Linear Search, Binary search",
+          "hours": null
+        },
+        {
+          "title": "Linked List",
+          "topics": "3.1 Introduction to Linked List - Definition, Advantages and Disadvantages 3.2 Implementation of Linked List - Static and Dynamic Representation, - Node Structure 3.3 Types of Linked List 3.3.1 Singly Linked list Operations - Create, Printing, Insertion(Begin, Middle, End), Deleting(Begin, Middle, End), Reverse, Searching 3.3.2 Doubly Linked list Operations - Create, Printing, Insertion(Begin, Middle, End), Deleting(Begin, Middle, End) 3.3.3 Circularly Singly Linked list Operations - Create, Printing 3.3.4 Circularly Doubly Linked list Operations - Create, Printing",
+          "hours": null
+        },
+        {
+          "title": "Stack and Queue",
+          "topics": "4.1 Introduction - Concept and characteristics (LIFO) Real-world examples: browser history, undo operations 4.2 Stack Implementations - Static representation using arrays Dynamic representation using linked lists 4.3 Stack Operations - Push, Pop, Peek, isEmpty, isFull 4.4 Applications of Stacks 4.5 Conversion of Infix, prefix, postfix , Evaluation of postfix and prefix 4.6 Introduction to Queue - Advantages and Disadvantages of Queue - Application Queue 4.7 Representation - Static & Dynamic - Queue using LinkedList 4.8 Primitive Operations on Queue (Insert, Delete, Display) 4.9 Circular queue(insert, delete ,display)",
+          "hours": null
+        },
+        {
+          "title": "Tree and Graph",
+          "topics": "5.1 Tree Concept & Terminologies 5.2 Binary tree, Binary search tree 5.3 Operations on BT and BST – create, Insert, delete 5.4 Tree Traversals (preorder, inorder, postorder) 5.5 Height balanced tree- AVL trees- Rotations, AVL tree examples. 5.6 Introduction of Graph 5.7 Representation of Graph- Adjacency Matrix, Adjacency List 5.8 Graph Traversals- BFS and DFS 5.9 Degree of Graph 5.10 Spanning Tree",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "PHP",
+      "semester": 3,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction to PHP",
+          "topics": "r No. Course Code Type of Course Title Credits Hours/Week III Major Mandatory PHP 4 4 Course Objectives 1 Understand how server-side programming works on the web. 2 Using PHP built-in functions and creating custom functions 3 Understanding POST and GET in form submission. 4 How to receive and process form submission data. 5 Read and process data in a MySQL database. Course Outcome 1 Understand the basics of server-side scripting using PHP. 2 Develop dynamic web pages using PHP. 3 Work with PHP functions, arrays, and strings effectively. 4 Implement file handling and session management. 5 Connect and interact with databases using PHP and MySQL. Unit Title and Contents No. of Lecture Hours 1 PHP Basics & Control structure and loops 1.1 Setting up a development environment 1.2 Variables, numbers and strings 1.3 Calculations with PHP 1.4 Conditional Statements 1.5 Loops for Repetitive tasks 1.6 Using Arrays 1.7 Combing Loops and Arrays 2 Functions, Objects and Errors 2.1 PHP's Built-in functions 2.2 Creating Custom functions 2.3 Passing Values by Reference 2.4 Understanding Objects 2.5 Differences between POST and GET 2.6 Preserving User Input 2.7 Working with Forms 2.8 Building a F...",
+          "hours": null
+        },
+        {
+          "title": "Handling HTML form with PHP",
+          "topics": "urse Code Type of Course Title Credits Hours/Week III Major Mandatory PHP 4 4 Course Objectives 1 Understand how server-side programming works on the web. 2 Using PHP built-in functions and creating custom functions 3 Understanding POST and GET in form submission. 4 How to receive and process form submission data. 5 Read and process data in a MySQL database. Course Outcome 1 Understand the basics of server-side scripting using PHP. 2 Develop dynamic web pages using PHP. 3 Work with PHP functions, arrays, and strings effectively. 4 Implement file handling and session management. 5 Connect and interact with databases using PHP and MySQL. Unit Title and Contents No. of Lecture Hours 1 PHP Basics & Control structure and loops 1.1 Setting up a development environment 1.2 Variables, numbers and strings 1.3 Calculations with PHP 1.4 Conditional Statements 1.5 Loops for Repetitive tasks 1.6 Using Arrays 1.7 Combing Loops and Arrays 2 Functions, Objects and Errors 2.1 PHP's Built-in functions 2.2 Creating Custom functions 2.3 Passing Values by Reference 2.4 Understanding Objects 2.5 Differences between POST and GET 2.6 Preserving User Input 2.7 Working with Forms 2.8 Building a Form 2.9 ...",
+          "hours": null
+        },
+        {
+          "title": "More with Forms",
+          "topics": "3.1 Dealing with checkboxes and radiobuttons 3.2 Retrieving values from lists 3.3 Validating and restricting data 3.4 Sending Email 3.5 Storing and Protecting Data 3.6 Setting and Reading Cookies 3.7 Protecting Online Files 3.8 Understanding Session Variables 3.9 Sticky Forms 3.10 Self processing",
+          "hours": null
+        },
+        {
+          "title": "MySQL Database Overview",
+          "topics": "4.1 phpMyAdmin Overview 4.2 Using a MySQL Database 4.3 Executing queries from PHP 4.4 Prepared statements and parameter binding for security 4.5 Reading and writing data Reference Material",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Computer Laboratory based on DS, PHP",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Data Structures Lab Assignments",
+          "topics": "Assignment 1: Sorting Algorithms (Bubble, Insertion, Merge, Quick, Selection), Assignment 2: Searching Techniques (Linear, Binary), Assignment 3: Singly Linked List, Doubly Linked List, Circular Linked List, Assignment 4: Stack operations and applications, Assignment 5: Queue operations, Assignment 6: Binary Search Tree operations and traversals, Graph traversals (BFS, DFS).",
+          "hours": null
+        },
+        {
+          "title": "PHP Lab Course Contents",
+          "topics": "Assignment 1 : PHP Basics & Control structure and loops (arithmetic calculation, area, percentage, if, switch case, loops, indexed array, associative array, string handling), Assignment 2: Functions and Arrays, Assignment 3: Handling HTML forms, cookies, sessions, Assignment 4: MySQL database connectivity and queries.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Introduction to Cyber Security",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Overview of Cyber Security",
+          "topics": "urse Code Type of Course Title Credits Hours/Week III OE (Open Elective) Introduction to Cyber Security 2 2 Note: This course is taken from OE basket of Faculty of Science and Technology – BoS in Computer Science. This course is mandatory for SYBBA- CA Semester III students Course Objectives 1 Understand basic concepts and terms in cyber security. 2 Learn about privacy and related legal protections. 3 Grasp fundamental encryption principles. 4 Understand basics of Cyber laws and Indian IT Act. Course Outcome CO1 Define and explain essential cybersecurity concepts, threats, and preventive strategies. CO2 Interpret privacy principles and identify relevant laws and regulations protecting digital data. CO3 Apply basic encryption methods to secure data and understand their role in cybersecurity. CO4 Good understanding of cyberlaws, cybercrime and punishments in Indian Scenario. Unit Title and Contents No. of Lecture Hours 1 Chapter 1: Introduction to Cyber Crime and Cyber Security 1.1 Introduction 1.2 Cybercrime:Definition and significance of cybersecurity, Evolution and historical context of cybersecurity 1.3 Cybercrime and Information Security 1.4 Who are Cybercriminals? 1.5 Hacker...",
+          "hours": null
+        },
+        {
+          "title": "Cyberspace and the Law",
+          "topics": ". Course Code Type of Course Title Credits Hours/Week III OE (Open Elective) Introduction to Cyber Security 2 2 Note: This course is taken from OE basket of Faculty of Science and Technology – BoS in Computer Science. This course is mandatory for SYBBA- CA Semester III students Course Objectives 1 Understand basic concepts and terms in cyber security. 2 Learn about privacy and related legal protections. 3 Grasp fundamental encryption principles. 4 Understand basics of Cyber laws and Indian IT Act. Course Outcome CO1 Define and explain essential cybersecurity concepts, threats, and preventive strategies. CO2 Interpret privacy principles and identify relevant laws and regulations protecting digital data. CO3 Apply basic encryption methods to secure data and understand their role in cybersecurity. CO4 Good understanding of cyberlaws, cybercrime and punishments in Indian Scenario. Unit Title and Contents No. of Lecture Hours 1 Chapter 1: Introduction to Cyber Crime and Cyber Security 1.1 Introduction 1.2 Cybercrime:Definition and significance of cybersecurity, Evolution and historical context of cybersecurity 1.3 Cybercrime and Information Security 1.4 Who are Cybercriminals? 1.5 Ha...",
+          "hours": null
+        },
+        {
+          "title": "Cryptography",
+          "topics": "emester No. Course Code Type of Course Title Credits Hours/Week III OE (Open Elective) Introduction to Cyber Security 2 2 Note: This course is taken from OE basket of Faculty of Science and Technology – BoS in Computer Science. This course is mandatory for SYBBA- CA Semester III students Course Objectives 1 Understand basic concepts and terms in cyber security. 2 Learn about privacy and related legal protections. 3 Grasp fundamental encryption principles. 4 Understand basics of Cyber laws and Indian IT Act. Course Outcome CO1 Define and explain essential cybersecurity concepts, threats, and preventive strategies. CO2 Interpret privacy principles and identify relevant laws and regulations protecting digital data. CO3 Apply basic encryption methods to secure data and understand their role in cybersecurity. CO4 Good understanding of cyberlaws, cybercrime and punishments in Indian Scenario. Unit Title and Contents No. of Lecture Hours 1 Chapter 1: Introduction to Cyber Crime and Cyber Security 1.1 Introduction 1.2 Cybercrime:Definition and significance of cybersecurity, Evolution and historical context of cybersecurity 1.3 Cybercrime and Information Security 1.4 Who are Cybercrimina...",
+          "hours": null
+        },
+        {
+          "title": "Defending Systems: Understanding the System Spec",
+          "topics": "se Title Credits Hours/Week III OE (Open Elective) Introduction to Cyber Security 2 2 Note: This course is taken from OE basket of Faculty of Science and Technology – BoS in Computer Science. This course is mandatory for SYBBA- CA Semester III students Course Objectives 1 Understand basic concepts and terms in cyber security. 2 Learn about privacy and related legal protections. 3 Grasp fundamental encryption principles. 4 Understand basics of Cyber laws and Indian IT Act. Course Outcome CO1 Define and explain essential cybersecurity concepts, threats, and preventive strategies. CO2 Interpret privacy principles and identify relevant laws and regulations protecting digital data. CO3 Apply basic encryption methods to secure data and understand their role in cybersecurity. CO4 Good understanding of cyberlaws, cybercrime and punishments in Indian Scenario. Unit Title and Contents No. of Lecture Hours 1 Chapter 1: Introduction to Cyber Crime and Cyber Security 1.1 Introduction 1.2 Cybercrime:Definition and significance of cybersecurity, Evolution and historical context of cybersecurity 1.3 Cybercrime and Information Security 1.4 Who are Cybercriminals? 1.5 Hackers and Types of Hackers...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Web development tools",
+      "semester": 3,
+      "type": "Vocational Skill Development Course (VSC)",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction to WordPress",
+          "topics": "What is WordPress? Overview and features, history and evolution, benefits of WordPress, Setting up WordPress website (domain, hosting, installation), WordPress Dashboard, Widgets, creating and editing posts and pages, Themes and Customization, child themes.",
+          "hours": null
+        },
+        {
+          "title": "Content Management Through WordPress",
+          "topics": "Plugins and Extensions (installation, Yoast SEO, WooCommerce), Content Creation and Management (search engine optimization, meta tags, media library), Security and Maintenance (best practices, updating core/themes/plugins, backups).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Modern Indian Languages 1: Marathi/Hindi/Sanskrit",
+      "semester": 3,
+      "type": "Ability Enhancement Course (AEC)",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": [
+        {
+          "title": "Modern Indian Languages",
+          "topics": "The details syllabus of each of the languages will be shared by respective board of studies.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Project based on Web Applications",
+      "semester": 3,
+      "type": "Field Projects (FP)",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Project Guidelines and Documentation",
+          "topics": "Project in team of maximum 2 students. Stages: problem identification, research, design, implementation testing and reporting. Minimum 2 presentations. Final report covering abstract, introduction, system analysis, system design, implementation details, testing, conclusion, future scope, references.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

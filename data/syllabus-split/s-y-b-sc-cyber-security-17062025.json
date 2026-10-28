@@ -1,0 +1,434 @@
+{
+  "id": "s-y-b-sc-cyber-security-17062025",
+  "kind": "programme",
+  "programme": "B.Sc. (Cyber Security)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CYS-201MJ",
+      "title": "Ethical Cyber Hacking-I",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Introduction to Ethical Hacking",
+          "topics": " Overview of Cyber security and Ethical Hacking  Understanding Hacking: Types and Phases  Ethical Hacking vs. Malicious Hacking  Cyber Laws and Ethical Responsibilities  Setting up a Lab Environment for Ethical Hacking 5",
+          "hours": 6
+        },
+        {
+          "title": "Foot printing and Reconnaissance",
+          "topics": " Basics of Foot printing  Active vs. Passive Reconnaissance  Information Gathering Techniques  WHOIS Lookup, DNS Enumeration, Google Dorking  Tools: Maltego, Shodan, Nmap, Recon-ng",
+          "hours": 5
+        },
+        {
+          "title": "Scanning Networks",
+          "topics": " Network Scanning Fundamentals  Types of Scanning (Port, Vulnerability, Service)  Identifying Live Systems and Open Ports  Scanning Techniques: TCP/UDP Scans, SYN Scans  Tools: Nmap, Netcat, Angry IP Scanner",
+          "hours": 5
+        },
+        {
+          "title": "System Hacking and Gaining Access",
+          "topics": " Exploiting System Vulnerabilities  Password Cracking Techniques (Brute Force, Dictionary Attack)  Privilege Escalation and Maintaining Access  Malware: Keyloggers, Trojans, Rootkits  Tools: Metasploit, John the Ripper, Hydra",
+          "hours": 6
+        },
+        {
+          "title": "Web Application Hacking Basics",
+          "topics": " Common Web Vulnerabilities (SQL Injection, XSS, CSRF)  OWASP Top 10 Overview  Basics of Website Enumeration  Tools: Burp Suite, SQLmap, ZAP Proxy",
+          "hours": 4
+        },
+        {
+          "title": "Wireless Hacking Basics",
+          "topics": " Fundamentals of Wireless Networks and Security  Cracking WEP/WPA/WPA2 Encryption  MITM (Man-in-the-Middle) Attacks in Wireless Networks  Tools: Aircrack-ng, Wireshark, Kismet",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CYS-202MJ",
+      "title": "Ethics and Cyber Law",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Ethics",
+          "topics": " Ethics in Cyber security  Ethical Theories (Utilitarianism, Deontology, Virtue Ethics)  Ethical Hacking , Malicious Hacking  Digital Rights and Responsibilities  Intellectual Property Rights (IPR) in Cyberspace",
+          "hours": 6
+        },
+        {
+          "title": "Cybercrime and Cyber Law",
+          "topics": " Cybercrimes and Their Types  Social Engineering and Cyberbullying  Basics of Cyber Forensics  Role of Law Enforcement  Overview of IT Act, 2000 7",
+          "hours": 6
+        },
+        {
+          "title": "Indian Cyber Law Framework",
+          "topics": " IT Act, 2000: Objectives, Scope, and Amendments  Cyber Law and E-Governance  Digital Signatures and Electronic Authentication  Cybercrime Cases in India: Analysis and Legal Consequences  Right to Privacy and Data Protection Laws",
+          "hours": 6
+        },
+        {
+          "title": "International Cyber Law and Policies",
+          "topics": " Global Perspectives on Cyber Law: GDPR, HIPAA, COPPA  Role of Organizations like ICANN, CERT-In, and UN  Cyber Warfare and International Treaties  Ethical Challenges in AI and IoT Security  Case Studies on Cross-Border Cybercrime",
+          "hours": 6
+        },
+        {
+          "title": "Emerging Trends in Cyber security and Legal Challenges",
+          "topics": " AI and Machine Learning in Cyber security  Block chain and Crypto currency Laws  Cloud Security and Data Regulations  Cyber security Threats in the Metaverse  Future Trends in Cyber Law",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CYS203MJ",
+      "title": "Advance Network Security",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": " Communication models- OSI Overview, TCP/IP Overview  Communication protocol overview  Bridging and Switching Overview  Virtual Private Networks Overview  Introduction Attacks on Computers and Computer Security",
+          "hours": 5
+        },
+        {
+          "title": "TCP/IP Protocol Overview",
+          "topics": " Over of IP Addressing-Architecture  Class of Address- Example of Addressing, Special Addresses  Addressing and Networks  Introduction to Subnetting - Simple Subnets, Complex subnets , Variable Length Subnets  IP Addressing Design 9",
+          "hours": 5
+        },
+        {
+          "title": "Network Fundamental and Security",
+          "topics": " Need for Security  Security Attacks (Active and Passive attacks)  Services and Mechanisms  Network Security  Network Security Mode  Internet Standards and RFCs  Symmetric Key Cryptography",
+          "hours": 8
+        },
+        {
+          "title": "User Authentication and security at Application and Transport Layer",
+          "topics": " Pretty Good Privacy (PGP) and S/MIME.  User Authentication 1. Remote User-Authentication Principles  Remote User-Authentication Using Symmetric Encryption  Application Layer Security:  Email privacy: PGP and S/MIME,  SSL Architecture –Handshake ,Change Cipher Space, Alert And Record Protocols SSL Message Formats  Transport Layer Security: Transport Layer Security, HTTPS, Secure Shell (SSH)",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "CYS-204MJP",
+      "title": "Practical based on CYS201MJ",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        10,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "CYS221VSC",
+      "title": "Data Structure in Python",
+      "semester": 3,
+      "type": "Vocational Skill Courses",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures and Python Review",
+          "topics": " Introduction to Data Structures: Definition, Classification, and Applications  Python Review: Basic syntax, data types, control structures, functions, and modules.  Object-Oriented Programming in Python: Classes, objects, inheritance, and polymorphism.  Basic Security Considerations in Python. 13",
+          "hours": 7
+        },
+        {
+          "title": "Arrays and Strings",
+          "topics": " Arrays: Static and dynamic arrays, multi-dimensional arrays.  Array Operations: Insertion, deletion, searching, and sorting.  Strings: String manipulation, pattern matching.  Applications: Implementing simple ciphers, storing cryptographic keys.",
+          "hours": 7
+        },
+        {
+          "title": "Linked Lists",
+          "topics": " Linked Lists: Singly linked lists, doubly linked lists, circular linked lists.  Linked List Operations: Insertion, deletion, traversal, and searching.  Applications: Implementing dynamic data structures, memory management.",
+          "hours": 7
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": " Stacks: LIFO principle, stack operations.  Queues: FIFO principle, queue operations.  Applications: Expression evaluation, backtracking algorithms, network packet queuing",
+          "hours": 6
+        },
+        {
+          "title": "Security Considerations and Data Structures",
+          "topics": " Secure Coding Practices with Data Structures  Common Vulnerabilities: Buffer overflows, injection attacks.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "CYS-231FP",
+      "title": "Mini Projects based on CYS201MJ",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "CYS241MN",
+      "title": "Web Development Technologies",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to HTML",
+          "topics": " Introduction to HTML, Basic HTML Structure ,Common HTML Tags  Physical and Logical HTML ,Types of Images, client side and server-side Image mapping,  List, Table, Frames, Embedding Audio, Video, HTML form and form elements. 17",
+          "hours": 6
+        },
+        {
+          "title": "Basics of Style sheets",
+          "topics": " Need for CSS, Introduction to CSS, What is CSS? ,Importance of CSS in Web Development  Types of CSS: Inline CSS, Internal CSS ,External CSS  Basic CSS Syntax and Structure",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Styling and Layouts in CSS",
+          "topics": " CSS Selectors: Element Selector Class Selector ,ID Selector ,Group Selector Universal Selector  CSS Properties: Colors (color, background-color),Fonts (font-family, font-size, font-style) ,Text Formatting (text-align, text-decoration, text-transform)  Box Model and Layouts: Understanding the Box Model (Margin, Border, Padding, Content) Width, Height, and Overflow, Display Property (block, inline, inline-block, none),Positioning Elements (static, relative, absolute, fixed, sticky)  Styling Lists, Links, and Tables: Customizing Lists (ordered, unordered, nested lists), Styling Links (hover, active, visited, focus),Table Styling (borders, spacing, background)",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to JavaScript",
+          "topics": " Introduction to Java Script, What is JavaScript?  Importance of JavaScript in Web Development  How JavaScript Works (Client-Side vs. Server-Side)  Writing and Running JavaScript (Inline, Internal, and External JS)  Comments in JavaScript, Alert, Prompt, and Console.log(),  Identifier & operator,  Control St ructure, Conditional Statements (if, if -else, switch -case),Loops (for, while, do - while),Break and Continue Statements,  Functions ,Predefined functions, math & string functions ,Array in Java scripts  Introduction to Arrays ,Creating, Accessing, Modifying ,Array Methods (push, pop, shift, unshift, for Each, map) ,Introduction to Objects (Properties and Methods) ,Accessing Object Data (Dot Notation vs. Bracket Notation)",
+          "hours": 6
+        },
+        {
+          "title": "DOM Manipulation (Document Object Model)",
+          "topics": " What is the DOM?, Selecting Elements (getElementById, querySelector)  Changing HTML and CSS with JavaScript ,Handling Events (onclick, onmouseover, onkeyup) , Event Listeners (add Event Listener) ,Keyboard and Mouse Events  Form Validation Basics",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CYS-242MNP",
+      "title": "Practical based on CYS241MN",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "CYS-251MJ",
+      "title": "Ethical Cyber Hacking-II",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Advanced Network Penetration Testing",
+          "topics": " Advanced Scanning Techniques and Bypassing Firewalls  Exploiting Network Vulnerabilities (SMB, SNMP, FTP, SSH)  Man-in-the-Middle (MITM) Attacks & DNS Spoofing  IDS/IPS Evasion Techniques  Tools: Wireshark, Scapy, Bettercap 21",
+          "hours": 6
+        },
+        {
+          "title": "Web Application Exploitation",
+          "topics": " Advanced SQL Injection Techniques  Exploiting XML External Entity (XXE) and Server-Side Request Forgery (SSRF)  Advanced Cross-Site Scripting (XSS) & Cross-Site Request Forgery (CSRF)  Server-Side Template Injection (SSTI)  Tools: Burp Suite Pro, OWASP ZAP, SQLmap",
+          "hours": 5
+        },
+        {
+          "title": "Wireless and IoT Hacking",
+          "topics": " WPA3 & Advanced Wireless Attacks  Exploiting IoT Devices: Smart Home Security Risks  Bluetooth and RFID Hacking Techniques  Drone and Embedded System Security  Tools: Aircrack-ng, Kismet, Bettercap, HackRF",
+          "hours": 5
+        },
+        {
+          "title": "Cloud Security and Hacking",
+          "topics": " Cloud Security Architecture (AWS, Azure, GCP)  Exploiting Cloud Misconfigurations (S3 Bucket, IAM Policies)  Server less & Container Security (Docker, Kubernetes)  Cloud Forensics & Incident Response  Tools: Pacu, Scout Suite, Cloud Sploit",
+          "hours": 6
+        },
+        {
+          "title": "Cyber Forensics and Incident Response",
+          "topics": " Memory and Disk Forensics  Log Analysis and Malware Reverse Engineering  Threat Hunting and SOC Operations  Digital Evidence Handling and Chain of Custody  Tools: Autopsy, Volatility, FTK, Splunk",
+          "hours": 4
+        },
+        {
+          "title": "Red Teaming and Advanced Exploitation",
+          "topics": " Red Team vs. Blue Team Methodologies  Exploiting Privilege Escalation and Lateral Movement  Social Engineering Tactics and Physical Security Bypass  Post-Exploitation and Data Exfiltration  Tools: Cobalt Strike, Empire, Blood Hound",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CYS-252MJ",
+      "title": "Cloud Cyber Security",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Cloud Security",
+          "topics": " Introduction to Cloud Computing  Cloud Service Models (IaaS, PaaS, SaaS)  Cloud Deployment Models (Public, Private, Hybrid, Multi-Cloud)  Shared Responsibility Model in Cloud Security  Key Cloud Security Challenges and Risks 23",
+          "hours": 4
+        },
+        {
+          "title": "Cloud Security Threats and Risk Management",
+          "topics": " Common Cloud Threats: Data Breaches, Insecure APIs, Account Hijacking  Risk Management Strategies in Cloud Environments  Identity and Access Management (IAM) Best Practices  Data Protection, Encryption, and Secure Data Storage in the Cloud  Security Compliance and Regulatory Frameworks (GDPR, IT Act 2000, ISO 27001)",
+          "hours": 6
+        },
+        {
+          "title": "Network Security in Cloud Environments",
+          "topics": " Cloud Network Architecture and Security  Virtual Private Cloud (VPC) and Network Segmentation  Firewalls, Intrusion Detection and Prevention Systems (IDS/IPS)  Secure Communication Protocols (HTTPS, TLS, VPNs  Denial-of-Service (DoS/DDoS) Attack Prevention in Cloud",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to AWS Security",
+          "topics": " Overview of Amazon Web Services (AWS) and Cloud Security Features  AWS Identity and Access Management (IAM)  AWS Security Tools: AWS Shield, AWS WAF, AWS CloudTrail  Securing AWS Storage (S3) and Databases (RDS, DynamoDB)  AWS Compliance and Best Practices for Cloud Security",
+          "hours": 7
+        },
+        {
+          "title": "Incident Response and Disaster Recovery in Cloud Security",
+          "topics": " Understanding Security Incidents in Cloud Environments  Cloud-Based Security Monitoring and Logging  Incident Response Planning and Execution  Disaster Recovery Strategies for Cloud-Based Systems  Case Studies on Cloud Security Breaches and Mitigation",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CYS-253MJ",
+      "title": "Database Management System",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Database Management Systems",
+          "topics": " Introduction to Data, Database, and Database Management System(DBMS)  File System Vs. DBMS  Structure of DBMS  DBMS users and their roles  Levels of Abstraction and Data Independence  Advantages and Disadvantages of DBMS 25",
+          "hours": 4
+        },
+        {
+          "title": "Relational Database Structuring and Normalization",
+          "topics": " Overview of DB design  Introduction to Data models (Hierarchical, Network, Relational)  E-R data model (Types of entities, attributes, relations, entity sets, relationship sets)  Extended features (Generalization, Specialization, Aggregation)  Structure of Relational Databases (table, row, column, attribute, key)  Concept of Normalization - Normal forms 1NF, 2NF, 3NF with Example, BCNF only definition  Case Studies",
+          "hours": 8
+        },
+        {
+          "title": "SQL for Data Management",
+          "topics": " Introduction to SQL, Features, Advantages, Data Types  Introduction to Database Languages (DDL, DML, DCL, TCL)  DDL and DML commands with examples, DCL and TCL commands introduction Constraints (Not Null, Unique, Check, Primary Key, Referential, Key) The basic structure of SQL query, Nested Sub-queries Set operations, Aggregate functions, Logical operators, Range Searching, Pattern Matching, clause (distinct, order by, group by, having) SQL mechanisms for joining relations (inner joins, outer joins and their types) Views Case Studies",
+          "hours": 14
+        },
+        {
+          "title": "Fundamentals of Database Technologies",
+          "topics": " NoSQL databases. (Introduction, Advantages and Disadvantages, Applications)  Cloud databases. (Introduction, Advantages and Disadvantages, Applications)  Mongo DB (Introduction, Advantages and Disadvantages, Applications)",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CYS-254MJP",
+      "title": "Practical based on CYS251MJ",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "CYS-281FP",
+      "title": "Mini Projects based on CYS251MJ",
+      "semester": 4,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "CYS291MN",
+      "title": "Modern Web Development",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Node",
+          "topics": " Introduction  What is Node JS and its advantages  Traditional Web Server Model  Node JS Process model  Installation of Node JS  Node JS event loop",
+          "hours": 4
+        },
+        {
+          "title": "Node JS Modules",
+          "topics": " Functions  Buffer  Module  Module Types  Module. Exports 31",
+          "hours": 4
+        },
+        {
+          "title": "Node Package Manager",
+          "topics": " What is NPM?  Installing package locally  Adding dependencies in package. Son  Installing packages globally  Updating packages  Managing Dependencies",
+          "hours": 4
+        },
+        {
+          "title": "Web Server",
+          "topics": " Creating web server  Handling http requests  Sending requests",
+          "hours": 3
+        },
+        {
+          "title": "File System",
+          "topics": " FS Model  Files and Directories  Streams  Reading and Writing Files  Reading and Writing Directories  Other File Operations",
+          "hours": 5
+        },
+        {
+          "title": "Working with Databases",
+          "topics": " Working with Databases  Connection String  Configuring  Working with Select command  Various database operations",
+          "hours": 5
+        },
+        {
+          "title": "Express JS",
+          "topics": " Introduction to Express JS  The MVC pattern  Routing  HTTP requests and responses  Middleware  Error handling",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CYS292MNP",
+      "title": "Practical based on CYS291MN",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

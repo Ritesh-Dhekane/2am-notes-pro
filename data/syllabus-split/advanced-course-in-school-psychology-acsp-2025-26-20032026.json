@@ -1,0 +1,433 @@
+{
+  "id": "advanced-course-in-school-psychology-acsp-2025-26-20032026",
+  "kind": "programme",
+  "programme": "Advanced Course in School Psychology (ACSP)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "C101",
+      "title": "Introduction to Child and Adolescent Development",
+      "semester": 1,
+      "type": "Compulsory",
+      "credits": 2,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Concept of Development",
+          "topics": "1.1 Principles of Development, 1.2 Bio-ecological Model of Development, 1.3 Role of nature and nurture, 1.4 Social Contexts of development- culture, family, friends and peers, school, media",
+          "hours": null
+        },
+        {
+          "title": "Physical and Motor Development",
+          "topics": "2.1 Physical Growth during Childhood & adolescence, 2.2 Developing physiological habits- Thumb sucking, Toilet training, Sleeping habits, etc., 2.3 Issues in physical development, 2.4 Basic structure of brain, brain plasticity",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C102",
+      "title": "Nature of Human Abilities",
+      "semester": 1,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction to School Psychology",
+          "topics": "1.1 Historical background and definition of school psychology, 1.2 Educational Psychology and School Psychology, 1.3 Nature and Scope of School Psychology, 1.4 Role of a School Psychologist as a Professional",
+          "hours": null
+        },
+        {
+          "title": "Theories of intelligence-1",
+          "topics": "2.1 Intelligence- concept, evolution of the concept, 2.2 Approaches to conceptualise intelligence, 2.3 Psychometric Theories- Spearman, Thurston, Cattell, 2.4 Hierarchical theory- three stratum theory",
+          "hours": null
+        },
+        {
+          "title": "Theories of intelligence-2",
+          "topics": "3.1 Cognitive Theories of Intelligence- Carroll, Brown, 3.2 Information Processing Theory- Sternberg, PASS theory, 3.3 Multidimensional Theories- Guilford’s SOI, Gardner, and EI theories, 3.4 Indian concept of Intelligence",
+          "hours": null
+        },
+        {
+          "title": "Application of concept of intelligence",
+          "topics": "4.1 Applications in Educational set up, 4.2 Applications in Clinical set up, 4.3 Enhancing various abilities, 4.4 Applying Indian concept of intelligence in schools",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C103",
+      "title": "Guidance and Counselling in school set up",
+      "semester": 1,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Guidance and Counselling",
+          "topics": "1.1 Definition and history of Guidance and Counselling, 1.2 Need and Scope of Guidance and Counselling in Indian Setting., 1.3 Role of teachers and parents as stakeholders, 1.4 Ethical and Legal aspects in guidance and counselling",
+          "hours": null
+        },
+        {
+          "title": "Tools and techniques in Guidance and Counselling",
+          "topics": "2.1 Significance of various tools in guidance, 2.2 Types of Tools- subjective and objective, standardised and non-standardized, 2.3 Tools in guidance: Observation, anecdotal records, cumulative records, interview and case history, rating scales, checklist, standardised tests., 2.4 Techniques in guidance- Group tasks, Group discussion, Intelligence games with debriefing, role plays, individual assignments, feedback charts",
+          "hours": null
+        },
+        {
+          "title": "Counselling Skills",
+          "topics": "3.1 Characteristics of an effective counsellor, 3.2 Basic Counselling Skills- Mind skills, Active listening, reflecting, paraphrasing, questioning, confronting, Managing Resistance of the client, 3.3 Counselling process- Building, maintaining and terminating counsellor’s relationships., 3.4 Avoiding Counsellor’s Burn-out.",
+          "hours": null
+        },
+        {
+          "title": "Approaches to Counselling",
+          "topics": "4.1 Approaches of counselling- Behavioural, humanistic, cognitive, 4.2 Play therapy, 4.3 Family Therapy, 4.4 Latest trends in counselling",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C104",
+      "title": "Practical- Psychological Measurement",
+      "semester": 1,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "General Ability Tests",
+          "topics": "1. Intelligence tests: Verbal Test, 2. Intelligence tests: Performance Test, 3. Intelligence test: Non-verbal Test",
+          "hours": null
+        },
+        {
+          "title": "Personality Tests",
+          "topics": "1. Personality inventory- Non-projective, 2. Personality inventory- Projective, 4. Interest inventory, 5. Adjustment inventory, 6. Attitude / Values",
+          "hours": null
+        },
+        {
+          "title": "Other Tests",
+          "topics": "1. Environmental Assessment - school, family etc., 2. Development Assessment, 3. Life skills assessment, 4. Study Habits, 5. Mental health/well-being etc.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C105",
+      "title": "Research Methodology",
+      "semester": 1,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Research: introduction, steps",
+          "topics": "1.1 Research: definition, types, and steps, 1.2 Sampling methods and research designs, 1.3 Ethical considerations, 1.4 Considerations in child development research",
+          "hours": null
+        },
+        {
+          "title": "Measurement and evaluation in research",
+          "topics": "2.1 Concepts of measurement and evaluation, 2.2 Types and scales of measurement and their application in testing, 2.3 Psychological test: definition, uses, types, and limitations, 2.4 Ethics in Psychological Measurement",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Psychological Testing",
+          "topics": "3.1 Characteristics of Standardised Psychological Tests- Reliability and Validity, 3.2 Characteristics of Standardised Psychological Tests- Norms and Standardization, 3.3 Steps involved in test construction, 3.4 Test bias",
+          "hours": null
+        },
+        {
+          "title": "Statistics",
+          "topics": "4.1 Descriptive and inferential statistics; Normal probability curve, 4.2 Measures of Central tendency and variability, 4.3 Correlation: Rank order and product-moment correlation, 4.4 T-test and significance of results",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "E106",
+      "title": "Enhancing Self-awareness",
+      "semester": 1,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Exploring myself",
+          "topics": "1.1 My dreams and goals- education goals to life goals, 1.2 My values, 1.3 Johary window and SWOT, 1.4 Challenges in exploring self, 1.5 Factors affecting self, relatives, friends, media, money, social status, etc",
+          "hours": null
+        },
+        {
+          "title": "Harmonious existence",
+          "topics": "2.1 Harmony at different levels of existence- Internal and External, 2.2 Panchkosh- sheaths of existence, 2.3 Separateness to Connectedness- Me to We, 2.4 Scarcity to Abundance - Gratitude, 2.5 Mindset: fixed vs. growth",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "E107",
+      "title": "Learning to Learn",
+      "semester": 1,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Basic skills for effective learning",
+          "topics": "1.1 Reading skills, 1.2 Writing skills, 1.3 Organization of information, 1.4 Study steps",
+          "hours": null
+        },
+        {
+          "title": "Skills required to enhance performance",
+          "topics": "2.1 Goal setting, 2.2 Planning, 2.3 Time management skills, 2.4 Exam skills",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "E108",
+      "title": "Psychology of Highly able",
+      "semester": 1,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": [
+        {
+          "title": "Characteristics and needs of highly able",
+          "topics": "1.1 Characteristics of highly able, 1.2 Needs of highly able, 1.3 Underachievement of highly able- causes, management",
+          "hours": null
+        },
+        {
+          "title": "Theories of advance development",
+          "topics": "2.1 Western theories: Maslow, Dabrowski, 2.2 Eastern theories: Samarth Ramdas, Advance development by Dr. Khire, 2.3 Applications of the theories of advance development in educational field",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C201",
+      "title": "Assessments in Educational set up",
+      "semester": 2,
+      "type": "Compulsory",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Environment/ climate assessment",
+          "topics": "1.1 Concept Family environment, 1.2 Measurement of Family environment, 1.3 Concept of School climate, 1.4 Measurement and enrichment of school climate",
+          "hours": null
+        },
+        {
+          "title": "Measurement and Evaluation in Education and Learning",
+          "topics": "2.1 Process of Learning- Bloom’s Taxonomy, 2.2 Nature and uses of educational evaluation tools, 2.3 Teacher-made tools and computerised testing, 2.4 Guidelines for Designing evaluation program",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C202",
+      "title": "Curative and preventive guidance and counselling",
+      "semester": 2,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Overview of Clinical Disorders",
+          "topics": "1.1 DSM and ICD classification systems, 1.2 Neurodevelopmental disorders- Learning Disabilities, Autism, ADHD, 1.3 Oppositional Defiant Disorder, conduct disorders, 1.4 Childhood anxiety and depression, Suicide- Assessment and prevention, 1.5 Addiction and gender-related issues",
+          "hours": null
+        },
+        {
+          "title": "Counselling and Guidance for special population",
+          "topics": "2.1 Counselling and Guidance for special children and their parents, 2.2 Counselling and Guidance for Behavioral Problems, 2.3 Remedial teaching in practice, 2.4 Parental guidance and counselling",
+          "hours": null
+        },
+        {
+          "title": "Applying positive psychology",
+          "topics": "3.1 Enhancing Psychological Well-being and resilience, 3.2 Enhancing Mindfulness, 3.3 Enhancing Critical thinking skills, 3.4 Enhancing Motivation",
+          "hours": null
+        },
+        {
+          "title": "Practices in the Classroom",
+          "topics": "4.1 Sexuality education in practice, 4.2 Stress management in practice, 4.3 Value education in practice, 4.4 Coping Styles and Adjustment",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C203",
+      "title": "Aspects of development in children and adolescents",
+      "semester": 2,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Learning and Memory",
+          "topics": "1.1 Classical & Operant Conditioning: Concept and applications, 1.2 Constructivist, Socio-cognitive approaches, 1.3 Models and Types of Memory, 1.4 Determinants of Memory",
+          "hours": null
+        },
+        {
+          "title": "Language Development",
+          "topics": "2.1 Stages in Language Development, 2.2 Various approaches to language development: Nativist, Integrationist, Behavioral, 2.3 Factors Affecting Language Development, 2.4 Issues in Language Development.",
+          "hours": null
+        },
+        {
+          "title": "Cognitive Development",
+          "topics": "3.1 Various Approaches towards Cognitive Development, 3.2 Piaget’s Theory of Cognitive Development., 3.3 Vygotsky’s Theory, 3.4 Divergent thinking and creativity",
+          "hours": null
+        },
+        {
+          "title": "Social, Moral and Emotional Development",
+          "topics": "4.1 Erikson’s Theory of Psychosocial Development, 4.2 Piaget’s and Kohlberg’s theory of Moral development and development of values., 4.3 Emotional Development, 4.4 Social and Moral issues in a school setup",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C204",
+      "title": "Human exceptionality",
+      "semester": 2,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Deviancy and Exceptionality",
+          "topics": "1.1 Deviancy and exceptionality-history, concepts, types, 1.2 Physical Exceptionality, 1.3 Intellectual Exceptionality, 1.4 Emotional Exceptionality",
+          "hours": null
+        },
+        {
+          "title": "Problems and services for exceptional",
+          "topics": "2.1 Personal problems of exceptional children, 2.2 Family problems of exceptional children, 2.3 Formal Services for exceptional- Day care centres, Residential facilities, Rehabilitation centres, Summer Training programs, 2.4 Informal services for exceptional- Self-help Groups, Activity centres or recreational centres",
+          "hours": null
+        },
+        {
+          "title": "Educational policy and practices",
+          "topics": "3.1 Educational policy- History, 3.2 NEP 2020, 3.3 Innovative practices in schools, 3.3 Educational practices for exceptional: Inclusive education, Segregation, Enrichment, Acceleration.",
+          "hours": null
+        },
+        {
+          "title": "Psychology of human differences",
+          "topics": "4.1 Individual differences in Aptitudes and talents, Personality, Intelligence, 4.2 Individual differences in Cognitive styles, Interests, Values,, 4.3 Group differences regarding Sex and Age, 4.4 Group differences regarding Race and Social class.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "C205",
+      "title": "On Job Training / Field Project",
+      "semester": 2,
+      "type": "Compulsory",
+      "credits": 4,
+      "pages": [
+        25,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "E206",
+      "title": "Change in Self",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Attitude Building",
+          "topics": "1.1 Conversion of dreams to goals, 1.2 Awareness of cognitive biases and logical fallacies, 1.3 Awareness of limiting factors, 1.4 Creative thinking",
+          "hours": null
+        },
+        {
+          "title": "Skill Enhancement",
+          "topics": "2.1 Habit Building, 2.2 Decision-making skills, 2.3 Problem-solving, 2.4 Disputation of irrational beliefs",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "E207",
+      "title": "Mentoring the students",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Mentoring: Concept and significance",
+          "topics": "1.1 Concept and significance of Mentoring, 1.2 Elements of mentoring, 1.3 Different roles of a mentor, 1.4 Characteristics of Mentor and Mentee",
+          "hours": null
+        },
+        {
+          "title": "Mentorship",
+          "topics": "2.1 Teacher as mentor, 2.2 Skills required for mentor, 2.3 Structuring Mentorship, 2.4 Ethics in mentoring",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "E208",
+      "title": "Career Guidance",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Role and Skills required for Career Counselling",
+          "topics": "1.1 Historical overview, 1.2 The role of a career counsellor, 1.3 Skills of a career counsellor or guide, 1.4 Ethical considerations in student career counselling or guidance, 1.5 Considerations for suggesting careers: Cultural, Geographical, Socioeconomic, Parents’ background, gender",
+          "hours": null
+        },
+        {
+          "title": "Academic and Career Planning",
+          "topics": "2.1 Assisting students in aligning academic goals, and lifestyle goals with career aspirations, 2.2 Developing personalized academic and career plans, 2.3 Strategies for addressing academic challenges., 2.4 Analysing real-life case studies in student career counselling, 2.5 Listening to career guidance sessions",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}
+

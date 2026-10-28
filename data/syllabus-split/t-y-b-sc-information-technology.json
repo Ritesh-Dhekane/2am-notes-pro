@@ -1,0 +1,702 @@
+{
+  "id": "t-y-b-sc-information-technology",
+  "kind": "programme",
+  "programme": "T.Y.B.Sc. (Information Technology)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "IT301MJ",
+      "title": "Full Stack Development using Python Programming",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction to Web and Full Stack Concepts",
+          "topics": "1.1 Basics of Web Applications and difference between static and Dynamic Websites 1.2 Client-Server Architecture and request-response cycle 1.3 Components of Full Stack: Frontend, Backend, Database 1.4 Overview of HTTP/HTTPS protocols and methods (GET, POST, PUT, DELETE)",
+          "hours": 5
+        },
+        {
+          "title": "Backend Development using Python",
+          "topics": "2.1 Introduction to backend programming and role of server-side scripting 2.2 Basics of Flask framework and application structure 2.3 Handling user input through forms and request objects 2.4 Generating responses in different formats (HTML, JSON)",
+          "hours": 7
+        },
+        {
+          "title": "API Development and Integration",
+          "topics": "3.1 Concept of APIs and their importance in full stack development 3.2 Designing and developing RESTful APIs using Flask 3.3 Working with JSON data for data exchange 3.4 Testing and debugging APIs using tools (Postman basics",
+          "hours": 7
+        },
+        {
+          "title": "Database Integration with Python",
+          "topics": "4.1 Overview of relational databases and connection with Python 4.2 Performing CRUD operations using SQL queries 4.3 Integration of database with Flask applications 4.4 Managing data validation and basic error handling 6",
+          "hours": 5
+        },
+        {
+          "title": "Full Stack Application Development",
+          "topics": "5.1 Designing simple user interface using basic HTML forms 5.2 Integrating frontend with backend and database 5.3 Implementing basic validation and error handling 5.4 Testing, debugging, and running complete application",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "IT302MJ",
+      "title": "Object Oriented Analysis and Design",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        7,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction to Object-Oriented Concepts",
+          "topics": "1.1 Evolution from Procedural to Object-Oriented Development 1.2 Overview of Software Engineering vs Object-Oriented Approach 1.3 Object-Oriented Paradigm: 1.3.1 Objects and Classes 1.3.2 Abstraction 1.3.3 Encapsulation 1.3.4 Inheritance 1.3.5 Polymorphism 1.4 Advantages of Object-Oriented Development 1.5 Comparison: Structured vs Object-Oriented Development",
+          "hours": 6
+        },
+        {
+          "title": "Requirements Engineering & Object-Oriented Analysis",
+          "topics": "2.1 Requirement Gathering Techniques 2.2 Functional vs Non-Functional Requirements 2.3 Use Case Modeling: 2.3.1 Actors and Use Cases 2.3.2 Use Case Diagrams 2.3.3 Use Case Documentation (Textual Format) 2.4 User Stories and Agile Perspective 2.5 Identifying Classes, Attributes, and Methods 2.6 CRC (Class-Responsibility-Collaborator) Cards 2.7 Domain Modeling Concepts 8",
+          "hours": 6
+        },
+        {
+          "title": "Unified Modeling Language (UML)",
+          "topics": "3.1 Introduction to UM L 3.2 Structural Diagrams 3.2.1 Class Diagram 3.2.2 Object Diagram 3.2.3 Package Diagram 3.3 Behavioral Diagrams 3.3.1 Use Case Diagram 3.3.2 Sequence Diagram 3.3.3 Communication Diagram 3.3.4 Activity Diagram 3.3.5 State Chart Diagram 3.4 Additional Diagrams 3.4.1 Component Diagram 3.4.2 Deployment Diagram",
+          "hours": 8
+        },
+        {
+          "title": "Object-Oriented Design Principles",
+          "topics": "4.1 Design Concepts: Coupling & Cohesion 4.2 SOLID Principles 4.3 GRASP Principles (Basic Introduction) 4.4 Interface Design Concepts 4.5 Reusability and Maintainability",
+          "hours": 5
+        },
+        {
+          "title": "Design Patterns, Testing & Case Study",
+          "topics": "5.1 Introduction to Design Patterns 5.1.1 Creational: Singleton, Factory 5.1.2 Structural: Adapter, Decorator 5.1.3 Behavioral: Observer, Strategy 5.2 Testing in OO Systems: 5.2.1 Unit Testing 5.2.2 Integration Testing 5.3 Test-Driven Development (TDD) 5.4 Software Metrics (CK Metrics – overview) 5.5 Case Study (Library / Banking / E-commerce System)",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "IT303MJ",
+      "title": "Core Java",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Object Oriented Programming (OOPs) and Java",
+          "topics": "1.1 Fundamentals of Object Oriented Programming(OOP) concepts (Abstraction, Encapsulation ,Inheritance, Polymorphism) 1.2 History of Java , Features of Java 1.3 JDK Environment 1.4 Java Virtual Machine, Java Runtime environment Structure of java program 1.5 Data Types, Final Variable, Control structures 1.6 Simple Java program 1.7 Accepting Input (Command Line Arguments, BufferedReader, Scanner)",
+          "hours": 4
+        },
+        {
+          "title": "Objects and Classes",
+          "topics": "2.1 Classes and objects: Definition classes, Creating objects, Fields, 2.2 Access Specifiers, Modifiers & access control (Default, public, private, protected, private protected). 2.3 Array of Objects 2.4 Constructors: Types of constructor, Constructor Overloading 2.5 Methods: Method Overloading, Recursion, Passing and Returning object form Method 2.6 new operator, this and static keyword, finalize() method 2.7 Creating , Accessing And Using Packages ,Wrapper Classes 11",
+          "hours": 5
+        },
+        {
+          "title": "Inheritance and Interface",
+          "topics": "3.1 Inheritance Basics (extends Keyword) and Types of Inheritance 3.2 Superclass, Subclass and use of Super Keyword 3.3 Method Overriding and runtime polymorphism 3.4 Use of final keyword related to method and class 3.5 Use of abstract class and abstract methods 3.6 Defining and Implementing Interfaces 3.7 Runtime polymorphism using interface",
+          "hours": 6
+        },
+        {
+          "title": "Exception and File Handling",
+          "topics": "4.1 Dealing with errors , Exception class, Checked And Unchecked Exception 4.2 Catching Exceptions, Multiple Catch Block, Nested try block 4.3 Creating User Defined Exception 4.4 Introduction to Files And Streams 4.5 Input-OutputStream: FileInput/OutputStream, BufferedInput/OutputStream, DataInput/OutputStream 4.6 Reader-Writer : FileReader/Writer, BufferedReader/Writer, InputStreamReader, OutputStreamWriter",
+          "hours": 6
+        },
+        {
+          "title": "Swing Programming",
+          "topics": "1.1 Swing : Introduction to Swing Component and Container Classes , Swing Controls- JLabel and Image Icon, JText Field, JButton, JToggle Button, JCheck Box, JRadio Button, JTabbed Pane, JScroll Pane, JList, JTable, JComboBox, JFileOpen,JColorChooser.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "IT304MJ",
+      "title": "Data Structure",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures",
+          "topics": "1.1 Introduction 1.1.1 Data type, Data object, ADT (ADT of array, Operations), Data Structure 1.1.2 Need of Data Structure 1.1.3 Types of Data Structure 1.2 Algorithm analysis 1.2.1 Space complexity, time complexity 1.2.2 Best, Worst, Average case analysis, asymptotic notation (Big O, Omega ΩTheta)",
+          "hours": 4
+        },
+        {
+          "title": "Array as a Data Structure and Linked List",
+          "topics": "2.1 Searching: Linear, Binary 2.2 Sorting Technique: Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Merge Sort 2.3 Linked List: List as a Data Structure, Dynamic implementation of Linked List 2.4 Types of Linked List: Singly, Doubly, Circular 2.5 Operations on Linked List- create, traverse, insert, delete, search, reverse",
+          "hours": 6
+        },
+        {
+          "title": "Stack",
+          "topics": "3.1 Introduction 3.2 Representation of Stack -Static & Dynamic 3.3 Operations (init(), push(), pop(), isEmpty(), isFull(), peek()) 3.4 Applications (String reversal, Function Call, infix to postfix, infix to prefix, postfix Evaluation)",
+          "hours": 6
+        },
+        {
+          "title": "Queue",
+          "topics": "4.1 Introduction 4.2 Representation of Queues-Static & Dynamic 13 4.3 Operations of Queues -init (), enqueue (), dequeue (), isEmpty (), isFull () , peek() 4.4 Types of Queues 4.4.1 Simple Queue 4.4.2 Circular Queue 4.4.2 Priority Queue 4.4.3 Double Ended Queue",
+          "hours": 6
+        },
+        {
+          "title": "Trees and Graphs",
+          "topics": "5.1 Concept & Terminologies of Tree, Representation (Static and Dynamic) 5.2 Binary tree, binary search tree, Operations on BST (create, Insert, delete) 5.3 Tree traversals–recursive and non-recursive (preorder, inorder, postorder) 5.4 Heapsort 5.5 Concept & Terminologies of Graph 5.6 Graph Representation– Adjacency matrix, Adjacency list, Inverse Adjacency list, 5.7 Traversals–BFS and DFS",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "IT305MJP",
+      "title": "Practical Based on IT301MJ",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "IT306MJP",
+      "title": "Practical Based on IT303MJ",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        16,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "IT307MJ",
+      "title": "Data Mining",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Mining & Data Warehousing",
+          "topics": "1.1 Basic of Data mining - Techniques , Applications, Issues / Challenges in data mining 1.2 Knowledge Discovery in Databases (KDD) 1.3 Introduction & Basic Concepts of Data warehouse - Characteristics, Architecture , Data Mart and Data Cubes 1.4 Data Mining Modeling – 1.4.1 Types of OLAP - Different OLAP Operations 1.4.2 OLTP Vs OLAP 1.5 Fact Table and Dimension Table 1.6 Dimensional Data Modeling 1.6.1 Star Schema 1.6.2 Snowflake schema",
+          "hours": 6
+        },
+        {
+          "title": "Classification and Regression",
+          "topics": "2.1 Introduction to Decision Tree 2.2. Classification : Introduction Issues - Over-fitting - Tree pruning methods - Attribute selection Measures 20 2.3 Types of Classification 2.3.1 Rule-Based Classification 2.3.2 Random Forests 2.3.3 Support Vector Machines (SVM) 2.3.4 K-Nearest neighbors Algorithm and its numerical 2.4 Regression : Introduction 2.5 Types of Regression 2.5.1 Linear regression 2.5.2 Non-linear regression 2.5.3 Logistic Regression",
+          "hours": 10
+        },
+        {
+          "title": "Clustering",
+          "topics": "3.1 Basics of Clustering 3.2 Types of Clustering 3.3 Hierarchical clustering 3.3.1 Divisive 3.3.2 Agglomerative 3.4 K-means",
+          "hours": 6
+        },
+        {
+          "title": "Association",
+          "topics": "4.1 Introduction 4.2 Association Rule Mining 4.2.1 Support 4.2.2 Confidence 4.2.3 Item sets 4.2.4 Frequent item-sets 4.3 Market Basket Analysis 4.4 Apriori algorithm Problems based on all above topics.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "IT308MJP",
+      "title": "Practical Based on IT307MJ",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "IT309MJ",
+      "title": "VB.NET",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to the .NET Framework",
+          "topics": "1.1 IDE (Integrated Development Environment) 1.2 Event-Driven Programming 1.3 . NET Framework 1.4 Architecture of .Net 1.5 Execution Process of .Net Application 1.6 Features of .Net and Advantages of .Net 1.7 Develop simple . Net Application",
+          "hours": 4
+        },
+        {
+          "title": "Introduction to VB.Net",
+          "topics": "2.1 Basics of VB.Net 2.1.1 Operators 2.1.2 Data Types 2.2 Control Structures 2.2.1 Decision-making statements 2.2.2 Loops—for, while, do-while, etc. 2.3 Exit Statements 2.4 Build Console Applications 2.4.1 Methods - Read(), Readline(), Write(), Writeline(), etc. 24 2.5 Build Windows Applications 2.5.1 Controls - Form, TextBox, Button, Label, CheckBox, ListBox, ComboBox, RadioButton. DateTimePicker, MonthCalender, Timer, Progressbar, Scrollbar, PictureBox, ImageBox, ImageList, TreeView, ListView, Toolbar, StatusBar, Datagridview 2.5.2 Menus and Pop-Up Menus 2.5.3 Predefined Dialog controls 2.5.4 DialogBox - InputBox(), MessageBox(), MsgBox()",
+          "hours": 12
+        },
+        {
+          "title": "Object-Oriented Programming in VB .Net",
+          "topics": "3.1 Class and Object 3.2 Properties, methods, and events. 3.3 Constructors and Destructors 3.4 Method overloading 3.5 Inheritance 3.5.1 MyBase , MyClass keywords. 3.6 Access modifiers: Public, Private, Protected, Friend. 3.7 Method Overriding. 3.8 Interfaces. 3.9 Polymorphism 3.10 Exception Handling",
+          "hours": 6
+        },
+        {
+          "title": "Architecture Of ADO.Net",
+          "topics": "4.1 Database : Connection, Command, DataAdapter ,DataSet, DataReader, DataTable 4.2 Connection to database with Server Explorer 4.3 Multiple Table Connection 4.4 Data binding with controls like TextBox, ListBox, DataGrid. 4.5 Navigating data source 4.6 DataGridView, DataFormwizard, Data validation",
+          "hours": 4
+        },
+        {
+          "title": "Crystal Report",
+          "topics": "5.1 Connection to Database, Table, Queries, Building Report, Modifying Report, Formatting Fields And Object. 5.2 Header, Footer, Working with formula fields, parameter fields, Special fields. 5.3 Working with Multiple Tables.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "IT310MJP",
+      "title": "Practical Based on IT309MJ",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "IT321VSC",
+      "title": "Web Application Development",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Basics of Web & HTML5",
+          "topics": "1.1 Introduction to Internet and Web: Definition of Internet, World Wide Web (WWW), Difference between Internet and Web. 1.2 Web Browsers and Web Servers: Types of web browsers, Working of browsers, Introduction to web servers. 1.3 Structure of Web Page: Basic HTML document structure, DOCTYPE declaration, Head and Body sections. 1.4 HTML Basics: Tags and elements, Attributes, Empty and container tags. 1.5 Text Formatting and Lists: Headings, paragraphs, formatting tags (bold, italic, underline, superscript, subscript), Ordered, unordered and definition lists. 1.6 Tables, Links and Images: Table structure and attributes, Merging rows and columns, Anchor tag and hyperlinks, Internal and external links, Image tag and attributes. 1.7 Introduction to HTML5: New features of HTML5, Semantic elements. 29",
+          "hours": 6
+        },
+        {
+          "title": "CSS3 & Responsive Design",
+          "topics": "2.1 Introduction to CSS: Purpose, Advantages of CSS. 2.2 Types of CSS: Inline, Internal and External CSS. 2.3 CSS Selectors and Properties: Element, class and ID selectors, Grouping selectors, Basic styling properties. 2.4 Colors, Fonts and Backgrounds: Text colors, Background colors, Font properties, Background images. 2.5 CSS Box Model: Margin, Border, Padding and Content. 2.6 Layout Techniques: Display property, Positioning (static, relative, absolute). 2.7 Responsive Design: Concept of responsive design, Introduction to media queries.",
+          "hours": 6
+        },
+        {
+          "title": "JavaScript (Client-Side Scripting)",
+          "topics": "3.1 Introduction to JavaScript: Features and uses in web development. 3.2 Variables and Data Types: Declaration of variables, Data types (number, string, boolean). 3.3 Operators and Expressions: Arithmetic, logical and comparison operators. 3.4 Control Statements: if, if-else, loops (for, while). 3.5 Functions: Function definition and function calling. 3.6 Events and Event Handling: Types of events, Event handling methods. 3.7 DOM Manipulation: Accessing elements, Changing content and styles. 3.8 Form Validation: Validation of input fields such as name, email and password.",
+          "hours": 7
+        },
+        {
+          "title": "PHP & Database Integration",
+          "topics": "4.1 Introduction to PHP: Features and basic syntax of PHP. 4.2 Variables and Operators: Variable declaration, Types of operators. 4.3 Control Statements: if, if-else, loops in PHP. 4.4 Functions: User-defined and built-in functions. 4.5 Form Handling: GET and POST methods. 4.6 Sessions and Cookies: Concept and usage of sessions and cookies. 4.7 Database Connectivity: Connecting PHP with MySQL, Executing queries. 4.8 CRUD Operations: Insert, retrieve, update and delete operations. 4.9 Displaying Records: Fetching data from database and displaying in web pages.",
+          "hours": 7
+        },
+        {
+          "title": "Modern Web Concepts",
+          "topics": "5.1 Introduction to JSON: Definition and advantages of JSON. 5.2 JSON Syntax and Usage: JSON objects and arrays. 5.3 AJAX Concept: Introduction to AJAX and its advantages. 5.4 Web Services: Introduction and types of web services. 5.5 REST API Overview: Concept and basic working of REST APIs.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "IT331FP",
+      "title": "Project",
+      "semester": 5,
+      "type": "FP",
+      "credits": 2,
+      "pages": [
+        31,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "IT341MN",
+      "title": "Network Infrastructure & Operations Management",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Enterprise Network Infrastructure",
+          "topics": "1.1 Definition : Enterprise Network Architecture Overview, Three-Tier Hierarchical Mode, Core Hardware, Edge & Security 1.2 Role of routers, switches, servers in organizations: Roles, Key Functions 1.3 Structured cabling concepts: 1.4 Data center basics",
+          "hours": 6
+        },
+        {
+          "title": "IP Planning & Network Deployment",
+          "topics": "2.1 IP addressing planning in organizations : Concept of IP addressing (IPv4 & IPv6 basics) Public vs Private IP addresses, IP address classes (Class A, B, C), Need for IP planning in enterprises IP address hierarchy and allocation strategy Static vs Dynamic IP addressing Address exhaustion and introduction to IPv6 2.2 Subnet allocation : Subnet mask and CIDR notation, Subnet calculation 2.3 DHCP configuration concepts 2.4 DNS: working principle, Need for DNS, Hierarchical structure 35",
+          "hours": 6
+        },
+        {
+          "title": "Network Services & Configuration",
+          "topics": "3.1 VLAN concepts, implementation, advantages 3.2 File and print services: Definition and purpose, Centralized file storage, File sharing in network (server-client model) , Access permissions (read, write, execute) 3.3 Proxy server 3.4 Client-server configuration : concept components 3.5 Backup and restoration procedures: need, types of backups, storage methods",
+          "hours": 6
+        },
+        {
+          "title": "Network Monitoring & Performance Management",
+          "topics": "4.1 Network performance key parameters, factors affecting performance 4.2 Bandwidth monitoring : concepts , techniques and benefits 4.3 Log management: basics, types, log management process 4.4 Network monitoring tools overview : types of tools , wireshark 4.5 Troubleshooting methodologies : steps in troubleshooting",
+          "hours": 6
+        },
+        {
+          "title": "Network Operations & Maintenance",
+          "topics": "5.1 Preventive maintenance 5.2 Configuration management 5.3 Change management process 5.4 Incident reporting 5.5 Network documentation standards",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "IT341MN",
+      "title": "Cloud Computing Security and Management",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Advanced Cloud Computing Concepts",
+          "topics": "1.1 Cloud Architecture (Front-end & Back-end, Layered Architecture) 1.2 Virtualization vs Containerization (Docker Basics) 1.3 Microservices Architecture in Cloud 1.4 Cloud Deployment Design and Multi-Cloud Concept",
+          "hours": 5
+        },
+        {
+          "title": "Cloud Security Frameworks and Controls",
+          "topics": "2.1 Introduction to Cloud Security 2.2 Security Threats and Risks in Cloud Environment (Data Loss, Hacking, etc.) 2.3 Authentication and Authorization 2.4 Data Security and Encryption Basics",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Cloud Concepts and Specialized Services",
+          "topics": "3.1 Cloud Migration Strategies 3.2 Service Level Agreements (SLA) in Cloud 3.3 Multi-Tenancy and Data Isolation Techniques. 3.4 Cloud Storage Types and Data Lifecycle Management",
+          "hours": 7
+        },
+        {
+          "title": "Cloud Security Management and Case Studies",
+          "topics": "4.1 Security Policies and Risk Management 4.2 Backup and Disaster Recovery 4.3 Identity and Access Management (IAM) 4.4 Case Studies (AWS, Azure, Google Cloud Basics) 38",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "IT351MJ",
+      "title": "Data Analysis Tools",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        40,
+        42
+      ],
+      "units": [
+        {
+          "title": "Advanced Data Preprocessing & Wrangling",
+          "topics": "1.1 Data Preprocessing Concepts: Data cleaning, transformation, normalization, handling inconsistencies. 1.2 Handling Missing and Noisy Data: Imputation techniques (mean, median, mode), outlier handling. 1.3 Data Transformation Techniques: Scaling, encoding (label, one-hot), feature transformation. 1.4 Advanced Data Wrangling using Pandas: Merging, joining, concatenation, pivot tables. 1.5 Working with Large Datasets: Efficient data handling and performance considerations",
+          "hours": 5
+        },
+        {
+          "title": "Advanced Data Visualization & Dashboarding",
+          "topics": "2.1 Advanced Visualization Concepts: • Introduction to charts & Chart selection criteria • Comparison chart - Bar chart, column chart • Trend over time chart - Line chart, area chart • Distribution chart - Histogram, box plot 41 • Relationship chart - Scatter plot, Pair plot • Composition chart - Pie chart, stacked bar • Correlation chart -Scatter plot, heatmap 2.2 Interactive Visualization: Introduction to Plotly (interactive charts). 2.3 Dashboard Creation: Introduction to dashboards and layout design. 2.4 Introduction to BI Tools: Creating dashboards using Excel / Power BI (basic).",
+          "hours": 6
+        },
+        {
+          "title": "Statistical Analysis & Hypothesis Testing",
+          "topics": "3.1 Introduction of Descriptive Statistics: Mean, median, variance, standard deviation. 3.2 Inferential Statistics: Concept of sampling and probability, Probability rules , Random variables , Probability distributions -Normal distribution & Binomial distribution 3.3 Hypothesis Testing: Null hypothesis, Alternative hypothesis, p-value, Errors in Hypothesis Testing- Type I Error, Type II Error 3.4 Statistical Tests: Z-test, T-test, Chi-square test 3.5 Correlation and Regression Analysis: Linear regression, Logistic Regression, Multiple Regression, Correlation interpretation.",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Machine Learning for Data Analysis",
+          "topics": "4.1 Machine Learning Overview: Introduction of Machine Learning, Types of machine learning - Supervised , Unsupervised & Reinforcement machine learning, Machine Learning Workflow 4.2 Key concepts & Data Preparation for ML: Basic concepts for analysis - Feature, Target, Training, Testing, Overfitting, Underfitting. Train-test split, feature selection. 4.3 Supervised Learning: Linear Regression, Classification basics. 4.4 Unsupervised Learning: Clustering (K-means concept). 4.5 Model Evaluation: Regression Metrics :- Mean Absolute Error (MAE) , Mean Squared Error (MSE) , R² score Classification Metrics : Accuracy, Precision, Recall, F1-score, Confusion matrix",
+          "hours": 7
+        },
+        {
+          "title": "Data Analysis Applications & Tools",
+          "topics": "5.1 Introduction to APIs for Data Analysis: Fetching data using APIs 5.3 Automation in Data Analysis: Scheduling scripts, report generation. 5.4 Introduction to Big Data Concepts and tools 5.5 Case Study: End-to-end data analysis project (data cleaning → visualization → insights) 42",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "IT352MJ",
+      "title": "Software Testing",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Testing",
+          "topics": "1.1 Introduction to Software testing 1.2 Testing objectives 1.3 Principles of testing 1.4 Testing fundamentals and debugging 1.5 V-V Model (Verification and Validation)",
+          "hours": 5
+        },
+        {
+          "title": "Testing Techniques",
+          "topics": "2.1 Introduction to :- • White Box Testing • Black Box Testing • Gray Box Testing 2.2 Types of white box testing , black box testing 2.3 Differences between BBT & WBT 44",
+          "hours": 6
+        },
+        {
+          "title": "Software Testing Strategies (Testing Levels)",
+          "topics": "3.1 Software Testing Process 3.2 Testing Levels :- • Unit Testing • Integration Testing (Top-down, Bottom up) • System Testing • Acceptance Testing • Regression Testing • Smoke Testing",
+          "hours": 8
+        },
+        {
+          "title": "Software Development Models Software Development Models • Waterfall Model • V-Model • Agile Model • Spiral Model Software Development Life Cycle (SDLC) Software Testing Life Cycle (STLC)",
+          "topics": "Software Development Models Software Development Models • Waterfall Model • V-Model • Agile Model • Spiral Model Software Development Life Cycle (SDLC) Software Testing Life Cycle (STLC)",
+          "hours": 8
+        },
+        {
+          "title": "Automation Testing Introduction to Automation • Manual vs Automation Testing • Automation Tools (e.g., Selenium)",
+          "topics": "Automation Testing Introduction to Automation • Manual vs Automation Testing • Automation Tools (e.g., Selenium)",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "IT353MJ",
+      "title": "Advanced Java",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Collection Framework",
+          "topics": "1.1 Introduction to the Collection framework 1.2 List ArrayList, LinkedList 1.3 Set - HashSet, TreeSet, 1.4 Map - HashMap and TreeMap 1.5 Interfaces such as Comparator, Iterator, ListIterator, Enumeration",
+          "hours": 4
+        },
+        {
+          "title": "Multithreading",
+          "topics": "2.1 Introduction to Multithreading. 2.2 Thread creation: Thread Class, Runnable Interface. 2.3 Life cycle of Thread. 2.4 Thread Priority. 2.5 Execution of Thread Application. 2.6 Synchronization and Inter thread communication",
+          "hours": 5
+        },
+        {
+          "title": "JDBC",
+          "topics": "3.1 Introduction 3.2 JDBC Architecture. 3.3 JDBC Process 3.4 Working with ResultSet Interface. 3.5 JDBC Metadata 46",
+          "hours": 6
+        },
+        {
+          "title": "Servlet and JSP Servlet",
+          "topics": "5.1 Introduction to Servlet 5.2 Types of Servlet: Generic Servlet and Http Servlet 5.3 Life cycle of servlet 5.4 Session Tracking. 5.5 Servlet with database. JSP 5.6 Introduction to JSP. 5.7 JSP Life Cycle. 5.8 Components of JSP. 5.9 JSP with Database",
+          "hours": 7
+        },
+        {
+          "title": "Spring Framework",
+          "topics": "6.1 Introduction of Spring framework 6.2 Spring Modules / Architecture 6.3 Spring Applications 6.4 Spring MVC 6.5 Spring MVC Forms, Validation 6.6 Hello World Example",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "IT354MJ",
+      "title": "Soft Computing",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Introduction to Soft Computing",
+          "topics": "1.1 Introduction 1.2 Soft Computing Versus Hard Computing 1.3 Various Types of Soft Computing Techniques. 1.4 Applications of Soft Computing",
+          "hours": 3
+        },
+        {
+          "title": "Fuzzy Logic",
+          "topics": "2.1 Introduction 2.2 Overview of Conventional Set Theory 2.3 Fuzzy Sets, Properties of Fuzzy Sets, 2.4 Classical Sets, Properties of Classical Sets 2.5 Cartesian Product 2.6 Crisp Relations, Fuzzy Relations 2.7 Membership Functions, Features of the membership Function 2.8 Fuzzy Max-Min and Max-Product Composition, 2.9 Fuzzification, Defuzzification to Crisp Sets 2.10 λ-Cuts for Fuzzy Relations. 2.11 Fuzzy (Ruled-Based) system, 2.12 Applications of Fuzzy Logic 48",
+          "hours": 15
+        },
+        {
+          "title": "Neural Network",
+          "topics": "3.1 Introduction 3.2 Biological Neural Network, 3.3 Artificial Neural Network, 3.4 Comparison Between Biological Neuron and Artificial Neuron (Brain vs. Computer) 3.5 Neural Networks Architectures: Feedforward and Feedback, 3.6 Applications of Neural Network",
+          "hours": 6
+        },
+        {
+          "title": "Genetic Algorithms",
+          "topics": "4.1 Introduction 4.2 How are Genetic Algorithms different from Traditional Methods?, 4.3 Basic terminologies in Genetic Algorithm 4.4 Operators in Genetic Algorithm 4.5 A simple Genetic Algorithm 4.6 Applications of Genetic Algorithms",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "IT355MJP",
+      "title": "Practical Based on IT351MJ",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        49,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "IT356MJP",
+      "title": "Practical Based on IT353MJ",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "IT357MJ",
+      "title": "Mobile Application Development",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        54,
+        56
+      ],
+      "units": [
+        {
+          "title": "Introduction to Android",
+          "topics": "1.1 What is Android? 1.2 History 1.3 Features of Android 1.4 Architecture of Android 1.5 AndroidManifest.xml 1.6 Emulator-Android Virtual Device 1.7 Resources & R.java, Assets 1.8. Creating your first Android Application",
+          "hours": 4
+        },
+        {
+          "title": "Basic UI design",
+          "topics": "2.1. Basic UI Designing (Form widgets ,Text Fields , Layouts ,[dip, dp, sip, sp] versus px 2.2 Using Basic Views ● TextView ● Button, ● ImageButton, ● EditText, ● CheckBox ● Switch, ● ToggleButton, ● RadioButton, and RadioGroup Views ● ProgressBar View 55 2.3 Understanding the components of a screen ● Views and View Groups ● Linear Layout ● Absolute Layout ● Table Layout ● Relative Layout ● Frame Layout ● Scroll Layout ● Scroll View ● Constraint Layout",
+          "hours": 7
+        },
+        {
+          "title": "Activities and Intents",
+          "topics": "3.1 Introduction to Activities 3.2. Activity Lifecycle 3.3. Introduction to Intents 3.4. Linking Activities using Intents 3.5. Calling built-in applications using Intents 3.6. Toast",
+          "hours": 5
+        },
+        {
+          "title": "Designing Your User Interface with Views",
+          "topics": "4.1. Split Screen / Multi-Screen Activities 4.2. Using Picker Views • TimePicker View • DatePicker View 4.3. Using List Views to Display Long Lists • ListView View • Using the Spinner View • GridView",
+          "hours": 3
+        },
+        {
+          "title": "Databases – SQLite",
+          "topics": "5.1. Introduction to SQLite 5.2. SQLite Open Helper and SQLite Database 5.3. Creating , opening and closing database 5.4. Working with cursors, Insert, Update, Delete 5.5. Building and executing queries",
+          "hours": 3
+        },
+        {
+          "title": "Messaging and E-mail and Google Map",
+          "topics": "6.1. SMS Messaging • Sending SMS Messages Programmatically • Sending SMS Messages Using Intent • Receiving SMS Messages 6.2. Sending E-mail 6.3. Display Google Maps • Creating the project • Obtaining the Maps API Key • Displaying the Map • Displaying the Zoom Control 56 • Changing Views • Navigating to a specific location • Adding Markers • Geocoding and Reverse Geocoding 6.4. Getting Location Data",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "IT358MJP",
+      "title": "Practical Based on IT357MJ",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        57,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "IT359MJ",
+      "title": "Go Programming",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        60,
+        61
+      ],
+      "units": [
+        {
+          "title": "Introduction to Go Language",
+          "topics": "1.1 History and features of Go 1.2 Go vs C / Java / Python 1.3Installation and Go environment setup 1.4 Go program structure 1.5 Tokens, keywords, identifiers 1.6 Variables and constants 1.7 Data types 1.8 Type inference 1.9 Input / Output operations",
+          "hours": 5
+        },
+        {
+          "title": "Control Structures & Functions",
+          "topics": "2.1 Operators and expressions 2.2 Conditional statements (if, switch) 2.3 Looping (for, range) 2.4 Functions: Declaration and calling, Multiple return values,Named return values,Recursion 2.5 Anonymous functions and closures 2.6 defer keyword 61",
+          "hours": 6
+        },
+        {
+          "title": "Data Collections & Structures",
+          "topics": "3.1 Arrays 3.2 Slices (creation, slicing, append) 3.3 Maps 3.4 Structures 3.5 Pointers in Go 3.6 Methods and receivers 3.7 Introduction to Interfaces 3.8 Interface implementation",
+          "hours": 6
+        },
+        {
+          "title": "Packages, Error Handling & File I/O",
+          "topics": "4.1 Go packages and modules 4.2 Creating and using custom packages 4.3 Standard packages (fmt, math, strings, time) 4.4 Error handling: error interface, errors.New() 4.5 File handling:Reading and writing files,Working with directories 4.6 Command‑line arguments",
+          "hours": 10
+        },
+        {
+          "title": "Concurrency",
+          "topics": "5.1 Introduction to concurrency 5.2 Goroutines 5.3 Channels: 5.4 Buffered & unbuffered channels 5.5 select statement 5.6 Basic synchronization concepts 5.7 Go coding best practices",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "IT360MJP",
+      "title": "Practical Based on IT359MJ",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        62,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "IT371VSCP",
+      "title": "Practical based on Web Application Development (IT321VSC)",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        64,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "IT381OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "OJT",
+      "credits": 4,
+      "pages": [
+        66,
+        67
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,448 @@
+{
+  "id": "s-y-b-sc-computer-application-17062025",
+  "kind": "programme",
+  "programme": "S.Y. B. Sc. (Computer Applications)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA-201-MJ",
+      "title": "Data Structures",
+      "semester": 3,
+      "type": "MJ",
+      "credits": 4,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structure",
+          "topics": "1.1 Introduction, Basic concepts, Data types and data objects. 1.2 Abstract Data Types (ADT) 1.3 Types of Data Structures: Linear and non -linear 1.4 Algorithm analysis: Frequency counts, Space and Time complexity, Asymptotic notation: Big O, Omega (Ω) (With examples)",
+          "hours": 10
+        },
+        {
+          "title": "Arrays",
+          "topics": "2.1 Introduction 2.2 Matrix representation using arrays: Row and column major, operations on matrices, Sparse Matrix 2.3 Sorting techniques with time complexity: Bubble sort, Insertion sort, Merge sort, Quick sort 2.4 Searching techniques with time Complexity: Linear search and Binary search",
+          "hours": 10
+        },
+        {
+          "title": "Linked Lists",
+          "topics": "3.1 Introduction 3.2 Representation 3.3 Types of linked lists: Singly, Doubly, Circular (Singly, Doubly) 3.4 Operations on link list: Create, Display, Insert, Delete, Reverse, Search, Sort, Concatenation, Merge 3.5 Real world applications of Link list : Polynomial Representation, Addition of two polynomials",
+          "hours": 10
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": "4.1 Introduction 4.2 Representation of Stack: Using arrays and Linked Lists 4.3 Operations on stack: push, pop 4.4 Applications of Stack: Recursion, Expressions: Infix to postfix, postfix to infix 4.5 Representation of Queues: Static (Array) and Dynamic (Linked List) 4.6 Operations on queue: insert, delete 4.7 Types of queues: Circular queue and Priority queue 4.8 Real world Applications of queue (Implementation not expected)",
+          "hours": 10
+        },
+        {
+          "title": "Trees",
+          "topics": "5.1 Introduction and terminologies 5.2 Types of Binary Trees -Rooted Binary Tree, Full Binary Tree, Complete Binary Tree and Skewed Binary Tree, Expression Tree 5.3 Representation of Trees using arrays and linked lists, traversals (In -order, pre-order, post-order) and operations (Create, Insert, delete, modify, counting nodes etc.) 5.5 Applications of Binary trees – Expression conversions and evaluation 5.6 Binary Search Tree (BST): Introduction and Definition, operations on BST (Create, insert node, delete node, search node) and applications 5.5.2 AVL Tree: Concept, Rotation (LL, LR, RL, RR) with Examples 5.5.3 Heap Sort Technique with Examples (Implementation not expected)",
+          "hours": 10
+        },
+        {
+          "title": "Graphs",
+          "topics": "6.1 Introduction and Graph terminologies 6.2 Representation of a Graph - 6.2.1 Adjacency matrix, 6.2.2 Adjacency list, 6.2.3 Adjacency multi-list 6.3 Graph Traversals - 6.3.1 DFS (Depth First Search), 6.3.2 BFS (Breadth First Search) 6.4 Applications of graphs - 6.4.1 Topological sort 6.5 Minimal Spanning Trees - 6.5.1 Prim’s Algorithm, 6.5.2 Kruskal’s Algorithm",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CA-202-MJP",
+      "title": "Lab course on CA-201-MJ",
+      "semester": 3,
+      "type": "MJP",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Lab Assignments",
+          "topics": "1 Non-Recursive Sorting Techniques (Bubble sort, Insertion sort), 2 Divide and Conquer Sorting Techniques (Merge sort, Quick sort), 3 Searching Techniques (Linear search, Binary search), 4 Singly Linked List - Dynamic implementation with operations (Create, modify, insert, delete, display, reverse etc.), 5 Doubly Linked list - Dynamic implementation with operations (Create, modify, insert, delete, display, reverse etc.), 6 Singly Circular Linked List - Dynamic implementation with operations, 7 Doubly Circular Linked List - Dynamic implementation with operations, 8 Evaluation of postfix expressions, 9 Static and dynamic implementation of Linear Queue, 10 Static and dynamic implementation of Circular Queue, 11 Binary Search Tree - Dynamic implementation with operations (Create, insert node, delete node, counting leaf and non-leaf nodes etc.), 12 Binary Search Tree Traversals (In-order, Pre-order, Post-order), 13 Graph Traversals (DFS, BFS), 14 Minimal Spanning Tree (Prim’s, Kruskal’s algorithm)",
+          "hours": 60
+        }
+      ]
+    },
+    {
+      "code": "CA-221-VSC",
+      "title": "C++ Programming",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Object Oriented Programming and functions in C++",
+          "topics": "Assignment No 1: Creation of classes, objects, methods, access specifiers, input-output. Assignment No 2: Scope resolution operator, static members, call by reference. Assignment No 3: Inline function, friend class and function.",
+          "hours": 20
+        },
+        {
+          "title": "Inheritance and Polymorphism",
+          "topics": "Assignment No 4: Types of constructors, destructors. Assignment No 5: Dynamic memory allocation, this pointer. Assignment No 6: Single and Multilevel Inheritance. Assignment No 7: Multiple and Hierarchical Inheritance. Assignment No 8: Compile time polymorphism (Function and Operator overloading). Assignment No 9: Run time polymorphism (Virtual functions and Pure Virtual function).",
+          "hours": 20
+        },
+        {
+          "title": "File Handling and Exception Handling",
+          "topics": "Assignment No 10: Formatted and Unformatted I/O. Assignment No 11: File Handling (Read, Write, Append). Assignment No 12: Exception Handling (try, throw, catch).",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "CA-231-FP",
+      "title": "Field work",
+      "semester": 3,
+      "type": "FP",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Field Work Guidelines",
+          "topics": "Fieldwork/Project work may be carried out by a group of learners (maximum 3 to 4 learners). Learners should identify an industry/business/organization/institute and understand its working, study real-world issues, prepare data flow / process diagrams, perform requirement analysis, and submit a comprehensive report. Presentation and viva-voce conducted at end of semester.",
+          "hours": 60
+        }
+      ]
+    },
+    {
+      "code": "CA-200-IKS",
+      "title": "Indian Knowledge System for Computing",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Indian Knowledge Systems (IKS)",
+          "topics": "1.1 Overview of IKS: Definition, scope, and significance 1.2 Historical background and cultural context 1.3 Sources of knowledge: Vedic literature, classical texts, oral traditions 1.4 Epistemological frameworks in Indian philosophy: Nyaya, Vaisheshika, Samkhya, Vedanta 1.5 Introduction to major ancient Indian texts: Vedas, Upanishads, Vedangas 1.6 Scientific and technological heritage: Overview of ancient contributions to science, mathematics, astronomy, metallurgy, architecture",
+          "hours": 7
+        },
+        {
+          "title": "Indian Mathematics",
+          "topics": "2.1 Foundational Concepts in Indian Mathematics: Indian Number System, Katapayadi System, Aryabhata’s System of Numeration, Akṣarapallī System 2.2 Sulba Sutras: Geometry and computational techniques 2.3 Binary System and Zero: 2.3.1 Historical evolution of zero, 2.3.2 Śūnyabindu System, 2.3.3. Piṅgala and the Binary system 2.4. Measurements for time, distance, and weight in ancient India",
+          "hours": 7
+        },
+        {
+          "title": "Linguistics",
+          "topics": "3.1 Introduction to Linguistics 3.2 Panini’s Grammar: Ashtadhyayi and its computational nature 3.3 Context-free grammars and Backus-Naur Form (BNF) in comparison with Paninian rules 3.4 Language processing techniques: Phonetics, morphology, syntax, and semantics in Sanskrit 3.5 Natural Language Processing (NLP) and Sanskrit: Applicability of ancient linguistic models to modern NLP",
+          "hours": 8
+        },
+        {
+          "title": "Algorithms and Astronomy",
+          "topics": "4.1 Astronomical Calculations: Aryabhata, Varahamihira, Brahmagupta, and Bhaskara II 4.2 Algorithms in Ancient Indian Mathematics: Kuttaka (Linear indeterminate equations), Chakravala method (Pell’s equation), Combinatorics in ancient texts 4.3 Computational Astronomy: Planetary models, eclipse predictions, calendar systems (Panchanga)",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CA-251-MJ",
+      "title": "Database Management Systems",
+      "semester": 4,
+      "type": "MJ",
+      "credits": 4,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database Management System",
+          "topics": "1.1 Introduction of DBMS: File system Vs DBMS, Advantages & Disadvantages of DBMS 1.2 Database System Architecture 1.3 Relational Model: Concept of Relational Database, Schemas and Instances, Keys (Super key, Candidate key, Primary key, Foreign Key, alternate key), Integrity Constraints, Relational Algebra operations 1.4 Data Models: Entity Relationship Model, Relational Model, Object-Oriented Model, Semi-Structured Data Model",
+          "hours": 12
+        },
+        {
+          "title": "Relational Database Design",
+          "topics": "2.1 ER diagram 2.2 Conversion of ER to Relational schema 2.3 Extended ER Features 2.4 Pitfalls in Relational-Database Design 2.5 Relational Database Design: Functional Dependencies, Normalization (1NF, 2NF, 3NF, BCNF, 4NF), Armstrong axioms, Closure of relation (F+), Decomposition: Lossless joins and Dependency Preservation",
+          "hours": 12
+        },
+        {
+          "title": "Basic SQL",
+          "topics": "3.1 Introduction to SQL 3.2 DDL commands: CREATE, ALTER, DROP, TRUNCATE, RENAME 3.3 DML commands: INSERT, UPDATE, DELETE 3.4 DCL commands: GRANT, REVOKE 3.5 TCL commands: COMMIT, ROLLBACK, SAVEPOINT 3.6 DQL commands: SELECT with WHERE, ORDER BY, GROUP BY, HAVING, Aggregate Functions 3.7 Set Operations: UNION, INTERSECT, MINUS 3.8 Nested Subqueries, Joins (INNER, LEFT, RIGHT, FULL OUTER)",
+          "hours": 12
+        },
+        {
+          "title": "Advanced SQL",
+          "topics": "4.1 Views: Concept, Creation, Modification, Dropping 4.2 Indexes: Concept, Types (Primary, Secondary, Clustering) 4.3 PL/SQL: Block structure, Variables, Control structures 4.4 Cursors: Implicit and Explicit cursors 4.5 Stored Procedures and Functions 4.6 Triggers: Types, Creation, Dropping",
+          "hours": 12
+        },
+        {
+          "title": "Transaction Management and Concurrency Control",
+          "topics": "5.1 Transaction Concept: Transaction properties (ACID), Transaction states 5.2 Concurrency Control: Schedules, Serializability (Conflict and View serializability), Precedence graph 5.3 Concurrency Control Protocols: Lock-based protocols (Two-phase Locking), Timestamp-based protocols (Thomas Write Rule), Timestamps vs Locking 5.4 Deadlock Handling: Deadlock prevention, detection, recovery",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "CA-252-MJP",
+      "title": "Lab course on CA-251-MJ",
+      "semester": 4,
+      "type": "MJP",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Database Management Systems Lab Assignments",
+          "topics": "Assignment No 1 Simple tables using DDL commands, Assignment No 2 Simple tables using referential constraint (DDL) commands, Assignment No 3 DDL commands, Assignment No 4 DML commands (insert, update, delete), Assignment No 5 DQL commands (select with conditions, order by), Assignment No 6 Nested sub queries and Aggregate functions, Assignment No 7 Join queries (Inner, Outer, Self), Assignment No 8 Views and Indexes, Assignment No 9 PL/SQL basic block and control structures, Assignment No 10 Cursors (Implicit and Explicit), Assignment No 11 Stored Procedures and Functions, Assignment No 12 Database Triggers",
+          "hours": 60
+        }
+      ]
+    },
+    {
+      "code": "CA-271-VSC",
+      "title": "Python Programming",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Basic Python and Data Structures",
+          "topics": "Assignment No 1 Basic Python (Data types, declarations, input/output, control flow), Assignment No 2 Strings and Functions, Assignment No 3 List, Assignment No 4 Tuples, Assignment No 5 Dictionary and Sets",
+          "hours": 30
+        },
+        {
+          "title": "Advanced Python and GUI",
+          "topics": "Assignment No 6 Modules and Packages, Assignment No 7 File Handling, Assignment No 8 Exception Handling, Assignment No 9 Object Oriented Concepts (Classes, Objects, Inheritance), Assignment No 10 GUI Programming using Tkinter",
+          "hours": 30
+        }
+      ]
+    },
+    {
+      "code": "CA-281-CEP",
+      "title": "Community services",
+      "semester": 4,
+      "type": "CEP",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Community Engagement Guidelines",
+          "topics": "Learners should engage in community service projects such as digital literacy training, environmental awareness, health camps assistance, social welfare activities, NGOs support, or community-based problem solving. Maintain an activity journal and submit a detailed report followed by presentation.",
+          "hours": 60
+        }
+      ]
+    },
+    {
+      "code": "SEC-251-CA",
+      "title": "Spreadsheet Applications",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Spreadsheet Basics and Formatting",
+          "topics": "Spreadsheet interface, workbook, worksheet, cells, rows, columns, data entry, formatting, font styling, borders, colors, conditional formatting, data validation.",
+          "hours": 15
+        },
+        {
+          "title": "Formulas and Functions",
+          "topics": "Basic arithmetic formulas, SUM, AVERAGE, COUNT, MAX, MIN, Lookup and Reference Functions (VLOOKUP, HLOOKUP, XLOOKUP, INDEX, MATCH, INDIRECT, OFFSET), Logical Functions (IF, AND, OR, XOR, IFERROR, IFS), Text Functions (CONCAT, TEXTJOIN, PROPER, LEFT, RIGHT, MID), Date and Time Functions (TODAY, NOW, EOMONTH, NETWORKDAYS).",
+          "hours": 15
+        },
+        {
+          "title": "Data Analysis and Visualization",
+          "topics": "Sorting, filtering, advanced filtering, Charts and graphs (Bar, Column, Line, Pie, Scatter), Pivot Tables, Pivot Charts, Slicers, Timelines, What-If Analysis (Goal Seek, Scenario Manager, Data Tables).",
+          "hours": 15
+        },
+        {
+          "title": "Data Management, Automation and Collaboration",
+          "topics": "Importing and exporting data (CSV, TXT, Web), Data cleaning techniques (Remove Duplicates, Text to Columns, Flash Fill), Introduction to Macros and VBA basics, Protection of sheets and workbooks, Sharing and real-time collaboration in Google Sheets / Excel Online.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CA-241-MN",
+      "title": "Programming with Python",
+      "semester": 3,
+      "type": "MN",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Python",
+          "topics": "1.1 Introduction to Python, Features of Python, Python Virtual Machine (PVM), Execution of Python program 1.2 Data types, variables, operators, expressions 1.3 Input and Output statements 1.4 Control structures: Decision making and looping 1.5 Object-Oriented features: Classes, Objects, Methods, Constructors, Garbage collection 1.6 Applications of Python",
+          "hours": 8
+        },
+        {
+          "title": "Functions and Strings",
+          "topics": "2.1 Introduction to function, Function definition and call, Function arguments, Anonymous functions (lambda), Recursion 2.2 Strings: Creating and accessing strings, String operators, String slices, String methods and formatting",
+          "hours": 7
+        },
+        {
+          "title": "Data Structures in Python",
+          "topics": "3.1 Lists: Creating, indexing, slicing, List methods, List comprehensions 3.2 Tuples: Creating, tuple operations, methods 3.3 Dictionaries: Creating, accessing, dictionary methods 3.4 Sets: Creating, set operations, mathematical set operations",
+          "hours": 8
+        },
+        {
+          "title": "Files, Modules and Packages",
+          "topics": "4.1 File Handling: Opening, reading, writing, closing files, File modes 4.2 Modules: Built-in modules, User Defined Modules, External Modules (NumPy, Pandas, Matplotlib, Seaborn) 4.3 Packages: Importing and creating packages",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CA-242-MNP",
+      "title": "Lab Course on CA – 241 - MN",
+      "semester": 3,
+      "type": "MN",
+      "credits": 2,
+      "pages": [
+        36,
+        36
+      ],
+      "units": [
+        {
+          "title": "Programming with Python Lab",
+          "topics": "Assignment 1: Python Basics (data types, expressions, I/O). Assignment 2: Control structures (if-else, loops). Assignment 3: Functions and recursion. Assignment 4: Strings and operations. Assignment 5: Lists and Tuples. Assignment 6: Dictionaries and Sets. Assignment 7: File handling. Assignment 8: Modules and Packages. Assignment 9: OOP concepts.",
+          "hours": 60
+        }
+      ]
+    },
+    {
+      "code": "CA-291-MN",
+      "title": "Introduction of Artificial Intelligence and Machine Learning",
+      "semester": 4,
+      "type": "MN",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "1.1 Introduction to AI, History and Evolution of AI 1.2 Comparison of AI, Machine Learning, Deep Learning 1.3 AI Techniques and Applications 1.4 Agents: Definition, types of agents, agent environment",
+          "hours": 7
+        },
+        {
+          "title": "Problem Solving and Search Algorithms",
+          "topics": "2.1 Search Algorithms 2.2 Uninformed Search: Breadth-First Search, Depth-First Search 2.3 Informed Search: Heuristic search, Best-First Search, A* algorithm 2.4 Constraint Satisfaction Problems",
+          "hours": 8
+        },
+        {
+          "title": "Knowledge Representation and Reasoning",
+          "topics": "3.1 Knowledge Representation: Approaches to knowledge representation 3.2 Propositional Logic and Predicate Logic 3.3 Inference rules, resolution 3.4 Reasoning under uncertainty: Probabilistic reasoning, Bayes theorem",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "4.1 Overview of Machine Learning, Types of ML: Supervised, Unsupervised, Reinforcement Learning 4.2 Supervised Learning: Classification, Regression algorithms 4.3 Unsupervised Learning: Clustering, K-means 4.4 ML libraries and tools: Scikit-learn, NumPy, Pandas",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CA-292-MNP",
+      "title": "Lab Course on CA - 291 - MN",
+      "semester": 4,
+      "type": "MN",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "AI and Machine Learning Lab Assignments",
+          "topics": "Assignment 1 Artificial Intelligence and Problem Space (Water Jug, Missionaries & Cannibals), Assignment 2 Problem Space (Block World, Monkey & Banana), Assignment 3 Search Algorithms (BFS, DFS), Assignment 4 Constraint Satisfaction, Assignment 5 Generate and Test (Hill Climbing, Best First Search), Assignment 6 Testing and Analysis (Mean Ends Analysis, A* and AO*), Assignment 7 Knowledge Representation (Procedural, Declarative), Assignment 8 Reasoning (Propositional Logic, Predicate Logic), Assignment 9 Machine Learning Libraries (Scikit-learn, pandas, NumPy, Jupyter Notebook), Assignment 10 Data Preprocessing, Assignment 11 Supervised Learning (Linear Regression, Classification), Assignment 12 Unsupervised Learning (K-Means Clustering)",
+          "hours": 60
+        }
+      ]
+    },
+    {
+      "code": "OE-201-CA",
+      "title": "Introduction to Artificial Intelligence",
+      "semester": 3,
+      "type": "OE",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "1.1 Introduction 1.2 Comparison of AI, Machine Learning, Deep Learning 1.3 Applications of AI 1.4 AI Techniques 1.5 Agents and Types of Agents, Agents and Environments, Structure of Agents",
+          "hours": 4
+        },
+        {
+          "title": "Problems, Problem Spaces and search",
+          "topics": "2.1 Defining problem as a State Space Search 2.2 Production System 2.3 Problem Characteristics 2.4 Search and Control Strategies 2.5 Problems (Water Jug, Missionaries and Cannibals, Monkey and Banana, 8-Puzzle)",
+          "hours": 4
+        },
+        {
+          "title": "Knowledge Representation and Introduction to Searching Algorithms",
+          "topics": "3.1 Knowledge Representation 3.1.1 Introduction 3.1.2 Approaches to Knowledge Representation 3.1.3 Knowledge Representation using Propositional Logic and Predicate Logic 3.2 Searching Algorithms: Uninformed search (BFS, DFS), Informed search (Heuristic search, Best First Search, A* Algorithm)",
+          "hours": 12
+        },
+        {
+          "title": "Introduction to Machine Learning and Deep Learning",
+          "topics": "4.1 Overview of Machine Learning 4.2 Supervised, Unsupervised, Reinforcement Learning 4.3 Overview of Deep Learning and Neural Networks 4.4 Applications of ML and DL in real world",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OE-251-CA",
+      "title": "Software Tools for Office Administration",
+      "semester": 4,
+      "type": "OE",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Word Processing for Professional Documentation",
+          "topics": "Assignment 1: Resume Building and Professional Formatting in MS Word / Google Docs. Assignment 2: Official Letter and Mail Merge. Assignment 3: Report Preparation with Table of Contents, Citations, and References.",
+          "hours": 15
+        },
+        {
+          "title": "Spreadsheets for Data Management and Analysis",
+          "topics": "Assignment 4: Data Visualization Using Charts and Conditional Formatting. Assignment 5: Financial and Payroll Calculation using Formulas. Assignment 6: Data Analysis Using Pivot Tables and VLOOKUP.",
+          "hours": 15
+        },
+        {
+          "title": "Presentations, Digital Forms, and Collaboration Tools",
+          "topics": "Assignment 7: Business Presentation Design in MS PowerPoint / Google Slides. Assignment 8: Online Form Creation and Survey Data Collection using Google Forms. Assignment 9: Cloud Collaboration and Storage Management using Google Drive / OneDrive.",
+          "hours": 15
+        },
+        {
+          "title": "Email Etiquette, Calendar Scheduling, and Digital Security",
+          "topics": "Assignment 10: Email Communication and Calendar Management in Gmail / MS Outlook. Assignment 11: Digital Security and Data Backup practices for office administration.",
+          "hours": 15
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

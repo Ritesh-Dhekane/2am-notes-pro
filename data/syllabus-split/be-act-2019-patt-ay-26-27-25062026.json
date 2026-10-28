@@ -1,0 +1,1166 @@
+{
+  "id": "be-act-2019-patt-ay-26-27-25062026",
+  "kind": "programme",
+  "programme": "B.E Electronics & Communication Engineering (Advanced Communication Technology)",
+  "pattern": "2019",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "404301",
+      "title": "Satellite Communication",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        6,
+        8
+      ],
+      "units": [
+        {
+          "title": "Introduction To the Concept of Satellite Communication",
+          "topics": "Communication Satellite: Orbit and Description: A Brief history of satellite Communication, satellite Frequency Bands, Satellite Systems, Applications, Orbital Period and Velocity, effects of orbital Inclination, Azimuth and Elevation, Coverage angle and slant Range, Eclipse, Orbital Perturbations, Placement of a Satellite in a Geo-Stationary orbit. 7",
+          "hours": 7
+        },
+        {
+          "title": "Satellite Subsystems",
+          "topics": "7 Hrs. Attitude and Orbit Control system, TT&C subsystem, Attitude Control subsystem, Power systems, Communication subsystems, Satellite Antenna Equipment. Satellite Link: Basic Transmission Theory, System Noise Temperature and G/T ratio, Basic Link Analysis, Interference Analysis, Design of satellite Links for a specified C/N, (With and without frequency Re-use), Link Budget.",
+          "hours": null
+        },
+        {
+          "title": "Propagation Effects",
+          "topics": "Introduction, Atmospheric Absorption, Cloud Attenuation, Tropospheric and Ion - speheric Scintillation and Low angle fading, Rain induced attenuation, rain induced cross polarization interference. Multiple Access: Frequency Division Multiple Access (FDMA) - Intermodulation, Calculation of C/N, Time Division Multiple Access (TDMA) -Frame Structure, Burst Structure, Satellite switched TDMA, On- board Processing, Demand Assignment Multiple Access (DAMA) – Types of Demand Assignment, Characteristics, CDMA Spread Spectrum Transmission and Reception.",
+          "hours": 7
+        },
+        {
+          "title": "Multiple Accesses",
+          "topics": "7 Hrs. Introduction, frequency division multiple access (FDMA ): intermediation, calculation of c/n with inter modulation. Time division multiple access (TDMA ): bits, symbols, and channels, frame structure. Reference burst and preamble, guard times, synchronization in TDMA networks, transmit ter power in TDMA networks, satellite switched TDMA, onboard processing: baseband processing trans ponders, satellite switched TDMA with onboard processing. Demand access multiple access (DAMA ), code division multiple access (CDMA), spread spectrum transmission and reception.",
+          "hours": null
+        },
+        {
+          "title": "Earth Station Technology",
+          "topics": "7 Hrs. Transmitters, Receivers, Antennas, Tracking Systems, Terrestrial Interface, Power Test Methods, Lower Orbit Considerations. Satellite Navigation and Global Positioning Systems: Radio and Satellite Navigation, GPS Position Location Principles, GPS Receivers, GPS C/A Code Accuracy, Differential GPS.",
+          "hours": null
+        },
+        {
+          "title": "Satellite Packet Communications",
+          "topics": "7 Hrs. Message Transmission by FDMA: M/G/1 Queue, Message Transmission by TDMA, PURE ALOHA- Satellite Packet Switching, Slotted Aloha, Packet Reservation, Tree Algorithm. 8",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404182",
+      "title": "VLSI Design and Technology",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        11
+      ],
+      "units": [
+        {
+          "title": "Design with HDL",
+          "topics": "Design Flow, Language constructs, Data objects, Data types, Entity, Architecture & types of modeling, Sequential statements, Concurrent statements, Packages, Sub programs, Attributes, HDL modeling of Combinational, Sequential circuits and FSM. Simulations, Synthesis, Efficient coding styles, Hierarchical and flat designs, Partitioning for synthesis, Pipelining, Resource sharing.",
+          "hours": 7
+        },
+        {
+          "title": "Digital Design and Issues",
+          "topics": "Sequential synchronous machine design, Moore and Mealy machines, HDL code for Machines, FIFO. Meta-stability and solutions. Noise margin, Fan-out, Skew, Timing considerations, Hazards, Clock distribution, Clock jitter, Supply and ground bounce, Power distribution techniques, Power optimization. Interconnect routing techniques, Wire parasitic, Signal integrity issues. I/O architecture.",
+          "hours": 7
+        },
+        {
+          "title": "PLD Architectures and Applications",
+          "topics": "Design Flow. CPLD Architecture, Features, Specifications, Applications. FPGA Architecture, Features, Specifications, Applications. Clock management techniques. The Simulation and Synthesis Tools, FPGA synthesis and implementation. Comparison of CPLD & FPGA.",
+          "hours": 7
+        },
+        {
+          "title": "Digital CMOS Circuits",
+          "topics": "N-MOS, P-MOS and CMOS. MOSFET parasitic, Technology scaling, Channel length modulation, Hot electron effect, Velocity saturation. CMOS Inverter, Device sizing, CMOS combinational logic design, Power dissipations, Power delay product, Body Effect, Rise and fall times, Latch Up effect, Transmission gates.",
+          "hours": 7
+        },
+        {
+          "title": "Application Specific Integrated Circuits",
+          "topics": "Design Flow, Cell design specifications, Spice simulation, AC and DC analysis, Transfer Characteristics, Transient responses, Noise analysis, Lambda rules, Design Rule Check, Fabrication methods of circuit elements, Layout of cell, Library cell designing for NAND & NOR, Circuit Extraction, Electrical Rule Check, Layout Vs. Schematic, Post-layout Simulation and Parasitic extraction, Design Issues like Antenna effect, Electro migration effect, Cross talk and Drain punch through, Timing analysis.",
+          "hours": 7
+        },
+        {
+          "title": "VLSI Testing and Analysis",
+          "topics": "Types of fault, Need of Design for Testability (DFT), DFT Guideline, Testability, Fault models, Path sensitizing, Test pattern generation, Sequential circuit test, Built In Self-Test, JTAG & Boundary scan, TAP Controller.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "404183",
+      "title": "Cloud Computing",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        14
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Cloud Computing",
+          "topics": "Introduction to Cloud Computing, History of Cloud Computing, Characteristics of Cloud Computing, Cloud Types: NIST, Cloud cube, Cloud service models, Cloud Computing deployment models, Exploring the Cloud Computing Stack, Advantages, Disadvantages and Applications of cloud computing.",
+          "hours": 7
+        },
+        {
+          "title": "Cloud Service Models",
+          "topics": "Introduction and benefits of Cloud services, Characteristics, benefits, applications of different cloud service models, Software as a service( SaaS), Platform as a service (PaaS), Infrastructure as a service (IaaS), Network as a service (NaaS), Identity as a service (IdaaS), Database as a service (DbaaS), Comparison of cloud services. 13",
+          "hours": 7
+        },
+        {
+          "title": "Virtualization",
+          "topics": "Introduction to Virtualization, Difference between Cloud Computing and Virtualization Types of Virtualization: Hardware, Software, Operating system, Server, Storage, Methods of implementing storage Virtualization, Network Virtualization Types, Advantages, Disadvantages, Virtualization Architecture and Software, Virtual Clustering, Applications of Virtualization.",
+          "hours": 7
+        },
+        {
+          "title": "Service Oriented Architecture and Cloud",
+          "topics": "Security 7 Hrs. Cloud Computing Architecture (COA): Design principles, Cloud computing life cycle (CCLC), Cloud computing reference architecture, Service Oriented Architecture (SOA) characteristics and fundamental components. Cloud Security: Cloud CIA security model (Confidentiality, Integrity and Availability ), Cloud computing security architecture, Service provider security issues, Cloud Security Issues and challenges, Security issues in virtualization, Host Security, Data Security, Firewalls.",
+          "hours": null
+        },
+        {
+          "title": "Cloud Environment and Application",
+          "topics": "Development 7 Hrs. Cloud Platforms: Google App Engine, Compute Services, Storage Services, Communication Services, Amazon Web Services Architecture and core concepts, Application Lifecycle, Cost Model, Microsoft Azure Cloud services Azure core concepts, Windows Azure Platform Appliance.",
+          "hours": null
+        },
+        {
+          "title": "Distributed Computing and Internet of Things",
+          "topics": "Distributed Computing: Need, Distributed computing vs. Cloud computing, Enabling Technologies for the Internet of Things, Innovative Applications of the Internet of Things, Online Social and Professional Networking.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "404184 (A)",
+      "title": "Speech Processing (Elective - III)",
+      "semester": 7,
+      "type": "Elective - III",
+      "credits": 3,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Speech Processing",
+          "topics": "Human speech production mechanism, LTI model for speech production, Nature of speech signal, phonetics, articulators, manner of articulation, place of articulation, linear time varying model. Classification of speech sounds: vowels, semivowels, nasal diphthongs, stops, affricates, fricative, vowel triangle. Parameters of speech: Fundamental frequency or pitch Frequency-Autocorrelation method for finding pitch period, AMDF method for finding pitch period. Formants.",
+          "hours": 7
+        },
+        {
+          "title": "Time and Frequency domain methods for",
+          "topics": "Speech and Audio signal analysis. 7 Hrs. Time dependent speech processing. Short-time energy, short time average magnitude, Short time average zero crossing rate. Speech Vs. silence discrimination using energy and zero crossing rate. Short-time autocorrelation function, short-time average magnitude difference function. Audio feature extraction, Spectral centroid, spectral spread, spectral entropy, spectral flux, spectral roll-off. Spectrogram: Narrow band and W ide band spectrogram.",
+          "hours": null
+        },
+        {
+          "title": "Linear prediction and Cepstral analysis",
+          "topics": "Basic principles of linear predictive analysis, Linear prediction of speech, auto correlation, formulation of LPC equation, solution of LPC equations, Cepstral analysis of speech, cepstral coefficients, Computation of Mel Frequency Cepstral Coefficients (MFCC).",
+          "hours": 7
+        },
+        {
+          "title": "Speech and Audio Coding",
+          "topics": "Time domain waveform coding: Linear PCM, Companded PCM, DPCM. Spectral coders: Filter bank analysis, sub-band coders, Adaptive transform coders (ATC), Harmonic coding. Linear predictive coders (LPC), Non-LP source voice coders: phase vocoders, Homomorphic (Cepstral) vocoders.",
+          "hours": 7
+        },
+        {
+          "title": "Applications of Speech Processing",
+          "topics": "Automatic Speech Recognition, Feature Extraction for ASR, Deterministic sequence recognition, Statistical Sequence recognition, ASR systems, Speaker identification and verification. Speech Synthesis: Text-to-Speech Synthesis: Concatenative and waveform synthesis methods, intelligibility and naturalness in speech synthesis, role of prosody.",
+          "hours": 7
+        },
+        {
+          "title": "Speech Processing using Machine Learning",
+          "topics": "techniques 7 Hrs. Comparison of speech processing applications Automatic Speech Recognition and Speech Synthesis- Text-to-Speech Synthesis using Support Vector Machine (SVM), Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN). Performance parameters for comparison - Accuracy, True Positives, True Negatives, False Positives, False Negatives, Sensitivity, Specificity, Area Under Curve (AUC), Receiver Operating Characteristic (ROC). 17",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404184 (B)",
+      "title": "PLC SCADA and Automation (Elective - III)",
+      "semester": 7,
+      "type": "Elective - III",
+      "credits": 3,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Elements of Process Control Automation",
+          "topics": "Process control principles, Control System Evaluation, Analog control, Digital control, Architecture of Industrial Automation Systems (Automation Pyramid), Advantages and limitations of Automation, Concept and Need of transmitters, Standardization of signals, Current, Voltage and Pneumatic signal standards, 2-Wire & 3-Wire transmitters, Concept of VFD, Energy conservation schemes through VFD.",
+          "hours": 7
+        },
+        {
+          "title": "Fundamentals of PLC",
+          "topics": "Architecture of PLC- Types of PLC’s, Applications of PLC’s, PC v/s PLC, Different Modules, Power Supply Unit etc. Need of PLC, Different Types of Sensors- Sinking, Sourcing. Operation and function. Monitoring of Process through Sensors- Connection Details. Analog Addressing, continuous Process Monitoring and Control. 19",
+          "hours": 7
+        },
+        {
+          "title": "Programming of Programmable Logic",
+          "topics": "Controllers 7 Hrs. PLC programming, NO/ NC Concept, Ladder diagram: of logic gates, arithmetic instructions, multiplexer, Ladder diagram for different logical conditions or logical equations or truth table. Timers: types of timer, Characteristics, Function of timer in PLC, Classification of a PLC timer, Ladder diagram using timer, PLC counter, Ladder diagram using counter. PLC Programming of Branded PLCs. Concept of P,PI,PD,PID w.r.t. PLC, Data File Handling- Forcing I/O.",
+          "hours": null
+        },
+        {
+          "title": "Supervisory Control and Data Acquisition",
+          "topics": "Systems (SCADA) 7 Hrs. Concept of SCADA, Architecture of SCADA, Components of SCADA Systems, MTU- functions of MTU, RTU- Functions of RTU, Directly interact with devices such as sensors, valves, pumps, motors, and more through human-machine interface (HMI) software. Working of SCADA, Applications of SCADA in Industrial Automation like Oil and gas, Power etc.",
+          "hours": null
+        },
+        {
+          "title": "Distributed Control Systems (DCS)",
+          "topics": "Basic Concept of DCS, History and Hierarchy of DCS, Basic Components of DCS as Operator Station, Control Module, and I/O module , Types of DCS, Need of DCS, Functions of each level, Advantages and Disadvantages, Applications of DCS such as Water Treatment Plant, Comparison of PLC, DCS and SCADA.",
+          "hours": 7
+        },
+        {
+          "title": "CNC Machines and Industrial Protocols",
+          "topics": "Introduction of CNC Machines, Basics and need of CNC machines, NC, CNC and DNC (Direct NC) systems, Structure of NC systems, Applications of CNC machines in manufacturing, Advantages of CNC machines. Industrial Communication: Device net, Foundation Fieldbus, PROFIBUS, MODBUS, Ethernet, TCP/IP, Concept of Industry 4.0.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "404184 (C)",
+      "title": "Java Script (Elective - III)",
+      "semester": 7,
+      "type": "Elective - III",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Java Scripts",
+          "topics": "Introduction – First Look at JavaScript, Adding JavaScript to XHTML Documents- The <script> Element, Using the <script> Element, Event Handlers, Linked Scripts, History and Use of JavaScript, JavaScript Core Features- Overview-Basic Definitions, Language Characteristics, Variables, Basic Data Types, Composite Types, Flow Control Statements, Loops, Functions, Input and Output in JavaScript, Regular Expressions.",
+          "hours": 6
+        },
+        {
+          "title": "Data Types and Variables",
+          "topics": "JavaScript’s Primitive Types- Numbers, Hexadecimal Literals, Octal Literals, Special Values, Data Representation Issues, Data Representation Issues, Strings, Undefined and Null; Composite Types- Objects, The typeof Operator, Type Conversion, Variables. Operators, Expressions, and Statements- Statement Basics, Whitespace, Termination: Semicolons and Returns, Blocks. Operators- Assignment Operator, Arithmetic Operators, Bitwise Operators, Bitwise Shift Operators, Increment/Decrement, Logical Operators, void Operator, Object Operators Core JavaScript Statements - if Statements, switch, while Loops, do-while Loops, for Loops, for Loops, Object-Related Statements, Object Loops Using for in",
+          "hours": 8
+        },
+        {
+          "title": "Functions and Objects",
+          "topics": "Function Basics- Parameter-Passing Basics, return Statements, Parameter Passing: In and Out. Global and Local Variables- Mask Out, Local functions Functions as Objects- Function Literals and Anonymous Functions, Static Variables, Advanced Parameter Passing, Recursive Functions, Using Functions Objects- Objects in JavaScript, Object Fundamentals Enumerating Properties, Objects Are Reference Types, Passing Objects to Functions, Common Properties and Methods, Array, Date, Math, Number, String, Object Types and Primitive Types",
+          "hours": 7
+        },
+        {
+          "title": "Regular Expressions",
+          "topics": "The Need for Regular Expressions, Introduction to JavaScript Regular Expressions, Creating Patterns, Repetition Quantifiers, Grouping, Common Character Classes, RegExp Object, exec(). String Methods for Regular Expressions: search(), split(),replace(),replace() with Sub expressions Advanced Regular Expressions: Multiline Matching, Non-capturing Parentheses, Lookahead, Greedy Matching, Limitations of Regular Expressions.",
+          "hours": 7
+        },
+        {
+          "title": "Fundamental Client-Side JavaScript and Event",
+          "topics": "Handling 6 Hrs JavaScript Object Models: Object Model Overview, The Initial JavaScript Object Model, The Object Models The Standard Document Object Model : DOM Flavors, Document Trees, Accessing Elements, Creating Nodes, Inserting and Appending Nodes, Deleting and Replacing Nodes, The DOM and HTML Elements, The DOM and CSS, The DOM Versus DHTML Object Models. Overview of Events and Event Handling, The Basic Event Model, Netscape 4 Event Model, Internet Explorer 4+ Event Model, DOM2 Event Model, Event Model Issues.",
+          "hours": null
+        },
+        {
+          "title": "Using Java scripts",
+          "topics": "Controlling Windows and Frames: Introduction to Window, Dialogs, Opening and Closing Generic Windows, Window Features, Writing to Windows, Controlling Windows, Window Events, Frames: A Special Case of Windows, Frames: A Special Case of Windows. Form Handling: Form Basics, Form Fields, Select Menus Option Groups, Other Form Elements: Label, Fieldset, and Legend, Form Validation, Form Usability and JavaScript, Dynamic Forms.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "404184 (D)",
+      "title": "Embedded System & RTOS (Elective - III)",
+      "semester": 7,
+      "type": "Elective - III",
+      "credits": 3,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems",
+          "topics": "Introduction to Embedded Systems, Architecture, Classification and Characteristics of Embedded System, Design Process, Design Metrics and optimization of various parameters of embedded system. Embedded processor technology, IC technology, Design technology. Software development life cycle. Various models like waterfall, spiral V, Rapid Prototyping models and Comparison",
+          "hours": 8
+        },
+        {
+          "title": "μCOS II",
+          "topics": "Features of μCOS II Kernel structure. μCOS II RTOS services: Task management, Time management, Intertask Communication and Synchronization.",
+          "hours": 7
+        },
+        {
+          "title": "Embedded Linux Development Environment",
+          "topics": "Need of Linux, Embedded Linux Today, Open Source and the GPL, BIOS Versus Boot loader, Storage Considerations, Embedded Linux Distributions. Embedded Development Environment, Cross-Development Environment, Host System Requirements, Hosting Target Boards. Development Tools, GNU Debugger, Tracing and Profiling Tools, Binary Utilities.",
+          "hours": 7
+        },
+        {
+          "title": "Linux Kernel Structure",
+          "topics": "Linux Kernel Background, Linux Kernel Construction, Kernel Build System, Kernel Configuration. Role of a Bootloader, Bootloader Challenges. A Universal Bootloader: Das U Boot. Porting U-Boot. Device Driver Concepts, Module Utilities, Driver Methods. Linux File System & Concepts",
+          "hours": 7
+        },
+        {
+          "title": "Embedded Software Development and Testing",
+          "topics": "Embedded Software development process and tool chain, Host and Target Machines, Porting Embedded Software into the Target System, Testing on Host Machine, Simulators. Introduction to Development Platform Trends (only introduce IDE, board Details and Application) Arduino, Beaglebone, Rasberry PI, Intel Galileo Gen 2 (Simple Programs to discussed)",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "404184 (E)",
+      "title": "Modernized IoT (Elective - III)",
+      "semester": 7,
+      "type": "Elective - III",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Sensors, Actuators, IoT & IoE",
+          "topics": "Definitions, Types of sensors, Types of Actuators, Example and Working, Networking Basics, RFID Principals and components, Wireless Sensor Networks, Definition, and characteristics of an IoT, Physical Design of an IoT, Logical design of IoT, Communication Models, Communication API’s, What is the IoE? Difference between IoT and IoE, Pillars of the IoE, Connecting the Unconnected, Transitioning to the IoE, Bringing It All Together.",
+          "hours": 7
+        },
+        {
+          "title": "IoT Architecture Design Aspects",
+          "topics": "IoT-An Architectural Overview, building architecture, Main design principles and needed capabilities, An IoT architecture outline, standards considerations. M2M and IoT Technology Fundamentals- Devices and gateways, Local and wide area networking, Data management, Business processes in IoT, Everything as a Service (XaaS), M2M and IoT Analytics, Knowledge Management",
+          "hours": 7
+        },
+        {
+          "title": "IoT Protocols",
+          "topics": "PHY/MAC Layer (3GPP MTC, IEEE 802.11, IEEE 802.15), Wireless HART, Z Wave, Bluetooth Low Energy, Zigbee Smart Energy, DASH7 - Network Layer-IPv4, IPv6, 6LoWPAN, 6TiSCH, ND, DHCP, ICMP, RPL, CORPL, CARP, Transport Layer (TCP, MPTCP, UDP, DCCP, SCTP)-(TLS, DTLS) – Session Layer HTTP, CoAP, XMPP, AMQP, MQTT",
+          "hours": 7
+        },
+        {
+          "title": "Interfacing Boards and Programming",
+          "topics": "Introduction to IoT Boards, Interfacing with IoT Boards, IoT deployment for Raspberry Pi /Arduino/Equivalent platform – Reading from Sensors, Communication: Connecting microcontroller with mobile devices – communication through Bluetooth, wifi and USB - Contiki OS- Cooja Simulator.",
+          "hours": 7
+        },
+        {
+          "title": "Industrial IoT",
+          "topics": "Introduction, Key IIOT technologies, Catalysts, and precursors of IIoT, Innovation and the IIoT, Applications of IIoT Examples: Healthcare, Oil and Gas Industry, Logistics and the Industrial Internet, Retail applications, IoT innovations and design methodologies, Industrial Internet Architecture Framework (IIAF): Control domain, operational domain and application domain, Three tier topology, Design of low power device network, legacy industrial protocols, Bluetooth, Zigbee IP, Z-wave, Wi-Fi backscatter in IIoT design.",
+          "hours": 7
+        },
+        {
+          "title": "Applications of IoT",
+          "topics": "Smart Environment: Forest Fire Detection, Air Pollution, Smart Cities: Parking, Structural Health, Noise Urban maps, Smart Metering: Smart Grid, Tank level, Photovoltaic Installations, Silos Stock Calculation, Health: Fall Detection, Medical Fridges, Sportsmen Care, Patients Surveillance, Ultraviolet Radiation",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404185 (A)",
+      "title": "Data Mining (Elective - IV)",
+      "semester": 7,
+      "type": "Elective - IV",
+      "credits": 3,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Mining",
+          "topics": "Introduction: Definition, Mining Functionalities, Kinds of Patterns, Technologies used for data mining- Machine Learning, Database Systems and Data Warehouses, Major Issues in Data Mining - Mining Methodology, User Interaction, Efficiency and Scalability, Diversity of Database Types, Data Mining and Society",
+          "hours": 7
+        },
+        {
+          "title": "Data Preprocessing and Data Ware housing",
+          "topics": "Data Objects and Attribute, Data Cleaning: Missing Values, Noisy Data- Binning, Clustering, Regression, Computer and Human inspection, Inconsistent Data, Data Integration and Transformation. Data Reduction. Data Warehouse: Basic Concepts, Data Warehouse Modeling, Data Warehouse Design and Usage",
+          "hours": 7
+        },
+        {
+          "title": "Frequent Pattern Analysis and Advanced",
+          "topics": "Pattern Mining 7 Hrs Frequent Pattern Analysis: Basic Concepts, Frequent Itemset Mining Methods Pattern Evaluation Method. Advanced Pattern Mining: Basic Concepts, Decision Tree Induction, Bayes Classification Methods, Rule-Based Classification, Model Evaluation and Selection, Techniques to Improve Classification Accuracy,",
+          "hours": null
+        },
+        {
+          "title": "Data mining algorithms",
+          "topics": "Classification - Basic issues regarding classification and predication - General Approach to solving a classification problem- Decision Tree Classification, Attribute Selection Measures, Tree Pruning- Bayesian Classification – Rule Based Classification – Support Vector Machines.",
+          "hours": 7
+        },
+        {
+          "title": "Cluster Analysis and Outlier Detection",
+          "topics": "Basics and Importance of Cluster Analysis- Different Types of Clusters Partitioning Methods, Clustering high dimensional data- Clustering with constraints, Outlier analysis-outlier detection methods. Outlier Detection: Need, Detection Methods, Approaches – Statistical, Proximity-Based, Clustering- Based, Classification-Based, Outlier Detection in High-Dimensional Data",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Concepts",
+          "topics": "Basic concepts in Mining data streams: Mining Time series Data Mining sequence patterns in Transactional database Mining Object, Spatial Multimedia, Text - extracting attributes (keywords), structural approaches (parsing, soft parsing). Web Mining: Introduction to Web Mining, Web content mining, Web usage mining, Web Structure mining, Web log structure and issues regarding web logs, Spatial Data Mining.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404185 (B)",
+      "title": "Electronics Product Development (Elective - IV)",
+      "semester": 7,
+      "type": "Elective - IV",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Electronic Product Design",
+          "topics": "Overview Of System Engineering, System Perspectives, Documentation, Concept Development, Requirements, Design Development, Rapid Prototyping And Field Testing, Validation, Verification And Integration, Maintenance And Life Cycle Costs, Failure, Iteration And Judgment, Good Engineering, Architecturing, Design Concerns And Heuristics, Teamwork And Trust.",
+          "hours": 7
+        },
+        {
+          "title": "Circuit Design and Testing Methods",
+          "topics": "From Symbols To Substance, Convert Requirements Into Design, Reliability, Fault Tolerance, High Speed Design, Low Power Design, Noise And Error Budget, Standard Data Buses And Networks, Reset And Power Failure Detection, Interface: Inputs, Outputs, Breadboards, Evaluation Boards And Prototypes.",
+          "hours": 7
+        },
+        {
+          "title": "Software Design and Testing Methods",
+          "topics": "Types Of Software, Traditional Software Life Cycle, Models, Metrics and Software Limitations, Risk Abatement and Failure Preventions, Software Bugs and Testing, Good Programming Practice, User Interface, Embedded, Real Time Software, Case Studies and Design Examples.",
+          "hours": 7
+        },
+        {
+          "title": "PCB Design",
+          "topics": "Circuit Boards, Component Placement, Routing Signal Traces, Grounds, Returns and Shields, Connectors and Cables, Design for Manufacture, Testing and Maintenance, Power Conversion Choices, Power Distribution, Line Conditioning, Electromagnetic Interference, Heat Transfer, Mechanisms For Cooling, Heat Sink Selection, Heat Pipes and Thermal Pillows, Fans and Forced Cooling, Liquid Cooling, Evaporation and Refrigeration, Trade-Offs In Design.",
+          "hours": 7
+        },
+        {
+          "title": "Product Debugging and Testing",
+          "topics": "Steps Of Debugging, Techniques for Troubleshooting, Characterization, Electromechanical Components, Passive Components, Active Components, Active Devices, Operational Amplifier, Analog-Digital Conversion, Digital Components, Inspection and Test Of Components, Simulation, Prototyping and Testing, Integration, Validation and Verification. Procurement, Manufacturing, Maintenance and Repair.",
+          "hours": 7
+        },
+        {
+          "title": "Documentation",
+          "topics": "Definition, Need, Types of Documentation, Records, Accountability and Liability. Audience. Preparation, Presentation, Preservation of Documents. Methods of Documentation, Visual Techniques, Layout of Documentation, Bill of Material.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404185 (C)",
+      "title": "Deep Learning (Elective - IV)",
+      "semester": 7,
+      "type": "Elective - IV",
+      "credits": 3,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Machine Learning",
+          "topics": "Introduction to Machine Learning, Types of Machines Learning, Linear Regression, Classification and Logistic Regression, Decision Tree and Random Forest, Naïve Bayes and Support Vector Machine. Applications of machine learning",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Deep Learning and Frameworks",
+          "topics": "Deep Learning Basics: Intro, History, capabilities, the perceptron, Multi Layer Perceptron, ANN architecture. Tensor Flow, Creating and Manipulating Tensor Flow Variables, Tensor Flow Operations, Placeholder Tensors, Managing Models over the CPU and GPU, Specifying the Logistic Regression Model in Tensor Flow, Logging and Training the Logistic Regression, Introduction to Keras, PyTorch.",
+          "hours": 7
+        },
+        {
+          "title": "Deep Learning Architecture",
+          "topics": "Width and Depth of Neural Networks, Different Activation Functions, Batch-normalization, Overfitting and generalization., Dropout, regularization Unsupervised Training of Neural Networks, Restricted Boltzmann Machines, Auto Encoders, Deep Learning Applications",
+          "hours": 7
+        },
+        {
+          "title": "Natural Language Processing",
+          "topics": "Recurrent Neural Networks, Bidirectional RNNs, Encoder-decoder sequence to sequence architectures - BPTT for training RNN, Long Short Term Memory Networks. Advanced RNN: LSTM, GRU, introduction to Generative Adversarial Networks (GANs).",
+          "hours": 7
+        },
+        {
+          "title": "Case Study and Applictions",
+          "topics": "Computer Vision: Image Classification, Image net- Detection-Audio Wave Net. Natural Language Processing: Sentimental Analysis, Text preprocessing and chatBot",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404185 (D)",
+      "title": "Low Power CMOS (Elective - IV)",
+      "semester": 7,
+      "type": "Elective - IV",
+      "credits": 3,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Power Dissipation in CMOS",
+          "topics": "Sources of power dissipation, Physics of power dissipation in MOSFET devices: The MIS structure, long channel MOSFET, Submicron MOSFET, gate induced drain leakage, Power dissipation in CMOS: short circuit dissipation, dynamic dissipation, load capacitance, Low power VLSI design: Limits, principles of low power design, hierarchy of limits, fundamental limit, material limit, device limit, system limit.",
+          "hours": 7
+        },
+        {
+          "title": "Power Optimization Techniques",
+          "topics": "Power Reduction in Clock Networks: Clock Gating, Reduced Swing Clock, Oscillator Circuit for Clock Generation, Frequency Division and Multiplication, Other Clock Power Reduction Techniques, CMOS Floating Node: Tristate Keeper Circuit, Blocking Gate, Low Power Bus: Low Swing Bus, Charge Recycling Bus, Delay Balancing, Low Power Techniques for SRAM: SRAM Cell, Memory Bank Partitioning, Pulsed Word line and Reduced bit line Swing. Introduction to Low-Power Design through Voltage Scaling: VTCMOS circuits, MTCMOS circuits, Architectural Level Approach –Pipelining and Parallel Processing Approaches. Switched Capacitance Minimization Approaches: System Level Measures, Circuit Level Measures, Mask level Measures.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Low Power Circuits",
+          "topics": "Transistor and Gate Sizing : Sizing an Inverter Chain, Transistor and Gate Sizing for Dynamic Power Reduction, Transistor Sizing for Leakage Power Reduction, Network Restructuring and Reorganization : Transistor Network Restructuring, Transistor Network Partitioning and Reorganization, Special Latches and Flip-flops : Self-gating Flip-flop, Combinational Flip-flop, Double Edge Triggered Flip- flop, Low Power Digital Cell Library : Cell Sizes and Spacing, Varieties of Boolean Functions, Adjustable Device Threshold Voltage.",
+          "hours": 7
+        },
+        {
+          "title": "Power Estimation",
+          "topics": "Modelling of signals, signal probability calculation, Statistical techniques, estimation of glitching power, Sensitivity analysis, Power estimation using input vector compaction, power dissipation in Domino logic, circuit reliability, power estimation at the circuit level, Estimation of maximum power: test generation based approach, steepest descent, generic based algorithm based approach.",
+          "hours": 7
+        },
+        {
+          "title": "Software Design for Low Power",
+          "topics": "Sources of software power dissipation, software power estimation: Gate level, architecture level, bus switching activity, instruction level power analysis, software power optimization: minimizing memory access costs, instruction selection and ordering, power management, Automated low power code generation, Co-design for low power.",
+          "hours": 7
+        },
+        {
+          "title": "Hardware Design for Low Power",
+          "topics": "Adiabatic Switching Circuits, Battery-aware Synthesis, Variation tolerant design, CAD tools for low power synthesis.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404185 (E)",
+      "title": "Drone Technology (Elective - IV)",
+      "semester": 7,
+      "type": "Elective - IV",
+      "credits": 3,
+      "pages": [
+        42,
+        44
+      ],
+      "units": [
+        {
+          "title": "Radiating Elements and Array",
+          "topics": "Comparison of various radiating elements- Infinitesimal dipole, small dipole, finite length dipole, half wave length dipole, and analytical treatment of these elements. Types of Array antenna, two element array, N-element array, Uniform amplitude-uniformed spaced linear broadside and end fire array.",
+          "hours": 8
+        },
+        {
+          "title": "Microstrip and Reconfigurable Antenna",
+          "topics": "Microstrip antenna: Introduction, feeding techniques, Fractal antenna and array. Re-configurable Antenna: Classification of re-configurable antenna, Re-configurable techniques, Multiple Re-configurable features in antenna.",
+          "hours": 6
+        },
+        {
+          "title": "Smart Antennas",
+          "topics": "Introduction, Need for Smart Antennas, Overview: Smart Antenna Configurations, Switched-Beam Antennas, Adaptive Antenna Approach, beam steering, degree of freedom. Architecture of a Smart Antenna System: Transmitter and Receiver, Types of Smart Antennas, Benefits and Drawbacks of Smart Antennas, Mutual Coupling Effects, Applications of Smart Antennas.",
+          "hours": 8
+        },
+        {
+          "title": "Direction of Arrival Estimation (DOA) Methods",
+          "topics": "Spectral estimation methods, linear prediction method, Maximum entropy method, Maximum likelihood method, Eigen structure methods, MUSIC algorithm – root music and cyclic music algorithm, the ESPRIT algorithm.",
+          "hours": 7
+        },
+        {
+          "title": "Beam Forming Methods",
+          "topics": "Classical Beam former, Statistically Optimum Beam-forming Weight Vectors, Maximum SNR Beam former, Multiple Sidelobe Canceler and Maximum, SINR Beam former, Minimum Mean Square Error (MMSE), Direct Matrix Inversion (DMI), Linearly Constrained Minimum Variance (LCMV), Adaptive Algorithms for Beam forming.",
+          "hours": 7
+        },
+        {
+          "title": "MIMO Antennas",
+          "topics": "Introduction, Principles of MIMO systems: SISO, SIMO, MISO MIMO, Hybrid antenna array for mm Wave, massive MIMO: concept and applications.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404302",
+      "title": "Lab Practice - 1 (Satellite Communication & Cloud Computing)",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "404187",
+      "title": "Lab Practice – 2 (VLSI Design & Elective -3)",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        47,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "404188",
+      "title": "Project Stage - I",
+      "semester": 7,
+      "type": "Project",
+      "credits": 1,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "404189",
+      "title": "Mandatory Audit Course - 7",
+      "semester": 7,
+      "type": "Mandatory Audit Course",
+      "credits": null,
+      "pages": [
+        55,
+        57
+      ],
+      "units": []
+    },
+    {
+      "code": "404303",
+      "title": "Wireless Sensor Network",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        58,
+        60
+      ],
+      "units": [
+        {
+          "title": "Introduction of Wireless Networks",
+          "topics": "59 Background of sensor Wireless Network Technology, Protocol Suit es and Standards, OSI Model and TCP/IP Protocol Suite, Adhoc Networks, Comparison of Adhoc and Sensor Networks. Case Studies On Sensor Networks -Structural Health Monitoring, Traffic Control, Health Care, Pipeline Monitoring, Precision Agriculture, Challenges and Hurdles in Sensor network design.",
+          "hours": 7
+        },
+        {
+          "title": "Basic Wireless Sensor Technology",
+          "topics": "Sensor-node Architecture Hardware components, Energy consumption of sensor nodes, Operating systems and execution environments, Physical layer and transceiver design considerations in Wireless Sensor Networks.",
+          "hours": 7
+        },
+        {
+          "title": "Embedded wireless Communication and",
+          "topics": "Protocols 7 Hrs. Wireless Transmission Technology and Systems Bluetooth; IEEE 802.11a/b/g/n series of wireless LANs; ZigBee; Radio-frequency identification (RFID). Routing Protocols: Energy efficient unicast, Geographic routing. Feasibility of Using TCP or UDP for WSNs, Transport Protocol Design Issues.",
+          "hours": null
+        },
+        {
+          "title": "Infrastructure Establishment",
+          "topics": "Topology Control, Clustering, Time Synchronization, Localization and Positioning, Sensor Tasking and Control.",
+          "hours": 7
+        },
+        {
+          "title": "Middleware for Wireless Sensor Networks",
+          "topics": "WSN Middleware Principles, Middleware Architecture, Existing Middleware- Mi LAN (Middleware Linking Applications and Networks), Iris Net (Internet-Scale Resource Intensive Sensor Networks Services).",
+          "hours": 7
+        },
+        {
+          "title": "Sensor Network Security",
+          "topics": "Security in Ad Hoc Wireless Networks - Network Security Requirements. Network Security requirements issues and Challenges in security provisioning Network, Security Attacks. Secure Routing SPINS reliability requirements in sensors Networks. Sensor Network Platforms and Tool. 60",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404191 (A)",
+      "title": "Biomedical Signal Processing (Elective - V)",
+      "semester": 8,
+      "type": "Elective - V",
+      "credits": 3,
+      "pages": [
+        61,
+        63
+      ],
+      "units": [
+        {
+          "title": "Introduction to Biomedical Signals",
+          "topics": "Introduction and Overview, Ion Transport in Biological Cells, Trans membrane Potential, Electric Characteristics of Cell Membrane, Membrane Resistance, Membrane Capacitance, Cell Membrane’s Equivalent Electric Circuit, Action Potential, Electric Data Acquisition, Propagation of Electric Potential as a Wave , Some Practical Considerations on Biomedical Electrode Summary",
+          "hours": 7
+        },
+        {
+          "title": "Cardiological Signal Processing",
+          "topics": "Function and Structure of the Heart- Cardiac Muscle, Cardiac Excitation Process. Electrocardiogram: Signal of Cardiovascular System - Origin of ECG, ECG Electrode Placement, Modeling and Representation of ECG, Periodicity of ECG Heart Rate, Cardiovascular Diseases and ECG- Atrial Fibrillation, Ventricular Arrhythmias, Ventricular Tachycardia, Ventricular Fibrillation, Myocardial Infarction, Atrial Flutter, Cardiac Reentry, Atrioventricular Block, Wolf–Parkinson–White Syndrome, Extrasystole Processing and Feature Extraction of ECG- Time-Domain Analysis, Frequency-Domain Analysis, Wavelet-Domain Analysis 62",
+          "hours": 7
+        },
+        {
+          "title": "Neurological Signal Processing",
+          "topics": "Brain and Its Functions Electroencephalogram: Signal of the Brain- EEG Frequency Spectrum, Significance of EEG, Evoked Potentials- Auditory-Evoked Potentials, Somatosensory-Evoked Potentials, Visual-Evoked Potentials, Event-Related Potentials, Diseases of Central Nervous System and EEG- Epilepsy, Sleep Disorders, Brain Tumor Processing and Feature Extraction of EEG- Sources of Noise on EEG, Frequency-Domain Analysis, Time-Domain Analysis, Wavelet-Domain Analysis.",
+          "hours": 7
+        },
+        {
+          "title": "Electromyogram (EMG)",
+          "topics": "Muscle- Motor Unit, Muscle Contraction, Muscle MG: Signal of Muscles- Significance of EMG Neuromuscular Diseases and EMG- Abnormal Enervation, Pathological Motor Units, Neuromuscular Transmission in Motor Units, Defects in Muscle Cell Membrane Processing and Feature Extraction of EMG- Sources of Noise on EMG, Time-Domain Analysis, Frequency- and Wavelet-Domain Analysis.",
+          "hours": 7
+        },
+        {
+          "title": "Other Biomedical Signals",
+          "topics": "Introduction and Overview, Blood Pressure and Blood Flow, Electrooculogram, Respiratory Signals Magneto encephalogram,",
+          "hours": 7
+        },
+        {
+          "title": "Adaptive interference / Noise Cancellation",
+          "topics": "Types of noise in bio signals: Digital filters: IIR and FIR, Notch filters, Optimal and adaptive filters, Weiner filters. LMS adaptive algorithm, Steepest descent algorithm Adaptive noise canceller: Cancellation of 50 Hz signal in ECG",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404191 (B)",
+      "title": "Industrial Drives & Automation (Elective - V)",
+      "semester": 8,
+      "type": "Elective - V",
+      "credits": 3,
+      "pages": [
+        64,
+        66
+      ],
+      "units": [
+        {
+          "title": "DC Motor Drives",
+          "topics": "DC motors & their performance (shunt, series, compound, permanent magnet motor, universal motor, dc servomotor) – braking – regenerative, dynamic braking, plugging –Transient analysis of separately excited motor – converter control of dc motors – analysis of separately excited & series with 1-phase and 3-phase converters ,soft start and field failure protection in DC drives, BLDC motor drive",
+          "hours": 7
+        },
+        {
+          "title": "Chopper Controlled DC Drives",
+          "topics": "Closed loop control – transfer function of self, separately excited DC motors – linear transfer function model of power converters – sensing and feeds back elements – current and speed loops, P, PI and PID controllers – response comparison – simulation of converter and chopper fed DC drive",
+          "hours": 7
+        },
+        {
+          "title": "PWM Drives for Induction Motors",
+          "topics": "Multi quadrant drives – rotor resistance control – slip torque characteristic – torque equations, constant torque operation – slip power recovery scheme – torque equation – torque slip characteristics – power factor – methods of improving power factor – limited sub synchronous speed operation – super synchronous speed operation",
+          "hours": 7
+        },
+        {
+          "title": "Synchronous Motor Drives",
+          "topics": "Synchronous motor drives – speed control of synchronous motors – adjustable frequency operation of synchronous motors – principles of synchronous motor control – voltage source inverter drive with open loop control",
+          "hours": 7
+        },
+        {
+          "title": "Stepper Motors",
+          "topics": "Constructional features, principle of operation, modes of excitation, single phase stepping motors, torque production in variable Reluctance (VR) stepping motor, Dynamic characteristics, Drive systems and circuit for open loop control, Closed loop control of stepping motor, microprocessor based controller.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "404191 (C)",
+      "title": "Android Development (Elective - V)",
+      "semester": 8,
+      "type": "Elective - V",
+      "credits": 3,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Introduction to JAVA and Android",
+          "topics": "Overview of Java, XML and SQL, History of Android, Android Stack, Android Project Structure, Android OS, Features of Android, Android Architecture and building blocks, Android App build process, Android UI– resources, themes, threads etc,",
+          "hours": 5
+        },
+        {
+          "title": "Introducing Android",
+          "topics": "SDK Overview, Android Emulator, Android Installation, setting up development environment using Eclipse/ Android Studio, DDMS, Activity Lifecycle, Manifest File, Locales, Drawable, Listeners, Supporting Multiple Screens.",
+          "hours": 5
+        },
+        {
+          "title": "Android Application Structure",
+          "topics": "Android basic building blocks: Activities, Services, Broadcast Receivers & Content providers, UI Components - Views & notifications, Components for communication -Intents & Intent Filters, Android API levels (versions & version names) AndroidManifest.xml, Uses-permission & uses-sdk, Dalvik Virtual Machine & .apk file extension, Resources & R.java, Assets, Layouts & Drawable Resources, Activities and Activity lifecycle, First sample Application.",
+          "hours": 8
+        },
+        {
+          "title": "Activities, Fragments, Intents and Android",
+          "topics": "User Interface 8 Hrs. Introduction to Activities, Activity Lifecycle, Introduction to Intents, Linking Activities using Intents, calling built-in applications using Intents, Introduction to Fragments, Adding Fragments Dynamically, Lifecycle of Fragment, Toast, Understanding the components of a screen, Adapting to Display Orientation, Split Screen / Multi-Screen Activities.",
+          "hours": null
+        },
+        {
+          "title": "Designing User Interface with Widgets",
+          "topics": "Using Basic Views: Text View, Button, Image Button, Edit Text, Check Box, Switch, Toggle Button, Radio Button, and Radio Group Views, Progress Bar View, Auto Complete Text View View, Using Picker Views, Using Recycler View to Display Long Lists, Understanding Specialized Fragments, Displaying Pictures and Menus, Video View. Multimedia, Animation and Graphics: Playing Audio, Playing Video, Rotate Animation, Fade In / Fade Out Animation, Zoom Animation, Scale Animation, 2D and 3D Graphics.",
+          "hours": 8
+        },
+        {
+          "title": "Databases, Location-Based Services and Google",
+          "topics": "Map 8 Hrs. Data Storage: Shared Preferences, Internal Storage, External Storage, SQLite Databases, Content provider. and Remote Databases. Introduction to SQLite and Room library, SQLite Open Helper and SQLite Database, Creating, opening and closing database, Creating, opening and closing database, Building and executing queries, SMS Messaging, Sending E-mail, Web App , JSON Parsing, JSON Web Service, Display Google Maps, Getting Location Data, Monitoring a Location. Accessing Phone services (Call, SMS, MMS), Network connectivity services, Sensors, Bluetooth/Wi-Fi Connectivity.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404191 (D)",
+      "title": "Embedded System Design (Elective - V)",
+      "semester": 8,
+      "type": "Elective - V",
+      "credits": 3,
+      "pages": [
+        70,
+        72
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded System Design",
+          "topics": "Embedded System fundamental, Design Technology, Design challenges, Design productivity gap. Classification and Characteristics of Embedded System, Design Process and Skills required. Designer. Processor to be embedded into a system : Microprocessors and Microcontrollers, Embedded system hardware components and software architecture : Round Robin, FQS, RTOS, and selection of architecture. Integration of embedded hardware and software. Embedded software development tools and debugging techniques. Embedded system design cycle.",
+          "hours": 7
+        },
+        {
+          "title": "Embedded Processor ARM Cortex M4",
+          "topics": "Comparison of STM32F family and MCU selection criteria for specific application, Architectural review of STM32F4XX MCU : Pin diagram, CPU, Memory, GPIO, Clock and Timer module, ADC- DAC module, Study of STM32F4 Development board, Software development tool SM32CubeIDE IDEs for STM32; Interfacing requirements issues, GPIO configuration of STM32F4, interfacing of input switch, heavy loads (sample program mapping with any application), Concept of Watchdog timer and RTC, Configure an UART Setup with the STM32F4 Microcontroller. Debugging with SM32CubeIDE.",
+          "hours": 8
+        },
+        {
+          "title": "GPIO and HAL",
+          "topics": "Overview of Hardware Abstraction Layer (HAL) drivers; HAL data structure, API classification, naming rules, Configuration, GPIO HAL API, Driving a GPIO.GPIO ports function and their relationship to HAL, , Use of HAL library for SPI, I2C and CAN module, USB Modules in the STM32F4Microcontroller.",
+          "hours": 6
+        },
+        {
+          "title": "RTOS for STM32F4",
+          "topics": "Reviewing the concepts underlying an RTOS, Introduction to FreeRTOS. Configure FreeRTOS Using STM32CubeMX, Thread Management, FreeRTOS and the C stdlib, Synchronization Primitives, Debugging features of FreeRTOS, debugging with STM32CubeIDE. Alternatives open source RTOS to FreeRTOS: ChibiOS and Contiki OS. Create a FreeRTOS project in STM32CubeIDE. Write C code for any task/event/thread with FreeRTOS",
+          "hours": 8
+        },
+        {
+          "title": "Embedded System Design with STM32",
+          "topics": "Interfacing with SPI based graphical LCD with STM32F4, interfacing the Touch Screen with STM32F4, Installing TouchGFX for Graphical User Interface (GUI), GUI Formation with TouchGFX for any two applications. Design an embedded system for any two applications like Image transfer between PC and STM32F4, PID speed control of DC motor, Transferring the Digital Signal Between the PC and STM32F4 Microcontroller.",
+          "hours": 6
+        },
+        {
+          "title": "Embedded Android",
+          "topics": "Features and characteristics of Android, different android platforms, requirements of android, App development tools, Overall architecture of Android, Linux Kernel, Hardware Abstraction Layer, Loading and interfacing methods. Device hardware methods and interfaces, File system layout, Libraries: within AOSP and imported into the AOSP(Android Open Source Project)",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404191 (E)",
+      "title": "Mobile Computing (Elective - V)",
+      "semester": 8,
+      "type": "Elective - V",
+      "credits": 3,
+      "pages": [
+        73,
+        75
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Computing",
+          "topics": "Introduction to Mobile Computing: Applications of Mobile Computing- Generations of Mobile Communication Technologies, Multiplexing: Spread spectrum, MAC Protocols: SDMA, TDMA, FDMA, and CDMA.",
+          "hours": 7
+        },
+        {
+          "title": "Mobile Telecommunication System",
+          "topics": "Introduction to Cellular Systems, GSM architecture, Protocols, Connection Establishment, Frequency Allocation, Routing, Mobility Management, Security, GPRS and UMTS: Architecture, Handover, Security. Introduction to 5G: Introduction, 5G network architecture, Applications, 5G enable technologies, Recent trends in Telecommunication Industries.",
+          "hours": 7
+        },
+        {
+          "title": "Network Layer",
+          "topics": "Mobile IP, DHCP, AdHoc, Proactive protocol-DSDV, Reactive Routing Protocols: DSR, AODV, Hybrid routing: ZRP, Multicast Routing: ODMRP, Vehicular Ad Hoc networks (VANET), MANET Vs VANET: Security.",
+          "hours": 6
+        },
+        {
+          "title": "Mobile IP and Transport Layer",
+          "topics": "Mobile IP: Need of mobile IP, IP packet delivery, Agent Discovery, Registration, Tunneling and encapsulation, Route optimization, IP Handoff. Transport Layer: Overview of Traditional TCP and implications of mobility control. Improvement of TCP: Indirect TCP, Snoop TCP, Mobile TCP, Fast Retransmit/fast recovery, Time-out freezing, Selective retransmission, Transaction-oriented TCP.",
+          "hours": 8
+        },
+        {
+          "title": "Fading Channels",
+          "topics": "Rayleigh Fading and Statistical Characterization, Properties of Rayleigh Distribution, BER in Fading, Narrowband vs Wideband Channels, Characterization of Multipath Fading Channels, Choice of Modulation, Coherent versus Differential Detection, BER in Fading , Ricean Fading.",
+          "hours": 7
+        },
+        {
+          "title": "Operating System & Applications of Mobile",
+          "topics": "Computing 8 Hrs. Operating System: A Few Basic Concepts, Special Constraints and Requirements of Mobile OS, A Survey of Commercial Mobile Operating Systems, Windows Mobile, Palm OS, Symbian OS, iOS, Android, Blackberry OS, A Comparative study of Mobile OS, OS for sensor Network. Applications: M-Commerce, Business to Consumer (B2C) Applications, Business to Business (B2B) Applications. Structure of M-Commerce, Pros and Cons of M-Commerce, Mobile Payment System, Mobile Payment Schemes, Desirable properties of a Mobile Payment system, Mobile Payment solutions, Process of Mobile Payment, Security Issues.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404192 (A)",
+      "title": "System on Chip (Elective - VI)",
+      "semester": 8,
+      "type": "Elective - VI",
+      "credits": 3,
+      "pages": [
+        76,
+        78
+      ],
+      "units": [
+        {
+          "title": "Introduction to SOC",
+          "topics": "System Architecture; System Complexity; Components of the system; Hardware & Software; An approach for SOC Design; SOC definition, benefits, and challenges; Application of SOC; SOC components: Processor, Accelerators, Memory and Peripherals, On-chip interconnects, and various signal processing units.",
+          "hours": 7
+        },
+        {
+          "title": "Verilog HDL - I",
+          "topics": "Evolution and need of CAD tools; HDL tools; Why Verilog; Verilog: datatypes, system tasks, compiler directives; Hierarchical Modeling Concepts: Top-down and bottom-up design methodology; modules and module instances; Modules and Ports: Module definition, port declaration, connecting ports, hierarchical name referencing, and timescale.",
+          "hours": 8
+        },
+        {
+          "title": "Verilog HDL-II",
+          "topics": "Gate-level modeling: Modeling using basic Verilog gate primitives, description of AND/OR and BUF/NOT type gates; Dataflow Modeling: Continuous assignments, delay specification, expressions, operators; Behavioral Modeling: Structured procedures, initial and always blocks, blocking and non- blocking statements, delay control, conditional statements, multiway branching, loops, sequential and parallel blocks; Tasks and Functions: tasks vs functions, declaration, invocation, automatic tasks and functions; testbench",
+          "hours": 8
+        },
+        {
+          "title": "Physical Design",
+          "topics": "Floor planning: Abutted and Non-abutted floorplan techniques, floorplan control parameters, input and outputs of the floorplan; Partitioning; need of partitioning, rules of partitioning, methods of partitioning; Placement: goal of placement, coarse placement, legalization, placement blockage, keep-out margin; Routing: netlist, congestion, fixed-die routing, variable-die routing.",
+          "hours": 8
+        },
+        {
+          "title": "SOC Processors",
+          "topics": "Introduction to SOC processors; Processor selection for SOC; Basic concepts in processor architecture and processor micro architecture; Basic elements in Instruction handling; Buffers: minimizing pipeline delays, Branches; More Robust Processors: Vector processors and vector instructions extensions, VLIW Processors, Superscalar Processors.",
+          "hours": 6
+        },
+        {
+          "title": "SOC Buses and Memory",
+          "topics": "AMBA: Generation of AMBA (ASB, AHB, APB), Architecture of AMBA, Specification; Core Connect bus: PLB, OPB, DCR; ST bus protocols: Type I, II, III; SOC memory; Cache memory: performance, partitioning, multi-level cache; Memory chip technology: On die or Off die.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404192 (B)",
+      "title": "Nano Electronics (Elective - VI)",
+      "semester": 8,
+      "type": "Elective - VI",
+      "credits": 3,
+      "pages": [
+        79,
+        80
+      ],
+      "units": [
+        {
+          "title": "Introduction to Nanotechnology",
+          "topics": "Introduction to Nanotechnology: Fundamental science behind Nanotechnology, Tools for measuring Nanostructures, Tools to make nanostructures and imagine N ano behaviors, Limitations of Silicon Material.",
+          "hours": 7
+        },
+        {
+          "title": "Nano CMOS Devices",
+          "topics": "Silicon Nanocrystal non-volatile memories, Novel dielectric materials for future transistors, Nano- CMOS devices, and applications, AFM, scanning probe instrument, Nano scale lithography.",
+          "hours": 7
+        },
+        {
+          "title": "Nanoparticles and Nanotubes",
+          "topics": "Properties of Nanoparticles: Metal nanostructures and semiconducting nanoparticles. Carbon nanostructures: Carbon molecules, Clusters, Nanotubes. Properties of Nanotubes: Strength and Elasticity, Applications of Nanotubes.",
+          "hours": 7
+        },
+        {
+          "title": "Nano Electronics",
+          "topics": "Introduction, the tools of manufacturing of micro and nano fabrication optical lithography, electron beam lithography, atomic lithography. Nano-Electronics for advanced computation and communication.",
+          "hours": 7
+        },
+        {
+          "title": "Nano machine and Nano device Fabrications",
+          "topics": "Nano machines and Nano devices, NEMS and MEMS and their fabrication, molecular and Super- molecular switches, Lithography.",
+          "hours": 7
+        },
+        {
+          "title": "Applications of Nanotechnology",
+          "topics": "Use of Nanotechnology in Electronics: Application of nanostructures in electronics, sensors, optics, energy capture, transformation, and storage. Application of nanotechnology in biomedical electronics.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "404192 (C)",
+      "title": "Remote Sensing (Elective - VI)",
+      "semester": 8,
+      "type": "Elective - VI",
+      "credits": 3,
+      "pages": [
+        81,
+        83
+      ],
+      "units": [
+        {
+          "title": "Principles of Remote Sensing",
+          "topics": "Basic principles of Remote Sensing, Data and Information, Remote Sensing Data Collection, Types of Remote Sensing- Active and Passive remote sensing; Advantages and Limitations of Remote Sensing, Electromagnetic Energy- Electromagnetic Spectrum, Interaction of EMR: Interaction with Earth’s Atmosphere and Atmospheric window, Spectral Signature: Interaction with Soil, Water and Vegetation",
+          "hours": 7
+        },
+        {
+          "title": "Satellite Sensors and Resolution",
+          "topics": "Types of Remote Sensing Platforms, Types of Satellite Orbits - Geosynchronous and Geostationary, Polar and sun synchronous orbit, low earth, medium earth, highly elliptical orbits, Recent Trends in Remote sensing Earth Observation data, Indian & Global Space Missions: Indian & Global Satellites and Sensors Characteristics, Satellite Resolution: Spatial, Temporal, Spectral, Radiometric; Differences between Multispectral and Hyperspectral remote sensing",
+          "hours": 7
+        },
+        {
+          "title": "Satellite Data Products & Processing",
+          "topics": "Satellite Data Analysis: Data Products and Their Characteristics, Data Pre-processing – Atmospheric, Radiometric, Geometric Corrections - Basic Principles of Visual Interpretation, Equipment for Visual Interpretation, Ground Truth; Color Composite: False and True Color Composite; Image enhancements; Classifications - Supervised and Unsupervised, Normalized satellite Indices - NDVI, NDWI, GDVI, NDSI etc; Remote Sensing Data Sources : USGS, Bhuvan, ESA, Sentinel etc",
+          "hours": 7
+        },
+        {
+          "title": "Active Remote Sensing",
+          "topics": "Microwave Remote Sensing: Active and Passive Systems, Advantages, Platforms and Sensors, Microwave Radiation and Simulation, Principles of Radar – Resolution, Range, Angular Measurements, Microwave Scattering, Imagery – characteristics and Interpretation; Definitions of LiDAR - Concepts and its applications.",
+          "hours": 6
+        },
+        {
+          "title": "GNSS Technology",
+          "topics": "Introduction of GNSS Technology: GNSS Signal Structures, GNSS Vulnerabilities, GNSS Applications, GNSS Market and Business, Indian Regional Navigation Satellite System (IRNSS), Ground Based Augmentation Systems ,Space Based Augmentation Systems - GAGAN; Principles of satellite positioning - Principle of Satellite Positioning, GNSS Orbits, Navigation Message Details; Positioning Errors, Data Formats, Location-Based Services (LBS), Tools for GNSS data processing.",
+          "hours": 7
+        },
+        {
+          "title": "Applications of Remote Sensing",
+          "topics": "Applications of Remote Sensing: Environmental and Disaster, Coastal and Near Shore, Forest and Agriculture, Water Resource, Urban Planning and Management, Land Use and Land Cover Analysis.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404192 (D)",
+      "title": "Digital Marketing (Elective - VI)",
+      "semester": 8,
+      "type": "Elective - VI",
+      "credits": 3,
+      "pages": [
+        84,
+        86
+      ],
+      "units": [
+        {
+          "title": "Digital Marketing Planning and Structure",
+          "topics": "Importance of Digital Marketing, Digital Marketing Vs. Traditional Marketing, Inbound vs Outbound Marketing, Understanding Demographics. WWW, buying a Domain, Core Objective of Website and Flow, One Page Website, Strategic Design of Products & Services Page, Strategic Design of Landing Page, Segmentation & Targeting and Positioning to Digital Marketing, Portfolio, Gallery and Contact Us Page, Google Analytics Tracking Code, Designing Word press Website. Mobile Friendly Website, Payment Gateway like UPI, e-Commerce",
+          "hours": 7
+        },
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "topics": "Fundamentals; Keywords and SEO Content Plan; SEO & Business Objectives; Writing SEO Content; On-site & off-site SEO; Optimize Organic Search Ranking, Website SEO Auditing, Web Analytics: Data and Traffic Analysis. Study and analyze the Competitor’s Website and their traffic sources.",
+          "hours": 7
+        },
+        {
+          "title": "Search Engine Marketing",
+          "topics": "Importance of Adwords, Google Ad Types, PPC Cost Formula, Ad Page Rank, Billing and Payments, Adwords User Interface, Keyword Planner, Creating Ad Campaigns, Creating Text Ads, Creating Ad Groups, Search Engine Marketing (SEM) Tools, Bidding Strategy for CPC, Case Studies. Conversion Tracking Code, Designing Image Ads, Creating Video Ads, You tube Video Promotion, Hi-Jack Competitor’s Video Audience, Case Studies. Remarketing Strategies, Remarketing Tracking Code, Website or Blog Linking Google Analytics, Designing Remarketing Images, Shared Budget, Mobile Advertising.",
+          "hours": 7
+        },
+        {
+          "title": "Social Media Marketing (SMM) Part 1",
+          "topics": "B to C Perspective, B to B Perspective: Introduction; Major Social Media Platforms for Marketing; Developing Data-driven Audience & Campaign Insights; Social Media for Business; Facebook & Instagram Marketing: Understanding of Facebook Marketing, Types of Facebook Advertising, creating first ad on Facebook, Setting Campaign and optimization, Facebook Power Editor, Facebook Video Marketing, Facebook App & Shopping Marketing Youtube Marketing: YouTube Account Setup (Create a business account with a personal account), YouTube Monetization, YouTube Ads, YouTube Analytics.",
+          "hours": 8
+        },
+        {
+          "title": "Social Media Marketing (SMM) Part 2",
+          "topics": "LinkedIn Advertising: How to use Linkedin Professionally, Types of LinkedIn Advertising, LinkedIn New feed Advertising, LinkedIn Message Pitching, Traffic and Leads Generation, Billing and Report. Email Marketing: Email Software and Tools, Importing Email Lists, Planning Email Campaign, Email Templates and Designs, Sending HTML Email Campaigns, Web Forms Lead Importing, Integrating Landing Page Forms, Campaign Reports and Insights, Segmentation Strategy, Responder Tracker.",
+          "hours": 8
+        },
+        {
+          "title": "Upcoming Trends in Digital Marketing",
+          "topics": "Podcast, OTT Platforms, Mob-Ad, No Click Searches, Google Verified Listing, Voice Search, Visual Search, Online Reviews, Automated and Smart Bidding, Chat bots, Affiliate Marketing",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404192 (E)",
+      "title": "Open Elective",
+      "semester": 8,
+      "type": "Elective - VI",
+      "credits": 3,
+      "pages": [
+        3,
+        3
+      ],
+      "units": []
+    },
+    {
+      "code": "404193",
+      "title": "Innovation & Entrepreneurship",
+      "semester": 8,
+      "type": "Tutorial",
+      "credits": 2,
+      "pages": [
+        87,
+        89
+      ],
+      "units": [
+        {
+          "title": "Introduction to Innovation and",
+          "topics": "Entrepreneurship 3 Hrs. Role of innovation and entrepreneurship, what it takes to be an entrepreneur, Business fundamentals, Leadership & team building, relation between innovation and entrepreneurship.",
+          "hours": null
+        },
+        {
+          "title": "Design Thinking",
+          "topics": "Introduction to Design Thinking, Design Research Strategies, Design Research - tools for observation and immersion, Visualizing ideas, Communicating ideas.",
+          "hours": 3
+        },
+        {
+          "title": "Idea Generation",
+          "topics": "The seed of innovation, Innovation domains, Innovation sustainable conditions, Design factors, Types of innovations and their market impact. 88",
+          "hours": 3
+        },
+        {
+          "title": "Becoming an Entrepreneur",
+          "topics": "Creating a business plan, Preparing a Pitching presentation, Building business strategy",
+          "hours": 4
+        },
+        {
+          "title": "Creating a Startup",
+          "topics": "Types of companies, legal processes for registering companies, registering as startup",
+          "hours": 3
+        },
+        {
+          "title": "Indian Patents",
+          "topics": "Fundamentals of IP, Patent basics, Patent analytics, Role in R&D and business planning, Patents to profits, IP asset management, Technology transfer.",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "404194",
+      "title": "Digital Business Management",
+      "semester": 8,
+      "type": "Tutorial",
+      "credits": 2,
+      "pages": [
+        90,
+        92
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Business",
+          "topics": "Introduction, Background and current status, E-market places, structures, mechanisms, economics and impacts. Difference between physical economy and digital economy. Drivers of digital business: Big Data & Analytics, Mobile, Cloud Computing, Social media, BYOD, and Internet of Things (digitally intelligent machines/services), Opportunities and Challenges in Digital Business,",
+          "hours": 4
+        },
+        {
+          "title": "Overview of E-Commerce",
+          "topics": "E-Commerce: Meaning, Retailing in e-commerce-products and services, consumer behavior, market research and advertisement, B2B-E-commerce-selling and buying in private e-markets, public B2B exchanges and support services, e-supply chains, Collaborative Commerce, Intra business EC and Corporate portals. Other E-C models and applications, innovative EC System-From E- government and learning to C2C, mobile commerce and pervasive computing EC Strategy and Implementation- EC strategy and global EC, Economics and Justification of EC, Using Affiliate marketing to promote your e- commerce business, Launching a successful online business and EC project, Legal, Ethics and Societal impacts of EC",
+          "hours": 8
+        },
+        {
+          "title": "Digital Business Support Services",
+          "topics": "e-CRM, e-SCM, ERP as e –business backbone, Knowledge Tope Apps, Information and referral system: Application Development: Building Digital business Applications and Infrastructure. 91",
+          "hours": 3
+        },
+        {
+          "title": "Managing E-Business",
+          "topics": "Managing Knowledge, Management skills for e- business, Managing Risks in e –business. Security Threats to e-business -Security Overview, Electronic Commerce Threats, Encryption, Cryptography, Public Key and Private Key Cryptography, Digital Signatures, Digital Certificates, Security Protocols over Public Networks: HTTP, SSL, Firewall as Security Control, Public Key Infrastructure (PKI) for Security, Prominent Cryptographic Applications.",
+          "hours": 4
+        },
+        {
+          "title": "E-Business Strategy",
+          "topics": "E-business Strategic formulation- Analysis of Company’s Internal and external environment, Selection of strategy, E-business strategy into Action, challenges and E-Transition",
+          "hours": 3
+        },
+        {
+          "title": "Materializing e-business:",
+          "topics": "From Idea to Realization-Business plan, Case Studies.",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "404304",
+      "title": "Wireless Sensor Networks Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        93,
+        93
+      ],
+      "units": []
+    },
+    {
+      "code": "404196",
+      "title": "Lab Practice – 3 (Elective - 5)",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        94,
+        98
+      ],
+      "units": []
+    },
+    {
+      "code": "404197",
+      "title": "Project Stage - II",
+      "semester": 8,
+      "type": "Project",
+      "credits": 5,
+      "pages": [
+        99,
+        99
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

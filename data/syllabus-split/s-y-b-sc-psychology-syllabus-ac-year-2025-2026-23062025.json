@@ -1,0 +1,356 @@
+{
+  "id": "s-y-b-sc-psychology-syllabus-ac-year-2025-2026-23062025",
+  "kind": "programme",
+  "programme": "S.Y.B.Sc. Psychology",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PSY-205 MJT",
+      "title": "Physiological Psychology",
+      "semester": 3,
+      "type": "Major Core - Theory",
+      "credits": 4,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO PHYSIOLOGICAL PSYCHOLOGY",
+          "topics": "1.1 Definition, Nature and scope of physiological psychology 1.2 Approaches to physiological psychology 1.3 Methods to study physiological psychology 1.4 Divisions of physiological psychology 4 Savitribai Phule Pune University, Pune Page | 4",
+          "hours": 15
+        },
+        {
+          "title": "NEUROPHYSIOLOGY",
+          "topics": "2.1 Neuron: Structure, types and function 2.2 Nerve impulse and Synapse 2.3 Neurotransmitters and their functions 2.4 Neuroplasticity",
+          "hours": 15
+        },
+        {
+          "title": "ANATOMY OF THE NERVOUS SYSTEM",
+          "topics": "3.1 Central Nervous System [A] The Brain a. Structure and function of the brain b. Cerebral hemispheres [B] The Spinal Cord: Structure and function 3.2 Peripheral Nervous System: Structure and function a. Autonomic Nervous System b. Somatic Nervous System 3.3 Clinical studies of brain: EEG, CT scan, MRI, and PET scan 3.4 Glandular System: Pituitary, Thyroid, Parathyroid, Adrenal, Pancreas",
+          "hours": 15
+        },
+        {
+          "title": "NEUROPSYCHOLOGICAL DISEASE",
+          "topics": "4.1 Causes of Brain Damage 4.2 Epilepsy/Seizures 4.3 Parkinson Disease and Huntington Disease 4.4 Multiple Sclerosis and Alzheimer Disease",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "PSY-206 MJP",
+      "title": "Psychological Tests (Practical)",
+      "semester": 3,
+      "type": "Major Core - Practical",
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-225 VSC",
+      "title": "Human Growth & Development",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO HUMAN GROWTH & DEVELOPMENT",
+          "topics": "1.1 Concept and nature of Human Development 1.2 Genetic foundation of Development: The Collaborative Genes, Genes and Chromosomes and Genetic Principles 1.3 Heredity and Environment interaction: The nature × Nurture Debate 1.4 Theories of Growth & Development: Psychoanalytic Theories, Cognitive Theories, Behavioral and Social Cognitive Theories, Ethological Theory, Ecological Theory, Eclectic Theoretical Orientation",
+          "hours": 10
+        },
+        {
+          "title": "PERIODS OF LIFE SPAN DEVELOPMENT",
+          "topics": "2.1 Prenatal Development & Birth and Infancy 2.2 Childhood: Physical, Emotional and Cognitive development 2.3 Adolescence: Physical, Emotional and Cognitive development 2.4 Adulthood: Physical, Emotional and Cognitive development",
+          "hours": 10
+        },
+        {
+          "title": "DOMAINS OF HUMAN DEVELOPMENT",
+          "topics": "3.1 Cognitive development: perspectives of Piaget and Vygotsky 3.2 Language development 3.3 Moral development 3.4 Personality development",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY-235 FP",
+      "title": "Field Project",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        9,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-245 MNT",
+      "title": "Social Psychology",
+      "semester": 3,
+      "type": "Minor - Theory",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO SOCIAL PSYCHOLOGY",
+          "topics": "1.1 Definition and nature of social psychology 1.2 Approach and brief history of social psychology 1.3 Theories in social psychology: Motivational, Learning and Cognitive 1.4 Social Psychology and sustainable future",
+          "hours": 10
+        },
+        {
+          "title": "UNDERSTANDING ABOUT THE SELF",
+          "topics": "2.1 The Self: Definition, nature, functions and formation of self 2.2 Self and its processes: Self-concept, Self-esteem, and self-presentation 2.3 Social identity, Social Cognition and Social perception and their functions. 2.4 Attitude: Definition, components, formation of attitude and Strategies for attitude change.",
+          "hours": 10
+        },
+        {
+          "title": "SOCIAL INTERACTION AND GROUP DYNAMICS",
+          "topics": "3.1 Interpersonal Attraction: Nature, Definition and Determinants (Internal & External) 3.2 Social influence and Specific compliance techniques and Pro-Social Behaviour 3.3 Aggression: Definition, nature, causes, control and prevention 3.4 Group Dynamics: Nature of groups, Consequences of belonging, Nature of intergroup relations - prejudice, inter-group conflict, Intervention techniques.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY-246 MNP",
+      "title": "Social Survey",
+      "semester": 3,
+      "type": "Minor - Practical",
+      "credits": 2,
+      "pages": [
+        14,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "OE- 202 - PSY",
+      "title": "Psychological Skills & Enrichment of Life",
+      "semester": 3,
+      "type": "Open Elective - Theory",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO PSYCHOLOGICAL SKILLS",
+          "topics": "1.1 Definition and Importance of Psychological Skills 1.2 Types of Psychological Skills 1.3 Concept & Nature of Life Enrichment 1.4 Developing and Applying Psychological Skills in Daily Life",
+          "hours": 10
+        },
+        {
+          "title": "PSYCHOLOGICAL SKILLS - I",
+          "topics": "2.1 Effective Communication - Active Listening & Assertiveness 2.2 Goal Setting Techniques - SMART Goals & Visualization and Affirmation 2.3 Conflict Resolution and Negotiation Skills 2.4 Empathy and Social Skills",
+          "hours": 10
+        },
+        {
+          "title": "PSYCHOLOGICAL SKILLS - II",
+          "topics": "3.1 Developing Emotional Intelligence 3.2 Building Resilience - Role of Optimism & Growth Mindset 3.3 Mindfulness and Practicing Happiness 3.4 Enhance Well-Being - Gratitude Practices & Acts of Kindness and Life Satisfaction and Flourishing",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "IKS – 201 - PSY",
+      "title": "Indian Roots of Psychology",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": 2,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO INDIAN PSYCHOLOGY",
+          "topics": "1.1 Definition and scope of Indian psychology 1.2 Historical development of psychology in India 1.3 Differences between Western and Indian psychological approaches 1.4 Indian Psychology & the Scientific Method 20 Savitribai Phule Pune University, Pune Page | 20",
+          "hours": 10
+        },
+        {
+          "title": "INDIAN PHILOSOPHICAL SCHOOLS",
+          "topics": "2.1 The concept of mind (Manas), intellect (Buddhi), and ego (Ahamkara) 2.2 Buddhism: Concepts of mind, perception, suffering four Noble Truths and the Eightfold Path 2.3 Vedic Symbolism, Jain philosophy, Sufism & Self-transformation 2.4 Contemporary Indian psychologists and their work",
+          "hours": 10
+        },
+        {
+          "title": "APPLICATIONS OF INDIAN PSYCHOLOGICAL CONCEPTS",
+          "topics": "3.1 Mindfulness as a psychotherapy 3.2 Meditation in therapy 3.3 Yoga and its role in mental health 3.5 The relevance of Indian psychological practices in modern therapy and counseling",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY - 255 MJT",
+      "title": "Experimental Psychology & Research Methodology",
+      "semester": 4,
+      "type": "Major Core - Theory",
+      "credits": 4,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Experimental Psychology",
+          "topics": "1.1 Meaning, history and Pioneers of experimental psychology 1.2 Introduction of Psychological Experiments: Learning & Memory 1.3 Introduction of Psychological Experiments: Sensation & Perception 1.4 Applications of experimental psychology 23 Savitribai Phule Pune University, Pune Page | 23",
+          "hours": 15
+        },
+        {
+          "title": "RESEARCH METHODOLOGY: AN INTRODUCTION",
+          "topics": "2.1 Meaning & Characteristics of Scientific Research 2.2 Goals of Scientific Research 2.3 Classification of Research: Experimental Research; Non Experimental Research 2.4 Phases or Stages in Research",
+          "hours": 15
+        },
+        {
+          "title": "SAMPLING DESIGN",
+          "topics": "3.1 Meaning and Need of Sampling; Concepts of universe and sample 3.2 Types of Probability Sampling 3.3 Types of Non-probability sampling 3.4 Factors influencing decision of sampling",
+          "hours": 15
+        },
+        {
+          "title": "METHODS OF DATA COLLECTION",
+          "topics": "4.1 Data Collection – Meaning and Process 4.2 Concepts in Research Data: Primary Data, Secondary Data 4.3 Methods: Observation, Questionnaires, Schedules 4.4 Methods: Interview, Case study, Psychological Tests / Tools",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "PSY - 256 MJP",
+      "title": "Psychological Experiments (Practical)",
+      "semester": 4,
+      "type": "Major Core - Practical",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY-275 -VSC",
+      "title": "Introduction To Behavioral Abnormalities",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO ABNORMAL BEHAVIOUR",
+          "topics": "1.1 Meaning, Definition, Nature and criteria of abnormal behaviour 1.2 Pre DSM Classification of abnormal behaviour 1.3 Classification of abnormal behaviour as per DSM 5 & ICD 11 1.4 Role and functions of APA 28 Savitribai Phule Pune University, Pune Page | 28",
+          "hours": 10
+        },
+        {
+          "title": "PARADIGMS OF ABNORMAL BEHAVIOUR",
+          "topics": "2.1 Biological and Psychodynamic Paradigms 2.2 Cognitive and Behavioural Paradigms 2.3 Humanistic and Existential Paradigms 2.4 Sociocultural and Biopsychosocial Paradigms and Diathesis Stress model",
+          "hours": 10
+        },
+        {
+          "title": "CLASSIFICATION OF ABNORMAL BEHAVIOUR",
+          "topics": "3.1 Mood Disorder: Meaning, Nature, Types and diagnostical criteria 3.2 Anxiety Disorder: Meaning, Nature, Types and diagnostical criteria 3.3 Developmental Disorder: Meaning, Nature, Types and diagnostical criteria 3.4 Neurocognitive Disorder: Meaning, Nature, Types and diagnostical criteria",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY-285 - CEP",
+      "title": "Community Mental Health Awareness and Enhancement Program",
+      "semester": 4,
+      "type": "Community Engagement Program",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY – 295 MNT",
+      "title": "Health Psychology",
+      "semester": 4,
+      "type": "Minor - Theory",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO HEALTH PSYCHOLOGY",
+          "topics": "1.1 Definition and Goals of health psychology 1.2 Components of Health: Social, Emotional, Cognitive and Physical Aspects 1.3 Model of Health Psychology: Mind-body relationship and Bio-psychosocial model of health 1.4 Mental Health and Chronic Illness – Cancer, Diabetes and Blood Pressure",
+          "hours": 10
+        },
+        {
+          "title": "STRESS AND COPING",
+          "topics": "2.1 Nature and Sources of Stress 2.2 Types of Stress and Effects of Stress on Physical and Mental Health 2. 3 Coping – Meaning and Nature 2.4 Coping – Appraisal Focused, Problem Focused and Emotion Focused",
+          "hours": 10
+        },
+        {
+          "title": "HEALTH ENHANCING BEHAVIOURS",
+          "topics": "3.1 Characteristics of Health Behavior and Barriers to Health Behavior 3.2 Health Enhancing behaviors – Exercise and Nutrition 3.3 Health Compromising Behaviours, Health Protective behaviours and Illness Management 3.4 Classification of Human Strengths and Virtues",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PSY- 296 MNP",
+      "title": "Psychological Assessment",
+      "semester": 4,
+      "type": "Minor - Practical",
+      "credits": 2,
+      "pages": [
+        34,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "OE - 252 - PSY",
+      "title": "Applied Psychology-Practical",
+      "semester": 4,
+      "type": "Open Elective - Practical",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "PSY – 252 - SEC",
+      "title": "Personality Development (Theory)",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Self-Management",
+          "topics": "1.1 SOWC analysis 1.2 Time management 1.3 Self-discipline 1.4 Keep away from procrastination 41 Savitribai Phule Pune University, Pune Page | 41",
+          "hours": 10
+        },
+        {
+          "title": "Interpersonal and social skills",
+          "topics": "2.1 Transactional analysis 2.2 Harmonies inter-personal relationship. 2.3 Improving social intelligence 2.4 Family and Social adjustment",
+          "hours": 10
+        },
+        {
+          "title": "Psycho-social skills for Employability and professional success",
+          "topics": "3.1 Creativity and innovation 3.2 Self-motivation 3.3 Self-presentation & Impression management 3.4 Positive thinking",
+          "hours": 10
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

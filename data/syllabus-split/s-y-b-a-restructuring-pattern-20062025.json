@@ -1,0 +1,165 @@
+{
+  "id": "s-y-b-a-restructuring-pattern-20062025",
+  "kind": "programme",
+  "programme": "S.Y.B.A. Restructuring Pattern",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "VSC-221-RE-AE-T",
+      "title": "Agricultural Economics-I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Indian Agriculture and Inputs",
+          "topics": "1.1Nature and Scope of Agriculture Economics, 1.2 Role of Agriculture in Economic Development, 1.3 Cropping Pattern: Types, Factors affecting on cropping pattern., 1.4 Agricultural Inputs: Seeds, Irrigation, Fertilizers and Pesticides",
+          "hours": null
+        },
+        {
+          "title": "Problems of Agricultural Sector",
+          "topics": "2.1 Agricultural Finance, 2.2 Crop Insurance, 2.3 Problems of Agricultural Labour, 2.4 Agriculture Marketing",
+          "hours": null
+        },
+        {
+          "title": "Major Issues of Indian Agriculture",
+          "topics": "3.1 Farmers Suicide, 3.2 Climate change and Indian Agriculture, 3.3 Agro Tourism, 3.4 Organic Farming",
+          "hours": null
+        },
+        {
+          "title": "Agriculture and Allied Business: Importance and Problems",
+          "topics": "4.1 Dairy Farming, 4.2 Poultry Farming, 4.3 Sheep/Goat Farming",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSC-222-RE-MC-T",
+      "title": "Mass Communication -I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mass Communication",
+          "topics": "a) The meaning, concepts and principles of communication., b) Process of communication., c) Types of communication., d) Traditional communication system.",
+          "hours": null
+        },
+        {
+          "title": "Print Media",
+          "topics": "i. History of Print Media, ii. Types of Print Media- News Paper, Magazines, Periodicals, Quarterly, Annuals., iii. Merits and Demerits of Print Media.",
+          "hours": null
+        },
+        {
+          "title": "Electronic Media",
+          "topics": "i. History of Electronic Media, ii. Types of Electronic Media- Television, Radio, Social Media., iii. Merits and Demerits of Electronic Media.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSC-223-RE-HM-T",
+      "title": "Horticulture and Its Management-I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        15,
+        18
+      ],
+      "units": [
+        {
+          "title": "Chapter-1: Introduction to Horticulture",
+          "topics": "Definition, History and development of horticulture, Classification of horticultural crops: Pomology, Olericulture, Floriculture, Plantation crops, Spices and Condiments, Medicinal and Aromatic plants",
+          "hours": 3
+        },
+        {
+          "title": "Chapter-2: Branches of Horticulture",
+          "topics": "Pomology (Fruit Science), Olericulture (Vegetable Science), Floriculture and Landscaping, Post-Harvest Technology, Plantation, Spices, Medicinal and Aromatic Plants",
+          "hours": 3
+        },
+        {
+          "title": "Chapter-3: Scope and Importance of Horticulture",
+          "topics": "Nutritional importance of horticultural produce, Economic importance and employment generation, Scope in domestic and international markets, Modern trends in horticulture: Protected cultivation (polyhouse/greenhouse), Hydroponics and soilless cultivation, Organic horticulture, Precision horticulture",
+          "hours": 4
+        },
+        {
+          "title": "Chapter-4: Site Selection, Soil, Climate management",
+          "topics": "Selection of site for horticultural crops, Type of soil, Physical and chemical properties of soil, Climate and its impact on horticultural crops, Soil preparation and management",
+          "hours": 3
+        },
+        {
+          "title": "Chapter-5: Plant propagation Techniques",
+          "topics": "Definition, Types- Vegetative (Asexual): 1. Natural: Creepers, Runner, Sucker, Tuber, Rhizome, Bulbs, Corms, 2. Artificial vegetative propagation: Cutting, Layering, Grafting, Budding; Sexual Propagation: Seeds; Tissue Culture",
+          "hours": 4
+        },
+        {
+          "title": "Chapter-6: Horticultural Practices",
+          "topics": "Irrigation and water management: Drip, sprinkler, Micro sprinkler, Flood, Ridges and Furrows, Surface, Automation of micro-irrigation; Fertigation and nutrition; Pruning and training; Pest and disease management",
+          "hours": 5
+        },
+        {
+          "title": "Chapter-7: Weed Management",
+          "topics": "Definition and Concept, Economic importance of weeds, Weed management methods: Cultural, Biological and Chemical control (Systemic and Contact Herbicides)",
+          "hours": 4
+        },
+        {
+          "title": "Chapter-8: Post-Harvest Management",
+          "topics": "Definition and concept, Importance of post-harvest management, Harvesting and handling, Storage and packaging, Marketing and export",
+          "hours": 4
+        },
+        {
+          "title": "Chapter-9: Government policies / Schemes for promoting fruit crops cultivation in India",
+          "topics": "State Policies/ Schemes, Central Polices/Schemes",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "VSC-271-RE-AE-P",
+      "title": "Agricultural Economics-II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        19,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-272-RE-MC-P",
+      "title": "Mass Communication -II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-273-RE-HM-P",
+      "title": "Horticulture and Its Management-II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}
