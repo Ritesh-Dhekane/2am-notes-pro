@@ -1,0 +1,878 @@
+{
+  "id": "me-artificial-intelligence-and-data-science-2025-pattern-18082025",
+  "kind": "programme",
+  "programme": "Master of Engineering (2025 Pattern) in M. E. - Artificial Intelligence and Data Science (AI&DS)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-AID",
+      "title": "Mathematics for Data Science",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Linear Algebra for Data Science",
+          "topics": "Overview of vectors, matrices, tensors, matrix operations, properties, types of matrices, identity , diagonal, orthogonal, inverse, dot product, cross Product, norms, eigenvalues and eigenvectors. Principal component analysis (PCA) – Mathematical Intuition, dimen- sionality reduction, image data transformation.",
+          "hours": 12
+        },
+        {
+          "title": "Calculus and Functions",
+          "topics": "Functions, limits, continuity , differential calculus, derivatives, chain rule, gradient, jacobian, partial derivatives and directional derivatives, integral Calculus - area under curves, expected values, opti- mization techniques - maxima, minima, gradient descent, cost function minimization in ML models.",
+          "hours": 12
+        },
+        {
+          "title": "Probability Theory",
+          "topics": "Overview of probability , sample space, events, axioms, conditional probability , Bayes’ Theorem, ran- dom variables – Discrete and Continuous, probability distributions - Bernoulli, Binomial, Poisson, Normal, exponential joint, marginal distributions, Central Limit Theorem, applications for Classifica- tion, decision-making under uncertainty .",
+          "hours": 12
+        },
+        {
+          "title": "Statistics & Data Analysis",
+          "topics": "Overview of descriptive Statistics - mean, median, mode, variance, standard deviation, correlation, covariance, sampling, estimation, confidence intervals, hypothesis testing - null and alternative hy- potheses, p-values, Chi-square test, t-test, ANOVA, applications for statistical inference, feature im- portance, A/B testing, tools - NumPy , Matplotlib, Scikit-learn, Jupyter Notebooks.",
+          "hours": 12
+        },
+        {
+          "title": "Applications in Data Science",
+          "topics": "Convex sets, convex functions, unconstrained and constrained optimization, Lagrange multipliers, linear programming, stochastic gradient descent, regularization - L1, L2 norms, applications for model fitting, regression, neural network training.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-AID",
+      "title": "Natural Language Understanding",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction of Natural Language Processing",
+          "topics": "Foundation of Natural Language Understanding, Natural Language Processing, linguistic levels, mor- phology , syntax, semantics, pragmatics, tokenization, lemmatization, POS tagging, corpus creation, annotation formats, CoNLL, JSONL, overview of NLU data pipelines, annotation tools like Prodigy , Doccano.",
+          "hours": 12
+        },
+        {
+          "title": "Syntax and Structure Based Understanding",
+          "topics": "Introduction to context-free grammars, parsing algorithms, top-down & bottom-up parsing, depen- dency parsing, constituency parsing, feature structure, unification, POS tagging with Hidden Markov Models, CRFs Shallow Parsing, deep parsing, statistical parsing, Chunking, role of downstream ML tasks.",
+          "hours": 12
+        },
+        {
+          "title": "Semantic Understanding and Representation",
+          "topics": "Introduction word sense disambiguation, semantic role labeling, logic based meaning representation, lexical semantic, distrubutional semantics, vector semantics, TF-IDF, Word2Vec, GloVe, knowledge graphs, WordNet, ConceptNet, word embedding, embedding language data into machine-readable vectors for modeling, semantic search engine.",
+          "hours": 12
+        },
+        {
+          "title": "Deep Learning and Transformer Architectures",
+          "topics": "Traditional neural networks for text classification, neural networks for RNN, LSTM, GRU, attention mechanisms, overview of transformer architecture - BERT, GPT, transfer learning, fine tuning, pre- trained models for NLU, building NLU pipelines, overview of tools like HuggingFace.",
+          "hours": 12
+        },
+        {
+          "title": "Applications of NLU",
+          "topics": "Dialogue systems, Intent detection, slot filling, text classification & summarization, question an- swering, information extraction, explainability , transformers for building domain-specific chatboat, analysis of gender bias in NLP datasets, case studies for real AI systems like ChatGPT, Alexa, Google BERT-based search.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-AID",
+      "title": "Machine Learning Techniques",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Supervised and Semi-Supervised Learning",
+          "topics": "Supervised Learning: Ensemble Methods: Bagging (e.g., Random Forests), Boosting (Ada Boost, XG Boost, Light GBM). Model Calibration, Regularization Techniques: L1, L2, Elastic Net for preventing overfitting, Cross-validation, Hyper parameter Tuning. Semi-Supervised Learning: Self-training, Co-training, Graph-based Methods, Generative Models for Semi-supervised Learning (e.g., Semi-supervised GANs), Applications in NLP and Computer Vision.",
+          "hours": 12
+        },
+        {
+          "title": "Unsupervised Learning Algorithms",
+          "topics": "Clustering Techniques: Partitional Clustering: K-Means and its variations, Density-Based Cluster- ing: DBSCAN, HDBSCAN for identifying clusters of varying shapes, Hierarchical Clustering: Ag- glomerative and divisive approaches, Model-Based Clustering: Gaussian Mixture Models (GMM) and Expectation-Maximization (EM) algorithm. Dimensionality Reduction: Linear & Non-linear Methods, Auto-encoders (as an unsupervised method for learning compressed representations). Anomaly Detection Techniques, Evaluation Metrics: Sil- houette Score, Davies-Bouldin Index for assessing clustering quality .",
+          "hours": 12
+        },
+        {
+          "title": "Representation Learning",
+          "topics": "Embedding Methods: Word Embedding’s: Word2Vec (Skip-gram, CBOW), Doc2Vec for representing words and documents in a vector space, GloVe (Global Vectors for Word Representation). Contrastive Learning: SimCLR (Simple Framework for Contrastive Learning of Visual Representa- tions) & MoCo (Momentum Contrast for Unsupervised Visual Representation Learning). Deep Metric Learning: Triplet Loss, Siamese Networks. Representation in Graphs: Node embed- ding’s, Graph Neural Networks (GNNs)",
+          "hours": 12
+        },
+        {
+          "title": "Active Learning",
+          "topics": "Query Strategies: Pool-Based Sampling, Stream-Based Sampling, Membership Query Synthesis (brief overview), and Uncertainty Sampling: Entropy , Margin Sampling, and Least Confidence. Query by Committee (QBC), Expected Model Change, and Active Learning in Deep Learning: Bayesian neural networks, Monte Carlo (MC) Dropout for uncertainty estimation, Human-in-the-loop Systems: The role of human experts in the active learning process. Tools/Frameworks: mod AL (Python library for modular active learning), PyTorch/Tensor Flow (for model training), Label Studio (for annotation).",
+          "hours": 12
+        },
+        {
+          "title": "Transfer Learning",
+          "topics": "Feature-based Transfer Learning: Extracting and reusing learned features from a source model, Fine- tuning Pre trained Networks: Adapting large-scale models (CNNs like ResNet, EfficientNet; Trans- formers like BERT, large language models) to new tasks, Domain Adaptation: Techniques for bridging the gap between different data distributions (source and target domains), Domain Generalization: Learning models that can generalize well to unseen target domains, Few-shot and Zero-shot Learn- ing: Learning with very limited or no labeled data in the target domain, Multi-task Learning: Training a single model to perform multiple related tasks simultaneously . Applications: Natural Language Pro- cessing (BERT and other large language models), Computer Vision, Speech recognition.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-AID",
+      "title": "Generative Artificial Intelligence",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Generative AI",
+          "topics": "Introduction to AI-driven content generation, Evolution of generative models: From rule based AI to deep generative models, Types of Generative Models: Autoregressive models, Variational Autoen- coders (VAEs), Generative Adversarial Networks (GANs), Diffusion Models, Ethical Considerations in Generative AI: Bias, misinformation, deepfakes, copyright issues.",
+          "hours": 12
+        },
+        {
+          "title": "Foundation Models & Architectures",
+          "topics": "Transformers and Self-Attention Mechanism, Large Language Models (LLMs): GPT, BERT, T5, LLaMA, Pre-training vs. Fine-tuning approaches, Multimodal Generative AI: DALL·E, CLIP, Stable Diffusion",
+          "hours": 12
+        },
+        {
+          "title": "Generative AI for Text, Image & Audio Generation",
+          "topics": "Text Generation: Autoregressive models, ChatGPT, summarization, creative writing, Image Gener- ation: StyleGAN, Stable Diffusion, DeepDream, AI Art, Audio Generation: Text to-Speech (TTS), AI Music Composition, Speech Synthesis, Evaluation Metrics: Perplexity , BLEU, FID score, Inception Score",
+          "hours": 12
+        },
+        {
+          "title": "Tools, Frameworks, and Applications",
+          "topics": "Generative AI in Software Development: GitHub Copilot, Code Llama, Frameworks & Libraries: Hugging Face, OpenAI APIs, TensorFlow/Keras for Generative AI, Fine-tuning & Custom Model De- velopment, AI for Content Creation: Deepfake detection, AI-generated movies, virtual influencers",
+          "hours": 12
+        },
+        {
+          "title": "Industry Use Cases & Future Trends",
+          "topics": "Generative AI in Healthcare, Finance, and Creative Industries, Synthetic Data Generation & AI for Simulations, Regulations & AI Governance: Transparency , accountability , and ethical AI, Future Trends in Generative AI: Explainable AI, Federated Learning, Edge AI.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-AID",
+      "title": "Computational Laboratory-I",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        22,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A-AID",
+      "title": "Cloud Technology",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": "History of Centralized and Distributed Computing - Overview of Distributed Computing, Cluster computing, Grid computing. Technologies for Network based systems- System models for Distributed and cloud computing- Software environments for distributed systems and clouds.",
+          "hours": 8
+        },
+        {
+          "title": "Cloud Computing Models",
+          "topics": "Introduction to Cloud Computing- Cloud issues and challenges - Properties - Characteristics - Service models, Deployment models. Cloud resources: Network and API - Virtual and Physical computational resources - Data-storage. Virtualization concepts - Types of Virtualizations- Introduction to Various Hypervisors - High Availability (HA)/Disaster Recovery (DR) using Virtualization, Moving VMs",
+          "hours": 8
+        },
+        {
+          "title": "Service Models",
+          "topics": "Service models - Infrastructure as a Service (IaaS) - Resource Virtualization: Server, Storage, Network - Case studies. Platform as a Service (PaaS) - Cloud platform & Management: Computation, Storage - Case studies. Software as a Service (SaaS) - Web services - Web 2.0 - Web OS - Case studies – Anything as a service (XaaS).",
+          "hours": 8
+        },
+        {
+          "title": "Cloud Programming",
+          "topics": "Cloud Programming and Software Environments – Parallel and Distributed Programming paradigms – Programming on Amazon AWS and Microsoft Azure – Programming support of Google App Engine – Emerging Cloud software Environment",
+          "hours": 8
+        },
+        {
+          "title": "Cloud Access and Security",
+          "topics": "Cloud Access: authentication, authorization and accounting - Cloud Provenance and meta-data - Cloud Reliability and fault-tolerance - Cloud Security , privacy , policy and compliance- Cloud federa- tion, interoperability and standards.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B-AID",
+      "title": "Deep Learning",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Foundations of Deep Learning",
+          "topics": "Introduction to Artificial Neural Networks (ANNs), Perceptrons and Multilayer Perceptrons (MLPs), Activation Functions (Sigmoid, Tanh, ReLU, Leaky ReLU), Backpropagation Algorithm, Optimiza- tion Algorithms (Gradient Descent, Stochastic Gradient Descent, Adam), Regularization Techniques (Dropout, L1/L2 Regularization), Introduction to Convolutional Neural Networks (CNNs) and Recur- rent Neural Networks (RNNs) – basic concepts only . Assessment: Homework assignments focused on implementing basic neural networks using Python libraries (e.g., TensorFlow/Keras)",
+          "hours": 8
+        },
+        {
+          "title": "Deep Learning Architectures and Applications",
+          "topics": "Convolutional Neural Networks (CNNs): Architectures (LeNet, AlexNet, ResNet, Inception), Appli- cations (Image Classification, Object Detection, Image Segmentation), Recurrent Neural Networks (RNNs): Architectures (Vanilla RNN, LSTM, GRU), Applications (Natural Language Processing, Time Series Analysis), Long Short-Term Memory (LSTM) Networks and Gated Recurrent Units (GRUs), Generative Adversarial Networks (GANs), Assessment: Practical project on image classification or a simple NLP task using a chosen deep learn- ing framework.",
+          "hours": 8
+        },
+        {
+          "title": "Deep Learning Model Development",
+          "topics": "Data Preprocessing for Deep Learning, Model Selection, Training Strategies, and Hyperparameter Tuning, Evaluation Metrics for Deep Learning Models (Accuracy , Precision, Recall, F1-Score, AUC- ROC), Model Deployment and Monitoring, Techniques for handling imbalanced datasets in deep learning, Introduction to transfer learning, Assessment: A medium-sized project requiring the design, implementation, and evaluation of a deep learning model on a given dataset (e.g., a complex image classification problem or a text classification task).",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Deep Learning Techniques",
+          "topics": "Autoencoders: Undercomplete Autoencoders, Regulraized Autoencoders-Sparse Autoencoders, Stochas- tic Encoders and Decoders, Denoising Autoencoders, Contractive Autoencoders, Applications of Au- toencoders. Ensemble Methods in Deep Learning, Autoencoders and Variational Autoencoders (VAEs), Deep Re- inforcement Learning (basics), Explainable AI (XAI) and its role in DL, Ethical considerations in deep learning, Assessment: A presentation on advanced deep learning techniques along with a critical analysis of their strengths and limitations.",
+          "hours": 8
+        },
+        {
+          "title": "Deep Learning Applications in AI and DS",
+          "topics": "Deep Learning applications in Computer Vision, Data Visualization Techniques, and other relevant fields, Image Classification, Social N/w/ analysis, Speech Recognition, Recommender system, Case studies on the application of Deep Learning in areas such as robotics, signal processing, and health- care. Assessment: A final project focusing on a deep learning application that solves a specific problem in Artificial Intelligence and Data Science (e.g., anomaly detection using sensor data, image-based defect detection).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521C-AID",
+      "title": "Blockchain Technology",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Blockchain Security and Applications",
+          "topics": "Security in Blockchain: Understanding encryption, key management, and security challenges in blockchain networks Blockchain in Various Industries: Studying applications of blockchain in finance, healthcare, supply chain management, and government services Decentralized Finance (DeFi) and NFTs: Learning about DeFi, liquidity pools, yield farming, and creating, minting, and trading NFTs",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain Scalability and Interoperability",
+          "topics": "Blockchain Scalability and Interoperability Blockchain Scalability: Sharding, Layer 2 scaling solutions, Consensus mechanism optimization, Block size increases, transaction processing optimization Blockchain Interoperability: Cross-chain bridges, interoperability protocols, Atomic swaps, Ulti-chain applications, Blockchain agnostic solutions, Use cases.",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain and Artificial Intelligence",
+          "topics": "Blockchain and AI Integration: Decentralized AI models, AI-powered smart contracts, Blockchain- based AI marketplaces, Applications of Blockchain and AI: Predictive maintenance, Supply chain optimization, Identity verification, Healthcare, Use cases.",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain and Cloud Computing",
+          "topics": "Blockchain and Cloud Computing Cloud-based Blockchain Solutions: Blockchain-as-a-Service (BaaS), Cloud-based node infrastructure, Scalable blockchain solutions, Challenges and Opportunities in Blockchain and cloud computing.",
+          "hours": 8
+        },
+        {
+          "title": "Blockchain for Real World Applications",
+          "topics": "Crypto-currencies, Banking and Financial Services, Supply Chain, Healthcare, Real-Estate, Judiciary , IoT, Insurance, Government Sector, Energy and Utilities, Blockchain Integration with other Domains etc.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521D-AID",
+      "title": "Recommendation Systems",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Recommender Systems",
+          "topics": "Introduction, Goals of Recommender, Basic Models of Recommender Systems, Domain-Specific Chal- lenges in Recommender Systems, Advanced Topics and Applications",
+          "hours": 8
+        },
+        {
+          "title": "IoT: Neighborhood-Based and Model-Based Collaborative Filtering",
+          "topics": "Introduction, Key Properties of Ratings, Predicting Ratings with Neighborhood-Based Methods, Clus- tering and Neighborhood-Based Methods, Dimensionality Reduction and Neighborhood, A Regression Modeling View of Neighborhood, Graph Models for Neighborhood-Based Methods Decision and Regression Trees, Rule-Based Collaborative Filtering, Naive Bayes Collaborative Fil- tering, Using an Arbitrary Classification Model as a Black-Box, Latent Factor Models, Integrating Factorization and Neighborhood Models",
+          "hours": 8
+        },
+        {
+          "title": "Content-Based and Knowledge-Based Recommender Systems",
+          "topics": "Content-Based and Knowledge-Based Recommender Systems Basic Components of Content-Based Systems, Preprocessing and Feature Extraction, Learning User Profiles and Filtering, Content-Based Versus Collaborative, Using Content-Based Models for Collabo- rative Filtering. Constraint-Based Recommender, Case-Based Recommenders, Persistent Personalization in Knowledge- Based Systems",
+          "hours": 8
+        },
+        {
+          "title": "Ensemble-Based and Hybrid Recommender Systems",
+          "topics": "Ensemble Methods from the Classification Perspective, Weighted Hybrids, Switching Hybrids, Cas- cade Hybrids, Feature Augmentation Hybrids, Meta-Level Hybrids, Feature Combination Hybrids, Mixed Hybrids",
+          "hours": 8
+        },
+        {
+          "title": "Evaluating Recommender Systems",
+          "topics": "Evaluation Paradigms, General Goals of Evaluation Design, Accuracy Metrics in Offline Evaluation, Limitations of Evaluation Measures",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-522-AID",
+      "title": "Skill Based Laboratory - I",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        34,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-AID",
+      "title": "Explainable Artificial Intelligence",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to XAI",
+          "topics": "Introduction to the multidisciplinary topics of explainable AI, what is XAI, why is it important, XAI terminologies Dimensions of interpretability , Ethical and legal implications (GDPR, etc.), Types of explainability and Taxonomy , Explainability in the model development process.",
+          "hours": 12
+        },
+        {
+          "title": "Interpretable Machine Learning",
+          "topics": "Broad taxonomy of XAI methods including Intrinsic vs post hoc, model-specific vs model-agnostic, and local vs global. Perturbation-based feature attribution (LIME, Anchors, SHAP, etc.) Propagation-based feature attribution methods (e.g., Relevance Propagation, Saliency methods, etc.) Tools: ELI5, LIME",
+          "hours": 12
+        },
+        {
+          "title": "Explainability in Deep Learning",
+          "topics": "Feature visualization, Saliency maps, Grad-CAM, and LRP, Attention mechanisms, Concept activation vectors (TCAV) XAI for Natural Language Processing: Attention and explainability in Transformers, Attribution meth- ods for NLP, Challenges in interpreting language models",
+          "hours": 12
+        },
+        {
+          "title": "Intrinsically explainable models",
+          "topics": "Intrinsically explainable models including Linear Regression, Logistic Regression, Generalized Linear Model (GLM), Generalized Additive Model (GAM), and Decision Tree.",
+          "hours": 12
+        },
+        {
+          "title": "Visual Explanations",
+          "topics": "XAI methods include Partial Dependence Plot (PDP), Conformal Prediction, Individual Conditional Expectation (ICE), Feature Importance, and Saliency Maps. Local Interpretable Model-Agnostic Explanations (LIME), SHAP, Integrated Gradient (IG) Evaluation of explainability",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-AID",
+      "title": "AI in Cyber Security",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Foundations of AI in Cybersecurity",
+          "topics": "Introduction of Cybersecurity , threats, vulnerabilities, attacks, role of AI in cyber privacy and secu- rity , cybersecurity data, Logs, events, network flows, user behavior, Introduction to AI/ML/DL for Cybersecurity , Cyber threat detection, imbalanced data, concept drift, real-time requirements.",
+          "hours": 12
+        },
+        {
+          "title": "Machine Learning for Cyber Threat Detection",
+          "topics": "Supervised Learning, SVM, Decision Trees, Naive Bayes, Random Forest, unsupervised learning -k- Means, DBSCAN, autoencoders, semi-supervised learning, reinforcement learning in Security , feature Engineering for security datasets. intrusion detection Prevention using ML",
+          "hours": 12
+        },
+        {
+          "title": "Deep Learning and NLP in Cybersecurity",
+          "topics": "Overview of DL and NLP, CNN & RNN for packet analysis and malware detection, LSTM for Log sequence analysis, transformer models like BERT, GPT for threat intelligence, NLP for phishing email, URL detection, dark web monitoring, applications for spam filtering, threat detection, limitations of deep models in Security .",
+          "hours": 12
+        },
+        {
+          "title": "Adversarial AI & Model Security",
+          "topics": "Adversarial machine learning, attack surface in AI models, attack types - evasion, poisoning, infer- ence attacks, Adversarial training, robust ML, privacy-preserving AI, differential Privacy , security in AI Pipelines - data integrity , model hardening, Explainability in AI security models.",
+          "hours": 12
+        },
+        {
+          "title": "AI for Cyber Security",
+          "topics": "Adversarial attacks on ML systems, model poisoning, Security Information and Event Management(SIEM), Phishing Detection, User and Entity Behavior Analytics(UEBA) Behavior Analytics, Malware Analysis, Security Log Analysis, End Point Security , Benefits and Challenges of using AI in cyber security .",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-AID",
+      "title": "Data Visualization Techniques",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Data Visualization Techniques",
+          "topics": "Foundation: Importance of analytics and visualization in the era of data abundance, 2-D Graphics, 2-D Drawing, 3-D Graphics, Photorealism, Non-Photorealism, The Human Retina, Perceiving Two Dimensions, Perceiving Perspective.",
+          "hours": 12
+        },
+        {
+          "title": "Visualization of Numerical Data",
+          "topics": "Visualization of Numerical Data: Data Mapping, Charts, Glyphs, Parallel Coordinates, Stacked Graphs, Tufte’s Design Rules, Using Colours.",
+          "hours": 12
+        },
+        {
+          "title": "Visualization of Non-Numerical Data",
+          "topics": "Visualization of Non-Numerical Data: Graphs and Networks, Embedding Planar Graphs, Graph Visu- alization, Tree Maps, Principal Component Analysis, Multidimensional Scaling, Packing.",
+          "hours": 12
+        },
+        {
+          "title": "Visualization Dashboard",
+          "topics": "Visualization Dashboard: Visualization Systems, Database Visualization, Visualization System De- sign.",
+          "hours": 12
+        },
+        {
+          "title": "Analysis Case Studies",
+          "topics": "Graph-Theoretic Scagnostics, VisDB, Hierarchical Clustering Explorer, PivotGraph, InterRing Constel- lation Application of models in Data Visualization Techniques.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-AID",
+      "title": "Computational Laboratory-II",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-561A-AID",
+      "title": "Social Media Analytics",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Foundations of Social Media Analytics",
+          "topics": "Introduction to Social Media, Web platforms and world wide websites (www), types of social me- dia data, Text, Image, Video, Metadata, Social media data characteristics, Volume, Velocity , Variety , Veracity , challenges in social media data analysis, SMA applications, marketing, politics, healthcare, disaster management, SMA architecture, ingestion, storage, analysis, visualization, data ecosystem, analytics opportunities across platforms, domain-specific applications of SMA.",
+          "hours": 8
+        },
+        {
+          "title": "Data Acquisition and Preprocessing",
+          "topics": "Overview of social media APIs, Facebook Graph, Reddit, X-Twitter, Instagram, structure and access policies, web scraping, architecture, ethics, and methods, text preprocessing, tokenization, case fold- ing, stopword removal, stemming, lemmatization, handling multilingual text, hashtags, mentions, emojis, metadata, data challenges, spam, bots, noise, redundancy , techniques for extracting and preparing social media data, common challenges in raw social data.",
+          "hours": 8
+        },
+        {
+          "title": "Text Analytics and Natural Language Processing",
+          "topics": "Text representation, Bag-of-Words, TF-IDF, Word Embeddings, Sentiment Analysis, Rule-based ap- proaches, ML-based approaches, topic modeling, Latent Dirichlet Allocation (LDA), Non-negative Ma- trix Factorization (NMF), Named Entity Recognition (NER), Overview of deep learning approaches, BERT, transformers, NLP techniques to sentiment and topic analysis, extracting insight from text data and evaluation.",
+          "hours": 8
+        },
+        {
+          "title": "Social Network and User Interaction Analysis",
+          "topics": "Introduction to graph theory , nodes, edges, degree, centrality , social graphs, user mentions, replies, retweets, network metrics, Betweenness, Closeness, PageRank, community detection: modularity , Louvain algorithm, Influence and virality analysis, Behavioral analytics: likes, shares, content en- gagement patterns, graph-based representation of social networks",
+          "hours": 8
+        },
+        {
+          "title": "Applications of social media",
+          "topics": "Applications of Politics - Election sentiment, propaganda detection, Healthcare - Vaccine hesitancy , pandemic trend tracking, Disaster response - Earthquake, flood, or COVID alerting via social me- dia, Agriculture - Farmer sentiment, feedback analytics, Visual analytics: Word clouds, sentiment timelines, conceptual network diagrams, Ethics - data privacy , fake news, bots, bias, misinformation, real-world applications of SMA, ethical and responsible use of social media data",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-561B-AID",
+      "title": "Quantum Computing",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Introduction and The Leap from Classical to Quantum",
+          "topics": "Introduction: Cbits and Qbits, Reversible and Manipulating operations on Cbits and Qbits, Circuit diagrams, Measurement gates and state preparation, Constructing arbitrary 1- and 2-Qbit states The Leap from Classical to Quantum: Classical Deterministic Systems, Probabilistic Systems, Quan- tum Systems, Assembling Systems",
+          "hours": 8
+        },
+        {
+          "title": "Basic Quantum Theory & Architecture",
+          "topics": "Basic Quantum Theory: Quantum States, Observables, Measuring, Dynamics, Assembling Quantum Systems Architecture: Bits and Qubits, Classical Gates, Reversible Gates, Quantum Gates",
+          "hours": 8
+        },
+        {
+          "title": "Algorithms & Programming Languages",
+          "topics": "Algorithms: Deutsch’s Algorithm, The Deutsch–Jozsa Algorithm, Simon’s Periodicity Algorithm, Grover’s Search Algorithm, Shor’s Factoring Algorithm, Programming Languages: Programming in a Quantum World, Quantum Assembly Programming, Toward Higher-Level Quantum Programming, Quantum Computation Before Quantum Computers",
+          "hours": 8
+        },
+        {
+          "title": "Theoretical Computer Science and Cryptography",
+          "topics": "Theoretical Computer Science: Deterministic and Nondeterministic Computations, Probabilistic Com- putations, Quantum Computations Cryptography: Classical Cryptography , Quantum Key Exchange I: The BB84 Protocol, Quantum Key Exchange II: The B92 Protocol, Quantum Key Exchange III: The EPR Protocol, Quantum Teleportation",
+          "hours": 8
+        },
+        {
+          "title": "Information Theory & Hardware",
+          "topics": "Information Theory: Classical Information and Shannon Entropy , Quantum Information and von Neumann Entropy , Classical and Quantum Data Compression, Error-Correcting Codes Hardware: Quantum Hardware: Goals and Challenges, implementing a Quantum Computer I: Ion Traps, implementing a Quantum Computer II: Linear Optics, Implementing a Quantum Computer III: NMR and Superconductors, Future of Quantum Ware",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-561C-AID",
+      "title": "Business Intelligence",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Business Intelligence and Information Exploitation",
+          "topics": "Why Business Intelligence? The Information Asset, Exploiting Information, Business Intelligence and Program Success, what is Business Intelligence? Actionable Knowledge Business Case, Business Intelligence Process, System Infrastructure, Information Access, Delivery , and Analysis Services, Management Issues",
+          "hours": 8
+        },
+        {
+          "title": "Business Models",
+          "topics": "Business Models and Information Flow: The Business Case, Information Processing and Information Flow, the Information Flow Model Usage in Practice Modeling Frameworks Manageme Data Warehouses, Online Analytical Processing, and Metadata: The Business Case, Data Models, The Data Warehouse, The Data Mart, Online Analytical Processing, Metadata, Management Issuesnt Issues",
+          "hours": 8
+        },
+        {
+          "title": "Data Quality and Information Compliance",
+          "topics": "Business Rules: Business Case, Business Rules Approach, What Is a Business Rule? What Is a Business Rule System? Sources of Business Rules, Management Issues Data Profiling: The Business Case, Data Profiling Activities, Data Model Inference, Attribute Analysis, Relationship Analysis, Management Issues Data Quality and Information Compliance: Business Case, More Than Just Names and Addresses, Types of Errors, Data Cleansing, Business Rule-Based Information Compliance, Management Issues",
+          "hours": 8
+        },
+        {
+          "title": "Information Integration",
+          "topics": "Information Integration: The Business Case, ETL: Extract, Transform, Load, Enterprise Application Integration and Web Services, Record Linkage and Consolidation, Management Issues The Value of Parallelism: Business Case, Parallelism and Granularity , Parallel Processing Systems, Dependence, Parallelism and Business Intelligence, Management Issues Alternate Information Contexts: Business Case, Psychographics and Demographics, Geographic Data , Web Behavior Intelligence, Management Issue",
+          "hours": 8
+        },
+        {
+          "title": "Data Enhancement, Knowledge Discovery and Data Mining",
+          "topics": "Data Enhancement: The Business Case, Types of Data Enhancement, Incremental Enhancements, Batch Enhancements, Standardization Example: Address Standardization, Enhancement Methodolo- gies Management Issues Knowledge Discovery and Data Mining: The Business Case, Data Mining and the Data Warehouse, The Virtuous Cycle, Directed versus Undirected Knowledge Discovery , Six Basic Tasks of Data Mining, Data Mining Techniques, Management Issues Using Publicly Available Data: Business Case, Management Issues, Public Data, Data Resources Semi Structured Data, The Myth of Privacy",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-561D-AID",
+      "title": "Spatial Data Analytics",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Introduction to Spatial Data",
+          "topics": "Basic concepts: Definition and history , Components of GIS, Data structure and formats, Spatial data models – Raster and Vector, Data base design - editing and topology creation in GIS, Linkage between spatial and non-spatial data, Data inputting in GIS",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to GIS Analysis and Modeling",
+          "topics": "Spatial Data: Definition, Analysis, Processes & Steps, Software and Tools Raster-Based and Vector- Based GIS Modeling, Binary Models, Index Models, Regression Models, Process Models Geodatabase Model, Role of Databases in GIS, Creating, Editing and Managing",
+          "hours": 8
+        },
+        {
+          "title": "Spatial Data Analyses Techniques",
+          "topics": "Classification Scheme of Vector-Based and Raster-Based GIS Operations Raster–Based Techniques: Methods of Reclassification, Overlay Analysis, Slope and Aspects, Buffer- ing, Cost-Distance Calculation Vector-Based Techniques: Map Manipulation Techniques, Buffering, Overlay Analysis, Network Anal- ysis Digital Terrain Analyses and Modeling: TIN and DEM, Surface Representation & Analysis",
+          "hours": 8
+        },
+        {
+          "title": "Geostatistical Analysis Techniques",
+          "topics": "Introduction to Spatial Interpolation: Control Points Global Methods: Trend Surface Analysis, Regression Models Local Methods: Thiessen Polygons, Density Estimation, Inverse Distance Weighted Interpolation Kriging: Ordinary Kriging (Semivariance, Semivariogram), Universal Kriging,",
+          "hours": 8
+        },
+        {
+          "title": "Decision Support System",
+          "topics": "GIS and decision support system, Introduction to decision making process and decision support systems, Introduction of a frame work for planning and decision making, Spatial Decision Making, Development of DSS, DSS Architecture, Principles and components of multiple- criteria decision making, Main multiple-criteria evaluation methods/techniques, Spatial multiple cri- teria decision making, Multiple-criteria decision making in spatial data analysis Introduction to AHP, Basic Principles of AHP, Effect Table, Pair Wise comparison, Standardization, Consistency , Weightage, performance score, Different method in PWC",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562A-AID",
+      "title": "Federated Learning",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Introduction to Federated Learning",
+          "topics": "Introduction to federated learning, need for federated learning, data privacy , decentralization, edge AI. Centralized vs decentralized vs federated paradigms, clients, server, rounds, model aggregation, Benefits, privacy-preserving, bandwidth-efficient, collaborative learning, federated learning life cycle. concept of drivers of federated learning, centralized ML and federated ML paradigms.",
+          "hours": 8
+        },
+        {
+          "title": "Federated Learning Architectures and Algorithms",
+          "topics": "Architecture of federated learning, horizontal federated learning, vertical federated learning, feder- ated transfer learning federated learning, federated averaging, algorithm and work flow, federated SGD, advanced aggregation techniques, synchronous and asynchronous federated learning, optimiza- tion challenges with non- independent and identically distributed (non-IID) data, compression and quantization for efficient communication in federated learning, performance evaluation under vari- ous data and system conditions.",
+          "hours": 8
+        },
+        {
+          "title": "Privacy and Security in Federated Learning",
+          "topics": "Threats in federated learning, model inversion, poisoning, membership inference Differential Privacy (DP) and differentially private stochastic gradient descent (DP-SGD), Secure Ag- gregation: encryption and secure multiparty computation (SMC), homomorphic encryption and fed- erated cryptographic techniques, a nonymity and trust in decentralized settings, privacy-preserving techniques in federated models, security vulnerabilities and defenses in federated learning systems.",
+          "hours": 8
+        },
+        {
+          "title": "Federated Learning Systems and Frameworks",
+          "topics": "Architecture of federated system: clients, coordinator, data flow. Open-source frameworks, Ten- sorFlow Federated, PySyft, Flower, NVIDIA Clara. Resource constraints: computation, memory , communication. System-level challenges: stragglers, client selection, dropouts, Bench-marking and evaluation of federated system models, federated system development using tools and frameworks, system-level considerations in real-world deployment",
+          "hours": 8
+        },
+        {
+          "title": "Applications of Federated Learning",
+          "topics": "Real-world applications of federated system, Healthcare: cross-institutional model training, Finance: fraud detection. Smart devices: predictive keyboard, face unlock. Agriculture: collaborative crop disease detection. Ethical aspects: bias, fairness, transparency . federated reinforcement learning, personalized federated system, swarm learning, ethical and legal implications of deploying federated system.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562B-AID",
+      "title": "Bigdata Analytics",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO BIG DATA AND HADOOP",
+          "topics": "Types of Digital Data, Introduction to Big Data, Big Data Analytics, History of Hadoop, Apache Hadoop, Analysing Data with Unix tools, Analysing Data with Hadoop, Hadoop Streaming, Hadoop Echo System, IBM Big Data Strategy , Introduction to Infosphere Big Insights and Big Sheets.",
+          "hours": 8
+        },
+        {
+          "title": "HDFS (Hadoop Distributed File System)",
+          "topics": "The Design of HDFS, HDFS Concepts, Command Line Interface, Hadoop file system interfaces, Data flow, Data Ingest with Flume and Scoop and Hadoop archives, Hadoop I/O: Compression, Serializa- tion, Avro and File-Based Data structures.",
+          "hours": 8
+        },
+        {
+          "title": "Map Reduce",
+          "topics": "Anatomy of a Map Reduce Job Run, Failures, Job Scheduling, Shuffle and Sort, Task Execution, Map Reduce Types and Formats, Map Reduce Features.",
+          "hours": 8
+        },
+        {
+          "title": "Hadoop Eco System",
+          "topics": "Pig : Introduction to PIG, Execution Modes of Pig, Comparison of Pig with Databases, Grunt, Pig Latin, User Defined Functions, Data Processing operators. Hive : Hive Shell, Hive Services, Hive Metastore, Comparison with Traditional Databases, HiveQL, Tables, Querying Data and User Defined Functions. Hbase : HBasics, Concepts, Clients, Example, Hbase Versus RDBMS. Big SQL",
+          "hours": 8
+        },
+        {
+          "title": "Data Analytics with R",
+          "topics": "Machine Learning : Introduction, Supervised Learning, Unsupervised Learning, Collaborative Filter- ing. Big Data Analytics with BigR.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562C-AID",
+      "title": "Reinforcement Learning",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        57,
+        58
+      ],
+      "units": [
+        {
+          "title": "Introduction of Reinforcement Learning",
+          "topics": "Origin and history of Reinforcement Learning research. Its connections with other related fields and with different branches of machine learning. Brush up of Probability concepts - Axioms of probability , concepts of random variables, PMF, PDFs, CDFs, Expectation. Concepts of joint and multiple random variables, joint, conditional and marginal distributions. Correlation and independence.",
+          "hours": 8
+        },
+        {
+          "title": "Markov Decision Process",
+          "topics": "Introduction to RL terminology , Markov property , Markov chains, Markov reward process (MRP). Introduction to and proof of Bellman equations for MRPs along with proof of existence of solution to Bellman equations in MRP. Introduction to Markov decision process (MDP), state and action value functions, Bellman expectation equations, optimality of value functions and policies, Bellman opti- mality equations.",
+          "hours": 8
+        },
+        {
+          "title": "Prediction and Control by Dynamic Programing",
+          "topics": "Overiew of dynamic programing for MDP, definition and formulation of planning in MDPs, principle of optimality , iterative policy evaluation, policy iteration, value iteration, Banach fixed point theorem, proof of contraction mapping property of Bellman expectation and optimality operators, proof of convergence of policy evalutation and value iteration algorithms, DP extensions.",
+          "hours": 8
+        },
+        {
+          "title": "Temporal Difference Methods for Model Free Prediction and Control",
+          "topics": "Overview of Monte Carlo methods for model free RL, First visit and every visit Monte Carlo, Monte Carlo control, On policy and off policy learning, Importance sampling. Incremental Monte Carlo Methods for Model Free Prediction, Overview TD(0), TD(1) and TD( λ), k-step estimators, unified view of DP, MC and TD evaluation methods, TD Control methods - SARSA, Q-Learning and their variants.",
+          "hours": 8
+        },
+        {
+          "title": "Function Approximation Methods",
+          "topics": "Getting started with the function approximation methods, Revisiting risk minimization, gradient de- scent from Machine Learning, Gradient MC and Semi-gradient TD(0) algorithms, Eligibility trace for function approximation, Afterstates, Control with function approximation, Least squares, Experience replay in deep Q-Networks. Log-derivative trick, Naive REINFORCE algorithm, bias and variance in Reinforcement Learning, Reducing variance in policy gradient estimates, baselines, advantage func- tion, actor-critic methods.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562D-AID",
+      "title": "Game Theory and Applications",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        59,
+        60
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Game Theory",
+          "topics": "Introduction to Game, Game History , Game Architecture, Game Logic, Game View for the Human Player, Game Views for AI Agents, game idea visualization and storytelling, and game documentation. Game Programming, Software Tools, Building the Game, creating a Project, Creating Build Scripts, Introduction to Unity , prototyping using Unity , Photoshop and flash. Case study: Write a game architecture for target shooting game",
+          "hours": 8
+        },
+        {
+          "title": "Game UI Design Elements",
+          "topics": "Introduction to User Interface, Web and Graphic User Interfaces, Visual Design Basics, Usability , Visual and Interactive elements, buttons, icons, spacing, sliders and scrollbars, typography , color schemes, text style, shapes and layers to create screens, fundamental principles of visual design, pixel precision to UI elements. Case study:Design the UI for “candy catch game \"and represent essential components",
+          "hours": 8
+        },
+        {
+          "title": "Game Design Process",
+          "topics": "Pre-Production, Production, Post-Production, MDA Framework, Planning and Iteration: Under plan- ning and Over planning, Iteration, Knowledge Creation: Knowledge Creation Methods, Rumina- tion, Research, artistic methods, Brainstorming, written analysis, Debate, testing,metrics, invented methods, Organic Process, Dependencies:Dependency Stack, Cascading uncertainty , Design Backlog, Authority , Motivation:Extrinsic Rewards, meaningful work, expectations-Driven motivation, Complex Decisions: Decision Effects, Decision Effects Case Study , Values: Openness, Candor, Humility , Hunger.",
+          "hours": 8
+        },
+        {
+          "title": "2D & 3D Modeling for Game",
+          "topics": "Definition of Computer-based Animation, Basic Types of Animation: Real Time, Non-real-time, Defi- nition of Modelling. Understanding 2D Splines & shape using unity , Extrude & Bevel 2D object to 3D using Unity SNAPS, Understanding Loft & terrain, Creation of 3D objects. Modelling with Polygons, using Unity . Creating and Destroying Game Objects , the scene view, building simple and complex games in 2D and 3D using Unity . Case study: Design 2D and 3D face models.",
+          "hours": 8
+        },
+        {
+          "title": "Game Applications",
+          "topics": "Introduction to AI, Model of Game AI, Movement, Decision Making, Strategy , Infrastructure, Game AI, The Pathfinding Graphs, Weighted Graphs, Directed Weighted Graphs, Dijkstra Algorithm, Data Structures and Interfaces, Performance of Dijkstra, Decision Making, Decision Tree, Knowledge Rep- resentation, Implementation of Nodes, Performance of Decision Trees, Balancing the Tree, Random Decision Trees. Case study: AI in Video Games.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-581-AID",
+      "title": "Technical Seminar - I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        61,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-AID",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research",
+          "topics": "Basic of Research : Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de- scribe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research : Why? Research Questions, Engineering Ethics, conclusive proof-what con- stitutes, A research project-Why take on? Case Study : Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects- en- vironment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": 12
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of review , Developing the objectives, Preparing the research design includ- ing sample Design, Sample size. Archival Literature, Why should engineers be ethical? Types of publications- Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study : Engineering dictionary , Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h-index, I-index, plagiarism, copyright infringement",
+          "hours": 12
+        },
+        {
+          "title": "Analysis of Variance and Covariance",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short-cut method for oneway ANOVA, Coding method, Two-way ANOVA, ANOVA in Latin-square design, analysis of co-variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": 12
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond google, impact factor, H-Index. IPR: What is IPR?, importance of patents, types of IPR, process of patent.",
+          "hours": 12
+        },
+        {
+          "title": "Outcome of Research and Research Presentation",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, Testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-AID",
+      "title": "Internship/On Job Training (IN/OJT)",
+      "semester": 3,
+      "type": "OJT/ Internship",
+      "credits": 5,
+      "pages": [
+        70,
+        72
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-AID",
+      "title": "Technical Seminar - II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        73,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-AID",
+      "title": "Research Project Stage - I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        78,
+        81
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-AID",
+      "title": "Technical Seminar - III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        82,
+        86
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-AID",
+      "title": "Research Project Stage-II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        87,
+        90
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

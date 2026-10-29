@@ -1,0 +1,80 @@
+{
+  "id": "s-y-b-a-social-work-syllabus-ac-year-2025-26",
+  "kind": "programme",
+  "programme": "S.Y.B.A. Social Work",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "SOW-241-T/MN-T",
+      "title": "Social work-I",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "FIELDS OF SOCIAL WORK - I",
+          "topics": "Family & Child Welfare: Problems of family & children, institutional & non-institutional services. Correctional Social Work: Concept, causes of crime & delinquency, institutional & non-institutional services. Medical & Psychiatric Social Work: Concept of health, disease & hygiene, medical & psychiatric social work in hospital, role of medical & psychiatric social worker. Industrial Social Work: Concept of HRD & HRM, role & functions of HR manager & labour welfare officer.",
+          "hours": 15
+        },
+        {
+          "title": "FIELDS OF SOCIAL WORK - II",
+          "topics": "Youth Welfare: Concept, needs & problems of youth, youth welfare services. Women Welfare: Situation of women in Indian society, gender issues, problems & welfare services for women. Welfare of the Differently Abled: Concept, causes, types & problems of differently abled, rehabilitation of differently abled. Gerontological Social Work: Concept, problems of elderly, services for elderly.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "SOW-242-P /MN-P",
+      "title": "Social Work-II",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        9,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "SOW-291-T/ MN-T",
+      "title": "Social Work -III",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "FIELDS OF SOCIAL WORK - III",
+          "topics": "Urban Community Development: Concept of urban community, characteristics & problems of urban community, services for urban community development. Rural Community Development: Concept of rural community, characteristics & problems of rural community, services for rural community development. Tribal Community Development: Concept of tribal community, characteristics & problems of tribal community, services for tribal community development.",
+          "hours": 15
+        },
+        {
+          "title": "FIELDS OF SOCIAL WORK - IV",
+          "topics": "Ecological / Environmental Social Work: Concept of ecology & environment, environmental issues & problems, role of social worker in environmental protection. Disaster Management: Concept, types & phases of disaster management, role of social worker in disaster management. Social Work in Conflict Resolution: Concept of conflict, causes & types of conflict, peace building & conflict resolution.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "SOW-292-P / MN-P",
+      "title": "Social Work-IV",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        15,
+        17
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

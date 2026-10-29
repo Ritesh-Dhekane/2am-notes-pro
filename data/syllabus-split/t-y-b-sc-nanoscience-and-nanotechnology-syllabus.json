@@ -1,0 +1,489 @@
+{
+  "id": "t-y-b-sc-nanoscience-and-nanotechnology-syllabus",
+  "kind": "programme",
+  "programme": "Three Year B.Sc. Degree Program in Nanoscience and Nanotechnology",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "NS -301-MJ",
+      "title": "Polymer and Composites",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": [
+        {
+          "title": "Synthesis of Polymer: (10 lectures)",
+          "topics": "Introduction to composite materials – Classification, Introduction to polymer composites – Nano, micro and macro scales – Reinforcements – Short fibre, long fibre and particulate fillers – Matrices – thermoplastics-thermosets and rubbers - Nano and micro c omposites, Applications of composites.",
+          "hours": 10
+        },
+        {
+          "title": "Synthesis of metal –polymer nanocomposites",
+          "topics": "Incorporation of reinforcements in polymer solution mixing - latex stage mixing-melt mixing and in-situ polymerization and precipitation – Dispersion and nucleating effects -Intercalation and exfoliation- Application of layered and nonlayered nano and micro particles in polymer modification- Different methods of preparation of composites.",
+          "hours": 10
+        },
+        {
+          "title": "Synthesis of Oxide/sulphide –polymer nanocomposites",
+          "topics": "Carbon nanotubes- single walled and multi walled - preparation, treatment and functionalization Salient features of polymer modification with carbon nanotubes - nano silica and nano clay organically modified layered clays: various met hods used for the incorporation of nano fillers in polymer matrix like solution mixing, latex stage mixing and melt mixing.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "NS -302-MJ",
+      "title": "Nanophysics",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Probability and distribution functions (6 lectures)",
+          "topics": "Elementary probability theory: Preliminary concepts, Binomial distribution, mean value, standard deviation, Gaussian distribution, Poisson distribution, mean value. Probability density and probability for continuous variables (brief).",
+          "hours": 6
+        },
+        {
+          "title": "Statistical Distribution of Systems of Particles",
+          "topics": "Behaviour of density of states, Statistical equilibrium, ensemble, canonical ensemble, isolated systems, system in contact with heat bath. Quantum distribution function, Maxwell –Boltzmann statistics, Bose – Einstein statistics, Fermi-Dirac statistics.",
+          "hours": 8
+        },
+        {
+          "title": "Solid State Physics",
+          "topics": "Revision of band theory, band structure, intrinsic and extrinsic semiconductors, Fermi level, band gap in metals, semiconductors and insulators, band gap for bulk, atoms and nanoclusters, density of states, Bohr exciton radius, quantum size effect, nanostructures, quantum well and quantum dots.",
+          "hours": 8
+        },
+        {
+          "title": "Advanced spectroscopy (8 lectures)",
+          "topics": "Dynamic Light scattering (DLS), NMR spectroscopy, ESR and FM R spectroscopy, optical absorption and emission spectroscopy, Thermoluminescence",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "NS -303-MJ",
+      "title": "Nanobiotechnology",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Basic biomolecules",
+          "topics": "Development of nanobiotechnology – overview. Basic biomolecules: • Carbohydrates: Classification, Occurrence, Properties and biological reactions, • Amino acids: Amino acids and peptides-classification, chemical reactions and physical properties. • Protein: Peptide bond, Primary Secondary Tertiary, Quaternary structure of protein with example diagram. Globular and Fibrous protein. • Lipids: Classification, S tructure and Functions. Triglycerides; Phospholipids; Steroids and terpenes. Glycol and lipoproteins-structure and function. Lipid Membranes: Structure and Properties – Models, • Nucleic acids: Nucleoside’s, Nucleotides. Structure of double stranded DNA (B , A, C, D, T and Z DNA). Physical properties of double stranded DNA, Types of RNAs and their biological significance. • Enzymes: Structure, Mechanism of action, Classification.",
+          "hours": 12
+        },
+        {
+          "title": "Biological nanomaterial",
+          "topics": "• Biological nano-partials and its applications: Introduction to biological nanoparticles, Exosomes, lipoproteins, Ferritin, Biological nano-motors and machines, • Biological nano-machines: muscle myosin, ATPase, Hemoglobin, • Biological nanoparticles production - plants and microbia l Biological nanometers: Bacterial Flagella, cilia: Structure and function . • Biological Nano-pores: Ion channels: bacteria-rhodopsin.",
+          "hours": 8
+        },
+        {
+          "title": "Recombinant DNA technology",
+          "topics": "• Introduction, Restriction enzymes, cloning vectors (plasmids, bac teriophages, cosmids, expression), • DNA sequencing: Sanger’s Dideoxy method.",
+          "hours": 5
+        },
+        {
+          "title": "Nanomaterial in biotechnology",
+          "topics": "definition classification of nanomaterial (i) carbon-based materials (ii) metal-based materials (iii) dendrimers (iv) composites, Graphene, Nanotubes, Nanowires, Nano cones, Quantum dots. List of Reference books: 1. Principles of Biochemistry, Lehninger , Nelson, Cox, CBS publishers and distributors, New Delhi, 2004. 2. Fundamentals of Biochemistry, Donald Voet, Akif Uzman, Judith G. Voet, Charlotte W. Pratt, John Wiley and Sons, New York, 2008. 3. Biochemistry, Geoffrey L. Zubay , WCB publishers, 1998. 4. Biochemistry – Lubert Stryer, 1995. _ 5. C. M. Niemeyer, C. A. Mirkin, ―Nanobiotechnology: Concepts, Applications and Perspectives‖, Wiley – VCH, (2004). 6. Nanoscience : Nanobiotechnology and Nanobiology, P. Boisseau, P. Houdy and M. Lahmani, Springer, 2007. 7. Handbook of Nanostructured Biomaterials and Their Applications in Nanobiotechnology, Hari Singh Nalwa, American Scintific Publishers, 2005. 8. Nanobiotechnology, C.M.Niemeyer, C.A. Mirkin, Wiley VCH, 2004. 9. Challa, S.S.R...",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "NS -304-MJ",
+      "title": "Chemical and Biological Techniques for synthesis nanomaterials",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": [
+        {
+          "title": "Synthesis of Nanomaterial",
+          "topics": "Colloids and colloids in solution, Nucleation and growth of nanoparticles, Synthesis of metal and semiconductor nanoparticle by colloidal routes, Langmuis - Blodgett (L -B) method, sol -gel method.",
+          "hours": 6
+        },
+        {
+          "title": "Synthesis of nanomaterial",
+          "topics": "Hydrothermal synthesis, Solvothermal synthesis, Sonochemical Synthesis, Solvothermal synthesis, Sonochemical Synthesis methods, Microwave synthesis, Synthesis using micro-reactor or Lab -or-chip spray pyrolysis, successive ionic Layer adsorption and reaction (SILAR), Electrodeposition",
+          "hours": 8
+        },
+        {
+          "title": "Synthesis of nanomaterial",
+          "topics": "Chemical vapour deposition, Metallorganic chemical vapour deposition (MOCVD), Plasma enhanced chemical vapour deposition (PECVD), Vapour -Liquid- Solid (ULS) method, Me tal Oxide frameworks (MoF), Kirkindall effect and method.",
+          "hours": 8
+        },
+        {
+          "title": "Synthesis of nanomaterial",
+          "topics": "Introduction, Synthesis using microorganisms, Synthesis using plant extract, Use of proteins, Templates like DNA, S-tayer synthesis of nanoparticles using DNA.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "NS -305-MJP",
+      "title": "Nanoscience and Nanotechnology Laboratory-V",
+      "semester": 5,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "NS -306-MJP",
+      "title": "Nanoscience and Nanotechnology Laboratory-VI",
+      "semester": 5,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "NS-310-MJ",
+      "title": "Thin film technology",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": [
+        {
+          "title": "Basics of Thin Films",
+          "topics": " Definition and importance of thin films  Types: metal, dielectric, semiconductor  Growth mechanisms:  Volmer–Weber  Frank–van der Merwe  Stranski–Krastanov  Basic properties: structural, electrical, optical",
+          "hours": 14
+        },
+        {
+          "title": "Deposition Techniques",
+          "topics": " PVD: Thermal evaporation, sputtering  CVD: APCVD, LPCVD, PECVD  Other methods: Spin coating, sol–gel, PLD  Thickness measurement: Quartz crystal monitor, profilometer",
+          "hours": 10
+        },
+        {
+          "title": "Applications",
+          "topics": " Devices: Solar cells, TFT, sensors  Applications: Electronics, coatings, nanotechnology",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "NS-313-MJP",
+      "title": "Practical (Thin film technology)",
+      "semester": 5,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "NS-341-MN",
+      "title": "Basics of Industrial Nanotechnology-II",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Industrial Nanotechnology",
+          "topics": " Definition, scope, and importance of nanotechnology in industry  Historical development and industrial revolution impact  Size-dependent properties of nanomaterials  Classification: Nanoparticles, Nanotubes, Nanofilms, Nanocomposites",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Applications of Nanotechnology",
+          "topics": " Electronics: Nanoelectronics, sensors, semiconductors  Energy: Solar cells, fuel cells, supercapacitors  Medicine: Drug delivery systems, nanomedicine, diagnostics  Textiles: Smart fabrics, antimicrobial coatings",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Applications of Nanotechnology",
+          "topics": " Food Industry: Nano-packaging, food safety  Automobile & Aerospace: Lightweight nanocomposites  Coatings & Paints: Anti-corrosion, self-cleaning surfaces",
+          "hours": 6
+        },
+        {
+          "title": "Industrial Safety, Ethics & Regulations",
+          "topics": " Nanotoxicology and occupational hazards  Environmental impact of nanomaterials  Risk assessment and management  Regulatory bodies and guidelines (ISO, OECD, BIS)  Ethical and societal issues",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "NS-321-VSC",
+      "title": "Basic Instrumentation in Nanotechnology",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        22,
+        22
+      ],
+      "units": [
+        {
+          "title": ". Microscopy Techniques",
+          "topics": " Optical Microscope (basic concept and limitations)  Scanning Electron Microscope (SEM)  Transmission Electron Microscope (TEM)  Atomic Force Microscope (AFM)  Scanning Tunneling Microscope (STM)",
+          "hours": 12
+        },
+        {
+          "title": ". Spectroscopic Techniques",
+          "topics": " UV–Visible Spectroscopy  Fourier Transform Infrared Spectroscopy (FTIR)  Raman Spectroscopy",
+          "hours": 6
+        },
+        {
+          "title": ". Diffraction & Particle Analysis Techniques",
+          "topics": " X-ray Diffraction (XRD)  Dynamic Light Scattering (DLS)  Particle Size Analyzer",
+          "hours": 6
+        },
+        {
+          "title": ". Surface & Elemental Analysis",
+          "topics": " Energy Dispersive X-ray Analysis (EDX/EDS)  X-ray Photoelectron Spectroscopy (XPS)  Surface area analysis (BET method – basic idea)",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "NS-331-FP/CEP",
+      "title": "Field Project / Community Engagement Project",
+      "semester": 5,
+      "type": "FP/CEP",
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "NS -351-MJ",
+      "title": "Polymer Hetero-structure and their applications",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        23,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Hetero-structures (10 Lecturers)",
+          "topics": "Introduction to p -n heterojunction n -n heterojunction and p -p heterojunction. Host Polymer characterization and Inorganic semiconductor characterization.",
+          "hours": 10
+        },
+        {
+          "title": "Hetero-structures by Ex-situ Polymerization (12 Lecturers)",
+          "topics": "Synthesis and characterization of hetero -structure by Ex -situ polymerization using metals, metal oxides and polymers, Applications in electronics such as lasers, transistors and other optoelectronic applications.",
+          "hours": 12
+        },
+        {
+          "title": "Hetero-structures by In-situ Polymerization (08 Lecturers)",
+          "topics": "Synthesis of hetero-structure by In-situ polymerization using metals, metal oxides and polymers, Application",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "NS -352-MJ",
+      "title": "Functional Nanomaterials",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        24,
+        24
+      ],
+      "units": [
+        {
+          "title": "Semiconductor quantum dots",
+          "topics": "Growth mechanism, shape andcomposition control of semiconductor nanocrystals, Synthesis of semiconductor nanocrystals in organic solvents, Aqueous synthesis of semiconductor nanocrystals,Layer-by-layer (LBL) assembly with semiconductor nanoparticles and Nanowires, Applications of quantum dots",
+          "hours": 10
+        },
+        {
+          "title": "Nanotubes and nanowires",
+          "topics": "Fabrication of TiO 2 Nanotube Arrays by, Electrochemical Anodization: F our Synthesis Generations, MaterialProperties of TiO 2 Nanotube Arrays: Structural, Elemental, Optical, and Electrical, Applications, Boron Nitride,Nanotubes: Synthesis and Structure, One -Dimensional ,Oxide Nanostructures",
+          "hours": 10
+        },
+        {
+          "title": "Nanofibers and Metal Oxide Frameworks",
+          "topics": "Introduction, The Electrospinning Process, Key Processing Parameters, Nanofiber Yarnsand Fabrics Formation, Potential Applications of Electrospun Fibers, Nanocomposite Fibers and their Structural Applications, Metal Oxide Frameworks, definitions, advantages, disadvantages, methods of synthesis, Structural originality of MOFs, properties, Applications.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "NS -353-MJ",
+      "title": "Applications of Nanobiotechnology",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Functional Principles of Nanobiotechnology",
+          "topics": "• Information driven nanoassembly, Energetic, Role of enzymes in chemical transformation, allosteric motion and covalent modification in protein activity regulation,.Structure and functional properties of Biomaterials. • Bimolecular motors: ATP Synthetase and flagellar motors. • Traffic across membranes: Potassium channels and Bactreriorhodapsin.",
+          "hours": 8
+        },
+        {
+          "title": "Nanomolecular and nanobiotechnological Diagnostics and detection system r– Array",
+          "topics": "and Chips (08 Lectures) • Nanoarrays Definition, Properties. • Nanofluidic: Definition, Properties. • Microfluidic Chips; Definition, Properties • Protein Microarray: Definition, Properties. • Electrochemical, Optical and mechanical transducer: Principle and Application only • Magnetic transducer and Piezoelectric transducer: Only introduction and use • Biosensor: Introduction, Characteristics, types (CNTs, QD, NPs. Graphene, Dendrimers) • Use of gold nanoparticles as biosensor: Heavy metal cation detection, Detection of small molecules in various samples such as blood., DNA detection, Enzymatic activity assay • Nanobiotechnology in Food Preservation: Food pr ocessing, Food preservation, Food contamination determination.",
+          "hours": null
+        },
+        {
+          "title": "Nanopharmaceuticals",
+          "topics": "• Small scale system for drug delivery system (DDS): Intelligent pills, Wobbling gels, Use of patches, Magnetically retainable drug delivery system, DES. • Applications of nanobiotechnology in the treatment of infectious disease Viral infectious disease, Fungal infectious disease. • Application of nanobiotechnology in the treatment of chronic disease, Diabetes, Hypertension • Application of gold nanoparticles in drug delivery. • Functionalized gold nanoparticles for protein delivery.",
+          "hours": 8
+        },
+        {
+          "title": "Applications in Cancer Therapy and diagnosis",
+          "topics": "• Cancer: Carcinogens, properties of cancer cells and development of cancer cell. • Introduction and Rationale for Nanotechnology in Cancer; Application in Breast cancer. Application in brain cancer. Pancreatic cancer. Target delivery of anticancer drug.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "NS -354-MJ",
+      "title": "Nanoelectronics",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        27,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Semiconductor technology",
+          "topics": "Survey of modern electronics and trends towards nanoelectronics, Discussion of the International Technology, Roadmap of Semiconductor (ITRS) characteristics, Need for new concept in electronics, From microelectronics towards biomolecules electronics, Moores low and CMOS scaling, Atoms -up approaches: Molecular electronics involving single molecules as electronic devices, transport in molecular structures, molecular interconnects.",
+          "hours": 8
+        },
+        {
+          "title": "Fabrication process flow for nano device",
+          "topics": "Environment for VLSI Technology: Clean room and safety requirements. Wafer cleaning processes and wet chemical etching techniques; Impurity incorporation: Solid State diffus ion technology; Ion Implantation; Oxidation: Kinetics of Silicon dioxide growth for thin and ultrathin films. Characterizations of oxide films; High k and low k dielectrics for ULSI.",
+          "hours": 8
+        },
+        {
+          "title": "Lithography",
+          "topics": "Photolithography, E -beam lithography and newer lithography techniques for VLSI/ULSI; Mask generation. CVD techniques for deposition of polysilicon, silicon dioxide, silicon nitride and metal films; Epitaxial growth of silicon; modeling and technology. Metal film deposition: Evaporation and sputtering techniques for metal film. Multi-level metallization schemes.",
+          "hours": 8
+        },
+        {
+          "title": "Nano-devices and Theoretical Modeling",
+          "topics": "Shrink-down approaches: Introduction, The nanoscale MOSFET, Vertical MOSFETs, limits to scaling, system integration limits (interconnect issues etc.), Single electron transistors, new storage, optoelectronic, and spintronics devices.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "NS -355-MJP",
+      "title": "Nanoscience and Nanotechnology Laboratory -VII",
+      "semester": 6,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        28,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "NS -356-MJP",
+      "title": "Nanoscience and Nanotechnology Laboratory-VIII",
+      "semester": 6,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        29,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "NS-360-MJ",
+      "title": "Physics of Nanomaterials",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        30,
+        30
+      ],
+      "units": [
+        {
+          "title": "Basics of Nanomaterials",
+          "topics": " Introduction to nanoscience and nanotechnology  Classification: 0D, 1D, 2D nanomaterials  Quantum confinement and size effects  Surface-to-volume ratio  Top-down and bottom-up approaches",
+          "hours": 10
+        },
+        {
+          "title": "Physical Properties of Nanomaterials",
+          "topics": " Electronic properties: Density of states, quantum wells, wires, dots  Optical properties: Surface plasmon resonance, absorption, photoluminescence  Magnetic properties: Superparamagnetism  Mechanical properties: Strength and hardness",
+          "hours": 10
+        },
+        {
+          "title": "Nanomaterials, Devices and Applications",
+          "topics": " Carbon nanomaterials: Carbon nanotubes (CNTs), graphene  Semiconductor nanomaterials: Quantum dots, nanowires  Nanodevices: Nanoelectronics, nanosensors  Applications: a) Energy (solar cells, batteries) b) Medicine (drug delivery) c) Environment (water purification)",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "NS-361-MJP",
+      "title": "Practical (Physics of Nanomaterials)",
+      "semester": 6,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        31,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "NS-371-VSC",
+      "title": "Basic Instrumentation Skill Practical",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        32,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "NS-381-OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "OJT",
+      "credits": 4,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

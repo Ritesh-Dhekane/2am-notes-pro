@@ -1,0 +1,787 @@
+{
+  "id": "t-y-b-sc-hospitality-studies-16062026",
+  "kind": "programme",
+  "programme": "Four Year Degree Program - B.Sc. (Hospitality Studies)",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HS 331",
+      "title": "Industrial Training and Report",
+      "semester": 5,
+      "type": "OJT",
+      "credits": 16,
+      "pages": [
+        11,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 332",
+      "title": "Project Report",
+      "semester": 5,
+      "type": "FP/CEP",
+      "credits": 6,
+      "pages": [
+        17,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "HS-351-MJ T",
+      "title": "Food Production - V P1 (T)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        29,
+        33
+      ],
+      "units": [
+        {
+          "title": "ORIENTAL CUISINE",
+          "topics": "1.1 Regional Oriental Cuisines Key Culinary Regions Culinary Identity, Signature Dishes of the Countries , Ingredients, Spices & Cooking Techniques , Key Ingredients  China: Five Regional Styles, Dim Sum Culture, Wok Cookery, Umami Principles  Japan: Washoku Philosophy, Sushi Science, Tempura Techniques, Kaiseki Menu Planning  South Korea : Fermentation Methods (Kimchi, Gochujang), Korean BBQ Principles, Temple Cuisine  Thailand: Thai Balance Of Flavors, Curry Pastes, Modern Thai Plating  Malaysia: Nyonya Cuisine, Malay Spice Blends, Satay Principles  Indonesia: Rijsttafel, Sambals, Slow Cooking  Singapore: Hawker Culture, Multicultural Fusion",
+          "hours": 15
+        },
+        {
+          "title": "HIDDEN CULINARY TRADITIONS OF ORIENTAL COUNTRIES",
+          "topics": "2.1 Regional Oriental Cuisines Key Culinary Regions Culinary Identity, Signature Dishes of the Countries , Ingredients, Spices & Cooking Techniques , Key Ingredients  Philippines: Sweet–Sour Balance, Adobo, Coconut Cuisine  Vietnam: Fresh-Herb Cuisine, Pho Techniques, Bánh Preparations  Taiwan: Street-Food Culture, Seafood Dominance, Hakka Culinary Identity  Cambodia: Prahok Fermentation, Mekong Freshwater Cuisine  Mongolia: Nomadic Cookery, Dairy-Based Cuisine, Open- Fire Cooking  Myanmar (Burma): Fermented Tea Leaves, Oil -Rich Dishes, Herbal Broths  Laos: Sticky Rice, Herbs, Fermented Sauces  Tibet: High-Altitude Cuisine, Barley & Yak Based Preparations 2.2 Oriental Fusion Cuisine  Modern Asian fusion concepts  Cross-regional pairing techniques Health-driven trends in Asian cuisine (Gluten-Free, Plant - Forward, Low-Sugar) A comprehensive study of traditional and contemporary cuisines of the East.",
+          "hours": 12
+        },
+        {
+          "title": "Chapter 3",
+          "topics": "FUSION CUISINE INNOVATION, SOUS VIDE & MOLECULAR GASTRONOMY 6 10 3.1 Fusion Cuisine Innovations  Global Fusion Trends  Ingredient Pairing Science  Experimental Plating & Sensory-Based Menu Design 3.2 Sous Vide Cooking  Temperature Control Techniques  Vacuum Sealing Science  Modern Applications (Vegan Sous -Vide, Long -Hold Cooking) 3.3 Molecular Gastronomy  Spherification, Foams, Gels, Emulsions  Modernist Ingredients: Agar, Lecithin, Xanthan  Equipment: Anti-Griddle, Siphon, Rotary Evaporator  Current Trends: Edible Films, Aroma Engineering",
+          "hours": null
+        },
+        {
+          "title": "KITCHEN LAYOUT, DESIGN & PROFESSIONAL MANAGEMENT",
+          "topics": "4.1 Kitchen Layout & Design  Workflow optimization (Hot Kitchen, Cold Kitchen, Bakery, Butchery, Garde Manger)  Integration of Smart Kitchen Technology (SKT)  Ventilation, safety, lighting, energy optimization  Ergonomics and chef well-being 4.2 Organizational Structure & Functional Management  Brigade System Vs. Modern Lean Kitchen Hierarchy  Role mapping and competency-based staffing  SOP development  Digital task management tools 4.3 Current Industrial Trends  AI-integrated kitchen planning  Robot-assisted cooking stations  HACCP 4.0 Smart Compliance Systems",
+          "hours": 9
+        },
+        {
+          "title": "FOOD PRODUCTION MARKETING, MENU ENGINEERING & RECIPE STANDARDIZATION",
+          "topics": "5.1 Marketing in Food Production & Service  Branding for restaurants and hotel kitchens  Social media marketing & food photography basics  Cloud kitchen marketing strategies  Guest psychology and food buying behavior 5.2 Menu Engineering  Menu mix analysis  Contribution margins & profitability  Digital menu boards & dynamic pricing  AI-driven customer preference analytics 5.3 Recipe Standardization  Standard Recipe Cards (SRC)  Portion control systems  Allergen coding & nutritional labeling",
+          "hours": 9
+        },
+        {
+          "title": "INTEGRATED PERFORMANCE MANAGEMENT AND ADVANCED RESOURCE OPTIMIZATION SYSTEMS",
+          "topics": "6.1 Performance Management  Key Performance Indicator (KPI) development for culinary teams  Chef competency assessment  Time-motion studies  Kitchen workflow audits 6.2 Productivity Tools  Kitchen display systems (KDS)  Automated time tracking  Predictive scheduling  Enterprise Resource Planning (ERP) integration for culinary operations 6.3 Inventory & Stock Management  First In, First Out (FIFO), First Expiry, First Out (FEFO) , Last In, Last Out (LILO) applications  Automated inventory systems  Batch cooking & par stock management  The science of shelf life & food preservation 6.4 Waste Management & Sustainability  Food waste analytics & reduction strategies  Smart bins & IoT-enabled waste tracking  Upcycling, composting, and zero-waste cuisine  Water-saving technologies  Green kitchen certifications Leadership in Energy and Environmental Design (LEED, Green Seal) Total 60 100",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HS-351-MJ P",
+      "title": "Food Production - V P1 (P)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        34,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 352-MJ T",
+      "title": "Food Production - V P2 (T)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        37,
+        43
+      ],
+      "units": [
+        {
+          "title": "MIDDLE EASTERN CUISINE & EMERGING CUISINES OF THE SOUTH ASIAN SUBCONTINENT",
+          "topics": "1.1 Introduction to Middle Eastern Cuisine Historical and Cultural Influences  Origin of Middle Eastern food traditions  Influence of ancient civilizations (Persian, Ottoman, Egyptian)  Trade routes: Silk Route, Spice Route  Religious influence (Islam, Halal customs) Geographical Factors Influencing Cuisine  Desert, Mediterranean, and mountainous climates  Impact on ingredients such as olives, dates, grains, lamb  Agricultural practices across regions Key Culinary Regions Culinary Identity, Signature Dishes of the Countries, Ingredients, Spices & Cooking Techniques, Key Ingredients  Lebanon – fresh herbs, dips, mezze culture  Turkey – Ottoman-influenced kebabs, breads, pastries  Iran – saffron, herbs, dried fruits, Chelo Kebab  Israel & Palestine - Shakshuka, Mediterranean flavors, fusion of cuisines due to transmigration, Musakhan Qidreh  Jordan & Syria- – Tribal Bedouin cooking, Mansaf, rich mezze, slow- cooked stews, Aleppo pepper  Saudi Arabia – spiced rice dishes l...",
+          "hours": 16
+        },
+        {
+          "title": "PRODUCT RESEARCH & DEVELOPMENT IN CULINARY SCIENCE",
+          "topics": "2.1 Fundamentals of Culinary R&D  Understanding consumer needs  Market gap analysis  Food innovation cycles 2.2 Product Ideation & Prototype Development  Concept development  Standardization of recipes  Sensory evaluation techniques 2.3 Food Technology Applications  Texture modification  Functional ingredients  Clean-label product development 2.4 Modern Kitchen R&D Trends  Plant-based product innovation  Smart kitchen equipment in R&D (AI sous -vide, induction precision cooking)  Lab-grown meat & alternative proteins  Low-sodium, low-sugar formulations 2.5 Documentation & Costing of New Products  Yield testing  Cost feasibility  Pilot production planning",
+          "hours": 8
+        },
+        {
+          "title": "HUMAN RESOURCE MANAGEMENT (HRM) & LABOUR RELATIONS IN THE KITCHEN",
+          "topics": "3.1 HR Planning in Food Production  Job roles in kitchens  Manpower forecasting  Competency-based recruitment 3.2 Staff Training & Development  Skill mapping  On-the-job training  Performance evaluation methods 3.3 Labour Management & Motivation  Incentive systems  Team management  Conflict resolution 3.4 New HR Trends in Kitchens  Mental health & stress management in kitchens  Diversity & inclusion in culinary teams  Auto Shift Scheduling through AI  Training Multiskilled Personnel  Green HRM",
+          "hours": 9
+        },
+        {
+          "title": "FOOD PRODUCTION ACCOUNTING, COSTING & BUDGETING",
+          "topics": "4.1 Introduction to Food Production Accounting  Importance of accounting in kitchen operations  Types of costs: fixed, variable, semi- variable  Direct vs indirect costs 4.2 Cost Control & Material Management  Purchase control  Receiving control standards  Inventory control (First In First Out, Last In First Out, Perpetual inventory)  Portion control 4.3 Standard Recipe Costing  Yield percentage  Food cost computation  Cost per portion analysis  Contribution margins 4.4 Budgeting for Kitchen Department  Sales forecasting  Budget preparation (monthly & yearly)  Variance analysis 4.5 Financial Statements & Profitability Analysis  Kitchen profit & loss statement  Break-even analysis  Menu engineering (Star, Plow horse, Puzzle, Dog) 4.6 Current Trends in Kitchen Accounting  Cloud-based Point of Sales systems  AI-driven inventory forecasting  Automated cost tracking (food waste analysis tools)  Digital menu engineering software",
+          "hours": 9
+        },
+        {
+          "title": "Chapter 5",
+          "topics": "FINANCIAL RISK MANAGEMENT & ADVANCED COSTING IN FOOD PRODUCTION 09 15 5.1 Financial Risks in Food Production  Cost fluctuations (Meat, Vegetables)  Vendor risks & credit risks  Waste & spoilage risks  Operational inefficiency risks 5.2 Risk Mitigation Tools  Vendor contract management  Food safety compliance  Insurance (product liability, equipment breakdown) 5.3 Advanced Costing Techniques  Activity-based costing (ABC)  Prime cost analysis  Cost-volume-profit analysis (CVP)  Advanced recipe & menu costing techniques 5.4 Costing for Waste Management & Sustainability  Food waste audits  Carbon footprint costing  Energy efficiency costing 5.5 Modern Financial Trends  Digital dashboards for cost monitoring  Smart kitchen analytics  Predictive costing using AI models",
+          "hours": null
+        },
+        {
+          "title": "INTRODUCTION TO LEGAL COMPLIANCE & ACCOUNTING IN FOOD PRODUCTION",
+          "topics": "6.1 Introduction to Food Safety Laws  Food Safety and Standards Authority of India Act & regulations 2006.  Food Safety Management Systems (FSMS)  Hazard Analysis and Critical Control Points compliance 6.2 Financial Legal Requirements  Taxation in food production  Goods and Services Tax implications on food cost  Licensing & permits for kitchen operations 6.3 Labour & Environmental Laws  Employment Act, 2019.  The Occupational Safety, Health and Working Conditions Code, 2020 (workplace safety, hygiene, working conditions in kitchens)  The Shops and Establishments Act (State-specific) (Working hours, leave, employment conditions in restaurants/hotels)  Safety & sanitation rules The Food Safety and Standards Act, 2006 (FSSAI)  (Primary law governing food safety, hygiene, licensing)  FSSAI Schedule 4 Guidelines  Waste management regulations (Bio - waste, plastic waste) The Environment (Protection) Act, 1986 6.4 Audit & Internal Control Requirements  Internal audit procedu...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HS 352-MJ P",
+      "title": "Food Production - V P2 (P)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 353-MJ T",
+      "title": "Food & Beverage Service - V P1 (T)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        47,
+        50
+      ],
+      "units": [
+        {
+          "title": "ROOM SERVICE/IN ROOM DINING (IRD)",
+          "topics": "1.1 1.2 1.3 1.4 Introduction to IRD - Definition, Types of room service – Centralised, De- centralised, Mobile pantry - Importance of Room Service Department in a hotel. Cycle of Service in IRD - Lead Time - Scheduling and Staffing Formats used in IRD Minibar- Introduction, items kept",
+          "hours": 9
+        },
+        {
+          "title": "BANQUETS",
+          "topics": "2.1 Organization structure: Duties & Responsibilities of banquet 2.2 Manager, Captain, Server Banquet Function Prospectus 2.3 Administrative Procedures (Banquet Booking Procedure) 2.4 2.5 2.6 2.7 Seating Arrangements, Banquet layouts, Types of Buffet, live counters Types of Functions –Formal, Informal Formal Functions –Menu, Staffing, Order of Service MICE–Concept and F&B operations involved",
+          "hours": 11
+        },
+        {
+          "title": "BAR PLANNING AND OPERATIONS",
+          "topics": "3.1 Types of Bar (Lounge, cocktail, Wine Bar, Dispense Bar, Sunken Bar, Salsa Bar, Cigar Bar, Bikers Bar, Cop Bar, Sports Bar, Alcohol Free Bar) 3.2 Layout of a standard American Bar, Parts of Bar 3.3 Designing Considerations–Lighting, Furniture, Décor 3.4 Records Maintained (Daily Beverage Inventory Report, Record of Consumption of Cocktails , Inter Bar Transfer Record , Requisitions Record, FLR Record) 3.5 Licenses required (FSSAI Food Safety and Standards Authority License, Liquor License , Eating House License , Shop and Establishment Act , Fire Department , Lift Clea rance, Music License, Certificate of Environmental Clearance , Signage License)",
+          "hours": 11
+        },
+        {
+          "title": "PERSONNEL MANAGEMENT IN F&B SERVICE",
+          "topics": "4.1 Staff Requirement in Restaurant, Banquet and IRD 4.2 Job Description, specification 4.3 Performance Management 4.4 Staff Training–OJT, Simulation, Classroom 4.5 Staff Promotion, Intradepartmental Transfer",
+          "hours": 9
+        },
+        {
+          "title": "AN OVERVIEW OF FOOD AND BEVERAGE CONTROL",
+          "topics": "5.1 Introduction to F&B control 5.2 Objectives and importance 5.3 Control Cycle– Planning phase– Financial, Catering, Marketing Operational phase – Purchasing, Storing, Issuing, Preparing, selling Management Phase – Cost reporting, Assessment, corrective measures",
+          "hours": 11
+        },
+        {
+          "title": "FINANCIAL ASPECTS",
+          "topics": "6.1 Elements of Cost & Types of cost 6.2 Budget–Types of Budget 6.3 Sources of Finance to start an outlet/ hotel 6.4 Concepts of Food Control –SPS, Standard Yield, Recipe, Portion, issuing methods – LIFO, FIFO 6.5 Records maintained by store department (dead stock register, issue register. 6.6 Role of Store, Kitchen and F&B department in food control Total 60 100",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HS 353-MJ P",
+      "title": "Food & Beverage Service - V P2 (P)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        51,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 354-MJ T",
+      "title": "Food & Beverage Service - V P1 (T)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        52,
+        56
+      ],
+      "units": [
+        {
+          "title": "GUERIDON SERVICE",
+          "topics": "1.1 1.2 1.3 1.4 1.5 1.6 Origin and Definition Types of Trolleys and Layout (Flambé Trolley, Carving Trolley, Hors d‟oeuvre Trolley, Dessert Trolley, Cheese Trolley, Beverage Trolley) Mise en Place for Gueridon & Special Equipment (Flare lamps, Chafing dish or Suzette pans, Hot plates, Calor gas. Care and maintenance of equipment) Service Procedures (Trolley Set up, Order Taking & Method of Serving dishes at Table) & Hygiene & Safety standards Service of Important Classical Dishes Crêpes Suzette , Caesar Salad , Steak Diane, Banana Flambé, Pineapple Flamb é, Roast Chicken, Prawns Cocktail, Peach Flambé, Rum Omlette) Japanese style of Service",
+          "hours": 9
+        },
+        {
+          "title": "RESTAURANT PLANNING AND OPERATIONS",
+          "topics": "2.1 2.2 2.3 2.4 2.5 2.6 Types of Restaurants Location or site Sources of Finance Design Considerations Furniture Lighting and Décor 2.7 2.8 2.9 Equipment required Records maintained Licenses required",
+          "hours": 11
+        },
+        {
+          "title": "THE MARKETING OF FOOD & BEVERAGE SERVICE INDUSTRY",
+          "topics": "3.1 3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 3.10 Marketing definition & elements of the marketing Marketing of Services ( Intangibility, Inseparability, Variability, Perishability) Marketing Environment (Micro & Macro Environment) Market Segmentation ( Geographic, Demographic, Psychographic, Behavioral) Marketing Mix (7 p‟s of Marketing) Product life cycle Internet Marketing Aims & objective of Advertising Advertising techniques ( Direct Mail, Email, Broadcasting, Press, Advertising, Signs & Posters) Merchandising (Menu Merchandising)",
+          "hours": 11
+        },
+        {
+          "title": "PURCHASING MANAGEMENT AND PROCUREMENT CYCLE IN HOSPITALITY OPERATIONS",
+          "topics": "4.1 4.2 4.3 4.4 4.5 Introduction to procurement cycle (Definition & Overview of five stages in purchase cycle) Purchasing Procedures Purchasing Consideration, ABC analysis, Selection of supplier, Aids to Purchasing, Purchase methods Responsibilities of Purchasing Manager Technology in purchasing system Purchasing in Multi unit organization (Chain system, Franchise, Company operated unit)",
+          "hours": 9
+        },
+        {
+          "title": "RECEIVING, STORING AND INVENTORY CONTROL IN FOOD & BEVERAGE OPERATIONS",
+          "topics": "5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 5.9 Receiving Procedure Receiving (High cost processed food) Duties & Responsibility of Receiving Manager & Clerk Safety & Security concerns in receiving (Unauthorized Entry, Theft and Pilferage, Short Delivery Fraud, Substandard or Wrong Quality Goods, Substitution of Goods, Improper Inspection, Improper Storage After Receiving, Lack of Surveillance, Poor Record Keeping, Expired Food & Contaminated of Food) Technology & Receiving Systems (Purchase Report, Automated Systems) Storing & Issuing of Food (Integration with PMS & stock Taking) Storing control general procedures (Defining storage area) Managing quality during storage (Product rotation, Controlled environment & Sanitation practices) Inventory record keeping procedure & systems (Inventory turnover, Physical inventory system, Perpetual inventory system)",
+          "hours": 11
+        },
+        {
+          "title": "MOLECULAR MIXOLOGY",
+          "topics": "6.1 6.2 6.3 6.4 6.5 Introduction to molecular Mixology (Definition, Origin & Evaluation, Role of Science & Chemistry in Mixology, Difference between traditional bartending & Molecular Mixology) Tools & Equipment used in Molecular Mixology Ingredients & Additives used in Molecular Mixology Molecular Mixology Techniques & Cocktail preparation Costing of molecular cocktail Total 60 100",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HS 354-MJ P",
+      "title": "Food & Beverage Service - V P2 (P)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        57,
+        57
+      ],
+      "units": []
+    },
+    {
+      "code": "HS-355-MJ T",
+      "title": "Rooms Division - V P1 (T)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "INTERIOR DECORATION",
+          "topics": "1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 1.10 Introduction to Interior Decoration (with Modern Practices) and Objectives of Interior Decoration Elements of Design (Line, Color, Form, Texture, Space, Light) Psychological effects of color and light Types and Purpose of lighting (Types – Natural and Artificial, Direct Lighting, Indirect Lighting, Diffused Lighting, Task Lighting, Safety Lighting) Energy Efficient Lighting Systems Types of Windows and Window Treatments (Curtains, Swags, Valances and Blinds) Classification of Flooring (Hard, Soft and Semi-hard) Selection Criteria for Flooring Types and Functions of Wall Coverings (Types – Paint, Fabric and Wall Paper) Role of Soft Furnishings and Accessories in Décor",
+          "hours": 15
+        },
+        {
+          "title": "RENOVATION CONCEPTS AND PROCESS IN HOTEL HOUSEKEEPING",
+          "topics": "2.1 2.2 2.3 2.4 Meaning and Need of Renovation Concept of – Minor Renovation (Refurbishing, Redecoration) and Major Renovation (Restoration and Remolding) Renovation Process (Pre-renovation, Renovation, Post-renovation practices followed by the Housekeeping department) Meaning and Importance of Snag List",
+          "hours": 6
+        },
+        {
+          "title": "BUDGET AND BUDGETARY CONTROL",
+          "topics": "3.1 3.2 3.3 3.4 Concept and Definition of Budget Types of Budget in Housekeeping (Operating and Capital) Calculating Room Cost Cost Control Measures",
+          "hours": 6
+        },
+        {
+          "title": "INVENTORY MANAGEMENT AND PURCHASING SYSTEMS",
+          "topics": "4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 Meaning and Importance of Inventory Types of inventories in Housekeeping (Types – Recycled and Non-recycled, Linen and Uniform, Room Supplies, Cleaning Agents, Miscellaneous) Stock Levels and Reorder Levels Meaning and Objectives of Purchasing Principles of Purchasing (5 Rs – Right Quality, Right Quantity, Right Time, Right Price and Right Vendor) Purchasing Procedure (Pre-purchase, Purchase, Post-purchase) Types of Purchasing (Formal, Cash and Carry, Auction, Online, Daily, Weekly, Tender/Contract) Selection Criteria for Supplier / Vendor",
+          "hours": 10
+        },
+        {
+          "title": "ERGONOMICS IN HOUSEKEEPING",
+          "topics": "5.1 5.2 5.3 5.4 5.5 5.6 Concept and Importance of Ergonomics Principles of ergonomics in Housekeeping Risk factors Ergonomic tools and equipment Workstation design Human factors and Safety standards to be considered while designing the workplace",
+          "hours": 8
+        },
+        {
+          "title": "MANPOWER PLANNING IN HOUSEKEEPING",
+          "topics": "6.1 6.2 6.3 6.4 6.5 6.6 Introduction to Job Analysis, Job Description and Job Specification Job Roles in Housekeeping - (Executive Housekeeper, Floor Supervisor, Control Desk Supervisor, Public Area Supervisor, Guest Room Attendant) Importance of Manpower Planning in Housekeeping Factors Affecting Manpower Planning Factors to be considered while calculating staff requirement Developing Duty Ro ster (Key consideration - Types of Shifts, Weekly Offs, Leave Planning)",
+          "hours": 10
+        },
+        {
+          "title": "CURRENT HOUSEKEEPING OPERATIONS AND PRACTICES",
+          "topics": "7.1 7.2 7.3 7.4 Cleanliness to hygienically clean to clinically clean Advance operations (Robotic, Cobotic, RFID) Use of AI in Housekeeping Housekeeping practices in Airlines, Cruise liners and Corporate Offices Total 60 100",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "HS-355-MJ P",
+      "title": "Rooms Division - V P1 (P)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        62,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "HS-356-MJ T",
+      "title": "Rooms Division - V P2 (T)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        63,
+        66
+      ],
+      "units": [
+        {
+          "title": "SALES TECHNIQUES IN HOTEL FRONT OFFICE",
+          "topics": "1.1 1.2 1.3 1.4 1.5 Concept and importance of sales in Front Office operations Sales Techniques Sales Tools Loyalty Programs - - Definition and importance of Loyalty Program - Benefits of loyalty program - Types / Levels of loyalty program Role of Front Office in maximizing room revenue.",
+          "hours": 8
+        },
+        {
+          "title": "ESTABLISHING ROOM RATES",
+          "topics": "2.1 2.2 2.3 2.4 2.5 Components of Room Rates Factors Affecting Room Rates Hidden Charges Types of Rates Hubbart’s Formula, Rule of Thumb approach, Market Condition Approach",
+          "hours": 9
+        },
+        {
+          "title": "FORECASTING ROOM AVAILABILITY",
+          "topics": "3.1 3.2 3.3 3.4 3.5 3.6 Meaning and Importance of Forecasting Benefits of Forecasting Factors Affecting Forecasting Data Required in Forecasting of Room Availability Methods of Room Forecasting Use of historical data 3.7 3.8 Role of forecasting in revenue management Forms and Formulas used in forecasting",
+          "hours": 10
+        },
+        {
+          "title": "YIELD MANAGEMENT",
+          "topics": "4.1 4.2 4.3 4.4 Concept and Benefits of Yield Management Principles of Yield Management Strategies of Yield Management (Selective Bargaining, Overbooking) Challenges in Yield Management",
+          "hours": 9
+        },
+        {
+          "title": "MANAGEMENT INFORMATION SYSTEMS (MIS)",
+          "topics": "5.1 5.2 5.3 5.4 5.5 Significance of MIS Advantages and Limitations of MIS MIS modules Reports generated using MIS & their importance PMS used in hotels",
+          "hours": 9
+        },
+        {
+          "title": "STAFFING IN FRONT OFFICE",
+          "topics": "6.1 6.2 6.3 6.4 6.5 Introduction to Human Resource Management in Front Office (Recruitment & Selection, Induction & Orientation, Training & Development, Performance Appraisal & Feedback) Job Roles in Front Office (Front Office Manager, Duty Manager, Night Auditor, Guest Relation Executive, Front Office Associate, Bell Boy) Importance of Manpower Planning in Front Office Factors to be considered while calculating staff requirement Developing Duty Roster – (Key consideration - Types of shifts, Weekly Offs, Leave Planning)",
+          "hours": 9
+        },
+        {
+          "title": "GUEST MANAGEMENT",
+          "topics": "7.1 7.3 7.4 7.4 Importance of Guest Satisfaction; Guest Perception of satisfaction Guest Feedback Mechanisms Assessing and analyzing guest satisfaction Enhancing guest satisfaction - Guest engagement - Never say „no‟ - Customer centric processes Total 60 100",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "HS-356-MJ P",
+      "title": "Rooms Division - V P2 (P)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        67,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 361 MJE T",
+      "title": "Food Presentation, Photography & Reporting (T)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        68,
+        70
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION & BASICS OF PHOTOGRAPHY",
+          "topics": "1.1 Introduction to food photography. 1.2 Types of Camera & Lenses (Mirrorless, DSLR, Smartphones). 1.3 Functions of Camera (Depth of Field, Shutter Speed, ISO).",
+          "hours": 6
+        },
+        {
+          "title": "FOOD STYLING",
+          "topics": "2.1 Scene Creation & Plate design: Use of props, backgrounds, surfaces and linens. 2.2 Food styling : C apturing 2 tempting images each of any classic Indian or International Appetizer, Soup, Egg Preparation, Rice Preparation, Main Course, Salad, Dessert, Coffee",
+          "hours": 6
+        },
+        {
+          "title": "PICTURE PROCESSING, EDITING, LIGHTING AND AI",
+          "topics": "3.1 Different software available. 3.2 Cropping, Straightening & Contrast Correction 3.3 Importance of Lighting: Natural & artificial lightning. 3.4 Light Modifications: Use of reflectors and diffusers 3.5 Use of AI in picture processing.",
+          "hours": 6
+        },
+        {
+          "title": "INTRODUCTION TO FOOD REPORTING",
+          "topics": "4.1 Concept and characteristics. 4.2 Research techniques, source verification 4.3 Food trends & industry analysis 4.4 Meaning & scope of Food Reporting , Blogging & Vlogging",
+          "hours": 6
+        },
+        {
+          "title": "AVENUES FOR FOOD PHOTOGRAPHY",
+          "topics": "5.1 Online food photography avenues. 5.2 Requirements in different avenues 5.3 Culinary Photography and Social Media 5.4 Food Photography Ethics : Content copyright; styles and options Total 30 50 Glossary: Students should be familiar with the glossary of terms pertaining to above mentioned topics.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction & Basics of photography:",
+          "topics": "Bokeh, Macro Lens, Depth of Field (DoF), ISO Speed, Shutter Speed.",
+          "hours": null
+        },
+        {
+          "title": "Food Styling:",
+          "topics": "Negative Space, Glistening Agent, Hero Ingredient, Color Wheel Complement, Hero Plate.",
+          "hours": null
+        },
+        {
+          "title": "Picture Processing, Editing, Lighting and AI:",
+          "topics": "Diffuser, Bouncing (Reflecting), Histogram, Generative Fill, AI Denoising.",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Food Reporting (Ethics):",
+          "topics": "Blogging, Vlogging, Reporting Ethics, Foodways, Triangulation, Trend Forecasting, Sensory Descriptors, Primary Sourcing.",
+          "hours": null
+        },
+        {
+          "title": "Avenues for Food Photography:",
+          "topics": "Deliverable Specifications (Spec Sheet), Hook & Retention Composition, Copyright Infringement, Truth-in-Advertising. Assignments: Any TWO assignments to be submitted by students by the end of the semester. Sr. No. Assignment Topic Assignment Type Reference Chapter Expected learning outcome with reference CO number 1 Explain the need and importance of food photography in hospitality. Report Chapter 1 Explain the concept, significance, and applications of food photography in the hospitality industry and its role in marketing and customer engagement. CO 1 2 Compare DSLR, mirrorless, and smartphone cameras for food photography. Report Chapter 2 Identify and compare different types of cameras, lenses, and accessories used in food photography and apply basic photography principles for suitable equipment selection CO 2 3 Style and photograph any FOUR of the food items mentioned in syllabus. Practical Assignment",
+          "hours": null
+        },
+        {
+          "title": "Demonstrate food styling techniques,",
+          "topics": "scene creation, plating aesthetics, and capture visually appealing food photographs CO 3 4 Differentiate between natural and artificial lighting. Report Chapter 4 Analyze and apply different lighting techniques, including natural and artificial lighting, along with light modifiers and AI integration in food photography CO 4 5 Edit one food photograph using any software. Practical Assignment",
+          "hours": null
+        },
+        {
+          "title": "Perform basic picture processing and",
+          "topics": "editing using suitable software tools for cropping, correction, enhancement, and final presentation of food photographs CO 5 References: 1. The Complete Guide to Food Photography (Author: Lauren Caris Short). 2. Food Photography: Pro Secrets for Styling, Lighting, and Shooting (Author: Lara Ferroni). 3. Styling Food for Photography (Author: Sumpter, Alison) 4. Digital Photography in Professional Practice (Author: Holloway, David). 5. Food Photography: From Snapshots to Great Shots (Author: Nicole S. Young)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "HS 361 MJE P",
+      "title": "Food Presentation, Photography & Reporting (P)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        71,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 362 MJE T",
+      "title": "Event Management (T)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        72,
+        76
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO EVENT MANAGEMENT",
+          "topics": "1.1 1.2 1.3 1.4 Meaning, Evolution, Scope, and Importance of Event Management Types of Events Social Events (Weddings, Parties, Family Functions) Corporate Events (Meetings, Conferences, Product Launches) Cultural Events (Fairs & Festivals, Exhibitions) Entertainment Even ts (Music shows, Outdoor concerts, Art shows, Carnivals) Sport Events : Mega Sports Events: IPL, World Cup, Olympics, International Tournaments League-Based Events: Franchise leagues, seasonal tournaments Live Screening Events: Public viewing zones, fan parks, multi - screening arrangements Ticketed Sports Events: Online/offline ticket sales, dynamic pricing, VIP passes Non-Ticketed Sports Events: Sponsored screenings, promotional events, public engagement activities Key Stakeholders: Internal: Event Managers, Event Staff, Sponsors External: Clients, Guests, Artists, Vendors, Media Career Opportunities in Event Management: Event Planner, Catering Manager, Wedding Planner, Venue Planner, Event Designer, Theme Consul...",
+          "hours": 8
+        },
+        {
+          "title": "KEY COMPONENTS IN EVENT PLANNING",
+          "topics": "2.1 2.2 2.3 2.4 Event Concept: Objective, Type of Event, Theme Selection, Target Audience Event Feasibility Study: Budget, Resources, Time Schedule, Risk Assessment, Legal and Regulatory compliances Event Planning & Design: Event Program and Scheduling, Venue Selection, Layout and Design, Décor and Ambience, Food and Beverage Planning, Entertainment and Artist Management Guest Accommodation and Transport Arrangements Vendor Selection (Detailed) Identification of Vendors (Catering, Décor, AV, Logistics, Entertainment, Security, etc.),Criteria for Vendor Selection: Cost, Quality, Experience, Reliability, Availability,Request for Proposal (RFP) and Vendor Shortlisting,Vendor Negotiation: Pricing, Deliver ables, Timelines, Terms & Conditions ,Contract Management: Agreements, Legal Aspects, Service Level Agreements (SLAs),Coordination and Communication with Vendors,Vendor Performance Evaluation and Feedback ,Building Long -Term Vendor Relationships",
+          "hours": 5
+        },
+        {
+          "title": "INTRODUCTION TO MICE, EVENT BUDGETING & MARKETING , EVENT LICENSES & RECORDS",
+          "topics": "3.1 3.2 3.3 3.4 3.5 Introduction to MICE (Meetings, Incentives, Conferences, Exhibitions): Meaning and Concept of MICE,Importance and Growth of MICE Industry 3.1.1 Types of MICE Events: Meetings (Corporate meetings, board meetings), Incentives (Reward programs, employee motivation tours), Conferences (Professional, academic, business conferences), Exhibitions (Trade fairs, expos, industry exhibitions) 3.1.2 Role of MICE in Hospitality and Tourism Industry 3.1.3 Current Trends in MICE: Hybrid and Virtual Conferences, Use of Technology and AI in MICE,Globalization of Events,Sustainability in MICE Events,Personalization and Experiential Engagement Event Budgeting & Financial Planning: Budgeting, Costing, Sponsorship Management, Break even analysis, Cost controlling Event Marketing and Promotion: Event Branding, Advertising and Publicity, Promotion through Digital & Social Media Marketing Important Licen ses & Permissions Required for Events: Police Permission / NOC, Fire Safety NOC, Mu...",
+          "hours": 5
+        },
+        {
+          "title": "EVENT OPERATIONS",
+          "topics": "4.1 4.2 4.3 Pre-Event Operations: Manpower Planning, Timeline and Scheduling, Permissions and Legal Requirements, Risk Assessment and Crisis Planning, Control Center & Logistics a) Event Setup: Venue preparation, Layout & Décor setup, AV Setup, Registration and Reception, Food and Beverage Setup, Rehearsals and Trial runs b) Planning of Ticketed & Non-Ticketed Events: Ticketed Events: Ticketed Platforms (Online/Offline), Pricing Strategies and Categories (VIP, Early Bird, Group Tickets), Registration and Entry Management Systems (QR Codes, RFID, E-tickets) Non-Ticketed Events: Guest List Management and Invitations, RSVP Tracking and Confirmation , Sponsorship-Based Entry Management c) Event Teardown: Crowd Management, Safety and Security, Health and Safety Regulations, Vendor clearance, Waste Management and Cleaning, Final Inspection During-Event Operations: Ticketed Events: Crowd Flow and Queue Management, Security and Access Control, Crisis Management Non-Ticketed Events: On-site ...",
+          "hours": 8
+        },
+        {
+          "title": "EMERGING TRENDS",
+          "topics": "5.1 5.2 5.3 5.4 Experiential Events: Workshops, Hands -On Activities, and Multi-Sensory Experiences Use of Technology: Hybrid & Virtual Events, Use of AI, Event Software and Mobile Application, Advanced Data Analytics Sustainability in Event s: Eco-friendly practices, Reducing waste and carbon emissions, Sourcing local and sustainable materials, Reducing use (paper, water, plastic), Outdoor events, Energy Efficiency (LED lighting, renewable energy sources), Sustainable Venue Selection (Green -certified venues), Waste Segregation and Recycling Management, Food Waste Management and Donation of Leftovers,Sus tainable Catering Practices (Organic, locally sourced food) Health and Wellness: Healthy Food and Beverage Options,Break-out Areas for Relaxation and Mindfulness,Wellness Activities (Yoga sessions, meditation zones) Total 30 50",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "HS 362 MJE P",
+      "title": "Event Management (P)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        77,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 363 MJE T",
+      "title": "Marketing & Revenue Management (T)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        78,
+        81
+      ],
+      "units": [
+        {
+          "title": "UNDERSTANDING THE MARKET",
+          "topics": "1.1 Introduction to markets and their sections 1.2 Difference between Segments and Markets, Segments and Channels, Marketing Mix. 1.3 How to ascertain and reach target markets. Consumer behavior relating to Segments, channels and personalized offers. 1.4 What influences guests’ choices-location, facilities, price 1.5 How they shop - Self, OTA (Online Travel Agencies), Offline, Recommendations from family/friends 1.6 How various schemes affect decision making (Privilege Cards, Memberships, Travel Packages, Discounts, Off - Season Deals)",
+          "hours": 5
+        },
+        {
+          "title": "UNDERSTANDING BRANDING",
+          "topics": "2.1 2.2 What is a brand? Brand Identification - Brand Identity (Name), Logo, Colors, Culture 2.2 How to build a brand, products and services 2.3 Introduction to Popular Tools of Branding – Website, Social Media, Review platforms, Booking platforms (OTA - Online Travel Agencies), Google my Business, SEO -Search Engine Optimization 2.4 How to market your brand identity – essential Do‟s and Don‟ts to various platforms usage like print, social, digital, souvenirs, etc. 2.5 Loyalty and retention programs – concept and types, perceived value, marketing strategies.",
+          "hours": 4
+        },
+        {
+          "title": "UNDERSTANDING REVENUE MANAGEMENT",
+          "topics": "3.1 Statistics – Revision of Average single rate, Average Double rate, ARR, RevPAR, GOPPAR, calculation and importance of Multiple Occupancy Percentage, Rate spread, Transient room sales 3.2 Front Office sales – Upselling, Suggestive Selling, Cross Selling 3.3 Promoting housekeeping and other department revenue generation – laundry, spa, gym, salon, etc 3.4 Special events – promotion and execution, Promoting F& B revenue generation modules -Food festivals, Banquets, Deliveries, etc. 3.5 Importance of allied departments revenue management in success of hotel",
+          "hours": 7
+        },
+        {
+          "title": "UNDERSTANDING FORECASTING",
+          "topics": "4.1 Importance and effects of Organizational Forecasting : Basis Of Forecasting, Fair Market Forecasting, Volume Forecasting, Capacity Management. 4.2 Organizational Yield Management – Modes & Importance Of Calculation 4.3 Yield statistics – identical yields, required non-room revenue per guest, F & B revenue per guest (RevPASH -Revenue Per Available Seat Hour) – restaurants and banquets, revenue/sq meter",
+          "hours": 7
+        },
+        {
+          "title": "USING REVENUE MANAGEMENT",
+          "topics": "5.1 Role of Revenue Manager: Revenue meetings 5.2 Implementing Revenue strategies : Potential high and low demand tactics 5.3 Revenue Management Softwares and their benefits 5.4 What is benchmarking 5.5 How to measure hotel performance : KPI (Key Performance Indicators), Tools and gaps to measure performance TOTAL 30 50 Glossary: Students should be familiar with the glossary of terms pertaining to above mentioned topics.",
+          "hours": 7
+        },
+        {
+          "title": "Understanding the Market",
+          "topics": "Market Segmentation, Target Market, Distribution Channel, Consumer Buying Behavior, Seasonal Pricing",
+          "hours": null
+        },
+        {
+          "title": "Understanding Branding",
+          "topics": "Brand Identity, Brand Positioning, Search Engine Optimization (SEO), Online Reputation Management, Loyalty Program",
+          "hours": null
+        },
+        {
+          "title": "Understanding Revenue Management",
+          "topics": "Average Room Rate (ARR), Revenue per Available Room (RevPAR), Gross Operating Profit per Available Room (GOPPAR), Upselling, Cross Selling",
+          "hours": null
+        },
+        {
+          "title": "Understanding Forecasting",
+          "topics": "Demand Forecasting, Yield Management, Capacity Management, RevPASH (Revenue per Available Seat Hour), Market Forecasting",
+          "hours": null
+        },
+        {
+          "title": "Using Revenue Management",
+          "topics": "Revenue Manager, Dynamic Pricing, Benchmarking, Key Performance Indicator (KPI), Revenue Management System (RMS) Assignments: Any TWO assignments to be submitted by students by the end of the semester. Sr. No. Assignment Topic Assignment Type Reference Chapter Expected learning outcome with reference CO number 1 Understanding the Market a) Write in brief about the various marketing strategies adopted by Hotel‟s to maximize their revenue. b) Highlight some challenges with hotel‟s distribution channels. PPT Chapter 1 To inculcate knowledge on basic concepts of marketing, marketing mix and market segmentation. CO 1 2 Understanding Guest a) What are the factors influencing choice of accommodation by the guest in the hotels? b) Explain the importance of loyalty program in a hotel and its effectiveness. Assignment Chapter 1 Learning to make hotel policies to foster long term loyalty towards the guest so as to sustain in the competitive market. CO 2 3 Understanding the brand a) “Branding” ...",
+          "hours": null
+        },
+        {
+          "title": "Creating Brand identity for the",
+          "topics": "hotel and understanding it‟s importance. CO 2 4 Understanding Revenue Management a) Highlight the tactics a hotel can adapt to boost revenue maximization. b) Elaborate key pricing strategies of a hotel. Assignment Chapter 3 Understanding comprehensive strategies of hotels to optimize overall revenue. CO 3 5 Understanding Forecasting a) Capacity Management - an effective tool of managing room sales. Justify this statement with appropriate examples b) What are the software used for Yield management in hotels? Assignment Chapter 4 Learning how one can measure yield and thus make Management related decisions regarding the turnover and the revenue effectively. CO 4 6 Using Revenue Management a) “Group Room Sales is an important part of Revenue management PPT – Classroom presentations with case study",
+          "hours": null
+        },
+        {
+          "title": "Understanding how Price analysis",
+          "topics": "and market share analysis plays an important role of the revenue manager. CO 5 technique”. Elaborate with relevant examples. b) What are the tactics that a hotel uses during potentially high demand period? examples 7 Understanding benchmarking a) Why is benchmarking essential in the hotel industry? b) What is KPI and give examples. PPT – Classroom presentations with case study examples",
+          "hours": null
+        },
+        {
+          "title": "Determining KPI to measure the",
+          "topics": "hotel‟s performance and success. CO 5",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "HS 363 MJE P",
+      "title": "Marketing & Revenue Management (P)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        82,
+        82
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 391 MN T",
+      "title": "Food Production – V (T)",
+      "semester": 6,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        83,
+        86
+      ],
+      "units": [
+        {
+          "title": "ORIENTAL CUISINE",
+          "topics": "1.1 Oriental cuisines:  China: Five Regional Styles, Dim Sum Culture, Wok Cookery, Umami Principles  Japan: Washoku Philosophy, Sushi Science, Tempura Techniques, Kaiseki Menu Planning  South Korea: Fermentation Methods (Kimchi, Gochujang), Korean BBQ Principles, Temple Cuisine  Thailand: Thai Balance Of Flavors, Curry Pastes, Modern Thai Plating  Malaysia: Nyonya Cuisine, Malay Spice Blends, Satay Principles  Indonesia: Rijsttafel, Sambals, Slow Cooking  Singapore: Hawker Culture, Multicultural Fusion  Philippines: Sweet–Sour Balance, Adobo, Coconut Cuisine  Vietnam: Fresh-Herb Cuisine, Pho Techniques, Bánh Preparations  Taiwan: Street-Food Culture, Seafood Dominance, Hakka Culinary Identity  Cambodia: Prahok Fermentation, Mekong Freshwater Cuisine  Mongolia: Nomadic Cookery, Dairy-Based Cuisine, Open - Fire Cooking  Myanmar (Burma): Fermented Tea Leaves, Oil -Rich Dishes, Herbal Broths  Laos: Sticky Rice, Herbs, Fermented Sauces  Tibet: High-Altitude Cuisine, Barley...",
+          "hours": 7
+        },
+        {
+          "title": "FUSION CUISINE & PRODUCT RESEARCH AND DEVELOPMENT",
+          "topics": "2.1 Fusion Cuisine Innovations: Focus on global trends, ingredient pairing, and sensory plating. 2.2 Introduction to Sous Vide Cooking & Molecular Gastronomy. Sous Vide  Temperature Control Techniques  Vacuum Sealing Science  Molecular Gastronomy  Spherification, Foams, Gels, Emulsions  Modernist Ingredients: Agar, Lecithin, Xanthan 2.3 Product R&D : Product Ideation, Fundamentals of Culinary Research & Development, Documentation & Costing of New Products.",
+          "hours": 5
+        },
+        {
+          "title": "KITCHEN DESIGN AND HUMAN RESOURCE MANAGEMENT (HRM)",
+          "topics": "3.1 Kitchen Layout & Design: Workflow optimization (Hot Kitchen, Cold Kitchen, Bakery, Butchery, Garde Manger) 3.2 Organizational Structure & Functional Management: Brigade System Vs. Modern Lean Kitchen Hierarchy 3.3 Current Industrial Trends (HACCP 4.0 Smart Compliance Systems) 3.4 HRM Planning in Food Production. Staff Training  Job roles in kitchens  Manpower forecasting  Skill mapping 3.5 Conflict resolution. Labor Management & Motivation Mental health & stress management in kitchens",
+          "hours": 7
+        },
+        {
+          "title": "FOOD PRODUCTION MARKETING AND ACCOUNTING",
+          "topics": "4.1 Marketing in Food Production: Service Branding for restaurants and hotel kitchens, effective use of social media and food photography Cloud kitchen marketing strategies, and understanding guest psychology to influence food buying behavior. 4.2 Menu Engineering. Recipe Standardization. 4.3 Inventory & Material Management, Cost Control, Budgeting for Kitchen Department.",
+          "hours": 5
+        },
+        {
+          "title": "FINANCIAL RISK AND PERFORMANCE MANAGEMENT.",
+          "topics": "5.1 Financial risks in food production. Cost fluctuations (Meat, Vegetables), Waste & spoilage risks 5.2 Introduction to Waste Management & Sustainability Costing 5.3 KPI – (Key Performance Indicator) Development, Chef Competency Assessment. 5.4 Productivity tools; KDS (Kitchen Display System), ERP (Enterprise Resource Planning) integration for culinary operations. Total 30 50",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "HS 391 MN P",
+      "title": "Food Production – V (P)",
+      "semester": 6,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        87,
+        89
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 392 MN T",
+      "title": "Food & Beverage Service - V (T)",
+      "semester": 6,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        90,
+        92
+      ],
+      "units": [
+        {
+          "title": "ROOM SERVICE/IN ROOM DINING (IRD)",
+          "topics": "1.1 1.2 Introduction to IRD - Definition, Types of room service – Centralised, - De-centralised, Mobile pantry, Minibar - Importance of Room Service Department in a hotel. Formats used in IRD",
+          "hours": 6
+        },
+        {
+          "title": "RESTAURANT & BAR PLANNING",
+          "topics": "2.1 2.2 2.3 2.4 2.5 2.6 Types of Restaurants & Bars Sources of Finance Design Considerations Equipment required Records maintained Licenses required",
+          "hours": 6
+        },
+        {
+          "title": "BANQUETS",
+          "topics": "3.1 3.2 Banquet Function Prospectus Administrative Procedures (Banquet Booking Procedure) 3.3 Seating Arrangements, Banquet layouts ,Types of Buffet, live counters 3.4 Types of Functions –Formal, Informal",
+          "hours": 6
+        },
+        {
+          "title": "AN OVERVIEW OF FOOD AND BEVERAGE CONTROL",
+          "topics": "4.1 Objectives and importance 4.2 Control Cycle– Planning phase Operational phase, Management Phase",
+          "hours": 6
+        },
+        {
+          "title": "MOLECULAR MIXOLOGY",
+          "topics": "5.1 5.2 5.3 5.4 5.5 Introduction to molecular Mixology (Definition, Origin & Evaluation, Role of Science & Chemistry in Mixology, Difference between traditional bartending & Molecular Mixology) Tools & Equipment used in Molecular Mixology Ingredients & Additives used in Molecular Mixology Molecular Mixology Techniques & Cocktail preparation Costing of molecular cocktail Total 30 50",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "HS 392 MN P",
+      "title": "Food & Beverage Service - V (P)",
+      "semester": 6,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        93,
+        93
+      ],
+      "units": []
+    },
+    {
+      "code": "HS 393 MN T",
+      "title": "Rooms Division - V (T)",
+      "semester": 6,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        94,
+        96
+      ],
+      "units": [
+        {
+          "title": "FUNDAMENTALS OF INTERIOR DECORATION AND RENOVATION",
+          "topics": "1.1 1.2 1.3 1.4 1.5 Introduction to Interior Decoration (with Modern Practices) and Objectives of Interior Decoration Elements of design (line, form, color, texture, space, light) Psychological effects of color and light Concept of – Minor Renovation (Refurbishing, Redecoration) and Major Renovation (Restoration and Remolding) Meaning and Importance of Snag List",
+          "hours": 5
+        },
+        {
+          "title": "BUDGETING, INVENTORY, AND PURCHASING IN HOUSEKEEPING",
+          "topics": "2.1 2.2 2.3 2.4 2.5 Concept and Types of Budget in Housekeeping (Operating and Capital) Types of inventories in Housekeeping (Types – Recycled and Non-recycled, Linen and Uniform, Room Supplies, Cleaning Agents, Miscellaneous) Stock levels and Reorder levels Meaning and Objectives of Purchasing Principles of Purchasing (5 Rs – Right Quality, Right Quantity, Right Time, Right Price and Right Vendor)",
+          "hours": 8
+        },
+        {
+          "title": "ERGONOMICS AND HYGIENE IN MODERN HOUSEKEEPING",
+          "topics": "3.1 3.2 3.3 3.4 Concept and Principles of ergonomics in Housekeeping Cleanliness to hygienically clean to clinically clean Advance operations (Robotic, Cobotic, RFID) Use of AI in Housekeeping",
+          "hours": 4
+        },
+        {
+          "title": "FRONT OFFICE SALES AND REVENUE MANAGEMENT",
+          "topics": "4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 Concept and importance of sales in Front Office operations Sales Techniques Sales Tools Factors affecting room rates Meaning and Importance of forecasting Factors affecting forecasting Concept and Benefits of Yield Management Significance of MIS, PMS used in hotels",
+          "hours": 8
+        },
+        {
+          "title": "GUEST MANAGEMENT",
+          "topics": "5.1 5.2 5.3 Importance of Guest Satisfaction; Guest Perception of satisfaction Guest Feedback Mechanisms Enhancing guest satisfaction - Guest engagement - Never say „no‟ - Customer centric processes Total 30 50",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "HS 393 MN P",
+      "title": "Rooms Division - V (P)",
+      "semester": 6,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        97,
+        97
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-351-HS",
+      "title": "Entrepreneurship in Tourism and Hospitality (T)",
+      "semester": 6,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        98,
+        100
+      ],
+      "units": [
+        {
+          "title": "FUNDAMENTALS OF ENTREPRENEURSHIP IN TOURISM & HOSPITALITY",
+          "topics": "1.1 Concept, Importance, and Role of Entrepreneurship in Tourism & Hospitality 1.2 Types Of Enterprises: Travel Agencies, Hotels, Tour Operators, F&B Outlets 1.3 MSMEs (Micro, Small, and Medium Enterprises) and their Role in Tourism Development 1.4 Family-Run Hospitality Businesses 1.5 Scope and Growth Opportunities in Tourism & Hospitality 1.6 Business Opportunities for Students in Tourism & Hospitality Startups including Travel Consultancy, Homestays, Cloud Kitchens, Tour Operations, Event Services, Digital Travel Content, etc. 1.7 Unicorn Level Tourism and Hospitality Companies of India OYO Hotels, MakeMyTrip, EaseMyTrip, Ixigo, Zomato, Ola Cabs, etc.",
+          "hours": 7
+        },
+        {
+          "title": "ENTREPRENEURIAL TRAITS & TRAVEL TRADE CONCEPTS",
+          "topics": "2.1 Entrepreneurial Traits, Leadership, and Decision-Making Skills 2.2 Challenges in Tourism & Hospitality entrepreneurship 2.3 Women Entrepreneurs in Tourism & Hospitality Challenges, Importance, Problems & Case Studies 2.4 Wholesale & Retail Travel Packages - Concept and Differences, Role in Travel Trade",
+          "hours": 5
+        },
+        {
+          "title": "TOURISM OPERATIONS & ITINERARY PLANNING",
+          "topics": "3.1 Tour Personnel: -Tour Manager – Roles & Responsibilities -Tour Guide – Types, Roles & Responsibilities -Tour Escort – Roles & Responsibilities 3.2 FIT & GIT Concepts 3.3 Tour Enquiry Handling Process 3.4 Itinerary Planning : Principles & Preparation",
+          "hours": 6
+        },
+        {
+          "title": "MARKET ASSESSMENT & BUSINESS PLANNING",
+          "topics": "4.1 Emerging Tourism Business Opportunities 4.2 Idea Generation and Innovation in Tourism And Hospitality 4.3 Market Analysis and Target Segmentation 4.4 Marketing Strategies (Digital & Social Media) 4.5 Sources of Finance Internal and External (Bank Loans, Investors, CSR, etc.) 4.6 Startup Business Plan Components (Tourism & Hospitality)  -Executive Summary  -Business Description  -Market Analysis  -Organization & Management Plan  -Product or Service Plan  -Marketing Plan  -Operational Plan  -Financial Plan  -Risk Analysis  -Appendix",
+          "hours": 6
+        },
+        {
+          "title": "LEGAL, ETHICAL & SUSTAINABLE TOURISM",
+          "topics": "5.1 Legal Formalities (Overview) Registration, Licenses, Taxation 5.2 Tourism policies of India (Overview)  -Swadesh Darshan 2.0  -“7-S” Mantra  Swaagat (Welcome), Soochanaa (Information), Suvidhaa (Facilitation), Surakshaa (Security), Sahyog (Cooperation), Sanrachnaa (Infrastructure), And Safaai (Cleanliness) 5.3 Tourism Policies of Maharashtra (Overview) 5.4 Ethics in Tourism & Hospitality Importance, Ethical Principles, Ethical Issues 5.5 Sustainable Tourism Practices Meaning, Importance, Environment Protection Practices, Responsible Tourist Behaviour Total 30 50",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

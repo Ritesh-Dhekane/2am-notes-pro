@@ -1,0 +1,670 @@
+{
+  "id": "s-y-b-sc-data-science-17062025",
+  "kind": "programme",
+  "programme": "B.Sc. (Data Science)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DS-201-MJ-T",
+      "title": "Database Management System",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction of DBMS",
+          "topics": "Introduction, Definition of file, Basic file Operation, Types of file (Logical & Physical) Basic Concept and Definitions (Data, Information, Database), Definition of DBMS, File System Vs. DBMS, Application of DBMS, Purpose of Database Systems, Levels of abstraction, data independence, Structure of DBMS, DBMS users, Advantages and disadvantages of DBMS",
+          "hours": 5
+        },
+        {
+          "title": "Entity-Relationship Model",
+          "topics": "Introduction to Data Models (E-R Models, Relational Model, Network Model, Hierarchical Model), Basic Concepts (entities, attributes, entity sets, relations, relationship sets), Constraints (Mapping Constraints, key constraints, referential Constraints, Unique, NULL, Check constraint), Strong and weak entities, Extended ER Features (generalization, specialization, Aggregation), Structure of Relational Databases (concepts of a table), Examples on E-R Model (Case studies)",
+          "hours": 9
+        },
+        {
+          "title": "Structured Query Language (SQL)",
+          "topics": "Introduction, Basic Structure, DDL Commands, DML Commands, Form a Basic SQL Query Set Operations (union / intersection / except), Aggregate & String Function, NULL Values, Aggregate operators (Group by, having), Nested Queries (Set Membership & Set Comparison operator), SQL mechanisms for joining relations (inner joins, outer joins and their types) case study on SQL",
+          "hours": 10
+        },
+        {
+          "title": "Relational Database Design",
+          "topics": "Introduction to Schema Refinement, Problems Caused by Redundancy, Use of Decompositions, Problems Related to Decomposition, Functional Dependencies (Closure of a Set of FDs, Attribute Closure), Normalization forms (1NF, 2NF, 3NF, BCNN), Decomposition (lossless join, dependency preserving property)",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DS-202-MJ-T",
+      "title": "Data Structure-I",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structure and Algorithm Analysis",
+          "topics": "Overview of Data Structures Need of Data Structure, Definitions: Data and Information, Data Type, Data Object, ADT, Data Structure, Types of Data Structures: Linear vs. Non-linear, Static vs. Dynamic Complexity Analysis Space and Time Complexity, Asymptotic Notation (Big O, Omega ,Theta), Best, Worst, and Average Case Analysis",
+          "hours": 4
+        },
+        {
+          "title": "Array as a Data Structure",
+          "topics": "Introduction to Arrays Representation of Arrays in memory (Contiguous Memory Allocation), Types of Array, Operations: Access, Insertion, Deletion, Traversing Applications of Array Searching (Linear Search, Binary Search), Comparison of searching Methods Sorting Terminology: Internal ,External , Stable, In-Place Sorting, Types of Sorting Study of Comparison Based Sorting-Efficient Bubble Sort, Insertion Sort, Selection Sort Divide and Conquer Strategy \u2013 Merge Sort, Quick Sort",
+          "hours": 7
+        },
+        {
+          "title": "Linked List",
+          "topics": "Introduction to Linked Lists List as a Data Structure, Comparison of Array and Linked list Static and dynamic Implementation of Linked List Types of Linked list -Singly Linked List, Doubly Linked List, Circular Linked List Node structure and pointer-based representation Operations on Linked Lists Create, Traversing, Insertion, Deletion, Searching, Reverse, Concatenate, Merge, Time Complexity of Operations Application of linked List Online Shopping Cart (E-Commerce) Managing Large Datasets in Big Data Processing LRU Cache Implementation (Optimized Data Retrieval) Memory-Efficient Data Structures for NLP",
+          "hours": 7
+        },
+        {
+          "title": "Stack",
+          "topics": "Introduction Stack Operations \u2013 init(), Push(), isEmpty(), isFull(), Peek(), Pop(), Time Complexity of operations, Implementation \u2013Static and Dynamic with Comparison Applications of Stack Data Preprocessing (Undo/Redo in Data Cleaning), Function Call Stack in Recursive Algorithms (Tree Traversal), Expression Evaluation in Data Analysis (Parsing Expressions) Reversing a Dataset (Time Series Data)",
+          "hours": 6
+        },
+        {
+          "title": "Queue",
+          "topics": "Introduction Queue Operation-init(), enqueue(), dequeue(), IsEmpty(), isFull, Peek(), Time Complexity of Operations, Comparison with Stack Implementation \u2013Static and Dynamic with Comparison Types of Queue : Linear Queue, Circular Queue, Priority Queue Dequeue Applications of Queue Data Processing Pipelines (Stream Processing), Task Scheduling in Machine Learning, Web Scraping, Chatbots, Cloud Computing",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DS-203-MJ-P",
+      "title": "Lab Course on DS-201-MJ-T and DS-202-MJ-T",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        9,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "DS-221-VSC-T",
+      "title": "Foundations of Data Science",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Science",
+          "topics": "Introduction to Data Science, Definition and significance of Data Science, Key components: Computer Science, Mathematics, Statistics, Domain Expertise, Difference between Data Science, AI, and Machine Learning, Types of Data: Structured, Unstructured, and Semi-structured, Applications of Data Science in various domains, Roles and Responsibilities of a Data Scientist, Data Science Lifecycle, Real-world case studies.",
+          "hours": 6
+        },
+        {
+          "title": "Statistical Analysis in data science",
+          "topics": "Descriptive Statistics: Measures of Central Tendency (Mean, Median, Mode), Measures of Dispersion (Range, Variance, Standard Deviation, Interquartile Range (IQR)), Percentiles and Quartiles, Inferential Statistics: Population vs. Sample, Probability Distributions: Normal, Binomial, and Poisson, Central Limit Theorem (CLT), Hypothesis Testing: Null and Alternative Hypotheses, Type I and Type II errors, p-value, t-test, z-test, and Chi-Square test, Confidence Intervals, Correlation and Covariance: Pearson vs. Spearman correlation.",
+          "hours": 8
+        },
+        {
+          "title": "Data Collection and Preprocessing",
+          "topics": "Data Collection: Sources of Data: APIs, Web Scraping, Databases, Open Datasets, Data Formats: CSV, JSON, XML, Excel, SQL, Data Preprocessing: Data Cleaning: Handling Missing Values (Imputation, Deletion), Removing Duplicates, Handling Outliers (Z-score, IQR method), Data Transformation: Feature Scaling (Standardization vs. Normalization), Log Transformations, Categorical Data Encoding (One-Hot Encoding, Label Encoding), Exploratory Data Analysis (EDA): Feature Selection & Dimensionality Reduction (Intro to PCA, Feature Importance).",
+          "hours": 8
+        },
+        {
+          "title": "Visualization tools and software",
+          "topics": "Data Visualization: Importance of Data Visualization, Visualization Principles: Choosing the Right Chart, Color Theory, Misleading Graphs, Common Plot Types: Scatter Plots, Bar Charts, Histograms, Box Plots, Heatmaps, Introduction to Data Visualization Tools: Tableau, Power BI, Python Libraries (Matplotlib, Seaborn).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DS-231-FP",
+      "title": "Mini Project",
+      "semester": 3,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "DS-241-MN-T",
+      "title": "Probability Distribution and Modelling",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Continuous Univariate Distributions",
+          "topics": "Continuous sample space: Definition, illustrations. Continuous random variable: Definition, probability density function (p.d.f.), cumulative distribution function (c.d.f.), properties of c.d.f. (statements only). Expectation of continuous r.v., expectation of function of r.v. Moments, raw and central moments, skewness and kurtosis. Moment generating function (M.G.F.): Definition, properties.",
+          "hours": 4
+        },
+        {
+          "title": "Continuous Bivariate Distributions",
+          "topics": "Definition of two-dimensional continuous random variable (X, Y), its joint p.d.f. and properties. Marginal and conditional distributions, conditional expectation. Independence of random variables, covariance and correlation coefficient.",
+          "hours": 4
+        },
+        {
+          "title": "Standard Discrete Distributions",
+          "topics": "Negative Binomial distribution: p.m.f., mean, variance, MGF, CGF, additive property. Geometric distribution: p.m.f., mean, variance, MGF, lack of memory property. Multinomial distribution: joint p.m.f., marginal distributions, covariance.",
+          "hours": 10
+        },
+        {
+          "title": "Standard Univariate Continuous Distribution",
+          "topics": "Exponential distribution: p.d.f., c.d.f., mean, variance, MGF, lack of memory property. Normal distribution: p.d.f., standard normal distribution, properties of normal curve, mean, variance, MGF, CGF, moments, area property, central limit theorem (statement only).",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "DS-242-MN-P",
+      "title": "Lab Course on DS-241-MN-T",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "DS-201-IKS",
+      "title": "Indian Knowledge System in Computing",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Vedic Mathematics & Computational Thinking",
+          "topics": "Introduction to Vedic Mathematics: Historical background, Sixteen Sutras and Thirteen Upa-sutras (focus on computation). Vedic Algorithms: Nikhilam Navatashcaramam Dashatah (multiplication), Urdhva Tiryagbhyam (cross-multiplication), Paravartya Yojayet (division/solving linear equations), Ekadhikina Purvena (series and patterns). Comparative Analysis: Comparing Vedic arithmetic algorithms with modern binary and decimal algorithms, Time and space complexity comparisons.",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Nyaya (Indian Logic)",
+          "topics": "Foundations of Nyaya Philosophy: Overview of Indian epistemological systems, Pramana (sources of valid knowledge): Pratyaksha (perception), Anumana (inference), Upamana (comparison), and Shabda (testimony). Nyaya Syllogism (Pancha-Avayava): Comparison with Aristotelian syllogism, Structure: Pratijna, Hetu, Udaharana, Upanaya, Nigamana. Logical Fallacies (Hetvabhasa): Classification and significance in formal systems.",
+          "hours": 8
+        },
+        {
+          "title": "Panini\u2019s Astadhyayi & Chandas\u0101stra",
+          "topics": "Panini\u2019s Grammar: Astadhyayi as a formal generative grammar system, Concepts of Sivasutras, Maheshvara Sutras, Prattyaharas, and generative rules, Equivalence to Backus-Naur Form (BNF) and Context-Free Grammars (CFG). Pingala\u2019s Chandasastra: Prosody and binary sequences, Meru Prastara (Pascal\u2019s triangle), Fibonacci sequence, binary representations, Pingala\u2019s algorithms for combinatorial generation (Prastara, Nashtam, Uddishtam).",
+          "hours": 8
+        },
+        {
+          "title": "Applications of IKS in Computer Science",
+          "topics": "Vedic Mathematics in Digital Signal Processing (DSP) and Cryptography. Natural Language Processing (NLP) using Paninian grammar frameworks: Knowledge representation and semantic networks. Formal logic in Knowledge Representation: AI inference engines using Nyaya logic.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-201-DS-T",
+      "title": "Ecommerce I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "E- Commerce and Business Model Concepts",
+          "topics": "Introduction to E-commerce: Definition, history, and evolution of e-commerce, Difference between traditional commerce and e-commerce, Key drivers and advantages of e-commerce. Business Models in E-commerce: B2B, B2C, C2C, C2B, and other emerging models, Revenue models (subscription, advertising, affiliate, transaction fee).",
+          "hours": 7
+        },
+        {
+          "title": "E-Marketing and E- Commerce Application",
+          "topics": "E-Marketing Strategies: Search Engine Optimization (SEO) and Search Engine Marketing (SEM), Content marketing and social media marketing, Email marketing and affiliate marketing. E-commerce Applications: Online retail and marketplaces, Digital content and media, Online travel and hospitality, Financial services (e-banking, fintech).",
+          "hours": 7
+        },
+        {
+          "title": "E-commerce Payment Method",
+          "topics": "Payment Gateways and Processors: Overview of online payment systems, Credit/debit card processing, digital wallets (e.g., PayPal, Apple Pay). Alternative Payment Methods: Cryptocurrencies and blockchain technology in payments, Buy Now, Pay Later (BNPL) schemes. Security in E-commerce Payments: SSL/TLS encryption, PCI-DSS compliance, Fraud detection and prevention mechanisms.",
+          "hours": 6
+        },
+        {
+          "title": "E-Commerce Laws & Regulations",
+          "topics": "Legal Frameworks: Consumer protection laws, Intellectual property rights (trademarks, copyrights, patents). Privacy and Data Protection: General Data Protection Regulation (GDPR) and other international regulations, Policies for handling consumer data and cookies. Contracts and Liability: E-commerce contracts and terms of service, Liability of online platforms and dispute resolution.",
+          "hours": 5
+        },
+        {
+          "title": "Future Trends in E-Commerce",
+          "topics": "Technological Innovations: Artificial Intelligence and Machine Learning in personalizing customer experience, Augmented Reality (AR) and Virtual Reality (VR) for immersive shopping, Voice commerce and smart assistants. Emerging Market Trends: Social commerce and live streaming shopping, Sustainable and eco-friendly e-commerce practices.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "OE-202-DS-T",
+      "title": "Web Design I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Web Design",
+          "topics": "Introduction to Internet & WWW: Concepts of Internet, Web, Website, Webpage, URL, Domain Name, Web Browser, Web Server, HTTP, HTTPS. Web Design Principles: User Interface (UI) and User Experience (UX) design, Visual hierarchy, Color theory, Typography, Responsive web design basics.",
+          "hours": 8
+        },
+        {
+          "title": "Getting Started with HTML",
+          "topics": "HTML Basics: Structure of HTML document, HTML tags, elements, and attributes, Headings, paragraphs, line breaks, formatting tags, Comments, Hyperlinks and Anchors: Text links, image links, mailto links, bookmarking. Working with Images and Multimedia: Adding images, audio, video.",
+          "hours": 6
+        },
+        {
+          "title": "Tables",
+          "topics": "HTML Tables: Table creation, rows, columns, header, caption, Cell padding and cell spacing, Colspan and Rowspan, Table styling and borders.",
+          "hours": 6
+        },
+        {
+          "title": "Frame / Forms",
+          "topics": "HTML Forms: Form structure and attributes, Input types (text, password, email, radio, checkbox, submit, reset), Textarea, select dropdown, fieldset, legend, Form validation attributes. Semantic HTML: Header, nav, section, article, aside, footer.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-203-DS-T",
+      "title": "Digital Marketing I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "History of Digital Marketing",
+          "topics": "Introduction to Digital Marketing: Evolution and timeline of digital marketing, Traditional vs digital marketing, Digital marketing channels and ecosystem. Consumer Journey in Digital Age: AIDA model, Zero Moment of Truth (ZMOT), Digital consumer persona.",
+          "hours": 8
+        },
+        {
+          "title": "Internet Marketing",
+          "topics": "Website as a Marketing Tool: Landing page optimization, Conversion rate optimization (CRO), Content strategy for web. Search Engine Marketing: Keyword research, On-page and off-page SEO, Google Ads basics.",
+          "hours": 8
+        },
+        {
+          "title": "Classification of e-Commerce",
+          "topics": "E-commerce Platforms and Marketing: B2B, B2C, D2C models, Marketplace marketing (Amazon, Flipkart), Social media marketing fundamentals, Email marketing campaigns.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE-204-DS-T",
+      "title": "AI for Everyone-I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "What is AI? History of AI, Turing Test, Definitions and perspectives of AI, AI vs Machine Learning vs Deep Learning, Weak AI vs Strong AI, Narrow AI vs General AI.",
+          "hours": 8
+        },
+        {
+          "title": "AI Subfields",
+          "topics": "Core areas of AI: Machine Learning (Supervised, Unsupervised, Reinforcement Learning), Natural Language Processing (NLP), Computer Vision, Robotics, Expert Systems.",
+          "hours": 6
+        },
+        {
+          "title": "Applications of AI",
+          "topics": "Real-world AI Applications: Healthcare, Finance, Autonomous vehicles, Smart assistants, Entertainment, E-commerce recommendation systems.",
+          "hours": 8
+        },
+        {
+          "title": "Ethical and Social Implications of AI",
+          "topics": "AI Ethics: Bias and fairness, Transparency and explainability, Privacy concerns, Impact on employment and future of work, Responsible AI.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "DS-251-MJ-T",
+      "title": "Relational Database Management System",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to PL/SQL",
+          "topics": "PL/SQL Block structure, variables, constants, datatypes, Control structures: conditional, iterative, sequential, Cursors: Implicit and Explicit, Cursor attributes, Exceptions: Predefined and User-defined, Stored Procedures and Functions, Triggers: Types and creation.",
+          "hours": 10
+        },
+        {
+          "title": "Transaction Management",
+          "topics": "Transaction concept, ACID properties, Transaction states, Implementation of atomicity and durability, Concurrent executions, Serializability, Conflict serializability, View serializability, Recoverability.",
+          "hours": 5
+        },
+        {
+          "title": "Concurrency Control Techniques",
+          "topics": "Lock-based protocols: 2-Phase Locking (2PL), Strict 2PL, Timestamp-based protocols, Validation-based protocols, Multiple granularity, Deadlock handling: prevention, detection, and recovery.",
+          "hours": 7
+        },
+        {
+          "title": "Database Recovery Technique",
+          "topics": "Failure classification, Storage hierarchy, Recovery and atomicity: Log-based recovery, Shadow paging, Checkpoints, ARIES recovery algorithm basics.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Topics in Database",
+          "topics": "Introduction to NoSQL databases, Types of NoSQL stores (Document, Key-Value, Columnar, Graph), Distributed databases basics.",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "DS-252-MJ-T",
+      "title": "Data Structure II",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Tree",
+          "topics": "Basic Tree Concepts: Terminology, Representation of Trees, Binary Tree: Types, Properties, Binary Tree Traversal (Inorder, Preorder, Postorder, Level order), Binary Search Tree (BST): Creation, Insertion, Deletion, Search, Traversal, Applications of Trees.",
+          "hours": 10
+        },
+        {
+          "title": "Efficient Search Tree",
+          "topics": "Balanced Trees: Need for balancing, AVL Trees: Rotations, Insertion, Deletion, B-Trees and B+ Trees: Concepts, structure, search, and insertion basics.",
+          "hours": 4
+        },
+        {
+          "title": "Graph",
+          "topics": "Graph Concepts: Terminology, Representations (Adjacency Matrix, Adjacency List), Graph Traversals: Breadth First Search (BFS), Depth First Search (DFS), Spanning Trees, Minimum Spanning Tree: Prim's and Kruskal's algorithms, Shortest Path: Dijkstra's algorithm, Applications of Graphs in Data Science.",
+          "hours": 10
+        },
+        {
+          "title": "Hash table",
+          "topics": "Hashing Concepts: Hash table, Hash functions, Collision resolution techniques: Open addressing (Linear probing, Quadratic probing, Double hashing), Chaining, Applications of hashing in data indexing and retrieval.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "DS-253-MJ-P",
+      "title": "Lab Course on DS-251-MJ-T and DS-252-MJ-T",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "DS-271-VSC-P",
+      "title": "Data Analytics",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "DS-281-FP",
+      "title": "Mini Project",
+      "semester": 4,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "DS-291-MN-T",
+      "title": "Testing of Hypothesis and Sampling Distributions",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": [
+        {
+          "title": "Testing of Hypothesis",
+          "topics": "Statistic, estimate and parameter. Sampling distribution of a statistic, standard error of a statistic with illustrations. Statistical Inference: Introduction to problem of Estimation and testing of hypothesis. Difference between estimator and estimate. Concept of unbiased estimator. Point and interval estimation. Statistical hypothesis, null and alternative hypothesis, simple and composite hypothesis, one sided and two -sided alternative hypothesis, critical region, type-I and type-II error, level of significance, p-value. Two-sided confidence interval. Tests of hypotheses using critical region approach, p-value approach and confidence interval approach. Large sample tests for population mean and proportions.",
+          "hours": 8
+        },
+        {
+          "title": "Chi-square Distribution",
+          "topics": "Definition of chi -square random variable as a sum of squares of independent and identical standard normal variables. Derivation of the p.d.f. of Chi -square variable with n degrees of freedom (d.f.) using MGF. Mean, variance, MGF, CGF, central moments skewness, kurtosis, mode, additive property. Use of chi -square tables for calculations of probabilities.",
+          "hours": 8
+        },
+        {
+          "title": "t-Distribution",
+          "topics": "Definition of r.v. with n d.f., derivation of the p.d.f of distribution, nature of probability curve, mean, variance, moments, mode. Use of t -tables for calculations of probabilities, Normal approximation (statement only).",
+          "hours": 4
+        },
+        {
+          "title": "Snedecore\u2019s F-Distribution",
+          "topics": "Definition of r.v. with n1 and n2 d.f., derivation of the p.d.f, nature of probability curve, mean, variance, moments, mode. Distribution of 1/F, use of tables for calculation of probabilities. Interrelationship between Chi-square, t and F-distributions.",
+          "hours": 5
+        },
+        {
+          "title": "Tests based on Sampling Distributions",
+          "topics": "Tests based on chi-square distribution: Test for independence of two attributes, Test for goodness of fit, Test for variance for known and unknown mean. Tests based on t-distribution: Tests for population means, Paired t-test. Test based on F-distribution: Test for equality of two variances.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "DS-292-MN-P",
+      "title": "Lab Course on DS-291-MN-T",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        47,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251-DS-T",
+      "title": "Software Engineering",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Software Engineering Fundamentals",
+          "topics": "1.1 Definition of Software and the evolving role of software, 1.3 Changing nature of software, 1.4 Software myths, 1.5 Software Process, 1.5.1 The Process Framework, 1.5.2 Umbrella Activities, 1.5.3 Process Adaptation",
+          "hours": 3
+        },
+        {
+          "title": "Software Development Life Cycle (SDLC)",
+          "topics": "2.1 Generic Process Model, 2.2 Prescriptive Process Models: 2.2.1 The Waterfall Model, 2.2.2 Incremental Process Models, 2.2.3 Evolutionary Process Models, 2.2.4 Concurrent Models, 2.2.5 The Unified Process, 2.6 Reverse Engineering",
+          "hours": 5
+        },
+        {
+          "title": "Agile Development",
+          "topics": "3.1 Agility and Agile Process, 3.2 Agility Principles, 3.3 The Politics of Agile Development, 3.4 Human Factors, 3.5 Extreme Programming (XP): 3.5.1 XP Values, 3.5.2 XP Process, 3.6 Adaptive Software Development (ASD), 3.7 Scrum, 3.8 Dynamic System Development Model (DSDM), 3.9 Agile Unified Process (AUP)",
+          "hours": 6
+        },
+        {
+          "title": "Software Requirement Analysis and Design Using UML",
+          "topics": "4.1 Requirement Elicitation, 4.2 Software requirement specification (SRS), 4.3 Building the Analysis Model, 4.4 Negotiating Requirements, 4.5 Validating Requirements, 4.6 Introduction to UML, 4.7 Structural Modeling: 4.7.1 Use case model, 4.7.2 Class model, 4.8 Behavioral Modeling: 4.8.1 Sequence model, 4.8.2 Activity model, 4.8.3 Collaboration model, 4.9 Architectural Modeling: 4.9.1 Component model, 4.9.2 Deployment model",
+          "hours": 12
+        },
+        {
+          "title": "Software Testing",
+          "topics": "5.1 Introduction to Software Testing, 5.2 Software Testing Life Cycle (STLC), 5.3 Software Testing Strategies & Techniques: 5.3.1 Black box and White box Testing, 5.4 Level of Testing: 5.4.1 Unit Testing, 5.4.2 Integration Testing, 5.4.3 System Testing",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "OE-251-DS-T",
+      "title": "Ecommerce II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "E-Commerce Logistics and Supply Chain Management",
+          "topics": "Supply chain components in e-commerce, Inventory management, Order fulfillment and warehousing, Last-mile delivery solutions, Reverse logistics.",
+          "hours": 6
+        },
+        {
+          "title": "Data Analytics and Consumer Behavior in E-Commerce",
+          "topics": "Web analytics metrics, Clickstream analysis, Customer segmentation, Personalization algorithms, Lifetime customer value.",
+          "hours": 7
+        },
+        {
+          "title": "E-Commerce Security and Privacy",
+          "topics": "Security threats in e-commerce: Phishing, hacking, identity theft, Security solutions: Firewalls, encryption, authentication, Privacy regulations and compliance.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced E-Commerce Technologies",
+          "topics": "Mobile commerce (M-commerce), Cloud computing in e-commerce, AI chatbots and customer support, IoT in inventory and retail.",
+          "hours": 5
+        },
+        {
+          "title": "Global Trends of E-Commerce",
+          "topics": "Cross-border e-commerce, International taxation and customs, Localization and multilingual websites, Global marketplaces.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-252-DS-T",
+      "title": "Web Design II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "CSS",
+          "topics": "Introduction to CSS: Syntax, selectors, styling backgrounds, text, fonts, links, lists, tables, CSS Box Model: Margin, border, padding, content, CSS Layouts: Flexbox, Grid, Responsive Web Design: Media queries.",
+          "hours": 8
+        },
+        {
+          "title": "XML",
+          "topics": "Introduction to XML: Syntax, rules, elements, attributes, XML DTD (Document Type Definition), XML Schema (XSD), Parsing XML.",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to JavaScript",
+          "topics": "JavaScript Basics: Syntax, variables, data types, operators, Control structures, Functions, DOM manipulation basics, Event handling.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE-253-DS-T",
+      "title": "Digital Marketing- II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "Online Consumer Behaviour Analysis",
+          "topics": "Consumer decision-making process online, Factors influencing digital consumers, Online review management, Brand reputation monitoring.",
+          "hours": 8
+        },
+        {
+          "title": "Social Media Marketing",
+          "topics": "Platforms overview: Facebook, Instagram, LinkedIn, Twitter, Content creation and curation, Influencer marketing, Social media analytics.",
+          "hours": 8
+        },
+        {
+          "title": "Future of Digital Marketing",
+          "topics": "AI in digital marketing, Voice search optimization, Video marketing, Metaverse and immersive marketing trends.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE-254-DS-T",
+      "title": "AI for Everyone- II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        57,
+        58
+      ],
+      "units": [
+        {
+          "title": "Advanced AI Fundamentals",
+          "topics": "Neural networks basics, Deep learning overview, Training and inference, Hardware accelerators (GPUs, TPUs).",
+          "hours": 6
+        },
+        {
+          "title": "AI for Advanced Text & Content Creation",
+          "topics": "Natural Language Generation, Large Language Models (LLMs), Prompt engineering, Chatbots and conversational AI.",
+          "hours": 8
+        },
+        {
+          "title": "Advanced AI for Image & Video Processing",
+          "topics": "Computer vision pipelines, Image classification, Object detection, Generative models for images and video.",
+          "hours": 8
+        },
+        {
+          "title": "AI Tools",
+          "topics": "Overview of modern AI tools: ChatGPT, Midjourney, Hugging Face, AI development frameworks (TensorFlow, PyTorch overview).",
+          "hours": 8
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

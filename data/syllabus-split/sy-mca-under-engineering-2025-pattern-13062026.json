@@ -1,0 +1,474 @@
+{
+  "id": "sy-mca-under-engineering-2025-pattern-13062026",
+  "kind": "programme",
+  "programme": "Master of Computer Applications(Under Engineering)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-601-MCA",
+      "title": "Software Testing and Quality Assurance",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Software Quality Assurance",
+          "topics": "Fundamentals Of Software Quality: Definition of Quality , QA, QC, SQA, SQA basics, Components of the Software Quality Assurance System, software quality in business context, planning for software quality assurance, product quality and process quality , software process models, 7 QC Tools and Modern Tools. Quality Assurance Models: Models for Quality Assurance, ISO-9000 series, CMM, CMMI, Test Matu- rity Models, SPICE, Malcolm Baldrige Model- P-CMM SOFTWARE QUALITY ASSURANCE TRENDS: Software Process- PSP and TSP, OO Methodology , Clean-room software engineering, Defect Injection and prevention, Internal Auditing and Assessments, Inspections & Walkthroughs, Case Tools and their effect on Software Quality . Testing Software System Security: Six-Sigma, TQM - Complexity Metrics and Models, Quality Man- agement Metrics, Availability Metrics, Defect Removal Effectiveness, FMEA, Quality Function Deploy- ment, Taguchi Quality Loss Function, Cost of Quality . # Exemplar /Case Studies:Online Banking System Quality Improvement.",
+          "hours": 9
+        },
+        {
+          "title": "Essentials of Software Testing",
+          "topics": "Software Testing Basics: Definition & Objectives of testing, testing life cycle, Software testing princi- ples, The tester’s role in a software development organization Test Plan And Test Cases: Preparation, Management and execution of Test Plan, Definition, Test Case Designing of Test Cases, prepared Test report. Defect Management: Origins of defects, Defect classes, The defect repository and test design, Defect examples, Developer / Tester support for developing a defect repository . #Exemplar/Case Studies:E-commerce Website Testing.",
+          "hours": 10
+        },
+        {
+          "title": "Software Testing Techniques",
+          "topics": "White-Box Testing Methodologies: Static testing: by humans, using static analysis tools, Structural Testing: unit/code functional testing, Code coverage Testing, Code Complexity testing, Mutation Testing Black - Box Testing Methodologies: Requirement based testing, Positive and negative testing, Bound- ary Value analysis, Equivalence Partitioning, State based or Graph-based Testing, Compatibility Testing, User Documentation Testing, Domain Testing #Exemplar/Case Studies:ATM Software Testing.",
+          "hours": 9
+        },
+        {
+          "title": "Testing Strategies",
+          "topics": "Testing Levels -Integration testing, System and Acceptance testing, Testing Approaches -Scenario testing, Performance Testing, Regression testing, Ad hoc Testing, Specialized Testing -Usability and Accessibility Testing, GUI testing, Validation testing, Specification- based testing, Testing Object Oriented Software, Testing Web Based Applications, Database Testing #Exemplar/Case Studies :Hospital Management System.",
+          "hours": 8
+        },
+        {
+          "title": "Software Test Automation",
+          "topics": "Introduction To Automation Testing: Software Test Automation, Skills needed for Automation, Scope of Automation, Design and Architecture for Automation, Requirements for a Test Tool, Challenges in Automation Tracking the Bug, Debugging, Difference between manual testing and automated testing, UI Automation Tools : Cypress, Testcafe, Protractor, Case studies of automation testing. Selenium Tools-Introduction of Selenium,Brief History pf the selenium project,Selenium’s tool suite,Selenium IDE,Selenium RC, Selenium WebDriver,Selenium Grid,Test design considerations. #Exemplar/Case Studies :Web Application Automation Using Selenium.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-602-MCA",
+      "title": "Data Science",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        23
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Data Science",
+          "topics": "Importance of data science, Types of data: structured, semi-structured, unstructured, Scales of mea- surement: nominal, ordinal, interval, ratio, Data formats: CSV, JSON, XML, SQL tables, Big data vs Data Science, Data science life cycle, Process model: CRISP-DM, TDSP, SEMMA Applications of data science, Distinction between Data Science, Machine Learning, and Artificial Intelligence, Roles in Data Science: Data Analyst, Data Scientist, Data Engineer, Machine Learning Engineer Importance of mathematical statistics in data science # Exemplar /Case Studies:Study the role of data scientist in Customer recommendation system (E-Commerce) OR Study the role of data scientist in Traffic prediction in smart cities Case study: For a retail company dataset identify the different types of data ( categorical, numerical etc)",
+          "hours": 9
+        },
+        {
+          "title": "Data Pre processing and Data Warehouse",
+          "topics": "Data pre-processing, Need of data pre processing, Data pre processing techniques: data cleaning, data integration and transformation, data reduction Data warehouse: characteristic of data warehouse, data warehouse architecture, ETL process, data warehouse modeling: fact and dimension tables, star schema, snowflake schema, OLAP vs OLTP. #Exemplar/Case Studies:Read data from file, identify missing values, removing duplicate data and view summary statistics using any tools like WEKA / R/ Excel/ Python.",
+          "hours": 9
+        },
+        {
+          "title": "Classification",
+          "topics": "Applications of classification, Machine learning: Types (supervised, unsupervised, reinforcement), Supervised algorithms: linear regression, logistic regression, Naïve bayes classifier, K- nearest neigh- bor, Decision trees, Support vector machine Metrics for model evaluation: Confusion matrix, accuracy , precision, recall, ROC-AUC, F1 score, MAE, MSE, RMSE, R-squared. #Exemplar/Case Studies:Student activity: To learn model evaluation- students can compute accu- racy , precision, recall, confusion matrix and compare the model performance. Case study: A retail company wants to predict its future sales revenue based on various factors such as product pricing, marketing spend, seasonal trends, and customer demographics. The company aims to use regression and classification models to analyze historical sales data, identify trends, and make data-driven decisions to enhance profitability and optimize resource allocation. Justify how does the choice between regression and classification models affect sales predictions",
+          "hours": 9
+        },
+        {
+          "title": "Clustering and Association rule mining",
+          "topics": "Distance Based Models: Euclidean, Hamming, Manhattan, cosine similarity and Minkowski Clustering algorithms: K means, k-medoid algorithm, Hierarchical clustering: divisive and agglom- erative , Evaluation metrics : elbow method Association rule mining: Market basket analysis, , Apriori algorithm, FP Growth, Performance Mea- sures – Support, Confidence. #Exemplar/Case Studies :Case study: An online platform wants to recommend products to users, choose appropriate techniques Student activity: Discussions on selection of best model for ‘Fraud detection dataset’.",
+          "hours": 9
+        },
+        {
+          "title": "Data visualization and Emerging trends",
+          "topics": "Introduction to data visualization, challenges of data visualization, Definition of Dashboard and their type, Evolution of dashboard, Dashboard design and principles, Display media for dashboard Types of Graphs: Bar graph, Stacked bar chart, Pie chart, Doughnut chart, Line Chart, Area chart, Treemap chart, Heatmap, Waterfall chart, Scatter Plot, Histogram, Box plot Data Visualization Tool : Tableau, Power BI Reinforcement learning: Key elements, steps and types of reinforcement learning Introduction to Generative learning, Deep learning and Explainable AI #Exemplar/Case Studies :Students can represent the dataset using multiple charts- bar chart, line chart, pie chart etc",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-603-MCA",
+      "title": "Web Technology",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "HTML and XML",
+          "topics": "HTML- Introduction to Web Technology , internet and www, Web Servers, Website planning and de- sign issues, HTML: structure of html document, HTML elements: headings, paragraphs, line break, colors & fonts, links, frames, lists, tables, images and forms, Difference between HTML and HTML5. CSS: Introduction to Style Sheet, Inserting CSS in an HTML page, CSS selectors. XML- XML: Introduction to XML, Features and applications of XML, XML key component, XML DTD, XML Schema, elements, attributes, XML Namespaces, Transforming XML into XSLT. # Exemplar /Case Studies:Create a style sheet suitable for blogging applications using HTML and CSS.",
+          "hours": 9
+        },
+        {
+          "title": "JAVA SCRIPT",
+          "topics": "JavaScript: Overview of JavaScript:need/why JavaScript, applications, advantages, limitations, us- ing JS in an HTML:Embedded, External, variables/ Data types, Control Structures: if.. Else, switch case, Loop Controls: for, while, for, Functions and Dialog Boxes, page redirect, cookies, events.JS objects: JavaScript-Object Properties, Methods, JavaScript-Number Properties, Methods, JavaScript- String Properties, Methods, JavaScript-Array Properties, Methods, JavaScript-Math Properties, Meth- ods, Temporal, Java script- Asynchronous: Timeout, Callback, promises, await Introduction to Bootstrap -need/why Bootstrap advantages of bootstrap, how to use bootstrap. #Exemplar/Case Studies:Create a responsive web page for student registration.",
+          "hours": 9
+        },
+        {
+          "title": "PHP",
+          "topics": "What is PHP, PHP variables and operators, taking user inputs and generating outputs, Formatting String, library function for string manipulation Array fundamentals, Single-Dimensional Arrays, Mul- tidimensional Arrays, Associative arrays, library functions for array manipulation, Dates and Times function, User- defined functions, Object oriented programming using PHP, File Handing in PHP, cookie and session. PHP Forms: Handling, Validation, Introduction to CodeIgniter. #Exemplar/Case Studies:Create a web page for student registration.",
+          "hours": 9
+        },
+        {
+          "title": "ASP. net",
+          "topics": "Introduction to ASP.NET,ASP.NET Environment Setup,ASP.NET Web Forms, Types of ASP.NET Con- trols,ASP.NET State Management :Introduction, View State, Session State, Application State, Cookies and Query Strings, Server Transfer and Response Redirect, ASP.NET Data Access :Introduction to ADO.NET, Database Connectivity , Validation controls and security : Required Field Validator, Range Validator, Compare Validator, Basic Security Concepts. #Exemplar/Case Studies :Create a login page that validates username and password.",
+          "hours": 9
+        },
+        {
+          "title": "ANGULAR JS",
+          "topics": "Introduction to JavaScript Frameworks ,Introduction to AngularJS :Overview of AngularJS, Fea- tures of AngularJS, Advantages of AngularJS, MVC Architecture in AngularJS, Applications of An- gularJS,AngularJS Expressions and Directives ,AngularJS Modules and Controllers ,AngularJS Forms and Validation :Form handling in AngularJS, Two-way data binding, Validation directives, Introduc- tion to Next.js:Overview of Next.js, Why Next.js? Key Features. #Exemplar/Case Studies :Create Login Form with AngularJS Validation.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-604-MCA",
+      "title": "Cyber Security",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Security",
+          "topics": "Introduction to Cyber Security , Need, Importance and challenges in Cyber Security , Cyberspace, Cy- ber threats, Cyber-warfare, CIA Triad, Cyber Terrorism, Cyber Security of Critical Infrastructure, Cyber security - Organizational Implications, Need for a Comprehensive Cyber Security Policy and governance, Need for a Nodal Authority , Need for an International convention on Cyberspace, Intro- duction to Cyber Laws, Key Principles, Information Technology Act 2000, Overview and Provisions, Amendments to IT Act 2000. # Exemplar /Case Studies:Case Study on Cyber Security Challenges and Threats in Modern Cy- berspace.",
+          "hours": 9
+        },
+        {
+          "title": "Cybercrimes and Hacking",
+          "topics": "Overview of Cyber-Attacks and Vulnerabilities, Types of Threats – Malware, spyware, Sniffing, Gain- ing Access, Escalating Privileges, Executing Applications, Hiding Files, Covering Tracks, Worms, Tro- jans, Viruses, Backdoors. Types of Cyber Crime - cyber stalking, software piracy , cyber terrorism, phishing, computer hacking, spamming, cross site scripting, online auction fraud, logic bombs, web jacking, internet time thefts, DoS attack, salami attack, data diddling, email spoofing. Types of Hacker Hacking and Cracking, Hacking: Ethical issues, Ethical Hacking. #Exemplar/Case Studies:Case Study on Phishing Attack and Unauthorized Access to Student Email Account",
+          "hours": 9
+        },
+        {
+          "title": "Cyber Forensics",
+          "topics": "Introduction to Cyber Forensics, cyber forensics investigation process, digital evidences, challenges in cyber forensics; Web Attack Forensics: Intrusion forensics, database forensics, preventive foren- sics; Anti- forensics practices, Anti-forensics detection techniques, Network forensics analysis tools; Malware Forensics: Malware types, Malware Analysis, Tools for analysis; Email Forensics: e-mail Protocols, e-mail crimes. #Exemplar/Case Studies:Analysis of Cyber Forensics: From Digital Evidence to Investigation Re- port.",
+          "hours": 9
+        },
+        {
+          "title": "Digital Forensics",
+          "topics": "Introduction to Digital Forensics, Cyber Forensics vs Digital Forensics, the role of digital forensics and its environment, Forensic Software and Hardware, properties of digital evidence, recovering and preserving digital evidence, Advanced forensic Tools, selecting and analyzing digital evidence, validating the evidence, Forensic Technology and Practices. #Exemplar/Case Studies :Case study: Digital Forensics Investigation of Data Theft in an Organi- zation.",
+          "hours": 9
+        },
+        {
+          "title": "Social Engineering",
+          "topics": "Introduction of social engineering and cyber security , social engineering conceptual evolution, defin- ing social engineering-categories, Phases, attack spiral model, Attack Vendors-social approach, socio- technical approach. Advanced social engineering attack, Phishing Attack, Insider Attack, Identity Theft, Preventing Insider Threats, Social Engineering Targets and Defense Strategies. #Exemplar/Case Studies :Case Study: Phishing and Identity Theft in Online Banking Scam.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-620A-MCA",
+      "title": "Elective III-Deep Learning",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Neural Network and Fundamentals of Deep Learning",
+          "topics": "Introduction to Artificial Intelligence and Machine Learning, Basics of Neural Networks; Difference between Machine Learning and Deep Learning, Historical context and motivation for deep learning; basic supervised classification task, optimizing logistic classifier using gradient descent, stochastic gradient descent, momentum, and adaptive sub-gradient method, Introduction to Artificial Neural Networks (ANNs), Perceptrons and Multilayer Perceptrons (MLPs), Activation Functions (Sigmoid, Tanh, ReLU, Leaky ReLU), Backpropagation Algorithm, Optimization Algorithms (Gradient Descent, Stochastic Gradient Descent, Adam), Regularization Techniques (Dropout, L1/L2 Regularization) # Exemplar /Case Studies:End-to-End Student Performance Prediction",
+          "hours": 9
+        },
+        {
+          "title": "Deep Learning Models and Real-World Applications",
+          "topics": "Introduction to Convolutional Neural Networks (CNNs): Architectures (LeNet, AlexNet, ResNet, In- ception), Applications (Image Classification, Object Detection, Image Segmentation), Introduction to Recurrent Neural Networks (RNNs): Architectures (Vanilla RNN, LSTM, GRU), Applications (Natural Language Processing, Time Series Analysis), Long Short-Term Memory (LSTM) Networks and Gated Recurrent Units (GRUs), Generative Adversarial Networks (GANs). #Exemplar/Case Studies:Image Classification with CNN or Face Recognition System: Identify or verify a person using facial images",
+          "hours": 9
+        },
+        {
+          "title": "Deep Learning Model Design and Implementation",
+          "topics": "Data Preprocessing for Deep Learning, Model Selection, Training Strategies, and Hyperparameter Tuning, Evaluation Metrics for Deep Learning Models (Accuracy , Precision, Recall, F1-Score, AUC ROC), Model Deployment and Monitoring, Techniques for handling imbalanced datasets in deep learning, Introduction to transfer learning. #Exemplar/Case Studies:Diabetic Retinopathy Detection from Fundus Images",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Methods in Deep Learning",
+          "topics": "Autoencoders: Under complete Autoencoders, Regularized Autoencoders-Sparse Autoencoders, Stochas- tic Encoders and Decoders, Denoising Autoencoders, Contractive Autoencoders, Applications of Au- toencoders. Ensemble Methods in Deep Learning, Autoencoders and Variational Autoencoders (VAEs), Deep Reinforcement Learning, Explainable AI (XAI) and its role in DL, Ethical considerations in deep learning. #Exemplar/Case Studies :Image Denoising: blur, distortion, random pixels.",
+          "hours": 9
+        },
+        {
+          "title": "Practical Applications of Deep Learning in Computing",
+          "topics": "Deep Learning applications in Computer Vision, Natural Language Processing, and other relevant fields, Image Classification, Social N/w/ analysis, Speech Recognition, Recommender system, Case studies on the application of Deep Learning in areas such as robotics, signal processing, and health care, Current trends in deep learning. #Exemplar/Case Studies :Multimodal Deep Learning for Smart Healthcare Monitoring Using Vi- sion, Speech, and Data.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-620B-MCA",
+      "title": "Elective III-Block Chain",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Block chain",
+          "topics": "Introduction – Basic ideas behind Block chain, Types of Block chain, introduction to cryptographic concepts required, Hashing, public key cryptosystems, private vs public, Block chain and use cases, Hash Puzzles, Foundation of block chain: Merkle trees, Introduction to Bitcoin Block chain, Gas Limit, Transactions and Fee, Anonymity , Reward, Chain Policy # Exemplar /Case Studies:Healthcare Records Management- Block chain ensures secure sharing of patient records using encryption and hashing, maintaining privacy and data integrity .",
+          "hours": 9
+        },
+        {
+          "title": "Bitcoin Block chain, Scripting, and Mining Mechanisms",
+          "topics": "Bitcoin blockchain: Bitcoin Block chain and scripts, Consensus in Bitcoin, Proof-of-Work (PoW), Proof-of-Burn (PoB), Proof-of-Stake (PoS) and Proof-of-Elapsed Time (PoET), Life of a miner, Mining difficulty , Mining pool and its methods Use cases of Bitcoin Block chain scripting language in mi- cropayment, escrow etc Downside of Bitcoin – mining: Mining explained, The Bitcoin network, The Bitcoin Minning Process, Mining Developments. #Exemplar/Case Studies:Payment Channels (e.g., Lightning Network) - Shows how off-chain so- lutions improve scalability and enable fast, low-cost transactions using Bitcoin scripting.",
+          "hours": 9
+        },
+        {
+          "title": "Cryptographic Algorithms and Public Key Infrastructure",
+          "topics": "Asymmetric key cryptography: AES structure, Analysis of AES, Hybrid Cryptography , Elliptic Curve Cryptography (ECC), Post-Quantum Cryptography , Zero-Knowledge Proofs (ZKP), Homomorphic En- cryption. Key distribution Asymmetric key Ciphers: Principles of public key cryptosystems, RSA algorithm, Analysis of RSA, Diffie-Hellman Key exchange. #Exemplar/Case Studies:Digital Signatures for Authentication-Demonstrates how asymmetric cryptography ensures integrity and non-repudiation in documents and transactions.",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Block chain: Altcoins, Smart Contracts, and Consensus Mechanisms - (09",
+          "topics": "Hours) Alternative coins – Ethereum and Smart contracts, Alternative coins – Ethereum continued, IOTA, GHOST, DAO, The real need for mining – consensus – Byzantine Generals Problem, and Consen- sus as a distributed coordination problem – Coming to private or permissioned block chains, AI for Blockchain Optimization. #Exemplar/Case Studies :Supply Chain using IOTA (Tangle Technology)-Demonstrates how IOTA is used in IoT-based systems for feeless, scalable transactions without traditional mining.",
+          "hours": null
+        },
+        {
+          "title": "Enterprise Block chain and Public Sector Applications",
+          "topics": "Introduction to Hyperledger, Permissioned Block chain and use cases – Hyperledger, Integration with Existing Systems, Governance Model, Corda Uses of Block chain in E-Governance, Land Registration, Medical Information Systems and others, Digital Identity Management, Supply Chain Transparency , Public Distribution System, Decentralized Artificial Intelligence, Data Security and Privacy in AI using Blockchain. #Exemplar/Case Studies :Medical Information Systems-Demonstrates secure sharing of patient records using permissioned block chain while maintaining privacy and data integrity .",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-620C-MCA",
+      "title": "Elective III-Business Intelligence",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business Intelligence",
+          "topics": "Introduction to Business Intelligence (BI), Evolution of BI and decision support systems ,Data-driven decision making in organizations ,Components of Business Intelligence architecture, Role of databases, data warehouses and analytics in BI , Applications of BI in business domains such as finance, health- care, retail and education ,Benefits and challenges of implementing BI systems. Introduction to Generative AI and Large Language Models (LLMs) in Business Intelligence. # Exemplar /Case Studies:1.BI applications in retail and enterprise decision making. 2.BI-based customer segmentation and targeted marketing in e-commerce platforms.",
+          "hours": 9
+        },
+        {
+          "title": "Data Warehousing and Data Preparation",
+          "topics": "Operational Databases vs Data Warehouses, Characteristics of Data Warehouses , Data Warehouse Architecture (three-tier architecture) , ETL Process: Extraction, Transformation and Loading , Data Cleaning Techniques. Data Integration from heterogeneous sources, Metadata: Types and importance , Data Quality con- cepts and challenges , Role of AI/LLMs in data preparation, data cleaning and automated ETL pro- cesses. #Exemplar/Case Studies:1. Designing a simple sales data warehouse. 2. Data integration and ETL process for healthcare patient records from multiple hospitals.",
+          "hours": 9
+        },
+        {
+          "title": "Multidimensional Data Modeling and OLAP",
+          "topics": "Multidimensional Data Models , Fact Tables and Dimension Tables , Measures and Dimensions , Star Schema , Snowflake Schema , Schema comparison: Star vs Snowflake. Introduction to Online Analytical Processing (OLAP): OLAP Architecture and types of OLAP systems (ROLAP, MOLAP, HOLAP) OLAP Cube concept, OLAP Operations: Roll-up, Drill-down, Slice Dice Pivot (Rotation) OLAP vs OLTP systems, Applications of OLAP in business analysis #Exemplar/Case Studies:1. OLAP-Based Sales Analysis using Data Cubes. 2. Multidimensional analysis of banking transactions using OLAP for fraud detection.",
+          "hours": 9
+        },
+        {
+          "title": "Business Analytics and Temporal Data",
+          "topics": "Business Metrics and Key Performance Indicators (KPIs) , Importance of KPIs in organizational de- cision making , Performance measurement and analytical reporting, Introduction to Temporal Data ,Valid Time and Transaction Time , Temporal Attributes and Timestamps, Time-based Data Analysis ,Trend Analysis and Historical Data Tracking in BI systems #Exemplar/Case Studies :1. Time-Series and Temporal Pattern Analysis in Digital Platforms. 2. KPI-based performance analysis and trend forecasting in manufacturing industries.",
+          "hours": 9
+        },
+        {
+          "title": "Data Visualization and BI Tools",
+          "topics": "Introduction to Data Visualization , Principles of effective data visualization , Types of charts and vi- sual representations , Dashboard design principles , Interactive reporting and visual analytics ,Intro- duction to Business Intelligence tools (Power BI / Tableau) , Creating dashboards and visual reports using BI tools , Role of visualization in business decision making, AI-assisted data visualization and use of LLMs for automated dashboard generation and natural language reporting. #Exemplar/Case Studies :1. Creating a business dashboard using Power BI. 2. AI-assisted interac- tive dashboard creation for sales and business performance monitoring.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-605-MCA",
+      "title": "Lab Practice-I",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        39,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-606-MCA",
+      "title": "Web Technology Laboratory",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        43,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-607-MCA",
+      "title": "Cyber Security Laboratory",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-608-MCA",
+      "title": "Corporate Communication and Aptitude Skills Development",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-631-MCA",
+      "title": "Research Project",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 3,
+      "pages": [
+        50,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-670A-MCA",
+      "title": "Generative AI & Prompt Engineering",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        56,
+        58
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Generative Artificial Intelligence",
+          "topics": "Introduction to Generative AI: Evolution of Generative AI, Generative vs. Discriminative Models; Text generation, Image generation, Audio and video generation; Applications of Generative AI: Con- tent generation, Chatbots and virtual assistants, Code generation; Advantages and Limitations of Generative AI: Benefits, Challenges and risks. # Exemplar /Case Studies:AI-based Content Generation in Digital Marketing. Tools – Dall-e, Sora",
+          "hours": 9
+        },
+        {
+          "title": "Generative Models and Large Language Models",
+          "topics": "Generative Models: Autoencoders and Variational Autoencoders (VAE) , Generative Adversarial Net- works (GAN); Tokenization, Word embedding, Context and sequence representation; Transformer: Architecture Encoder- decoder , Attention mechanism; Large Language Models: Next word prediction concept, Pre-trained and fine tuning, Prompting vs fine tuning; LLM Strengths -generation, reasoning patterns, Limitations-hallucination, bias, context limits. #Exemplar/Case Studies:AI-based Code Generation Assistant. Tools – Github Co-pilot, Amazon CodeWhisperer",
+          "hours": 9
+        },
+        {
+          "title": "Fundamentals of Prompt Engineering",
+          "topics": "Introduction to Prompt Engineering, Need and importance, Components of a Prompt; Prompt Design Principles: Clarity and specificity , Context inclusion, Zero-shot prompting, One-shot prompting, Few- shot prompting; Prompt Evaluation: Response quality , Output relevance. #Exemplar/Case Studies:AI-Based Document Question Answering System. Tools - Notion AI",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Prompt Engineering Techniques",
+          "topics": "Chain-of-thought prompting, Role-based prompting; Prompt Applications : Text summarization, Question answering, Code generation, Content creation; Challenges in Prompt Engineering: Am- biguous prompts , Output inconsistency; Prompt Testing and Evaluation; Output quality assessment: Relevance, Accuracy , Completeness, Comparing multiple prompts; Prompt Optimization :Iterative prompt refinement Output control (tone, format, constraints) #Exemplar/Case Studies :AI-Based Image Generation for Graphic Design. Tools – Canva, Midjour- ney .",
+          "hours": 9
+        },
+        {
+          "title": "Generative AI Applications, Ethics and Future Trends",
+          "topics": "Generative AI Tools, Applications of Generative AI: Education, Healthcare, Business and Marketing, and Software development; Ethical Issues in Generative AI, Bias and fairness, Deepfakes and misin- formation; Responsible AI Practices, Ethical guidelines, Data privacy considerations, Future Trends in Generative AI Emerging technologies, Impact on industries. #Exemplar/Case Studies :AI-Powered Resume and Cover Letter Generator. Tools - Gemini.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-670B-MCA",
+      "title": "Dev Ops",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        59,
+        61
+      ],
+      "units": [
+        {
+          "title": "Introduction to DevOps and Linux Fundamentals",
+          "topics": "Definition of DevOps, What is DevOps, History of DevOps, DevOps Goals and Stakeholders, DevOps Perspective and Terminology , DevOps and Agile, SDLC models, Lean, ITIL, Continuous Integration and Continuous Deployment, Configuration Management overview, Linux OS introduction, Impor- tance of Linux in DevOps, Linux basic commands, Environment variables, Networking basics, Linux administration, Linux server installation, RPM and YUM installation. # Exemplar /Case Studies:Study of DevOps adoption examples in organizations.",
+          "hours": 9
+        },
+        {
+          "title": "Version Control System – Git",
+          "topics": "Introduction to Git, Version control systems and types, CVCS vs DVCS, History of Git, Git installation on Linux and Windows, Initial setup, Git command line basics, Creating repositories, cloning, com- mitting, Fetch, pull, remote repositories, Branching, merging, switching branches, Conflict resolution, stashing and rollback techniques. #Exemplar/Case Studies:Study of Managing project source code using GitHub.",
+          "hours": 9
+        },
+        {
+          "title": "Configuration Management using Chef",
+          "topics": "Overview of Chef, Chef architecture (Server, Workstation, Client, Repository), Chef configuration concepts, workstation setup and knife configuration, Organization setup and node management, Node objects and run lists, Environments and roles, Attributes and custom attributes, Data bags creation and management. #Exemplar/Case Studies:Automating infrastructure configuration using Chef cookbooks.",
+          "hours": 9
+        },
+        {
+          "title": "Containerization using Docker",
+          "topics": "Introduction to Docker, use cases of Docker, Docker vs virtualization, Docker architecture and com- ponents, Docker installation on Linux and Windows, Docker commands and provisioning, Docker Hub and container registries, Running containers and multiple containers, Creating and publishing custom images, Docker networking and container routing. #Exemplar/Case Studies:Deploying a multi-container application using Docker.",
+          "hours": 9
+        },
+        {
+          "title": "Build Automation using Maven and DevOps Toolchain",
+          "topics": "Introduction to Maven, Maven installation, Build requirements, Maven POM (pom.xml), Maven build lifecycle, Local and global repositories, Group ID, Artifact ID and snapshots, Maven dependencies and plugins, Overview of DevOps tools: Jenkins, Kubernetes, Ansible, Selenium, Prometheus monitoring, Jira bug tracking, ELK stack logging. #Exemplar/Case Studies :DevOps implementations in organizations like Spotify and Etsy .",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-670C-MCA",
+      "title": "Cloud Computing",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        62,
+        64
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": "Overview of Cloud Computing:Evolution of Cloud Computing, Distributed Computing vs. Cloud Computing, Characteristics of Cloud Computing i.e Elasticity , Scalability , On-demand resources, multi- tenancy . Cloud Ecosystem:Cloud service providers, cloud consumers, cloud brokers, cloud auditors. Cloud Deployment Models:Public Cloud, Private Cloud, Hybrid Cloud, Community Cloud. # Exemplar /Case Studies:Netflix Cloud Migration- Understand scalability and reliability advan- tages of cloud computing.",
+          "hours": 9
+        },
+        {
+          "title": "Cloud Architecture and Service Models",
+          "topics": "Cloud Architecture:Layered architecture of cloud computing, front-end and back-end architecture, resource abstraction and control layer. Cloud Service Models:Infrastructure as a Service, Platform as a Service, Software as a Service. Advanced Service Models:Function as a Service, Backend as a Service. #Exemplar/Case Studies:Google Workspace-Understand real-world implementation of SaaS model.",
+          "hours": 9
+        },
+        {
+          "title": "Virtualization and Containerization",
+          "topics": "Virtualization Concepts:Role of virtualization in cloud computing. Types of Virtualization:Server virtualization, storage virtualization, network virtualization. analysis, Equivalence Partitioning, State based or Graph-based Testing, Compatibility Testing, User. Hypervisors:Type 1 and Type 2 hypervisors, examples such as VMware, KVM, and Xen. Containerization Technology:Concepts of containers, container architecture. DockerFundamentals:Docker images, containers, container lifecycle, container networking. #Exemplar/Case Studies:Data Center Virtualization- Understand how virtualization optimizes hardware resources.",
+          "hours": 9
+        },
+        {
+          "title": "Cloud Platforms and Deployment Models",
+          "topics": "Overview of Major Cloud Platforms:Amazon Web Services, Microsoft Azure, Google Cloud Plat- form. Cloud Infrastructure Services:Compute services, storage services, database services. Cloud Networking:Virtual Private Cloud, subnets, routing, load balancing. DevOps in Cloud:Continuous Integration and Continuous Deployment, DevOps pipeline in cloud environments. #Exemplar/Case Studies:A Case Study Secure Enterprise Network using VPC.",
+          "hours": 9
+        },
+        {
+          "title": "Emerging Trends in Cloud Computing",
+          "topics": "Serverless Computing:Concepts of Function as a Service, event-driven computing models. Micro services Architecture:Design principles, service discovery , API gateways.Cloud-native appli- cations and cloud-native architecture. Future directions in cloud computing:Quantum cloud computing, green cloud computing, au- tonomous cloud infrastructure. #Exemplar/Case Studies:A Case Study Image Processing System using Serverless Architecture.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "SEM-680-MCA",
+      "title": "Technical Seminar",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        65,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "OJT-681-MCA",
+      "title": "Field Project/Major Project",
+      "semester": 4,
+      "type": "Internship/OJT (IN/OJT)",
+      "credits": 15,
+      "pages": [
+        68,
+        73
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

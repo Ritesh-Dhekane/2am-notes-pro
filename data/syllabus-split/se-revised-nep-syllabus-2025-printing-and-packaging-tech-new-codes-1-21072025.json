@@ -1,0 +1,518 @@
+{
+  "id": "se-revised-nep-syllabus-2025-printing-and-packaging-tech-new-codes-1-21072025",
+  "kind": "programme",
+  "programme": "Second Year Printing & Packaging Technology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC201 PPT",
+      "title": "Introduction to Printing Processes",
+      "semester": 3,
+      "type": "Major Course 1",
+      "credits": 3,
+      "pages": [17, 18],
+      "units": [
+        {
+          "title": "Introduction to Printing and Pre-Press",
+          "topics": "Definition of Printing Processes, History of Printing Process, Introduction of Printing Processes, Pre-Press, Printing Workflow, Typography – 2D and 3D Typefaces, Family, Series of Type, Legibility and Readability, Type Measurement, Type Alignment and Arrangement, Desktop Publishing (DTP) and Camera Processing, Types of Originals, Conversion to Film Output – Negative, Positive and Tracing , Computer-to-Plate (CTP) Technology",
+          "hours": 7
+        },
+        {
+          "title": "Printing Processes and Post-Press Techniques",
+          "topics": "Principles of Printing Processes, Impact and Non -Impact Printing Processes, Binding Techniques— Hard Binding, Paperback Binding, Mechanical Loose-Leaf Binding, Finishing Techniques – Punching, Embossing, Foiling, Lamination, Varnishing.",
+          "hours": 7
+        },
+        {
+          "title": "Design, Layout, and Color Theory",
+          "topics": "Introduction to Graphic Design, Fundamentals of Design, Principles of Design, Layout – Purpose and Advantages, Layout Styles, Layout Components, Stages in Preparing a Layout – Marking-Up, Dummy, Thumbnails, Rough Layout, Comprehensive Layout, Color – Definition of Color, Light, Electromagnetic Spectrum, Additive Color Theory, Subtractive Color Theory",
+          "hours": 7
+        },
+        {
+          "title": "Screen Printing Materials and Tools",
+          "topics": "Definition of Screen Printing, Important Elements Affecting the Screen Printing Process, Frames – Purpose and Requirements, Types of Materials, Types of Sections, Frame Size Selection Criteria, Squeeze – Purpose and Requirements, Types of Squeezes, Applications, Mesh – Purpose and Requirements, Types – PET, Polypropylene, Nylon, Stainless Steel, etc, Mesh Geometry – Mesh Count and Thread Diameter, Mesh Opening, Mesh Weave, Mesh Color, Role of Thread Diameter – Ink Transfer, Fabric Area, Color and Thickness, Dot Reproduction",
+          "hours": 7
+        },
+        {
+          "title": "Stretching and Stencil Preparation Gluing, Prepress and Halftone",
+          "topics": "Stretching – Preparation for Stretching – Grinding, Cleaning, Base Coat, Types of Stretching – Mechanical, Pneumatic, Gluing – Types and Selection of Glue, Marking Screen Details, Pre -Press – Designing Text, Line, and Graphics, Halftone – Screen Angle, Dot Calculation, Separation of 4 Colors, Stencil Preparation – Workflow, Coating – Print Side and Squeeze Side, Exposing, Printing Applications – Commercial, Textile, Industrial Purposes (Advertising, Graphic Overlays, Polycarbonate, Dial Gauges, Gaskets, Automotive Products, PCB, PE),",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC202PPT",
+      "title": "Material Science in Printing and Packaging",
+      "semester": 3,
+      "type": "Major Course 2",
+      "credits": 3,
+      "pages": [19, 21],
+      "units": [
+        {
+          "title": "Image carriers used invarious printing processes",
+          "topics": "Classification of metals: Ferrous and non -ferrous metals, Physical and mechanical properties of metals used in printing, Materials for image carriers: zinc, copper, aluminum, magnesium, steel, Surface treatments: coating, graining, anodizing, electroplating, Manufacturing and preparation of printing plates for: Offset (lithographic plates), Gravure (engraved cylinders), Flexography (photopolymer plates), Screen printing (metal and mesh screens), Durability, wear resistance, and corrosion behavior of image carriers, Technological advancements in plate-making materials",
+          "hours": 7
+        },
+        {
+          "title": "Printing Inks, Properties and Testing",
+          "topics": "Composition of printing inks: pigments, resins (binders), solvents, additives, Classification of printing inks by process: offset, gravure, flexographic, screen, inkjet, digital, UV -curable inks, Ink properties: Rheological: viscosity, tack, flow, Optical: color strength, gloss, transparency, Drying behavior: absorption, evaporation, oxidation, polymerization, Interaction of ink with substrates Testing methods: Rub resistance, Gloss measurement, Light fastness and weather resistance, Ink adhesion test (tape test, crosshatch), Ink film thickness and density, Colorimetric evaluation using spectrophotometers, Regulatory and environmental considerations: low-VOC and sustainable inks",
+          "hours": 7
+        },
+        {
+          "title": "Paper Manufacturing, Properties and Testing",
+          "topics": "Importance of paper and paper products in printing industry, Paper manufacturing process including Pulping, Bleaching, waste paper utilization and deinking, Stock preparation, Sizing, Different machines used for paper manufacturing, Single wire and Two wire, Pressing, Drying, Calendering, Super calendaring, Embossers etc., Different surface finishes obtained in paper, selection criteria of paper substrate for printing and converting applications Surface and Physical properties of paper such as GSM, thickness, density etc., strength properties of paper such as tensile, tearing, folding strength etc., chemical and optical properties of paper like pH, color, gloss, brightness and opacity, Importance of BIS and TAPPI standards for paper and its relation to printing industry.",
+          "hours": 7
+        },
+        {
+          "title": "Plastics and other packaging materials",
+          "topics": "Paper-based packaging materials: kraft paper, duplex board, solid bleached sulfate (SBS), corrugated fiberboard. Plastic packaging materials: polyethylene (LDPE, HDPE), polypropylene (PP), polyethylene terephthalate (PET), polyvinyl chloride (PVC), polystyrene (PS), biodegradable polymers (PLA, PHA), multilayer structures and films, co -extrusion, lamination, metallization of films. Metal packaging materials:aluminum foil, tinplate. Glass: inertness, recyclability, weight and fragility limitations, composite packaging materials and their applications. functional properties: moisture barrier, gas barrier, aroma barrier, puncture resistance, tensile strength, thermal sealing properties, sustainability: recyclability, biodegradability, life-cycle analysis.",
+          "hours": 7
+        },
+        {
+          "title": "Chemicals and adhesives used in Printing industry",
+          "topics": "Printing chemicals: fountain solutions, plate cleaners, blanket washes, anti -setoff powders, drying aids, desensitizing solutions. Solutions used in gravure and flexo processes. Adhesives: water -based (starch, PVA), hot melt adhesives, pressure -sensitive adhesives (PSA), solvent-based adhesives, UV- curable adhesives, adhesive application techniques: lamination, folding cartons, label bonding, adhesion mechanisms: mechanical interlocking, surface energy, chemical bonding.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC203 PPT",
+      "title": "Introduction to Packaging Concepts",
+      "semester": 3,
+      "type": "Major Course 3",
+      "credits": 3,
+      "pages": [22, 23],
+      "units": [
+        {
+          "title": "Introduction to Packaging",
+          "topics": "Need & Evolution of Packaging, Definitions of Packaging, Basic Functions of Packaging: Protection, Preservation, Containment, Machinability, Communication, Re -use, and Recyclability. Types of Packaging, Packaging Hazards: Storage, Transportation, Chemical, Climatic, Biological",
+          "hours": 7
+        },
+        {
+          "title": "Elements for Package Design",
+          "topics": "Graphic Design Elements for a Package: Significance of Shape, Size, Color, Typography and Font in Packaging, Texture and Line Elements in Design, Balance & Unity, Symmetry and Harmony, Iconography, Symbols, and Imagery in Packaging Design, Branding Through Design Elements and Packaging",
+          "hours": 7
+        },
+        {
+          "title": "Product-Package Relationship",
+          "topics": "Product Characteristics: Physical (Nature, Shape, Size, Texture, Centre of Gravity, etc.), Chemical (Acidic, Basic, Reactivity, etc.), Biological (Effect of Micro -organisms), Effect of Moisture, Oxygen, and Other Gases, Package Characteristics: Material (Plastic, Paper, Wood, etc.), Physical (Tensile, Breaking Load, Burst, Molecular/ Fiber Direction, etc.), Chemical (Unreacted Chemicals Present, pH, etc.), Biological (Sensitivity to Micro -organisms), Permeability (Barrier Properties — Absorption/Diffusion of Moisture and Gases),",
+          "hours": 7
+        },
+        {
+          "title": "Packaging: A Marketing Tool",
+          "topics": "Packaging and Market Positioning, Understanding Consumer Behavior: Demographics, Psychographics, Role in the Retail Market , Influence on Brand Loyalty, Packaging Industry trends, Consumer Lifestyle Targeting, Material and Structural Innovations in Packaging",
+          "hours": 7
+        },
+        {
+          "title": "Quality Standards in Packaging",
+          "topics": "Need for and Importance of Quality Control in Packaging, Significance of Specifications, Significance of Testing, Packaging Standards, Conditioning, Sampling, Package Testing, Environmental considerations and Waste Management, Packaging Scenario —World and India, Comparison, Scope, and Growth in India. Packaging Laws and Regulations,",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC204 PPT",
+      "title": "Printing Process Practical 1",
+      "semester": 3,
+      "type": "Practical Lab 1",
+      "credits": 2,
+      "pages": [24, 26],
+      "units": []
+    },
+    {
+      "code": "PCC205 PPT",
+      "title": "Printing Materials Practical 2",
+      "semester": 3,
+      "type": "Practical Lab 2",
+      "credits": 1,
+      "pages": [27, 28],
+      "units": []
+    },
+    {
+      "code": "*Open Elective 1",
+      "title": "Open Elective - I",
+      "semester": 3,
+      "type": "Open Elective 1",
+      "credits": 2,
+      "pages": [14, 14],
+      "units": []
+    },
+    {
+      "code": "MDM221 PPT",
+      "title": "Engineering Mathematics 3",
+      "semester": 3,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [29, 30],
+      "units": [
+        {
+          "title": "Interpolations",
+          "topics": "Difference operators,Newton'sForward,BackwardandLagrange’sinterpolationformulae.",
+          "hours": 6
+        },
+        {
+          "title": "Numerical Methods",
+          "topics": "Numericalsolutionsofnonlinearalgebraic/transcendentalequationsbyBisectionandNewton-Raphson methods; Trapezoidal and Simpson’s rule for numerical integration.",
+          "hours": 6
+        },
+        {
+          "title": "Statistics",
+          "topics": "Measures of central tendency, Measures of dispersion, Coefficient of variation, Moments, Skewness and Kurtosis, Curve fitting: fitting of straight line, parabola and related curves , Correlation and Regression",
+          "hours": 6
+        },
+        {
+          "title": "Probability and Probability Distributions",
+          "topics": "Probability, Theorems on Probability, Bayes Theorem, Random variables, Mathematical Expectation, Probability distributions: Binomial, Poisson, Normal",
+          "hours": 6
+        },
+        {
+          "title": "Linear Programming Problem",
+          "topics": "Introduction; Formulation of linear programming problem (LPP); Graphical method for its solution; Standard form of LPP; Basic feasible solutions; Simplex Method for solving LPP",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM231PPT",
+      "title": "Basics of Management and Organizational Behavior",
+      "semester": 3,
+      "type": "Entrepreneurship/Economics/Management Course",
+      "credits": 2,
+      "pages": [31, 32],
+      "units": [
+        {
+          "title": "Management- Introduction",
+          "topics": "Basic concepts of management, Definition. Evolution of management through Functions of management",
+          "hours": 5
+        },
+        {
+          "title": "Management Types",
+          "topics": "Characteristics, Advantages and limitations",
+          "hours": 5
+        },
+        {
+          "title": "Organizational Behavior",
+          "topics": "Definition, Importance, Historical background, Fundamental concepts of OB, Perception process - Nature & Importance, Social perception- Impression management",
+          "hours": 5
+        },
+        {
+          "title": "Personality, Attitude & Motivation",
+          "topics": "Meaning of personality, development of personality, Nature and dimension of attitude- job satisfaction Organizational commitment, Process of learning, principles of learning, Organizational reward system, Behavioral management, Classification of Motives- Primary &secondary, Morale -definition and relationship with productivity",
+          "hours": 5
+        },
+        {
+          "title": "Theories & Design",
+          "topics": "Theories of work motivation, Maslow’s theory of need hierarchy, Herzberg’s theory of job loading Group dynamics & teams, theories of group formation, Formal & informal groups, Importance of teams, formation of teams, Organizational design - structures and effect on human behavior, Organizational climate, Organizational effectiveness, Leadership - definition, importance, styles, models & theories of leadership",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "VEC232PPT",
+      "title": "Universal Human Values",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [33, 34],
+      "units": [
+        {
+          "title": "Understanding Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self -exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment (iv) Right Understanding, Relationship and Physical Facility (v) Happiness and Prosperity - Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 5
+        },
+        {
+          "title": "Understanding Human being as the Co -existence of the Self and the Body",
+          "topics": "(i) Understanding Human being as the Co -existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Program to Ensure self- regulation and Health",
+          "hours": 5
+        },
+        {
+          "title": "Harmony in the Family",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship (ii) ’Respect’ - as the Right Evaluation (iii) Values in Human -to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order",
+          "hours": 5
+        },
+        {
+          "title": "Understanding Harmony in Nature",
+          "topics": "(i) Understanding Harmony in Nature (ii) Interconnectedness, self -regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co -existence at All Levels (iv) The Holistic Perception of Harmony in Existence (v) Professional Ethics in the light of Right Understanding (vi) Strategies for Transition towards Value-based Life and Profession",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CEP241PPT",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [35, 39],
+      "units": []
+    },
+    {
+      "code": "PCC251PPT",
+      "title": "Fundamentals of Prepress",
+      "semester": 4,
+      "type": "Major Course 4",
+      "credits": 3,
+      "pages": [40, 41],
+      "units": [
+        {
+          "title": "Introduction to Prepress and Text Composition",
+          "topics": "Overview of prepress in the printing workflow, significance of prepress in print quality and productivity, typesetting principles and typographic rules, text formatting: alignment, kerning, tracking, leading, font management and classification, composing text using professional software (e.g., Adobe InDesign, QuarkXPress), Unicode and multilingual text handling, use of stylesheets and templates, integration of text with images and graphics.",
+          "hours": 7
+        },
+        {
+          "title": "Page Layout and Design for Print",
+          "topics": "Basic principles of design: balance, contrast, hierarchy, repetition, alignment, proximity, use of grids and guides, page geometry: trim size, bleed, slug, margins, layout for different formats: books, brochures, packaging, magazines, imposition schemes for offset and digital printing, working with master pages and layers, file types and resolution for images, typography in layout, print-safe areas and final artwork preparation.",
+          "hours": 7
+        },
+        {
+          "title": "Halftone Theory, Color Separation, Resolution and Image setting",
+          "topics": "Theory of halftone reproduction and tone compression, continuous tone vs halftone image conversion, halftone dot formation and growth, dot size, shape, and gain, screen ruling (LPI), resolution (DPI vs PPI) and its impact on image quality, differences between input, display, and output resolutions, tonal gradation and control in highlights and shadows, color separation theory for CMYK and duotone/tritone printing, UCR (Under Color Removal) and GCR (Gray Component Replacement), screen angles and rotation to avoid moiré patterns, conventional screening (AM), stochastic screening (FM), hybrid screening techniques, spot size and dot geometry, RIP (Raster Image Processor) role in halftone rendering, introduction to vector and raster data in prepress, film output, plate output, and exposure principles in imagesetters and CTP systems, bitmapped image files and 1 -bit TIFFs, practical considerations for output quality in different printing processes.",
+          "hours": 7
+        },
+        {
+          "title": "Densitometry and Prepress Quality Control",
+          "topics": "Basics of densitometry and its role in print consistency, types of densitometers: reflection and transmission, measuring solid ink density, dot gain, gray balance, tone value increase (TVI), color bar reading and interpretation, use of densitometry in proofing and print calibration, tolerances and industry standards (ISO 12647), quality parameters in proofing systems, resolution and screen angles for various printing processes.",
+          "hours": 7
+        },
+        {
+          "title": "Prepress Workflow, Preflight, and Output Preparation",
+          "topics": "Stages of prepress workflow: file creation, editing, proofing, preflighting, output, digital workflow in offset, flexo, gravure, and digital printing, preflight checks: missing fonts, incorrect links, color spaces, resolution issues, bleed and trim errors, RIP (Raster Image Processor): function, types, and output formats, file formats: PDF/X standards, TIFF, EPS, PSD, and AI, imposition software and automation tools, use of workflow systems (e.g., Enfocus, Kodak Prinergy, Esko), print -ready file delivery an d archiving, collaboration and job ticketing systems in modern prepress.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC252PPT",
+      "title": "Post Press Operations",
+      "semester": 4,
+      "type": "Major Course 5",
+      "credits": 3,
+      "pages": [42, 43],
+      "units": [
+        {
+          "title": "Introduction to Post Press",
+          "topics": "Definition and significance of post press, Difference between prepress, press, and post press, Workflow in printing production",
+          "hours": 7
+        },
+        {
+          "title": "Binding and Finishing Processes",
+          "topics": "Types of Binding: Saddle stitching, Perfect binding, Case binding (hardcover), Wire -o binding, Spiral binding. Folding Techniques: Parallel fold, gate fold, accordion fold, cross fold, Gathering, Collating & Inserting, Cutting & Trimming: Guillotine cutter, Three -knife trimmer, Machines & Equipment: Trimmers and guillotines, Folding machines Binding machines, Laminators and coaters and Die -cutting and embossing machines",
+          "hours": 7
+        },
+        {
+          "title": "Surface Finishing Techniques",
+          "topics": "Coating, Aqueous coating, Varnishing, Lamination: Hot and cold lamination. Foil Stamping, Embossing& Debossing and Spot UV",
+          "hours": 7
+        },
+        {
+          "title": "Die-Cutting & Creasing",
+          "topics": "Introduction to die-cutting machines, Blanking, Creasing and scoring, Kiss cutting. Packaging Applications: Box making, Carton folding and gluing, Label finishing",
+          "hours": 7
+        },
+        {
+          "title": "Quality Control in Post Press",
+          "topics": "Tolerances in finishing, Defects and troubleshooting (misalignment, cracking, over-trimming) Safety standards and practices. Maintenance and Troubleshooting: Preventive maintenance for post press machinery, Common faults and solutions, Safety protocols and handling Emerging Trends: Digital finishing systems, Automation in post press, Eco-friendly materials and processes",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC253PPT",
+      "title": "Wood Glass and Metal based Packaging",
+      "semester": 4,
+      "type": "Major Course 6",
+      "credits": 2,
+      "pages": [44, 45],
+      "units": [
+        {
+          "title": "Wood Based Packaging",
+          "topics": "Introduction, Design Factors, Quality and Classification of Timber, Effect of Moisture on Wood Properties, Physical and Mechanical Properties of Timber, Considerations of Wooden Container such as Form and Size of each component, Thickness of components, size, spacing of nails, number of planks in a shook, types of joints, style of container, etc.",
+          "hours": 6
+        },
+        {
+          "title": "Consideration for Box Design",
+          "topics": "Types of Loads, Plywood Boxes - Battened Construction, Timber species suitable for manufacturing packing cases, wooden box styles, Crates, Selection of crate, Size and Weight, Degree of Protection, Types of Bases, Handling of crates, difference between plywood and normal wood, ISPM-15 Regulation and process, different types of wooden pallets and its construction, Wooden pallets types A, B, C, ISTA 3B testing for Wood pallets.",
+          "hours": 6
+        },
+        {
+          "title": "Glass Packaging",
+          "topics": "Introduction, Types of Glass, Properties, Glass Manufacturing, Applications, Advantages, Standards, Glass Containers, Parameters in Glass Containers, Modern trends in Glass Packaging.",
+          "hours": 6
+        },
+        {
+          "title": "Testing of Glass",
+          "topics": "Physical Testing: Annealing Test, Thermal Shock, Pressure Test, Density Test, Gauging, Chemical Testing: USP Tests.",
+          "hours": 6
+        },
+        {
+          "title": "Metal Containers and Drums",
+          "topics": "Metal Containers: Manufacture of Aluminum Foil, Properties and Applications, Tin Plate Characteristics, Properties, Manufacture of Black Plate, Advantages and Disadvantages of Metal-Based Packaging, Modern Trends in Metal-Based Packaging, Tin canister packaging used in the food industry, Metals box used in Industrial packaging in the automotive sector as returnable packaging, Metal box used for Lithium-Ion packaging used in electronic goods and EV, Testing protocols for Hazmat packaging based on United Nations (UN) protocol. GI Drums, Oil Drums, Types of Drums, Manufacture of Drums, Quality Control, Closures, Types, Parts, Essential Functions, Recent Developments.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC254PPT",
+      "title": "Pre-press Techniques",
+      "semester": 4,
+      "type": "Practical Lab 1",
+      "credits": 1,
+      "pages": [46, 47],
+      "units": []
+    },
+    {
+      "code": "PCC255PPT",
+      "title": "Print Finishing Techniques",
+      "semester": 4,
+      "type": "Practical Lab 2",
+      "credits": 1,
+      "pages": [48, 49],
+      "units": []
+    },
+    {
+      "code": "*Open Elective 2",
+      "title": "Open Elective - II",
+      "semester": 4,
+      "type": "Open Elective 2",
+      "credits": 2,
+      "pages": [15, 15],
+      "units": []
+    },
+    {
+      "code": "MDM271PPT",
+      "title": "Printing Digital Electronics",
+      "semester": 4,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [50, 51],
+      "units": [
+        {
+          "title": "Introduction of number system",
+          "topics": "Decimal, Binary, Octal Hexadecimal number systems and their conversations, BCDcodes, 8421,Excess - 3, Gray Code, ASCII code, Concept of bar code and its application in printing",
+          "hours": 5
+        },
+        {
+          "title": "Fundamentals of Digital Electronics",
+          "topics": "all types of gates and their truth tables, Need of minimization, Minimization techniques, K-map simplification up to 4 variables, SOP and POS forms; don’t care conditions, Logic families and comparative study of TTL, ECL and CMOS",
+          "hours": 5
+        },
+        {
+          "title": "Combination logic and Arithmetic",
+          "topics": "Combination logic and Arithmetic such as addition, subtraction, 1’s complement and 2’scomplement method. Binary multiplication and division. Half adder / Half subtractor, Full Adder/Full Subtractor, BCD adder. One-bit digital comparator Concept and Application of ALU.",
+          "hours": 5
+        },
+        {
+          "title": "Sequential logic circuits and their applications in printing",
+          "topics": "Study of level clocked S-R, D, JK, M-SJK flip-flops (Includes logical diagrams, symbol truth-table, waveforms / timing diagrams). Study of asynchronous and synchronous counters and their applications such as paper counting. Roller speed measurement, concept of modulo `N’ counter, UP/Down counter. Principle operation of Universal shift register (IC 7495 including all modes of operation - concept only) and its application in printing",
+          "hours": 5
+        },
+        {
+          "title": "Digital signals and its storage and display",
+          "topics": "Introduction to ADC’s and DAC’s (includes classification and specifications in brief). Classification of Memories, study of RAM, ROM, EPROM, E PROM, NVRAM, SRAM, DRAM, concept of PLA, PAL and PLD’s. Display Devices and decoders 7 segment LEDdisplay (includes basic diagrams of Common Anode and Common Cathode) study of decoder driver IC’s suchasIC7447, 7448, LCD display & Display Drivers ICs such as 7106, 7107, Block diagram of Digital computer and study of advanced processors",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "VSE281PPT",
+      "title": "Visual Arts and Communication Skills",
+      "semester": 4,
+      "type": "Vocational Skill Enhancement Course",
+      "credits": 2,
+      "pages": [52, 53],
+      "units": []
+    },
+    {
+      "code": "AES282PPT",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [54, 55],
+      "units": [
+        {
+          "title": "Unit I & II",
+          "topics": "घटक तपशील 1) भािाआणणव््क्ततमत्त्िषिकािःिहिांबांध 2) लोकशाहीतीलजीिनव््िहारआणणप्रिारमाध््मे प्रिारमाध््माांिाठीलेखन 1) िृत्तपत्रािाठीबातमीलेखनआणणमुद्रितशोधन 2) नभोिाणीिाठीभािणाचीिांद्रहतालेखन 3) दूरचचत्रिाणीिाठीमाद्रहतीपटािाठीिांद्रहतालेखन Case Study :",
+          "hours": 15
+        },
+        {
+          "title": "Unit III & IV",
+          "topics": "घटक 1) भािा, जीिनव््िहारआणणनिमाध््मे, िमाजमाध््मे 2) निमाध््मेआणणिमाजमाध््माांचेप्रकार ःः ब्लॉग, फेिबुक, द्षिटर 3) निमाध््मेआणणिमाजमाध््माांषिि्किाक्षरता, दक्षता, िापरआणणपररणाम 1) िेबिाईटआणइब्लॉग, द्षिटरिाठीलेखन 2) व््ाििाय्कपत्रव््िहार",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EEM283PPT",
+      "title": "Intellectual Property Rights",
+      "semester": 4,
+      "type": "Entrepreneurship/Economics/Management Course",
+      "credits": 2,
+      "pages": [56, 57],
+      "units": [
+        {
+          "title": "IPR Principles",
+          "topics": "An Overview of Intellectual Property Rights Theories and Concept Types of Rights to Intellectual Property An economic evaluation of intellectual property rights Need for Public Interests vs. Private Rights IPR's benefits and drawbacks.",
+          "hours": 5
+        },
+        {
+          "title": "Trademark & Infringement",
+          "topics": "Types of trademarks, brands, and logos, as well as trademark infringement requirements for trademark registration, the trademark registration procedure, well-known trademarks, case studies, trademark infringement, trademark categorization, and trademark filing Copyrights and associated rights under the Madrid Convention, Section 52 of the Indian Copyright Act, the Bern Convention, copyright registration, copyright infringement, types of rights protection through case studies, plagiarism, and copyright.",
+          "hours": 5
+        },
+        {
+          "title": "Patent",
+          "topics": "Patent fundamentals, Patentability requirements for novelty, non-obviousness, and utility inventions in India that are not patentable, customary wisdom, best mode and enablement, duration of the patent, The patentee's rights information contained in a patent application, Statements, Categories of patents, Databases of Patents",
+          "hours": 5
+        },
+        {
+          "title": "Patent application process",
+          "topics": "Prior art search, The Indian patent application process, varieties of patent applications, both complete and provisional specifications, Patent Cooperation Treaty (PCT), Divisional application, Convention application, and Patent of addition",
+          "hours": 5
+        },
+        {
+          "title": "Licensing and royalty",
+          "topics": "Basic principles of licensing and royalty, technology transfer, intellectual property assignment, valuation, and management",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "VEC284PPT",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [58, 59],
+      "units": [
+        {
+          "title": "Introduction to Environmental Science & Ecosystems",
+          "topics": "Definition, scope and importance of environmental studies, Components of the environment: Atmosphere, Lithosphere, Hydrosphere, Biosphere, Concept of ecosystem: Structure and function, Energy flow in ecosystems: Food chains, food webs, ecological pyramids, Types of ecosystems: Forest, Grassland, Desert, Aquatic, Ecological succession and nutrient cycles (carbon, nitrogen)",
+          "hours": 5
+        },
+        {
+          "title": "Natural Resources and Management",
+          "topics": "Types of natural resources: Renewable vs Non-renewable, Forest resources: Deforestation, afforestation, forest conservation, Water resources: Water conservation, rainwater harvesting, watershed management, Mineral and energy resources: Fossil fuels, solar, wind, geothermal, nuclear, Sustainable resource management and environmental impacts of over-exploitation",
+          "hours": 5
+        },
+        {
+          "title": "Biodiversity and Conservation",
+          "topics": "Introduction to biodiversity: Genetic, species, ecosystem diversity, Biogeographical classification of India, Biodiversity hotspots and endemic species, Threats to biodiversity: Habitat loss, poaching, invasive species, Conservation methods: In-situ (national parks, sanctuaries), Ex-situ (zoos, seed banks)",
+          "hours": 5
+        },
+        {
+          "title": "Environmental Pollution and Control",
+          "topics": "Types of pollution: Air, Water, Soil, Noise, Causes, effects and control measures, Solid waste management: Types, collection, disposal, recycling, Case studies: Bhopal gas tragedy, Chernobyl disaster, Role of individuals in pollution control",
+          "hours": 5
+        },
+        {
+          "title": "Social Issues and Environmental Protection",
+          "topics": "Global environmental issues: Climate change, global warming, acid rain, ozone depletion, Environmental ethics, sustainable development, and green technologies, Environmental impact assessment (EIA), Environmental laws in India: Air Act, Water Act, Environmental Protection Act, Wildlife Protection Act, Human population growth and its environmental impact",
+          "hours": 5
+        }
+      ]
+    }
+  ],
+  "notes": null
+}
+

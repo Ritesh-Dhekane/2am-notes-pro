@@ -1,0 +1,904 @@
+{
+  "id": "s-y-b-sc-cyber-and-digital-science-19092025",
+  "kind": "programme",
+  "programme": "Bachelor of Science (B.Sc) with Major : Cyber and Digital Science",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CDS-101-MJ",
+      "title": "Linux System Administration",
+      "semester": 1,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Linux System Administration",
+          "topics": "Overview of Linux Operating System. Role of a Linux System Administrator. Understanding the Linux File System. Basic Shell Commands and Navigation.",
+          "hours": 6
+        },
+        {
+          "title": "Installation and Configuration",
+          "topics": "Linux Installation Methods. Partitioning and File System Setup. User and Group Management. Network Configuration and Troubleshooting.",
+          "hours": 7
+        },
+        {
+          "title": "Control Statements and Functions",
+          "topics": "Package Management with APT and YUM. Kernel Updates and System Reboots. Log File Analysis and Troubleshooting. Monitoring System Performance.",
+          "hours": 6
+        },
+        {
+          "title": "Security and Access Control",
+          "topics": "User Authentication with PAM. Firewalls and IPtables. Secure Shell (SSH) Configuration. Implementing SELinux/AppArmor for Mandatory Access Control.",
+          "hours": 5
+        },
+        {
+          "title": "Advanced Topics in Linux Administration",
+          "topics": "Automated Task Scheduling with Cron. Virtualization and Containerization (e.g. Docker). File and Directory Permissions. Backup and Recovery Strategies.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CDS-102-MJ",
+      "title": "Fundamental of C programming",
+      "semester": 1,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to C Programming",
+          "topics": "Introduction to Algorithm and Flowcharts, Basics of C: Historical development of C, Structure of C program, Keywords, identifiers, Constants, Variables, Data types, operators, Formatted and unformatted input and output functions.",
+          "hours": 6
+        },
+        {
+          "title": "Control Structures",
+          "topics": "Decision making structures: If, if-else, Nested if-else, switch, Looping structures: while, do-while, for, Break and Continue.",
+          "hours": 8
+        },
+        {
+          "title": "Functions",
+          "topics": "Function basics, Function declaration, definition, function call, Parameter passing: call by value, call by reference, Scope of variables, Storage classes, Recursion.",
+          "hours": 6
+        },
+        {
+          "title": "Arrays and Strings",
+          "topics": "Introduction to Array, One dimensional array: declaration, initialization and operations, Two dimensional array: declaration, initialization and operations, Introduction to String, String operations, String handling functions.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CDS-103-MJ",
+      "title": "Fundamentals of Computer",
+      "semester": 1,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computers",
+          "topics": "Introduction, Characteristics of Computers, Block diagram of computer, Types of computers, Generations of Computer.",
+          "hours": 5
+        },
+        {
+          "title": "Computer Hardware & Software",
+          "topics": "Input devices, Output devices, Memory devices: Primary and Secondary memory, Types of software: System software, Application software.",
+          "hours": 10
+        },
+        {
+          "title": "Operating System and its Services",
+          "topics": "Dos–History, Files and Directories, Internal and External Commands, Batch Files, Types of O.S.",
+          "hours": 5
+        },
+        {
+          "title": "Internet Network",
+          "topics": "Network definition, Common terminologies: LAN, WAN, Node, Host, Workstation, bandwidth, Interoperability, Network administrator, network security, Network Components: Severs, Clients, Communication Media, Types of network: Peer to Peer, Clients Server",
+          "hours": 4
+        },
+        {
+          "title": "Introduction to Problem Solving",
+          "topics": "Concept: problem solving, Problem solving techniques: Steps in problem solving, Flowchart, Algorithm.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CDS-104-MJP",
+      "title": "Practical based on CDS101MJ",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-105-MJP",
+      "title": "Practical based on CDS102MJ",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        18,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-106-MJP",
+      "title": "Practical based on CDS103MJ",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-101-IKS",
+      "title": "Computing in ancient India",
+      "semester": 1,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        23,
+        23
+      ],
+      "units": [
+        {
+          "title": "Computing in Ancient India: An Overview",
+          "topics": "Indian Knowledge Systems (IKS): An Overview. Indian Perspective of Computing: An introduction. History of Computing in India. Indian contributions to mathematics and astronomy: Baudhayana, Aryabhata, Brahmagupta, Bhaskaracharya.",
+          "hours": 6
+        },
+        {
+          "title": "Linguistics and Computing in India",
+          "topics": "Panini’s Ashtadhyayi and Formal Language Theory: Sanskrit grammar as a formal system; Concept of generative grammar and its connection to computer science. Pingala’s Chandashastra and Binary Computing: Pingala’s metrics and binary representation, Combinatorics in Chandashastra (Meru Prastara / Pascal's Triangle).",
+          "hours": 8
+        },
+        {
+          "title": "Computational Logic and Algorithmics in India",
+          "topics": "Indian Logic (Nyaya and Navya-Nyaya): Foundations of Indian logic; Comparison between Indian logic and Western Boolean logic; Relevance to artificial intelligence and formal reasoning. Algorithms in Indian Astronomy (Jyotisha) and Mathematics (Ganita): Algorithms for astronomical calculations and calendar making, Planetary models and computational procedures.",
+          "hours": 8
+        },
+        {
+          "title": "Knowledge Systems, Architecture and Contemporary Relevance",
+          "topics": "Architectural Computing and Shilpa Shastra: Geometric and mathematical concepts in Vastu and temple architecture. Modern Relevance and Future Directions: Applications of Indian computing ideas in modern AI, NLP, and algorithm design.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEC-101-CDS",
+      "title": "Fundamentals of Digital Communication (Practical)",
+      "semester": 1,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-151-MJ",
+      "title": "Fundamentals of Cyber security",
+      "semester": 2,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Security",
+          "topics": "Introduction to Cyber Security: Definition, Importance and scope, Basic terminology: threats, vulnerabilities, risks, attacks. Cyber Security Principles: CIA Triad (Confidentiality, Integrity, Availability), Non-repudiation, Authentication and authorization.",
+          "hours": 7
+        },
+        {
+          "title": "Basics of Networking and Security",
+          "topics": "Networking Fundamentals: Introduction to networking, OSI model and TCP/IP protocol suite, IP addressing, subnetting, and routing concepts. Network Security Basics: Firewalls, IDS, IPS, VPNs, Wireless network security.",
+          "hours": 8
+        },
+        {
+          "title": "Cyber Threats and Attacks",
+          "topics": "Common Cyber Threats: Malware, Social engineering attacks, Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks, Man-in-the-Middle (MitM) attacks. Web Application Security: Common web vulnerabilities (OWASP Top 10), SQL injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF).",
+          "hours": 8
+        },
+        {
+          "title": "Security Policies, Management and Ethics",
+          "topics": "Security Policies and Procedures: Developing and implementing security policies, Incident response and management, Risk management and assessment. Cyber Ethics and Laws: Ethical issues in cyber security, Cyber laws and regulations (e.g., GDPR, IT Act).",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CDS-152-MJ",
+      "title": "Network Security",
+      "semester": 2,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Network Security Concepts",
+          "topics": "Security Services: Confidentiality, Integrity, Authentication, Non-repudiation, Access Control, Availability. Basic Security Concepts: Vulnerabilities, Threats, Assets and Risks. OSI Security Architecture.",
+          "hours": 8
+        },
+        {
+          "title": "Cryptography and Public Key Infrastructure",
+          "topics": "Symmetric Key Cryptography: DES, AES, Block cipher modes of operation. Asymmetric Key Cryptography: RSA, Diffie-Hellman Key Exchange. Message Authentication and Hash Functions: MD5, SHA. Digital Signatures, PKI, Digital Certificates.",
+          "hours": 8
+        },
+        {
+          "title": "Network Security Protocols and Systems",
+          "topics": "Network Layer Security: IPSec (AH, ESP). Transport Layer Security: SSL/TLS. Application Layer Security: PGP, S/MIME. Firewalls, Intrusion Detection Systems (IDS), Virtual Private Networks (VPNs).",
+          "hours": 8
+        },
+        {
+          "title": "Wireless and Mobile Device Security",
+          "topics": "Wireless Network Security: IEEE 802.11 security, WEP, WPA, WPA2, WPA3. Mobile Device Security: Threats, MDM, best practices.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CDS-153-MJ",
+      "title": "Python Programming",
+      "semester": 2,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Python",
+          "topics": "Features of Python, Python execution model, Data types, Variables, Operators, Expressions, Input/Output functions.",
+          "hours": 6
+        },
+        {
+          "title": "Control Flow and Functions",
+          "topics": "Conditional statements, Looping structures, Functions, Function arguments, Anonymous functions (lambda), Recursion.",
+          "hours": 8
+        },
+        {
+          "title": "Data Structures in Python",
+          "topics": "Lists: operations, methods. Tuples: operations, methods. Sets: operations, methods. Dictionaries: operations, methods, dictionary properties, conversion.",
+          "hours": 8
+        },
+        {
+          "title": "Modules, Packages and File Handling",
+          "topics": "Modules and Packages: Built-in modules, Creating modules, Import statement. File Handling: Opening, reading, writing, closing files, File modes.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CDS-154-MJP",
+      "title": "Practical based on CDS151MJ",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-155-MJP",
+      "title": "Practical based on CDS152MJ",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        38,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-156-MJP",
+      "title": "Practical based on CDS153MJ",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-151-CDS",
+      "title": "Statistical techniques for Computer Science",
+      "semester": 2,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Descriptive Statistics",
+          "topics": "Introduction to Statistics, Population and Sample, Types of Data, Measures of Central Tendency: Mean, Median, Mode.",
+          "hours": 7
+        },
+        {
+          "title": "Correlation and Regression",
+          "topics": "Bivariate data, Scatter diagram, Karl Pearson's coefficient of correlation, Spearman's rank correlation coefficient, Linear regression.",
+          "hours": 8
+        },
+        {
+          "title": "Measures of Dispersion",
+          "topics": "Concept and meaning of Measure of dispersion, Requirements of good Measure of dispersion. Types of Measure of Dispersion - Absolute & Relative Measure dispersion",
+          "hours": 7
+        },
+        {
+          "title": "Probability and Distributions",
+          "topics": "Concept of probability, Random experiments, Sample space, Events, Probability distributions: Binomial, Poisson, Normal distribution.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEC-151-CDS",
+      "title": "Advance Excel",
+      "semester": 2,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        45,
+        48
+      ],
+      "units": [
+        {
+          "title": "Advanced Formulas and Functions",
+          "topics": "Lookup and Reference functions: VLOOKUP, HLOOKUP, INDEX, MATCH, XLOOKUP. Logical functions, Financial functions, Text functions.",
+          "hours": 8
+        },
+        {
+          "title": "Data Analysis and Pivot Tables",
+          "topics": "Importing data, Data validation, Sorting and Filtering, Pivot Tables, Pivot Charts, Slicers, What-If Analysis, Data Tables.",
+          "hours": 8
+        },
+        {
+          "title": "Data Visualization and Dashboards",
+          "topics": "Advanced Charting techniques, Sparklines, Conditional Formatting, Building interactive dashboards.",
+          "hours": 7
+        },
+        {
+          "title": "Macros and Automation Basics",
+          "topics": "Introduction to Macros, Recording and running macros, Introduction to VBA editor, Automating repetitive tasks.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CDS-201-MJ",
+      "title": "Ethical Hacking-I",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to Ethical Hacking",
+          "topics": "What is Ethical Hacking? Confidentiality Integrity Availability (C.I.A) Triad, Cybersecurity Threats & Attack Vectors, Types of Hackers, Ethical Hacking vs. Cybercrime, Ethical Hacking Process",
+          "hours": 4
+        },
+        {
+          "title": "Foot printing, Reconnaissance & Open-Source Intelligence (OSINT)",
+          "topics": "Introduction to Reconnaissance, Passive vs. Active Reconnaissance, Introduction To Open Source Intelligence (OSINT), Information Gathering/Footprinting Techniques: WHOIS Lookup, Reverse WHOIS, DNS Enumeration (Nslookup, Dig), Social Media Intelligence Gathering, Shodan & Censys for Internet-wide Scanning",
+          "hours": 4
+        },
+        {
+          "title": "Network Scanning, Enumeration & Exploitation",
+          "topics": "Understanding Network Scanning (TCP, UDP, SYN, ACK), Using Nmap & Advanced Nmap Scripting Engine, OS Fingerprinting & Service Detection, Enumerating Network Services (NetBIOS, SNMP, SMB), Identifying Open Ports and Vulnerable Services, Evading Intrusion Detection Systems (IDS) & Firewalls, Network Traffic Analysis (Wireshark), ARP Spoofing & MITM Attacks",
+          "hours": 6
+        },
+        {
+          "title": "Vulnerability Assessment & System Hacking",
+          "topics": "Introduction to Vulnerability Scanning, Automated vs. Manual Vulnerability Analysis, Vulnerability Scanning Tools: Nessus, OpenVAS, Nikto (for Web Servers), Password Cracking Techniques: Hash Cracking (John the Ripper, Hashcat), Windows Password Extraction/reset, Brute Force & Dictionary Attacks, Privilege Escalation Techniques (Windows & Linux)",
+          "hours": 8
+        },
+        {
+          "title": "Web Application Hacking & Exploitation",
+          "topics": "Introduction to Web Vulnerabilities (OWASP Top 10), SQL Injection (SQLi) - Manual & Automated Exploitation, Cross-Site Scripting (XSS) - Reflected, Stored & DOM-Based, Cross-Site Request Forgery (CSRF), Remote File Inclusion (RFI) & Local File Inclusion (LFI), Exploiting Content Management Systems (CMS), Web Shell Injection & Command Execution, Bypassing Web Application Firewalls (WAF)",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CDS-203-MJP",
+      "title": "Practical based on CDS201MJ",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-202-MJ",
+      "title": "Cyber Ethics, Cyber Law & Cyber Policies",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Ethics",
+          "topics": "Definition and Importance of Cyber Ethics, Ethical Theories and Principles, Professional Ethics and Codes of Conduct, Privacy and Surveillance, Intellectual Property Rights and Digital Piracy, Ethical issues in emerging technologies (AI, IoT, Cloud Computing)",
+          "hours": 6
+        },
+        {
+          "title": "Cyber Law and Legal Framework",
+          "topics": "Introduction to Cyber Law, Information Technology Act, 2000 (IT Act) and its amendments, Offenses and Penalties under the IT Act, Electronic Governance and Digital Signatures, Cyber Jurisdiction and International Law, Legal aspects of Cyber Crimes: Hacking, Identity Theft, Cyber Stalking",
+          "hours": 8
+        },
+        {
+          "title": "Cybercrime and Investigation",
+          "topics": "Classification of Cyber Crimes, Cybercrime Investigation Process, Digital Evidence and Forensics, Admissibility of Electronic Evidence in Court, Roles and Responsibilities of Law Enforcement Agencies, International Cooperation in Cybercrime Investigation",
+          "hours": 8
+        },
+        {
+          "title": "Cyber Policies and Governance",
+          "topics": "Introduction to Cyber Policies, National and International Cyber Security Policies, Policy formulation and implementation, Compliance and Regulatory Frameworks, Corporate Cyber Governance and Risk Management, Future Trends in Cyber Policies",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CDS-221-VSC",
+      "title": "Data Structure using Python",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        56,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures and Algorithms",
+          "topics": "Introduction to Data Structures, Classification of Data Structures, Abstract Data Types (ADT), Algorithm Analysis: Space and Time Complexity, Asymptotic Notations (Big O, Omega, Theta)",
+          "hours": 6
+        },
+        {
+          "title": "Searching and Sorting Techniques",
+          "topics": "Linear Search, Binary Search, Sorting Algorithms: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, Complexity Analysis of Sorting Algorithms",
+          "hours": 8
+        },
+        {
+          "title": "Linked List",
+          "topics": "Introduction, Dynamic implementation of Linked List, Singly Linked List, Doubly Linked List, Circular Linked List, Operations on Linked List: Insertion, Deletion, Traversal",
+          "hours": 6
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": "Introduction to Stacks, Stack ADT, Implementation of Stack using Python, Applications of Stacks (Expression evaluation, Parentheses matching), Introduction to Queues, Queue ADT, Implementation of Queue, Types of Queues (Circular Queue, Priority Queue, Deque)",
+          "hours": 6
+        },
+        {
+          "title": "Trees and Graphs",
+          "topics": "Introduction to Trees, Binary Tree, Binary Search Tree (BST), Operations on BST: Insertion, Deletion, Traversal (Inorder, Preorder, Postorder), Introduction to Graphs, Graph Representation (Adjacency Matrix, Adjacency List), Graph Traversal: BFS and DFS",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "IKS-200-T",
+      "title": "Indian Knowledge System in Computing",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        58,
+        59
+      ],
+      "units": [
+        {
+          "title": "Vedic Mathematics and Computational Algorithms",
+          "topics": "Vedic Mathematics Sutras, Fast arithmetic operations, Binary number system in ancient texts, Combinatorics in Indian texts (Meru Prastara)",
+          "hours": 8
+        },
+        {
+          "title": "Paninian Grammar and Formal Language Theory",
+          "topics": "Structure of Ashtadhyayi, Context-free grammars and Paninian rules, Parsing algorithms inspired by Panini, Shastraic methods of knowledge representation",
+          "hours": 8
+        },
+        {
+          "title": "Indian Logic (Nyaya and Navya-Nyaya)",
+          "topics": "Foundations of Nyaya epistemology, Pramanas, Types of Argumentations in Nyaya: Vada (truth-based), Jalpa (debate-focused), Vitanda (criticism), Applications in AI & Machine Learning: Logical reasoning models, expert systems",
+          "hours": 8
+        },
+        {
+          "title": "Astronomy and Algorithmic Traditions",
+          "topics": "Siddhantic astronomy, Astronomical calculations, Calendar systems (Panchanga), Computational algorithms of Aryabhata and Madhava",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CDS-241-MN",
+      "title": "Web Technology",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        60,
+        61
+      ],
+      "units": [
+        {
+          "title": "Introduction to Web Development and HTML",
+          "topics": "Internet and Web Basics, HTTP/HTTPS Protocols, HTML5 Structure, Elements, Semantic Tags, Forms and Input Validation",
+          "hours": 6
+        },
+        {
+          "title": "Cascading Style Sheets (CSS3)",
+          "topics": "CSS Selectors, Box Model, Flexbox, Grid Layout, Responsive Web Design, Media Queries",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to PHP",
+          "topics": "Introduction to PHP, How does PHP work? PHP syntax, Variables, Data Types, Control Structures, Functions, Form Handling with GET and POST",
+          "hours": 10
+        },
+        {
+          "title": "JavaScript Fundamentals",
+          "topics": "JavaScript Syntax, Variables, Data Types, Operators, Control Structures, Functions, DOM Manipulation, Event Handling",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE-201-CDS-T",
+      "title": "AI for Everyone - I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        63,
+        64
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "What is AI? History of AI, AI vs Machine Learning vs Deep Learning, Common Applications of AI in Daily Life",
+          "hours": 6
+        },
+        {
+          "title": "Everyday AI Tools and Practical Applications",
+          "topics": "Search engines, Recommendation systems, Voice assistants, Smart devices",
+          "hours": 6
+        },
+        {
+          "title": "Generative AI and Creative Tools",
+          "topics": "Introduction to Generative AI, Text generation, Image generation, Audio and Video AI tools",
+          "hours": 6
+        },
+        {
+          "title": "AI for Productivity and Automation",
+          "topics": "AI in workplace, Automation tools, Workflow optimization using AI assistants",
+          "hours": 6
+        },
+        {
+          "title": "AI Writing Assistants Tools",
+          "topics": "ChatGPT (OpenAI), Google Gemini (Bard AI), Effective Prompt Engineering, Limitations and Ethics of Writing Tools",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-204-CDS-T",
+      "title": "Introduction to Cyber Security",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        65,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cybercrime",
+          "topics": "Definition and Origins of Cybercrime, Who are Cybercriminals? Classification of Cybercrimes, The Legal Perspectives: Indian Perspective, Global Perspective",
+          "hours": 8
+        },
+        {
+          "title": "Cybercrime Tools, Techniques and Cyber Laws",
+          "topics": "Introduction, Proxy Servers and Anonymizers, Phishing, Password Cracking, Keyloggers and Spywares, DoS and DDoS Attacks, Cyberlaws: The Indian IT Act 2000 and amendments",
+          "hours": 8
+        },
+        {
+          "title": "Cyber Offenses and Social Aspects",
+          "topics": "How Criminals Plan Attacks, Social Engineering, Cyberstalking, Cyber Cafe and Cybercrimes, Botnets, Attack Vectors",
+          "hours": 8
+        },
+        {
+          "title": "Cyber Security Best Practices",
+          "topics": "Password Security, Safe Browsing Habits, Email Security, Mobile Device Protection, Data Backup and Recovery",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "AEC-201-MAR",
+      "title": "भारा आिण ज्वानि्वािार",
+      "semester": 3,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        68,
+        69
+      ],
+      "units": [
+        {
+          "title": "भारा : सस आिण उस्ज",
+          "topics": "भयषरचर सस, भयषयपेप्ि◌तपष्◌् पपप पसदिय, भयषरचत ◌् य्◌् आिप ◌् ◌ै िपष्◌् र, भयषयभसयचत अगर ◌ ् भयषयभसयचत आ्श्◌् ि◌य",
+          "hours": 15
+        },
+        {
+          "title": "ज्वानि्वािार आिण भारा",
+          "topics": "भयषय आिप जत्◌े व्◌् वयर ◌् यच्ती सरससरसंप, व्वयार् भयषय, ि◌यसत् सयपवतचत भयषय, ◌ीपीि◌ सयपवतचत भयषय",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "AEC-251-MAR",
+      "title": "भारा आिण वसादकौशल्ाे",
+      "semester": 4,
+      "type": "AEC",
+      "credits": 2,
+      "pages": [
+        70,
+        72
+      ],
+      "units": [
+        {
+          "title": "भारा आिण वसाद",
+          "topics": "भयषय आिप भयपष् ◌् ◌लि◌ल् ◌् यचर सस ◌ ् सवसंप, चपभयषयपष्◌् ◌ीररे पे्◌् , भयषय आिप सद् ◌लि◌ल् ◌् यचर सस ◌ ् सवसंप",
+          "hours": 15
+        },
+        {
+          "title": "वसादकौशल्ाे",
+          "topics": "सद् ◌लि◌ल् ि◌सरच पिग सद् ◌लि◌ल् सेक घररय ◌् ररती, भयपष् ◌् ◌कौशल्◌् े : िवप, ◌् यय, वयत, लखे",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CDS-251-MJ",
+      "title": "Ethical Hacking-II",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        74,
+        75
+      ],
+      "units": [
+        {
+          "title": "Advanced Penetration Testing & Frameworks",
+          "topics": "Penetration Testing Methodologies (PTES, NIST, OWASP), Metasploit Framework: Architecture, Exploits, Payloads, Auxiliaries, Post-Exploitation, Meterpreter Basics, Scripting in Metasploit",
+          "hours": 6
+        },
+        {
+          "title": "Wireless Network Hacking & Defense",
+          "topics": "Wireless Network Architecture, Wi-Fi Encryption Protocols (WEP, WPA, WPA2, WPA3), Capturing WPA/WPA2 Handshakes, Deauthentication Attacks, Cracking WPA/WPA2 Passwords, Evil Twin & Rogue AP Attacks, Securing Wireless Networks",
+          "hours": 6
+        },
+        {
+          "title": "Social Engineering & Phishing Attacks",
+          "topics": "Social Engineering Techniques, Crafting Malicious Attachments, Credential Harvesting, Social Engineering Toolkit (SET), Defenses against Social Engineering",
+          "hours": 6
+        },
+        {
+          "title": "Post-Exploitation & Persistence",
+          "topics": "Privilege Escalation on Windows & Linux, Maintaining Access: Backdoors, Rootkits, Trojan, Data Exfiltration Techniques, Clearing Event Logs and Covering Tracks",
+          "hours": 6
+        },
+        {
+          "title": "Cloud and IoT Security Testing",
+          "topics": "Cloud Penetration Testing Basics, AWS/Azure Common Security Misconfigurations, IoT Device Architecture & Vulnerabilities, Hardware & Firmware Analysis, Securing Cloud & IoT Infrastructures",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CDS-253-MJP",
+      "title": "Practical based on CDS251MJ",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        76,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-252-MJ",
+      "title": "Advance Network Security",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        78,
+        79
+      ],
+      "units": [
+        {
+          "title": "Network Security Architecture and Protocols",
+          "topics": "Security Architecture, IPSec Architecture and Protocols, SSL/TLS Protocol Details, HTTPS, SSH, Secure Email Protocols (PGP, S/MIME)",
+          "hours": 8
+        },
+        {
+          "title": "Firewalls, Intrusion Detection and Prevention",
+          "topics": "Firewall Technologies: Packet Filtering, Stateful Inspection, Proxy Firewalls, Next-Generation Firewalls (NGFW), IDS/IPS Architecture, Signature-based vs Anomaly-based Detection, Honeypots and Honeynets",
+          "hours": 8
+        },
+        {
+          "title": "Authentication and Access Control Systems",
+          "topics": "User Authentication Protocols: Kerberos, RADIUS, TACACS+, Multi-Factor Authentication (MFA), Digital signature, Entity Authentication - Passwords, Fixed passwords challenge-response",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Network Threats and Defense Mechanisms",
+          "topics": "Advanced Persistent Threats (APT), Botnets and DDoS Defense, Software-Defined Networking (SDN) Security, Zero Trust Architecture (ZTA)",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CDS-271-VSC-P",
+      "title": "Database management system",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        80,
+        81
+      ],
+      "units": []
+    },
+    {
+      "code": "CDS-291-MN",
+      "title": "Advanced Web Technology",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        82,
+        83
+      ],
+      "units": [
+        {
+          "title": "Advanced PHP and Object-Oriented Programming",
+          "topics": "Object-Oriented PHP: Classes, Objects, Inheritance, Interfaces, Abstract Classes, Exception Handling, Working with Sessions and Cookies",
+          "hours": 8
+        },
+        {
+          "title": "Database Connectivity with PHP (MySQL/PDO)",
+          "topics": "Connecting PHP with MySQL using PDO and MySQLi, Prepared Statements, CRUD Operations, Handling Transactions, Error Handling in Database Operations",
+          "hours": 8
+        },
+        {
+          "title": "AJAX and Asynchronous JavaScript",
+          "topics": "Introduction to AJAX, XMLHttpRequest Object, Fetch API, JSON Parsing and Generation, Integrating AJAX with PHP Backend",
+          "hours": 8
+        },
+        {
+          "title": "Web Security Best Practices",
+          "topics": "Sanitizing Input, Preventing SQL Injection, CSRF Protection, XSS Prevention, Secure Password Hashing with bcrypt",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-251-CDS-T",
+      "title": "AI for Everyone - II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        84,
+        85
+      ],
+      "units": [
+        {
+          "title": "Machine Learning Basics for Everyday Users",
+          "topics": "Concept of Machine Learning, Supervised vs Unsupervised Learning, How machines learn from data, Everyday examples of ML in practice",
+          "hours": 6
+        },
+        {
+          "title": "AI in Communication and Content Creation",
+          "topics": "AI tools for image and video creation, Automated presentation makers, Voice cloning and speech synthesis, Ethics of synthetic media (Deepfakes)",
+          "hours": 6
+        },
+        {
+          "title": "AI in Business and Industry",
+          "topics": "AI in Marketing and Customer Service, AI in Finance and Healthcare, Chatbots and conversational AI in business",
+          "hours": 6
+        },
+        {
+          "title": "Ethical and Social Implications of AI",
+          "topics": "Bias and Fairness in AI systems, Job displacement and future of work, Privacy concerns and regulatory landscape (EU AI Act, Global regulations)",
+          "hours": 6
+        },
+        {
+          "title": "AI in Data Science & Analytics",
+          "topics": "Data exploration using AI tools, Automated machine learning (AutoML) tools, Building no-code AI applications",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "SEC251CDSP",
+      "title": "Principals of operating System",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        86,
+        87
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operating Systems",
+          "topics": "What Operating Systems Do, Computer-System Organization, Computer-System Architecture, Operating-System Operations, Process Management, Memory Management, Storage Management, Protection and Security",
+          "hours": 6
+        },
+        {
+          "title": "Process Management and CPU Scheduling",
+          "topics": "Process Concept, Process Scheduling, Operations on Processes, Interprocess Communication, Threads, Multi-core Programming, Multi-threading Models, Basic Concepts of CPU Scheduling, Scheduling Criteria, Scheduling Algorithms",
+          "hours": 8
+        },
+        {
+          "title": "Process Synchronization",
+          "topics": "Background, The Critical-Section Problem, Peterson’s Solution, Synchronization Hardware, Mutex Locks, Semaphores, Classic Problems of Synchronization – The bounded buffer problem, The reader writer problem, The dining philosopher problem",
+          "hours": 8
+        },
+        {
+          "title": "Memory Management",
+          "topics": "Background, Swapping, Contiguous Memory Allocation, Segmentation, Paging, Structure of the Page Table, Virtual Memory: Demand Paging, Page Replacement Algorithms",
+          "hours": 8
+        }
+      ]
+    }
+  ],
+  "notes": "S.Y.B.Sc. Cyber and Digital Science syllabus; contains detailed syllabi for semesters 1 to 4; structure tables on pages 4-8 cover semesters 1 to 8."
+}

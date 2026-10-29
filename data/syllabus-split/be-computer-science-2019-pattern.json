@@ -1,0 +1,1119 @@
+{
+  "id": "be-computer-science-2019-pattern",
+  "kind": "programme",
+  "programme": "Final Year Computer Science",
+  "pattern": "2019",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "410241",
+      "title": "Compiler Design",
+      "semester": 7,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction to Compiler Design",
+          "topics": "Overview of the Translation Process, A Simple Compiler, Difference between interpreter, assembler and compiler. Overview and use of linker and loader, types of Compiler, Analysis of the Source Program, The Phases of a Compiler, Cousins of the Compiler, The Grouping of Phases, Lexical Analysis, Hard Coding and Automatic Generation Lexical Analyzers, Front -end and Back-end of compiler, pass structure #Exemplar/Case Studies GCC (GNU Compiler Collection), LLVM Compiler Infrastructure *Mapping of Course Outcomes for Unit I CO1,CO3",
+          "hours": 7
+        },
+        {
+          "title": "Lexical Analyzer",
+          "topics": "Lexical Analyzer: Introduction to Lexical Analyzer, Input Buffering, Specification of Tokens, Recognition of Tokens, A Language for Specifying Lexical Analyzers, Finite Automata From a Regular Expression, Design of a Lexical Analyzer Generator, Optimization of DFA. Home #Exemplar/Case Studies Lex / Flex Tool in Real Compilers, DFA Optimization in Industrial Compilers *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Parsing Theory",
+          "topics": "Parsing: Top Down and Bottom up Parsing Algorithms, Top-Down Parsing, Bottom-Up Parsing, Operator-Precedence Parsing, LR Parsers, Using Ambiguous Grammars, Parser Generators, Automatic Generation of Parsers. Syntax -Directed Definitions, Construction of Syntax Trees, Bottom-Up Evaluation of S-Attributed Definitions, L-Attributed Definitions, syntax directed definitions and translation schemes #Exemplar/Case Studies YACC/Bison in Real-World Parsers, Syntax-Directed Translation in SQL Parsers *Mapping of Course Outcomes for Unit III CO3, CO4",
+          "hours": 8
+        },
+        {
+          "title": "Error Recovery & Intermediate Code Generation",
+          "topics": "Error Recovery: Error Detection & Recovery, Ad-Hoc and Systematic Methods, Intermediate Code Generation: Different Intermediate Forms, Syntax Directed Translation Mechanisms And Attributed Mechanisms And Attributed Definition. #Exemplar/Case Studies Error Recovery in GCC and Clang, Three-Address Code in LLVM IR, Backpatching in Java Bytecode Generation *Mapping of Course Outcomes for Unit IV CO3, CO4",
+          "hours": 7
+        },
+        {
+          "title": "Run-Time Memory Management & Symbol Tables",
+          "topics": "Run Time Memory Management: Source Language Issues, Storage Organization, Storage- Allocation Strategies, and Access to Non local Names, Parameter Passing, Symbol Tables, and Language Facilities for Dynamic Storage Allocation, Dynamic Storage Allocation Techniques.Symbol Tables: Purpose and structure of the symbol table, Symbol table entries: name, type, scope, memory location, and other attributes, Implementation methods: linear list, hash tables, binary search trees, Handling nested scopes and block-structured languages #Exemplar/Case Studies Stack Frame Layout in x86-64 (System V ABI), Symbol Table in GCC: DWARF Debug Information *Mapping of Course Outcomes for Unit V CO3,CO5",
+          "hours": 7
+        },
+        {
+          "title": "Code Optimization & Code Generation",
+          "topics": "Code Optimization: Global Data Flow Analysis, A Few Selected Optimizations like, Command Sub Expression Removal, Loop Invariant Code Motion, Strength Reduction etc. Code Generation Issues in the Design of a Code Generator, The Target Machine, Run-Time Storage Management, Basic Blocks and Flow Graphs, Next -Use Information, A Simple Code Generator, Register Allocation and Assignment, The DAG Representation of Basic Blocks, Peephole Optimization, Generating Code from DAGs, Dynamic Programming Code-Generation Algorithm, Code- Generator Generators. #Exemplar/Case Studies Loop Optimizations in GCC (-O2 / -O3 Flags), Register Allocation: LLVM vs. GCC, Code Generator for a Virtual Machine Code based JavaScript Compiler (http://article.nadiapub.com/IJAST/vol119/11.pdf) *Mapping of Course Outcomes for UnitVI CO6",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "410242",
+      "title": "Machine Learning",
+      "semester": 7,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        13,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction To Machine Learning",
+          "topics": "Introduction to Machine Learning, Comparison of Machine learning with traditional programming, ML vs AI vs Data Science. Types of learning: Supervised, Unsupervised, and semi -supervised, reinforcement learning techniques, Models of Machine learning: Geometric model, Probabilistic Models, Logical Models, Grouping and grading models, Parametric and non-parametric models. Important Elements of Machine Learning- Data formats, Learnability, Statistical learning approaches #Exemplar/Case Studies Suppose you are working for Uber where a task to increase sales is given.Understand the requirements of the client *Mapping of Course Outcomes for Unit CO1",
+          "hours": 7
+        },
+        {
+          "title": "Feature Engineering",
+          "topics": "Hom e Concept of Feature, Preprocessing of data: Normalization and Scaling, Standardization, Managing missing values, Introduction to Dimensionality Reduction, Principal Component Analysis (PCA), Feature Extraction: Kernel PCA, Local Binary Pattern. Introduction to various Feature Selection Techniques, Sequential Forward Selection, Sequential Backward Selection. Statistical feature engineering: count-based, Length, Mean, Median, Mode etc. based feature vectorcreation. Multidimensional Scaling, Matrix Factorization Techniques. #Exemplar/CaseStudies You are a Data Scientist, and a client comes to you with their data. Client is running a few campaigns from the past few months, but no campaign seemseffective. Client provides you the data of customers, product sales and past campaign success. They want to increase their sales and figure out which marketing strategy isworking the best for them? Questions for data scientists: 1. What data analysis approach will you follow? 2. What statistical approach do you need to follow? How will you select important features? *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Supervised Learning : Regression",
+          "topics": "Bias, Variance, Generalization, Underfitting, Overfitting, Linear regression, Regression: Lasso regression, Ridge regression, Gradient descent algorithm. Evaluation Metrics: MAE, RMSE, R2 #Exemplar/Case Studies Stock market price prediction *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 6
+        },
+        {
+          "title": "Supervised Learning : Classification",
+          "topics": "Classification: K-nearest neighbour, Support vector machine. Ensemble Learning: Bagging, Boosting, Random Forest, Adaboost. Binary-vs-Multiclass Classification, Balanced and Imbalanced Multiclass Classification Problems,Variants of Multiclass Classification: One-vs-One and One-vs-All Evaluation Metrics and Score: Accuracy, Precision, Recall, Fscore, Cross-validation, Micro- Average Precision and Recall, Micro-Average F-score, Macro-Average Precision and Recall, Macro-Average F-score. #Exemplar/Case Studies Prediction of Thyroid disorders such as Hyperthyroid, Hypothyroid, Euthyroid-sick,and Euthyroid using multiclass classifier. *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 8
+        },
+        {
+          "title": "Unsupervised Learning",
+          "topics": "K-Means, K-medoids, Hierarchical, and Density-based Clustering, Spectral Clustering. Outlier analysis: introduction of isolation factor, local outlier factor. Evaluation metrics and score: elbow method, extrinsic and intrinsic methods #Exemplar/Case Studies Market basket analysis/Customer Segmentation *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Introduction To Neural Networks",
+          "topics": "Artificial Neural Networks: Single Layer Neural Network, Multilayer Perceptron, Back Propagation Learning, Functional Link Artificial Neural Network, and Radial Basis Function Network, Activation functions, Introduction to Recurrent Neural Networks and Convolutional Neural Networks #Exemplar/Case Studies Movie Recommendation System *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410243",
+      "title": "Block chain Technology",
+      "semester": 7,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Mathematical Foundation for Block chain",
+          "topics": "Cryptography: Symmetric Key Cryptography and Asymmetric Key Cryptography, Elliptic Curve Cryptography (ECC), Cryptographic Hash Functions: SHA256, Digital Signature Algorithm (DSA), Merkel Trees. #Exemplar/Case Studies Compare the Symmetric and Asymmetric Cryptography algorithms *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 6
+        },
+        {
+          "title": "Feature Engineering",
+          "topics": "History, Centralized Vs. Decentralized Systems, Layers of Blockchain: Application Layer, Execution Layer, Semantic Layer, Propagation Layer, Consensus Layer, Why is Block chain important? Limitations of Centralized Systems, Blockchain Adoption So Far. #Exemplar/CaseStudies Study of a research paper based on Blockchain. *Mapping of Course Outcomes for Unit II CO1",
+          "hours": 7
+        },
+        {
+          "title": "Blockchain Platforms and Consensus in Blockchain",
+          "topics": "Types of Blockchain Platforms: Public, Private and Consortium, Bitcoin, Ethereum, Hyperledger,IoTA, Corda, R3. Consensus in Blockchain: Consensus Approach, Consensus Elements, Consensus Algorithms, Proof of Work, Byzantine General problem, Proof of Stake, Proof of Elapsed Time, Proof of Activity, Proof of Burn. #Exemplar/Case Studies Compare different consensus algorithms used in Blockchain Technology. *Mapping of Course Outcomes for Unit III CO2",
+          "hours": 6
+        },
+        {
+          "title": "Cryptocurrency – Bitcoin, and Token",
+          "topics": "Introduction, Bitcoin and the Cryptocurrency, Cryptocurrency Basics Types of Cryptocurrency, Cryptocurrency Usage, Cryptowallets: Metamask, Coinbase, Binance #Exemplar/Case Studies Create your own wallet for crypto currency using any of the Blockchain Platforms. *Mapping of Course Outcomes for Unit IV CO3",
+          "hours": 6
+        },
+        {
+          "title": "Blockchain Ethereum Platform using Solidity",
+          "topics": "What is Ethereum, Types of Ethereum Networks, EVM (Ethereum Virtual Machine), Introduction to smart contracts, Purpose and types of Smart Contracts, Implementing and deploying smart contracts using Solidity, Swarm (Decentralized Storage Platform), Whisper (Decentralized Messaging Platform) #Exemplar/Case Studies Study Truffle Development Environment. *Mapping of Course Outcomes for Unit V CO4",
+          "hours": 6
+        },
+        {
+          "title": "Blockchain Case Studies",
+          "topics": "Prominent Blockchain Applications, Retail, Banking and Financial Services, Government Sector, Healthcare, IOT, Energy and Utilities, Blockchain Integration with other Domains #Exemplar/Case Studies Study 2 uses cases of Blockchain and write a detailed report on every aspect implemented in the same *Mapping of Course Outcomes for Unit VI CO5, CO6",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "410244(A)",
+      "title": "Pervasive Computing",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Introduction To Pervasive Computing",
+          "topics": "Pervasive Computing: History, Principles, Characteristics, Problems/Issues & Challenges, Advantages of Pervasive Computing Pervasive Computing Applications: Pervasive computing devices and interfaces, Device technology trends, Connecting issues and protocols. #Exemplar/Case Studies Pervasive Computing for Personalized medicine *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Smart Computing with Pervasive Computing Devices",
+          "topics": "Smart Devices: CCI, Smart Environment: CPI and CCI, Smart Devices: iHCI and HPI, Wearable devices, Application and Requirements, Device Technology and Connectivity, PDA Device characteristics - PDA Based Access Architecture, Voice Enabling Pervasive Computing: Voice Standards, Speech Applications in Pervasive Computing. #Exemplar/CaseStudies Amazon Alexa Home *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Context Aware Systems",
+          "topics": "Introduction, Types of Context, Context Aware Computing and Applications, Modelling Context-Aware Systems, Mobility awareness, spatial awareness, temporal awareness: Coordinating and scheduling, ICT system awareness, Middleware Support #Exemplar/Case Studies Mobile Hanging Services systems *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Intelligent Systems and Interaction",
+          "topics": "Introduction, Basic Concepts, IS Architectures, Semantic KBIS, Classical Logic IS, Soft Computing IS Models, IS System Operations, Interaction Multiplicity, IS Interaction Design, Generic Intelligent Interaction Applications. #Exemplar/Case Studies Curious information displays: A motivated reinforcement learning IE application. *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 7
+        },
+        {
+          "title": "User Interaction Design – HCI and Wearable Computing",
+          "topics": "Introduction of Interaction Design, Basics of Interaction Design and its Concepts, Importance of Interaction Design, Difference between Interaction Design and UX. What is HCI? Importance of HCI, Advantages and Disadvantages of HCI, Elements of HCI, HCI Design and Architecture,Define Wearable Computing, Importance of Wearable Computing, Security issues in Wearable Computing, Wearable Computing Architecture and Applications, Wearable Computing Challenges and Opportunities for Privacy Protection #Exemplar/Case Studies Smart Fabric/ Textile, Sensory Fabric for Ubiquitous interfaces *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Security Challenges & Ethics in Pervasive Computing",
+          "topics": "Security issues in Pervasive Computing: security model, authentication & authorization, access control, secure resource discovery, open issues.Pervasive computing security challenges & requirements: Privacy & trust issues, social & user interaction issues, solution for pervasive computing challenges, Role of Ethics in pervasive computing security: Autonomy and Self - determination, Responsibility: legal, moral & social, distributive justice, digital divide and sustainable development #Exemplar/Case Studies Pervasive Computing Security Gaia Project *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410244(B)",
+      "title": "Multimedia Techniques",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to multimedia",
+          "topics": "What is Multimedia and their Components, History of Multimedia; Hypermedia, WWW, and Internet; Multimedia Tools: Static (text, graphics, and still images), Active (sound, animation, and video, etc.); Multimedia Sharing and Distribution; Multimedia Authoring Tools: Adobe Premiere, Adobe Director, Adobe Flash. #Exemplar/Case Studies To study and install open-source multimedia Tools *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Graphics and Data Representation Techniques",
+          "topics": "What are Graphics data types, 1-bit Images, 8 –bit grey level ,16-bit grey level images, Image data type, Image data type:8 bit &amp; 24-bit color images, Higher bit depth images, Color Lookup tables. File Formats: GIF, JPEG, PNG, TIFF, PSD, APS, AI, INDD, RAW, Windows BMP, Windows WMF, Home Netpbm format, EXIF, PTM, Text file format: RTF, TGA Applications/Use of text in Multimedia #Exemplar/CaseStudies To study conversion of image file formats from one to Other. *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Multimedia Representations Techniques",
+          "topics": "Principal concepts for the analog video: CRT, NTSC Video (National Television System Committee), PAL Video (Phase Alternating Line), SECAM Video (System Electronic Couleur Avec Memoire), Digital Video: Chroma Subsampling, High -Definition TV, Ultra High Definition TV (UHDTV), Component Video: High -Definition Multimedia Interface (HDMI),3D Video and TV: various cues, Basics of Digital Audio: What is Sound?, Nyquist Theorem, SNR, SQNR, Audio Filtering, Synthetic Sounds, MIDI Overview: Hardware, Structure, Conversion to WAV, Coding of Audio: PCM, DPCM, DM (Delta Modulation) #Exemplar/Case Studies Install and use Handbrake (link is https://handbrake.fr) software to understand the concept of interlaced, deinterlace, noise filters, bitrate, and frame rate for any sample 30 min video, and note down the observations from the output video. *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Compression Algorithms",
+          "topics": "Introduction to multimedia – Graphics, Image and Video representations – Fundamental concepts of video, digital audio – Storage requirements of multimedia applications – Need for compression – Types of compression algorithms- lossless compression algorithms RLC, VLC, DBC, AC, lossless image compression, differential coding of Images, lossy compression algorithms -Rate distortion theory, Quantization ,Transform coding, wavelet based coding, embedded Zerotress of wavelet coefficients . Image compression standard -JPEG standard, JPEG 2000 standard, LS standard, Bilevel image compression standard. Introduction to video compression - video compression based on motion compensation, Search for motion vectors, MPEG Video coding I , MPEG 1,2,4,7 onwards. Basic Audio Compression Techniques -ADPCM in speech coding, Vocoders, MPEG audio compression #Exemplar/Case Studies Implementation of compression algorithms *Mapping of Course Outcomes for Unit IV CO3, CO4",
+          "hours": 7
+        },
+        {
+          "title": "Augmented Reality(AR), Virtual Reality (VR) and Mixed Reality (MR)",
+          "topics": "Basics of Virtual Reality, difference between Virtual Reality and Augmented Reality, Requirement of Augmented Reality, Components and Performance issues in AR, Design and Technological foundations for Immersive Experiences. Input devices – controllers, motion trackers and motion capture technologies for tracking, navigation and gestural control. Output devices – Head Mounted VR Displays, Augmented and Mixed reality glasses. 3D interactive and procedural graphics. Immersive surround sound. Haptic and vibrota ctile devices. Best practices in VR, AR and MR Future applications of Immersive Technologies. VRML Programming Modeling objects and virtual environments Domain Dependent applications: Medical, Visualization, Entertainment, etc. #Exemplar/Case Studies Navigation Assistance System *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Multimedia Internet of Things",
+          "topics": "IoT and Multimedia IoT Architecture: IoT Architecture; M -IoT Architectures: Multi -Agent Based, AI -Based Software-Defined, Big Data Layered; Applications of M -IoT: Road Management System, Multimedia IoT in Industrial Applications, Health Monitoring #Exemplar/Case Studies Traffic Monitoring System *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410244(C)",
+      "title": "Cyber Security and Digital Forensics",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cyber Security",
+          "topics": "Introduction and Overview of Cyber Crime, Nature and Scope of Cyber Crime, Types of Cyber Crime: crime against an individual, Crime against property, Cyber extortion, Drug trafficking, cyber terrorism. Need for Information security, Threats to Information Systems, Information Assurance, Cyber Security, and Security Risk Analysis. #Exemplar/Case Studies Data Breach Digest – Perspective & Reality : http://verizonenterprise.com/databreachdigest *Mapping of Course Outcome for Unit I CO1",
+          "hours": 6
+        },
+        {
+          "title": "Cyber Crime Issues and Cyber attacks",
+          "topics": "Unauthorized Access to Computers, Computer Intrusions, Viruses, and Malicious Code, Internet Hacking and Cracking, Virus and worms, Software Piracy, Intellectual Property, Mail Bombs, Exploitation, Stalking and Obscenity in Internet, Cybercrime prevention methods, Application security (Database, E-mail, and Internet), Data Security Considerations-Backups, Archival Storage and Disposal of Data, Security Technology-Firewall and VPNs, Hardware protection mechanisms, OS Security #Exemplar/Case Studies Cyber Stalking types & their cases respectively *Mapping of Course Outcome for Unit II CO2",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Digital Forensics",
+          "topics": "What is Computer Forensics?, Use of Computer Forensics in Law Enforcement, Computer Forensics Assistance to Human Resources/Employment Proceedings, Computer Forensics Services, Benefits of Professional Forensics Methodology, Steps taken by Computer Forensics Specialists Types of Computer Home Forensics Technology: Types of Military Computer Forensic Technology, Types of Law Enforcement — Computer Forensic Technology, Types of Business Computer Forensic Technology Computer Forensics Evidence and Capture: Data Recovery Defined, Data Back-up and Recovery, The Role of Back-up in Data Recovery, The Data-Recovery Solution. #Exemplar/Case Studies Demonstrate practice Linux networking security recovery commands.& Study Tools viz; FTK & The Sleuth Kit *Mapping of Course Outcome for Unit III CO3",
+          "hours": 6
+        },
+        {
+          "title": "Evidence Collection and Data Seizure",
+          "topics": "Why Collect Evidence? Collection Options ,Obstacles, Types of Evidence — The Rules of Evidence, Volatile Evidence, General Procedure, Collection and Archiving, Methods of Collection, Artifacts, Collection Steps, Controlling Contamination: The Chain of Custody Duplication and Preservation of Digital Evidence: Preserving the Digital Crime Scene — Computer Evidence Processing Steps, Legal Aspects of Collecting and Preserving Computer Forensic Evidence Computer Image Verification and Authentication: Special Needs of Evidential Authentication, Practical Consideration, Practical Implementation. #Exemplar/Case Studies Understand how computer forensics works by visiting: http://computer.howstuffworks.com/computer-forensic.htm/printable(23 December 2010) *Mapping of Course Outcome for Unit IV CO4",
+          "hours": 6
+        },
+        {
+          "title": "Computer Forensics analysis and validation",
+          "topics": "Determining what data to collect and analyze, validating forensic data, addressing data -hiding techniques, and performing remote acquisitions Network Forensics: Network forensics overview, performing live acquisitions, developing standard procedures for network forensics, using network tools, examining the honeynet project. Processing Crime and Incident Scenes: Identifying digital evidence, collecting evidence in private -sector incident scenes, processing law enforcement crime scenes, preparing for a search, securing a computer incident or crime scene, seizing digital evidence at the scene, storing digital evidence, obtaining a digital hash, reviewing a case #Exemplar/Case Studies Discuss cases under Financial Frauds, Matrimonial Frauds, Job Frauds, Spoofing, and Social media. Then write down safety tips, precautionary measures for the discussed fraud cases. *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 6
+        },
+        {
+          "title": "Current Computer Forensic tools",
+          "topics": "Evaluating computer forensic tool needs, computer forensics software tools, computer forensics hardware tools, validating and testing forensics software E-Mail Investigations: Exploring the role of e-mail in investigation, exploring the roles of the client and server in e-mail, investigating e-mail crimes and violations, understanding e-mail servers, using specialized e-mail forensic tools. #Exemplar/Case Studies Install Kali Linux & practice following examples: 1. https://www.youtube.com/watch?time_continue=6&v=MZXZctqIU- w&feature=emb_logo *Mapping of Course Outcome for",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "410244(D)",
+      "title": "Object Oriented Modeling and Design",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction To Modeling",
+          "topics": "What is Object Orientation? What is OO development? OO themes; Evidence for usefulness of OO development; OO modeling history Modeling as Design Technique: Modeling; abstraction; The three models. Class Modeling: Object and class concepts; Link and associations concepts; Generalization and inheritance; A sample class model; Navigation of class models; Practical tips. #Exemplar/Case Studies Case Study of ATM System *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Class Modeling and State Modeling",
+          "topics": "Advanced object and class concepts; Association ends; N -ary associations; Aggregation; Abstract classes; Multiple inheritance; Metadata; Reification; Constraints; Derived data; Packages; Practical tips. State Modeling: Events, States, Transitions and Conditions; State diagrams; State diagram behavior; Practical tips. Home #Exemplar/CaseStudies Case Study of Train Reservation System *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 6
+        },
+        {
+          "title": "Advanced State Modeling and Interaction Modeling",
+          "topics": "Advanced State Modeling: Nested state diagrams; Nested states; Signal generalization; Concurrency; A sample state model; Relation of class and state models; Practical tips.Interaction Modeling: Use case models; Sequence models; Activity models. Use case relationships; Procedural sequence models; Special constructs for activity models. #Exemplar/Case Studies Case Study of Coffee Vending Machine *Mapping of Course Outcomes for Unit III CO2, C03",
+          "hours": 6
+        },
+        {
+          "title": "User Application Analysis : System Design",
+          "topics": "Application Analysis: Application interaction model; Application class model; Application state model; Adding operations. Overview of system design; Estimating performance; Making a reuse plan; Breaking asystem in to sub -systems; Identifying concurrency; Allocation of sub-systems; Management of datastorage; Handling global resources; Choosing a software control strategy; Handling boundary conditions; Setting the trade-off priorities; Common architectural styles; Architecture of the ATM system as the example #Exemplar/Case Studies Case System of ATM System *Mapping of Course Outcomes for Unit IV CO3, CO4",
+          "hours": 6
+        },
+        {
+          "title": "Class Design ,Implementation Modeling, Legacy Systems",
+          "topics": "Class Design: Overview of class design; Bridging the gap; Realizing use cases; Designing algorithms; Recursing downwards, Refactoring; Design optimization; Reification of behavior; Adjustment of inheritance; Organizing a class design; ATM example. Implemen tation Modeling: Overview of implementation; Fine -tuning classes; Fine -tuning generalizations; Realizing associations; Testing. Legacy Systems: Reverse engineering; Building the class models; Building the interaction model; Building the state model; Reverse engineering tips; Wrapping; Maintenance #Exemplar/Case Studies Case study of College Library System *Mapping of Course Outcomes for Unit V CO4, CO5",
+          "hours": 6
+        },
+        {
+          "title": "Design Pattern",
+          "topics": "What is a pattern and what makes a pattern? Pattern categories; Relationships between patterns; Patterndescription Communication Patterns: Forwarder-Receiver; Client-Dispatcher-Server; Publisher-Subscriber. Management Patterns: Command processor; View handler. Idioms: Introduction; what can idioms provide? Idiomsand style; Where to find idioms; Counted Pointer example #Exemplar/Case Studies Design Pattern for Any suitable System *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "410244(E)",
+      "title": "Social Network Analysis and Mining",
+      "semester": 7,
+      "type": "Elective III",
+      "credits": 3,
+      "pages": [
+        32,
+        34
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION",
+          "topics": "Social Network Analysis: Definition and Features – The Development of Social Network Analysis – Basic Graph Theoretical Concepts of Social Network Analysis – Ties, Density, Path, Length, Distance, Betweenness, Centrality, Clique – Electronic Sources for Ne twork Analysis – Electronic Discussion Networks, Blogs and Online Communities, Web-based Networks – Applications of Social Network Analysis. #Exemplar/Case Studies Study how LinkedIn models connections as a graph — nodes as users, edges as connections. Measure degree centrality to rank influential professionals in a field. *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 8
+        },
+        {
+          "title": "SOCIAL NETWORK ANALYSIS",
+          "topics": "Introduction to Social Networks Profiles – Types of Commercial Social Network Profiles (CSNP) – Quantitative and Qualitative Analysis of CSNP – Analysis of Social Networks Extracted from Log Files – Data Mining Methods Related to SNA and Log Mining – Clustering Techniques – Case Study. Home #Exemplar/Case Studies How Facebook exposed and later restricted its Social Graph API; demonstrates CSNP structure, edge types (friends, likes, groups), and privacy implications of profile-level mining. *Mapping of Course Outcomes for Unit II CO1",
+          "hours": 8
+        },
+        {
+          "title": "NETWORK MEASURES AND GROWTH MODELS",
+          "topics": "Network basics, local node-level measures, Node centrality, Assortativity , Transitivity, Reciprocity, Similarity, Degeneracy, Random network model, ring lattice network model, Watts -Strogatz model, preferential attachment model, Price’s model, local -world network model, network model with accelerating growth, Link analysis, community structure in networks #Exemplar/Case Studies Google's PageRank is a direct application of link analysis and eigenvector centrality; a webpage's importance depends on the quality and quantity of pages linking to it. *Mapping of Course Outcomes for Unit III CO2",
+          "hours": 8
+        },
+        {
+          "title": "EXTRACTING AND ANALYZING WEB SOCIAL NETWORKS",
+          "topics": "Group-level measures, subgroups and community detection, inferential statistics for complete networks, exponential random graph models, directed networks, stochastic actor -oriented models, Link prediction, Social Tie analysis and Social Influence Analysis, User behaviour Modeling and Prediction, community analysis. #Exemplar/Case Studies Social influence analysis on Twitter showed super -spreader accounts (< 0.1% of users) were responsible for >70% of misinformation diffusion — demonstrating influence concentration. *Mapping of Course Outcomes for Unit IV CO3",
+          "hours": 8
+        },
+        {
+          "title": "MINING THE SOCIAL WEB",
+          "topics": "Mining Twitter – examining tweets and their patterns, Mining Facebook – analyzing social graph connections, Mining LinkedIn – exploring LinkedIn API, Mining Web pages – scraping, parsing and crawling the web, Mining Git Hub – property graphs and interest graphs, Mining mail boxes – getting and analyzing Enron corpus. #Exemplar/Case Studies GitHub's contribution graph (green squares) is itself a mined social artifact; researchers use the GitHub API to build developer interest graphs and recommend collaborators. *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 8
+        },
+        {
+          "title": "VISUALIZATION AND APPLICATIONS OF SOCIAL",
+          "topics": "NETWORKS 08 Hours Visualization of Social Networks Node -Edge Diagrams – Random Layout – Force-Directed Layout – Tree Layout – Matrix Representations –Matrix and Node-Link Diagrams – Hybrid Representations – Visualizing Online Social Networks – Applications – Covert Networks – Community Welfare – Collaboration Networks – Co-Citation Networks – Data Privacy in Social Networks #Exemplar/Case Studies Researchers used Gephi's ForceAtlas2 layout on the DBLP co - authorship graph to visually identify research sub -communities; clusters emerged naturally from the physics-based simulation. *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "410245(A)",
+      "title": "Information Retrieval",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        35,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction , Basic techniques, &Token",
+          "topics": "Introduction: The IR System, The Software Architecture Of The IR System, Basic IR Models: Boolean Model, TF-IDF (Term Frequency/Inverse Document Frequency) Weighting, Vector Model, Probabilistic Model and Latent Semantic Indexing Model. Basic Tokenizing: Simple Tokenizing, Stop-Word Removal and Stemming. #Exemplar/Case Studies A Case Study Of Onitsha Divisional Library Which Aims At Finding TheCauses And Solutions To The Problems Of Information Retrieval Methods By The Library. *Mapping of Course Outcomes for Unit I CO 1 Home",
+          "hours": 7
+        },
+        {
+          "title": "Static Inverted Indices and Query Processing",
+          "topics": "Static Inverted Indices :Inverted Index Construction, Index Components and Index Life Cycle, The Dictionary : Sort-based dictionary ,Hash-based dictionary, Interleaving Dictionary and Postings Lists, Index Construction: Different types of Index Construction, In-Memory Index Construction, Sort-Based Index Construction, Merge-Based Index Construction, Disk-Based Index Construction), Other types of Indices. Query Processing : Query Processing for Ranked Retrieval , Document- at-a-Time QueryProcessing, Term-at-a-Time Query Processing, Pre-computing Score Contributions, Impact Ordering),Query optimization, Lightweight Structure : Generalized Concordance Lists, Operators, Implementation & Examples #Exemplar/CaseStudies Match the search statement with the stored database *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Index Compression and Dynamic Inverted Indices",
+          "topics": "General-Purpose Data Compression, Data Compression : Modeling and Coding, Huffman Coding, Arithmetic Coding, Symbolwise Text Compression , Compressing Postings Lists: Nonparametric Gap Compression, Parametric Gap Compression, Context -Aware Compression Methods, Index Compression for High Query Performance, Compression Effectiveness, DecodingPerformance, Document Reordering. Dynamic Inverted Indices: Incremental Index Updates, Contiguous Inverted Lists, Noncontiguous Inverted, Document Deletions: Invalidation List, Garbage Collection, Document Modifications, #Exemplar/Case Studies Translating Short Segments with NMT: A Case Study in English- to-Hindi *Mapping of Course Outcomes for Unit III CO2",
+          "hours": 7
+        },
+        {
+          "title": "Probabilistic Retrieval and Language Modeling & Related Methods ,",
+          "topics": "Categorization & Filtering 07 Hours Probabilistic Retrieval:Mdeling Relevance, The Binary Independence Model, Term Frequency, Document Length:BM25, Relevance Feedback, Field Weights , Language Modeling and Related Methods: Generating Queries from Documents, Language Models and Smoothing, Ranking with Language Models, Divergence from Randomness, PassageRetrieval and Ranking Categorization and Filtering: Detailed Examples, Classification, Linear, Similarity - Based, Probabilistic Classifiers, Generalized Linear Models. Information -Theoretic Model. E-Mail on the Move: Categorization, Filtering, and Alerting on Mobile Devices with the if Mail Prototype #Exemplar/Case Studies E-Mail on the Move: Study of E-mail Categorization, Filtering, and Alerting on Mobile Devices *Mapping of Course Outcomes for Unit IV CO3",
+          "hours": null
+        },
+        {
+          "title": "Measuring Effectiveness and Measuring Efficiency",
+          "topics": "Measuring Effectiveness - Traditional effectiven ess measure, The Text Retrieval Conference (TREC), Using statistics in evaluation, Minimizing adjudication Effort, Nontraditional effectiveness measures, Measuring Efficiency – Efficiency criteria, Query Scheduling, Caching, Introduction to Redisand Memcached #Exemplar/Case Studies Study of API Handling *Mapping of Course Outcomes for Unit V CO 4",
+          "hours": 7
+        },
+        {
+          "title": "Parallel Information retrieval , Web Search",
+          "topics": "Parallel Information retrieval - Parallel Query Processing, MapReduce, Web Search- The structure of the web, Quires and Users, Static ranking, Dynamic ranking, Evaluation web search, Web Crawlers, Web crawler libraries, Python Scrapy, BeautifulSoup #Exemplar/Case Studies Study of Google Map / Facebook information retrieval *Mapping of Course Outcomes for Unit VI CO 5 , CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410245(B)",
+      "title": "GPU Programming and Architecture",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction to Graphics Processing Unit (GPU)",
+          "topics": "Evolution of GPU architectures – Understanding Parallelism with GPU –Typical GPU Architecture – CUDA Hardware Overview – Threads, Blocks, Grids, Warps, Scheduling – Memory Handling with CUDA: Shared Memory, Global Memory, Constant Memory and Texture Memory. #Exemplar/Case Studies Review of traditional Computer Architecture *Mapping of Course Outcomes for Unit I CO 1",
+          "hours": 7
+        },
+        {
+          "title": "Cuda Programming",
+          "topics": "Using CUDA – Multi GPU – Multi GPU Solutions – Optimizing CUDA Applications: Problem Decomposition, Memory Considerations, Transfers, Thread Usage, Resource Contentions. #Exemplar/Case Studies Write basic CUDA programs. *Mapping of Course Outcomes for Unit II CO 2",
+          "hours": 7
+        },
+        {
+          "title": "Programming Issues",
+          "topics": "Home Common Problems: CUDA Error Handling, Parallel Programming Issues, Synchronization, Algorithmic Issues, Finding and Avoiding Errors. #Exemplar/Case Studies Study of various CUDA errors *Mapping of Course Outcomes for Unit III CO 3",
+          "hours": 7
+        },
+        {
+          "title": "Opencl Basics",
+          "topics": "OpenCL Standard, Kernels, Host Device Interaction, Execution Environment, Memory Model, Basic OpenCL Examples. #Exemplar/Case Studies Write OpenCL basic program *Mapping of Course Outcomes for Unit IV CO 4",
+          "hours": 7
+        },
+        {
+          "title": "Algorithms on GPU",
+          "topics": "Parallel Patterns: Convolution, Prefix Sum, Sparse Matrix – Matrix Multiplication – Programming Heterogeneous Cluster #Exemplar/Case Studies Describe multi-dimensional mapping of dataspace. *Mapping of Course Outcomes for Unit V CO 5",
+          "hours": 7
+        },
+        {
+          "title": "OpenCL and Application Design",
+          "topics": "OpenCL for Heterogeneous Computing, Application Design : Efficient Neural Network Training/Inferencing #Exemplar/Case Studies Describe OpenCL for Heterogeneous computing *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410245(C )",
+      "title": "Mobile Computing",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        42,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Computing",
+          "topics": "Introduction to Mobile computing, Constraints in mobile computing, Application of mobile computing, Generations of mobile wireless 1G to 5G, Future of mobile computing, Radio frequency Technology, Public Switched Telephone network, (PSTN), Public Communication service (PCS), PCS Architecture, , Blue tooth, Ad-hoc Networks. #Exemplar/Case Studies 5G Network , Spectrum sharing for D2D communication in 5G cellular networks *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Mobile Wireless protocols",
+          "topics": "Introduction of WAP, WAP applications, WAP Architecture, WAP Protocol Stack, Challenges in WAP . Introduction, Benefits, Difference, Routing protocols for ad hoc wireless networks: DSDV and AODV, Wireless Application protocols: MAC, SDMA, FDMA,TDMA, CDMA, Cellular Wireless Networks. Wireless Communication: Cellular systems, Frequency Management and Channel Assignment Types of handoff Home n and their characteristics. #Exemplar/Case Studies IPoC: A New Core Networking Protocol for 5G Networks. *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Global System for Mobile Communicatio",
+          "topics": "Global System for Mobile Communications (GSM) architecture , Mobile Station, Base Station System, Switching subsystem, Security, Data Services, HSCSD, GPRS - GPRS system and protocol architecture 2.3 UTRAN, UMTS core network; Improvements on Core Network, 802.11 Architecture 802.11a, 802.11b standard #Exemplar/Case Studies 5G mobile communications *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "GSM Networking Signaling and Mobile",
+          "topics": "Management 07 Hours GSM MAP Service framework, MAP protocol machine, GSM location management, Transaction management, Mobile database, Introduction to location management HLR andLR VLR and HLR Failure restoration, VLR identification algorithm, O-I, O-II algorithm etc. Overview of handoff process; Factors affecting handoffs and performance evaluation metrics; Handoff strategies; Different types of handoffs (soft, hard, horizontal, vertical). #Exemplar/Case Studies 5G Mobility Management , Micro Mobility: CellularIP, HAWAII, HMIPv6 *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": null
+        },
+        {
+          "title": "Mobile Network and Transport Layers",
+          "topics": "Mobile IP , IP packet delivery, Tunnelling and encapsulation, IPv6, DHCP, Vehicular Ad Hoc networks ( VANET), MANET , Traditional TCP, Snooping TCP, Mobile TCP, 3G wireless network, Wireless Application Protocol, WDP WTP, WML, WTA architecture, Cellular IP #Exemplar/Case Studies 5G Network and Transport Layers *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Wireless Application Protocol (WAP) and",
+          "topics": "current trends 07 Hours WAP model, WAP Gateway, WAP protocol, WAP UAProf and Caching, Wireless Bearer for WAP, WAP Developer Toolkits, Introduction to D2D communications; High level requirements for 5G architecture; Introduction to the radio resource management, power control and mode selection problems; Millimeter wave communication in 5G, Introduction to mobile cloud computing and its Applications #Exemplar/Case Studies Long-Term Evolution (LTE) of 3GPP *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "410245 (D)",
+      "title": "Software Testing and Quality Assurance",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        45,
+        48
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Testing",
+          "topics": "Introduction: historical perspective, Definition, Core Components, Customers suppliers and process, Objectives of Testing, Testing and Debugging, Need of Testing, Quality Assurance and Testing, Why Software has Errors, Defects and Failures and its Causes and Effects, Total Quality Management(TQM), Quality practices of TQM, Quality Management through - Statistical process Control, Cultural Changes, Continual Improvement cycle, Benchmarking and metrics, Problem Solving Techniques and Software Tools. Software Quality, Constraints of Software product Quality assessment, Quality and Productivity Relationship, Requirements of Product, Software Development Process, Types of Products, Software Development Lifecycle Models, Software Quality Management, Processes related to Softwa re Quality, Quality Management System’s Structure, Pillars of Quality Management System, Important aspects of quality management. #Exemplar/Case Studies 1. Offshore delivery model for an Airline Company. 2. SAP test automation CoE for Financial Service Provider. Home *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Test Planning and Quality Management",
+          "topics": "Test Planning –Artifacts &amp; Strategy, Test Organization –Test Manager &amp; Tester Role, Test plan purpose &amp; contents, Test Strategy and Approach, Test cases &amp; Test Data, Test Entry-Exit criteria, Test Execution Schedule, Use case Testing, Scenario Testing, T est Monitoring &amp; Control - Test Metrics –Test Case Productivity, Test case Coverage, Defect Acceptance &amp; Rejection, Test Efficiency, Efforts and Schedule Variance, Test Efforts biasing Factors, Test Report &amp; configuration Management, Quality Assurance Process, Documentation Risk &amp; Issues. Software Quality, Quality Management Importance, Quality Best practices. #Exemplar/CaseStudies 1. Online Recommendation System 2. Quality Engineering services for Medical Devices company | CaseStudy (cigniti.com) *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Test Case Design Techniques",
+          "topics": "Software Testing Methodologies: White Box Testing, Black Box Testing, Grey Box Testing. Test Case Design Techniques: Static Techniques: Informal Reviews, Walkthroughs, Technical Reviews, Inspection. Dynamic Techniques: Structural Techniques: Statement Coverage Testing, Branch Coverage Testing, Path Coverage Testing, Conditional Coverage Testing, Loop Coverage Testing Black Box Techniques: Boundary Value Analysis, Equivalence Class Partition, State Transition Technique, Cause Effective Graph, Decision Table, Use Case Testing, Experienced Based Techniques: Error guessing, Exploratory testing Levels of Testing : Functional Testing: Unit Testing, Integration Testing, System Testing, User Acceptance Testing, Sanity/Smoke Testing, Regression Test, Retest. Non -Functional Testing: Performance Testing, Memory Test, Scalability Testing, Compatibility Testing, Security Testing, Cookies Testing, Session Testing, Recovery Testing, Installation Testing, Adhoc Testing, Risk Based Testing, I18N Testing, L1ON Testing, Compliance Testing. Link:https://www.besanttechnologies.com/training-courses/software-testing-training/manual- testing-training-institute-in-chennai #Exemplar/Case Studies 1. Case...",
+          "hours": 7
+        },
+        {
+          "title": "Software Quality Assurance and Quality Control",
+          "topics": "Software Quality Assurance: Introduction, Constraints of Software Product Quality Assessment, Quality and Productivity Relationship, Requirements of a Product, Characteristics of Software, Software Development Process, Types of Products, Schemes of Criticality Definitions, Software Quality Management, Why Software Has Defects? Processes Related to Software Quality, Quality Management System Structure, Pillars of Quality Management System, Im portant Aspects ofQualityManagement. Software Quality Control : Software quality models, Quality measurement and metrics, Quality plan, implementation and documentation, Quality tools including CASE tools, Quality control and reliability of quality process, Quality management system models, Complexity metrics and Customer Satisfaction, International quality standards – ISO, CMM #Exemplar/Case Studies 1. Case Study #1 – Android Application Acceptance Test Suite 2. Case Study #2 – API Acceptance Test Suite Link for above case studies - Software Quality Assurance Case Studies - Beta Breakers *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 7
+        },
+        {
+          "title": "Automation Testing Tools / Performance Testing Tools",
+          "topics": "Automation Testing: What is automation testing, Automated Testing Process, Automation Frameworks, Benefits of automation testing, how to choose automation testing tools. Selenium Automation Tools: Selenium’s Tool Suite - Selenium IDE, Selenium RC, Selenium Web driver, Selenium Grid. Automation Tools: SoapUI, Robotic Process Automation (RPA), Tosca, Appium. Performance Testing : What is Performance Testing what is use of it? Tools used for performance testing - Apache Jmeter. #Exemplar/Case Studies 1. Case Study: Cucumber open-source automation testingframework. 2. Case Study: (PDF) Automated Software Testing—A Case Study(researchgate.net) *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Testing Framework",
+          "topics": "Testing Framework: Software Quality, Software Quality Dilemma, Achieving Software Quality, Software Quality Assurance Elements of SQA, SQA Tasks, Goals and Metrics, Formal Approaches to SQA, Statistical Software Quality Assurance, Six Sigma for Software Engineering, ISO 9000 Quality Standards, SQA Plan, Total Quality Management, Product Quality Metrics, In process Quality Metrics, Software maintenance, Ishikawa's 7 basic too ls, Flow Chart, Checklists, Pareto diagrams, Histogram, Run Charts, Scatter diagrams, Control chart, Cause Effect diagram. Defect Removal Effectiveness and Process. #Exemplar/Case Studies 1. Case study: Software Quality In AcademicCurriculum. 2. Case study: Evaluation of an Automated Testing Framework: ACase Study (scielo.sa.cr) *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410252(E)",
+      "title": "AWS Cloud Application Engineering",
+      "semester": 7,
+      "type": "Elective IV",
+      "credits": 3,
+      "pages": [
+        49,
+        51
+      ],
+      "units": [
+        {
+          "title": "Programming AWS Services",
+          "topics": "Contents: IIntroduction to boto3 module for programming in Python Managing EC2 instances, IAM Operations, VPC Components using Python Programming with AWS RDS, AWS DynamoDB, AWS, DocumentDB and AWS Elasticache in Python #Exemplar/Case Studies AWS EC2, Amazon S3, Amazon RDS, AWS DynamoDB, AWS IAM *Mapping of Course Outcomes for Unit CO1",
+          "hours": 8
+        },
+        {
+          "title": "Provisioning Infrastructure Through Code",
+          "topics": "Home Cloud Formation concepts, How does Cloud Formatio n works, , Working with Stacks, Working with Templates, Working with StackSets, Using the Cloud Formation Registry, Logging API, Calls, Infrastructure Security, Configuration and vulnerability analysis, Infrastructure provisioning using Terraform #Exemplar/Case Studies Amazon CloudFormation *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 8
+        },
+        {
+          "title": "AWS Serverless",
+          "topics": "Need for Serverless architecture, How serverless architecture works, Foundations of Lamdba Functions – concepts, features, programming model, architectures, function, scaling, Lambda Permissions – Execution role, resource based policies, user policies, Configuration,Functions, Managing Functions, Invoking Functions, lambda Functions AWS Step Functions, Designing a workflow using AWS Step Functions. #Exemplar/Case Studies AWS Lambda, AWS Step Functions *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 8
+        },
+        {
+          "title": "API Development and Management in AWS",
+          "topics": "Understanding REST principles, Defining resources and methods, Overview of API Gateway - key features and benefits, creating an API using API Gateway Console,Configuring stages and deployments, Integrating with backend services - Lambda integration, integrating with AWS Services like S3, DynamoDB, API Keys and usage plans, Caching in API Gateway #Exemplar/Case Studies Amazon API Gateway *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 8
+        },
+        {
+          "title": "Building CI/CD Pipelines on AWS",
+          "topics": "What is CI/CD? CodePipeline concepts, How pipeline execution works, Integration with CodePipeline action types, working with pipelines, working with actions, working with stage transitions, monitoring pipelines, security in pipelines, AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, Introduction to Jenkins. #Exemplar/Case Studies AWS CodeCommit, CodeBuild, CodeDeploy, CodePipeline *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Cloud-Native Application Design and Deployment",
+          "topics": "Principles of cloud-native application design, Authentication and authorization in cloud ap plications using Amazon Cognito, Monitoring and observability: AWS CloudWatch metrics, Distributed tracing using AWS X-Ray: service maps, segments, subsegments, Cost optimization strategies: AWS Cost Explorer, Budgets, and right-sizing recommendations, Security best practices: encryption at rest and in transit, End -to-end project: design, develop, and deploy a full-stack cloud-native web application on AWS integrating services. #Exemplar/Case Studies Deploy a full-stack cloud-native web application on AWS *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410246",
+      "title": "Laboratory Practice V",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        52,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "410247",
+      "title": "Laboratory Practice IV",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        57,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "410248",
+      "title": "Project Work Stage I",
+      "semester": 7,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        65,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "410249",
+      "title": "Audit Course 7",
+      "semester": 7,
+      "type": "Audit Course",
+      "credits": null,
+      "pages": [
+        66,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "410250",
+      "title": "Quantum Computing",
+      "semester": 8,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        73,
+        75
+      ],
+      "units": [
+        {
+          "title": "Introduction to Quantum Computing",
+          "topics": "Fundamental Concepts of Quantum computing: Introduction and Overview, Global Perspective, Quantum Bits, Quantum Computation, Quantum Algorithms, Quantum information and Quantum information processing. #Exemplar/Case Studies Exploring Superposition and Entanglement on IBM Quantum *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Mathematical foundation of Quantum",
+          "topics": "Computing 07 Hours Quantum Mechanics: Linear Algebra and Quantum mechanics, Postulates of Quantum mechanics, state space, evolution, Quantum measurement, distinguishing quantum states, projective measurements, POVM measurements, Phase, Composite systems, Global view and applications, Density operator Home #Exemplar/Case Studies Designing and Optimizing a Quantum Adder Circuit *Mapping of Course Outcomes for Unit II CO2",
+          "hours": null
+        },
+        {
+          "title": "Building Blocks for Quantum Program",
+          "topics": "Quantum Computations: Quantum circuits, Quantum algorithms and qubit operations, Controlled operations, Principal deferred and Principal implicit Measurements, Universal Quantum Gates, Two level unitary gates, single qubit and CNOT , discrete set of universal operations, Quantum computational complexity #Exemplar/Case Studies Implementing and Benchmarking Grover's Algorithm for Graph Coloring *Mapping of Course Outcomes for UnitIII CO3",
+          "hours": 7
+        },
+        {
+          "title": "Quantum Simulation Algorithms and Fourier Transform",
+          "topics": "Simulation of Quantum Systems, Simulation in action,exponential complexity growth of quantum systems,, Quantum simulation algorithm, examples of quantum simulations, perspectives of quantum simulation, Understanding Basics of Fourier transform, Discrete Fourier Transform, Fast Fourier Transform, Definitions, mathematical representations of FT, DFT and FFT #Exemplar/Case Studies Implementing Shor's Algorithm for N=15 in Qiskit *Mapping of Course Outcomes for UnitIV CO4",
+          "hours": 7
+        },
+        {
+          "title": "Quantum Fourier Transform and Applications",
+          "topics": "Quantum Fourier Transform , Phase estimation performance and requirements, order finding application, factoring application, General applications of Quantum Fourier transform, period finding, discrete algorithms, Other Quantum Algorithms. #Exemplar/Case Studies Implementing the 3-Qubit Bit-Flip Code in Qiskit with Noise. *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Quantum Machine Learning",
+          "topics": "Quantum Machine Learning and Quantum AI, Quantum Neural Networks, Quantum Natural Language Understanding, Quantum Cryptography, Application Domains for Quantum Machine Learning: Chemistry/Material Science, Space Tech, Finance related Optimisation Problems, Swarm Robotics, Cyber security #Exemplar/Case Studies Simulating BB84 QKD Protocol and Detecting Eavesdropping. *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410251",
+      "title": "Deep Learning",
+      "semester": 8,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        76,
+        78
+      ],
+      "units": [
+        {
+          "title": "Foundations of Deep learning",
+          "topics": "What is machine learning and deep learning?,Supervised and Unsupervised Learning, bias variance tradeoff, hyper parameters, under/over fitting regularization, Limitations of machine learning, History of deep learning, Advantage and challenges of deep learning. Learning representations from data , Understanding how deep learning works in three figures, Common Architectural Principles of Deep Network, Architecture Design, Applications of Deep learning, Introduction and use of popular industry tools such as TensorFLow, Keras, PyTorch, Caffe, Shogun. #Exemplar/Case Studies Deep Mind, AlphaGo, Boston Dynamics *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Deep Neural Networks(DNNs)",
+          "topics": "Home Introduction to Neural Networks :The Biological Neuron, The Perceptron, Multilayer Feed -Forward Networks , Training Neural Networks :Backpropagation and Forward propagation Activation Functions :Linear ,Sigmoid, Tannh, Hard Tanh, Softmax, Rectified Linear, Loss Functions :Loss Function Notation , Loss Functions for Regression , Loss Functions for Classification, Loss Functions for Reconstruction, Hyperparameters : Learning Rate, Regularization, Momentum, Sparsity , Deep Feedforward Networks – Example of Ex OR, Hidden Units, cost functions, error backpropagation, Gradient-Based Learning, Implementing Gradient Descent, vanishing and Exploding gradient descent, Sentiment Analysis, Deep Learning with Pytorch, Jupyter, colab. #Exemplar/CaseStudies A Case Study for Music Genre Classification *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Convolution Neural Network(CNN)",
+          "topics": "Introduction, CNN architecture overview, The Basic Structure of a Convolutional Network- Padding, Strides, Typical Settings, the ReLU layer, Pooling, Fully Connected Layers, The Interleaving between Layers, Local Response Normalization, Training a Convolutional Network #Exemplar/Case Studies AlexNet, VGG *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Convolution Neural Network(CNN)",
+          "topics": "Recurrent and Recursive Nets : Unfolding Computational Graphs, Recurrent Neural Networks, Bidirectional RNNs, Encoder -Decoder Sequence -to-Sequence Architectures, Deep Recurrent Networks, Recursive Neural Networks, The Challenge of Long -Term Dependencies, Echo State Networks, Leaky Uni ts and Other Strategies for Multiple Time Scales, The Long Short -Term Memory and Other Gated RNNs, Optimization for Long -Term Dependencies, Explicit Memory. Practical Methodology: Performance Metrics, Default Baseline Models, Determining Whether to Gather More Data, Selecting Hyper parameters. #Exemplar/Case Studies Multi-Digit Number Recognition *Mapping of Course Outcomes for Unit IV CO3",
+          "hours": 7
+        },
+        {
+          "title": "Deep Generative Models",
+          "topics": "Introduction to deep generative model, Boltzmann Machine, Deep Belief Networks, Generative adversarial network (GAN), discriminator network, generator network, types of GAN, Applications of GAN networks #Exemplar/Case Studies GAN for detection of real or fake images *Mapping of Course Outcomes for Unit V CO4",
+          "hours": 8
+        },
+        {
+          "title": "Reinforcement Learning",
+          "topics": "Introduction of deep reinforcement learning, Markov Decision Process, basic framework of reinforcement learning, challenges of reinforcement learning, Dynamic programming algorithms for reinforcement learning,Q Learning and Deep Q -Networks, Deep Q recurren t networks, Simple reinforcement learning for Tic-Tac-Toe. #Exemplar/Case Studies Self driving cars, Deep learning for chatbots *Mapping of Course Outcomes for Unit VI CO5",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410252(A)",
+      "title": "Natural Language Processing",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        79,
+        81
+      ],
+      "units": [
+        {
+          "title": "Introduction to Natural Language Processing",
+          "topics": "Introduction: Natural Language Processing, Why NLP is hard? Programming languages Vs Natural Languages, Are natural languages regular? Finite automata for NLP, Stages of NLP, Challenges and Issues(Open Problems) in NLP , Basics of text processing: Tokenization, Stemming, Lemmatization, Part of Speech Tagging #Exemplar/Case Studies Why English is not a regular language: http://cs.haifa.ac.il/~shuly/teaching/08/nlp/complexity.pdf#page=20 *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Language Syntax and Semantics",
+          "topics": "Home Morphological Analysis: What is Morphology? Types of Morphemes, Inflectional morphology & Derivational morphology, Morphological parsing with Finite State Transducers (FST) Syntactic Analysis: Syntactic Representations of Natural Language, Parsing Algorithms, Probabilistic context-free grammars, and Statistical parsing, Semantic Analysis: Lexical Semantic, Relations among lexemes & their senses – Homonymy,Polysemy, Synonymy, Hyponymy, WordNet, Word Sense Disambiguation (WSD), Dictionary based approach, Latent Semantic Analysis #Exemplar/CaseStudies Study of Stanford Parser and POS Tagger https://nlp.stanford.edu/software/lex-parser.html https://nlp.stanford.edu/software/tagger.html *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Language Modelling",
+          "topics": "Probabilistic language modeling, Markov models, Generative models of language, Log -Liner Models, Graph-based Models, N-gram models: Simple n-gram models, Estimation parameters and smoothing, Evaluating language models, Word Embeddings/ Vector Semantics: Bag-of-words, TFIDF, word2vec, doc2vec, Contextualized representations (BERT) , Topic Modelling: Latent Dirichlet Allocation (LDA), Latent Semantic Analysis, Non Negative Matrix Factorization #Exemplar/Case Studies Study of language modelling for Indian languages. *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Information Retrieval using NLP",
+          "topics": "Information Retrieval: Introduction, Vector Space Model, Named Entity Recognition: NER System Building Process, Evaluating NER System, Entity Extraction, Relation Extraction, Reference Resolution, Coreference resolution, Cross, Lingual Information Retrieval #Exemplar/Case Studies Natural Language Processing based Information Extraction & Retrieval: https://www.cdac.in/index.aspx?id=mc_cli_cross_lingual_info *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 7
+        },
+        {
+          "title": "NLP Tools and Techniques",
+          "topics": "Prominent NLP Libraries: Natural Language Tool Kit (NLTK), spaCy, TextBlob, Gensim etc. Linguistic Resources: Lexical Knowledge Networks, Wo rdNets, Indian Language WordNet (IndoWordnet), VerbNets, PropBank , Treebanks, Universal Dependency Treebanks Word Sense Disambiguation: Lesk Algorithm Walker’s algorithm, WordNets for Word Sense Disambiguation #Exemplar/Case Studies Hindi Wordnet: https://www.cfilt.iitb.ac.in/wordnet/webhwn/ Sanskrit WordNet: https://www.cfilt.iitb.ac.in/wordnet/webswn/ Indic Library: http://anoopkunchukuttan.github.io/indic_nlp_library/ *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 8
+        },
+        {
+          "title": "Applications of NLP",
+          "topics": "Machine Translation: Rule based techniques, Statistical Machine Translation (SMT), Cross Lingual Translation , Sentiment Analysis, Question Answering, Text Entailment, Discourse Processing, Dialog and Conversational Agents, Natural Language Generation #Exemplar/Case Studies Study working of Google Translate Study working of IBM Watson Natural Language Processing *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410252 (B)",
+      "title": "Image Processing",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        82,
+        84
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Image Processing",
+          "topics": "Introduction, Fundamental steps in Digital Image Processing, Components, Elements of visual perception, Image Sensing and Acquisition, Image Sampling and Quantization, Relationships between pixels, different Color Models, Image Types, Image File Formats, C omponent Labeling algorithm. Introduction to OpenCV tool to Open and Display Images using Python or Eclipse C/C++. #Exemplar/Case Studies Write a program to create a simple image file, save the same in .jpg, .tiff, .bmp format and display it. *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Image Enhancement",
+          "topics": ". Introduction to Image Enhancement and its Importance, Types of Image Enhancement - Spatial Domain Image Enhancement: Intensity Transformations, Contrast Stretching, Histogram Equalization, Correlation and Convolution, Smoothing Filters, Sharpening Filters, Gradient and Laplacian, Frequency Domain Image Enhancement: Low Pass filtering in Frequency Domain (Ideal, Home Butterworth, Gaussian), High Pass filter in Frequency Domain (Ideal, Butterworth, Gaussian). #Exemplar/Case Studies Write a program for image enhancement using suitable algorithm forHistogram equalization, Local enhancement, Smoothing and Sharpening. *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 8
+        },
+        {
+          "title": "Image Segmentation and Analysis",
+          "topics": "Introduction to Image Segmentation and its need. Classification of Image Segmentation Techniques: Threshold Based Image Segmentation, Edge Based Segmentation, Edge Detection, Edge Linking, Hough Transform, Watershed Transform, Clustering Techniques, region approach #Exemplar/Case Studies Studythe different image segmentation techniques for image segmentation *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 8
+        },
+        {
+          "title": "Image Compression and Object Recognition",
+          "topics": "Image Compression: Introduction to Image Compression and its need, Classification of Image Compression Techniques- run-length coding, Shannon Fano coding, Huffman coding, Scalar and vector quantization, Compression Standards -JPEG/MPEG, Video compression. Object Recognition: Introduction, Computer Vision, Tensor Methods in Computer Vision, Classifications Methods and Algorithm, Object Detection and Tracking, Object Recognition. #Exemplar/Case Studies Explain image compression and object recognition techniques. *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 6
+        },
+        {
+          "title": "Image Restoration and Reconstruction",
+          "topics": "Introduction, Model of Image degradation, Noise Models, Classification of image restoration techniques, Blind-deconvolution techniques, Lucy Richardson Filtering, Wiener Filtering #Exemplar/Case Studies Explain classification of image restoration techniques. *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Medical and Satellite Image Processing",
+          "topics": "Medical Image Processing: Introduction, Medical Image Enhancement, Segmentation, Medical Image Analysis (Images of Brain MRI or Cardiac MRI or Breast Cancer). Satellite Image Processing: Concepts and Foundations of Remote Sensing, GPS, GIS, Elements of Photographic Systems, Basic Principles of Photogrammetry, Multispectral, Thermal, and Hyper spectral Sensing, Earth Resource Satellites Operating in the Optical Spectrum #Exemplar/Case Studies Implement application for medical image processing or satellite image processing using OpenCV or Python. *Mapping of Course Outcomes for UnitVI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410252(C)",
+      "title": "Software Defined Networks",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        85,
+        87
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Challenges of traditional networks, History of Software Defined Networking (SDN), Modern Data Center – Traditional Switch Architecture – Why SDN – Evolution of SDN – How SDN Works – Centralized and Distributed Control and Date Planes. #Exemplar/Case Studies Video Streaming https://kempsdn.com/what-is-sdn-and-use-cases/video-streaming/ *Mapping of Course Outcomes for Unit I CO1,CO2",
+          "hours": 7
+        },
+        {
+          "title": "OPEN FLOW & SDN CONTROLLERS",
+          "topics": "Open Flow Overview, The Open Flow Switch, The Open Flow Controller, Open Flow Ports, Message Types, Pipeline Processing, Flow Tables, Matching, Instructions, Action Set and List, Open Flow Protocol, Proactive and Reactive Flow, Timers, Open Flow Limitations, Open Flow Advantages and Disadvantages, Open v Switch Features, Drawbacks of Open SDN, Introduction to SDN controller. Home #Exemplar/Case Studies Behavior Anomaly Detection in SDN Control Plane: A Case Study of Topology Discovery Attacks https://www.hindawi.com/journals/wcmc/2020/8898949/ *Mapping of Course Outcomes for Unit II CO2,CO3",
+          "hours": 7
+        },
+        {
+          "title": "DATA CENTERS",
+          "topics": "Data Center Definition, Data Center Demands (Adding, Moving, Deleting Resources, Failure Recovery, Multitenancy, Traffic Engineering and Path Efficiency), Tunneling Technologies for the Data Center, SDN Use Cases in the Data Center, SDN Solutions for the D ata Center Network – VLANs – EVPN – VxLAN – NVGRE #Exemplar/Case Studies The World’s Second Largest Tier IV Data Center A Yotta Infrastructure case study https://www.missioncriticalmagazine.com/articles/94105-the-worlds- seconzd-largest-tier-iv-data-center *Mapping of Course Outcomes for Unit III CO2",
+          "hours": 7
+        },
+        {
+          "title": "SDN PROGRAMMING",
+          "topics": "Programming SDNs: Northbound Application Programming Interface, Current Languages and Tools, Composition of SDNs – Introduction of Network Functions Virtualization (NFV) and Software Defined Networks: Concepts, Implementation and Applications #Exemplar/Case Studies Case study: Ballarat Grammar uses SDN to fight malware https://www.zdnet.com/home-and-office/networking/case-study- ballarat-grammar-uses-sdn-to-fight-malware/ *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 7
+        },
+        {
+          "title": "Network Functions Virtualization (NFV)",
+          "topics": "Definition of NFV, SDN Vs NFV, In-line network functions, Benefits of Network Functions Virtualization, Challenges for Network Functions Virtualization, Leading NFV Vendors, Comparison of NFV and NV. #Exemplar/Case Studies NFV deployment case study failure migrate https://www.dell.com/en-us/blog/nfv-deployment-case-study-failure- migrate/ *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "SDN Use Cases",
+          "topics": "Juniper SDN Framework – IETF SDN Framework – Open Daylight Controller – Floodlight Controller – Bandwidth Calendaring – Data Center Orchestration #Exemplar/Case Studies CloudSeeds automate IaaS using SDN and a high-performance network from Juniper. *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410652(D)",
+      "title": "Wireless Sensor Network",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        88,
+        90
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction: Fundamentals of wireless communication technology, the electromagnetic spectrum radio propagation, characteristics of wireless channels, modulation techniques, multiple access techniques, wireless LANs, PANs, WANs, and MANs, Wireless Internet. #Exemplar/Case Studies Intel Research Lab WSN Deployment: 150-node indoor sensor network for microclimate monitoring. *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Adhoc/sensor networks",
+          "topics": "Introduction to adhoc/sensor networks: Key definitions of adhoc/ sensor networks, unique constraints and challenges, advantages of ad-hoc/sensor network, driving applications, issues in adhoc wireless networks, issues in design of sensor network, sensor network architecture, data dissemination and gathering. #Exemplar/Case Studies S-MAC in Pipeline Leak Detection: Duty-cycling for long-life underground sensor deployment. Home *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 8
+        },
+        {
+          "title": "MAC Protocols",
+          "topics": "MAC Protocols : Issues in designing MAC protocols for adhoc wireless networks, design goals, classification of MAC protocols, MAC protocols for sensor network, location discovery, quality, other issues, S -MAC, IEEE 802.15.4. #Exemplar/Case Studies Indoor Localization in Hospital Asset Tracking: RSSI-based patient-wristband localization with 1m accuracy. *Mapping of Course Outcomes for Unit II CO3",
+          "hours": 8
+        },
+        {
+          "title": "Routing Protocols",
+          "topics": "Routing Protocols: Issues in designing a routing protocol, classification of routing protocols, table-driven, on- demand, hybrid, flooding, hierarchical, and power aware routing protocols #Exemplar/Case Studies Solar Energy Harvesting in Smart Agriculture: Perpetually operating soil-moisture sensor nodes. *Mapping of Course Outcomes for Unit II CO4",
+          "hours": 8
+        },
+        {
+          "title": "QoS and Energy Management",
+          "topics": "QoS and Energy Management: Issues and Challenges in providing QoS, classifications, MAC, network layer solutions, QoS frameworks, need for energy management, classification, battery, transmission power, and system power management schemes. Healthcare and body area networks (BAN): IEEE 802.15.6, wearables, patient monitoring, #Exemplar/Case Studies Wormhole Attack Mitigation in Smart City WSN: TrueLink protocol for geographic routing security. *Mapping of Course Outcomes for Unit II CO5",
+          "hours": 8
+        },
+        {
+          "title": "WSN Applications, IoT Integration & Emerging Trends",
+          "topics": "Precision agriculture: soil moisture, crop health, automated irrigation — end-to-end WSN design, Structural health monitoring (SHM): IEEE 802.15.6, Smart city applications: smart parking, noise mapping, waste management, predictive maintenance Industry 4.0 integration, WSN and IoT convergence: gateway architectures, Software - Defined Networking (SDN) for WSN: programmable control plane for sensor networks, 5G -integrated sensor networks. #Exemplar/Case Studies SHM at Golden Gate Bridge: 64-node Imote2 WSN for real-time structural vibration monitoring *Mapping of Course Outcomes for Unit II CO6 Books: Text: 1. Dr. Manish Gupta, Mr Deepak Sharma, Ms Neha Gupta, Dr. Naresh Kumar, “A Complete guide to Wireless sensor networks”, Notion Press 2021. 2. C. Siva Ram Murthy, and B. S. Manoj, \"AdHoc Wireless networks \", Pearson Education – 2008. 3. Kazem Sohraby, Daniel Minoli, and Taieb Znati, \"Wireless Sensor Networks: Technology, Protocols, and Applications\", Wiley-Interscience, 2007. References: 1.Shashikant V. Athawale, Ad-Hoc and Wireless Sensor network, Pearson, 2022. 2.Feng Zhao and Leonides Guibas, \"Wireless sensor networks \", Elsevier publication – 2005 3.William Stallings, \"Wir...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "410252(E)",
+      "title": "Open Elective",
+      "semester": 8,
+      "type": "Elective V",
+      "credits": 3,
+      "pages": [
+        91,
+        91
+      ],
+      "units": []
+    },
+    {
+      "code": "410253(A)",
+      "title": "Pattern Recognition",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        92,
+        94
+      ],
+      "units": [
+        {
+          "title": "Pattern Recognition",
+          "topics": "Introduction of Pattern Recognition with its application, Pattern Recognition system, Design cycle of pattern recognition, Learning and adaption, Representation of Patterns and classes, Feature Extraction, pattern recognition models/approaches. #Exemplar/Case Studies Evaluation on spatial and temporal variations in water quality by pattern recognition techniques. *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Error Estimation & Decision Theory",
+          "topics": "Home Introduction, Error estimation methods, various distance measures (Euclidean, Manhattan, cosine, Mahalanobis) and distance based classifier, Feature selection based on statistical hypothesis testing, ROC curve. Introduction, Bayesian decision theory-continuous and discrete features, two- category classification, minimum error rate classification, discriminant functions, Parametric Techniques:- Maximum Likelihood Estimation, Bayesian Parameter Estimation, Sufficient Statistics; Problems of dimensionality. Non-Parametric Techniques: -Density estimation, Parzen Window, Metrics and Nearest-Neighbor classification; Fuzzy classification #Exemplar/Case Studies Spatial and temporal air quality pattern recognition using environ metric techniques *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Structural pattern recognition",
+          "topics": "Tree Classifiers-Decision Trees, Random Forests, Structural Pattern recognition: Elements of formal grammars ,String generation as pattern description ,Recognition of syntactic description ,Parsing ,Stochastic grammars and applications ,Graph based structural representation, Stochastic method: Boltzmann Learning. #Exemplar/Case Studies Case Study on spoken word recognition *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 6
+        },
+        {
+          "title": "Clustering",
+          "topics": "Introduction, Hierarchical Clustering, agglomerative clustering algorithm, the single linkage, complete, linkage and average, linkage algorithm. Ward’s method ,Partition clustering, , K - means algorithm, clustering algorithms based on graph theory(Minimum spanning tree algorithm),Optimization methods used in clustering: clustering using simulating Annealing. #Exemplar/Case Studies Case Study on disease recognition from a list of symptoms *Mapping of Course Outcomes for Unit IV CO3",
+          "hours": 8
+        },
+        {
+          "title": "Template Matching and Unsupervised Learning",
+          "topics": "Measures based on Optimal Path Searching techniques: Bellman’s optimality principle and dynamic programming, The Edit distance, Dynamic time Warping, Measures based on correlations, Deformable template models #Exemplar/Case Studies Pattern recognition in time series database: A case study on financial database. *Mapping of Course Outcomes for Unit V CO4",
+          "hours": 7
+        },
+        {
+          "title": "Fuzzy Logic and Pattern Recognition",
+          "topics": "Fuzzy logic,Fuzzy pattern classifiers, Pattern classification using Genetic Algorithms Pattern recognition applications: Application of pattern recognition techniques in object recognition, biometric, facial recognition, IRIS scanner, Finger prints, 3D object recognition #Exemplar/Case Studies Study of fingerprint recognition *Mapping of Course Outcomes for Unit VI CO5",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410253( B)",
+      "title": "Soft Computing",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        95,
+        98
+      ],
+      "units": [
+        {
+          "title": "Introduction To Soft Computing",
+          "topics": "Introduction to Soft Computing and Computational Intelligence, Characteristics of Soft computing, Comparison Soft Computing Vs Hard Computing, Requirements of Soft Computing, Soft Computing Techniques – Artificial Neural Network, Fuzzy Logic., Evolutionary computing and Hybrid systems, Applications of Soft Computing #Exemplar/Case Studies 1. Study of Soft Computing techniques for Waste WaterManagement 2. Study of IBM Research Neuro-symbolic AI- a new look for neuromorphic computing *Mapping of Course Outcomes for Unit CO1 Home",
+          "hours": 7
+        },
+        {
+          "title": "Artificial Neural Network",
+          "topics": "Neuron, Nerve structure and synapse, Artificial Neuron and its model, activation, functions, Neural network architecture: single layer and multilayer feed forward networks, recurrent networks.Various learning techniques; perception and convergence rule, Auto -associative and hetro -associative memory, perceptron model, single layer artificial neural network, multilayer perceptron model; back propagation learning methods, effect of learning rule coefficient; back propagation algorithm, factors affecting backpropagation training, applications. #Exemplar/CaseStudies Study of Handwriting recognition using ANN. *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Evolutionary Computing",
+          "topics": "Problem Solving as A Search Task, Hill Climbing And Simulated Annealing, Evolutionary Computing, Evolution Strategies, Evolutionary Programming, Genetic Programming, Selected Applications From The Literature: A Brief Description, Scope Of Evolutionary Computing, Introduction to Evolutionary Single-Objective Optimization, Particle Swarm Optimization: Introduction, inspiration, mathematical model, standard and binary PSO. Artificial hummingbird algorithm #Exemplar/Case Studies Study of Engineering application of Artificial hummingbird algorithm *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Fuzzy logic",
+          "topics": "Introduction to Fuzzy Logic, Classical Set, Fuzzy Set - Introduction, Operations on classical sets, properties of classical sets, fuzzy set operations, properties of fuzzy sets, Classical Relation, Fuzzy Relation, Fuzzy Inference process – Membership functions, Fuzzification, Membership value Assignment- Inference, Rank ordering, defuzzification – Weighted Average Method, Mean -Max Membership, Fuzzy Bayesian Decision Making, Developing a Fuzzy Control – System Architecture and Operation of FLC System, FLC System Models, Application of FLC System #Exemplar/Case Studies Study of Object Detection Robot Using Fuzzy Logic Controller *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 8
+        },
+        {
+          "title": "Genetic Algorithm",
+          "topics": "Introduction To Basic Terminologies in Genetic Algorithm: Individuals, Genes, Fitness, Populations; Simple GA; General Genetic Algorithm; Operators in Genetic Algorithm: Encoding, Selection, Crossover (Recombination), Mutation; Stopping Condition for GA Flow; Constraints in Genetic Algorithms; Problem Solving Using Genetic Algorithm; Holland Classifier System: The Production System, The Bucket Brigade Algorithm and Rule Generation; Advantages and Limitations of Genetic Algorithms; Applications of Genetic Algorithms. #Exemplar/Case Studies Use Genetic Algorithm to design a solution to the Traveling Salesman Problem. Solution:1. Use Permutation Encoding 2. Define Objective Function. 3. Apply Selection Method 4. Crossover 5. Mutation 6. RepeatUntil stopping criteria is met. 7.Stop *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Hybrid System and Application Areas of Soft Computing",
+          "topics": "Hybrid System towards comprehensive Soft Computing: The hybrid systems paradigm, Hybrid connectionist production systems, Hybrid connectionist logic programming systems, Hybrid fuzzy connectionist production systems, Hybrid systems for speech and language processing, Hybrid systems for decision making. Application Areas of Soft Computing: Fuzzy-filtered Neural Networks-Plasma Spectrum Analysis, Hand-written Numeral Recognition, Fuzzy sets and Genetic Algorithms in Game Playing, Soft Computing for Color Recipe Prediction. #Exemplar/Case Studies Study of Hybrid models for disease prediction. *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410253C",
+      "title": "Business Intelligence",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        99,
+        101
+      ],
+      "units": [
+        {
+          "title": "Introduction to Decision support systems and",
+          "topics": "Business intelligence 07 Hours Decision support systems: Definition of system, representation of the decision-making process, evolution of information systems, Decision Support System, Development of a decision support system, the four stages of Simon’s decision-making process, and common strategies and approaches of decision makers Business Intelligence : BI, its components & architecture, previewing the future of BI, crafting a better experience for all business users, End user assumptions, setting up data for BI, data, information and knowledge, The role of mathematical models, Business intelligence architectures, Ethics and business intelligence #Exemplar/Case Studies Decision support system in business intelligence: https://www.riverlogic.com/blog/five-decision-support-system-examples *Mapping of Course Outcomes for Unit I CO1",
+          "hours": null
+        },
+        {
+          "title": "The Architecture of DW and BI",
+          "topics": "BI and DW architectures and its types - Relation between BI and DW - OLAP (Online analytical processing) definitions - Different OLAP Architectures -Data Models-Tools in Business Intelligence -Role of DSS, EIS, MIS and digital Dash boards – Need for Business Intelligence Difference between OLAP and OLTP - Dimensional analysis - What are cubes? Drill-down and roll-up - slice and dice or rotation - OLAP models - ROLAP versus MOLAP - defining schemas: Stars, snowflakes and fact constellations. Home #100/ #Exemplar/Case Studies A case study on Retail Industry : https://www.diva-portal.org/smash/get/diva2:831050/FULLTEXT01.pdf *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Reporting Authoring",
+          "topics": "Building reports with relational vs Multidimensional data models; Types of Reports – List, crosstabs, Statistics, Chart, map, financial etc; Data Grouping & Sorting, Filtering Reports, Adding Calculations to Reports, Conditional formatting, Adding Summary Lines to Reports. Drill up, drill - down, drill-through capabilities. Run or schedule report, different output forms – PDF, excel, csv, xml etc. #Exemplar/Case Studies Power BI Case Study – How the tool reduced hassles of Heathrow & Edsby: https://data-flair.training/blogs/power-bi-case-study/ *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Data preparation",
+          "topics": "Data validation: Incomplete data , Data affected by noise . Data transformation: Standardization , Feature extraction. Data reduction : Sampling, Feature selection, Principal component analysis, Data discretization .Data exploration : 1.Univarate analysis :Graphical analysis of categorical attributes ,Graphical analysis of numerical attributes , Measures of central tendency for numerical attributes , Measures of dispersion for numerical attributes, Identification of outliers for numerical attributes 2.Bivariate analysis: Graphical analysis , Measures of correlation for numerical attributes , Contingency tables for categorical attributes, 3.Multivariate analysis: Graphical analysis , Measures of correlation for numerical attributes #Exemplar/Case Studies Case study on Data preparation phase of BI system https://blog.panoply.io/load-and-transform-how-to-prepare-your-data-for-business- intelligence *Mapping of Course Outcomes for Unit IV CO4",
+          "hours": 7
+        },
+        {
+          "title": "Impact of Machine learning in BusinessIntelligence Process",
+          "topics": "Classification: Classification problems, Evaluation of classification models, Bayesian methods, Logistic regression. Clustering: Clustering methods, Partition methods, Hierarchical methods, Evaluation of clustering models. Association Rule: Structure of Association Rule, Apriori Algorithm #Exemplar/Case Studies Business applications for comparing the performance of a stock over a period of time https://cleartax.in/s/stock-market-analysis *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "BI Applications",
+          "topics": "Tools for Business Intelligence, Role of analytical tools in BI, Case study of Analytical Tools: WEKA, KNIME, Rapid Miner, R; Data analytics, Business analytics, ERP and Business Intelligence, BI and operation management, BI in inventory management system, BI and human resource management, BI Applications in CRM, BI Applications in Marketing, BI Applications in Logistics and Production, Role of BI in Finance, BI Applications in Banking, BI Applications in Telecommunications, BI in salesforce management #Exemplar/Case Studies Logistics planning in the food industry https://www.foodlogistics.com/case-studies https://www.barrettdistribution.com/food-distribution-case-study *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410253(D)",
+      "title": "Reinforcement Learning",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        102,
+        104
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Reinforcement learning – Elements of Reinforcement learning – limitations and scope – Example Tic-tac-toe – Tabular solution methods – multi-armed bandits – k-armed bandit problem – action-value methods – 10-armed testbed – incremental implementation – tracking a non -stationary problem – optimistic initial values – Upper- confidence bound action section – gradient bandit algorithm – associative search - finite markov decision processes – agent environment interface – goals and rewards – returns and episodes – unified notation for episodic and continuing tasks – policies and value functions – optimal policies and optimal value functions – optimality and approximation *Mapping of CourseOutcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Dynamic Programming and Monte Carlo methods",
+          "topics": "Policy evaluation – improvement – iteration – value iteration – Asynchronous dynamic programming – generalized policy iteration – Efficiency of DP – Monte carlo prediction – monte carlo estimation of action values – monte carlo control – without exploring starts – off-policy monte carlo control – discounting aware importance sampling – per-decision importance sampling *Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Temporal difference learning and Bootstrapping",
+          "topics": "TD prediction – Advantages – Optimality of TD Sarsa: On policy TD control – Q-learning off-policy TD control – Expected Sarsa – Maximization Bias and double learning – Games, Afterstates and Special cases – n-step TD prediction – n-step Sarsa – n-step Off-policy learning – per-decision methods with control variates – off-policy learning without importance sampling – n-step tree backup algorithm – A unifying algorithm – n-step Q(σ) – Planning and learning with tabular methods – models and planning – prioritized sweeping – trajectory sampling – planning at decision time - rollout algorithms – monte carlo tree search *Mapping of CourseOutcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Approximate solution methods",
+          "topics": "On-policy prediction with approximation – value-function approximation – prediction objective – stochastic gradient, semi-gradient methods – linear methods – Feature construction – Nonlinear function approximation Least squares TD – Memory based function approximation – kernel based approximation – on-policy control – Episodic semi-gradient control – Semi-gradient n-step sarsa – differential semi-gradient n-step sarsa – off-policy methods – semi-gradient methods – examples – deadly triad – Bellman error – Gradient, Emphatic TD methods – Eligibility Traces – The λ return – TD (λ) – Online λ return algorithm – Sarsa (λ) – Variable λ and γ – Watkins Q(λ) and tree- backup (λ). *Mapping of CourseOutcomes for Unit IV CO3,CO4",
+          "hours": 7
+        },
+        {
+          "title": "Policy Gradient Methods",
+          "topics": "Policy Parameterization and the Policy Gradient Theorem, REINFORCE: Monte Carlo Policy Gradient algorithm, REINFORCE with Baseline: Variance reduction techniques, Actor -Critic Methods: One-step and n-step Actor- Critic, Advantage Function; A2C and A3C architectures (overview), Comparison of Value-Based vs Policy-Based approaches. *Mapping of CourseOutcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Deep Reinforcement learning",
+          "topics": "Introduction to Deep RL: Motivation and challenges (non -stationarity, correlation), Deep Q -Networks (DQN): Learning the Q -function with CNNs , Experience Replay and Target Network — DQN stabilization techniques, DQN Algorithm: End -to-end training pipeline; Hyperparameter tuning, Double DQN Algorithm: Addressing overestimation bias, Prioritized Experience Replay; Dueling Network Architecture (ov erview), Deep RL in continuous action spaces: DDPG, PPO (overview), Ethical considerations, safety, and deployment c hallenges in Deep RL, Emerging trends: Multi-agent RL, Offline RL, RL from Human Feedback (RLHF). *Mapping of CourseOutcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410253(E)",
+      "title": "Open Elective",
+      "semester": 8,
+      "type": "Elective VI",
+      "credits": 3,
+      "pages": [
+        105,
+        105
+      ],
+      "units": []
+    },
+    {
+      "code": "410255",
+      "title": "Laboratory Practice V",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        106,
+        109
+      ],
+      "units": []
+    },
+    {
+      "code": "410256",
+      "title": "Laboratory Practice VI",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        110,
+        119
+      ],
+      "units": []
+    },
+    {
+      "code": "410256",
+      "title": "Project Work Stage II",
+      "semester": 8,
+      "type": "Project",
+      "credits": 6,
+      "pages": [
+        120,
+        120
+      ],
+      "units": []
+    },
+    {
+      "code": "410257",
+      "title": "Audit Course 8",
+      "semester": 8,
+      "type": "Audit Course",
+      "credits": null,
+      "pages": [
+        121,
+        126
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

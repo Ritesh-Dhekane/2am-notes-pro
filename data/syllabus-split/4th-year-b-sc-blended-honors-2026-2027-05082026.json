@@ -1,0 +1,1501 @@
+{
+  "id": "4th-year-b-sc-blended-honors-2026-2027-05082026",
+  "kind": "programme",
+  "programme": "Fourth Year B.Sc. Blended Honors Degree Program",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CHE 401 MJ",
+      "title": "Advanced concepts in physical chemistry",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Thermodynamics",
+          "topics": "State function, path function, exact and inexact differential, Maxwell's relationship, temperature and pressure dependence of thermodynamic quantities, Clausius inequality, chemical potential, variation of chemical potential with temperature and pressure, chemical potential in a system of ideal gases, Determination of partial molar quantities, Methods for the determi nation of molar quantities, Thermodynamics of mixing, Entropy of mixing, Numerical problems.",
+          "hours": 15
+        },
+        {
+          "title": "Quantum chemistry",
+          "topics": "Recapitulation, Postulates of quantum chemistry, operators- Algebra of operators, commutator operator, linear operators, observables in classical mechanics and corresponding operators in quantum mechanics, simple derivation of Schrodinger wave equation using momentum/energy operator, particle in one dimensional box, particle in three dimensional box, Degeneracy, Normalization and orthogonality of wave functions, rigid rotor, and one dimensional simple hydrogen like atom (no deviation), Numerical problems.",
+          "hours": 15
+        },
+        {
+          "title": "Chemical kinetics",
+          "topics": "a) Rate law: Recapitulation, the temp dependent reaction rate, reaction moving towards equilibrium, pre equilibria, The steady state approximation (SSA), consecutive reactions (analysis with and without SSA), application of SSA to reaction between H2 and Br2, parallel reactions, Lindemann theory of unimolecular reactions. Numerical problems. b) Kinetics of complex reactions: chain reactions, free radical polymerization, explosive reactions, Numerical problems. Molecular reaction dynamics: Collision theory of bimolecular, diffusion controlled and activation -controlled reaction in solution, activated complex theory of reac tion rate, Eyring equation. Potential energy surfaces, Numerical problems. c) Enzyme catalysis: Introduction, Enzymes and effect of pH and temperature on enzyme catalysed reactions (qualitative), Michaelis Menten equation, limiting rate, Lineweaver -Burk, Eadie-Hofstee methods and plots, competitive, uncompetitive and non-competitive inhibition, Numerical problems.",
+          "hours": 20
+        },
+        {
+          "title": "Molecular Thermodynamics",
+          "topics": "Molecular energy levels, Boltzmann distribution law, partition functions and ensembles, translational, rotational and vibrational partition function of diatomic molecules, Thermodynamic properties in terms of partition functions (internal energy, heat capacity, entropy and equilibrium constant), Maxwell-Boltzmann, Fermi- Dirac and Bose -Einstein statistics.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CHE 402 MJ",
+      "title": "Modern spectroscopic methods in structure determination of organic compounds",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Mass Spectrometry",
+          "topics": "Principle, ionization methods like EI, CI, ESI, MALDI and FAB, Fragmentation of typical organic compounds, stability of fragments, Rearrangements, factors affecting fragmentation, ion analysis, ion abundance, High-Resolution mass spectrometry in determination of molecular formula.",
+          "hours": 10
+        },
+        {
+          "title": "Problems solving",
+          "topics": "Structure elucidation using UV, IR, 1 D (1H and13C) NMR and 2D NMR (1H1H, COSY / 13C, 1H HETCOR only), APT, DEPT and MS data as well as spectra. Use of NMR fid processing software’s for Visualization, processing, analysing and making reports of 1H-NMR, 13C NMR and 2D NMR.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CHE 403 MJ",
+      "title": "Chemistry of Macromolecules",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Basic Concepts and Molecular Weights Determination",
+          "topics": "Basic concepts - classification, nomenclature, molecular weights, molecular weight distribution, glass transition, degree of crystallinity, morphology, and viscosity molecular weight, mechanical property - molecular weight relationships. Molecular weights and Methods of determination, size and shape of macromolecules. Intrinsic viscosity, Mark-Houwink relationship.",
+          "hours": 15
+        },
+        {
+          "title": "Chain Structure and Solution Thermodynamics",
+          "topics": "Chain structure and configuration, conformation, size of an ideal chain (freely jointed chain and other models), Real chains, Flory theory. Thermodynamics of polymer solutions. Molecular motion (self-diffusion, hydrodynamic radius, Rouse Model, Zimm Model, entangled polymer dynamics and de Gennes reptation model).",
+          "hours": 15
+        },
+        {
+          "title": "Glass Transition and Rubber Elasticity",
+          "topics": "Glass transition temperature – elementary theories and methods of determination. Variation of glass transition with structure. Rubber elasticity - concepts, thermodynamic equation of state. Elementary theories of viscoelasticity (Maxwell, Voight).",
+          "hours": 15
+        },
+        {
+          "title": "Mechanisms and Methods of Polymerization",
+          "topics": "Mechanisms and Methods of Polymerization - Step (condensation) polymerization - Description - Reactivity Functional Groups - Kinetic and thermodynamic considerations - Molecular weight distribution. Chain polymerization, controlled radical polymerizations (INIFERTER, ATRP, RAFT, SET). Living Polymerizations. Ziegler-Natta and metathesis polymerizations.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "CHE 404 MN",
+      "title": "Modern concepts in molecular symmetry",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Molecular Symmetry and Symmetry Groups",
+          "topics": "Symmetry elements and operations, Symmetry planes and reflections, the inversion centre, proper axes and proper rotations, improper axes and improper rotation, products of symmetry operations, equivalent symmetry elements and equivalent atoms, general relations among symmetry elements and symmetry operations, classes of symmetry operations, symmetry elements and optical isomerism, symmetry point groups, classification of molecular point groups, defining properties of a group, group multiplication table, some examples of group, subgroups and classes",
+          "hours": 15
+        },
+        {
+          "title": "Representations of Groups",
+          "topics": "Matrix representation and matrix notation for geometric transformation, The Great Orthogonality Theorem and its consequence, character tables (No mathematical part), wave function as basis for irreducible representations",
+          "hours": 10
+        },
+        {
+          "title": "Symmetry Adapted Linear Combinations",
+          "topics": "Projection operators and their use of construct SALC (Construction of SALC for sigma bonding for molecules belonging point groups D2h, D3h, D4h, C4v, Td, Oh normalization of SALC, transformation properties of atomic orbital, MO’s for sigma bonding, ABn molecules, tetrahedral AB4 and Oh AB6 cases.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CHE 405 MN",
+      "title": "Advanced industrial formulation chemistry",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Dyes",
+          "topics": "Introduction: Classification of dyes based on chemical constitution (azo, anthraquinone, nitro, triphenylmethane) and application methods (acid, basic, direct, reactive, vat, disperse). Color and Constitution: Chromophore-auxochrome theory, resonance, and molecular orbital theory. Synthesis & Application: Industrial manufacturing process for major dyes (e.g., Methyl Orange, Malachite Green, Congo Red).",
+          "hours": 5
+        },
+        {
+          "title": "Pigments",
+          "topics": "General characteristics, types (inorganic and organic pigments), blue pigments, red pigments, black pigments, and their industrial applications. Application Technology: Dyeing of cotton, wool, and silk; color fastness testing (washing, rubbing)",
+          "hours": 5
+        },
+        {
+          "title": "Paint and Coating Technology",
+          "topics": "Constituents of Paints: Binders/Resins (alkyd, epoxy), Pigments (prime and extenders), Solvents, and Additives. Paint Manufacturing: Processes including grinding, dispersing, and mixing; ball mill, triple roll mill, high-speed dispersers. Types of Paints: Emulsion paint, latex paint, distemper, luminescent paints, and varnishes. Formulation & Evaluation: Important aspects of PVC (Pigment Volume Concentration), paint failure, and methods of application",
+          "hours": 10
+        },
+        {
+          "title": "Polymer Chemistry and Technology",
+          "topics": "Fundamentals: Classification of polymers (natural, synthetic, thermoplastic, thermosetting). Polymerization Mechanisms: Bulk, solution, emulsion, and suspension polymerization. Industrial Polymers: Production of Polyethylene (PE), Polypropylene (PP), Polystyrene (PS), Polyvinyl Chloride (PVC), Polyamides (Nylon), and Polyesters. Resin Technology: Phenolic resins (novolac, resol), urea-melamine resins, epoxy resins, and alkyd resins. Characterization: Techniques for determining molecular weight and mechanical properties Reference: 1. Shore, J. (1995). Colorants and Auxiliaries: Volume 2: Auxiliaries. Society of Dyers and Colourists. 2. Trotman, E. R. (1984). Dyeing and Chemical Technology of Textile Fibres. Charles Griffin & Company. 3. Flick, E. W. (2017). Water-Based Trade Paint Formulations. Elsevier. 4. Herbst, W., & Hunger, K. (2004). Industrial Organic Pigments: Production, Crystal Structures, Properties, Applications (4th ed.). Wiley-VCH. 5. Vogel, A. I. Vogel's Textbook of Or...",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CHE 406 RM",
+      "title": "Theory of research, research tools and methods",
+      "semester": 7,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Research Methodology",
+          "topics": "Meaning, objectives, and significance of research, Types of research: basic, applied, experimental, analytical, and computational, Identification and formulation of research problems, Hypothesis formulation and testing, Research planning and research design, Interdisciplinary and multidisciplinary research approaches.",
+          "hours": 10
+        },
+        {
+          "title": "Literature Survey and Scientific Documentation",
+          "topics": "Literature survey techniques, Use of scientific databases: Scopus, Web of Science, Google Scholar, arXiv, INSPIRE, Reference management software (Zotero, Mendeley, EndNote), presentation software (MS Powerpoint, MS eord, LaTex)",
+          "hours": 10
+        },
+        {
+          "title": "Scientific Communication and Research Practices",
+          "topics": "Scientific communication and technical writing of evaluation report and thesis writing. Intellectual Property Rights (IPR), patents, copyrights, and trademarks Introduction to innovation and entrepreneurship in scientific research",
+          "hours": 10
+        },
+        {
+          "title": "Research Tools and Data Analysis",
+          "topics": "Experimental and computational tools for research, Data acquisition and data processing techniques, Error analysis and uncertainty estimation, Graph plotting and curve fitting Statistical analysis and interpretation of data, Use of software tools (Origin, MATLAB/Python basics, Excel, gnuplot).",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CHE 407 MJ (P)",
+      "title": "FP/ RP/ Practical",
+      "semester": 7,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE 451 MJ",
+      "title": "Coordination and Bioinorganic chemistry",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Ligand Field Theory of Coordination Complexes",
+          "topics": "Effect of ligand field on energy levels of transition metal ions, weak cubic ligand field effect on Russell- Saunders terms, Orgel diagrams, strong field effect, correlation diagrams, Tanabe - Sugano Diagrams, Spin-Pairing energies.",
+          "hours": 8
+        },
+        {
+          "title": "Electronic spectra of Transition Metal Complexes",
+          "topics": "Introduction, band intensities, band energies, band width and shapes, transition metal spectra of 1st, 2ndand 3rd row ions and complexes, electronic spectra of Lanthanide and Actinide, spectrochemical and nephelauxetic series, charge transfer and luminescence spectra, calculations of Dq, B, β parameters, percentage of covalent character for metal complexes.",
+          "hours": 8
+        },
+        {
+          "title": "Magnetic Properties of Coordination Complexes",
+          "topics": "Origin magnetis m, types of magnetism, Curie law, Curie -Weiss Law, Magnetic properties of Complexes-Para magnetism, 1stand 2nd Ordered Zeeman effect, quenching of orbital angular momentum by Ligand fields, Magnetic properties of A, E and T ground terms in complexes, spin free and spin paired equilibria, temperature dependence of magnetism. Reference 1. Ligand Field Theory and Its Applications by B.N. Figgis and M.A. Hitachman (Wiley India Pvt Ltd, 12 October 2010) 2. Symmetry and Spectroscopy of Molecules by K. Veera Reddy, Second Edition 2009: (New Age International Publication) 3. Elements of Magnetochemistry by R. L. Datta and A. Syamal, Second Edition",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CHE 452 MJ",
+      "title": "Advanced synthetic organic chemistry",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Synthetic applications of Transition metal complexes in organic synthesis",
+          "topics": "Pd, Ni, Co, Ru, Fe, and Cu (only C -C, C-N, C-O bond formation reactions with catalytic cycle, terminology in Catalysis, Turnover number (TON), Turnover Frequency (TOF), oxidation states of transition metals, 16-18 rule, dissociation, association, insertion, oxidative addition, reductive elimination of transition metal ligand, and % mole concepts)",
+          "hours": 6
+        },
+        {
+          "title": "Synthetic applications of Organo-Palladium reagents",
+          "topics": "Heck arylation, allylic activation, carbonylation, Wacker oxidation, Stille, Sonogashira, Fukuyama, Kumada, Hiyama, Negeshi, Tsuji -Trost, Buchwald -Hartwig a nd Suzuki coupling reactions. Organo-Nickel reagents: Carbonylation, Oligomerisation and Reppe reaction. (3 L) Organo-Iron reagents: Noyori reaction, Collmann’s reagent, and Eletrophilic reactions. (3 L)",
+          "hours": 12
+        },
+        {
+          "title": "Organo-Cobalt reagents",
+          "topics": "Oxo Process, Nicholas reaction, Pausand Khand reaction, Volhardt’s cotrimerisation reaction.",
+          "hours": 3
+        },
+        {
+          "title": "Organo-Ruthenium and Organo-Rhodium reagents",
+          "topics": "Reduction reactions using Wilkinson's Catalyst, Noyori reduction, Knowles asymmetric hydrogenation.",
+          "hours": 3
+        },
+        {
+          "title": "Metathesis Reactions",
+          "topics": "Olefin metathesis, Schrock and Grubbs catalyst, Olefin cross coupling (OCM), ring closing (RCM) and ring opening (ROM) metathesis, application in polymerization and synthesis of small organic molecules, and application in the synthesis of homo and heterocyclic compounds. Enyne methathesis, Alkyne meththesis.",
+          "hours": 12
+        },
+        {
+          "title": "Click chemistry",
+          "topics": "Criterion for click reaction, Sharpless azides cycloadditions, Sharpless asymetric epoxidation. Regioselectivity in click reactions, Click reactions in synthesis of bioconjugates (sugar s and proteins)",
+          "hours": 3
+        },
+        {
+          "title": "Molecular Rearrangements",
+          "topics": "Mechanism to nucleophilic, electrophilic, and free radical molecular rearrangements, migratory aptitude Carbon-carbon rearrangements: Pinacol -Pinacolone, Favorskii, Wolff and Benzil -Benzilic acid rearrangements Carbon-nitrogen rearrangements: Hoffmann, Curtius, Lossen, Schmidt and Beckmann rearrangements. Carbon -oxygen rearrangements: Bayer -Villiger rearrangement, Dakin oxidation Oxygen-Carbon rearrangement: Fries rearrangement Problem solving",
+          "hours": 10
+        },
+        {
+          "title": "Retrosynthetic Analysis",
+          "topics": "Retrosynthetic analysis, disconnection approach, Synthons, multiple step synthesis, functional group interconversion, Illogical two group interconversion, C -C disconnection, Donor and acceptor Synthons, two group disconnection, 1,5 relat ed functional group disconnection, Umpolung, convergent synthesis, special methods for small rings, Heteroatom and Heterocyclic compounds, problems",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CHE 453 MJ",
+      "title": "Green Chemistry and Its applications",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Basic Principles of Green Chemistry",
+          "topics": "Introduction- Need for Green Chemistry. Goals of Green Chemistry. Limitations of Green Chemistry. Chemical accidents, terminologies, International green chemistry organizations and Twelve principles of Green Chemistry with examples.",
+          "hours": 12
+        },
+        {
+          "title": "Green Synthesis",
+          "topics": "Choice of starting materials, reagents, catalysts and solvents in detail, Green chemistry in day today life. Designing green synthesis - Green reagents: dimethyl carbonate. Green solvents: Water, Ionic liquids - criteria, general methods of preparation, effect on organic reaction. Supercritical carbon dioxide - properties, advantages, drawbacks and a few examples of organic reactions in scCO2. Green synthesis-adipic acid and catechol.",
+          "hours": 12
+        },
+        {
+          "title": "Green Catalysis",
+          "topics": "Environmental pollution, Green Catalysis Acid catalysts, Oxidation catalysts, Basic catalysts, Polymer supported catalysts-Poly styrene aluminum chloride, polymeric super acid catalysts, Polymer supported photosensitizers.",
+          "hours": 12
+        },
+        {
+          "title": "Greener Reactions",
+          "topics": "Phase transfer catalysis in green synthesis - oxidation using hydrogen peroxide, crown ethers - esterification, saponification, anhydride formation, Elimination reaction, Displacement reaction. Applications in organic synthesis.",
+          "hours": 12
+        },
+        {
+          "title": "Green Techniques",
+          "topics": "Micro wave induced green synthesis - Introduction, Instrumentation, Principle and applications. Sonochemistry - Instrumentation, Cavitation theory - Ultra sound assisted green synthesis and Applications.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "CHE 454 MN",
+      "title": "Analytical methods for material characterization.",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "X-Ray Diffraction Methods",
+          "topics": "Miller and Weiss indices, X -Ray Radiation, Generation of X -Rays, X-Ray Absorption, Theoretical Background of Diffraction, Diffraction Geometry, Bragg’s Law, Reciprocal Latti ce, Diffraction Intensity, Structure Extinction, X-Ray Diffractometry, Instrumentation, System Aberrations, Samples and Data Acquisition, Sample Preparation, Acquisition and Treatment of Diffraction Data, Distortions of Diffraction Spectra, Crystallite Siz e, Applications, Crystal -Phase Identification, Quantitative Measurement , Wide-Angle X-Ray Diffraction and Scattering, Wide-Angle Diffraction, Wide-Angle Scattering. Problem on XRD (Calculation of d values, assigning planes, calculation of crystal parameters)",
+          "hours": 8
+        },
+        {
+          "title": "Transmission Electron Microscopy",
+          "topics": "Instrumentation, Electron Sources, Thermionic Emission Gun, Field Emission Gun, Electromagnetic Lenses, Specimen Stage, Specimen Preparation, Pertaining, Final Thinning, Electrolytic Thinning, Ultramicrotomy, Im age Modes (Mass –Density Contrast, Diffraction Contrast, Phase Contrast), Selected-Area Diffraction (SAD), Selected-Area Diffraction Characteristics.",
+          "hours": 6
+        },
+        {
+          "title": "Scanning Electron Microscopy",
+          "topics": "Instrumentation, Optical Arrangement, Signal Detection, Detector, Prob e Size and Current Contrast Formation, Electron –Specimen Interactions, Topographic Contrast, Compositional Contrast, Operational Variables, Working Distance and Aperture Size, Acceleration Voltage and Probe Current, Astigmatism, Specimen Preparation, Preparation for Topographic examination.",
+          "hours": 6
+        },
+        {
+          "title": "X- Ray Spectroscopy for Elemental Analysis",
+          "topics": "Features of Characteristic X-Rays, Types of characteristic X-Rays, Selection Rules, Comparison of K, L, and M Series, X-Ray Fluorescence Spectrometry, Wavelength Dispersive Spectroscopy, Analysing Crystal, Wavelength Dispersive Spectra, Energy Dispersive Spectroscopy, Detector, Energy Dispersive Spectra, Advances in Energy, Dispersive Spectroscopy, XRF Working Atmosphere and Sample Preparation, Energy Dispersive Spectroscopy in Electron Microscopes, Special Features, Scanning Modes, Qualitative and Quantitative Analysis, Qualitative Analysis, Quantitative Analysis, Quantitative Analysis by X -Ray Fluorescence, Fundamental Parameter Method, Quantitative Analysis in Electron Microscopy, Numerical.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CHE 455 MN",
+      "title": "Polymer Chemistry.",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to Polymers",
+          "topics": "Definition, history and importance of polymers, Classification: natural vs synthetic polymers Basic concepts of monomers, degree of polymerization",
+          "hours": 2
+        },
+        {
+          "title": "Polymerization Techniques",
+          "topics": "Addition vs condensation polymerization, Free radical, ionic, coordination polymerization Step-growth vs chain-growth mechanisms",
+          "hours": 4
+        },
+        {
+          "title": "Analytical Chemistry",
+          "topics": "FTIR, NMR, DSC, TGA, GPC for polymer characterization Polymer Structure & Properties (4 L) Crystallinity, glass transition temperature (Tg), melting point (Tm), Mechanical properties: tensile strength, modulus, toughness",
+          "hours": 6
+        },
+        {
+          "title": "Polymer Processing",
+          "topics": "Extrusion, injection molding, blow molding, compression molding Industrial Safety & Regulations (2 L) BIS, ASTM, ISO standards for plastics",
+          "hours": 4
+        },
+        {
+          "title": "Specialty Polymers",
+          "topics": "Conducting polymers, biodegradable polymers, high-performance polymers (Kevlar, PEEK) Polymer Additives & Blends (4 L) Plasticizers, stabilizers, fillers, flame retardants, Polymer alloys and composites",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CHE 457 MJ (P)",
+      "title": "FP/ RP/ Practical",
+      "semester": 8,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        35,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE 432 RP",
+      "title": "Dissertation",
+      "semester": 8,
+      "type": "Research Project",
+      "credits": 4,
+      "pages": [
+        36,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO 401 MJ",
+      "title": "Applications of Mineralogy and Crystal Chemistry",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        42,
+        44
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Crystal Chemistry and Mineral Structures",
+          "topics": "Topics 1. Principles of crystal chemistry o Atomic structure and bonding in minerals o Ionic radii and coordination number o Pauling’s rules and crystal stability 2. Crystal structures o Structures of silicates and non-silicates o Isomorphism, polymorphism, and solid solution o Order–disorder phenomena in minerals 3. Relationship between crystal structure and physical properties o Cleavage, hardness, density, optical properties o Electrical and magnetic properties of minerals 4. Defects in crystals o Point defects, line defects, and surface defects o Effect of defects on mineral properties",
+          "hours": 15
+        },
+        {
+          "title": "Optical Mineralogy and Analytical Techniques",
+          "topics": "Topics 1. Optical properties of minerals o Refraction, birefringence, pleochroism o Interference colors and extinction 2. Polarizing microscope techniques o Identification of minerals in thin sections o Optical characteristics of common rock-forming minerals 3. X-ray crystallography o Principles of X-ray diffraction (XRD) o Bragg’s Law and crystal structure determination 4. Advanced analytical methods o Electron microprobe analysis (EPMA) o Scanning electron microscopy (SEM) o Spectroscopic techniques in mineralogy",
+          "hours": 15
+        },
+        {
+          "title": "Applications in Petrology, Economic Geology, and Industry",
+          "topics": "Topics 1. Mineralogy in igneous and metamorphic petrology o Mineral stability and phase relations o Geothermometry and geobarometry 2. Ore mineralogy o Mineral associations in ore deposits o Crystal chemistry of sulfides and oxides 3. Industrial applications of minerals o Clay minerals, ceramics, refractories, cement o Gemstones and ornamental minerals 4. Mineral exploration techniques o Indicator minerals o Remote sensing and geochemical applications",
+          "hours": 15
+        },
+        {
+          "title": "Modern Applications of Mineralogy",
+          "topics": "Topics 1. Environmental mineralogy o Clay–water interactions o Heavy metal adsorption and pollution control o Asbestos and health hazards 2. Biomineralization and medical mineralogy o Formation of shells, bones, and teeth o Minerals in medical applications 3. Nanomineralogy and material science o Nanocrystals and nanomaterials o Functional minerals and advanced materials 4. Recent developments in mineralogy and crystal chemistry o Computational mineralogy o Planetary mineralogy and extraterrestrial materials Course Objectives The course aims to:  Develop advanced understanding of mineralogy and crystal chemistry.  Explain the relationship between crystal structure, chemical composition, and mineral properties.  Introduce modern analytical techniques used in mineralogical investigations.  Apply mineralogical and crystal chemical principles in geology, industry, environmental science, and material science.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "GEO 402 MJ",
+      "title": "Petrological processes in Earth Sciences",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        44,
+        46
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Igneous Processes and Mantle Melting",
+          "topics": "Topics 1. Internal structure and composition of the Earth o Crust, mantle, and core o Physical and chemical characteristics of the mantle 2. Mantle dynamics and convection o Mantle convection currents o Heat transfer mechanisms within the Earth o Mantle plumes and hotspot activity 3. Generation of magma o Partial melting and magma genesis o Role of pressure, temperature, and volatiles o Decompression melting and flux melting 4. Magma evolution o Fractional crystallization o Assimilation and magma mixing o Bowen’s reaction series",
+          "hours": 15
+        },
+        {
+          "title": "Igneous Petrology and Tectonic Settings",
+          "topics": "Topics 1. Classification of igneous rocks o Ultramafic, mafic, intermediate, and felsic rocks o Modal and chemical classification 2. Oceanic and continental magmatism o Mid-ocean ridge basalts (MORB) Island arc volcanism o Continental flood basalts 3. Mantle geochemistry o Trace elements and rare earth elements (REE) o Isotopic signatures of mantle reservoirs o Primitive mantle and mantle heterogeneity 4. Igneous activity and plate tectonics o Divergent, convergent, and intraplate settings o Ophiolites and mantle xenoliths",
+          "hours": 15
+        },
+        {
+          "title": "Metamorphic Processes and Deep Crustal Dynamics",
+          "topics": "Topics 1. Fundamentals of metamorphism o Agents and types of metamorphism o Metamorphic grade and facies 2. Metamorphic textures and structures o Foliation and lineation o Recrystallization and reaction textures 3. Metamorphic facies and tectonic environments o Greenschist, amphibolite, granulite, and eclogite facies o Subduction zone metamorphism o Regional and contact metamorphism 4. Crust–mantle interaction o Crustal thickening and mountain building o High-pressure metamorphism o Anatexis and migmatite formation",
+          "hours": 15
+        },
+        {
+          "title": "Modern Approaches to Mantle Dynamics and Petrological Applications",
+          "topics": "Topics 1. Geophysical approaches to mantle studies o Seismic tomography o Mantle discontinuities and lithosphere–asthenosphere boundary 2. Experimental and computational petrology o High-pressure and high-temperature experiments o Thermodynamic modeling of mantle processes 3. Mantle dynamics and global tectonics o Superplumes and supercontinent cycles o Mantle evolution through geological time 4. Applied and recent developments o Mantle-derived ore deposits o Planetary mantle processes o Remote sensing and GIS applications in petrology Course Objectives The course aims to:  Develop understanding of igneous and metamorphic processes operating within the Earth.  Explain mantle dynamics and their role in crustal evolution and tectonics.  Introduce petrological, geochemical, and geophysical approaches used in studying mantle- derived rocks.  Understand the relationship between magmatism, metamorphism, and plate tectonics.",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "GEO 403 MJ",
+      "title": "Geodynamics and Structural Evolution of the Earth",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        47,
+        50
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Geodynamics and Structural Geology and Deformation",
+          "topics": "Processes Topics 1. Fundamentals of structural geology o Structural elements and geological structures o Attitude measurements and stereographic projections 2. Folds and folding mechanisms o Classification and geometry of folds o Mechanics of folding and fold development 3. Faults and fractures o Classification of faults o Fault mechanics and tectonic significance o Joints and shear zones 4. Ductile deformation structures o Cleavage, foliation, and lineation o Boudinage and mylonites 5. Structural analysis and tectonic interpretation o Structural mapping and cross-sections o Balanced sections and kinematic analysis 6. Principles of geodynamics o Heat flow and geothermal gradient o Mantle convection and Earth’s energy sources o Isostasy and gravity anomalies 7. Plate tectonics and global geodynamics o Continental drift and seafloor spreading o Plate boundaries and plate motions o Wilson cycle and supercontinent evolution 8. Geophysical evidence for Earth dynamics o Seismology and Ear...",
+          "hours": 10
+        },
+        {
+          "title": "Orogeny, Crustal Evolution, and Tectonic Processes",
+          "topics": "Topics 1. Orogenic processes and mountain building o Types of orogenies o Continental collision and subduction zones o Accretionary prisms and foreland basins 2. Crustal evolution through geological time o Growth and differentiation of continental crust o Cratons, shields, and mobile belts 3. Extensional and compressional tectonics o Rift systems and basin evolution o Thrust tectonics and nappe structures 4. Metamorphism and tectonics o Regional metamorphism and deformation o P–T–t paths and tectonometamorphic evolution 5. Tectonics of India o Himalayan orogeny o Peninsular India and major tectonic provinces Practical/Assignments  Case studies of major orogenic belts  Interpretation of tectonic maps and sections  Analysis of tectonic evolution models",
+          "hours": 10
+        },
+        {
+          "title": "Modern Geodynamics and Applied Structural Geology",
+          "topics": "Topics 1. Mantle dynamics and lithosphere interaction o Mantle plumes and hotspot volcanism o Lithosphere–asthenosphere interaction o Mantle tomography 2. Earthquake tectonics and active deformation o Earthquake mechanisms and fault movement o Seismic hazards and neotectonics o Active tectonic studies 3. Geodynamics and natural resources o Structural controls on mineralization o Petroleum traps and basin tectonics o Engineering geological applications 4. Modern tools and techniques o Remote sensing and GIS in structural geology o GPS and geodetic studies o Numerical and analogue modelling of tectonic processes 5. Recent advances in Earth dynamics o Plate reconstruction models o Planetary tectonics o Future directions in geodynamic research Practical/Assignments  Interpretation of satellite imagery and tectonic features  Seismic data and fault analysis  Seminar on recent developments in geodynamics Suggested Teaching Methodology  Classroom lectures with diagrams and animations  ...",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "GEO 404 MN",
+      "title": "Gemmology and its Applications",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        51,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to Gemmology (6 Hours)",
+          "topics": " Definition and scope of gemmology  Historical development of gemstones  Formation of gemstones  Geological environments of gemstone deposits  Classification of gemstones o Precious and semi-precious gemstones o Organic gemstones o Gem minerals and gem rocks",
+          "hours": null
+        },
+        {
+          "title": "Gemstone Identification Techniques (8 Hours)",
+          "topics": " Principles of gemstone identification  Common inclusions in gemstones  Identification of important gemstones:",
+          "hours": null
+        },
+        {
+          "title": "Gemstone Enhancement and Applications (8 Hours)",
+          "topics": " Synthetic gemstones  Artificial and imitation gemstones  Common gemstone treatments:  Gem grading and certification  Ethical sourcing and responsible mining  Gemstone industry in India  Applications of gemstones: GEO 405 MN: Petroleum, Coal and Hydrocarbon systems (2 Credit, 30L) GEO 405 MN: Petroleum, Coal and Hydrocarbon Systems",
+          "hours": null
+        },
+        {
+          "title": "Petroleum Geology and Hydrocarbon Systems",
+          "topics": "Topics 1. Introduction to petroleum geology o Composition and properties of petroleum and natural gas o Origin and migration of hydrocarbons o Organic matter and kerogen types 2. Elements of petroleum systems o Source rocks o Reservoir rocks and porosity o Cap rocks and traps",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "GEO 405 MN",
+      "title": "Petroleum, Coal and Hydrocarbon systems",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to Gemmology (6 Hours)",
+          "topics": " Definition and scope of gemmology  Historical development of gemstones  Formation of gemstones  Geological environments of gemstone deposits  Classification of gemstones o Precious and semi-precious gemstones o Organic gemstones o Gem minerals and gem rocks",
+          "hours": null
+        },
+        {
+          "title": "Gemstone Identification Techniques (8 Hours)",
+          "topics": " Principles of gemstone identification  Common inclusions in gemstones  Identification of important gemstones:",
+          "hours": null
+        },
+        {
+          "title": "Gemstone Enhancement and Applications (8 Hours)",
+          "topics": " Synthetic gemstones  Artificial and imitation gemstones  Common gemstone treatments:  Gem grading and certification  Ethical sourcing and responsible mining  Gemstone industry in India  Applications of gemstones: GEO 405 MN: Petroleum, Coal and Hydrocarbon systems (2 Credit, 30L) GEO 405 MN: Petroleum, Coal and Hydrocarbon Systems",
+          "hours": null
+        },
+        {
+          "title": "Petroleum Geology and Hydrocarbon Systems",
+          "topics": "Topics 1. Introduction to petroleum geology o Composition and properties of petroleum and natural gas o Origin and migration of hydrocarbons o Organic matter and kerogen types 2. Elements of petroleum systems o Source rocks o Reservoir rocks and porosity o Cap rocks and traps o Structural and stratigraphic traps 3. Hydrocarbon generation and accumulation o Thermal maturation and catagenesis o Migration pathways and accumulation mechanisms 4. Petroleum exploration techniques o Geological and geophysical methods o Seismic exploration and well logging o Offshore and onshore exploration 5. Environmental aspects of petroleum extraction o Oil spills and pollution o Sustainable management of hydrocarbon resources Practical/Assignments  Identification of petroleum-bearing rocks  Interpretation of seismic and well-log data  Case studies of major petroleum basins",
+          "hours": 15
+        },
+        {
+          "title": "Coal Geology and Unconventional Hydrocarbon Resources",
+          "topics": "Topics 1. Origin and formation of coal o Peat formation and coalification o Rank and grade of coal o Physical and chemical properties of coal 2. Classification and types of coal o Lignite, bituminous, and anthracite coal o Macerals and coal petrography 3. Coal-bearing basins and economic significance o Gondwana coal deposits of India o Coal mining methods and utilization 4. Unconventional hydrocarbon resources o Coal bed methane (CBM) o Shale gas and shale oil o Gas hydrates and tar sands 5. Environmental and energy perspectives o Environmental impacts of coal mining o Clean coal technologies o Future of fossil fuels and energy transition Practical/Assignments  Megascopic study of coal samples  Coal rank determination exercises  Seminar on unconventional hydrocarbon resources Suggested Teaching Methodology  Classroom lectures with audiovisual aids  Laboratory study of coal and petroleum samples  Interpretation of geological and geophysical data  Field visits to coal mines or ...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "GEO 406 RM",
+      "title": "Theory of research, research tools and methods",
+      "semester": 7,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Research Methodology",
+          "topics": "Meaning, objectives, and significance of research, Types of research: basic, applied, experimental, analytical, and computational, Identification and formulation of research problems, Hypothesis formulation and testing, Research planning and research design, Interdisciplinary and multidisciplinary research approaches.",
+          "hours": 10
+        },
+        {
+          "title": "Literature Survey and Scientific Documentation",
+          "topics": "Literature survey techniques, Use of scientific databases: Scopus, Web of Science, Google Scholar, arXiv, INSPIRE, Reference management software (Zotero, Mendeley, EndNot e), presentation softwares (MS Powerpoint, MS eord, LaTex)",
+          "hours": 10
+        },
+        {
+          "title": "Scientific Communication and Research Practices",
+          "topics": "Scientific communication and technical writing of evaluation report and thesis writing. Intellectual Property Rights (IPR), patents, copyrights, and trademarks Introduction to innovation and entrepreneurship in scientific research",
+          "hours": 10
+        },
+        {
+          "title": "Research Tools and Data Analysis",
+          "topics": "Experimental and computational tools for research, Data acquisition and data processing techniques, Error analysis and uncertainty estimation, Graph plotting and curve fitting Statistical analysis and interpretation of data, Use of software tools (Origin, MATLAB/Python basics, Excel, gnuplot).",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "GEO 407 FP",
+      "title": "Fieldwork/Industrial training/ Researcgh project/ Practicals",
+      "semester": 7,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        56,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO 451 MJ",
+      "title": "Advanced Geochemistry",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        57,
+        60
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Geochemistry in Igneous and Metamorphic Systems",
+          "topics": "Topics 1. Introduction to petrological geochemistry o Scope and significance in Earth Sciences o Composition of crust, mantle, and major rock-forming minerals 2. Crystal chemistry and elemental behavior o Ionic substitution and partition coefficients o Goldschmidt classification of elements o Compatible and incompatible elements 3. Thermodynamics of petrological systems o Laws of thermodynamics o Gibbs free energy and equilibrium o Phase equilibria in igneous and metamorphic rocks 4. Geochemistry of silicate melts and metamorphic fluids o Melt composition and evolution o Fluid–rock interaction and metasomatism o Role of volatiles in petrogenesis 5. Trace elements and rare earth elements (REE) o Distribution of trace elements in minerals and melts o REE patterns and petrogenetic significance Practical/Assignments  Calculation of partition coefficients  Interpretation of REE and spider diagrams  Study of phase equilibrium diagrams",
+          "hours": 15
+        },
+        {
+          "title": "Geochemistry of Igneous Processes and Magmatic Modelling",
+          "topics": "Topics 1. Magma generation and evolution o Partial melting and magma genesis o Fractional crystallization and crystal settling o Assimilation and magma mixing 2. Geochemical characteristics of igneous rocks o Major and trace element geochemistry o Classification and tectonic discrimination diagrams o Geochemistry of MORB, OIB, and arc magmas 3. Isotope geochemistry in igneous petrology o Radiogenic isotopes: Sr, Nd, Pb isotopes o Mantle reservoirs and crustal contamination o Isotopic evolution of magmatic systems 4. Geochemical modelling of magmatic processes o Batch melting and fractional melting models o Rayleigh fractionation models o Mass balance calculations in igneous systems 5. Geochemical analytical techniques o XRF, ICP-MS, and electron microprobe analysis o Data interpretation and analytical precision Practical/Assignments  Construction of variation diagrams (Harker diagrams)  Geochemical modelling of magma evolution  Interpretation of isotopic datasets",
+          "hours": 15
+        },
+        {
+          "title": "Geochemistry of Metamorphic Processes and Metamorphic Modelling",
+          "topics": "Topics 1. Geochemistry of metamorphism o Metamorphic reactions and mineral stability o Element mobility during metamorphism o Metasomatism and fluid interaction 2. Metamorphic facies and geochemical signatures o Greenschist, amphibolite, granulite, and eclogite facies o Index minerals and P–T conditions o Geochemical indicators of metamorphic grade 3. Thermobarometry and geothermometry o Principles and applications o Mineral equilibria and exchange reactions o Construction of P–T paths 4. Geochemical modelling in metamorphic petrology o Equilibrium assemblage diagrams o Phase diagrams and pseudosections o Thermodynamic modelling approaches 5. Isotope geochemistry in metamorphism o Stable isotopes (O, C, H) in metamorphic systems o Geochronology and metamorphic evolution Practical/Assignments  Construction and interpretation of metamorphic facies diagrams  P–T estimation exercises  Study of metamorphic reaction textures and geochemical trends",
+          "hours": 15
+        },
+        {
+          "title": "Applied Petrological Geochemistry and Modern Developments",
+          "topics": "Topics 1. Crust–mantle interaction and tectonic setting o Subduction zone geochemistry o Continental crust evolution o Mantle metasomatism and crustal recycling 2. Experimental petrology and modelling o High-pressure and high-temperature experiments o Experimental simulation of petrological processes 3. Computational petrology and geochemical software o Introduction to petrological modelling software o Geochemical databases and digital interpretation o Statistical analysis of petrological data 4. Applied geochemistry in mineral exploration o Pathfinder elements and alteration zones o Ore-forming processes related to igneous and metamorphic activity 5. Recent advances in petrological geochemistry o Planetary petrology and meteorites o Nanogeochemistry and microanalytical techniques o Geochemistry and sustainable Earth resource studies Practical/Assignments  Interpretation of petrological geochemical datasets  Demonstration of modelling software and analytical instruments  Seminar ...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "GEO 452 MJ",
+      "title": "Disaster Management",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        61,
+        63
+      ],
+      "units": [
+        {
+          "title": "Introduction to Disaster Management",
+          "topics": "(15 Hours) Topics  Concept and definition of disaster  Hazard, vulnerability, risk, capacity, and resilience  Types of disasters: o Natural disasters  Earthquakes  Floods  Cyclones  Droughts  Landslides  Tsunami o Anthropogenic disasters  Industrial accidents  Nuclear disasters  Chemical hazards  Fire hazards  Biological disasters  Disaster management cycle o Prevention o Mitigation o Preparedness o Response o Recovery o Rehabilitation  Disaster trends at global and national levels",
+          "hours": null
+        },
+        {
+          "title": "Disaster Risk Assessment and Mitigation",
+          "topics": "(15 Hours) Topics  Disaster risk assessment  Hazard zonation and vulnerability analysis  Environmental degradation and disasters  Climate change and disaster risks  Structural and non-structural mitigation measures  Early warning systems  Remote sensing and GIS applications in disaster management  Community participation in disaster mitigation  Sustainable development and disaster risk reduction",
+          "hours": null
+        },
+        {
+          "title": "Disaster Preparedness, Response, and Recovery",
+          "topics": "(15 Hours) Topics  Disaster preparedness planning  Emergency operations and response mechanisms  Search and rescue operations  First aid and medical preparedness  Relief management and logistics  Rehabilitation and reconstruction  Psychological impacts of disasters  Role of media and communication during disasters  Role of NGOs, civil society, and local communities  Case studies of major disasters in India and the world",
+          "hours": null
+        },
+        {
+          "title": "Policies, Institutions, and Community-Based Disaster Management",
+          "topics": "(15 Hours) Topics  Disaster management policies in India  Disaster Management Act, 2005  National Disaster Management Authority (NDMA)  State and District Disaster Management Authorities  International organizations and frameworks: o UNDRR o Sendai Framework for Disaster Risk Reduction o Red Cross and Red Crescent Movement  Community-based disaster management (CBDM)  Disaster education and awareness  School and hospital safety programs  Gender and disaster management  Indigenous knowledge in disaster management Course Objectives The course aims to: 1. Introduce students to the concepts, principles, and approaches of disaster management. 2. Develop understanding of natural and anthropogenic disasters and their impacts on society and environment. 3. Familiarize students with disaster preparedness, mitigation, response, and recovery strategies. 4. Build skills related to risk assessment, emergency planning, and community resilience. 5. Encourage practical understanding of dis...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO 453 MJ",
+      "title": "Quaternary Geology",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        64,
+        65
+      ],
+      "units": [
+        {
+          "title": "Introduction to the Quaternary (1 Credit)",
+          "topics": " Definition, subdivisions (Pleistocene, Holocene, and the Anthropocene).  Quaternary time scales and chronostratigraphy.  Geological and biological proxy records (ice cores, marine sediments, tree rings, pollen, and speleothems).",
+          "hours": null
+        },
+        {
+          "title": "Quaternary Climate Change (1 Credit)",
+          "topics": " Causes of Quaternary climate shifts.  Astronomical forcing → Milankovitch cycles (eccentricity, obliquity, precession).  Glacial and interglacial cycles.  Eustatic and isostatic sea-level changes.",
+          "hours": null
+        },
+        {
+          "title": "Glacial and Non-Glacial Geomorphology (1 Credit)",
+          "topics": " Glacial landforms: moraines, drumlins, eskers, and glacial lakes.  Periglacial landforms: permafrost, patterned ground, and loess deposits.  Quaternary deposits in the Indian subcontinent (fluvial terraces, coastal deposits, and aeolian sands). [1, 2, 3, 4]",
+          "hours": null
+        },
+        {
+          "title": "Quaternary Dating Methods & Neotectonics (1 Credit)",
+          "topics": " Absolute dating techniques: Radiocarbon (¹⁴C), Luminescence (OSL/TL), and cosmogenic radionuclides (¹⁰Be).  Relative dating techniques: Tephrochronology, paleomagnetism, and dendrochronology.  Neotectonics and active faulting during the Quaternary period.  Quaternary stratigraphy and its applications to environmental and hazard studies. Course Objectives  The primary goals of this course are to enable students to:  Understand the unique climatic, tectonic, and biological events of the last 2.58 million years.  Master the specialized dating methods and proxy tools used to reconstruct past environments.  Analyze the driving mechanisms of glacial-interglacial cycles and global climate change.  Evaluate human-environment interactions and the geological footprint of the Anthropocene.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO 454 MN",
+      "title": "Landscape Analysis and Remote Sensing",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        65,
+        67
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Landscape Analysis and Geomorphology",
+          "topics": "Topics 1. Introduction to landscape analysis o Concept and scope of landscape studies o Components of landscapes and geomorphic systems 2. Geomorphic processes and landform development o Weathering, erosion, transportation, and deposition o Fluvial, aeolian, glacial, coastal, and tectonic landscapes 3. Morphometric analysis o Drainage basin characteristics o Slope, relief, and watershed analysis o Digital Elevation Models (DEM) and terrain analysis 4. Landscape evolution and environmental changes o Geomorphic cycles and dynamic equilibrium o Human impact on landscapes o Land degradation and conservation 5. Applications of landscape analysis o Natural resource management o Watershed management o Hazard zonation and environmental planning Practical/Assignments  Interpretation of topographic maps  Morphometric analysis of drainage basins  Preparation of slope and relief maps",
+          "hours": 15
+        },
+        {
+          "title": "Remote Sensing and Geospatial Applications",
+          "topics": "Topics Fundamentals of remote sensing o Principles and electromagnetic spectrum o Types of remote sensing: passive and active o Resolution concepts (spatial, spectral, temporal, radiometric) 2. Platforms and sensors o Aerial photography and satellite remote sensing o Sensors used in geological and environmental studies o Indian remote sensing satellites and applications 3. Image interpretation and digital analysis o Visual image interpretation techniques o Digital image processing and classification o False color composites (FCC) and spectral signatures 4. Geographic Information System (GIS) o Components and functions of GIS o Spatial data models and map overlay analysis o Integration of GIS and remote sensing 5. Applications in Earth and Environmental Sciences o Geological mapping and mineral exploration o Land use/land cover studies o Disaster management and environmental monitoring Practical/Assignments  Interpretation of satellite imagery and aerial photographs  Basic GIS mapp...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "GEO 455 MN",
+      "title": "Natural Resource Management",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Natural Resources and Environmental Management",
+          "topics": "Topics 1. Introduction to natural resources o Definition, classification, and distribution of resources o Renewable and non-renewable resources 2. Land and soil resource management o Soil formation and degradation o Soil conservation and reclamation methods o Sustainable land-use planning 3. Water resource management o Surface and groundwater resources o Watershed management and rainwater harvesting o Water conservation techniques 4. Forest and biodiversity resources o Forest ecosystems and conservation o Biodiversity and ecosystem services o Protected areas and wildlife conservation 5. Environmental management principles o Environmental impact assessment (EIA) o Sustainable development and resource conservation policies o Climate change and environmental challenges Practical/Assignments  Preparation of resource distribution maps  Soil and water conservation case studies  Environmental impact assessment exercises",
+          "hours": 15
+        },
+        {
+          "title": "Energy, Mineral Resources, and Sustainable Resource Utilization",
+          "topics": "Topics 1. Mineral resource management o Classification and distribution of mineral resources o Mining methods and environmental impacts o Sustainable mining practices and reclamation 2. Energy resources and management o Conventional and non-conventional energy resources o Renewable energy: solar, wind, hydro, geothermal, and biomass o Energy conservation and energy security 3. Resource economics and policy o Resource utilization and economic development o National resource policies and legislation o Community participation in resource management 4. Modern tools in resource management o GIS and remote sensing applications o Resource mapping and monitoring o Geospatial techniques in environmental management Sustainable resource management strategies o Circular economy and waste management o Integrated natural resource management (INRM) o Future challenges in resource sustainability Practical/Assignments  Mineral and energy resource mapping exercises  GIS-based resource analysis  Se...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "GEO 457 MJ (P)",
+      "title": "RP/ FP/ Practical",
+      "semester": 8,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        41,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO 432 RP",
+      "title": "Dissertation",
+      "semester": 8,
+      "type": "Research Project",
+      "credits": 4,
+      "pages": [
+        70,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "EVS 401 MJ",
+      "title": "Habitat and Wildlife: Conservation and Management",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        74,
+        76
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Habitat Ecology and Wildlife Biology",
+          "topics": "Topics 1. Introduction to habitat ecology o Concept of habitat and ecological niche o Types of habitats: terrestrial, aquatic, and marine o Habitat structure and ecosystem components 2. Wildlife biology and biodiversity o Classification and distribution of wildlife o Species diversity and endemism o Keystone, flagship, and indicator species 3. Ecological interactions o Food chains, food webs, and trophic levels o Predation, competition, mutualism, and symbiosis o Population dynamics and carrying capacity 4. Habitat fragmentation and degradation o Deforestation and land-use changes o Climate change and habitat loss o Invasive species and ecological imbalance 5. Wildlife distribution in India o Major biogeographic zones of India o Important wildlife habitats and biodiversity hotspots Practical/Assignments  Identification of habitats and wildlife species  Preparation of food web and ecological interaction models  Case studies on habitat degradation",
+          "hours": 15
+        },
+        {
+          "title": "Wildlife Conservation and Protected Area Management",
+          "topics": "Topics 1. Principles of wildlife conservation o In-situ and ex-situ conservation o Conservation genetics and species recovery 2. Protected area management o National parks, wildlife sanctuaries, and biosphere reserves o Wildlife corridors and buffer zones o Habitat restoration and management planning 3. Wildlife laws and policies o Wildlife Protection Act of India o Convention on Biological Diversity (CBD) o International Union for Conservation of Nature (IUCN) categories 4. Human–wildlife conflict o Causes and impacts o Conflict mitigation strategies o Community participation in conservation 5. Wildlife census and monitoring techniques o Population estimation methods o Camera trapping and radio telemetry o GIS and remote sensing applications Practical/Assignments  Preparation of protected area maps  Wildlife census data analysis  Seminar on wildlife conservation initiatives",
+          "hours": 15
+        },
+        {
+          "title": "Habitat Management and Restoration Ecology",
+          "topics": "Topics 1. Habitat management principles o Habitat evaluation and carrying capacity o Management of forests, grasslands, wetlands, and coastal ecosystems 2. Restoration ecology o Ecological succession and restoration techniques o Reforestation and afforestation programs o Wetland and mangrove restoration 3. Wildlife health and disease management o Wildlife diseases and zoonoses o Veterinary care and rehabilitation 4. Climate change and wildlife adaptation o Impacts of climate change on habitats and species o Adaptation and resilience strategies 5. Sustainable utilization of biological resources o Eco-development and sustainable conservation practices o Role of indigenous communities in habitat management Practical/Assignments  Habitat quality assessment exercises  Restoration project planning  Field study of local ecosystems",
+          "hours": 15
+        },
+        {
+          "title": "Modern Approaches and Emerging Trends in Wildlife Management",
+          "topics": "Topics 1. Advanced technologies in wildlife management o Remote sensing and GIS applications o Drone-based wildlife monitoring o Molecular tools and DNA barcoding 2. Conservation of endangered species o Species recovery programs o Captive breeding and reintroduction strategies 3. Ecotourism and conservation education o Principles of ecotourism o Environmental awareness and public participation 4. Wildlife forensics and environmental ethics o Wildlife crime and forensic investigation o Ethical issues in conservation biology 5. Emerging trends in conservation science o Landscape ecology and connectivity conservation o Citizen science and biodiversity databases o Global conservation challenges and future perspectives",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EVS 402 MJ",
+      "title": "Environmental Impact Assessment (EIA) and Environmental Audit",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        77,
+        80
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Environmental Impact Assessment",
+          "topics": "Topics 1. Introduction to Environmental Impact Assessment (EIA) o Definition, scope, and objectives of EIA o History and evolution of EIA o Environmental management and sustainable development 2. Environmental components and impacts o Physical, biological, and socio-economic environments o Types of environmental impacts o Impact identification and prediction 3. EIA process and methodology o Screening and scoping o Baseline environmental studies o Impact assessment matrices and checklists 4. Environmental legislation and policies o Environmental Protection Act o EIA Notification in India o National and international environmental policies 5. Public participation and environmental ethics o Public hearing and stakeholder participation o Environmental ethics and social responsibility Practical/Assignments  Preparation of baseline environmental data sheets  Environmental impact identification exercises  Case studies on major development projects",
+          "hours": 15
+        },
+        {
+          "title": "Techniques and Tools in Environmental Impact Assessment",
+          "topics": "Topics 1. Methods of impact assessment o Ad hoc methods o Matrix and network methods o Overlay and GIS-based methods 2. Environmental monitoring and data analysis o Air, water, soil, and noise quality monitoring o Sampling and analytical techniques o Environmental quality standards 3. Risk assessment and disaster management o Environmental risk analysis o Hazard identification and mitigation o Disaster management planning in EIA 4. Remote sensing and GIS applications o Land-use and land-cover analysis o GIS-based environmental mapping o Environmental modelling techniques 5. Preparation of Environmental Management Plan (EMP) o Mitigation measures o Monitoring plans o Sustainable project management Practical/Assignments  Environmental monitoring data interpretation  GIS-based environmental mapping exercises  Preparation of a model EMP",
+          "hours": 15
+        },
+        {
+          "title": "Environmental Audit and Management Systems",
+          "topics": "Topics 1. Introduction to environmental audit o Objectives, principles, and scope o Types of environmental audits 2. Environmental management systems (EMS) o ISO 14000 series o Environmental performance indicators o Corporate environmental responsibility 3. Audit procedures and documentation o Audit planning and implementation o Environmental statement and reporting o Compliance and non-compliance analysis 4. Waste management and pollution control o Solid waste management o Hazardous waste and biomedical waste management o Pollution prevention and cleaner production 5. Energy and resource auditing o Water and energy audits o Resource efficiency and sustainability assessment Practical/Assignments  Preparation of environmental audit reports  Waste management assessment exercises  Industrial environmental audit case studies",
+          "hours": 15
+        },
+        {
+          "title": "Applied EIA, Environmental Auditing, and Emerging Trends",
+          "topics": "Topics 1. Sector-specific EIA studies o Mining, industrial, thermal power, and infrastructure projects o EIA for urban and coastal development 2. Social and health impact assessment o Rehabilitation and resettlement issues o Occupational health and environmental safety 3. Climate change and environmental sustainability o Carbon footprint assessment o Climate adaptation and mitigation strategies 4. Emerging tools and technologies o Artificial intelligence and environmental modelling o Drone and satellite-based monitoring o Big data in environmental management 5. Recent developments and future perspectives o Green auditing and sustainability reporting o Circular economy and sustainable industrial practices o Future challenges in environmental governance Practical/Assignments  Preparation of sector-specific EIA reports  Carbon footprint estimation exercises",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EVS 403 MJ",
+      "title": "Fundamentals of Environmental Biology and Biodiversity",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        81,
+        83
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Environmental Biology and Ecosystem Ecology",
+          "topics": "Topics 1. Introduction to environmental biology o Scope and significance of environmental biology o Relationship between organisms and environment o Abiotic and biotic components of ecosystems 2. Ecosystem structure and function o Types of ecosystems: terrestrial and aquatic o Energy flow and ecological pyramids o Food chains and food webs 3. Population and community ecology o Population characteristics and dynamics o Ecological succession o Species interactions: predation, competition, mutualism, and parasitism 4. Biogeochemical cycles o Role of microorganisms in nutrient cycling 5. Environmental pollution and ecological impacts o Ecological consequences of pollution o Climate change and ecosystem disturbances Practical/Assignments  Study of ecosystem components and food webs  Preparation of ecological pyramids and nutrient cycle charts  Case studies on environmental pollution and ecosystem changes",
+          "hours": null
+        },
+        {
+          "title": "Biodiversity, Conservation, and Sustainable Management",
+          "topics": "Topics 1. Introduction to biodiversity o Definition, types, and levels of biodiversity o Genetic, species, and ecosystem diversity 2. Biodiversity distribution and hotspots o Global biodiversity patterns o Biodiversity hotspots of India and the world o Endemic and endangered species 3. Threats to biodiversity o Habitat destruction and fragmentation o Invasive species and overexploitation o Climate change and biodiversity loss 4. Biodiversity conservation strategies o In-situ and ex-situ conservation o National parks, wildlife sanctuaries, and biosphere reserves o Role of legislation and international conventions 5. Sustainable utilization and biodiversity management o Sustainable development and resource conservation o Community participation in biodiversity conservation o Traditional ecological knowledge and biodiversity management Practical/Assignments  Identification of local flora and fauna  Biodiversity assessment exercises  Seminar on conservation of endangered species Cour...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "EVS 404 MN",
+      "title": "Atmosphere and Climate Change",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        84,
+        85
+      ],
+      "units": [
+        {
+          "title": "Atmosphere, Weather, and Climate Systems",
+          "topics": "Topics 1. Introduction to the atmosphere o Composition and structure of the atmosphere o Atmospheric layers and their characteristics o Atmospheric pressure and temperature distribution 2. Atmospheric processes and circulation o Solar radiation and Earth’s heat balance o Atmospheric circulation and wind systems o Humidity, condensation, clouds, and precipitation 3. Weather systems and climatic phenomena o Cyclones, anticyclones, and thunderstorms o Monsoon systems and El Niño–Southern Oscillation (ENSO) o Weather forecasting and meteorological observations 4. Climate and climatic classification o Climate versus weather o Climatic zones of the world o Köppen climatic classification 5. Atmospheric pollution and environmental issues o Air pollutants and sources o Acid rain, smog, and ozone depletion o Atmospheric aerosols and environmental impacts Practical/Assignments  Interpretation of weather maps and meteorological data  Preparation of climatic graphs and charts  Case studies on...",
+          "hours": 15
+        },
+        {
+          "title": "Climate Change, Impacts, and Sustainable Solutions",
+          "topics": "Topics 1. Fundamentals of climate change o Greenhouse effect and greenhouse gases o Global warming and climate variability o Evidence and indicators of climate change 2. Causes of climate change o Natural and anthropogenic factors o Fossil fuel combustion and land-use change o Industrialization and carbon emissions 3. Impacts of climate change o Sea-level rise and glacier melting o Extreme weather events and biodiversity loss o Impacts on agriculture, water resources, and human health 4. Climate change mitigation and adaptation o Renewable energy and carbon management o Climate-resilient agriculture and sustainable development o International climate agreements and policies 5. Climate monitoring and modern approaches o Remote sensing and GIS applications in climate studies o Climate modelling and forecasting o Role of citizen participation and environmental awareness Practical/Assignments  Analysis of climate data and temperature trends  Carbon footprint estimation exercises  Sem...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EVS 405 MN",
+      "title": "Ecotoxicology and E-waste Management",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        86,
+        87
+      ],
+      "units": [
+        {
+          "title": "Principles of Ecotoxicology and Environmental Contaminants (15 Hours)",
+          "topics": " Introduction to ecotoxicology: definition, scope, and significance  Sources and classification of environmental pollutants  Chemical contaminants: heavy metals, pesticides, persistent organic pollutants (POPs) , pharmaceuticals, and microplastics  Environmental fate and transport of contaminants  Bioavailability, bioaccumulation, biomagnification, and trophic transfer  Toxicity assessment: acute and chronic toxicity, dose-response relationship  Biomarkers and bioindicators of environmental pollution  Ecological and human health effects of toxic substances  Case studies: Minamata disease, Itai-Itai disease, arsenic and fluoride contamination",
+          "hours": null
+        },
+        {
+          "title": "Electronic Waste Management and Sustainable Resource Recovery (15 Hours)",
+          "topics": " Introduction to electronic waste (e-waste): definition, sources, and global scenario  Composition and classification of e-waste  Hazardous constituents: lead, mercury, cadmium, chromium, brominated flame retardants, and rare earth elements  Environmental and human health impacts of improper e-waste disposal  Collection, segregation, dismantling, recycling, and material recovery  Urban mining and recovery of critical metals  Circular economy and Extended Producer Responsibility (EPR)  E-Waste (Manag ement) Rules, India (latest amendments) and international initiatives (e.g., Basel Convention)  Sustainable e-waste management practices and public awareness  Case studies on successful e-waste recycling and resource recovery",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "EVS 406 RM",
+      "title": "Theory of research, research tools and methods",
+      "semester": 7,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        87,
+        89
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Research Methodology",
+          "topics": "Meaning, objectives, and significance of research, Types of research: basic, applied, experimental, analytical, and computational, Identification and formulation of research problems, Hypothesis formulation and testing, Research planning and research design, Interdisciplinary and multidisciplinary research approaches.",
+          "hours": 10
+        },
+        {
+          "title": "Literature Survey and Scientific Documentation",
+          "topics": "Literature survey techniques, Use of scientific databases: Scopus, Web of S cience, Google Scholar, arXiv, INSPIRE, Reference management software (Zotero, Mendeley, EndNote), presentation softwares (MS Powerpoint, MS eord, LaTex)",
+          "hours": 10
+        },
+        {
+          "title": "Scientific Communication and Research Practices",
+          "topics": "Scientific communication and technical writing of evaluation report and thesis writing. Intellectual Property Rights (IPR), patents, copyrights, and trademarks Introduction to innovation and entrepreneurship in scientific research",
+          "hours": 10
+        },
+        {
+          "title": "Research Tools and Data Analysis",
+          "topics": "Experimental and computational tools for research, Data acquisition and data processing techniques, Error analysis and uncertainty estimation, Graph plotting and curve fitting Statistical analysis and interpretation of data, Use of software tools (Origin, MATLAB/Python basics, Excel, gnuplot).",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "EVS 407 FP",
+      "title": "Fieldwork/Industrial training/ Res. Praject/ Practicals",
+      "semester": 7,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        89,
+        90
+      ],
+      "units": []
+    },
+    {
+      "code": "EVS 451 MJ",
+      "title": "Sustainable Development Goals (SDGs)",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        90,
+        93
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Sustainable Development and SDGs",
+          "topics": "Topics 1. Introduction to sustainable development o Concept, principles, and evolution of sustainable development o Environment–economy–society relationship o Brundtland Report and global sustainability initiatives 2. Sustainable Development Goals (SDGs) o United Nations 2030 Agenda o Overview of the 17 SDGs and targets o Indicators and monitoring mechanisms 3. Environmental dimensions of sustainability o Natural resource conservation o Biodiversity and ecosystem services o Climate change and environmental degradation 4. Social dimensions of sustainability o Poverty, health, and education o Gender equality and social inclusion o Human rights and community participation 5. Economic dimensions of sustainability o Green economy and circular economy o Sustainable production and consumption o Corporate social responsibility (CSR) Practical/Assignments  Preparation of SDG indicator charts  Case studies on sustainable development initiatives  Group discussion on local sustainability cha...",
+          "hours": 15
+        },
+        {
+          "title": "Resource Management and Environmental Sustainability",
+          "topics": "Topics 1. Sustainable management of natural resources o Water, soil, forest, and mineral resources o Sustainable agriculture and food security 2. Energy and sustainability o Conventional and renewable energy resources o Energy conservation and efficiency o Sustainable energy policies 3. Waste management and pollution control o Solid waste and hazardous waste management o Pollution prevention and cleaner production 4. Urbanization and sustainable cities o Smart cities and urban planning o Sustainable transport and green infrastructure 5. Climate change and sustainability o Climate adaptation and mitigation o Carbon footprint and carbon neutrality o International climate agreements Practical/Assignments  Resource management assessment exercises  Carbon footprint estimation  Urban sustainability case studies",
+          "hours": 15
+        },
+        {
+          "title": "Policy, Governance, and Sustainable Development Planning",
+          "topics": "Topics 1. Environmental governance and policy o National and international environmental policies o Environmental laws and institutions 2. Sustainable development planning o Environmental Impact Assessment (EIA) o Strategic Environmental Assessment (SEA) o Sustainability indicators and reporting 3. Role of international organizations o United Nations and global environmental governance o Role of NGOs and civil society 4. Sustainable livelihoods and rural development o Community-based resource management o Indigenous knowledge and participatory approaches 5. Education and awareness for sustainable development o Environmental education and ethics o Sustainable lifestyle practices Practical/Assignments  Analysis of sustainability policies and reports  Preparation of local sustainable development plans  Seminar on global sustainability challenges",
+          "hours": 15
+        },
+        {
+          "title": "Emerging Trends and Applications of SDGs",
+          "topics": "Topics 1. Technology and sustainable development o GIS, remote sensing, and digital technologies o Artificial intelligence and smart environmental management 2. Sustainable industry and green innovation o Green technology and eco-design o Sustainable industrial practices and green auditing 3. Disaster resilience and sustainable communities o Disaster risk reduction and climate resilience o Sustainable community planning 4. Monitoring and evaluation of SDGs o Data collection and sustainability metrics o SDG progress assessment and reporting 5. Future perspectives and challenges o Global environmental challenges o Sustainable development in India o Emerging trends in sustainability science Practical/Assignments  GIS-based sustainability mapping  SDG progress evaluation exercises  Project report on sustainable community initiatives Course Objectives The course aims to:  Introduce the concept and framework of sustainable development and the Sustainable Development Goals (SDGs).  De...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EVS 452 MJ",
+      "title": "Disaster Management",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        94,
+        96
+      ],
+      "units": [
+        {
+          "title": "Introduction to Disaster Management 15 Hours)",
+          "topics": "Topics  Concept and definition of disaster  Hazard, vulnerability, risk, capacity, and resilience  Types of disasters: o Natural disasters  Earthquakes  Floods  Cyclones  Droughts  Landslides  Tsunami o Anthropogenic disasters  Industrial accidents  Nuclear disasters  Chemical hazards  Fire hazards  Biological disasters  Disaster management cycle o Prevention o Mitigation o Preparedness o Response o Recovery o Rehabilitation  Disaster trends at global and national levels",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "EVS 453 MJ",
+      "title": "Environmental Pollution and its effects on Human Health",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        97,
+        99
+      ],
+      "units": [
+        {
+          "title": "Introduction to Environmental Pollution (9 Hours)",
+          "topics": " Environment and ecosystem concepts  Components of environment  Definition and classification of pollution  Primary and secondary pollutants  Natural vs anthropogenic pollution  Sources of pollution  Environmental cycles and pollutant transport  Global environmental issues: o Global warming o Ozone depletion o Acid rain o Climate change",
+          "hours": null
+        },
+        {
+          "title": "Air Pollution and Human Health (9 Hours)",
+          "topics": " Composition of atmosphere  Sources of air pollution  Criteria air pollutants  Particulate Matter (PM₂.₅ and PM₁₀)  Greenhouse gases  Indoor air pollution  Air Quality Index (AQI)  Monitoring techniques  Health impacts: o Respiratory diseases o Cardiovascular disorders o Lung cancer o Neurological effects  Air pollution control technologies",
+          "hours": null
+        },
+        {
+          "title": "Water Pollution and Human Health (9 Hours)",
+          "topics": " Surface water and groundwater pollution  Physical, chemical and biological pollutants  Heavy metals (Pb, Hg, Cd, As, Cr)  Fluoride and nitrate contamination  Industrial and municipal wastewater  Eutrophication  Water quality parameters  Drinking water standards  Waterborne diseases  Water purification and treatment technologies",
+          "hours": null
+        },
+        {
+          "title": "Soil Pollution, Waste Management and Emerging Pollutants (9 Hours)",
+          "topics": " Sources of soil contamination  Agricultural pollution  Fertilizers and pesticides  Industrial contamination  Heavy metals in soils  Plastic pollution and microplastics  Biomedical waste  Hazardous waste  Electronic waste (E-waste)  Radioactive pollution  Emerging contaminants: o Pharmaceuticals o Personal care products o PFAS o Nanomaterials  Bioremediation and phytoremediation Course Objectives Upon successful completion of this course, students will be able to: 1. Understand the concepts, sources, and classification of environmental pollution. 2. Explain the transport and fate of pollutants in various environmental compartments. 3. Evaluate the effects of pollutants on ecosystems and human health. 4. Learn methods for pollution monitoring and environmental quality assessment. 5. Understand environmental laws, policies, and pollution control technologies. 6. Develop awareness regarding sustainable environmental management and public health protection.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "EVS 454 MN",
+      "title": "Landscape Analysis and Remote Sensing",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        100,
+        101
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Landscape Analysis and Geomorphology",
+          "topics": "Topics 1. Introduction to landscape analysis o Concept and scope of landscape studies o Components of landscapes and geomorphic systems 2. Geomorphic processes and landform development o Weathering, erosion, transportation, and deposition o Fluvial, aeolian, glacial, coastal, and tectonic landscapes 3. Morphometric analysis o Drainage basin characteristics o Slope, relief, and watershed analysis o Digital Elevation Models (DEM) and terrain analysis 4. Landscape evolution and environmental changes o Geomorphic cycles and dynamic equilibrium o Human impact on landscapes o Land degradation and conservation 5. Applications of landscape analysis o Natural resource management o Watershed management o Hazard zonation and environmental planning Practical/Assignments  Interpretation of topographic maps  Morphometric analysis of drainage basins  Preparation of slope and relief maps",
+          "hours": 15
+        },
+        {
+          "title": "Remote Sensing and Geospatial Applications",
+          "topics": "Topics 1. Fundamentals of remote sensing o Principles and electromagnetic spectrum o Types of remote sensing: passive and active o Resolution concepts (spatial, spectral, temporal, radiometric) 2. Platforms and sensors o Aerial photography and satellite remote sensing o Sensors used in geological and environmental studies o Indian remote sensing satellites and applications 3. Image interpretation and digital analysis o Visual image interpretation techniques o Digital image processing and classification o False color composites (FCC) and spectral signatures 4. Geographic Information System (GIS) o Components and functions of GIS o Spatial data models and map overlay analysis o Integration of GIS and remote sensing 5. Applications in Earth and Environmental Sciences o Geological mapping and mineral exploration o Land use/land cover studies o Disaster management and environmental monitoring Practical/Assignments  Interpretation of satellite imagery and aerial photographs  Basic GIS m...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EVS 455 MN",
+      "title": "Natural Resource Management",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        102,
+        104
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Natural Resources and Environmental Management",
+          "topics": "Topics 1. Introduction to natural resources o Definition, classification, and distribution of resources o Renewable and non-renewable resources 2. Land and soil resource management o Soil formation and degradation o Soil conservation and reclamation methods o Sustainable land-use planning 3. Water resource management o Surface and groundwater resources o Watershed management and rainwater harvesting o Water conservation techniques 4. Forest and biodiversity resources o Forest ecosystems and conservation o Biodiversity and ecosystem services o Protected areas and wildlife conservation 5. Environmental management principles o Environmental impact assessment (EIA) o Sustainable development and resource conservation policies o Climate change and environmental challenges Practical/Assignments  Preparation of resource distribution maps  Soil and water conservation case studies  Environmental impact assessment exercises",
+          "hours": 15
+        },
+        {
+          "title": "Energy, Mineral Resources, and Sustainable Resource Utilization",
+          "topics": "Topics 1. Mineral resource management o Classification and distribution of mineral resources o Mining methods and environmental impacts o Sustainable mining practices and reclamation 2. Energy resources and management o Conventional and non-conventional energy resources o Renewable energy: solar, wind, hydro, geothermal, and biomass o Energy conservation and energy security 3. Resource economics and policy o Resource utilization and economic development o National resource policies and legislation o Community participation in resource management 4. Modern tools in resource management o GIS and remote sensing applications o Resource mapping and monitoring o Geospatial techniques in environmental management 5. Sustainable resource management strategies o Circular economy and waste management o Integrated natural resource management (INRM) o Future challenges in resource sustainability Practical/Assignments  Mineral and energy resource mapping exercises  GIS-based resource analysis ...",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "EVS 457 MJ (P)",
+      "title": "RP/ FP/ Industrial Traning/ Practicals",
+      "semester": 8,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        73,
+        73
+      ],
+      "units": []
+    },
+    {
+      "code": "EVS 432 RP",
+      "title": "Dissertation",
+      "semester": 8,
+      "type": "Research Project",
+      "credits": 4,
+      "pages": [
+        104,
+        106
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY 401 MJ",
+      "title": "Mathematical Methods in Physics",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        109,
+        110
+      ],
+      "units": [
+        {
+          "title": "Module 1",
+          "topics": "Linear Vector Spaces and Operators  Vector spaces, linear independence, basis and dimensionality, isomorphisms  Linear transformations, inverse transformations, matrices, similarity transformations  Eigenvalues and eigenvectors  Inner product, orthogonality and completeness  Complete orthogonal sets and Gram–Schmidt orthogonalization procedure  Self-adjoint and unitary transformations  Eigenvalues and eigenvectors of Hermitian and unitary operators, diagonalization  Hilbert spaces and complete orthonormal sets of functions  Weierstrass theorem (without proof) and polynomial approximation  Fourier series and applications Differential Equations and Special Functions  Power series solutions of second-order differential equations  Special functions: Legendre, Bessel, Hermite, and Laguerre equations  Legendre polynomials and associated Legendre polynomials  Spherical harmonics  Hermite polynomials  Sturm–Liouville systems and orthogonal polynomials",
+          "hours": 20
+        },
+        {
+          "title": "Module 2",
+          "topics": "Complex Analysis  Analytic functions and Cauchy–Riemann conditions  Rectifiable arcs and line integrals  Cauchy’s theorem and Cauchy integral formula  Derivatives of analytic functions and Liouville’s theorem  Taylor and Laurent series  Calculus of residues  Evaluation of definite integrals and summation of series  Elementary discussion of branch cuts Applications  Principal value integrals and dispersion relations  Fourier integrals and Fourier transforms  Parseval relations and convolution theorem  Applications of Fourier transforms  Laplace transforms and Bromwich contour  Contour integral solutions of differential equations  Introduction to Green’s functions and applications to partial differential equations",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "PHY 402 MJ",
+      "title": "Computer Programming and Numerical Methods",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        111,
+        112
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computing Environment",
+          "topics": "Basic Linux commands and file handling. Text editors and gnuplot (Laboratory sessions). FORTRAN commands and fundamentals of computer programming.",
+          "hours": 15
+        },
+        {
+          "title": "Programming Exercises using FORTRAN 90/95",
+          "topics": "Finding largest and smallest number, Bubble Sort algorithm, First hundred prime numbers, Matrix addition and multiplication using subroutines, Transpose of square matrix using single array, Evaluation of polynomial using Horner's method.",
+          "hours": 20
+        },
+        {
+          "title": "Numerical Methods",
+          "topics": "Root Finding Methods: Bisection, Newton-Raphson, Secant Method. Regression and Curve Fitting: Linear fitting, Spline fitting, standard deviation and error analysis. Interpolation Techniques: Lagrange interpolation, Divided difference interpolation. Numerical Differentiation, Numerical Integration (Simpson's Rule, Gaussian Quadrature), Differential Equations (Euler's Method), Simultaneous Equations (Gaussian Elimination).",
+          "hours": 25
+        }
+      ]
+    },
+    {
+      "code": "PHY 403 MJ",
+      "title": "Instrumentation: Circuits and Electronics",
+      "semester": 7,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        113,
+        113
+      ],
+      "units": [
+        {
+          "title": "Electronic Devices and Analog Circuits",
+          "topics": " Semiconductor diodes, BJTs, MOSFETs, biasing and amplifier configurations.  Operational amplifiers: characteristics, feedback, active filters, oscillators, comparators.",
+          "hours": null
+        },
+        {
+          "title": "Digital Electronics and Data Acquisition",
+          "topics": " Logic gates, combinational and sequential circuits, counters, timers.  ADC, DAC, multiplexing, sampling theorem, data acquisition systems, microcontrollers.",
+          "hours": null
+        },
+        {
+          "title": "Sensors, Transducers and Instrumentation",
+          "topics": " Temperature, pressure, displacement, optical and magnetic sensors.  Signal conditioning, bridges, instrumentation amplifiers, noise reduction, shielding, grounding.",
+          "hours": null
+        },
+        {
+          "title": "Measurement Systems and Applications",
+          "topics": " Oscilloscopes, spectrum analyzers, lock-in amplifiers, digital multimeters.  Biomedical, industrial and scientific instrumentation; IoT-based measurement systems. Suggested Laboratory/Activities  Design and test op-amp circuits.  Sensor interfacing using Arduino/DAQ.  Measurement using oscilloscopes and function generators.  ADC/DAC experiments and signal conditioning.  Mini-project on electronic instrumentation. PHY451 MJ- Advance Quantum Mechanics Particulars Details Year and Semester B.Sc. Blended Fourth Year, Semester-VIII Course Category Major Core Course Code PHY 451 MJ Course Title Advance Quantum Mechanics Credits 04 Course Objectives: The primary objective of this course is to provide students with an advanced understanding of approximation methods in Quantum Mechanics and their applications to atomic systems and scattering phenomena. The course aims to strengthen the theoretical foundation required for higher studies and research in modern quantum physics. The spec...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY 404 MN",
+      "title": "Basics of Density Functional Theory",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        121,
+        123
+      ],
+      "units": [
+        {
+          "title": "Module 1",
+          "topics": "Fundamentals of Quantum Many-Body Systems  Review of quantum mechanics of many-electron systems  Schrödinger equation for many-particle systems  Born–Oppenheimer approximation  Hartree and Hartree–Fock approximations  Exchange and correlation effects  Limitations of wavefunction-based methods  Foundations of Density Functional Theory  Electron density as the fundamental variable  Hohenberg–Kohn theorems  Variational principle in DFT  Kohn–Sham formalism  Exchange-correlation energy and functionals",
+          "hours": 10
+        },
+        {
+          "title": "Module 2",
+          "topics": "Exchange-Correlation Approximations  Local Density Approximation (LDA)  Generalized Gradient Approximation (GGA)  Introduction to hybrid functionals Computational Methods and Applications  Self-consistent field (SCF) method  Basis sets and pseudopotentials  Introduction to electronic band structure  Density of states and charge density  Applications of DFT in: o Semiconductor materials o Nanomaterials and thin films o Magnetic and ferroelectric materials Introduction to DFT Software Packages  Overview of computational packages: o Quantum ESPRESSO o VASP o WIEN2k o Gaussian (introductory overview only)",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY 405 MN",
+      "title": "Basics of Optoelectronics",
+      "semester": 7,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        123,
+        125
+      ],
+      "units": [
+        {
+          "title": "Module 1",
+          "topics": "Fundamentals of Optoelectronics  Introduction to optoelectronics  Optical properties of semiconductors  Direct and indirect band-gap semiconductors  Electron-hole recombination processes  Absorption and emission of light in semiconductors  Radiative and non-radiative transitions Semiconductor Light Sources  Light Emitting Diodes (LEDs)  Characteristics and efficiency of LEDs  Semiconductor laser diodes  Population inversion and stimulated emission  Optical resonators and laser action  Applications of LEDs and laser diodes",
+          "hours": 10
+        },
+        {
+          "title": "Module 2",
+          "topics": "Optical Detectors and Solar Cells  Photoconductors and photodiodes  PIN photodiodes and avalanche photodiodes  Solar cells and photovoltaic effect  Efficiency and performance parameters of solar cells Optical Communication and Applications  Basics of optical fibre communication  Optical fibres: structure and working  Optical sensors and detectors  Optoelectronic display devices  Applications in communication, medical instrumentation, imaging, and renewable energy systems",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY 406 RM",
+      "title": "Theory of Research, Research Tools and Methods",
+      "semester": 7,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        119,
+        121
+      ],
+      "units": [
+        {
+          "title": "Topological Phases of Matter",
+          "topics": " Berry phase and Berry curvature.  Topological insulators, semimetals, edge states, bulk-boundary correspondence.",
+          "hours": null
+        },
+        {
+          "title": "Spintronics and Quantum Devices",
+          "topics": " Spin transport, spin Hall effect, Rashba interaction.  Quantum computing materials, qubits, Majorana modes (introductory).",
+          "hours": null
+        },
+        {
+          "title": "Characterization and Emerging Applications",
+          "topics": " ARPES, STM, neutron and synchrotron techniques.  Applications in quantum technologies, neuromorphic devices and low-power electronics. Suggested Laboratory/Activities  Simulation of band structures.  Hall-effect and magnetoresistance data analysis.  Topological insulator literature review.  DFT software demonstration.  Seminar on quantum materials applications. Research Methods- Syllabus PHY 406 RM: Theory of Research, Research Tools and Methods Particulars Details Year and Semester B.Sc. Blended Fourth Year, Semester-VII Course Category Research Methods Course Code PHY 405 MJ Course Title Theory of Research, Research Tools and Methods Credits 04 Course Objectives: The course is designed to provide students with a comprehensive understanding of scientific research methodology, research tools, and data analysis techniques essential for academic and industrial research. The primary objectives of the course are: 1. To develop skills in literature survey, research design, scient...",
+          "hours": null
+        },
+        {
+          "title": "Module 1",
+          "topics": "Fundamentals of Research Methodology  Meaning, objectives, and significance of research  Types of research: basic, applied, experimental, analytical, and computational  Identification and formulation of research problems  Hypothesis formulation and testing  Research planning and research design  Interdisciplinary and multidisciplinary research approaches",
+          "hours": 10
+        },
+        {
+          "title": "Module 2",
+          "topics": "Module II: Literature Survey and Scientific Documentation  Literature survey techniques  Use of scientific databases: Scopus,  Web of Science, Google Scholar, arXiv, INSPIRE  Reference management software (Zotero, Mendeley, EndNote)  Scientific report writing and thesis preparation  presentation software(MS-word, MS-power point LaTeX",
+          "hours": 10
+        },
+        {
+          "title": "Module 3",
+          "topics": "Module III: Scientific Communication and Research Practices  Scientific communication and technical writing  Evaluation report and thesis writing  Intellectual Property Rights (IPR), patents, copyrights, and trademarks  Introduction to innovation and entrepreneurship in scientific research",
+          "hours": 10
+        },
+        {
+          "title": "Module 4",
+          "topics": "Module III: Research Tools and Data Analysis  Experimental and computational tools in Physics research  Data acquisition and data processing techniques  Error analysis and uncertainty estimation  Graph plotting and curve fitting  Statistical analysis and interpretation of data  Use of software tools: Origin, MATLAB/Python basics, Excel, gnuplot",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY 407 FP",
+      "title": "Field Project/Industrial Training/ RP/ Practicals",
+      "semester": 7,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        129,
+        130
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY 451 MJ",
+      "title": "Advance Quantum Mechanics",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        113,
+        115
+      ],
+      "units": [
+        {
+          "title": "Electronic Devices and Analog Circuits",
+          "topics": " Semiconductor diodes, BJTs, MOSFETs, biasing and amplifier configurations.  Operational amplifiers: characteristics, feedback, active filters, oscillators, comparators.",
+          "hours": null
+        },
+        {
+          "title": "Digital Electronics and Data Acquisition",
+          "topics": " Logic gates, combinational and sequential circuits, counters, timers.  ADC, DAC, multiplexing, sampling theorem, data acquisition systems, microcontrollers.",
+          "hours": null
+        },
+        {
+          "title": "Sensors, Transducers and Instrumentation",
+          "topics": " Temperature, pressure, displacement, optical and magnetic sensors.  Signal conditioning, bridges, instrumentation amplifiers, noise reduction, shielding, grounding.",
+          "hours": null
+        },
+        {
+          "title": "Measurement Systems and Applications",
+          "topics": " Oscilloscopes, spectrum analyzers, lock-in amplifiers, digital multimeters.  Biomedical, industrial and scientific instrumentation; IoT-based measurement systems. Suggested Laboratory/Activities  Design and test op-amp circuits.  Sensor interfacing using Arduino/DAQ.  Measurement using oscilloscopes and function generators.  ADC/DAC experiments and signal conditioning.  Mini-project on electronic instrumentation. PHY451 MJ- Advance Quantum Mechanics Particulars Details Year and Semester B.Sc. Blended Fourth Year, Semester-VIII Course Category Major Core Course Code PHY 451 MJ Course Title Advance Quantum Mechanics Credits 04 Course Objectives: The primary objective of this course is to provide students with an advanced understanding of approximation methods in Quantum Mechanics and their applications to atomic systems and scattering phenomena. The course aims to strengthen the theoretical foundation required for higher studies and research in modern quantum physics. The spec...",
+          "hours": null
+        },
+        {
+          "title": "Module 1",
+          "topics": "Angular Momentum and Approximation Methods  Addition of angular momenta  Clebsch–Gordan coefficients  Wigner–Eckart theorem (statement only) Identical Particles and Spin Statistics  Spin and statistics  Symmetric and antisymmetric wave functions  Slater determinants and permanents Time-Independent Perturbation Theory  Approximation methods in Quantum Mechanics  Non-degenerate perturbation theory  Degenerate perturbation theory",
+          "hours": 20
+        },
+        {
+          "title": "Module 2",
+          "topics": "Applications of Perturbation Theory  Fine structure of the hydrogen atom  Stark effect  Zeeman effect  Variational method and applications to the helium atom Time-Dependent Perturbation Theory  Interaction picture  Dyson series  Transition probabilities  Constant perturbation  Fermi’s Golden Rule  Harmonic perturbation and transition probabilities  Absorption and emission processes Interaction of Radiation with Matter  Absorption and induced emission  Electric dipole transitions  Selection rules  Decay processes and lifetime  Transition probability for spontaneous emission Approximation Methods  Adiabatic approximation  Sudden approximation Scattering Theory  Narrative overview",
+          "hours": 20
+        }
+      ]
+    },
+    {
+      "code": "PHY 452 MJ",
+      "title": "Physics of Semiconductor Devices",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        116,
+        118
+      ],
+      "units": [
+        {
+          "title": "Module 1",
+          "topics": "Carrier Transport in Semiconductors  Valence band model of pure and doped semiconductors  Equilibrium concentration of electrons and holes within the energy band gap  Fermi level and carrier energy distribution inside the bands  Temperature dependence of Fermi energy and carrier concentration in extrinsic semiconductors  Drift, diffusion, and injection of charge carriers  Carrier generation and recombination processes  Carrier lifetime and relaxation processes  Dielectric relaxation lifetime  Recombination mechanisms of electrons and holes",
+          "hours": 10
+        },
+        {
+          "title": "Module 2",
+          "topics": "Properties and Characterization of Semiconductors  Types of semiconductors  Direct and indirect band-gap semiconductors  Measurement of mobility and diffusivity  Optical and thermal properties of semiconductors  Four-point probe resistivity measurement  Van der Pauw method  Hall effect and Hall measurements  Haynes–Shockley experiment  Diffusion constant and carrier transport measurements  Temperature-dependent electrical properties of semiconductor",
+          "hours": 10
+        },
+        {
+          "title": "Module 3",
+          "topics": "Metal–Semiconductor Junctions  Formation of metal-semiconductor junctions  Schottky barriers and barrier formation  Rectifying and Ohmic contacts  Ideal junction conditions  Depletion layer formation  Surface and interface states  Role of interface states in junction diodes  Barrier height adjustment techniques  Current transport mechanisms  Tunneling current and minority carrier injection  MIS tunnel diode  Measurement of barrier height: o Photoelectric measurements o Activation energy measurements o Capacitance–voltage measurements  Applications of metal-semiconductor junctions",
+          "hours": 10
+        },
+        {
+          "title": "Module 4",
+          "topics": "Metal–Insulator–Semiconductor (MIS) Structures  Metal–Insulator–Semiconductor capacitance  Ideal MIS capacitor  Surface space-charge region  Ideal MIS capacitance curves  Interface traps and their measurements  Oxide charges and work function difference  Carrier transport mechanisms  Non-equilibrium and avalanche phenomena  Accumulation and inversion layer thickness  Classical and quantum mechanical models  Dielectric breakdown mechanisms",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY 453 MJ",
+      "title": "Quantum Materials and Topological Physics",
+      "semester": 8,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        118,
+        119
+      ],
+      "units": [
+        {
+          "title": "Quantum Materials",
+          "topics": " Electronic band theory, strongly correlated systems, quantum confinement.  2D materials, graphene, transition metal dichalcogenides, superconductors, multiferroics.",
+          "hours": null
+        },
+        {
+          "title": "Topological Phases of Matter",
+          "topics": " Berry phase and Berry curvature.  Topological insulators, semimetals, edge states, bulk-boundary correspondence.",
+          "hours": null
+        },
+        {
+          "title": "Spintronics and Quantum Devices",
+          "topics": " Spin transport, spin Hall effect, Rashba interaction.  Quantum computing materials, qubits, Majorana modes (introductory).",
+          "hours": null
+        },
+        {
+          "title": "Characterization and Emerging Applications",
+          "topics": " ARPES, STM, neutron and synchrotron techniques.  Applications in quantum technologies, neuromorphic devices and low-power electronics. Suggested Laboratory/Activities  Simulation of band structures.  Hall-effect and magnetoresistance data analysis.  Topological insulator literature review.  DFT software demonstration.  Seminar on quantum materials applications. Research Methods- Syllabus PHY 406 RM: Theory of Research, Research Tools and Methods Particulars Details Year and Semester B.Sc. Blended Fourth Year, Semester-VII Course Category Research Methods Course Code PHY 405 MJ Course Title Theory of Research, Research Tools and Methods Credits 04 Course Objectives: The course is designed to provide students with a comprehensive understanding of scientific research methodology, research tools, and data analysis techniques essential for academic and industrial research. The primary objectives of the course are: 1. To develop skills in literature survey, research design, scient...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY 454 MN",
+      "title": "X-Ray Crystallography",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        125,
+        127
+      ],
+      "units": [
+        {
+          "title": "Module 1",
+          "topics": "Fundamentals of Crystallography  Crystal structure and lattice concepts  Unit cell and crystal systems  Bravais lattices  Miller indices and crystal planes  Symmetry elements and point groups  Reciprocal lattice concept X-Ray Diffraction Principles  Generation and properties of X-rays  Interaction of X-rays with matter  Bragg’s Law and diffraction condition 𝑛𝜆 = 2𝑑sin 𝜃  Laue diffraction method  Powder diffraction method  Single crystal diffraction technique",
+          "hours": 10
+        },
+        {
+          "title": "Module 2",
+          "topics": "Structure Determination and Analysis  Structure factor and atomic scattering factor  Indexing of diffraction peaks  Determination of lattice parameters  Phase identification using XRD patterns  Introduction to crystallographic databases (ICDD/JCPDS) Applications of X-Ray Crystallography  Crystal structure determination  Phase analysis of materials  Nanomaterials and thin-film characterization  Residual strain and crystallite size estimation  Applications in solid-state physics, chemistry, and materials science",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY 455 MN",
+      "title": "Rietveld Analysis",
+      "semester": 8,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        127,
+        129
+      ],
+      "units": [
+        {
+          "title": "Module 1",
+          "topics": "Fundamentals of Powder Diffraction  Basics of crystal structure and diffraction  Powder X-ray diffraction (PXRD) technique  Bragg diffraction and diffraction geometry 𝑛𝜆 = 2𝑑sin 𝜃  Diffraction peak broadening  Instrumental and sample broadening  Crystallite size and strain effects  Phase identification using diffraction data  Introduction to crystallographic databases (ICDD/JCPDS) Introduction to Rietveld Method  Historical development of Rietveld refinement  Principle of profile fitting  Least-squares refinement technique  Goodness-of-fit parameters",
+          "hours": 10
+        },
+        {
+          "title": "Module 2",
+          "topics": "Structural Refinement Techniques  Background fitting and peak shape functions  Lattice parameter refinement  Atomic position and occupancy refinement  Thermal parameters and preferred orientation  Refinement of multiphase materials Software and Applications  Introduction to refinement software: o FullProf o GSAS o MAUD  Analysis of nanomaterials and thin films  Structural characterization of crystalline materials  Applications in condensed matter physics, materials science, and chemistry",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY 457 FP",
+      "title": "Field Project/Industrial Training/ RP/ Practicals",
+      "semester": 8,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        131,
+        133
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY 432 RP",
+      "title": "Dissertation",
+      "semester": 8,
+      "type": "Research Project",
+      "credits": 4,
+      "pages": [
+        133,
+        135
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

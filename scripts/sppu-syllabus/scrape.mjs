@@ -1,4 +1,4 @@
-// Scrapes SPPU's official syllabus lists (two SharePoint libraries: 2025 and 2026) into
+// Scrapes SPPU's official syllabus lists (one SharePoint library per year, 2023 to 2026) into
 // data/syllabus.raw.json: { year, faculty, course, name, href, date } per file. clean.mjs turns it
 // into the site's data. Run: `npx playwright install chromium` once, then
 // `node scripts/sppu-syllabus/scrape.mjs [out.json]`. Set PW_CHANNEL=chrome to use an installed Chrome.
@@ -8,7 +8,9 @@ import { dirname } from 'node:path'
 import process from 'node:process'
 
 const OUT = process.argv[2] || 'data/syllabus.raw.json'
-const LIBRARIES = { 2026: 'Syllabus%202026', 2025: 'Syllabus2025' }
+// Older libraries still hold the current syllabus of programmes SPPU has not revised since
+// (e.g. M.Sc. Bioinformatics, 2024). clean.mjs drops their files that a newer library replaces.
+const LIBRARIES = { 2026: 'Syllabus%202026', 2025: 'Syllabus2025', 2024: 'Syllabus2024', 2023: 'Syllabus2023' }
 const LIST_URL = (lib) => `http://collegecirculars.unipune.ac.in/sites/documents/${lib}/Forms/AllItems.aspx`
 
 const browser = await chromium.launch({ channel: process.env.PW_CHANNEL || undefined })

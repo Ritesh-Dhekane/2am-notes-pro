@@ -1,0 +1,412 @@
+{
+  "id": "advance-course-in-digital-humanities-and-archiving-syllabus-under-faculty-of-humanities-21",
+  "kind": "programme",
+  "programme": "Advance Course in Digital Humanities & Archiving",
+  "pattern": null,
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DH101",
+      "title": "Introduction to Digital Humanities",
+      "semester": 1,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Theoretical Foundations of Digital Humanities",
+          "topics": " Emergence and evolution of Digital Humanities.  Key debates: methodological and theoretical approaches to Digital Humanities.  Digital Humanities databases and resources; theory-led and tool-based approaches; Digital Humanities in Indian academia.  Interdisciplinary approaches and the epistemology of digital knowledge; Global and Global South perspectives with Indian context.",
+          "hours": null
+        },
+        {
+          "title": "Digital Methods and Textual Analysis",
+          "topics": " Text encoding and TEI concepts; OCR and its challenges.  Corpus creation and management.  Digital editions and print editions: similarities, differences and scholarly implications.  Distant reading and algorithmic criticism.",
+          "hours": null
+        },
+        {
+          "title": "Data, Visualization and Digital Cultures",
+          "topics": " Humanities data: structure, metadata and standards.  Introduction to network analysis.  Corpus creation and management for humanities research.  Digital cultures, platform studies and algorithmic bias.",
+          "hours": null
+        },
+        {
+          "title": "Digital Archives, Ethics and Applications",
+          "topics": " Digital archiving, curation and preservation.  Open access, copyright, Creative Commons and data governance. Certificate Course in Digital Humanities & Archiving | 44 Credits • 6Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 6  Ethics of digital research: privacy, surveillance, consent and bias.  Digital exhibits, dataset analysis, text mining and cultural analytics. Essential Readings  Dodd, M. & Menon, N. (eds.). Practices of Digital Humanities in India: Learning by Doing.  Cohen, H., Jana, U. & Gurney, M. (eds.). Digital Humanities in the India Rim.  Zaidi, N. & Pue, S. (eds.). Literary Cultures and Digital Humanities in India — “Digital Cultures in India: Digitality and its Discontents” (Maya Dodd).  Gardiner, E. & Musto, R. G. The Digital Humanities: A Primer for Students and Scholars.  Schreibman, S., Siemens, R. & Unsworth, J. (eds.). A Companion to Digital Humanities.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH102",
+      "title": "Archiving and Preservation",
+      "semester": 1,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Archival Theory and Record Lifecycle",
+          "topics": " Nature and purpose of archives.  Record lifecycle models: creation, appraisal, retention and disposal.  Provenance and original-order principles.  Institutional and community archives.",
+          "hours": null
+        },
+        {
+          "title": "Archival Standards and Description",
+          "topics": " Arrangement and description practices.  Finding aids and catalogues.  Metadata standards: Dublin Core and ISAD(G) — conceptual understanding.  Records-management systems and documentation protocols.",
+          "hours": null
+        },
+        {
+          "title": "Preservation Science and Conservation",
+          "topics": " Material-specific preservation: paper, palm-leaf manuscripts and photographs.  Preventive conservation: temperature, humidity and storage.  Conservation ethics and limits of restoration.  Risk management and disaster preparedness in archives.",
+          "hours": null
+        },
+        {
+          "title": "Governance, Policy and Applied Archival Practice",
+          "topics": " Archival laws, policies and institutional governance.  Access, classification and security protocols.  Intellectual property, copyright and restricted collections. Certificate Course in Digital Humanities & Archiving | 44 Credits • 8Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 8  Applied component: records-retention schedule, preservation plan and policy analysis report. Essential Readings  Dublin Core Metadata Initiative. Dublin Core Metadata Terms.  International Council on Archives. ISAD(G): General International Standard Archival Description.  Relevant archival policy, preservation and institutional guidelines used by the host archive or institution.  Selected case materials on manuscript, photographic and community-archive preservation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH103",
+      "title": "Digital Literacy & Skills for Humanities",
+      "semester": 1,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Digital Literacy and the Digital Information Ecosystem",
+          "topics": " Tracing literacy from oral and mass-mediated cultures to digital cultures.  Functional and critical aspects of digital literacy.  Indian context: digital divide, language diversity and access inequalities.  Internet, web, databases and digital repositories; interfaces, algorithms, platforms and datafication.  Search-engine politics, misinformation, disinformation and legal and ethical aspects of information access.",
+          "hours": null
+        },
+        {
+          "title": "Visual, Audio and Multimedia Literacy; The AI Turn",
+          "topics": " Images, videos and audio as cultural texts.  Technical dimensions: editing, effects, compression and file formats.  Images, videos and Generative AI.  Ethical use of multimedia: copyright, attribution and consent.  Large Language Models; data, algorithms, training and application; Indian linguistic and data issues; prompt literacy and evaluation of AI content.",
+          "hours": null
+        },
+        {
+          "title": "Digital Information Search, Data and Content Management",
+          "topics": " Academic repositories: Google Scholar, JSTOR, Shodh Ganga and open archives.  Evaluating digital sources for credibility, bias and misinformation.  Referencing, citation and avoiding plagiarism; Zotero and Mendeley; annotated bibliographies. Certificate Course in Digital Humanities & Archiving | 44 Credits • 10Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 10  Types of digital data and file formats; folder structures, naming conventions, backups, cloud tools and collaborative environments.",
+          "hours": null
+        },
+        {
+          "title": "Digital Writing, Publishing and Communication",
+          "topics": " Writing for digital environments: structure, hypertext and multimodality.  Plain-text and Markdown writing; WordPress or GitHub Pages.  Writing abstracts for non-specialist audiences.  Introduction to podcast/audio formats for oral scholarship.  Integrating digital writing, publishing and communication skills in a humanities mini-task. Essential Readings  Gardiner, E. & Musto, R. G. The Digital Humanities: A Primer for Students and Scholars.  Schreibman, S., Siemens, R. & Unsworth, J. (eds.). A Companion to Digital Humanities.  Chaudhuri, S. (ed.). Humanities in the Digital Age.  Kumar, D. (ed.). Technology and the Indian Society.  Wiggins, C. & Jones, M. How Data Happened?  O’Neil, C. Weapons of Math Destruction.  D’Ignazio, C. & Klein, L. F. Data Feminism.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH104",
+      "title": "Introduction to Statistical Techniques",
+      "semester": 1,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction to Statistics and Data",
+          "topics": " Meaning, scope and importance of statistics in Digital Humanities.  Types of data: qualitative, quantitative, categorical and continuous.  Levels of measurement: nominal, ordinal, interval and ratio.  Data-collection methods: surveys, archival records, metadata and field data.  Presentation of data: tables, frequency distributions, diagrams and graphs.",
+          "hours": null
+        },
+        {
+          "title": "Descriptive Statistics",
+          "topics": " Measures of central tendency: mean, median and mode.  Measures of dispersion: range, variance, standard deviation and coefficient of variation.  Skewness and kurtosis: conceptual understanding.  Correlation: concept, Karl Pearson and Spearman’s rank correlation.  Introduction to simple linear regression.",
+          "hours": null
+        },
+        {
+          "title": "Probability and Distributions",
+          "topics": " Basic concepts of probability: events, sample space, addition and multiplication rules.  Conditional probability and Bayes’ Theorem with humanities-oriented examples.  Random variables: discrete and continuous.  Binomial and Poisson distributions.  Normal distribution and its properties; sampling and sampling distributions.",
+          "hours": null
+        },
+        {
+          "title": "Statistical Inference and Applications to Humanities Data",
+          "topics": " Hypothesis testing: null and alternative hypotheses; Type I and Type II errors.  Introduction to t-test and chi-square test: concepts and use-cases. Certificate Course in Digital Humanities & Archiving | 44 Credits • 12Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 12  Frequency distributions, relative frequencies and corpus statistics.  Zipf’s Law and Heaps’ Law in linguistic and historical text analysis.  Sampling techniques in surveys and archival/heritage studies.  Reading and interpreting statistical output from spreadsheets/software; case studies from library, museum, census and archival datasets. Essential Readings  James, G., Witten, D., Hastie, T. & Tibshirani, R. An Introduction to Statistical Learning. Springer.  Diez, D., Çetinkaya-Rundel, M. & Barr, C. OpenIntro Statistics.  Agresti, A. & Franklin, C. Statistics: The Art and Science of Learning from Data. Pearson.  Drucker, J. Graphesis: Visual Forms of Knowledge Production. Harvard University Press.  Gupta, S. C. Fundamentals of Statistics. Himalaya Publishing House.  Moore, D. S., Notz, W. I. & Fligner, M. A. The Basic Practice of Statistics.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH105",
+      "title": "Basics of Data Mining",
+      "semester": 1,
+      "type": "Core",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Mining",
+          "topics": " Concept, need and scope of data mining in humanities and archival domains.  Knowledge Discovery in Databases (KDD) process.  Data-mining tasks: classification, clustering, association and anomaly detection.  Applications: digitised manuscripts, catalogues and oral-history archives.",
+          "hours": null
+        },
+        {
+          "title": "Data Preprocessing",
+          "topics": " Data cleaning: missing values, duplicates and inconsistencies.  Data transformation: normalisation, discretisation and encoding categorical data.  Data reduction and sampling for large archival collections.  Introduction to metadata structuring for mining readiness.",
+          "hours": null
+        },
+        {
+          "title": "Core Mining Techniques",
+          "topics": " Clustering: concept and simple methods such as k-means.  Classification: concept, decision trees and naïve Bayes.  Association-rule mining: concept and simple examples.  Evaluating mining results for accuracy and relevance to research questions.",
+          "hours": null
+        },
+        {
+          "title": "Text Mining for Humanities and Archives",
+          "topics": " Basics of text mining: tokenisation, keyword extraction and frequency analysis.  Introduction to topic modelling and text clustering.  Mining metadata and catalogue records for pattern discovery.  Ethical and copyright considerations in mining archival and heritage data. Essential Readings  Han, J., Kamber, M. & Pei, J. Data Mining: Concepts and Techniques. Morgan Kaufmann. Certificate Course in Digital Humanities & Archiving | 44 Credits • 14Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 14  Tan, P.-N., Steinbach, M. & Kumar, V. Introduction to Data Mining. Pearson.  Jockers, M. L. Text Analysis with R for Students of Literature. Springer.  James, G., Witten, D., Hastie, T. & Tibshirani, R. An Introduction to Statistical Learning. Springer.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH106",
+      "title": "Data Visualization Techniques",
+      "semester": 1,
+      "type": "Core",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Principles of Data Visualization",
+          "topics": " Role of visualization in humanities research and public communication.  Visual encoding: position, colour, size and shape.  Choosing appropriate charts: bar, line, pie, scatter and histogram.  Common pitfalls such as misleading scales.  Gestalt principles.",
+          "hours": null
+        },
+        {
+          "title": "Tools for Visualization",
+          "topics": " Visualization using spreadsheet tools such as Excel/Google Sheets.  Open-source/free visualization tools such as Tableau Public and Datawrapper.  Overview of programming-based visualization using Python or R.  Selecting tools appropriate to project scale and technical skill.",
+          "hours": null
+        },
+        {
+          "title": "Visualizing Humanities and Archival Data",
+          "topics": " Timelines for historical and biographical data.  Geospatial/map-based visualization for heritage and cultural sites.  Network graphs for correspondence, correlations and relationships; Gephi for historical network maps.  Textual visualization: word clouds and frequency plots.",
+          "hours": null
+        },
+        {
+          "title": "Designing a Visualization Project",
+          "topics": " Planning a visualization project: audience, purpose and data story.  Building a simple interactive dashboard.  Presenting and critiquing visualizations.  Ethics and accuracy in representing archival and cultural data. Certificate Course in Digital Humanities & Archiving | 44 Credits • 16Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 16 Essential Readings  Few, S. Show Me the Numbers: Designing Tables and Graphs to Enlighten. Analytics Press.  Tufte, E. R. The Visual Display of Quantitative Information. Graphics Press.  Knaflic, C. N. Storytelling with Data: A Data Visualization Guide for Business Professionals. Wiley.  Drucker, J. & Nowviskie, B. Speculative Computing: Aesthetic Provocations in Humanities Computing.  Murray, S. I. Interactive Data Visualization for the Web.  Wilke, C. O. Fundamentals of Data Visualization.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH107",
+      "title": "Internship",
+      "semester": 1,
+      "type": "Core",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "DH201",
+      "title": "Digital Data: Text, Images and Sound",
+      "semester": 2,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "From Analogue to Digital: A History of Data",
+          "topics": " The pre-digital archive: manuscripts, print, photographic and sound recording as early “data” practices.  Binary encoding, the rise of computing and the conceptual shift from information to data.  Key moments: punch cards, ASCII/Unicode, personal computer, internet and smartphone as data-generating devices.  Digitisation versus born-digital data and implications for archives and historians.",
+          "hours": null
+        },
+        {
+          "title": "Types and Sources of Digital Data",
+          "topics": " Structured, semi-structured and unstructured data; textual, visual, audio and multimodal data.  Sources: institutional archives, social media, sensors/devices, administrative/government data and born-digital creative works.  Public, proprietary and open data; data as infrastructure.  Indian data ecosystems: Digital India, Open Government Data Platform India, Bhashini and National Digital Library of India. Certificate Course in Digital Humanities & Archiving | 44 Credits • 20Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 20",
+          "hours": null
+        },
+        {
+          "title": "File Formats and Technical Foundations",
+          "topics": " Text formats: TXT, XML, JSON and CSV; markup and structured text.  Image formats: JPEG, PNG and TIFF; compression, resolution and colour-depth basics.  Audio/video formats: WAV, MP3 and MP4; sampling rate, bit rate and codecs in brief.  Metadata, file-naming conventions and interoperability; why formats matter for preservation and access.",
+          "hours": null
+        },
+        {
+          "title": "Data Scraping: Techniques and Tools",
+          "topics": " Data scraping; APIs versus web scraping; ethical and legal boundaries including terms of service, copyright and robots.txt.  Introductory tools: spreadsheets, browser extensions, no-code scraping tools and a light introduction to Python/BeautifulSoup.  Scraping text, images and social-media data: practical considerations and limitations.  Data cleaning and organisation from raw scrape to usable dataset.",
+          "hours": null
+        },
+        {
+          "title": "Ethics, Bias and Politics of Digital Data",
+          "topics": " Privacy, consent and surveillance in data collection.  Bias in datasets: whose words, images and sounds are counted and whose are absent.  Data colonialism and questions of ownership, including language data, indigenous knowledge and oral archives.  Data-protection frameworks: India’s Digital Personal Data Protection Act, 2023 and global comparators such as GDPR.",
+          "hours": null
+        },
+        {
+          "title": "Images and Sound in Digital Humanities Practice",
+          "topics": " Digitised visual archives: manuscripts, art, photography and cartography; British Library Endangered Archives Programme and Indian museum digitisation projects.  Computational approaches to images: metadata tagging, basic image analysis and visual culture at scale.  Sound archives and oral history: digitised music, oral traditions and endangered languages; ARCE and Sangeet Natak Akademi archives.  Case studies of image- and sound-based Digital Humanities projects in India and South Asia.",
+          "hours": null
+        },
+        {
+          "title": "Synthesis: Data, Culture and the Digital Humanist",
+          "topics": " Reviewing the data lifecycle from source to scrape to archive to interpretation.  The humanist’s role in a data-saturated environment: critical, not merely technical, engagement.  Emerging directions: AI, machine learning and the next phase of data in the humanities.  Student presentations/short project: a small data-collection and reflection exercise. Certificate Course in Digital Humanities & Archiving | 44 Credits • 21Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 21 Essential Readings  Manovich, L. Cultural Analytics. MIT Press, 2020.  Drucker, J. “Humanities Approaches to Graphical Display.” Digital Humanities Quarterly, 2011.  Kitchin, R. The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences. Sage, 2014.  Presner, T. & Schnapp, J. The Digital Humanities Manifesto 2.0.  Noble, S. U. Algorithms of Oppression. NYU Press, 2018.  Couldry, N. & Mejias, U. A. The Costs of Connection: How Data Is Colonizing Human Life. Stanford University Press, 2019.  Bhashini Mission; Open Government Data Platform India; National Digital Library of India; Ministry of Electronics and Information Technology material on th...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH202",
+      "title": "Methods and Tools for Digital Humanities",
+      "semester": 2,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Digital Humanities Methods, Archiving, Metadata and Digitisation",
+          "topics": " DH, methods and the Indian landscape: what “methods and tools” mean in DH; India-specific DH projects and challenges.  Digital archiving and metadata in India; from box-files to metadata schemas; drafting a simple metadata form.  Digitisation workflows and Indian-language scripts: scanning, OCR and critique of image-to-text output on an Indian-language page.  Text encoding and markup: TEI basics; XML/TEI-Lite and guided markup of a short Indian-language-in-translation text.",
+          "hours": null
+        },
+        {
+          "title": "Computational Text Analysis, Data Visualization, GIS and Network Analysis",
+          "topics": " Computational text analysis: word counts, frequencies and basic NLP; use of web-based text analysers such as Voyant or AntConc-style demonstrations.  Data visualization using Indian-case datasets; building simple charts from small CSV datasets.  Mapping and GIS for Indian spatial humanities: cultural heritage, public history and map-first project workflows. Certificate Course in Digital Humanities & Archiving | 44 Credits • 23Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 23  Network analysis for Indian media and cultural studies; hashtags, relationships and introductory network diagrams/Gephi workflows.",
+          "hours": null
+        },
+        {
+          "title": "Digital Storytelling, Pedagogy, AI-Assisted Tools and Dashboards",
+          "topics": " Digital storytelling and blogging; public history and Indian examples; writing a short digital-story blog post.  Digital pedagogy and DH in Indian classrooms; designing a one-week DH task or classroom archive.  AI-assisted DH tools in India: ChatGPT, translation and analysis assistants; prompt-engineering exercise for an Indian-language task.  Tableau/basic dashboards for humanities data; dashboard wireframing with users, filters and views.",
+          "hours": null
+        },
+        {
+          "title": "Ethics, Project Workshops, Tool Integration and Method Transparency",
+          "topics": " Ethics, consent and metadata design; human participants, labour, DEI and ethical dimensions of data production and digitisation.  Indian-case DH project workshops: research goal, data, tools and ethics note; cultural-heritage archive examples.  Tool-mosaic lab integrating workflows such as OCR → TEI → Voyant → Gephi → Tableau.  Student presentations and tool-protocol reflections; documentation of tools, versions, limitations and Indian-context constraints. Essential Readings  Dodd, M. & Menon, N. (eds.). Practices of Digital Humanities in India: Learning by Doing.  Cohen, H., Jana, U. & Gurney, M. (eds.). Digital Humanities in the India Rim.  Centre for Internet and Society (CIS), Digital Humanities in India?  Center for Digital Humanities, Pune. DH: Methods and Tools — selected Indian-adapted methodological materials.  Selected Digital Humanities project documentation and tool manuals relevant to the practical components.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH203",
+      "title": "Digital Humanities in an Indian Context",
+      "semester": 2,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Foundations of Digital Humanities and Digital Infrastructures in India",
+          "topics": " Definitions, history, scope, key debates and the computational turn; emerging institutional landscape in India.  Digital archives, libraries and repositories in India; digitisation, cataloguing, metadata and preservation of cultural/textual resources.  Digital platforms and infrastructures; scanning, OCR, repositories, blogging and digital storytelling; accessibility, navigability and inclusivity.  Digital storytelling and public history; digital pedagogy, community memory and digital commons; local-history and community-based narratives.",
+          "hours": null
+        },
+        {
+          "title": "Digital Texts, Literature, Culture and Heritage",
+          "topics": " Digital archives of Indian cultural heritage: museums, galleries, temple-art archives, tribal-art databases and documentation of local cultural practices.  Digital writing and electronic literature: born-digital texts, digital poetry, interactive fiction and hypertext. Certificate Course in Digital Humanities & Archiving | 44 Credits • 25Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 25  Digital Humanities and Indian literature: text analysis, digital editions, Indian- language texts, corpora and digital study of literary/knowledge texts.  Digital media and cultures in India: social media, platform cultures, influencer culture, memes, hashtags, remix practices and everyday digitality.",
+          "hours": null
+        },
+        {
+          "title": "Identity, Visualization, Religion and Digital Cultures",
+          "topics": " Gender and subaltern studies; representation of marginalised voices; feminist and queer archives; community-centred archiving.  Visualization, mapping and spatial humanities: GIS, historical mapping, networks and cultural/social data.  Digital Humanities and religion: classical/religious texts, digital temples, ritual- on-web, digital Bhakti archives and interactive religious heritage.  AI and Digital Humanities tools in India: Generative AI, translation tools, ChatGPT and prompt engineering for Indian-language and humanities tasks.",
+          "hours": null
+        },
+        {
+          "title": "Digital Pedagogy, Ethics, Project Development and Futures of DH",
+          "topics": " Digital pedagogy and Digital Humanities in Indian classrooms; MOOCs, blended learning and DH-enabled teaching modules.  Ethics, law and responsible DH: privacy, consent, indigenous data, DEI and Digital Personal Data Protection Act, 2023.  Designing a Digital Humanities project: problem, scope, Indian-specific data sources, tools, metadata, ethics and project planning.  Future of DH in India: presentation, peer review and critical discussion of commercialization, surveillance, extractive archiving, community participation and responsible DH. Essential Readings  Dodd, M. & Menon, N. (eds.). Practices of Digital Humanities in India: Learning by Doing.  Cohen, H., Jana, U. & Gurney, M. (eds.). Digital Humanities in the India Rim.  Digital Humanities in India? — CIS-India report on DH practice in Indian higher education.  Center for Digital Humanities, Pune. DH: Methods and Tools — selected Indian-adapted methodological materials.  National Digital Library of India; Open Government Data Platform India; Bhashini; British Library Endangered Archives Programme; ARCE; Sarai Reader archives — selected case-study materials.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH204",
+      "title": "AI in Digital Humanities",
+      "semester": 2,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Foundations of AI in Digital Humanities",
+          "topics": " Digital Humanities: concept, scope, evolution and computational turn; role and applications of AI in humanities research, with Indian context.  Fundamentals of AI and Machine Learning; supervised and unsupervised learning; NLP, Computer Vision, Generative AI and Large Language Models.  No-code and low-code AI tools; prompt engineering for summarisation, translation, tagging, classification and information extraction.  AI-assisted research and academic writing; verification, reliability, plagiarism, authorship and academic integrity.",
+          "hours": null
+        },
+        {
+          "title": "AI for Language, Text, Archives and Cultural Heritage",
+          "topics": " AI and Indian-language text processing; multilingual corpora, NLP, OCR and digitisation of historical documents; challenges across Indian scripts.  AI-assisted text and literary analysis: classification, thematic/sentiment analysis, topic modelling, keyword extraction and Named Entity Recognition. Certificate Course in Digital Humanities & Archiving | 44 Credits • 27Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 27  AI for audiovisual heritage: speech-to-text, transcription, metadata generation, tagging and search; oral histories and audio/video archives.  AI in libraries and information science: intelligent cataloguing, metadata generation, semantic search, discovery/recommendation and AI-assisted preservation.",
+          "hours": null
+        },
+        {
+          "title": "Ethics, Data, Privacy and Knowledge Sovereignty",
+          "topics": " AI ethics: fairness, transparency, explainability, accountability and trust; bias related to language, caste, gender, region and culture.  Data ethics, privacy and consent; personal data, community-generated data and oral histories; Digital Personal Data Protection Act, 2023.  AI, surveillance and state power; AI and the Indian judiciary; rights-based approaches and platform regulation.  Indigenous knowledge and decolonial DH; indigenous data sovereignty, feminist/community-led archiving, cultural ownership and ethical metadata design.",
+          "hours": null
+        },
+        {
+          "title": "AI Applications, Governance and Future of Digital Humanities",
+          "topics": " AI-assisted visualization and spatial humanities; GIS, historical mapping, Named Entity Recognition, network analysis and visual analytics.  AI in journalism, data journalism and public history; automated content generation, digital storytelling, deepfakes, synthetic media and AI-generated historical reconstructions.  AI labour, human–AI collaboration, automation, authorship and attribution; roles of curators, developers, performers and community knowledge-holders.  AI governance and policy in India; responsible AI-DH project design, risk assessment, bias, privacy, consent, intellectual property, safeguards and redlines. Essential Readings  Noble, S. U. Algorithms of Oppression. NYU Press, 2018.  D’Ignazio, C. & Klein, L. F. Data Feminism.  Selected documentation and policy materials on Artificial Intelligence, responsible AI and digital governance in India.  Ministry of Electronics and Information Technology material on the Digital Personal Data Protection Act, 2023.  Selected documentation and case studies on Indian-language AI, OCR, cultural-heritage digitisation and responsible AI.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH205",
+      "title": "Laws and Ethics in Digital Humanities",
+      "semester": 2,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Legal Foundations and Intellectual Property in Digital Content",
+          "topics": " Basics of law in the digital domain: jurisdiction, ownership and liability.  Overview of the Copyright Act and amendments.  Authorship, originality, duration of copyright and public domain.  Fair dealing provisions in India for education, research and criticism.  Copyright, copyleft, open access and Creative Commons licensing.",
+          "hours": null
+        },
+        {
+          "title": "Access, Open Knowledge, Privacy and Data Protection",
+          "topics": " Open access movement and academic publishing.  Proprietary databases and public knowledge.  Personal data and sensitive data in digital archives.  Key features of the Digital Personal Data Protection Act, 2023.  Consent, anonymization, ethical data collection and surveillance concerns in digital platforms and archives.",
+          "hours": null
+        },
+        {
+          "title": "Ethics of Digital Humanities and Archiving",
+          "topics": " Ethical handling of oral histories, community archives and vulnerable groups.  Representation, bias and exclusion in digital collections.  Cultural sensitivity concerning sacred, indigenous and restricted knowledge.  Ethics of digitisation: what should not be digitised or made public.  Balancing access, ownership, community participation and responsible stewardship. Certificate Course in Digital Humanities & Archiving | 44 Credits • 29Digital Humanities | Advance Diploma Course in Digital Humanities & Archiving • 29",
+          "hours": null
+        },
+        {
+          "title": "Platform Power, Algorithms and Digital Inequality",
+          "topics": " Role of Big Tech in shaping access to knowledge.  Algorithmic bias and visibility of cultural content.  Digital divide in India: language, caste, region and access.  Ethics of using social media as an archive.  Integrated case analysis of law, ethics, platform governance and responsible Digital Humanities practice. Essential Readings  Copyright Act, 1957 (as amended) — selected provisions relevant to education, research and digital content.  Creative Commons licensing resources and open-access guidance.  Digital Personal Data Protection Act, 2023 — selected provisions relevant to research and digital archives.  Noble, S. U. Algorithms of Oppression. NYU Press, 2018.  Couldry, N. & Mejias, U. A. The Costs of Connection: How Data Is Colonizing Human Life. Stanford University Press, 2019.  Relevant institutional codes of ethics and archival/community-archive guidelines.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "DH206",
+      "title": "Digital Humanities Project",
+      "semester": 2,
+      "type": "Core",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

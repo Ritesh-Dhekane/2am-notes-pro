@@ -1,0 +1,650 @@
+{
+  "id": "me-electrical-control-systems-2025-pattern-3-sept-17092025",
+  "kind": "programme",
+  "programme": "M.E. Electrical (Control Systems)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-COS",
+      "title": "Optimization Techniques in Control System",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Mathematical Concepts",
+          "topics": "Review of minima/maxima of functions, real valued function, partial derivatives gradient vector, Taylor series, Directional derivatives, direction of steepest descent, local and global extrema, unimodal function, limitations of method of differential calculus, unconstrained extrema of differentiable functions, constrained extrema, and method of Lagrange multipliers.",
+          "hours": 10
+        },
+        {
+          "title": "Optimization and Classical Techniques",
+          "topics": "Engineering applications of optimization, optimization problem, classification of optimization problems and techniques, single variable, multivariable optimization with no constraints, equality constraints, inequality constraints unconstrained minimization, steepest descent method, conjugate gradient method, Newton's method.",
+          "hours": 10
+        },
+        {
+          "title": "Linear and Nonlinear Programming",
+          "topics": "Linear programming problems, LP problems, involving LE constraints, simplex method, revised simplex method, duality. Non-linear programming problem: elimination methods, dichotomous search, Fibonacci method, Golden section method, interpolation methods, unconstrained optimization technique.",
+          "hours": 10
+        },
+        {
+          "title": "Dynamic Programming",
+          "topics": "Multistage decision process, sub optimization and principle of optimality, computational and calculus method of solution, final value and initial value problems dynamic programming in continuous time systems.",
+          "hours": 10
+        },
+        {
+          "title": "Integer and Stochastic Programming",
+          "topics": "Integer and stochastic programming, zero-one programming, mixed integer linear programming, graphical representation, Geometry cut method, Integer nonlinear programming, and polynomial. Stochastic linear programming, nonlinear programming and dynamic programming.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-502- COS",
+      "title": "Automation in Manufacturing",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Sensors and Devices",
+          "topics": "Data conversion devices, sensors, microsensors, transducers, signal processing devices, relays, contactors and timers. Microprocessors controllers and PLCs. Description of PID controllers.",
+          "hours": 10
+        },
+        {
+          "title": "Drives",
+          "topics": "Drives: stepper motors, servo drives. Ball screws, linear motion bearings, cams, systems controlled by camshafts, electronic cams, indexing mechanisms, tool magazines, and transfer systems.",
+          "hours": 10
+        },
+        {
+          "title": "Hydraulic and Pneumatic Systems",
+          "topics": "Hydraulic systems: flow, pressure and direction control valves, actuators, and supporting elements, hydraulic power packs, pumps. Pneumatics: production, distribution and conditioning of compressed air, system components and graphic representations.",
+          "hours": 10
+        },
+        {
+          "title": "Cyber Physical Systems",
+          "topics": "Cyber physical systems: Introduction, features, Analysis of representative domains in cyber physical systems. Dynamical systems: Continuous time models, linear systems designing controller analysis technique",
+          "hours": 10
+        },
+        {
+          "title": "Digital Manufacturing & Industry 4.",
+          "topics": "Introduction, Concept, research and development status of digital manufacturing, Connotation and research methods, Drivers of Industry 4.0, Changing market demand, new technological possibilities, Main idea of industry 4.0, phases of industrial development, industry 4.0: fourth industrial revolution, central features of the concept, economical potential",
+          "hours": 0
+        }
+      ]
+    },
+    {
+      "code": "PCC-503- COS",
+      "title": "System Identification and Adaptive Control",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Identification techniques",
+          "topics": "Basic concepts in System Identification, Principles behind different identification methods, persistently exciting input, input signals, persistent excitation, Nonparametric Methods: Transient analysis, Frequency Analysis, Correlation Analysis and Spectral Analysis , Various types of Model structure (ARMAX, Box Jenkins, OE models etc.) , Least Square Estimation, Levinson Algorithm.",
+          "hours": 10
+        },
+        {
+          "title": "Unit II",
+          "topics": "Recursive Estimation , Parameter estimation using prediction error method and instrumental variable method, maximum likelihood estimation, Convergence and Consistency, Model Validation, Step signal identification, Applications of identification techniques.",
+          "hours": 10
+        },
+        {
+          "title": "Kalman Filter",
+          "topics": "Types of Kalman filters, State model for a continuous process with measurement and process noise, Kalman Filter as a state estimator, Discrete state model , Discrete-time Kalman Estimator, Prediction as filtering, Examining adaptive Kalman filters and Dual Extended Kalman Filter (DEKF).",
+          "hours": 10
+        },
+        {
+          "title": "Learning Systems and Methods",
+          "topics": "Various concepts related to how systems learn and adopt, Learning and pattern recognition, Parametric and non- parametric training methods, Linear discriminant function, Learning systems with and without supervision, Decision theoretic methods, Bayesian learning.",
+          "hours": 10
+        },
+        {
+          "title": "Adaptive Control",
+          "topics": "Introduction to Adaptive Control, Parameter estimation techniques, Stability analysis, Effects of Process Variations, Various Adaptive Schemes, the MIT Rule, Determination of the Adaptation Gain, Lyapunov Theory, Design of MRAS Using Lyapunov Theory. MPC strategy, MPC elements, Objective function, Obtaining control law, Different MPC algorithms CO PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 CO1 3 3 2 2 CO2 3 3 3 2 CO3 3 2 2 2 CO4 3 3 2 2 2 CO5 3 2 2 1 2",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-504- COS",
+      "title": "Industrial Automation and Control",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Architecture industrial automation system, development trends in industrial automation, classification of existing systems, and functionality of industrial automation system. Relay and contactor logic, AC and DC relays and their role for load control. Power and Auxiliary contactors and their usage for load control.",
+          "hours": 10
+        },
+        {
+          "title": "Automatic Control",
+          "topics": "Introduction, P-I-D Control, manual and auto PID Control Tuning, Feed forward Control Ratio Control, Time Delay Systems and Inverse Response Systems, Special Control Structures. Temperature controller hardware architecture.",
+          "hours": 10
+        },
+        {
+          "title": "PLC",
+          "topics": "Introduction to Sequence Control, PLC, RLL (Relay Ladder Logic), Sequence Control. Scan Cycle, Simple RLL Programs, Sequence Control. More RLL Elements, RLL Syntax, A Structured Design Approach to Sequence, PLC Hardware Environment, Introduction To CNC Machines, Contour generation and Motion Control, Allen Bradley PLC and SIEMEN PLC.",
+          "hours": 10
+        },
+        {
+          "title": "Industrial Control",
+          "topics": "Basics of hydraulics, Hydraulic components their functions and symbols Hydraulic actuators, Pumps and its operation, pump control, Hydraulic valves (Direction control, pressure and flow control), special valves, pressure gauges and switches, hydraulic logic circuits, Hydraulic Control System, Multiple pressure and speed operations, Industrial Hydraulic Circuit, Pneumatic systems and components Pneumatic Control Systems, compressor operation and control.",
+          "hours": 10
+        },
+        {
+          "title": "Industrial Drives",
+          "topics": "AC Drive basics, Electrical specifications and hardware architecture .AC drive and AC motor specification matching. AC drive power wiring and Interfacing input and output signals. Operation and control of AC motor in scalar mode. Operation and control of AC drive in vector control mode. Performance verifications of special features of AC drive. Requirement and specifications of input and output chokes, braking applications, methodology and specifications of braking resistors. Selection of power, motor and signal cables for AC drive application. Wiring and lay outing guidelines of AC drive .Energy Savings with V ariable Speed Drives, DC Motor Drives, DC and BLDC Servo Drives.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-505- COS",
+      "title": "Laboratory Practice-I",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A- COS",
+      "title": "Automation and Robotics",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Automation",
+          "topics": "Basic concept of automation; types of automation: fixed, flexible and programmable and their comparative study; Modelling and simulation for plant automation; Introduction to NC and CNC machines; Arm and hand prostheses; exoskeletons; locomotive mechanism.",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Robot Technology",
+          "topics": "Robotics: A brief history; definition; laws of Robotics; Concept of Work cell, Basic components of robot, Specifications of robot: degrees of freedom (DOF), accuracy, repeatability, spatial resolution, compliance, loads carrying capacity, speed of response, work volume, work envelope, reach etc.; links & Joints; end effectors; Robot classification. Factors related to use Robot Performance, Basic Robot Configurations and their Relative Merits and Demerits, the Wrist & Gripper Subassemblies.",
+          "hours": 8
+        },
+        {
+          "title": "Kinematics of Robot Manipulator",
+          "topics": "Introduction, General Mathematical Preliminaries on Vectors & Matrices, Direct Kinematics problem, Geometry Based Direct kinematics problem, Co -ordinate and vector transformation using matrices, Rotation matrix, Inverse Transformations, Problems on composite Rotation matrix, Homogenous Transformations, Robotic Manipulator Joint Co -Ordinate System, Euler Angle & Euler Transformations, Roll Pitch -Yaw(RPY) Transformation, DH Representation & Displacement Matrices for Standard Configurations, Jacobian Transformation in Robotic Manipulation.",
+          "hours": 8
+        },
+        {
+          "title": "Trajectory Planning and Robot Control",
+          "topics": "Introduction; Trajectory Interpolators; Basic Structure of Trajectory Interpolators; Cubic Joint Trajectories; General Design Consideration on Trajectories:4 -3-4 & 3 -5-3 Trajectories; Via point trajectories. Control of Robot manipulator: joint position controls (JPC), resolved motion position controls (RMPC) and resolved motion rate control (RMRC).",
+          "hours": 8
+        },
+        {
+          "title": "Dynamics of Robotic Manipulators, Robot Sensing & Vision",
+          "topics": "Introduction, Preliminary, Generalized Robotic Coordinates, Jacobian for a Two link Manipulator, Euler Equations, The Lagrangian Equations of motion; Application of Lagrange –Euler (LE); Dynamic Modelling of Robotic Manipulators, Various Sensors and their Classification; Use of Sensors and Sensor based System in Robotics; Machine Vision System, Description, Sensing, Digitizing, Image Processing and Analysis CO PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 CO1 3 3 2 2 CO2 3 3 3 2 CO3 3 2 2 2 CO4 3 3 2 2 2 CO5 3 2 2 1 2",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B- COS",
+      "title": "Modeling of Dynamic Systems",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction to Dynamic systems, Examples of dynamic systems, Classification of system inputs, classification of system models, System modeling and simulation",
+          "hours": 8
+        },
+        {
+          "title": "Modeling of Mechanical and Electrical Systems:",
+          "topics": "Translational systems: Springs, Dampers, Mass, Rotational Systems; D'Alembert's Principle, Lagranges's Equation, Three dimensional motions, Electric Systems: Basic Elements, Passive Circuit Analysis, Active circuit analysis: The operational amplifier Mechanics.",
+          "hours": 7
+        },
+        {
+          "title": "Modeling of Fluid Systems",
+          "topics": "Properties of fluids, density, equation of state, liquids and gases, viscosity, propagation of speed, Thermal properties, Reynolds Number Effects. Derivation of passive components, resistance, inductance and capacitance. Thermal System: Basic Effects, conduction, convection and Radiation, Circuit analysis of static thermal system: Signal and Multiple lumped capacitance modeling",
+          "hours": 8
+        },
+        {
+          "title": "Transform Methods for Generalized Response",
+          "topics": "Impulse response, Convolution integral: Response to arbitrary inputs when impulse response is known, Frequency response, Response to periodic Inputs, transient inputs and random signal. Simulation Methods: Limitations of analytical methods, Analog Simulation. Digital Simulation: Specific Digital Simulation techniques.",
+          "hours": 7
+        },
+        {
+          "title": "Generalized Modeling Methods & Applications of Distributed Parameter models",
+          "topics": "Generalized Modeling Methods: Pulse testing methods, Random signal testing methods, Parameter tracking methods, Multiple regression and least square methods. Applications of Distributed Parameter Models : Longitudinal vibrations of a rod, Lumped parameter approximations for rod vibration, Conduction, heat translation in an insulated bar, Magnetic levitation system for an Experimental Rail vehicle.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-522- COS",
+      "title": "Elective Lab-I",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 1,
+      "pages": [
+        25,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551- COS",
+      "title": "Multivariable and Optimal Control System",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Multivariable Control Systems",
+          "topics": "Example of multivariable control systems, differential operator and transfer matrix, state -space models and system solution, Controllability, Observability, State estimation, Pole allocation, Stability and reproducibility, Concept of state observer and disturbance observer, Evolution of state and disturbance observers a brief history.",
+          "hours": 1
+        },
+        {
+          "title": "Multivariable Control Systems",
+          "topics": "Brief revision of Luenberger Observer, Limitations, Sliding Mode Observers: mathematical model of observer, robustness properties, procedure for gain selection, error analysis, stability, applications, advantages and limitations, Nonlinear ESO): mathematical model of observer, non -linear gain selection, Linear ESO, error analysis, applications",
+          "hours": 2
+        },
+        {
+          "title": "Optimal Control System",
+          "topics": "Formulation of optimal control problem, Minimum time, energy, fuel problems, Calculus of variations, Minimization of functions, Control and state variable inequality constraints. Hamiltonian formulation of optimal control problem, Hamilton-Jacoby equation, Linear regulator problem.",
+          "hours": 1
+        },
+        {
+          "title": "Optimal Control System",
+          "topics": "Quadratic performance criterion, Time invariant state regulator, Numerical solution of Matrix Riccati Equation: Direct integration, a negative exponential method and iterative method, Pontryagin’s minimum principle, application to optimal control of discrete and continuous systems.",
+          "hours": 2
+        },
+        {
+          "title": "Optimal Control System",
+          "topics": "Suboptimal linear regulators: Continuous time and discrete time systems, Minimum time control, normality and existence uniqueness of control, Bang-Bang Control, singular solutions.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "PCC-552- COS",
+      "title": "Control of Power Electronics Circuits",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Introduction: Role and Objectives of Power Electronic Converters, Requirements of Modelling, Simulation and Control of Power Electronic Converters, Models, Model Types: Switched Models, sampled -Data Models, Averaged Models, Large -Signal and Small -Signal Models, Behavioural Models, Relations Between Various Types of Models, Relations Between Modelling and Control",
+          "hours": 10
+        },
+        {
+          "title": "General Control Principles",
+          "topics": "General Control Principles of Power Electronic Converters, Control Goals in Power Electronic Converter Operation, Specific Control Issues Related to Power Electronic, Different Control Families",
+          "hours": 10
+        },
+        {
+          "title": "Modelling of DC-to-DC Power Converters",
+          "topics": "Introduction, the Buck, Boost, Buck -Boost Converter, Model of the Converter Normalization, Equilibrium Point and Static Transfer Function, Prototype.",
+          "hours": 10
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Linear Feedback Control for buck, book and buck -boost converter, Pole Placement by Full State Feedback, Pole Placement Based on Observer Design, Reduced Order Observers, Flatness, Generalized Proportional Integral Controllers, Passivity Based Control, A Hamiltonian Systems Viewpoint.",
+          "hours": 10
+        },
+        {
+          "title": "Linear Control Approaches for DC-AC and AC-DC Power",
+          "topics": "Converters 10 Hours Introductory Issues, Control in Rotating dq Frame Resonant Controllers, Necessity of Resonant Control, Basics of Proportional-Resonant Control, Design Methods, Implementation Aspects Control of Full -Wave Converters, Introduction, Sliding Surface, General Theoretical Results, Reachability of the Sliding Surface: Transversality Condition, Equivalent Control, Dynamics on the Sliding Surface, Variable -Structure Control Design, General Algorithm, Application Example",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-553- COS",
+      "title": "Digital Signal Processing and its Applications",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Discrete Signals and systems & Z transform",
+          "topics": "A) Discrete Signals and systems: Sampling of continuous time signals, quantization, aliasing, Sampling Theorem, Elementary discrete-time signals, classification, sequence operations, Discrete time systems and classification, impulse response, linear convolution and its properties, Discrete time systems described by difference equations. B) Z transform : Definition , basics, properties, inverse Z -transform using power series and partial fraction Solution of difference equation, Analysis of LTI system",
+          "hours": 10
+        },
+        {
+          "title": "Frequency analysis of discrete time signals",
+          "topics": "A) Discrete Time Fourier Transform: Frequency response of DTS, Discrete frequency spectrum and range, DTFT Definition and its properties. Numerical. B) Discrete Fourier Transform: Definition and Properties of DFT, Circular convolution, Linear convolution using circular convolution, Fast Fourier Transform: Radix 2 DIT and DIF algorithms",
+          "hours": 10
+        },
+        {
+          "title": "Time and Frequency response of discrete time system",
+          "topics": "A) Time Response: Natural response, forced response and total response, impulse response and step response B) Frequency response: frequency response of first order and second order systems, transfer function, steady state and transient response, phase and group delays, ideal filters and their pole zero locations, zero phase and linear phase transfer functions",
+          "hours": 10
+        },
+        {
+          "title": "IIR filters",
+          "topics": "Advantages and disadvantages of digital filter over analog filters, classification of digital filters: FIR and IIR, design of analog low pass Butterworth filter, Chebyshev filter, design of IIR filters from analog filters using bilinear transformation, impulse invariance. Realization of IIR filters: direct form I, direct form II, cascade and parallel.",
+          "hours": 10
+        },
+        {
+          "title": "FIR filters & Applications of DSP",
+          "topics": "Comparison between FIR and IIR filters, symmetric and antisymmetric FIR filters, design of linear phase FIR filters using windows method (rectangular, Hanning and Kaiser), Applications of DSP 1) Measurement of power 2) Measurement of frequency 3)Condition monitoring and speed control of Electrical Machines",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-554- COS",
+      "title": "Laboratory Practice-II",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        34,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-561A- COS",
+      "title": "Robust Control Systems",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Robust control problems. Linear system tools: Jordan and Real Jordan canonical forms, structural decomposition, Problems on structural decomposition.",
+          "hours": 8
+        },
+        {
+          "title": "Structural mapping of Bilinear Transformations and",
+          "topics": "Solution to Discrete time Riccati Equations 08 Hours Structural mapping of Bilinear Transformations: Mapping of continuous time to discrete time and vice a versa, existence condition of H∞ sub optimal controllers, continuous time system and discrete time system. Solution to Discrete time Riccati Equations: Solutions to general DARE and H∞ -DARE.",
+          "hours": null
+        },
+        {
+          "title": "Information in continuous time and discrete time H ∞",
+          "topics": "optimization 08 Hours Full information feedback, output feedback, plants with imaginary axis zeros/unit circle zeros.",
+          "hours": null
+        },
+        {
+          "title": "Solutions to continuous time and discrete time H ∞",
+          "topics": "problems 1 08 Hours Full state feedback, full order output feedback, reduced order output feedback and mathematical problems on reduced order output feedback strategy.",
+          "hours": null
+        },
+        {
+          "title": "Solutions to continuous time and discrete time H ∞",
+          "topics": "problems 2 08 Hours Robust and perfect tracking of continuous time and discrete time systems, solvability conditions and solutions; solutions to measurement feedback",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-561B- COS",
+      "title": "Large Scale System",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Modeling and parameter estimation",
+          "topics": "Introduction to probability theory, elements of estimation theory, application to parameter estimation for a dynamical model, methods for the determination of transfer functions, Hierarchical parameter estimation, multiple projection approach, Recursive algorithm for the minimum variance estimator.",
+          "hours": 8
+        },
+        {
+          "title": "Aggregation",
+          "topics": "Aggregation of control systems, problem statement, properties of the aggregated system matrix, determination of the Aggregation matrix; Generation of feedback controls: linear dynamic optimization, bounds on sub optimality, eigenvalue assignment.",
+          "hours": 8
+        },
+        {
+          "title": "Model reduction techniques",
+          "topics": "Model analysis approach, mathematical development, three basic methods, and a general approach, Subspace projection methods, projection error minimization, and derivation of reduced model. Optimal order reduction, problem formulation, conditions of optimality, numerical algorithm, polynomial input functions. A comparative study. Extension to discrete systems, preliminary analysis, two model reduction techniques, output error minimization. Examples.",
+          "hours": 8
+        },
+        {
+          "title": "Model Simplifications",
+          "topics": "Model simplification using frequency domain techniques. Simplification by continued function expansions: three Cauer forms, a generalized Routh algorithm, simplified models, relationship to aggregation, and extension to discrete models; Approximation methods for simplification: time moment matching, Padetype approximations, Routh -Hurwitz method. Minimal realization algorithms: conditions of reliability, Pade – type realizable models, aggregated model of Routh approximants.",
+          "hours": 8
+        },
+        {
+          "title": "Time scale analysis",
+          "topics": "Block-diagonalization of continuous systems: problem statement, numerical algorithms, basic properties, relation to model aggregation. Feedback control design: two stage eigenvalue placement. Decoupling of discrete systems:, state feedback design.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562A- COS",
+      "title": "Advanced Digital Control Techniques",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Digital Redesign",
+          "topics": "Introduction, Digital modeling with sample and hold devices, State variable formulation, Numerical integration, Frequency domain characteristics, Warping and Prewarping, Digital Redesiging, Closed form solution for Digital System, Partial matching of states.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Discrete Data control Systems",
+          "topics": "Design in the Z plane using root locus diagram, Digital P, PI, PID controller, Design of Discrete Data System using Z-Transform method, Simple lag, lead and lag-lead compensators. Pole zero cancellation.",
+          "hours": 8
+        },
+        {
+          "title": "Pole Placement Design and State Observer",
+          "topics": "State regulator design, Design of full State Observers, Design by separation principle. State feedback with integral control, digital control system with state feedback, deadbeat observer, Concept of Adaptive Control.",
+          "hours": 8
+        },
+        {
+          "title": "Multirate Digital Signal Processing",
+          "topics": "Multirate DSP, Decimation, Interpolation, Design of Practical Sampling, Rate Conversion, Design of FIR and IIR Filters, Finite word length effect in digital filters, discrete wavelet transform, adaptive filter components, algorithms.",
+          "hours": 8
+        },
+        {
+          "title": "Digital Signal Processor and Applications",
+          "topics": "Digital Signal Processors - Features, Fixed and Floating point DSP, Selection of DSP. Architecture and Instruction set of TMS 320C5X, instruction pipelining, DSP applications, detection of fetal heartbeats during labour, Adaptive removal of ocular artefacts from human EEGs, Equalization of digital audio signals. Design studies.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562B- COS",
+      "title": "Modern Control Systems",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "STATE SPACE ANALYSIS",
+          "topics": "The Concept of State and State Models, State Diagram, State Space and State Trajectory, State Space Representation using Phase Variable and Canonical Variables, Solution of State Equation, State Transition Matrix and its Properties, Eigen Values, Eigen Vectors, Model Matrix, Diagolization, Generalized Eigen vectors, Computation of State Transition Matrix using Laplace Transformation, Power Series Method, Cayley - Hamilton Method, Similarity Transformation Method.",
+          "hours": 8
+        },
+        {
+          "title": "POLE PLACEMENT TECHNIQUES",
+          "topics": "Controller Design by State Feedback, Necessary and Sufficient Condition for Arbitrary Pole Placement -State Regulator Problem and State Regulator Design, Evaluation of State Feedback Gain Matrix K, Selection of Location of Desired Closed Loop Poles, State Observer Design, Full Order/Reduced Order Observer Design, Observer Based State Feedback Control, Separation Principle.",
+          "hours": 8
+        },
+        {
+          "title": "NONLINEAR CONTROL SYSTEM",
+          "topics": "Introduction, Properties of Nonlinear System, Behavior of Non-Linear System, Classification of Nonlinearities, Common Physical Nonlinearities: Saturation, Friction, Backlash, Dead -Zone, Relay, On -Off Nonlinearity, Nonlinear Spring, Limit cycle, Jump resonance. Phase -Plane Method, Singular points, Stability of Nonlinear System, Construction of Phase Trajectories, Describing Functions Method, Stability Analysis by Describing Function Method. Lyapunov’s Stability Analysis",
+          "hours": 8
+        },
+        {
+          "title": "OPTIMAL CONTROL",
+          "topics": "Introduction to Optimal Control, Parameter Optimization: Servomechanism, Optimal Control Problem: Transfer Function and State Variable Approach, State Regulator Problem, Infinite Time Regulator Problem, Output Regulator and the Tracking Problem, Parameter Optimization: Regulators",
+          "hours": 8
+        },
+        {
+          "title": "DIGITAL CONTROL SYSTEMS",
+          "topics": "Introduction to Discrete Time Systems, Necessary for Digital Control System, Spectrum Analysis of Sampling Process, Signal Reconstruction, Difference Equations, Z transforms, and the Inverse Z transform, Pulse Transfer Function, Time Response of Sampled Data Systems, Stability using Jury Criterion, Bilinear Transformation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-581-COS",
+      "title": "Technical Seminar-I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        43,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-COS",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "RM",
+      "credits": 4,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research",
+          "topics": "Basic of Research: Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de - scribe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research : Why? Research Questions, Engineering Ethics, conclusive proof -what constitutes, A research project-Why take on? Case Study: Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects- environment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": 10
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of Review, Developing the objectives, Preparing the research design including sample ME Electrical-ELE-2025 Pattern-Faculty of Science and Technology Electrical Engineering Design, Sample size. Archival Literature, why should engineers be ethical? Types of publications - Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study: Engineering dictionary, Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h-index, I-index, plagiarism, copyright infringement",
+          "hours": 10
+        },
+        {
+          "title": "Analysis of Variance and Covariance",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short -cut method for oneway ANOVA, Coding method, Two -way ANOVA, ANOVA in Latin -square design, analysis of co-variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": 10
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond google, impact factor, H -Index. IPR: What is IPR? The importance of patents, types of IPR, and process of patent.",
+          "hours": 10
+        },
+        {
+          "title": "Outcome of Research and Research Presentation",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OJT-602- COS",
+      "title": "On job training/ Internship",
+      "semester": 3,
+      "type": "OJT/ Internship",
+      "credits": 5,
+      "pages": [
+        51,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603- COS",
+      "title": "Technical Seminar-II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        53,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604- COS",
+      "title": "Research Project stage- I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        57,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651- COS",
+      "title": "Technical Seminar - III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        61,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652- COS",
+      "title": "Research Project- II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        65,
+        67
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

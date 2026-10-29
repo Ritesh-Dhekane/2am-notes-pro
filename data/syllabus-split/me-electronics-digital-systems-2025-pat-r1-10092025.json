@@ -1,0 +1,878 @@
+{
+  "id": "me-electronics-digital-systems-2025-pat-r1-10092025",
+  "kind": "programme",
+  "programme": "Master of Engineering in Electronics (Digital Systems)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-DIS",
+      "title": "Analog and Digital CMOS Design",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "MOS Basics and Layout",
+          "topics": "MOS Structure and I/V Characteristic, MOS Capacitance models, MOS Small-Signal Model, MOS SPICE models, Non ideal I-V Effects, MOSFET equivalent circuits and analysis, Parasitic, CMOS layout techniques, CMOS Fabrication and Layout: Inverter Cross-section, Fabrication Process, Stick Diagrams",
+          "hours": 9
+        },
+        {
+          "title": "MOS Performance parameters",
+          "topics": "Static, dynamic and short circuit power dissipations; Propagation delay; Power delay product; Fan in, fan out, Delay Estimation: RC Delay Models, Linear Delay Model, Logical efforts of paths",
+          "hours": 9
+        },
+        {
+          "title": "Logic design",
+          "topics": "CMOS Logic: Inverter, NAND gate, Combinational Logic, NOR gate, Compound gates, Pass Transistors and Transmission Gates, Tristaes, Multiplexers, Latches and Flip-Flops, Design calculations for combinational logic and active area on chip, Introduction to logic families: Static CMOS, Ratioed circuits, Cascode voltage switch logic, Dynamic circuits, Pass transistor circuits",
+          "hours": 9
+        },
+        {
+          "title": "Single Stage Amplifiers",
+          "topics": "Basic Concept, Common Source Stage: Common-Source Stage with Resistive Load, CS Stage with Diode-Connected Load, CS Stage with Current-Source Load, CS Stage with Active Load, CS Stage with Triode Load, CS Stage with Source Degeneration , Source follower, Common gate stage, Cascade stage : Folded Cascode.",
+          "hours": 9
+        },
+        {
+          "title": "Analog CMOS Sub circuits",
+          "topics": "CMOS Inverter as an Amplifier, MOS Switch, MOS Diode, Current Sinks and Sources, Current mirrors. CMOS Op Amp: Differential Amplifiers, Operational amplifier: General considerations, Two stage Op Amps",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-DIS",
+      "title": "Advanced Multirate Signal Processing",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Multirate Systems",
+          "topics": "Need for multirate DSP, Decimation and interpolation, Sampling rate conversion by (I/D), spectral diagrams, design of filters, efficient implementation of decimator and interpolator, Poly phase interpolator, time variant filter structures, multistage filter design",
+          "hours": 9
+        },
+        {
+          "title": "Paraunitary Perfect Reconstruction (PR) Filter Banks",
+          "topics": "Paraunitary Perfect Reconstruction Filter Banks, Paraunitary Property, Perfect reconstruction and alias cancelation conditions, design of QMFs, sub band coding of speech. Cosine Modulated Filter Banks: Introduction, Pseudo QMF bank, Design of pseudo QMFbank, Efficient polyphase structures, Cosine modulated perfect reconstruction systems",
+          "hours": 9
+        },
+        {
+          "title": "Adaptive filtering",
+          "topics": "Adaptive FIR filtering, Newton steepest descent algorithm, Least Mean Square algorithm, applications of adaptive filters such as adaptive noise cancellation, adaptive echo cancellers, Adaptive IIR filters, Pade approximation technique and least squares techniques, Prony‟s method and Shank‟s method.",
+          "hours": 9
+        },
+        {
+          "title": "The Wavelet Transform and its Relation to Multirate Filter Bank",
+          "topics": "DCT, Short -time Fourier transform, Multi -resolution analysis, Haar wavelet, Wavelet basis, Mother wavelet, Standard wavelets, Non -decimated frames and wavelet transform, Multidimensional wavelet transform, Adaptive wavelet transform, Applications of wavelet transform and DCT for speech and image processing like coding, compression, filtering etc., wavelet filter bank.",
+          "hours": 9
+        },
+        {
+          "title": "Applications of Advanced Multirate Signal Processing",
+          "topics": "Applications of multirate Signal Processing: Audio signal processing; Image signal processing; Video signal processing; Base -band signal processing; Multirate systems in a CD player; Delta Sigma A/D conversion; digital system interfacing, trans multiplexing.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-DIS",
+      "title": "Image Processing and Computer Vision",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Basic of image processing",
+          "topics": "Formation of image model, histogram equalization, application of spatial filters for enhancement and segmentation – average, weighted average, first order and second order, Hough transform, Thresholding. Binary image processing: Erosion, Dilation, Opening and closing, Hit or miss transform Image transforms - DCT, Haar, Hadamard, PCA",
+          "hours": 9
+        },
+        {
+          "title": "Colour Image processing",
+          "topics": "Color Models, Pseudo -color Image Processing, Basics of Full -Color Image Processing, Color Transformations, Formulation, Color Complements, Color Slicing, Tone and Color Corrections, Histogram Processing, Smoothing and Sharpening, Color Image Smoothing, Color Image Sharpening, Image Segmentation Based on Color, Segmentation in HSI Color Space, Segmentation in RGB Vector Space, Col or Edge Detection, Noise in Color Images, Color Image Compression",
+          "hours": 9
+        },
+        {
+          "title": "Image registration",
+          "topics": "Operational goal of registration, Classification of registration methods - Geometrical transformations, Rigid transformations, Nonrigid transformations, Rectification, Point -based methods, Points in rigid transformations, Points in scaling transformations, Points in perspective projections, Points in curved transformations, Surface -based methods, Disparity functions, Head and hat algorithm, Distance definitions, Distance transform approach, Iterative closest point algorithm, Weighted geometrical feature algorithm, Intensity -based methods, Similarity measures",
+          "hours": 9
+        },
+        {
+          "title": "Stereo correspondence",
+          "topics": "Epipolar geometry --Rectification, Plane sweep, Sparse correspondence, 3D curves and profiles, Dense correspondence, Similarity measures, Local methods, Sub-pixel estimation and uncertainty, Application: Stereo-based head tracking , Multi-view stereo, Volumetric and 3D surface reconstruction",
+          "hours": 9
+        },
+        {
+          "title": "3D reconstruction",
+          "topics": "Shape from X, Shape from shading and photometric stereo, Shape from texture, Shape from focus, Active range finding, Range data merging, Application: Digital heritage Surface representations, Surface interpolation, Surface simplification, Geometry images, Point -based representations, Volumetric representations, Model -based reconstruction , Application: Facial animation, Recovering texture maps and albedos , Application: 3D photography",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-DIS",
+      "title": "VLSI Chip Design & Fabrication",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Design with HDL",
+          "topics": "Basics of Verilog: Typical HDL -flow, why Verilog HDL, trends in HDLs. Gate -Level Modelling: Modelling using basic Verilog gate primitives, description of and/or and buffer/not type gates, rise, fall and turn -off delays, min, max, and typical delays. Behavioral Modelling: Structured procedures, initial and always, blocking and non - blocking statements, delay control, generate statement, event control, conditional statements, Multiway branching, loops, sequential and parallel blocks.",
+          "hours": 9
+        },
+        {
+          "title": "ASIC Design Part I",
+          "topics": "Types of ASIC and Comparisons, ASIC Design Flow, Logic Synthesis, Simulation, EDA Tools, ASIC Physical Design: Architecture Design, Physical Design, CAD Tools, System partitioning, Partitioning Strategies, Floor planning, Placement, Routing",
+          "hours": 9
+        },
+        {
+          "title": "ASIC Design Part II",
+          "topics": "ASIC Timing Analysis: Static timing analysis, Timing constraints, Delay estimation, ASIC Verification and Testing: Different Chip Test Methods, Fault Models, Scan Test, Partial Test, Digital scan standards, BIST architecture, BILBO, Boundary Scan, Self-Test, JTAG, ATPG",
+          "hours": 9
+        },
+        {
+          "title": "Chip Design",
+          "topics": "Crystal Growth and Wafer Preparation: Introduction, Electronic -Grade Silicon, Czochralski Crystal Growing. Epitaxy: Introduction, Vapour-Phase Epitaxy. Lithography: Introduction, Optical Lithography, Electron Lithography, X -ray Lithography, Ion Lithography. Reactive Plasma, Etching: Introduction, Plasma Properties, Feature-Size Control and Anisotropic Etch Mechanisms, Reactive Plasma-Etching Techniques and Equipment",
+          "hours": 9
+        },
+        {
+          "title": "Chip Fabrication",
+          "topics": "Ion Implantation: Introduction, Range Theory, Implantation Equipment, Annealing, Shallow Junctions, High-Energy Implantation. Metallization: Introduction, Metallization Applications, Metallization Choices, Physical Vapor Deposition, Patterning, Metallization problems.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-DIS",
+      "title": "Digital Systems Lab Practice - I",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A-DIS",
+      "title": "Block chain",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Blockchain Foundations & Cryptography",
+          "topics": "Evolution of blockchain : Bitcoin to Web3, Blockchain architecture: Blocks, chains, nodes, P2P network, Permissioned vs. permission less blockchains, Distributed Ledger Technologies (DLT), Cryptographic principles: Hashing, Merkle Trees, Digital Signatures, Zero-Knowledge Proofs (zkSNARKs, zkSTARKs), Consensus mechanisms: Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), Practical Byzantine Fault Tolerance (PBFT), Directed Acyclic Graphs (DAG)",
+          "hours": 9
+        },
+        {
+          "title": "Smart Contracts & Decentralized Applications (DApps)",
+          "topics": "Smart contract fundamentals and design principles, Economic and legal aspects of smart contracts, Oracles and hybrid contracts: Conceptual overview, Security considerations: Common vulnerabilities, Mitigation strategies, Gas costs and optimization concepts.",
+          "hours": 7
+        },
+        {
+          "title": "Enterprise Blockchain Frameworks & Cross-Chain Interoperability",
+          "topics": "Hyperledger Fabric, Corda, Quorum — architecture and use -cases, Cross -chain interoperability: Polkadot, Cosmos — concepts and industry relevance, Case studies and real-world examples",
+          "hours": 8
+        },
+        {
+          "title": "Decentralized Finance (DeFi), NFTs & Regulations",
+          "topics": "DeFi ecosystem, NFTs, DAOs, CBDCs — trends and conceptual frameworks, Regulatory frameworks: GDPR, KYC and AML, compliance challenges, Sustainability and green blockchain initiatives.",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Trends-IoT, AI, Cloud Integration",
+          "topics": "Blockchain for IoT : Secure device identity, data integrity, Blockchain for AI: Data provenance, AI model trustworthiness, Blockchain for Cloud: case study of Decentralized storage, edge computing integration, Privacy -enhancing techniques: Mixers, ring signatures, confidential transactions.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B-DIS",
+      "title": "Reconfigurable Computing",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Traditional Computing and Reconfigurable Computing",
+          "topics": "Traditional computing paradigms (ASIP, GPP, Domain Specific Processor) and RC. General -Purpose Computing, General -Purpose Computing Issues; Motivation and need for reconfigurable computing and field of application",
+          "hours": 9
+        },
+        {
+          "title": "Reconfigurable Device Architectures and Performance Metrics",
+          "topics": "Reconfigurable Device Characteristics, Configurable, Programmable, and Fixed - Function Devices, Interconnect Requirements. Reconfigurable Processing Fabric Architectures: Fine -grained & Coarse - grained structures, Metrics: Density, Diversity, and Capacity",
+          "hours": 7
+        },
+        {
+          "title": "Systems for Reconfigurable Computing",
+          "topics": "Early systems of Reconfigurable computing: PAM, VCC, Splash, PRISM, Teramac, Cray, SRC, non -FPGA research, other issues; Reconfiguration Management: Reconfiguration, Configuration architectures, managing reconfiguration process, reducing reconfiguration time, configuration security.",
+          "hours": 8
+        },
+        {
+          "title": "Design Flow with Reconfigurable Design Approach",
+          "topics": "Implementation: Integration, FPGA Design Flow, System On A Programmable Chip; Introduction to SoPC , Adaptive Multiprocessing on Chip. Reconfiguration Project Design Approaches: J-Bit, Modular, Early Access, Vivado.",
+          "hours": 7
+        },
+        {
+          "title": "Application of Reconfigurable Computing",
+          "topics": "Reconfigurable devices for Rapid prototyping, non -frequently reconfigurable systems, frequently reconfigurable systems; Compile-time reconfiguration, Run- time reconfiguration; RC Applications: Implementing applications with FPGAs, various applications and use of reconfiguration; Video Streaming, Distributed arithmetic, Adaptive Co ntroller, Adaptive cryptographic systems, Software Defined Radio, High -Performance Computing, Automatic target recognition systems.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-521C-DIS",
+      "title": "Artificial Neural Network and Application",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Artificial Neural Networks",
+          "topics": "Introduction to Neural Networks , Human Brain vs. Biological Neuron , Models of a Neuron, Directed Graph Representation, Network Architectures , Artificial Intelligence and Neural Networks , Learning Processes in ANN , Simple Neuron Networks for Pattern Classification: Hebb Network, Perceptron & its learning rule , Learning Paradigms: Supervised, U nsupervised, Reinforcement , Training vs Testing phases, Epochs, Convergence, Perceptron Convergence Theorem",
+          "hours": 9
+        },
+        {
+          "title": "Multilayer Neural Networks and Training",
+          "topics": "Single-layer and Multilayer Perceptrons , Backpropagation Algorithm , Hessian matrix, Generalization, Cross Validation , Virtues and Limitations of Backpropagation, Performance Optimization: Steepest Descent, Newton’s Method, Conjugate Gradient , Cover’s Theorem on Separability, Interpolation problem , Activation Functions: Sigmoid, tanh and their impact on learning",
+          "hours": 7
+        },
+        {
+          "title": "Radial Basis Functions and Unsupervised Learning",
+          "topics": "Generalized Radial Basis Function (RBF) Networks ,Estimation of Regularization Parameter, Approximation Properties of RBF Networks , Comparison: RBF vs Multilayer Perceptron , Kernel Regression and relation to RBF ,Competitive Learning, Self -Organizing Feature Maps, Kohonen’s Map ,Support Vector Machine basics, Clustering using RBF Networks, Comparison with K-means",
+          "hours": 8
+        },
+        {
+          "title": "Applications of ANN-1",
+          "topics": "ANN vs. Traditional Computing Approaches , Key advantages in application domains, Healthcare Applications: Disease Prediction, Medical Image Analysis, EEG/Seizure Detection , Finance & Business: Stock Market Prediction, Customer Behavior Modeling, Churn Prediction",
+          "hours": 7
+        },
+        {
+          "title": "Application of Artificial Neural Network-2",
+          "topics": "ANN in Speech and Image Processing: Voice Recognition, Speaker Identification, Speech-to-Text, Object Recognition, Image Classification , ANN in Industrial & Engineering Applications: Predictive Maintenance, Process Control, Fault Diagnosis, Robotics & Automation",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-521D-DIS",
+      "title": "Semiconductor Device Modeling",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Solid State Devices",
+          "topics": "Solid State Device Physics, M aterial Properties, Crystal structure, Energy band model, Equilibrium carrier concentrations, Drift and Diffusion mechanism, Recombination and generation of carriers, continuity equations, minority carrier diffusion equations, diffusion length quasi Fermi level concepts",
+          "hours": 9
+        },
+        {
+          "title": "Multilayer Neural Networks and Training",
+          "topics": "Single-layer and Multilayer Perceptrons , Backpropagation Algorithm , Hessian matrix, Generalization, Cross Validation , Virtues and Limitations of Backpropagation, Performance Optimization: Steepest Descent, Newton’s Method, Conjugate Gradient , Cover’s Theorem on Separability, Interpolation problem , Activation Functions: Sigmoid, tanh and their impact on learning",
+          "hours": 7
+        },
+        {
+          "title": "Radial Basis Functions and Unsupervised Learning",
+          "topics": "Generalized Radial Basis Function (RBF) Networks ,Estimation of Regularization Parameter, Approximation Properties of RBF Networks , Comparison: RBF vs Multilayer Perceptron , Kernel Regression and relation to RBF ,Competitive Learning, Self -Organizing Feature Maps, Kohonen’s Map ,Support Vector Machine basics, Clustering using RBF Networks, Comparison with K-means",
+          "hours": 8
+        },
+        {
+          "title": "Applications of ANN-1",
+          "topics": "ANN vs. Traditional Computing Approaches , Key advantages in application domains, Healthcare Applications: Disease Prediction, Medical Image Analysis, EEG/Seizure Detection , Finance & Business: Stock Market Prediction, Customer Behavior Modeling, Churn Prediction",
+          "hours": 7
+        },
+        {
+          "title": "Application of Artificial Neural Network-2",
+          "topics": "ANN in Speech and Image Processing: Voice Recognition, Speaker Identification, Speech-to-Text, Object Recognition, Image Classification , ANN in Industrial & Engineering Applications: Predictive Maintenance, Process Control, Fault Diagnosis, Robotics & Automation",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-522-DIS",
+      "title": "Skill Based Laboratory – I",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        28,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-DIS",
+      "title": "Advanced DSP Processors",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "DSP Architectures and Core Concepts",
+          "topics": "Overview of DSP systems and processors, Memory architectures: Harvard, modified Harvard, Core hardware units: MAC unit, barrel shifter, address generators, Pipelining and circular buffering, DSP peripherals and I/O interfacing, Data formats: fixed-point and floating-point, Concept and Challenges of real-time signal processing.",
+          "hours": 9
+        },
+        {
+          "title": "Architecture of DSPs",
+          "topics": "DSPs: TMS320C54XX and TMS320C6713 : Architecture and functional blocks , Instruction sets and programming models, Data types, addressing modes, Memory mapping and peripheral interface. ADSP-21XX and ADSP -210XX: Architecture, Addressing modes and assembly language instructions – Application programs –Filter design, FFT calculation Real-time signal processing applications: speech, audio, radar , Comparison of fixed vs floating-point DSPs.",
+          "hours": 9
+        },
+        {
+          "title": "Embedded DSP Platforms",
+          "topics": "Embbeded processor: Embedded processors for signal processing, Micro Signal Architecture (MSA), Features and Real time embedded signal processing , Overview of Blackfin Processor architecture , Register files, ALU, and DMA controllers, Bus architecture and memory system , On-chip peripherals (UART, SPI, I2C, timers, 1. To understand the architectural details and hardware features of advanced digital signal processors. 2. To compare fixed -point and floating -point DSPs and evaluate their performance in real -time systems. 3. To explore embedded DSP processors such as Blackfin and Micro Signal Architecture. 4. To gain hands-on experience in DSP development tools and environment. 5. To apply DSP techniques in real time processing and embedded applications CO1: Explain the architecture and core components of advanced DSPs. CO2: Analyze and compare the TMS320C54XX and TMS320C6713 DSP processors. CO3: Understand Embedded DSP platforms. CO4: Develop and debug real-time DSP applications using integrated development environments. GPIO).",
+          "hours": 9
+        },
+        {
+          "title": "DSP Development Environments and Tools",
+          "topics": "VisualDSP++ IDE: Introduction and setup , Software development flow: writing, compiling, linking, debugging. DSP development tools: C compiler, Assembler, Linker, Simulator and emulator, Code Composer Studio (CCS): Project creation, building, memory views, breakpoints, graphics visualization",
+          "hours": 9
+        },
+        {
+          "title": "Real Time Processing and Applications",
+          "topics": "Processor selection criteria for real -time applications , Sampling, Quantization, A/D, D/A interfacing. DSP applications in: Audio filtering, Image processing, Introduction to real-time DSP on embedded systems.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-DIS",
+      "title": "Embedded Technology & IOT",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "ARM, Raspberry Pi Microcontroller",
+          "topics": "Basics of Raspberry Pi (RPi) board, Features and architecture, pin configurations, Installing OS on RPi , connecting to network, Programming languages with examples, Various interfaces e.g. I2C, UART, SPI, CAN. Node MCU ESP8266 Pin configuration, Station, AP, ST -AP modes, NodeMCU as web server, posting sensor data to gateway.",
+          "hours": 9
+        },
+        {
+          "title": "Buses and Protocols",
+          "topics": "CAN Bus: Features and applications, CAN Frame, sequence of transmitting and receiving data on CAN Bus. Ethernet and USB Bus: Features and applications. Protocols: PHY/MAC Layer (3GPP MTC, IEEE 802.11, IEEE 802.15), Bluetooth Low Energy, Zigbee Smart Energy, Network Layer -IPv4, IPv6, 6LoWPAN, Transport Layer (TCP, MPTCP, UDP) Session Layer HTTP, CoAP, XMPP, AMQP, MQTT",
+          "hours": 9
+        },
+        {
+          "title": "IoT Fundamentals",
+          "topics": "IoT Architecture and Design Concepts: IoT – An architectural overview, Design Principles and capabilities, M2M & IOT Technology Fundamentals - End Devices and gateways, Local and wide area networking, Challenges Associated with IoT, Cloud Platforms for IoT. Sensors: Different types of sensors and Actuators, Working, Networking Basics, RFID Principals and components, Wireless Sensor Networks, Physical Design of an IoT, Logical design of IoT Communication Models, Communication API’s, Concept of IoE, Difference between IoT and IoE.",
+          "hours": 9
+        },
+        {
+          "title": "Industrial IoT",
+          "topics": "Introduction, Key Industrial IOT (IIoT) technologies, Catalysts, and precursors of IIoT, Innovation and the IIoT, Applications of IIoT Examples: Healthcare, Oil and Gas Industry, Logistics and the Industrial Internet, Retail applications, IoT innovations and design methodologies",
+          "hours": 9
+        },
+        {
+          "title": "IoT Applications",
+          "topics": "Applications: Smart Environment: Forest Fire Detection, Air Pollution, Smart Cities: Parking, Structural Health, Noise Urban maps, Smart Metering: Smart Grid, Tank level, Photovoltaic Installations, Health: Fall Detection, Medical Fridges, Sportsmen Care, Patients Surveillance.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-DIS",
+      "title": "PLD’s and ASIC Design",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 4,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction to Programmable Logics",
+          "topics": "History of Digital Logic, Programmable Logic versus Discrete Logic, Programmable Logic versus Processors, Types of Programmable Logic, PLD Configuration Technologies, Programmable Logic Design Methods and Tools, Technology Trends",
+          "hours": 9
+        },
+        {
+          "title": "FPGAs & CPLDs Architecture",
+          "topics": "Introduction to FPGAs & CPLDs, CPLD architecture, Function Block s, I/O Block s, Clock Drivers , Interconnect, FPGA Architectures , Configurable Logic Blocks , Configurable I/O Blocks , Programmable Interconnect , Clock Circuitry , Simulation Software, Testbench Generators, Automatic Test Pattern Generation (ATPG) , Built- In Self-Test (BIST) Generators",
+          "hours": 9
+        },
+        {
+          "title": "Advanced FPGAs/CPLDs Designs",
+          "topics": "High Throughput, Low latency, Timing, Rolling Up the Pipeline , Control-Based Logic Reuse , Resource Sharing , Impact of Reset on Area , Clock Control , Input Control, Reducing the Voltage Supply, Overview and comparison of Spartan 7, Artix – 7, Kintex – 7 FPGA s, Features of 7 -series FPGAs, Overview of Cool Runner -II CPLD family & their comparison",
+          "hours": 9
+        },
+        {
+          "title": "VHDL with real world interfacing",
+          "topics": "Filp – Flops & their conversion, Data shift registers, multifrequency generator, seven – segment interfacing using VHDL, counter design & interfacing digital clock design and interfacing, PWM signal generation, Optical display interfacing, Buzzer control, LCD interfacing and programming, General purpose switch interfacing, infrared and proximity sensor interfacing using VHDL",
+          "hours": 9
+        },
+        {
+          "title": "ASICs",
+          "topics": "Types of ASICs, Custom IC Design Flow, ASIC Cell Libraries, ASIC Library Design, Programming Technologies, RTL to GDS -II flow, Introduction to ASIC design EDA Tools: Cadence, Mentor and Synopsis. Design and development of serial/ parallel converter, Introduction to IP cores.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-DIS",
+      "title": "Digital Systems Lab Practice – II",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        37,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-571A-DIS",
+      "title": "Machine Learning",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "Introduction, Definition and motivation, History and evolution of Machine learning, types: Supervised, Unsupervised, Semi -supervised, Reinforcement, Machine Learning Models: Geometric, Probabilistic, Logical, and Parametric. Non - parametric, Applications of Machine Learning in Signal processing, speech recognition, image processing, Wireless communications",
+          "hours": 7
+        },
+        {
+          "title": "Supervised Machine Learning",
+          "topics": "Introduction to Supervised Learning, Types of Supervised Problems, Regression Models: Linear Regression, Types of Linear Regression, cost function, gradient descent of linear regression, Evaluation Metrics for Linear Regression Classification Models: Logistic, Naive Bayes algorithm KNN algorithm Support Vector Machine (SVM).",
+          "hours": 7
+        },
+        {
+          "title": "Unsupervised Machine Learning",
+          "topics": "Introduction, Types of Unsupervised Learning: Clustering, Association Rule Learning, Dimensionality Reduction, K -means Clustering algorithm, Evaluation: Elbow method, Silhouette score, Density -Based Methods, Dimensionality Reduction Techniques, Principal Component Analysis (PCA), Apriori",
+          "hours": 7
+        },
+        {
+          "title": "Feature Engineering",
+          "topics": "Importance of feature engineering in Machine Learning pipeline, Handling missing values, outliers, Encoding: Label, One -Hot, Ordinal, Target Scaling: Min -Max, Standardization, Normalization, Feature selection: Filter (Chi -square), Wrapper (RFE), Embedded (Lasso)",
+          "hours": 7
+        },
+        {
+          "title": "Ensemble Learning and Model Evaluation",
+          "topics": "Introduction to Ensembles, Need of Ensemble Learning , Basic Ensemble Learning Techniques: Voting (Hard/Soft), Advanced Ensemble Learning Techniques: Bagging (Random Forest), Boosting (AdaBoost, XGBoost), Stacking, Cross - validation: Hold -out, K -Fold, LOOCV, Model comparison using t -test, McNemar’s test, Hyper parameter tuning (Grid Search, Random Search)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-571B-DIS",
+      "title": "Wireless Sensor Network for IOT",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Overview of Wireless Sensor Networks",
+          "topics": "Sensor Networks, Classification of Wireless sensor network ARCHITECTURES : Single-Node Architecture - Hardware Components, Energy Consumption of Sensor, Nodes, Operating Systems and Execution Environments, Network Architecture - Sensor Network Scenarios, Optimization Goals and Figures of Merit, Gateway Concepts",
+          "hours": 8
+        },
+        {
+          "title": "Wireless Sensor Network Protocol Stack",
+          "topics": "WSN Protocol stack, overview of different layers of protocol stack, Physical Layer - Basic Components, Source Encoding, Channel Encoding, Modulation, Signal Propagation. Medium Access Control –types, protocols, standards and characteristics, challenges Netw ork Layer -Routing Metrics, different routing techniques, QoS and Energy Management: Issues and Challenges in providing QoS, classifications, MAC, network layer solutions, QoS frameworks, need for energy management, classification, battery, transmission po wer, and system power management schemes.",
+          "hours": 8
+        },
+        {
+          "title": "INTRODUCTION TO THE INTERNET OF THINGS",
+          "topics": "Introduction to IoT and its importance, Elements of an IoT ecosystem, Technology drivers, Business drivers, M2M vs IOT, IPv6 vs. IPv4 , 6LoWPAN IP for Smart Objects: motivation and main challenges, Definition of Low Power and Lossy Networks (LLN); survey of current link-layer technologies for the IoT, Big Data and IOT Analytics",
+          "hours": 8
+        },
+        {
+          "title": "IOT ARCHITECTURE AND PROTOCOLS",
+          "topics": "IoT Reference Architecture - Introduction, Functional View, Information View, Deployment and Operational View, Other Relevant architectural views IOT Protocols: Identification: EPC, UCODE,IPV6,URI; Data Protocols : HTTP, MQTT,REST, COAP,AMQP, Web-socket, SOAP IoT Ethics, Privacy, Security, Security Protocols : Open Trust Protocol (OTrP), X.509",
+          "hours": 8
+        },
+        {
+          "title": "Applications of WSN for IOT",
+          "topics": "Real-World Design Constraints, Real Time Applications of IOT, Home Automation, Health care, Infrastructure, IoT in Energy and Environment, Building Automation. Learning Resource",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-571C-DIS",
+      "title": "Wireless Mobile Technologies",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction Wireless and Mobile Communication",
+          "topics": "Wireless Concept: Examples of Wireless Communication Systems, Overview of 1G,2G, 2.5G, 3G, 4G and 5G Cellular networks. Wireless Transmission, multipath propagation, two -day model, path loss, different path loss models, Doppler shift, frequency selective fading, flat fadi ng, fast fading and slow fading, Rayleigh fading, diversity-space, time and frequency, etc. The Cellular Concept: Introduction, Frequency Reuse, Channel Assignment Strategies, Handoff Strategies, Interference and System Capacity, Improving Coverage and Capacity in cellular systems. cellular model, selection of energy threshold for hand offs, etc",
+          "hours": 7
+        },
+        {
+          "title": "Multiple Access Techniques",
+          "topics": "Medium access control, hidden and exposed terminals, near and far terminals, fixed TDMA, Aloha, Slotted Aloha, CSMA, demand assigned multiple access, PRMA Packet Reservation Multiple Access, Reservation TDMA, Multiple access with collision avoidance, polling, inhibit sense multiple access, CDMA, Spread aloha multiple access",
+          "hours": 7
+        },
+        {
+          "title": "TCP Protocol",
+          "topics": "Mobile Network Layer, Mobile IP – IP packet delivery, Agent advertisement and discovery, Registration, tunneling and encapsulation, optimizations, dynamic host configuration protocol, Ad - hoc networks – destination sequence distance vector, dynamic source routing, Hierarchical algorithms, etc. Mobile Transport Layer – traditional TCP, indirect TCP, snooping TCP, Mobile TCP, Fast transmit / fast recovery, selective retransmission, transmission oriented TCP",
+          "hours": 7
+        },
+        {
+          "title": "MAC Protocol",
+          "topics": "GSM Architecture, protocols, localization and calling, handover, security, IEEE 802.11 system, architecture, protocol, physical layer, MAC layer, MAC management, HIPERLAN protocol architecture, physical layer, channel access control and sub layer, MAC sub layer, Introduction to evolving standards",
+          "hours": 7
+        },
+        {
+          "title": "Domain Name System (DNS)",
+          "topics": "Domain Name System (DNS): Name Space, Domain Name Space, Distribution of Name Space, and DNS in the internet. Remote Login TELNET: Concept, Network Virtual Terminal (NVT). File Transfer FTP and TFTP: File Transfer Protocol (FTP). Electronic Mail: SMTP and POP. Network Management -SNMP: Concept, Management Components, World Wide Web- HTTP Architecture",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-571D-DIS",
+      "title": "RF Communication",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Introduction to RF communication",
+          "topics": "History of RF/microwave engineering, various RF frequency bands, Applications of RF/microwave engineering, Lumped circuit model for a transmission line, Smith chart Quarter -wave transformer, generator and load mismatches, Lossy transmission lines, Strip li nes, Microstrip lines, The scattering Matrix, T -junction power divider, Wilkinson power divider",
+          "hours": 7
+        },
+        {
+          "title": "RF Filters and Amplifiers",
+          "topics": "Types of filters, periodic structure, filter design by insertion loss method, stepped - impedance filter, coupled line filters, RF amplifier design – two-port power gain, stability, single stage amplifier design, balanced amplifier, power amplifiers.",
+          "hours": 7
+        },
+        {
+          "title": "RF Oscillators and Mixers",
+          "topics": "General analysis, oscillators using BJT, oscillators using FET, practical consideration, crystal oscillators, Mixer characteristics, single ended diode mixer, single ended FET mixer, Balanced mixer, image rejection mixer.",
+          "hours": 7
+        },
+        {
+          "title": "RF Antennas",
+          "topics": "Types of antennas, antenna parameters such as return loss, VSWR, bandwidth, radiation pattern, gain and directivity, Microstrip antenna structure, characteristics, Advantages, disadvantages, feeding techniques, substrate materials, wearable antennas for bo dy area network, fabric materials, specific absorption rate (SAR). Savitribai Phule Pune University Master of Engineering (2025 Course) – Electronics Engineering (Digital Systems) PEC-571 D-DIS RF Communication (Elective II) Teaching Scheme Credits Examination Scheme Theory: 03 Hours/Week 03 CCE: 50 Marks End-Semester: 50 Marks",
+          "hours": 7
+        },
+        {
+          "title": "RF Antenna Design",
+          "topics": "Design and analysis of rectangular shape, circular shape and triangular shape microstrip antennas, bandwidth enhancement techniques such as gap coupling, electromagnetic coupling, compact microstrip antenna.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-572A-DIS",
+      "title": "Cloud Architecture Protocols",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Cloud Ontology & Architectural Frameworks",
+          "topics": "Foundational Models: NIST essential characteristics, SPI service model taxonomy, resource abstraction layers. Deployment Topologies: Public, Private and Hybrid structural patterns, community cloud governance frameworks. Virtualization Theory: Hypervisor ar chitectures (Bare -metal/Hosted), container isolation formalisms, docker basics and architecture.",
+          "hours": 7
+        },
+        {
+          "title": "Network Virtualization & Protocol Architectures",
+          "topics": "Encapsulation Systems: VXLAN/Geneve header structures, NVGRE protocol mechanics, virtual switching paradigms. Data Center Fabrics: BGP-EVPN control plane theory, Clos topology mathematics, spine -leaf routing algebras. Transport Layer Theory: TCP congestion control formalisms, QoS traffic sh aping models, packet scheduling algorithms",
+          "hours": 7
+        },
+        {
+          "title": "Storage Networks",
+          "topics": "Storage network design considerations: NAS and FC SANs, hybrid storage networking technologies (iSCSI, FCIP, FCoE), design for storage virtualization in cloud computing, host system design considerations. Replications in NAS and SAN environments. Data archiving solutions, analyzing compliance and archiving design considerations.",
+          "hours": 7
+        },
+        {
+          "title": "Security Protocols & Cryptographic Frameworks",
+          "topics": "Identity Systems: SAML 2.0 assertion flows, OAuth 2.0 grant type formalisms, RBAC/ABAC policy algebras. Cryptographic Systems: TLS 1.3 handshake state Savitribai Phule Pune University Master of Engineering (2025 Course) – Electronics Engineering (Digital Systems) PEC-572 A- DIS Cloud Architecture Protocols (Elective III) Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE: 50 Marks End-Semester: 50 Marks machine, AES-GCM mode operations, PKI trust hierarchies. Network Security Models: Zero Trust formal archi tectures, IPsec/IKEv2 tunneling protocols, firewall policy verification",
+          "hours": 7
+        },
+        {
+          "title": "Scalability & Reliability Theory",
+          "topics": "Elasticity Frameworks: Autoscaling hysteresis models, M/M/c queueing systems, horizontal scaling proofs. Failure Engineering: Weibull failure distributions, RTO/RPO calculus, chaos engineering principles. Cost Governance Ontologies: TCO analytical frameworks, bin packing optimization, cloud governance taxonomies.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-572B-DIS",
+      "title": "Robotics and Automation",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Principles of Robotics",
+          "topics": "Introduction to Robotics: Definitions, history , and evolution of robots, Types of robots and classification, Robot anatomy: Links, joints, actuators, end -effectors, Basics of Automation, Automation principles and strategies, Introduction to Industrial Automation Systems, Overview of control systems in a utomation, Automation tools and hardware.",
+          "hours": 7
+        },
+        {
+          "title": "Robot Kinematics and Dynamics",
+          "topics": "Kinematics: Forward and inverse kinematics, Denavit -Hartenberg (D-H) representation, Degrees of freedom, manipulability, Dynamics: Euler-Lagrange and Newton-Euler formulations, Lagrangian mechanics for manipulators, Manipulator dynamics in Cartesian space, Dynamic control and motion planning, robotic drives and their types. Grippers in Robotics and their types.",
+          "hours": 8
+        },
+        {
+          "title": "Sensors and Actuators in Robotics",
+          "topics": "Sensor Basics and Classification: Position, velocity, proximity, force, torque, tactile, pressure, temperature sensors, Acoustic, optical, infrared, ultrasonic sensors, Vision and Imaging Sensors: Camera models, stereo vision, depth sensing, Machine vision and 3D sensing, Actuators: Electric, pneumatic, and hydraulic actuators, Servo motors, stepper motors, Actuator selection and integration",
+          "hours": 7
+        },
+        {
+          "title": "Robot Operating Systems and Programming",
+          "topics": "The ROS Equation, History, Distributions & difference from other meta -operating systems. ROS framework: Operating system and its various releases, Robotic Programming, On-line and off-line programming, programming examples. Introduction to VAL and RAPID robot languages.",
+          "hours": 7
+        },
+        {
+          "title": "Applications of Robotics",
+          "topics": "Robotic Applications in Industries, Underwater robots, aerial robots (drones), mobile robots, Humanoid and legged robots, and Autonomous Guided Vehicles (AGVs). Case Studies and Emerging Trends: Robotics in warehouse automation, Human - robot collaboration (cobots), Industry 4.0 and smart manufacturing, Machine vision in inspection systems.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-572C-DIS",
+      "title": "Deep Learning and Applications",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Deep Learning",
+          "topics": "Overview of AI, ML, and DL – differences, overlaps, and applications, Biological vs. Artificial neurons, Mathematical foundations: Linear algebra, calculus, probability basics, Tensors and computational graphs Activation functions: Sigmoid, Tanh, ReLU, Leaky ReLU, Softmax, Overview of Deep Learning ecosystem: TensorFlow, PyTorch, hardware accelerators (GPU/TPU)",
+          "hours": 7
+        },
+        {
+          "title": "Neural Network Architectures and Training",
+          "topics": "Perceptron and Multilayer Perceptrons (MLP),Forward and backward propagation,Loss functions: MSE, cross -entropy,Optimization: Gradient Descent, SGD, Momentum, Adam,Weight initialization, Batch Normalization, Dropout,Learning rate schedules,Model evaluation metrics: Accuracy, precision, recall, F1-score, confusion matrix",
+          "hours": 7
+        },
+        {
+          "title": "Convolutional Neural Networks (CNNs)",
+          "topics": "CNN concepts: Convolution, pooling, padding, CNN architectures: LeNet, AlexNet, VGG, ResNet, Transfer learning basics, Applications in image classification",
+          "hours": 7
+        },
+        {
+          "title": "Recurrent Networks and Transformers",
+          "topics": "RNN basics, vanishing gradient problem, LSTM and GRU networks,Applications in NLP: Sentiment analysis, machine translation,Word embeddings: Word2Vec, GloVe, Transformer basics, BERT, Vision Transformers (ViT)",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Deep Learning and Applications",
+          "topics": "Autoencoders and Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs) and applications, Attention mechanisms in depth, Deep Reinforcement Learning basics, Model interpretability & Explain ability, Real - world applications: Healthcare, Finance, Autonomous Systems, AI ethics: Bias detection, fairness, responsible AI deployment",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-572D-DIS",
+      "title": "Cyber Security",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Cyber Security in Communication Systems",
+          "topics": "Introduction to Cyber Security: Threats, Vulnerabilities, Attacks (specific to E&TC), Security in OSI & TCP/IP Models, Communication Channel Attacks: Signal jamming, Packet sniffing, Replay attacks, Role of Firewalls, VPNs, and IDS/IPS in telecom networks, Wireless Security Protocols: WEP, WPA2, WPA3, Zigbee, Bluetooth, LoRa WAN",
+          "hours": 7
+        },
+        {
+          "title": "Cryptography for Secure Transmission",
+          "topics": "Symmetric & Asymmetric Cryptography (AES, RSA, ECC), Public Key Infrastructure (PKI), Digital Certificates, Secure Signal Modulation: CDMA security, spread spectrum, Secure Key Distribution in IoT & Sensor Networks, Digital Signatures, Hashing (SHA, MD5), and Message Integrity",
+          "hours": 7
+        },
+        {
+          "title": "Embedded & IoT System Security",
+          "topics": "Embedded System Threats: Backdoors, JTAG exploitation, Firmware tampering, IoT Architecture & Protocols (MQTT, CoAP, 6LoWPAN ), Secure Boot, TPM, Secure Firmware Updates, Wireless Sensor Networks (WSN) Security. Case Study: Smart Meter / Smart Camera Cybersecurity",
+          "hours": 7
+        },
+        {
+          "title": "Cyber Forensics, Standards, and Telecom-Specific Regulations",
+          "topics": "Basics of Cyber Forensics: Disk, Network, Mobile Forensics, Tools: Wireshark, Autopsy, Kali Linux, FTK, Telecom Regulatory Authority of India (TRAI) guidelines on data security, Cyber Law (IT Act 2000), GDPR, Privacy in Telecom Applications, Case Studies: SIM cloning, Base Station Spoofing, Satellite communication hacks",
+          "hours": 7
+        },
+        {
+          "title": "AI, ML & Quantum Impacts on Communication Security",
+          "topics": "AI/ML in Cyber Security: Anomaly and intrusion detection, traffic classification, adversarial ML.Security in 5G & Beyond: 5G vulnerabilities, network slicing, SDN/NFV security, edge computing threats. Quantum-Safe Security: Quantum threats to cryptography, Post-Quantum Cryptography (PQC), Quantum Key Distribution (QKD). Future-Proofing: Zero Trust Architecture, Blockchain in telecom security, Case Study on AI-driven security solutions.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "SEM-581-DIS",
+      "title": "Seminar",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        54,
+        57
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-DIS",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 5,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research",
+          "topics": "Basic of Research : Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de - scribe characteristics of research such as systematic, v alid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research: Why? Research Questions, Engineering Eth ics, conclusive proof-what constitutes A research project-Why take on? Case Study: Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects - environment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": 12
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of review, Developing the objectives, Preparing the research design includ ing sample Design, Sample size. Archival Literature, Why should engineers be ethical? Types of publications - Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study : Engineering dictionary, Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h- index, I-index, plagiarism, copyright infringement",
+          "hours": 12
+        },
+        {
+          "title": "Analysis of Variance and Covariance",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short -cut method for oneway ANOVA, Coding method, Two -way ANOVA, ANOVA in Latin -square design, analysis of co - variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": 12
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond Google, impact factor, H -Index. IPR: What is IPR?, importance of patents, types of IPR, process of patent.",
+          "hours": 12
+        },
+        {
+          "title": "Outcome of Research and Research Presentation",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, Testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India - services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-DIS",
+      "title": "On Job Training/ Internship",
+      "semester": 3,
+      "type": "On Job Training/ Internship",
+      "credits": 5,
+      "pages": [
+        62,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-DIS",
+      "title": "Seminar II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 3,
+      "pages": [
+        65,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-DIS",
+      "title": "Research Project Stage –I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        68,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-DIS",
+      "title": "Seminar III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        73,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-DIS",
+      "title": "Research Project Stage II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        75,
+        78
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

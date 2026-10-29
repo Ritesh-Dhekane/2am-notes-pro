@@ -1,0 +1,566 @@
+{
+  "id": "se-automobile-syllabus-2024-pattern-06082025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (2024 Pattern) in Automobile Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC201ABE",
+      "title": "Mechanics of Structures",
+      "semester": 3,
+      "type": "Major Course-1",
+      "credits": 3,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Mechanics of Materials Under Load",
+          "topics": "Simple stress and strain : Introduction to types of loads (static, dynamic, and impact loading) and various types of stresses with applications; Hooke’s law, Poisson’s ratio, modulus of elasticity, modulus of rigidity, bulk modulus. Interrelation between elastic constants; stress -strain diagram for ductile and brittle materials; factor of safety; stresses and strains in determinate an d indeterminate beams, homogeneous and composite bars under concentrated loads and self-weight; thermal stresses in plain and composite members. 1. Ductile vs. Brittle Materials Comparison (Compare stress-strain behavior using test data or plots) 2. Bookshelf Load Analysis (Study stresses in wooden vs. composite shelves) 3. Thermal Stress in Railway Tracks (Compute thermal stresses due to temperature variation) 4. Stress and strain analysis of an automotive suspension arm: (Force diagrams, stress-strain graphs, tabulated material properties and safety analysis)",
+          "hours": 7
+        },
+        {
+          "title": "Shear Force and Bending Moment Analysis of Statically Determinate",
+          "topics": "Beams (07 Hours) Shear force and bending moment diagrams : Introduction to shear force (SFD) and bending moment diagrams (BMD); SFD and BMD for statically determinate beams due to concentrated load, uniformly distributed load, and combined loading; relationship between rate of loading, shear force, and bending moment; concept of zero shear force, maximum bending moment and point of contra-flexure. 1. Balcony Cantilever Load Analysis (Analyze a cantilever balcony under live (people) and dead (self-weight) loads) 2. Bridge Girder under Traffic Loa (Model a simply supported bridge beam under vehicle loads) 3. Street Light Pole Bracket (Study bracket supporting a light pole (horizontal beam with end load) 4. Load distribution and bending moment in a suspension control arm (Evaluate shear force and bending moment in the suspension control arm of an automobile)",
+          "hours": null
+        },
+        {
+          "title": "Analysis of Determinate Structures",
+          "topics": "Bending stress on a beam: Theory of simple bending; bending stress distribution along unsymmetrical I and T sections. Shear stress on a beam: Introduction to transverse shear stress on a beam with application; shear stress distribution diagram along unsymmetrical I and T sections. Slope and deflection on a beam: Macaulay method for different types of loading and end conditions. 1. Bending Stress in a Crane Hook (T-section) (Bending stress in unsymmetrical sections, neutral axis shift) 2. Shear Stress in a Bus Chassis Cross-Section (I-beam) (Transverse shear stress, real-world I-sections) 3. Slope and Deflection in a Street Sign Pole (Macaulay Method) (Deflection under eccentric loads, boundary conditions) 4. Stress and deflection analysis of an automotive suspension beam (Analyze bending stress, shear stress, and deflection in a suspension beam subjected to loads)",
+          "hours": 7
+        },
+        {
+          "title": "Torsion of Shafts and Buckling of Columns",
+          "topics": "Torsion of circular shafts: Basic torsion formulae and assumption in torsion theory, Torque transmission on strength and rigidity basis, Shaft subject to bending and combined loading, Equivalent torque, Design of propeller shaft and axle. Buckling of columns, various end conditions. Analysis of columns and structs by Euler, Rankine and Johnson theories. 1. Torsional Analysis of a Vehicle Propeller Shaft (Analyze strength and rigidity of a hollow circular shaft under torque) 2. Torsional analysis of an automobile driveshaft (Torsion calculations, stress distribution analysis, recommendations for material selection) 3. Buckling analysis of an automobile chassis frame: (Perform buckling analysis of an automobile chassis frame under loading conditions) 4. Structural Stability of a Telescopic Pole (Rankine & Johnson Theories) (Real-world column failure modes)",
+          "hours": 7
+        },
+        {
+          "title": "Principal Stresses and Theories of Elastic Failure",
+          "topics": "Principal stresses: Transformation of plane stress; analysis of principal stresses and planes by analytical method only. Theories of elastic failure: Maximum principal stress theory, maximum shear stress theory, maximum distortion energy theory and applications. Comparison of various theories of failure. 1. Stress Analysis of a Welded Joint in a Crane Arm (Analyze plane stresses in a welded L-joint under load) 2. Principal stress analysis of an automotive brake caliper (Evaluate stress distribution and identify critical stress regions in a brake caliper under braking load) 3. Comparison of Failure Theories for Aircraft Wing Support (Apply different failure theories to a wing support under complex loading) 4. Failure analysis of an engine connecting rod using distortion energy theory: (Assess the risk of elastic failure in a connecting rod subjected to loads)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC202ABE",
+      "title": "Thermal Science",
+      "semester": 3,
+      "type": "Major Course-2",
+      "credits": 3,
+      "pages": [
+        17,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Thermodynamic Systems and Fundamental Concepts",
+          "topics": "Thermodynamic systems – closed, open, isolated, control volume, boundaries, surroundings, macroscopic and microscopic approaches. Thermodynamic properties – intensive, extensive, specific, point and path functions, state, path, process, cycle, quasi-static and non-quasi-static processes. Thermodynamic equilibrium – thermal, mechanical, chemical equilibrium. Zeroth Law of Thermodynamics, concept of temperature and temperature scales, Concept of continuum and relevance of molecular approach, Concept of work and heat – adiabatic work, dimensional homogeneity, Overview of ideal gases and real gases. 1. Identify Thermodynamic Systems in Daily Life Task: Observe and document 3 everyday devices (e.g., electric kettle, car engine, air conditioner). Objective: Classify each as an open, closed, or isolated system; define boundaries, surroundings, and type of process. Deliverable: Table with system classification, justification, and labelled diagram. 2. Application of Zeroth Law of Thermodynamics Task: Use 3 objects (e.g., metal blocks) and a thermometer to experimentally verify the Zeroth Law. Objective: Show that if object A = object B in temperature and B = C, then A = C. Deliverable: E...",
+          "hours": 7
+        },
+        {
+          "title": "Energy Transfer, Work and First Law of Thermodynamics",
+          "topics": "Forms of energy – internal, kinetic, potential, chemical, mechanical, electrical, Work transfer – isothermal, polytropic, adiabatic, and isobaric processes, Heat transfer and thermodynamic sign conventions, First Law for closed systems – application to various processes, First Law for open systems – control volume formulation, Steady Flow Energy Equation (SFEE), Applications of SFEE – turbines, compressors, nozzles, diffusers, pumps, heat exchangers, throttling valves, Enthalpy, specific heats of solids, liquids and gases, Perpetual Motion Machine of the First Kind (PMM-I) and its violation, Thermodynamic definition of boundary work and displacement work 1. Energy Balance in a Pressure Cooker Task: Analyse a pressure cooker heating phase. Objective: Apply the First Law for a closed system to calculate internal energy change, heat input, and boundary work. Deliverable: Report showing energy terms and assumptions used. 2. SFEE in a Hair Dryer or Vacuum Cleaner Task: Model air flow in a hair dryer as a control volume. Objective: Apply the Steady Flow Energy Equation (SFEE) to determine work done and energy changes in air. Deliverable: SFEE-based energy diagram and explanation. 3. I...",
+          "hours": 7
+        },
+        {
+          "title": "Properties of Pure Substances, Phase Change and Gas Behavior",
+          "topics": "Pure substances and phase-change phenomena – subcooled liquid, saturated liquid, saturated mixture, superheated vapour, P–V, T–S, and H–S diagrams for water and refrigerants, Use of steam tables and Mollier charts, Calculation of properties using interpolated data, Concept of dryness fraction and measurement using throttling and separating calorimeters, Ideal and real gas behaviour, Van der Waals and other equations of state, Compressibility factor, generalized compressibility charts, Mixtures of ideal gases – molar and mass fractions, Dalton’s Law of Partial Pressures, Amagat’s Law of Partial Volumes, Gas laws – Boyle’s Law, Charles’s Law, Avogadro’s Law, Specific heats and Mayer’s relation for gases. Thermodynamic Relations: Maxwell relations, Clapeyron equation, Joule-Thomson effect. 1. Steam Quality Estimation in a Boiler Lab Setup Task: Measure pressure and temperature after throttling; estimate dryness fraction using a throttling calorimeter. Objective: Determine steam quality and phase using steam tables and Mollier chart. Deliverable: Dryness fraction calculation and steam condition (wet/dry/superheated). 2. Refrigerator Performance Study Using P–H Diagrams Task: Obtain ...",
+          "hours": 7
+        },
+        {
+          "title": "Second Law of Thermodynamics, Entropy and the Carnot Cycle",
+          "topics": "Limitations of the First Law – need for Second Law, heat engines and heat pumps – efficiency and COP, Kelvin–Planck and Clausius statements, equivalence and implications, concepts of reversible and irreversible processes, Carnot cycle – theoretical heat engine and refrigerator, Carnot efficiency, Carnot theorems and thermodynamic temperature scale. Clausius inequality and entropy – concept and property, Entropy change during processes for pure substances and ideal gases, Entropy generation and principle of increase of entropy, T–DS equations, entropy– enthalpy and entropy –internal energy relations, Second Law analysis of systems an d control volumes, Numerical problems using entropy balance and irreversibility estimation. 1. Analyse the Efficiency of a Home Refrigerator Task: Measure electrical input and cooling output (via estimated heat absorbed from a compartment). Objective: Calculate the Coefficient of Performance (COP) and compare it with ideal values using Carnot efficiency. Deliverable: COP calculation and analysis of deviations from the ideal case. 2. Identify and Classify Reversible vs. Irreversible Processes Task: Observe and report on 3 real processes (e.g., mixing ...",
+          "hours": 7
+        },
+        {
+          "title": "Exergy, Availability and Psychometrics in Thermodynamic Systems",
+          "topics": "Concept of exergy (availability), available and unavailable energy, Exergy for closed and open systems, Dead state and ambient conditions, Irreversibility and Gouy–Stodola theorem, Exergy destruction, exergy balance for steady flow systems, Second-Law (rational) efficiency, Basic concepts of atmospheric air and psychometrics, specific humidity, relative humidity, dew point temperature, dry bulb and wet bulb temperature, adiabatic saturation temperature, Use of psychrometric charts, Psychrometric processes – sensible heating, sensible cooling, humidification, dehumidification, mixing of air streams, Applications to air-conditioning systems and cooling towers. 1. Exergy Analysis of an Air Conditioner (Room-Based Study) Task: Record ambient and room conditions; estimate the useful work potential and exergy destruction in cooling. Objective: Apply exergy balance and calculate second-law efficiency. Deliverable: Exergy flow diagram, calculations, and a summary of irreversibility sources. 2. Use of Psychrometric Chart in Real Weather Conditions Task: Record real atmospheric data (dry bulb, humidity) from a weather app and plot the state point on a psychrometric chart. Objective: Deter...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC203ABE",
+      "title": "Materials Science and Metallurgy",
+      "semester": 3,
+      "type": "Major Course-3",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Structure of metals and crystalline solids",
+          "topics": "Classification of engineering materials, atomic structure, bonding types (metallic, ionic, covalent, van der Waals), crystal structures (BCC, FCC, HCP), crystallographic planes and directions, imperfections (point, line, surface defects), grain boundaries, grain size, solidification, metallography basics. 1. Material Classification Chart: Create a comparative chart of engineering materials (metals, ceramics, polymers, composites) with examples, bonding types, and typical applications. 2. Crystal Structure Modelling: Build 3D physical or digital models of BCC, FCC, and HCP unit cells; identify coordination numbers and atomic packing factors. 3. Grain Size vs. Strength Analysis: Analyse metallographic images (real or simulated) to measure grain sizes and correlate with mechanical properties using Hall-Petch relation. 4. Defect Identification Assignment: Label and explain types of imperfections in given microstructure images; relate them to changes in material properties.",
+          "hours": 7
+        },
+        {
+          "title": "Phase diagrams and phase transformations",
+          "topics": "Gibbs phase rule, unary phase diagrams, binary phase diagrams, lever rule, tie-line rule, eutectic reactions, eutectoid reactions, peritectic reactions, iron–iron carbide diagram, TTT diagrams, CCT diagrams, nucleation, growth, pearlite, bainite, martensite, microstructure evolution, numerical problems. 1. Binary Phase Diagram Analysis: Use a real alloy system (e.g., Cu-Ni) to apply the lever rule and tie-line rule; determine phase fractions at specified temperatures. 2. Iron–Iron Carbide Interpretation: Analyze the Fe-Fe₃C diagram to identify microstructures at different compositions and cooling rates; explain eutectoid transformation. 3. TTT/CCT Diagram Application: Given steel composition, use TTT/CCT diagrams to predict resulting microstructures under various heat treatment conditions. 4. Microstructure Evolution Case Study: Study and report how pearlite, bainite, and martensite form in a quenched steel sample with reference to nucleation and growth processes.",
+          "hours": 7
+        },
+        {
+          "title": "Heat treatment and strengthening of materials",
+          "topics": "Annealing, normalizing, hardening, tempering, carburizing, nitriding, flame hardening, induction hardening, heat treatment of alloy steels, heat treatment of cast irons, hardenability, quench test, grain size control, solid solution strengthening, cold work, recovery, recrystallization, grain growth, numerical problems. 1. Heat Treatment Process Comparison: Compare the effects of annealing, normalizing, and hardening on the microstructure and hardness of alloy steels. Perform a quench test to measure hardenability. 2. Carburizing vs. Nitriding Analysis: Study the effects of carburizing and nitriding on the surface hardness and wear resistance of steel; include experimental data to compare results. 3. Grain Size Control and Strengthening: Investigate the relationship between grain size and mechanical properties in steel after heat treatment (e.g., tempering). 4. Recrystallization and Cold Work Effect: Perform experiments to evaluate the effects of cold work, recovery, and recrystallization on the microstructure and mechanical properties of metals, with an emphasis on grain growth.",
+          "hours": 7
+        },
+        {
+          "title": "Mechanical behavior and failure of materials",
+          "topics": "Stress–strain behavior, elastic deformation, plastic deformation, hardness testing (Brinell, Rockwell, Vickers), tensile testing, impact testing, fatigue, creep, ductile fracture, brittle fracture, crack propagation, fractography, failure analysis, non-destructive testing techniques, numerical problems. 1. Stress-Strain Curve Analysis: Perform tensile testing on a metal sample, plot the stress-strain curve, and analyse elastic and plastic deformation characteristics, including yield strength and ultimate tensile strength. 2. Hardness Testing Comparison: Conduct Brinell, Rockwell, and Vickers hardness tests on the same material, then compare and analyse the results to understand the relationship between hardness and material properties. 3. Fatigue and Fracture Analysis: Simulate fatigue loading on a component (e.g., a metal rod) and perform a fractographic analysis to study crack initiation, propagation, and the final fracture. 4. Non-Destructive Testing (NDT) Techniques: Use ultrasonic or X-ray NDT techniques on a metal specimen to detect internal defects. Compare the findings with actual physical failure modes and propose preventive measures based on the results.",
+          "hours": 7
+        },
+        {
+          "title": "Engineering alloys, corrosion and emerging topics",
+          "topics": "Plain carbon steels, alloy steels, stainless steels, gray cast iron, white cast iron, malleable cast iron, ductile cast iron, aluminum alloys, copper alloys, nickel alloys, titanium alloys, magnesium alloys, corrosion types (galvanic, pitting, stress corrosion), shape memory alloys, electrochemical corrosion, cathodic protection, protective coatings, powder metallurgy, nanomaterials, applications of nanomaterials. 1. Material Selection: Compare plain carbon steels, stainless steels, and aluminium alloys for a specified application, considering mechanical properties and corrosion resistance. 2. Corrosion Analysis: Study galvanic, pitting, and stress corrosion in alloys, and propose solutions like cathodic protection or coatings to mitigate these issues. 3. Shape Memory Alloys: Explore the use of shape memory alloys in practical applications (e.g., medical devices), highlighting their unique properties and benefits. 4. Nanomaterials in Industry: Investigate the role of nanomaterials in electronics or biomedical applications, emphasizing their advanced properties and uses.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-ABE",
+      "title": "Material Testing and Characterization Lab",
+      "semester": 3,
+      "type": "Major Course-3A",
+      "credits": 1,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM221ABE",
+      "title": "Mathematical Methods in Engineering",
+      "semester": 3,
+      "type": "Multidisciplinary Course-1",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Numerical Analysis of Differential Equations",
+          "topics": "Initial and boundary value problems: introduction. Initial value problems: Ordinary differential equations (ODE): Taylor method, Euler method, Runge-Kutta 4th order, simultaneous equations using Runge-Kutta 2nd order method. Boundary value problems (BVP). Introduction. Partial differential equations (PDE): finite difference method to 1D problems, Rayleigh’s method, Galerkin’s method, Laplace equation in 2D. 1. Transient cooling of brake disc (IVP - ODE using Euler and Taylor methods) (Model the cooling behaviour of a brake disc after sudden braking using ODE and solve using Euler and Taylor methods). 2. Heat transfer in an engine cylinder wall (BVP - PDE) (Analyse the steady-state temperature distribution across a 1D or 2D engine cylinder wall using the finite difference method (Laplace equation in 2D))",
+          "hours": 7
+        },
+        {
+          "title": "Numerical Integration",
+          "topics": "Numerical Integration (1D): Trapezoidal rule, Simpson’s 1/3rd rule, Simpson’s 3/8th rule, Gauss quadrature for 2-point and 3-point method, double integration. Double integration: Trapezoidal rule, Simpson’s 1/3rd rule. 1. Evaluate work done in an engine cycle (P–V diagram) (Compute the work done in one cycle of an internal combustion engine using P–V data and numerical integration.) 2. Heat transfer over a fin surface. (Estimate the total heat transfer from a rectangular fin surface using 2D temperature distribution data.)",
+          "hours": 7
+        },
+        {
+          "title": "Curve Fitting and Regression Techniques",
+          "topics": "Curve fitting: least square technique; first order, quadratic, power equation, exponential equation. Regression analysis: linear regression, multiple regressions. Interpolation: Lagrange forward and inverse interpolation, Newton forward interpolation. 1. Engine performance curve fitting using experimental data. (Fit curves to engine performance data (e.g., torque vs. RPM, power vs. RPM)) 2. Fuel efficiency prediction using multiple regression. (Predict fuel efficiency using multiple vehicle parameters like weight, engine capacity, gear ratios, and drag coefficient) 3. Regression analysis for vehicle weight and braking distance. (Investigate how vehicle curb weight affects braking distance under standard conditions)",
+          "hours": 7
+        },
+        {
+          "title": "Statistics and probability",
+          "topics": "Measures of central tendency: arithmetic mean, median, mode. Measurement of variability and dispersion: range, interquartile range, variance, standard deviation, coefficient of variation. Measure of shape: definition of shape parameters, skewness, types of skewness, Karl Pearson’s coefficient of skewness, kurtosis, types of kurtosis, mesokurtic, leptokurtic, platykurtic. Correlation: concept of correlation, Karl Pearson’s coefficient of correlation, Spearman’s rank correlation. Probability: joint, conditional and marginal probability, Bayes’ theorem, Discrete and continuous probability distributions, normal, lognormal and Weibull distributions, applications. 1. Quality control of cylinder bore diameter measurements. (Analyse a batch of cylinder bore diameter measurements from engine manufacturing.) 2. Vibration data analysis for ride comfort. (Evaluate vibration readings from seats or suspension systems under different road conditions.) 3. Failure probability analysis of automotive components. (Predict the probability of component failure using real-world or simulated failure data)",
+          "hours": 7
+        },
+        {
+          "title": "Statistical Inference and Reliability",
+          "topics": "Statistical inference: test of hypothesis, null and alternative hypotheses, type I and II errors, level of significance, p-value, chi-square test, t-test, ANOVA, ANCOVA, manufacturing process validation. Reliability: introduction to reliability, reliability definition, failure rate, repair rate, reliability function, and reliability models, exponential distribution, mean time to failure (MTTF), mean time between failures (MTBF). Failure Mode and Effects Analysis (FMEA): product life cycle prediction, preventive maintenance planning, system design optimization (theoretical treatment only). 1. Hypothesis testing for surface roughness in CNC machining. (Validate whether new tool material improves surface finish) 2. Reliability estimation of automotive battery life. (Estimate the reliability and failure rate of EV batteries under different operating conditions) 3. Chi-square test for fitment of gearbox defect categories. (Determine whether observed gearbox failure types match expected frequencies) 4. FMEA for electric vehicle battery pack. (Perform a failure mode and effects analysis (FMEA) on the battery pack of an electric vehicle to predict potential failure modes)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "MDM-222-ABE",
+      "title": "Electrical/ Electronics and computer Interfacing Technology Lab",
+      "semester": 3,
+      "type": "Multidisciplinary Course-1A",
+      "credits": 1,
+      "pages": [
+        30,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective-I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-231-ABE",
+      "title": "Workshop Practices",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 1,
+      "pages": [
+        33,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "HSSM-232-ABE",
+      "title": "Entrepreneurship Development and Innovation",
+      "semester": 3,
+      "type": "Entrepreneurship/Management course",
+      "credits": 1,
+      "pages": [
+        35,
+        38
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurial Mindset, Creativity and Innovation",
+          "topics": "• Entrepreneurial mindset: curiosity, resilience, risk-taking, leadership • Types of entrepreneurs – Technical, Non-technical, Social, Entrepreneur • Innovation types: product, service, process, frugal (Jugaad) innovation • Design Thinking: Empathize, Define, Ideate, Prototype, Test • Creativity tools: Mind Mapping, SCAMPER, TRIZ • Success stories from Indian innovators • Case studies: Innovative Indian products/startups",
+          "hours": 8
+        },
+        {
+          "title": "Opportunity Identification and Business Modelling",
+          "topics": "● Opportunity Recognition and Idea Generation - Problem identification and need analysis ● Market research: tools and techniques ● Business Model Canvas: customer segments, value proposition, channels ● Lean Startup methodology & Minimum Viable Product (MVP) ● Business plan components and structure ● Cost estimation, revenue models, and unit economics ● Funding options: Government schemes (Startup India, MSME), VC, Angel Investors, ● crowd funding ● Basics of financial literacy: Profit-Loss, Break-even, cash flow.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "VEC-233-ABE",
+      "title": "Universal Human Values",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "● Understanding Value Education ● Self-exploration as the Process for Value Education ● Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment ● Right Understanding, Relationship and Physical Facility ● Happiness and Prosperity - Current Scenario ● Method to Fulfil the Basic Human Aspirations Exemplars / Practical Applications Explore real life applications using Practical No. 1, 2, 3, 4",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "● Understanding Human being as the Co-existence of the Self and the Body ● Distinguishing between the Needs of the Self and the Body ● The Body as an Instrument of the Self ● Understanding Harmony in the Self ● Harmony of the Self with the Body ● Programme to Ensure self-regulation and Health Exemplars / Practical Applications Explore real life applications using Practical No. 5, 6.",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "● Harmony in the Family - the Basic Unit of Human Interaction ● \"Trust' - the Foundational Value in Relationship ● 'Respect' - as the Right Evaluation ● Values in Human-to-Human Relationship ● Understanding Harmony in the Society ● Vision for the Universal Human Order Exemplars / Practical Applications Explore real life applications using Practical No. 7, 8",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "● Understanding Harmony in the Nature ● Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature ● Realizing Existence as Co-existence at All Levels ● The Holistic Perception of Harmony in Existence Exemplars / Practical Applications Explore real life applications using Practical No. 9,10,11",
+          "hours": 3
+        },
+        {
+          "title": "Implications of the Holistic Understanding - Professional Ethics Look",
+          "topics": "● Basis for Universal Human Values ● Definitiveness of (Ethical) Human Conduct ● Professional Ethics in the light of Right Understanding ● A Basis for Humanistic Education, Humanistic Constitution and Universal Human Order ● Holistic Technologies, Production Systems and Management Models Typical Case Studies ● Strategies for Transition towards Value-based Life and Profession Exemplars / Practical Applications Explore real life applications using Practical No. 12,13,14",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-ABE",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        42,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC251ABE",
+      "title": "Fluid Statics and Dynamics",
+      "semester": 4,
+      "type": "Major Course-4",
+      "credits": 3,
+      "pages": [
+        46,
+        48
+      ],
+      "units": [
+        {
+          "title": "Fluid Properties and Fluid Statics",
+          "topics": "Introduction to fluid mechanics, classification of fluids and flows, properties of fluids – density, specific weight, specific gravity, viscosity, surface tension, vapor pressure, capillarity, pressure and its measurement, barometers, manometers, hydrostatic pressure, Pascal’s law, forces on plane and curved surfaces, buoyancy and stability of floating bodies. 1. Water Storage Tank System Analyse hydrostatic pressure and forces on tank walls; recommend material and shape based on fluid properties and pressure distribution. 2. Manometer and Barometer Construction Build a simple U-tube manometer and barometer using household items; measure atmospheric and fluid pressures, and compare with standard values. 3. Buoyancy and Stability Test Create floating models using different materials; observe buoyancy, stability, and center of gravity; validate using Archimedes' principle. 4. Viscosity Measurement of Fluids Determine viscosity of household fluids (e.g., oil, honey, water) using a falling sphere method and compare results.",
+          "hours": 7
+        },
+        {
+          "title": "Fluid Kinematics and Dynamics",
+          "topics": "Types of flow, steady, unsteady, uniform, non-uniform, laminar, turbulent, flow visualization – streamlines, path lines, streak lines, acceleration of fluid particles, rotational and irrotational flows, stream function and velocity potential, continuity equation in Cartesian coordinates, concept of system and control volume, Reynolds transport theorem, conservation of mass and momentum. 1. Flow Pattern Visualization Experiment. Use dye or coloured particles in water to observe and distinguish between streamlines, path lines, and streak lines in steady and unsteady flows. 2. Laminar vs. Turbulent Flow Analysis. Conduct a pipe flow experiment at different velocities to observe transition from laminar to turbulent flow and calculate the Reynolds number. 3. Continuity Equation Application in Pipe Network. Analyse a simple pipe junction or household plumbing to verify mass conservation using flow rates and the continuity equation. 4. Control Volume and Momentum Conservation Study. Evaluate the forces on a bend in a water jet or nozzle using control volume analysis and apply Reynolds Transport Theorem for momentum conservation.",
+          "hours": 7
+        },
+        {
+          "title": "Energy Analysis and Applications",
+          "topics": "Bernoulli’s equation, derivation, assumptions, and limitations, applications, venturimeter, orifice meter, pitot tube, linear momentum equation – applications to pipe bends, nozzles, and jets, energy grade line and hydraulic grade line, head loss concepts, total energy and power concepts in fluid motion, microfluidics, smart fluid systems. 1. Bernoulli’s Principle Demonstration Conduct an experiment (e.g., blowing over a paper strip or using a spray bottle) to demonstrate Bernoulli’s effect and explain assumptions and limitations. 2. Flow Measurement Using Venturimeter or Orifice Meter Simulate or analyse flow rate in a pipeline using venturimeter/orifice meter data and apply Bernoulli’s equation. 3. Force Analysis on Pipe Bends Calculate the force exerted by fluid flow on a pipe bend using the linear momentum equation and compare with real pipe systems. 4. Energy and Head Loss Evaluation in Pipelines Measure or estimate head losses in a piping system and plot the energy grade line (EGL) and hydraulic grade line (HGL).",
+          "hours": 7
+        },
+        {
+          "title": "Dimensional analysis and internal flows",
+          "topics": "Dimensional homogeneity, Buckingham π theorem, important dimensionless numbers, Reynolds, Froude, Weber, Mach, Euler, similarity laws and model testing, laminar and turbulent flow through pipes, Hagen– Poiseuille equation, Darcy–Weisbach equation, friction factor and Moody chart, major and minor losses in pipe systems, series and parallel pipe networks, introduction to computational fluid dynamics (CFD). 1. Model testing with π Theorem – Apply dimensional analysis and similarity laws for scaling a physical model. 2. Reynolds Number Calculation – Determine flow type (laminar/turbulent) in a pipe using Reynolds number. 3. Pipe Flow Losses – Calculate head losses using Darcy-Weisbach and compare with the Moody chart. 4. Flow Experiment – Observe laminar/turbulent flow and apply Hagen-Poiseuille for laminar and Darcy-Weisbach for turbulent.",
+          "hours": 7
+        },
+        {
+          "title": "Boundary layer and external flows",
+          "topics": "Boundary layer concept – thickness, separation, laminar and turbulent boundary layers, drag and lift – skin friction and pressure drag, flow over immersed bodies – streamlined and bluff bodies, lift on airfoils – circulation theory basics, introduction to compressible flow – Mach number, isentropic flow concepts, shock waves (qualitative), area–velocity relation in nozzles (overview), energy-efficient nozzle and propulsion designs. 1. Boundary Layer Analysis – Study flow separation and boundary layer types over a flat plate or cylinder. 2. Drag and Lift Measurement – Measure drag and lift on streamlined and bluff bodies in a wind tunnel. 3. Airfoil Lift Calculation – Apply circulation theory to calculate airfoil lift and compare with experimental data. 4. Shock Wave and Mach number – Observe shock waves and calculate Mach number in a nozzle or supersonic setup.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC252ABE",
+      "title": "Manufacturing Technology",
+      "semester": 4,
+      "type": "Major Course-5",
+      "credits": 3,
+      "pages": [
+        49,
+        51
+      ],
+      "units": [
+        {
+          "title": "Foundry Technology and Modern Casting Processes",
+          "topics": "Overview of casting processes including pattern types, materials, design, and allowances. Study of moulding sands, their properties, and sustainable alternatives. Core making techniques, melting furnaces, and gating system design. Numerical methods for mold filling an d riser placement. Principles of cooling, directional and progressive solidification, and solidification rate estimation. Casting finishing, defect analysis, and remedies. Introduction to permanent mould, investment, centrifugal, and continuous casting methods. 1. Design a Pattern and Calculate Allowances for a Real-Life Object (Apply concepts of pattern design and dimensional allowances) 2. Comparative Study of Industrial Furnaces (Understand industrial melting techniques and energy efficiency) 3. Eco-Friendly Molding Sand Alternatives (Explore sustainable alternatives to conventional molding sands) 4. Casting Defect Analysis in Automotive Parts (Study casting defects in a real-world automotive casting (e.g., piston, clutch plate, or gearbox housing).",
+          "hours": 7
+        },
+        {
+          "title": "Techniques in Metal Forming Processes",
+          "topics": "Plastic deformation. Stress -strain diagram for different types of material, Hot and Cold working, Factors affecting plastic deformation, Yield criteria, Concept of flow stress, Forming Limit diagram Rolling Process: Rolling terminology, Friction in rolling, Calculation of rolling load. Smart rolling mills with adaptive control and digital twins. Forging: Open and closed die forging, Forging operations Extrusion: Types, Process parameter Wire and Tube Drawing: Wire and tube drawing process, Die profile Friction and lubrication in metal forming, Forming defects, causes and remedies for all forming processes. 1. Stress-Strain Analysis of Engineering Materials (Develop fundamental understanding of material behavior under load) 2. Smart Rolling Mills: A Report on Industry 4.0 in Rolling Operations (Digital technologies in manufacturing) 3. Design and Calculation of a Simple Forging or Rolling Operation (Apply basic mechanical equations to metal forming problems) 4. Forging and Extrusion in Automotive Parts Production (Examine the use of forging and extrusion processes in producing critical automotive components such as engine blocks or suspension parts)",
+          "hours": 7
+        },
+        {
+          "title": "Sheet Metal Forming Processes",
+          "topics": "Types of sheet metal operations, Press working equipment and terminology, Types of dies, Clearance analysis, Estimation of cutting forces, Centre of pressure and blank size determination, Hybrid dies. Design of strip lay-out, Blanking die design, Introduction to Drawing, Bending dies, Methods of reducing forces, Formability and forming limit diagrams. 1. Design a Blanking Die for a Simple Component (Die design fundamentals and calculations) 2. Strip Layout Design for Minimum Material Wastage (Material optimization through proper strip layout design) 3. Sheet Metal Forming Defects and Force Reduction Techniques (Analyze failure modes and explore energy-efficient forming) 4. Blanking Die Design for Automotive Components (Design a blanking die for an automotive part)",
+          "hours": 7
+        },
+        {
+          "title": "Welding and Joining Processes",
+          "topics": "Classification of joining processes; welding terminology and types of joints. Arc welding processes: Principles and equipment of single carbon arc welding, FCAW, TIG, MIG, SAW, hybrid laser welding. Resistance welding: Spot, seam, and projection welding; heat balance. Gas welding a nd cutting. Soldering, brazing, and braze welding. Welding metallurgy and heat -affected zone. Weld inspection, defects in joints, and their remedies. 1. Welding Process Selector for Real-World Applications (Match different welding processes with industrial use cases) 2. Weld Defects and Inspection Techniques – Case Study Report (Build understanding of welding quality control and root cause analysis) 3. Welding Metallurgy and Heat-Affected Zone Simulation (Thermal effects and material changes due to welding) 4. Study of Brazing and Welding in Automotive Exhaust Systems",
+          "hours": 7
+        },
+        {
+          "title": "Polymers and Composites",
+          "topics": "Polymers: Thermoplastics, Thermosetting, Processing methods, Thermoforming (Pressure, Vacuum), Extrusion (Film, Pipe, Sheet), Composite Processing: Hand lay -up, Spray lay-up, Filament winding, Resin transfer moulding, Pultrusion. Advanced Composites: MMCs, CMCs, Carbon -carbon, Polymer matrix, Nanocomposites. Bio-based and biodegradable polymers (e.g., PLA, PHA). 1. Comparative Study of Thermoplastics vs Thermosetting Polymers in Real-Life Products (Build material identification and application skills) 2. Design and Process Flow of a Thermoformed Product (Understand forming operations with real-world product focus) 3. Bio-Based and Biodegradable Polymers: A Sustainability Report (Encourage environmental awareness and future-oriented thinking) 4. Application of Plastic and Composite Materials in Car Bumpers: 5. Arrange an industrial visit to manufacturing industry.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC253ABE",
+      "title": "Applied Thermodynamics and Heat Transfer",
+      "semester": 4,
+      "type": "Major Course-6",
+      "credits": 3,
+      "pages": [
+        52,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Internal Combustion Engines and Thermodynamic Cycles",
+          "topics": "Definitions and Classifications of Engines: Conventional IC engines (SI, CI), hybrid engines, and alternative fuel engines (CNG, LPG, hydrogen engines). Basic Engine Components and Nomenclature: Advanced materials in engine components (lightweight alloys, ceramic coatings), and integration of sensors for real-time performance monitoring. Air-Standard Cycles: Otto, Diesel, and Dual cycles, developments in cycle optimization for fuel efficiency. Fuel-Air Cycles and Their Analysis: Advanced fuel injection systems (direct injection, multi -point injection) and their impact on fuel efficiency. Actual Cycles and Their Deviations from Ideal Cycles: Analysis of real-world deviations due to friction, heat losses, and the role of new technologies (e.g., variable valve timing, turbocharging). 1. Engine Type Comparison Report Task: Compare SI, CI, hybrid, and alternative fuel engines based on performance, emissions and applications. Outcome: IDENTIFY and CLASSIFY various engine types for appropriate usage. 2. Component Material Study Task: Visit a workshop or online database to analyze materials used in engine components. Outcome: EXAMINE materials based on properties like strength, weight,...",
+          "hours": 7
+        },
+        {
+          "title": "Combustion in Internal Combustion Engines",
+          "topics": "Combustion in Spark Ignition (SI) Engines: Advanced ignition technologies (e.g., spark plugless engines), lean burn combustion and their impact on emissions Combustion in Compression Ignition (CI) Engines: Low-temperature combustion (LTC) and homogeneous charge compression ignition (HCCI) for improved efficiency and reduced emissions. Ignition Systems and Flame Propagation: Developments in electronic control and piezoelectric ignition systems. Knocking Phenomena in SI and CI Engines: Advanced knock detection systems, impact of biofuels on knock resistance, and active combustion control technologies (e.g., real-time monitoring with sensors). 1. Ignition Technology Survey Task: Research spark plugless and advanced ignition systems in modern engines. Outcome: IDENTIFY ignition advancements and their role in emission reduction. 2. Biofuel Knock Analysis Task: Study the effect of biofuels on knocking in SI and CI engines using data from research articles. Outcome: ANALYZE knock resistance properties of alternative fuels. 3. Flame Propagation Demo Task: Simulate or observe flame front propagation in SI engines under lean/rich conditions. Outcome: INTERPRET the influence of mixture str...",
+          "hours": 7
+        },
+        {
+          "title": "Engine Performance and Systems",
+          "topics": "Cooling and Lubrication Systems: Innovations in thermal management (e.g., electric water pumps, advanced radiators), low-friction coatings, and integrated cooling technologies in hybrid engines Supercharging and Turbocharging Mechanisms: Electric turbocharging, hybrid turbochargers, and advancements in turbo-lag reduction technologies Scavenging in Two -Stroke Engines: New developments in two -stroke engine technology, including direct fuel injection and improved scavenging methods for higher power output and lower emissions Engine Performance Parameters: Real-time monitoring and diagnostics using IoT (Internet of Things), and predictive maintenance through data analytics Heat Balance and Energy Flow in Engines: Research on waste heat recovery technologies (e.g., thermoelectric generators, organic Rankine cycle) for improving overall efficiency Variable Compression Ratio (VCR) Engines: Latest advancements in VCR technology and its role in improving engine efficiency across varying loads and driving conditions. 1. Cooling System Innovation Review Task: Study modern cooling methods (e.g., electric pumps, low-friction coatings) in hybrid engines. Outcome: EVALUATE thermal managemen...",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Heat Transfer & Conduction Heat Transfer",
+          "topics": "Introduction to Heat Transfer: Basic concepts and definitions, Modes of heat transfer: conduction, convection, and radiation, Thermal conductivity and its measurement. Conduction Heat Transfer: Fourier's law of heat conduction, Steady-state conduction in one dimension, Conduction in cylindrical and spherical geometries, Transient heat conduction and lumped capacitance method, Numerical methods for solving conduction problems. 1. Thermal Conductivity Material Survey Task: Collect data on thermal conductivity of metals, insulators, and composites used in industry. Outcome: COMPARE materials based on their heat transfer characteristics. 2. One-Dimensional Heat Flow Experiment Task: Perform or simulate a steady-state conduction experiment through a flat wall. Outcome: EVALUATE heat transfer rate using Fourier’s law. 3. Geometric Conduction Case Study Task: ANALYSE heat loss through cylindrical and spherical systems (e.g., pipes, tanks). Outcome: SOLVE conduction problems for different geometries. 4. Transient Heat Transfer Simulation Task: Use lumped capacitance or numerical methods to simulate transient conduction in small objects. Outcome: INTERPRET temperature variation with time...",
+          "hours": 7
+        },
+        {
+          "title": "Convection and Radiation",
+          "topics": "Convection Heat Transfer: Boundary layer theory, Forced convection in ducts and pipes, Natural convection and free convection, Empirical correlations for heat transfer coefficients, Heat transfer in turbulent flow Heat Exchangers: Types of heat exchangers, Log mean temperature difference (LMTD) method, Effectiveness-NTU method, Design considerations and fouling factors, Compact heat exchangers. Phase Change Heat Transfer: Boiling heat transfer, Condensation heat transfer, Heat transfer during phase change processes. Radiation Heat Transfer: Basic principles of thermal radiation, Emissivity and absorptivity, Blackbody radiation and Stefan-Boltzmann law, Shape factors and view factors, Radiation exchange between surfaces 1. Convection Case Study in HVAC Task: Analyse natural vs. forced convection in real applications like cooling of electronic devices or HVAC ducts. Outcome: COMPARE convection types and APPLY empirical correlations for heat transfer estimation. 2. Heat Exchanger Design Exercise Task: Select a heat exchanger for a given industrial application and analyze it using LMTD or NTU methods. Outcome: CALCULATE performance metrics and EVALUATE design suitability. 3. Boiling...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-ABE",
+      "title": "Thermo-Fluid Engineering Lab",
+      "semester": 4,
+      "type": "Major Course-6A",
+      "credits": 2,
+      "pages": [
+        56,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-ABE",
+      "title": "Artificial Intelligence and Machine Learning",
+      "semester": 4,
+      "type": "Multidisciplinary Course-2",
+      "credits": 2,
+      "pages": [
+        60,
+        61
+      ],
+      "units": [
+        {
+          "title": "Introduction to AIML and Feature Extraction and Selection",
+          "topics": "Introduction to AI & ML, Need of AI in Mechanical Engineering, Approaches to AI: Cybernetics and brain simulation, Symbolic, Sub -symbolic, Statistical, Approaches to ML: Supervised learning, Unsupervised learning, Reinforcement learning. Introduction to Data, Elements of Dataset, Introduction to various types of data Feature extraction: Statistical Features, Principal Component Analysis, Feat ure selection: Ranking, Decision tree - Entropy reduction and information gain (Numerical 2-3 Features- Preference (IG), Exhaustive, best first, Greedy forward & backward, Multi collinearity – Heatmap 1. Machine Failure Prediction 2. Decision Tree-Based Fault Detection in CNC Machines",
+          "hours": 6
+        },
+        {
+          "title": "ML Algorithms: Classification & Regression",
+          "topics": "Supervised Learning: Linear Regression (Line, Plane & Hyperplane) Concept, Multi -Variable Linear Regression, Poly Regression, Logistic Regression, Naive Bayes Classifiers, k -NN Classification, Support Vector Machines Ensemble Techniques (Regression & Classification): Decision tree (ID3-IG), Random Forest, Bagging & Boosting, XGB Classifier. Unsupervised Learning: K-means Clustering, Hierarchical Clustering, Dimension Reduction-PCA Classification Algorithm & Regression Algorithm s: Bias -Variance Trade off, Distance Parameters in Machine Learning (Formula). 1. Predicting Machine Wear & Tear Using Linear Regression 2. Classification of Defective vs. Non-Defective Components Using SVM",
+          "hours": 6
+        },
+        {
+          "title": "Feature Engineering, Development of ML Model & Evaluation",
+          "topics": "Feature Engineering, Model Selection & Tuning : Feature engineering, Model selection, Model tuning, Model performance measures, Regularizing the Linear models, ML pipeline, Bootstrap sampling, Grid search CV, Randomized search CV, K fold cross-validation. Problem identification : classification, clustering, regression, ranking. Steps in ML modeling, Data Collection, Data pre -processing, Model Selection, Model training (Training, Testing, K -fold Cross Validation), Model evaluation (Accuracy, Precision, Recall, True Positive, False Positive, etc.), Hyper parameter Tuning: 1) Probability 2) Hypothesis 3) Confusion Matrix (Common dataset – Common problem statement), Influence of Type 1 & Type 2 error 1. Machine Condition Monitoring Using Feature Engineering 2. Fault Detection Using Confusion Matrix Analysis",
+          "hours": 6
+        },
+        {
+          "title": "Reinforced and Deep Learning",
+          "topics": "Neural Network : Introduction to Perceptron & NN, Activation Function & Loss Function, Gradient Descent & Gradient Acescent, Batch Normalization, Hyper Parameter Tuning Characteristics of reinforced learning; Algorithms: Framework of RL, characteristics, Exploration Vs. Exploitation Trade-off, Bellman Optimality Principle, Types of RL: Value Based, Policy Based, Model Based; Positive vs Negative Reinforced Learning; Models: Markov Decision Process, Q Learning, SARSA. Computer Vision: Introducing Image Dataset, Introduction to CNN, Convolution, Pooling & Padding, CNN Forward & Backward Propagation, CNN architectures, Transfer Learning. Applications of Reinforced, Computer Vision and Deep Learning in Mechanical Engineering (Jobs), Industry 5.0 1. Computer Vision-Based Defect Detection in Mechanical Parts 2. Reinforcement Learning for Robotic Arm Optimization",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-281-ABE",
+      "title": "Solid Modeling and Drafting",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 1,
+      "pages": [
+        62,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-282-ABE",
+      "title": "Data Science and AIML",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 1,
+      "pages": [
+        65,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-283-ABE",
+      "title": "Modern Indian Language: 02",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        68,
+        70
+      ],
+      "units": []
+    },
+    {
+      "code": "HSSM-284-ABE",
+      "title": "Engineering Economics and Financial Management",
+      "semester": 4,
+      "type": "Entrepreneurship/Management course",
+      "credits": 1,
+      "pages": [
+        71,
+        73
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business Economics and Finance",
+          "topics": "Business Economics Basics : Definition, scope, and role in engineering, Microeconomics vs. Macroeconomics Demand, Supply & Market Equilibrium: Laws of demand & supply, elasticity, market forces. Cost Concepts & Decision Making : Fixed, variable, marginal, sunk costs, Break -even analysis, profit maximization. Basics of Financial Management: Financial statements (Balance Sheet, Income Statement, Cash Flow), Financial planning & decision-making for engineers. Time Value of Money (TVM): Present & future value, simple & compound interest. Business & Financial Decisions in Engineering: Capital investment, risk assessment, Sources of financing (debt, equity, venture capital). Real World Assignment (Any One) 1. Case study on micro economics business environment. 2. Analyze demand and supply fluctuations for any business of your choice and Propose pricing or inventory strategies based on findings. 3. Understand and apply break-even analysis to a real-world business scenario.",
+          "hours": 6
+        },
+        {
+          "title": "Cost Accounting",
+          "topics": "Introduction: Importance and difference between cost and financial accounting. Cost Accounting: Types of costs: Fixed, variable, direct, indirect. Costing methods: Job costing, process costing. Break-even analysis & budgeting for cost control. Engineering Applications: Cost estimation, project budgeting, financial decision-making 1. List and classify the different types of costs involved in manufacturing a mechanical part. 2. Calculate the cost per unit by considering material cost, labor, and overheads of any mechanical element. Also estimate the total cost to produce 500 units. 3. For the nearby industry, using fixed and variable costs, calculate the break-even point for their production setup for any one item and suggest how many items must be sold to cover all costs",
+          "hours": 5
+        },
+        {
+          "title": "Financial Accounting",
+          "topics": "Introduction: Importance of financial accounting. Financial Accounting: Key financial statements: Balance Sheet, Income Statement, Cash Flow Statement. Key Financial Terms: Revenue, Cost of Goods Sold (COGS), Operating Expenses like rent, utilities, salaries. Depreciation in asset value over time, Capital Expenditure. Financial ratios: Profitability, liquidity, efficiency 1. Prepare financial statement of any organization. 2. Choose a company or firm and analyze its latest financial statements. 3. Prepare a balance sheet for any engineering organization.",
+          "hours": 5
+        },
+        {
+          "title": "Budget and Budgetary Control",
+          "topics": "Introduction to Budgeting: Definition, purpose, and importance in engineering and business. Types of budgets: Fixed, flexible, zero-based, capital, and operational budgets. Budgetary Control: Concept and objectives of budgetary control. Steps in budget preparation and implementation. Variance analysis: Comparing actual vs. budgeted performance. Engineering Applications: Budgeting in manufacturing and project management. Cost control and resource allocation in engineering firms. Taxes and Financial Planning, Impact of government policies, Taxation and Inflation on Financial Management. Real World Assignment (Any One) 1. Prepare and Interpret Budget and Standard Costs for any real business. 2. How can technology improve budget preparation and control? Discuss tools like Excel, ERP systems, or budgeting software. 3. How can businesses run against inflation and manage tax burdens efficiently? Suggest your financial strategies.",
+          "hours": 6
+        },
+        {
+          "title": "National and International Business and Finance",
+          "topics": "National Income (National Income Accounting – GDP, GNP, Real and Nominal Income) Fiscal Policy (Government Revenue, Expenditure and Financing). Concept of globalization, factors influencing globalization, concept of international business and motives, international trade, institutional framework in international business, the significance of foreign trade policy, export-import procedures. Real World Assignment (Any One) 1. Choose any industry sector and research how GDP growth or decline has affected investments and job opportunities in this sector. 2. Visit an official economic data website (e.g., World Bank, IMF, National Bureau of Statistics) and collect the latest GDP and GNP data of our country. Compare the values and explain your findings about the country's economy. 3. Discuss the need of Foreign Capital and international finance.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC-285-ABE",
+      "title": "Environmental Science and Sustainable Development",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        74,
+        76
+      ],
+      "units": [
+        {
+          "title": "Introduction to ESD",
+          "topics": "Environment, ecology, natural resources, Air pollution, Ecological footprint, Interactions between socio- economic systems and eco-systems, Human health and the environment 1) Weather survey of your region of last 10 years 2) Air pollution and its effect on human health.",
+          "hours": 6
+        },
+        {
+          "title": "Soil Conservation and Management",
+          "topics": "Types and causes of soil degradation; Losses of soil moisture and its regulation, Nutrient depletion; impact of soil degradation on agriculture and food production , toxic organic chemicals, and organic contaminants in soils, Fertilizers and fertilizer management, Recycling of soil nutrients. Inorganic and organic components of soils. Biogeochemical cycles – nitrogen, carbon, phosphorus and sulphur. 1. Analysis of soil texture, Ph and organic matter content 2. Effect of chemical fertilizers on soil biogeochemical cycles and on human health 3. Composting of organic waste",
+          "hours": 6
+        },
+        {
+          "title": "Water Sources and Management",
+          "topics": "Hydrological cycle and water resources- surface, ground, desalination, Water pollution, Integrated water resources management, Usage and efficiency Development of greywater recycling system",
+          "hours": 6
+        },
+        {
+          "title": "Sustainability and Sustainability Practices",
+          "topics": "Sustainability- concept, needs and challenges -economic, social, Aspects of sustainability - from unsustainability to sustainability, Climate change - Global, Regional and local environmental issues and possible solutions-case studies. Zero waste concept, ISO 14000 Series, Material Life cycle assessment, Environmental Impact Assessment. 1. Effect of global warming on human health 2. Indian government policies for sustainable development.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Habitat and Sustainable Energy",
+          "topics": "Sustainable habitat: Green buildings, Green materials, Energy efficiency, Sustainable transports, Sustainable energy: Non-conventional Sources, Energy Cycles- carbon cycle, emission and sequestration Calculation of carbon foot print.",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

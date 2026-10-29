@@ -1,0 +1,567 @@
+{
+  "id": "t-y-b-sc-physics-05082026",
+  "kind": "programme",
+  "programme": "Third Year B.Sc. Program in Physics (Faculty of Science & Technology) T.Y.B.Sc. (Physics)",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PHY-301-MJ",
+      "title": "Mathematical Physics-II",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Co-ordinate Systems and Partial Differential Equations",
+          "topics": "1.1 Review of Cartesian, spherical and cylindrical co-ordinates 1.2 Transformation equation 1.3 General Curvilinear co -ordinate system: Co -ordinate surface, co - ordinate lines, length, surfaces. 1.4 Expressions for gradient, divergence, Laplacian, and curl. 1.5 General methods for solving second order PDE Lectures = 9 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 14 1.6 Method of separation of variables in Cartesian, Spherical polar and cylindrical co -ordinate system ( 2D Laplace’s equation, 1D Wave equation) 1.7 Singular points (x = x0, x= ∞) 1.8 Solution of differential equation -Statement of Fuch’s theorem, Frobenius method of series solution (Legendre’s Equation). Problem Solving Lectures = 3H",
+          "hours": 12
+        },
+        {
+          "title": "Special Theory of Relativity",
+          "topics": "2.1 Introduction 2.2 Newtonian relativity 2.3 Galilean transformation equation 2.4 Michelson-Morley experiment 2.5 Postulates of special theory of relativity 2.6 Lorentz transformations 2.7 Kinematic effects of Lorentz transformation, Length contraction, Proper time Problem Solving Lectures = 6H Lectures = 2H",
+          "hours": 8
+        },
+        {
+          "title": "Special Functions and Fourier Series",
+          "topics": "Part A: Special Functions 3.1 Introduction 3.2 generating function for Legendre Polynomials: Pn(x), Properties of Legendre Polynomials 3.3 Generating function for Hermite Polynomials: Hn(x), Properties of Hermite Polynomials 3.4 Bessel function of first kind: Jn (x), Properties of Bessel function of first kind Problem Solving Part B: Fourier Series 3.6 Introduction to Fourier Series 3.7 Dirichlet’s Conditions for a Fourier Series 3.8Determination of Fourier coefficients 𝑎0, 𝑎𝑛&𝑏𝑛 3.9 Simple problems (Odd function, even function, x,x 2, e+x, e -x) on finding a Fourier Series with continuous interval only 3.10 Advantages or applications of Fourier Series Problem Solving Lectures = 3H Lectures = 2H Lectures = 3H Lectures = 2H Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 15",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY-302-MJ",
+      "title": "Solid State Physics-I",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Crystalline Solids Lectures = 09",
+          "topics": "Lattice, Basis, Translational Vectors, Primitive Unit Cell, Symmetry Operations, Different types of lattices, Miller indices, Inter Planer spacing, SC, BCC and FCC structures, Packing Fraction, Crystal structures : NaCl, CsCl, KCl, Diamond, ZnS, HCP, Conce pt of Reciprocal Lattice and its properties, Problem Solving Lectures = 07 Lectures = 02",
+          "hours": null
+        },
+        {
+          "title": "Crystal Structure Determination Lectures = 09",
+          "topics": "Bragg’s Diffraction, Bragg’s Law, Experimental X -ray diffraction Methods: The Laue Method, Bragg’s Spectrometer, Powder Method (Debye Scherrer method), Analysis of cubic structure by powder method, Ewald’s Construction, Bragg’s Diffraction condition in dir ect and reciprocal lattice, Problem Solving Lectures = 07 Lectures = 02 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 17",
+          "hours": null
+        },
+        {
+          "title": "Band Theory, Electronic Properties of Solids and Magnetism Lectures = 12",
+          "topics": "Electronic Properties of Solids : Free Electron model, Energy levels and Density of States, Nearly free electron model, Fermi energy, Fermi level, Hall Effect, Mobility, Hall Angle, Numericals Band Theory of Solids: Origin of energy gap, Energy bands in Solids, Distinction between metal, semiconductor and insulator, Numericals Magnetism : Diamagnetism, Paramagnetism, Ferromagnetism, Hysteresis, Variation of magnetic susceptibility with temperature, Curie Wiess Law, Superconductor as example of perfect diamagnet, Problem Solving Lectures = 10 Lectures = 02 F) REFERENCES: 1. Solid State Physics - S.O. Pillai, 6th Edition, New Age International (P) Ltd, Publisher, (2010). 2. Solid State Physics – Kakani S.L. and Hemrajani C., 4th Edition, S. Chand Publication, (2005). 3. Fundamentals of Solid-State Physics – B.S. Saxena, R.C. Gupta and P.N. Saxena, Pragati Prakashan, Meerut, Uttar Pradesh 4. Introduction to Solid State Physics- Charles Kittel, John Wiley and Sons, 7th Edition. 5. Solid St",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-303-MJ",
+      "title": "Electrodynamics-I",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Electric Fields in Matter & Potential Theory Lectures = 10",
+          "topics": "1.1 Brief revision of Coloumb,s Law, electric field, electrostatic potential & Gauss’s law (statement and significance) 1.2 Potential energy of system of charges 1.3 Poisson’s and Laplace equations (conceptual) 1.4 Motion of charge particle moving with uniform velocity in constant electric field 1.5 Polarization (P), Electric Displacement ( D), Electric susceptibility , Dielectric Constant and bound charges 1.6 Bound Volume and Surface Charge densities 1.7 Energy stored in electric field 1.8 Applications: Capacitors with dielectric Problem Solving Lectures = 08 Lectures = 02 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 19",
+          "hours": null
+        },
+        {
+          "title": "Magnetic Fields in Matter & Electrodynamics Basics Lectures = 12",
+          "topics": "2.1 Brief revision of Magnetic field, Magnetic flux 2.2 Biot–Savart law (statement) 2.3 Magnetic field due to steady current 2.4 Motion of charge particle moving with uniform velocity in constant magnetic field. 2.5 Lorentz Force & Ampere’s circuital law (Statement) 2.6 Force between two current-carrying conductors 2.7 Magnetic dipole moment and its interaction with magnetic field 2.8 Magnetic vector potential (statement) 2.9 Magnetization (M) of matter and Relation between B, H, and M 2.10 Types of magnetic materials (concept) 2.11 Concept of electromagnetic induction, Faradays law, Lenz law (Statement& concept) 2.12 Applications : Solenoid & Toroid Problem Solving Lectures = 9 Lectures = 03",
+          "hours": null
+        },
+        {
+          "title": "Maxwell’s Equations & Electromagnetic Waves Lectures = 08",
+          "topics": "3.1 Equation of continuity 3.2 Displacement current and Generalization of Ampere’s law 3.3 Maxwell’s equations (Differential and Integral form) and their physical interpretation 3.4 Electromagnetic wave equation (qualitative) 3.5 Plane electromagnetic waves 3.6 Transverse nature of EM waves 3.7 Poynting Theorem and Poynting vector 3.8 Applications: Electromagnetic spectrum and communication systems Problem Solving Lectures = 06 Lectures = 02 F) REFERENCES: 1) Introduction to Electrodynamics, David J. Griffiths, Pearson Education. 2) Engineering Electromagnetics, William H. Hayt and John A. Buck, McGraw-Hill Education. 3) Electricity and Magnetism, D. C. Tayal, Himalaya Publishing House. 4) Electricity and Magnetism, Brijlal and N. Subrahmanyam, S. Chand & Company Ltd. 5) Electricity and Magnetism, Edward M. Purcell, McGraw-Hill Education. X*****rΩb*****X",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-304-MJ",
+      "title": "Classical Mechanics",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Motion of Particles",
+          "topics": "1.1 Charged Particles: Motion of a charged particle in constant electric, magnetic and electromagnetic field, 1.2 System of particles: Concept of Centre of mass, Conservation of linear momentum, angular momentum, energy of system of particles.(statements only) Lectures = 7 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 21 1.3 Day to day applications of Classical mechanics, Problem Solving Lectures = 3",
+          "hours": 10
+        },
+        {
+          "title": "Central force Field",
+          "topics": "2.1 Central force Field: Definition and Properties of central force field. 2.2 Reduction of two body problem to an equivalent one body problem 2.3 Motion in central force field, 2.4 Kepler’s laws of planetary motion and Artificial Satellite 2.5 Elastic and inelastic scattering: Elastic scattering - Laboratory and centre of mass system (2L) Problem Solving Lectures = 7 Lectures = 3",
+          "hours": 10
+        },
+        {
+          "title": "Langrangian and Hamiltonian formulation",
+          "topics": "3.1 Limitations of Newton’s Law of Motion, 3.2 Constraints and Their Classification, Example of Constrains, degrees of freedom, generalized coordinate, configuration space, 3.3 Principle of Virtual work done, 3.4 D’Alemberts Principle of virtual work, 3.5 Langrangian and Hamiltonian equations, (4L) 3.6 Cyclic coordinates, Phase space Problem Solving Lectures = 7 Lectures = 3 F) REFERENCES: 1) Classical Mechanics by J.C. Upadhyaya, Himalaya publishing Houses, 2nd Edition, (2005). 2) Introduction to Classical MechanicsbyR. G. Takawale, P. S. Puranik, Tata McGraw Hill publishing Company Ltd., New Delhi, (2017). 3) Classical MechanicsbyNC Rana and PS Joag, Tata McGraw Hill Education Private Limited, New Delhi, (1991). 4) Classical Mechanics by P.V.Panat, Alpha Science International Ltd., (2005). 5) Classical MechanicsbyHerbert Goldstein, Narosa Publishing House, (2018). 6) Introduction to Classical Mechanics with Problems and Solutions by David Morin, Cambridge University Press (2009) X***",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY-305-MJP",
+      "title": "General Physics Lab-V",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        22,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-306-MJP",
+      "title": "General Physics Lab-VI",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-351-MJ",
+      "title": "Atomic and Molecular Physics-I",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Atomic structure",
+          "topics": "1. Revision of Bohr’s atomic models 2. Vector atom model (Concepts of space quantization and electron spin) 3. Four quantum numbers, Pauli Exclusion Principle, Hund’s rule, Aufbau principle 4. Electron configuration, Quantum states, Spectral notations of quantum states. Problem Solving Lectures = 3 Lectures = 2",
+          "hours": 5
+        },
+        {
+          "title": "One and two valence electron systems",
+          "topics": "1. Spin-Orbit Interaction Energy, (Single valence electron atom), Energy levels of Na-atom, Selection rules, Spectra of sodium atom. 2. Spectral terms of two electron atoms, terms for equivalent electrons, LS and JJ-coupling schemes (pd configuration only). 3. Singlet-Triplet separations for interaction energy of LS coupling (pd configuration only), Lande’s interval rule (Graphical representation of 3D term only). Problem Solving Lectures = 7 Lectures = 3",
+          "hours": 10
+        },
+        {
+          "title": "Spectroscopy",
+          "topics": "Part 1 - Molecular spectroscopy 1. Introduction of molecular spectra and its types 2. Rotational energy levels, Rotational spectra of rigid diatomic molecule 3. Vibrational energy levels 4. PE vs interatomic distance curve, Electronic spectra of molecules, Frank-Condon principle (Concepts only) Problem Solving Lectures = 3 Lectures = 2 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 25 Part 2 - Raman spectroscopy 1. Introduction of Raman effect, Molecular polarizability 2. Classical theory and Quantum theory of Raman Effect 3. Applications of Raman spectroscopy Problem Solving Part 3 - X-ray Spectroscopy 1. Nature of X rays 2. Discrete and Continuous X ray spectra, Duane and Hunt’s Rule 3. X ray emission spectra 4. Mosley’s law and its applications Problem Solving Lectures = 3 Lectures = 2 Lectures = 3 Lectures = 2",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "PHY-352-MJ",
+      "title": "Quantum Mechanics-I",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Foundations of Quantum Mechanics Lecture = 08",
+          "topics": "1. Historical Background: Black body radiation, photoelectric effect. 2. De Broglie Hypothesis: Matter Waves & the de Broglie Wavelength Relation 3. Davisson and Germer experiment. 4. Wave particle duality. 5. Concept of wave function, wave packet, phase velocity (V p), group velocity (Vg) and relation between Vp & Vg. 6. Heisenberg’s uncertainty principle: statement & physical significance, position-momentum, energy-time and angular forms of uncertainty. 7. Applications of quantum mechanics: semiconductor physics, quantum computing and spectroscopy (In brief). Problem Solving Lectures = 5 Lectures = 3",
+          "hours": null
+        },
+        {
+          "title": "Schrödinger Formalism &Applications of Schrodinger’s Steady state",
+          "topics": "equation Lecture = 15 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 27 Schrödinger Formalism 1. Physical interpretation of wave function. 2. Requirements of wave function. 3. Schrodinger time dependent equation. 4. Schrodinger time independent equation. (Steady state equation). 5. Probability current density, equation of continuity & its physical significance. 6. Eigen function & Eigen values. 7. Expectation value. 8. Ehrenfest’s theorem (Statement Only). Applications Schrodinger’s Steady state equation 1. Free particle. 2. Step potential. 3. Potential barrier (Qualitative discussion), Barrier penetration & tunnelling effect. 4. Particle in infinitely deep potential well (1D only). Problem Solving Lectures= 12 Lectures = 3",
+          "hours": null
+        },
+        {
+          "title": "Quantum Mechanical Operators and its Algebra Lecture = 07",
+          "topics": "1. Fundamental operators in quantum mechanics: Position operator, momentum operator, angular momentum and Hamiltonian (total energy) operators. 2. Hermitian operator. 3. Commutator algebra: commutator bracket, properties and identities 4. Commutation relations for position, linear and angular momentum operators, Simultaneous eigen functions. 5. Parity in quantum mechanics: concept of parity, parity operator and its eigenvalue. Problem Solving Lectures = 4 Lectures = 3 F) References: 1. N. Zettili, Quantum Mechanics - Concepts and applications, Wiley publication, ISBN: 978-0-470- 02679- 2. Griffiths, David J. Introduction to Quantum Mechanics. Upper Saddle River, Pearson Prentice Hall, 2005. ISBN: 9780131118928. 3. Ajoy Ghatak, S. Lokanathan, Quantum Mechanics: Theory and Applications, Springer Publication, ISBN 978-1-4020-2130-5 4. G Aruldhas, Quantum Mechanics, Phi Learning Private Ltd., ISBN : 97881203363 5. R. Shankar, Ramamurti. Principles of Quantum Mechanics. Springer, 2008. ISBN",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-353-MJ",
+      "title": "Statistical Mechanics -I",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Basic Concepts of Thermodynamics & Statistics Lectures = 12",
+          "topics": "Mean free path, Definition of Transport phenomenon, Thermodynamic functions: Internal Energy, Enthalpy, Helmholtz function, Gibb’s function, Maxwell Relations, Specific heat and latent heat equations, Probability, distribution functions, Random Walk in 1D, Binomial distribution, Calculation of mean values, Probability distribution for large-scale N, Gaussian probability distributions, Problem Solving Lectures = 9 Lectures = 3",
+          "hours": null
+        },
+        {
+          "title": "Statistical Ensembles Lectures = 12",
+          "topics": "Specification of state of system, Statistical ensembles, Basic Postulates, Probability calculations, Behaviors of density of states, Thermal, Mechanical and general interactions Micro canonical Ensemble (Isolated System), Canonical ensembles, simple application of canonical ensemble (Molecule in an Ideal Gas), Problem Solving Lectures = 9 Lectures = 3",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Quantum Statistics Lectures = 6",
+          "topics": "Quantum distribution function, Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 29 Maxwell-Boltzmann’s statistics, Bose -Einstein Statistics, Fermi -Dirac Statistics, Comparison of the distributions. F) REFERENCES: 1. Fundamentals of Statistical and Thermal Physics: F. Reif, McGraw-Hill International Edition (1985). 2. Fundamentals of Statistical Mechanics: B. B. Laud, New Age International Publication (2003). 3. Statistical Mechanics: R. K. Pathria, Butterworth Heinemann (2nd Edition). 4. Statistical Mechanics: K. Huang, John Willey and Sons (2nd Edition). 5. Statistical Mechanics: Satya Prakash and KedarNath Ram, Nath Publication (2008). 6. Statistical Mechanics: Loknathan and Gambhir. 7. Thermodynamics, Kinetic Theory, and Statistical Thermodynamics: Sears and Salinger. X*****rΩb*****X",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-354-MJ",
+      "title": "Nuclear Physics -I",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Nuclear Structure, Properties of nuclei and Radioactivity Lectures-10",
+          "topics": "Basic concept of nucleus: Composition, Charge, Size, Density (Revision); Nuclear mass, Mass defect, Binding energy, Packing fraction, Systematics of nuclear binding energy, Classification of nuclei, Nuclear stability curve; Properties: Nuclear spin, Parity, Statistics of nuclei, Magnetic dipole moment, Electric quadrupole moment; Radioactivity: Properties of α, β, γ -rays; Laws of radioactive decay, Half -life, Mean life, Units of activity, Specific activity, Successive disintegration; Lectures-8 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 31 Radiocarbon dating; Applications of radioactivity (Agricultural, Medical, Industrial, Archaeological); Problem Solving Lecture-2",
+          "hours": null
+        },
+        {
+          "title": "Accelerators, Detectors, Nuclear Forces and Nuclear Models Lectures-10",
+          "topics": "Accelerators: Introduction, Classification, Linear accelerator, Cyclic accelerator (Cyclotron), Accelerators in India (Discussion only); Radiation Detectors: Classification, Geiger-Muller counter, NaI(Tl) Scintillation detector; Nuclear Forces: Properties, Meson theory of nuclear forces; Elementary particles and Quark model; Nuclear Models: Shell model: Evidences, Theory of single particle shell model, Liquid drop model: Weizsacher’s semi-empirical mass formula, Problem Solving Lectures-8 Lecture-2",
+          "hours": null
+        },
+        {
+          "title": "Nuclear Reactions and Reactor Theory Lectures-10",
+          "topics": "Nuclear reactions: Introduction, Conservation laws, Q-value equation, Exoergic and endoergic reactions, Threshold energy, Compound nucleus hypothesis, Nuclear fission & fusion, Stellar energy: Proton -proton cycle and Carbon cycle, Fission Chain reaction; Nuclear reactor: Basic components, Critical mass and critical size, Homogeneous and heterogeneous reactors, power reactor, fast breeders, Reactors in India (Discussion only), Problem Solving Lectures-8 Lecture-2",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-355-MJP",
+      "title": "General Physics Lab-VII",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        32,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-356-MJP",
+      "title": "Physics Lab-VIII (Project-I)",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        33,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-310(A)-MJ",
+      "title": "Energy Studies",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Energy Sources",
+          "topics": "• Introduction to Energy Sources • Various Sources of Energy : T hermal, Nuclear, Solar, Wind, Biomass, Hydro, etc. • Comparison of Energy Sources",
+          "hours": 5
+        },
+        {
+          "title": "Solar thermal and Photovoltaic systems",
+          "topics": "Solar Thermal System: Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 35 • Sun as a source of energy, and Solar Constant, • Construction and working : 1. Liquid flat plate collector, 2. Concentrating collectors, 3. Solar drying, 4. Solar water heating systems. Solar Photovoltaic systems: • Photovoltaic principle, Power output, and Conversion efficiency, • Configurations of Solar Photovoltaic Systems: Off -grid, Grid - Tied, and Grid-Storage, • Steps in installation of a rooftop solar PV System",
+          "hours": 15
+        },
+        {
+          "title": "Energy Storage Devices and its Applications",
+          "topics": "Energy Storage Devices: 1. Electrochemical (Batteries) 2. Supercapacitors, 3. Fuel cells. Applications of Energy Storage Devices: 1. Electrical Vehicles (EV), 2. UPS 3. Concentrated solar power (CSP) plants Future Trends in Energy storage Devices. F) REFERENCES: 1. Non-conventional Energy sources by G. D. RAI (4th edition), Khanna Publishers, Delhi 2. Solar Energy by S. P. Sukhatme (Second Edition), Tata Mc Graw Hill Ltd., New Delhi. 3. Solar Energy Utilisation by G. D. RAI (5th edition), Khanna Publishers, Delhi. 4. Renewable Energy Technology: A practical guides of beginners, Chetan Singh Solanki, PHI Learning Private-Ltd., New Delhi. 5. Solar Photovoltaics: Fundamentals, Technologies and Applications by Chetan Singh Solanki, PHI Learning Private-Ltd., New Delhi X*****rΩb*****X",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PHY-310(B)-MJ",
+      "title": "Functional Nanomaterials",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Introduction to nanomaterials",
+          "topics": "• Introduction to Nano-sized materials and Structures • Classification of nanostructured materials • Properties of Nanomaterials: Mechanical, Electrical, Thermal and Optical properties",
+          "hours": 7
+        },
+        {
+          "title": "Methods for Synthesis of Nanomaterials",
+          "topics": "• Bottom-up and Top-down approaches • Synthesis Methods: a) Thermal Evaporation, b) Sputter deposition, c) Colloidal method, d) Sol-gel Method, e) Chemical Vapour deposition, Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 37 f) Electrochemical Deposition.",
+          "hours": 8
+        },
+        {
+          "title": "Characterization Techniques",
+          "topics": "• Structural characterization : XRD, EDAX • Morphological Characterization: SEM, TEM • Optical characterization: UV-Vis, IR • Magnetic characterization: VSM",
+          "hours": 10
+        },
+        {
+          "title": "Applications of nanomaterials",
+          "topics": "Nano-electronics, Cosmetics, Medical, Biosensors, Automobiles, Space, Sports, Cloth industry, etc.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "PHY-310(C)-MJ",
+      "title": "Essential Electronics",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "Applications of Semiconductor Devices Lectures = 10",
+          "topics": "Field Effect Transistor (FET) : 1. JFET : Classification, Principle, Working and IV-characteristics 2. MOSFETs : DE-MOSFET and E-MOSFET 3. Applications of FET Timer IC-555: 1. Block diagram, working and design 2. Applications of IC-555 OP-AMP : 1. Applications as Integrator, Differentiator, Comparator Solving Problems on FET, IC-555, OP-AMP Lectures = 8 Lectures=2",
+          "hours": null
+        },
+        {
+          "title": "Flip Flop and Counters Lectures = 10",
+          "topics": "1. Introduction to Flip Flop and Counters 2. RS, D, JK and T-flip flops. 3. Application of FF in Sequential Circuits as Counters and Registers. 4. Asynchronous and Synchronous Counters. (3-bit Counter), 5. Shift Registers and their types of operation -SISO, SIPO, PISO, PIPO (Concepts only). Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 39",
+          "hours": null
+        },
+        {
+          "title": "Analog and Digital Signal Conditioning Lectures = 10",
+          "topics": "Analog Signal Conditioning: 1. Analog Multiplexer and De-Multiplexer using IC-4051, 2. Practical characteristics of Low Pass, High Pass, band pass filters 3. Instrumentation amplifier using 3-OP-AMP Digital Signal Conditioning: 1. Digital Multiplexer and De-Multiplexer using NAND gate, 2. Signal Converters: DAC: R-2R ladder type, Binary weighted type. Lectures = 6 Lectures = 4 F) REFERENCES: 6. Malvino, Electronic Principles (6th Ed.), Tata McGraw Hill, New Delhi 7. R. P. Jain, Modern Digital Electronics (3rd Ed.), Tata McGraw Hill, New Delhi 8. B. L. Theraja, Basic Electronics - Solid State, S. Chand and Company, New Delhi 9. K. R. Botkar, Integrated Circuits, Khanna Publishers, Delhi 10. C.D. Johnson, Process Control Instrumentation Technology, Pearson Education, 8th edition. 11. Krishna Kant, Computer Based Industrial Control, Eastern Economic Edition 12. Rangan, Mani, Sharma, Instrument of Device System 13. B. C. Nakra, K. K. Chaudhari, Instrument measurement and analysis X*****rΩb",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-311-MJP",
+      "title": "Special Physics Lab-I",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        40,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-360(A)-MJ",
+      "title": "LASER Technology",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Basics of laser operation and working Lectures = 10",
+          "topics": "Introduction to LASERS: Interaction of radiation with matter, Spontaneous and stimulated emission - Population inversion – metastable state, Threshold condition – Gain profile – super-radiance Laser - Rate equation for 3 level and 4 level systems - conditions for CW and pulsed laser action. Black body radiation - Modes of oscillation - Einstein coefficients - relation between the absorption coefficients and Einstein coefficients - Lifetime of excited state - Line Broadening mechanisms.",
+          "hours": null
+        },
+        {
+          "title": "Types of LASERS Lectures =10",
+          "topics": "Liquid lasers: Principle and main components of laser, levels of laser action, continuous wave lasers, construction and working of dye laser. Gas Laser: Principle, working and usefulness of gas laser, He-Ne laser, lasing action in Ion lasers, construction and operation of ion lasers Solid state laser: Ruby Laser (3- level system example), ND: YAG laser (4- level system example). Semiconductor Laser: Principle of semiconductor laser diode, threshold frequency, difference between a diode and laser diode, Characteristics Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 44 of semiconductor lasers, Semiconductor diode lasers, LED versus Laser diode.",
+          "hours": null
+        },
+        {
+          "title": "LASER Applications Lectures = 10",
+          "topics": "Laser applications: Material processing with lasers, interaction mechanism, Lattice heating, Material processing mechanism (L aser Cutting, Laser Welding, Laser Surface Modification) Elementary ideas on application of Laser in Medical Science - Medical lasers, Laser diagnostic, Laser for general surgery, Laser Dentistry. Elementary ideas on -Laser in Optical Communication: Optical source for fiber optical communication, Essential characteristics of Laser in fibre optic communication, Holography F) REFERENCES: 1. Laser Principles, Types and Application by KR Nambiar, New Age International. 2. Modern Spectroscopy by J Michael Hollas, Fourth Edition, John Wiley and Sons. 3. Lasers Theory and Applications by K. Thyagarajan and A.K. Ghatak, Mcmillan (1981) 4. Laser Fundamentals, by William T. Silfvast, Cambridge University Press, 2008. 5. Principles of Lasers, by Orazio Svelto; Springer, 2009. 6. Laser Spectroscopy and Instrumentation by W. Demtroder. 7. Industrial Applications of Lasers, b",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-360(B)-MJ",
+      "title": "Medical Electronics",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Introduction to medical instrumentation Lectures = 6",
+          "topics": "1. Terminology of medical instrumentation, 2. Physiological system of body 3. Sources of bioelectric signals, 4. Origin of bioelectric signals, 5. Nernst equation, 6. Various types of bioelectric signals,",
+          "hours": null
+        },
+        {
+          "title": "Biopotential Electrodes and Sensors Lectures = 12",
+          "topics": "Electrodes: 1. Electrode-electrolyte interface, 2. Polarizable and non-polarizable electrodes, 3. Electrodes for ECG, EEG, EMG, Sensors: 1. Resistive sensor, 2. Capacitive sensor, 3. Inductive sensor, 4. Piezoelectric sensor, 5. Temperature sensor Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 46",
+          "hours": null
+        },
+        {
+          "title": "Measurements of Pressure and Volume Flow of Blood Lectures = 12",
+          "topics": "1. Direct measurements of blood pressure, 2. Heart sounds, 3. Phonocardiography, 4. Ultrasonic blood flow meter 5. Laser Doppler blood flow meter 6. Cardiac monitor F) REFERENCES: 1. Handbook of Biomedical Instrumentation, R.S. Khandpur 2. Medical Instrumentation application design, John G Webster, Houghon Mifflin Co. 3. Introduction to Medical Electronics, Mahi Publication, Ahmadabad 4. Introduction to biomedical equipment technology J. Carr and John M. Brown 5. Introduction to Biomedical Electronics, Joseph DfuBovy, Mc Graw Hill. 6. Clinical Biophysics, P. Narayanan X*****rΩb*****X",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-360(C)-MJ",
+      "title": "Radiation Physics",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Interaction of Radiation with Matter Lectures = 10",
+          "topics": "• Interaction of different types of radiation with matter • Ionizing & non-ionizing radiations, • radioactive losses and energy loss by collision, • Bethe-Bloch formula, • Radiation stopping power, • Straggling. • Radiation exposure : Measurement and units • Quality factor,",
+          "hours": null
+        },
+        {
+          "title": "Radiation Sources and Radiation Shielding Lectures = 8",
+          "topics": "• Natural & Artificial radioactive sources : Alpha, Beta, Gamma Sources, Basic concept of radiation shielding, • Linear and mass absorption coefficient, • Materials for shielding of gamma and neutron, • Shielding interaction cross section.",
+          "hours": null
+        },
+        {
+          "title": "Radiation Protection and Applications: Lectures = 12",
+          "topics": "Radiation Protection: • Radiation Protection and Safety rules as per the regulatory guidelines of the Government of India, Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 48 • Safety codes for handling radioactive sources. • Monitoring of radiation levels around an open radioactive source, ICRP, NCRP, AERB. Radiation Applications: • Pharmaceuticals applications, • Diagnostic applications, • Medical instruments, • Preservation of food, etc. F) REFERENCES: 1. Nuclear and Radiation Physics in Medicine by Tony Key. World Scientific. 2014 2. Introduction to Radiological Physics and Radiation dosimetry by Frank H. Attix. Wiley. 1986 3. Medical Physics by Glasser O, Vol 1, 2, 3 Year Book Publisher Inc Chicago. 4. Radiation Protection and Health Science by Marilyn E. Noz. World Scientific. 2007. 5. Introduction to Radiation Protection by Grupen C. Springer. 2008. 6. Radiation Physics for Medical Physicists by Podgorsak Ervin B. Springer. 2005. 7. Techniques fo",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PHY-361-MJP",
+      "title": "Special Physics Lab-II",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        49,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-321-VSC-P",
+      "title": "Solar PV System: Design, and Maintenance",
+      "semester": 5,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-371-VSC-P",
+      "title": "Modern Electric Vehicle Technology",
+      "semester": 6,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        55,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "PHY-341-MN",
+      "title": "Modern Physics: Concepts and Applications",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        61,
+        63
+      ],
+      "units": [
+        {
+          "title": "Origin of Modern Physics and Quantum Concepts Lectures = 10",
+          "topics": "• Historical background: Classical theory of light • Corpuscular theory of light (Isaac Newton) • Wave theory of light (Christian Huygens) • Basic properties of light: reflection, refraction (concept only) • Limitations of classical physics and emergence of quantum theory • Black body radiation • Photoelectric effect • Compton effect • Planck’s quantum theory • Wave particle duality • de Broglie hypothesis • Heisenberg uncertainty principle Problems Solving Lectures = 8 Lectures = 2 Savitribai Phule Pune University, Pune (TYBSc Physics, NEP-2020, Pattern-2026) P- 62",
+          "hours": null
+        },
+        {
+          "title": "Atomic, Molecular Physics and Spectroscopy Lectures = 12",
+          "topics": "• Bohr model of hydrogen atom • Energy levels and atomic spectra • Quantum numbers (basic concept) • Introduction to molecular energy levels (rotational and vibrational levels – qualitative) • Introduction to spectroscopy (concept and types) • Raman effect (concept, stokes and anti-stokes lines) • Zeeman effect (splitting of spectral lines in magnetic field – qualitative) • Stark effect (splitting in electric field – concept only) • Application : Spectroscopy in chemical analysis Determination of molecular structure Fluorescence in biological systems Applications of lasers Study of stars using spectral analysis",
+          "hours": null
+        },
+        {
+          "title": "Nuclear Physics and Applications Lectures = 08",
+          "topics": "• Nuclear structure • Concept of mass defect and binding energy • Qualitative idea of binding energy curve • Radioactivity • Half life and mean life • Nuclear reaction: fusion and fission • Applications : Electricity generation using nuclear energy Medical imagine (X-ray, CT Scan) Radiotherapy Food preservation Carbon dating Problem Solving Lectures = 6 Lectures = 2",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Field Project (FP)",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        64,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Community Engagement Programme (CEP)",
+      "semester": 5,
+      "type": "Community Engagement Programme",
+      "credits": 2,
+      "pages": [
+        67,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "On Job Training (OJT)",
+      "semester": 6,
+      "type": "On Job Training",
+      "credits": 4,
+      "pages": [
+        69,
+        71
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

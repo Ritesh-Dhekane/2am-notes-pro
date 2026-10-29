@@ -1,0 +1,924 @@
+{
+  "id": "te-electronics-engineering-vlsi-design-and-technolgy-2024-pattern-02072026",
+  "kind": "programme",
+  "programme": "TE - Third Year Engineering (Electronics Engineering - VLSI Design & Technology)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-ECV",
+      "title": "Microcontrollers & Applications",
+      "semester": 5,
+      "type": "Program Core Course 1",
+      "credits": 3,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Microcontrollers (09 Hours)",
+          "topics": "Introduction to Microcontroller, Comparison between Microprocessors and Microcontrollers Architecture: Von Neumann vs. Harvard architecture, Introduction to Hardwire and ISA Architecture, CISC vs. RISC and pipeline execution, Evolution and Comparison betw een 8,16 -,32 and 64 -bit microcontrollers, Selection Criteria of Microcontrollers, Introduction to 8 -bit microcontroller (8051), features, Block diagram, Register model, Memory organization, Interrupt Structure. Serial Communication. Mapping of Course Outcomes for Unit I CO1: Understand the fundamentals of 8051 microcontroller.",
+          "hours": null
+        },
+        {
+          "title": "Programming with 8-bit Microcontroller",
+          "topics": "(8051) (08 Hours) Pin out diagram of 8051, Port Structure, Timer / Counter, Delay Calculation and Programming, Programming of ports, Interfacing of LED, LCD, LDR, 7 - segment display, Relays, Buzzer, with Embedded C programs. Application: Design of Data Acquisition System. Mapping of Course Outcomes for Unit II CO2: Interface of peripheral components with 8051 microcontroller.",
+          "hours": null
+        },
+        {
+          "title": "ARM7 Processor Fundamentals & Architecture",
+          "topics": "Introduction to ARM processors and its versions, ARM Core data flow model, programmers’ model, modes of operations, Registers, CPSR, SPSR Comparison of ARM7, ARM9 & ARM11 processors. ARM7 Based Microcontroller LPC2148: Features, Architecture (Block Diagram and Its Description, Memory Map, GPIO, Pin Connect Block. Mapping of Course Outcomes for Unit III CO3: Describe the architecture, features , and memory organization of the ARM7 based LPC2148 microcontroller.",
+          "hours": 8
+        },
+        {
+          "title": "ARM7 Based Microcontroller Interfaces (09 Hours)",
+          "topics": "System Control Block: Phase Locked Loop (PLL) configuration, Power Control, and VPB (VLSI Peripheral Bus) Divider. Timers: Architecture of 32 -bit timers (Timer 0 and Timer 1), match registers, and pre -scalers. Interrupt structure of LPC2148, interfacing with LED, GLCD, KEYPAD, simple LPC2148 GPIO Programming examples Using timers of LPC2148 to generate delay. Mapping of Course Outcomes for Unit IV CO4: Design the interrupt driven embedded applications using the LPC2148 interrupt controller and peripheral interfaces.",
+          "hours": null
+        },
+        {
+          "title": "Real World Interfacing With ARM (09 Hours)",
+          "topics": "Serial communication programming for transmission and reception from computer programming for UART. Analog-to-Digital Converter (ADC): Features of the 10-bit ADC, conversion times, and channels. Digital-to-Analog Converter (DAC): Generating analog output waveforms GSM and GPS module interfacing, EEPROM interface using I2C, SDCARD using SPI. Mapping of Course Outcomes for Unit V CO5: Interface with the peripherals using communication protocol data transmission and reception.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-ECV",
+      "title": "Analog & Digital CMOS Design",
+      "semester": 5,
+      "type": "Program Core Course 2",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "MOS Devices & Analog Building Blocks",
+          "topics": "MOS Transistor fundamentals (operation regions, I–V characteristics), CMOS device modelling: Large-signal model (square -law basics), Small -signal model (low -frequency), Passive components (brief): Capacitor & Resistor Basic Analog Sub -circuits: MOS Switch, MOS Diode, Current Sources & Sinks, Current Mirrors, Source degeneration Mapping of Course Outcomes for Unit I CO1: Analyze and simulate basic MOS analog circuits (PSPICE)",
+          "hours": 9
+        },
+        {
+          "title": "CMOS Amplifiers & Op Amps",
+          "topics": "CMOS Amplifiers: Inverters, Differential Amplifiers, Cascode Amplifiers, Current Amplifiers, Output Amplifiers, High Gain Amplifiers Architectures CMOS Operational Amplifiers: Two-stage Op -Amp design, Miller compensation, Gain, bandwidth, slew rate (concepts) , Power -Supply Rejection Ratio of Two -Stage Op Amps (basic idea), Measurement, Techniques of Op Amp. Mapping of Course Outcomes for Unit II CO2: Design and verify CMOS amplifiers & Op-Amps.",
+          "hours": 9
+        },
+        {
+          "title": "Digital CMOS Logic & Circuit Design",
+          "topics": "CMOS inverter: Structure and Operation, DC characteristics, Switching threshold, Noise margins, Static and dynamic power dissipation, Delay Analysis CMOS logic gates: NAND, NOR gate design, Boolean realization using CMOS, Static CMOS Logic Gates, Pass transistor logic, Transmission gates, CMOS Combinational Logic Design (Methodology and design Examples) Mapping of Course Outcomes for Unit III CO3: Design CMOS logic circuits from Boolean expressions.",
+          "hours": 9
+        },
+        {
+          "title": "CMOS Technologies and CMOS design rules",
+          "topics": "CMOS Technologies and CMOS design rules: MOS fabrication process, Inverter cross-section, Layout design rules, Gate layouts, Stick diagrams: Inverter, NAND, NOR Multiplexer, Adder, Flip-flop, Basic subsystem design: Design for Boolean expression, Multiplexers Adders, Shift registers, CMOS enhancement process Mapping of Course Outcomes for Unit IV CO4: Build CMOS design and draw stick diagrams.",
+          "hours": 9
+        },
+        {
+          "title": "Delay, Power & Interconnect in CMOS",
+          "topics": "Delay: RC delay model, Linear delay model, Logical effort, Delay in multistage logic network, gate diffusion capacitance Power: Dynamic power, Static (leakage) power, Power-delay trade off Interconnect: Wire capacitance & resistance, Interconnect delay impact, interconnect impact, interconnect engineering, logical effort with wires Design Issues: Scaling challenges (overview), Basic CAD/manufacturing co ncerns, pitfalls and fallacies. Mapping of Course Outcomes for Unit V CO5: Study the model to calculate delays.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-ECV",
+      "title": "ASIC Design",
+      "semester": 5,
+      "type": "Program Core Course 3",
+      "credits": 3,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to ASIC (09 Hours)",
+          "topics": "ASIC Design flow, Types of ASIC and Comparisons, Full custom, Semi -custom and Programmable ASICs, Gate array -based ASIC, Channelled gate array, Channel less gate array, Structured gate array, Programmable logic devices-FPGA, ASIC cell libraries, IC Design Technologies. Mapping of Course Outcomes for Unit I CO1: Describe design flow, components of ASIC and SoC Design",
+          "hours": null
+        },
+        {
+          "title": "Partitioning, Floor planning and Placement (08 Hours)",
+          "topics": "Introduction, partitioning at different levels, partitioning techniques: constructive and iterative improvement, Floor planning and Placement: Floor -planning and placement differences, Design style specific issues, Floor planning and placement algorithms Mapping of Course Outcomes for Unit II CO2: Analyze the techniques and algorithms for floor planning, routing and placement of cells in physical IC Design.",
+          "hours": null
+        },
+        {
+          "title": "Routing and Clocking (08 Hours)",
+          "topics": "Routing: Introduction, Types of Routing, Grid Routing, Global Routing, Detailed Routing, Power and Ground Routing, Interconnect Modelling and Layout Compaction, Clock Design, Clock Routing, Static Timing Analysis and Timing Closure. Mapping of Course Outcomes for Unit III CO3: Analyze clock tree synthesis and timing constraints.",
+          "hours": null
+        },
+        {
+          "title": "Low Power Design techniques (09 Hours)",
+          "topics": "Techniques to reduce dynamic power and static power, clock gating, supply volta ge reduction, leakage reduction techniques, gate level design for low power, architecture level techniques for low power, and algorithmic level techniques for low power. Mapping of Course Outcomes for Unit IV CO4: Describe low power design techniques and algorithms.",
+          "hours": null
+        },
+        {
+          "title": "Physical Design of a Digital Block (09 Hours)",
+          "topics": "Netlist to CIF: Overview of the complete physical design flow, Floor planning and power grid design, Placement and optimization of standard cells, Clock Tree Synthesis (CTS) and buffering, Routing (global and detailed) with congestion analysis, Foundry design rules, Parasitic extraction and timing analysis, Power analysis (short circuit current drop, dynamic/static power) Mapping of Course Outcomes for Unit V CO5 : Apply ASIC Construction and testing techniques",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-ECV",
+      "title": "Microcontrollers & Applications Lab",
+      "semester": 5,
+      "type": "Program Core Course Lab 1",
+      "credits": 1,
+      "pages": [
+        27,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-ECV",
+      "title": "Analog & Digital CMOS Design & ASIC Design Lab",
+      "semester": 5,
+      "type": "Program Core Course Lab 2",
+      "credits": 2,
+      "pages": [
+        29,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-321A - ECV",
+      "title": "System on Chip",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to System on Chip (08 Hours)",
+          "topics": "Evolution from IC to SoC; Difference between ASIC, FPGA, SoC; System Architecture; System Complexity; Components of the system; Hardwar e & Software; An approach for SoC Design; SoC design flow; S oC definition, benefits, and challenges; Advantages and challenges of SoC; Components of SoC; Applications of SoC in mobiles, automotive, IoT Mapping of Course Outcomes for Unit I CO1: Explain SoC concepts and architecture.",
+          "hours": null
+        },
+        {
+          "title": "SoC Architecture and IP Design (09 Hours)",
+          "topics": "Introduction to SoC processors; Processor core selection (ARM, RISC-V, DSP); Basic concepts in processor architecture and processor micro architecture; Basic elements in Instruction handling; Hard IP, Soft IP, Firm IP; Reusable IP cor es; Bus architectures: AMBA, AXI, AHB, APB; Buffers: minimizing pipeline delays; Branches; NoC (Network on Chip) basics; Memory subsystem More Robust Processors: Vector processors and vector instructions extensions, VLIW Processors, Superscalar Processors. Mapping of Course Outcomes for Unit II CO2: Analyze processor, bus, and memory integration.",
+          "hours": null
+        },
+        {
+          "title": "RTL Design and Integration (09 Hours)",
+          "topics": "HDL modelling using Verilog / System Verilog; RTL coding for SoC blocks; FSM design; UART, SPI, I2C controller basics; Integration of processor + peripherals; Clocking and reset strategies; Verification and Testing Functional verification flow; Testbench design; Assertions basics; Simulation using ModelSim / Xilinx ISE / Vivado ; Scan chain basics; BIST concept; SoC testing challenges Mapping of Course Outcomes for Unit III CO3: Design RTL blocks for SoC subsystems.",
+          "hours": null
+        },
+        {
+          "title": "Floor planning (09 Hours)",
+          "topics": "Concept of floor planning ; Floor planning: Abutted and Non-abutted floorplan techniques, floorplan control parameters, input and outputs of the floorplan; Partitioning; need of partitioning, rules of partitioning, methods of partitioning; Die size estimation ; Core area calculation ; Aspect ratio determination ; Placement: goal of placement, coarse placement, I/O pad placement ; legalization, placement blockage, keep-out margin; Routing: netlist, congestion, fixed -die routing, variable -die routing; Standard cell rows creation ; Pin planning. Mapping of Course Outcomes for Unit IV CO4: Perform simulation and v erification and synthesis and implementation flow",
+          "hours": null
+        },
+        {
+          "title": "Physical Design and Implementation (09 Hours)",
+          "topics": "Synthesis flow; Overview of backend VLSI design flow; Frontend vs Backend design comparison; Netlist to GDSII flow; Role of physical design engineer; Design constraints (SDC constraints) in modern VLSI and Inputs for Physical Design; Gate level netlist; Technology library files (.lib): LEF/DEF files; Timing analysis and reports ; Power intent files (UPF/CPF); Power planning : Power mesh/grid , VDD and V SS routing. Placement and Routing: Standard cell placement; Global placement; Detailed placement Placement optimization; Timing-driven placement; FPGA prototyping of SoC; Low-power SoC techniques. Mapping of Course Outcomes for Unit V CO5: Develop basic FPGA-based SoC prototypes.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321B - ECV",
+      "title": "Advanced Java Programming",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Collection Framework (08 Hours)",
+          "topics": "Introduction to Collection Framework, need and advantages of Collection Framework, overview of Collection interfaces and methods. List interface using Array List and Linked List, set interface using HashSet and TreeSet, Queue interface using Priority Queue, and Map interface using HashMap. Iteration using Iterator and basic object sorting using Comparable and Comparator interfaces. Exemplar: Develop Java applications using Collection Framework interfaces, classes, iterators, and sorting techniques for efficient data storage and manipulation. Mapping of Course Outcomes for Unit I CO1 : Develop Java applications using Collection Framework classes, interfaces, iterators, and object sorting techniques",
+          "hours": null
+        },
+        {
+          "title": "GUI Programming in Java (08 Hours)",
+          "topics": "JVM-based GUI f rameworks, Swing: Introduction to SWING, Swing class hierarchy, Difference between Swing and AWT, Advantages over AWT, Swing components such as Label, Button, Text Field, Table, Menus, Scrollbar and layout managers and types. Event Handling: Events and Event classes, event listeners, Delegation event model, mouse and keyboard events, Adapter classes Java Fx: Introduction to Java, Java FX architecture Exemplar: Develop interactive GUI applications using Swing and students understand modern GUI concepts such as properties and binding in JavaFX. Mapping of Course Outcomes for Unit II CO2 :Design and develop GUI applications using Swing, JavaFX",
+          "hours": null
+        },
+        {
+          "title": "Java Web Development using Servlets and JSP (09 Hours)",
+          "topics": "Java Servlets : Introduction to Servlets, Servlet Life Cycle, Creating Simple Servlets, Handling HTTP Requests and Responses, GET and POST Methods, Session Management using Cookies and Http Session. Java Server Pages (JSP): Introduction to JSP, Difference between Servlet and JSP, JSP Directives and Implicit Objects, Expression Language (EL), Form Handling using JSP. MVC Pattern in Web Applications : Introduction to MVC Architecture, Role of Model, View and Controller, Integration of Servlet and JSP in MVC-based Web Applications. Exemplar: Develop a web application using Servlet and JSP to accept student details through an HTML form, process the data in Servlet, and display the submitted information using JSP. Mapping of Course Outcomes for Unit III CO3: Apply Servlets, JSP, and MVC architecture to develop dynamic web applications.",
+          "hours": null
+        },
+        {
+          "title": "Java Database Persistence & ORM Frameworks (09 Hours)",
+          "topics": "Introduction to JDBC: Need of JDBC, JDBC Architecture, Types of Drivers, JDBC API, Steps for Database Connectivity. JDBC Programming: Loading Driver, Establishing Co nnection, Statement & Prepared Statement, Result Set Handling. JDBC CRUD Operations: Insert, Update, Delete, Select Queries, Exception Handling Introduction to Hibernate : Hibernate Architecture, Hibernate Mapping Types, Hibernate O/R Mapping, Hibernate annotations. Hibernate Query Language Exemplar: Develop a Hibernate-based employee management application using annotation mapping and HQL queries for CRUD operations. Mapping of Course Outcomes for Unit IV CO4: Develop Java database applications using JDB C and Hibernate frameworks to perform CRUD operations efficiently.",
+          "hours": null
+        },
+        {
+          "title": "Spring Boot: Core Concepts and REST API (09 Hours)",
+          "topics": "Development Introduction to Spring Boot: Features and Advantages, Spring Boot Architecture, Installation and Environment Setup using Maven, Creating and Running a Simple Spring Boot Application. Spring Boot Concepts: Project Structure, Dependency Management, Application Properties, Spring Boot Annotations, Spring Boot DevTools. REST API Development: Introduction to REST Architecture, Creating REST APIs using @RestController, Handling HTTP GET, POST, PUT, and DELETE Requests, Request Mapping, Path Variables, JSON Response Handling, Testing APIs using Postman. Exemplar: Develop a simple Student Management REST API using Spring Boot to perform basic operations such as adding, viewing, and deleting student details, and test the APIs using Postman. Mapping of Course Outcomes for Unit V CO5: Apply Spring Boot to develop simple REST APIs and test them using Postman implementation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321C - ECV",
+      "title": "Computer Networks",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        39,
+        42
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Computer networks (09 Hours)",
+          "topics": "Data Communications, Networks, Network Topologies, Types of Computer Networks, Protocols and Standards, Design Issues for the L ayers, Network Models: The OSI Model, TCP/IP Protocol suite. Transmission Media: Guided and Unguided (Wireless). Uses of Computer Networks. Exemplar: HDMI cable carrying audio/video signals to a TV. Mapping of Course Outcomes for Unit I CO1 : Analyse network architecture and models",
+          "hours": null
+        },
+        {
+          "title": "Data link layer (09 Hours)",
+          "topics": "Function of Data Link Layer. Design Issues: Services to Network Layer, Framing, Error Detection and Correction: Basic Concept, Linear Block Code, CRC Code, Checksum, Flow Control: Stop and Wait, Sliding Window, Error Control: Stop and Wait ARQ, Go -Back-N, ARQ, Selective Repeat ARQ, Medium Access Control: Controlled Access (Reservation, Polling, Token Passing), Random Access(ALOHA,CSMA,CSMA/CD,CSMA/CA), Link Layer Addressing: MAC Address and i ts Types, ARP, HDLC protocol. Exemplar: Multiple users sending data through satellite channels. Mapping of Course Outcomes for Unit II CO2 : Analyze, datalink layer protocols for error and flow control",
+          "hours": null
+        },
+        {
+          "title": "Network layer (09 Hours)",
+          "topics": "Introduction to Network Layer: Network-Layer Services, Packet Switching, Forwarding of IP Packets, IPv4 addresses, Subnetting and CIDR, Network Layer Protocols: Internet Protocol (IP), ICMPv4. Next Generation IP: IPv6 Addressing, IPv6 Protocol, Transition from IPv4 to IPV6. Unicast & Multicast Routing: Introduction, Routing Algorithms, Unicast Routing Protocols, Introduction, Multicasting Basics, Intra-domain Multicast Protocols, Inter-domain Multicast Protocols, IGMP, Distance Vector, Link State, Path Vector, Routing in Internet: RIP, OSPF, BGP Exemplar: Google Maps finding the best route, similar to routing in network Mapping of Course Outcomes for Unit III CO3 : Apply IP addressing and Routing techniques",
+          "hours": null
+        },
+        {
+          "title": "Transport layer (09 Hours)",
+          "topics": "Process to process delivery, Elements of Transport Layer Protocols: Addressing, Connection establishment, Connection release, Flow control and buffering, Transmission control protocol (TCP), User Datagram Protocol (UDP), Congestion control, Quality of service (QOS), Stream Control T ransmission Protocol (SCTP), Socket Programing. Exemplar: WhatsApp voice/video calls using UDP for real-time communication Mapping of Course Outcomes for Unit IV CO4 : Apply transport layer services and protocols",
+          "hours": null
+        },
+        {
+          "title": "Application layer (09 Hours)",
+          "topics": "Introduction– Principles of application layer, client -server and peer -to-peer models; World wide web (WWW), HTTP– request/response; DNS ( DNS hierarchy, DNS Resource Records, DNS Name Resolution, DNS messages); Email– SMTP, MIME, POP3, IMAP, webmail, message format, FTP– basics, File transfer process; TELNET – Remote login, limitations; DHCP – Dynamic host configuration, IP allocation, Management; SNMP– Network management, monitoring. Exemplar: Using WhatsApp, Gmail, or YouTube applications Mapping of Course Outcomes for Unit V CO5: Apply application layer protocols for network services and applications.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321D - ECV",
+      "title": "Digital Signal Processing",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        43,
+        45
+      ],
+      "units": [
+        {
+          "title": "DSP Preliminaries (09 Hours)",
+          "topics": "Discretization of Analog Signals: Advantages of Digital over Analog signal processing Sampling theorem in time domain, recovery of analog signals, and analytical treatment with examples, mapping between analog frequencies to digital frequency, Concept of Interpolation and decimation in signal processing, Representation of signals as vectors, concept of Basis function and orthogonality, Basic elements of DSP and its requirements, Introduction to DSP processor (TMS 320 XX 6713). Exemplar: Analyze discrete-time signals and determine the output and representation of a basic DSP system using signal processing techniques. Mapping of Course Outcomes for Unit I CO1: Interpret and process discrete / digital signals and represent DSP systems.",
+          "hours": null
+        },
+        {
+          "title": "Z-Transform (08 Hours)",
+          "topics": "Need for Z -transform, relation between Laplace transform and Z transform, relation between Fourier transform and Z transform, Concept of ROC and Properties of ROC, Relation between pole locations and time domain behavior, causality and stability considerations for LTI systems, Solution of difference equations using Z transform. Exemplar: Apply Z -transform techniques to analyze discrete -time signals and digital systems and determine their system response. Mapping of Course Outcomes for Unit II CO2: Analyze the digital systems using the Z-transform techniques.",
+          "hours": null
+        },
+        {
+          "title": "DFT (09 Hours)",
+          "topics": "Frequency domain sampling, DFT, Properties of DFT, circular convolution, Computation of line ar convolution using circular convolution, FFT, decimation in time (DIT) and decimation in frequency (DIF) using Radix-2 FFT algorithm for 4 point and 8-point sequences, DFT & FFT computation complexity for 4 point and 8-point sequences, Linear filtering (Block convolution or long sequence convolution) using overlap add and overlap save method. Exemplar: Implement efficient transforms (DFT/FFT) and apply them for frequency -domain analysis of discrete-time signals. Mapping of Course Outcomes for Unit III CO3: Implement efficient transform and its application to analyze DT signals.",
+          "hours": null
+        },
+        {
+          "title": "Digital Filter Design (09 Hours)",
+          "topics": "Concept of analog filter design. IIR filter design by impulse invariance method, Bilinear transformation method, warping effect. Butterworth filter design, Characteristics of Butterworth filters IIR filter realization using direct form, cascade form and parallel form. Windowing techniques: Gibbs phenomenon, characteristics and comparison of different window functions, Linear phase conditi ons: impulse and phase and group delays, Design of linear phase FIR filter using windows: Rect, Hanning, Hamming, Blackmann & Kaiser, Magnitude and Phase response of Digital filters, Frequency response of Linear phase FIR filters, FIR filter realization using Direct Form, Cascade and linear phase structure. Exemplar: Design and implement IIR, FIR digital filters to meet specified frequency response requirements. Mapping of Course Outcomes for Unit IV CO4: Design and implement IIR, FIR filters.",
+          "hours": null
+        },
+        {
+          "title": "Applications of DSP (08 Hours)",
+          "topics": "Biomedical Applications, Speech Processing, Wireless communication, IoT Applications, Image processing basics, Industry 4.0 case studies. Exemplar: Apply DSP techniques to analyze and process 1 -D and 2 -D signals for real -world applications. Mapping of Course Outcomes for Unit V CO5: Apply DSP techniques for various 1 -D and 2 -D signal processing applications.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-322A-ECV",
+      "title": "System on Chip Lab",
+      "semester": 5,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322B-ECV",
+      "title": "Advanced Java Programming Lab",
+      "semester": 5,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322C-ECV",
+      "title": "Computer Networks Lab",
+      "semester": 5,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322D-ECV",
+      "title": "Digital Signal Processing Lab",
+      "semester": 5,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        52,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM- 331-ECV",
+      "title": "Machine Learning",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        54,
+        59
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence and",
+          "topics": "Machine Learning Tut : 1,2,3,4 Introduction to Artificial Intelligence, Machine Learning, and Deep Learning, Applications of Machine Learning in: Electronics and Telecommunication Engineering: Signal Processing, Smart Communication Systems, Healt hcare, IoT and Smart Devices, Industrial Automation, Types of Machine Learning: Supervised Learning, Unsupervised Learning, Reinforcement Learning (Overview), Machine Learning Workflow: Data Collection, Data Preprocessing, Model Training, Model Evaluation, Deployment, Introduction to Python Ecosystem: NumPy, Pandas, Matplotlib, Scikit-learn, Google Colab, Emerging Trends: Generative AI, AI Assistants, Edge AI, TinyML, AIoT, AI in 5G/6G Systems Case Studies (Anyone): AI applications in Smart Phones, Recommen dation Systems, AI -enabled Communication Systems, Generative AI applications Mapping of Course Outcomes for Unit I CO1: Explain Machine Learning fundamentals, workflow and AI applications in Electronics Engineering.",
+          "hours": null
+        },
+        {
+          "title": "Data Preprocessing and Exploratory Data",
+          "topics": "Analysis Tut:5,6,7 Introduction to datasets and dataset formats, Open -source datasets and data collection methods, Data Preprocessing Techniques: Handling missing values, Data cleaning, Feature selection, Feature scaling, Data normalization, Standardization, Training and Testing datasets, Exploratory Data Analysis (EDA): Statistical analysis, Correlation analysis, Histograms, Scatter plots, Heatmaps, Data visualization techniques, Introduction to Responsible AI and bias in datasets. Case Studie s (Anyone): Telecom Traffic Dataset Analysis, IoT Sensor Data Analysis, Student Performance Dataset Visualization. Mapping of Course Outcomes for Unit II CO2: Apply data preprocessing, visualization, and exploratory analysis techniques using Python libraries.",
+          "hours": null
+        },
+        {
+          "title": "Supervised Machine Learning Techniques Tut:8,9,",
+          "topics": "Introduction to Supervised Learning, Regression Techniques: Linear Regression, Multiple Linear Regression, Classification Techniques: Logistic Regression, K -Nearest Neighbors (KNN), Decision Tree, Random Forest, Model Evaluation Metrics: Accuracy, Precision, Recall, F1 Score, Confusion Matrix, Concept of Cross Validation, Applications in: Signal Classification, Predictive Maintenance, Medical Diagnosis, Spam Detection, Network Traffic Analysis. Case Studies (Anyone): House Price Prediction, Email Spam Classification, Predictive Maintenance in Industry, Signal Classification System. Mapping of Course Outcomes for Unit III CO3: Implement Supervised Machine Learning Algorithms for predication and classification problems.",
+          "hours": 10
+        },
+        {
+          "title": "Unsupervised Learning and Emerging AI",
+          "topics": "Concepts Tut:11,12,13 Introduction to Unsupervised Learning, Clustering Techniques: K -Means Clustering, Hierarchical Clustering (Overview), Dimensionality Reduction: PCA (Overview) , Anomaly Detection Concepts, Introduction to Neural Networks and Deep Learning, Overview of: Edge AI, Tiny ML, Explainable AI (XAI), AI in Embedded Systems, AI in Cyber security, Applications in: Smart Healthcare, Image Processing, Autonomous Systems, Smart Agriculture, Industrial Automation. Case Studies (Anyone): Customer Segmentation using K -Means, Smart Healthcare Monitoring, AI - based Traffic Analysis, AI-enabled Embedded System. Mapping of Course Outcomes for Unit IV CO4: Apply Unsupervised learning techniques and Analyze engineering datasets using clustering approaches.",
+          "hours": null
+        },
+        {
+          "title": "Industry-Oriented AI Applications and Mini",
+          "topics": "Project Tut:14,15,16 AI Project Development Cycle, Working with Real -world Datasets: Kaggle datasets, GitHub, repositories, Open-source AI resources, Introduction to: AI APIs, Cloud AI tools, Generative AI tools, Prompt Engineering Basics, AI Ethics and Responsible AI, Industry Applications: AI in Telecommunication, AI in IoT, AI in Robotics, AI in Smart Manufacturing, AI in Healthcare. Case Studies (Anyone): AI-based Chatbot Demonstration, Smart Attendance Prediction System, AI - enabled IoT Monitoring System, AI-based Signal Analytics. Mapping of Course Outcomes for Unit V CO5: Develop AI based mini -projects using modern tools, real -world datasets and emerging AI technologies. List of Suggested Mini Projects (Not limited to following topics) 1. Smart Attendance Prediction System 2. Telecom Traffic Analysis 3. ECG Signal Classification 4. Predictive Maintenance System 5. Smart Agriculture Monitoring 6. AI-based Image Classification 7. IoT Sensor Data Analytics 8. Voice Command Recognition 9. AI Chatbot using ML APIs 10. Smart Communication Network Analysis Suggested Software and Tools ● Python ● GoogleColab ● Jupyter Notebook ● Scikit-learn ● TensorFlow/Keras ● Kaggle ● GitH...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OLE -341 -ECV",
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC -342-ECV",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "Experiential Learning",
+      "credits": 1,
+      "pages": [
+        60,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-ECV",
+      "title": "Embedded System Design",
+      "semester": 6,
+      "type": "Program Core Course 1",
+      "credits": 3,
+      "pages": [
+        65,
+        68
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Embedded Systems & Processor Architecture",
+          "topics": "Introduction to Embedded Systems, Classification and Characteristics of Embedded Systems, Design Metrics and Optimization, Processor Architecture, Microcontrollers vs Microprocessors vs SoC, ARM Cortex Architecture Overview, Embedded Hardware - Software Co-design, Embedded Design Lifecycle, Software Development Models: Waterfall Model, Applications of Embedded Systems in Industry. Exemplar: Airbag System in a Car/ Smart Washing Machine/ Mars Pathfinder/ Smart Home system Mapping of Course Outcomes for Unit I CO1: Explain embedded system fundamentals, processor architecture, design metrics, and development lifecycle models.",
+          "hours": 9
+        },
+        {
+          "title": "Real-Time Operating Systems (09 Hours)",
+          "topics": "Real-time System Concepts, Tasks and Threads, Scheduling Algorithms, Context Switching, Priority Inversion, Deadlock, Mutual Exclusion, Semaphore and Mutex, Intertask Communication, Memory Management in RTOS, Introduction to Free RTOS. Exemplars: Smart Traffic Signal Control System based on Free RTOS and Equivalent Mapping of Course Outcomes for Unit II CO2: Analyze RTOS concepts including Scheduling, Synchronization, Inter task Communication, and Free RTOS basics.",
+          "hours": null
+        },
+        {
+          "title": "Embedded Linux Systems (08 Hours)",
+          "topics": "Need for Embedded Linux, Embedded Linux Architecture, Boot Process, Bootloaders, U- Boot, Kernel Configuration, Device Drivers, File Systems, Cross Compilation, Debugging Tools. Exemplar: Smart IP Camera (CCTV) based on Embedded Linux, Smart TVs. Routers, Set- top boxes, ATM machines, Automotive infotainment systems and Equivalent Mapping of Course Outcomes for Unit III CO3: Illustrate embedded Linux concepts including boot process, kernel configuration, device drivers, and cross-compilation",
+          "hours": null
+        },
+        {
+          "title": "STM 32 Programming and Peripheral Interfacing",
+          "topics": "Introduction to STM32 Microcontrollers, Introduction to STM32CubeIDE, GPIO Programming, Timers, Interrupts, ADC/DAC, UART Communication, SPI Communication, I2C Communication, Sensor Interfacing, Actuator Interfacing, Mini Application Development. Exemplar: STM32-Based Smart Greenhouse Monitoring Systems and equivalent examples Mapping of Course Outcomes for Unit IV CO4: Develop embedded applications using STM32 Microcontrollers and STM32CubeIDE for peripheral interfacing.",
+          "hours": 9
+        },
+        {
+          "title": "Embedded Software Testing, Edge AI and Industry Applications",
+          "topics": "Unit Testing, Integration Testing, Hardware Debugging, JTAG Debugging, Simulators and Emulators, Introduction to Edge AI, Tiny ML Basics, Deployment using Tensor Flow Lite, Deployment using Edge Impulse. Industry Applications: Smart Agriculture, EV Charging Systems, Industrial Automation, Smart Healthcare, Automated Vending Systems. Exemplar: STM32-Based Tiny ML Smart Agriculture System. Mapping of Course Outcomes for Unit V CO5: Apply testing, debugging, and Edge AI techniques for real- world embedded applications.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-ECV",
+      "title": "Design for Testability",
+      "semester": 6,
+      "type": "Program Core Course 2",
+      "credits": 3,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Introduction of Design for Testability (08 Hours)",
+          "topics": "Types of faults, Need of Design for Testability (DFT), DFT Guideline, Testability, Fault models, Path sensitizing, Test pattern generation, Sequential circuit test, Built In Self Test, JTAG & Boundary scan, TAP Controller. Mapping of Course Explain about Stuck at Faults in digital circuits. Outcomes for Unit I",
+          "hours": null
+        },
+        {
+          "title": "Design for Testability for Combinational Circuits",
+          "topics": "Stuck at Faults, Fault diagnosis by Path Sensitization Technique, Reed Muller’s expansion technique, OR AND-OR design, Automatic Synthesis of Testable Logic, Testable design of Multilevel Combinational Circuits. Mapping of Course Outcomes for Unit II Discuss various testable design of Multilevel Combinational Circuits.",
+          "hours": 8
+        },
+        {
+          "title": "Design for Testability for Sequential Circuits",
+          "topics": "Controllability and observability, Ad-Hoc Design Rules for Improving Testability, Scan Path Technique for testable Sequential Circuit design, Level Sensitive Scan Design (LSSD), Random Access Scan Technique, partial Scan, and Boundary Scan. Mapping of Course Outcomes for Unit III Learn the concept Controllability and observability and design rules of Ad-Hoc Design.",
+          "hours": 8
+        },
+        {
+          "title": "Built-In Self-Test (08 Hours)",
+          "topics": "Test Pattern generation for BIST, Output Response Analysis, Circular BIST, Built-In logic Block observer, Self-Testing using an MISR and Parallel Shift register Sequence generator, LSSD On-Chip Self-Test. BIST Techniques for RAM Chips. Mapping of Course Outcomes for Unit IV Explain various test Pattern generation techniques for BIST and describe various techniques of Output Response Analysis.",
+          "hours": null
+        },
+        {
+          "title": "Self - Checking Circuits (08 Hours)",
+          "topics": "Basic concepts of Self checking circuits, Design of Totally Self Checking checker- Self Checking using m/n codes, Equality Checkers, Berger code, Self-Checking Combinational Circuits, Self -Checking Sequential Circuit. Mapping of Course Outcomes for Unit V : CO5: Illustrate basic concepts of Self-checking circuits.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-ECV",
+      "title": "Embedded System Design Lab",
+      "semester": 6,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        72,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-354-ECV",
+      "title": "Design for testability Lab",
+      "semester": 6,
+      "type": "Program Core Course Lab",
+      "credits": 1,
+      "pages": [
+        75,
+        76
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-361A-ECV",
+      "title": "Reconfigurable Computing",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        77,
+        79
+      ],
+      "units": [
+        {
+          "title": "Introduction to Reconfigurable Computing (08 Hours)",
+          "topics": "Types of computing and introduction to RC: General Purpose Computing, Domain -Speciﬁc Processors, Application Speciﬁc Processors; Reconﬁgurable Computing, Fields of Application; General-Purpose Computing Issues Mapping of Course Outcomes for Unit I CO1: Explore various computing methods.",
+          "hours": null
+        },
+        {
+          "title": "Architecture and Design Characteristics of Reconfigurable Devices",
+          "topics": "Reconﬁgurable Device Characteristics, Conﬁgurable, Programmable, and Fixed-Function Devices; Metrics: Density, Diversity, and Capacity; Interconnects, Requirements, Delays in VLSI Structures; Partitioning and Placement, Routing; Computing Elements, LUTs, LUT Mapping, ALU and CLBs; Retiming. Mapping of Course Outcomes for Unit II CO2: Explain Architecture and Design Characteristics of Reconfigurable Devices",
+          "hours": 8
+        },
+        {
+          "title": "Reconfigurable Processing Fabric Architectures (08 Hours)",
+          "topics": "Reconﬁgurable Processing Fabric Architectures: Fine -grained & Coarse -grained structures; RPF Integration into Traditional Computing Systems: Independent Reconﬁgurable Coprocessor Architectures, Loosely coupled RPF and processor architecture, Tightly coupled RPF and processor. Mapping of Course Outcomes for Unit III CO3: Analyze different processing fabric reconfigurable architectures.",
+          "hours": null
+        },
+        {
+          "title": "Reconfigurable computing systems and Reconfiguration management",
+          "topics": "Early systems of Reconfigurable computing: PAM, VCC, Splash, PRISM, Teramac, Cray, SRC, non - FPGA research, Other issues ; Reconfiguration Management: Reconfiguration, Configuration architectures, managing reconfiguration process, reducing reconfiguration time, configuration security. Mapping of Course Outcomes for Unit IV CO4: Study of various Reconfigurable computing systems and Reconfiguration management",
+          "hours": 8
+        },
+        {
+          "title": "Applications of Reconfigurable Computing (08 Hours)",
+          "topics": "Reconﬁgurable devices for Rapid prototyping, Non-frequently reconﬁgurable systems, Frequently reconﬁgurable systems; Compile-time reconﬁguration , Run-time reconﬁguration; RC Applications: Implementing applications with FPGAs, various applications and use of reconfiguration; Video Streaming, Distributed arithmetic, Adaptive Controller, Adaptive cryptographic systems, Software Defined Radio, High-Performance Computing, Automatic target recognition systems. Mapping of Course Outcomes for Unit V CO5: Analyze different reconfigurable architectures.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-361B- ECV",
+      "title": "Web Technology",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        80,
+        84
+      ],
+      "units": [
+        {
+          "title": "Introduction to HTML and CSS (08 Hours)",
+          "topics": "Web Fundamentals: Architecture of WWW, HTTP/HTTPS protocols, servers, client–server model, URL structure, and the role of Web Browsers vs. Web Servers. HTML: Structure of HTML Document, HTML Tags and Elements, Text Formatting, Lists, Links, Images, Tables, Forms and Input Controls. CSS: Introduction to CSS, CSS Syntax and Selectors, Styling Text, Colors, Backgrounds, Margins, Padding, Inline, Internal and External CSS, Basic Webpage Layout using CSS. Introduction to BOOTSRAP and its components. Exemplar: Create the structural skeleton for an \"Electronic Component Data Sheet\" and enhance the readability by designing using CSS. Task 1: Use a text editor to write an HTML document that includes a <header> for the component name, a <table> for pin configurations, and a <form> for a \"Request Quote\" section. Task 2: Create an external CSS file. Implement the Box Model to create distinct margins and padding between the table and the form. Use a two-column layout to place the image of the component next to its description. Mapping of Course Outcomes for Unit I CO1: Recall and design basic web pages using HTML and CSS used in standard web page development.",
+          "hours": null
+        },
+        {
+          "title": "Client-side Technology: JavaScript and DOM",
+          "topics": "Introduction to JavaScript : Features and importance of JavaScript, Client -side vs Server -side scripting, JavaScript syntax and structure, Embedding JavaScript in HTML. Variables, Data Types and Operators, Control Statements and Functions, Arrays and Strings. DOM Manipulation and Event Handling : Accessing HTML elements, Event handling basics (on click, on change, on mouse over), Basic Form Validation. Introduction to ES6 Features: let and const, Arrow Functions, Template Literals, Default Parameters. Exemplar: Enhance a blogging application using JavaScript by implementing an “Add Entry” feature to dynamically add and display blog posts using DOM manipulation and event handling. Mapping of Course Outcomes for Unit II CO2: Develop interactive webpages using basic JavaScript concept, DOM manipulation, event handling and ES6 feature",
+          "hours": 10
+        },
+        {
+          "title": "Web Scripting using jQuery and PHP (10 Hours)",
+          "topics": "JQuery: Introduction to jQuery, Loading jQuery, selecting elements, changing styles, creating, appending and removing elements, handling events, jQuery Effects, Form Handling using jQuery, Basic Validation using jQuery. PHP: Introduction to PHP, Features, Demo code, PHP SCRIPTS, PHP conditional statements and Loops, Functions, String manipulation, Arrays & Functions, pattern matching, Form handling, Cookies and Sessions tracking, File Handling, Exception Handling, E-mail validations, MySQL with PHP. Exemplar: Design an Interactive Calculator Webpage using jQuery Develop a Student Registration Web Application using PHP and MySQL Mapping of Course Outcomes for Unit III CO3: Develop interactive and dynamic web pages using jQuery and PHP with form handling, event handling, and database connectivity concepts.",
+          "hours": null
+        },
+        {
+          "title": "Introduction to React.js (10 Hours)",
+          "topics": "Introduction to Front-End Frameworks and React.js, Features and Advantages of React.js, Setting up React Environment using Node.js and npm, Introduction to JSX Syntax, Components in React,Props and State Management, Event Handling, Lists, Keys & Forms, Component Lifecycle, Introduction to React Hooks (use State, use Effect), React router, Styling in react. Exemplar: Basic Single Page Application (SPA). Implement a React component named Counter that displays a numeric value starting at 0. Use the use State hook to manage the count. Execute an event handler that increments the count when a button is clicked. Additionally, apply conditional rendering to display the text 'High Alert!' in red only when the count exceeds 10. Mapping of Course Outcomes for Unit IV CO4: Develop basic single-page web applications using React js components and state management.",
+          "hours": null
+        },
+        {
+          "title": "Web Security and Search Engine",
+          "topics": "Optimization (SEO) (07 Hours) Introduction to Web Security: Basics of Web Security, Need of Web Security, Cyber Threats, Malware, Phishing, Website Vulnerabilities, Web Attacks, Secure Browsing Practices. Web Security Mechanisms: HTTPS, SSL/TLS, Authentication & Authorization, Password Security, Firewalls, Cookies & Sessions, Basic Secure Coding Concepts. Introduction to SEO: Introduction to Search Engine Optimization, Working of Search Engines, Web Crawlers & Indexing, Importance of SEO, Types of SEO (On-page, Off-page, Technical SEO). SEO Tools & Optimization Techniques: Keyword Research, Meta Tags, Backlinks, Page Ranking, Mobile Friendly Websites, Google Search Console, SEO Analysis Tools, Social Media Optimization. Exemplar: 1. Comparison of SEO optimization techniques used by educational, commercial, and social media websites. Students may choose websites with teacher approval. Tools Required: Google Chrome Browser, Internet Connection Online SEO Tools: SEO Site Checkup, GT metrix, Google Page Speed Insights. 2. Case studies on cyber-attacks. Mapping of Course Outcomes for Unit V CO5: Apply basic web security practices and SEO techniques to analyze and improve website secu...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-361C- ECV",
+      "title": "Network & Cyber Security",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        85,
+        88
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Network security and Cryptography",
+          "topics": "Need for security, Principles of security, Types of Security attacks, Security services, Security Mechanisms, A model for Network Security, Substitution techniques (Caesar cipher, Vernam cipher , Playfair cipher), Transposition techniques (Rail fence and C olumnar transposition), Symmetric and Asymmetric key cryptography, Steganography. Exemplar : Online banking applications protect customer accounts using passwords, OTPs, and encryption to prevent unauthorized access and financial fraud.encryption to prevent unauthorized access and financial fraud. Mapping of Course Outcomes for Unit I CO1: Apply basic cryptographic techniques for enhancing security.",
+          "hours": 9
+        },
+        {
+          "title": "Symmetric, Asymmetric Cryptography and Authentication",
+          "topics": "Block Cipher, Stream Cipher, Modes of operation in Block Cipher, Symmetric Key Algorithms (DES, AES), Asymmetric Key Algorithms (RSA, Diffie -Hellman Key Exchange), Authentication algorithms, SHA, MAC, Passwords, Authentication Tokens, Certificate -based Aut hentication, Biometric Authentication, Kerberos, Key Distribution Center (KDC). Exemplar: Secure Authentication and Encrypted Communication System Mapping of Course Outcomes for Unit II CO2: Explain advanced cryptographic techniques and Authentication algorithms.",
+          "hours": 9
+        },
+        {
+          "title": "Internet Security Protocols (09 Hours)",
+          "topics": "Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Hyper Text Transfer Protocol (SHTTP), Time Stamping Protocol (TSP), Electronic Money, Email Security, Security in 5G, Virtual Private Network (VPN), IoT Security, IPsec, Countermeasures: Firewall, Secure Inter-branch Payment Transactions, Virtual E-Lections. Exemplar: Network Security Analysis using Wireshark Mapping of Course Outcomes for Unit III CO3: Interpret internet security protocols and authentication mechanisms and counter measures.",
+          "hours": null
+        },
+        {
+          "title": "Foundations of Cyber Security (09 Hours)",
+          "topics": "Definition and Importance of Cyber Security, Cyber Security Goals, Cyberspace and its Components, Challenges in Cyberspace: Threats, Vulnerabilities and Risks. Evolution of Cybersecurity, Cyber Attacks and Malware, Intrusion Detection and Prevention System s, Securing Your Digital Presence: Password Security and Management, Multi -Factor Authentication (MFA), Social Engineering & Online Scams, Secure Browsing and Phishing Awareness, Ransomware. Common Web Vulnerabilities: SQL Injection, Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF). Exemplar: Wanna Cry ransomware, phishing and social engineering incidents, MFA bypass scenarios, AI-enabled deep fake attacks, IDS/IPS deployment examples (Snort/Suricata), and email authentication mechanisms. Mapping of Course Outcomes for Unit IV CO4: Illustrate cyber security threats, malware behavior, system vulnerabilities, and web security issues.",
+          "hours": null
+        },
+        {
+          "title": "Cyber Ethics and Cyber Governance (09 Hours)",
+          "topics": "Cyber Laws, Cyber Crimes: Definition, Classification and The Vicious Cycle of Cybercrime. Cyber Ethics and Professional Responsibility: Ethical Hacking Concepts, Responsible Use of Social Media, Professional Ethics for Engineers. Data Privacy and Cyber Governance: Personal Data Protection Concepts, Data Breach and Privacy Risks, Cyber Security Policies and Governance, National Cyber Security Policy (India), International Cyber Security Standards, Introduction to: ISO/IEC 27001, GDPR (General Data Protection Regulation), Careers in Cyber Security. Exemplar: Misuse of organizational computer resources violating professional ethics and cyber policies. Mapping of Course Outcomes for Unit V: CO5: Analyze cyber laws, data privacy regulations, and cyber governance frameworks",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-361D- ECV",
+      "title": "Digital Image Processing",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        89,
+        92
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Digital Image Processing (09 Hours)",
+          "topics": "Fundamental steps in image processing, components of Image Processing, Image formation in the eye, Image Sampling and Quantization, types of images, Image Histogram, image file formats, basic relationships between pixel, mathematical operations performed on images, set operations, color fundamentals, Color Models – RGB, CMY, HSI, chromaticity diagram Exemplar: Smart Traffic Monitoring System using CCTV Image Acquisition Study how digital cameras acquire traffic images and how preprocessing improves vehicle detection accuracy. Mapping of Course Outcomes for Unit I CO1: Explain the fundamentals of digital image processing, image representation, and color models for image analysis.",
+          "hours": null
+        },
+        {
+          "title": "Image Enhancement in Spatial Domain",
+          "topics": "Introduction to Image Enhancement, Need for Image Enhancement, Image enhancement fundamentals Spatial Domain Fundamentals, Concept of spatial domain processing, Point processing operations, Neighborhood processing operations, Relationship between pixels an d masks .Gray -Level Transformations, Image negative, Log transformation, Power-law (Gamma) transformation, Piecewise linear transformation, Contrast stretching, Gray -level slicing, Bit -plane slicing. Spatial Filtering Techniques, Smoothing Filters: Mean filter, Weighted average filter, Median filter Sharpening Filters, Gradient operators, Laplacian filtering, High -boost filteringNoise Models and Noise Reduction, Gaussian noise, Salt and pepper noise, Periodic noise, Noise removal using spatial filters. Exemplar Medical X-ray Image Enhancement Analyze how enhancement techniques improve visibility of fractures and abnormalities in medical images Mapping of Course Outcomes for Unit II CO2: Apply spatial domain enhancement and filtering techniques for image quality improvement and noise reduction.",
+          "hours": 9
+        },
+        {
+          "title": "Image Enhancement and Segmentation in Frequency Domain",
+          "topics": "Introduction to Frequency Domain Processing, Fundamentals of frequency domain image processing Spatial domain vs frequency domain processing, Concept of spatial frequency: Low -frequency components, High -frequency components. Frequency Domain Image Enhancem ent, Low -Pass Filtering (Image Smoothing), Ideal Low Pass Filter (ILPF), Butterworth Low Pass Filter (BLPF), Gaussian Low Pass Filter (GLPF). High -Pass Filtering (Image Sharpening), Ideal High Pass Filter (IHPF), Butterworth High Pass Filter (BHPF), Gaussian High Pass Filter (GHPF), Image Segmentation Techniques, Edge -Based Segmentation, Detection of discontinuities: Roberts operator, Prewitt operator, Sobel operator, Canny edge detector, Threshold -Based Segmentation: Global thresholding, Adaptive thresholding, Region-Based Segmentation, Region growing, Region splitting and merging. Exemplar: Defect Detection in Manufacturing Industry .Study segmentation methods used for identifying cracks and defects in electronic components or mechanical parts. Mapping of Course Outcomes for Unit III CO3: Implement frequency domain enhancement and image segmentation techniques for image analysis and feature extraction",
+          "hours": 9
+        },
+        {
+          "title": "Image Compression (08 Hours)",
+          "topics": "Need of Image Compression, Image compression model, Types of image compression - Lossy and lossless, Huffman coding for image compression, Compression using Discrete Cosine Transform, 8X8 block DCT, processing pipeline, Wavelet based compression- DWT, Compression ratio, relative data redundancy, compression ratio vs quality trade-off. Exemplar: Use of DCT in JPEG Image compression Mapping of Course Outcomes for Unit IV CO4: Analyze image compression techniques using DCT and DWT for evaluating compression performance.",
+          "hours": null
+        },
+        {
+          "title": "AI-Driven Computer Vision Systems and Applications",
+          "topics": "Introduction to computer vision, AI-assisted image processing, Basics of machine learning for images Object detection concepts, Face recognition fundamentals, Real -time video processing, Embedded vision systems, Edge AI and IoT vision devices, Ethical issu es in AI-based vision systems, Emerging applications: Autonomous vehicles, Smart cities, Healthcare diagnostics, Agriculture monitoring Exemplar: Face Recognition System for Smart Attendance. Analyze the working of AI -based face recognition systems used in modern educational institutions and industries Mapping of Course Outcomes for Unit V CO5: Apply computer vision and AI techniques to study intelligent image and video processing solutions for real-world applications. Textbooks: 1. Gonzalez & Woods, “Digital Image Processing”, Pearson Education, 4th Edition, 2018. 2. Rafael C. Gonzalez, Richard E. Woods, and Steven L. Eddins, Digital Image Processing Using MATLAB, 3rd Edition,2020. 3. Computer Vision: Algorithms and Applications — Richard Szelisk, Publication Springer,2022",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-362A- ECV",
+      "title": "Semiconductor IC Fabrication Technology",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        93,
+        95
+      ],
+      "units": [
+        {
+          "title": "Semiconductor Fundamentals (07 Hours)",
+          "topics": "Classification of materials: Conductors, Insulators, Semiconductors, Intrinsic and Extrinsic Semiconductors, Energy band theory, Electrons and holes , Carrier concentration and mobility, Drift and diffusion current , PN junction basics , Semiconductor materials used in IC fabrication (Si, Ge, GaAs) Mapping of Course Outcomes for Unit I CO1: Understand the fundamentals of semiconductor materials and device physics related to IC fabrication.",
+          "hours": null
+        },
+        {
+          "title": "Wafer Preparation and Crystal Growth (09 Hours)",
+          "topics": "Silicon as semiconductor material, Crystal structure of silicon , Electronic grade silicon production, Crystal growth techniques: Czochralski method , Float Zone method , Ingot slicing and wafer formation, Lapping, polishing, cleaning, Epitaxial growth, Wafer specifications and defects Mapping of Course Outcomes for Unit II CO2: Describe wafer preparation methods and substrate manufacturing processes.",
+          "hours": null
+        },
+        {
+          "title": "Oxidation, Lithography and Etching (09 Hours)",
+          "topics": "Thermal oxidation process , Silicon dioxide properties, Photolithography process steps , Photoresists: Positive and Negative, Mask generation , Wet etching and Dry etching , Plasma etching , Process limitations Mapping of Course Outcomes for Unit III CO3: Explain major IC fabrication steps",
+          "hours": null
+        },
+        {
+          "title": "Doping, Diffusion and Thin Film Deposition (09 Hours)",
+          "topics": "Impurity doping concepts , Diffusion process , Ion implantation , Annealing , Thin film deposition: CVD, PVD, Sputtering; , Metallization techniques , Interconnection layers Mapping of Course Outcomes for Unit IV CO4: Analyze CMOS, NMOS, Bipolar, and BiCMOS fabrication processes used in integrated circuit manufacturing.",
+          "hours": null
+        },
+        {
+          "title": "CMOS Fabrication, Packaging and Testing (08 Hours)",
+          "topics": "NMOS fabrication process , PMOS fabrication process , CMOS fabrication using twin-tub / n-well / p-well , CMOS process flow , Packaging techniques , IC testing methods , Yield, reliability and failure analysis , CMOS scaling trends , FinFET and advanced transistor structures, SoC fabrication concepts Overview of modern VLSI technology : Scaling of MOSFET devices in deep submicron and nanometer technologies, Fabrication challenges in advanced technology nodes (FinFET, GAAFET), Semiconductor fabrication for AI, IoT, FPGA and SoC devices Mapping of Course Outcomes for Unit V CO5: Apply knowledge of semiconductor fabrication techniques to modern VLSI technologies Textbooks: 1. James D. Plummer, Michael D. Deal, Peter B. Griffin, “Silicon VLSI Technology: Fundamentals, Practice and Modeling” 2. Sorab K. Ghandhi, VLSI Fabrication Principles: Silicon and Gallium Arsenide 3. S. M. Sze, VLSI Technology 4. Quirk & Serda – Semiconductor Manufacturing Technology",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362B- ECV",
+      "title": "Power Converters and Applications",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        96,
+        98
+      ],
+      "units": [
+        {
+          "title": "Study of Power Devices (08 Hours.)",
+          "topics": "Basic Construction and VI characteristics of SCR. Synchronized gate pulse triggering circuit for SCRs using UJT oscillator. Block diagram / logic for triggering circuit using microcontroller. Use of pulse transformer and Opto - Isolator in triggering circuit. Typical gate drive requirements and circuit for Power MOSFET, IGBT and GTO. Comparison of SCR, Power MOSFET, IGBT and GTO. Mapping of course Outcomes for Unit I CO1: To understand functionality of SCR, MOSFET & IGBT along with their triggering / driver circuits.",
+          "hours": null
+        },
+        {
+          "title": "AC to DC Power Converters (Controlled",
+          "topics": "Rectifiers) (09 Hours.) Study of Single phase Semi converter (H.C.B.R) & Full converter (F.C.B.R.) using SCR for R And R-L loads (continuous conduction only) along with relevant waveforms. Inversion mode of operation for F.C.B.R feeding active load (continuous conduction) for firing angle greater than 90 degree with waveform for output voltage and load current. Derivation for Average and RMS output voltage. Numerical to find out performance parameters like output voltage, ripple factor and power factor. Effect of Freewheeling diode on F.C.B.R and significance of power factor. Mapping of course Outcomes for Unit II CO2: To analyse performance parameters of the AC to DC converters (Controlled Rectifiers)",
+          "hours": null
+        },
+        {
+          "title": "DC to AC Converters (Inverters) (09 Hours.)",
+          "topics": "Single phase half bridge and full bridge square wave inverter for R and R-L load using MOSFET / IGBT and its performance analysis. Study of functional diagrams of IC SG 3525 and IR 2110 used in practical Inverter circuits. Operation of Three Phase voltage source inverter for balanced star connected R load with 120 and 180 degree mode of operation along with waveform and equation for output voltage. (No derivations and numerical). Mapping of course Outcomes for Unit III CO3 : To understand operation of single phase and three phase DC to AC converters (Inverters)",
+          "hours": null
+        },
+        {
+          "title": "DC to DC Converters (DC Choppers) (09 Hours.)",
+          "topics": "Operation of basic step down chopper for R and R+L load (continuous conduction) using Power MOSFET / IGBT as controlled switch along with proper waveform and equation for output voltage. Various control strategies for choppers. Study of Buck converter and Boost Converter along with relevant waveforms. ( No derivations and numerical) Mapping of course Outcomes for Unit IV CO4: To evaluate the performance parameters of DC TO DC converters and switch mode regulators ( DC Choppers)",
+          "hours": null
+        },
+        {
+          "title": "Power Electronics Applications (08 Hrs.)",
+          "topics": "Important voltage and current ratings of power devices. Overvoltage, Overcurrent, dv/dt and di/dt protection circuits for SCR. Applications: Fan Regulator Circuit using Triac- Diac, Block diagram of On-line and Off- line UPS. Fly back converter SMPS and Full Bridge converter SMPS. Case study of Solar roof top PV system and block diagram explanation. (No derivations and numerical) Mapping of Course Outcomes for Unit V To understand device ratings, protection circuits and applications of power devices. Learning Resource",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362C- ECV",
+      "title": "Artificial Intelligence",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        99,
+        102
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence, Intelligent Agents and Problem Solving in AI",
+          "topics": "Introduction: Definition and Concept of AI, History and Evolution of AI, Characteristics of Intelligent Systems, Benefits and Limitations of AI, Intelligent Agents: Definition, Structure, Types. Agents and Environments, Types of Environments: Observability: Fully Observable, Partially Observable, Predictability: Deterministic, Stochastic, Dynamics: Static, Dynamic, Continuity: Discrete, Continuous, Interaction and Agents: Single Agent, Multi-Agent, Independence of Action Sequence: Episodic, Sequential, Agent`s Knowledge: Known and Unknown Environment. Problem Solving Agents, Problem Solving Approach to Typical AI Problem, State Space Search, Search Strategies: Uninformed, Informed, Heuristics. Constraint Satisfaction Problems, Constraint Propagation, Backtracking and look ahead strategies Search. Exemplar: Google Assistant, Netflix, Google Map, Robotic Vaccum Cleaner, Chess, Pocker Game, Calculator, Airline Booking System. Mappig of Course Outcomes for Unit I CO1: Explain intelligent agents, environment and problem solving in AI.",
+          "hours": 9
+        },
+        {
+          "title": "Search Techniques (09Hours)",
+          "topics": "Uniformed Search Techniques: Breadth First Search (BFS), Depth First Search (DFS), Uniform Cost Search. Informed (Heuristic) Search Techniques: Best First Search, Greedy Search. Optimal Search: A* Algorithm. Heuristic Function, Generate and Test, Hill Clim bing, Beam Search, Tabu Search. Constraint Satisfaction Problems (CSP), Game Playing: Minimax Algorithm, Alpha -Beta Pruning, Introduction to Reinforcement Learning Concepts, AI based Optimization Techniques. Exemplar: Shortest Route-Finding Problem, Puzzle Problem, Social Media Friend Search, Maze solving Robot, GPS Navigation, Robot Navigation, Advanced Game Engines, Autonomous Vehicles and Robotics, Alpha Go, Robot Navigation, Airline Scheduling System. Mapping of Course Outcomes for Unit II CO2: Implement AI based search and optimization techniques related to real world AI problems.",
+          "hours": null
+        },
+        {
+          "title": "Knowledge Representation and Inference (09Hours)",
+          "topics": "Knowledge Based Agents: Knowledge Representation, Types of Knowledge, Structured Representation of Knowledge, The Wumpus World problem, Logical Agents. Propositional Logic: Propositional Theorem Proving, Effective Propositional Model Checking, Agents Based on Propositional Logic, Predicate Logic, First Order Logic: Representation Revisited, Syntax and Semantics of First Order Logic, Knowledge Engineering in First Order Logic. Rule based Expert System, Rules. Inference Mechanism: Unification, Reasoning, Reso lution, Forward Chaining, Backward Chaining Rule Value Approach. Knowledge Representation: Conceptual Dependency, Frames, Semantic nets. Exemplar: Amazon and Alexa, Netflix, Google Assistant, BBC Interactive News, Chatbots, IBM Watson, ChatGPT, Microsoft Copilot, Tesla Autonomous Driving AI. Mapping of Course Outcomes for Unit III CO3: Develop knowledge -based AI models with the help of inference mechanism and rule value approach.",
+          "hours": null
+        },
+        {
+          "title": "Planning, Learning and Analysis in Expert Systems",
+          "topics": "AI Planning: Block World Problem in Artificial Intelligence, Goal Tree in AI Problem Solving, Non -linear Planning for Intelligent Systems, Hierarchical Planning in AI, Goal Stack Planning Techniques. AI Learning Concepts: Definition of Learning in AI, Forms of Learning, Learning by Taking Advice, Learning in AI Problem Solving, Inductive Learning, Explanation Based Learning (EBL), Formal Learning Theory, Ensemble Learning Methods. AI Expert Systems: Intelligent Systems vs Expert Systems, Architecture of AI Expert Systems, Roles and Applications of Expert Systems, Knowledge Acquisition in AI Systems, Meta Expert System Shells. Analysis in Expert System: Knowledge Base, Inference Engine, Explanation Facility, Mechanism: Rule Matching, Handling Uncertanity, Reasoning. Exemplar: Automated Warehouse Robots, GPS Route Planning, Spam Email filtering, Medical Diagnosis Systems, Banking Fraud Detection, Intelligent Tutoring System, Industrial Equipment Logs to Perform Fault Diagnosis and Suggest Repairs. Mapping of Course Outcomes for Unit IV CO4: Apply AI planning and learning techniques in the analysis of expert system towards intelligent decision making.",
+          "hours": 9
+        },
+        {
+          "title": "Emerging AI Applications and Ethics (08Hours)",
+          "topics": "AI in Natural Language Processing (NLP), Speech Recognizer, Computer Vision, Healthcare, Education, Banking and Finance, Transportation and Smart Mobility. Cyber Security, E -Commerce and Business, Social Media, Security. AI in Robotics: Robotic Sensors, Domestic Robots, Agricultural Robots, Edge AI & Tiny ML basics. Philosophy and Ethics of AI: Ethical Issues, Safety, Privacy and Surveillance, Manipulation of behavior, Bias in Decision Systems, Social Impact of AI Systems. Future AI Technologies: Explainable AI (XAI), Generative AI (Gen AI), Case Study. Exemplar: Digital payments, Smart Harvesting, Self Driving Cars, Smart Navigation, Green AI, Face Recognition, Chatbots, Google Translate, Smart Cities, Autonomous Assistants, Workflow Automation. Mapping of Course Outcomes for Unit V CO5: Assess the AI techniques for real world application along with ethical, social, and future challenges.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362D- ECV",
+      "title": "Broad Band Communication",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        103,
+        106
+      ],
+      "units": [
+        {
+          "title": "Introduction to Broadband Ecosystem & Industry Overview",
+          "topics": "Evolution from PSTN TO Gigabit Internet, Broadband Market Landscape (ISP, Telecom Operator, Data Centers, Internet Architecture & Service provider, Multiplexing in Broadband TDM ,FDM . Broadband performance metrics (Latency, Throughput, Jitter) QoS & SLA concepts Exemplar: Draw and explain the end-to-end architecture of Internet service delivery from Data Centres to End Users. OR Identify the roles of ISPs, Telecom Operators, Internet Exchange Points (IXPs), and Content Delivery Networks (CDNs). Mapping of Course Outcomes for Unit I CO1: Explain various broadband technologies used in the telecom industry and the significance of Quality of Service (QoS) parameters.",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Fibre Optic Communication for Broadband Networks",
+          "topics": "Optical communication bands, selection of optical sources and photodetectors, types of optical fibres (brief introduction), GPON and EPON – concepts and architecture, FTTH- concept (ONT, OLT, and BNG) fiber network planning fundamentals. Exemplar : FTTH Deployment Case Study- Study a real-world FTTH deployment by BSNL FTTH, JioFiber, Airtel Xstream Fiber, or Tata Play Fiber. Mapping of Course Outcomes for Unit II CO2: Analyze fibre optic communication technologies, GPON/EPON systems, FTTH architecture, and WDM concepts used in broadband networks.",
+          "hours": 9
+        },
+        {
+          "title": "Broadband Access Networks (ISP Technologies) (09 Hours)",
+          "topics": "Introduction to DWDM (Architecture, DWDM Principles, advantages, Deployment) Wireless broadband concepts -Wi-Fi (IEEE 802.11), WiMAX (IEEE 802.16),3G, 4G LTE, 5G overview, Satellite broadband communication - Internet System(overview), Spectrum management. Exemplar:Study a telecom backbone network employing DWDM technology. OR Case Study: Analyze how DWDM enables high-capacity transmission for long-haul and metro networks. Mapping of Course Outcomes for Unit III CO3: Analyze the architecture, features, and technological advancements of mobile broadband technologies from 3G to 5G networks configuration and broadband deployment.",
+          "hours": null
+        },
+        {
+          "title": "Wireless Broadband Communication (09 Hours)",
+          "topics": "Introduction to Cloud Computing, Evolution of cloud computing, Cloud service models: IaaS ,PaaS, SaaS. Data centre basics, Challenges in traditional cloud networking. Edge computing basics, Cloud Networking basics. Introduction to SDN, Traditional vs SDN networking, Control plane and data plane, SDN architecture, OpenFlow basics.Virtual networking concepts Traffic engineering in cloud, QoS management, Dynamic bandwidth allocation, Security in SDN-cloud networks, QoS management. Exemplar: Create a timeline showing the evolution from traditional computing to virtualization, cloud computing, edge computing, and distributed cloud architectures. Mapping of Course Outcomes for Unit IV CO4: Evaluate broadband wireless technologies and their applications in modern communication networks.",
+          "hours": null
+        },
+        {
+          "title": "Broadband Switching and Networking Protocols with Emerging Technologies",
+          "topics": "Ethernet IP, TCP, UDP, ATM, Traditional MPLS, Advanced Routing Protocols OSPF/ BGP/ IS-IS, SDN based MPLS, FRAME RELAY, SONET/SDH Network performance using QoS, Network virtualization Concepts. AI in Network Management, Broadband for IoT, Introduction to 6G Evolution. Exemplar: Prepare a protocol comparison chart and discuss their role in broadband networks. OR B) Analyze how MPLS improves traffic engineering and QoS. Mapping of Course Outcomes for Unit V: CO5: Analyze industry-oriented networking tools and practices, configuration and broadband deployment.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-363A-ECV",
+      "title": "Reconfigurable Computing Laboratory",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        108,
+        109
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363B-ECV",
+      "title": "Web Technology Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        110,
+        112
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363C-ECV",
+      "title": "Network & Cyber Security Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        113,
+        114
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363D-ECV",
+      "title": "Digital Image Processing Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        115,
+        117
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-ECV",
+      "title": "Database Management System",
+      "semester": 6,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        118,
+        120
+      ],
+      "units": [
+        {
+          "title": "Introduction to DBMS (03 Hrs.)",
+          "topics": "Introduction to Database Management Systems, Purpose of Database Systems, Database-System Applications, Data Abstraction and Database System Structure. Relational Model: Structure of relational databases, Domains, Relations, Relational algebra – fundamental operators and syntax, relational algebra queries, tuple relational calculus. Entity-Relationship model: Basic Concepts, Entity Set, Relationship Sets and Weak Entity Sets, Mapping Cardinalities, Keys, E-R diagrams, Design Issues, Extended E-R Features, Converting E-R & EER diagram into tables. Mapping of Course Outcomes for Unit I CO1: Ability to implement the underlying concepts of a database system.",
+          "hours": null
+        },
+        {
+          "title": "Relational Database Design (03 Hours.)",
+          "topics": "Basic concepts, CODD's Rules, Relational Integrity: Domain, Referential Integrities, Enterprise Constraints, Database Design: Features of Good Relational Designs, Normalization, Atomic Domains and First Normal Form, Decomposition using Functional Dependencies, Algorithms for Decomposition, 2NF, 3NF, 4NF and BCNF. Mapping of Course Outcomes for Unit II CO2: Design and implement a database schema for a given problem- domain using data model.",
+          "hours": null
+        },
+        {
+          "title": "Basics of SQL (03 Hours.)",
+          "topics": "DDL, DML, DCL, Structure: Creation, Alteration, Defining constraints – Primary key, Foreign key, Unique key, Not null, Check, IN operator, Functions - Aggregate Functions, Built -in Functions – Numeric, Date, String Functions, Set operations, sub -queries, correlated subqueries, Use of group by, having, order by, join and its types, Exist, Any, All, view and its types. Transaction control commands : Commit Rollback, Save -point PL /SQL Concepts: Cursors, Stored Procedures, Stored Function, Database Triggers. Mapping of Course Outcomes for Unit III CO3: Formulate, using SQL/DML/DDL commands, solutions to a wide range of query and update problems.",
+          "hours": null
+        },
+        {
+          "title": "Database Transactions Management (03 Hours.)",
+          "topics": "Basic concepts of a Transaction, Transaction Management, Properties of Transactions, Concept of Schedule, Serial Schedule, Serializability: Conflict and View, Cascaded Aborts, Recoverable and Non- recoverable Schedules, Concurrency Control: Need, Locking Methods, Deadlock handling and Time- stamp based Protocols. Mapping of Course Outcomes for Unit IV CO4: Implement transactions, concurrency control, and be able to do Database recovery.",
+          "hours": null
+        },
+        {
+          "title": "Parallel & Distributed Databases (03 Hrs.)",
+          "topics": "Introduction to Database Architectures: Multi-user DBMS Architectures, Parallel Databases: Performance Parameters for Parallel Databases, Types of Parallel Database Architecture, Evaluating Parallel Query in Parallel Databases and Virtualization on Multicore processors. Distributed Databases: Distributed Database Management System, Factors Encouraging DDBMS, Advantages of Distribu ted Databases, Types of Distributed Databases, Architecture of Distributed Databases Mapping of Course Outcomes for Unit V CO5: Able to understand various Parallel Database & Distributed Databases Architectures.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSE-372-ECV",
+      "title": "Mini-Project",
+      "semester": 6,
+      "type": "Vocational & Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        121,
+        124
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-381-ECV",
+      "title": "Internship/OJT",
+      "semester": 6,
+      "type": "Experiential Learning Course",
+      "credits": 4,
+      "pages": [
+        125,
+        129
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

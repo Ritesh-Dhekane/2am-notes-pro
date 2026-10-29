@@ -1,0 +1,1111 @@
+{
+  "id": "nep-third-year-b-tech-biotechnology-syllabus-2026-2027-bio-120626-23062026",
+  "kind": "programme",
+  "programme": "Third Year B.Tech. Biotechnology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-BIO",
+      "title": "Fermentation Technology",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        10,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Microbial Fermentation",
+          "topics": "Introduction to microbial/Industrial fermentation: Applications for production of industrially important products, Examples of classical fermentation systems, Concept of upstream processing - Screening and isolation of microbes, Preserving industrially important microbes, Inoculum preparation Mapping of Course Outcomes for Unit I CO1: Identify and characterize industrial-grade microorganisms and select appropriate fermentation strategies for diverse bioproducts.",
+          "hours": 9
+        },
+        {
+          "title": "Media Preparation and optimization",
+          "topics": "Different types of media, sources of nutrients i.e. carbon, nitrogen etc., effect of media components on fermentation, media preparation, optimization for maximum yield, Sterilization: Need for sterilization, different types of sterilization techniques – their mechanism of destruction, in situ sterilization, HTST Mapping of Course CO2: Formulate optimized growth media and calculate required sterilization time to ensure sterile industrial operations. Outcomes for Unit II",
+          "hours": 9
+        },
+        {
+          "title": "Microbial Enzymes & Enzymatic Bioprocesses",
+          "topics": "Isolation, Production and use of microbial enzymes, Methods of Immobilization, immobilized enzymes and their applications, Case studies of Fructose, Glucose production using enzymes. Single Cell protein Production, Fungal, algal Protein Production, Microbial Transformations. Mapping of Course Outcomes for Unit IV CO3: Analyze the metabolic pathways and production parameters for antibiotics, vitamins, and enzymes in large-scale bioprocesses.",
+          "hours": 9
+        },
+        {
+          "title": "Fermenter design, scale up & Economics",
+          "topics": "Submerged Liquid Fermentation (SLF) and Solid state fermentation (SSF), advantages and disadvantages, applications of SLF and SSF, Scale -up: Principles, theoretical considerations and techniques used, Sterilization, inoculum development, operation parameters Concept of downstream processing, Fermentation and product recovery costs, yields, product recovery, product purity, fermentation efficiency, case example such as ethanol economics; GMPs Mapping of Course Outcomes for Unit V CO4: Perform scale-up calculations based on constant power input or oxygen transfer rate for submerged and solid-state systems.",
+          "hours": 9
+        },
+        {
+          "title": "Industrially important Microbial products",
+          "topics": "Upstream cultivation and downstream recovery of primary metabolites like ethanol, Citric acid etc, secondary metabolites like Antibiotics (Penicillin, Streptomycin etc.), microbial biomass like SCP, baker’s yeast, and vitamins B2, B12 via optimized large-scale fermentation and purification. Mapping of Course Outcomes for Unit III CO5: Compare and evaluate batch, fed-batch, and continuous fermentation modes for optimizing product yield and productivity. Learning Resources Text Books: 1. Casida, “Industrial microbiology”, Newage Publication, 2001 2. Stanbury, Whitaker, S.Hall . “Principles of Fermentation Technology”, Second Edition, Elsevier publication 3. Bailey and Ollis, “Biochemical Engineering Fundamentals”, McGraw Hill, NewYork Reference Books: 1. Trevor Horwood, “Enzymes”, 2001 2. Prescott and Dunn, “Industrial microbiology”, CBS publications 4thEdition, 1999 3. M.Y. Young, “Comprehensive Biotechnology Vol. 1- 4:, Pergamon Press 4. T.D. Brock, “Biotechnology: A Text Book of Industrial Microbiology”, SmaeurAssociates, 1990 5. Paulin M. Doran, “Bioprocess Engineering Principles”, Academic Press, London 6. S. Aiba, A. E. Humphrey, N. F. Milli, “Biochemical Engineering” MOOC /...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Microbial Fermentation",
+          "topics": "Activity 1: Upstream Processing: Screening & Isolation ● Task: Design a workflow to isolate a microbe with a specific trait ● Real-Life Problem Addressed: Apply various screening techniques to obtain ‘industrially fit’strain ● Expected Outcome: Understanding the importance of various Bioprospecting protocols. Activity 2: Preservation of industrially important microbes ● Task: Prepare a report comparing preservation methods lyophilisation and cryopreservation for high viability ● Real-Life Problem Addressed: Understanding importance of preservation methods and subculturing. ● Expected Outcome: Students will understand and learn various techniques of strain preservation.",
+          "hours": null
+        },
+        {
+          "title": "Media Preparation & Optimization",
+          "topics": "Activity 1: Media Preparation & Documentation ● Task: Prepare selective/differential media and document protocols ● Real-Life Problem Addressed: Designing culture media for new microbial isolates from extreme environments ● Expected Outcome: Mastery over media formulation and sterile techniques Activity 2: Waste to Wealth formulation ● Task: Design a medium for a specific microbe targeting an industrial product. ● Real-Life Problem Addressed: Nutrient mapping with carbon and nitrogen source ● Expected Outcome: Understanding the difference between simple and complex media. Activity 3: Media Optimization for maximum yield ● Task: “Placket-Burman” Simulation, Given a list of 10 media components (Glucose, peptone,salts,etc.), describe a strategy to find which one can increase the product yield. ● Real-Life Problem Addressed: Propose a statistical design to find where carbon and nitrogen ratiosmaximize the titer/concentration of the target metabolite. ● Expected Outcome: Creative and applied understanding of nutritional/environmental needs of microbes",
+          "hours": null
+        },
+        {
+          "title": "Microbial Enzymes & Enzymatic Bioprocesses",
+          "topics": "Activity 1: Case Study Analysis ● Task: Choose an appropriate enzymatic process ● Real-Life Problem Addressed: Case study on glucose, fructose or artificial sweetners ● Expected Outcome: Knowledge of suitable microbial and enzymatic bioprocesses. Activity 2: Enzyme immobilization Techniques ● Task: Group discussion on various immobilisation techniques, reactors and bioproducts ● Real-Life Problem Addressed: Improving biocatalytic yield using immobilized enzyme. ● Expected Outcome: Ability to understand importance of enzymatic processes.",
+          "hours": null
+        },
+        {
+          "title": "Fermenter design, scale up & Economics",
+          "topics": "Activity 1: SLF vs. SSF: Strategic Comparison ● Task: Create a decision matrix to choose between Submerged Liquid Fermentation (SLF) and Solid State Fermentation (SSF) for a specific industrial enzymes cellulose and pectinase ● Real-Life Problem Addressed: Justify why most bacterial antibiotics use SLF (high water activity needs), while fungal food products like tempeh or soy sauce rely on SSF (low moisture, surface growth). ● Expected Outcome: comparative analysis of SLF and SSF Activity 2: The \"Compliance Audit\" Checklist ● Task: Draft a Good Manufacturing Practice (GMP) manual for a biopharmaceutical fermentation facility. ● Real-Life Problem Addressed: Understanding role of GMPs in Pharma industries ● Expected Outcome: Broader understanding of GMPs and audit preparation. Activity 3: Ethanol Economics ● Task: Perform a techno-economic analysis for a corn-based or sugarcane-based ethanol plant. ● Real-Life Problem Addressed: Estimate cost breakdown for feedstock cost, product recovery and sensitivity analysis (how a 10% increase in fermentation yield or a change in solid loading affects the Minimum Ethanol Selling Price (MESP). Expected Outcome: Ability to understand process e...",
+          "hours": null
+        },
+        {
+          "title": "Microbial production of industrially important products",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-BIO",
+      "title": "Genetic Engineering",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Molecular Tools & Amplification Techniques",
+          "topics": "Techniques and tools in genetic engineering: Restriction enzymes, DNA ligase, linkers, adapters, homopolymer tailing, blotting techniques; PCR and amplification methods: PCR design and optimization, PCR types, RT-PCR, real-time PCR Mapping of Course Outcomes for Unit I CO1: Explain the role of enzymes and PCR in genetic engineering and apply them in experimental design.",
+          "hours": 9
+        },
+        {
+          "title": "Cloning Vectors and Their Features",
+          "topics": "Vector components and features: Origin of replication, copy number, selection markers, multiple cloning sites; Cloning vectors: Plasmids, lambda phage, insertional and replacement vectors, cosmids, phagemids, M13 vectors, bacterial artificial chromosomes (BACs), yeast artificial chromosomes (YACs); Vector- related techniques: In vitro packaging Mapping of Course Outcomes for Unit II CO2: Differentiate various cloning vectors based on structure, function, and application.",
+          "hours": 9
+        },
+        {
+          "title": "Gene Cloning Strategies and Screening Methods",
+          "topics": "Gene cloning strategies: Genomic libraries, cDNA libraries, PCR in cloning, amplification of gene libraries; Screening of recombinants: Hybridization, colony PCR, blue white selection, immunological screening, selection based on nutrient deficiency Mapping of Course Outcomes for Unit III CO3: Apply gene cloning strategies and evaluate methods for screening recombinant clones.",
+          "hours": 9
+        },
+        {
+          "title": "Expression Systems and Host Engineering",
+          "topics": "Expression systems and host engineering: Cloning in bacteria, competency, copy number significance, broad host range plasmids; Expression vectors and yeast systems: Expression vectors, Saccharomyces cerevisiae, Pichia pastoris, promoters, problems in expression Mapping of Course Outcomes for Unit IV CO4: Analyze different expression systems and select appropriate hosts for gene expression.",
+          "hours": 9
+        },
+        {
+          "title": "Gene Transfer & Modern Techniques in GE",
+          "topics": "Gene transfer technologies: Transformation, transfection, electroporation, viral vectors (basic concept), Agrobacterium-mediated transformation, particle bombardment; Advanced techniques in genetic engineering: Sanger sequencing, next -generation sequencing basics, microarrays; Genome editing technology: CRISPR Cas system, sgRNA, PAM sequence, DNA repair mechanisms (NHEJ, HDR), applications, and limitations Mapping of Course Outcomes for Unit V CO5: Describe and interpret gene transfer methods, sequencing technologies, and CRISPR-based genome editing. Learning Resources",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-BIO",
+      "title": "Heat and Mass Transfer",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        17,
+        21
+      ],
+      "units": [
+        {
+          "title": "Nature of Heat flow",
+          "topics": "Nature of Heat flow- Conduction, Convection and Radiation, Heat transfer by Conduction: Basic law of conduction, thermal conductivity, steady state conduction, compound resistances in series, heat flow through a cylinder and a sphere, unsteady state conduc tion – one dimensional heat flow with constant surface temperature. Mapping of Course Outcomes for Unit I CO1: Understand and apply basic principles of heat and mass transfer operations to various separation processes.",
+          "hours": 9
+        },
+        {
+          "title": "Heat Exchanger Equipments",
+          "topics": "Principles of heat flow in fluids: counter -current and parallel flows, energy balances, heat flux and heat transfer coefficients, overall heat transfer coefficients, LMTD, individual heat transfer coefficients, fouling factor. Heat exchange equipment: Doub le pipe heat exchanger and 1 -2 Shell and tube heat exchanger Mapping of Course Outcomes for Unit II CO3: Understand the importance of heat and mass transfer phenomena in the design of process equipments. CO5: Identify the major parts of various heat and mass transfer equipments.",
+          "hours": 9
+        },
+        {
+          "title": "Molecular Diffusion in Fluids",
+          "topics": "Molecular diffusion in fluids: Binary solutions, Fick’s law, Steady state diffusion in A diffusing through non- diffusing B and equimolal counter diffusion, application of molecular diffusion. Mass transfer coefficients, theories of mass transfer, analogy b etween momentum, heat, and mass transfer. Concept of equilibrium, diffusion between phases, two resistance theory, Absorption: Solubility’s of gases in liquids, ideal and non- ideal solutions, choice of solvent for absorption Mapping of Course Outcomes for Unit III CO3: Identify the basic techniques for measurement of diffusivity, mass transfer coefficient, heat transfer coefficients.",
+          "hours": 9
+        },
+        {
+          "title": "Distillation",
+          "topics": "Distillation: Principles of VLE for binary systems, relative volatility, Ideal solutions -Raoult’s law, Azeotropes, Positive and negative deviations from Ideality, flash vaporization, partial condensation, differential distillation, steam distillation, cont inuous distillation, McCabe -Thiele method, Murphy stage efficiency. Mapping of Course Outcomes for Unit IV CO4: Understand the VLE concepts and its application to various types of distillation.",
+          "hours": 9
+        },
+        {
+          "title": "Equipment for gas-liquid operations",
+          "topics": "Sparged vessels, mechanically agitated vessels for single phase liquids and gas-liquid mixtures, spray towers, sieve tray for absorption and distillation, packed towers for absorption and distillation, tray towers versus packed towers, Types of Evaporators, perfo rmance, capacity and economy of evaporators, Dryers, equilibrium in drying, rate of batch drying, principle of crystallisation, crystallizers used for bioproducts Mapping of Course Outcomes for Unit V CO3: Understand the importance of heat and mass transfer phenomena in the design of process equipments. CO5: Identify the major parts of various heat and mass transfer equipments. Learning Resources Text Books: 1. “Unit Operations of Chemical Engineering” Seventh Edition, by W.L. McCabe, J C Smith and P Harriot, Mc Graw Hill 2. Mass transfer Operations, Robert E. Treybal, 3rd edition, McGraw-Hill Book Co. 3. S. P. Sukhatme, “A Textbook on Heat Transfer”, 4th ed, Universities Press (India),2005 4. K. A. Gavhane, “Heat Transfer” , 10 th edition, Nirali Prakashan,2010 5. R.C. Sachdeva “Fundamentals of Engineering Heat and Mass Transfer” 5thedition, New age international Publisher,2010 Reference Books: 1. Process Heat Transfer...",
+          "hours": 9
+        },
+        {
+          "title": "Nature of Heat Flow",
+          "topics": "Activity 1: The \"Household Heat Map\" Audit ● Task: Identify and categorize the three modes of heat transfer in a common kitchen appliance (e.g., a boiling kettle or a convection oven). ● Real-Life Problem Addressed: Exercise to understand the nature of heat flow quickly. ● Expected Outcome: Developing an ability to identify and apply modes of heat transfer Activity 2: Geometry Specific Heat Flow ● Task: Case-based quiz on differences between hot water pipes and tanks ● Real-Life Problem Addressed: Accurate geometry specific analysis of cylindrical, spherical and rectangular surfaces for example hot/cold liquid pipes, water tanks, storage vessels, heat exchangers) ● Expected Outcome: Understanding the geometry specific heat flow and heat transfer co- efficients. Activity 3: Comparative Report Assignment ● Task: Prepare a report comparing steady and unsteady state heat transfer phenomena ● Real-Life Problem Addressed: Understanding importance of steady state while writing a heat balance equation ● Expected Outcome: Ability to differentiate between steady state and unsteady state phenomena",
+          "hours": null
+        },
+        {
+          "title": "Heat Exchanger Equipments",
+          "topics": "Activity 1: Energy balances and LMTD ● Task: Write a complete energy balance equations for double pipe heat exchanger operating in co- current or counter current mode. ● Real-Life Problem Addressed: Perform a complete energy balance on a double-pipe heat exchanger to determine its required length. ● Expected Outcome: Determine the required length and area of heat exchanger. Activity 2: Numerical Solving ● Task: Solve numericals on various heat exchangers. ● Real-Life Problem Addressed: Determine the effective area and type of heat exchanger ● Expected Outcome: Enhance problem solving ability of students",
+          "hours": null
+        },
+        {
+          "title": "Molecular Diffusion in Fluids",
+          "topics": "Activity 1: Compare and analyse Heat, Mass and Momentum transfer Laws ● Task: Identify similarity and differences between Fourier’s law, Ficks Law and Newtons Law ● Real-Life Problem Addressed: How these laws are applicable in solving real life examples. ● Expected Outcome: Improve understanding on application and analogy between these laws. Activity 2: Virtual/Practical Lab – Solid-Liquid Diffusion ● Task: Perform an experiment on solid (Benzoic acid pellet) –liquid (Water) diffusion in a lab ● Real-Life Problem Addressed: Determine mass transfer co-efficient of solid-liquid diffusion ● Expected Outcome: Bridge the gap between theory and practice Activity 3: Reflection Discussion ● Task: Discuss various theories of mass transfer ● Real-Life Problem Addressed: Applying mass transfer principles in microbial fermentation processes. ● Expected Outcome: Insights into how internal and external factors affect rate of mass transfer",
+          "hours": null
+        },
+        {
+          "title": "Distillation",
+          "topics": "Activity 1: Virtual/Practical Lab- Simple Distillation • Task: Choose appropriate binary system for simple distillation (e.g. Methanol Water, Ethanol - Water) ● Real-Life Problem Addressed: Separation of compounds using distillation ● Expected Outcome: Ability to understand and apply mass balance equations to determine product yield. Activity 2: Quiz/ Group Discussion ● Task: Quiz or discussion on Types of Distillation, azeotropes, Vapour-Liquid Equilibria ● Real-Life Problem Addressed: Importance of Distillation as a major separation process ● Expected Outcome: Improve conceptual understanding on given topics Activity 3: Numerical Solving- Mc-Cabe-Thiele Method ● Task: Numericals on number of stages required for separation of compounds. ● Real-Life Problem Addressed: Estimate number of stages required for a given separation using Mc-Cabe - Thiele Method ● Expected Outcome: Ability to solve numericals using stepwise Mc-Cabe-Thiele approach.",
+          "hours": null
+        },
+        {
+          "title": "Equipments for Gas-Liquid Operations",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-BIO",
+      "title": "Fermentation Technology Lab",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        22,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-BIO",
+      "title": "Genetic Engineering Lab",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-321-A-BIO",
+      "title": "Agricultural Biotechnology",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        26,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction & Regulations",
+          "topics": "Scope of agricultural biotechnology, GMO and transgenic crops, global and Indian status, public perception, biosafety, Cartagena Protocol, ethical issues, regulatory bodies (RCGM, GEAC), PPVFR Act. Mapping of Course Outcomes for Unit I CO1: Assess global and Indian scenario of GM crops and regulations",
+          "hours": 9
+        },
+        {
+          "title": "Plant Genetic Engineering",
+          "topics": "Plant transformation techniques (Agrobacterium, direct methods), vectors, promoters, selectable markers, gene constructs, strategies for trait improvement, case studies Insect Resistance (BT cotton, BT brinjal, Nutritional Enhancement Golden rice). Mapping of Course Outcomes for Unit II CO2: Apply plant genetic engineering techniques for crop improvement",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Crop Improvement",
+          "topics": "Molecular markers (RFLP, RAPD, SSR, SNP), QTL mapping, marker-assisted selection, genomics, gene mapping, gene tagging, comparative genomics, metabolic engineering. Mapping of Course Outcomes for Unit III CO3: Analyze advanced technologies for crop improvement",
+          "hours": 9
+        },
+        {
+          "title": "Plant Tissue Culture",
+          "topics": "Totipotency, culture types (callus, suspension, protoplast), micropropagation, somaclonal variation, somatic hybridization, embryo rescue, secondary metabolites, cryopreservation. Mapping of Course Outcomes for Unit IV CO4: Demonstrate plant tissue culture techniques and applications",
+          "hours": 9
+        },
+        {
+          "title": "Biofertilizers, Biopesticides & Biostimulants",
+          "topics": "Biofertilizers (Rhizobium, mycorrhiza, cyanobacteria), nitrogen fixation, nif genes, biopesticides , plant growth regulators, biostimulants, sustainable agriculture. Mapping of Course Outcomes for Unit V CO5: Evaluate role of biofertilizers, biopesticides and biostimulants Learning Resources Text Books: 1. Biotechnology Expanding Horizons B. D. Singh Kalyani Publishers ISBN 10: 9327222989 ISBN 13: 2. Plant Biotechnology: The Genetic Manipulation of Plants Adrian Slater, Nigle W. Scott and Mark R Fowler Oxford University Press ISBN-13 : 978-0199560875 Reference Books: 1. J.H. Hammond, P. Mcgarvey, and V. Yusibov (eds), Plant Biotechnology, Springer Verlag, Heidelberg. 2000 2. Principles of Gene Manipulation S. B. Primorose, RM Twyman and R.W. old sixth edition (2001) Blackwell science. 3. S.S. Purohit: Agricultural Biotechnology (2003) Agribio in India. Y.P.S. Bajaj: Biotechnology in Agriculture and forestry, Vol. 22 Springer Verlas. 4. Biotechnology in Agriculture, Mac Millon India Ltd., 1992, Edn. M.S.Swaminath. 5. Objective Biotechnology, B.K Prasad, B.D Singh, Sanjeev Kumar, Kalyani Publications 978-81-272-6967-1 MOOC / NPTEL Courses: NPTEL Course Plant Biotechnology by Dr. R...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction & Regulations",
+          "topics": "Activity 1: GMO Awareness Survey & Analysis ● Task: Conduct a structured survey on public perception of GM crops (Google Form + field interviews) ● Real-Life Problem Addressed: Low public awareness and misinformation about GMOs ● Expected Outcome: Students will analyze awareness levels using statistical tools (Excel/Chi -square) and propose awareness strategies Activity 2: Regulatory Case Study (BT Brinjal in India) ● Task: Prepare a case study report on approval/rejection of BT Brinjal under Cartagena Protocol on Biosafety, Genetic Engineering Appraisal Committee and Protection of Plant Varieties and Farmers' Rights Act ● Real-Life Problem Addressed: Policy conflicts in biotechnology adoption ● Expected Outcome: Students will evaluate regulatory decisions and ethical concerns in India Activity 3: Biosafety Risk Assessment Simulation ● Task: Simulate risk assessment of a GM crop (hypothetical) using biosafety guidelines ● Real-Life Problem Addressed: Environmental and health risk management ● Expected Outcome: Ability to assess biosafety levels and propose regulatory compliance strategies",
+          "hours": null
+        },
+        {
+          "title": "Plant Genetic Engineering",
+          "topics": "Activity 1: Virtual Gene Construct Design ● Task: Design a gene construct (promoter + gene + marker) for drought resistance using bioinformatics tools ● Real-Life Problem Addressed: Developing climate-resilient crops ● Expected Outcome: Students will design functional gene constructs for crop improvement Activity 2: Case Study – Bt cotton & Golden Rice ● Task: Comparative analysis of transgenic crops (mechanism, benefits, limitations) ● Real-Life Problem Addressed: Food security and pest resistance ● Expected Outcome: Understanding of transgenic strategies and socio-economic impact Activity 3: Lab Simulation – Agrobacterium Transformation ● Task: Perform/visualize plant transformation steps (wet lab/demo/video-based) ● Real-Life Problem Addressed: Efficient gene delivery systems ● Expected Outcome: Students will understand transformation mechanisms and protocols",
+          "hours": null
+        },
+        {
+          "title": "Advanced Crop Improvement",
+          "topics": "Activity 1: Molecular Marker Analysis (SSR/SNP Dataset) ● Task: Analyze marker data to identify genetic diversity using Excel/software ● Real-Life Problem Addressed: Crop breeding and genetic selection ● Expected Outcome: Ability to interpret molecular marker data Activity 2: QTL Mapping Case Study ● Task: Analyze published data to identify QTLs for yield/disease resistance ● Real-Life Problem Addressed: Improving crop yield traits ● Expected Outcome: Students will correlate genotype with phenotype Activity 3: Comparative Genomics Project ● Task: Compare genomes of two plant species using online databases ● Real-Life Problem Addressed: Identification of stress-resistance genes ● Expected Outcome: Understanding of genomics tools for crop improvement",
+          "hours": null
+        },
+        {
+          "title": "Plant Tissue Culture",
+          "topics": "Activity 1: Micropropagation Practical ● Task: Perform explant sterilization and culture initiation (banana/sugarcane) ● Real-Life Problem Addressed: Rapid multiplication of disease-free plants ● Expected Outcome: Hands-on skills in tissue culture techniques Activity 2: Callus Induction Experiment ● Task: Induce callus using plant hormones (auxin/cytokinin combinations) ● Real-Life Problem Addressed: Genetic improvement and metabolite production ● Expected Outcome: Understanding of hormone-mediated growth Activity 3: Somatic Hybridization Case Study ● Task: Study protoplast fusion applications in crop improvement ● Real-Life Problem Addressed: Overcoming sexual incompatibility in plants ● Expected Outcome: Knowledge of advanced tissue culture applications",
+          "hours": null
+        },
+        {
+          "title": "Biofertilizers, Biopesticides & Biostimulants",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321-B-BIO",
+      "title": "Enzyme Technology",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        30,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to Enzymes and Classification",
+          "topics": "Historical background and significance of enzymes, Nomenclature and classification of enzymes, Structure and properties of enzymes, Active site and specificity of enzymes, Cofactors, coenzymes, and prosthetic groups, Factors affecting enzyme activity: pH, temperature, substrate concentration Mapping of Course Outcomes for Unit I CO1: Describe classification, structure, and properties of enzymes",
+          "hours": 9
+        },
+        {
+          "title": "Enzyme Kinetics",
+          "topics": "Basics of enzyme kinetics, Michaelis–Menten kinetics, Derivation and significance of Michaelis– Menten equation, Lineweaver–Burk plot and determination of Km and Vmax, Mechanism of enzyme action, Factors contributing to catalytic efficiency - Acid–base catalysis, Covalent catalysis, Proximity and orientation effects Mapping of Course Outcomes for Unit II CO2: Explain enzyme kinetics and factors affecting enzyme activity",
+          "hours": 9
+        },
+        {
+          "title": "Coenzymes, Regulation and Enzyme Inhibition",
+          "topics": "Important coenzymes and their biochemical role (NAD⁺/NADP⁺, FAD, Coenzyme A, Biotin, Pyridoxal phosphate), Regulation of enzyme activity, Isoenzymes and allosteric enzymes, Enzyme inhibition (Competitive, Non-competitive, Uncompetitive, Feedback) Mapping of Course Outcomes for Unit III CO3: Understand coenzymes, enzyme regulation, and inhibition mechanisms",
+          "hours": 9
+        },
+        {
+          "title": "Enzyme Purification and Immobilization",
+          "topics": "Sources of enzymes, Extraction and purification of enzymes, Methods of purification, Criteria of enzyme purity, Immobilization of enzymes, Methods of immobilization (Adsorption, Entrapment, Covalent binding, Cross-linking), Advantages and limitations of immobilized enzymes. Mapping of Course Outcomes for Unit IV CO4: Apply knowledge of enzyme purification and immobilization techniques",
+          "hours": 9
+        },
+        {
+          "title": "Applications of Enzymes",
+          "topics": "Industrial applications of enzymes (Food industry, Detergent industry, Pharmaceutical industry, Textile and leather industry), Enzymes in clinical diagnosis, Biosensors and enzyme-based diagnostics, Therapeutic enzymes, Recent advances in enzyme technology Mapping of Course Outcomes for Unit V CO5: Analyze industrial and biomedical applications of enzymes in biotechnology Learning Resources Text Books: 1. D. J. Voet, J. G. Voet, C. W. Pratt, Principles of Biochemistry, 3rd Edition, John Wiley & Sons, 2008. 2. D. T. Plummer, An Introduction to Practical Biochemistry, Tata McGraw Hill, 1988. Reference Books: 3. J. H. Weil, General Biochemistry, New Age International, 1997. 4. J. M. Berg, J. L. Tymoczko, L. Stryer, Biochemistry, 6th Edition, W.H. Freeman, 2007. 5. D. L. Nelson, M. M. Cox, Lehninger Principles of Biochemistry, 4th Edition, W.H. Freeman, 2007 MOOC / NPTEL Courses: • Enzyme Science and Engineering, IIT Delhi, Prof. Subash Chand [https://nptel.ac.in/courses/102102033?utm_source=chatgpt.com] • NOC: Biochemistry, IIT Khragpur, Prof. Swagata Dasgupta [https://nptel.ac.in/courses/104105076?utm_source=chatgpt.com] Virtual LAB Link: • Amrita Virtual Biochemistry Lab [https:/...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Enzymes and Classification",
+          "topics": "Activity 1: Identification of enzymes • Task: Identify enzymes involved in everyday activities and classify them as per enzyme classification • Real-Life Problem Addressed: Understanding how enzymes improve efficiency in household and industrial processes • Expected Outcome: Students will be able to classify enzymes and correlate enzyme specificity with practical applications. Activity 2: Digestive Enzyme Case Study • Task: Study digestive enzyme formulations available in the market and identify enzymes used for digestion of proteins, fats, and carbohydrates. • Real life problem addressed: Digestive disorders and reduced enzyme secretion in humans. • Expected Outcome: Students will correlate enzyme function with human digestive health. Activity 3: Match the Enzyme Puzzle • Task: Solve a matching activity connecting enzymes with substrates, cofactors, products, and industrial applications. • Real life problem addressed: Need for rapid identification of enzyme functions in biotechnology and healthcare. • Expected Outcome: Students will strengthen conceptual understanding of enzyme properties and biochemical roles.",
+          "hours": null
+        },
+        {
+          "title": "Enzyme Kinetics",
+          "topics": "Activity 1: Michaelis–Menten Numerical Tutorial • Task: Calculate Km and Vmax values using experimental enzyme activity data and interpret enzyme efficiency. • Real life problem addressed: Optimization of enzyme activity in pharmaceutical and industrial production processes. • Expected Outcome: Students will apply enzyme kinetics principles for analyzing catalytic efficiency. Activity 2: Fever and Enzyme Activity Case Study • Task: Analyze the effect of fever and hypothermia on enzyme-controlled metabolic reactions in the human body. • Real life problem addressed: Impact of abnormal body temperature on metabolism and health. • Expected Outcome: Students will explain the effect of temperature on enzyme activity and stability. Activity 3: Lineweaver–Burk Plot Assignment • Task: Construct a Lineweaver–Burk plot using provided data and determine kinetic parameters. • Real life problem addressed: Use of enzyme kinetics in drug development and industrial bioprocess optimization. • Expected Outcome: Students will interpret enzyme kinetic graphs and compare enzyme performance.",
+          "hours": null
+        },
+        {
+          "title": "Coenzymes, Regulation and Enzyme Inhibition",
+          "topics": "Activity 1: Drug–Enzyme Interaction Case Study • Task: Study the mechanism of action of drugs such as penicillin, aspirin, or sulfa drugs and identify the type of enzyme inhibition involved. • Real life problem addressed: Use of enzyme inhibitors in disease treatment and antibiotic therapy. • Expected Outcome: Students will understand clinical applications of enzyme inhibition. Activity 2: Vitamin Deficiency and Coenzyme Assignment • Task: Prepare a presentation explaining the role of vitamin-derived coenzymes and disorders caused by vitamin deficiencies. • Real life problem addressed: Nutritional deficiencies affecting metabolic pathways and public health. • Expected Outcome: Students will correlate vitamins, coenzymes, and metabolic disorders. Activity 3: Enzyme Regulation Quiz • Task: Participate in a quiz covering allosteric regulation, feedback inhibition, isoenzymes, and inhibition mechanisms. • Real life problem addressed: Importance of enzyme regulation in maintaining metabolic balance. • Expected Outcome: Students will differentiate various regulatory mechanisms of enzymes.",
+          "hours": null
+        },
+        {
+          "title": "Enzyme Purification and Immobilization",
+          "topics": "Activity 1: Enzyme Purification Flowchart Assignment • Task: Design a stepwise flowchart for purification of an industrial enzyme from microbial culture. • Real life problem addressed: Need for efficient purification methods in pharmaceutical and food industries. • Expected Outcome: Students will understand stages involved in enzyme extraction and purification. Activity 2: Immobilized Enzyme Industrial Case Study • Task: Study applications of immobilized enzymes in lactose-free milk production, biosensors, or glucose monitoring systems. • Real life problem addressed: Need for reusable and stable enzymes in industrial and medical applications. • Expected Outcome: Students will evaluate benefits and industrial importance of enzyme immobilization. Activity 3: Chromatography Technique Tutorial • Task: Compare chromatography techniques such as ion exchange, gel filtration, and affinity chromatography based on principle and applications. • Real life problem addressed: Selection of suitable purification techniques for biomolecule separation. • Expected Outcome: Students will differentiate purification methods and justify their industrial use.",
+          "hours": null
+        },
+        {
+          "title": "Applications of Enzymes",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321-C-BIO",
+      "title": "Instrumentation & Process Control",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        35,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to Instrumentation",
+          "topics": "Need for measurement of different process parameters, Instruments used for measurement: Pressure – Mechanical and electric transducers, Low pressure – McLeod Gauge and Pirani Gauge, Temperature - bi- metal thermometers, resistance thermometer, thermistors, thermocouples, Radiation and optical pyrometers, Flow – Hot Wire anemometer and magnetic flow meters. Mapping of Course Outcomes for Unit I CO1: Select and operate the most common instruments encountered in the bioprocess Industry.",
+          "hours": 9
+        },
+        {
+          "title": "Dynamics of First Order Systems",
+          "topics": "Need for studying process dynamics and control, Laplace transforms and its application to process dynamics, characteristics of ideal forcing functions (step, ramp, pulse, impulse, frequency) Linear open loop Systems – First Order Systems Definition, characteristics and physical examples of first order systems such as thermometer, liquid tank, CSTR etc., model transfer function and significance of time constant, Dynamic behavior/Response of first order systems to different forcing functions, linearization of non-linear systems (for single variable systems only). Mapping of Course Outcomes for Unit II CO2: Understand the most important concepts of process dynamics and ability to predict the dynamic responses of various first order systems.",
+          "hours": 9
+        },
+        {
+          "title": "Linear Closed Loop Systems",
+          "topics": "Control systems, components of a control system, Concept of feedback control, Controller and final controlling element, pneumatic control valve, control system hardware. Different types of control actions – P, PI, PD, PID; transfer functions, open and closed loop response, advantages and limitations of each controller, Block diagram of a control system, servo and regulatory operations, open and closed loop transfer function, overall transfer function, transfer function for change in load and set point, multi-loop control system transfer function. Mapping of Course Outcomes for Unit III CO3: Analyze a control system and select controllers based on the problem requirement",
+          "hours": 9
+        },
+        {
+          "title": "Stability Analysis and Frequency Response Analysis",
+          "topics": "Introduction to second order systems, Concept of stability in control systems, stability criterion, Routh’s test for stability, root locus analysis, root locus design and plots, frequency response analysis and stability criterion (Bode plots), controller tuning - Ziegler Nichols and Cohen-Coon methods. Mapping of Course Outcomes for Unit IV CO4: Analyze stability and Frequency response of a given system.",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Control Systems and Industrial Applications",
+          "topics": "Introduction to advanced control systems: Cascade, feed forward, selective, ratio, override and split range control strategies; Application to fermentation industries: Speed control, Temperature control, Control of gas supply, Control of pH, Control of dissolved oxygen, Antifoam control. Mapping of Course Outcomes for Unit V CO5: Understand working of multi loop process controls systems. Learning Resources Text Books: 1. George Stephanopoulos., “Chemical Process control : An Introduction to Theory and Practice”Pearson Prentice Hall 2. Stanbury, P.F. and Whitaker, A., “Principles of Fermentation Technology”, Reference Books: 1. Coughanowr, D., “Process System analysis and control” Mc-Graw Hill 2. A.K.Jairath., “Problems and Solutions of Control Systems”, CBS, 2007 MOOC / NPTEL Courses: 1. NPTEL Course “Process Control and Instrumentation” https://nptel.ac.in/courses/103/103/103103037/ 2. NPTEL Course “Process Control and Instrumentation” https://nptel.ac.in/courses/103/105/103105064/ CCE: CONTINUOUS & COMPREHENSIVE EVALUATION Real World Assignment (One activity for each unit)",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Instrumentation",
+          "topics": "Activity 1: Quiz on various instruments • Task: Identify various control devices and classify them as per their function. • Real-Life Problem Addressed: Understanding how instruments improve efficiency in household and industrial processes • Expected Outcome: Students will be able to understand and classify various measuring instruments used in practical applications. Activity 2: Case Study • Task: Study any one temperature / Pressure/ Flow measuring device • Real life problem addressed: Consider any one device which can be utilised to solve industrial problem. • Expected Outcome: Students will select and justify the use of measuring device to solve industrial problem. • Activity 3: Match the Instrument Puzzle • Task: Solve a matching activity connecting instruments with their function and industrial applications. • Real life problem addressed: Need to understand instruments with their functions in biotechnology industries. • Expected Outcome: Students will strengthen conceptual understanding of instruments and their control mechanism.",
+          "hours": null
+        },
+        {
+          "title": "Dynamics of First Order Systems",
+          "topics": "Activity 1: Thermal Response of a Thermometer • Task: Place a thermometer (initially at room temperature) into a hot water bath. Measure the temperature at 20-second intervals. • Real life problem addressed: A food processing plant needs to ensure that a thermometer bulb accurately tracks rapid temperature changes in a pasteurization tank to prevent under-cooking. • Expected Outcome: Students will apply and derive the transfer function, calculate the time constant (τ), and observe that the system reaches 63.2% of its final value at (t = τ). Activity 2: Liquid Level Dynamics in a Storage Tank • Task: Model a single gravity-drained tank. Develop the mass balance equation and convert it into a standard first-order transfer function. • Real life problem addressed: Impact of liquid level dynamics in a storage vessel or a fermenter • Expected Outcome: Students will Understand the significance of time constant as a product of resistance (valve) and capacitance (tank area), and predicting the dynamic behaviour when the inlet flow is increased. Activity 3: Make a chart for comparing response to functions • Task: Construct a chart for comparing response to forcing Functions • Real life pr...",
+          "hours": null
+        },
+        {
+          "title": "Linear Closed Loop Systems",
+          "topics": "Activity 1: Comparing P, PI, PID actions • Task: Simulate the response of a first-order system using P, PI, and PID controllers. • Real life problem addressed: A rapid-heating water system experiences \"Offset\" (never reaches set point) with a simple Proportional controller. • Expected Outcome: Students will understand and document the advantages and limitations using simple examples. Activity 2: Multi-loop Transfer Functions • Task: Derive the Overall Transfer Function for a closed-loop system. Specifically, solve for: Set- Point Tracking • Real life problem addressed: Derive the Overall Transfer Function for a closed-loop system. Specifically, solve for: • Expected Outcome: Students will correlate and prove mathematically that denominator remains same for both, defining systems stability",
+          "hours": null
+        },
+        {
+          "title": "Stability Analysis and Frequency Response Analysis",
+          "topics": "Activity 1: Frequency response and Bode Plot • Task: Generate a Bode Plot (Magnitude and Phase) for a second-order process. Identify the Gain Margin (GM) and Phase Margin (PM). • Real life problem addressed: In a biochemical plant, sensor noise can cause \"chatter\" in control valves. Engineers must ensure the system doesn't amplify this noise. • Expected Outcome: Students apply the Bode stability criterion to determine how \"close\" a system is to instability and evaluate its robustness against process delays. Activity 2: Stability Analysis Comparison • Task: Study and compare various stability analysis methods. • Real life problem addressed: Need of such methods and best used in industrial and medical applications. • Expected Outcome: Students will evaluate benefits and industrial importance of stability analysis methods. Activity 3: Numerical Solving • Task: Solve problems using various stability methods. • Real life problem addressed: Selection of suitable method • Expected Outcome: Students will numerical solving skills and justify their answers with stability check.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Control Systems and Industrial Applications",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-322-A-BIO",
+      "title": "Agricultural Biotechnology Lab",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        41,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-B-BIO",
+      "title": "Enzyme Technology Lab",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        43,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-322-C-BIO",
+      "title": "Instrumentation & Process Control Lab",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        45,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-331-BIO",
+      "title": "Biostatistics",
+      "semester": 5,
+      "type": "MDM",
+      "credits": 3,
+      "pages": [
+        47,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to Biostatistics",
+          "topics": "Biostatistics, Scales of Measurement (Nominal, Ordinal, Interval, Ratio, Populations and Samples, Descriptive vs. Inferential Statistics, Variables and Data Types Tutorial Activity: Identifying variables and data types in sample research studies. Mapping of Course Outcomes for Unit I ➢ CO 1: Select and apply appropriate statistical methods for analysing different types of biological data. ■ (Understanding scales of measurement and data types is fundamental for selecting the correct statistical methods.) ➢ CO 3: Critically evaluate statistical analysis presented in research articles. ■ (Knowledge of populations, samples, and descriptive vs. inferential statistics aids in evaluating analyses.)",
+          "hours": 3
+        },
+        {
+          "title": "Descriptive Statistics and Regression",
+          "topics": "Measures of Central Tendency (Mean, Median, Mode), Measures of Dispersion (Range, Variance, Standard Deviation, IQR), Data Visualization (Histograms, Box Plots, Scatter Plots), Skewness and Kurtosis. Correlation (Pearson, Spearman), Linear Regression, Regression Diagnostics Tutorial Activity: 1. Calculating correlation coefficients. 2. Performing linear regression analysis, calculating descriptive statistics for a given dataset and creating appropriate visualizations. Mapping of Course Outcomes for Unit II ➢ CO 1: Select and apply appropriate statistical methods for analysing different types of biological data. ■ (Measures of central tendency and dispersion are essential for data analysis.) ➢ CO 2: Interpret and communicate statistical findings effectively. ■ (Data visualization techniques are key to interpreting and effectively communicating findings.) ➢ CO 4: Use statistical software (e.g., JASP, SPSS) to conduct basic statistical analyses. ■ (Performing regression analyses and calculating descriptive statistics typically involves software.)",
+          "hours": 3
+        },
+        {
+          "title": "Probability and Distributions",
+          "topics": "Basic Probability Concepts, Conditional Probability and Independence, Discrete Distributions (Binomial, Poisson), Continuous Distributions (Normal, t-distribution) Tutorial Activity: Solving probability problems and exploring the properties of different distributions. Mapping of Course Outcomes for Unit III ➢ CO 1: Select and apply appropriate statistical methods for analysing different types of biological data. ■ (Understanding probability and distributions is critical for selecting analyses related to biological data.) ➢ CO 4: Use statistical software (e.g., JASP, SPSS) to conduct basic statistical analyses. ■ (Exploring properties of distributions and solving probability problems often require software for computation.",
+          "hours": 3
+        },
+        {
+          "title": "Hypothesis Testing",
+          "topics": "Null and Alternative Hypotheses, Type I and Type II Errors, P-values and Significance Level One-tailed vs. Two-tailed Tests, Confidence Intervals Tutorial Activity: Formulating hypotheses and interpreting p-values in different research scenarios. Mapping of Course Outcomes for Unit IV ➢ CO 1: Select and apply appropriate statistical methods for analysing different types of biological data. ■ (Hypothesis testing is a key method for biological data analysis.) ➢ CO 2: Interpret and communicate statistical findings effectively. ■ (Understanding p-values, significance levels, and confidence intervals relates to interpreting findings.) ➢ CO 5: Design and conduct basic statistical studies. ■ (Formulating hypotheses is a foundational step in designing research studies.)",
+          "hours": 3
+        },
+        {
+          "title": "Comparing Means",
+          "topics": "Parametric and non-parametric tests (Independent and Paired), ANOVA (One-way and Two-way) Tutorial Activity: Performing t-tests and ANOVA to compare means of different groups. Mapping of Course Outcomes for Unit V ➢ CO 1: Select and apply appropriate statistical methods for analysing different types of biological data. ■ (Learning about t-tests and ANOVA directly supports the application of statistical methods.) ➢ CO 2: Interpret and communicate statistical findings effectively. ■ (Interpreting results from t-tests and ANOVA contributes to effective communication of statistical findings.) ➢ CO 4: Use statistical software (e.g., JASP, SPSS) to conduct basic statistical analyses. ■ (Conducting t-tests and ANOVA typically utilizes statistical software.) Learning Resources",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "OEL-341-",
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "OE",
+      "credits": 2,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-342-BIO",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "ELC",
+      "credits": 1,
+      "pages": [
+        50,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-BIO",
+      "title": "Bioinformatics",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        55,
+        59
+      ],
+      "units": [
+        {
+          "title": "Introduction to Bioinformatics & Biological Databases",
+          "topics": "Introduction and scope of computational biology and bioinformatics, Database concepts, Database Management System, Data structure, Query language, Basics of Structured Query Language (SQL), Relational and object-oriented databases, biological databases - Primary, secondary, and composite databases, File formats and biological data formats Mapping of Course Outcomes for Unit I CO1: Explain basic concepts of bioinformatics and biological database systems.",
+          "hours": 9
+        },
+        {
+          "title": "Nucleic Acid Databases and Genome Resources",
+          "topics": "Major genome servers - GenBank at NCBI, DNA Data Bank of Japan (DDBJ), and European Molecular Biology Laboratory (EMBL), Genome and organism -specific databases, PubMed, Specialized genomic resources - SGD, Data retrieval systems - Entrez, Database searching, Database entries, and seque nce data formats Mapping of Course Outcomes for Unit II CO2: Retrieve and interpret biological information from nucleic acid and protein databases.",
+          "hours": 9
+        },
+        {
+          "title": "Protein Databases and Structural Bioinformatics",
+          "topics": "Uniqueness of polypeptide sequence and properties, Primary, secondary, tertiary, and quaternary structure, Hydrophobicity, Disulphide bonds and active sites, Ramachandran plot, Primary protein databases - UNIPROT, PIR, SWISS -PROT and TrEMBL, Secondary prot ein databases - PROSITE, PRINTS and BLOCKS, Protein fold classification - SCOP and CATH, Protein structure visualization tools - RasMol, Jmol and PyMOL, Secondary and tertiary structure prediction methods, Basic molecular docking concept Mapping of Course Outcomes for Unit III CO3: Describe protein structure, structural bioinformatics tools, and protein databases.",
+          "hours": 9
+        },
+        {
+          "title": "Sequence Alignment and Sequence Analysis",
+          "topics": "Sequence alignment - Similarity, identity and homology, Local and global sequence alignment, Pairwise sequence alignment, Needleman-Wunsch and Smith-Waterman algorithm, Dot plot analysis, Scoring matrices - PAM and BLOSUM, Gap penalty concept, Multiple sequence alignment - ClustalW Mapping of Course Outcomes for Unit IV CO4: Perform sequence alignment and analyze biological sequence data effectively.",
+          "hours": 9
+        },
+        {
+          "title": "Phylogenetic Analysis",
+          "topics": "Definition of phylogeny and phylogenetic trees, Evolutionary tree construction, Tree building methods, Rooted and unrooted trees, Homologs, orthologs, and paralogs, Phylogenetic data analysis - Alignment, substitution, and parsimony, Phylogenetic predictio n, Phylogenetic software - PHYLIP, CLUSTALW, and Tcoffee, Phylogenetics on the web Mapping of Course Outcomes for Unit V CO5: Explain phylogenetic analysis methods and applications of bioinformatics software tools. Learning Resources Text Books: 1. Introduction to Bioinformatics – Author Arthur M. Lesk, Oxford University Press 2. Bioinformatics Methods & Applications – Author S.C.Rastogi, N. Mandiratta, P. Rastogi Reference Books: 1. Bioinformatics Sequence and Genome Analysis – Author - David W. Mount, Cold Spring Harbor Laboratory Press 2. Bioinformatics: A practical guide to the analysis of genes and proteins – Author A. D. Baxevanis and B.F.F. Ouellette, John Wiley and Sons 3. Bioinformatics computing – Author Bryan Bergeron, Pearson Education. 4. Biological Sequence Analysis (Probabilistic Models of Proteins and Nucleic Acids) – Author SeanEddy, Anders Krogh, Richard M. Durbin, Cambridge University Press 5. Bioinformatics...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Bioinformatics & Biological Databases",
+          "topics": "Activity 1: Case Study Analysis ● Task: Analyze a case study involving the use of biological databases in identification of disease - associated genes or drug targets ● Real-Life Problem Addressed: Retrieval and interpretation of biological data for biomedical research and healthcare applications ● Expected Outcome: Ability to correlate biological databases with real-world research and medical problems Activity 2: Quiz on Bioinformatics Basics ● Task: Conduct a quiz on database concepts, DBMS, SQL, and bioinformatics terminology ● Real-Life Problem Addressed: Rapid understanding of fundamental concepts required in biological data analysis ● Expected Outcome: Improved conceptual understanding of bioinformatics fundamentals Activity 3: Report Writing Activity ● Task: Prepare a short report on applications of bioinformatics in healthcare, genomics or drug discovery ● Real-Life Problem Addressed: Use of bioinformatics tools in solving biological and medical problems ● Expected Outcome: Understanding of real-world applications of bioinformatics",
+          "hours": null
+        },
+        {
+          "title": "Nucleic Acid Databases and Genome Resources",
+          "topics": "Activity 1: Mini Report on Organism-Specific Databases ● Task: Prepare a report on SGD or any organism-specific database and its applications ● Real-Life Problem Addressed: Specialized genomic analysis for model organisms and research applications ● Expected Outcome: Understanding of applications of organism-specific genomic resources Activity 2: Case Study Analysis ● Task: Analyze a case study involving the use of genome databases in the identification of a genetic disorder ● Real-Life Problem Addressed: Identification and analysis of disease -associated genes using genomic databases for healthcare applications ● Expected Outcome: Ability to correlate genome resources with healthcare applications Activity 3: Poster Preparation ● Task: Design a poster showing the workflow of biological data submission and retrieval in genome databases ● Real-Life Problem Addressed: Efficient storage, organization, and accessibility of rapidly growing genomic data in biological research ● Expected Outcome: Understanding of organization and management of genomic information",
+          "hours": null
+        },
+        {
+          "title": "Protein Databases and Structural Bioinformatics",
+          "topics": "Activity 1: Infographic Preparation ● Task: Create an infographic on protein structure prediction and molecular docking workflow ● Real-Life Problem Addressed: Visualization and interpretation of computational approaches used in drug discovery ● Expected Outcome: Understanding of steps involved in structural bioinformatics analysis Activity 2: Literature Review Activity ● Task: Review a recent research article related to protein modeling or molecular docking and summarize findings ● Real-Life Problem Addressed: Analysis of modern computational approaches used in biomedical and pharmaceutical research ● Expected Outcome: Ability to interpret and summarize scientific literature in structural bioinformatics",
+          "hours": null
+        },
+        {
+          "title": "Sequence Alignment and Sequence Analysis",
+          "topics": "Activity 1: Poster Preparation ● Task: Design a poster illustrating local alignment, global alignment, and multiple sequence alignment workflows ● Real-Life Problem Addressed: Comparative analysis of biological sequences for functional and evolutionary interpretation ● Expected Outcome: Understanding of different sequence alignment strategies and applications Activity 2: Assignment on PAM and BLOSUM Matrices ● Task: Write an assignment on PAM and BLOSUM scoring matrices and their applications ● Real-Life Problem Addressed: Selection of appropriate scoring systems for biological sequence comparison ● Expected Outcome: Ability to differentiate scoring matrices used in sequence analysis Activity 3: Group Discussion ● Task: Discuss the advantages and limitations of pairwise and multiple sequence alignment methods ● Real-Life Problem Addressed: Selection of suitable alignment approaches for biological data interpretation ● Expected Outcome: Development of analytical understanding of sequence analysis tools",
+          "hours": null
+        },
+        {
+          "title": "Phylogenetic Analysis",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-BIO",
+      "title": "Downstream Processing",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        60,
+        64
+      ],
+      "units": [
+        {
+          "title": "Introduction to Downstream Processing",
+          "topics": "An overview of downstream processing, Salient features, Advantages, Disadvantages, Need of downstream processing, Range of Bio products, high volume low value products and low volume high value products, Process design criteria and economics, Mechanical an d enzymatic methods of cell disruption, importance of cell disruption in product release, Isolation of insoluble: Coagulation, sedimentation, Filtration, flocculation and centrifugation Mapping of Course Outcomes for Unit I CO1: Understand the importance of downstream processing techniques and justify the most efficient cell disruption method based on the mechanical stability and location of the target intracellular product.",
+          "hours": 6
+        },
+        {
+          "title": "Extraction",
+          "topics": "SLE (Leaching): Definition, Preparation of the solid, Factors affecting leaching operations, Methods of operation, Single stage leaching, Continuous counter current leaching LLE(Solvent extraction): Definition, Fields of usefulness, Ternary liquid equilibria, Equilateral triangular coordinates, Mixture rule, Choice of solvent, Material balances - Single stage extraction, Multistage crosscurrent, counter current and co-current extraction Mapping of Course Outcomes for Unit II CO2: Design a recovery protocol using solid -liquid or solvent extraction techniques, specifically calculating partition coefficients for biomolecules.",
+          "hours": 6
+        },
+        {
+          "title": "Adsorption",
+          "topics": "Definition, Types of Adsorption - Physical and Chemical, Nature of adsorbents, Adsorption Isotherms - Langmuir, Freundlich, BET, Heat of adsorption, Introduction to Pressure Swing Adsorption (PSA), and Temperature Swing Adsorption (TSA), Biotechnological Applications of Adsorption processes Mapping of Course Outcomes for Unit III CO3: Apply adsorption isotherms and kinetics to predict the efficiency of downstream purification steps for specific biochemicals.",
+          "hours": 6
+        },
+        {
+          "title": "Membrane Separation Techniques",
+          "topics": "Classification of separation techniques, Definition of a membrane, Criteria of membrane separation processes, Types of membranes, Advantages of membrane separation processes over conventional separation techniques, Industrial Applications, Membrane separat ions - Micro filtration, Ultrafiltration, Reverse Osmosis, Piezodialysis, Electro dialysis, Membrane electrolysis, Pervaporation, Carrier mediated transport -liquid membranes, Membrane contactors, Polarization Phenomenon, Membrane fouling Mapping of Course Outcomes for Unit IV CO4: Categorize membrane processes (Micro, Ultra, Nano-filtration) and select appropriate modules for concentration and desalinization of bioproducts.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced separation techniques",
+          "topics": "Precipitation of proteins by different methods, Aqueous two phase systems, Molecular sieves, Adductive crystallization, Supercritical fluid extraction, Reactive extraction, Introduction to GC -MS and LC -MS, case studies of GC-MS, LC-MS Mapping of Course Outcomes for Unit V CO5: To introduce role of advanced separation and purification techniques like molecular sieves, adductive crystallization in achieving high value biomolecule recovery. Learning Resources Text Books: 6. B. Shivshankar, “ Bioseparations: Priniples and Techniques”, Eastern Economy Edition, PHI Learning Pvt. Ltd., Publishing House, New Delhi, 2012 7. Treybal R.E., “Mass Transfer Operations”, Third Edition, McGraw Hill International Editions, 1980 8. Coulson J.M. and |Richardson J.F., “Chemical Engineering”, Vol I & II –McGraw Hill International Editions, 1980 9. Pauline Doran, “ Bioprocess Engineering Principles”, Elsevier Publications, New Delhi,2010 10. Michael R. Ladisch, “ Biosepration Engineering, Principles, practice and economics”, Wiley-Blackwell Publishers ,9 April 2001 Reference Books: 1. Alan Shivers Foust, Leonard A. Wenzel, L. Bryce Andersen, Louis Maus, Curtis W. Clump, “Principles of Unit Operatio...",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Downstream Processing",
+          "topics": "Activity 1: Product Categorization and Economic Analysis ● Task: Select one \"High-Volume/Low-Value\" product (e.g., Bio-ethanol or Citric Acid) and one \"Low- Volume/High-Value\" product (e.g., Insulin or Monoclonal Antibodies). Create a comparison table analysing purity, cost of downstream processing and product design criteria. ● Real-Life Problem Addressed: Product characterization based on High volume vs. high value products, economic analysis and process design. ● Expected Outcome: Understand the economics and need for specialized DSP. Activity 2: Select and Justify Cell disruption Strategy ● Task: Suggest a method for releasing an intracellular enzyme from E.coli on an industrial scale. Propose a hybrid strategy with mild chemical pretreatment followed by mechanical disruption. ● Real-Life Problem Addressed: Mechanical methods (High -Pressure Homogenization) offer high throughput but generate heat that may denature the protein. Enzymatic methods are gentle but expensive. Suggest hybrid strategy. ● Expected Outcome: Comparing mechanical vs. enzymatic trade offs. Activity 3: The DSP critical thinking presentation/Group Discussion ● Task: Prepare a presentation or discuss in a g...",
+          "hours": null
+        },
+        {
+          "title": "Extraction",
+          "topics": "Activity 1: Concept map of factors affecting Leaching/Liquid-Liquid Extraction ● Task: Prepare a detailed infographic map explaining factors influencing the rate of leaching. ● Real-Life Problem Addressed: Designing a concept map considering effect of various factors ● Expected Outcome: Applied understanding of solid-liquid or Liquid-Liquid extraction Activity 2: Numerical solving ● Task: Solve numerical based on single and a multistage extraction ● Real-Life Problem Addressed: Estimation of extraction efficiency using single stage or multistage material balance ● Expected Outcome: Enhance creative and applied understanding of numerical solving",
+          "hours": null
+        },
+        {
+          "title": "Adsorption",
+          "topics": "Activity 1: Comparative Report ● Task: Prepare a comparative report on types of adsorption and nature of adsorbents ● Real-Life Problem Addressed: Study common industrial adsorbents ● Expected Outcome: Distinguish between different adsorption mechanisms and material properties Activity 2: Data modeling with isotherms ● Task: Provide students with data set representing the amount of solute adsorbed vs. equilibrium concentration. Plot the data using the linear forms of the Langmuir and Freundlich isotherms ● Real-Life Problem Addressed: Calculate the constants from the slopes and intercepts. ● Expected Outcome: Gain hands-on experience with mathematical modeling and isotherm selection",
+          "hours": null
+        },
+        {
+          "title": "Membrane Separation Techniques",
+          "topics": "Activity 1: Case Study Analysis ● Task: Choose appropriate membrane separation technique for industrial problem ● Real-Life Problem Addressed: Membrane separation modules utilised in industry ● Expected Outcome: Gain knowledge of suitable membrane separation strategies used in biotech industries Activity 2: Membrane Selection Matrix ● Task: Create a technical ‘Selection Guide’ for a process engineer ● Real-Life Problem Addressed: Prepare a membrane selection guide with classification, types and criteria ● Expected Outcome: Master the fundamental classification and selection logic. Activity 3: Advanced Membrane Processes ● Task: Dialysis, Pervaporation and ultra and nano-filtration ● Real-Life Problem Addressed: Are advanced membrane processes economical? ● Expected Outcome: Understand transport mechanisms and economics of advanced membrane processes.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Separation Techniques",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-BIO",
+      "title": "Bioinformatics Lab",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        65,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-354-BIO",
+      "title": "Downstream Processing Lab",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        67,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-361-A-BIO",
+      "title": "Biomaterials",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        69,
+        72
+      ],
+      "units": [
+        {
+          "title": "Overview of Biomaterials",
+          "topics": "General properties of materials, Classes of materials used in medicine: Metals, Polymers, Hydrogels, Bioresorbable and Biodegradable Materials, medical fibers and Smart materials Biological functional materials, textured and Porous materials. Mapping of Course Outcomes for Unit I CO1: Select and justify appropriate characterization tools to evaluate the biocompatibility and mechanical integrity of a given biomaterial.",
+          "hours": 9
+        },
+        {
+          "title": "Biopolymers",
+          "topics": "Classification (nucleic acid, protein, polysaccharide), Manufacturing, chemistry and applications of polysaccharide such as dextran, xanthan, gellan, pullulan, chitin, chitosan, etc., Methods of structural identification and characterization Mapping of Course Outcomes for Unit II CO2: Categorize biopolymers based on their source and formulate manufacturing workflows for medical-grade polysaccharides.",
+          "hours": 9
+        },
+        {
+          "title": "Polyhydroxyalkanoates",
+          "topics": "Polyhydroxyalkanoates and biodegradable polymers such as polylactic acid, polyglycolide and polycaprolactone, Structure, physical and chemical properties with special emphasis on fermentative synthesis polyesters Mapping of Course Outcomes for Unit III CO3: Optimize fermentation parameters for the production of biodegradable polyesters and analyze their degradation kinetics in biological environments.",
+          "hours": 9
+        },
+        {
+          "title": "Nanobiomaterials",
+          "topics": "Types of bioadhesive, nano biomaterial, Characterize, predict, and control the biological properties of nano - biomaterials, composite biomaterial, Biodegradable plastic, design, synthesis, characterization and application of nanomaterials to biological and biomedical problems Mapping of Course Outcomes for Unit IV CO4: Design composite biomaterials or nano -scaffolds tailored for specific tissue engineering or pharmaceutical delivery systems",
+          "hours": 9
+        },
+        {
+          "title": "Biomaterials Applications:Medicine, Dentistry and Biology",
+          "topics": "Cardiovascular medical devices, Non-thrombogenic treatments and Strategies, Dental implantation adhesive and Sealants, Ophthalmologic applications -intraocular lens implants, Case studies - Orthopedic biomaterials, Artificial organs and tissues. Mapping of Course Outcomes for Unit V CO5: To explore current research trends and regulatory landscapes in biomaterial applications for clinical research. Learning Resources Text Books: 1. Biomaterials Science: An Introduction to Materials in Medicine Buddy D. Ratner, 2. Frederick J. Schoen, Allan S. Hoffman, Jack E. Lemons 3. Hench L L Ethridgc E.C. Biomaterials, an interfacial approach, Academic press 1982 Reference Books: 5. Bronzino J D, The biomedical engineering handbook CRC Press MOOC / NPTEL Courses: NPTEL Course Biomaterials for bone tissue engineering applications - NPTEL • https://nptel.ac.in/courses/113108071 CCE: CONTINUOUS & COMPREHENSIVE EVALUATION Real World Assignment (One activity for each unit)",
+          "hours": 9
+        },
+        {
+          "title": "Overview of Biomaterials",
+          "topics": "Activity 1: Material Classification Matrix ● Task: Design a comparison matrix comparing properties and specific applications ● Real-Life Problem Addressed: Design a material comparison matrix comparing its properties and applications ● Expected Outcome: Understanding the importance of various Biomaterials and their properties Activity 2: Hydrogels and Smart materials ● Task: Propose a hydrogel and shape memory alloy for artificial retina and stent design which deploys precisely at body temperature (37°C) ● Real-Life Problem Addressed: Understanding properties of hydrogels and smart materials for specific applications. ● Expected Outcome: Students will understand and learn about hydrogels and smart materials.",
+          "hours": null
+        },
+        {
+          "title": "Biopolymers",
+          "topics": "Activity 1: Case study on Biopolymers ● Task: Prepare a systematic case study on any 2 biopolymers suggesting an appropriate applications. ● Real-Life Problem Addressed: Case study on biopolymers for specific applications ● Expected Outcome: Creative and applied understanding on biopolymers Activity 2: Smart Biomaterials as delivery vehicles ● Task: An oncology research team uses pullulan to encapsulate a hydrophobic chemotherapeutic drug for targeted delivery to hepatic carcinomas via asialoglycoprotein receptors. ● Real-Life Problem Addressed: Propose a chemical synthesis pathway to hydrophobicize pullulan by conjugating it with cholesterol or stearic acid using EDC/NHS coupling chemistry. ● Expected Outcome: Creative thinking and problem solving",
+          "hours": null
+        },
+        {
+          "title": "Polyhydroxyalkanoates",
+          "topics": "Activity 1: Fermentative synthesis and kinetics of Polyhydroxyalkanoates ● Task: Model the metabolic pathways and engineering kinetics behind microbial polyester production. ● Real-Life Problem Addressed: Case study on fermentative synthesis and kinetics of PHA ● Expected Outcome: Gain a Knowledge of suitable microbial bioprocesses of PHA. Activity 2: Group Discussion on PHA, PHB and Plastics ● Task: Group discussion on various types, fermentative synthetic processes, advantages and disadvantages ● Real-Life Problem Addressed: How to replace plastic with Bioplastics as an alternative to sustainable packaging. ● Expected Outcome: Ability to understand importance of degradable plastics",
+          "hours": null
+        },
+        {
+          "title": "Nanobiomaterials",
+          "topics": "Activity 1: Case study on Nanomedicine Engineering and dignostics ● Task: Deploy nanomaterials to solve complex oncology and gene therapy delivery challenges. ● Real-Life Problem Addressed: Diagram a smart, stimuli-responsive polymeric micelle designed to release doxorubicin exclusively inside tumor cells. ● Expected Outcome: comparative analysis of nanomaterials utilized in targeted delivery Activity 2: Interfaces and interactions ● Task: Model and manipulate the interactions of nanomaterials with blood plasma proteins and cellular membranes. ● Real-Life Problem Addressed: Explain the thermodynamic driving forces behind the formation of the hard protein corona and soft protein corona when a lipid nanoparticle (LNP) enters the bloodstream. Expected Outcome: Broader understanding of interfaces and interaction of nanoparticles",
+          "hours": null
+        },
+        {
+          "title": "Applications of Biomaterials",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-361-B-BIO",
+      "title": "Molecular Diagnostics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        73,
+        76
+      ],
+      "units": [
+        {
+          "title": "Introduction to Molecular Diagnostics",
+          "topics": "History, scope, significance, diagnostic industry, biomarkers, clinical specimens, sample collection, transport, processing, quality control, interpretation, Applications in medical, food, other sectors Mapping of Course Outcomes for Unit I CO1: Understand fundamentals and applications of molecular diagnostics",
+          "hours": 9
+        },
+        {
+          "title": "Tools and Techniques in Molecular Diagnostics",
+          "topics": "Traditional, advanced molecular biology techniques, reagents, kits, assays, panels, biosensors, lab -on-chip, automation, AI in Diagnostics Mapping of Course Outcomes for Unit II CO2: Apply knowledge of molecular diagnostic tools and technologies",
+          "hours": 9
+        },
+        {
+          "title": "Infectious Disease Diagnostics",
+          "topics": "Conventional, molecular pathogen detection, screening, confirmation, validation, biomarkers, prognosis, MDR diagnostics, Case studies human, plant, animal pathogens/diseases- Tuberculosis/ Diarrhoea, COVID/ HIV Mapping of Course Outcomes for Unit III CO3: Analyze diagnostic strategies for infectious diseases and interpret case studies",
+          "hours": 9
+        },
+        {
+          "title": "Genetic Disease Diagnostics",
+          "topics": "Cytogenetics, genetic disorders, single -gene, chromosomal disorders, karyotyping, sickle cell anaemia, Down syndrome, prenatal, neonatal diagnosis, case studies, applications Mapping of Course Outcomes for Unit IV CO4: Interpret diagnostic approaches for genetic disorders",
+          "hours": 9
+        },
+        {
+          "title": "Cancer Diagnostics",
+          "topics": "Screening, imaging, biopsy, histopathology, PCR, NGS Panels, Tumor biomarkers, liquid biopsy, staging, prognosis, targeted therapy, applications. Mapping of Course Outcomes for Unit V CO5: Evaluate diagnostic techniques for cancer detection and Management Learning Resources Text Books: 1. Fundamentals of Molecular Diagnostics; David E Bruns, Edward R Ashwood, and Carl A Burtis ; Saunders 2007 ISBN: 1416037373 Reference Books: 2. Buckingham, L. (2019). Molecular Diagnostics: Fundamentals, Methods and Clinical Applications. 3rd Edition. eISBN: 978-0803699564 3. Rifai, N., Horvath, A.R., Wittwer, C.T. (2018). Principles and Applications of Molecular Diagnostics. 2nd Edition. eISBN: 978-0128160626 4. Coleman, W.B., Tsongalis, G.J. (2015). Molecular Diagnostics for the Clinical Laboratorian . 2nd Edition. ISBN-13: 978-1592599288 5. Persing, D.H. et al. (2016). Molecular Microbiology: Diagnostic Principles and Practice . 3rd Edition. ISBN-13: 978-1555819071 6. Rifai, N. (2018). Tietz Textbook of Clinical Chemistry and Molecular Diagnostics. 6th Edition ISBN- 13: 978-0323359214 MOOC / NPTEL Courses: NPTEL Course Manage TB - Course https://onlinecourses.nptel.ac.in/noc19_ge25/preview Vi...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Molecular Diagnostics",
+          "topics": "Activity 1: Clinical Sample Handling Case Study ● Task: Analyze different clinical samples (blood, sputum, swab) and design correct collection, transport, and processing protocol ● Real-Life Problem Addressed: Preventing diagnostic errors due to improper sample handling ● Expected Outcome: Understanding of pre-analytical factors affecting diagnostic accuracy Activity 2: Diagnostic Industry Survey ● Task: Prepare report on Indian/global diagnostic companies and technologies ● Real-Life Problem Addressed: Awareness of industry trends and job opportunities ● Expected Outcome: Knowledge of diagnostic market and applications Activity 3: Interpretation Exercise ● Task: Interpret given diagnostic reports (PCR/ELISA) ● Real-Life Problem Addressed: Clinical decision-making based on lab reports ● Expected Outcome: Ability to analyze and interpret diagnostic results",
+          "hours": null
+        },
+        {
+          "title": "Tools and Techniques in Molecular Diagnostics",
+          "topics": "Activity 1: PCR Workflow Design ● Task: Draw and explain PCR/qPCR workflow with reagents and steps ● Real-Life Problem: Addressed: Designing molecular tests for disease detection ● Expected Outcome: Understanding of molecular diagnostic techniques Activity 2: Kit/Assay Analysis ● Task: Study ELISA/LFA/PCR kit ● Real-Life Problem Addressed: Selecting diagnostic kits ● Expected Outcome: Knowledge of reagents Activity 3: Technology Comparison ● Task: Compare NGS, Microarray, CRISPR ● Real-Life Problem Addressed: Choosing suitable technology ● Expected Outcome: Analytical skills",
+          "hours": null
+        },
+        {
+          "title": "Infectious Disease Diagnostics",
+          "topics": "Activity 1: Case Study TB/COVID/HIV ● Task: Design diagnostic workflow ● Real-Life Problem Addressed: Accurate diagnosis ● Expected Outcome: Understand strategies Activity 2: Pathogen Detection Mapping ● Task: Map methods for human/plant/animal pathogens ● Real-Life Problem Addressed: Cross-sector detection ● Expected Outcome: Integrated understanding Activity 3: MDR Analysis ● Task: Study resistance and diagnostics ● Real-Life Problem Addressed: Drug resistance ● Expected Outcome: Knowledge of MDR",
+          "hours": null
+        },
+        {
+          "title": "Genetic Disease Diagnostics",
+          "topics": "Activity 1: Karyotyping Case Study ● Task: Analyze karyotype for Down syndrome ● Real-Life Problem Addressed: Detect chromosomal disorders ● Expected Outcome: Interpret cytogenetics Activity 2: Genetic Disorder Report ● Task: Report on sickle cell anemia ● Real-Life Problem Addressed: Manage genetic diseases ● Expected Outcome: Understand diagnostics Activity 3: Prenatal Diagnosis Discussion ● Task: Case discussion ● Real-Life Problem Addressed: Early detection ● Expected Outcome: Awareness and ethics",
+          "hours": null
+        },
+        {
+          "title": "Cancer Diagnostics",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-361-C-BIO",
+      "title": "Good Laboratory Practices & Good Manufacturing Practices",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        77,
+        82
+      ],
+      "units": [
+        {
+          "title": "Introduction to Good Laboratory Practices",
+          "topics": "GLP Introduction, WHO guidelines on GLP and GMP, Quality assurances in Good Laboratory Practices Calibration and Validation: Introduction, definition and general principles of calibration, qualification and validation, importance and scope of validation, types of validation , validation master plan, General principles of Analytical method Validation. Mapping of Course Outcomes for Unit I CO1: Learn and adopt quickly in a GMP environment.",
+          "hours": 9
+        },
+        {
+          "title": "Good Manufacturing Practices in Pharmaceutical and Food Industries",
+          "topics": "Types of validation in Pharma industry, Scope and importance of Validation Limitations, Cleaning Validation, Validation of Analytical Procedures as per ICH Guidelines Implications of cGMP and Food plant sanitation, schedule M and Y of Drug and Cosmetic act in India. The regulations of cGMPs Planning of Plant Sanitation Programs and Construction factors Sanitation in warehousing, storage, shipping, receiving, containers and packaging materials Control of rats, rodents, birds, insects and microbes. Cleaning and Disinfection: Physical and Microbiological Approach Mapping of Course Outcomes for Unit II CO2: Implement precise GMP in pharma and food industry",
+          "hours": 9
+        },
+        {
+          "title": "Quality Standards and Quality Assurances",
+          "topics": "Quality Standards - Advantages and Disadvantages, Concept of Quality Control, Quality Assurance - Their functions and advantages, Quality assurance and quality management in industry, Total Quality Management (TQM): Definition, elements, philosophies, ICH Gu idelines: purpose, participants, process of harmonization. Good documentation practices: Preparation Standard operating protocols (SOP), Batch Manufacturing Records (BMR), Master Formula, Site files, recording change controls/deviations etc. Government and trade standards of quality Federal Food and Drug Law FDA, BSTI action and activities Other food laws (Legalization), ISO 9000 & ISO14000: Overview, Benefits, Elements, steps for registration Mapping of Course Outcomes for Unit III CO3: Understand and apply principles Quality standards.",
+          "hours": 9
+        },
+        {
+          "title": "Biosafety",
+          "topics": "Introduction: Historical Background, Biosafety in Laboratory/ institution., Laboratory associated infections and other hazards, Assessment of Biological Hazards and levels of biosafety, Prudent biosafety practices in the laboratory/institution Introduction to Biological safety cabinets, Primary Containment of Biohazards, Biosafety Levels, Recommended Biosafety Levels for Infectious Agents and Infected Animals Biosafety guidelines, Government of India Guidelines, Definition of Genetically Modified Mapping of Course Outcomes for Unit IV CO4: Understand the importance of biosafety and other hazards",
+          "hours": 9
+        },
+        {
+          "title": "Quality Control & Management",
+          "topics": "(9 Hrs) Quality Control in the industry, Various Quality Attributes of food such as size, shape, texture, color, viscosity and flavor, Sensory evaluation of food and statistical analysis, Food Regulation and Compliance, Food Inspection and Food Law, Quality control test for containers and packing , Food Quality control including the HACCP system, Nonclinical Laboratory Study, Records and Reports, Testing Facilities Total Quality Management, Quality by design, Six Sigma concept, Out Of Specifications (OOS), Types of Validation, Types of Qualification, Validation master plan (VMP), Validation of utilities, [Compressed air, steam, water systems, Heat Ventilation and Air conditioning (HVAC)] and Cleaning Validation. Mapping of Course Outcomes for Unit V CO5: Analyse and apply the Quality control laws, concepts of quality management and its implementation. Learning Resources Text Books: 1. Good Laboratory Practice Regulations, by Sandy Weinberg, Fourth Edition Drugs and the Pharmaceutical Sciences, Vol.168 2. How to practice GLP by PP Sharma, Vandana Publications. Reference Books: 1. Good Pharmaceutical Manufacturing practice, Rational and compliance by John Sharp, CRC Press 2. Estab...",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Good Laboratory Practices",
+          "topics": "Activity 1: Group Discussion-WHO Guidelines GMP & GLP • Task: Prepare a chart and discuss in the class about of WHO guidelines for GMP & GLP • Real-Life Problem Addressed: Gain knowledge about WHO guidelines and it’s application for various industrial products. • Expected Outcome: Students will be able to classify GLP and GMPs with practical applications. Activity 2: SOP Preparation • Task: To prepare standard operating procedure for calibration of various instruments in the lab such as pH meter, Spectrophotometer, Colorimeter • Real life problem addressed: Learn how to calibrate various instruments in the lab • Expected Outcome: Students will learn calibration and SOP preparation for laboratory instruments. Activity 3: Comparison between calibration and Validation • Task: Prepare some activities comparing calibration and validation with its significance. • Real life problem addressed: Need for calibration and validation in biotechnology and healthcare. • Expected Outcome: Students will strengthen conceptual understanding and significance of calibration and validation.",
+          "hours": null
+        },
+        {
+          "title": "Good Manufacturing Practices in Pharmaceutical and Food Industries",
+          "topics": "Activity 1: Scope & Limitations of Validation • Task: Draft a Validation Master Plan (VMP). Categorize the four types: Prospective, Concurrent, Retrospective, and Revalidation. • Real life problem addressed: A manufacturer introduces a new high-speed tablet press but skips the \"Performance Qualification\" (PQ) stage. • Expected Outcome: Students will identify the limitations (e.g., validation is a snapshot in time, not a guarantee of future quality) and the necessity of continuous monitoring.Schedule M and Y (India) Activity 2: Schedule M & Y (India) • Task: Compare Schedule M (GMP requirements in India) with Schedule Y (Clinical trials and import/export requirements). • Real life problem addressed: A local Indian drug manufacturer needs to upgrade their facility to export to international markets. • Expected Outcome: Students understand the legal framework of the Drugs and Cosmetics Act and how it aligns with global standards like the WHO-GMP",
+          "hours": null
+        },
+        {
+          "title": "Quality Standards and Quality Assurance",
+          "topics": "Activity 1: Quality Systems and TQM • Task: Create a comparative report between QA, QC, and TQM. Define how a TQM philosophy (like Deming’s 14 points) shifts the quality. • Real life problem addressed: A manufacturing firm has high \"Quality Control\" (finding defects) but poor \"Quality Assurance\" (preventing them), leading to massive waste. • Expected Outcome: Students will distinguish between detection (QC) and prevention (QA) and explain how TQM reduces the \"Cost of Quality. Activity 2: ISO Standards & Registration • Task: Prepare a presentation explaining the role and ISO Standards & Registration. • Real life problem addressed: Nutritional deficiencies affecting metabolic pathways and public health. • Expected Outcome: Students will perform a \"Gap Analysis\" and describe the benefits of certification Activity 3: Draft an Audit report • Task: Draft a standard operating procedure for handling deviation during audits. • Real life problem addressed: During a regulatory audit, an inspector finds a Batch Manufacturing Record (BMR) with scribbled-out errors and missing timestamps. • Expected Outcome: Students master Good Documentation Practices",
+          "hours": null
+        },
+        {
+          "title": "Biosafety",
+          "topics": "Activity 1: Quiz on Biosafety • Task: Solve a quiz on Biosafety norms. • Real life problem addressed: Need for clear understanding of Biosafety norms. • Expected Outcome: Students will understand safety norms required in the food and pharma industry. Activity 2: Case Study on Importance of CIP • Task: Study systematic clean in place protocol for fermenters • Real life problem addressed: Need for CIP to maintain standards • Expected Outcome: Students will evaluate significance of CIP norms in industries.",
+          "hours": null
+        },
+        {
+          "title": "Quality Control & Management",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-A-BIO",
+      "title": "Biotherapeutics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        83,
+        87
+      ],
+      "units": [
+        {
+          "title": "Introduction to Biotherapeutics Development",
+          "topics": "Overview of the pharmaceutical and biopharmaceutical industry. Definition of the terms: traditional pharmaceutical product, ‘biologic’ and ‘biopharmaceutical’, Advantages of producing biopharmaceuticals by recombinant means: availability and scale of production, Overview of biopharmaceutical products now approved for use, Overview of the drug development process. Pre-clinical studies – safety, efficacy, in-vitro, in-vivo, Clinical trials Mapping of Course Outcomes for Unit I Graduates are made aware of differences in biotherapeutics biologics, chemical drugs and specific characteristics of Biotherapeutics., their Discovery, Development, clinical trials and ethics. Biogenerics",
+          "hours": 9
+        },
+        {
+          "title": "Various systems used for production of Biotherapeutics Recombinant Proteins",
+          "topics": "Developing a recombinant therapeutic protein. Cloning in expression vector. Choices of vectors for Bacterial cells, Transfection methods for Bacterial cells. Choices of vectors for insect cell lines, Transfection methods insect cell lines. Choices of vecto rs for Mammalian cell lines, Transfection methods Mammalian cell lines, Examples of recombinant proteins, Production of EPO, hGH, Factor VIII Mapping of Course Outcomes for Unit II CO2: : Graduates would be trained to understand different host systems used for production of biotherapeutics",
+          "hours": 9
+        },
+        {
+          "title": "The Biopharmaceutical Manufacturing Process",
+          "topics": "The manufacturing process. Master and working cell banking systems. Clean rooms design andflow of operations. Decontamination, sanitation CDS and Generation of water for pharmaceutical / biopharmaceutical processing, WFI. Product flow through the facility and associated documentation, The QA function, Range and significance of biopharmaceutical product impurities like microorganisms, viruses, contaminant proteins, DNA and pyrogens. The range of QC tests carried out on typical biopharmaceutical products.Biop harmaceutical validation, Principles of validation, validation of chromatographic systems used in biopharmaceutical manufacture Mapping of Course Outcomes for Unit III CO3: Graduates are made aware of manufacturing process, requirements and QA/QC",
+          "hours": 9
+        },
+        {
+          "title": "Formulation And Drug Delivery System Of Biotherapeutics",
+          "topics": "Formulation Introduction, Types of formulation: Oral, Topical, Parentral, Slow release, Degradation Routes, Physical Stability Issues and Chemical Stability Issues,The Routes of Chemical Instability, and Modeling for Streamlining. Accelerated stability, re al time stability, agents aiding increase in stability, Advanced drug Delivery Systems:liposomes, PEGyaltion,microparticles and Nanoparticles, biodegradable drug delivery system (hydrogel based) Mapping of Course Outcomes for Unit IV CO4: Illustrate concepts of drug delivery and dosage forms and stability",
+          "hours": 9
+        },
+        {
+          "title": "Biopharmaceutical Regulation",
+          "topics": "Regulatory requirements for Biotech product development, Hierarchal structure in Indian biotechnology, Current GMP, Role of DCGI, National & International guidelines, Toxicity studies, clinical trials, clinical research, IPR, patents, trademarks, trade secrets, Export, Import of product Mapping of Course Outcomes for Unit V CO5: Graduates are given elementary knowledge of regulatory requirements and guidelines like EU and USFDA, IPR Learning Resources Text Books: 1. Grewal, I. S., “Emerging Protein Biotherapeutics” 2. Walsh, G., “Biopharmaceuticals: Biochemistry and Biotechnology”, 2nd Edition, Blackwell, USA Reference Books: 1. Hillery, A. M., Lloyd, A. W. and Swarbrick , J., “Drug Delivery and Targeting: For Pharmacists and Pharmaceutical Scientists” MOOC / NPTEL Courses: ● For example- ● Drug Delivery: Principles and Engineering By Prof. Rachit Agarwal, IISchttps://onlinecourses.nptel.ac.in/noc20_bt24/preview ● Biosimilars- https://www.youtube.com/watch?v=P9L97K2rlTM ● https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products- therapeutic-equivalence-evaluations-orange-book, 4https://www.fda.gov/vaccines-blood- biologics Virtual LAB Link: ● Toxicity predic...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Biotherapeutics Development",
+          "topics": "Activity 1: Design a clinical trial for a new drug 2. Task: To compile Types of clinical trials and the requirements 3. Real-Life Problem Addressed: CONSORT flow diagram of the progress through the phases of a parallel randomised trial of two groups (that is, enrolment, intervention allocation, follow-up, and data analysis). 4. Expected Outcome: Students will be able to apply similar methods and prepare clinical trial protocol/ flow chart Activity 2: Difference in various types of drugs ● Task: Case-based quiz on differences between chemical drugs and biotherapeutics ● Real-Life Problem Addressed: differentiate between biologics, biotherapeutics and chemical drugs ● Expected Outcome: Understanding the differences in various types of drugs Activity 3: Report Assignment ● Task: Prepare a report showing latest approved biotherapeutics with sales and companies ● Real-Life Problem Addressed: Current markets and products and companies ● Expected Outcome: Ability to find out off patent drugs",
+          "hours": null
+        },
+        {
+          "title": "Various systems used for production of Biotherapeutics: Recombinant Proteins",
+          "topics": "Activity 1: Designing experiment to clone a protein of interest ● Task: Primer design PCR and preparation of insert ● Real-Life Problem Addressed: Designing experiment to clone a protein of interest ● Expected Outcome: hands on experience on molecular techniques Activity 2: Comparison of hosts for Biotherapeutic protein expression ● Task: Prepare a Table showing comparison ● Real-Life Problem Addressed: To know the difference in various systems of expression ● Expected Outcome: Skills for choosing a host for a type of Biotherapeutics protein Activity 3: Virtual experiment Mini Project ● Task: virtual Cloning of a protein -https://vlab.amrita.edu/?sub=3&brch=77 ● https://vlab.amrita.edu/index.php?sub=3&brch=186 ● Real-Life Problem Addressed: Writing proposal for GEAC ● Expected Outcome: Creative and applied understanding of cloning process",
+          "hours": null
+        },
+        {
+          "title": "The biopharmaceutical manufacturing process",
+          "topics": "Activity 1: Clean Room Design/ WFI ● Task: Prepare a clean room design ● Real-Life Problem Addressed: Industry clean room design or WFI for biomanufacturing ● Expected Outcome: Understand design of a clean room and WFI plant with entry and exits Activity 2: Enlist impurities in Biotherapeutics product ● Task: Use a simple method for the presence of DNA in protein preparations. eg-to measure 260/280 ratios ● Real-Life Problem Addressed: Quick monitoring of presence of DNA in protein samples (QC) ● Expected Outcome: Understanding of the methods to estimate impurities. Activity 3: Calibration of pH meter/ -80 temperature monitoring ● Task: Check the pH meter using standard buffers ● Real-Life Problem Addressed: maintaining quality of processes ● Expected Outcome: To understand process of validation",
+          "hours": null
+        },
+        {
+          "title": "Formulation and drug delivery system of Biotherapeuticss",
+          "topics": "Activity 1: Experiential learning Task: Collect various formulations ● Real-Life Problem Addressed: Prepare emulsion/ gel ● Expected Outcome: Knowledge of various types of formulations Activity 2: Stability Testing- Real time and Accelerated ● Task: Perform experiment to check stability at RT and higher temperature. Eg- enzyme, microbes ● Real-Life Problem Addressed: Biotherapeutics are sensitive to temperature ● Expected Outcome: Ability to determine stability of the compound Activity 3: Advanced DD methods Group activity ● Task: Prepare a PPT on any One ADD in a group ● Real-Life Problem Addressed: Latest ADD literature ● Expected Outcome: Teamwork, communication and presentation skills",
+          "hours": null
+        },
+        {
+          "title": "Biopharmaceutical regulation",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-B-BIO",
+      "title": "Food Biotechnology",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        88,
+        91
+      ],
+      "units": [
+        {
+          "title": "Introduction to Food Biotechnology & Food Spoilage",
+          "topics": "Biotechnology in relation to food industry, Food biotechnology - Scope and applications, Characteristics of food - Nutritional value and sensory characteristics, Spoilage of food - Mechanisms and types of spoilage, Intrinsic and extrinsic factors affecting spoilage - Water activity, pH, Temperature and redox potential, Major spoilage microorganisms and their growth conditions, Effect on food Mapping of Course Outcomes for Unit I CO1: Explain principles of food biotechnology and factors affecting food spoilage processes.",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Food Processing and Preservation",
+          "topics": "Preliminary processing methods - Need and types, Raw material preparation - Cleaning, sorting, grading and peeling, Principles and methods of food preservation, Low temperature techniques - Refrigeration and freezing, High temperature techniques - Blanching, HTST pasteurization, canning and UHT treatment, Thermal death kinetics of microorganisms, Calculation of pasteurization time, Time and temperature relationship in HTST sterilization, Dehydration and drying techniques, Irradiation techniques - UV light a nd gamma rays, Use of additives, Modified atmosphere packaging and storage Mapping of Course Outcomes for Unit II CO2: Describe food processing and preservation techniques used in food industries effectively.",
+          "hours": 9
+        },
+        {
+          "title": "Fermentation and Food Biotechnology",
+          "topics": "Technologies used for microbial production of food ingredients, Biotechnology of microbial polysaccharides in food, Microbial biotechnology of food flavor production, Microbial production of oils and fats, Food applications of algae, Process developments i n solid state fermentation for food applications, Solid state bioprocessing for functional food ingredients, Fermentation biotechnology of traditional foods of the Indian subcontinent Mapping of Course Outcomes for Unit III CO3: Apply microbial processes for production of food products and food ingredients.",
+          "hours": 9
+        },
+        {
+          "title": "Role of Enzymes in Food Processing",
+          "topics": "Classes of industrially important enzymes in food industry, Role of enzymes in bakery industry, Cereal and beverage industry, Meat processing, Beer mashing and chill proofing, Production and application of pectinases, Proteases and other industrial enzymes Mapping of Course Outcomes for Unit IV CO4: Explain industrial applications of enzymes in different food processing operations.",
+          "hours": 9
+        },
+        {
+          "title": "Processes for Treatment of Food Processing Waste",
+          "topics": "Classification and characterization of food industrial waste - Solid, liquid and hazardous wastes, Waste disposal methods - Physical, chemical and biological methods, Treatment methods of solid wastes, Treatment methods for liquid wastes from food industry, Activated sludge and anaerobic processes for treatment of food processing wastes, Waste utilization and by-product recovery from food industries Mapping of Course Outcomes for Unit V CO5: Describe methods for treatment and utilization of food processing waste materials. Learning Resources Text Books: 1. B. Shivshankar, Bioseparations : Principles and Techniques, Eastern Economy Edition, PHI Learning Pvt. Ltd., New Delhi, 2012. 2. Pauline Doran, Bioprocess Engineering Principles, Elsevier Publications, New Delhi, 2010. 3. Michael R. Ladisch, Bioseparation Engineering: Principles, Practice and Economics, Wiley - Blackwell Publishers, 2001. Reference Books: 1. Treybal R. E., Mass Transfer Operations, Third Edition, McGraw Hill International Editions, 1980. 2. Coulson J. M. and Richardson J. F., Chemical Engineering, Vol. I & II, McGraw Hill International Editions, 1980. MOOC / NPTEL Courses: NPTEL Course ● NPTEL Course on “Food ...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Food Biotechnology & Food Spoilage",
+          "topics": "Activity 1: Mind Map Activity ● Task: Prepare a mind map connecting food characteristics, spoilage microorganisms and spoilage conditions ● Real-Life Problem Addressed: Identification of conditions responsible for microbial food spoilage ● Expected Outcome: Improved conceptual understanding of food spoilage mechanisms Activity 2: Assignment on Spoilage Factors ● Task: An assignment explaining intrinsic and extrinsic factors affecting food spoilage ● Real-Life Problem Addressed: Maintenance of food quality during processing and storage ● Expected Outcome: Ability to differentiate spoilage factors and their effects on food Activity 3: Infographic Preparation ● Task: Create an infographic showing factors affecting food spoilage and methods to control spoilage ● Real-Life Problem Addressed: Prevention of food spoilage and reduction of post-harvest food losses ● Expected Outcome: Understanding of spoilage factors and the importance of food preservation",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Food Processing and Preservation",
+          "topics": "Activity 1: Case Study Analysis ● Task: Analyze a case study involving food spoilage due to improper storage or preservation conditions ● Real-Life Problem Addressed: Economic losses and food safety issues caused by inadequate preservation methods ● Expected Outcome: Ability to correlate preservation conditions with food quality and shelf life Activity 2: Food Label Analysis Activity ● Task: Collect and analyze food labels of 5 distinct food products to identify preservatives, additives and packaging information ● Real-Life Problem Addressed: Consumer awareness regarding additives and preservation methods used in packaged foods ● Expected Outcome: Understanding of industrial food labeling and preservation practices Activity 3: Assignment on Preservation Methods ● Task: An assignment on refrigeration, freezing, pasteurization and dehydration techniques ● Real-Life Problem Addressed: Selection of suitable preservation techniques for different food products ● Expected Outcome: Ability to differentiate preservation methods based on principle and application",
+          "hours": null
+        },
+        {
+          "title": "Fermentation and Food Biotechnology",
+          "topics": "Activity 1: Poster Preparation on Algal Food Applications ● Task: Design a poster showing applications of algae in food biotechnology ● Real-Life Problem Addressed: Development of sustainable food resources and nutraceutical products using algae ● Expected Outcome: Understanding of industrial and nutritional importance of algae in food systems Activity 2: Concept Mapping Activity ● Task: Prepare a concept map linking microorganisms, fermentation products and food biotechnology applications ● Real-Life Problem Addressed: Integration of fermentation concepts used in food industries ● Expected Outcome: Improved conceptual understanding of microbial food biotechnology",
+          "hours": null
+        },
+        {
+          "title": "Role of Enzymes in Food Processing",
+          "topics": "Activity 1: Research Article Review ● Task: Review a recent research article related to industrial enzyme applications in food processing ● Real-Life Problem Addressed: Development of improved enzyme technologies for food industries ● Expected Outcome: Ability to interpret recent scientific advancements in industrial enzyme applications Activity 2: Real-Life Product Analysis Activity ● Task: Collect processed food products and identify possible enzymes involved in their manufacturing ● Real-Life Problem Addressed: Understanding industrial use of enzymes in commercially available food products ● Expected Outcome: Awareness about enzyme-based food processing technologies Activity 3: Flowchart Preparation ● Task: Prepare a flowchart showing enzyme-assisted processing of fruit juice, bread or beer production ● Real-Life Problem Addressed: Visualization of enzymatic steps involved in industrial food processing ● Expected Outcome: Ability to explain enzyme-based food processing workflows",
+          "hours": null
+        },
+        {
+          "title": "Processes for Treatment of Food Processing Waste",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362-C-BIO",
+      "title": "Bioprocess Equipment Design",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        92,
+        97
+      ],
+      "units": [
+        {
+          "title": "Design aspects and Analysis of Bioreactors",
+          "topics": "Modeling of non-ideal behaviour in bioreactors, tanks-in-series and dispersion models-application to design of continuous sterilizers, air -lift loop reactors, fluidized - bed bioreactors, stability analysis of bioreactors, Geometric configuration, types of bioreactors, material of construction, selection of corrosion allowance Mapping of Course Outcomes for Unit I CO1: Ability to select and operate the most common instruments encountered in the bioprocess Industry.",
+          "hours": 9
+        },
+        {
+          "title": "Design Principles of Bioreactor Auxiliaries",
+          "topics": "Introduction, auxiliaries for bioreactors: agitators, aerators, air filters, stabilizers, power requirement, heating systems, various types of jackets like plain, half coil, channel, and limpet coil. Study and design of internal coil of reaction vessels. Mapping of Course Outcomes for Unit II CO2: Understand the design aspects of various auxilliaries of reactors.",
+          "hours": 9
+        },
+        {
+          "title": "Heat Exchange Equipments",
+          "topics": "Heat Exchangers codes and standards for heat exchangers, materials of construction, baffles and tie rods, tube joining methods, Design of shell and tube heat exchangers (U tube and fixed tube) as per IS: 4503 and TEMA standards. Design of heat exchange equipment’s such as evaporator, plate type heat exchanger. Mapping of Course Outcomes for Unit III CO3: Demonstrate the concept of the process design for heat exchange equipments",
+          "hours": 9
+        },
+        {
+          "title": "Design of Distillation Column",
+          "topics": "Design variables in distillation, design methods for binary systems, plate efficiency, approximate column sizing, plate contactors and plate hydraulic design. Model simulation using MATLAB-SIMULINK and ISIM software Mapping of Course Outcomes for Unit IV CO4: Analyze the design of distillation column for bioprocess industry.",
+          "hours": 9
+        },
+        {
+          "title": "Engineering Aspects of Scale Up of Bioreactor",
+          "topics": "Introduction, engineering aspects of scale up, equipment, Installation, commissioning and validation. safety measures in bioreactors. Material for construction of bioreactors and selection criteria. Cost estimation methods and economic evaluation of projects. Mapping of Course Outcomes for Unit V CO5: Understand and apply the engineering aspects of scale up of Bioreactor Installation. Learning Resources Text Books: 1. Process Equipment Design, Vol-1 & 2 by Dawande S. D., Dennet and Company. 2. Process Equipment Design by Joshi, M. V., McMillan, India. 3. Plant Design & Economics for Chemical Engineers, 4th Edition by Max Peters & Klans D Timmerhauss, McGraw Hill Book Co. 4. Bioreactors in Biotechnology: A practical approach by Scragg.A.H., E. Horwood, 1991. 5. Biochemical Engineering Fundamentals by Bailey and Ollis, McGraw Hill 6. Introduction to Chemical Equipment Design by Bhattacharya, B. C., C.B.S. Publications. 7. Bioprocess Engineering-Systems, Equipment and Facilities by Bjorn K. Lydersen, Nancy D’elia and Kim L. Nelson. A Wiley Interscience Publication. Reference Books: 1. Process equipment design” by L.E. Brownell and E. Young, John Wiley, New York, 1963. 2. Chemical E...",
+          "hours": 9
+        },
+        {
+          "title": "Design aspects and Analysis of Bioreactors",
+          "topics": "Activity 1: Tanks in Series Vs Dispersion Model • Task: Compare these two models • Real-Life Problem Addressed: Understanding problems in the bioprocess industry. E.g. A continuous bioreactor is underperforming because the actual residence time of the microbes is shorter than the theoretical design (short-circuiting). • Expected Outcome: Students will be able to understand and determine best model which can describe the degree of back-mixing and adjust the reactor volume to achieve the desired conversion. Activity 2: Case Study on advanced Bioreactor configurations • Task: Study alternative bioreactor type for sheer sensitive animal cell reactors. (e.g. Airlift loop reactor) • Real life problem addressed: Sheer-sensitive animal cells are dying in a stirred-tank reactor; a low- shear alternative is needed. • Expected Outcome: Students will correlate enzyme function with human digestive health. Activity 3: Stability Analysis • Task: Perform a steady-state stability analysis using Monod kinetics. Plot the biomass concentration vs. dilution rate to find the \"critical dilution rate. • Real life problem addressed: A CSTR fermenter experiences \"washout,\" where the dilution rate exceeds...",
+          "hours": null
+        },
+        {
+          "title": "Design Principles of Bioreactor Auxiliaries",
+          "topics": "Activity 1: Agitator Selection and Power Requirement • Task: Calculate the Power Number NP and the total Power Requirement P for a Rushton turbine. Compare how the power draw changes as the Reynolds number drops during the transition to laminar flow. • Real life problem addressed: A fermentation broth changes from a \"water-like\" consistency to a highly viscous \"syrup\" as the microbial population grows, causing the motor to overheat. • Expected Outcome: Students will be able to select the type of agitator and power requirements to handle the maximum expected viscosity without mechanical failure. Activity 2: Quiz • Task: Quiz on design aspects of various bioreactor auxiliaries. • Real life problem addressed: Understanding the design thumb rules for various auxiliaries • Expected Outcome: Students will gain detailed knowledge on design aspects of bioreactor auxiliaries. Activity 3: Design of fermenter auxiliaries-Case Study • Task: Design a fermenter considering a specific bioproduct • Real life problem addressed: e.g. Foam indicator design- To anlyse Foaming problem in case of fungal cultures • Expected Outcome: Students will identify appropriate auxiliary and solve design related...",
+          "hours": null
+        },
+        {
+          "title": "Heat Exchange Equipments",
+          "topics": "Activity 1: Heat Transfer System (Jacket Selection) • Task: Evaluate three jacket types for a 20,000Lvessel: Plain Jacket: Low cost, high volume of coolant. Limpet Coil: High pressure handling, localized cooling. Dimple/Channel Jacket: High turbulence for better heat transfer coefficients. • Real life problem addressed: An exothermic fermentation generates heat so rapidly that a standard plain jacket cannot cool it fast enough, leading to \"thermal runaway.\" • Expected Outcome: Students perform a heat-load balance and select the Limpet Coil or Channel Jacket for high-efficiency cooling. Activity 2: Design Numericals on Heat Exchanger system • Task: Solve numericals on heat exchanger design • Real life problem addressed: Solve problems on Heat exchanger • Expected Outcome: Students will develop problem solving ability.",
+          "hours": null
+        },
+        {
+          "title": "Design of Distillation Column",
+          "topics": "Activity 1: McCabe- Thiele Analysis Vs Plate Efficiency • Task: Use the McCabe-Thiele method to determine the number of ideal stages. Then, apply Murphree Plate Efficiency to calculate the actual number of plates required. • Real life problem addressed: A pilot-scale ethanol-water column is producing lower purity than predicted by theoretical stages. • Expected Outcome: Students will understand stepwise method to solve distillation problems using MsCabe Thiele Activity 2: MATLAB-SIMULINK: Dynamic Response • Task: Build a Simulink model using ordinary differential equations (ODEs) for a 5-stage column. Simulate a Step Change in feed temperature. • Real life problem addressed: Predicting how a column reacts to a sudden \"slug\" of cold feed. • Expected Outcome: Students can visualise Visualizing the time-lag in concentration changes across different plates. Activity 3: Case study on Key Distillation Design Parameters • Task: Design a distillation column for a specific industrial case study • Real life problem addressed: Selection of suitable distillation design parameters • Expected Outcome: Students will gain knowledge on design of simple distillation set-ups understanding the key ...",
+          "hours": null
+        },
+        {
+          "title": "Engineering Aspects of Scale up of Bioreactors",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-363-A-BIO",
+      "title": "Biotherapeutics Technology Lab",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        98,
+        99
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-363-B-BIO",
+      "title": "Food Biotechnology Lab",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        100,
+        101
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363-C-BIO",
+      "title": "Bioprocess Equipment Design Lab",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        102,
+        103
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-BIO",
+      "title": "Analytical Techniques",
+      "semester": 6,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        104,
+        106
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Basic principles of analytical techniques, Summary of experimental methods available for analysis, Introduction to modern approaches in Bioanalysis and Bioassays, Experimental Studies, Experimental Errors, Statistical Parameters for Validation of an Experiment, Types of errors, accuracy and precision, measures of dispersion and central tendency, General principles of biological sample preparation for various analytical techniques Mapping of Course Outcomes for Unit I CO1: Understand basic principles of Analytical Techniques and importance of sample preparation for the Analytical processes",
+          "hours": 3
+        },
+        {
+          "title": "Chromatography",
+          "topics": "Introduction, principles- distribution coefficient, RF value Types of chromatographs a) Thin layer, HPTLC, paper chromatography b) Column chromatography – gel filtration, ion -exchange, affinity chromatography, c) adsorption chromatography, Applications in biotechnology. Mapping of Course Outcomes for Unit II CO2: Learn chromatography separation technique to determine the components of a mixture for qualitative & quantitative analysis of sample.",
+          "hours": 3
+        },
+        {
+          "title": "Electrophoresis & Visualization",
+          "topics": "Introduction, Theory, working principles, instrumentation and applications of gel electrophoresis, capillary electrophoresis, supporting matrices. Electrophoresis of proteins - SDS PAGE, native PAGE, Nucleic acids – Agarose, Pulse field gel electrophoresis.& Staining Mapping of Course Outcomes for Unit III CO3: Acquire skills in state-of-art electrophoresis laboratory method for separation and analysis of macromolecules in biological samples",
+          "hours": 3
+        },
+        {
+          "title": "Spectroscopy-I",
+          "topics": "Introduction, Beer -Lambert’s law, Instrumentation, Principle and applications of UV -visible spectroscopy (chromophores in proteins), instrumentation (spectrophotometer and colorimeter), study of molecular extinction coefficient, Spectrofluorometry – Principle, Energy Diagram, Instrumentation, Applications, Case studies, Quantitative Spectrophotometric analysis. Mapping of Course Outcomes for Unit IV CO4: Learn spectroscopy technology to detect, determine, or quantify the molecular and/or structural composition of a sample.",
+          "hours": 3
+        },
+        {
+          "title": "Spectroscopy-II",
+          "topics": "Mass Spectrometry : Introduction of theory, ionization methods, molecule fragmentation, NMR Spectroscopy: Introduction of theory, 1H and 13C NMR, Spin -Spin Coupling, Infrared Spectroscopy: Steady -state and time- resolved Infrared spectroscopy: from overview to potential applications Mapping of Course Outcomes for Unit V CO5: Learn advanced spectroscopy techniques and their applications Learning Resources",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VSEC-372 BIO",
+      "title": "Solar Technology & Maintenance",
+      "semester": 6,
+      "type": "VSEC",
+      "credits": 1,
+      "pages": [
+        107,
+        108
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-381-BIO",
+      "title": "Internship OJT",
+      "semester": 6,
+      "type": "ELC",
+      "credits": 4,
+      "pages": [
+        109,
+        111
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

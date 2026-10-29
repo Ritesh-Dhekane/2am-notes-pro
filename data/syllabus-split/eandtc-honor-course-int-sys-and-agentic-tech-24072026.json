@@ -1,0 +1,222 @@
+{
+  "id": "eandtc-honor-course-int-sys-and-agentic-tech-24072026",
+  "kind": "programme",
+  "programme": "Honor Course in Intelligent Systems & Agentic Technologies",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HIA 301ETC",
+      "title": "Foundations of Generative and Applied AI",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        12
+      ],
+      "units": [
+        {
+          "title": "LLMs & Foundation Models",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Prompt Engineering & RAG",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Vector Databases & Embedding",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Multimodal AI (Vision, Audio, Text)",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "AI APIs & Integration Patterns",
+          "topics": "ingbook.org) — Chapters on RNNs and Attention. 6. https://aikosh.indiaai.gov.in/static/Deep+Learning+Ian+Goodfellow.pdf 7. Lewis, P. et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. NeurIPS. arXiv:2005.11401 (Original RAG paper) https://arxiv.org/abs/2005.11401 , , zOnline Documentation r 1. OpenAI Platform Docs: platform.openai.com/docs 2. Anthropic Claude Docs: docs.anthropic.com 3. Google Gemini API: ai. google.dev/docs 4. Hugging Face Docs: huggingface.co/docs 5. LangChain Documentation: python.langchain.com/docs 6. LlamaIndex Docs: docs.llamaindex.ai 7. Pinecone Docs: docs.pinecone.io 8. Weaviate Docs: weaviate.io/developers/weaviate , , zFree Lectures r • DeepLearning.AI Short Courses: deeplearning.ai/short-courses — over 30 free AI application courses • Hugging Face NLP Course: huggingface.co/learn/nlp-course/chapter1/1 • fast.ai Practical Deep Learning: course.fast.ai • Full Stack LLM Bootcamp (recordings): fullstackdeeplearning.com/llm-bootcamp • Andrej Karpathy – Let’s build GPT (YouTube): youtube.com/@AndrejKarpathy • Stanford CS224N – NLP with Deep Learning: web.stanford.edu/class/cs224n Research and Staying Current: z r 1. Arxiv Sanit...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HIA 302ETC",
+      "title": "Intelligent System Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        13,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "HIA 351ETC",
+      "title": "Agentic AI",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Agent Architectures & Reasoning",
+          "topics": "Course Objectives: The course aims to: 1. Explain and differentiate the key architectural patterns of AI agents reactive, deliberative, BDI (Belief-Desire-Intention), and hybrid and justify design choices for real-world deployment contexts. 2. Apply the ReAct (Reasoning + Acting) and Plan-and-Execute frameworks to implement agentic loops that interleave thought, tool invocation, and observation to solve multi-step problems. 3. Design and implement tool use systems using function calling / tool-use APIs (OpenAI, Anthropic Claude, Gemini) including schema design, parallel tool execution, and error recovery. 4. Build comprehensive agent memory architectures incorporating in-context, external (vector), episodic, and procedural memory for long-horizon task execution. 5. Evaluate planning strategies including STRIPS-style classical planning, LLM-based task decompo- sition, and hierarchical planning, selecting appropriate strategies for given problem constraints. 6. Engineer multi-agent systems with role specialisation, communication protocols, consensus mech- anisms, and supervision hierarchies using AutoGen, CrewAI, and LangGraph multi-actor patterns. Course Outcomes: Upon successful...",
+          "hours": 9
+        },
+        {
+          "title": "Tool Use & Function Calling",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Memory Systems (Short & Long Term)",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Planning & ReAct Frameworks",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Multi-Agent Collaboration",
+          "topics": "Face. https://arxiv.org/abs/2303.17580 7. Wei, J. et al. (2022). Chain-of-Thought Prompting Elicits Reasoning in LLMs. NeurIPS. https://arxiv.org/ 8. Yao, S. et al. (2023). Tree of Thoughts: Deliberate Problem Solving with LLMs. https://arxiv.org/abs/23 9. Zhou, A. et al. (2023). Language Agent Tree Search (LATS). https://arxiv.org/abs/2310.04406 , , zOfficial Documents r 1. LangChain / LangGraph Docs: python.langchain.com/docs | langchain-ai.github.io/langgrap 2. AutoGen Documentation: microsoft.github.io/autogen 3. CrewAI Documentation: docs.crewai.com 4. Semantic Kernel Docs: learn.microsoft.com/semantic-kernel 5. OpenAI Assistants & Function Calling: platform.openai.com/docs/guides/assistants 6. Anthropic Tool Use: docs.anthropic.com/en/docs/build-with-claude/tool-use 7. Mem0 (Agent Memory): docs.mem0.ai 8. Model Context Protocol (MCP): modelcontextprotocol.io/docs , , zFree Courses & Lecture Series r 1. DeepLearning.AI Short Courses (Agents): deeplearning.ai/short-courses — 8+ dedicated agentic AI courses 2. Hugging Face Agents Course: huggingface.co/learn/agents-course — comprehensive agent cur-riculum 3. LangChain Academy: academy.langchain.com — structured LangGraph and ...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HIA 352ETC",
+      "title": "Agentic AI Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "HIA 401ETC",
+      "title": "Agentic AI Orchestration",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Pipeline Design & DAGs",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Lang Graph & Orchestration Frameworks",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Human-in-the-Loop Systems",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Monitoring, Logging & Observability",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Scalable Deployment Patterns",
+          "topics": "3. Sculley, D. et al. (2015). Hidden Technical Debt in Machine Learning Systems. NeurIPS. Semi nal paper on ML system complexity and pipeline anti-patterns.https://proceedings.neurips.cc/paper_file eba-Paper.pdf 4. Varghese, B. & Buyya, R. (2018). Next Generation Cloud Computing: New Trends and Re- search Challenges. Future Generation Computer Systems.Cloud-native deployment patterns. https://dl.acm.org/doi/10.1016/j.future.2017.09.020 5. Chen, L. & Zaharia, M. et al. (2023). From Large Language Models to Large Language Model Applications. arXiv:2305.18356 — LLM application architecture and deployment. https://www.mdpi.com/ 3417/14/12/5068 , , zOfficial Documentations r 1. Apache Airflow Docs: airflow.apache.org/docs — complete operator reference, DAG authoring, deployment 2. Prefect Docs: docs.prefect.io — flows, tasks, deployments, Prefect Cloud 3. Lang Graph Docs: langchain-ai.github.io/langgraph — graphs, nodes, checkpointing, streaming, HITL 4. Lang Smith Docs: docs.smith.langchain.com — tracing, evaluation, datasets, prompt versioning 5. Prometheus Docs: prometheus.io/docs — metrics, PromQL, alerting rules 6. Grafana Docs: grafana.com/docs/grafana — dashboards, data source...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HIA 402ETC",
+      "title": "Agentic AI Orchestration Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        23,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "HIA 451 ETC",
+      "title": "AI Product Engineering",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        25,
+        28
+      ],
+      "units": [
+        {
+          "title": "Product Ideation & AI Scoping",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Rapid Prototyping with AI Tools",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Evaluation & Benchmarking",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "AI Safety, Ethics & Responsible Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Capstone — End-to-End AI Product Build",
+          "topics": "2. https://arxiv.org/abs/2005.14165 3. Mitchell, M. et al. (2019). Model Cards for Model Reporting. FAccT 2019. arXiv:1810.03993 Definitive reference for responsible AI documentation. https://arxiv.org/abs/1810.03993 4. Gebru, T. et al. (2018). Datasheets for Datasets. arXiv:1803.09010 Standard for documenting training data provenance and limitations. https://arxiv.org/abs/1803.09010 5. Es, S. et al. (2023). RAGAs: Automated Evaluation of Retrieval Augmented Generation. arXiv: 2309.152 Core reference for RAG evaluation methodology. https://arxiv.org/abs/2309.15217 6. Weidinger, L. et al. (2021). Ethical and Social Risks of Harm from Language Models. arXiv: 2112.04359 DeepMind’s taxonomy of LLM risks; essential for safety unit. https://arxiv.org/pdf/2112.04359 7. Bowman, S. et al. (2022). Measuring Progress on Scalable Oversight for Large Language Models. arXiv:2211.03503540 On alignment and evaluation challenges. https://arxiv.org/abs/2211.03540 , , Rapid Prototyping & Development Tools z r 1. Streamlit Documentation: docs.streamlit.io — complete reference for building AI web apps 2. Gradio Documentation: gradio.app/guides — Blocks API, streaming, sharing 3. v0.dev (Vercel AI UI...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HIA 452 ETC",
+      "title": "AI Product Engineering Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        29,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "HIA 453 ETC",
+      "title": "Honors Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        30,
+        30
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,662 @@
+{
+  "id": "me-electrical-power-electronics-and-drives-2025-pattern-30092025",
+  "kind": "programme",
+  "programme": "M.E. ELECTRICAL (Power Electronics and Drives)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-PED",
+      "title": "Linear Systems Theory & Design",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        12,
+        12
+      ],
+      "units": [
+        {
+          "title": "Vectors",
+          "topics": "Vector algebra, Geometry of vector, Dot and cross product of vectors, Orthogonal vectors, Linear Dependence and independence, Spanning sets and dimensions, Linear transformations.",
+          "hours": 10
+        },
+        {
+          "title": "Matrix Algebra",
+          "topics": "Basic definitions and rules of matrices, Special matrices, Eigen values and Eigen vectors, Diagonalization of matrices, orthogonal symmetrical matrices, Skew matrices.",
+          "hours": 10
+        },
+        {
+          "title": "Statistical Data Analysis",
+          "topics": "Types of measured quantity- discrete & continuous distributed quantities, Histogram, Central tendency of data, Median and mean value of data, Measures of dispersion, Standard deviation.",
+          "hours": 10
+        },
+        {
+          "title": "Normal Distribution",
+          "topics": "Gaussian distribution and its properties, Area under normal distribution, Standardized normal distribution, Central limit theorem, significant test, Chi-square test.",
+          "hours": 10
+        },
+        {
+          "title": "Graphical Representation of data",
+          "topics": "Equation of approximate curves, Determination of parameters in linear relationships: Graphical method, method of sequential differences, Method of extended differences, method of least squares",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-PED",
+      "title": "Modelling and Analysis of Electrical Machines",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Generalized Machine Theory",
+          "topics": "Elements of generalized circuit theory, basic electrical machine, conventions used, Kron’s primitive machine, leakage flux in machines with more than two windings, voltage equations, matrix form, torque equations, power in AC circuits.",
+          "hours": 10
+        },
+        {
+          "title": "Linear Transformations in Machines",
+          "topics": "Linear Transformations in machines: Power invariance, transformations from displaced brush axis, transformations from 3 -phase to 2 -phase, transformation from rotating axes to stationary axes, Transformed impendence matrix.",
+          "hours": 10
+        },
+        {
+          "title": "Modeling of DC Machine",
+          "topics": "Separately excited DC motor-steady state and transient state analysis, sudden application of inertia load, transfer function of separately excited DC motor, mathematical model of dc series motor, shunt motor.",
+          "hours": 10
+        },
+        {
+          "title": "Modelling of three phase Induction machine",
+          "topics": "Generalized model in arbitrary frame, Voltage, torque equations, Induction motor models-stator reference frame model, rotor reference frame model, synchronously rotating reference frame model, equations in flux linkages, per unit model, dynamic simulation.",
+          "hours": 10
+        },
+        {
+          "title": "Modelling of Synchronous Machines",
+          "topics": "Introduction, voltage equations and torque equation in machine variables, stator voltage equations in arbitrary Page |14 and rotor reference frame variables, Park’s equations, rotor angle, per unit system, analysis of steady state operation.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-PED",
+      "title": "Power Converters-I",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "SOLID STATE DEVICES",
+          "topics": "Power semiconductor devices: SCR -MOSFET– IGBT – Integrated Gate-Commutated thyristor (IGCTs) – MOS-controlled thyristors (MCTs): Characteristics, Features, ratings, applications and comparison of their features, Introduction to SiC (Silicon Carbide) and G aN (Gallium Nitride) devices – advantages over traditional silicon devices.",
+          "hours": 10
+        },
+        {
+          "title": "AC - DC CONVERTERS",
+          "topics": "1-phase and 3-phase Full controlled bridge converters with RLE loads- continuous and discontinuous modes of operation, freewheeling diodes, Effect of source inductance on commutation, Harmonic analysis of source current, twelve pulse converters, Power Factor Correction (PFC) Techniques in controlled rectifiers.",
+          "hours": 10
+        },
+        {
+          "title": "DC - DC CONVERTERS",
+          "topics": "Buck, boost, buck -boost and Cuk converter topologies - continuous and discontinuous modes of operation, Filter circuits, Multilevel Boost converters, Isolated DC-DC Converters: Flyback, Forward, Push -Pull, and Full-Bridge topologies for applications requiring galvanic isolation.",
+          "hours": 10
+        },
+        {
+          "title": "DC -AC CONVERTERS",
+          "topics": "General topology of 1-phase and 3-phase voltage source Inverters1200 and 1800 mode of operation, Voltage Control Techniques, Current source inverters, Selection of switching frequency & switching device.",
+          "hours": 10
+        },
+        {
+          "title": "AC-AC CONVERTERS",
+          "topics": "AC-AC CONVERTERS –I (VOLTAGE CONTROLLERS) Single phase AC voltage controllers with RLE loads, AC voltage controllers with PWM Control, Three Phase AC Voltage Controllers with star and delta Page |16 Connected RLE loads. AC-AC CONVERTERS –II (CYCLO -CONVERTERS) Single phase to single phase cyclo -converters: analysis of midpoint and bridge Configurations, three phase to three phase cyclo -converters: Analysis of Midpoint and bridge configurations.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-PED",
+      "title": "Special Applications of Power Electronics",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "MTDC system and HVDC light",
+          "topics": "Multi terminal HVDC system and HVDC light, configuration and types. Introduction to VSC transmission, power transfer characteristics, structure of VSC link. HVDC light technology",
+          "hours": 10
+        },
+        {
+          "title": "Internet of things",
+          "topics": "Introduction to Internet of Things (Why? How? and Where?), Role of IoT in smart grid and its application for smart grid power transmission. Sensors and actuators used for signal acquisition and control eg. Smart Metering, power electronics in signal conditioning required for Interfacing sensors to open source hardware.",
+          "hours": 10
+        },
+        {
+          "title": "Communication infrastructure for Smart City",
+          "topics": "Concept and Objectives of smart city, Two -way Digital Communications Paradigm, infrastructures Modern communication networks like Zigbee, Bluetooth, HAN, WLAN , WIMaxetc, Automotive Applications, smart home, smart building, Concept of Cyber security and cloud computing",
+          "hours": 10
+        },
+        {
+          "title": "Smart grid applications",
+          "topics": "Concept of Smart Grid, Definitions, Need of Smart Grid, Functions of Smart Grid, Micro Grids, Distributed Energy Resources and their interconnection with a hosting grid, integration and interconnection issues and challenges. Wide Area Measurement System (WAMS), Phase Measurement Unit (PMU), (PMU), application of PMU for wide area monitoring Protection and control (WAMPAC).",
+          "hours": 10
+        },
+        {
+          "title": "Utility Applications",
+          "topics": "Switched Mode Power Supplies, UPS and Battery charging system, applications of Power Electronics in Heating & Welding, Illumination application, Electronic Ballast, AC-DC electric locomotives systems, Hybrid vehicle system Page |18",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-PED",
+      "title": "Laboratory Practice-I",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A-PED",
+      "title": "DSP and its Applications",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Discrete Signals and systems",
+          "topics": "Sampling of continuous time signals, quantization, aliasing, Sampling Theorem, Elementary discrete-time signals, classification, sequence operations, Discrete -time systems, and Classification, impulse response, linear convolution and its properties, Z transform: basics, properties, inverse Z transform using power series and partial fraction.",
+          "hours": 8
+        },
+        {
+          "title": "Frequency response of discrete time systems",
+          "topics": "Discrete-time systems described by difference equations, Analysis of LTI discrete systems using z transform, frequency response of first order and second order systems, transfer function, steady state and transient response.",
+          "hours": 8
+        },
+        {
+          "title": "Frequency analysis of discrete time signals",
+          "topics": "The Fourier series for discrete-Time periodic signals (only concept), The Fourier transform of discrete-time a periodic signal (only concept), Discrete Fourier Transform, Properties: periodicity, linearity, and symmetry properties, Circular convolution, Linear convolution using circular convolution, Fast Fourier Transform: Radix 2 DIT and DIF algorithms.",
+          "hours": 8
+        },
+        {
+          "title": "IIR and FIR filters",
+          "topics": "Advantages and disadvantages of digital filter over analog filters, classification of digital filters: FIR and IIR, Comparison between FIR and IIR filters, design of IIR filters from analog filters using bilinear transformation, Realization of IIR filters: direct form I, direct form II, cascade and parallel., Symmetric and anti -symmetric FIR filters, design of linear phase FIR filters using windows method (Rectangular and Hamming Window only), Realization of FIR filters by direct form, cascade form and parallel form.",
+          "hours": 8
+        },
+        {
+          "title": "Applications of DSP",
+          "topics": "Application of DSP in rotating Electric Machines - speed control and condition Monitoring, Application of DSP in transmission line protection, Transformer protection. Harmonic analysis.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B-PED",
+      "title": "Energy Management and Power Quality",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Electric motors",
+          "topics": "Energy efficient controls and starting efficiency-Motor Efficiency and Load Analysis- Energy efficient /high efficient Motors-Case study; Load Matching and selection of motors. Variable speed drives; Pumps and Fans- Efficient Control strategies- Optimal selection and sizing –Optimal operation and Storage; Case study.",
+          "hours": 8
+        },
+        {
+          "title": "Grounding",
+          "topics": "Grounding definitions as per IEEE. Typical Earthing System , Reasons for Grounding. Grounding Problems. Solutions to Wiring and Grounding Problems. Grounding aspects in power electronics circuits.",
+          "hours": 8
+        },
+        {
+          "title": "Power Quality and Transients",
+          "topics": "Introduction to Power Quality, types of power quality disturbances, Causes and effects of power quality disturbances, Voltage sags and interruptions, Sources of transient over voltages, overvoltage protection systems, Ferro resonance management, tools for transient analysis. Causes of harmonics generation, harmonic indices, harmonic sources, effect of harmonic distortion, inter harmonics.",
+          "hours": 8
+        },
+        {
+          "title": "Harmonics",
+          "topics": "Harmonic distortion evaluation, controlling harmonic distortion, harmonic filter design case study, voltage regulation devices, voltage flicker, Power quality benchmarking, voltage variation indices, power quality state estimations.",
+          "hours": 8
+        },
+        {
+          "title": "Power Quality Monitoring",
+          "topics": "Monitoring considerations, Power quality measuring equipment, application of intelligent systems, power quality monitoring standards.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-522A-PED",
+      "title": "Elective Lab-I, DSP and its Applications",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 1,
+      "pages": [
+        25,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-522B-PED",
+      "title": "Elective Lab-I: Energy Management and Power Quality",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 1,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-PED",
+      "title": "AC and DC Drives",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Review of Electric drive",
+          "topics": "Fundamentals, four quadrants operation of electric drives, types of industrial loads and matching of drive characteristics, motor duty, heating and cooling, review of converters topologies of motor drives.",
+          "hours": 10
+        },
+        {
+          "title": "Converter fed DC Drives",
+          "topics": "Analysis of series and separately excited DC motor with single phase and three phase converters operating in different modes and configurations - Evaluation of performance parameters, calculation of harmonic torque pulsation.",
+          "hours": 10
+        },
+        {
+          "title": "Chopper fed DC Drives",
+          "topics": "Steady state analysis of series and separately excited DC motor with choppers operating in different quadrants - Evaluation of performance parameters, calculation of pulsating torque. Brushless DC motor and stepper motor control strategies, torque generation and performance characteristics.",
+          "hours": 10
+        },
+        {
+          "title": "Inverter fed AC Drives",
+          "topics": "Static frequency changes. VSI driven Induction motor, Torque Pulsations and drive performance. Steady state evaluation of six steps CSI fed drive system. Static Kramer’s drive - phasor diagram, AC equivalent circuit, torque expression, harmonics and speed control of Kramer drive.",
+          "hours": 10
+        },
+        {
+          "title": "Vector Controlled Induction Motor Drives and PMDC motor",
+          "topics": "Principle of field-oriented control and DC motor analogy, Direct vector control: flux vector estimation. Indirect vector control. Sensor less vector control: speed vector estimation, PMDC motor drives, control Page |30 strategies, torque generation and performance characteristics.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-PED",
+      "title": "Power Converters-II",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "PWM Inverters",
+          "topics": "Voltage Control of single phase and three phase Inverter: Sinusoidal Pulse Width Modulation, Modified SPWM, Phase displacement control, Space Vector PWM, Comparison of PWM Techniques",
+          "hours": 10
+        },
+        {
+          "title": "Multilevel Inverters",
+          "topics": "Introduction, Concept of Multilevel, Types of Multilevel inverter: Diode Clamped, Cascaded, Flying Capacitor. Application of Multilevel inverter",
+          "hours": 10
+        },
+        {
+          "title": "Resonant Converters",
+          "topics": "Concept of basic resonant circuit, Classification and Analysis of ZVS and ZCS, Advantages, Applications. Snubber circuit: Need of Snubber circuit, Types of Snubber circuits: Turn -On snubber Turn-Off snubber and over voltage Snubber",
+          "hours": 10
+        },
+        {
+          "title": "Switch Mode Power Supply",
+          "topics": "Introduction, Linear power supplies, Overview of Switching power supplies, DC-DC Converters with electrical isolation, Control of Switch mode power supplies, Power supply protection. Design of SMPS",
+          "hours": 10
+        },
+        {
+          "title": "Thermal Design",
+          "topics": "Thermal modelling of power switching devices, Electrical equivalent thermal model, Heat sink design, Selection of Heat Sink, Magnetic design: Specific inductor design and procedure",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-PED",
+      "title": "Advanced Control System",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Classical and Modern Control",
+          "topics": "PID Control, Tuning methods (Ziegler Nichols, Cohen Coon), State space method, analysis and design, of control systems in state space, pole placement (3 methods) Luenberger observer, Design of control system with Luenberger observer Introduction to optimal control problems, design of control system with LQR controller.",
+          "hours": 10
+        },
+        {
+          "title": "Sliding Mode Control and State Mode Observer",
+          "topics": "A. Concept of Sliding mode Control, chattering, chattering attenuation, concept of equivalent control, sliding mode equation, sliding surface design, regular form. B. Sliding Mode Observers: mathematical model of observer, procedure for gain selection, error analysis, application to real life system and stability, advantages and limitations. C. Nonlinear Extended State Observer: mathematical model of observer, nonlinear gain selection, Linear ESO, error analysis, application to real life system and stability, advantages and limitations.",
+          "hours": 10
+        },
+        {
+          "title": "Application of Sliding Mode Control to Power Converters",
+          "topics": "DC/DC Converters, Direct sliding mode control, Buck -type DC/DC converter, Boost type DC/DC converter, Observer-based control: Observer based control of Buck converters, Observer -based control of boost converters.",
+          "hours": 10
+        },
+        {
+          "title": "Stabililty Analysis of Non-linear Control System",
+          "topics": "Nonlinear systems and equilibrium points, Linearization and local stability, Lyapunov stability criterion, Methods of constructing Lyapunov’s functions for Nonlinear systems: Krasovskii,Variable gradient Method.",
+          "hours": 10
+        },
+        {
+          "title": "Design of Nonlinear Control System",
+          "topics": "Feedback linearization, Input-Output Linearization: Generating a linear Input -Output relation, Normal Form, Zero dynamics, Input-State Linearization",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-PED",
+      "title": "Laboratory Practice-II",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-561-A-PED",
+      "title": "Electric Vehicles",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Electric Vehicle Technology",
+          "topics": "Need and importance of Electric Vehicle and Hybrid Electric Vehicles, Environmental importance of Hybrid and Electric vehicles. Hybrid Electric vehicles: Concept and architecture of HEV drive train (Series, parallel and series-parallel). Micro Hybrid, Mild Hybrid, Full Hybrid, Plug-in Hybrid, Electric vehicles: Components, configuration, performance, tractive effort, Advantages and challenges in EV.",
+          "hours": 8
+        },
+        {
+          "title": "Energy Storage and Power Electronics in Electric Vehicles",
+          "topics": "Introduction to Energy Storage Requirements in Hybrid and Electric Vehicles, Battery specifications, Battery based energy storage and its analysis, Classification of lithium-ion batteries, Aluminum Air and Aluminum ion battery. Fuel Cell based energy storage, Super Capacitor based energy storage, Hybridization of Ultracapacitor and Battery. Selection methodology for the energy storage.",
+          "hours": 8
+        },
+        {
+          "title": "Energy Storage and Power Electronics in Electric Vehicles",
+          "topics": "and Charging Infrastructure 08 Hours Introduction: Different Charging algorithms and Charging method, Cell Balancing methods. Battery Management System: Functions of BMS, Block diagram of BMS. SoC Estimation methods, Thermal Management of Battery. Charging Standards: CCS, CHAdeMO, SAE J1772, IEC 60309, Bharat DC 001, Bharat AC 001, Electric Vehicle Supply Equipment (EVSE).",
+          "hours": null
+        },
+        {
+          "title": "Hybrid Power Train and mode of operation",
+          "topics": "Control Strategies and Design of the Major Components: Series and Parallel Hybrid Electric Drive Train. Energy Consumption in Braking, Braking Power and Energy on Front and Rear Wheels, Brake System of EVs and HEVs, Regenerative braking. Page |38",
+          "hours": 8
+        },
+        {
+          "title": "Drives and Vehicle to Home, Vehicle to Vehicle and Vehicle to",
+          "topics": "Grid 08 Hours Selection of drives for Electric vehicle: PMSM drive and BLDC drive, Sizing of motor, Vehicle to Home: Introduction, applications, V2H with demand response, Case Study of V2H. Vehicle to Grid: Introduction of V2G, V2G infrastructure in the smart grid, Role of aggregator for V2G, Case study of V2G, Vehicle to Vehicle: Introduction of V2V, Concept & structure.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-561-B-PED",
+      "title": "FACTS",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "FACTS Concept",
+          "topics": "Steady state and dynamic problems in AC systems, Transmission interconnections, Flow of power in an AC system, Loading capability, Power flow and dynamic stability considerations of a transmission interconnection, Relative importance of controllable parame ters, Basic types of FACTS controllers -brief description and definitions, Fundamentals of Voltage -Sourced Converters and Current -Sourced Converters, Benefits from FACTS technology.",
+          "hours": 8
+        },
+        {
+          "title": "Static Shunt and Series Compensator",
+          "topics": "Objectives of shunt and series compensation, Methods of controllable Var generation- Variable impedance type static Var generators - TCR, TSC, FC -TCR, Switching converter type Shunt Var generators - STATCOM.Variable impedance type series Compensation- TCSC, Basic operating control schemes for TCSC, Switching converter type series compensators - SSSC, Transmitted power versus tr ansmission angle characteristic.",
+          "hours": 8
+        },
+        {
+          "title": "Static Voltage and Phase angle regulator",
+          "topics": "Objectives of voltage and phase angle regulators, Approaches to TCVR and TCPAR, Switching converter based voltage and phase angle regulators",
+          "hours": 8
+        },
+        {
+          "title": "UPFC and IPFC",
+          "topics": "UPFC – Basic operating principles, Conventional transmission control capabilities, Independent real and reactive power flow control IPFC –Basic operating principles and characteristic, Control structure.",
+          "hours": 8
+        },
+        {
+          "title": "Special purpose FACTS Controller",
+          "topics": "Compensating single phase loads using DSTATCOM, Series compensation of power distribution system using DVR, Rectifier supported DVR, DC Capacitor supported DVR(Fundamental Frequency series compensator characteristic), Thyristor-Controlled Braking Resistor",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562-A-PED",
+      "title": "Artificial Intelligence Based Electric Drives",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Electrical drive",
+          "topics": "Basics of drive and system and control strategies. Closed loop control of dc drives. AC drives: vector drives, direct torque-controlled drives, reluctance motor drives. Past, present, and future of electrical machines and variable-speed drives.",
+          "hours": 8
+        },
+        {
+          "title": "Artificial neural networks",
+          "topics": "ANN fundamentals: Biological neuron model, artificial neuron model, Static and dynamic artificial neuron models .ANN networks: Adaptive function estimators, weights, Inputs and bias. Activation functions.Single - layer ANN, Multi-layer ANN, Radial basis function neural network. Various ANNs and training strategies for different applications, Application of the error b ack propagation algorithm, Nodes, layers. Back propagation training and learning.",
+          "hours": 8
+        },
+        {
+          "title": "Fuzzy logic systems",
+          "topics": "Basics of fuzzy logic system: Classical (crisp) set, characteristic function, Fuzzy set, membership function. Fuzzy set operations: Membership function, various membership functions, parameter sets, fuzzy rules and conventional fuzzy set operations. Fuzzy inference systems (fuzzy logic controllers).",
+          "hours": 8
+        },
+        {
+          "title": "Genetic algorithms",
+          "topics": "Potential applications of Genetic algorithms. Genetic algorithm steps, tuning of membership functions using genetic algorithms. Application of genetic algorithms to neural networks, Tuning of controllers using genetic algorithms.",
+          "hours": 8
+        },
+        {
+          "title": "Artificial-intelligence-based Induction motor drive",
+          "topics": "ANNs for a slip-ring induction machine: Speed estimation, Stator flux linkage estimation and torque estimation. ANNs for a squirrel -cage induction machine: Speed and position estimation, Simultaneous speed, torque and flux estimation. Fuzzy-neural-network-based steady-state and transient analysis of induction machines. Design and simulation of fuzzy-neural based induction motor drive.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562-B-PED",
+      "title": "Wind And Solar Systems",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Wind Energy Fundamentals",
+          "topics": "Wind Energy Basics, Wind Speeds and scales, Terrain, Roughness, Wind Mechanics, Power Content, Atmospheric Boundary Layers, and Turbulence. Wind turbine types- Vertical Axis Type, Horizontal Axis.",
+          "hours": 8
+        },
+        {
+          "title": "Wind Turbine Technology & Components",
+          "topics": "Constant Speed Constant Frequency, Variable speed Variable Frequency, Up Wind, Down Wind, Stall Control, Pitch Control, Gear Coupled Generator type, Direct Generator Drive /PMG/Rotor Excited Sync Generator. 1) Gear Coupled Generator Type [Constant Speed] 2) Direct Coupled Generator Type [Variable Speed Variable Frequency. Doubly Fed Induction Generator and Power Control",
+          "hours": 8
+        },
+        {
+          "title": "Modern Wind Turbine Control & Monitoring System",
+          "topics": "Details of Pitch System & Control Algorithms, Protections used & Safety Consideration in Wind turbines, Wind Turbine Monitoring with Error codes, SCADA & Databases: Remote Monitoring and Generation Reports, Operation & Maintenance for Product Life Cycle, Balancing technique (Rotor & Blade), FACTS control & LVRT & New trends for new Grid Codes.",
+          "hours": 8
+        },
+        {
+          "title": "Solar Cell Fundamentals and Classification Of PV",
+          "topics": "Systems 8 Hours Photovoltaic effect - Principle of direct solar energy conversion into electricity in a solar cell. Semiconductor properties, energy levels, basic equations. Solar cell, p -n junction, structure. I -V characteristics of a PV module, maximum power point, cell efficiency, fill factor, effect of irradiation and temperature. Classification - Central Power Station System, Distributed PV System, Standalone PV system, grid Interactive PV System, small system for consumer applications, hybrid solar PV system, concentrator solar photovoltaic",
+          "hours": null
+        },
+        {
+          "title": "PV Systems Components and Applications",
+          "topics": "System components - PV arrays, inverters, batteries, charge controls, net power meters. PV array installation, Page |44 operation, costs, reliability. Building -integrated photovoltaic units, grid -interacting central power stations, stand-alone devices for distributed power supply in remote and rural areas, solar cars, aircraft, space solar power satellites.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-581-PED",
+      "title": "Technical Seminar-I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        45,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-PED",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "RM",
+      "credits": 4,
+      "pages": [
+        50,
+        52
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research",
+          "topics": "Basic of Research: Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de - scribe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research : Why? Research Questions, Engineering Ethics, conclusive proof -what constitutes, A research project-Why take on? Case Study: Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects- environment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": 10
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of Review, Developing the objectives, Preparing the research design including sample Page |51 Design, Sample size. Archival Literature, why should engineers be ethical? Types of publications- Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study: Engineering dictionary, Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h-index, I-index, plagiarism, copyright infringement",
+          "hours": 10
+        },
+        {
+          "title": "Analysis of Variance and Covariance",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short -cut method for oneway ANOVA, Coding method, Two -way ANOVA, ANOVA in Latin -square design, analysis of co-variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": 10
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond google, impact factor, H-Index. IPR: What is IPR? The importance of patents, types of IPR, and process of patent.",
+          "hours": 10
+        },
+        {
+          "title": "Outcome of Research and Research Presentation",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-PED",
+      "title": "On Job Training/ Internship",
+      "semester": 3,
+      "type": "OJT/ Internship",
+      "credits": 5,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-PED",
+      "title": "Seminar-II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        55,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-PED",
+      "title": "Research Project - I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        59,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-PED",
+      "title": "Technical Seminar-III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        63,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-PED",
+      "title": "Research Project - II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        67,
+        68
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

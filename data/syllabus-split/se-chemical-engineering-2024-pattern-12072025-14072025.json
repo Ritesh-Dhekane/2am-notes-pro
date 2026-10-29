@@ -1,0 +1,564 @@
+{
+  "id": "se-chemical-engineering-2024-pattern-12072025-14072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (Chemical Engineering)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-CEE",
+      "title": "Fluid Mechanics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Properties of Fluids",
+          "topics": "Fluid, branches of fluid mechanics, properties of fluid, classification of fluids, different types of viscometers, Newton’s law of viscosity, numerical, non-Newtonian fluids, types of flow, lines to describe the flow.",
+          "hours": 7
+        },
+        {
+          "title": "Fluid Pressure and Measurement",
+          "topics": "Pascal’s law, Hydrostatic law, concept of atmospheric, gauge, vacuum and absolute pressure, manometers, and pressure measurement by simple and differential manometer, Numerical based on manometers.",
+          "hours": 8
+        },
+        {
+          "title": "Basic Equations of Fluid Flow and Flow Measuring",
+          "topics": "Devices (07 Hours) Basic equations of fluid flow: continuity equation and equation of motion, flow measurement using venturi meter, orifice meter, pitot tube, rotameter, Mass flowmeters, Numerical on different flow measuring devices.",
+          "hours": null
+        },
+        {
+          "title": "Fluid Flow through Pipelines and Dimensional Analysis",
+          "topics": "Laminar flow through circular pipe: Hagen Poiseuille equation, major and minor losses, Darcy W eisbach equation, Numerical, dimensionless numbers in fluid mechanics, dimensional homogeneity, types of similarities, model and prototype, dimensional analysis by Rayleigh’s method and Buckingham’s method.",
+          "hours": 8
+        },
+        {
+          "title": "Boundary Layer and Fluid Transportation",
+          "topics": "Concept of hydrodynamic boundary layer, growth over a flat plate, different thickness of boundary layer, numerical based on boundary layer, types of fluidization, different types of valves and pumps, centrifugal pump working and characteristics, Numerical based on centrifugal pump.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-202- CEE",
+      "title": "Process Calculations",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Mathematical Principles",
+          "topics": "Introduction to unit processes and operations and their symbols, process flow sheet, Concept of steady and unsteady state operations, Units and dimensions: basic and derived units, different ways of expressing units and quantities, conversion of units, properties of pure substances, PVT behavior, ideal and real gas laws. Mole fractions and partial pressures, application of Dalton's, Amagat's, Henry's laws, concept of vapor pressure, Raoult's law and its applications, vapor pressure plots and effect of temperature on vapor pressure.",
+          "hours": 8
+        },
+        {
+          "title": "Material Balance for Physical Systems",
+          "topics": "Concept, material balance calculations, recycling and bypassing operations, introduction to unsteady state processes with examples like batch reactor, a ccumulation of inert components, application to various unit operations etc.",
+          "hours": 8
+        },
+        {
+          "title": "Material Balance for Reacting Systems",
+          "topics": "Concept, material balance calculations, Definition of terms, chemical and electrochemical reacti ons, recycling parallel and bypassing operations",
+          "hours": 7
+        },
+        {
+          "title": "Energy Balance",
+          "topics": "Concept, energy and Thermo chemistry, energy balances, heat capacity of pure substances and mixtures, latent heats, enthalpy of pure substances and mixtures, absolute enthalpy, heat of reaction, adiabatic reactions, thermo chemistry of mixing processes, dissolution, liquid-liquid mixtures, gas-liquid systems.",
+          "hours": 8
+        },
+        {
+          "title": "Fuels and Combustion",
+          "topics": "Fuels, calorific values of fuels, coal, liquid fuels, gaseous fuels, air requirement and flue gas es, combustion calculations.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-CEE",
+      "title": "Applied Chemistry",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Volumetric Analysis",
+          "topics": "Introduction to standard solutions, primary and secondary standard substances, and methods for accurate preparation and standardization, various units of concentration, including molarity, normality, molality, parts per million (ppm), and weight/volume percent, with relevance to small- scale and industrial chemical processes. Types of titrations- neutralization (with titration curves), complexometric, redox and precipitation with examples. Theory of indicators in above titrations. Numerical on all above.",
+          "hours": 6
+        },
+        {
+          "title": "Colligative Properties",
+          "topics": "Solution: -definition, solution of gas in gas, gases in liquid, Henry's law, the ideal solution, Raoult'1s law of ideal solution, solutions of liquids in liquids, theory of dilute solution. Colligative properties, Definiti on of osmosis & osmotic pressure, Colligative properties of dilute solution- lowering of vapor pressure, elevation of boiling point and thermodynamic derivation, depression in freezing point and thermodynamic derivation. Abnormal behaviour of solutions of electrolytes, Van’t Hoff factor. Numerical on all above.",
+          "hours": 7
+        },
+        {
+          "title": "Heterocyclic compounds and Dyes",
+          "topics": "Aromaticity, preparation, reactions of pyrrole, furan, and pyridine. Dyes- Nomenclature, methods of application, color and chemical constitution (chromophoreauxochrome theory), classification of dyes on the basis of chemical structure, diazotization and coupling for azo dyes, synthesis of Sudan I, alizarin, methyl orange, phenolphthalein. Photochemical and advanced methods of dye degradation.",
+          "hours": 8
+        },
+        {
+          "title": "Transition metals and Co-ordination Chemistry",
+          "topics": "Electronic configuration of first series transition metals shapes of d- orbital characteristics (variable oxidation states, magnetic property, color of transition metal compounds). Ligands, C. N. and geometry, nomenclature of complexes, chelates. Theories of co-ordination- i) Werner ii) EAN iii) CFT (including crystal field splitting in octahedral field and tetrahedral field, CFSE for octahedral complexes, applications of CFT). Transition metal complexes, Applications in Chemical Industry. Hydroformylation using catalyst, coordination catalysts in Wacker’s process.",
+          "hours": 8
+        },
+        {
+          "title": "Instrumental methods of Analysis and Interface",
+          "topics": "Chemistry (08 Hours) Chromatography: principle, instrumentation and app lications of TLC, column, Gas Chromatography and HPLC, IR spectroscopy-introduction, instrumentation, applications, Flame photometry- principle, instrumentation and applications, Scanning Electron Microscopy (SEM)- principle, instrumentation and applications. Interface Chemistry: Adsorption, Introduction to Freundlich and Langmuir theories of adsorption, adsorption from solution, B.E.T. Theory of adsorption of gases, Application of adsorption, numerical on above.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-204- CEE",
+      "title": "Applied Chemistry-Lab",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        20,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-CEE",
+      "title": "Fluid Mechanics - Lab",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        23,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective- I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-225-CEE",
+      "title": "Engineering Mathematics III",
+      "semester": 3,
+      "type": "Multidisciplinary Minor - I",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Linear Differential Equations (LDE) and Applications",
+          "topics": "LDE of nth order with constant coefficients, Complementary Function , Particular Integral, Method of Variation of parameters, Cauchy’s and Legendre’s DE, Simultaneous DE. Applications of LDE to Chemical engineering problems.",
+          "hours": 6
+        },
+        {
+          "title": "Statistics and Probability",
+          "topics": "Measures of central tendency, Measures of dispersi on, Coefficient of variation, Moments, Skewness and Kurtosis, Correlation and Regression, Reliability of Regression estimates. Probability, Probability density function, Probability distributions: Binomial, Poisson, Normal, Test of hypothesis: Chi-square test.",
+          "hours": 6
+        },
+        {
+          "title": "Numerical Methods for Solving Algebraic and Transcendental Equations",
+          "topics": "Numerical Solution of Algebraic and Transcendental equations: Bisection, Secant, Regula-Falsi, Newton– Raphson and Successive Approximation Methods, Convergence and Stability. Numerical Solutions of System of linear equations: Gauss elimination with partial pivoting, LU Decomposition, Jacobi and Gauss-Seidel Methods.",
+          "hours": 6
+        },
+        {
+          "title": "Numerical Interpolation and Solution of ODE",
+          "topics": "Interpolation: Finite Differences, Newton’s and Lagrange’s Interpolation formulae, Numerical Differentiation. Numerical Integration: Trapezoidal and Simpson’s rules, Bound of truncation error. Solution of Ordinary differential equations (ODE): Euler’s, Modified Euler’s, Runge-Kutta 4th order methods and Predictor-Corrector methods",
+          "hours": 6
+        },
+        {
+          "title": "Laplace Transform (LT) and Applications",
+          "topics": "Laplace Transform (LT): Definition of LT, Inverse LT, Properties & theorems, LT of some special functions viz. Periodic, Unit Step, Unit Impulse, Error, Si(t) and Ei(t). Applications of LT for solving LDE, liquid level systems consisting of single tank and two tanks in series (interacting and non-interacting systems), Second order systems (Damped vibrator).",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231- CEE",
+      "title": "Industrial Economics",
+      "semester": 3,
+      "type": "Entrepreneurship/ Economics/ Management",
+      "credits": 2,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Cost Engineering",
+          "topics": "Time value of money and equivalence, interest-simple, compound and continuous, present worth and discount, annuities, perpetuities and capitalized cost methods, depreciation, nature of depreciatio n, methods of determining depreciation – Straight Line, Sum-of-the-years- digits, Sinking find, declining balance method, double declining balance method.",
+          "hours": 3
+        },
+        {
+          "title": "Cost Estimation",
+          "topics": "(03 Hours) Cash flow for industrial operations, cumulat ive cash position of cash flow for an industrial operation, capital investments, fixed capital cost, working capital cost, start- up costs, process equipment cost estimation, cost index and its types, Six-tenth factor rule.",
+          "hours": null
+        },
+        {
+          "title": "Capital Investment, Taxes and Insurances",
+          "topics": "(03 Hours) Methods of estimating capital investment, estimation of plant cost, estimation of total product cost, manufacturing cost, general expenses. Break-even chart, Break-even points- In value and points. Taxes and insurances, types of taxes and insurances, procedure for cost comparison after taxes.",
+          "hours": null
+        },
+        {
+          "title": "Project Scheduling and Profitability",
+          "topics": "(03 Hours) Role of project engineering in project organization, process engineering: Plant location, Plant Lay outs, Unit plot plans, scheduling the project; the feasibility report. Profitability: Criteria of profitability, payout period, return on investment, present value , cash flow analysis, alternative investment analysis.",
+          "hours": null
+        },
+        {
+          "title": "Networking of Projects",
+          "topics": "(03 Hours) Critical path method (CPM): events and activities; network diagramming; earliest start time and earliest finish time; latest start time an d latest finish time; float, advantage of CPM; cost to finish the projects earlier than normal cost; precedence diagramming. program evaluation and review technique (PERT): pert network and time estimates. List of Assignments (Any 5 assignments from the given list) Tutorials/Assignments Guidelines: ● Based on group of five students or the practical batch the problem values can be changed for the same numerical and assessed accordingly. ● Each student has to solve any FIVE tutorials out of the listed below ● Types of problems Problems can be based on – 1. Evaluation and comparison of Simple, compound and continuous interests values for same principal amount. 2. Estimation of present worth, annuity and discount 3. Evaluation and comparison of depreciation values by straight line, sum-of-the-years-digits, sinking fund and double declining balance methods for same principal value 4. Estimation of Equipment capacity based on six-tenth factor rule and cost index in two different years 5. Evaluation of profitability based on Payout period an",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-232- CEE",
+      "title": "Universal Human Values and Professional Ethics",
+      "semester": 3,
+      "type": "Value Education",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "Understanding Value Education, Self-exploration as the Process for Value Education, Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment, Right Understanding, Relationship and Physical Facility, Happiness and Prosperity - Current Scenario, Method to Fulfil the Basic Human Aspirations.",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in Human Being",
+          "topics": "(06 Hours) Understanding Human being as the Co-existence of the Self and the Body, d istinguishing between the Needs of the Self and the Body, The Body as an Instrument of the Self, Understanding Harmony in the Self, Harmony of the Self with the Body, Program to Ensure self-regulation and Health.",
+          "hours": null
+        },
+        {
+          "title": "Harmony in Family and Society",
+          "topics": "(06 Hours) Harmony in the Family - the Basic Unit of Human Interaction \"Trust' - the Foundational Value in Relationship, 'Respect' - as the Right Evaluation, Values in Human-to-Human Relationship, Understanding Harmony in the Society, Vision for the Universal Human Order.",
+          "hours": null
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "(06 Hours) Understanding Harmony in the Nature, Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature, Realizing Existence as Co-existence at All Levels, The Holistic Perception of Harmony in Existence.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-CEE",
+      "title": "Process Safety Education",
+      "semester": 3,
+      "type": "Community Engagement Project / Field Project",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-CEE",
+      "title": "Heat Transfer",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Conduction",
+          "topics": "Introduction, Heat Transfer and Thermodynamics, Modes of heat transfer, Heat transfer fluxes and resistances, Thermal conductivity, Fourier's law of conduction; General equation for conduction. Conduction through plane, cylindrical and spherical and composite walls, Heat losses and insulation, Critical insulation thickness, introduction to heat transfer with heat sources. Unsteady State Conduction. Fins and their importance, The concept of fin efficiency and fin effectiveness.",
+          "hours": 7
+        },
+        {
+          "title": "Convection",
+          "topics": "Heat Transfer without Phase Change : Introduction, thermal boundary layer, Natural and forced convections, film thickness, heat transfer coefficient, various resistances, Empirical equations for convection heat transfer in laminar and turbulent flow through tubes, through annulus and over a flat plate. Analogy between momentum and Heat Transfer, Dimensional Analysis. Heat Transfer with Phase Change : Introduction, importance of latent heat, Pool boiling and film boiling, concept of critical heat flux. Condensation: Modes and features, Derivation of Nusselt equation on condensate film, condensation on vertical and horizontal plates, condensation on inside and outside pipes for horizontal and vertical flows.",
+          "hours": 8
+        },
+        {
+          "title": "Radiation",
+          "topics": "Radiant energy distribution, Various laws of radiation and their derivatives, Plank’s law, Wein’s law. The Stefan-Boltzmann law for blackbody, Kirchhoff’s law, black body, grey body, emissive power Exchange of energy between two surfaces; View factors, combined heat transfer by conduction, convection and radiation, Furnace calculations.",
+          "hours": 7
+        },
+        {
+          "title": "Heat Exchange Equipment",
+          "topics": "Types of heat exchangers; Co-current and counter-current flows, fouling factors, choice of thermic fluids, Equivalent diameter; LMTD, correction factors, Temperature profiles in heat exchangers, pressure drop, Process design of heat exchangers including double pipe heat exchanger, multi-pass exchangers, shell and tube heat exchanger, Design of heat exchangers using NTU method, cross flow heat exchangers, Heat transfer equipment auxiliaries: Steam trap.",
+          "hours": 8
+        },
+        {
+          "title": "Evaporation",
+          "topics": "Introduction, solution properties, foaming, degradation due to high temperature, scaling, equipment material, types of evaporators, material and energy balance for single effect systems, boiling point elevation, capacity and economy, multiple effect evaporators. design of evaporators.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-CEE",
+      "title": "Materials and Design",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        40,
+        42
+      ],
+      "units": [
+        {
+          "title": "Engineering Materials and Corrosion",
+          "topics": "Scope of engineering materials, Classification of Engineering Materials, Physical and Mechanical properties of Metals, Selection of Materials for process equipment. Corrosion: Definition, Types of corrosion- Direct corrosion, Electro- chemical corrosion, Galvanic corrosion, High temperature corrosion, Factors affecting corrosion rate, Methods for control and prevention of corrosion. Numerical on corrosion rate.",
+          "hours": 8
+        },
+        {
+          "title": "Nanomaterials",
+          "topics": "Classification, synthesis, characterization and application of Nanomaterials – Fullerenes, Bucky balls, carbon Nano tubes, fullerenes. Nano particles – silver Nano- particles. Applications of Nano materials in Chemical Industry.",
+          "hours": 7
+        },
+        {
+          "title": "Basic Considerations in Design",
+          "topics": "Concept of Stress, Strain and Modulus of Elasticity, Factor of Safety, Stress Concentration, Lateral strain and Poisson’s Ratio, Stresses due to static and dynamic loads. Thermal stresses, Impact stresses, d istinction between process design and process equipment design (mechanical design), design codes.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Shafts, Keys and Couplings",
+          "topics": "Shafts: Types of shafts, Design of shafts under steady load, suddenly applied load and fluctuating loads, shafts subjected to combined loads, equivalent bending and twisting moments. Keys: Types of keys, stresses developed in flat keys, shear and crushing design procedure. Couplings: Types of couplings, Design of rigid flange coupling",
+          "hours": 8
+        },
+        {
+          "title": "Design of Pressure Vessels",
+          "topics": "Thin walled pressure vessels: Introduction to pressure vessels, design stress, design criteria, design of shell (spherical and cylindrical), design of different types of heads and closures Thick walled pressure vessels: Stresses in thick cylinder, types of constructions, design of high pressure vessels",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-CEE",
+      "title": "Mechanical Operations",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        43,
+        45
+      ],
+      "units": [
+        {
+          "title": "Screening and Size Reduction of Solids",
+          "topics": "Properties and characteristics of solids, performance of screening equipment / testing sieves, U.S. Standard sieve series, Tyler Standard screen series, Sieve Shaker, types of screen analysis. Necessity of size reduction, crushing efficiency, energy requirement calculations by using crushing laws, classification of size reduction equipment, study of Crushers, Grinders and Ultrafine Grinders. Dry versus wet grinding. Open circuit grinding and closed circuit grinding.",
+          "hours": 6
+        },
+        {
+          "title": "Settling and Sedimentation",
+          "topics": "Theory of particle movement through a fluid. Free settling & Hindered settling. Stokes’ law and Newton’s law of settling. Differential settling and separation of solids in Classification, Sink-and-float methods, Differential settling methods. Basic principle of Sedimentation and its applications in water purification & wastewater treatment. Batch Sedimentation Test, Kynch theory of sedimentation, determination of thickener area and depth of thickener. Study of Thickeners, Clarifiers, and Equipment for Classification: Simple gravity settling classifier. Centrifuge equipment for Sedimentation: Tubular centrifuge and Disk bowl centrifuge.",
+          "hours": 7
+        },
+        {
+          "title": "Fluidization and Beneficiation Methods",
+          "topics": "Types of fluidization, flu idized bed systems, determination of minimum fluidization velocity, flow through packed bed, applications of fluidized bed, Ergun equation, Kozeny-Carman equation . Study of Pneumatic conveying systems. Study of Flotation Cell, Magnetic Separator, Cyclone Separator, Hydro- cyclone, Electrostatic Precipitator, Scrubbers, and Applications of Bag filters in Air pollution control, and Hydraulic jigs in coal and ore industries.",
+          "hours": 6
+        },
+        {
+          "title": "Mixing and Agitation",
+          "topics": "Types of Impellers, flow patterns in un-baffled and baffled tanks, draft tube, mechanically agitated vessel, and power required for agitation of fluids. Agitator scale-up. Mixing of powders, viscous material , and pastes. Performance of mixers- determination of mixing index.",
+          "hours": 5
+        },
+        {
+          "title": "Filtration",
+          "topics": "Basic theory of filtration, filtration equations for constant- pressure filtration, constant rate filtration , and continuous filtration. Types of filtration equipment, classification o f filters. Theory and applications of Bed filters, Plate-and-frame-filter presses, Leaf filters, Continuous rotary filters. F ilter media and filter aids. Equations for washing of filter cakes. Equipment for Centrifugal filtration: Perforated rotating basket filter.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-CEE",
+      "title": "Heat Transfer – Lab",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        46,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-CEE",
+      "title": "Mechanical Operations-Lab",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        49,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective – II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-275-CEE",
+      "title": "Introduction to Data Science",
+      "semester": 4,
+      "type": "Multidisciplinary Minor - II",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Science",
+          "topics": "Types of data: structured data, unstructured data, other data types, the data science process, Exploration and visualization of data, Linear algebra for data science, Basics of python for data science and machine learning.",
+          "hours": 6
+        },
+        {
+          "title": "Statistics for Data Science",
+          "topics": "Data distributions, Measures of central tendency and variability, Probability an distribution s, Hypothesis testing, Confidence intervals, Correlation analysis, Pre- processing of data: Scaling, Normalizing, Dimensionality Reduction, Time-series analysis.",
+          "hours": 6
+        },
+        {
+          "title": "Regression and Classification",
+          "topics": "Simple Linear Regression, Multiple Linear Regression, Polynomial Regression, Logistic Regression, k- Nearest Neighbors, Naive Bayes, Decision Trees, Principal Component Analysis and Linear Discriminant Analysis for data reduction, Model assessment measures: MSE, R2, Confusion Matrix, Precision, Recall etc.",
+          "hours": 6
+        },
+        {
+          "title": "Data Science Applications for Property Modeling",
+          "topics": "Cheminformatics, Data- Driven Property Prediction, Inferential Property Estimation (Soft Sensors), Applications in material science, Big data analysis.",
+          "hours": 6
+        },
+        {
+          "title": "Data Science Applications for Dynamic Process",
+          "topics": "Process Modelling/Identification, Application to reactor modelling, Process Control, Fault Detection and Diagnosis in Chemical Processes.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSEC-281-CEE",
+      "title": "Chemical Engineering Skills",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        54,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-CEE",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        59,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-284-CEE",
+      "title": "Chemical Industry Management",
+      "semester": 4,
+      "type": "Entrepreneurship/Economics/ Management",
+      "credits": 2,
+      "pages": [
+        62,
+        65
+      ],
+      "units": [
+        {
+          "title": "Management Science and Personal Management",
+          "topics": "A. Management, its growth, concepts of administration and management of organization. Definition of management, functions, authority and responsibility. B. Personality: Physical appearance, body language, voice, communication style, content of communication, enriched communication through Sensory Specific Language. Dress codes, Guidelines for appropriate business attire. Manpower planning, sources of recruitment, selection and training of staff, job evaluation, merit rating, performance appraisal, wage administration and system of wage payment, incentive, motivations, industrial fatigue, trade unions – industrial relations. Introduction to personal selling & salesmanship: Defining personal selling and salesmanship, Selling as a profession, Objectives and importance of personal selling, Essentials of personal selling,",
+          "hours": 3
+        },
+        {
+          "title": "Purchase and Store management",
+          "topics": "Concepts of quotation, tenders and comparative statement, inspection and quality control, inventory, carrying cost and fixed cost of inventory, examples of cost of Inventory, stores management, functions of storekeeper, methods of inventory : LIFO, FIFO. Credit analysis and appraisal principles of credit management: Principles of lending –evaluation of borrower – sanction limit-principles of good lending.",
+          "hours": 3
+        },
+        {
+          "title": "Marketing Management",
+          "topics": "Concepts of selling, marketing, definition of marketing, market research and of pricing, penetration, pricing, skimming pricing, distribution of product, advertising and promotion. Introduction to product management: Product management as a basis of marketing organization structure. Role of product manager, skills required for product management. Product management in consumer product industry vs industrial product industry. Overview of product level marketing plans.",
+          "hours": 3
+        },
+        {
+          "title": "Export and Import Management",
+          "topics": "Concepts of international trade, duties, antidumping duty, cost involved in exporting a product, pricing of export product. Government aids for export promotion, export houses, export promotion counsel, MODVAT, patent and patent rights. Quality Management: TQM, quality circles, ISO syste ms. Inflation: Meaning, types of inflation, causes, effects, control of inflation, value of money, index numbers, construction, utility, limitations, business cycles, phases of business cycles.",
+          "hours": 3
+        },
+        {
+          "title": "Management Laws",
+          "topics": "Concepts of contract act, offer, and acceptance, types of contracts, void contract, concept of guarantee and warranty. Introduction of MRTP and FERA. Work study: Work measurement, motion and time study flow process chart, flow diagram, silo chart, string chart, therbligs. Patent law: Patent cooperation treaty, patent act 1970, procedure for filing patent applications, patent granting procedures, revocation. List of Assignments (Any 8 Assignments from the given list) 1) Study of marketing strategy analysis 2) Preparation of comparative statement for Inventory 3) Study of ISO systems 4) Study of total quality management 5) Study of international trade: Export and Import 6) Study of incentive plan management 7) Study of organization structure and its types 8) Study of wage administration system 9) Study of management laws 10) Study of product, marketing, and selling management through industrial visit 11) Case study on preparation of patent draft Guidelines for Instructor's Manual • The instructor’s manual is to be developed as a hands-on resource and reference. • Copy of Curriculum, Conduction & Assessment guide lines, List of Experiments to be attached. Guidelines for Student's Lab ",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-285-CEE",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Overview of Environmental Engineering",
+          "topics": "An overview of environmental engineering, pollution of air, water and soil, impact of population growth on environment, environmental impact of thermal, hydro and nuclear energy, chemical pollution, solid wastes, prevention and control of environmental pollution, water and air pollution laws and standards.",
+          "hours": 5
+        },
+        {
+          "title": "Air-Pollution Sources and Control",
+          "topics": "Definition of air pollution, sources scales of concentration and classification of air pollutants. Effects of air pollutants on human health, plants, animals, materials, Economic effects of air pollution, sampling and measurement of air pollutants, air pollution control standards: WHO, BIS, MPCB, CPCB. Particulate pollution: cleaning methods, collection efficiency, particulate collection systems, O perating principles of settling chamber, cyclone separator, fabric filter, electrostatic precipitator. O perating principles of spray tower, centrifugal scrubber, venturi scrubber. Gaseous pollution: Principles of control by absorption, adsorption, combustion and catalytic oxidation.",
+          "hours": 7
+        },
+        {
+          "title": "Water Pollution",
+          "topics": "Domestic and industrial wast ewater, types, sources and effects of water pollutants. Waste water characteristics–DO, BOD, COD, TOC, total suspended solids, colour and odour, bacteriological quality, oxygen deficit, determination of BOD constants. Water quality standards: ICMR, WHO, MPCB and CPCB.",
+          "hours": 6
+        },
+        {
+          "title": "Wastewater Treatment",
+          "topics": "Principles of primary treatment and secondary treatment, basic operating principles of activated sludge (suspended growth) process, sludge treatment and disposal, trickling filter. Advanced methods of waste water treatment: UASB, photo catalytic reactors, wet-air oxidation, and biosorption. Tertiary treatment: disinfection by chlorine, ozone and hydrogen peroxide, and UV rays.",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

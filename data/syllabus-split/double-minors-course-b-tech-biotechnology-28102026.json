@@ -1,0 +1,321 @@
+{
+  "id": "double-minors-course-b-tech-biotechnology-28102026",
+  "kind": "programme",
+  "programme": "Double Minor in Food, Wine & Dairy Technology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "D-FWD-301-BIO",
+      "title": "Biology for Engineers",
+      "semester": 5,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        4,
+        6
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Biology and Cell Biology",
+          "hours": 7,
+          "topics": "Importance of biology in engineering, characteristics of living organisms, organization of life, prokaryotic and eukaryotic cells, cell structure and functions, cell organelles, plant and animal cells, cell membrane and transport, basic cellular processes"
+        },
+        {
+          "title": "CO1: Explain cellular organization, cell structures, and fundamental cellular",
+          "hours": null,
+          "topics": "processes."
+        },
+        {
+          "title": "Biomolecules and Enzymes",
+          "hours": 8,
+          "topics": "Carbohydrates, proteins, lipids, nucleic acids, biological functions of biomolecules, structure and properties of carbohydrates, proteins and lipids, introduction to enzymes, enzyme classification, mechanism of enzyme action, factors affecting enzyme activ ity, enzyme inhibition, industrial applications of enzymes"
+        },
+        {
+          "title": "CO2: Interpret structures and functions of major biomolecules and",
+          "hours": null,
+          "topics": "enzymes."
+        },
+        {
+          "title": "Microbiology and Microbial Growth",
+          "hours": 7,
+          "topics": "Introduction to microbiology, classification of microorganisms, bacteria, fungi, yeast and viruses, microbial cell structure, beneficial and harmful microorganisms, microbial nutrition, microbial growth, microbial growth curve, factors affecting microbial growth, microbial contamination and control"
+        },
+        {
+          "title": "CO3: Distinguish microorganisms based on their characteristics and growth",
+          "hours": null,
+          "topics": "patterns."
+        },
+        {
+          "title": "Genetics and Molecular Biology",
+          "hours": 7,
+          "topics": "DNA and RNA structure and functions, genes and chromosomes, central dogma, mutations and genetic variation, introduction to recombinant DNA technology, applications of biotechnology"
+        },
+        {
+          "title": "CO4: Describe fundamental principles of genetics, molecular biology, and",
+          "hours": null,
+          "topics": "rDNA technology."
+        },
+        {
+          "title": "Basic Biotechnology and Bioprocessing",
+          "hours": 7,
+          "topics": "Introduction to biotechnology, industrial biotechnology, fermentation and its types, batch and continuous processes, basic fermentation parameters, inoculum and starter cultures, bioreactors and their basic components, sterilization and aseptic processing, downstream processing, case studies of bioprocessing"
+        },
+        {
+          "title": "CO5: Summarize basic biotechnology, fermentation, bioreactors, &",
+          "hours": null,
+          "topics": "downstream processing principles."
+        }
+      ]
+    },
+    {
+      "code": "D-FWD-302-BIO",
+      "title": "Biology for Engineers Lab",
+      "semester": 5,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        7,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "D-FWD-351-BIO",
+      "title": "Food Technology",
+      "semester": 6,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction to Food Science",
+          "hours": 9,
+          "topics": "Food industry and its scope, classification of foods, nutritional components of food, physical and chemical properties of food, sensory characteristics of food, water activity, pH, food spoilage, mechanisms and types of spoilage, factors affecting food spoilage, food spoilage microorganisms"
+        },
+        {
+          "title": "CO1: Explain food properties, spoilage mechanisms, and factors affecting",
+          "hours": null,
+          "topics": "food quality."
+        },
+        {
+          "title": "Food Processing and Preservation",
+          "hours": 9,
+          "topics": "Preliminary processing, cleaning, sorting, grading, peeling, size reduction, thermal processing, blanching, pasteurization, sterilization, UHT treatment, refrigeration, freezing, drying and dehydration, canning, irradiation, microwave processing, high-pressure processing, food additives, packaging and storage"
+        },
+        {
+          "title": "CO2: Describe major food processing and preservation methods and",
+          "hours": null,
+          "topics": "applications."
+        },
+        {
+          "title": "Food Fermentation and Biotechnology",
+          "hours": 9,
+          "topics": "Role of microorganisms in food production, food fermentation, starter cultures, fermented foods, microbial production of food ingredients, microbial enzymes in food processing, food flavour production, microbial production of oils and fats, solid-state fermentation, traditional fermented foods, probiotics and functional foods"
+        },
+        {
+          "title": "CO3: Explain microbial roles in food fermentation and biotechnology",
+          "hours": null,
+          "topics": "applications."
+        },
+        {
+          "title": "Food Quality and Safety",
+          "hours": 9,
+          "topics": "Food quality parameters, sensory evaluation, food adulteration, food contaminants, foodborne microorganisms, food safety, good manufacturing practices (GMP), HACCP, quality assurance, shelf - life evaluation, food safety management, FDA and FSSAI"
+        },
+        {
+          "title": "CO4: Identify food quality, safety, regulatory, and shelf-life assessment",
+          "hours": null,
+          "topics": "principles."
+        },
+        {
+          "title": "Food Processing Waste and Emerging Technologies",
+          "hours": 9,
+          "topics": "Classification and characterization of food industry waste, solid and liquid waste, physical, chemical and biological treatment, activated sludge process, anaerobic treatment, value addition of food waste, sustainable food processing, emerging food processing technologies, smart and active packaging"
+        },
+        {
+          "title": "CO5: Summarize food waste treatment, valorization, and emerging",
+          "hours": null,
+          "topics": "processing technologies."
+        }
+      ]
+    },
+    {
+      "code": "D-FWD-352-BIO",
+      "title": "Food Technology Lab",
+      "semester": 6,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        13,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "D-FWD-401-BIO",
+      "title": "Wine Processing & Technology",
+      "semester": 7,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Viticulture and Wine Science",
+          "hours": 9,
+          "topics": "History and evolution of winemaking, major wine -producing regions, grapevine biology, grape composition, important grape varieties, factors affecting grape quality, grape maturity and harvesting, harvesting equipment and grape handling systems, wine classi fications and types, red wine, white wine, rosé, sparkling and fortified wines."
+        },
+        {
+          "title": "CO1: Explain viticulture principles, grape composition, varieties, and wine",
+          "hours": null,
+          "topics": "classifications."
+        },
+        {
+          "title": "Wine Production Technology",
+          "hours": 9,
+          "topics": "Grape harvesting, grape reception units, crushers, destemmers and conveyors, must preparation, maceration tanks and presses, pressing, must clarification and treatment, wine yeast and starter cultures, yeast selection and inoculation, fermentation tanks and temperature-control systems, pumps and filtration systems, alcoholic fermentation, red/white winemaking process"
+        },
+        {
+          "title": "CO2: Describe wine production processes, equipment, fermentation",
+          "hours": null,
+          "topics": "systems, & processing operations."
+        },
+        {
+          "title": "Wine Fermentation, Chemistry and Maturation",
+          "hours": 9,
+          "topics": "Wine microorganisms, alcoholic and malolactic fermentation, factors affecting fermentation, temperature and pH control, fermentation -derived metabolites: sugars, organic acids and alcohols, phenolic compounds and tannins, colour, flavour and aroma compound s, wine maturation, oak barrels and stainless-steel ageing tanks, barrel ageing, bottle ageing, clarification, stabilization"
+        },
+        {
+          "title": "CO3: Analyze wine fermentation, chemical composition, maturation, and",
+          "hours": null,
+          "topics": "stabilization processes."
+        },
+        {
+          "title": "Wine Quality Analysis and Regulations",
+          "hours": 9,
+          "topics": "Wine quality, sensory evaluation, wine tasting, aroma and flavour profiling, wine defects, off -flavours, physicochemical analysis, FSSAI regulations, alcoholic beverage standards, wine labelling requirements, State Excise regulations, OIV standards, Codex Alimentarius, international wine standards"
+        },
+        {
+          "title": "CO4: Evaluate wine quality, sensory attributes, defects, and applicable",
+          "hours": null,
+          "topics": "regulatory standards."
+        },
+        {
+          "title": "Wine Packaging, Sustainability and Industry",
+          "hours": 9,
+          "topics": "Wine bottling and packaging, bottle filling and corking/capping machines, labelling machines and packaging lines, packaging materials and closures, storage and cellar management, wine labelling, wine preservation, wine tourism, sustainability in viticultur e and winemaking, by -product utilization, recent industry trends and emerging technologies"
+        },
+        {
+          "title": "CO5: Discuss wine packaging, storage, sustainability, and emerging",
+          "hours": null,
+          "topics": "industry technologies."
+        }
+      ]
+    },
+    {
+      "code": "D-FWD-402-BIO",
+      "title": "Wine Processing & Technology Lab",
+      "semester": 7,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "D-FWD-451-BIO",
+      "title": "Dairy Science & Technology",
+      "semester": 8,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Milk Science and Dairy Chemistry",
+          "hours": 9,
+          "topics": "Dairy industry overview, composition and nutritional value of milk, physical and chemical properties, milk proteins and casein, milk fat and lactose, minerals and colloidal nature of milk, factors affecting milk composition, raw milk collection, sampling, transportation and hygienic milk production"
+        },
+        {
+          "title": "CO1: Explain milk composition, properties, nutritional value, and hygienic",
+          "hours": null,
+          "topics": "production practices."
+        },
+        {
+          "title": "Milk Processing Technology",
+          "hours": 9,
+          "topics": "Milk reception and quality assessment, filtration and clarification, cooling, separation, standardization, homogenization, pasteurization, sterilization and UHT processing, evaporation and concentration, membrane processing, microfiltration, ultrafiltratio n and reverse osmosis, spray drying, processing of toned, double-toned, standardized and flavoured milk"
+        },
+        {
+          "title": "CO2: Describe major milk processing methods, equipment, and processing",
+          "hours": null,
+          "topics": "operations."
+        },
+        {
+          "title": "Dairy Products and Fermentation Technology",
+          "hours": 9,
+          "topics": "Starter cultures and lactic acid bacteria, dairy fermentation, fermented and probiotic milk products, cream and butter, buttermilk, paneer, cheese manufacture, coagulation and curd formation, cheese ripening and maturation, ice cream and frozen desserts, condensed milk, milk powder"
+        },
+        {
+          "title": "CO3: Explain manufacturing principles of fermented and processed dairy",
+          "hours": null,
+          "topics": "products."
+        },
+        {
+          "title": "Dairy Quality, Microbiology and Safety",
+          "hours": 9,
+          "topics": "Microflora of milk, beneficial, spoilage and pathogenic microorganisms, microbial defects, milk quality parameters, pH and acidity, fat, protein, total solids and SNF, milk adulteration, microbial quality assessment, shelf-life evaluation, food safety, GMP, HACCP, quality assurance and dairy standards"
+        },
+        {
+          "title": "CO4: Assess dairy quality, microbiological safety, adulteration, and",
+          "hours": null,
+          "topics": "regulatory requirements."
+        },
+        {
+          "title": "Dairy Engineering, Packaging and Sustainability",
+          "hours": 9,
+          "topics": "Dairy processing equipment, heat exchangers, homogenizers, separators, evaporators and spray dryers, refrigeration and cold chain, Clean -in-Place (CIP), packaging materials and methods, storage and transportation, dairy waste management, waste treatment an d by-product utilization, water and energy management, sustainable dairy processing, emerging dairy technologies"
+        },
+        {
+          "title": "CO5: Discuss dairy equipment, packaging, sustainability, and waste",
+          "hours": null,
+          "topics": "management practices."
+        }
+      ]
+    },
+    {
+      "code": "D-FWD-452-BIO",
+      "title": "Dairy Science & Technology Lab",
+      "semester": 8,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        23,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "D-FWD-453-BIO",
+      "title": "Minor Project",
+      "semester": 8,
+      "type": "Double Minor",
+      "credits": 2,
+      "pages": [
+        25,
+        27
+      ],
+      "units": []
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "id": "s-y-b-sc-wine-brewing-and-alcohol-technology-20062025",
+  "kind": "programme",
+  "programme": "B.Sc. (Wine, Brewing and Alcohol Technology)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "WT-201-MJ",
+      "title": "Arts and Science of Wine",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to viticulture",
+          "topics": "1.1.Viticulture \u2013 Terminologies of Viticulture, Classification of Grapevine 1.2 Grapevine: Structure and Function 1.3 Grape berry structure, berry development stages. 1.4. Effect of temperature on grape maturation. 1.4 Overview of White grape varieties. 1.5 Chemical composition of grape juice. 1.6 Grape berry sampling methods, chemical and sensory analysis of ripen Grape berry, importance of Grape berry sampling. 1.7 Concept of Vintage and its significance in wine production. 1.8 Mold associate with matured grapes",
+          "hours": null
+        },
+        {
+          "title": "Production of white wine",
+          "topics": "2.1 Flow diagram of white wine production. 2.2. Prefermentation treatments of white wine \u2013Harvesting, crushing & destemming , skin contact, pressing, grape juice adjustments, addition of active yeast, Fermentation process and Control of fermentation parameter. 2.3 Post-fermentation measures -Racking, clarification and stabilization, Blending, Barrel ageing /maturation, Filtration using filter aid, Bottling.",
+          "hours": null
+        },
+        {
+          "title": "Cooperage for wine making",
+          "topics": "3.1 Oak and Cooperage. 3.2 Oak species and characteristics of oak. 3.3 Conditioning and care of oak barrel.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT-202-MJ",
+      "title": "Basics of Fermentation Technology",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Types of fermenters",
+          "topics": "1.1 Classification of fermenters: Stirred tank bioreactor (STR), Airlift fermenter, Packed bed bioreactor, Fluidized bed bioreactor, Photobioreactor. 1.2 Differences between aerobic and anaerobic fermentation systems. 1.3 Solid-state fermentation vs Submerged fermentation (advantages, disadvantages, applications).",
+          "hours": null
+        },
+        {
+          "title": "Utilities required for fermentation",
+          "topics": "2.1 Water: Quality requirements, water treatment for brewing and fermentation industries. 2.2 Steam and Air: Principles of clean steam generation; Air sterilization techniques (membrane filtration, depth filters). 2.3 Power and Cooling: Requirement of continuous power supply; Cooling towers and chilling systems in fermentation plant. 2.4 Effluent Treatment Plant (ETP): Overview of waste streams generated in fermentation and distillery industries; Primary, secondary, and tertiary treatment of industrial waste.",
+          "hours": null
+        },
+        {
+          "title": "Parts of fermenters",
+          "topics": "3.1 Construction materials for fermenters (stainless steel grades 304, 316, corrosion resistance, passivation). 3.2 Agitator and Impeller types (Rushton turbine, marine propeller, pitched blade) and their function in mixing and mass transfer. 3.3 Baffles, spargers (porous, orifice, nozzle), foam breakers, and sampling valves. 3.4 Valves and fittings: Diaphragm valves, pressure relief valves, steam traps.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT- 203-MJP",
+      "title": "Laboratory techniques in Wine and Fermentation Technology",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "WT-221-VSC",
+      "title": "Vineyard management",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to soil for quality grape production",
+          "topics": "1.1 Ideal soil characteristics for viticulture (depth, texture, structure, drainage, organic matter). 1.2 Chemical properties: Soil pH, Electrical Conductivity (EC), Cation Exchange Capacity (CEC), Nutrient availability. 1.3 Soil sampling techniques and testing methods. 1.4 Soil preparation: Tillage, subsoiling, addition of organic amendments and lime/gypsum application.",
+          "hours": null
+        },
+        {
+          "title": "Study of vineyard establishment",
+          "topics": "2.1 Site selection: Climate (GDD, rainfall, temperature, sunlight), topography (slope, aspect), water availability. 2.2 Rootstocks: Selection of rootstocks based on soil characteristics (salinity, drought, nematode resistance) and scion compatibility. 2.3 Vineyard layout: Row orientation, row-to-row and vine-to-vine spacing for mechanization and canopy microclimate. 2.4 Planting techniques: Bare root vs potted vines, planting season, initial care, establishment of young vines. 2.5 Trellising systems: Single-wire, double-wire, T-trellis, Y-trellis, Bower/Pandal, Overhead pergola, Geneva Double Curtain (GDC).",
+          "hours": null
+        },
+        {
+          "title": "Canopy management and nutrition of grapevine",
+          "topics": "3.1 Concept and objectives of canopy management. 3.2 Pruning: Objectives of pruning, types of pruning (spur pruning, cane pruning), winter and summer pruning. 3.3 Shoot positioning, shoot thinning, suckering, leaf removal, bunch thinning. 3.4 Trellising and training of grapevine. 3.5 Major and micronutrient requirements of grapevines. 3.6 Fertilizer application: Fertigation, foliar feeding, organic manures, biofertilizers. 3.7 Visual symptoms of nutritional deficiencies and toxicities.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT- 231-FP",
+      "title": "FIELD PROJECT",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        20,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "WT - 241 MN",
+      "title": "Yeast Culture technology",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Morphology, cytology and growth of yeast.",
+          "topics": "1.1 Introduction to yeast: Yeasts are eukaryotic, single-celled microorganisms belonging to the fungal kingdom. 1.2 Cell structure: Cell wall, plasma membrane, cytoplasm, nucleus, mitochondria, vacuoles. 1.3 Reproduction: Asexual reproduction (budding, fission), sexual reproduction (formation of ascospores). 1.4 Yeast growth and life cycle: Saccharomyces cerevisiae life cycle (haploid and diploid phases). Factors influencing yeast growth: Temperature, pH, sugar concentration, oxygen, nutrient availability.",
+          "hours": null
+        },
+        {
+          "title": "Wine Microbiology by Yeast",
+          "topics": "2.1 Yeast ecology in vineyards and wineries: Natural yeast flora on grapes, surfaces of winery equipment, air. 2.2 Role of Saccharomyces and non-Saccharomyces yeasts in winemaking. 2.3 Fermentation kinetics: lag phase, exponential growth, stationary phase, death phase. 2.4 Metabolic pathways: Glycolysis (Embden-Meyerhof-Parnas pathway), Alcoholic fermentation (conversion of pyruvate to ethanol and carbon dioxide), By-products of fermentation (glycerol, higher alcohols, esters, volatile acids).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT-242 MNP",
+      "title": "Laboratory techniques in Yeast Culture Technology-I",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-201- WT",
+      "title": "Grains to beer",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "History & Raw materials",
+          "topics": "1.1 History and evolution of beer: Ancient brewing origins, Industrialization of brewing, Modern craft beer revolution. 1.2 Brewing Water: Mineral composition (calcium, magnesium, sulfate, chloride, bicarbonate), Water hardness and pH, Effect of water chemistry on beer style and quality. 1.3 Malted Grains: Barley structure, malting process, specialty malts. 1.4 Hops: Anatomy of hop cone, Alpha and beta acids, Essential oils, Bittering vs aroma hops, Hop products. 1.5 Brewer's Yeast: Ale yeast (Saccharomyces cerevisiae) vs Lager yeast (Saccharomyces pastorianus), Yeast handling and pitch rates. 1.6 Brewing Adjuncts: Unmalted grains (corn, rice, wheat, oats), Sugars and syrups.",
+          "hours": null
+        },
+        {
+          "title": "Sensory Evaluation of Beer",
+          "topics": "2.1 Physiology of taste and smell: Five basic tastes (sweet, salty, sour, bitter, umami), Retronasal olfaction. 2.2 Beer sensory attributes: Appearance (color, clarity, head retention), Aroma (malt, hop, fermentation profiles), Flavor and mouthfeel (body, carbonation, astringency), Finish and aftertaste. 2.3 Common off-flavors: Diacetyl, Acetaldehyde, DMS (Dimethyl Sulfide), Oxidation (stale/cardboard), Lightstruck/Skunky, Phenolic/Medicinal, Sour/Acidic. 2.4 Beer evaluation methodology: Proper serving temperature and glassware, Standard sensory evaluation procedure, Use of beer score sheets (BJCP style).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "IKS 201-WT",
+      "title": "Indian Knowledge System and Wine, brewing and alcohol technology",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Foundations of Indian Knowledge Systems in Fermentation",
+          "topics": "1.1 Introduction to Indian Knowledge Systems: Definition and scope of Indian Knowledge Systems (IKS), Historical perspectives on fermentation in ancient India, Vedic and Ayurvedic references to fermented beverages, Regional diversity in traditional fermentation practices. 1.2 Traditional Indian Fermented Beverages: Soma and Sura: Historical significance and preparation methods, Regional beverages: Feni (Goa), Mahua (Tribal regions), Rice wine (Northeast), Ayurvedic fermented preparations: Arishta and Asava, Domestic fermentation: Kanji, fermented rice preparations. 1.3 Scientific Basis of Traditional Methods: Microbiological principles behind traditional practices, Nutritional and therapeutic aspects of traditional fermented beverages, Preservation techniques in ancient India.",
+          "hours": null
+        },
+        {
+          "title": "Traditional Knowledge Systems and Practices",
+          "topics": "2.1: Indigenous Raw Materials and Selection: Grain Selection: Traditional varieties of rice, millet, barley, and wheat; Fruit-based Materials: Use of grapes, dates, coconut, and wild fruits; Floral Sources: Mahua flowers, palm sap, and other botanical materials. 2.2: Traditional Fermentation Sciences: Indigenous Starter Cultures, Fermentation Vessels, Environmental Factors, Natural Additives, Monitoring Techniques. 2.3: Distillation and Processing Methods: Traditional Distillation Apparatus, Heat Sources and Control, Purification Techniques, Storage and Aging, Quality Control.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT-251 MJ",
+      "title": "Advances in Beer and Alcohol Technology",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        32,
+        34
+      ],
+      "units": [
+        {
+          "title": "Basic Concept in Alcohol technology",
+          "topics": "1.1. Introduction to Alcohol -Nomenclature, classification, Physical and chemical properties of Alcohol. 1.2. History and evolution of alcohol production. 1.3. Global alcohol industry overview and economic significance. 1.4. Types of alcoholic beverages and their characteristics.",
+          "hours": null
+        },
+        {
+          "title": "Starch processing and role of Enzymes in distillery",
+          "topics": "2.1 Starch-Introduction to starch (types of starch molecules, structure), Gelatinization process, Saccharification process - Saccharification process with malt and Saccharification process by acids. 2.2 Enzyme Activity-Effect of temperature and pH on the activity of the enzyme. 2.3 Enzymes used in distilleries. 2.4 Calculation of efficiency and recovery in alcohol production.",
+          "hours": null
+        },
+        {
+          "title": "Handling of Brewing Raw Material",
+          "topics": "1.1 Barley- cultivation, growth, & climatic conditions, harvest and storage. 1.2-Barley (malt) processing & production of malt- controlled germination, kilning process. 1.3 Malt- Chemical composition of Malt, types of malt, Diastatic power in malt. 1.4-Hops (Himulus lupulus)-Cultivation, role in beer making, hop products. 1.5-Adjuncts -Types and role of Adjuncts. 1.6 Brewer\u2019s yeast - Different yeast strains used in brewing.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT-252 MJ",
+      "title": "Fermentation Technology",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Process Optimization",
+          "topics": "1.1 Introduction to fermentation media, media formulation, and component selection. 1.2 Optimization strategies: Classical one-factor-at-a-time (OFAT) approach. 1.3 Statistical design of experiments (DOE): Plackett-Burman design and Response Surface Methodology (RSM). 1.4 Case studies of media optimization in alcoholic beverage fermentation.",
+          "hours": null
+        },
+        {
+          "title": "Process parameters and their importance",
+          "topics": "2.1 Temperature control: Heat generation during fermentation, cooling requirements, impact on yeast metabolism and flavor profile. 2.2 pH and buffer systems: Influence on enzyme activity, cell viability, and product formation. 2.3 Dissolved oxygen (DO) and agitation: Oxygen transfer rate (OTR), volumetric mass transfer coefficient (kLa), aeration requirements. 2.4 Nutrient feeding strategies in fed-batch fermentation. 2.5 Online and offline monitoring of fermentation parameters (sensors, probes, analytical methods).",
+          "hours": null
+        },
+        {
+          "title": "General outline of fermentation products",
+          "topics": "3.1 Primary metabolites vs secondary metabolites. 3.2 Industrial production flowsheets: Bioethanol (molasses and grain based), Beer (ale and lager fermentation profiles), Wine (red and white fermentation pathways). 3.3 Byproducts and value addition: Carbon dioxide capture, fusel oil recovery, spent grains and yeast utilization. 3.4 Downstream processing overview: Centrifugation, filtration, distillation, membrane separations.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT-253 MJP",
+      "title": "Laboratory techniques in Beer, Alcohol and Fermentation Technology",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "WT -271-VSC",
+      "title": "Laboratory techniques in Vineyard management",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "WT- 232 -CEP",
+      "title": "COMMUNITY ENGAGEMENT PROGRAM",
+      "semester": 4,
+      "type": "Community E Programme",
+      "credits": 2,
+      "pages": [
+        41,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "WT -291-MN",
+      "title": "Advances in Yeast Culture Technology",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": [
+        {
+          "title": "Yeast Culturing",
+          "topics": "1.1 Isolation and screening of wild and industrial yeast strains. 1.2 Maintenance and preservation of yeast cultures (subculturing, glycerol stocks, lyophilization, cryopreservation). 1.3 Starter culture preparation: Propagation stages (laboratory scale to industrial pitch), Inoculum development protocols. 1.4 Quality control of yeast cultures: Viability testing (methylene blue staining), Vitality testing (acidification power, glycogen content), Microbiological purity (detection of bacterial and wild yeast contamination).",
+          "hours": null
+        },
+        {
+          "title": "The metabolism of sugars and nitrogen by yeast",
+          "topics": "2.1 Sugar transport and uptake mechanisms (facilitated diffusion, active transport). 2.2 Catabolism of glucose, fructose, sucrose, and maltose. 2.3 Crabtree effect and Pasteur effect in yeast metabolism. 2.4 Nitrogen sources: Assimilable nitrogen (YAN), amino acid uptake, Ehrlich pathway for higher alcohol formation. 2.5 Sulfur metabolism and formation of volatile sulfur compounds (H2S, mercaptans, sulfur dioxide).",
+          "hours": null
+        },
+        {
+          "title": "Role of Yeast in wine",
+          "topics": "3.1 Fermentation performance: Temperature tolerance, ethanol tolerance, osmotic tolerance. 3.2 Production of aroma compounds: Esters, higher alcohols, volatile phenols, terpene release. 3.3 Non-Saccharomyces yeasts in winemaking (Torulaspora, Hanseniaspora, Lachancea, Pichia) - opportunities and challenges. 3.4 Yeast autolysis and its impact on wine aging on lees (sparkling wine and aged white wines). 3.5 Spoilage yeasts: Brettanomyces/Dekkera, Zygosaccharomyces, Candida, and their control.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "WT-292 MNP",
+      "title": "Laboratory techniques in yeast culture technology-II",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251 WT",
+      "title": "Laboratory techniques in Grains to beer",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251 WT",
+      "title": "Techniques in Horticulture",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

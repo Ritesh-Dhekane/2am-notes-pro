@@ -1,0 +1,384 @@
+{
+  "id": "final-m-arch-digital-architecture-2026-25072026",
+  "kind": "programme",
+  "programme": "Masters in Architecture M. Arch (Digital Architecture)",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "2026DA101",
+      "title": "Digital Design Studio I",
+      "semester": 1,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Introduction to generative modelling, control, and analysis through the study of complex architectural precedents. Students learn to interpret and manipulate design parameters within a digital environment.",
+          "hours": null
+        },
+        {
+          "title": "Unit II",
+          "topics": "Development of a building or product system informed by geometry, ergonomics, materiality, site data, and programmatic constraints. Emphasis is placed on understanding the relationships between form, function, and fabrication.",
+          "hours": null
+        },
+        {
+          "title": "Unit III",
+          "topics": "Testing of selected design iterations through analogue and digital fabrication techniques. Focus is on understanding the performative capacity of the design via physical prototyping at full or scaled size.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA102",
+      "title": "Foundations of Algorithmic Scripting",
+      "semester": 1,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "This unit introduces students to parametric and associative modelling within the context of architectural design. It familiarizes students with various computational tools used in the design process and builds foundational understanding of logic-based construction of simple geometries using parameters and constraints. The unit emphasizes the concept of parameter interdependencies and how they influence the final design outcome, enabling iterative approaches to geometric modelling.",
+          "hours": null
+        },
+        {
+          "title": "Unit II",
+          "topics": "In this unit, students will learn to construct computational logic using node -based visual programming environments. They will perform parametric operations while gaining an understanding of data types and data structures essential to visual scripting. The unit explores the development of dynamic systems, iterative modelling techniques, and strategies for managing complexity within parametric models.",
+          "hours": null
+        },
+        {
+          "title": "Unit III",
+          "topics": "This unit introduces students to allied methods for parametric modelling through the use of plugins or alternative software platforms. It explores extended computational capabilities and workflows that enhance the core parametric modelling process, offering exposure to a broader ecosystem of tools relevant to advanced architectural design.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA103",
+      "title": "Digital Fabrication I",
+      "semester": 1,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Fabrication",
+          "topics": "This unit covers the core principles of digital-to-physical workflows, from concept to prototype. It introduces essential computer-controlled tools such as CNC machines, 3D printers, and laser cutters.",
+          "hours": null
+        },
+        {
+          "title": "CAD Modelling and Computational Design",
+          "topics": "This unit explores the fundamentals of CAD software, including parametric and non-parametric modelling. Students will learn to utilize computational design tools (e.g., Rhino, Grasshopper, Blender, Fusion 360). A key focus is on translating digital models into fabrication-ready files (e.g., STL, G-code) and applying design optimization principles related to form, function, and structural analysis.",
+          "hours": null
+        },
+        {
+          "title": "Additive and Subtractive Manufacturing",
+          "topics": "This unit provides an overview of additive manufacturing (3D printing technologies, materials, and applications). For subtractive manufacturing, it covers CNC milling, laser cutting, and routing. Basic material science principles are introduced, focusing on properties of metals, plastics, composites, and biomaterials, to guide process selection for specific design goals.",
+          "hours": null
+        },
+        {
+          "title": "Prototyping and Iterative Design",
+          "topics": "This unit focuses on the principles of rapid prototyping, emphasizing speed, cost, and fidelity. Students will engage with iterative design workflows for testing, refining, and improving prototypes. Collaborative prototyping through team-based approaches to fabrication projects is highlighted, along with case studies illustrating real-world applications.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA104",
+      "title": "Elective I",
+      "semester": 1,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Digital Visualisation (AR/VR)",
+          "topics": "This involves using Artificial Intelligence to create immersive augmented reality (AR) and virtual reality (VR) environments for architectural visualization. AI can enhance real-time rendering, spatial simulations, and interactive experiences, allowing architects and clients to explore designs in dynamic, immersive ways.",
+          "hours": null
+        },
+        {
+          "title": "AI with Visual Programming",
+          "topics": "Combining AI algorithms with Grasshopper to develop generative design workflows. AI automates complex design processes, optimizes parameters, and helps generate innovative architectural forms through rule-based and data-driven methods.",
+          "hours": null
+        },
+        {
+          "title": "AI Image-to-Model",
+          "topics": "Applying AI techniques to convert 2D images such as photos, sketches, or diagrams into 3D digital models, speeding up early design phases and enabling creative exploration.",
+          "hours": null
+        },
+        {
+          "title": "Digital Twinning",
+          "topics": "Creating virtual replicas of physical environments that update in real-time with sensor data, allowing monitoring, simulation, and optimization of building performance and user interaction.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA105",
+      "title": "DA Processes Theory and History I",
+      "semester": 1,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Deconstructivism and Emergence of Digital Architecture",
+          "topics": "This unit examines Deconstructivism’s shift from traditional architecture, focusing on its adoption of non-standard, fluid forms and digital culture. It highlights how the socio cultural and technological evolution gave momentum to the emergence of digital architecture. It situates critical events and innovations within a historical perspective that identifies the coming into being of a new epistemology of the digital in architecture.",
+          "hours": null
+        },
+        {
+          "title": "Digital Automation of Design Processes",
+          "topics": "This Unit establishes position towards the digital automation of design processes. This unit delves into process-driven studies by documenting computational advancements in architecture. It traces parametric process trajectories, emphasizing critical algorithms, tools, and theoretical frameworks that transformed architectural practice from form-making to form-finding.",
+          "hours": null
+        },
+        {
+          "title": "Form Finding via Computational Methods",
+          "topics": "This unit focuses on application of the process of form finding via computational methods to explore an architectural form and understand its implications to architectural design and discuss one’s own individual interpretation though process.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA201",
+      "title": "Digital Design Studio II",
+      "semester": 2,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Unit I",
+          "topics": "Decoding the architectural design process as a collaborative, iterative and evolutionary vector framework.",
+          "hours": null
+        },
+        {
+          "title": "Unit II",
+          "topics": "Identifying and defining the role of parametric platforms as a powerful design tool that augments the design and execution process.",
+          "hours": null
+        },
+        {
+          "title": "Unit III",
+          "topics": "Develop and document individual visual communication concepts and outcomes framed by a project brief.",
+          "hours": null
+        },
+        {
+          "title": "Unit IV",
+          "topics": "Identify and use appropriate digital software to execute intended design outcomes.",
+          "hours": null
+        },
+        {
+          "title": "Unit V",
+          "topics": "Produce creative design outcomes in a digital environment with reference to appropriate parametric software use for designing a building typology.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA202",
+      "title": "Advanced Algorithmic Scripting",
+      "semester": 2,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        25,
+        25
+      ],
+      "units": [
+        {
+          "title": "Data-Driven Design and External File Integration",
+          "topics": "Working with geospatial and environmental data (osm, hgt, epw, etc). Utilizing data inputs for informed decision-making in design.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Parametric and Generative Design",
+          "topics": "Exploration of evolutionary algorithms and generative workflows. Integration of advanced plugins for design automation and optimization.",
+          "hours": null
+        },
+        {
+          "title": "Simulation and Performance Analysis",
+          "topics": "Particle and agent-based simulation techniques. Structural, thermal, and wind flow analysis integrated into parametric models. Feedback loops for performance-driven design iteration.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA203",
+      "title": "Digital Fabrication II",
+      "semester": 2,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Advanced Material Science for Fabrication",
+          "topics": "This unit covers material properties and their applications in digital fabrication, focusing on selection and manipulation of materials for innovative design and manufacturing projects. Case studies on material-driven design in architecture and product design are also included.",
+          "hours": null
+        },
+        {
+          "title": "VR/MR in Design and Fabrication",
+          "topics": "This unit covers the fundamentals of virtual reality (VR) and mixed reality (MR) in design visualization. It addresses VR/MR for prototyping and simulation of fabrication processes. Real-time fabrication control using VR/MR platforms and human-machine interaction in advanced manufacturing workflows are key components.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA204",
+      "title": "Elective II",
+      "semester": 2,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "BIM for Architecture",
+          "topics": "This vertical introduces foundational principles of BIM for architectural modeling, highlighting building elements, spatial organization, and model hierarchy. Students learn to create structured digital models with reference systems, apply annotation for early documentation, and develop basic parametric components. The course also covers modeling of site topography and the surrounding context to integrate the building within its environment.",
+          "hours": null
+        },
+        {
+          "title": "Bim for Interior",
+          "topics": "This vertical focuses on BIM workflows for interior design, emphasizing the creation and management of custom components and assemblies. Students will develop various building elements such as walls, floors, ceilings, and lighting, while managing materials and schedules. The course also covers annotation practices, detailed documentation, and visualization of interior finishes and fixtures.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA205",
+      "title": "DA Processes Theory and History II",
+      "semester": 2,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Evolutionary Design Processes",
+          "topics": "This Unit focuses on the concepts and convergent interdisciplinary effects of evolutionary design processes on design and production technologies in architecture, the focus is on developing these as creative inputs to new architectural design processes.",
+          "hours": null
+        },
+        {
+          "title": "Process Theories and Computational Studies",
+          "topics": "Through research-based theoretical and computational studies, students will investigate the process theories and computational tools that have emerged in parametric design, focusing on the algorithmic design processes developed by architects and tool creators.",
+          "hours": null
+        },
+        {
+          "title": "Modelling Systems Theory Processes",
+          "topics": "This unit focuses on computational tools for modelling systems theory processes in architectural and urban design. The instructor demonstrates computationally through one example of simulation of a process-based framework. Students conclude by computationally illustrating a selected process-based framework and present its findings.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026DA301",
+      "title": "Digital Design Studio III",
+      "semester": 3,
+      "type": "C1",
+      "credits": 9,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DA302",
+      "title": "Professional Practice and Training",
+      "semester": 3,
+      "type": "C2",
+      "credits": 3,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DA303",
+      "title": "Research",
+      "semester": 3,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DA304",
+      "title": "Elective III",
+      "semester": 3,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DA305",
+      "title": "Digital Fabrication III",
+      "semester": 3,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DA401",
+      "title": "Project",
+      "semester": 4,
+      "type": "C",
+      "credits": 17,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "2026DA402",
+      "title": "Elective IV",
+      "semester": 4,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

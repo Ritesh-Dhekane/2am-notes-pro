@@ -1,0 +1,764 @@
+{
+  "id": "me-civil-environmental-engg-2025-pattern-03092025",
+  "kind": "programme",
+  "programme": "Master of Engineering (Environmental Engineering)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-ENE",
+      "title": "Advanced Water & Wastewater Treatment",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Reactor Theory and Treatment Dynamics 12 hours",
+          "topics": "Types of reactors used in treatment systems, Mass transport and mass-balance principles, Reaction kinetics and rate expressions, Ideal and non -ideal reactors, Design of Completely Mixed Batch Reactors (CMBR), Completely Mixed Flow Reactors (CMFR), Plug Flow Reactors (PFR), Estimation of kinetic parameters in CMFR",
+          "hours": 12
+        },
+        {
+          "title": "Physicochemical Treatment – Coagulation, Flocculation & Sedimentation 12 hours",
+          "topics": "Concept and design of aeration and gas transfer, Coagulation Process, Stability of colloids, Repulsive and Attractive Potentials, destabilization of Colloids, Transport of colloidal particles, Orthokinetic and Perikinetic flocculation, Destabilization in W ater and Wastewater Treatment by Al (III) and Fe (III), Synthetic Organic polymers, Activated Silica, Selection of a coagulant, Sedimentation Processes, Zone Settling, Compression, Sedimentation tank design for water and wastewater, Design of tube settlers.",
+          "hours": 12
+        },
+        {
+          "title": "Filtration and Disinfection Technologies 12 hours",
+          "topics": "Filtration- Filtration process; principle mechanisms of filtration, Filter Hydraulics backwash hydraulics, Rate control Patterns and Methods, Head loss patterns at Constant Rate, Slow sand and Rapid sand Filtration and their performances, Design of Gravity filters, Design and Operating variables for deep Granular Filters- Filter media, Fluidization, and bed expansion in backwashing, Under drainage systems with design, operational problems. Disinfection- History and modes of disinfection, rates of disinfection, disinfection concentration Factors affecting disinfection such as temperature, pH and organic matter, Chemical Disinfectants – chlorine and Chlorine derivatives; Non -Chemical Methods f or Disinfection- Ozonation; UV radiation.",
+          "hours": 12
+        },
+        {
+          "title": "Biological Treatment Systems 12 hours",
+          "topics": "Design principles of- Activated Sludge Process (ASP) and its modifications, Trickling Filters, Concept of package, compact, and mobile sewage treatment units, Suitability for decentralized and small -scale applications",
+          "hours": 12
+        },
+        {
+          "title": "Anaerobic Treatment and Sludge Management 12 hours",
+          "topics": "Operational and economic aspects of treatment plant management energy consumption, cost -benefit analysis, and maintenance strategies Theory & Design of Anaerobic Digestion (Low & High Rate), Theory of Sludge Dewatering (sludge drying beds & mechanical methods), Membrane Filtration- Reverse Osmosis (RO) - osmosis, membrane characteristics, design Pretreatment needs and flux maintenance, Adsorption- Types, influencing factors, isotherms , GAC & PAC systems, breakthrough analysis, reactor design, Ion Exchange - Exchange materials and resins, Equilibrium, isotherms, and regeneration, Microfiltration and Ultrafiltration - pore size, pressure requirements, Electrodialysis - principle and applications, Advanced Oxidation Processes (AOPs)",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-ENE",
+      "title": "Geo-informatics for Environmental Engineering",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Remote Sensing 12 hours",
+          "topics": "Introduction to Geoinformatics (RS, GIS, GPS), Fundamentals and history of Remote Sensing, Types of Remote Sensing – active and passive, Sources of energy, Electromagnetic Radiation reflectance, transmission, absorption, thermal emissions, Interaction of EMR with atmosphere, Atmospheric windows, Spectral reflectance of Earth's surface features, Multi -concept of Remote Sensing, Remote Sensing platforms and sensors, Data acquisition through various platforms, Cameras and sensor parameters, Elements of satellite images, Concepts of bands, pixel, digital number, and metadata, Multispectral Remote Sensing, Hyperspectral, thermal, microwave, and laser remote sensing (introductory concepts), False color composite, Interpretation of multispectral images, Spectral signatures and indices, Sensor combinations, Image interpretation parameters, Image formation, Resolutions – spatial, spectral, temporal, and radiometric, Radiometric and geometric distortions.",
+          "hours": 12
+        },
+        {
+          "title": "Digital Image Processing 12 hours",
+          "topics": "Digital image processing fundamentals, Atmospheric , radiometric, and geometric corrections, Histograms, Density slicing, Contrast stretching, Principal Component Analysis (PCA), Image transformations, Intensity transformations, Spatial filtering, Image formats, Noise reduction, Image segmentation, Classification techniques – supervised and unsupervised, Introduction to GIS, Components of GIS – hardware and software, GIS functionality – data capture, management, analysis, and visualization, Projections and georeferencing, Concepts and types of map projectio ns and their applications, Topological data models – TIN, spaghetti, polygon structures, Digitization techniques, Introduction to GPS, Fundamental concepts, Coordinate and reference systems, Components of the GPS system, GPS for land navigation and survey reconnaissance, Static/Differential positioning, Dynamic/Kinematic positioning, GPS equipment, National GPS applications, Ground truthing – importance and techniques.",
+          "hours": 12
+        },
+        {
+          "title": "Fundamentals of Aerial Photography 12 hours",
+          "topics": "History and Development - Introduction to the evolution of aerial photography and photogrammetry, significance in mapping and remote sensing. Photographs - Vertical, low oblique, high oblique photographs, infrared and multispectral images, their uses, and characteristics. Aerial Cameras- Types of cameras based on format size, lens type, focal length, and applications. Stereoscopy - Definition and calculation of scale, forward and side overlaps for 3D viewing, principles of stereoscopy for depth perception, Use of stereoscopes, optica l and digital plotters, analytical tools for interpreting and measuring aerial photos. Parallax Equation- Concepts linking photo image points to ground coordinates, use of floating mark and parallax equations to derive height and depth. Height Information - Techniques for extracting elevation data, effects of camera tilt on image quality, displacement due to terrain variation. Rectification- Correction of tilt and distortions to produce geometrically accurate orthophotos. Flight Planning- Basics of aerial su rvey planning, computation of number of photos, flying height, overlaps, ground coverage area. Aerial Mosaics- Creation of mosaics by combining im",
+          "hours": 12
+        },
+        {
+          "title": "Basics of Programming for Geospatial Data 12 hours",
+          "topics": "Introduction to geospatial data types such as raster, vector, and tabular formats, understanding the role of programming in processing geospatial information, introduction to Python and R as commonly used programming languages, learning syntax, variables, data types, and input/output operations, introduction to simple data structures like lists and dictionaries, understanding abstract data types (ADTs) and their role in organizing spatial data, basic understanding of spatial AD Ts and their common operations, introduction to spatial indexing for faster data searching and retrieval, understanding the concept and importance of spatial databases, using SQL (Structured Query Language) to interact with databases, creating databases and defining simple tables for spatial data, introduction to spatial queries to retrieve location-based data, Use of satellite imagery and drones for monitoring illegal dumping, deforestation, or water body quality",
+          "hours": 12
+        },
+        {
+          "title": "Hyperspectral Remote Sensing and Thermal Properties 12 hours",
+          "topics": "Reflectance spectroscopy, Dimensionality reduction, Feature selection, Subspace modelling, Endmember extraction – identifying pure surface materials such as soil, water, or vegetation, Hyperspectral band ratios, Vegetation indi ces, Hyperspectral classification methods, Target detection, Spectral unmixing, Spectral libraries, Applications of hyperspectral remote sensing – includes agriculture, forestry, water quality monitoring, mineral exploration, and environmental studies. Thermal conductivity, Specific heat, Heat capacity, Thermal diffusivity, Thermal inertia, Energy transformation, Radiant temperature – temperature measured by remote sensors, Kinetic temperature, Black body – an ideal surface that absorbs and emits all radiation perfectly, Planck’s law, Stefan–Boltzmann law, Wien’s displacement law, Kirchhoff’s law, Radiative transfer model, Emissivity, Causes of emissivity – depend on surface texture, color, material type, temperature, and wavelength.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-ENE",
+      "title": "Advanced Environmental Chemistry & Microbiology",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Chemistry for Environmental Engineering 12 hours",
+          "topics": "Introduction, Basic Concepts from General Chemistry, Physical Chemistry, Equilibrium Chemistry, Organic, Biochemistry, Colloid Chemistry and Nuclear Chemistry.",
+          "hours": 12
+        },
+        {
+          "title": "Chemistry of Pollutants 12 hours",
+          "topics": "Chemistry of pollutants in the Atmosphere, Solid, liquid, gaseous and radioactive pollutants in the atmosphere, formation of physical processes of pollutants in the atmosphere, Effects of temperature, solar radiation and wind current on the various pollutants, Effect of gravitational force and rain scrubbing on air pollutants, Chemical properties of air pollutants chemisorption, effect of solar radiation on acidic basic characteristics.",
+          "hours": 12
+        },
+        {
+          "title": "Chemistry of Organic and Inorganic Environmental Compounds 12 hours",
+          "topics": "Environmental relevance of various organic and inorganic compounds, especially those known for their persistence and toxicity, carcinogenic compounds, their chemical properties, environmental fate, and health implications, Hydrocarbons- their sources, degradation mechanisms, and ecological impacts, Surfactants - their chemical structure cationic, anionic, non -ionic, and modified types and their environmental degradation and toxicity profiles, froth formation and their management, Pesticides - highlighting their classification, chemical stability, degradation pathways, and role in environmental pollution, persistent pollutants such as DDT, including historical context, chemical resilience, and its long -term ecological consequences.",
+          "hours": 12
+        },
+        {
+          "title": "Toxicity of Synthetic and Natural Compounds 12 hours",
+          "topics": "Introduction to toxicity of synthetic and naturally occurring toxic compounds, Synthetic polymers, their chemical structure, environmental persistence, and susceptibility to microbial and photochemical degradation, Types of Photosensitizers and biodegradable additives, their role and applications in enhancing environmental breakdown, Lead, its compounds, their physicochemical properties, pathways of environmental dispersion, mechanisms of human exposure, and its toxicological effects, Microplastics, sources, degradation mechanism, effects on water bodies, ground and humans, control measures, Introduction to aflatoxins, mycotoxins, food systems, chemical composition, metabolic pathways, acute toxicity, and carcinogenic potentials.",
+          "hours": 12
+        },
+        {
+          "title": "Analytical Techniques and Environmental Microbiology 12 hours",
+          "topics": "Introduction to analytical methods and advance types commonly used in environmental monitoring and pollutant analysis, and in environmental microbiology, Principles, and applications of optical techniques such as UV -V is absorption spectrophotometry and their types, applications, flame photometry and their types, applications, and fluorometry and their types, applications, specifically in water and wastewater analysis. Chromatographic methods, gas chromato graphy (GC), high-performance liquid chromatography (HPLC), and ion chromatography, introduces the structure and function of microbial cells, microbial classification systems, and fundamental enzyme -mediated metabolic reactions. Introduction to microbial observation, identification, and application in environmental contexts, basics of microscopy, introduction to advanced microscopy like atomic force microscopy, Super-resolution microscopy, FESEM, EDS, etc and micrometry techniques, including measurement, im aging, and interpretation of microbial structures, Methods isolation, methods of microbial isolation, culturing, and staining.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-ENE",
+      "title": "Environmental Impact Assessment",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Evolution of EIA 12 hours",
+          "topics": "Environmental Impact Assessment - Introduction, Stages of EIA, Origin of EIA, Establishments of Procedure- Legislative Option, Project Screening for EIA, Methods, Projects thresholds, Sensitive area criteria Matrices. EIA implementation in India, EIA Notification 1994, Scope studies for E nvironmental Impact Studies (EIS). Preparation for EIS Planning, Public Participation and Review of EIS.",
+          "hours": 12
+        },
+        {
+          "title": "Methods for Impact Assessment 12 hours",
+          "topics": "Background information, interaction matrix methodologies, network methodologies, environmental setting, environmental impact assessment methodology, documentation and selection process, Water Quality Index, Air Quality Index, environmental indices, and ind icators for describing affected environment, Life cycle assessment. Life Cycle Cost Analysis, Introduction of Open LCA, One Click LCA.",
+          "hours": 12
+        },
+        {
+          "title": "Prediction and Assessment of Impact for Air and Noise Environment 12 hours",
+          "topics": "Basic information of air quality, identification of type and quantity of air pollutant, existing air quality and air quality standards, impact prediction and assessment, mitigation, collection of PM10, PM2.5, air pollutant removal from sugar industry and foundry industry. Basic information of noise, existing noise levels and standards, prediction of noise levels and assessment of impact, mitigations.",
+          "hours": 12
+        },
+        {
+          "title": "Prediction and Assessment of Impact for Water and Soil Environment 12 hours",
+          "topics": "Basic information of water quality (Surface water and ground water), water quality standards, identification of impact, prediction of impact and assessment, mitigations, Clean Water Act. Background information of soil environment, soil and ground water standards, prediction and assessment of impact for ground water and soil, mitigations.",
+          "hours": 12
+        },
+        {
+          "title": "Prediction and Assessment of Impact on Cultural and Socioeconomic Environment 12 hours",
+          "topics": "Basic information on cultural resources, rules, and regulations for cultural resources like archaeological, historical structures, Cultural system, prediction and assessment of impact, mitigations. Basic information of socioeconomic environment, description of existing socioeconomic environment, prediction and assessment of impact, mitigation, resettlement, and rehabilitation. Documentation of EIA - Consent form I, Generic structure of EIA report, Summery of EIA, EPA 1986, USEPA, E - Waste Management Rule 2016, Construction and Demolition Waste Management Rules 2016.Categorization of Industries for seeking environmental clearance from concerned authorities, procedure for environmental clearance, procedure for conducting environmental impact assessment report, Procedure for public hearing, post environmental monitoring.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-ENE",
+      "title": "Laboratory- I (On core Subject)",
+      "semester": 1,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-510A-ENE",
+      "title": "Statistical Analysis for Environmental Engineering",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 3,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Introduction to Environmental Data and Descriptive Statistics 08 hours",
+          "topics": "Overview of Environmental Data Types - Continuous, Categorical, Time Series, Spatial Data. Descriptive Statistics- Measures of Central Tendency (Mean, Median, Mode), Measures of Dispersion (Variance, Standard Deviation, Range), Graphical Representation (Histograms, Boxplots, Scatter plots), Data Distribution and Skewness, Introduction to Statistical Software (R/Python).",
+          "hours": 8
+        },
+        {
+          "title": "Probability Distributions and Sampling Techniques 08 hours",
+          "topics": "Basic Probability Theory - Rules of Probability, Bayes’ Theorem, Conditional Probability. Probability Distributions- Discrete Distributions (Binomial, Poisson), Continuous Distributions (Normal, Exponential, Log-Normal). Sampling Techniques - Random, Stratified and Systematic Sampling, Sample Size Determination, Confidence Intervals and Sampling Error.",
+          "hours": 8
+        },
+        {
+          "title": "Inferential Statistics, Hypothesis Testing and Regression Analysis 08 hours",
+          "topics": "Hypothesis Testing- Null and Alternative Hypotheses, Type I and Type II Errors, Z-tests, T-tests, Chi-square tests, Confidence Intervals. Regression Analysis - Simple Linear Regression, Multiple Linear Regression, Model Assumptions and Diagnostics.",
+          "hours": 8
+        },
+        {
+          "title": "Multivariate Analysis and Environmental Modelling 08 hours",
+          "topics": "Multivariate Analysis- Principal Component Analysis (PCA), Cluster Analysis. Environmental Modelling - Monte Carlo Simulation for Environmental Risk Assessment, Model Calibration and Validation.",
+          "hours": 8
+        },
+        {
+          "title": "Time Series Analysis in Environment 08 hours",
+          "topics": "Introduction to time series in environmental data (temperature, rainfall, air quality, etc.), Stationarity, Trend and Seasonality, Autocorrelation and Partial Autocorrelation, ARIMA models for forecasting environmental variables, Spatial autocorrelation (M oran’s I, Geary’s C), Variogram analysis, Kriging and Spatial Interpolation techniques for environmental monitoring (e.g., pollution mapping, groundwater assessment), Climate change data analysis, drought/flood prediction, spatial distribution of pollutant s, integration with GIS tools.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-510B-ENE",
+      "title": "Hydraulic Design & Soft Computing in Water Distribution Network",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 3,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Water Supply and Distribution",
+          "topics": "Systems 08 Hours Components of water supply systems- Sources, intake structures, treatment, storage, and distribution, Types of water distribution systems - Gravity, pumping, combined, Layouts - Dead-end, grid -iron, radial, ring systems, Design considerations - Population forecasting, water demand estimation, fire demand, Pipe materials and selection, Hydraulic parameters - Pressure, velocity, flow, head loss, H ead loss equations - Darcy-Weisbach, Hazen-Williams.",
+          "hours": null
+        },
+        {
+          "title": "Network Design and Simulation Tools",
+          "topics": "Pipe network analysis - Continuity, energy equations, Design methods - Hardy Cross method, Linear method, Introduction to software tools (any freeware), Network modelling- Creating, simulating, and analysing networks, Scenario management and demand pattern simulation, Model calibration and validation.",
+          "hours": 8
+        },
+        {
+          "title": "Government Initiatives, Policies and Smart Water Management",
+          "topics": "National Water Policies (1987, 2002, 2012) & Sustainable Development Goals (SDG6), Jal Jeevan Mission (JJM)- FHTC targets, IoT/SCADA/GIS integration, greywater reuse , AMRUT 2.0- Urban water reforms, NRW reduction, SCADA monitoring , Climate-resilient infrastructure and NA FCC funding, Institutional framework- Ministry of Jal Shakti, CPHEEO, NIUA, BIS, National dashboards, IMIS portal, PPP models, capacity building.",
+          "hours": 8
+        },
+        {
+          "title": "Soft Computing and Advanced Case Studies",
+          "topics": "Soft computing applications in WTP and network design, GAs for network optimization, ANNs for demand forecasting, Fuzzy logic for leak detection/fault diagnosis, Hybrid models (ANN -GA, Fuzzy- ANN), Comparison with traditional methods, Smart water networks a nd IoT integration, Sustainability, resilience, and research trends, Real-world case studies",
+          "hours": 8
+        },
+        {
+          "title": "Operation, Maintenance and Asset Management",
+          "topics": "Operation, Maintenance and Asset Management in Water Distribution Systems: routine inspection, valve and pump maintenance, pipeline flushing, pressure management, asset inventory and condition assessment, deterioration modelling, life-cycle costing, leak detection methods, pressure zoning, district metered areas (DMA), smart metering for NRW reduction, pu mp scheduling, energy audits, renewable energy integration, tariff structures and cost recovery, PPP models in O&M, benchmarking performance indicators (IBNET), case studies on successful O&M and NRW reduction programs.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-510C-ENE",
+      "title": "Biomedical Waste Management",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 3,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Overview of Biomedical Waste 08 hours",
+          "topics": "Introduction to Biomedical Waste - Definition, types, and categories of biomedical waste (infectious, pathological, sharps, pharmaceuticals, etc.) Sources of Biomedical Waste- Hospitals, clinics, laboratories, diagnostic centers, research institutions, etc. Characteristics of Biomedical Waste- Infectivity, toxicity, and other hazards. Global and National Scenario- International guidelines (WHO) and Indian regulations (Bio- Medical Waste (Management and Handling) Rules, 2016). Legal and Regulatory Framework- Biomedical Waste Management and Handling Rules (2016), Basel Convention, WHO Guidelines on Healthcare Waste Management.",
+          "hours": 8
+        },
+        {
+          "title": "Segregation, Collection, and Storage of Biomedical Waste 08 hours",
+          "topics": "Segregation- Color-coded bins and containers, training healthcare staff. Collection- Methods for ensuring safe handling and transportation of waste. Storage - Guidelines for storing biomedical waste safely in healthcare facilities. Roles and Responsibilities of Stakeholders- Hospitals, waste generators, authorized disposal facilities, regulatory bodies. Health Impacts - Exposure of during BWM and precautions to be taken.",
+          "hours": 8
+        },
+        {
+          "title": "Treatment and Disposal Techniques 08 hours",
+          "topics": "Treatment Technologies - Autoclaving, Incineration, Microwave Treatment, Chemical Disinfection, Mechanical/Physical Treatment (shredding, grinding). Disposal Methods- Landfill disposal, deep burial, and other disposal systems. Factors Affecting Choice of Treatment- Waste composition, volume, toxicity, environmental considerations. Environmental Impacts - Leaching of hazardous materials, Air pollution from incineration, Water contamination.",
+          "hours": 8
+        },
+        {
+          "title": "Waste Minimization and Recycling 08 hours",
+          "topics": "Waste Minimization Techniques - Reducing generation, substitution of chemicals, and reducing waste through product design. Recycling of Biomedical Waste - Feasibility of recycling pharmaceuticals, sharps, etc. Ethical issues in recycling biomedical waste. Emerging Technologies- Plasma arc treatment, pyrolysis, and bioremediation. Sustainable Waste Management- Zero-waste hospitals, Circular economy in healthcare settings, green certifications for healthcare facilities. Case Studies - National and International- Best practices from hospitals and clinics.",
+          "hours": 8
+        },
+        {
+          "title": "Occupational Safety, Monitoring and Risk Management 08 hours",
+          "topics": "Occupational Safety, Monitoring and Risk Management in Biomedical Waste Handling: occupational health and safety practices, use of personal protective equipment (PPE), exposure pathways and risk groups, training and capacity building of healthcare workers, accident and injury reporting systems, needle-stick injury prevention strategies, risk assessment and hazard ranking of biomedical waste, emergency preparedness and spill management, monitoring and audit mechanisms for biomedical waste facilities, environmental monitoring of air, water and soil near treatment/disposal sites, community awareness and public participation, integration of ICT and digital tracking systems for waste monitoring.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-511-ENE",
+      "title": "Laboratory- II (On Elective Subject)",
+      "semester": 1,
+      "type": "Major Elective I",
+      "credits": 1,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-506-ENE",
+      "title": "Solid and Hazardous Waste Management",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        38,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to Solid Waste Management 12 hours",
+          "topics": "Introduction to Solid Waste- Definition, types, classification, and characteristics, Impact of urbanization and consumption patterns, Sustainable Development Goals (SDGs) linkage to waste, Waste management hierarchy and circular economy introduction, Sources and generatio n rates of solid waste in urban and rural areas, Factors affecting solid waste generation, Sampling and characterization - Physical, chemical, and biological characteristics, Environmental and health impacts of improper waste management.",
+          "hours": 12
+        },
+        {
+          "title": "Solid Waste Collection and Transportation 12 hours",
+          "topics": "On-site waste storage- bins, containers, segregation protocols, Primary and secondary collection systems- Hauled container and stationary container systems, Design considerations - manpower, equipment, frequency, service area, Material Recovery Facility (MRF) - clean and dirty MRF, layout, process flow, Use of smart sensors and IoT for bin monitoring and data analytics, Digital tools for Route optimization, Smart sensors, and IoT for collection optimization",
+          "hours": 12
+        },
+        {
+          "title": "Solid Waste Processing and Treatment 12 hours",
+          "topics": "Physical processing - shredding, screening, compaction, magnetic separation, biological treatment - Composting (windrow, in -vessel, vermicomposting), Anaerobic digestion, Thermal treatment - Incineration, RDF, palletization, Plasma gasification, Emerging technologies - Hydrothermal carbonization, Life Cycle Assessment (LCA) of treatment technologies - Energy efficiency, Emission analysis, Resource recovery potential",
+          "hours": 12
+        },
+        {
+          "title": "Landfilling and Disposal 12 hours",
+          "topics": "Site selection, landfill design - cells, liners, leachate collection and treatment, Landfill gas (LFG) generation and utilization (flaring, power generation), Climate impact of landfilling- Methane emissions, Greenhouse gas accounting, Bioreactor landfills - types (aerobic, anaerobic), enhanced stabilization, Long-term monitoring, post -closure care, cover systems, In -situ remediation of legacy dumpsites - Bio- mining for resource recovery, Reclamation for land use . Carbon credits and offsets in waste -to-energy and composting projects, Financing waste management through carbon markets and climate funds, Startups and innovation in the waste sector- Technology development, business models, and impact",
+          "hours": 12
+        },
+        {
+          "title": "Hazardous Waste Management 12 hours",
+          "topics": "Definition and classification based on EPA and CPCB guidelines, Characteristics - ignitability, corrosivity, reactivity, toxicity, Sources - industrial processes, hospitals, e -waste, households, Handling, packaging, storage, and transport protocols (manifest system), Risk assessment- Hazard identification, Exposure pathways, Toxicity and impact evaluation, Site remediation strategies- containment, excavation, in-situ methods, Real-time monitoring of emissions, spills, leachate, Emergency response planning and contingency procedures, Global best practices and international case studies (e.g., USA Superfund, EU standards). Overview of Indian regulations- SWM Rules 2016, HWM Rules 2016, Biomedical, Plastic, E-waste, C&D Rules",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-507-ENE",
+      "title": "Advanced Industrial Wastewater Treatment",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Introduction 12 hours",
+          "topics": "Sources of Pollution- Sources and Characteristics of industrial wastewater, Environmental impacts, Regulatory requirements, generation rates, Prevention vs Control of Industrial Pollution, Toxicity and Bioassay tests, Source reduction techniques, Waste Audit, Evaluat ion of pollution prevention options. Wastewater Treatment - Waste minimization, Zero Effluent Discharge System, Equalization, Neutralization, Oil separation, Flotation, Precipitation, Heavy metal Removal, adsorption, Aerobic and anaerobic biological Treatment, Sequencing batch reactors, High-Rate reactors, Wastewater Reuse.",
+          "hours": 12
+        },
+        {
+          "title": "Treatment Methods 12 hours",
+          "topics": "Treatment Methods - Nitrification and De -nitrification, Phosphorous removal, Heavy metal removal, Membrane Separation Process, Air Stripping, Absorption Processes, Chemical oxidation, Ozonation, Photocatalysis, Wet Air Oxidation, Advanced Oxidation Processes, Evaporation, Ion Exchange, Membrane Technologies, Nutrient removal Disposal of Treated Waste.",
+          "hours": 12
+        },
+        {
+          "title": "Industrial Waste Water Treatment Process-1 12 hours",
+          "topics": "Industrial Waste Study - Manufacturing processes and sources of effluents, characteristics, and composition of effluent and different methods of treatment & disposal of effluent for the following industries- Chemical, fertilizer, petroleum, petro-chemical, paper, sugar, distillery, tannery, food processing, dairy and steel manufacturing.",
+          "hours": 12
+        },
+        {
+          "title": "Industrial Waste Water Treatment Process-2 12 hours",
+          "topics": "Industrial Waste Management- Manufacturing processes and sources, Characteristics, and composition of effluent and different methods of treatment & disposal of effluent for the following industries - Pharmaceutical, Thermal Power plant, Petroleum, Refineries, Tanneries, Atomic Energy Plants, and other Mineral Processing Industries.",
+          "hours": 12
+        },
+        {
+          "title": "Common Effluent Treatment Plant 12 hours",
+          "topics": "Common Effluent Treatment Plants (CETPs) - Location, Need, Technical Aspects, Financial aspects, General Design considerations and principles, Operation & Maintenance Problems, Zero effluent discharge systems, Wastewater reuse. Common problems encountered in management of CETPs. Quality requirements for Wastewater reuse, Industrial reuse, Present status and issues, Disposal on water and land. Residuals of industrial wastewater treatment, Quantification and characteristics of Sludge, Thickening, digestion, conditioning, dewatering and disposal of sludge, Management of RO rejects.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-508-ENE",
+      "title": "Air Pollution & Sustainability Measures",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction of Air Pollution 12 hours",
+          "topics": "Definition, Sources and classification of Air Pollutants, Photochemical smog, Effects of air pollution on health, vegetation & materials, air quality, Global effects of air pollution, Air Pollution Episodes. Meteorology- The atmosphere, zones of atmosphere, scales of meteorology, meteorological parameters, Heat, Wind, Pressure, Moisture and humidity, Rainfall and precipitation, Temperature lapse rate, Maximum mixing depth (MMD), Plume behavior, Effect of topography on pollutant dispersion, effect of air pollutants on meteorology, Air pollution modeling, Minimum stack height as per CPCB norms.",
+          "hours": 12
+        },
+        {
+          "title": "Modeling of Dispersion of Air Pollutants 12 hours",
+          "topics": "Dispersion of Air pollutants. Theories on modeling of Air pollutants. Gaussian model etc. Equations of the estimation of pollutant concentrations. Plume Rise – Equations for estimation. Effective stack height and mixing depths. Introduction to Software based models AERMOD, AirQ+ etc.",
+          "hours": 12
+        },
+        {
+          "title": "Theory of Particulate and Gaseous Pollution Control 12 hours",
+          "topics": "Dilution, Source control, Control by using equipment such as Settling chambers, Cyclones, Fabric Filters, Electrostatic precipitators Wet Scrubbers/Wet Collectors, Design, and principle of these air pollution control units. Types of gaseous pollution control methods – absorption, adsorption and combustion processes, SOx Control Technology, Desulfurization of flue gas emissions, NOx Control Technology",
+          "hours": 12
+        },
+        {
+          "title": "Air pollution Monitoring and Management 12 hours",
+          "topics": "Existing & Revised Environmental guidelines for siting of Industries, Environment Management plan, stack emission standard, ambient air quality standards, stack emission monitoring, ambient air quality monitoring, ambient air quality survey, Introduction t o National Air Quality Monitoring Programme, Sustainable measures like stricter vehicle regulations, anti-smog technologies, green initiatives, and multi-sectoral action plans",
+          "hours": 12
+        },
+        {
+          "title": "Automobile Pollution 12 hours",
+          "topics": "Vehicular emissions, Motor fuel combustion, Automobile emission control. Use of Electric Vehicles and sustainable measures to use public transport, cycling etc, Odour pollution - Theory of Odour, Sources of Odour, Measurement of Odour, Odour control method, Indoor Air Pollution- Causes of air pollution, Sources and effects of indoor air pollutants, changes in indoor air quality, Control of indoor air pollutants, air cleaning systems, Cigarette smoke",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-509-ENE",
+      "title": "Laboratory-III (On Core Subject)",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        45,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-512A-ENE",
+      "title": "Climate Change & Sustainable Development",
+      "semester": 2,
+      "type": "Major Elective II",
+      "credits": 3,
+      "pages": [
+        46,
+        48
+      ],
+      "units": [
+        {
+          "title": "Climate Change- Past, Present and Future 08 hours",
+          "topics": "Climate Systems and Earth - Atmospheric, oceanic, cryosphere and land interactions, basics of radiation processes, greenhouse gas effects, feedback mechanisms, climate sensitivity , Factors influencing climate, Causes of Climate Change - Natural vs anthropogenic, Impact on Human Society and Economics, The need for mitigation and adaptation strategies. climate -resilient developmental strategy. Future Cl imate- Climate feedback mechanisms, climate predictability, future climate projections, potential socio-economic consequences, climate risk assessment for civil, business, agricultural, and financial sectors.",
+          "hours": 8
+        },
+        {
+          "title": "Climate Change impacts and Mitigation Strategy 08 hours",
+          "topics": "Climate Change Impacts- Changing air quality , health issues, heat stress, water scarcity , shrinking glaciers, increasing frequency of droughts and floods, food security, migration, employment, trade, loss of biodiversity, decreased ecological resilience etc. Mitigation Strategy - AI and sensor technology for Climate Change prediction, Data collection - satellites, IoT sensors, remote sensing, Sensor networks for air quality, temperature, humidity, soil moisture, Low -power de vices (e.g., Arduino, Raspberry Pi) & Application - Smart farming, energy - efficient buildings etc.",
+          "hours": 8
+        },
+        {
+          "title": "Sustainability at Global and National Level 08 hours",
+          "topics": "Policies for Sustainability- Sustainable Development Goals (SDG) and its genesis, Rio Earth Summit, Kyoto Protocol, Paris Agreement, Net Zero Targets, Carbon Neutrality, Nationally Determined Contributions (NDC), Indias stride towards achievement of SDG’s, SDG India Index, National Indicator Framework, India’s Panchamrit Strategy.",
+          "hours": 8
+        },
+        {
+          "title": "Sustainable Designs 08 hours",
+          "topics": "Sustainable Design - Sustainability Challenges, Introduction to NBC with special reference to Sustainability, Green Building Design, Green Material for Green Products, Product Design and Energy Efficiency, Life Cycle Assessment , Circular Economy Business Model, Sustainable Supply Chain Management, Introduction to Green Computing and sustainability in IT. Clean Energy etc.",
+          "hours": 8
+        },
+        {
+          "title": "Corporate Sustainability 08 hours",
+          "topics": "Corporate Sustainability - Sustainability reporting, Carbon accounting and its challenges, Carbon Boundary Setting, GHG Inventory, GHG Protocol, Materiality Assesment, Science Based Target Initiatives (SBT’s), Emission Trading System, Green Finance, Green Washing, CSR for sustainability, ESG reprting- BRSR, GRI etc., ISO Family of certification, Emission and energy audit of buildings, industries.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-512B-ENE",
+      "title": "Artificial Intelligence and Environmental Engineering",
+      "semester": 2,
+      "type": "Major Elective II",
+      "credits": 3,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Basics of AI and Environmental Data 08 hours",
+          "topics": "Introduction to Artificial Intelligence (AI) in the context of Environmental Engineering, transparency, fairness, and limitations, introduction to types of learning -supervised, unsupervised, deep learning. Introduction to data such as SCADA, PLC, Cloud integration, and Internet of Things system with respect to application in environmental engineering.",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Machine Learning 08 hours",
+          "topics": "Introduction to common machine learning models, introduction to linear regression classification models like decision trees (e.g., labeling contaminated vs safe zones), and clustering (e.g., grouping similar pollution zones). tools like Excel, Python (Colab) and non-coders tools in modelling.",
+          "hours": 8
+        },
+        {
+          "title": "AI and Remote Sensing 08 hours",
+          "topics": "Introduction to sensors in environmental monitoring, satellite images, and drone data, Support decision- making using AI, smart planning for waste collection, air pollution control, remote sensing platforms such as Google Earth Engine, Bhuvan, ISRO, NRSC, I ntroduction to smart sensors, their types, and applications.",
+          "hours": 8
+        },
+        {
+          "title": "Management and Applications of AI 08 hours",
+          "topics": "Applied aspects of AI in achieving sustainability within environmental management. Topics include the use of AI in water resource management such as smart irrigation, water quality prediction, and leakage detection; air quality monitoring through real-time prediction of pollutants and mitigation strategies; and waste management using AI for route optimization, recycling, and circular economy ap plications. The role of AI in climate change mitigation, carbon footprint estimation, renewable energy optimization, and biodiversity monitoring is also emphasized. The unit concludes with a discussion on ethics, governance, and responsible use of AI in environmental decision-making, along with case studies of successful global and local applications.",
+          "hours": 8
+        },
+        {
+          "title": "Applications of AI in achieving SDGS 08 hours",
+          "topics": "The role of AI in climate change mitigation, carbon footprint estimation, renewable energy optimization, and biodiversity monitoring is also emphasized. The unit concludes with a discussion on ethics, governance, and responsible use of AI in environmental decision -making, along with case studies of successful global and local applications.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-512C-ENE",
+      "title": "Air & Water Quality Modelling",
+      "semester": 2,
+      "type": "Major Elective II",
+      "credits": 3,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Modeling Concepts and Water Quality Modeling 08 hours",
+          "topics": "Casual and statistical models -Characteristics- Steps in model development - Importance of model building. - conservation of mass and mass balance – calibration and verification of models; Transport phenomena – Advection, diffusion, dispersion, simple tra nsport models; chemical reaction kinetics – Law of mass action, Rate constants, reaction order, types of reactions, equilibrium principles Water Quality Modeling- Water quality models – Historical development – Mas s balance equation – Streeter - Phelps Equation – Modification to Streeter – Phelps Equation – Waste load allocations – Dissolved oxygen in Rivers and estuaries, Water law, Groundwater ownership, Legal aspects of environment systems, Principles of law applied to water rights and water allocation",
+          "hours": 8
+        },
+        {
+          "title": "Water Quality Models and Historical Development 08 hours",
+          "topics": "Water Quality Models - Surface and sub surface water quality models, Lake Water Quality Models - Models for Nitrogen, Bacteria, Phosphate and toxicants - Ground Water Quality Modeling - Contaminant solute transport equation, Numerical methods. Water Quality Index- Categories of water quality index. Determination of water quality index (WQI) - Industrial and municipal effluent index, ambient water quality index, combined water quality index and Delphi method.",
+          "hours": 8
+        },
+        {
+          "title": "Air Pollution Modelling & Air Quality Models 08 hours",
+          "topics": "Air Pollution Modeling- Chemistry of air Pollutants - Atmospheric reactions, sinks for air pollution – Transport of air Pollutants – Meteorological settling for dispersal of air pollutant’s vertical structure of temperature and stability, atmosphere, transport, and diffusion of s tack emission –atmospheric characteristics significant to transport and diffusion of stack emission – stack plume characteristics. Air Quality Models - Types modeling technique, modeling for non -reactive pollutants, single source, short term impact, multiple sources and area sources, fixed box models- diffusion models.",
+          "hours": 8
+        },
+        {
+          "title": "Gaussian Plume Derivative 08 hours",
+          "topics": "Gaussian plume derivative- modification of Gaussian plume equation- long term average multiple cell model – receptor oriented and source -oriented air pollution models- model performance, accuracy and utilization.",
+          "hours": 8
+        },
+        {
+          "title": "Air Quality Index",
+          "topics": "Air quality index - categories of air quality index, determination of air quality index (AQI) - National AQI, Extreme value indices, regional indices",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-513A-ENE",
+      "title": "Hydraulic Design & Soft Computing in Design of Sewerage System",
+      "semester": 2,
+      "type": "Major Elective III",
+      "credits": 3,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Sewerage System Design",
+          "topics": "Types of sewerage systems - separate, combined, partially combined, Estimation of dry weather flow and peak flow factors, Hydraulic characteristics of sewage and stormwater, Design criteria as per CPHEEO, BIS, and local norms, Sewer appurtenances and their functions",
+          "hours": 8
+        },
+        {
+          "title": "Hydraulic Designs and Software Applications",
+          "topics": "Open channel vs pressure flow design, Design of sewer sections- circular, egg-shaped, and rectangular, Application of Manning’s equation and self -cleansing criteria, Slope and velocity considerations for gravity sewers, Hydraulic modeling under unsteady flow conditions , Optimization of sewer design using GA and PSO, ANN for flow and infiltratio n forecasting, Fuzzy logic for decision -making in sewer rehabilitation, Hybrid techniques - Neuro-fuzzy and GA -ANN models, Data -driven modeling using machine learning for sewer health monitoring",
+          "hours": 8
+        },
+        {
+          "title": "Computing for Sewerage System",
+          "topics": "Overview of soft computing- fuzzy logic, genetic algorithms (GA), artificial neural networks (ANN), particle swarm optimization (PSO), Differences from conventional computation, Applications in civil and environmental engineering, Introduction to Tools and platforms- MATLAB, Python (scikit-learn, TensorFlow)",
+          "hours": 8
+        },
+        {
+          "title": "Emerging Technologies in System Design",
+          "topics": "Optimization of sewer design using GA and PSO, ANN for flow and infiltration forecasting, Fuzzy logic for decision -making in sewer rehabilitation, Hybrid techniques - Neuro-fuzzy and GA -ANN models, Data -driven modeling using machine learning for sewer healt h monitoring , Smart sewer systems and digital twins, Real -world case studies integrating AI and simulation tools, IoT and real - time monitoring in sewer systems, Climate resilience and stormwater adaptation strategies, Capstone project- Complete design and optimization of a sewer network",
+          "hours": 8
+        },
+        {
+          "title": "Real World Case Studies in Sewer System Design Using AI",
+          "topics": "Real-world case studies integrating AI and simulation tools, IoT and real -time monitoring in sewer systems, Climate resilience and stormwater adaptation strategies, Capstone project - Complete design and optimization of a sewer network",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-513B-ENE",
+      "title": "Environmental Sanitation",
+      "semester": 2,
+      "type": "Major Elective III",
+      "credits": 3,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "Epidemiology and Rodent Control 08 hours",
+          "topics": "Communicable diseases, Micro -organisms, Methods of communication, Diseases communicated by discharges of intestines, nose and throat, other communicable diseases and their control. Mosquitoes, life cycles, factors of diseases control methods – natural and chemical, Fly control methods and prevention of fly breeding, Rodents and public health, plague control methods, engineering and bio - control methods, disinfectants (Phenols, Lime, Chlorine, Ammonium compounds), Insecticides (DDT, BHC).",
+          "hours": 8
+        },
+        {
+          "title": "Industrial and Rural Sanitation 08 hours",
+          "topics": "Schools, Public Buildings, Hospitals, eating establishments, Swimming pools – Study of factors like Light, Heat, Ventilation, Plumbing fixtures, Cleanliness and maintenance and comfort. Industrial Hygiene- Occupational Hazards, Industrial poisons, Dust, Noise, Heat, Compressed air, Vibrations, and shocks- Industrial plant sanitation. Rural Sanitation- Rural areas, Population habits and environmental conditions, problems of water supply and sanitation aspects, low-cost excreta disposal systems. Rural sanitation improvement schemes. Case studies on sanitation. Emergency Sanitation practices during Natural calamity. Fecal Sludge Management in India, Methods of Fecal Sludge Management.",
+          "hours": 8
+        },
+        {
+          "title": "Water supply in Buildings and Building Drainage 08 hours",
+          "topics": "Plumbing terminology. Definitions, Water supply in building. The water connection, The water storage, Storage tanks-domestic storage tanks, Flushing Stora ge Tanks. Principles Governing Design of Water supply in buildings, Lay out. Estimating Requirements, Design of Water pipes. Traps, Gully Traps, Intercepting Traps or Interceptors. Sanitary Fittings —Water Closets. Flushing Cistern- Wash Basin or Lavatory Basin, Sink, Urinals. The Plumbing System of Drainage—Single Stack System, One -Pipe System. Choice of System, Principles governing Design of Building Drainage, Layout. Quantity of Flow. Pipes for drainage, Drainage design of high-rise buildings.",
+          "hours": 8
+        },
+        {
+          "title": "Environmental Quality and Public Health 08 hours",
+          "topics": "Indoor Environmental Quality and Public Health, addressing sources of indoor air pollution such as CO₂, VOCs, radon, and mold, their health impacts, indoor air quality standards and m onitoring techniques, role of HVAC systems in maintaining indoor safety.",
+          "hours": 8
+        },
+        {
+          "title": "Environmental Quality and Public Health 08 hours",
+          "topics": "Introduction to Sick Building Syndrome (SBS), green building practices and WELL / LEED certifications, and case studies of indoor air quality improvement in public facilities, Unit VI deals with Climate Change and Environmental Health Risks, highlighting its effects on water supply and sanitation infrastructure.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-513C-ENE",
+      "title": "Environmental Legislation & Management Systems",
+      "semester": 2,
+      "type": "Major Elective III",
+      "credits": 3,
+      "pages": [
+        57,
+        58
+      ],
+      "units": [
+        {
+          "title": "National Environmental Policies 08 hours",
+          "topics": "Indian Constitution and Environmental Protection – National Environmental policies – Precautionary Principle and Polluter Pays Principle – Concept of absolute liability – multilateral environmental agreements and Protocols – Montreal Protocol, Kyoto agreement, Rio declaration, Functions and Constitutions of SPCB and CPCB, Various five-year plans.",
+          "hours": 8
+        },
+        {
+          "title": "Power & Functions of Regulatory Agencies 08 hours",
+          "topics": "Water (P & Cp) Act, 1974 - Power & functions of regulatory agencies - responsibilities of Occupier, Provision relating to prevention and control, Scheme of Consent to establish, Consent to operate – Conditions of the consents – Outlet – Legal sampling procedures, State Water Laboratory – Appellate Authority – Penalties for violation of consent conditions etc. Provisions for closure/directions in apprehended pollution situation.",
+          "hours": 8
+        },
+        {
+          "title": "Prevention and Control 08 hours",
+          "topics": "Air (P & Cp) Act, 1981 - Power & functions of regulatory agencies - responsibilities of Occupier, Provision relating to prevention and control, Scheme of Consent to establish, Consent to operate – Conditions of the consents – Outlet – Legal sampling procedures, State Air Laboratory – Appellate Authority – Penalties for violation of consent conditions etc. Provisions for closure/directions in apprehended pollution situation.",
+          "hours": 8
+        },
+        {
+          "title": "Coastal Zone Regulation 08 hours",
+          "topics": "Environment (Protection) Act 1986 - Genesis of the Act – delegation of powers – Role of Central Government - Latest EIA Notification – Sitting of Industries – Coastal Zone Regulation - Responsibilities of local bodies mitigation scheme etc., for Municipal Solid Waste Management.",
+          "hours": 8
+        },
+        {
+          "title": "Contemporary Environmental Issues 08 hours",
+          "topics": "Global Environmental Issues – Biodiversity loss, Climate change, Ozone layer depletion. Sea level rise. International efforts for environmental protection. National Action Plan on Climate Change (Eight National missions – National Solar Mission, National Mission for Enhanced Energy Efficiency, National Mission on Sustainable Habitat, National Water Mission, National Mission for Sustaining the Himalayan Ecosystem, National Mission for a 10 ‘Green India’, National Mission for Sustainable Agriculture, National Mission on Strategic Knowledge for Climate Change).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-514-ENE",
+      "title": "Technical Seminar- I",
+      "semester": 2,
+      "type": "Seminar I",
+      "credits": 2,
+      "pages": [
+        59,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-ENE",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        61,
+        62
+      ],
+      "units": [
+        {
+          "title": "Introduction 12 hours",
+          "topics": "Research: Meaning of research, types of research, process of research, Sources of research problem, Criteria / Characteristics of a good research problem, Errors in selecting a research problem, Scope and objectives of research problem, formulation of research hypotheses. Search for causation. Research Proposal: Developing a Research Proposal Format of research proposal, Individual research proposal, Institutional research proposal, Significance, objectives, methodology, Funding for the proposal, Different funding agencies. Framework for the planning",
+          "hours": 12
+        },
+        {
+          "title": "Literature Survey & Research Ethics 12 hours",
+          "topics": "Definition of literature and literature survey, need of literature survey, sources of literature, elements and objectives of literature survey, styles of literature survey, and strategies of literature survey. Ethical Issues, Ethical Principles that govern Research, ethically valid Information Sources, Regulatory Compliance.",
+          "hours": 12
+        },
+        {
+          "title": "Data Collection, Sampling, and Scaling 12 hours",
+          "topics": "Classification of data, benefits and drawbacks of data, evaluation of data, methods of data collection, Sampling, sample size, sampling strategy, attitude measurement and scaling, types of measurements, criteria of good measurements, classification of scales.",
+          "hours": 12
+        },
+        {
+          "title": "Preliminary and Advanced Data Analysis 12 hours",
+          "topics": "Testing of hypothesis - concepts and testing, analysis of variance techniques, introduction to non - parametric tests. Validity and reliability, Approaches to qualitative and quantitative data analysis. Correlation and regression analysis, Introduction to factor analysis, discriminant analysis, cluster analysis, multidimensional scaling, Descriptive statistics, Inferential statist ics, multi - dimensional measurement, factor analysis.",
+          "hours": 12
+        },
+        {
+          "title": "Report writing 12 hours",
+          "topics": "Need of effective documentation, importance of report writing, types of reports, report structure, report formulation, Plagiarism. Research briefing, presentation styles, impact of presentation, elements of effective presentation, writing of research paper, presenting and publishing paper, patent procedure",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-ENE",
+      "title": "On Job Training / Internship",
+      "semester": 3,
+      "type": "On Job Training / Internship",
+      "credits": 5,
+      "pages": [
+        63,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-ENE",
+      "title": "Technical Seminar II",
+      "semester": 3,
+      "type": "Seminar II",
+      "credits": 4,
+      "pages": [
+        65,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "PRJ-605-ENE",
+      "title": "Research Project Stage I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        66,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-604-ENE",
+      "title": "Technical Seminar III",
+      "semester": 4,
+      "type": "Seminar III",
+      "credits": 4,
+      "pages": [
+        69,
+        69
+      ],
+      "units": []
+    },
+    {
+      "code": "PRJ-606-ENE",
+      "title": "Research Project – Stage II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        70,
+        71
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

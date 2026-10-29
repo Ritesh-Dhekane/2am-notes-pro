@@ -1,0 +1,1040 @@
+{
+  "id": "be-electronics-engineering-vlsi-design-and-technology-2019-patt-r2-02072026",
+  "kind": "programme",
+  "programme": "B.E. Electronics Engineering (VLSI Design & Technology)",
+  "pattern": "2019",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "404401",
+      "title": "IoT and Embedded Systems",
+      "semester": 7,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Embedded System Overview",
+          "topics": "Embedded Systems: Architecture & Characteristics of ES, Types of Embedded systems, Examples of Embedded Systems. Embedded System On Chip (SOC). Components of Embedded System: Hardware and software Hardware components of Embedded System : Power supply: types, characteristics, selection criteria, Processing Unit, Input devices, Output Devices. Outcomes for Unit I CO1: Identify and understand the unique characteristics and components of embedded systems.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Embedded System Software",
+          "topics": "Introduction to Embedded operating Systems : Operating Systems Concepts, Real time operating systems, and, Task Scheduling, Different OS tasks, Introduction to Real-Time Operating Systems , characteristics, selection criteria, boot loader: U-boot. Outcomes for Unit II CO2: Compare various development boards Arduino, Raspberry pi, Beagle bone.",
+          "hours": 6
+        },
+        {
+          "title": "Sensors, Actuators and Interfacing",
+          "topics": "Sensors : Roles of Sensors & Actuators, Types of sensors ,Active and passive, analog and digital, Contact and no-contact, Absolute and relative Working of Sensors: Position, occupancy and motion, velocity and acceleration, force, pressure, flow, Acoustic, Humidity, light, radiation, temperature, chemical, biosensor, camera. Development boards: Types of boards - Arduino, Raspberry pi, Beagle bone, ESP8266, selection criteria. Interfacing of sensors with development boards. Outcomes for Unit III CO3: Implement interfacing of various sensors, actuators to the development boards.",
+          "hours": 6
+        },
+        {
+          "title": "Embedded System - Application Development",
+          "topics": "Integrated Development Platforms for Application Development in ES environment, SDLC- Requirements, Architecture, Design, Components, Coding, Testing and Deployment. Study of any two Open source IDE for ES application development with respect to any of the two indicated Case studies like Object detection, Traffic Signal and Smart Metering. Outcomes for Unit IV CO4 Design, implement and test an embedded system application.",
+          "hours": 6
+        },
+        {
+          "title": "Internet of Things Overview",
+          "topics": "Introduction of IoT: Definition and characteristics of IoT, Technical Building blocks of IoT, Device, Communication Technologies, Data, Physical design of IoT, IoT enabling technologies, IoT Issues and Challenges- Planning, Costs and Quality, Security and Privacy, Risks Outcomes for Unit V CO5: Configure U-Boot, Understand IoT building blocks.",
+          "hours": 6
+        },
+        {
+          "title": "Communication under IoT",
+          "topics": "IoT Protocols: MQTT, CoAP, XMPP and AMQT, IoT communication models, IoT Communication technologies: Bluetooth, BLE, Zigbee, Zwave, NFC, RFID, LiFi, Wi -Fi, Interfacing of wifi, RFID, Zigbee,NFC with development board. Outcomes for Unit VI CO6: Compare various IoT communication technologies and Design various IoT applications. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404402",
+      "title": "Advanced RTL Simulation and Synthesis",
+      "semester": 7,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Design with VHDL",
+          "topics": "Design Flow, Language constructs, Data objects, Data types, Entity, Architecture & types of modeling, Sequential statements, Concurrent statements, Packages, Sub programs, Attributes, synthesis, Simulations, Synthesis, Efficient coding styles, Hierarchical and flat designs, Partitioning for synthesis, Pipelining, Resource sharing. Outcomes for Unit I CO1: Gain insights into VHDL design.",
+          "hours": 7
+        },
+        {
+          "title": "Digital Design and Issues",
+          "topics": "Sequential synchronous machine design, Moore and Mealy machines, HDL code for Machines, FIFO. Meta- stability and solutions. Noise margin, Fan -out, Skew, Timing considerations, Hazards, Clock distribution, Clock jitter, Supply and ground bounce, Power distribution techniques, Power optimization. Interconnect routing techniques, Wire parasitic, Signal integrity issues. I/O architecture. Outcomes for Unit II CO2: Apply knowledge of real time issues in digital design.",
+          "hours": 6
+        },
+        {
+          "title": "VHDL modeling of Combinational Circuits",
+          "topics": "VHDL Implementation of: Half Adder, Full adder, Half Subtractor, Full Subtractor, Code converters (BCD to Gray, BCD to Excess-3), 2- bit Comparator, Multiplexers, Demultiplexers, and 3:8Decoders. Outcomes for Unit III CO3: Model Combinational sdigital circuit with VHDL, simulate, synthesis and prototype in PLDs. .",
+          "hours": 6
+        },
+        {
+          "title": "VHDL modeling of Sequential Circuits",
+          "topics": "VHDL Implementation of: Clocked SR flipflop, J-K flipflop, D and T flip- flops. Shift registers, Counters (ring counters, twisted ring counters), ripple counters, Mod -ncounters, up/down counters, synchronous counters. Outcomes for Unit IV CO4: Model sequential digital circuit with VHDL, simulate, synthesis and prototype in PLDs.",
+          "hours": 6
+        },
+        {
+          "title": "VHDL modeling of FSM",
+          "topics": "Moore and Mealy machines, State diagram, State table, finite state machine implementation, VHDL Implementation of: Sequence Generator, Sequence detector. Outcomes for Unit V CO5: Model FSM with VHDL, simulate, synthesis and prototype in PLDs.",
+          "hours": 6
+        },
+        {
+          "title": "VLSI Testing and Analysis",
+          "topics": "Types of fault, Need of Design for Testability (DFT), DFT Guideline, Testability, Fault models, Path sensitizing, Test pattern generation, Sequential circuit test, Built In Self Test, JTAG & Boundary scan, TAP Controller. Outcomes for Unit VI CO6: Apply knowledge of testability in design and Build In Self Test (BIST) circuit. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404403",
+      "title": "MOS Device Modeling and Characterization.",
+      "semester": 7,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Electrostatic Principles and Operational Modes of MOS",
+          "topics": "Structures 6 Hrs. A qualitative Description of MOS Transistor operation, contact potentials, MOS Capacitor ,Insulator charges ,two terminal MOS structure: Flat band voltage, Potential balance and charge balance, Effect of Gate-Substrate voltage on Surface Condition, Inversion, Small signal capacitance, Body effect Outcomes for Unit I CO1: Explain MOS transistor operation, flat-band voltage, inversion, and small- signal capacitance.",
+          "hours": null
+        },
+        {
+          "title": "MOSFET Scaling Challenges",
+          "topics": "MOSFET – Regions of operation, Complete all region model, Strong inversion, weak inversion and moderate inversion, Effective mobility, Temperature effects, Short channel MOSFET, Small Dimension Effects, Channel length Modulation, Barrier lowing two dimensional charge sharing and threshold voltage, Punch through, Carrier velocity Saturation, Hot carrier Effects, Scaling, Effects due to thin oxides and high doping, mobility degradation Outcomes for Unit II CO2: To study scaling challenges and short-channel effects in MOSFETs.",
+          "hours": 6
+        },
+        {
+          "title": "Small-Dimension Effects",
+          "topics": "Small channel and thin oxide effects, Carrier velocity saturation, Channel length modulation, Charge sharing, Drain induced barrier lowering, Punch through, Hot carrier effects, Velocity Overshoot Ballistic Operation, Polysilicon depletion, Quantum mechanical effects, Junction leakages, Scaling Outcomes for Unit III CO3: Develop solution to overcome short channel issue.",
+          "hours": 6
+        },
+        {
+          "title": "Device Modeling for Circuit Simulation",
+          "topics": "Small-Dimension Effects-Modelling for Circuits Simulation- Quantum-Mechanical Effects; Gate Current, Junction Leakage, Scaling and New Technologies, Approaches, and Properties of Good Models, Model Formulation Considerations, Parameter Extraction, Compact Models, Benchmark Tests Outcomes for Unit IV CO4: Develop various compact models appropriate for industry.",
+          "hours": 6
+        },
+        {
+          "title": "MOSFET Models",
+          "topics": "Small-Signal Modelling - Conductance Parameter Definitions and Equivalent Circuits, Conductance Parameters Due to Gate and Body Leakage, Transconductance, Source -Drain and Output Conductance, Capacitance Definitions and Equivalent Circuits, Capacitance Evaluation and Properties, y -Parameter Model, RF Models, Capacitance Models, Basic MOSFET models, Comparison of MOSFET Models Outcomes for Unit V CO5: Analyse the frequency response of MOS devices.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced MOSFET Modeling Techniques",
+          "topics": "Advanced MOSFET models for circuit simulators, Surface potential models, inversion charge based models, Compact MOSFET models, threshold voltage-based model models, advanced MOSFET structures such as FINFET Outcomes for Unit VI CO6: Evaluate compact and advanced MOSFET models including FinFETs. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404404(A)",
+      "title": "Industrial Drives & Automation",
+      "semester": 7,
+      "type": "Elective - 3",
+      "credits": 3,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Components of Electrical Drives",
+          "topics": "Electric machines, Power converter, Controllers, Dynamics of electric drive - torque equation - equivalent values of drive parameters- components of load torques types of load – four-quadrant operation of a motor – steady state stability – load equalization – classes of motor duty determination of motor rating. Outcomes for Unit I CO1: Understand significance and design of various components of electrical drives.",
+          "hours": 6
+        },
+        {
+          "title": "DC Motor Drives",
+          "topics": "DC motors & their performance (shunt, series, compound, permanent magnet motor, universal motor, dc servomotor) – braking – regenerative, dynamic braking, plugging –Transient analysis of separately excited motor – converter control of dc motors – analysis of separately excited & series with 1-phase and 3-phase converters ,soft start and field failure protection in DC drives, BLDC motor drive Outcomes for Unit II CO2: Develop, evaluate and analyze the performance of DC motor drives.",
+          "hours": 6
+        },
+        {
+          "title": "Chopper Controlled DC Drives",
+          "topics": "Closed loop control – transfer function of self, separately excited DC motors – linear transfer function model of power converters – sensing and feeds back elements – current and speed loops, P, PI and PID controllers – response comparison – simulation of converter and chopper fed DC drive Outcomes for Unit III CO3: Design, estimate and examine the performance of chopper Controlled DC drives.",
+          "hours": 6
+        },
+        {
+          "title": "PWM Drives for Induction Motors",
+          "topics": "Multi quadrant drives – rotor resistance control – slip torque characteristic – torque equations, constant torque operation – slip power recovery scheme – torque equation – torque slip characteristics – power factor – methods of improving power factor – limited sub synchronous speed operation – super synchronous speed operation Outcomes for Unit IV CO4: Adapt, choose and categorize performance of PWM inverter drives for Induction motors.",
+          "hours": 6
+        },
+        {
+          "title": "Synchronous Motor Drives",
+          "topics": "Synchronous motor drives – speed control of synchronous motors – adjustable frequency operation of synchronous motors – principles of synchronous motor control – voltage source inverter drive with open loop control Outcomes for Unit V CO5: Elaborate, interpret and analyze the performance of Synchronous motor drive.",
+          "hours": 6
+        },
+        {
+          "title": "Stepper Motors",
+          "topics": "Constructional features, principle of operation, modes of excitation, single phase stepping motors, torque production in variable Reluctance (VR) stepping motor, Dynamic characteristics, Drive systems and circuit for open loop control, Closed loop control of stepping motor, microprocessor based controller. Outcomes for Unit VI CO6: Develop, explain and examine performance of stepper motor control. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404404(B)",
+      "title": "Reconfigurable computing",
+      "semester": 7,
+      "type": "Elective - 3",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Reconfigurable Computing",
+          "topics": "Types of computing and introduction to RC: General Purpose Computing, Domain -Speciﬁc Processors, Application Speciﬁc Processors; Reconﬁgurable Computing, Fields of Application; General -Purpose Computing Issues; Outcomes for Unit I CO1: Explain the fundamentals and applications of reconfigurable computing.",
+          "hours": 6
+        },
+        {
+          "title": "Architecture and Design Characteristics of",
+          "topics": "Reconfigurable Devices 6 Hrs. Reconﬁgurable Device Characteristics, Conﬁgurable, Programmable, and Fixed-Function Devices; Metrics: Density, Diversity, and Capacity; Interconnects, Requirements, Delays in VLSI Structures; Partitioning and Placement, Routing; Computing Elements, LUTs, LUT Mapping, ALU and CLBs; Retiming. Outcomes for Unit II CO2: Describe the architecture and design characteristics of reconfigurable devices.",
+          "hours": null
+        },
+        {
+          "title": "Reconfigurable Processing Fabric",
+          "topics": "Architectures 6 Hrs. Reconﬁgurable Processing Fabric Architectures: Fine -grained & Coarse -grained structures; RPF Integration into Traditional Computing Systems: Independent Reconﬁgurable Coprocessor Architectures, Loosely coupled RPF and processor architecture, Tightly coupled RPF and processor. Outcomes for Unit III CO3: Analyze different reconfigurable processing fabric architectures.",
+          "hours": null
+        },
+        {
+          "title": "Reconfigurable computing systems and",
+          "topics": "Reconfiguration management 7 Hrs. Early systems of Reconfigurable computing: PAM, VCC, Splash, PRISM, Teramac, Cray, SRC, non-FPGA research, Other issues ; Reconfiguration Management: Reconfiguration, Configuration architectures, managing reconfiguration process, reducing reconfiguration time, configuration security. Outcomes for Unit IV CO4: Evaluate reconfigurable computing systems and reconfiguration techniques",
+          "hours": null
+        },
+        {
+          "title": "FPGA Design Flow and SoPC",
+          "topics": "Implementation 7 Hrs. Implementation: Integration, FPGA Design Flow, System On A Programmable Chip; Introduction to SoPC, Adaptive Multiprocessing on Chip. Reconfiguration Project Design Approaches: J-Bit, Modular, Early Access, Vivado. Outcomes for Unit V CO5: Apply FPGA design flow and SoPC concepts for system implementation.",
+          "hours": null
+        },
+        {
+          "title": "Applications of Reconfigurable",
+          "topics": "Computing 6 Hrs. Reconﬁgurable devices for Rapid prototyping, Non-frequently reconﬁgurable systems, Frequently reconﬁgurable systems; Compile-time reconﬁguration, Run-time reconﬁguration; RC Applications: Implementing applications with FPGAs, various applications and use of reconfiguration; Video Streaming, Distributed arithmetic, Adaptive Controller, Adaptive cryptographic systems, Software Defined Radio, High-Performance Computing, Automatic target recognition systems. Outcomes for Unit VI CO6: Assess reconfigurable computing solutions for various applications. Learning Resources",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404404(C)",
+      "title": "Cloud Computing",
+      "semester": 7,
+      "type": "Elective - 3",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Cloud Computing",
+          "topics": "Introduction to Cloud Computing, History of Cloud Computing, Characteristics of Cloud Computing, Cloud Types: NIST, Cloud cube, Cloud service models, Cloud Computing deployment models, Exploring the Cloud Computing Stack, Advantages, Disadvantages and Applications of cloud computing. Outcomes for Unit I CO1: Understand the basic concepts of Cloud Computing.",
+          "hours": 6
+        },
+        {
+          "title": "Cloud Service Models",
+          "topics": "Introduction and benefits of Cloud services, Characteristics, benefits, applications of different cloud service models, Software as a service(SaaS), Platform as a service (PaaS), Infrastructure as a service ( IaaS), Network as a service (NaaS), Identity as a service (IdaaS), Database as a service (DbaaS), Comparison of cloud services. Outcomes for Unit II CO2: Describe the underlying principles of different Cloud Service Models.",
+          "hours": 6
+        },
+        {
+          "title": "Virtualization",
+          "topics": "Introduction to Virtualization, Difference between Cloud Computing and Virtualization Types of Virtualization: Hardware, Software, Operating system, Server, Storage, Methods of implementing storage Virtualization, Network Virtualization Types, Advantages, Disadvantages, Virtualization Architecture and Software, Virtual Clustering, Applications of Virtualization. Outcomes for Unit III CO3: Classify the types of Virtualization.",
+          "hours": 6
+        },
+        {
+          "title": "Service Oriented Architecture and Cloud",
+          "topics": "Security 7 Hrs. Cloud Computing Architecture (COA): Design principles, Cloud computing life cycle (CCLC), Cloud computing reference architecture, Service Oriented Architecture (SOA) characteristics and fundamental components. Cloud Security: Cloud CIA security model (Confidentiality, Integrity and Availability), Cloud computing security architecture, Service provider security issues, Cloud Security Issues and challenges, Security issues in virtualization, Host Security, Data Security, Firewalls. Outcomes for Unit IV CO4: Examine the Cloud Architecture and understand the importance of Cloud Security.",
+          "hours": null
+        },
+        {
+          "title": "Cloud Environment and Application",
+          "topics": "Development 7 Hrs. Cloud Platforms : Google App Engine, Compute Services, Storage Services, Communication Services, Amazon Web Services Architecture and core concepts, Application Lifecycle, Cost Model, Microsoft Azure Cloud Services Azure core concepts, Windows Azure Platform Appliance. Outcomes for Unit V CO5: Develop applications on Cloud Platforms.",
+          "hours": null
+        },
+        {
+          "title": "Distributed Computing and Internet of Things",
+          "topics": "Distributed Computing: Need, distributed computing vs. Cloud computing, Enabling Technologies for the Internet of Things, Innovative Applications of the Internet of Things, Online Social and Professional Networking. Outcomes for Unit VI CO6: Evaluate Distributed Computing and the Internet of Things. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404404(D)",
+      "title": "AI for VLSI",
+      "semester": 7,
+      "type": "Elective - 3",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "Artificial Intelligence: definition, history, and scope, Types of AI: Narrow AI, General AI, Intelligent systems, AI applications in engineering and electronics, Intelligent agents: structure, environment, and performance measures, Problem formulation in AI, Basic uninformed and informed search techniques. Outcomes for Unit I CO1: Explain fundamentals of Artificial Intelligence and intelligent systems.",
+          "hours": 6
+        },
+        {
+          "title": "Machine Learning Fundamentals",
+          "topics": "Introduction to machine learning and data -driven modeling, Learning paradigms: supervised, unsupervised, and reinforcement learning, Regression techniques: linear and logistic regression, Classification algorithms: K-Nearest Neighbors, Decision Trees, Naive Bayes ,Model evaluation metrics: accuracy, precision, recall, confusion matrix, Over fitting, under fitting, and cross-validation. Outcomes for Unit II CO2: Analyze supervised and unsupervised machine learning algorithms.",
+          "hours": 6
+        },
+        {
+          "title": "Deep Learning and Optimization Techniques",
+          "topics": "Artificial Neural Networks: perceptron and multilayer perceptron, Back propagation algorithm, Deep learning architectures, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Optimization techniques: Gradient Descent, Genetic Algorithms, Particle Swarm optimization, Regularization and hyper parameter tuning. Outcomes for Unit III CO3: Apply deep learning and optimization techniques to engineering problems.",
+          "hours": 6
+        },
+        {
+          "title": "AI in VLSI Design and Synthesis",
+          "topics": "Role of AI in VLSI design automation ,AI -based logic synthesis and optimization ,Machine learning for design space exploration (DSE) ,AI-driven performance, power, and area optimization, AI-assisted high- level synthesis, Case studies of AI-enabled EDA tools Outcomes for Unit IV CO4: Apply AI techniques in VLSI synthesis and design space exploration.",
+          "hours": 7
+        },
+        {
+          "title": "AI in VLSI Testing and Verification",
+          "topics": "Challenges in VLSI testing and verification, Machine learning for fault detection and diagnosis, AI-based test pattern generation, Intelligent Built-In Self-Test (BIST) techniques, AI for yield prediction and defect classification Outcomes for Unit V CO5: Analyze AI-based approaches for VLSI testing and fault diagnosis.",
+          "hours": 7
+        },
+        {
+          "title": "AI-based Physical Design and Intelligent VLSI Systems",
+          "topics": "AI for floor planning, placement, and routing, Machine learning for timing analysis and congestion prediction, AI-based power and thermal management, Hardware accelerators for AI (AI chips, NPUs, TPUs), AI-enabled adaptive and self-healing VLSI systems, Future trends: autonomous chip design and AI-native EDA tools. Outcomes for Unit VI CO6: Evaluate AI-driven physical design and intelligent VLSI systems. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404405(A)",
+      "title": "Electronics product Design",
+      "semester": 7,
+      "type": "Elective - 4",
+      "credits": 3,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Electronic Product Design",
+          "topics": "Overview of System Engineering, System Perspectives, Documentation, Concept Development, Requirements, Design Development, Rapid Prototyping and Field Testing, Validation, Verification and Integration, Maintenance and Life Cycle Costs, Failure, Iteration and Judgment, Good Engineering, Architecturing, Design Concerns and Heuristics, Teamwork and Trust. Outcomes for Unit I CO1: Understand and explain design flow of design of electronics product.",
+          "hours": 6
+        },
+        {
+          "title": "Circuit Design and Testing Methods",
+          "topics": "From Symbols to Substance, Convert Requirements into Design, Reliability, Fault Tolerance, High Speed Design, Low Power Design, Noise and Error Budget, Standard Data Buses and Networks, Reset and Power Failure Detection, Interface: Inputs, Outputs, Breadboards, Evaluation Boards and Prototypes. Outcomes for Unit II CO2: Associate with various circuit design issues and testing.",
+          "hours": 6
+        },
+        {
+          "title": "Software Design and Testing Methods",
+          "topics": "Types of Software, Traditional Software Life Cycle, Models, Metrics and Software Limitations, Risk Abatement and Failure Preventions, Software Bugs and Testing, Good Programming Practice, User Interface, Embedded, Real Time Software, Case Studies and Design Examples. Outcomes for Unit III CO3: Inferring different software designing aspects and the Importance of product test & test specifications.",
+          "hours": 6
+        },
+        {
+          "title": "PCB Design",
+          "topics": "Circuit Boards, Component Placement, Routing Signal Traces, Grounds, Returns and Shields, Connectors and Cables, Design for Manufacture, Testing and Maintenance, Power Conversion Choices, Power Distribution, Line Conditioning, Electromagnetic Interference, Heat Transfer, Mechanisms For Cooling, Heat Sink Selection, Heat Pipes and Thermal Pillows, Fans and Forced Cooling, Liquid Cooling, Evaporation and Refrigeration, Trade-Offs In Design. Outcomes for Unit IV CO4: Summarizing printed circuit boards and different parameters.",
+          "hours": 6
+        },
+        {
+          "title": "Product Debugging and Testing",
+          "topics": "Steps of Debugging, Techniques for Troubleshooting, Characterization, Electromechanical Components, Passive Components, Active Components, Active Devices, Operational Amplifier, Analog -Digital Conversion, Digital Components, Inspection and Test of Components, Sim ulation, Prototyping and Testing, Integration, Validation and Verification. Procurement, Manufacturing, Maintenance and Repair. Outcomes for Unit V CO5: Estimating assorted product design aspects.",
+          "hours": 6
+        },
+        {
+          "title": "Documentation",
+          "topics": "Definition, Need, Types of Documentation, Records, Accountability and Liability. Audience. Preparation, Presentation, Preservation of Documents. Methods of Documentation, Visual Techniques, Layout of Documentation, Bill of Material. Outcomes for Unit VI CO6: Exemplifying special design considerations and importance of documentation. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404405(B)",
+      "title": "Semiconductor Packaging and Testing",
+      "semester": 7,
+      "type": "Elective - 4",
+      "credits": 3,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Introduction to Semiconductor Packaging",
+          "topics": "Introduction to semiconductor packaging families – THP, SMP, CSP, BGA, QFP,DIP, WLP, 2.5D and 3D, and MEMS - Basic schematic , Definition , and comparisons with respect to mounting type, density, cost , applications etc. Front end and backend manufacturing process, OSAT Ecosystem. Outcomes for Unit I CO1: Understand the basics and evolution of semiconductor packaging.",
+          "hours": 6
+        },
+        {
+          "title": "Traditional Packaging Technology",
+          "topics": "Traditional Packaging Technologies: Exploring different packaging technologies, such as leaded and leadless packages, surface mount technology (SMT), and ball grid array (BGA). Discuss the purpose and characteristics of each technology and explain the factors influencing technology selection. Outcomes for Unit II CO2: Explain traditional semiconductor packaging technologies.",
+          "hours": 6
+        },
+        {
+          "title": "Advance Packaging Technology",
+          "topics": "Introduction to Advanced Packaging: Definition of advanced packaging and its importance in meeting evolving technology requirements. Explaining the benefits and challenges associated with advanced packaging. Exploring different integrated technologies of advanced packaging such as 2.5D, and 3D packaging. Outcomes for Unit III CO3: Understand advanced packaging concepts such as 2.5D and 3D.",
+          "hours": 6
+        },
+        {
+          "title": "Advance Packaging Interconnects and Materials",
+          "topics": "Advanced Packaging Interconnects: Working principle and considerations on interconnect technologies used in advanced packaging, such as flip chip bumping, solder balls, and through-silicon vias (TSVs). Advanced Packaging Materials and Substrates: Detail of the substrates and materials used in advanced packaging- Organic substrate, build up substrates, Redistribution layers (RDLs), interposers and fan-out substrates. Properties and Applications of common material used in packaging- Ceramic, Plastic, Metal, Organic Substrate, and Ceramic-metal composite. Outcomes for Unit IV CO4: Analyze advanced packaging interconnect technologies.",
+          "hours": 6
+        },
+        {
+          "title": "Thermal Management in Advanced Packaging",
+          "topics": "Introduction to the importance of thermal management in advanced packaging. Discussion on various thermal management techniques such as heat sinks, thermal interface materials (TIMs), and thermal vias. Explanation of the design considerations for effective thermal management. Outcomes for Unit V CO5: Explain advanced packaging materials and thermal management techniques.",
+          "hours": 6
+        },
+        {
+          "title": "Testing and Reliability in Advanced Packaging",
+          "topics": "The testing methodologies and reliability considerations specific to advanced packaging. Discussion on package-level testing, interconnect testing, and reliability testing. Explanation of various failure analysis techniques and strategies for ensuring package reliability. Outcomes for Unit VI CO6: Understand testing, reliability, and future trends in advanced packaging. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404405(C)",
+      "title": "Semiconductor Memory design",
+      "semester": 7,
+      "type": "Elective - 4",
+      "credits": 3,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Random Access Memory Technologies",
+          "topics": "Random Access Memory Technologies: Static Random Access Memories (SRAMs): SRAM cell structure- MOS SRAM architecture, MOS SRAM cell and peripheral circuit operation, bipolar SRAM technologies, silicon on insulator (SOI) technology, advanced SRAM architectures and technologies, application specific SRAMs. Dynamic Random Access M emories (DRAMs): DRAM technology development, CMOS CRAMs, DRAMs cell theory and advanced cell structures- BiCMOS DRAMs-soft error failure in DRAMs, Advanced DRAM designs and architecture, application specific DRAMs. Outcomes for Unit I CO1: Understand SRAM and DRAM technologies.",
+          "hours": 7
+        },
+        {
+          "title": "Nonvolatile Memories",
+          "topics": "Nonvolatile Memories : Masked Read, only memories (ROMs): High density ROMs, programmable read- only memories (PROMs)- bipolar PROMs, CMOS PROMs, erasable (UV) - Programmable read -only memories (EPROMs) - Floating Gate EPROM cell- one, time programmable (OTP) EPROM Electrically Erasable PROMs (EEPROMs), EEPROM technology and architecture, nonvolatile SRAM-Flash memories (EPROMs or EEPROM), Advanced flash memory architecture Outcomes for Unit II CO2: Describe non-volatile memory technologies.",
+          "hours": 7
+        },
+        {
+          "title": "Testing and memory design for Testability and",
+          "topics": "fault tolerance 6 Hrs. Memory fault modeling, testing and memory design for Testability and fault tolerance, RAM fault modeling, electrical testing, Pseudo random testing, megabit DRAM testing nonvolatile memory modeling and testing, IDDQ fault modeling and testing, application specific memory testing. Outcomes for Unit III CO3: Apply appropriate testing techniques to improve memory reliability.",
+          "hours": null
+        },
+        {
+          "title": "Semiconductor memory reliability",
+          "topics": "Semiconductor memory reliability and radiation effects: General Reliability issues, RAM failure modes and mechanism, nonvolatile memory reliability, reliability modeling and failure rate prediction, design for reliability, reliability test structures, reliability screening and qualification. Outcomes for Unit IV CO4: Analyze reliability issues and failure mechanisms in semiconductor memories .",
+          "hours": 6
+        },
+        {
+          "title": "Radiation effects",
+          "topics": "Radiation effects, single event phenomenon (SEP) - radiation hardening techniques, radiation hardening process and design issues, radiation hardened memory characteristics, radiation hardness assurance and testing, radiation dosimetry, water level radiation testing and test structures Outcomes for Unit V CO5: Apply radiation-hardening and testing methods for memory systems.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced memory technologies and high-density",
+          "topics": "memory packaging technologies 7 Hrs. Advanced memory technologies and high-density memory packaging technologies: Ferroelectric Random Access Memories (FRAMs), Gallium Arsenide (GaAs) FRAMs, Analog memories, magnetoresistive random access memories (MRAMs), Experimental memory devices. Memory hybrids and MCMs (2D), Memory stacks and MCMs (3D), Memory MCM test and reliability issues- memory cards- high density memory packaging future directions. Outcomes for Unit VI CO6: Evaluate emerging memory technologies and high-density memory packaging techniques for next-generation electronic systems. Learning Resources",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404405(D)",
+      "title": "Deep Learning",
+      "semester": 7,
+      "type": "Elective - 4",
+      "credits": 3,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Machine Learning",
+          "topics": "Introduction to Machine Learning, Types of Machines Learning, Linear Regression, Classification and Logistic Regression, Decision Tree and Random Forest, Naïve Bayes and Support Vector Machine. Applications of machine learning Outcomes for Unit I CO1: Classify machine learning algorithms and its types.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Deep Learning and Frameworks",
+          "topics": "Deep Learning Basics: Intro, History, capabilities, the perceptron, Multi Layer Perceptron, ANN architecture. Tensor Flow, Creating and Manipulating Tensor Flow Variables, Tensor Flow Operations, Placeholder Tensors, Managing Models over the CPU and GPU, Specifying the Logistic Regression Model in Tensor Flow, Logging and Training the Logistic Regression, Introduction to Keras, PyTorch. Outcomes for Unit II CO2: Discuss the concepts of deep learning and its Frameworks.",
+          "hours": 6
+        },
+        {
+          "title": "Deep Learning Architecture",
+          "topics": "Width and Depth of Neural Networks, Different Activation Functions, Batch-normalization, Overfitting and generalization., Dropout, regularization Unsupervised Training of Neural Networks, Restricted Boltzmann Machines, Auto Encoders, Deep Learning Applications Outcomes for Unit III CO3: Identify the deep learning architectures with respect to the applications.",
+          "hours": 6
+        },
+        {
+          "title": "Computer Vision",
+          "topics": "Architectural Overview, Motivation, Layers, Filters, Parameter sharing, Regularization, Convolution neural networks (CNNs), convolution, pooling and its variations, different deep CNN architectures - LeNet, AlexNet, VGG, PlacesNet, DenseNet, training a CNNs: weights initialization, batch normalization, hyperparameter tuning. Popular CNN Architectures: ResNet, AlexNet – Applications. Outcomes for Unit IV CO4: Demonstrate different architectures of Convolutional neural networks.",
+          "hours": 6
+        },
+        {
+          "title": "Natural Language Processing",
+          "topics": "Recurrent Neural Networks, Bidirectional RNNs, Encoder-decoder sequence to sequence architectures - BPTT for training RNN, Long Short Term Memory Networks. Advanced RNN: LSTM, GRU, introduction to Generative Adversarial Networks (GANs). Outcomes for Unit V CO5: Discuss natural language processing architectures.",
+          "hours": 6
+        },
+        {
+          "title": "Case Study and Applications",
+          "topics": "Computer Vision: Image Classification, Image net- Detection-Audio Wave Net. Natural Language Processing: Sentimental Analysis, Text preprocessing and chatBot Outcomes for Unit VI CO6: Make use of various case studies and deep learning applications. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404406",
+      "title": "Lab Practice – 1 (IoT and Embedded Systems and Advanced RTL Simulation and Synthesis )",
+      "semester": 7,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "404407",
+      "title": "Lab Practice - 2 (MOS Device Modeling and Characterization. & Elective -3)",
+      "semester": 7,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        40,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "404408",
+      "title": "Project Stage - I",
+      "semester": 7,
+      "type": null,
+      "credits": 1,
+      "pages": [
+        45,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "404191A",
+      "title": "Mandatory Audit Course 7",
+      "semester": 7,
+      "type": "Audit Course",
+      "credits": null,
+      "pages": [
+        47,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "404409",
+      "title": "Verification using SV and UVM",
+      "semester": 8,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        49,
+        51
+      ],
+      "units": [
+        {
+          "title": "System Verilog Overview",
+          "topics": "Overview of System Verilog : Data Types, System Verilog Strings, System Verilog Structure, System Verilog typedef and alias, System Verilog Constants, System Verilog Arrays, System Verilog Queue, System Verilog Dynamic Array, Classes, Control flow statements. Outcomes for Unit I CO1: Explain the fundamental concepts of SystemVerilog.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction of UVM",
+          "topics": "Introduction to UVM : The Typical UVM Test bench Architecture - The UVM Class Library - Transaction-Level Modeling (TLM) -Overview- TLM, TLM-1, and TLM-2.0 -TLM-1 Implementation- TLM-2.0 Implementation Outcomes for Unit II CO2: Apply UVM methodology to develop verification environments",
+          "hours": 6
+        },
+        {
+          "title": "Developing reusable verification components",
+          "topics": "Modeling Data Items for Generation – Transaction-Level Components – Creating the Driver – Creating the Sequencer – Connecting the Driver and Sequencer -Creating the Monitor – Instantiating Components- Creating the Agent – Creating the Environment -Enabling Scenario Creation -Managing of Test-Implementing Checks and Coverage. Outcomes for Unit III CO3: Develop UVM verification components",
+          "hours": 6
+        },
+        {
+          "title": "UVM using verification components",
+          "topics": "Creating a Top-Level Environment- Instantiating Verification Components – Creating Test Classes Verification Component Configuration – Creating and Selecting a User -Defined Test – Creating Meaningful Tests- Virtual Sequences- Checking for DUT Correctness - Scoreboards Implementing a Coverage Model. Outcomes for Unit IV CO4:. : Integrate UVM verification components to build verification environments.",
+          "hours": 6
+        },
+        {
+          "title": "UVM using the register layer classes",
+          "topics": "Using The Register Layer Classes – Back-Door Access -Special Registers -Integrating a Register- Model in a Verification Environment- Integrating a Register Model- Randomizing Field Values Pre-Defined Sequences. Outcomes for Unit V CO5: Model verification environments using UVM and implement Register Abstraction Layer (RAL).",
+          "hours": 6
+        },
+        {
+          "title": "Assignment in testbenches",
+          "topics": "Test bench: Architecture, Driver and Sequencer, Monitor, Agent and Env; Creating Sequences, Building Test, Design and Testing of Top Module. Examples. Outcomes for Unit VI CO6: Design self-checking UVM testbenches for digital designs. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404410(A)",
+      "title": "Android Development",
+      "semester": 8,
+      "type": "Elective - 5",
+      "credits": 3,
+      "pages": [
+        52,
+        54
+      ],
+      "units": [
+        {
+          "title": "Introduction to JAVA and Android",
+          "topics": "Overview of Java, XML and SQL, History of Android, Android Stack, Android Project Structure, Android OS, Features of Android, Android Architecture and building blocks, Android App build process, Android UI– resources, themes, threads etc., Outcomes for Unit I CO1: Describe the process of developing mobile applications.",
+          "hours": 6
+        },
+        {
+          "title": "Introducing Android",
+          "topics": "SDK Overview, Android Emulator, Android Installation, setting up development environment using Eclipse/ Android Studio, DDMS, Activity Lifecycle, Manifest File, Locales, Drawable, Listeners, Supporting Multiple Screens. Outcomes for Unit II CO1: Describe the process of developing mobile applications.",
+          "hours": 6
+        },
+        {
+          "title": "Android Application Structure",
+          "topics": "Android basic building blocks: Activities, Services, Broadcast Receivers & Content providers, UI Components - Views & notifications, Components for communication -Intents & Intent Filters, Android API levels (versions & version names) AndroidManifest.xml, Uses-permission & uses -sdk, Dalvik Virtual Machine &. apk file extension, Resources & R.java, Assets, Layouts & Drawable Resources, Activities and Activity lifecycle, First sample Application. Outcomes for Unit III CO2: Create mobile applications on the different android platform.",
+          "hours": 6
+        },
+        {
+          "title": "Activities, Fragments, Intents and Android",
+          "topics": "User Interface 6 Hrs. Introduction to Activities, Activity Lifecycle, Introduction to Intents, Linking Activities using Intents, calling built-in applications using Intents, Introduction to Fragments, Adding Fragments Dynamically, Lifecycle of Fragment, Toast, Understanding the components of a screen, adapting to Display Orientation, Split Screen / Multi-Screen Activities. Outcomes for Unit IV CO2: Create mobile applications on the different android platform.",
+          "hours": null
+        },
+        {
+          "title": "Designing User Interface with Widgets",
+          "topics": "Using Basic Views: Text View, Button, ImageButton, EditText, CheckBox, Switch, ToggleButton, Radio Button, and Radio Group Views, ProgressBar View, AutoCompleteTextView View, Using Picker Views, Using RecyclerView to Display Long Lists, Understanding Specialized Fragments, Displaying Pictures and Menus, VideoView. Multimedia, Animation and Graphics: Playing Audio, Playing Video, Rotate Animation, Fade In / Fade Out Animation, Zoom Animation, Scale Animation, 2D and 3D Graphics. Outcomes for Unit V CO3: Design and implement mobile applications involving data storage in databases.",
+          "hours": 6
+        },
+        {
+          "title": "Databases, Location-Based Services and Google",
+          "topics": "Map 6 Hrs. Data Storage: Shared Preferences, Internal Storage, External Storage, SQLite Databases, Content provider. and Remote Databases. Introduction to SQLite and Room library, SQLite Open Helper and SQLite Database, Creating, opening and closing database, Creating, opening a nd closing database, Building and executing queries, SMS Messaging, Sending E-mail, Web App, JSON Parsing, JSON Web Service, Display Google Maps, Getting Location Data, Monitoring a Location. Accessing Phone services (Call, SMS, MMS), Network connectivity services, Sensors, Bluetooth/Wi-Fi Connectivity. Outcomes for Unit VI CO3: Design and implement mobile applications involving data storage in databases. Learning Resources",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404410(B)",
+      "title": "Mobile computing",
+      "semester": 8,
+      "type": "Elective - 5",
+      "credits": 3,
+      "pages": [
+        55,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Computing",
+          "topics": "Introduction to Mobile Computing: Applications of Mobile Computing - Generations of Mobile Communication Technologies, multiplexing: Spread spectrum, MAC Protocols: SDMA, TDMA, FDMA, and CDMA. Outcomes for Unit I CO1: Understand concepts of Mobile Communication.",
+          "hours": 6
+        },
+        {
+          "title": "Mobile Telecommunication System",
+          "topics": "Introduction to Cellular Systems, GSM architecture, Protocols, Connection Establishment, Frequency Allocation, Routing, Mobility Management, Security, GPRS and UMTS: Architecture, Handover, Security. Introduction to 5G: Introduction, 5G network architecture, Applications, 5G enable technologies, Recent trends in Telecommunication Industries. Outcomes for Unit II CO2: Analyse next generation Mobile Communication System.",
+          "hours": 7
+        },
+        {
+          "title": "Network Layer",
+          "topics": "Mobile IP, DHCP, AdHoc, Proactive protocol -DSDV, Reactive Routing Protocols: DSR, AODV, Hybrid routing: ZRP, Multicast Routing: ODMRP, Vehicular Ad Hoc networks (VANET), MANET Vs VANET: Security. Outcomes for Unit III CO3: Understand network layers of Mobile Communication.",
+          "hours": 6
+        },
+        {
+          "title": "Mobile IP and Transport Layer",
+          "topics": "Mobile IP: Need of mobile IP, IP packet delivery, Agent Discovery, Registration, Tunnelling and encapsulation, Route optimization, IP Handoff. Transport Layer: Overview of Traditional TCP and implications of mobility control. Improvement of TCP: Indirect TCP, Snoop TCP, Mobile TCP, Fast Retransmit/fast recovery, Time -out freezing, Selective retransmission, Transaction-oriented TCP. Outcomes for Unit IV CO4: Understand IP and TCP layers of Mobile Communication.",
+          "hours": 7
+        },
+        {
+          "title": "Fading Channels",
+          "topics": "Rayleigh Fading and Statistical Characterization, Properties of Rayleigh Distribution, BER in Fading, Narrowband vs Wideband Channels, Characterization of Multipath Fading Channels, Choice of Modulation, Coherent versus Differential Detection, BER in Fading, Ricean Fading. Outcomes for Unit V CO5: Study of different mathematical models.",
+          "hours": 7
+        },
+        {
+          "title": "Operating System & Applications of Mobile",
+          "topics": "Computing 8 Hrs. Operating System: A Few Basic Concepts, Special Constraints and Requirements of Mobile OS, A Survey of Commercial Mobile Operating Systems, Windows Mobile, Palm OS, Symbian OS, iOS, Android, Blackberry OS, A Comparative study of Mobile OS, OS for sensor Network. Applications: M-Commerce, Business to Consumer (B2C) Applications, Business to Business (B2B) Applications. Structure of M-Commerce, Pros and Cons of M -Commerce, Mobile Payment System, Mobile Payment Schemes, Desirable properties of a Mobile Payment system, Mobile Payment solutions, Process of Mobile Payment, Security Issues. Outcomes for Unit VI CO6: Understand different mobile applications. Learning Resources",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404410(C)",
+      "title": "Fibre Optic Communication",
+      "semester": 8,
+      "type": "Elective - 5",
+      "credits": 3,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "Optical Fibers for Telecommunication",
+          "topics": "Fundamentals of Optical Communication: EM spectrum - Optical Spectral bands, Shannon channel capacity, power units (watts, dB & dBm), Block diagram of optical fiber communications link, advantages of optical fibers. Optical Fiber Waveguides: Introduction, Total internal reflection, acceptan ce angle, numerical aperture, fiber types, mode theory for circular waveguides: overview of modes & key modal concepts (V number, number of modes, power in clad), single mode fibers, cutoff wavelength Transmission characteristics of optical fibers: attenuation - material absorption, scattering losses, fiber bend loss, loss due to fiber misalignment, splices and connectors; signal distortion - intermodal delay, intramodal dispersion or chromatic dispersion, modal delay, bit rate -distance product, plot of material & waveguide dispersions for standard single mode, dispersion shifted and dispersion flattened fibers; optical fibers for 5G networks, comparison. Outcomes for Unit I CO1: Explain the working of components and measurement equipments in optical fiber networks. CO2: Calculate the important parameters associated with optical components used in fiber optic telecommunication systems. CO3: ...",
+          "hours": 6
+        },
+        {
+          "title": "Optical Sources",
+          "topics": "Optical Sources: Introduction, wavelength and material consideration (direct & indirect bandgap semiconductors); requirements from optical sources for telecommunication. LED: principle of working, quantum efficiency, optical output power characteristics, spectral width, effect of temperature on characteristics, modulation bandwidth, analog modulation, digital modulation, LED analog transmitter; Semiconductor Laser Diodes: absorption, spontaneous emission, stimulated emission, concept of population inversion and optical feedback, output power characteristics of LASER; Bias point and amplitude modulation range for analog applications of LEDs & laser diodes, comparison of LEDs & Lasers. Outcomes for Unit II: CO1: Explain the working of components and measurement equipments in optical fiber networks. CO2: Calculate the important parameters associated with optical components used in fiber optic telecommunication systems. CO3: Compare and contrast the performance of major components in optical links.",
+          "hours": 7
+        },
+        {
+          "title": "Photodetectors",
+          "topics": "Introduction, requirements from optical detectors, material considerations, types: p -n, pin, Avalanche photodiode, photo transistor, principle of working, quantum efficiency, responsivity, long cutoff wavelength, detector response time, comparison of photo detectors, thermal noise, dark current noise, quantum noise and receiver sensitivity, bit error rate Outcomes for Unit III CO1: Explain the working of components and measurement equipments in optical fiber networks. CO2: Calculate the important parameters associated with optical components used in fiber optic telecommunication systems. CO3: Compare and contrast the performance of major components in optical links.",
+          "hours": 6
+        },
+        {
+          "title": "Fiber Optic Link Design & WDM Systems",
+          "topics": "Point to point optical link: Choice of components, system design considerations, optical power budget, rise time budget, bit rate for RZ and NRZ pulse format. Optical system design and performance analysis using software tools. WDM Concepts & Components: Overview of WDM, WDM components: 2 x 2 fiber coupler, isolator, circulator, basics of fiber grating filters, optical add/drop multiplexer, architecture of optical amplifiers (SOA, EDFA & FRA), Noise figure, OSNR & system impact of ASE. Outcomes for Unit IV CO1: Explain the working of components and measurement equipments in optical fiber networks. CO4: Evaluate the performance viability of optical links using the power and rise time budget analysis. CO5: Design digital optical link by proper selection of components and check its viability using simulation tools.",
+          "hours": 6
+        },
+        {
+          "title": "Optical Networks",
+          "topics": "Optical Network concepts: fundamentals, network terminology, desirable properties, elements of an optical network, optical network topology types, advantages of optical network. Overview of Optical Networks: FDDI, SONET/SDH, FTTX, FTTP, FTTH, PON, GPON, Long haul, Metro, Access, Submarine optical networks, role of fiber optic network in the 5G networks. Current technology trends, standards and challenges. Outcomes for Unit V CO6: Compile technical information related to the state of art components, standards, simulation tools and current technological trends by accessing the online resources to update their domain knowledge.",
+          "hours": 6
+        },
+        {
+          "title": "Optical Fiber Measurements",
+          "topics": "Overview of Measurement Standards for fiber optics: Test Equipments for field work: Test support lasers, visual fault indicator, optical power meter, Optical Time Domain Reflectometry (OTDR), optical spectrum analyzer (OSA), BER test equipment Measurements: measurement of: optical power, numerical aperture of fiber, fiber attenuation (cutback method, insertion loss method, OTDR), macrobending loss, fiber dispersion System performance evaluation: Eye Diagram Test, study of OTDR. Outcomes for Unit VI CO1: Explain the working of components and measurement equipments in optical fiber networks. CO6: Compile technical information related to state of art components, standards, simulation tools and current technological trends by accessing the online resources to update their domain knowledge. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404410(D)",
+      "title": "Biomedical Signal Processing",
+      "semester": 8,
+      "type": "Elective - 5",
+      "credits": 3,
+      "pages": [
+        62,
+        64
+      ],
+      "units": [
+        {
+          "title": "Introduction to Biomedical Signals",
+          "topics": "Introduction and Overview, Ion Transport in Biological Cells, Trans membrane Potential, Electric Characteristics of Cell Membrane, Membrane Resistance, Membrane Capacitance, Cell Membrane’s Equivalent Electric Circuit, Action Potential, Electric Data Acquisition, Propagation of Electric Potential as a Wave , Some Practical Considerations on Biomedical Electrode Summary Outcomes for Unit I CO1: Describe the origin of various biomedical signals and Interpret the meaning of various parameters associated with biomedical signals",
+          "hours": 6
+        },
+        {
+          "title": "Cardio logical Signal Processing",
+          "topics": "Function and Structure of the Heart- Cardiac Muscle, Cardiac Excitation Process Electrocardiogram: Signal of Cardiovascular System - Origin of ECG, ECG Electrode Placement, Modeling and Representation of ECG, Periodicity of ECG Heart Rate, Cardiovascular Diseases and ECG - Atrial Fibrillation, Ventricular Arrhythmias, Ventricular Tachycardia, Ventricula r Fibrillation, Myocardial Infarction, Atrial Flutter, Cardiac Reentry, Atrioventricular Block, Wolf –Parkinson–White Syndrome, Extrasystole Processing and Feature Extraction of ECG - Time-Domain Analysis, Frequency -Domain Analysis, Wavelet-Domain Analysis Outcomes for Unit II CO2: Analyze ECG Signals for extraction of meaningful information",
+          "hours": 7
+        },
+        {
+          "title": "Neurological Signal Processing",
+          "topics": "Brain and Its Functions Electroencephalogram: Signal of the Brain- EEG Frequency Spectrum, Significance of EEG, Evoked Potentials - Auditory-Evoked Potentials, Somatosensory -Evoked Potentials, Visual -Evoked Potentials, Event -Related Potentials, Diseases of Central Nervous System and EEG - Epilepsy, Sleep Disorders, Brain Tumor Processing and Feature Extraction of EEG- Sources of Noise on EEG, Frequency-Domain Analysis, Time-Domain Analysis, Wavelet-Domain Analysis Outcomes for Unit III CO 3: Explain use of EEG signals for Diseases of Central Nervous System.",
+          "hours": 6
+        },
+        {
+          "title": "Electromyogram (EMG)",
+          "topics": "Muscle- Motor Unit, Muscle Contraction, Muscle EMG: Signal of Muscles- Significance of EMG Neuromuscular Diseases and EMG- Abnormal Enervation, Pathological Motor Units, Neuromuscular Transmission in Motor Units, Defects in Muscle Cell Membrane Processing and Feature Extraction of EMG- Sources of Noise on EMG, Time-Domain Analysis, Frequency- and Wavelet-Domain Analysis Outcomes for Unit IV CO 4: Analyze EMG signals for understanding Neuromuscular Diseases.",
+          "hours": 7
+        },
+        {
+          "title": "Other Biomedical Signals",
+          "topics": "Introduction and Overview, Blood Pressure and Blood Flow, Electrooculogram, Respiratory Signals Magneto encephalogram, Outcomes for Unit V CO5: Analyze the various Biomedical Signals.",
+          "hours": 6
+        },
+        {
+          "title": "Adaptive interference / Noise Cancellation",
+          "topics": "Types of noise in bio signals: Digital filters: IIR and FIR, Notch filters, Optimal and adaptive filters, Weiner filters. LMS adaptive algorithm, Steepest descent algorithm Adaptive noise canceller: Cancellation of 50 Hz signal in ECG Outcomes for Unit VI CO6: Process the biomedical signals to remove adaptive interference and noise. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404411(A)",
+      "title": "Nano Electronics",
+      "semester": 8,
+      "type": "Elective - 6",
+      "credits": 3,
+      "pages": [
+        65,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to Nanotechnology",
+          "topics": "Introduction to Nanotechnology: Fundamental science behind Nanotechnology, Tools for measuring Nanostructures, Tools to make nanostructures and imagine nano behaviors, Limitations of Silicon Material Outcomes for Unit I CO1: Understand the fundamental knowledge behind nanotechnology.",
+          "hours": 6
+        },
+        {
+          "title": "Nano CMOS Devices",
+          "topics": "Silicon Nanocrystal non-volatile memories, Novel dielectric materials for future transistors, NanoCMOS devices, and applications, AFM, scanning probe instrument, nanoscale lithography. Outcomes for Unit II CO2: Understand to Nano-CMOS technology.",
+          "hours": 6
+        },
+        {
+          "title": "Nanoparticles and Nanotubes",
+          "topics": "Properties of Nanoparticles: Metal nanostructures and semiconducting nanoparticles. Carbon nanostructures: Carbon molecules, Clusters, Nanotubes. Properties of Nanotubes: Strength and Elasticity, Applications of Nanotubes. Outcomes for Unit III CO3: Explore various Nanoelectronics material. CO4: Understand the importance of carbon nanotubes.",
+          "hours": 6
+        },
+        {
+          "title": "Nanoelectronics",
+          "topics": "Introduction, the tools of manufacturing of micro and nano fabrication optical lithography, electron beam lithography, atomic lithography. Nano-Electronics for advanced computation and communication. Outcomes for Unit IV CO3: Explore various Nanoelectronics material. CO4: Understand the importance of carbon nanotubes.",
+          "hours": 6
+        },
+        {
+          "title": "Nanomachine and Nanodevice Fabrications",
+          "topics": "Nanomachines and Nanodevices, NEMS and MEMS and their fabrication, molecular and supermolecular switches, Lithography. Outcomes for Unit V CO5: Understand Nanomaterial and Nanodevice fabrication.",
+          "hours": 6
+        },
+        {
+          "title": "Applications of Nanotechnology",
+          "topics": "Use of Nanotechnology in Electronics: Application of nanostructures in electronics, sensors, optics, energy capture, transformation, and storage. Application of nanotechnology in biomedical electronics. Outcomes for Unit VI CO6: Understand various applications of Nanotechnology in Electronics. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404411(B)",
+      "title": "Low Power CMOS",
+      "semester": 8,
+      "type": "Elective - 6",
+      "credits": 3,
+      "pages": [
+        67,
+        68
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Power Dissipation in CMOS",
+          "topics": "Sources of power dissipation, Physics of power dissipation in MOSFET devices: The MIS structure, long channel MOSFET, Submicron MOSFET, gate induced drain leakage, Power dissipation in CMOS: short circuit dissipation, dynamic dissipation, load capacitance, Low power VLSI design: Limits, principles of low power design, hierarchy of limits, fundamental limit, material limit, device limit, system limit. Outcomes for Unit I CO1: Explain the sources of power dissipation in CMOS.",
+          "hours": 6
+        },
+        {
+          "title": "Power Optimization Techniques",
+          "topics": "Power Reduction in Clock Networks: Clock Gating, Reduced Swing Clock, Oscillator Circuit for Clock Generation, Frequency Division and Multiplication, Other Clock Power Reduction Techniques, CMOS Floating Node: Tristate Keeper Circuit, Blocking Gate, Low Power Bus: Low Swing Bus, Charge Recycling Bus, Delay Balancing, Low Power Techniques for SRAM: SRAM Cell, Memory Bank Partitioning, Pulsed Word line and Reduced bit line Swing. Introduction to Low -Power Design through Voltage Scaling: VTCMOS circuits, MTCMOS circuits, Architectural Level Approach –Pipelining and Parallel Processing Approaches. Switched Capacitance Minimization Approaches: System Level Measures, Circuit Level Measures, Mask level Measures. Outcomes for Unit II CO2: Classify the special techniques to mitigate the power consumption in CMOS circuits.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Low Power Circuits",
+          "topics": "Transistor and Gate Sizing : Sizing an Inverter Chain, Transistor and Gate Sizing for Dynamic Power Reduction, Transistor Sizing for Leakage Power Reduction, Network Restructuring and Reorganization: Transistor Network Restructuring, Transistor Network P artitioning and Reorganization, Special Latches and Flip-flops : Self-gating Flip-flop, Combinational Flip-flop, Double Edge Triggered Flip- flop, Low Power Digital Cell Library : Cell Sizes and Spacing, Varieties of Boolean Functions, Adjustable Device Threshold Voltage. Outcomes for Unit III CO3: Summarize the power optimization and trade off techniques in digital circuits.",
+          "hours": 6
+        },
+        {
+          "title": "Power Estimation",
+          "topics": "Modelling of signals, signal probability calculation, Statistical techniques, estimation of glitching power, Sensitivity analysis, Power estimation using input vector compaction, power dissipation in Domino logic, circuit reliability, power estimation at the circuit level, Estimation of maximum power: test generation based approach, steepest descent, generic based algorithm based approach. Outcomes for Unit IV CO4: Illustrate the power estimation at logic and circuit level.",
+          "hours": 6
+        },
+        {
+          "title": "Software Design for Low Power",
+          "topics": "Sources of software power dissipation, software power estimation: Gate level, architecture level, bus switching activity, instruction level power analysis, software power optimization: minimizing memory access costs, instruction selection and ordering, po wer management, Automated low power code generation, Co - design for low power. Outcomes for Unit V CO5: Explain the software design for low power in various level.",
+          "hours": 6
+        },
+        {
+          "title": "Hardware Design for Low Power",
+          "topics": "Adiabatic Switching Circuits, Battery -aware Synthesis, Variation tolerant design, CAD tools for low power synthesis. Outcomes for Unit VI CO6: Able to use the CAD tools for low power synthesis Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404411(C)",
+      "title": "Digital Marketing",
+      "semester": 8,
+      "type": "Elective - 6",
+      "credits": 3,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Digital Marketing Planning and Structure",
+          "topics": "Importance of Digital Marketing, Digital Marketing Vs. Traditional Marketing, Inbound vs Outbound Marketing, Understanding Demographics. WWW, buying a Domain, Core Objective of Website and Flow, One Page Website, Strategic Design of Products & Services Pag e, Strategic Design of Landing Page, Segmentation & Targeting and Positioning to Digital Marketing, Portfolio, Gallery and Contact Us Page, Google Analytics Tracking Code, Designing Wordpress Website. Mobile Friendly Website, Payment Gateway like UPI, e-Commerce Outcomes for Unit I CO1: Design websites using free tools like Wordpress and explore it for digital marketing.",
+          "hours": 7
+        },
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "topics": "Fundamentals; Keywords and SEO Content Plan; SEO & Business Objectives; Writing SEO Content; On-site & off-site SEO; Optimize Organic Search Ranking, Website SEO Auditing, Web Analytics: Data and Traffic Analysis. Study and analyze the Competitor’s Website and their traffic sources. Outcomes for Unit II CO2: Apply various keywords for a website & to perform SEO.",
+          "hours": 6
+        },
+        {
+          "title": "Search Engine Marketing",
+          "topics": "Importance of Adwords, Google Ad Types, PPC Cost Formula, Ad Page Rank, Billing and Payments, Adwords User Interface, Keyword Planner, Creating Ad Campaigns, Creating Text Ads, Creating Ad Groups, Search Engine Marketing (SEM) Tools, Bidding Strategy for CPC, Case Studies. Conversion Tracking Code, Designing Image Ads, Creating Video Ads, Youtube Video Promotion, Hi-Jack Competitor’s Video Audience, Case Studies. Remarketing Strategies, Remarketing Tracking Code, Website or Blog Linking Google Analytics, Designing Remarketing Images, Shared Budget, Mobile Advertising. Outcomes for Unit III CO3: Understand the various SEM Tools and implement the Digital Marketing Tools.",
+          "hours": 7
+        },
+        {
+          "title": "Social Media Marketing (SMM) Part 1",
+          "topics": "B to C Perspective, B to B Perspective: Introduction; Major Social Media Platforms for Marketing; Developing Data -driven Audience & Campaign Insights; Social Media for Business; Facebook & Instagram Marketing: Understanding of Facebook Marketing, Types of Facebook Advertising, creating first ad on Facebook, Setting Campaign and optimization, Facebook Power Editor, Facebook Video Marketing, Facebook App & Shopping Marketing Youtube Marketing: YouTube Account Setup (Create a business account with a personal account), YouTube Monetization, YouTube Ads, YouTube Analytics. Outcomes for Unit IV CO4: Illustrate the use of Facebook, Instagram and Youtube for Digital Marketing in real life.",
+          "hours": 6
+        },
+        {
+          "title": "Social Media Marketing (SMM) Part 2",
+          "topics": "LinkedIn Advertising: How to use Linkedin Professionally, Types of LinkedIn Advertising, LinkedIn New feed Advertising, LinkedIn Message Pitching, Traffic and Leads Generation, Billing and Report. Email Marketing: Email Software and Tools, Importing Email Lists, Planning Emai l Campaign, Email Templates and Designs, Sending HTML Email Campaigns, Web Forms Lead Importing, Integrating Landing Page Forms, Campaign Reports and Insights, Segmentation Strategy, Responder Tracker Outcomes for Unit V CO5: Use Linked in platform for various campaigning.",
+          "hours": 6
+        },
+        {
+          "title": "Upcoming Trends in Digital Marketing",
+          "topics": "Podcast, OTT Platforms, Mob-Ad, No Click Searches, Google Verified Listing, Voice Search, Visual Search, Online Reviews, Automated and Smart Bidding, Chatbots, Affiliate Marketing Outcomes for Unit VI CO6: Understand the importance of recent trends in digital marketing. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404411(D)",
+      "title": "System on Chip",
+      "semester": 8,
+      "type": "Elective - 6",
+      "credits": 3,
+      "pages": [
+        72,
+        74
+      ],
+      "units": [
+        {
+          "title": "Introduction to SOC",
+          "topics": "System Architecture; System Complexity; Components of the system; Hardware & Software; An approach for SOC Design; SOC definition, benefits, and challenges; Application of SOC; SOC components: Processor, Accelerators, Memory and Peripherals, On-chip interconnects, and various signal processing units. Outcomes for Unit I CO1: Understand the basic concepts and architecture of SOC.",
+          "hours": 6
+        },
+        {
+          "title": "Verilog HDL - I",
+          "topics": "Evolution and need of CAD tools; HDL tools; Why Verilog; Verilog: datatypes, system tasks, compiler directives; Hierarchical Modeling Concepts: Top -down and bottom -up design methodology; modules and module instances; Modules and Ports: Module definition, p ort declaration, connecting ports, hierarchical name referencing, and timescale. Outcomes for Unit II CO2: Understand the basic terminology of Verilog HDL programming.",
+          "hours": 7
+        },
+        {
+          "title": "Verilog HDL-II",
+          "topics": "Gate-level modeling: Modeling using basic Verilog gate primitives, description of AND/OR and BUF/NOT type gates; Dataflow Modeling: Continuous assignments, delay specification, expressions, operators; Behavioral Modeling: Structured procedures, initial and always blocks, blocking and nonblocking statements, delay control, conditional statements, multiway branching, loops, sequential and parallel blocks; Tasks and Functions: tasks vs functions, declaration, invocation, automatic tasks and functions; testbench Outcomes for Unit III CO3: Apply the various Verilog modeling styles in writing the design and testbench codes.",
+          "hours": 7
+        },
+        {
+          "title": "Physical Design",
+          "topics": "Floor planning: Abutted and Non -abutted floorplan techniques, floorplan control parameters, input and outputs of the floorplan; Partitioning; need of partitioning, rules of partitioning, methods of partitioning; Placement: goal of placement, coarse placement, legalization, placement blockage, keep -out margin; Routing: netlist, congestion, fixed-die routing, variable-die routing. Outcomes for Unit IV CO4: Understand the basic steps used in the VLSI Physical Design.",
+          "hours": 8
+        },
+        {
+          "title": "SOC Processors",
+          "topics": "Introduction to SOC processors; Processor selection for SOC; Basic concepts in processor architecture and processor micro architecture; Basic elements in Instruction handling; Buffers: minimizing pipeline delays, Branches; More Robust Processors: Vector processors and vector instructions extensions, VLIW Processors, Superscalar Processors. Outcomes for Unit V CO5: Understand the basic architecture of various processors used in SOC.",
+          "hours": 6
+        },
+        {
+          "title": "SOC Buses and Memory",
+          "topics": "AMBA: Generation of AMBA (ASB, AHB, APB), Architecture of AMBA, Specification; Core Connect bus: PLB, OPB, DCR; ST bus protocols: Type I, II, III; SOC memory; Cache memory: performance, partitioning, multi-level cache; Memory chip technology: On die or Off die. Outcomes for Unit VI CO6: Understand the working principle of various Buses and memory used in SOC. Learning Resources",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "404412",
+      "title": "Innovation & Entrepreneurship",
+      "semester": 8,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        75,
+        77
+      ],
+      "units": [
+        {
+          "title": "Introduction to Innovation and",
+          "topics": "Entrepreneurship 3 Hrs. Role of innovation and entrepreneurship, what it takes to be an entrepreneur, Business fundamentals, Leadership & team building, relation between innovation and entrepreneurship. Outcomes for Unit I CO1: Understand Innovation, Entrepreneurship and characteristics of an entrepreneur.",
+          "hours": null
+        },
+        {
+          "title": "Design Thinking",
+          "topics": "Introduction to Design Thinking, Design Research Strategies, Design Research - tools for observation and immersion, visualizing ideas, Communicating ideas. Outcomes for Unit II CO2: Develop a strong understanding of the Design Process and its application in variety of business settings.",
+          "hours": 3
+        },
+        {
+          "title": "Idea Generation",
+          "topics": "The seed of innovation, Innovation domains, Innovation sustainable conditions, Design factors, Types of innovations and their market impact. Outcomes for Unit III CO3: Generate sustainable ideas.",
+          "hours": 3
+        },
+        {
+          "title": "Becoming an Entrepreneur",
+          "topics": "Creating a business plan, Preparing a Pitching presentation, Building business strategy Outcomes for Unit IV CO4: Explore various processes required to be an entrepreneur.",
+          "hours": 4
+        },
+        {
+          "title": "Creating a Startup",
+          "topics": "Types of companies, legal processes for registering companies, registering as startup Outcomes for Unit V CO5: Understand patents and its process of filing.",
+          "hours": 3
+        },
+        {
+          "title": "Indian Patents",
+          "topics": "Fundamentals of IP, Patent basics, Patent analytics, Role in R&D and business planning, Patents to profits, IP asset management, Technology transfer. Outcomes for Unit VI CO6: Choose and use appropriate social media for marketing. Learning Resources",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "404413",
+      "title": "Digital Business Management",
+      "semester": 8,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        78,
+        80
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Business",
+          "topics": "Introduction, Background and current status, E-market places, structures, mechanisms, economics and impacts. Difference between physical economy and digital economy. Drivers of digital business : Big Data & Analytics, Mobile, Cloud Computing, Social media, BYOD, and Internet of Things (digitally intelligent machines/services), Opportunities and Challenges in Digital Business, Outcomes for Unit I CO1: Identify drivers of digital business.",
+          "hours": 4
+        },
+        {
+          "title": "Overview of E-Commerce",
+          "topics": "E-Commerce: Meaning, Retailing in e-commerce-products and services, consumer behavior, market research and advertisement, B2B-E-commerce-selling and buying in private e-markets, public B2B exchanges and support services, e-supply chains, Collaborative Commerce, Intra business EC and Corporate portals. Other E-C models and applications, innovative EC System-From E- government and learning to C2C, mobile commerce and pervasive computing EC Strategy and ImplementationEC strategy and global EC, Economics and Justification of EC, Using Affiliate marketing to promote your e- commerce business, Launching a successful online business and EC project, Legal, Ethics and Societal impacts of EC Outcomes for Unit II CO2: Illustrate various approaches and techniques for E-business and management.",
+          "hours": 8
+        },
+        {
+          "title": "Digital Business Support Services",
+          "topics": "e-CRM, e-SCM, ERP as e –business backbone, Knowledge Tope Apps, Information and referral system: Application Development: Building Digital business Applications and Infrastructure Outcomes for Unit III CO2: Illustrate various approaches and techniques for E-business and management.",
+          "hours": 3
+        },
+        {
+          "title": "Managing E-Business",
+          "topics": "Managing Knowledge, Management skills for e - business, Managing Risks in e –business. Security Threats to e-business -Security Overview, Electronic Commerce Threats, Encryption, Cryptography, Public Key and Private Key Cryptography, Digital Signatures, Digital Certificates, Security Protocols over Public Networks: HTTP, SSL, Firewall as Security Control, Public Key Infrastructure (PKI) for Security, Prominent Cryptographic Applications. Outcomes for Unit IV CO2: Illustrate various approaches and techniques for E-business and management.",
+          "hours": 4
+        },
+        {
+          "title": "E-Business Strategy",
+          "topics": "E-business Strategic formulation - Analysis of Company’s Internal and external environment, Selection of strategy, E-business strategy into Action, challenges and E-Transition Outcomes for Unit V CO2: Illustrate various approaches and techniques for E-business and management. CO3: Prepare E-business plan.",
+          "hours": 3
+        },
+        {
+          "title": "Materializing e-business",
+          "topics": "From Idea to Realization-Business plan, Case Studies. Outcomes for Unit VI CO3: Prepare E-business plan. Learning Resources",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "404414",
+      "title": "Verification using SV and UVM Lab",
+      "semester": 8,
+      "type": null,
+      "credits": 1,
+      "pages": [
+        81,
+        82
+      ],
+      "units": []
+    },
+    {
+      "code": "404415",
+      "title": "Lab Practice - 3 (Elective - 5)",
+      "semester": 8,
+      "type": null,
+      "credits": 1,
+      "pages": [
+        83,
+        87
+      ],
+      "units": []
+    },
+    {
+      "code": "404416",
+      "title": "Project Stage - II",
+      "semester": 8,
+      "type": null,
+      "credits": 5,
+      "pages": [
+        88,
+        88
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

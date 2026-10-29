@@ -1,0 +1,922 @@
+{
+  "id": "te-computer-science-and-engineering-artificial-intelligence-2024-pattern",
+  "kind": "programme",
+  "programme": "Third Year Computer Science and Engineering (Artificial Intelligence)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-CAI",
+      "title": "Theory of Computation",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Context Free Grammars and Context Free Languages",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Push Down Automata 09 Hours)",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Finite Automata and Regular Expressions",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Turing Machines and Undecidability",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Linear Bounded Automata",
+          "topics": "MOOC / NPTEL/YouTube Links:- machines, Non -deterministic Turing machines, The Church’ s Turing hypothesis, Universal Turing machines, The Halting problem, Unsolvable problems about Turing machines. Recursive and Recursively Enumerable languages. Decidable and undecidable problems Case Study: Applications of decidability theory",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC302-CAI",
+      "title": "Machine Learning",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Supervised Learning – Regression",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "functions for regression, model evaluation metrics, mean absolute error, mean squared error, root mean squared error, R-squared score. Case Study: To design a regression-based machine learning model for predicting continuous values such as house. Prices or crop yield. Classification problems, logistic regression, k-nearest neighbors algorithm, decision tree classifier, ensemble learning concepts, random forest classifier, gradient boosting overview, hyperparameters in classification models, performance evaluation metrics, confusion matrix, accuracy, precision, recall, F1-score, ROC curve, AUC score. Case Study: To develop a machine learning classification system for categorizing data into predefined classes. Unsupervised learning framework, clustering techniques, k -means clustering algorithm, hierarchical clustering, agglomerative clustering, DBSCAN algorithm, distance measures, cluster validation techniques, elbow method, silhouette score, clustering applications, customer segmentation, pattern discovery, anomaly detection. Case Study: To apply clustering techniques for grouping unlabeled data based on similarity. Curse of dimensionality, feature space reduction, principal com...",
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning – Classification",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Unsupervised Learning – Dimensionality Reduction and Model Optimization",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Unsupervised Learning – Clustering",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-CAI",
+      "title": "Design and Analysis of Algorithms",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Divide and Conquer Strategy",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Algorithms & Complexity Analysis",
+          "topics": "Course Content Introduction, Divide and Conquer paradigm, Recurrence relations Methods to solve recurrences: Substitution method, Recursion tree method, Master’s theorem, Algorithms: Binary Search, Merge Sort, Quick Sort, Strassen’s Matrix Multiplication. Case Study: Image Processing in Medical Diagnostics. Introduction: Greedy strategy and characteristics, Elements of greedy algorithms Applications : Activity Selection Problem, Fractional Knapsack, Job Sequencing with Deadlines, Minimum Spanning Tree: Prim’s Algorithm, Kruskal’s Algorithm, Huffman Coding, Huffman Coding, Comparison with other paradigms. Case Study: Job Scheduling in a Manufacturing Plant. Introduction to Dynamic Programming, Optimal substructure and overlapping sub problems, Top-down and bottom-up approaches, Applications: Fibonacci sequence, Matrix Chain Multiplication, Longest Common Subsequence (LCS), 0/1 Knapsack Problem, Optimal Binary Search Tree, Performance comparison with Greedy and Divide & Conquer. Case Study: Cloud Storage Optimization. Graph Algorithms: Graph representations, Breadth First Search (BFS), Depth First Search (DFS). Shortest path algorithms: Dijkstra’s Algorithm, Bellman -Ford Algorith...",
+          "hours": 9
+        },
+        {
+          "title": "Dynamic Programming",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Greedy Algorithms",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Graph Algorithms & NP-Completeness",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-CAI",
+      "title": "Design and Analysis of Algorithms Laboratory",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        25,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-CAI",
+      "title": "Machine Learning Laboratory",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        35,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC321ACAI",
+      "title": "Cyber security",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        38,
+        42
+      ],
+      "units": [
+        {
+          "title": "Ethical Hacking Approach & Modern Threat Landscape",
+          "topics": "cloud misconfiguration, API abuse, supply chain attacks, Phishing evolution – AiTM phishing, session/token theft, Zero Trust Security Model and identity -centric security principles ,AI -augmented attacks – LLM prompt in jection, adversarial ML, deepfake-enabled social engineering. Case Study: Modern identity -based breach involving credential misuse, AiTM phishing, and unauthorized cloud access (e.g., analysis of a real-world Microsoft 365 compromise scenario). Reconnaissance – definition, importance, passive vs active; OSINT – public sources; Digital foot-print and attack surface; DNS and domain intelligence; Service exposure; Vulnerability scanning con -cept; WHOIS, ASN lookups, BGP peering analysis, Google Dork ing and advanced search operators, GitHub/GitLab OSINT – exposed secrets, API keys, credentials in public repos Scanning & Enumeration: Network scanning – Nmap techniques: SYN, UDP, version detection, OS fingerprinting ,Service enumeration :banner grabbing, version identification, Vulnerability scanning concept – Nessus, OpenVAS, Cloud attack surface :exposed S3 buckets, Azure blobs, GCP storage misconfigurations ,Internet-wide exposure awareness : Shodan queries, Cen...",
+          "hours": 9
+        },
+        {
+          "title": "Reconnaissance & Vulnerability Discovery",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Vulnerabilities & Exploitation Concepts",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Identity Attacks & Post-Compromise Overview",
+          "topics": "Physical security – badge cloning, social engineering for physical access. Post-Compromise Activities: Post-exploitation objectives, Session/token abuse Data exfiltration methods and C2 (Command & Control) frameworks overview, Covering tracks. Detection Awareness: SIEM alerts and EDR detection for attacker techniques, Attacker OPSEC – avoiding detection in red team engagements, Threat hunting basics from attacker perspective. Case Study: Identity-based attack chain: spear phishing ***Ü AiTM credential capture ***Ü MFA bypass ***Ü lateral movement via Pass-the-Hash ***Ü data exfiltration from SharePoint. Analysis includes detection opport",
+          "hours": 9
+        },
+        {
+          "title": "es at each stage.",
+          "topics": "Web Penetration Testing: Web pretesting methodology , Advanced web attacks – HTTP request smuggling, web cache poisoning, clickjacking , Tools: Burp Suite Pro (intruder, repeater, active scan), OWASP ZAP, API Security Testing: REST, GraphQL, gRPC API attack techniques , API fuzzing, rate limit bypass, parameter pollution , JWT attacks Cloud Penetration Testing: Cloud pretesting scope – AWS, Azure, GCP specific attack paths„ Cloud metadata exploitation (SSRF to IMDS), Container security – Docker escape, Kubernetes RBAC misconfigurations Tools: Pacu (AWS), ScoutSuite, Prowler, CloudSploit AI/LLM Security (Emerging Area): AI attack surface – LLM prompt injection, jailbreaking, adversarial inputs Poisoning attacks on ML training data, Securing AI/ML pipelines – model hardening, input validation, output filtering. Ethical & Legal Framework : IT Act 2000 & Amendments – Sections 43, 66, 66C, 66F relevant to hacking Case Study: Cloud/API breach simulation: SSRF to cloud metadata service ***Ü IAM token extraction ***Ü privilege escalation ***Ü S3 data exfiltration. Full penetration test report writing exercise.",
+          "hours": null
+        },
+        {
+          "title": "Modern Attack Domains: Web, API, Cloud & AI Threats",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321BCAI",
+      "title": "Cloud Computing and DevOps",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        43,
+        45
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Virtualization in Cloud Computing",
+          "topics": "Text Book: MOOC / NPTEL/YouTube Links:- Learning Resource: Industrial Cloud Platforms: Amazon Web Services (AWS) - AWS infrastructure, Components, Ama - zon Simple DB, Elastic Cloud Computing (EC2), Amazon Storage System, Amazon Database Services. Microsoft Azure: Azure core concepts, SQL Azure, and Application Services for managed runtimes. Open Source Platforms: Overview of OpenStack, Cloud Stack , and Eucal yptus for private cloud deploy ment. Cloud Applications: Data-Intensive & Emerging Applications: Smart Cities & IoT: Integrating sensor data from traffic, waste management, and power grids into a centralized cloud dashboard. AI/ML in the Cloud: Case study on Google Photos (image recognition) or Alexa (Natural Language Processing) using cloud - based TPU/GPU instances. Healthcare & Biology: Gene sequencing, protein folding and ECG analysis in the cloud. Geoscience: Satellite image processing and seismic data analysis using cloud clusters. Case Study: The Google Case Study Data Processing: The evolution from MapReduce to Dremel and Big Query. Storage Innovation: Understanding the Google File System (GFS) and Bigtable as the backbone of global search. Risks in Cloud Computing...",
+          "hours": 9
+        },
+        {
+          "title": "Cloud Platforms and Applications",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Security in Cloud Computing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Modern Cloud Environment & Emerging Technologies",
+          "topics": "1. James Bond ,“The Enterprise Cloud”, O’Reilly Media, Inc. ISBN: 9781491907627 8. Dr. Kris Jamsa, “Cloud Computing: SaaS, PaaS, IaaS, Virtualization and more”, Wiley Publica- tions, ISBN: 978-0-470-97389-9 9. Anthony T. Velte Toby J. Velte, Robert Elsenpeter, “Cloud Computing: A Practical Approach”, 2010, The McGraw-Hill. 10. Gautam Shrof, “ENTERPRISE CLOUD COMPUTING Technology Architecture, Applications”, Cam- bridge University Press, ISBN: 9780511778476 11. Tim Mather, Subra K, Shahid L.,”Cloud Security and Privacy”, Oreilly, ISBN-13 978-81-8404-815 12. Ronald L. Krutz, Russell Dean Vines, “Cloud Security: A Comprehensive Guide to Secure Cloud Computing”, Wiley- India,2010 13. Rajkumar Buyya, James Broberg, Andrzej M. Goscinski, Cloud Computing: Principles and Paradigms, Editors: Wile, 2011 E-Books:- 1. http://dhoto.lecturer.pens.ac.id/lecture_notes/internet_of_things/CLOUD%20COMPUTING%20Princip 2. https://www.lpude.in/SLMs/Master%20of%20Computer%20Applications/Sem_2/DECAP470_CLOUD 3. https://studytm.wordpress.com/wp-content/uploads/2014/03/hand-book-of-cloud-computing.pdf 4. https://arpitapatel.files.wordpress.com/2014/10/cloud-computing-bible1.pdf 5. https://nvlpubs.nist.go...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321CCAI",
+      "title": "Soft Computing",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        46,
+        48
+      ],
+      "units": [
+        {
+          "title": "Introduction to Soft Computing and Fuzzy Logic",
+          "topics": "Fuzzy Logic System Architecture, Fuzzy rule -based systems, Fuzzification and Defuzzification methods, Fuzzy inference systems (Mamdani and Sugeno models), Design of fuzzy controller, Applications of fuzzy logic in decision making and control systems, Advantages and limitations of fuzzy logic systems. Case Study: Fuzzy Traffic Signal Control System for managing congestion in urban areas. Introduction to Artificial Neural Networks (ANN), Biological neuron vs artificial neuron model, Characteristics of neural networks, Types of neural networks, Single -layer and multilayer neural networks, Activation functions, Perceptron model, Learning rules , Supervised and unsupervised learning, Backpropagation algorithm, Applications of neural networks in pattern recognition and prediction. Case Study: Using Neural Networks for Handwritten Digit Recognition. Introduction to Evolutionary Computing, Genetic Algorithms (GA) concepts, Basic terminology in genetic algorithms, Genetic operators: Selection, Crossover, Mutation, Fitness function, Genetic algorithm flow, Applications of genetic algorithms in optimizati on problems, Introduction to swarm intelligence concepts (overview), Advantages and...",
+          "hours": 9
+        },
+        {
+          "title": "Fuzzy Logic Systems and Controller Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Fundamentals of Artificial Neural Networks",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Fundamentals of Evolutionary Computing and Generic Algorithms",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Hybrid Soft Computing Systems and Applications",
+          "topics": "1. Stuart Russell, Peter Norvig, \"Artificial Intelligence: A Modern Approach\", 4th Edition, Pearson, 2020. 4. NPTEL – Introduction to Soft Computing https://nptel.ac.in/courses/106105173; Covers fuzzy logic, neural networks, genetic algorithms, and soft computing applications. 5. NPTEL – Fuzzy Logic and Neural Networks https://nptel.ac.in/courses/127105006; Explains fuzzy sets, neural network models, clustering, and neuro-fuzzy systems. MOOC / NPTEL/YouTube Links:",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321DCAI",
+      "title": "Gaming and Animation",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        49,
+        51
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Computer Graphics",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Principles and Techniques of Animation",
+          "topics": "Tweening (Motion paths, Interpolation Techniques, Tim -ing charts), Layer based Animation,3D Animation Techniques: Modeling, Rigging, Skinning, Motion Capture and Simulation, Case Study: 12 Principles of Animation in Frozen - Analyze the application of squash and stretch, anticipation, follow-through, and timing in character animation. Identify how keyframes and rigging techniques enhance realism in animated sequences. Pre-Production: Storyboarding, Scriptwriting, Concept Art, Production: Modeling, Texturing, Lighting, Rendering, Post-Production: Compositing, Editing, Sound Integration, Visual Effects (VFX) and Motion Graphics, Rendering Engines and File Formats, Role of Physics and AI in Modern Anima-tion, Case Study: Case Studies: Short Animation Film Workflow, Workflow of Big Buck Bunny -Examine the stage of animation production including storyboarding, modeling, lighting, rendering, and post-production. Understand how structured workflow ensures quality output. Introduction to Gaming: History and Genres, Game Design Elements: Story, Character, Level, and Interface Design, Gameplay Mechanics and Game Balancing, Game Flow, Rules, and Objectives, Game Art and Audio Design, Intr...",
+          "hours": 9
+        },
+        {
+          "title": "Animation Production Pipeline",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Fundamentals of Game Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Game Development and Integration with Animation",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC322ACAI",
+      "title": "Cyber security Laboratory-I",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        52,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC322BCAI",
+      "title": "Cloud Computing and DevOps Laboratory-I",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        55,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC322CCAI",
+      "title": "Soft Computing Laboratory-I",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        57,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC322DCAI",
+      "title": "Gaming and Animation Laboratory-I",
+      "semester": 5,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        61,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM331-CAI",
+      "title": "Internet of Things",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        62,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to IoT and System Architecture",
+          "topics": null,
+          "hours": 2
+        },
+        {
+          "title": "IoT Communication, Networking and Protocols",
+          "topics": "for Tutorials:- Communication Protocols: RFID, LoRa & LoRaWAN, Cellular IoT, Wi-Fi (802.11 variants), AI- enabled Networking. IoT Data Acquisition: Types of sensors and actuators, hardware and protocols -ADC, DAC, GPIO, UART, SPI, I2C, Real-time data streaming and buffering, Challenges in IoT data acquisition. Cloud Platforms for IoT: IoT cloud platforms (AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud), Cloud services for IoT. IoT Data Management and Compute Stack: Cloud IoT;Edge Computing in IoT- Concept of edge computing and fog computing, Edge devices and gateways, optimization for latency, bandwidth optimization, enhanced privacy. AI in IoT- Artificial Intelligence and IoT integration (AIoT), Need for intelligent analytics in IoT systems, Various IoT Applications. Challenges: noisy, incomplete and heterogeneous data. Predictive Analytics using machine learning. Introduction to IoT Security: IoT Threats, Vulnerabilities & Risk Model, IoT Security Mechanisms; IoT Security and Communication Protocols: TLS/SSL, Risk involved ,DTLS ,authentication & Authorization, Encryption Techniques,5G IoT; Protocols: HTTP and HTTPS in IoT, MQTT, Publish/Subscribe model, QoS Levels, CoAP,...",
+          "hours": 3
+        },
+        {
+          "title": "IoT Data Acquisition, Cloud and Edge Platforms",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Intelligent IoT Applications",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Security and Privacy in IoT",
+          "topics": ":",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective*",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC-342-CAI",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "Experiential Learning Course",
+      "credits": 1,
+      "pages": [
+        67,
+        69
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC351-CAI",
+      "title": "Software Engineering and Project Management",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        71,
+        73
+      ],
+      "units": [
+        {
+          "title": "Software Requirements and Analysis",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Software Design and Architecture",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Project Management, Estimation and Scheduling",
+          "topics": "Software quality concepts and quality assurance, Software quality models (ISO, CMMI overview), Verification and validation, Software testing fundamentals, Levels of testing – unit, integration, system, acceptance, Testing strategies and test case design, Software configuration management, Software maintenance and re-engineering. Case Study: Implementing testing strategies, quality assurance practices, and configuration management for an online examination System. 1. Ian Sommerville – Software Engineering, 10th Edition, Pearson, 2021. 2. Roger S. Pressman & Bruce R. Maxim – Software Engineering: A Practitioner’s Approach, 8th Edition, McGraw-Hill Education, 2014. 1. Project Management Institute – A Guide to the Project Management Body of Knowledge (PMBOK® Guide), 7th Edition, Project Management Institute, 2021.Pankaj Jalote – An Integrated Approach to Software Engineering. 2. Rajib Mall – Fundamentals of Software Engineering, 5th Edition, PHI Learning, 2018. 1. Software Engineering – Prof. Rajib Mall (IIT Kharagpur). 2. Software Project Management – Prof. K. K. Aggarwal / Prof. Rajib Mall.",
+          "hours": 6
+        },
+        {
+          "title": "Software Quality, Testing and Maintenance",
+          "topics": null,
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC352-CAI",
+      "title": "Deep Learning",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        74,
+        76
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Artificial Neural Networks",
+          "topics": "advantages over perceptron, applications of Artificial Neural Neywork. Case Study: Handwritten Digit Recognition using Artificial Neural Network Introduction, difference between Machine Learning and Deep Learning. Deep Neural Networks (DNN): Architecture and representation. Activation functions: ReLU, Sigmoid, Tanh, SoftMax. For-ward propagation. Loss functions: MSE, Cross -Entropy. Backpropagation. Gradient Descent: Batch, Stochastic, Mini-batch. Optimization Algorithms: SGD, AdaGrad, RMSProp, Adam, applications of deep learning. Challenges in training deep networks: Vanishing and exploding gradients, weight initialization techniques, Overfitting and underfitting. Regularization techniques: L1/L2 regularization, Dropout. Case Study: Predict house prices based on features like area, location, and number of rooms using a Deep Neural Network. Introduction, convolution operation and feature maps, kernel and convolution, filter size calculations, padding and stride, pooling layers, CNN architecture design. CNN architectures: LeNet, AlexNet, VGG, ResNet. Transfer learning and fine-tuning. Object detection technique in deep learning: YOLO (You Only Look Once). Applications Case Study:...",
+          "hours": 12
+        },
+        {
+          "title": "Deep Learning and Training Mechanisms",
+          "topics": null,
+          "hours": 12
+        },
+        {
+          "title": "Convolutional Neural Networks",
+          "topics": null,
+          "hours": 12
+        },
+        {
+          "title": "Recurrent Neural Networks (RNN) (12Hours)",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Deep Generative Models",
+          "topics": null,
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC353-CAI",
+      "title": "Deep Learning Laboratory",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        77,
+        80
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC354-CAI",
+      "title": "Software Engineering and Project Management Laboratory",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        81,
+        86
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC361ACAI",
+      "title": "Blockchain",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        87,
+        89
+      ],
+      "units": [
+        {
+          "title": "Cryptocurrency and Bitcoin",
+          "topics": "Savitribai Phule Pune University PEC361A-CAI: Blockchain Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE: 30 Marks End-Semester: 70 Marks Prerequisite Courses: Data Structures, Network and Security, Machine Learning Course Objectives: The course aims to: 1. Identify the fundamentals of blockchain technology and its applications in AI and data science 2. Examine cryptocurrency, smart contracts, and decentralized data systems 3. Analyze consensus algorithms and their role in distributed ledger systems 4. Construct smart contracts using Ethereum and Solidity for data-driven applications 5. Evaluate blockchain solutions for real-world AI and data science challenges Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Describe the fundamentals of blockchain technology • CO2: Demonstrate the use of cryptocurrency wallets to perform blockchain transactions. • CO3: Analyze appropriate consensus mechanisms for distributed systems • CO4: Construct smart contracts using Ethereum and Solidity for data-driven applications • CO5: Develop blockchain-based solutions for applications in AI and data science Course Content Cryptograp...",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Blockchain and Cryptographic Foundations",
+          "topics": "Cryptocurrencies: Cryptocurrency Usage, Crypto wallets: MetaMask, Coinbase, Binance Types of Blockchain Platforms: Bitcoin, Ethereum, Hyperledger, IoTA, Corda, and R3. Case Study: Create your own wallet for cryptocurrency using any of the blockchain platforms. Blockchain Architecture: Layers Of Blockchain: Application Layer, Execution Layer, Semantic Layer, Propagation Layer, Consensus Layer Consensus Algorithms: Proof of Work, Byzantine General Problem, Proof of Stake, Proof of Elapsed Time, Proof of Activity, Proof of Burn, Proof of Authority, Scalability and Performance Case Study: Select an appropriate consensus mechanism (such as PBFT or PoA) for a blockchain -based decentralized energy trading system Ethereum Platform Architecture : Need of Ethereum, Type of Ethereum Platforms, Ethereum Vir -tual Machine (EVM), Gas and Transaction Fees, Smart Contract Fundamentals, Solidity Programming Language, Deploying and Interacting with Smart Contracts using Remix, Decentralized Applications (Dapps), Decentralized Storage (IPFS) Web3.Js Basics Case Study: Deploy a smart contract for the supply chain Blockchain For Data Provenance and Integrity, Decentralized Data Marketplaces, Blockc...",
+          "hours": 9
+        },
+        {
+          "title": "Ethereum and Smart Contracts",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Consensus Mechanism",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Blockchain Applications",
+          "topics": "2. Melanie Swan, Blockchain: Blueprint for a New Economy, O’Reilly Media, Sebastopol, California, USA, 2015. 3. Daniel Drescher, Blockchain Basics: A Non-Technical Introduction in 25 Steps, Apress, New York, USA, 2017. 4. William Mougayar, The Business Blockchain: Promise, Practice, and Application of the Next Internet Technology, Wiley, Hoboken, New Jersey, USA, 2016. 5. Arshdeep Bahga and Vijay K. Madisetti, Blockchain Applications: A Hands-On Approach, VPT Publications, Blacksburg, Virginia, USA, 2017. Mooc / NPTEL / You Tube Link: 1. NPTEL Course on \"Introduction to Blockchain Technology & Applications\" Link: https://nptel.ac.in/cours 2. NPTEL Course on \"Blockchain and its Applications “Link: https://nptel.ac.in/courses/106/105/1061051 3. Coursera: \"Blockchain Basics\" by University at Buffalo 4. edX: \"Blockchain for Business\" by The Linux Foundation Quantum Computing by Prof .Debabrata Goswami, IIT Kanpur Link: https://nptel.ac.in/courses/104104082 E-Books: 1. https://www.asau.ru/files/pdf/1789486.pdf 2. https://users.cs.fiu.edu/~prabakar/cen5079/Common/textbooks/Mastering_Blockchain_2nd _Edi- tion.pdf 3. https://www.lopp.net/pdf/princeton_bitcoin_book.pdf 4. https://www.blo...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361BCAI",
+      "title": "Big Data engineering",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        90,
+        92
+      ],
+      "units": [
+        {
+          "title": "Introduction to Big Data & Its Ecosystem",
+          "topics": "feedback forms. The traditional database system becomes slow during result processing. How can Big Data concepts help in handling Volume, Velocity, and Variety of campus data Hadoop Architecture, Core Components of Hadoop, Hadoop Distributed File System (HDFS), Na - meNode, DataNode, Secondary NameNode, Block Storage Mechanism, Data Replication Strategy, Fault Tolerance in Hadoop, MapReduce Programming Model, Map Phase, Reduce Ph ase, Combiner Function, YARN Architecture, Resource Management in Hadoop. Case Study: Design a solution using the Hadoop Distributed File System (HDFS) to resolve storage capacity, scalability constraints, and fault tolerance issues for an e -commerce company storing millions of daily transaction records on a single server. Basics of Apache Spark, Spark Architecture – Driver, Executor, Cluster Manager, Resilient Dis-tributed Datasets (RDD), RDD Operations – Transformations and Actions, DataFrames, Spark SQL, Spark Streaming Basics, Comparison between Hadoop MapReduce and Spark, In-Memory Processing Concept. Case Study: Enable a social media platform to efficiently manage unstructured data in various for-mats (user posts, images, comments, likes) by leve...",
+          "hours": 9
+        },
+        {
+          "title": "Hadoop and HDFS",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Apache Spark and Data Processing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Big Data Tools and Applications",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Big Data Security & Governance",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361CCAI",
+      "title": "High Performance Computing",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        93,
+        95
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Modern HPC",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Parallel Programming Models",
+          "topics": "(send, receive, broadcast – basic communication). Comparison of OpenMP and MPI. Introduction to Hybrid Programming. Synchronization concepts: barriers and basic race conditions. Case Study: Parallel Matrix Multiplication using OpenMP vs MPI. Need for hardware accelerators in modern HPC and limitations of CPU -centric systems for AI work - loads. Overview of accelerators such as GPUs, FPGAs and TPUs. Fundamentals of GPU architecture: streaming multiprocessors, thread hierarchy (threads, blocks, grids), SIMT execution model, and GPU memory hierarchy. Basic GPU execution workflow. Introduction to CUDA programming model: kernel launch, host-device interaction, and basic memory management concepts. Role of GPUs in AI and deep learning: matrix operations, training and inference acceleration. Overview of optimized libraries such as cuBLAS and cuDNN. Basic performance considerations: memory bandwidth, latency, and idea of multi - GPU systems with CPU–GPU coordination. Case Study: Performance measurement, bottleneck identification, optimization (kernel fusion, Tensor Cores, batch size tuning), Comparison with CPU-only baseline & with FPGA-based inference (optional) Introduction to HPC fo...",
+          "hours": 9
+        },
+        {
+          "title": "Accelerators and GPU Computing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "HPC for AI and Data-Intensive Applications",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Cloud and Modern HPC Systems",
+          "topics": "1. Grama, Ananth, Gupta, Anshul, Karypis, George, and Kumar, Vipin, Introduction to Parallel Computing, Pearson Education, 2nd Edition, 2003, ISBN: 978-0201648652. 2. Quinn, Michael J., Parallel Programming in C with MPI and OpenMP, McGraw-Hill, 2004, ISBN: 978-0072822564. 3. Hwang, Kai, Dongarra, Jack, and Fox, Geoffrey, Distributed and Cloud Computing: From Parallel Processing to the Internet of Things, Morgan Kaufmann, 1st Edition, 2012, ISBN: 978-0123858801.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361DCAI",
+      "title": "AR/VR (Augmented Reality & Virtual Reality)",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        96,
+        98
+      ],
+      "units": [
+        {
+          "title": "Introduction to AR and VR",
+          "topics": "used in medical education to train surgeons in a safe and controlled virtual environment. Basics of 3D graphics for immersive environments, representation of virtual environments, 3D geo- metric objects and scene structures, coordinate systems (world, local, camera), geometric transformations (translation, rotation, scaling), lighting and mater ials in virtual scenes, texture mapping concepts, spatial audio and 3D sound, haptic feedback concepts, avatars and virtual objects. Case Study: Design of Virtual Environments in Game Engines, Study of how game engines such as Unity create immersive 3D environments using models, lighting, textures and spatial audio. Interaction techniques in virtual environments, navigation and locomotion methods, gesture - based interaction, controller -based interaction, natural user interfaces, VR user interface design principles, immersive UX design, cybersickness reduction technique s, performance and latency considerations Case Study: Interaction Design in VR Gaming, Analysis of interaction mechanisms in the VR rhythm game Beat Saber focusing on gesture-based interaction a nd user engagement. Principles of augmented reality, marker-based tracking te...",
+          "hours": 9
+        },
+        {
+          "title": "Interaction and Navigation in Virtual Environments",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Representing the Virtual World",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Augmented Reality Systems and Tracking",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Advanced Immersive Systems and Applications",
+          "topics": null,
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC362ACAI",
+      "title": "Ethical Hacking",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 4,
+      "pages": [
+        99,
+        103
+      ],
+      "units": [
+        {
+          "title": "Ethical Hacking Approach & Modern Threat Landscape",
+          "topics": "– targeting weakest link, identity -focused attacks, attack chaining; Overview of MITRE ATT&CK – understanding attacker tactics. Modern Threat Landscape: Modern attack trends – identity-based attacks, cloud misconfiguration, API abuse, supply chain attacks, Phishing evolution – AiTM phishing, session/token theft, Zero Trust Security Model and identity -centric security principles, AI-augmented attacks – LLM prompt in -jection, adversarial ML, deepfake-enabled social engineering. Case Study: Modern identity -based breach involving credential misuse, AiTM phishing, and unauthorized cloud access (e.g., analysis of a real-world Microsoft 365 compromise scenario). Reconnaissance – definition, importance, passive vs active; OSINT – public sources; Digital foot-print and attack surface; DNS and domain intelligence; Service exposure; Vulnerability scanning con -cept; WHOIS, ASN lookups, BGP peering analysis, Google Dorking and advanced search operators, GitHub/GitLab OSINT – exposed secrets, API keys, credentials in public repos Scanning & Enumeration: Network scanning – Nmap techniques: SYN, UDP, version detection, OS fingerprinting ,Service enumeration :banner grabbing, version identi...",
+          "hours": 9
+        },
+        {
+          "title": "Reconnaissance & Vulnerability Discovery",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Vulnerabilities & Exploitation Concepts",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Identity Attacks & Post-Compromise Overview",
+          "topics": "Identity as Attack Surface : Identity-centric security, Active Directory attacks,Azure AD / Entra ID attack paths Credential-based attacks, MFA bypass techniques. Social Engineering: Social engineering, Phishing campaigns, AiTM (Adversary-in-the-Middle) phishing Business Email Compromise (BEC) , AI -enhanced social engineering – voice cloning, deepfake video calls, Physical security – badge cloning, social engineering for physical access. Post-Compromise Activities: Post-exploitation objectives, Session/token abuse Data exfiltration methods and C2 (Command & Control) frameworks overview, Covering tracks. Detection Awareness: SIEM alerts and EDR detection for attacker techniques, Attacker OPSEC – avoiding detection in red team engagements, Threat hunting basics from attacker perspective. Case Study: Identity-based attack chain: spear phishing, AiTM credential capture, MFA bypass lateral movement via Pass-the-Hash, data exfiltration from SharePoint. Analysis includes detection opport",
+          "hours": 9
+        },
+        {
+          "title": "es at each",
+          "topics": "stage. Web Penetration Testing: Web pretesting methodology , Advanced web attacks – HTTP request smuggling, web cache poisoning, clickjacking ,Tools: Burp Suite Pro (intruder, repeater, active scan), OWASP ZAP,API Security Testing: REST, GraphQL, gRPC API attack techniques , API fuzzing, rate limit bypass, parameter pollution , JWT attacks ,Tools: Postman, Insomnia Cloud Penetration Testing: Cloud pentesting scope – AWS, Azure, GCP specific attack paths„ Cloud metadata exploitation (SSRF to IMDS), Container security – Docker escape, Kubernetes RBAC misconfigurations Tools: Pacu (AWS), ScoutSuite, Prowler, CloudSploit AI/LLM Security (Emerging Area): AI attack surface – LLM prompt injection, jailbreaking, adversarial inputs Poisoning attacks on ML training data, Securing AI/ML pipelines – model hardening, input validation, output filtering. Ethical & Legal Framework: IT Act 2000 & Amendments – Sections 43, 66, 66C, 66F relevant to hacking Case Study: Cloud/API breach simulation: SSRF to cloud metadata service, IAM token extraction privilege escalation S3 data exfiltration. Full penetration test report writing exercise.",
+          "hours": null
+        },
+        {
+          "title": "Modern Attack Domains: Web, API, Cloud & AI Threats",
+          "topics": "2022 (ISBN: 978-1264274567). 4. Georgia Weidman – Penetration Testing: A Hands-On Introduction to Hacking, No Starch Press, 2014 (ISBN: 978-1593275648",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362BCAI",
+      "title": "Quantum AI",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 4,
+      "pages": [
+        104,
+        107
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Quantum Computing",
+          "topics": "Case Study: Classical Bit vs Quantum Bit: Superposition Experiment Linear Algebra Framework for Quantum Mechanics: Vector spaces, complex Hilbert spaces, inner products, orthogonality, linear operators, eigenvalues and eigenvectors, Hermitian and unitary opera -tors, tensor products. Postulates of Quantum Mechanics: Quantum states and state space, observables as operators, measurement postulate and Born rule, expectation values, time evolution of quantum states, quantum states in Hilbert space, qubits and Bloch sphere representation, quantum measure -ment theory, density operator formalism, composite quantum systems. Fundamentals of Quantum Principle: No- cloning theorem and implications for quantum information and quantum AI. Case Study: Detection of Eavesdropping in a Quantum AI Communication System using the No - Cloning Principle. Overview of quantum algorithms and quantum speedup, Phil’s algorithm, David Deutsch’s algo -rithm, and David Deutsch–Jozsa algorithm, Daniel Simon’s algorithm, Lov Grover’s Search algorithm, Quantum Fourier Transform (QFT), Peter Shor’s algorithm for integer factorization, introduction to quantum walk and search application. Case Study: Classical v...",
+          "hours": 9
+        },
+        {
+          "title": "Mathematical Foundations of Quantum Mechanics",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Quantum Algorithms",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Quantum Machine Learning",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Applications of Quantum Artificial Intelligence",
+          "topics": "Case Study: Quantum AI-Based Smart Traffic Signal Optimization System",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362CCAI",
+      "title": "Prompt Engineering",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 4,
+      "pages": [
+        108,
+        110
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Prompt Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Generative AI and Prompt Engineering",
+          "topics": "Content: Fundamentals of prompt design, structure of effective prompts, prompt clarity and specificity, context based prompting, instruction based prompting, prompt constraints and output formatting, types of prompting techniques such as zero shot prompting, few shot prompting and role based prompting, prompt iteration and refinement methods, designing prompts for explanation, summarization and classification tasks. Case Study: A startup wants to use AI to summarize research papers for engineers. When using a generic prompt, AI outputs either incomplete or overly long summaries. Task for Students: Design structured prompts ncluding context, instructions, and output format to get concise, informative summaries for different engineering domains. Content: Advanced prompting techniques, reasoning based prompts, step by step reasoning methods such as Chain - of-Thought Prompting, concept of multi-step prompts, prompt templates and reusable prompt structures, prompt optimization and debugging, controlling tone, style and format of AI responses, prompt engineering for complex problem solving and analytical tasks. Case Study: An engineering company needs AI to analyze sensor data and pr...",
+          "hours": 9
+        },
+        {
+          "title": "Advanced prompting techniques",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Ethics, Limitations and Future of Prompt Engineering",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Prompt Engineering for Engineering Applications",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362DCAI",
+      "title": "UI/UX (User Interface & User Experience Design)",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 4,
+      "pages": [
+        111,
+        113
+      ],
+      "units": [
+        {
+          "title": "Introduction to UI/UX Design",
+          "topics": "Case Study: A good and a bad User Interface Design Usability Engineering: Concept of usability, usability principles, benefits of usability for users and organizations, internationalization and localization, human errors and their impact on usability. Us-ability Evaluation: Human information processing and memory, Fitts’s Law and Hick’s Law, usability inspection methods such as Heuristic Evaluation and Cognitive Walkthrough, user studies and field studies. Usability Testing: Planning and conducting usability testing, Think-Aloud testing, A/B test-ing, use of heatmaps, and basic UX metrics for evaluating user experience. UX Design Foundations: Ideation and research in UX design, content and interaction mapping, paper prototyping, introduction to wireframes and interface layout, applying Nielsen’s usability heuristics, refining UI based on user feedback. User-centric design - The UX Phases - Waterfall vs. Agile - Web vs. App. Determining Strategy: User Research - Inspiration - Analytics - User Needs and Client Needs - Target Audience - What is in and What is Out: Outlining Scope - Content and Functionality. The Sitemap: Introduction to Sitemaps - Information Architecture - Sitemap...",
+          "hours": 9
+        },
+        {
+          "title": "WEB DESIGN: STRATEGIES AND INFORMATION ARCHITECTURE",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Designing UX for Tomorrow",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Usability Engineering, Evaluation and Testing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Wireframing Fundamentals",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC363ACAI",
+      "title": "Blockchain Laboratory",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 2,
+      "pages": [
+        114,
+        116
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC363BCAI",
+      "title": "Big Data engineering Laboratory",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 2,
+      "pages": [
+        117,
+        118
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC363CCAI",
+      "title": "High Performance Computing Laboratory",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 2,
+      "pages": [
+        119,
+        119
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC363DCAI",
+      "title": "AR/VR Laboratory",
+      "semester": 6,
+      "type": "Programme Elective Course",
+      "credits": 2,
+      "pages": [
+        120,
+        120
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM371-CAI",
+      "title": "Robotics and Automation",
+      "semester": 6,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        121,
+        123
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Robotics",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Sensors",
+          "topics": "Course Content Sensors, Range Sensors- Range Finders, Laser Range Meters, Touch Sensors, Force and torque sensors Introduction to industrial automation PLC basics and SCADA overview IoT in automation systems Basics of AI in robotics (computer vision, ML concepts) Case studies: smart factories, autonomous robots Environment Representation: Occupancy grids, topological maps, and configuration spaces. Path Planning Algorithms: Dijkstra’s Algorithm, A* (A-star) search, and RRT (Rapidly exploring Random Trees). Localization: Odometry, sensor fusion (Kalman Filters), and particle filters. Obstacle Avoidance: Potential field methods and reactive control loops. Robot Operating System (ROS): Architecture (Nodes, Topics, Services, Messages) and Workspace management. Simulation Environments: Working with Gazebo and RViz for testing and validation. Industrial Automation: Introduction to PLC (Programmable Logic Controllers) and SCADA systems. Industry 4.0: Impact of IoT, Big Data, and AI in smart manufacturing and automation. 1. Robotics: Control, Sensing, Vision and Intelligence – McGraw Hill 2. Introduction to Robotics – Tata McGraw Hill 3. Robotics Engineering – Prentice Hall 4. Programma...",
+          "hours": 3
+        },
+        {
+          "title": "Robotic Middleware & Industry 4.0",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Industrial Automation and AI in Robotics",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Autonomous Navigation & Path Planning",
+          "topics": "Text Book:",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VSE372-CAI",
+      "title": "Solar Technology and Development",
+      "semester": 6,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        124,
+        126
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}
