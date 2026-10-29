@@ -82,6 +82,23 @@ const ALERTS = {
 }
 const ALERT_MARK = /^\s*\[!(note|tip|important|warning|caution)\]\s*/i
 
+// remark plugin, after remark-math: a "$$…$$" formula inside a paragraph (notes put them on their own
+// line, often inside a list item) is shown as a display formula, not small inline math. It stays a
+// <span> so the paragraph remains valid HTML.
+export function remarkDisplayMath() {
+  return (tree, file) => {
+    const source = String(file)
+    const visit = (node) => {
+      for (const child of node.children || []) {
+        if (child.type === 'inlineMath' && source.startsWith('$$', child.position?.start.offset)) {
+          child.data = { ...child.data, hProperties: { className: ['math', 'math-display'] } }
+        } else visit(child)
+      }
+    }
+    visit(tree)
+  }
+}
+
 // rehype plugin: <blockquote><p><strong>Exam tip:</strong> …</p></blockquote> (or <p>[!TIP] …</p>)
 // → <aside data-callout="tip" data-label="Exam tip"><p>…</p></aside>
 export function rehypeCallouts() {
