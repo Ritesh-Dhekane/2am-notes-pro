@@ -1,0 +1,569 @@
+{
+  "id": "t-y-b-sc-electronic-science",
+  "kind": "programme",
+  "programme": "T.Y.B.Sc. Electronic Science",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ELS-301-MJ",
+      "title": "Principles of Semiconductor Devices",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "Energy Bands and Charge Carriers in Semiconductors",
+          "topics": "Semiconductor materials, Types of solids, Basic Lattice and Cubic Structures, Crystal planes and Miller Indices, Bulk Crystal growth (Czochraslki method). Bonding forces and Energy bands in semiconducto rs, Band structure for Metal, Semiconductors and Insulators, Direct and indirect semiconductors, Charge carriers in semiconductors , Effective mass, Intrinsic and extrinsic material, Fermi level and temperature dependence. Excess carriers in semiconductors: Optical absorption, Photo and Electro-luminescence, Diffusion of carriers.",
+          "hours": 10
+        },
+        {
+          "title": "Direct and Indirect Bandgap Semiconductors",
+          "topics": "Equilibrium conditions: Contact potential, Space charge at junction. PN Junction with band diagram: No bias, Forward and Reverse bias junctions Reverse bias breakdown: Zener and Avalanche breakdown mechanisms. Metal Semiconductor Junction: Schottky barriers, Forward and reverse bias condition, Rectifying contacts, Ohmic Contacts. Photo voltaic devices: Solar cells ( Fill factor and efficiency), LED working and materials, PIN photo-diode.",
+          "hours": 8
+        },
+        {
+          "title": "Bipolar Junction Transistors (BJTs)",
+          "topics": "BJT: Working:Energy band diagram, Amplification, Switching: Switching cycle. Important Effects in B JT: Drift in the Base region, Base narrowing, Injection and Thermal Effects, base resistance and emitter Crowding Effect. Photo-transistor : Working, Quantum efficiency",
+          "hours": 6
+        },
+        {
+          "title": "Field Effect Transistors (FETs)",
+          "topics": "Junction FETs: Working, I-V Characteristics Metal Semiconductor FETs (MESFETs): GaAs MESFET. MOSFET: Working, output and transfer Characteristics, CMOS. Control of threshold voltage, Substrate Bias Effects, Sub-threshold Characteristics, Electrical equivalent circuit of MOSFET.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELS-302-MJ",
+      "title": "Embedded System Design",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems",
+          "topics": "Basic Concepts: Introduction and history, Definition, Embedded system Vs general computing system, Classification: Based on generation, Complexity and performance requirements, Based on deterministic behaviour, Based on triggering, Major Application areas of Embedded Systems, Purpose of embedded system, Elements of embedded system.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to AVR Microcontroller",
+          "topics": "Criteria for choosing a microcontroller, Introduction to AVR microcontroller, Functional Block diagram of an A VR Microcontroller, AVR family overview (Comparison in ATmega family), CISC and RISC architecture. AVR ATmega32 Study: Features, General Purpose Registers in AVR, AVR Data memory, I/O memory, Internal data SRAM, Program counter, Status register, Program Space (ROM), ATmega32 Pin Diagram, I/O ports and registers.",
+          "hours": 8
+        },
+        {
+          "title": "AVR Programming using embedded C",
+          "topics": "Introduction embedded to C program, Data Types and time delays with programs, I/O programming. Bit-wise l ogic and shift operators, Data conversion programs: Packed BCD to ASCII conversion, ASCII to packed BCD conversion, Binary (hex) to decimal and ASCII conversion.",
+          "hours": 8
+        },
+        {
+          "title": "AVR Hardware Connection and interfacing",
+          "topics": "ATmega32 pin connection: Reset with simple circuit, XTAL1 –XTAL2 Connection to Crystal Oscillator, Analyzing the hex file, ISP 10-pin Connections for target board. AVR Interfacing: LED, Switch, Relay, Buzzer, SSD, 16x2 LCD, Keyboard matrix, Stepper motor, DC motor, Sensors: LM35 and LDR.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "ELS-303-MJ",
+      "title": "Instrumentation and Process Control",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Fundamentals Of Measurement Systems",
+          "topics": "Block diagram of instrumentation system, Analog and Digital Modes of Operation, Null and Deflection Methods, Input Output configuration of Instruments and measuring systems. Methods of correction for Interfering and Modifying Inputs.",
+          "hours": 6
+        },
+        {
+          "title": "Performance Parameters of Instrumentation System",
+          "topics": "Static and dynamic characteristics, Generalized measurement systems, zero-order System, First-order System, Second–order System, Dead-Time Element, Specifications and Testing of Dynamic Response.",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Process Control",
+          "topics": "Process control principles, Continuous control, discrete state control, composite, discrete/continuous control, Process Characteristics, Control system parameters, Architecture of Industrial Automation Systems, Advantages and limitations of Automation.",
+          "hours": 6
+        },
+        {
+          "title": "Process Control Systems",
+          "topics": "Two position mode, Multiposition mode, floating control mode Conti nuous controller modes: Proportional control, Integral control, Derivative control Composite modes: Proportional-Integral, Proportional derivative, Proportional-integral derivative (PID). Simple Process Control / Automation Applications: Automatic ON/OFF switching of two lights (basic discrete control application), Temperature control in ovens/heaters/ using proportional/ PI and PID control.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "ELS-304-MJ",
+      "title": "Communication Electronics",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Antenna & Wave Propagation",
+          "topics": "Antenna: Basic of wave propagation, Evolution of Dipole antenna, Parameters of Antenna: antenna Gain, directivity, antenna re sistance, efficiency, Beamwidth, radiation pattern, problems based on parameters. Concept of Resonant and non -resonant antenna, Yagi -Uda antenna and parabolic antenna.",
+          "hours": 6
+        },
+        {
+          "title": "Fundamentals of Communication",
+          "topics": "Importance of communications, Elements of an electronic communication system, types of communication, Electromagnetic spectrum, Bandwidth, Concept of Noise: External and internal, signal-to-noise (S/N) ratio, Noise figure and noise temperature, Need of Modulation, Concept of Modulation.",
+          "hours": 6
+        },
+        {
+          "title": "Continuous Wave Modulation",
+          "topics": "Amplitude Modulation and Demodulation: AM modulator using transistor, equation of AM and its derivation, Modulation index, Power Distribution. Concept of sidebands (SSB, VSB, DSB), AM Modulator using transistor, Balanced modulator. AM Receiver: Demodulator circuit using diode. Concept of super -heterodyne receiver, characteristics of receiver: Selectivity, sensitivity, image frequency and dynamic range. Frequency Modulation: FM Basic Equation , frequency spectrum, bandwidth and modulation index, frequency deviation, FM Modulation using varactor diode. FM Demodulation: Foster-Seeley discriminator. Pulse Modulation Methods: Introduction to PAM, PWM, PPM.",
+          "hours": 14
+        },
+        {
+          "title": "Introduction to Digital Modulation",
+          "topics": "Advantages of Digital Modulation, Fundamentals of ASK, FSK, PSK Digital Modulation: PCM, Delta Modulation, Adaptive Delta Modulation (Basic Concepts) Text/ Recommended Books: 1. Communication Electronics: Principle and applications by Louies E. Frenzel,3rd edition, TMH 2. Electronic Communication systems by Kennedy & Davis, Tata McGraw Hill,5th edition 3. Electronic Communication by Dennis Roddy & John Coolen, Pearson Education 4. Antenna Theory: Design & Analysis by Balanis, Wiley Eastern",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "ELS-305- MJP",
+      "title": "Practical Course-V",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-306- MJP",
+      "title": "Practical Course-VI",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-310-MJ",
+      "title": "Nanoelectronics",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Fundamentals Nanoelectronics",
+          "topics": "Fundamentals of Nanotechnology and its scope, Properties of Nanomaterials : Electronic Properties - Band structures, Mobility, resistivity , Optical Properties - Photo conductivity, Photovoltaic effect, optical absorption and transmission, photoluminescence.",
+          "hours": 6
+        },
+        {
+          "title": "Synthesis and Characterization Techniques for Nanomaterials",
+          "topics": "Synthesis of Nanomaterial:- Top-down , bottom-up methods, Physical Methods:- Physical vapour Deposition, Molecular Beam Epitaxy , Chemical Met hods : - Sol-Gel Method, Sonochemical sysnthesis Characterization Techniques for Nanomaterials : - Structural characterization techniques: -X-ray diffraction (XRD) technique. Optical and Electron Microscopy: -Scanning Electron Microscopy, Transmission Electro n Microscopy, Scanning Tunnelling Microscopy, AFM Spectroscopic Techniques:-UV visible spectroscopy",
+          "hours": 8
+        },
+        {
+          "title": "Nanoelectronic Materials and Devices",
+          "topics": "Nanoelectronic materials: Carbon nanomaterials:- fullerenes, carbon nanotubes, grapheme. Low dimensional semiconductor nanomaterials :- Quantum well, Quantum wire and Quantum dot Nanoelectronic Devices:- Quantum well laser, Quantum dot laser, Resonant Tunneling diode , Coulomb Blockade, Single- Electron Transistor",
+          "hours": 8
+        },
+        {
+          "title": "Applications",
+          "topics": "Applications: Sensors, logic circuits, emerging memory devices, Challenges: Integration challenges, Environmental, reliability aspects Future Trends: Wearable, flexible nanoelectronics Text/Reference Book:- 1. Nanotechnology: Principles and Practices by Sulabha K. Kulkarni (Springer) . 2. Introduction to Nanoelectronics Science, nanotechnology, Engineering and Applications, V. Mitin ,Viatcheslav A. Kochelap , Michael A. Stroscio Vladimir, Cambridge University Press 2008 . 3. .Introduction to Nanoscience and Nanotechnology\" by Gabor L.Hornyak, Joydeep 4. Dutta,H.F.Tibbals, and John J. Moore.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "ELS-311-MJ",
+      "title": "Fiber Optic Communication",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Basics of Optical Fiber",
+          "topics": "Block diagram of the optical fiber communication system, Ray theory transmission, refractive index, Total internal reflection, acceptance angle, numerical aperture, skew rays, Types and specification of optical fiber, Propagation of light in optical fiber for meridional rays, definition of fiber joints, connectors and splicer, Advantages of optical fiber communication",
+          "hours": 10
+        },
+        {
+          "title": "Different losses in Optical Fiber",
+          "topics": "Definition of Attenuation, Absorption, Material absorption losses, linear and nonlinear scattering losses, bending losses, dispersion: Chromatic and intermodal dispersion, pulse broadening due to dispersion, fiber scattering loss measurement and fiber numerical aperture measurement.",
+          "hours": 7
+        },
+        {
+          "title": "Optical Sources and Detectors",
+          "topics": "Light-Emitting Diodes Structures, Light Source Materials, Quantum Efficiency and LED Power, Modulation of an LED, Laser Diodes, Laser Diode Modes and Threshol d Conditions, External Quantum Efficiency, Single -Mode Lasers, Modulation of Laser Diodes, Detectors: PIN and APD, Photodetector",
+          "hours": 7
+        },
+        {
+          "title": "Power launching and Coupling",
+          "topics": "Source to Fi ber power launching, Numerical Aperture, Lensing schemes for coupling improvement, laser diode to fiber coupling, Mechanical misalignment and their types in fiber-to-fiber joint.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELS-313- MJP",
+      "title": "Major Elective Practical Lab-I",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-321- VSC",
+      "title": "Sensors, Actuators and Signal Conditioning",
+      "semester": 5,
+      "type": "Vocational Skill Courses",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-311-MN",
+      "title": "Python Programming",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Python Programming",
+          "topics": "Introduction to python as scripting language and comparison with programming language, Advantages, features and appl ications of Python. Basic structure of Python program, keywords and identifiers, variables and data types, input and output statements, Operators, conditional statements (if, if–else, nested if, elif). Demonstration of python programs on: 1. Basic calculator operations. 2. Even-odd numbers or prime numbers",
+          "hours": 8
+        },
+        {
+          "title": "Control Structures and Functions",
+          "topics": "Looping statements: for loop, while loop, break, continue and pass statements, nested loops. Functions: defini ng and calling functions, function arguments, return statement, recursive functions, scope of variables. Demonstration of python programs on: 1. Factorial of number (Recursive). 2. Fibonacci Series.",
+          "hours": 8
+        },
+        {
+          "title": "Data Structures and File Handling",
+          "topics": "Python data structures: lists, tuples, sets and dictionaries, operations on data structures. String handling and string operations. File handling: opening and closing files, reading and writing files, text file operations. Demonstration of python programs on: 1. Variable swapping of numbers 2. Create/rename/delete files.",
+          "hours": 8
+        },
+        {
+          "title": "Python for Scientific and Electronic Applications",
+          "topics": "Introduction to scientific computing in Python. Introduction to Python libraries: NumPy and Matplotlib. Basic array operations using NumPy. Plotting graphs using Matplotlib: line graph, bar graph and scatter plot. Basic idea of Python communication with hardware such as Arduino using serial communication. Applications of Python in electronics, automation and data analysis. Demonstration of python programs on: 1. Use of NumPy. 2. Ohm’s Law: Graph plotting using Matplotlib",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELS-331-FP",
+      "title": "Field Project",
+      "semester": 5,
+      "type": "FP/CEP",
+      "credits": 2,
+      "pages": [
+        24,
+        24
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-351-MJ",
+      "title": "Advanced Embedded Systems",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "AVR Timer Programming in C",
+          "topics": "Introduction to Timers, Timer 0, 1 and 2 block diagram. Timers 0 Programming: TCCR0, TIFR, examples of delay calculation, steps and program for delay and square wave generation, prescaler and generating a large time delay . Timer 2 Programming: TCCR2, ASSR, program for delay generation. Timer 1 Programming: TCCR1A, TCCR1B, program for delay generation. Counter 0 Programming.",
+          "hours": 10
+        },
+        {
+          "title": "AVR Interrupt Programming",
+          "topics": "Interrupts vs polling, Interrupt service routine, Interrupt Vector Table for the ATmega32 (External and Timer interrupt), Sources of interrupts, Enabling and disabling an interrupt, SREG, TIMSK, GICR, MCUCR, MCUCSR, GIFR registers, Interrupt priority, Interrupt programming for timers and external interrupts.",
+          "hours": 8
+        },
+        {
+          "title": "Interfacing Peripherals to AVR",
+          "topics": "ADC Interfacing: Characteristics of the ADC , Digital data outp ut, ATmega32 ADC features , ADMUX and ADCSRA Registers, Steps and programming of ADC using polling. DAC0808 Interfacing: waveform generation (staircase, ramp, triangular and square wave) and dc motor control using PWM.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Embedded Systems and applications",
+          "topics": "Introduction and comparative study of advanced microcontroller (Features and applications of PIC and ARM), Automotive Electronics : Electronic Fuel Injection , Anti-lock Braking System , Electronic Stability Control , Adaptive Cruise Control , Airbag Deployment , Automotive Navigation Systems. Robotics: Sensors, Actuators, Embedded Intelligence and types of Robots . Biomedical Applications, Brain Machine Interface-Block diagram,",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELS-352-MJ",
+      "title": "Digital System Design using Verilog",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Verilog",
+          "topics": "Overview of HDL, Comparison of VHDL and Verilog, Introduction to Simulation and Synthesis Tools, Test Benches, Verilog Modules, Delays. Introduction to Language Elements: Keywords, Identifiers, White Sp ace Characters, Comments, Format, Integers, Reals and Strings, Logic Values, Data Types-net types, undeclared nets, scalars and vector nets, Register type, Parameters, Expressions, Operands, Operators.",
+          "hours": 6
+        },
+        {
+          "title": "Gate Level and Data flow Modeling Styles in Verilog",
+          "topics": "Gate level modeling: Introduction, built in Primitive Gates, multiple input gates, Tri -state gates, MOS switches, bidirectional switches, gate delay, array instances, implicit nets, Examples (both combinational and sequential logic circuits) Data flow Modeling: Continuous assignment, net declaration assignments, delays, net delays. Examples of gate level and data flow modelling.",
+          "hours": 8
+        },
+        {
+          "title": "Behavioral Modeling in Verilog",
+          "topics": "Structured procedures, initial and always, blocking and non-blocking assignments, delay control, event control, conditional statements, multiway branching, loops, seq uential and parallel blocks , Verilog codes for Combinational Circuit: Binary to Gr ay, Gray to Binary, encoder, multiplexer, demultiplexer Verilog codes for Sequential Circuit: Flip-Flop: SR, D, T and JK Flip Flop, Decade Counter, 4-bit binary up counter.",
+          "hours": 8
+        },
+        {
+          "title": "Programmable Logic Devices",
+          "topics": "Introduction of Programmable Logic Array (PLA), Programmable Array Logic (PAL), Programmability of PLDs, Simple PLDs (SPLD), Complex PLDs (CPLDs), Field-Programmable Gate Arrays (FPGA).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "ELS-353-MJ",
+      "title": "Power Electronics",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Introduction to Power Electronics",
+          "topics": "Definition of power electronics, Applications of power electronics, classification of power Semiconductor devices . Power Devices: Power Diodes-(Construction and Structure, V–I Characteristics, Switching Ch aracteristics). Power Transistor: Power BJT, MOSFET, IGBT (Construction and Structure, V–I Characteristics). DIAC, TRIAC: (Construction, Structure and Advantages).",
+          "hours": 8
+        },
+        {
+          "title": "Power Devices",
+          "topics": "Thyristors / S ilicon Controlled Rectifiers : (Cons truction, V -I characteristics, Two transistor Model, Turn-on / Turn -off behavior, Thyristor protection: High voltage, high current, dv/dt and di/dt protection, gate protection, thermal protection). Gate triggering Circuits using PUT.",
+          "hours": 8
+        },
+        {
+          "title": "Power Circuits",
+          "topics": "Concept of single phase, Concept of three phase. Controller Rectifiers (Single Phase): Half wave and Full Wave (R Load and R/L load), Choppers and their types (Class A, Class B, Class C, Class D, Class E). Inverters: Half Bridge and full Bridge inverter (operations, voltage- current waveform), Cycloconverter (Single Phase Cycloconverter).",
+          "hours": 9
+        },
+        {
+          "title": "Applications of Power Electronics",
+          "topics": "Concept of PWM R egulator, Switching Mode Power Supply (SMPS), Buck Regulator, Boost Regulator, Buck- Boost regulators, UPS (Block Diagram and Types)",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ELS-354-MJ",
+      "title": "Digital Communication",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Communication Systems",
+          "topics": "Block Diagram and Elements of Digital Communication system, advantages of digital communication system, Communication channel Characteristics: bit rate, baud rate and bandwidth. Error Detection Code: CRC, Hamming code.",
+          "hours": 4
+        },
+        {
+          "title": "Pulse Code Modulation Techniques",
+          "topics": "Types of digital modulation techniques and their advantages, concept of coherent and non-coherent detection. Shift keying techniques: Block diagram of transmitter and receiver with its working principle for Amplitude Shift Keying (ASK), Frequency Shift keying (FSK), Phase Shift keying (P SK), Differential Phase Shift keying (DPSK), Quadrature Phase Shift keying (QPSK), waveforms. Quadrature amplitude modulation (QAM): Need, Bloc k diagram of transmitter and receiver with its working principle . Compare the salient feature of the given types of digital modulation techniques: ASK, FSK, PSK.",
+          "hours": 10
+        },
+        {
+          "title": "Multiplexing and Multiple Access Technique",
+          "topics": "Multiplexing: Concept of Time Division Multiplexing (TDM), Frequency Division Multiplexing (FDM) Multiple Access techniques: Need, Time Division Multiple Access (TDMA), Frequency Division Multiple Access (FDMA), Advantages of TDMA over FDMA",
+          "hours": 10
+        },
+        {
+          "title": "Modern communication Techniques",
+          "topics": "Global system for mobile communications (GSM): GSM services, GSM Architecture. Bluetooth, WIFI, LIFI, RFID, GPS, Basics of General Packet Radio Service (GPRS), MODEM. Text/Recommended Books: 1. Wireless Communication Principles and practices by Theodore S. Rappaport, 2nd Edition, Pearson. 2. Wireless Communications and Networks,2nd edition, William Stallings (2009), Pearson Education, India. 3. Advanced Electronic Communication Systems, Wayne Tomasi, Sixth Edition. 4. Mobile Communications, 2nd edition, Jochen Schiller (2009), Pearson Education, India. 5. Modern Digital and Analog Communication Systems, B. P. Lathi, (3rd Edition), Oxford Publication. 6. Principles of Communication Systems, Taub & Schilling, (2nd Edition),Tata McGraw Hill Publication. 7. S. Haykin, Communication systems, John Wiley 2001. 8. Bhattacharya Amitabh, \"Digital Communication\", Tata McGraw-Hill, 1st Ed., 2006. 9. Andreas F. Molisch (2006), Wireless Communications, Wiley –India, New Delhi",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELS-355- MJP",
+      "title": "Practical Course- VII",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-356- MJP",
+      "title": "Practical Course- VIII",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        35,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-360-MJ",
+      "title": "Internet of Things (IoT)",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        36,
+        36
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Internet of Things",
+          "topics": "Definition and characteristics of IoT, Functional Block Diagram of IoT, Introduction to M2M, Differences between IoT and Machine-to-Machine (M2M) communication.",
+          "hours": 4
+        },
+        {
+          "title": "IoT Architecture",
+          "topics": "Physical and logical architecture of IoT, Functional blocks: sensors, actuators, gateways, cloud services, Communication models and APIs. IoT design Methodology-Steps.",
+          "hours": 8
+        },
+        {
+          "title": "IoT communication technologies and IoT Protocols",
+          "topics": "IoT enabling Technologies Cloud computing (Iaas, Paas, Saas), Big Data Analytes., Wi-Fi, Bluetooth, Zigbee, RFID, Z-Wave, LoRaWAN, Sigfox Application Layer Protocol (HTTP: CoAP, WebSocket, MQTT, XMPP, DDS, AMQP)",
+          "hours": 12
+        },
+        {
+          "title": "IoT Case Studies & Applications",
+          "topics": "IoT system for: Weather Monitoring, Smart Healthcare Systems, Smart Agriculture/Irrigation system, Home Automation Systems.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELS-361-MJ",
+      "title": "Signals and Systems",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "pulse, ramp,",
+          "topics": "exponential, and sinusoidal signals. CO3: Classify systems as continuous/discrete , linear/nonlinear, time -invariant/time-variant, static/dynamic. CO4 : Apply Laplace Transform to solve differential equations, Use properties CO5 : Digitization of Analog Signals",
+          "hours": null
+        },
+        {
+          "title": "Fundamentals of Electronic Signals",
+          "topics": "Definition, Classification of signals: Periodic and aperiodic, Even and odd signals Elementary signals: unit step,",
+          "hours": 4
+        },
+        {
+          "title": "pulse, and unit ramp, exponential and sinusoidal signals",
+          "topics": "Types of Systems: Definition: Systems, Continuous Time systems, D iscrete time systems, Static and dynamic systems, Time variant and time invariant systems, linear and nonlinear systems",
+          "hours": null
+        },
+        {
+          "title": "Laplace Transform",
+          "topics": "Laplace transform: Definition, Properties, LT by using standard tables, First shifting theorem, LT of Differential equation and integral, initial value theorem & Final value theorem. Inverse Laplace transform: Definition, ILT by standard tables, ILT by partial fractions method, a pplication RC circuit, RL circuit.",
+          "hours": 10
+        },
+        {
+          "title": "Fourier series",
+          "topics": "Fourier analysis: Definition, Fourier series and Formulae for Fourier Coefficients, Fourier series analysis of periodic signals such as square wave, triangular wave",
+          "hours": 6
+        },
+        {
+          "title": "Digitization of Analog Signals",
+          "topics": "Analog to Digital conversion of signals, concept of sampling of CT signals, aliasing effect, oversampling and antialiasing filters, concept of quantization and quantization error, encoding, Introduction to DSP systems.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "ELS-362- MJP",
+      "title": "Major Elective Practical Lab -II",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        37,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-371-VSC",
+      "title": "PLC Programming",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        41,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-381- OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "On Job Training",
+      "credits": 4,
+      "pages": [
+        42,
+        44
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

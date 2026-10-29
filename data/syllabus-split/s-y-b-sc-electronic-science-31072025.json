@@ -1,0 +1,394 @@
+{
+  "id": "s-y-b-sc-electronic-science-31072025",
+  "kind": "programme",
+  "programme": "S.Y.B.Sc. (Electronic Science)",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ELS-201-MJ",
+      "title": "Analog Circuit Design",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        6,
+        6
+      ],
+      "units": [
+        {
+          "title": "Single Stage Transistor Amplifier",
+          "topics": "Introduction, General classification of amplifiers, ac and dc analysis of small signal amplifier, Design of single stage common emitter amplifier, Explanation of terms- gain, frequency response, bandwidth and gain bandwidth product.",
+          "hours": 4
+        },
+        {
+          "title": "Multistage Transistor Amplifiers",
+          "topics": "Introduction, Block diagram, Types of multistage amplifiers: Two stage R-C coupled, Transformer coupled, Direct coupled transistor amplifiers (Circuit diagram, Working, frequency response, advantages, disadvantages and applications of all types).",
+          "hours": 6
+        },
+        {
+          "title": "Op-Amp and Its Applications",
+          "topics": "Differential Amplifier, Block diagram, Equivalent circuit, Symbol, Characteristics of an Ideal and Practical Op-Amp, Concept of feedback, negative and positive feedback, advantages of negative feedback, Open and closed loop configuration, Inverting, Non-inverting amplifier, Concept of differential amplifier, Summing and Difference Amplifier, Integrator, Differentiator, Comparator, Schmitt trigger, Active low pass and high pass filters.",
+          "hours": 12
+        },
+        {
+          "title": "Oscillators and Multivibrators",
+          "topics": "Oscillators: Concept, Barkhausen criterion for sustained oscillations, Phase Shift oscillator and Wien-bridge oscillator (no derivation for each), Multivibrators: Introduction to IC-555, Functional Block diagram, Astable and Monostable multivibrator circuits. (Numerical Examples wherever applicable).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "ELS-202-MJ",
+      "title": "Digital Circuit Design",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        7,
+        7
+      ],
+      "units": [
+        {
+          "title": "Combinational Circuit Design",
+          "topics": "Introduction to K-map, Simplification of Boolean expression using K-map, Design of code converters: Binary to Gray and Gray to binary, BCD to Seven segments, Parallel adder, Priority encoder, Parity generator/Checker, Magnitude comparator. (Study of ICs -7447, 7483, 74148, 7485).",
+          "hours": 10
+        },
+        {
+          "title": "Designing of Counters",
+          "topics": "Flip-flops: Flip-flop operation, timing diagrams and Excitation Tables (SR, D, JK, and T flip- flops), Counter Design: State diagram, State table, Excitation table and Transition table, Design of synchronous counter using JK Flip-Flop and T Flip-Flop, Study of IC 7476, Modulo Counter Design: Mod 2, Mod 5 and Mod 10, Design of counter for given sequence. (, 7490).",
+          "hours": 10
+        },
+        {
+          "title": "Logic Families and PLDs",
+          "topics": "Introduction to Logic Families: TTL, CMOS and ECL, Characteristics: Propagation delay, fan- in/fan-out, power dissipation and noise margin, Interfacing TTL and CMOS Introduction to PLDs: PROM, PLA, PAL and GAL, Basics of CPLD and FPGA (only overview), Applications of PLDs.",
+          "hours": 6
+        },
+        {
+          "title": "Peripheral Interfacing",
+          "topics": "Interfacing of LED's, single and multi-digit 7 segment displays/ drivers, Switches, Keypad, Thumbwheel switches and Relays.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "ELS-203-MJP",
+      "title": "Practical Course-III",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        8,
+        8
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-221-VSC",
+      "title": "Circuit Simulation-I",
+      "semester": 3,
+      "type": "Vocational Skill Courses",
+      "credits": 2,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-231-FP",
+      "title": "Field Project",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "IKS-200-T",
+      "title": "Development of Electronic Communication In India",
+      "semester": 3,
+      "type": "IKS (Major Subject Specific)",
+      "credits": 2,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Overview of Communication Systems in India",
+          "topics": "Growth and development of telecommunication in India: Telegram, Telephone, Pager, Mobile phone, Smart phones, Radio: AM, FM and Pocket Radio (transistor radio), Digital Radio, Internet Radio, Television: Black and White TV, Color TV and Smart TV.",
+          "hours": 8
+        },
+        {
+          "title": "Telecommunication Systems in India",
+          "topics": "Telegram system in India: Block diagram and working, Telephone system in India: Block diagram of telephone set, Telephone exchange, Wireless communication - Radio Communication, Mobile communication (Block diagram and working).",
+          "hours": 8
+        },
+        {
+          "title": "Evolution of Television in India",
+          "topics": "Television: Block diagram and working, History of Television in India: Door - Darshan, Cable and Satellite Television Evolution: Black and White television, Color television, Smart TV,",
+          "hours": 8
+        },
+        {
+          "title": "Today's Communication Systems in India",
+          "topics": "Electronic mail, Social networking sites: Facebook, Linkedin, Instagram, Myspace, Twitter(X), Online chat, Video chatting, Internet telephony: Voice and Video, Internet- 2G, 3G, 4G, 5G, (In brief), IoT and Artificial Intelligence.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELE-241-MN",
+      "title": "Instrumentation and Measurement Systems",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        11,
+        12
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Measurement",
+          "topics": "Definitions: Accuracy, Precision, Resolution, Sensitivity, Linearity, Types of errors: Gross, Systematic, Random, Static and dynamic characteristics of instruments, Calibration and standards",
+          "hours": 4
+        },
+        {
+          "title": "Instrumentation Systems",
+          "topics": "Block diagram of an instrumentation system, Performance Characteristics, Concepts of Sensors and Transducers, Classification of sensors and actuators, Wheatstone bridge Temperature sensors: Thermocouples, RTD, Thermistors, Displacement and pressure sensors: LVDT, Strain gauges, Piezoelectric sensors, Optical and ultrasonic sensors",
+          "hours": 10
+        },
+        {
+          "title": "Measuring Instruments",
+          "topics": "PMMC, Ammeter, Voltmeter, Multimeter, RPS, Wattmeter, Function generator, Oscilloscope (CRO), DSO (Block/ functional diagram, working principle, specifications and applications)",
+          "hours": 8
+        },
+        {
+          "title": "Signal Conditioning and Data Acquisition Systems",
+          "topics": "Signal conditioning: Amplifiers (Instrumentation amplifier), Filters, ADC,DAC, Display systems: Digital display (7-segment, LCD), Basic block diagram of DAQ system, Case",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "ELE-242-MNP",
+      "title": "Lab course on Instrumentation and Measurement Systems",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-201-ELS",
+      "title": "Fundamentals of Information Technology",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": [
+        {
+          "title": "Basics of Computer Software",
+          "topics": "Introduction to computer softwares: System software and Application software, Study of Office Automation Tools: Word, Excel and Powerpoint, Antivirus packages.",
+          "hours": 8
+        },
+        {
+          "title": "IT in Education and E-Governance",
+          "topics": "IT: Education, Banking, Healthcare, Governance and Government Digital Platforms (DigiLocker, UMANG etc.), Meeting platforms: Google meet, Zoom and Microsoft Teams, Online education tools: MOOCs platform, LMS platform etc.",
+          "hours": 12
+        },
+        {
+          "title": "Emerging Trends",
+          "topics": "Introduction to AI, IoT and Cloud Computing, Use of Social media apps, Basics of Data Science and Machine learning.",
+          "hours": 6
+        },
+        {
+          "title": "IT and Society",
+          "topics": "Ethics in IT: Digital rights and responsibilities, Cyber security basics, Cyber security in Social Media, Mobile devices and Smart Home devices.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "ELS-251-MJ",
+      "title": "Linear Integrated Circuits",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "Application Circuits using Opamp",
+          "topics": "Precision half wave and full wave rectifiers, Peak detectors, sample and hold circuits.",
+          "hours": 4
+        },
+        {
+          "title": "Applications of Linear ICs",
+          "topics": "V oltage comparators using op-amp as well as comparator IC (LM311), design of inverting and non-inverting Schmitt trigger, ON-OFF controller using comparator Astable and mono stable multivibrators using op-amp. Function generator using XR-2206.",
+          "hours": 8
+        },
+        {
+          "title": "Voltage Regulators",
+          "topics": "Concept of Unregulated and regulated power supplies, Block diagram of regulated power supply, load regulation and line regulation with examples, Linear Regulators: Fixed three terminal regulators ICs- 78XX, 79XX; Adjustable Three terminal regulators ICs LM317, LM337, LM723- Block diagram, working, Examples based on regulation formula of each regulator IC.",
+          "hours": 12
+        },
+        {
+          "title": "Phase Locked Loop",
+          "topics": "IC LM565, operating principle, block diagram, PLL characteristics, applications of PLL such as frequency multiplier and FSK demodulator.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "ELS-252-MJ",
+      "title": "Microcontroller Programming and Applications",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Microcontroller",
+          "topics": "Introduction to microcontrollers, difference in microcontroller and embedded processor. Harvard and V on-Neumann architectures, Microcontroller for Embedded Systems, Criteria for choosing a microcontroller. List of Microcontrollers, Introduction to A VR Microcontroller, A VR Features. General Block diagram of A VR Microcontroller.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Arduino and Programming Basics",
+          "topics": "Introduction to Arduino: Features of Arduino, Microcontrollers used in Arduino, Architecture, Pin configuration, Concept of digital and analog ports. Arduino Programming Basics: Basics of C/C++ for Arduino Programming, Data Types, Variables, Arrays, Operators (arithmetic, logical, relational, modulo and assignment) Statements: if-else and switch-case, Control structures: while and for Loop.",
+          "hours": 12
+        },
+        {
+          "title": "Arduino Programming and Interfacing",
+          "topics": "Functions: setup(), loop(), analogRead(), and digitalRead() functions. Serial Port Communication. Arduino Uno Interfacing: LED blinking, buzzer, Push button, LDR, relay, Bluetooth module, LCD and LM35. Controlling Motors (DC and Servo).",
+          "hours": 8
+        },
+        {
+          "title": "Arduino Applications",
+          "topics": "Intensity control of LED with Pulse Width Modulation using analogWrite(), Home Automation Using Arduino, Distance measurement using ultrasonic sensor, Internet of Things (IoT) with Arduino and Wi-Fi Module (ESP8266).",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "ELS-253-MJP",
+      "title": "Practical Course-IV",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-271-VSC",
+      "title": "Circuit Simulation-II",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251-ELS",
+      "title": "Python Programming for Electronic Science",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-281-CEP",
+      "title": "Community Engagement Project",
+      "semester": 4,
+      "type": "Community Engagement Project (CEP)",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "ELE-291-MN",
+      "title": "Communication Electronics",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Basics of Electronic Communication",
+          "topics": "Introduction to communication- means and modes, Block diagram of an electronic communication system, Electromagnetic spectrum, Transmission Media, Concept of Noise, signal-to-noise (S/N) ratio, Bandwidth, Need of Modulation, Concept of Modulation.",
+          "hours": 5
+        },
+        {
+          "title": "Analog Modulation Techniques",
+          "topics": "Amplitude Modulation : AM waveform, mathematical expression of AM, concept of sideband, Modulation index, Power Distribution. AM using transistor, AM Receiver: demodulator circuit using diode and super-heterodyne receiver, Block diagram of AM communication system. Frequency Modulation : FM waveform, frequency spectrum, bandwidth and modulation index, frequency deviation, FM Modulation using varactor diode, Block Diagram of FM communication system. Comparison of AM and FM.",
+          "hours": 12
+        },
+        {
+          "title": "Pulse Modulation Techniques",
+          "topics": "Types Pulse modulation: concept and generation of PAM, PWM, PPM, Concept of Time Division Multiplexing(TDM) and Frequency Division Multiplexing(FDM). Digital Modulation Techniques: Advantages of digital communication system, Bit Rate, Baud Rate and Bandwidth. Serial and Parallel communication, Concept of Sampling, Sampling theorem, PCM, ASK, FSK, PSK.",
+          "hours": 8
+        },
+        {
+          "title": "Application of Communication System",
+          "topics": "FM Broadcasting, TV Broadcasting, Satellite Communication, Mobile Communication, Concept of 2G, 3G, 4G, 5G, Internet.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ELE-292-MNP",
+      "title": "Lab course on Communication Electronics",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251-ELS",
+      "title": "Lab Course on Fundamentals of Information Technology",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

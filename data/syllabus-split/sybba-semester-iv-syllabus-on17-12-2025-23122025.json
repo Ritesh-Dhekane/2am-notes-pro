@@ -1,0 +1,408 @@
+{
+  "id": "sybba-semester-iv-syllabus-on17-12-2025-23122025",
+  "kind": "programme",
+  "programme": "Bachelor of Business Administration (BBA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MJ-251-BT",
+      "title": "Financial Management: Business Taxation",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction to Income Tax Act 1961 and Important Concept under the Act",
+          "topics": "Tax: Meaning, concept and objectives. Income Tax Act -1961- Concepts, Meaning and Definitions, Indian Tax System, Direct Tax and Indirect Tax, Difference between Direct Tax and Indirect Tax, canon of taxation, Residential status & tax incidence, Income exempt from tax. Definitions: Income, Person, Assessee, Deemed Assessee, Assessment year, Previous year, Agricultural Income, Exempted Income, Gross Total Income (GTI), Total Taxable Income (TTI), Residential Status of an Assessee, PAN, TAN, Recent reforms in Direct Tax",
+          "hours": null
+        },
+        {
+          "title": "Heads of Income and Computation of Income under various Heads",
+          "topics": "I. Income from Salary: Concept of Salary, features, Components of salary, Allowances- fully taxable, partially taxable, fully exempted, Perquisites and its valuation, Provident funds and its types, Deductions under section 16, Computation of Income from Salary. II. Income from House Property: Basic concepts of annual value, Deemed owner, deductions under section 24, Computation of Income from House Property. III. Income from Business and Profession: Concept, Allowable and disallowable expenses, Depreciation, Computation of Income from Business and Profession. IV. Capital Gain: Meaning and types of capital assets, Short term and long term capital gain, Computation of capital gain. V. Income from Other Sources: Incomes chargeable under this head, Deductions, Computation.",
+          "hours": null
+        },
+        {
+          "title": "Computation of Gross Total Income and Net Taxable Income",
+          "topics": "Gross total income (GTI), Deductions under Chapter VI-A (Section 80C, 80CCC, 80CCD, 80D, 80DD, 80E, 80G, 80TTA, 80U), Computation of total taxable income of an individual assessee.",
+          "hours": null
+        },
+        {
+          "title": "Filing Online ITR and Other Important aspects of Income Tax Act 1961",
+          "topics": "Due date of filing return, Types of ITR forms, Process of online filing of ITR, Advance tax, Tax deducted at source (TDS), Tax collected at source (TCS), Self-assessment tax, Tax refund, E-verification of return.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-251-APM",
+      "title": "Marketing Management: Advertising & Promotion Management",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        7,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to Advertising",
+          "topics": "Meaning & Definition of Advertising Nature & Scope of Advertising, Objectives of Advertising, Importance of Advertising, Functions of Advertisement, Types of Advertising, Elements of an Advertisement",
+          "hours": null
+        },
+        {
+          "title": "Promotions and Integrated Marketing Communication",
+          "topics": "Meaning & Importance of Promotion. Elements of Promotion Mix: Advertising, Sales Promotion, Public Relations PR, and Personal Selling, Direct Marketing, Digital Tools. Concept of Integrated Marketing Communication (IMC)",
+          "hours": null
+        },
+        {
+          "title": "Advertising Planning & Creative Strategy",
+          "topics": "Setting Advertising Objectives (DAGMAR Approach). Advertising Budgeting: Factors and Methods. Message Design and Creative Strategy: Copywriting, Headlines, Slogans, Appeals (Rational, Emotional, Moral). Role of Visuals, Layout, and Design. Advertising Media Planning: Types of Media (Print, Broadcast, Outdoor, Digital), Media Selection and Scheduling.",
+          "hours": null
+        },
+        {
+          "title": "Advertising Evaluation and Regulation",
+          "topics": "Evaluating Advertising Effectiveness: Pre-testing, Concurrent testing, and Post-testing Methods. Ethical, Legal, and Social Issues in Advertising. Advertising Standards Council of India (ASCI) and Self-regulation. Digital Advertising Trends and Challenges (Influencer Marketing, Native Advertising, Ad Fraud).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-251-ERRM",
+      "title": "Human Resource Management: Employee Recruitment and Record Management",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        11,
+        15
+      ],
+      "units": [
+        {
+          "title": "Manpower Planning and Forecasting",
+          "topics": "1.1. Concept & importance of manpower planning. 1.2. Process of manpower planning. 1.3. Job analysis & skill/competency mapping. 1.4. Demand forecasting techniques. 1.5. Supply forecasting techniques. 1.6. Gap analysis & HR action plans. 1.7. Contemporary trends in workforce planning.",
+          "hours": null
+        },
+        {
+          "title": "Recruitment and Selection",
+          "topics": "2.1 Meaning, Definition, Objectives of recruitment 2.2 Factors influencing recruitment 2.3 Recruitment Process 2.4 Sources of recruitment (Internal & External) 2.5 Modern Recruitment Methods: E-recruitment, Social media hiring, AI in recruitment 2.6 Selection Process: Steps, types of tests and interviews, background checks, medical examination, job offer and appointment letter 2.7 Induction and Orientation.",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Employee Records and Documentation",
+          "topics": "3.1 Concept, meaning, importance and objectives of employee record keeping. 3.2 Types of employee records: pre-employment, employment, post-employment records. 3.3 Statutory requirements under labour laws: Factories Act, PF Act, ESI Act, Gratuity Act, Minimum Wages Act. 3.4 Maintenance of service book, personal files, attendance and leave records. 3.5 Confidentiality and data privacy in employee records.",
+          "hours": null
+        },
+        {
+          "title": "HR Information Systems and Digital Record Management",
+          "topics": "4.1 Meaning, components and benefits of HRIS. 4.2 Digital employee documentation: e-files, cloud storage, document management systems. 4.3 Data protection and security: GDPR overview, Indian IT Act provisions, confidentiality agreements. 4.4 Employee self-service portals and workflow automation. 4.5 Audit of employee records and compliance management.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-251-BOF",
+      "title": "Agri Business Management: Banking Operation and Finance",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        16,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Agriculture Banking Operations and Finance",
+          "topics": "Agricultural Finance Meaning, definition, nature and scope. Need, importance of agriculture finance. types of available agriculture finance. Systems of Banking (Merchant banking, Virtual banking, Green banking Unit banking, Branch banking, Group Banking, Chain banking). Scope of banking operations and finance in India for modern agriculture and related business.",
+          "hours": null
+        },
+        {
+          "title": "Sources of Agriculture Finance",
+          "topics": "Regional Rural Banks – origin, objectives and features; Micro-financial Institutions: Joint Liability Groups (JLGs) – meaning and features; Self Help Groups (SHGs) – meaning and features. Scale of finance and security for loans. Banking schemes for agricultural finance Differential Rate of Interest (DIR) Scheme – origin and features; Kisan Credit Card Scheme – origin, objectives and features. NPAs in agricultural lending: applicability of the SARFESI Act in agricultural lending. NABARD – genesis, objectives and functions; Insurance – meaning and definition. Crop Insurance Scheme – origin, meaning, importance and advantages of crop insurance, Comprehensive Crop Insurance Scheme (CCIS), National Agricultural Insurance Scheme (NAIS), Weather based Crop Insurance and Unified Package Insurance Scheme (UPIS).",
+          "hours": null
+        },
+        {
+          "title": "Financial Management in Agribusiness",
+          "topics": "Meaning, nature and scope of financial management in Agribusiness. Difference between general financial management & agribusiness financial management. Basics of Financial Planning in Agri Enterprises. Factors affecting working capital in agriculture. Cost-Benefit Analysis in Agriculture. Role of RBI, IRDA, and SEBI in Agribusiness Financial Management.",
+          "hours": null
+        },
+        {
+          "title": "IT in Agriculture Banking",
+          "topics": "Digital banking products: NEFT, RTGS, IMPS, UPI Advantages and disadvantages. Online study of PM Fasal Bima Yojana. Introduction to IFFCO Kisan App, Agri Media Video App, Kisan Yojana, Mera mobile app, Crop Insurance Mobile App by Digital India. Introduction to Agri-Fintech startup farMart.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-251-SSNM",
+      "title": "Service Management: Social Services & NGO Management",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        21,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to Social Services",
+          "topics": "1.1 Meaning, nature and scope of social services 1.2 Role of social services in social development 1.3 Government and non-government interventions in social welfare 1.4 Overview of social problems in India: poverty, illiteracy, unemployment, gender issues, child labour, health issues, disability, senior citizen care 1.5 Policies and programmes for social welfare (central & state level) 1.6 Community development: concept, principles and strategies",
+          "hours": null
+        },
+        {
+          "title": "Foundations of NGO Sector",
+          "topics": "2.1 Meaning and definition of NGOs 2.2 Evolution and growth of the NGO sector in India and globally 2.3 Types of NGOs: advocacy NGOs, operational NGOs, charity-based, developmental, grassroots, national and international NGOs 2.4 Legal framework for NGO registration in India: Societies Registration Act 1860, Indian Trusts Act 1882, Section 8 Companies Act 2013, FCRA, NITI Aayog NGO Darpan portal 2.5 Governance structure in NGOs: Board of Trustees, Executive Committee, advisory boards 2.6 Ethical issues, transparency and accountability in NGOs",
+          "hours": null
+        },
+        {
+          "title": "NGO Management & Operations",
+          "topics": "3.1 Strategic planning in NGOs: vision, mission, objectives 3.2 Project planning and management: need assessment, designing, implementation, log-frame analysis 3.3 Human resource management in NGOs: recruitment, volunteering, staff retention, motivation 3.4 Financial management: budgeting, accounting, reporting, internal audit, statutory audit 3.5 Resource mobilisation: fundraising techniques, donor relations, CSR partnerships, government grants 3.6 Communication and public relations for NGOs 3.7 Documentation, reporting and record-keeping 3.8 Use of ICT in NGO management",
+          "hours": null
+        },
+        {
+          "title": "Monitoring, Evaluation & Contemporary Issues in NGO Sector",
+          "topics": "4.1 Monitoring and evaluation (M&E): meaning, importance, methods 4.2 Performance indicators and impact assessment 4.3 Social audit and community oversight 4.4 Best practices in NGO governance and service delivery 4.5 Challenges faced by NGOs: funding constraints, policy issues, governance challenges 4.6 Role of NGOs in sustainable development goals (SDGs) 4.7 Emerging trends: digital NGOs, social entrepreneurship, crowdfunding, impact investing",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-252-BF",
+      "title": "Financial Management: Banking and Finance",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        25,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction to Banking",
+          "topics": "1.1 Origin & Evolution of Banking: Meaning, definition of bank, Evolution & development of banking in India. 1.2 Structure of Indian Banking System: Scheduled & Non-scheduled banks, Public, Private, Foreign, Regional Rural Banks, Cooperative banks, Development Banks, Small Finance Banks (SFBs), Payment Banks, Investment Banks, Central Bank.",
+          "hours": null
+        },
+        {
+          "title": "Functions of Banks",
+          "topics": "2.1 Functions of Banks: Primary, Secondary & General utility functions, Agency functions, Role of banks in economic development. 2.2 Banking Products & Services: Types of accounts Savings Bank Account (SB Account), Current Account (CA Account), Fixed Deposit Account (FD), Recurring Deposit Account (RD), Loans & advances – personal, business, agricultural, Cards: debit, credit, prepaid, E-banking, Mobile banking, Internet banking.",
+          "hours": null
+        },
+        {
+          "title": "Banking Operations & Regulation",
+          "topics": "3.1 Banker–Customer Relationship: Types, obligations & rights of banker and customer. 3.2 Banking Procedures: KYC norms, opening & closing accounts Loan appraisal and documentation, Cash management & clearing system, NPA–meaning, classification & recovery. 3.3 Banking Regulation: Role and functions of RBI, Monetary Policy-Objectives and Instruments, Credit Creation by the Bank-Basis of Credit creation Limitations of credit creation –Principles of Credit Assessment, Credit Control Measures-Qualitative and Quantitative credit control, CRR, SLR, Repo, Reverse Repo, Priority sector lending.",
+          "hours": null
+        },
+        {
+          "title": "Recent Trends in Banking",
+          "topics": "4.1 Digital Banking–Concept & Evolution: Meaning of digital banking, Transition from traditional to digital modes, Benefits to banks & customers, Green banking, Core Banking Solutions (CBS), Concept of Anytime Anywhere Banking, Features & advantages. 4.3 Mobile Banking & Internet Banking: Types of services, Advantages & security measures, Mobile wallets (Paytm, Google Pay, Phone Pe). 4.4 Cyber Security tips for prevention from cyber attacks: Secure use of ATM, Using mobile notification for security, Secure way of swiping credit/debit cards, Always check for transaction receipt, PIN change – Newly received credit/debit card.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-252-RM",
+      "title": "Marketing Management: Retail Management",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        30,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to Retailing and Retail Consumer Behavior",
+          "topics": "1.1 Introduction to Retailing: meaning, scope, functions and evolution of retail. 1.2 Retail formats in India (store, non-store, modern trade). 1.3 Differentiate between traditional and modern retail marketing. 1.4 Consumer behaviour in retail: consumer decision process, buyer types, segmentation & targeting. 1.5 Retailing in India vs Global Retailing.",
+          "hours": null
+        },
+        {
+          "title": "Retail Customer Behaviour, Store Location and Pricing Strategies",
+          "topics": "2.1 Understanding Retail Consumer Behaviour: Factors of consumer behavior, Consumer decision-making process, Consumer segmentation and profiling for retail, Impact of consumer behaviour on store-related decisions. 2.2 Choosing Store Location & Format in Retail: Importance of store location and retail trade-area analysis, Theoretical models guiding retail-center choice, Types of retail formats & store-formats. 2.3 Retail Pricing Strategy in Relation to Customer Behavior and Retail Format: Overview of retail pricing strategies, Factors influencing pricing decisions in retail, Integration of pricing strategy with store-format and customer segments.",
+          "hours": null
+        },
+        {
+          "title": "Retail Operations, Merchandising & Supply Chain Management",
+          "topics": "3.1 Merchandising Management: Meaning, role and importance of merchandising, merchandising management process, Merchandise planning, budgeting & assortment planning, Sourcing, vendor management & negotiation, Category management & buying process, Types of merchandise: staple, fashion, seasonal, private labels & national brands. 3.2 Retail Performance & Control Metrics: Key retail metrics: OTB (Open-to-Buy), KPI (Key Performance Indicators), QR (Quick Response), ECR (Efficient Consumer Response), Technology in retail control: POS, ERP, RFID, barcoding, analytics. 3.3 Supply Chain Management in Retail: Concept and importance of SCM, Core processes: procurement, inventory management, warehousing, logistics.",
+          "hours": null
+        },
+        {
+          "title": "Retail Marketing, Store Design and Emerging Trends",
+          "topics": "4.1 Retail Marketing Mix & Promotion: Retail 4Ps/7Ps, In-store promotion, visual merchandising, POP displays, loyalty programs, experiential retail. 4.2 Store Design, Atmospherics & Visual Merchandising: Exterior and interior store design, store layouts (grid, free-form, racetrack), lighting, colour, music, aroma, visual merchandising techniques. 4.3 Omnichannel Retailing & Emerging Trends: Multi-channel vs Omni-channel retailing, E-commerce, Q-commerce, social commerce, AI and AR in retailing, dark stores, sustainable and green retailing practices.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-252-CHRIR",
+      "title": "Human Resource Management: Cross - Cultural Human Resource and International Relations",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        35,
+        39
+      ],
+      "units": [
+        {
+          "title": "Cross-Cultural Management & Global Business Environment",
+          "topics": "1.1 Meaning, scope & importance of culture 1.2 Six Dimensions of National Culture by Professor Geert Hofstede 1.3 Cultural Difference and Similarities 1.4 Cross-cultural communication, negotiation & etiquette 1.5 Multicultural teams & global leadership 1.6 Culture shock & expatriate adjustment 1.7 Cross-Cultural Management and business etiquette",
+          "hours": null
+        },
+        {
+          "title": "International Human Resource Management",
+          "topics": "2.1 Introduction to International HRM, Concept, Scope and Evolution of IHRM 2.2 Difference between Domestic and International HRM 2.3 Global staffing approaches: Ethnocentric, Polycentric, Geocentric, Regiocentric 2.4 Recruitment, Selection & Training of Expatriates, Repatriation Process 2.5 International Compensation: Objectives, Components and Approaches (Balance Sheet, Going Rate) 2.6 Performance Management in International Operations",
+          "hours": null
+        },
+        {
+          "title": "International Relations & Global Business Framework",
+          "topics": "3.1 Overview of International Relations: Concept, Evolution and Key Theories 3.2 Role of International Organizations: UN, WTO, ILO, IMF, World Bank 3.3 International Trade Agreements and Regional Economic Blocks (EU, ASEAN, SAARC, BRICS) 3.4 Geopolitics and its Impact on Global Business and Human Resource Decisions 3.5 Global Governance, Diplomacy, and Corporate Diplomacy 3.6 Transnational Corporations and Host Nation Relations",
+          "hours": null
+        },
+        {
+          "title": "Industrial Relations & Labour Law Environment",
+          "topics": "4.1 Concept and Perspectives of Industrial Relations (Unitary, Pluralist, Marxist) 4.2 Trade Unions: Role, Evolution and Contemporary Challenges globally 4.3 Collective Bargaining: Concept, Process, and Global Trends 4.4 International Labour Standards and ILO Core Conventions 4.5 Comparative Industrial Relations: Overview of IR Systems in USA, UK, Germany, Japan, and India 4.6 Cross-Border Labour Issues: Labour Mobility, Migrant Workers, and Global Labour Standards",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-252-WM",
+      "title": "Agri Business Management: Warehouse Management",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        40,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Warehousing in Agriculture",
+          "topics": "1.1 Meaning, nature and scope of warehousing 1.2 Role of warehousing in agricultural marketing and supply chain 1.3 Types of warehouses: private, public, bonded, cold storage, cooperative warehouses 1.4 Functions of warehouses: storage, preservation, grading, packaging, risk-bearing 1.5 Importance of warehousing for farmers and agri businesses 1.6 Legal and policy framework: Warehousing (Development & Regulation) Act, WDRA",
+          "hours": null
+        },
+        {
+          "title": "Warehouse Operations & Management",
+          "topics": "2.1 Warehouse layout, design and planning for agricultural produce 2.2 Material handling equipment and storage systems 2.3 Receiving, inspection, storage, handling and dispatch procedures 2.4 Inventory management in warehouses: FIFO, LIFO, batch control, inventory tracking 2.5 Documentation and record keeping: Warehouse Receipt (e-NWR), delivery orders, gate passes 2.6 Health, safety and security measures in agricultural warehouses",
+          "hours": null
+        },
+        {
+          "title": "Post-Harvest Management & Technology",
+          "topics": "3.1 Post-harvest losses: causes, extent and prevention strategies 3.2 Scientific storage of grains, pulses, oilseeds and perishable produce 3.3 Cold chain infrastructure: pre-cooling, cold storage, refrigerated transport 3.4 Preservation techniques, pest control, fumigation and quality maintenance 3.5 Modern technologies in warehousing: IoT, RFID, automated storage, temperature monitoring 3.6 Standards and certifications in food storage: FSSAI, AGMARK, ISO",
+          "hours": null
+        },
+        {
+          "title": "Financial, Legal & Risk Management in Warehousing",
+          "topics": "4.1 Cost components of warehousing: fixed and operational costs 4.2 Warehouse financing and pledge financing: concept, benefits to farmers 4.3 Negotiable Warehouse Receipts (NWRs) and electronic NWRs (e-NWRs) 4.4 Risk management in warehousing: fire, theft, deterioration, price fluctuations 4.5 Insurance coverage for stored goods and warehouse infrastructure 4.6 Government schemes and subsidies for agricultural warehousing (NABARD, AIF, MIDH)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-252-HCM",
+      "title": "Service Management: Health Care Management",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        44,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Health Care Services",
+          "topics": "1.1 Meaning, nature and scope of health care services 1.2 Importance of service management in the health care sector 1.3 Structure of health care systems: public, private and mixed models 1.4 Levels of health care: primary, secondary, tertiary 1.5 Health care environment: economic, social, technological and regulatory factors 1.6 Key stakeholders: patients, providers, insurers, government",
+          "hours": null
+        },
+        {
+          "title": "Hospital & Health Care Operations Management",
+          "topics": "2.1 Types of hospitals and health care institutions 2.2 Hospital administration: roles and responsibilities 2.3 Patient care services management 2.4 Outpatient and inpatient department (OPD/IPD) management 2.5 Medical records management and documentation 2.6 Inventory, pharmacy and supply chain management in hospitals 2.7 Quality assurance in health care (NABH standards, ISO)",
+          "hours": null
+        },
+        {
+          "title": "Health Care Service Marketing & Human Resource Management",
+          "topics": "3.1 Health care marketing: meaning, need and unique features 3.2 Health care marketing mix (7Ps) 3.3 Patient satisfaction, service quality (SERVQUAL model) 3.4 Communication strategies in health care 3.5 Human resource management in health care: recruitment, training, motivation 3.6 Role of doctors, nurses, paramedical staff and administrative staff",
+          "hours": null
+        },
+        {
+          "title": "Finance, Legal & Emerging Trends in Health Care Management",
+          "topics": "4.1 Health economics: cost of care, pricing of health services 4.2 Hospital budgeting and financial management 4.3 Health insurance: public schemes and private insurance 4.4 Legal and ethical issues in health care: patient rights, medical negligence, consent 4.5 Digital health: telemedicine, e-health records, AI in health management 4.6 Public health programmes and policies in India 4.7 Emerging trends: medical tourism, corporate hospitals, preventive health care",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-251-UIED",
+      "title": "Start-Up Innovation and Entrepreneurship Development",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 4,
+      "pages": [
+        48,
+        52
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Innovation and Entrepreneurship",
+          "topics": "1.1 Concept and Meaning of Entrepreneurship 1.2 Concept and Meaning of Enterprise difference between Intrapreneurship and entrepreneur 1.3 Characteristics and Types of Entrepreneurs challenges faced by entrepreneurs 1.4 Innovation: Meaning, Types, and Importance 1.5 Start-Up Ecosystem: Components and Stakeholders 1.6 Entrepreneurial Mindset and Creativity 1.7 Role of Entrepreneurship in Economic Development 1.8 Government Policies and Institutional Support for Start-Ups (State and central government initiatives)",
+          "hours": null
+        },
+        {
+          "title": "Start-Up Creation and Business Planning",
+          "topics": "2.1 Idea Generation and Opportunity Identification 2.2 Market Research and Feasibility Analysis 2.3 Business Model Development (Business Model Canvas) 2.4 Preparing a Business Plan 2.5 Legal Structure and Registration of Start-Ups 2.6 Intellectual Property Rights (IPR): Patents, Trademarks, Copyrights 2.7 Lean Start-Up Methodology and MVP (Minimum Viable Product)",
+          "hours": null
+        },
+        {
+          "title": "Start-Up Finance and Resource Management",
+          "topics": "3.1 Sources of Finance for Start-Ups (Bootstrapping, Banks, NBFCs) 3.2 Venture Capital, Angel Investment, and Crowd-Funding 3.3 Financial Planning and Budgeting for Start-Ups 3.4 Working Capital and Cash Flow Management 3.5 Costing, Pricing, and Break-Even Analysis 3.6 Risk Management and Insurance for Start-Ups 3.7 Government Schemes and Funding Support (Startup India, MSME, SIDBI, etc.) 3.8 Legal and Ethical Issues Faced by Women Entrepreneurs 3.9 Case Studies of Successful Women Entrepreneurs",
+          "hours": null
+        },
+        {
+          "title": "Managing Growth, Innovation, and Sustainability",
+          "topics": "4.1 Scaling Up Strategies for Start-Ups 4.2 Innovation Management and Technology Adoption 4.3 Marketing Strategies for Start-Ups (Digital Marketing, Guerrilla Marketing) 4.4 Building and Leading High-Performance Teams 4.5 Challenges in Scaling Up and Failure Management 4.6 Sustainability and Social Entrepreneurship 4.7 Exit Strategies: Mergers, Acquisitions, IPOs",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSC-251-IBM",
+      "title": "International Business Management",
+      "semester": 4,
+      "type": "Vocational Skill Development Course (VSC)",
+      "credits": 2,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Foundations of International Business and Core Concepts of Import–Export",
+          "topics": "1.1 Introduction to the Meaning, Nature, and Scope of International Business, Domestic vs International Business. 1.2 Understanding Globalization: Meaning, Benefits, Challenges, and Economic Effects. 1.3 International Trade Theories: Comparative Advantage, Heckscher–Ohlin, Product Life Cycle Theory, National Competitive Advantage (Porter’s Diamond). 1.4 Modes of Entry into International Business: Exporting & importing, Licensing & franchising, Joint ventures Wholly-owned subsidiaries and MNCs & global companies. 1.5 International Institutions: their role in promoting trade: WTO, IMF , World Bank and UNCTAD. 1.6 India’s Foreign Trade Overview: India’s major exports & imports, Key trading partners and Current trends.",
+          "hours": null
+        },
+        {
+          "title": "Export–Import Process and Regulatory Framework",
+          "topics": "2.1 Introduction to Export –Import: Meaning of export & import Types of exporters (manufacturer exporters, merchant exporters) Export–import cycle. 2.2 Export Procedure: Registration (IEC, RCMC), Selection of product & market, Documentation – Invoice, Packing list, Bill of lading/airway bill, Certificate of origin, Insurance documents. Role of CHA (Custom House Agent). 2.3 Import Procedure: Import license requirements, Placing an order Bill of entry, Customs clearance, Duty structure (basic understanding) 2.4 Export Payment Methods: Advance payment, Letter of Credit (LC) – simple explanation, Documentary collection (DP/DA), Open account 2.5 Export Incentives in India: Duty Drawback, MEIS/SEIS (or their updated schemes – simple explanation), EPCG, EOU/STPI, Export Promotion Councils. 2.6 Logistics in Export –Import: Freight forwarding – basic idea, Incoterms (EXW, FOB, CIF, etc.) simplified, Warehousing, packing, labelling requirements 2.7 Government Support Agencies: DGFT , FIEO, ECGC (Export Credit Guarantee Corporation), EXIM Bank – role in promoting exports.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CEP-251-SA",
+      "title": "Community Engagement Program through Social Awareness",
+      "semester": 4,
+      "type": "Community Engagement Program",
+      "credits": 2,
+      "pages": [
+        56,
+        56
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,852 @@
+{
+  "id": "te-computer-engineering-2024-22092026",
+  "kind": "programme",
+  "programme": "Third Year of Computer Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC301COM",
+      "title": "Artificial Intelligence",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to AI and Intelligent Agents",
+          "topics": "Introduction to Artificial Intelligence, Foundations of Artificial Intelligence, History of Artificial In- telligence, Limits of AI, Ethics of AI, Future of AI, AI Components, AI Architectures, Intelligent Agents, Agents and Environments, Good Behavior: Concept of Rationality , Types of Agents, Nature of Environ- ments, Structure of Agents. Case Study: Autonomous Taxi Agent – Waymo One, AI in Healthcare – IBM Watson for Oncology",
+          "hours": 9
+        },
+        {
+          "title": "Problem Solving : State Space Approach and Search Strategies",
+          "topics": "State Space Search: Tower of Hanoi. Informed (Heuristic) Search Strategies: Introduction to Greedy BFS, A* Search, Iterative-deepening, Heuristic Functions. Local Search and Optimization Problems: Hill-climbing search, Simulated annealing, Local beam search. Online Search Agents and Unknown Environments: Online search problems. Case Study: Warehouse robots (Amazon Kiva) and self-driving cars, Logistics and Routing: Trav- eling Salesman Problem, Google DeepMind – AI for Energy Efficiency in Data Centers",
+          "hours": 9
+        },
+        {
+          "title": "Adversarial Search and Game theory",
+          "topics": "Optimal Decisions in Games, Heuristic Alpha–Beta Tree Search, Monte Carlo Tree Search, Stochas- tic Games, Partially Observable Games, Limitations of Game Search Algorithms, Constraint Satisfaction Problems (CSP), Constraint Propagation: Inference in CSPs, Backtracking Search for CSPs Case Study: AlphaGo – AI in Strategic Board Games, Strategic Decision-Making in Imperfect- Information Games-- Libratus, Adversarial Search and Constraint Reasoning in Computer Chess - IBM deep blue",
+          "hours": 9
+        },
+        {
+          "title": "Knowledge representation using Logical Formalisms, Propositional and First order Predicate Calculus",
+          "topics": "Introduction to Logical Formalisms: Role of logic in Artificial Intelligence, Knowledge-based agents Syntax and semantics of logical systems Propositional Logic – Basics and Inference: Propositional symbols and well-formed formulas, Logi- cal connectives, Inference rules: Modus Ponens, Modus Tollens, Resolution First Order Predicate Logic – Fundamentals: Motivation for First Order Logic, Quantifiers ( ∀, ∃), Well-formed formulas, Translating natural language into FOL Inference in First Order Predicate Logic – Fundamentals: Motivation for First Order Logic, Quanti- fiers (∀, ∃), Well-formed formulas, Translating natural language into FOL Case Study: Medical Expert System – MYCIN, Knowledge-Based Reasoning in Intelligent Search Systems:- AI-Based Rule Engine in Google Search",
+          "hours": 9
+        },
+        {
+          "title": "Planning and Industrial Applications of AI",
+          "topics": "Planning: Overview, An example Domain The Blocks world, The components of planning system, Goal stack planning, Nonlinear planning using constraint posting, Hierarchical planning Industrial Applications of AI : AI in Healthcare, AI in Finance, AI in Retail, AI in Agriculture, AI in Education, AI in Transportation, AI in Experimentation and Multi-disciplinary research Case Study: AI-Driven Supply Chain & Production Planning (Manufacturing)",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC302COM",
+      "title": "Computer Networks",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": ": Introduction to Computer Networks and Physical Layer",
+          "topics": "Introduction to computer networks; uses of computer networks – business applications, home ap- plications, mobile users ; network hardware – PAN, LAN, MAN, WAN and internetworks; network software – protocol hierarchies, design issues for layers, connection-oriented and connection-less ser- vices, service primitives, relationship between services and protocols; reference models – OSI and TCP/IP models. Physical Layer: guided transmission media; wireless transmission; telephone system; narrowband and broadband communication systems. Case Study: Comparison of OSI vs TCP/IP in real-world networks, case study on broadband vs narrowband communication in India.",
+          "hours": 9
+        },
+        {
+          "title": "Data Link Layer",
+          "topics": "Data Link Layer – services provided to the network layer, framing and addressing; design issues of the data link layer – error control, flow control and reliable data transfer; error detection and correction techniques – parity , checksum, CRC and basic error correction concepts; data link layer protocols – elementary protocols and Stop-and-Wait protocol; sliding window protocols – pipelining, Go-Back-N and Selective Repeat protocols; example data link layer technologies – packet over SONET Case Study: Case study on CRC error detection in Ethernet, SONET backbone deployment in tele- com networks.",
+          "hours": 9
+        },
+        {
+          "title": "Network Layer",
+          "topics": "Network Layer – Services & Design Issues: connectionless service, connection-oriented service, QoS support, error control, flow control, store-and-forward switching, congestion control, reliability , inter- networking challenges; Routing Algorithms: shortest path routing, flooding, distance vector routing, link state routing; Internet Architecture & Protocols: IP addressing (IPv4 classes, CIDR, subnetting), IPv4 vs IPv6, IP datagram, ICMP, ARP, RIP, OSPF Case Study: Case study on IPv6 adoption in ISPs, routing comparison between RIP and OSPF in enterprise networks.",
+          "hours": 9
+        },
+        {
+          "title": "Transport Layer Protocols",
+          "topics": "Process to Process Delivery , Services, Socket Programming. Elements of Transport Layer Protocols: Addressing, Connection establishment, Connection release, Flow control and buffering, Multiplexing, Congestion Control. Transport Layer Protocols: TCP and UDP, SCTP, RTP, Congestion control and Quality of Service (QoS), Differentiated services, TCP and UDP for Wireless networks. Case Study: Case study on TCP congestion control in 4G/5G networks, RTP in video conferencing applications.",
+          "hours": 9
+        },
+        {
+          "title": "Application Layer",
+          "topics": "Introduction – principles of application layer, client-server and peer-to-peer models; Web and HTTP – request/response, persistent vs. non-persistent connections, cookies, caching, performance; DNS – hierarchy , resource records, name resolution, caching, security issues; Email – SMTP, MIME, POP3, IMAP, webmail, message format, security; FTP – basics, file transfer process, legacy relevance; TEL- NET – remote login, limitations, legacy use; DHCP – dynamic host configuration, IP allocation, man- agement; SNMP – network management, monitoring, MIBs, security considerations; Emerging Topics – multimedia applications, RTP for streaming, peer-to-peer applications, cloud-based services. Case Study: Case study on DNS security attacks (DNS spoofing), HTTP caching in CDNs, SMTP in enterprise email systems.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC303COM",
+      "title": "Theory of Computation",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": ": Introduction to Formal Languages and Finite Automata",
+          "topics": "Basic Concepts: Finite and infinite set, Symbols, Strings : Empty String, Substring of a string, Concatenation of strings, Language :Formal Language Definition, Finite representation of languages , Operations on languages: Union, Concatenation, Kleene star and Kleene plus, Concept of Basic Machine. FA without output: Finite State Machines(FSM), Deterministic and Nondeterministic FA( DFA & NFA), epsilon NFA, Conversion of NFA with epsilon moves to NFA, Conversion of NFA to DFA, and Conversion of NFA with epsilon moves to DFA, Minimization of DFAs. FA with output: Moore and Mealy machines - Definition, Construction, Inter- Conversion. Case Study: FSM for vending Machine, Spell checker, Finite Automata in ATM PIN Validation System",
+          "hours": 9
+        },
+        {
+          "title": "Regular Expressions and Languages",
+          "topics": "Introduction, Operators of RE, Precedence of operators, Algebraic laws for RE, Language to Regu- lar Expressions, Equivalence of two REs, Kleene’s theorem. Conversions: RE to NFA, DFA, DFA to RE using Arden’s theorem, Pumping Lemma for Regular languages, Closure(union, intersection, comple- mentation, concatenation, Kleene closure) and Decision properties of Regular languages( Membership, Emptiness,Finiteness and Infiniteness) The Myhill–Nerode Theorem Case Study: RE for variable name validation, RE to match a specific word from given string ,Regular Expressions in Email Validation System",
+          "hours": 9
+        },
+        {
+          "title": "Context Free Grammars (CFG) and Languages",
+          "topics": "Formal Definition of Context Free Grammar, Sentential form, Derivation and Derivation Tree/ Parse Tree, Context Free Language (CFL), Ambiguous Grammar, writing grammar for language, Simplifica- tion of CFG: Eliminating  -productions, unit productions, useless production, useless symbols, and Normal Forms- Chomsky normal form, Greibach normal form, Pumping Lemma for CFG, Closure properties of CFL, Chomsky Hierarchy , Applications of CFG:-Palindromes, Parenthesis Match ,Parser, Markup languages, XML and Document Type Definitions. Case Study: Grammar Design for Arithmetic Expressions, Designing a Grammar for a Simple Pro- gramming Language Construct",
+          "hours": 9
+        },
+        {
+          "title": "Push Down Automata",
+          "topics": "Introduction, Formal definition of PDA, Equivalence of Acceptance by Final State & Empty stack, Non-deterministic PDA (NPDA), PDA & Context Free Language, Equivalence of PDA and CFG, PDA vs CFLs. Applications of PDA,Introduction to Post Machine, Case Study: Applying PDA for Top-Down Parsing, Bottom-up Parsing Pushdown Automata (PDA) in Compiler Syntax Checking,XML / HTML Tag Validation",
+          "hours": 9
+        },
+        {
+          "title": "Turing Machine and Computability Theory",
+          "topics": "Turing machine (TMs): Basic model, definition, and representation, TM Instantaneous Description, Transition Function, Language accepted TM, Deterministic Turing Machines (DTM), and Construction of DTM. Universal Turing Machine (UTM), Church-Turing hypothesis, Comparison between FA, PDA and TM. Turing Machine Halting Problem. Decidable Problems and Undecidable Problems, Church-Turing Thesis. Reducibility: Undecidable Problems that are recursively enumerable, A Simple Undecidable. Complexity Classes: Time and Space Measures, The Class P, Examples of problems in P, The Class NP, Examples of problems in NP, P Problem Versus NP Problem, NP-completeness and hard Problems. Case Study: Application of Turing Machine for Language Recognition, Comparative Study of Vari- ants of Turing Machines, Analysis of the Halting Problem",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC304COM",
+      "title": "Artificial Intelligence Lab",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        25,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC305COM",
+      "title": "Computer Networks Lab",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        27,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC321ACOM",
+      "title": "Data Warehousing and Data Mining",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Mining and Data Preprocessing",
+          "topics": "Data Mining – Motivation and Applications, Database queries Vs DM queries Data: Data, Informa- tion and Knowledge; The KDD process, Attribute Types: Nominal, Binary , Ordinal and Numeric at- tributes, Types of Data: Relational, Temporal, Time-series, Spatial, Text and Multimedia, Data streams, www; Introduction to Data Preprocessing, Data Cleaning: Missing values, Noisy Data; Data integra- tion: Redundancy and Correlation Analysis only; Data reduction: Attribute Subset Selection, Sam- pling; Data Discretization: Binning, Histogram Analysis, Data Discretization by Data Transformation: Min-max normalization, z-score normalization and decimal scaling; Dissimilarity of Numeric Data: Minskowski Distance and Euclidean distance Case Study: Download ZOO and Heart Disease Datasets from UCI Machine Learning Repository and study various types of attributes and format of training data.",
+          "hours": 9
+        },
+        {
+          "title": "Data Warehouse",
+          "topics": "Data Warehouse: Basic Concepts, What Is a Data Warehouse? Differences between Operational Database Systems and Data Warehouses, Data Warehousing: A Multitiered Architecture, Data Ware- house Models: Enterprise Warehouse, Data Mart, and Virtual Warehouse, Extraction, Transformation, and Loading, Metadata Repository , Data Warehouse Modeling: Data Cube and OLAP , Data Cube: A Multidimensional Data Model; Stars, Snowflakes, and Fact Constellations: Schemas for Multidimen- sional Data Models; Dimensions: The Role of Concept Hierarchies; Measures: Their Categorization and Computation; Typical OLAP Operations. Case Study: Design a retail sales data warehouse to analyze customer purchases, product per- formance, and regional sales trends. The warehouse should use a star schema with a central Sales Fact table linked to Customer, Product, Store, and Time dimensions, enabling queries on top-selling products, seasonal demand, and promotion impacts.",
+          "hours": 9
+        },
+        {
+          "title": "Association Rules Mining and Clustering",
+          "topics": "Market basket Analysis, Frequent item set, Closed item set, Association Rules, Apriori Algorithm, Generating Association Rules from Frequent Itemsets, Improving the Efficiency of Apriori, Mining Fre- quent Itemset without Candidate Generation: FP Growth Algorithm. Cluster Analysis: What Is Cluster Analysis? Requirements for Cluster Analysis; Overview of Basic Clustering Methods, Partitioning Methods: K-Means: A Centroid-Based Technique k-Medoids: A Rep- resentative Object-Based Technique; Distance Measures in Algorithmic Methods, Evaluation of Clus- tering, Assessing Clustering Tendency , Measuring Clustering Quality . Case Study: Apply the Apriori Algorithm to a retail sales dataset to discover frequent itemsets and generate association rules. The goal is to identify product combinations often purchased together, enabling insights for market basket analysis, cross-selling strategies, and promotional planning.",
+          "hours": 9
+        },
+        {
+          "title": "Classification",
+          "topics": "Classification: What Is Classification? Supervised and Unsupervised Learning, General Approach to Classification, Decision Tree Induction, Decision Tree Induction; Bayes Classification Methods: Bayes’ Theorem, Naive Bayesian Classification; Rule-Based Classification: Using IF-THEN Rules for Classifica- tion, Rule Extraction from a Decision Tree, Rule Induction Using a Sequential Covering Algorithm; Lazy Learners-k-Nearest- Neighbor Classifiers; Techniques to Improve Classification Accuracy: Introducing Ensemble Methods, Bagging, Boosting. Model Evaluation and Selection: Metrics for Evaluating Classifier Performance, Holdout Method and Random Subsampling, Cross-Validation, Bootstrap. Case Study: Download 2-3 Dataset from UCI data repository and try to run some of the classification algorithms on workbench like WEKA.",
+          "hours": 9
+        },
+        {
+          "title": "Introduction of advanced Data Mining Techniques",
+          "topics": "Introduction to Mining techniques*: Text Mining, Data stream mining, spatial and Temporal mining techniques, web mining and Recommender systems. (*All topics to be discussed at Conceptual Level). Mining Complex Data Types: Mining Sequence Data: Time-Series, and Biological Sequences, Min- ing Graphs and Networks. Case Study: Study Stock market prediction using historical price sequences to identify trends and forecast future values.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321BCOM",
+      "title": "Cloud Computing",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": "Cloud Fundamentals: Definition, Importance of cloud computing, Advantages and Disadvantages of Cloud Computing, Characteristics, Categories of Clouds: Private clouds, Public clouds Cloud Ser- vice Models: SaaS, PaaS, IaaS, Cloud Architecture, Cloud Storage: Distributed Data Storage, Data management, Cloud Deployment Models Case Study: Cloud Computing Model of Amazon",
+          "hours": 9
+        },
+        {
+          "title": "Virtualization in Cloud Computing",
+          "topics": "Virtualization: What’s virtualization, Benefits of Virtualization, Types of Virtualization: Processor virtualization, Memory virtualization, Full virtualization, Para virtualization, and Device virtualiza- tion, Virtual Clustering, Virtualization Architecture, Containerization and orchestration, Understand- ing importance of Hypervisors, Virtualization Applications, Issues with Virtualization, Virtualization and Cloud Computing: Virtualizations in Cloud, Virtual Infrastructure, CPU Virtualization, Network and Storage Virtualization Case Study: Case Study of VMware: Full virtualization, Xen: Para Virtualization, Microsoft HyperV",
+          "hours": 9
+        },
+        {
+          "title": "Cloud Platforms and Applications",
+          "topics": "Industrial Cloud Platforms: Amazon Web Services (AWS)- AWS infrastructure, Components, Ama- zon Simple DB, Elastic Cloud Computing (EC2), Amazon Storage System, Amazon Database Services. Microsoft Azure: Azure core concepts, SQL Azure, and Application Services for managed runtimes. Open Source Platforms: Overview of OpenStack, CloudStack, and Eucalyptus for private cloud deploy- ment. Cloud Applications: Data-Intensive & Emerging Applications: Smart Cities & IoT: Integrating sensor data from traffic, waste management, and power grids into a centralized cloud dashboard. AI/ML in the Cloud: Case study on Google Photos (image recognition) or Alexa (Natural Language Processing) using cloud-based TPU/GPU instances. Healthcare & Biology: Gene sequencing, protein folding and ECG analysis in the cloud. Geoscience: Satellite image processing and seismic data analysis using cloud clusters. Case Study: The Google Case Study Data Processing: The evolution from MapReduce to Dremel and BigQuery . Storage Innovation: Understanding the Google File System (GFS) and BigTable as the backbone of global search.",
+          "hours": 9
+        },
+        {
+          "title": "Security in Cloud Computing",
+          "topics": "Risks in Cloud Computing: Risk Management, Enterprise-Wide Risk Management, Types of Risks in Cloud Computing. Data Security in Cloud: Security Issues, Challenges, advantages, Disadvantages, Cloud Digital persona and Data security , Content Level Security . Cloud Security Services: Confidential- ity , Integrity and Availability , Security Authorization Challenges in the Cloud, Secure Cloud Software Requirements, Secure Cloud Software Testing Case Study: Cloud Security Tool: Acunetix",
+          "hours": 9
+        },
+        {
+          "title": "Modern Cloud Environment & Emerging Technologies",
+          "topics": "Future Trends in cloud Computing, Mobile Cloud, Comet Cloud, Multimedia Cloud: IPTV, Energy Aware Cloud Computing, Distributed Cloud Computing Vs. Edge Computing, Containers, Dockers, Kubernets, Pod Management Green Cloud & Sustainability: Sustainable Cloud Architecture, Energy-efficient data centre design and carbon footprint tracking. Case Studies on DevOps: DocuSign, Forter, Gengo",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321CCOM",
+      "title": "Mobile Computing",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Computing & Wireless Transmission",
+          "topics": "Concepts: Evolution of Mobile Computing, History , Middleware and Gateways, Mobile Applications and Services, Constraints in Mobile Computing. Wireless Fundamentals: Signal propagation, Hidden and Exposed terminal problems , Near–Far problem, Multiplexing (SDM, FDM, TDM, CDM), Spread Spectrum (DSSS, FHSS), MAC Protocols: SDMA, FDMA, TDMA, CDMA. Case Study: Analysis of any real-world mobile computing application (e.g., E-commerce mobile platforms).",
+          "hours": 9
+        },
+        {
+          "title": "Telecommunication Systems",
+          "topics": "GSM Architecture: Mobile Station, Base Station System, Network and Switching Subsystem, Radio Interface, Protocols, Localization and Calling. Management: HLR/VLR Identification algorithms, Handover Management. Evolution: 1G, 2G, 2.5G, 3G, GPRS and EDGE architecture, Introduction to 4G LTE and 5G New Ra- dio (NR) architecture, Open RAN (O-RAN) or Network Slicing, Introduction to 6G vision, comparison of generations. Case Study:Comparison of Handover mechanisms in 4G vs. 5G networks.",
+          "hours": 9
+        },
+        {
+          "title": "Mobile Network , Transport Layer ,& Ad-Hoc Networks",
+          "topics": "Mobile IP: IP Packet Delivery , Agent Discovery , Registration, Tunneling and Encapsulation, Opti- mization, Reverse Tunneling, IPv6 in Mobile Networks. Mobile TCP: Traditional TCP vs. Mobile TCP, Indirect TCP, Snooping TCP, Fast Retransmit/Fast Recovery , MPTCP (Multipath TCP). Ad-Hoc Networks: MANET routing protocols – DSDV (Proactive), DSR and AODV (Reactive), ZRP (Hybrid), Multicast routing (ODMRP). Vehicular Networks: VANET vs MANET, security issues in Ad-Hoc networks. Case Study: Design a mobile IP registration flow for a device moving across different subnets.",
+          "hours": 9
+        },
+        {
+          "title": "Mobile Application Layer Protocols & Databases",
+          "topics": "Wireless Application Protocols: File system consistency , HTTP and HTML adaptations for wireless, WAP architecture (WDP, WTLS, WTP, WSP, WAE), WML, WML Script. Mobile Databases: Data Prefetching and Staging, Caching invalidation mechanisms, Client-server computing with adaptation, Power-aware data management. AI Integration at the Edge: Edge AI Inference for predictive prefetching, Lightweight Machine Learning models for user behaviour analysis, On-device model adaptation. Case Study: Study of Data Synchronization in mobile healthcare apps.",
+          "hours": 9
+        },
+        {
+          "title": "Mobile App Development & Security",
+          "topics": "Frameworks: Android and iOS Architectures, Native vs. Hybrid vs. Progressive Web Apps (PWA), Introduction to Flutter/React Native. Security: Security models in Android, Wireless network vulnerabilities, Secure data transmission, Mobile Device Management (MDM). Emerging Integration: Cloud, Edge, IoT integration with mobile applications. Case Study: UPI and mobile banking applications – architecture, security mechanisms, and cloud integration for real-time transactions.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321DCOM",
+      "title": "Embedded systems",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems",
+          "topics": "Overview of Embedded Systems, Processor Embedded into a system, Embedded Hardware Units and Devices in system, Embedded Software, Complex System Design, Design Process in Embedded System, Formalization of System Design, Classification of Embedded Systems. Case Study: Any one Case study based on “Healthcare”, Industrial Automation” or any relevant topic which will be useful for society .",
+          "hours": 9
+        },
+        {
+          "title": "Embedded System Design Concepts",
+          "topics": "Characteristics and Quality Attributes of Embedded Systems, Operational and non-operational quality attributes, Embedded Systems-Application and Domain specific, Hardware Software Co-Design and Program Modeling (excluding UML), Embedded firmware design and development (excluding C language). Case Study: Any one Case study based on “Smart temperature control system” or “Smart Energy Meter” or any relevant topic which will be useful for society .",
+          "hours": 9
+        },
+        {
+          "title": "ARM Architecture",
+          "topics": "Introduction, RISC design philosophy , ARM design philosophy , Embedded system hardware – AMBA bus protocol, ARM bus technology , Memory , Peripherals, Embedded system software – Initialization (BOOT) code, Operating System, Applications. ARM Processor Fundamentals, ARM core dataflow model, registers, current program status register, Pipeline, Exceptions, Interrupts and Vector Table, Core extensions. Operating modes of ARM (User, FIQ, IRQ, Supervisor, Abort, Undefined and System mode) Case Study: Any one Case study based on “Smart Home Lighting Controller” or “Automotive Engine Monitoring System” or any relevant topic which will be useful for society .",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to ARM Instruction Set",
+          "topics": "Introduction, Data processing instructions, Load – Store instruction, Software interrupt instruc- tions, Program status register instructions, Loading constants, ARMv5E extensions, Conditional Execu- tion Case Study: Any one Case study based on “Embedded Operating System Service Call” or “Audio Signal Processing” or any relevant topic which will be useful for society",
+          "hours": 9
+        },
+        {
+          "title": "RTOS and IDE For Embedded System",
+          "topics": ".Operating System basics, Types of operating systems, Task, process and threads (Only POSIX Threads with an example program), Thread preemption, Preemptive Task scheduling techniques, Task Communication, communication protocol ,CAN protocol for Automotive Industry , MODBUS for In- dustrial Automation, Ethernet for IoT application and UART, SPI, I2C for basic hardware commu- nication.Task synchronization issues in RTOS ( Racing and Deadlock) Design parameters for RTOS, Integration and testing of Embedded hardware and firmware, Embedded system Development Envi- ronment – Block diagram (excluding keil). Case Study: Any one Case study based on “Automotive lane departure warning system” or “Robotic Arm Controller” or any relevant topic which will be useful for society .",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC322COM",
+      "title": "Elective - I Lab",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        41,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM331COM",
+      "title": "Robotics and Automation",
+      "semester": 5,
+      "type": "MDM",
+      "credits": 3,
+      "pages": [
+        46,
+        48
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Robotics",
+          "topics": "Definitions of Industrial Robot, Type and Classification of Robots, Asimov‘s laws of robotics, Robot configurations, Robot Components, Robot Degrees of Freedom, Work volume and work envelope, Robot Joints and symbols, Robot Coordinates",
+          "hours": 3
+        },
+        {
+          "title": "Sensors",
+          "topics": "Transducers and sensors, Sensors in robotics, Principles and applications of the following types of sensors- Proximity Sensors, Photoelectric Sensors, Position sensors – Piezoelectric Sensor, LVDT, Resolvers, Encoders – Absolute and Incremental: - Optical, Magnetic, Capacitive, pneumatic Position Sensors, Range Sensors- Range Finders, Laser Range Meters, Touch Sensors, Force and torque sensors",
+          "hours": 3
+        },
+        {
+          "title": "Industrial Automation and AI in Robotics",
+          "topics": "Introduction to industrial automation PLC basics and SCADA overview IoT in automation systems Basics of AI in robotics (computer vision, ML concepts) Case studies: smart factories, autonomous robots",
+          "hours": 3
+        },
+        {
+          "title": "Autonomous Navigation & Path Planning",
+          "topics": "Environment Representation: Occupancy grids, topological maps, and configuration spaces. Path Planning Algorithms: Dijkstra’s Algorithm, A* (A-star) search, and RRT (Rapidly-exploring Random Trees). Localization: Odometry , sensor fusion (Kalman Filters), and particle filters. Obstacle Avoidance: Potential field methods and reactive control loops.",
+          "hours": 3
+        },
+        {
+          "title": "Robotic Middleware & Industry 4.0",
+          "topics": "Robot Operating System (ROS): Architecture (Nodes, Topics, Services, Messages) and Workspace management. Simulation Environments: Working with Gazebo and RViz for testing and validation. Industrial Automation: Introduction to PLC (Programmable Logic Controllers) and SCADA systems. Industry 4.0: Impact of IoT, Big Data, and AI in smart manufacturing and automation.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "OE",
+      "credits": 2,
+      "pages": [
+        49,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC342COM",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "ELC",
+      "credits": 1,
+      "pages": [
+        50,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC351COM",
+      "title": "Machine Learning",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        55,
+        57
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Machine Learning",
+          "topics": "Introduction to machine learning, scope of machine learning, AI vs ML vs Data Science, tradi- tional programming vs ML paradigm, and real-world engineering applications. Types of Learning: Supervised, unsupervised, semi-supervised, and reinforcement learning. Models of Machine Learning: Geometric model, probabilistic models, logical models, grouping and grading models, parametric and non-parametric models. Introduction to Feature Engineering. Feature Transformation: Dimensionality reduction techniques- Principal Component Analysis (PCA); Linear Discriminant Analysis (LDA). Case Study: Machine Learning Based Student Performance Prediction and Feature Engineering Analysis",
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning-Regression",
+          "topics": "Introduction to regression, need of regression, regression vs correlation. Types of regression: Uni- variate vs Multivariate, Linear vs Nonlinear, Simple vs Multiple, Bias–Variance Tradeoff, Overfitting and Underfitting. Regression Techniques: Simple and Multiple Linear Regression; Polynomial Regres- sion; Decision Tree Regression, Random Forest Regression, Support Vector Regression. Regularization Techniques: Ridge Regression (L2); Lasso Regression (L1). Evaluation Metrics: Mean Squared Error (MSE); Mean Absolute Error (MAE); Root Mean Squared Error (RMSE); R-squared (R²). Case Study: Comparative Study of Regression Techniques for House Price Prediction",
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning-Classification",
+          "topics": "Introduction to classification, need of classification. Types of Classification: Binary and Multiclass, Binary vs. Multiclass Classification, Balanced and Imbalanced Classification Problems. Binary Classi- fication: Linear classification model, decision boundary . Performance Evaluation: Confusion Matrix, Accuracy , Precision, Recall, F1-Score. Multiclass Classification: One-vs-One and One-vs-All classification techniques, multiclass confusion matrix; Per-Class Precision and Per-Class Recall; Macro, Micro and Weighted Averaging Methods. Classification Algorithms: K-Nearest Neighbors (KNN), Linear Support Vector Machine (SVM), Soft Margin SVM. Kernel Functions in SVM: Radial Basis Function (RBF/Gaussian) Kernel, Polynomial Kernel, Sigmoid Kernel. Case Study: Comparative Study of Classification Algorithms for Email Spam Detection.",
+          "hours": 9
+        },
+        {
+          "title": "Unsupervised Learning and Ensemble Learning",
+          "topics": "Introduction to clustering, need for clustering, types of clustering, Hierarchical Clustering – Ag- glomerative and Divisive methods, Partitioning Methods: K-Means clustering algorithm, advantages and limitations, Elbow method, Silhouette method; K-Medoids, Density-Based Clustering: DBSCAN algorithm, working mechanism, advantages and limitations. Distribution-Based Clustering: Gaussian Mixture Model. Applications, introduction to Ensemble Learning, homogeneous and heterogeneous ensemble methods, advantages and limitations. Basic Ensemble Techniques: Voting (Max Voting, Aver- aging, Weighted Averaging). Advanced Ensemble Techniques: Bagging and Random Forest. Boosting: AdaBoost, Gradient Boosting , Stacking. Case Study: Customer Segmentation and Sales Prediction",
+          "hours": 9
+        },
+        {
+          "title": "Reinforcement Learning",
+          "topics": "Introduction, need of reinforcement learning, components of reinforcement learning, comparison with supervised and unsupervised learning, applications and challenges of reinforcement learning. Markov Decision Process: Markov property , elements of MDP, episodic and continuing tasks. Reinforcement Learning Framework: Policy , state value function, action value function, Bellman equation, optimal policy . Reinforcement Learning Algorithms: Exploration vs Exploitation, ε-greedy strategy , dynamic pro- gramming, Q-Learning algorithm and update rule, simple reinforcement learning for game playing- Tic-Tac-Toe. Case Study: Smart Traffic Signal Control using Q-Learning.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC352COM",
+      "title": "Software Engineering and Modelling",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        58,
+        60
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": "Software Engineering: Definition, Importance, Software Crisis, Software Myths & Reality , The Software Process: Software Process Framework, SDLC, Prescriptive Process Models: Waterfall, V- Model, Incremental, Evolutionary Process Models: Prototyping, Spiral, Rapid Application Develop- ment (RAD), Agile Development Models: What Is Agility? Agility and the Cost of Change, Extreme Programming, Other Agile Process Models, Overview of Scrum and Kanban. Case Study: Development of an Online Examination System to demonstrate various Software Life Cycle Models and Software Process Structures.",
+          "hours": 6
+        },
+        {
+          "title": "Requirements Engineering",
+          "topics": "Requirements Engineering, Establishing the Groundwork: Identifying Stakeholders, Recognizing Multiple Viewpoints, working toward Collaboration, Asking the First Questions, Non-functional Re- quirements, Traceability Eliciting Requirements: Collaborative Requirements Gathering, Usage Sce- narios, Elicitation Work Products, Developing Use Cases, Building the Analysis Model, Elements of the Analysis Model, Negotiating Requirements: Requirement Validation and Management. Software Requirements Specification (SRS) Case Study: Requirements Engineering and SRS development for a College ERP System covering stakeholder identification, requirement elicitation, use case modelling, non-functional requirements, validation and traceability .",
+          "hours": 6
+        },
+        {
+          "title": "Software Modelling",
+          "topics": "Introduction to Software Architecture, Architectural design principles and patterns, Types of ar- chitectures: Layered, Client-Server, Micro services, MVC, Architectural styles and quality attributes, Architecture documentation (4+1 view model), Object Modelling Using UML Basic Object-Orientation Concepts, Unified Modelling Language (UML), UML Diagrams, Use Case Model, Class Diagrams, Interaction Diagrams, State Chart Diagram, Activity Diagrams, Package Diagrams, Component Diagrams, Deployment Diagram. Case Study: Design and UML modelling of a Library Management System to demonstrate abstrac- tion, modularity , object-oriented design principles, and complete UML modelling including structural and behavioural diagrams.",
+          "hours": 6
+        },
+        {
+          "title": "Software Project Management and Testing",
+          "topics": "Software Project Management Complexities, Project Planning, Metrics for Project Size Estimation, Project Estimation Techniques, Empirical Estimation Techniques, COCOMO—A Heuristic Estimation Technique, Scheduling, Organisation and Team Structures, Staffing, Risk Management, Software Con- figuration Management. Software Testing, A Strategic Approach to Software Testing, Test Strategies for Conventional Soft- ware, Test Strategies for Object-Oriented Software, Test Strategies for WebApps, Validation Testing, System Testing, Debugging, Defect Life Cycle, Manual and Automated testing Case Study: Software Project Planning, Estimation, Scheduling, Risk and Configuration Manage- ment for an E-Governance Citizen Service Portal using COCOMO and empirical estimation techniques. Case Study: Testing of an Online Shopping Web Application covering manual and automated test- ing, test planning, strategic testing approaches, object-oriented testing, Web application testing, vali- dation, system testing and debugging techniques.",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Concepts in Software Engineering",
+          "topics": "Agile and DevOps practices, CI/CD pipelines, DevSecOps and Secure Software Development, Soft- ware Architecture Patterns (Event-Driven, Serverless, Reactive Systems), AI in Software Engineering (AI- assisted development, automated testing), Low-Code / No-Code Platforms, Software Sustainabil- ity and Green Computing. Case Study: Design and implementation of a Smart City Service Portal using Agile practices, De- vOps, CI/CD pipelines, Microservices architecture, Cloud-native deployment, and reusable software components.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC353COM",
+      "title": "Machine Learning Lab",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        61,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC354COM",
+      "title": "Software Engineering and Modelling Lab",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        64,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC361ACOM",
+      "title": "Quantum Computing",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Foundations of Quantum Computing",
+          "topics": "Motivation for studying Quantum Computing, Origin of Quantum Computing ,Quantum Computer vs. Classical Computer, Need for quantum computing, Classical bits vs qubits, Basic quantum mechan- ics concepts for computing as Superposition and Entanglement, Complex numbers and vectors, Dirac notation, Bloch sphere representation. Case Study: Quantum vs Classical Information — Modeling a Qubit System Using Bloch Sphere",
+          "hours": 9
+        },
+        {
+          "title": "Mathematical Foundations for Quantum Computing, Qubits and Quantum Gates. (09",
+          "topics": "Hours) Qubit states and normalization, Superposition principle, Measurement and probability , Single qubit gates: X, Y, Z, H, Phase, Rotation gates, Matrix representation of gates, Gate operations on qubits, Ma- trix Algebra: basis vectors and orthogonality , inner product and Hilbert spaces, matrices and tensors, unitary operators and projectors, Dirac notation, Eigen values and Eigen vectors. Case Study: Design and Analysis of a Single-Qubit Quantum Random Number Generator (QRNG)",
+          "hours": null
+        },
+        {
+          "title": "Multi-Qubit Systems ,Quantum Circuits and Building Blocks for Quantum Program (09",
+          "topics": "Hours) Architecture of a Quantum Computing platform, Details of q-bit system of information representa- tion, Multi-qubits States, Quantum superposition of qubits (valid and invalid superposition, Multi-qubit representation, Tensor product concept, Controlled gates (CNOT, CZ) ,Entanglement and Bell states ,Quantum circuit model, No-cloning theorem ,Quantum teleportation. Case Study: Design and Analysis of a Two-Qubit Entangled System for Quantum Teleportation",
+          "hours": null
+        },
+        {
+          "title": "Basic Quantum Algorithms",
+          "topics": "Quantum parallelism, Deutsch algorithm, Deutsch–Jozsa algorithm, Grover search algorithm, Shor algorithm, Quantum error correction using repetition codes 3 qubit codes, Shor‘s 9 qubit error correc- tion Code. Case Study: Speedup Through Quantum Algorithms -From Deutsch to Grover",
+          "hours": 9
+        },
+        {
+          "title": "Quantum Programming & Applications",
+          "topics": "Introduction to Qiskit / Cirq ,Writing basic quantum programs ,Circuit simulation, Result visualiza- tion, Quantum cryptography basics, Quantum Machine Learning and Quantum AI, Quantum Neural Networks, Quantum Natural Language Understanding, Quantum Cryptography , Application Domains for quantum image processing overview, Current challenges and future scope, OSS Toolkits for imple- menting Quantum program, IBM quantum experience, Microsoft Q Rigetti PyQuil (QPU/QVM). Case Study: Building and Deploying a Quantum Program Using Open-Source Quantum Toolkits",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361BCOM",
+      "title": "Distributed System",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        70,
+        71
+      ],
+      "units": [
+        {
+          "title": "Introduction to Distributed Systems, Distributed Architecture",
+          "topics": "Definition and Characteristics, Properties of Distributed Systems relation to Computer System, De- sign goals: Supporting resource sharing, Making distribution transparent, Open, Scalable, Pitfalls. Distributed Computing vs other computing models, Types of Distributed Systems, Architectural styles: Layered architectures, Object-based architectures, Publish-Subscribe architectures, Middleware orga- nization: Wrappers, Interceptors, Modifiable middleware. System architecture: Centralized, Decen- tralized, Hybrid, Example architectures – Network File System, Web, Architectures Design Issues and Challenges- Systems perspective, Algorithm perspective, Driven by new applications Case Study: Case Study of Middleware System that includes Design, Architecture and Application.",
+          "hours": 9
+        },
+        {
+          "title": "Communicationand Synchronization in Distributed Systems",
+          "topics": "Introduction, Layered Protocols, Types of Communication, Remote Procedure Calls, Message Ori- ented Communication, Stream Oriented Communication, Multicast Communication, Clock Synchronization: Physical Clocks, Global Positioning System,Clock Synchronization Algo- rithms, Logical Clocks: Lamport’s Logical Clocks, Vector Clocks Mutual Exclusion: A Centralized Algorithm, A Decentralized Algorithm, A Distributed Algorithm, A Token Ring Algorithm, A Comparison of the Four Algorithms Election Algorithm: Traditional Election Algorithms, Elections in Wireless Environments,Elections in Large-Scale Systems Case Study: Message Queuing Systems",
+          "hours": 9
+        },
+        {
+          "title": "Coordination, Consistency and Replication in Distributed Systems",
+          "topics": "IntroductionData Centric Consistency Models: Continuous Consistency , Consistent Ordering of Op- erationsClient Centric Consistency Models: Eventual Consistency , Monotonic Reads, Monotonic Writes, Read Your Writes, Writes Follow ReadsConsistency Protocols: Continuous Consistency , Primary-Based Protocols, Replicated-Write Protocols,A Cache-Coherence Protocols, Implementing Client-Centric Con- sistency Replication: Reasons for Replication, Replication as Scaling Technique, Replica-Server Placement, Content Replication and Placement, Content Distribution Case Study: Services Bayou and Coda",
+          "hours": 9
+        },
+        {
+          "title": "Distributed File Systems",
+          "topics": "Introduction, Features of Distributed filesystem, File Models, File Accessing Methods, File Shar- ing Semantics, File Caching Schemes, File Replication, Fault Tolerance, Atomic Transaction, Design Principles, Security . Naming: Names, Identifiers, and Addresses, Types: Flat Naming, Structured Naming, Attribute- Based Naming Case Study: DCE Distributed File System, SunNetwork, Andrew File System",
+          "hours": 9
+        },
+        {
+          "title": "( Advancements in Distributed Systems 09 Hours)",
+          "topics": "Epidemic and gossip-based algorithms, Napster and Gnutella networks, DHTs: Chord, Pastry and BitTorrent, Logical clocks, Mutual Exclusion Algorithms, Distributed Leader Election, Distributed min- imum spanning tree, The FLP result,Consistency models and the CAP theorem, Paxos and Raft, Byzan- tine General’s Problem, Virtual synchrony , Bitcoin and Blockchains, Amazon Dynamo, Case Study: Facebook Cassandra, Google Percolator, Voldemort (LinkedIn), Condor, and Microsoft DryadLINQ (Any one)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC361CCOM",
+      "title": "UX/UI Design",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        72,
+        73
+      ],
+      "units": [
+        {
+          "title": "Introduction to UI/UX Design",
+          "topics": "What is UI/UX Design: Importance of User-Centric Design, Goals of User Interface Design , Design Thinking Process, Core Principles, Role of UX in Product Development Lifecycle, mental and conceptual model. Usability Design Principles: 4 Design Principles, Schneiderman’s Golden Rules, Gestalt Principles of Design, Visual Design Principles, Form versus Function, Metaphors, Idioms and Affordances in UI design, User Interface Elements: Input Controls, Navigation Components, Information Components, Containers User Research: Qualitative and Quantitative User Research, Behavioral and Attitudinal User Research, Use of Personas, User Stories and Scenarios, Affinity Mapping. Case Study: A good and a bad User Interface Design",
+          "hours": 9
+        },
+        {
+          "title": "Usability Engineering, Evaluation and Testing",
+          "topics": "Usability Engineering: Concept of usability , usability principles, benefits of usability for users and organizations, internationalization and localization, human errors and their impact on usability . Us- ability Evaluation: Human information processing and memory , Fitts’s Law and Hick’s Law, usability inspection methods such as Heuristic Evaluation and Cognitive Walkthrough, user studies and field studies. Usability Testing: Planning and conducting usability testing, Think-Aloud testing, A/B test- ing, use of heatmaps, and basic UX metrics for evaluating user experience. UX Design Foundations: Ideation and research in UX design, content and interaction mapping, paper prototyping, introduction to wireframes and interface layout, applying Nielsen’s usability heuristics, refining UI based on user feedback.",
+          "hours": 9
+        },
+        {
+          "title": "WEB DESIGN: STRATEGIES AND INFORMATION ARCHITECTURE",
+          "topics": "User-centric design - The UX Phases - Waterfall vs. Agile - Web vs. App. Determining Strategy: User Research - Inspiration - Analytics - User Needs and Client Needs - Target Audience - What is in and What is Out: Outlining Scope - Content and Functionality . The Sitemap: Introduction to Sitemaps - Information Architecture - Sitemap Concerns - annotated process - Elements - Treejack Introduction - Treejack Analysis.",
+          "hours": 9
+        },
+        {
+          "title": "Wireframing Fundamentals",
+          "topics": "Introduction to wireframes, purpose and importance in UX design, low-fidelity vs high-fidelity wire- frames, sketching interfaces, layout grids, design hierarchy , and responsive layouts. Prototyping Con- cepts: Introduction to prototypes, types of prototypes (paper prototypes, digital prototypes, interactive prototypes), fidelity levels, advantages of prototyping in UX design, iterative design process. Inter- action Design: Principles of interaction design, micro-interactions, feedback mechanisms, navigation flows, usability considerations in interaction design, designing intuitive interfaces. UI Design Tools: Introduction to modern UI/UX design tools such as Figma, Adobe XD, Sketch, and InVision. Creating interactive prototypes, collaborative design workflows, design handoff to developers. Design Docu- mentation: User flow diagrams, storyboards, design specifications, and design system basics.",
+          "hours": 9
+        },
+        {
+          "title": "Designing UX for Tomorrow",
+          "topics": "Emerging technologies in UX Design: Voice UI, Touchless gesture control, Intelligent UX, Conversa- tional UX, Immersive Media and Fluid UX Designing for Web and Mobile Interfaces, IoT applications, Industry Specific UX Design: FinTech, Education, Health Care, E-commerce and Industrial Websites, designing for Wearable Devices, designing for Augmented Reality , Virtual Reality and Mixed Reality , Tomorrow’s challenges in UX design.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361DCOM",
+      "title": "System Programming",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        74,
+        76
+      ],
+      "units": [
+        {
+          "title": "Overview of System Software and Language Processors",
+          "topics": "Fundamentals of system software and its components, difference between system and application software, basic machine architecture, instruction cycle, addressing modes, and machine/assembly lan- guage concepts. Overview of language processors including assembler, compiler and interpreter with phases of compilation and Bootstrapping, Assembler design covering symbol, literal and pool tables, directives, forward references, macro processor, and one-pass and two-pass techniques for Assembler and Macro Processor. Basics of linker, loader, system utilities, Types of errors, error detection and diagnostics. Case Study: Development of System Programming Tools at Microsoft",
+          "hours": 9
+        },
+        {
+          "title": "Macro Processors, Linkers, Loaders",
+          "topics": "Macroprocessors: Introduction, macro definition and macro call, macro expansion, nested macro calls, advanced macro facilities, functions and basic tasks of a macro processor, features and design issues of macro processors, macro processor design options, design of macro preprocessor and macro assembler, one-pass and two-pass macro processors. Linkers & Loaders: Introduction to linkers and loaders, relocation and linking concepts, design of a linker, self-relocating programs, linking in MS- DOS, linking of overlay structured programs, static and dynamic linking. Loaders and loading process, different loading schemes such as compile-and-go loaders, general loader schemes, direct loaders, absolute loaders. Comparison of linkers and loaders. Case Study: macro expansion and program relocation using a two-pass macro processor and relo- cating loader for executing an assembly language program.",
+          "hours": 9
+        },
+        {
+          "title": "Scanning, Parsing and Language Translator",
+          "topics": "Programming Language Grammars, Classification of Grammar,Ambiguity in Grammatical Specifi- cation, Context Free Grammar. Lexical analysis: role of lexical analyzer, tokens, patterns and lexemes, lexical errors, and regular definitions for language constructs such as strings, sequences, and com- ments. Transition diagrams and finite automata for token recognition, reserved words and identifiers with suitable examples. Scanning, Parsing, Parsing fundamentals, syntax analysis, Top Down Parsing- LL, Bottom up Parsing-LR, syntax-directed translation concepts, and basic error handling and recovery mechanisms. Case Study: LEX/FLEX and YACC/BISON—introduction, specification and features, working flow, and applications in compiler construction, language processing, and syntax analysis.",
+          "hours": 9
+        },
+        {
+          "title": "Compilers, Interpreters and Debugger",
+          "topics": "Compiler : Introduction, Definition, and Functions of a Compiler; Structure of a Compiler; Data Structure used in Compiling, Scope Rules, Memory Allocation,Compilation of Regular Expression, Compilation of Control Structure. Phases of a Compiler; Lexical Analysis, Syntax Analysis, Seman- tic Analysis, Intermediate Code Generation, Code Optimization, and Target Code Generation. Interpreter: Definition and working of interpreter, interpreter vs. compiler, use cases of inter- preters, performance considerations, Examples: JavaScript interpreters Debugger: Need for debugging tools, types of program errors, Debugging techniques, Overview of popular debuggers (GDB, IDE debuggers) Case Study: GCC (GNU Compiler Collection)",
+          "hours": 9
+        },
+        {
+          "title": "Device Drivers and Modern Extension",
+          "topics": "Device Driver: Introduction, Definition ,Types :Character device drivers, Block device drivers, Net- work device drivers, Printer and display driver. System Utilities : File management utilities, Disk management tools , Backup and recovery utili- ties, Compression utilities. Runtime Support Systems : Runtime libraries, Garbage collectors, Just-In-Time (JIT) compilers , Virtual machines (JVM, .NET CLR) Virtualization and Container Software : Hypervisors (VMware, VirtualBox, KVM), Container engines (Docker) Case Study : Virtualization Using Type-2 Hypervisor: A VirtualBox",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362ACOM",
+      "title": "Information Retrieval",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        77,
+        78
+      ],
+      "units": [
+        {
+          "title": "Introduction to IR & Text Processing",
+          "topics": "Introduction to Information Retrieval – Definition, Need, IR vs Database Systems, Applications of IR, Components of an IR System, Architecture of a Search Engine, Document Representation, Types of Documents (Structured, Semi-structured, Unstructured), Text Preprocessing: Tokenization, Stop Word Removal, Stemming (Porter Algorithm), Lemmatization, Normalization Techniques, Term Weighting: Bag of Words, Term Frequency (TF), Inverse Document Frequency (IDF), TF-IDF, Vector Space Model (Basics), Cosine Similarity , Introduction to Inverted Index (Structure & Need) Case Study: Spam Email Filtering using Text Preprocessing",
+          "hours": 9
+        },
+        {
+          "title": "Information Retrieval Models",
+          "topics": "Boolean Retrieval Model – Boolean Queries (AND, OR, NOT), Query Processing, Limitations of Boolean Model, Introduction to Ranked Retrieval, Vector Space Model (Detailed) – Document Vectors, Query Vectors, Similarity Measures, Document Ranking using Cosine Similarity , Probabilistic Retrieval Model – Basic Probability , Binary Independence Model, Relevance Feedback, BM25 (Basic Concept), Language Models for IR (Query Likelihood, Smoothing Basics) + Evaluation Metrics (Precision, Recall, F1, MAP Overview) Case Study: Vector Space Model in Academic Digital Libraries",
+          "hours": 9
+        },
+        {
+          "title": "Index Compression and Dynamic Inverted Indices",
+          "topics": "Performance evaluation: Precision and recall, alternative measures Ontology: Ontology based information sharing, Ontology languages for semantic web, Ontology creation. General-Purpose Data Compression, Modeling and Coding, Huffman Coding, Arithmetic Coding, Symbol wise ,Text Compression Compressing Postings Lists: Nonparametric Gap Compression, Parametric Gap Compression, Context- Aware Compression Methods, Index Compression for High Query Performance, Compression Effective- ness, Decoding Performance, Document Reordering. Dynamic Inverted Indices: Incremental Index Updates, Contiguous Inverted Lists, Noncontiguous Inverted, Document Deletions: Invalidation List, Garbage Collection, Document Modifications, Case Study: Ontology-Based Medical Information Retrieval (e.g., PubMed + MeSH Ontology)",
+          "hours": 9
+        },
+        {
+          "title": "Web Searching",
+          "topics": "Introduction, Challenges, Web Characteristics, Search Engines: Centralized Architecture, Distributed Architecture, User Interfaces, Ranking, Crawling the web, Indices, Browsing, Meta-searchers, Search- ing using Hyperlinks, Trends and Research Issues, Introduction to Web Scraping: Python for web scraping, Request, HTML parsing, Beautiful Soup. Case Study: Web Crawling Architecture (Googlebot)",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Information Retrieval",
+          "topics": "XML Retrieval: Basic XML concepts, Challenges in XML retrieval, Vector space model for XML re- trieval, Evaluation of XML retrieval, Text-Centric vs. Data-Centric XML retrieval. Recommendation System: Collaborative Filtering and Content Based Recommendation of Documents and Products. In- troduction to Semantic Web. Case Study: Personalized Search using User Profiling Focus Areas",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362BCOM",
+      "title": "Data Visualization and Analytics",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        79,
+        81
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Analytics and Life Cycle",
+          "topics": "Introduction to Data Science and Big Data, Applications of Data Science, 5 V’s of Big Data, Relation- ship between Data Science and Information Science, Business intelligence versus Data Science, Data: Data Types, Data Collection. Need of Data wrangling, Methods: Data Cleaning, Data Integration, Data Reduction, Data Transformation, Data Discretization. Data Analytic Life cycle: Introduction, Phase 1: Discovery , Phase 2: Data Preparation, Phase 3: Model Planning, Phase 4: Model Building, Phase 5: Communication results, Phase 6: Operationalize. Case study: Global Innovation Social Network and Analysis (GINA).",
+          "hours": 9
+        },
+        {
+          "title": "Inferential Statistics 09 Hours",
+          "topics": "Statistical concepts, Measures of Central Tendency: Mean, Median, Mode, Mid-range. Measures of Dispersion: Range, Variance, Mean Deviation, Standard Deviation. Bayes theorem, Basics and need of hypothesis and hypothesis testing, Pearson Correlation, Sample Hypothesis testing, Chi-Square Tests, t-test. Case Study: For an employee dataset, create measure of central tendency and its measure of dis- persion for statistical analysis of given data.",
+          "hours": null
+        },
+        {
+          "title": "Predictive Analytics",
+          "topics": "Essential Python Libraries, Basic examples. Data Preprocessing: Removing Duplicates, Transforma- tion of Data using function or mapping, replacing values, Handling Missing Data. Data Analytics Types: Predictive, Descriptive and Prescriptive. Association Rules: Apriori Algo- rithm Regression: Linear Regression, Logistic Regression. Classification: Decision Trees. Introduction to Scikit-learn: Installations, Dataset, Regression and Classification using Scikit-learn. Clustering Al- gorithms: K-Means. Case Study: Use Spam mail dataset and apply data preprocessing methods.",
+          "hours": 9
+        },
+        {
+          "title": "Text Analytics and Model Evaluation",
+          "topics": "History of text mining, Roots of text mining overview of seven practices of text analytic, Applica- tion. Introduction to Text Analysis: Text-preprocessing, Bag of words, TF-IDF and topics. Need and Introduction to social network analysis. Naïve Bayes classifier for text classification, Model Evalua- tion and Selection: Metrics for Evaluating Classifier Performance, Holdout Method and Random Sub sampling, Parameter Tuning and Optimization, Confusion matrix, AUC-ROC Curves. Case Study: Use Spam mail dataset and apply Naïve Bayes classifier and evaluate model.",
+          "hours": 9
+        },
+        {
+          "title": "Data Visualization and Big Data Processing",
+          "topics": "Introduction to Data visualization, Challenges to Big data visualization, Data Visualization using Python: Line plot, Scatter plot, Histogram, Density plot, Box-plot, Pie Chart, Area Plot, Heatmap, Funnel Chart. Open source data visualization tools, Data Visualization using Tableau. Hadoop Ecosystem and Technologies, Hadoop Architecture, Hadoop Storage: HDFS, Common Hadoop Shell commands, Anatomy of File Write and Read, NameNode, Secondary NameNode, and DataNode, Hadoop MapReduce paradigm, Map Reduce tasks, Job, Task trackers, Apache SPARK Frame- work, Difference between Hadoop and Apache Spark. Case Study: Sales Data Visualization using Tableau.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362CCOM",
+      "title": "Cryptography and Network Security",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        82,
+        84
+      ],
+      "units": [
+        {
+          "title": "Introduction to Security Basics",
+          "topics": "Introduction, Security concepts and need of security , Types of security attacks, security approaches, Security services, Security mechanisms, Model for network security , Basic Terminologies in Network Security , Cryptography concepts and techniques, Steganography . Case Study: 1. Data Hiding in Military Communication Using Cryptography & Steganography , 2. Data Breach in an Online Banking System",
+          "hours": 9
+        },
+        {
+          "title": "Data Encryption Techniques",
+          "topics": "Symmetric key Ciphers: Stream Ciphers, Substitution Techniques- Caeser Cipher, Monoalphabetic Ciphers, Playfair Cipher, Hill Cipher, Polyalphabetic Ciphers, Transposition Techniques, Block Ciphers and Data Encryption standards, 3DES, Advanced Encryption standard (AES) Asymmetric key Ciphers: Principles of public key cryptosystems, RSA algorithm, Elgamal Cryptog- raphy , Diffie-Hellman Key Exchange, Knapsack Algorithm, Elliptic Curve Cryptography (ECC) Case Study: 1. Secure Online Payment System Using Symmetric & Asymmetric Encryption 2. Secure Military Communication Using Classical & Modern Ciphers",
+          "hours": 9
+        },
+        {
+          "title": "Data Integrity Algorithms and Web Security",
+          "topics": "Cryptographic Hash Functions- Applications of Cryptographic Hash Functions, Two Simple Hash Functions, Requirements and Security , Hash Functions Based on Cipher Block Chaining, Secure Hash Algorithm (SHA), SHA-3, MD4, MD5, Message Authentication Codes - Message Authentication Re- quirements, Message Authentication Functions, Requirements for Message Authentication Codes, Se- curity of MACs, Digital Signatures : Digital Signatures, Schemes, Digital Signature standard, X.509 Certificate Web Security issues, HTTPS, SSH, Email security : PGP, S/MIME Case Study: 1. Securing Online University Examination System 2. Secure Corporate Communica- tion Network Using IPSec, SSH & Email Security",
+          "hours": 9
+        },
+        {
+          "title": "Security Requirements",
+          "topics": "IP Security: Introduction, Architecture, IPV6, IPv4, IPSec protocols, and Operations, AH Protocol, ESP Protocol, ISAKMP Protocol, VPN. WEB Security: Introduction, Secure Socket Layer (SSL), SSL Session and Connection, SSL Record Protocol, Change Cipher Spec Protocol, Alert Protocol, Handshake Protocol. Electronic Mail Security: Introduction, Pretty Good Privacy , MIME, S/MIME, Comparison. Secure Electronic Transaction (SET). Case Study: 1. Secure Corporate VPN Network Using IPSec & SSL 2. Secure Online Shopping System Using Email Security & SET",
+          "hours": 9
+        },
+        {
+          "title": "Network, Wireless and Emerging Security",
+          "topics": "The OSI Security architecture, Access Control, Flooding attacks, Intrusion detection, Host based and network based Honeypot, Firewall and Intrusion prevention system: Need of firewall, Firewall characteristics, Types and access policy , Intrusion prevention system, Host based, Network based, Hy- brid, Application Security , Security maintenance, Multilevel Security , Concepts of trusted system. Wireless Network Security: WEP, WPA, WPA2, WPA3, Web Attacks: XSS, SQL Injection, CSRF (Basics), Blockchain Fundamentals and Cryptographic Concepts, Cloud Security Basics, IoT Security Challenges Case Study: 1. SQL Injection Attack on E-Commerce Website 2. Secure Banking Infrastructure with Multilevel Security & Trusted Computing",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362DCOM",
+      "title": "Advanced Databases",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        85,
+        87
+      ],
+      "units": [
+        {
+          "title": "Introduction, Basic Concepts and Advanced DBMS Architecture",
+          "topics": "Introduction to Advanced DBMS : Review of basic Database Management System (DBMS) con- cepts, Need for Advanced DBMS, Limitations of Traditional DBMS, Applications of Advanced Database Systems Advanced DBMS System Architecture: Centralized Architecture, Single-Site Database System, Client– Server Architecture (Two-tier Architecture & Three-tier Architecture), Role of Application Server, Ad- vantages and Limitations of Client–Server Systems, Client–Server vs Peer-to-Peer Architecture Data Distribution Techniques: Data Fragmentation, Data Replication Parallel Database Architecture: Overview of Shared Memory Architecture, Shared Disk Architec- ture, Shared Nothing Architecture, Performance Improvement using Parallelism Cloud Database Architecture: Introduction to Cloud Databases, Database as a Service (DBaaS), Multi-tenant Architecture, Scalability and Elasticity . Case Study: Design and implement a Cloud-Based Hospital Management Database System. Create ER/EER diagrams and implement the schema in a DBMS. The system should support multi-branch data management, patient records, appointments, billing, and data replication. Justify the selected database architecture (centralized/distr...",
+          "hours": 9
+        },
+        {
+          "title": "Unit ll Query Processing and Optimization",
+          "topics": "Query Processing : Overview , Measures of Query Cost , Selection Operation , Sorting ,Join Opera- tion , Evaluation of Expressions , Query Processing in Memory Query Optimization :Overview , Transformation of Relational :Expressions , Estimating Statistics of Expression : Results , Choice of Evaluation Plans , Materialized Views , Advanced Topics in Query : Optimization Parallel and Distributed Query Processing: Parallel Evaluation of Query Plans , Distributed Query Processing Case Study: Online Retail Management System that maintains large volumes of data related to customers, orders, products, and payments. The database contains relations such as Customer(CustID, Name, City), Orders(OrderID, CustID, OrderDate), OrderDetails(OrderID, ProdID, Quantity), and Prod- uct(ProdID, Category , Price). Management frequently executes analytical queries to generate sales reports, customer behavior insights, and inventory statistics.",
+          "hours": 9
+        },
+        {
+          "title": "Transaction Management, Concurrency and Recovery",
+          "topics": "Introduction to Database Transaction, Serial and Non-Serial Schedules, Serializability – Conflict and View, Cascading Rollback, Recoverable and Non-Recoverable Schedules, Strict and Rigorous Schedules. Concurrency Control: Lock-Based Protocols, Timestamp-Based Protocols, Validation-Based Deadlock Handling. Recovery System: Failure Classification, Log-Based Recovery , Write-Ahead Logging (WAL), Checkpoints, Recovery with Concurrent Transactions, ARIES (Algorithm for Recovery and Isolation Exploiting Semantics. Case Study: E-Commerce Order Processing System:Study of simultaneous order placement, inven- tory update, and payment processing transactions to illustrate concurrency control, isolation levels, and rollback mechanisms.",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Database Models",
+          "topics": "Introduction to Parallel Databases - Parallel database architecture, speedup, scale-up I/O paral- lelism, Inter-query and Intra-query parallelism, Inter-operational and Intra-operational parallelism, parallel query evaluation, Design of parallel systems, Implementation issues of Parallel query evalua- tion, Introduction to Distributed Databases- Study of DDBMS architectures, Comparison of Homoge- neous and Heterogeneous Databases, Analysis of Concurrency control in distributed databases, Imple- mentation of Distributed query processing, distributed data storage. XML Technologies- Introduction to XML, Structure of XML Data, XML Schema and DTD, XML Val- idation, XPath, XQuery and FLWOR Expression, XML Storage and APIs, XML & DTD Implementation Querying and Transformation: XQuery , FLOWR, XPath, XML validation, Web server, API to XML, Stor- age of XML Data, XML Applications: web services, Web based system, Implementation of XML valida- tions, Use of web servers. Case Study: Design a Distributed Banking Database System that simulates multiple branch databases. Implement distributed queries and demonstrate parallel query execution concepts. Additionally , cre- ate and validate XML do...",
+          "hours": 9
+        },
+        {
+          "title": "Database Security and Recent Trends",
+          "topics": "Fundamentals of Database Security: Importance of database security , Security challenges Security goals: Confidentiality , Integrity , Availability (CIA), Basic authentication (passwords, roles), Authorization models (privileges, role-based access control),Protection Mechanisms. Access control techniques: Database encryption, and Column-level and full-database encryption Monitoring and Threats: Database logging and audit trails, Database Activity Monitoring (Overview), SQL Injection, Privilege escalation and insider threats. Privacy and Compliance: Data sanitization, Data masking and anonymization, Recent Trends and Emerging Technologies: Overview of NewSQL, Trends in modern database ar- chitectures, Cloud database security , NoSQL security concerns, AI-enhanced security mechanisms Case Study: Develop a Secure University Database System with role-based access control (Admin, Faculty , and Student). Implement authentication, authorization, encryption of sensitive data, audit logging, and demonstrate protection against SQL injection. Include a brief study of cloud/NoSQL security features.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC363COM",
+      "title": "Elective III Lab",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        88,
+        95
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM371COM",
+      "title": "Green Computing",
+      "semester": 6,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        96,
+        101
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Green Computing",
+          "topics": "Introduction to Green Computing, Definition of Green Computing, Need for Green Computing, Ob- jectives of Green Computing, Relationship between Business, IT and Environment, Environmental Im- pact of Information Technology , Energy Consumption in IT Infrastructure, Electronic Waste (E-Waste), Environmental Effects of E-Waste, Holistic Approach to Green IT, Concept of Greening IT Infrastruc- ture, Green IT Strategies for Organizations, Drivers of Green IT Adoption, Energy Efficient Computing Practices, Sustainable IT Management, Role of IT in Environmental Sustainability , Green Data Usage, Digitalization to Reduce Paper Consumption, Eco-friendly Computing Technologies, Green Procure- ment in IT, Green Supply Chain in IT, Benefits of Green Computing, Challenges in Implementing Green Computing. Case Study: A university campus replaces hundreds of old computers every year, resulting in large amounts of electronic waste. Improper disposal may cause environmental pollution due to toxic mate- rials. Propose a sustainable e-waste management system for the campus",
+          "hours": 3
+        },
+        {
+          "title": "Green Assets and Modelling",
+          "topics": "Green Assets: Buildings, Data Centres, Networks, and Devices – Green Business Process Manage- ment: Modeling, Optimization, and Collaboration – Green Enterprise Architecture – Environmental Intelligence – Green Supply Chains – Green Information Systems: Design and Development Models. Case Study: Green Information Systems: Design and Development Model",
+          "hours": 3
+        },
+        {
+          "title": "Data Centres and Networking",
+          "topics": "Data centre sustainability: Power Usage Effectiveness (PUE) metrics, Virtualization: Consolidating servers and storage, Energy-efficient networking and communication technologies, A detailed syllabus on Green Computing focusing on Data Centres and Networking, Energy-efficient hardware, virtual- ization, cooling techniques, and sustainable networking protocols., Green Facility Design: Site selec- tion, modular data centre design, building orientation, and energy-efficient building materials. Power Efficiency: Efficient power distribution (AC vs. DC), Uninterruptible Power Supplies (UPS) in high- efficiency modes, and smart PDUs., Cooling Systems Optimization: Hot/cold aisle containment, blank- ing panels, liquid cooling (direct-to-chip/immersion), and free cooling (outside air economization), Renewable Energy Integration: On-site solar/wind generation, Power Purchase Agreements (PPAs), and Battery Energy Storage Systems (BESS) Case Study: Study on : AI Infrastructure (Cisco): specialized AI-ready data center to manage intensive workloads, using Nexus Dashboard for centralized control.",
+          "hours": 3
+        },
+        {
+          "title": "Compliance, Policies, Case Studies",
+          "topics": "Regulations: WEEE Directive, RoHS, and environmental laws Metrics: Measuring, monitoring, and reporting energy consumption AI for Sustainable Computing : AI-based energy consumption monitoring , Machine learning mod- els for predicting power usage in data centers , AI-driven cooling systems for green data centers AI-based Resource Optimization :Intelligent workload scheduling , Smart power management in cloud computing , AI-based demand prediction to reduce idle computing resources Case Study: Green IT in telecom, banking, manufacturing AI-based green data centers, Green computing in homes and offices",
+          "hours": 3
+        },
+        {
+          "title": "AI in Green IT",
+          "topics": "AI in Environmental Monitoring :AI models to measure carbon footprint , Smart IoT sensors with AI for energy efficiency , AI-enabled smart buildings and smart campuses Green AI : Energy-efficient machine learning models, Reducing computational cost of deep learning , Model compression and efficient AI algorithms",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VSE372COM",
+      "title": "Solar Technology and Maintenance",
+      "semester": 6,
+      "type": "VSE",
+      "credits": 1,
+      "pages": [
+        102,
+        103
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC381COM",
+      "title": "Internship/OJT",
+      "semester": 6,
+      "type": "ELC",
+      "credits": 4,
+      "pages": [
+        104,
+        108
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

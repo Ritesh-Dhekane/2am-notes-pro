@@ -1,0 +1,509 @@
+{
+  "id": "se-randa-syllabus-sppu-2024-pattern-14072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering (Robotics and Automation Engineering)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-ROA",
+      "title": "Robot Operating System",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Robot Operating Systems",
+          "topics": "Introduction – History, The ROS Equation, Distributions & difference from other meta-operating systems. ROS framework: Operating system and its various releases.",
+          "hours": 7
+        },
+        {
+          "title": "Robot Programming",
+          "topics": "Introduction to Robotic Programming, On-line and off-line programming, programming examples. Various Teaching Methods, Robot Program as a Path in Space, Motion Interpolation, various Textual Robot Languages, Typical Programming Examples such as Palletizing, Loading a Machine, etc.",
+          "hours": 7
+        },
+        {
+          "title": "Robot Language: VAL Language",
+          "topics": "Classifications, Structures- VAL language commands motion control, hand control, program control, pick and place applications, palletizing applications using VAL, Robot welding application using VAL program-WAIT, SIGNAL and DELAY commands for communications using simple applications. VAL-II programming-basic commands, Simple applications.",
+          "hours": 7
+        },
+        {
+          "title": "Robot Language: RAPID Language & AML",
+          "topics": "Motion Instructions-Pick and place operation using Industrial robot automatic mode, and subroutine command based programming. Move master command language - Introduction, syntax, simple problems. AML Language - General description, elements and functions, Statements, constants and variables-Program control statements-Operating systems, Motion, Sensor commands-Data processing.",
+          "hours": 7
+        },
+        {
+          "title": "Soft Robotics",
+          "topics": "Introduction to soft robotics; Robotic Process Automation (RPA); Computer Vision, AR & VR in Robotics. Multiple robot and machine Interference-Process chart-Simple problems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-ROA",
+      "title": "Industrial Electronics and Electrical Machines",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Industrial Electronics",
+          "topics": "Introduction, scope and applications of Industrial Electronics. Semiconductor Devices: Diodes, BJTs, SCR, MOSFET, IGBT (Characteristics & applications). Rectifiers (half -wave & full -wave; Numerical on efficiency & ripple factor), Relay logic and simple relay-based circuits.",
+          "hours": 7
+        },
+        {
+          "title": "Embedded Systems for Automation",
+          "topics": "Introduction to embedded systems & Arduino platform. Arduino UNO programming (GPIO, Analog/Digital I/O). Serial Communication basics (UART, SPI, I²C). Sensor Interfacing: LM35, Ultrasonic, LDR. Simple Arduino automation examples.",
+          "hours": 7
+        },
+        {
+          "title": "DC Machines",
+          "topics": "Construction, working principle of D.C. generator, DC motor: Construction, torque & sROAd relations (Numericals on torque -sROAd & back EMF). Types of DC Motors: Shunt, series, compound (characteristics & applications). Starters: 3-point, 4-point (working and diagrams). SROAd control methods: PWM, voltage control (Numericals on PWM frequency & duty-cycle).",
+          "hours": 7
+        },
+        {
+          "title": "AC Machines",
+          "topics": "Three-phase induction motor: construction, slip & torque-slip characteristics (Numericals on slip & torque calculations). Motor starters: DOL, Star-Delta, Auto-transformer (operation & circuits). SROAd control: VFD & V/f method (conceptual). Single-phase induction motor – Construction, types and applications.",
+          "hours": 7
+        },
+        {
+          "title": "Special Purpose Motors",
+          "topics": "Stepper Motors: Types, step angle calculation (Numericals on step-angle & RPM), driver circuits. Servo Motors: Principle, feedback & closed-loop control. BLDC Motors: Working principle, role of Electronic SROAd Controller (ESC), and typical industrial and consumer applications. Universal Motors: Basic construction, working principle, and common applications.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-ROA",
+      "title": "Hydraulics and Pneumatics",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to Fluid Power and Pumps",
+          "topics": "Overview of hydraulic and pneumatic systems: structure, applications, advantages, limitations Governing laws: Pascal’s law, Bernoulli’s principle, continuity equation (overview only) Hydraulic fluids and their properties, fluid conditioning, filters, coolers Pneumatics: working medium, FRL unit, characteristics of compressed air Classification of pumps: gear, vane, piston (construction, working principles) Pumping theory of positive displacement pumps",
+          "hours": 8
+        },
+        {
+          "title": "Hydraulic Valves and Control Components",
+          "topics": "Classification of valves: symbols and standards Directional control valves (DCVs): poppet, sliding spool, rotary types Solenoid and pilot-operated DCVs, check valves, shuttle valves Pressure control valves: relief, sequence, unloading, reducing Flow control valves: needle, throttle, compensated and non-compensated types",
+          "hours": 7
+        },
+        {
+          "title": "Actuators and Motors",
+          "topics": "Classification of actuators Hydraulic cylinders: single-acting and double-acting, construction, mounting Hydraulic motors: types (gear, vane, radial piston), characteristics, selection criteria Pneumatic actuators: single-acting, double-acting, diaphragm and rotary actuators (brief introduction)",
+          "hours": 7
+        },
+        {
+          "title": "Hydraulic Circuit Design and Simulation",
+          "topics": "Basic circuits: control of single and double-acting cylinders Regenerative and pump unloading circuits Sequencing, counterbalance, and sROAd control circuits Accumulators: types, working, applications with circuits Intensifier: function and application Circuit design using simulation tools (e.g., Fluidsim, Automation Studio – overview)",
+          "hours": 7
+        },
+        {
+          "title": "Applications, Troubleshooting and Safety",
+          "topics": "Application areas: robotics, material handling, automation, machine tools Systematic troubleshooting in hydraulic and pneumatic systems Maintenance practices and preventive checks Safety considerations: pressure ratings, failure modes, hydraulic shock Case study: Fault analysis and rectification in a hydraulic press or pneumatic pick-and-place unit",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-ROA",
+      "title": "Robot Operating System Lab",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-ROA",
+      "title": "Industrial Electronics and Electrical Machines Lab",
+      "semester": 3,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        21,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-221",
+      "title": "*Open Elective – I",
+      "semester": 3,
+      "type": "OEL",
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-222-ROA",
+      "title": "Statistics and Probability",
+      "semester": 3,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        23,
+        24
+      ],
+      "units": [
+        {
+          "title": "Descriptive Statistics and Data Analysis",
+          "topics": "Types of data, data representation: frequency tables, histograms Measures of central tendency: mean, median, mode Measures of dispersion: range, variance, standard deviation, coefficient of variation Conceptual overview: skewness and kurtosis, Simple numerical examples for each concept",
+          "hours": 6
+        },
+        {
+          "title": "Correlation and Regression",
+          "topics": "Scatter plots and concept of correlation Pearson’s correlation coefficient (with numerical examples) Simple linear regression: regression equations, least squares method Coefficient of determination, significance, and limitations, Use cases in engineering applications",
+          "hours": 6
+        },
+        {
+          "title": "Basics of Probability and Distributions",
+          "topics": "Classical, frequentist, and axiomatic definitions of probability Addition and multiplication rules, Conditional probability, Bayes’ theorem Discrete random variables: PMF, CDF, expectation, variance Binomial and Poisson distributions: characteristics and numerical examples Continuous distributions: PDF, CDF, Normal distribution and standardization.",
+          "hours": 6
+        },
+        {
+          "title": "Sampling and Hypothesis Testing",
+          "topics": "Sampling methods, sampling distributions, Central Limit Theorem (conceptual) Hypothesis testing basics: null and alternative hypotheses, Type I and II errors Z-test and t-test (one-sample and two-sample cases, concept + examples) Chi-square test (goodness-of-fit and independence – conceptual only)",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-ROA",
+      "title": "Engineering Economics",
+      "semester": 3,
+      "type": "EEM",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "VEC-232-ROA",
+      "title": "Universal Human Values",
+      "semester": 3,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "Meaning and need for value education Self-exploration as the basis for right understanding Human aspirations: happiness and prosperity Right understanding, relationship, and physical facility Current scenario: confusion and contradictions in life Method to fulfill basic human aspirations",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "Human being as coexistence of self and body Distinction between needs of the self and body Role of the body as an instrument of the self Harmony in the self and harmony of self with the body Self-regulation and health: a value-based approach",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "Family as the basic unit of human interaction Values in relationships: trust, respect, affection, care Right evaluation and mutual fulfilment Harmony in society: justice, fearlessness, and coexistence Vision for a universal human order",
+          "hours": 6
+        },
+        {
+          "title": "Harmony in Nature and Existence",
+          "topics": "Interconnectedness and mutual fulfilment in nature Four orders in nature and their harmony Existence as coexistence of units in space Holistic perception of harmony in existence Professional ethics and transition to a value-based lifestyle",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-ROA",
+      "title": "Mini-project/ Case study/ Seminar",
+      "semester": 3,
+      "type": "CEP",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-ROA",
+      "title": "Design of Machines and Mechanism",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Design",
+          "topics": "Machine Design, Basic procedure of Machine Design, Requisites of design engineer, Use of standards in design, Factor of safety, Theories of Failures, Design of simple machine parts, Socket and Spigot cotter joint, knuckle joint, Keys: Classification of keys, Design of square, Couplings: Design considerations, Classification, Design of Rigid, Muff coupling, Flange coupling",
+          "hours": 7
+        },
+        {
+          "title": "Design of Shaft",
+          "topics": "Transversely Loaded Components, Force and Bending Moment in Determinate Beams due to Concentrated Loads, Uniformly Distributed Loads. Bending stresses, Theory of simple bending, assumptions, and derivation of flexure formula. Torsion of circular shafts. Theory of torsion, assumptions, and derivation of torsion equation. Shafts: Design considerations in Transmission shafts with spur gear and pulley, splined Shafts, Shaft design on strength basis, Shaft design on torsional rigidity basis, ASME code for shaft design.",
+          "hours": 8
+        },
+        {
+          "title": "Design of Power Screws",
+          "topics": "Power Screws: Types of screw threads, multiple threaded screws, Torque analysis with square and trapezoidal threads, Self-locking screw, Collar friction torque, Stresses in power screws, design of screw and nut, design of Screw jack.",
+          "hours": 7
+        },
+        {
+          "title": "Design of Gears and Bearings",
+          "topics": "Introduction to Gear Design: Basic terminology: pitch circle, module, pressure angle, addendum, dedendum, Detailed Analysis of Spur Gears, Force analysis on gear teeth (tangential and radial forces), Lewis equation for gear tooth strength Types of Gears: Helical, Bevel, Worm, Rack and Pinion, Internal gears Introduction to Bearings: Classification: sliding/contact bearings and rolling element bearings, Bearing selection criteria: load, sROAd, temperature, alignment, Static and dynamic load carrying capacities, Lubrication and maintenance for enhanced life.",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Mechanisms",
+          "topics": "Kinematic Link, Types of links, Kinematics pair, Types of constrained motion, Classification of Kinematics pairs, Kinematics chain, Degrees of freedom of mechanisms, Inversion of mechanism, Analysis of mechanisms such as cams and followers, belt drives, four bar mechanism, slider crank mechanism etc.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-ROA",
+      "title": "Materials and Manufacturing Technology",
+      "semester": 4,
+      "type": "PPC",
+      "credits": 3,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Engineering Materials in Robotics",
+          "topics": "Material Classification: Ferrous, non-ferrous, polymers, ceramics, composites Smart materials: shape memory alloys, piezoelectrics (basic overview) Lightweight materials: Aluminum alloys, plastics, carbon fiber basics. Material properties relevant to robotic arms and chassis (strength, stiffness, weight)",
+          "hours": 7
+        },
+        {
+          "title": "Mechanical Properties and Testing",
+          "topics": "Destructive tests: Tensile, compression, impact, fatigue (with simple lab examples) Hardness tests: Brinell, Rockwell, Vickers (concept only) Non-Destructive Tests: Visual, Dye Penetrant, Ultrasonic, Radiography (intro level) Use of robotic arms in modern testing environments.",
+          "hours": 7
+        },
+        {
+          "title": "Alloying and Phase Diagrams",
+          "topics": "Basic terms: solid solution, solubility, polymorphism Iron-Carbon diagram: concept and importance Alloy steels for robotic applications Heat treatment basics: hardening, annealing, tempering",
+          "hours": 7
+        },
+        {
+          "title": "Casting and Powder Metallurgy",
+          "topics": "Sand casting, Investment Casting, Vacuum Casting / Vacuum-Assisted Casting, Centrifugal and Pressure Die Casting Enhancements, Squeeze Casting basics. Powder metallurgy: Advanced Powder Manufacturing Techniques, Powder Shaping and Forming Automation, Sintering Technologies, Additive Manufacturing & 3D Printing in PM",
+          "hours": 7
+        },
+        {
+          "title": "Forming and Joining for Robotics",
+          "topics": "Rolling, forging, extrusion (basic classification and diagrams) Sheet metal operations: blanking, bending, deep drawing Joining methods: Arc welding, gas welding, soldering, brazing, friction stir (FSW) and laser beam welding (intro level), Ultrasonic Welding, Intelligent Robotic Welding Systems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-ROA",
+      "title": "Computer Graphics for Robotics",
+      "semester": 4,
+      "type": "PPC",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computer Graphics & Coordinate Systems",
+          "topics": "Cartesian coordinate systems (2D and 3D), vectors and operations Fundamentals of computer graphics for robotics visualization Line drawing algorithms (Bresenham's, DDA – brief overview) Simple graphical object creation using C programming",
+          "hours": 6
+        },
+        {
+          "title": "Transformations in Graphics and Robotics",
+          "topics": "2D and 3D geometric transformations: translation, rotation, scaling Homogeneous coordinates and matrix representation Perspective and orthographic projections Applications in robotic arm motion and kinematics",
+          "hours": 6
+        },
+        {
+          "title": "Interpolation and Its Applications",
+          "topics": "Linear and non-linear interpolation Interpolation of curves (Lagrange, spline interpolation overview) Interpolating quaternions for smooth robotic rotation Applications in animation and robot trajectory generation",
+          "hours": 6
+        },
+        {
+          "title": "Curves and Patches for Robotic Modeling",
+          "topics": "Bezier curves and B-splines: generation and properties Surface modeling using patches (brief intro to Coons and Bézier surface patches) Use of curves and patches in robot path and surface planning Implementation using C or open-source graphics tools (overview).",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-ROA",
+      "title": "Programming for Robotics Lab",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        38,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-ROA",
+      "title": "Computer Graphics for Robotics Lab",
+      "semester": 4,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        39,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-271",
+      "title": "*Open Elective – II",
+      "semester": 4,
+      "type": "OEL",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-272-ROA",
+      "title": "Industrial Engineering and Management",
+      "semester": 4,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Engineering and Productivity",
+          "topics": "Definition, scope, and historical evolution of Industrial Engineering Objectives and applications in manufacturing and service sectors Productivity concepts and metrics: partial and total productivity Factors influencing productivity; productivity improvement approaches",
+          "hours": 6
+        },
+        {
+          "title": "Quality Control and Production Planning",
+          "topics": "Concepts of quality, quality control, and assurance Statistical Quality Control: basic control charts (X̄ , R, and P charts – conceptual) Overview of ISO standards (ISO 9001) and Total Quality Management (TQM) Production planning and control basics; forecasting methods (overview) Inventory management: EOQ model, ABC classification (numerical examples)",
+          "hours": 6
+        },
+        {
+          "title": "Method Study and Work Measurement",
+          "topics": "Method study: procedure and charting techniques (operation process, flow process charts) Principles of motion economy; micro-motion study and therbligs (conceptual) Work measurement techniques: time study, work sampling Standard time calculation and its role in cost and capacity planning",
+          "hours": 6
+        },
+        {
+          "title": "Ergonomics, Safety, and Emerging Trends",
+          "topics": "Introduction to ergonomics and anthropometry; design of workstations Safety: industrial hazards, prevention, and safety regulations Lean manufacturing: 5S, Kaizen, JIT (overview with examples) Industry 4.0: digital manufacturing, IoT, AI, and smart factories Case studies of implementation in modern industries",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSEC- 281- ROA",
+      "title": "Measurement Lab",
+      "semester": 4,
+      "type": "VSEC",
+      "credits": 1,
+      "pages": [
+        43,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "VSEC-282-ROA",
+      "title": "Creative Problem Solving and Critical Thinking",
+      "semester": 4,
+      "type": "VSEC",
+      "credits": 1,
+      "pages": [
+        44,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-283-ROA",
+      "title": "Modern Indian Languages (Marathi/Hindi)",
+      "semester": 4,
+      "type": "ACE",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-284-ROA",
+      "title": "Behavioural Science",
+      "semester": 4,
+      "type": "EEM",
+      "credits": 1,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "VEC-285-ROA",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "VEC",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Introduction to Environment and Ecosystem",
+          "topics": "Meaning and Scope of Environment: Definition of environment, Types of environment (natural, built), Components of environment (biotic and abiotic), Man–environment relationship, Importance of environment and sustainability, Need for public environmental awareness. Ecosystem Basics: Definition and major components of ecosystems, Structure and function of ecosystem Case studies: Forest ecosystem, Grassland ecosystem, Desert ecosystem, Aquatic ecosystem Stability of ecosystems and their role in environmental sustainability",
+          "hours": 6
+        },
+        {
+          "title": "Environmental Pollution and Control Measures",
+          "topics": "Definition and Types of Pollution, Air Pollution: sources, effects, and Air Pollution Control Act Water Pollution: sources, effects, and Water Pollution Control Act, Noise Pollution: sources and effects Solid Waste Pollution: sources and impacts, Concept of integrated pollution control",
+          "hours": 6
+        },
+        {
+          "title": "E-Waste Management",
+          "topics": "Introduction to E-Waste: Definition, composition, and sources of e-waste, Global context of e-waste generation, Major pollutants and their hazardous properties, Effects of e-waste on human health and the environment E-Waste Management Principles: Basic principles and hierarchy of e-waste management, Technologies for resource recovery from e-waste, Mechanical processing and material recovery techniques, Occupational and environmental health perspectives, E-waste recycling scenario in India",
+          "hours": 6
+        },
+        {
+          "title": "E-Waste Control, Laws, and Regulatory Framework",
+          "topics": "Regulatory and Legal Measures: Need for health and environmental protection laws in India, E-Waste Management Rules, 2016 and amendments, Extended Producer Responsibility (EPR), Import/export permissions and compliance, Administrative and engineering controls Sustainable E-Waste Management: Role of government, industry, and citizens, Monitoring and enforcement mechanisms, Strategies for reduction of waste at source, Strengthening of regulatory mechanisms through technical expertise",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

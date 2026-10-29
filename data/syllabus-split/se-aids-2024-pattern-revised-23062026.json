@@ -1,0 +1,575 @@
+{
+  "id": "se-aids-2024-pattern-revised-23062026",
+  "kind": "programme",
+  "programme": "Second Year Artificial Intelligence and Data Science",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-AID",
+      "title": "Data Structures",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Data Structures & Algorithms: Searching and Sorting",
+          "topics": "Introduction of Data Structures & types. Complexity of algorithm: Space complexity , Time com- plexity , Asymptotic notation- Big-O, Theta and Omega, finding complexity using step count method, Analysis of programming constructs-Linear, Quadratic, Cubic, Logarithmic. Searching: Sequential Search, Binary Search. Sorting: Insertion sort, Bubble Sort, Merge sort, Selection Sort, Quick sort, Radix sort. Hash: Hash Table, Hash Function, Collision Resolution Techniques in Hashing-Chaining, Open Addressing-Linear, Quadratic Probing and Double Hashing. Hash table overflow open addressing and chaining. Case Study: Employee Records Database Optimization, finding employees based on salary or sorting them by department using Array",
+          "hours": 9
+        },
+        {
+          "title": "Memory Allocation & Linked List Operations",
+          "topics": "Introduction to Static and Dynamic Memory Allocation. Linked List: Introduction of Linked Lists, Realization of linked list using dynamic memory man- agement, operations on Linked Lists, Linked List as ADT, Types of Linked List: singly linked, linear and Circular Linked Lists, Doubly Linked List, Doubly Circular Linked List, Primitive Operations on Linked List-Create, Traverse, Search, Insert, Delete, Sort, Concatenate. Polynomial Manipulations- Polynomial addition. Generalized Linked List (GLL) concept. Case Study : Growing employee database dynamically using LL.",
+          "hours": 9
+        },
+        {
+          "title": "Linear Data Structure :Stacks, Queues",
+          "topics": "Stack: Introduction of stack, stack Abstract Data Type, Representation of Stacks Using Sequen- tial Organization, stack operations, Applications of Stack- Expression Evaluation and Conversion. Recursion- concept. Queue: Introduction of Queue, Queue as Abstract Data Type, Representation of Queue using Se- quential organization. Queue Operations. Circular Queue and its advantages, Deque-introduction, Priority Queue. Case study: Backtracking algorithmic strategy , Use of stack in backtracking. Case study: Job scheduling using priority queue.",
+          "hours": 9
+        },
+        {
+          "title": "Non-linear Data Structure: Tree",
+          "topics": "Tree: Introduction of tree, Representations, Traversals, Binary tree, Binary search tree, Threaded Binary search tree- concepts, threading, insertion and deletion of nodes, Optimal Binary Search Tree (OBST), Height Balanced Tree- AVL tree, Heap Tree Case study : Compare the complexity of BST and Linear search",
+          "hours": 9
+        },
+        {
+          "title": "Non-linear Data Structure: Graph",
+          "topics": "Graph: Introduction of graph, storage representation, Adjacency matrix, adjacency list, DFS, BFS, Minimum spanning Tree - Prims and Kruskal Algorithms, Dijkstra’s Single source shortest path, All pairs shortest paths- Flyod- Warshall Algorithm, Topological ordering. Case study: Analyzing social interactions and influence within a social network.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-AID",
+      "title": "Artificial Intelligence",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to AI",
+          "topics": "Introduce to the fundamentals of AI, history , applications, and challenges. Definition and History of AI , Applications and Impact of AI in Various Domains , Types of AI: Narrow AI, General AI, and Super AI , Intelligent Agents, Agents and Environments, Concept of Rationality , Nature of Environments, Structure of Agents. AI in Problem Solving: State Space Representation , AI Ethics and Challenges Case studies : AI Applications with demonstration like sentiment analysis, Obstacle detection etc.",
+          "hours": 9
+        },
+        {
+          "title": "Problem-solving",
+          "topics": "Solving Problems by Searching, Problem-Solving Agents, Example Problems, Search Algorithms, Un- informed Search Strategies, Informed (Heuristic) Search Strategies, Heuristic Functions, Search in Complex Environments, Local Search and Optimization Problems Case Studies : Siemens & GE – Leveraging AI, Big Data, and Robotics in Smart Manufacturing (4IR Context)",
+          "hours": 9
+        },
+        {
+          "title": "Adversarial Search and Constraint Satisfaction",
+          "topics": "Game Theory , Optimal Decisions in Games, Heuristic Alpha–Beta Tree Search, Monte Carlo Tree Search, Stochastic Games, Partially Observable Games, Limitations of Game Search Algorithms, Con- straint Satisfaction Problems (CSP), Constraint Propagation: Inference in CSPs, Backtracking Search for CSPs. Case Studies : Google DeepMind – AI for Energy Efficiency in Data Centers and Game Playing (e.g., AlphaGo)",
+          "hours": 9
+        },
+        {
+          "title": "Knowledge and Reasoning",
+          "topics": "Logical Agents, Knowledge-Based Agents, The Wumpus World problem, Propositional Logic: A Very Simple Logic, Propositional Theorem Proving, Effective Propositional Model Checking, Agents Based on Propositional Logic, First-Order Logic, Representation Revisited, Syntax and Semantics of First- Order Logic, Using First-Order Logic, Knowledge Engineering in First-Order Logic. Inference in First-Order Logic, Propositional vs. First-Order Inference, Unification and First-Order Inference, Forward Chaining, Backward Chaining, Resolution, Knowledge Representation Case Studies :BBC & Amazon Alexa – AI-Driven Interactive Media with Logic-Based Chatbots",
+          "hours": 9
+        },
+        {
+          "title": "Planning and Emerging AI Topics",
+          "topics": "Automated and Classical Planning, Hierarchical Planning, Planning under Uncertainty , Analysis of Planning Approaches, Limits of AI, Ethics of AI, Future of AI, AI Components ,Introduction of Gener- ative AI (GPT, DALL·E), Explainable AI (XAI), Federated Learning, Edge AI Case Studies : OpenAI’s GPT-4 & ChatGPT – Impacts of Generative AI and Prompt Engineering",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-AID",
+      "title": "Operating System",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        25,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operating System and Process",
+          "topics": "Introduction to operating systems, Types of OS, real time OS, the Linux Operating Systems Process: process abstraction, system calls for process management, process creation: process states, data structures, process execution mechanisms process api, process control and users Case Study : Windows 11/Linux",
+          "hours": 9
+        },
+        {
+          "title": "Scheduling",
+          "topics": "Workload assumptions, scheduling metrics, response time, first in, first out (FIFO) shortest job first (SJF), shortest time-to-completion first (STCF), round robin, incorporating I/O, the multi-level feed- back queue, the priority boost, attempt, better accounting, multiprocessor scheduling, synchroniza- tion, cache affinity , single-queue scheduling multi-queue scheduling, Linux multiprocessor sched- ulers. Case Study - Scheduling and Synchronization in xv6",
+          "hours": 9
+        },
+        {
+          "title": "Address Spaces",
+          "topics": "Early systems, multiprogramming and time sharing, the address space, virtualization of memory , memory api: types of memory , the malloc() call, the free() call, segmentation, fine-grained vs. coarse- grained segmentation, free-space management, paging, a memory trace, faster translations (TLBs), TLB basic algorithm, TLB issue: context switches, replacement policy , hybrid approach: paging and segments, beyond physical memory: mechanisms, swap space, the page fault, page fault control flow. Case Study - Linux/Windows Memory Management",
+          "hours": 9
+        },
+        {
+          "title": "Concurrency",
+          "topics": "Concurrency , persistence, Shared data, uncontrolled scheduling, the wish for atomicity , thread api : need of threads, thread creation, thread completion Locks: the basic idea, pthread locks, building a lock, evaluating locks, controlling interrupts, failed attempt, just using Semaphores: definition, binary semaphores (locks), semaphores for ordering, the producer/consumer (bounded buffer) problem, reader-writer locks, dining philosophers’ problem, how to implement semaphores, common concurrency problems. Case Study : Thread programming Using Pthreads, POSIX",
+          "hours": 9
+        },
+        {
+          "title": "I/O Management",
+          "topics": "System architecture, A Canonical device, The Canonical protocol, CPU virtualization, Lowering CPU Overhead with Interrupts, More efficient data movement With DMA, Methods of device interaction, Fitting into the OS: The device driver, Case Study: A simple IDE disk driver, Hard disk drives, files and directories, The fast file system, file system implementation, disk failure modes, handling latent sector error, detecting corruption: the checksum, using checksums Case Study - I/O Management in Linux/Windows operating system",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-AID",
+      "title": "Data Structures Laboratory",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        28,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-205-AID",
+      "title": "Artificial Intelligence Laboratory",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        32,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "*Open Elective - I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-AID",
+      "title": "Digital Electronics and Logic Design",
+      "semester": 3,
+      "type": "Multi disciplinary Minor",
+      "credits": 2,
+      "pages": [
+        35,
+        37
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Systems",
+          "topics": "Number systems: Binary , Decimal, Octal and Hexadecimal Number system, conversion of one num- ber system to another, representation of signed number- sign magnitude representation, 1’s com- plement and 2’s complement form, addition and subtraction of two binary numbers, Fixed point representation of a numbers, standard representation for logic functions, Minimization of Boolean function using K-map (up to 4 variables), Minimization of SOP and POS using K-map. Case Study: Number systems use in networking and IP addressing, Digital locks",
+          "hours": 6
+        },
+        {
+          "title": "Combinational Logic Design",
+          "topics": "Classification of Codes : Weighted and Non-weighted Codes, Error Detecting and Correcting Codes ,Self-complementary codes, Reflective Codes ( Binary , BCD, Gray code and Excess-3 code) Code Conversion : Binary to Gray and Gray to Binary code conversion,BCD to Excess-3 Half- Adder, Full Adder, Half Subtractor, Full Subtractor, 4 Bit Parallel Adder, BCD adder,Multiplexers (MUX), De- multiplexers (DEMUX) , Implementation of SOP and POS using MUX, DMUX,Magnitude Comparator Case Study :BCD to 7-segment display Controller",
+          "hours": 6
+        },
+        {
+          "title": "Sequential Circuits",
+          "topics": "Flip-Flop: SR, JK, D,T, MSJK, Truth Tables and Excitation tables, Conversion of Flip-Flop ,Shift Reg- isters, Bidirectional Shift Register, Universal Shift Register, Ring Counter ,Johnson Counter Counters: Asynchronous Counter, Synchronous Counter, BCD Counter, Modulus of the counter ( IC 7490), Presettable Counter, Synchronous sequential circuits : Moore Circuit, Mealy Circuit, State Diagram, State table, State Reduction ,State Assignment Case study: A Digital Combination Lock, Electronics Voting machine (EVM)",
+          "hours": 6
+        },
+        {
+          "title": "Microprocessor Fundamentals",
+          "topics": "Evolution of Intel Microprocessors, Overview of microprocessor vs microcontroller. Intel x86 (Pen- tium): Architecture, registers, instruction types. ARM Cortex architecture: RISC principles, use in mobile AI. NVIDIA Jetson: GPU-based AI processing, use in robotics and edge AI. Simple assembly and C-code-based examples. Case study : Smart Object Counter with AI Edge Inference using NVIDIA Jetson and ESP32 Commu- nication",
+          "hours": 6
+        },
+        {
+          "title": "Emerging Processors for AI",
+          "topics": "Introduction to AI-focused processors: CPU(Central Processing Unit), GPU(Graphics Processing Unit), TPU(Tensor Processing Unit), NPU(Neural Processing Unit), VPU(Vision Processing Unit). Comparison: Intel Core Ultra, Apple M3, NVIDIA RTX, Google TPU, AMD Ryzen AI, Qualcomm Hexagon. Concepts of Edge AI & Cloud AI processing. Heterogeneous computing (CPU+GPU+NPU). Benchmarks& Metrics: FLOPS, TOPS, latency , power efficiency Case study: Face Detection Door Lock – Choosing Between Jetson, ESP32, and ARM Cortex ; Voice- Controlled Fan: ESP32 vs Mobile NPU",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-AID",
+      "title": "Entrepreneurship Development",
+      "semester": 3,
+      "type": "Entrepreneurship/ Management",
+      "credits": 2,
+      "pages": [
+        38,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "Entrepreneurship: Definition and evolution, Role of entrepreneurship in economic development , Role in job creation, GDP, and innovation. Characteristics of an Entrepreneur: Key traits: Risk-taking, innovation, pro-activeness, Leadership, perseverance, and resilience Types of Entrepreneurships: Startup entrepreneurship, Social entrepreneurship, Intrapreneurship (corporate entrepreneurship), Lifestyle and small business entrepreneurship, Forms of Business Or- ganization – Sole proprietorship, partnership, private limited, public limited. Entrepreneurial Mindset: Growth mindset and adaptability , Creativity and problem-solving, Op- portunity recognition and initiative-taking Overview of the Startup Ecosystem: Key stakeholders: Incubators, accelerators, angel investors, VCs, Government support schemes (Startup India, Atal Innovation Mission, etc.), Global vs. Indian startup ecosystems Case Study: 1. Ritesh Agarwal – Founder of OYO Rooms (India) 2. Falguni Nayar – Founder of Nykaa (India) 3. Nandan Nilekani – Co-founder of Infosys & Architect of Aadhaar (India) etc.",
+          "hours": 3
+        },
+        {
+          "title": "Idea Generation & Opportunity Recognition",
+          "topics": "Creativity Techniques for Idea Generation:Definition and importance of creativity in entrepreneur- ship. Brainstorming: Rules of effective brainstorming. Individual vs. group brainstorming. Mind Mapping: Visual idea structuring using central themes and branches. Tools (manual and digital) for mind mapping. Understanding Customer Needs and Pain Points: Customer pain points and their identification, Problem-solution fit: Linking pain points to possible solutions. Observational techniques, user inter- views, and empathy mapping. Evaluating Opportunities: Difference between an “idea” and an “opportunity .” Basic filters: Desir- ability , feasibility , and viability . Tools: SWOT Analysis, Opportunity Matrix, Industry trends, market gaps. Case Study : Analyzing how “Dunzo” or “BigBasket” identified urban pain points and How “Zerodha” scaled in India with a digital-first approach",
+          "hours": 3
+        },
+        {
+          "title": "Business Model Development",
+          "topics": "Introduction to Business Model Canvas: Definition and purpose of a business model, Overview of the Business Model Canvas by Osterwalder, Benefits of using BMC for startups. Key Components of BMC: Value Proposition: Defining what unique value the product/service of- fers. Addressing customer pain points. Customer Segments: Identifying target customers. Creating customer personas Revenue Models: Direct sales, subscriptions, freemium, licensing, etc. Basic Market Research for Validation: Importance of market research in early-stage business de- velopment. Designing effective surveys and customer feedback forms. Conducting basic interviews and analyzing responses. Introduction to MVP (Minimum Viable Product) and feedback loops. Case study: Map the BMC for a well-known startup (e.g., Uber or Zomato).",
+          "hours": 3
+        },
+        {
+          "title": "Marketing Strategies & Customer Acquisition",
+          "topics": "Basics of Branding and Positioning: Introduction to Brand – Elements of brand identity: name, logo, voice, tone, and values. Positioning – How to create a unique space in the customer’s mind. Positioning maps, Value-based positioning vs. competitor-based positioning Startup Branding Chal- lenges – Limited budget, building trust, clarity in messaging. Costing & Pricing Strategies – Fixed vs. variable costs, break-even analysis. Introduction to Digital Marketing: Distribution Channels: Traditional vs. digital distribution. So- cial Media Marketing: Platforms overview (Instagram, LinkedIn, Facebook, X/Twitter) Creating a content strategy and calendar Organic vs. paid reach Search Engine Optimization (SEO): Basics of how search engines work, Keyword research and content optimization, On-page vs. off-page SEO Importance of Digital Presence – Website essentials, blogs, and analytics tools. Customer Acquisition Strategies: Understanding the Customer Journey – Awareness, interest, de- cision, action. Early-Stage Customer Acquisition Tactics: Word-of-mouth & referrals, Influencer mar- keting (micro-influencers), Email marketing basics, building a landing page and collecting leads Case St...",
+          "hours": 3
+        },
+        {
+          "title": "Pitching & Business Communication",
+          "topics": "Crafting an Elevator Pitch: Definition and purpose, Key elements: Problem, solution, value propo- sition, target audience, Delivery tips: Clarity , brevity , confidence Storytelling & Communication: Importance of Storytelling in Business, Structure of a Business Story: Setup, Conflict, Resolution. Communication Skills: Verbal and Non-verbal Overview of Funding Sources: Public & private capital sources, venture capital, debt financing. Bootstrapping: Meaning, benefits, and risks, Angel investors: Role, expectations, approach, Brief on incubators, government schemes, crowdfunding. Case study: 1. Shark Tank India – Pitch Analysis (Any Season) 2. Airbnb – The Original Pitch Deck 3. Dropbox – Storytelling Through Demonstration 4. Dunzo – Investor Pitch Evolution",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-AID",
+      "title": "Universal Human Values and Professional Ethics",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "(i) Understanding Value Education (ii) Self-exploration as the Process for Value Education (iii) Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment (iv) Right Understanding, Relationship and Physical Facility (v) Happiness and Prosperity - Current Scenario (vi) Method to Fulfil the Basic Human Aspirations",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "(i) Understanding Human being as the Co-existence of the Self and the Body (ii) Distinguishing between the Needs of the Self and the Body (iii) The Body as an Instrument of the Self (iv) Understanding Harmony in the Self (v) Harmony of the Self with the Body (vi) Programme to Ensure self-regulation and Health",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "(i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship (ii) ’Respect’ - as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order",
+          "hours": 8
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "(i) Understanding Harmony in the Nature (ii) Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co-existence at All Levels (iv) The Holistic Perception of Harmony in Existence (v) Professional Ethics in the light of Right Understanding (vi) Strategies for Transition towards Value-based Life and Profession",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEF-241-AID",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        48,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-AID",
+      "title": "Database Management systems",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Foundations of Data Management and ER Model",
+          "topics": "Introduction, Purpose of DBMS, Database Applications, Data Models, DBMS Architecture, DBMS languages. Database Design and ER Model: Entities, Attributes, Relationships, Keys, Constraints, ER Diagrams, Design Process, Design Issues. Extended ER features, converting ER/EER diagrams to relational tables Case Study: Analyze and design a database using the ER model for a real-time application and convert it to relational tables.",
+          "hours": 9
+        },
+        {
+          "title": "Smart Data Querying with SQL & PL/SQL",
+          "topics": "SQL: Data types, DDL, DML, DCL, and TCL commands (Create User, Grant, Revoke Queries) Tables: Create, Insert, Update, Delete, Alter, Drop, SELECT, Joins, Views (Create, Update, Drop), Aggregation functions, Set operations, SQL Operators, SQL Predicates, Nested queries.PL/SQL: Stored procedures, functions, triggers, assertions, roles, and privileges. Case Study : Implementation of Unit I case study using SQL and PL/SQL",
+          "hours": 9
+        },
+        {
+          "title": "Relational DBMS and Intelligent Querry Processing",
+          "topics": "Relational model concepts : Attributes, Domains, CODD’s Rules. Integrity constraints: Domain, Referential integrity , Enterprise constraints. Normalization: 1NF to BCNF, functional dependencies, decomposition. Introduction to Intel- ligent Query Processing (IQP): Definition and importance of IQP, Evolution of query processing techniques, Need for intelligent query optimization in modern databases. Case study: Normalize the relational database designed in Unit I",
+          "hours": 9
+        },
+        {
+          "title": "Transaction Management & Analytics",
+          "topics": "Transactions: States, ACID properties, schedules. Serializability: Conflict and view serializability , cascaded aborts, recoverable and nonrecoverable schedules. Concurrency control: Lock-based and time-stamp-based mechanisms, deadlock handling. Recovery: Shadow-paging, log-based recovery , checkpoints, deferred and immediate modifications. Case study : Study transaction management in PostgreSQL",
+          "hours": 9
+        },
+        {
+          "title": "NoSQL & Intelligent Data Processing",
+          "topics": "Data types: Structured, unstructured, and semi-structured data. NoSQL databases: Types (Key- value, Document, Graph, Wide-column), BASE properties, ACID vs. BASE, RDBMS vs. NoSQL Introduction to emerging database technologies : Cloud Databases, Mobile Databases, SQLite Database, XML Databases, DynamoDB. MongoDB: CRUD operations, indexing, aggregation, MapRe- duce, replication, sharding. Graph DB: Introduction, Building Rich Graph Data Models with Neo4j, Querying Your Graph Cosmos DB: Introduction, Building Scalable NoSQL Data Models, Querying with SQL API Case study: Process unstructured social media data using NoSQL databases",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-AID",
+      "title": "Data Science",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        56,
+        58
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Data Science",
+          "topics": "Basic Concepts of Data: Types of data: Structured, Semi-structured, Unstructured, Scales of mea- surement: Nominal, Ordinal, Interval, Ratio, Data formats: CSV, JSON, XML, SQL tables, Data quality dimensions: Accuracy , Completeness, Consistency , Timeliness, Difference Between Data, Information, Knowledge, wisdom. Definition of Data Science, The Data Science Process/Lifecycle (e.g., CRISP-DM, Team Data Sci- ence Process (TDSP), SEMMA Methodology), Applications of Data Science in various domains (e.g., Healthcare, Finance, Retail), Distinction between Data Science, Machine Learning, and Artificial In- telligence, Roles in Data Science (e.g., Data Analyst, Data Scientist, Machine Learning Engineer), Ethical and Privacy Issues in Data Science. Case Study: A telecom business wants to proactively identify customers who are likely to quit be- cause of the high rate of customer turnover. The organization wants to predict loss of customers using data science techniques and take proactive steps to keep at-risk clients. Determine the steps that, as data scientists, we must adhere to in order to resolve this issue.",
+          "hours": 6
+        },
+        {
+          "title": "Applications of Mathematical Statistics",
+          "topics": "Importance of mathematical statistics in Data Science, Role of mathematical statistics in building data models, mathematical statistics foundations needed for machine learning algorithms. Linear Algebra for Data Science: Vectors and Matrices, Vector operations (dot product, cross product) and its application in data science, Matrix operations (addition, multiplication, inverse, determinant), Eigenvalues and Eigenvectors and its uses in dimensionality reduction, Probability Concepts: Random variables and probability distributions, Bayes’ Theorem and conditional probability , Expected value and variance. Statistical Methods: Measures of central tendency (Mean, Median, Mode), Measures of dispersion (Variance, Standard Deviation) and its importance in data preprocessing ,Correlation and covariance and its importance in feature selection in modeling. Case Study : In a dataset, you have a feature matrix and output vector .Elaborate, How does matrix multiplication help in solving linear regression using the Normal Equation.",
+          "hours": 6
+        },
+        {
+          "title": "Programming for Data Science",
+          "topics": "Machine Learning: Types (Supervised, unsupervised, Reinforcement), Supervised Algorithms (Linear Regression, Logistic Regression, Decision Trees, SVM). Metrics: Confusion Matrix, Accuracy , Precision-Recall, ROC-AUC, F1 Score, Mean Squared Error (MSE),R-squared. NumPy: Arrays, Mathematical Operations, Linear Algebra, Random Number Generation, Broadcast- ing. Pandas: Data Frames, Cleaning, Transformation, Filtering, Grouping, Import/Export, Missing Data Handling. Matplotlib: Basic & Advanced Plots, Customization, Subplots, Interactive Features. Seaborn: Distri- bution, Categorical, Relationship, Regression Plots, Multi-Plot Grids, Themes. Case study: Write a case study on E-commerce Data. Key Components of the Analytical Plan are: Problem statement and objectives, Data Collection and Preparation, Data Analysis and Model Devel- opment, Analysis Outcomes and Takeaways",
+          "hours": 6
+        },
+        {
+          "title": "Data Preprocessing and Visualization",
+          "topics": "Data Preprocessing, Data Cleaning: Handling missing data, outliers. - Data Transformation Tech- niques: Feature Extraction and Selection (PCA), encoding. - Exploratory Data Analysis (EDA): Uni- variate, bivariate, multivariate analysis. Outliers: (Z-Score Method, Interquartile Range) Data Visualization: Overview of Data Visualization, Need of Data Visualization, Shapes of data, input for data visualization, Types of Data Visualization: Cognitive and perceptual, Practicing good ethics in Data Visualization, Principles of visual perception, Data Visualization Tool (Tableau, Power BI) Case study : 1. Case Study on Exploratory Data Analysis (EDA) and Visualizations 2. Create simple plot to visualize a distribution of variables using python",
+          "hours": 6
+        },
+        {
+          "title": "Automating AI Workflows with Pandas",
+          "topics": "ETL, ETL Challenges, ETL in Data Preprocessing for AutoML, AutoML: AutoML Workflow, AutoML Li- braries: Auto-sklearn, H2O.ai, and TPOT, Benefits and Limitations of AutoML, AutoML vs Traditional Machine Learning, Pandas for data preprocessing for AutoML, data normalization and standardiza- tion for AutoML, Open-source Tools and Environments: Python, R, Jupyter, Git, VS Code and its roles in data science. Introduction to Big Data: Characteristics, Architecture and Ecosystem, Tools and Technologies, Ap- plications and Challenges of Big Data in Data Science. AI-powered Data Cleaning: Using AI models to clean and structure raw data before analysis. Case study: A retail company wants to predict its future sales revenue based on various factors such as product pricing, marketing spends, seasonal trends, and customer demographics. The company aims to use regression and classification models to analyze historical sales data, identify trends, and make data-driven decisions to enhance profitability and optimize resource allocation. Justify how does the choice between regression and classification models affect sales predictions?",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-AID",
+      "title": "Probability & Statistics",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        59,
+        61
+      ],
+      "units": [
+        {
+          "title": "Introduction to Probability and Set Theory",
+          "topics": "Basics of set Theory: Introduction to sets and algebra of sets, Random Experiment, Sample Space, Events, Complementary Events, Union and Intersection of Two Events, Difference Events, Exhaustive Events, Mutually Exclusive Events, Equally Likely Events, Independent Events. Probability Theory: Mathematical & Statistical definition of Probability , Need of probability theory in Data science, Axiomatic definition of probability , Addition Theorem, Multiplication Theorem, The- orems of Probability , Conditional Probability , Inverse Probability , Joint Probability , Total Probability and Bayes Theorem. Case Study: Use of probability in real-life situations, like weather forecasting, sports betting, sales forecasting etc",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Statistics",
+          "topics": "Introduction to Statistics: Introduction, Origin and Development and scope of Statistics, Population and Sample, Sampling –Introduction, Types of Sampling, Purposive Sampling, Random Sampling, Simple Sampling, Stratified Sampling, Parameter and Statistic, Sampling Distribution Sampling With and Without Replacement, Population Parameters, Sample Statistics. Introduction, Arithmetic Mean, Simple and weighted mean for raw data, Discrete frequency distribu- tion, Continuous frequency distribution, Properties of A.M.,Merits & Demerits of A.M. Median, Mode for raw data, Merits and demerits of Median and Mode. Case Study : Create measures of central tendency for a real-life example dataset, such as the payroll dataset or titanic dataset. Case study of sampling for any real-world problem like exit poll statistics",
+          "hours": 9
+        },
+        {
+          "title": "Descriptive Statistics",
+          "topics": "Measures of Dispersion, Skewness and Kurtosis: Dispersion, Characteristics for an Ideal Measure of Dispersion, Measures of Dispersion, Range, Quartile Deviation, Mean Deviation, Standard Devia- tion and Root Mean Square Deviation, Coefficient of Dispersion, Coefficient of Variation, Skewness, Kurtosis. Correlation and Regression : Bivariate Distribution, Scatter diagrams, Correlation, Karl Pearson’s coefficient of correlation, Rank correlation, Regression, Regression Coefficients, Lines of Regression. Case study: Create measures of dispersion for a real-life example dataset like students dataset, iris detection etc.",
+          "hours": 9
+        },
+        {
+          "title": "Random Variables and Probability Distributions",
+          "topics": "Random Variables and Distribution Functions: Random Variable, Distribution Function, Properties of Distribution Function, Discrete Random Variable, Probability Mass Function, Discrete Distribution Function, Continuous Random Variable, Probability Density Function, moment generating function, median and quantiles, Markov inequality , Chebyshev’s inequality . Theoretical Discrete Distributions: Binomial and multinomial distributions, Bernoulli Distribution, Mean Deviation about Mean of Binomial Distribution, Mode of Binomial Distribution, Additive Prop- erty of Binomial Distribution, Characteristic Function of Binomial Distribution, Cumulants of Bino- mial Distribution, Poisson distribution, Uniform distribution, Exponential distribution, Gaussian dis- tribution, Log-normal distribution, Chi-square distribution. Case study : Use Binomial distribution for the problem of reducing errors by vendors who process credit-card applications for a large credit-card bank etc.",
+          "hours": 9
+        },
+        {
+          "title": "Inferential Statistics",
+          "topics": "Hypothesis and Testing of Hypothesis: Introduction, Statistical Hypothesis (Simple and-Composite), Test of a Statistical Hypothesis, Null Hypothesis, Alternative Hypothesis, Critical Region, Two Types of Errors, level of Significance, Power of the Test. Steps in Solving Testing of Hypothesis Problem, Optimum Tests Under Different Situations, Most Powerful Test (MP Test), Uniformly Most Powerful Test, Likelihood Ratio Test, Properties of Likeli- hood Ratio Test. Neyman-Pearson Fundamental Lemma, Test for the Mean of a Normal Population, Test for the Equality of Means of Two Normal Populations, Test for the Variance of a Normal Popula- tion, Test for Equality of Variances of two Normal Populations, Non-parametric Methods, Advantages and Disadvantages of Non-parametric Methods. Case study: Study hypothesis testing for any examples like to determine whether the female pro- portion of the adult population is high or any similar example",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-AID",
+      "title": "Database Management Laboratory",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        62,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-AID",
+      "title": "Data Science Laboratory",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        68,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "*Open Elective II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-AID",
+      "title": "Embedded Systems",
+      "semester": 4,
+      "type": "Multi Disciplinary Minor",
+      "credits": 2,
+      "pages": [
+        72,
+        74
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems",
+          "topics": "Introduction to embedded system,application domain,Desirable Features and General Characteris- tics of Embedded Systems,Example of a Simple Embedded System,Figures of Merit for an Embedded System,Classification of MCUs: 4/8/16/32 Bits,History of Embedded Systems, classification of em- bedded system ,Current Trends,example of embedded system:-Mobile Phone,Automotive Electron- ics,Radio Frequency Identification (RFID),Robotics Case Study: Smart Traffic Light Control System Using Embedded Systems",
+          "hours": 6
+        },
+        {
+          "title": "Microcontrollers in Embedded System",
+          "topics": "History of Microcontrollers, Introduction to Arduino, Components of Arduino, History of Arduino, Installing Software, Structure of Programming, Overview of Variables, Infinite Loops, Compiling, Linking and Debugging. Raspberry Pi, About the Board, Linux on Raspberry Pi, Raspberry Pi Interfaces, Programming Rasp- berry Pi with Python. Controlling LED with Raspberry Pi, Interfacing an LED and Switch with Raspberry Pi, Interfacing a Light Sensor (LDR) with Raspberry Pi. Case Study : Home Automation System Using Arduino",
+          "hours": 6
+        },
+        {
+          "title": "Sensors , ADCs and Actuators",
+          "topics": "Basics of Sensors and Actuators, Active vs. passive sensors, Analog vs. digital sensors, Types of Sen- sors :Temperature Sensors,Light Sensors,Photojunction Devices,Proximity/Range Sensors,Humidity Sensors,pressure sensor,ultrasonic sensor,gas sensors,Analog to Digital Converters. Digital to Analog Converters,Types of Actuators ,Displays-LEDs, Liquid Crystal Displays (LCDs) ,seven segment display , stepper motor, Relay . Case study: Smart laboratory Monitoring System",
+          "hours": 6
+        },
+        {
+          "title": "ARM Processor",
+          "topics": "Introduction, RISC design philosophy , ARM design philosophy , Embedded system hardware – AMBA bus protocol, ARM bus technology , Memory , Peripherals, Embedded system software – Initialization (BOOT)code, Operating System, Applications. ARM Processor Fundamentals, ARM core dataflow model, registers, current program status regis- ter,Pipeline, Exceptions, Interrupts and Vector Table, Core extensions. Case study : Smart Agriculture Monitoring System",
+          "hours": 6
+        },
+        {
+          "title": "Real time operating systems",
+          "topics": "Introduction,Real-time Tasks,Real-time Systems,Real-time Operating Systems, types of real time tasks,Real- time Scheduling Algorithms,Rate Monotonic Algorithm,The Earliest Deadline First Algorithm Task synchronisation, Device Drivers Case study: Installation of Real Time Operating System",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSE-281-AID",
+      "title": "Object Oriented Programming",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement",
+      "credits": 2,
+      "pages": [
+        75,
+        79
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-AID",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        80,
+        82
+      ],
+      "units": [
+        {
+          "title": "& II (07 Hours & 08 Hours)",
+          "topics": "Case Study:",
+          "hours": null
+        },
+        {
+          "title": "& IV (07 Hours & 08 Hours)",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "EEM-283-AID",
+      "title": "Technology Commercialization & Startup Development",
+      "semester": 4,
+      "type": "Entrepreneurship /Economics",
+      "credits": 2,
+      "pages": [
+        83,
+        86
+      ],
+      "units": [
+        {
+          "title": "Introduction to Technology commercialization & Startup ecosystem",
+          "topics": "Introduction, Need and importance of commercialization, role of startup in technology and commer- cialization, challenges in technology commercialization, support systems for startups, future trends in technology . Case Studies : Electric car, Pharma company , Joint venture, Agriculture",
+          "hours": 3
+        },
+        {
+          "title": "IPR & Legal compliance",
+          "topics": "Invention and innovation: need, benefits, intellectual property rights protection, patent drafting, procedure of IPR filing, legal policies, IT act, GST and income tax , companies act, labor law, envi- ronmental protection act. Case Study : Google search algorithm, Pepsi ingredient",
+          "hours": 3
+        },
+        {
+          "title": "Registration process & Market research",
+          "topics": "Registration process: Steps to register startup with startup India, benefits of startup registration, requisites documents & information, startup eligibility criteria. Market research: Development of marketing plan, pricing concepts and pricing strategy , consumer behavior, market intelligence, mar- keting communication and promotional strategies. Case study: Proprietary firm- Patnajali Ayurveda, Private Limited Company-TCS, Partnership- Khai- tan & Co.",
+          "hours": 3
+        },
+        {
+          "title": "Costing & Funding strategy",
+          "topics": "One time cost: Need, financial components, business formation and registration, professional ser- vices , advertising, infrastructure, technology , recurring cost: rent, salaries, insurance, tax, loan, maintenance, travel and training, types of startup funding, stages of startups and source of funding, steps to startup fund raising, types of investors, investors look for in startups , investors mindset to invest in startups , startup India funding support, startup India investor connect, credit guarantee scheme for startups Case study : Rapido, Blinkit, OYO, Unacademy",
+          "hours": 3
+        },
+        {
+          "title": "Growth and scaling -Go to market strategy",
+          "topics": "Growth and scaling: significance, difference, scaling key metrics, identifying target segments and personas, analyzing customer needs and competitive landscape, value propositions, unique selling points (USPs), choosing distribution channels, pricing strategies, marketing, positioning plans, ansoff matrix, scaling frameworks, organic vs. inorganic growth strategies, leveraging technology , partner- ships for scalability , key Performance indicators for GTM, Feedback loops and agile adaptation. Case study: Zomato’s Expansion Strategy in Tier 2 and 3 Cities , Analyze how Zomato tailored its GTM strategy to penetrate smaller markets, adjusted pricing, and adapted to local preferences. Practical Assignments 1. Choose the topic for technology commercialization for the prospect of startup. 2. Design a market research plan for identified area. 3. Create a funding proposal based on overall costing of startup 4. Creation of patent draft copy on invention. 5. Design a Go-to-Market strategy for a startup launching.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-AID",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        87,
+        89
+      ],
+      "units": [
+        {
+          "title": "Environment and its issues",
+          "topics": "a) Environment Meaning of Environment, Types of Environment, Components of Environment, b) Man- Environment relationship, importance of environment, c) Need for Public Awareness d) Ecosystem-Meaning, Major Components of Ecosystem e) Case studies of Forest Ecosystem, Grassland Ecosystem, Desert Ecosystem, Aquatic Ecosystem f) Stability of Ecosystem in Sustainable Environment",
+          "hours": 7
+        },
+        {
+          "title": "Environment Pollution",
+          "topics": "a) Definition of Pollution, Types of Pollution b) Air Pollution-Meaning, Sources, effects of air pollution, Air Pollution Act c) Water Pollution Meaning, Sources, Effects of Water pollution, Water Pollution Act d) Noise Pollution Meaning, Sources, Effect of Noise Pollution e) Solid Waste Pollution Meaning, sources, Effect of Waste Pollution",
+          "hours": 7
+        },
+        {
+          "title": "E-Waste Managements and Acts",
+          "topics": "E- waste; composition and generation. Global context in e- waste; E-waste pollutants, E waste haz- ardous properties, Effects of pollutant (E- waste) on human health and surrounding environment, domestic e-waste disposal, Basic principles of E waste management, Technologies for recovery of resources from electronic waste, resource recovery potential of e-waste, steps in recycling and re- covery of materials-mechanical processing, technologies for recovery of materials, occupational and environmental health perspectives of recycling e-waste in India.",
+          "hours": 8
+        },
+        {
+          "title": "E-waste Control and measures",
+          "topics": "Need for stringent health safeguards and environmental protection laws in India, Extended Produc- ers Responsibility (EPR), Import of e-waste permissions, Producer-Public-Government cooperation, Administrative Controls & Engineering controls, monitoring of compliance of Rules, Effective regula- tory mechanism strengthened by manpower and technical expertise, Reduction of waste at source Practical Assignments Week Topic to be covered 1 Introduction : Group discussion and poster making on \"Why Environmental Studies Matter for Technologists\" 2 Eco Mapping: Identify and document elements of an ecosystem within the college campus 3 Model the Food Web: Create food chains and food webs using flowcharts (digital tools like Canva / Lucid chart) 4 Case Study Review: Present real-world examples of forest, grassland, and aquatic ecosystems 5 Soil and Water Testing Activity: Test soil pH, water quality (use school-level kits), and interpret results 6 Field Visit / Virtual Tour: Document deforestation or mining impact in a chosen region; students prepare a comparative report 7 Water Audit Exercise: Estimate water usage at home/hostel and identify areas of overuse; propose conservation measure...",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

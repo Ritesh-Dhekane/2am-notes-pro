@@ -1,0 +1,123 @@
+{
+  "id": "sybba-ca-semester-iv-syllabus-17-12-2025-23122025",
+  "kind": "programme",
+  "programme": "Bachelor of Business Administration – Computer Application (BBA-CA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "MJ-251-OOPC",
+      "title": "Object Oriented Programming using C++",
+      "semester": 4,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to C++",
+          "topics": "1.1 Basic concepts, features, advantages and applications of OOP 1.2 Introduction, applications and features of C++ 1.3 Input and Output operator in C++ 1.4 Simple C++ program 1.5 Data type and Keywords 1.6 Declaration of variables, dynamic initialization of variables, reference variable 1.7 Operators: 1.7.1 Scope resolution operator 1.7.2 Memory management operators 1.8 Manipulators 1.9 Functions: 1.9.1 Function prototyping, call by reference and return by reference 1.9.2 Inline functions 1.10 Default arguments",
+          "hours": null
+        },
+        {
+          "title": "Classes and Objects",
+          "topics": "2.1 Structure and class, Class, Object 2.2 Access specifiers, defining data member 2.3 Defining member functions inside and outside class definition. 2.4 Simple C++ program using class 2.5 Memory allocation for objects 2.6 Static data members and static member functions 2.7 Array of objects, objects as a function argument 2.8 Friend function and Friend class 2.9 Constructors and Destructors 2.9.1 Constructors 2.9.2 Types of constructor: Default, Parameterized, Copy 2.9.3 Multiple constructors in a class 2.9.4 Constructors with default argument 2.9.5 Dynamic initialization of constructor 2.9.6 Destructor",
+          "hours": null
+        },
+        {
+          "title": "Inheritance, Polymorphism & Console Input-Output Handling in C++",
+          "topics": "3.1 Introduction to inheritance 3.1.1 Defining Base class and Derived class 3.1.2 Types of Inheritance 3.1.3 Virtual Base Class 3.1.4 Abstract class 3.1.5 Constructors in derived class 3.2 Polymorphism 3.2.1 Compile Time Polymorphism 3.2.2 Introduction, rules for overloading operators 3.2.3 Function overloading 3.2.4 Operator Overloading unary and binary 3.2.5 Operator Overloading using friend function 3.2.6 Overloading insertion and extraction operators 3.2.7 String manipulation using operator overloading 3.2.8 Runtime Polymorphism 3.2.9 this Pointer, pointers to objects, pointer to derived classes 3.2.10 Virtual functions and pure virtual functions",
+          "hours": null
+        },
+        {
+          "title": "Working with Files & Templates",
+          "topics": "4.1 Stream Classes for File operations 4.2 File operations - Opening, Closing and updating 4.3 File updating with random access. 4.4 Error handling during File operations 4.5 Introduction to Template 4.6 Class Template and class template with multiple parameters 4.7 Function Template and function template with multiple parameter 4.8 Exception Handling Introduction",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MJ-252-PHP",
+      "title": "Advance PHP",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 4,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Introduction to Object Oriented Programming in PHP",
+          "topics": "1.1 Classes 1.2 Objects 1.3 Introspection 1.4 Serialization 1.5 Inheritance 1.6 Interfaces 1.7 Encapsulation 1.8 Web Techniques 1.8.1 Server information 1.8.2 Processing forms 1.8.3 Sticky forms",
+          "hours": null
+        },
+        {
+          "title": "XML & Ajax with PHP",
+          "topics": "2.1 Introduction XML 2.2 XML document Structure 2.3 PHP and XML 2.4 XML parser 2.5 The document object model 2.6 The simple XML extension 2.7 Changing a value with simple XML 2.8 Ajax with PHP 2.8.1 Understanding java scripts for AJAX 2.8.2 AJAX web application model 2.8.3 AJAX –PHP framework 2.8.4 Performing AJAX validation 2.8.5 Handling XML data using php and AJAX",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Web Services",
+          "topics": "3.1 Definition of web services 3.2 Basic operational model of web services, tools and technologies enabling web services 3.3 Benefits and challenges of using web services. 3.4 Web services Architecture and its characteristics 3.5 Core building blocks of web services",
+          "hours": null
+        },
+        {
+          "title": "PHP Framework",
+          "topics": "4.1 Introduction to Laravel ? 4.2 Advantages of Laravel 4.3 features of Laravel 4.3 Introduction of MVC Pattern 4.4 Installation of Laravel 4.5 Laravel PHP Framework Sample program",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "MNP-251-LAB",
+      "title": "Computer Laboratory based on CPP, Adv. PHP",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 4,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-251-CN",
+      "title": "Computer Network",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        8,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computer Network",
+          "topics": "1.1 Basics of Computer Network 1.1.1 Definition 1.1.2 Goals 1.1.3 Applications 1.1.4 Network Hardware –Broadcast, Point to Point 1.1.5 Components of Data Communication 1.2 Network Topologies 1.2.1Mesh 1.2.2 Star 1.2.3 Bus 1.2.4 Ring 1.3 Types of Networks 1.3.1 LAN,MAN,WAN 1.3.2 Internetwork 1.3.3 Wireless Network 1.4 Modes of Communication 1.4.1 Simplex 1.4.2 Half Duplex 1.4.3 Full Duplex 1.5 Server Based LANs & Peer-to-Peer LANs 1.6 Protocols and Standards 1.7 Network Software 1.7.1 Protocol Hierarchies, Layers, Peers, Interfaces 1.7.2 Design Issues of the Layers 1.7.3 Connection Oriented and Connectionless Service 1.8 Network Connectivity Devices 1.8.1 Active and Passive Hubs 1.8.2 Repeaters 1.8.3 Bridges- Types of Bridges 1.8.4 Switches 1.8.5 Router 1.8.6 Gateways",
+          "hours": null
+        },
+        {
+          "title": "Network Models",
+          "topics": "2.1 OSI Reference Model : Functions of each Layer 2.2 TCP/IP Reference Model, Comparison of OSI and TCP/IP 2.3 TCP/IP Protocol Suite 2.4 Addressing 2.4.1 Physical Addresses 2.4.2 Logical Addresses 2.4.3 Port Addresses 2.4.4 Specific Addresses 2.5 IP Addressing 2.5.1 Classfull Addressing 2.5.2 Classless Addressing 2.6 Introduction to Network 2.6.1 Security Need for Security 2.6.2 Security Services Message- -Confidentiality, Integrity, Authentication, Non repudiation 2.6.3 Types of Attack 2.6.4 Cryptography, Plain Text, Cipher Text, Encryption, Decryption 2.6.5 Symmetric Key and Asymmetric Key Cryptography",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CEP-251-CA",
+      "title": "Community Engagement Program through Social Awareness",
+      "semester": 4,
+      "type": "Community Engagement Program",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

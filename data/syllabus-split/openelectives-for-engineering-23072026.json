@@ -1,0 +1,571 @@
+{
+  "id": "openelectives-for-engineering-23072026",
+  "kind": "programme",
+  "programme": "Generic / Open Elective Courses for Faculty of Science and Technology (Engineering)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "OE321COMT",
+      "title": "Introduction to Goods and Services Tax",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        5,
+        7
+      ],
+      "units": [
+        {
+          "title": "Preliminary of GST",
+          "topics": "Preliminary of GST: Money Bill and Finance Bill: Meaning and its Constitutional Provisions Taxation Structure in India and Difference between Direct Tax and Indirect Tax, and Pre-GST Indirect Tax Structure in India Evolution of GST in India, Objectives and Features of GST,",
+          "hours": 7
+        },
+        {
+          "title": "Unit II",
+          "topics": "GST Council: Composition and its Functions, Authorities / Officers under GST Definitions: Aggregate Turnover, Assessment, Business, Capital Goods, Casual Taxable Person, e- Commerce, e-Commerce Operatory , Export of Goods, Export of Services, Goods, Import of Goods, Import of Services, India, Input, Input Service, Input Tax, Input Tax Credit, Location of the Recipient of Services, Location of the Supplier of Services, Manufacturer, Output Tax, Person, Place of Business, Place of Supply , Recipient, Services, Supplier, Taxable Person, Taxable Territory etc.",
+          "hours": 7
+        },
+        {
+          "title": "Law Regulating GST",
+          "topics": "Law Regulating GST: GST on Supply , Dual GST, Intra-State Supply , Inter-State Supply , GST Rates for Supply of Goods, GST Rates for Supply of Services, Compensation Cess, Administration Control, GST not applicable presently on Petroleum Products, Alcoholic Liquor, Tobacco Products, State GST Acts, Union Territory GST Act, Registration, Inter-State Stock Transfer, Distinction between Goods and Services, Consideration, Gift, Small Taxable Persons, Reverse Charge, Time of Payment of GST, Composition Scheme, Tax Invoice, GST is destination based Tax, etc.",
+          "hours": 7
+        },
+        {
+          "title": "Registration under GST",
+          "topics": "Significance of Registration, Compulsory Registration , Persons not liable for Registration , Compul- sory Registration in few Cases , Procedure for Registration Deemed Registration, Amendment of Registration, Cancellation or Suspension of Registration, Revo- cation of Cancellation of Registration, Procedure for Change of Email and Mobile Number of Autho- rized Signatory by Taxpayers Verification of Registration of Application, Special provisions relating to Casual Taxable Person and Non-Resident Taxable Person Learning Resources \u0005Text Books: 1. Students’ Guide to Income Tax including GST by Dr. Vinod K. Singhania and Dr. Monica Singhania, Taxmann Publication (P) Ltd., New Delhi 2. GST Acts with Rules/Forms and Notifications, Taxmann Publication (P) Ltd., New Delhi 3. Indirect Tax (GST) by Dr. V. S. Datey , Taxmann Publication (P) Ltd., New Delhi 4. Taxmann’s Direct Taxes Law and Practice (Professional Edition) by Dr. Vinod K. Singhania and Kapil Singhania 5. Constitution of India 6. Study Materials of ICAI, ICSI, ICMA 7. Journal of Chartered Accountants, Journal of Cost and Management Accountants and Journal of Company Secretary \u0005Teaching Methodology The Teacher can use the fol...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE322COMT",
+      "title": "Introduction to Income Tax Act",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Preliminary of Income Tax Act",
+          "topics": "Short title, extent and commencement, Definitions: Agricultural Income, Assessee, Assessment, In- come, India, Permanent Account Number (PAN), Person, Public Servant, Tax, Total Income, Tax Year etc.",
+          "hours": 7
+        },
+        {
+          "title": "Basis of Charge",
+          "topics": "Charge of Income Tax, Scope of Total Income, Residence in India, Income deemed to be received and dividend deemed to be income in tax year, Income deemed to accrue or arise in India, Income on receipt of capital asset or stock-in-trade by specified person from specified entity",
+          "hours": 7
+        },
+        {
+          "title": "Tax Regime and Heads of Income",
+          "topics": "Incomes not included in total income Incomes not included in total income of political parties and electoral trusts Old and New Tax Regime to all assesses Heads of Income",
+          "hours": 7
+        },
+        {
+          "title": "Income from Salary",
+          "topics": "Provisions relating to Income from Salary Basic numerical problems on the head Income from Salary or/and Computation of Income under the head Income from Salary Learning Resources \u0005Text Books: 1. Taxmann’s Income Tax Act 2025 2. Students’ Guide to Income Tax by Dr. Vinod K. Singhania and Dr. Monica Singhania, Taxmann Publication (P) Ltd., New Delhi 3. Direct Taxes Law and Practice (Professional Edition) by Dr. Vinod K. Singhania and Dr. Kapil Singhania, Taxmann Publication (P) Ltd., New Delhi 4. Constitution of India 5. Bare Act: Income Tax Act 1961 6. Direct Taxes Ready Reckoner by Dr. Vinod K. Singhania, Taxmann Publication (P) Ltd., New Delhi 7. Income Tax Ready Reckoner by CA N. V. Mehta, Shri Kuber Publishing House 8. Study Materials of ICAI, ICSI, ICMA 9. Journal of Chartered Accountants, Journal of Cost and Management Accountants and Journal of Company Secretary \u0005Teaching Methodology The Teacher can use the following Methods as Teaching Methodology: 1. Class Room Lectures 2. Guest Lectures of Professionals, Industry Experts etc. 3. Teaching with the help of ICT tools 4. Visits to various Professionals Units, Companies and Business / Industry Units 5. Group Discussion / De...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE323COMT",
+      "title": "Product Costing for Mechanical Engineering",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Product Costing & Engineering Interpretation",
+          "topics": "Introduction to Product Costing, Importance and role in manufacturing industry , Costing vs Pricing Vs Estimation, Objectives of Product Costing, Product Life Cycle and cost impact, Introduction to Cost Engineering, Types of manufacturing industries, Elements of Cost (Material, Labour, Overhead), Direct vs Indirect Cost, Fixed, Variable, Semi-variable Cost, Recurring vs Non-recurring Cost, Capital vs Operating Cost, Conversion Cost, Cost Sheet basics, BOM Material specification and Tolerance impact on cost CCE Activities: Prepare a basic cost sheet from a given simple component drawing",
+          "hours": 6
+        },
+        {
+          "title": "Material & Manufacturing Process Costing",
+          "topics": "Material Costing Engineering materials overview, Raw material forms, Density & weight calculations, Material utiliza- tion & scrap, Buy-to-Fly ratio, Material yield, Standard sizes, Vendor rate understanding Manufacturing Costing Machining: Turning, milling, drilling, grinding costing, CNC machining costing, Machine hour rate basics, Cycle time estimation, Tool change & tool cost Sheet Metal: Laser cutting, punching, bending, Deep drawing, Nesting efficiency Casting: Sand casting, die casting, Pattern & core cost, Yield calculation Welding & Fabrication: Welding cost, Gas/electrode consumption, Fabrication time, Fixture costing Plastic Parts: Injection moulding cost, Mould cost, Cycle time, Shrinkage & mould life CCE Activities: Cost estimation of shaft / sheet metal bracket. , Material selection and process costing logic",
+          "hours": 6
+        },
+        {
+          "title": "Process Planning, Labour & Overhead Costing",
+          "topics": "Process Planning: Process flow development, Routing sheet, Operation sequencing, Setup & standard time, Batch production costing, Volume effect on cost, Capacity utilization Labour Costing: Direct & indirect labour, Skilled vs unskilled, Labour rate calculation, Efficiency , Shift & overtime costing Overhead Costing: Factory & administrative overhead, Utility cost allocation, Depreciation, Mainte- nance, Electricity & facility cost Machine Hour Rate: Machine cost components, Depreciation calculation, Power consumption, Main- tenance allocation, Operator & tooling cost, Idle time, Final MHR formula. CCE Activities: Case Study on Effect of production volume on cost., Numerical Assignment on Ma- chine Hour Rate calculation",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Costing, Optimization & Industrial Applications",
+          "topics": "Tooling & Fixture Costing: Jigs & fixtures costing, Tool life & tool cost allocation, Die & mold costing, ROI of fixtures Design to Cost (DTC): Cost drivers, Material & thickness optimization, Part reduction, Tolerance optimization, DFMA principles, Value engineering basics Cost Estimation Techniques: Analogous, parametric, bottom-up, Feature-based costing, Activity- based costing, Target & should costing, Cost benchmarking Software & Commercial Aspects: Excel costing (formulas, pivot, BOM roll-up), ERP & SAP basics, RFQ & quotation, Profit margin, mark up vs margin, Taxes, freight, packaging, Break-even analysis Emerging Trends: AI in costing, Additive manufacturing costing, Sustainability & carbon costing CCE Activities: Mini Project: Complete product costing + cost reduction study , Case study on Ma- chined part costing, Sheet metal / welded assembly , Plastic / casting components, Make vs Buy analysis Learning Resources \u0005Text Books: 1. Chitale, A.K. and Gupta, R.C., Product Design and Manufacturing, Prentice Hall of India. 2. Ostwald, Phillip F. and McLaren, Timothy S., Cost Analysis and Estimating for Engineering and Management, Pearson. 3. Kalpakjian, Serope and Schmid, St...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE324COMT",
+      "title": "Material and Logistics",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        15
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Materials Management",
+          "topics": "Introduction to materials management, Need, objectives and scope in manufacturing industries, Role of materials in production system, Materials planning and materials budgeting, Classification of en- gineering materials, Functions of material manager, Material Requirement Planning (MRP), Man- ufacturing Resource Planning (MRP – II), Bill of Materials (BOM), E-BOM, Make or Buy decision, Vendor selection fundamentals, Standardization, simplification and codification, Evolution of logis- tics towards supply chain management, Logistics costs and informational requirements, Purchasing and Negotiations. Concepts of purchasing vs procurement and cost aspects in materials management. CCE Activities: • Preparation of BOM and MRP sheet • Assignment on make-or-buy decision",
+          "hours": 6
+        },
+        {
+          "title": "Purchasing, Stores and Digital Materials Management",
+          "topics": "Purchasing Management: Objectives and procedure, Purchase requisition and purchase order, Ten- dering and comparative statement, Vendor rating and supplier evaluation, Incoming material inspec- tion and quality checking, stores organization and layout, Preservation and handling of materials, Bin card and stores ledger, Issue and receipt procedures. Digital Materials Management & ERP: Introduction to ERP in materials management, Material master data. BOM and routing in ERP, Procurement cycle in ERP systems, Integration of stores, pur- chase, and production, Barcode and RFID in inventory tracking, Digital documentation and traceabil- ity , Role of SAP in materials and logistics management. E-procurement systems and digital supplier integration. CCE Activities: • Preparation of purchase order and vendor comparison sheet • Case study on ERP-based materials management system. • Prepare a ERP flow diagram (procurement cycle)",
+          "hours": 6
+        },
+        {
+          "title": "Logistics, Warehousing and Transportation Management",
+          "topics": "Logistics and Warehousing: Introduction to logistics and supply chain, Inbound and outbound logistics, Physical distribution management, Warehousing objectives and functions, Types of ware- houses, Warehouse location and layout design. Logistics performance measures (lead time, fill rate, service level, transportation cost) Transportation Management :Material handling systems: conveyors, cranes, forklifts, AGVs, Pack- aging and dispatch planning, Transportation modes: road, rail, air, sea, Route planning and shipment scheduling, Reverse logistics and returnable materials. Industry 4.0 in Logistics, RFID systems, Bar- code systems, GPS tracking, Automated warehouse systems, Smart logistics concepts CCE Activities: • Case study on warehouse layout and logistics system. • Transportation route planning exercise using open source software.",
+          "hours": 6
+        },
+        {
+          "title": "Integrated Supply Chain and Cost Optimization",
+          "topics": "Supply Chain Management : Introduction to supply chain management, Supply chain stages and integration, Supplier–manufacturer–distributor–customer linkage, Lean material flow concept, Just- In-Time (JIT) system, Kanban concept, Logistics cost components, Material flow analysis, Lead time reduction, Waste minimization in logistics, Value analysis and value engineering, Sustainable and green logistics practices, Supply chain uncertainty and bullwhip effect, Forecasting in supply chain, Industrial case studies on supply chain management. CCE Activities: • Mini project on supply chain optimization • Case study on logistics cost reduction Learning Resources \u0005Text Books: 1. Gopalakrishnan, P. and Sundaresan, M., Materials Management: An Integrated Approach. 2. Gopalakrishnan, P., Purchasing and Materials Management. 3. Martin Christopher, Logistics and Supply Chain Management. \u0005Reference Books 1. Donald J. Bowersox and David J. Closs, Logistical Management. 2. John J. Coyle et al., A Logistics Approach to Supply Chain Management. 3. Sunil Chopra, Supply Chain Management. 4. Kanishka Bedi, Production and Operations Management. \u0005Web References 1. https://www.youtube.com/watch?v=Z1zi7fML...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE325COMT",
+      "title": "Business Marketing",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction Business Marketing",
+          "topics": "Basic Concepts of Product; Product levels; Elements of Product Mix; Business to Business Markets and Marketing, Buyer Behavior, Inter-firm Relationships and Network, Supply Chain Concept; Com- petitive Advantages and SC Strategies; SC Drivers and Metrics",
+          "hours": 7
+        },
+        {
+          "title": "Business to Business Marketing",
+          "topics": "Behaviour and principles in B to B marketing, Responsible Business to Business StrategyResearching Business to Business Markets, Business Market Segmentation.",
+          "hours": 7
+        },
+        {
+          "title": "Effective Customer Interactions",
+          "topics": "Communicating and Interacting with Customers, Market Communication, Relationship Communica- tion, Relationship Portfolios and Key Account Management.",
+          "hours": 8
+        },
+        {
+          "title": "Managing the Marketing",
+          "topics": "Basics of marketing Management, Management Product Offerings, Various Routes Identification and Development, Routes to Market, Price Setting in Business to Business Markets Learning Resources \u0005Text Books: 1. Jason McDonald, “The Marketing Book”, Marketing (2026- Social Marketing Management By Kotler and Keller (Prentice Hall) 2. Louise Canning , Raymond McDowell, “Business-to-Business Marketing”, Sage Publications (2011) 3. Mahesh M. Bhanushali, Sreenivas Thandava, Komal Saxena, Vemulapalli Sailaja, “Business To Business B2B Marketing”, (2024) 4. V. S. Ramaswamy and S. Namakumari, “Marketing Management”, McMillant Book Co. (2022) \u0005",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE326COMT",
+      "title": "Sustainable Development",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Foundations of Sustainable Development and Green Computing",
+          "topics": "Sustainable development concepts, SDGs, Role of digital technologies (AI, IoT, Cloud, Data Analyt- ics), Green IT concepts and evolution, Environmental impact of computing systems, Digital carbon footprint, AI/ML energy consumption & Sustainable AI principles, Stakeholders: government, indus- try , academia Case Study: AI Model Carbon Footprint Analysis",
+          "hours": 6
+        },
+        {
+          "title": "Lifecycle Sustainability of Computing Systems and Circular Economy",
+          "topics": "Lifecycle of computing systems (manufacturing \u0019 usage \u0019 disposal), Energy consumption (CPU, GPU, IoT, edge devices), Embodied energy in hardware, E-waste management, Circular economy (Reduce, Reuse, Recycle), Sustainable supply chains, Life Cycle Assessment (LCA) methodology , ISO 14040 & ISO 14044 Case Study: Circular Economy and Lifecycle Analysis of a Computing Device.",
+          "hours": 6
+        },
+        {
+          "title": "Green Software Engineering and Sustainable Artificial Intelligence",
+          "topics": "Energy consumption of software systems, Green software principles (efficient algorithms, optimized coding),Sustainable architectures, Green AI (model compression, pruning, efficient training), Carbon- aware computing & scheduling, Energy-aware data science workflows, Generative AI environmental impact , AI for sustainability (analytics, decision support tools) Case Study: Energy-Efficient Machine Learning Algorithms and Sustainable AI Model Design.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Data Centers, Cloud Infrastructure and Carbon Management",
+          "topics": "Sustainable Infrastructure: Green data center design, Cooling technologies & power management, Renewable energy integration, Sustainable cloud computing (virtualization, workload optimization), AI infrastructure optimization (GPU clusters, training pipelines) Sustainability Metrics & Carbon Accounting: Carbon footprint, CO2e , GHG- Scope 1, Scope 2, Scope 3 emissions, PUE, CUE, WUE, Energy intensity . Governance & Reporting: ESG frameworks, BRSR reporting, Carbon credits & carbon markets, MRV (Measurement, Reporting, Verification) Future Trends: Carbon-neutral data centers , Climate-aware computing, AI-enabled sustainability monitoring Case Study: Green Cloud Data Center Architecture and Carbon Accounting Practices. Learning Resources \u0005Text Books: 1. S. Murugesan and G. R. Gangadharan, Harnessing Green IT: Principles and Practices. Hoboken, NJ, USA: Wiley , 2012. 2. L. M. Hilty and B. Aebischer, ICT Innovations for Sustainability . Cham, Switzerland: Springer, \u0005",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE327COMT",
+      "title": "Entrepreneurship Development",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        21,
+        24
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "Entrepreneurship: Definition and evolution, Role of entrepreneurship in economic development , Role in job creation, GDP, and innovation. Characteristics of an Entrepreneur: Key traits: Risk-taking, innovation, pro-activeness, Leadership, perseverance, and resilience Types of Entrepreneurships: Startup entrepreneurship, Social entrepreneurship, Intrapreneurship (corporate entrepreneurship), Lifestyle and small business entrepreneurship, Forms of Business Or- ganization – Sole proprietorship, partnership, private limited, public limited. Entrepreneurial Mindset: Growth mindset and adaptability , Creativity and problem-solving, Op- portunity recognition and initiative-taking Overview of the Startup Ecosystem: Key stakeholders: Incubators, accelerators, angel investors, VCs, Government support schemes (Startup India, Atal Innovation Mission, etc.), Global vs. Indian startup ecosystems Case Study: 1. Ritesh Agarwal – Founder of OYO Rooms (India) 2. Falguni Nayar – Founder of Nykaa (India) 3. Nandan Nilekani – Co-founder of Infosys & Architect of Aadhaar (India) etc.",
+          "hours": 7
+        },
+        {
+          "title": "Idea Generation & Opportunity Recognition",
+          "topics": "Creativity Techniques for Idea Generation:Definition and importance of creativity in entrepreneur- ship. Brainstorming: Rules of effective brainstorming. Individual vs. group brainstorming. Mind Mapping: Visual idea structuring using central themes and branches. Tools (manual and digital) for mind mapping. Understanding Customer Needs and Pain Points: Customer pain points and their identification, Problem-solution fit: Linking pain points to possible solutions. Observational techniques, user inter- views, and empathy mapping. Evaluating Opportunities: Difference between an “idea” and an “opportunity .” Basic filters: Desir- ability , feasibility , and viability . Tools: SWOT Analysis, Opportunity Matrix, Industry trends, market gaps. Case Study : Analyzing how “Dunzo” or “BigBasket” identified urban pain points and How “Zerodha” scaled in India with a digital-first approach",
+          "hours": 7
+        },
+        {
+          "title": "Business Model Development",
+          "topics": "Introduction to Business Model Canvas: Definition and purpose of a business model, Overview of the Business Model Canvas by Osterwalder, Benefits of using BMC for startups. Key Components of BMC: Value Proposition: Defining what unique value the product/service of- fers. Addressing customer pain points. Customer Segments: Identifying target customers. Creating customer personas Revenue Models: Direct sales, subscriptions, freemium, licensing, etc. Basic Market Research for Validation: Importance of market research in early-stage business de- velopment. Designing effective surveys and customer feedback forms. Conducting basic interviews and analyzing responses. Introduction to MVP (Minimum Viable Product) and feedback loops. Case study: Map the BMC for a well-known startup (e.g., Uber or Zomato).",
+          "hours": 8
+        },
+        {
+          "title": "Marketing Strategies & Customer Acquisition",
+          "topics": "Basics of Branding and Positioning: Introduction to Brand – Elements of brand identity: name, logo, voice, tone, and values. Positioning – How to create a unique space in the customer’s mind. Positioning maps, Value-based positioning vs. competitor-based positioning Startup Branding Chal- lenges – Limited budget, building trust, clarity in messaging. Costing & Pricing Strategies – Fixed vs. variable costs, break-even analysis. Introduction to Digital Marketing: Distribution Channels: Traditional vs. digital distribution. So- cial Media Marketing: Platforms overview (Instagram, LinkedIn, Facebook, X/Twitter) Creating a content strategy and calendar Organic vs. paid reach Search Engine Optimization (SEO): Basics of how search engines work, Keyword research and content optimization, On-page vs. off-page SEO Importance of Digital Presence – Website essentials, blogs, and analytics tools. Customer Acquisition Strategies: Understanding the Customer Journey – Awareness, interest, de- cision, action. Early-Stage Customer Acquisition Tactics: Word-of-mouth & referrals, Influencer mar- keting (micro-influencers), Email marketing basics, building a landing page and collecting leads Case St...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE328COMT",
+      "title": "Mercantile Laws",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Indian Regulatory Framework",
+          "topics": "Major Regulatory Bodies such as: • Ministry of Finance • Ministry of Corporate Affairs • Securities and Exchange Board of India (SEBI) • Reserve Bank of India (RBI) • Insolvency and Bankruptcy Board of India (IBBI) • Ministry of Law and Justice",
+          "hours": 7
+        },
+        {
+          "title": "The Indian Contract Act, 1872",
+          "topics": "• General Nature of Contract • Consideration • Other Essential Elements of a Valid Contract • Performance of Contract • Breach of Contract • Contingent and Quasi Contract",
+          "hours": 7
+        },
+        {
+          "title": "Other Contracts - The Indian Contract Act, 1872",
+          "topics": "• Contract of Indemnity and Guarantee • Contract of Bailment and Pledge • Contract of Agency",
+          "hours": 8
+        },
+        {
+          "title": "The Sale of Goods Act, 1930",
+          "topics": "• Formation of the Contract of Sale • Conditions and Warranties • Transfer of Ownership and Delivery of Goods • Unpaid Seller and his Rights Learning Resources \u0005Text Books: 1. Business Laws Study Material for CA Foundation Course of ICAI 2. Taxmann’s Business Laws by Sushma Arora 3. Avtar Singh’s Business Law by Varun Malik 4. Fundamentals of Business Law and Business Communication by Y V Shruthi, Commercial Law Publishers 5. Taxmann’s Mercantile & Commercial Laws by Rohini Aggarawal 6. Elements of Mercantile Law by N.D. Kapoor, Sultan Chand & Sons 7. Mercantile Law by M.C. Kuchhal and Vivek Kuchhal, Vikas Publication 8. A Textbook of Mercantile Law by P. P. S. Gogna, S Chand & Co Ltd \u0005Teaching Methodology The Teacher can use the following Methods as Teaching Methodology: 1. Class Room Lectures 2. Guest Lectures of Professionals, Industry Experts etc. 3. Teaching with the help of ICT tools 4. Visits to various Professionals Units, Companies and Business / Industry Units 5. Group Discussion / Debates 6. Assignments, Tutorials, Presentations, Role Play etc. 7. YouTube Lectures developed by MHRD, UGC, Government of Maharashtra, University etc. 8. Analysis of Case Studies",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE329COMT",
+      "title": "IPR and Cyber Laws",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to IPR",
+          "topics": "Meaning and concept of IPR, Need for and importance of IPR in engineering and innovation, Types of Intellectual Property , International organizations: WIPO, WTO, Overview of IPR in India, IPR in engineering design (electronics, electrical systems, software) Case Study: Novartis AG v. Union of India: Importance of IPR in innovation vs public welfare, Concept of “evergreening” in patents",
+          "hours": 6
+        },
+        {
+          "title": "Patents, Copyrights and Trademarks",
+          "topics": "Patent: concept, types, procedure (Indian context), rights, Patentability criteria with engineering examples, Copyright: meaning, scope (software, embedded systems), Trademark: registration and protection (industrial branding), Industrial designs and geographical indications Case Study : Bajaj Auto Ltd. v. TVS Motor Company Ltd.: Patent infringement in engineering (automobile technology), Yahoo! Inc. v. Akash Arora: Trademark protection in digital space",
+          "hours": 6
+        },
+        {
+          "title": "IPR Management and Innovation",
+          "topics": "IPR commercialization and licensing, Infringement and remedies, Technology transfer and industry collaboration, IPR in startups, entrepreneurship, and innovation ecosystem, Role of IPR in “Make in India” and engineering industries, Basics of patent search (Google Patents, Indian Patent Office) Case Study: Natco Pharma Ltd. v. Bayer Corporation: IPR commercialization and compulsory licensing, Patent search on: LED technology / solar inverter / EV charging system",
+          "hours": 6
+        },
+        {
+          "title": "Fundamentals of Cyber Laws",
+          "topics": "Introduction to cyber laws, IT Act 2000 and amendments, Digital signatures and e-governance, Types of cyber-crimes: hacking, phishing, identity theft, ransomware, Cyber laws in engineering systems (IoT, smart grids basics) Case Study: Shreya Singhal v. Union of India: Freedom of speech vs cyber law, State of Tamil Nadu v. Suhas Katti: Cybercrime enforcement in India Learning Resources \u0005Text Books: 1. V.K. Ahuja, Law Relating to Intellectual Property Rights, LexisNexis. 2. P. Narayanan, Intellectual Property Law, Eastern Law House. 3. Nina Godbole & Sunit Belapure, Cyber Security: Understanding Cyber Crimes, Wiley India. 4. Deborah E. Bouchoux, Intellectual Property: The Law of Trademarks, Copyrights, Patents, Cen- gage Learning. \u0005Reference Books 1. Prabhuddha Ganguli, Intellectual Property Rights: Unleashing the Knowledge Economy , Mc- Graw Hill. 2. Richard Stim, Intellectual Property: Patents, Trademarks, and Copyrights, NOLO. 3. Kumar K, Cyber Laws: Intellectual Property & E-Commerce Security , Dominant Publishers. 4. Vakul Sharma, Information Technology Law and Practice, Universal Law Publishing. \u0005NPTEL/Swayam Links 1. NPTEL: Intellectual Property , https://nptel.ac.in/course...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE330COMT",
+      "title": "The Constitution of India",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "History of Making of the Indian Constitution",
+          "topics": "History Drafting Committee, (Composition & Working), Philosophy of the Indian Constitution: Pream- ble, Salient Features Mapping of Course",
+          "hours": 6
+        },
+        {
+          "title": "Contours of Constitutional Rights & Duties",
+          "topics": "Fundamental Rights, Right to Equality , Right to Freedom, right against Exploitation, Right to Free- dom of Religion, Cultural and Educational Rights, Right to Constitutional Remedies, Directive Princi- ples of State Policy , Fundamental Duties.",
+          "hours": 6
+        },
+        {
+          "title": "Organs of Governance",
+          "topics": "Parliament, Composition, Qualifications and Disqualifications, Powers and Functions, Executive, President, Governor, Council of Ministers, Judiciary",
+          "hours": 6
+        },
+        {
+          "title": "Local Administration and Election Commission",
+          "topics": "District’s Administration head: Role and Importance, Municipalities: Introduction, Mayor and role of Elected representative, CEO of Municipal Corporation. Pachayati raj: Introduction, PRI: Zila Pachayat. Elected officials and their roles, CEO Zila Pachayat: Position and role. Block level: Orga- nizational Hierarchy (Different departments), Village level: Role of Elected and Appointed officials, Importance of grass root democracy . Election Commission: Role and Functioning Learning Resources \u0005Text Books: 1. The Constitution of India, 1950 (Bare Act), Government Publication. 2. Dr. S. N. Busi, Dr. B. R. Ambedkar framing of Indian Constitution, 1st Edition, 2015. 3. M. P. Jain, Indian Constitution Law, 7th Edn., Lexis Nexis, 2014. 4. D.D. Basu, Introduction to the Constitution of India, Lexis Nexis, 2015.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE331COMT",
+      "title": "Environmental Law",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Constitutional & Legal Foundations of Environmental Law",
+          "topics": "Environmental protection under the Indian Constitution: Article 21 (Right to Life) , Article 48A, Article 51A(g) , Evolution of environmental jurisprudence in India , Principles of Environmental Law: Polluter Pays Principle, Precautionary Principle, Sustainable Development, Public Trust Doctrine, Role of the Supreme Court and High Courts in cases related to Environmental law, Introduction to National Green Tribunal (NGT), Case Laws: MC Mehta cases, Vellore Citizens Welfare Forum, Oleum Gas Leak case.",
+          "hours": 7
+        },
+        {
+          "title": "Environmental Protection Act, 1986 & Regulatory Authorities",
+          "topics": "Environment (Protection) Act, 1986, Powers of Central Government , Role of: Ministry of Environ- ment , Forest and Climate Change (MoEFCC) , Central Pollution Control Board (CPCB) , State Pol- lution Control Board (SPCBs), Environmental standards and notifications, National Green Tribunal Act, 2010, Regulatory approvals for highways, dams, urban infrastructure.",
+          "hours": 7
+        },
+        {
+          "title": "Environmental Impact Assessment",
+          "topics": "(EIA) & Water Laws, (08 Hours) EIA Notification 2006 (latest amendments), Categorization: Category A & B projects, Screening, scoping, public consultation, Environmental Clearance (EC) process, Environmental Management Plan (EMP), Coastal Regulation Zone (CRZ) Notification, Compliance reporting and monitoring, Re- view of EIA for a highway , metro, dam project. Water (Prevention and Control of Pollution) Act, 1974, Water Cess (abolished but historical context), Consent to Establish (CTE) & Consent to Operate (CTO), Effluent discharge standards, Groundwater regulation (CGWA guidelines), Wetlands Rules, Engineering Application: STP and WTP compliance, Effluent standards for construction projects ,",
+          "hours": null
+        },
+        {
+          "title": "Air, Noise & Construction Regulation",
+          "topics": "Air (Prevention and Control of Pollution) Act, 1981, Noise Pollution (Regulation and Control) Rules, Construction and Demolition (C&D) Waste Management Rules, 2016, Emission norms for construc- tion equipment, Dust control regulations (GRAP in NCR), Solid Waste Management Rules, 2016 , Plastic Waste Management Rules, Hazardous and Other Wastes Rules, E-waste Management Rules (overview), Biomedical Waste (overview for hospital projects), Civil and criminal liability under en- vironmental laws, Corporate Environmental Responsibility (CER), Professional ethics for engineers, Case Study: Bhopal Gas Tragedy (legal consequences and lessons) Learning Resources \u0005Text Books: 1. Shyam Divan & Armin Rosencranz – Environmental Law and Policy in India 2. P. Leelakrishnan – Environmental Law in India 3. Bare Acts: Environment (Protection) Act, 1986 , Water Act, 1974 , Air Act, 1981, NGT Act, 4. EIA Notification 2006 (latest amendment) 5. CRZ Notification (latest version) 6. CPCB/SPCB Guidelines 7. MoEFCC Office Memoranda 8. National Building Code (environmental provisions)",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE332COMT",
+      "title": "Construction Law and Contracts",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to Construction Law and Construction Contract Principles",
+          "topics": "Nature and scope of construction law, Sources of construction law, Essentials of a valid contract, Offer, acceptance, consideration, and consent, Rights and obligations of contracting parties, Breach of contract and legal remedies. Types of construction contracts: Lump sum, Item rate, Cost-plus, EPC and Design-Build contracts, Standard contract forms and contract documents, Tendering and bidding procedures.",
+          "hours": 7
+        },
+        {
+          "title": "Contract Administration and Risk Management",
+          "topics": "Contract administration procedures, Variations and change orders, Time extension and delay man- agement, Payment procedures and certifications, Performance guarantees, insurance, and bonds, Risk allocation and documentation practices.",
+          "hours": 7
+        },
+        {
+          "title": "Construction Claims and Dispute Resolution",
+          "topics": "Construction claims and liabilities, Delay and disruption claims, Liquidated damages and termina- tion, Dispute prevention techniques, Negotiation, mediation, conciliation, arbitration, and litigation.",
+          "hours": 8
+        },
+        {
+          "title": "Regulatory Framework, Ethics, and Emerging Trends",
+          "topics": "Building regulations and statutory compliance, Environmental and labor laws in construction, Health and safety regulations, Professional ethics and negligence, introduction to FIDIC contracts and inter- national construction law, Digital construction, BIM and smart contracts. Learning Resources \u0005Text Books: 1. Construction Contract Law, Julian Bailey , Informa Law / Routledge Publication 2. Construction Law, Julian Bailey , CRC Press Publication. 3. Engineering and Construction Contracts Management, Joseph T. Bockrath, McGraw-Hill Edu- cation. 4. Construction Contracts, Jimmie Hinze, McGraw-Hill, FIDIC Contracts: Law and Practice, Nael G. Bunni, Wiley-Blackwell Publication. \u0005Standards and Professional",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE333COMT",
+      "title": "Human Resource Management",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Human Resource Management & Planning",
+          "topics": "Human Resource Management : Concept and Challenges - Introduction, Objectives, Scope, Features of HRM, Role of HRM, Importance of HRM, Policies and Practices of HRM, Functions of HRM, Chal- lenges of HRM. Human Resource Planning: Definition, Objectives, Need and Importance, HRP Process, Barriers to HRP. Job Analysis Process – Contents of Job Description & Job Specification, Job design, Factors affecting Job design, Job enrichment Vs job enlargement.",
+          "hours": 7
+        },
+        {
+          "title": "Recruitment and Retention",
+          "topics": "Recruitment Introduction, Sources of Recruitment, Difference between recruitment and selection. Applying IKS principles to recruitment, Process- Recruitment and Selection, concept- Induction and Orientation. Career Planning-Process of career planning, Succession Planning- Process of succession planning, Transfer and Promotion. Retention of Employees: Importance of retention, strategies of retention.",
+          "hours": 7
+        },
+        {
+          "title": "Managing Employee Performance and Training",
+          "topics": "Performance Appraisal & Performance Management – Definition, Objectives, Importance, Applying IKS principles to Performance and rewards, Appraisal Process and Appraisal Methods. Training and Development - Definition – Scope, Role of Training in an Organizations, Objectives, Applying IKS principles to Training, Training and Development Process, Training Need Assessment, Types of training, Difference between training and development, E-Learning. Benefits of training, Evaluation of Training Effectiveness: Kirkpatrick model.",
+          "hours": 8
+        },
+        {
+          "title": "Compensation Management",
+          "topics": "Concept, Objectives, Importance of Compensation Management, Process, Current Trends in Compen- sation. Components of salary . Incentives and Benefits – Financial & Nonfinancial Incentive, Fringe Benefits. Employees Separation - Retirement, Termination, VRS, Suspension. Concept- Grievance and grievance redressal procedure. Learning Resources \u0005Text Books: 1. Human Resource Management, Dr. S.S. Khanka, Sultan Chanda, Delhi. 2. Human Resource Management, Deepak Bhattacharya, Sage Publishing Ltd. 3. Human Resource Management, Arun Monppa, Tata McGraw Hill Publishing Company 4. Human Resource Management, Mirza & Zaiyaddin 5. Human Resource Management, Dr. P. C. Pardeshi, Niramli Publication",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE334COMT",
+      "title": "Business Administration",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "Scope & Objectives of Business",
+          "topics": "Introduction, what is Business? Evolution of Business, Different business activities, understanding Business, and Emerging markets, Business and Economy , Micro and Macroeconomics, Different types of economic systems, Indian economy and Business today , Dynamics of Business environment, Eco- nomic, Political, legal",
+          "hours": 7
+        },
+        {
+          "title": "Business Ethics and LPG Models",
+          "topics": "Business Ethics and Ethical Behavior, Relationship between Business and society , and Technological, Socio cultural and Ecological Environment Globalization, definition, Features, Liberalization: Concepts and features, Impact. Privatization: Concepts and features, Benefits, Criticism, Multinational corporation: Definition and Types and fea- tures",
+          "hours": 7
+        },
+        {
+          "title": "Entrepreneurship & SBM",
+          "topics": "Entrepreneurship and Innovation, Process of Innovation and Types, Entrepreneurial opportunities and Challenges, Small Businesses in India and; Importance of SME’s and its advantages",
+          "hours": 8
+        },
+        {
+          "title": "Franchising , Outsourcing & E-Banking Services",
+          "topics": "Franchising: Types, Challenges. Network Marketing, Practical session ; Outsourcing: BPO’s and KPO’s, E- Commerce and E- Business, Financial Institution: Systems and Types, Banks ,Types of Business and EBanking, Customer & Marketing and Customer Management Learning Resources \u0005Text Books: 1. Vijay Kumar Kaul(2011) Business Organization and Management By: (Pearson’s Publications) 2. Karen Collins “Exploring Business.” 3. Brown & Clow “Introduction to Business”",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE335COMT",
+      "title": "Statistics and Computer Applications",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "Statistics in Research and Data Representation",
+          "topics": "Use of Statistics in Research, Data Types and Data Classification, Frequency Distribution ,Bar Diagram and Pie Chart, Applications and Numerical.",
+          "hours": 7
+        },
+        {
+          "title": "Measures of Central Tendency and Dispersion in Statistical Analysis",
+          "topics": "Measures of Central Tendency , Mean, Median, Mode, Standard Deviation, Correlation, Pearson and Spearman Correlation Coefficient, Chi Square Test.",
+          "hours": 7
+        },
+        {
+          "title": "Computer Applications in Research Methodology",
+          "topics": "Computer Application, Brief History of Computers, Types, Generations, Application of Software Tech- niques in Data Classification and Analysis, e-Methods.",
+          "hours": 8
+        },
+        {
+          "title": "Research Scope, ICT, and Future Opportunities",
+          "topics": "Scope and Significance, ICT Applications, Mixed Methods, Manifesto of Social Research (Blaikie), Further Studies and Opportunities. Learning Resources \u0005Text Books: 1. Amir B. Marvasti (2004) Qualitative Research in Sociology: An Introduction, Sage Publications (London, Thousand Oaks, New Delhi) 2. Bridget Somekh and Cathy Lewin (Editors) (2005) Research Methods in the Social Sciences, Sage Publications (London, Thousand Oaks, New Delhi) 3. Partha Nath Mukherji (Editor) (2000) Methodology in Social Research: Dilemmas and Perspec- tives, Sage Publication (New Delhi) Ram Ahuja (2018) Research Methods, Rawat Publications (Jaipur/ New Delhi) 4. Jose E Lopez and Garry Potter (Editors) (2001) After Postmodernism: An Introduction to Criti- cal Realism, The Athlone Press (London & New York) 5. N. K. Denzin, & Y. S. Lincoln (2018) The SAGE Handbook of Qualitative Research, Sage Publi- cations 6. S. Okasha (2016). Philosophy of Science. Oxford University Press",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE336COMT",
+      "title": "Digital Personal Data Protection",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Digital Personal Data Protection",
+          "topics": "Introduction to Data Privacy and Data Protection, Evolution of Privacy Laws in India and Worldwide, Need for Digital Personal Data Protection, Concepts, Privacy Principles, Overview of Right to Privacy , Cybersecurity and Privacy Relationship Introduction to Global Frameworks:GDPR, OECD Privacy Principles, Indian IT Act and SPDI Rules Case Study: discussion on social media data misuse and privacy breaches",
+          "hours": 7
+        },
+        {
+          "title": "Digital Personal Data Protection Act",
+          "topics": "(DPDP Act), 2023 ( 07 Hours ) ntroduction to India’s DPDP Act 2023, Scope and Applicability of the Act, Important Definitions: Data Principal, Data Fiduciary , Data Processor, Consent Manager Rights of Data Principals: Right to Access, Right to Correction and Erasure, Right to Grievance Redressal, Right to Withdraw Consent Duties and Obligations of Data Fiduciaries, Children’s Data Protection, Cross-Border Data Transfer, Data Breach Reporting and Penalties Case Study: Preparation of privacy notices and consent forms for a sample mobile application.",
+          "hours": null
+        },
+        {
+          "title": "Privacy Engineering and Security Practices",
+          "topics": "Privacy by Design, Security Safeguards for Personal Data, Data Encryption and Hashing, Authentica- tion and Access Control, Secure Data Storage and Backup Privacy Issues in: IoT Systems, AI/ML Applications, Social Media Platforms, E-commerce Systems Case study: designing a secure and privacy-aware web/mobile application.",
+          "hours": 8
+        },
+        {
+          "title": "Ethical, Legal and Industrial Perspectives",
+          "topics": "Ethical Issues in Data Collection and Surveillance, Digital Ethics and Responsible Data Usage, Privacy Challenges in Big Data Analytics, AI Ethics and Algorithmic Bias, Compliance Frameworks and Audits Organizational Data Governance Policies Case Studies: Aadhaar, Social Media Privacy Incidents, Data Leaks and Ransomware Cases Learning Resources \u0005Text Books: 1. Data Privacy: Foundations, New Developments and the Big Data Challenge – Vicente Matellan, Springer. 2. Privacy in the Age of Big Data – Theresa Payton and Ted Claypoole. 3. Information Privacy Engineering and Privacy by Design – William Stallings. 4. Cyber Security and Privacy – Debabrata Samanta, CRC Press. 5. Digital Personal Data Protection Act, 2023 – Government of India Publication. \u0005",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE337COMT",
+      "title": "Agri Business Finance and Banking Operations",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        43,
+        45
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Agricultural Finance & Banking Systems",
+          "topics": "Agricultural Finance: Meaning, definition, nature, scope, Need for and importance of agricultural finance, Types of agricultural finance, Overview of banking systems, Role of banking in modern agriculture Case Study: Role of State Bank of India in Agricultural Lending, Green Banking Initiative in Punjab National Bank",
+          "hours": 6
+        },
+        {
+          "title": "Institutional Sources of Agricultural Finance",
+          "topics": "RRBs: origin, objectives, features, NABARD: functions, SHGs and JLGs, Scale of finance and securi- ties, KCC and DIR schemes, NPAs and SARFAESI Act Case study: NABARD and SHG-Bank Linkage Programme, Kisan Credit Card (KCC) Implementation",
+          "hours": 6
+        },
+        {
+          "title": "Risk Management & Insurance in Agribusiness",
+          "topics": "Types of risks in agriculture, Risk mitigation strategies, Agricultural insurance, Crop insurance schemes (CCIS, NAIS, UPIS), PM Fasal Bima Yojana Case Study: Pradhan Mantri Fasal Bima Yojana, Weather-Based Crop Insurance in Rajasthan",
+          "hours": 6
+        },
+        {
+          "title": "Financial Management in Agribusiness",
+          "topics": "Financial management concepts, Financial planning, Working capital, Cost-benefit analysis, Role of RBI, IRDAI, SEBI Digital Banking: Digital payments (NEFT, RTGS, IMPS, UPI), Mobile apps for farmers, Government portals Case study: Amul Dairy Cooperative Model, Cost-Benefit Analysis of Drip Irrigation in Maharashtra Learning Resources \u0005Text Books: 1. Bedi, J. (2018). Agricultural Finance in India: Issues and Challenges. New Delhi: Galaxy Publishing House. 2. Sethi, Binodini., Rout, R.K., & Das, S. (2021). Financial Management in Agribusiness. New Delhi: AkiNik Publications. 3. Verma, P.K., & Banafar, K.N.S. (2017). Agri-Business and Finance Management. New Delhi: Narendra Publishing House. 4. Meena, G.L., Burark, S.S., Pant, D.C., & Sharma, R. (2015). Fundamentals of Agribusiness Management. Udaipur: Agrotech Publishing Academy . \u0005Reference Books 1. Reddy S S, Agricultural Finance and Management, Oxford and IBH Publication, Delhi. 2. Dr. Binodini Sethi, Dr. Rajendra Kumar Rout & Dr. Simly Das, Financial Management in Agri- Business, New Delhi (AkiNik Publications), Delhi 3. John B, Introduction to Agricultural Economics, Pearson India, Delhi 4. Pandey , Financial Management, Vika...",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

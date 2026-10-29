@@ -1,0 +1,214 @@
+{
+  "id": "sy-mca-syllabus-2025pattern-underengineering-29062026",
+  "kind": "programme",
+  "programme": "Master of Computer Applications(Under Engineering)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-601-MCA",
+      "title": "Software Testing and Quality Assurance",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-602-MCA",
+      "title": "Data Science",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-603-MCA",
+      "title": "Web Technology",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-604-MCA",
+      "title": "Cyber Security",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-620A-MCA",
+      "title": "Deep Learning",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        30,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-620B-MCA",
+      "title": "Block Chain",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-620C-MCA",
+      "title": "Bussiness Intelligence",
+      "semester": 3,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        36,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-605-MCA",
+      "title": "Lab Practice-I",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        39,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-606-MCA",
+      "title": "Web Technology Laboratory",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        43,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-607-MCA",
+      "title": "Cyber Security Laboratory",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-608-MCA",
+      "title": "Corporate Communication and Aptitude Skill Development",
+      "semester": 3,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-631-MCA",
+      "title": "Research Project",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 3,
+      "pages": [
+        50,
+        55
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-670A-MCA",
+      "title": "Generative AI and Prompt Engineering",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        56,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-670B-MCA",
+      "title": "Dev Ops",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        59,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-670C-MCA",
+      "title": "Cloud Computing",
+      "semester": 4,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        62,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-680-MCA",
+      "title": "Technical Seminar",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        65,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "OJT-681-MCA",
+      "title": "Field Project/Major Project",
+      "semester": 4,
+      "type": "Internship/OJT",
+      "credits": 15,
+      "pages": [
+        68,
+        72
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

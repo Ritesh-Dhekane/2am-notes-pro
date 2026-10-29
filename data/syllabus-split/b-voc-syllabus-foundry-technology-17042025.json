@@ -1,0 +1,826 @@
+{
+  "id": "b-voc-syllabus-foundry-technology-17042025",
+  "kind": "programme",
+  "programme": "Bachelor of Vocational (Engineering) FOUNDRY TECHNOLOGY",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "101",
+      "title": "Communication Skills",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        8,
+        8
+      ],
+      "units": [
+        {
+          "title": "Communication",
+          "topics": "Meaning of Communication, Importance of Communication, Types of communication. Process of communication, Communication network in an organization, Barriers to communication, Essentials of good communication.",
+          "hours": 8
+        },
+        {
+          "title": "Remedial English Grammar",
+          "topics": "Articles, agreement between verb and subject, uses of tenses, Modal and their uses, Prepositions. Understanding and applying Vocabulary: One -word substitutes, Synonyms and Antonyms. Word formation: -Prefixes, Bases and Suffixes.",
+          "hours": 7
+        },
+        {
+          "title": "Listening Skills",
+          "topics": "The process of listening, Types of listening, Benefits of effective listening, Barriers to listening, listening to announcements at work place.",
+          "hours": 7
+        },
+        {
+          "title": "Reading Skills",
+          "topics": "Process and methodologies of reading, Skimming and scanning, Levels of reading, Proofreading, Summarizing, Precise writing, Unseen comprehension passage, Note taking and reviewing, convert the given information into charts and graphs.",
+          "hours": 7
+        },
+        {
+          "title": "Writing Skills",
+          "topics": "Main Forms of Written Communication: Notices, Drafting an E -mail. Correspondence: Personal and Official, Notices, Technical Report Writing, Preparing agenda and minutes of meetings.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "102",
+      "title": "Engineering Graphics",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        9
+      ],
+      "units": [
+        {
+          "title": "- Introduction to drawing, lines and lettering",
+          "topics": "• Definition and classification of drawing • Drawing instruments such as; drawing board, drawing sheets, drafter. • Types of pencils, sheets, eraser etc. • Different types of lines (Straight line, inclined line and curved lines) • Practice engineering style for letters and numbers as BIS: SP:46-2003",
+          "hours": 7
+        },
+        {
+          "title": "- Dimensioning and scale",
+          "topics": "• Importance of dimensioning • Types (i.e. chain, parallel and progressive etc.) and methods of placing dimensioning, Principles of dimensioning and practice dimensioning technique as BIS: SP: 46 -2003, Free hand sketching of straight lines, circle, square, Polygons",
+          "hours": 6
+        },
+        {
+          "title": "-Introduction to Projection",
+          "topics": "• Introduction to first and third angle projection, • Introduction to projection of point, line and plane, Sectioning of solids",
+          "hours": 7
+        },
+        {
+          "title": "- Isometric and Orthographic projection",
+          "topics": "• Orthographic projection of simple geometric solids • Isometric drawing of simple geometric solids",
+          "hours": 9
+        },
+        {
+          "title": "- Geometric and dimensioning Tolerance",
+          "topics": "• Component Drawing and interpretation • Geometric dimension and Tolerance • Introduction to CAD software used in drawing",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "103",
+      "title": "Engineering Materials",
+      "semester": 1,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        10,
+        10
+      ],
+      "units": [
+        {
+          "title": "- Ferrous metals",
+          "topics": "Physical and mechanical properties viz. strength, elasticity, ductility, toughness, malleability, brittleness, hardness, stiffness, fatigue, Classification of iron and steel; pig iron, cast iron, wrought iron, steel, alloy steel, stainless steel and carbon steels.",
+          "hours": 6
+        },
+        {
+          "title": "- Non-ferrous metals",
+          "topics": "Non- ferrous metals, Introduction to metals aluminum, copper, zinc, lead, tin, nickel and magnesium and their alloys; physical and mechanical properties of all the above alloys. 06 Hrs",
+          "hours": null
+        },
+        {
+          "title": "- Engineering plastics and fiber",
+          "topics": "Important sources of plastics, Classification – thermoplastic and thermosetting, Various trade names of engineering plastics, Fiber and their classification: Inorganic and organic fibers, Usage of fiber. Plastics; Introduction, types of plastics, properties, composition and their applications. 06 Hrs",
+          "hours": null
+        },
+        {
+          "title": "- Insulating material",
+          "topics": "Various heat insulating material and their usage like asbestos, glass wool, cork, clay, thermocole, various electrical insulating material and their use like China clay, leather, Bakelite, ebonite, glass wool, rubber felt. Composite materials: Introduction, properties and application. 06 Hrs",
+          "hours": null
+        },
+        {
+          "title": "- Fuels",
+          "topics": "Coal, coke, liquid fuel, light diesel Oil (LDO), HSD, LPG, Natural gas, Principles of efficient combustion, liquid and gas fuel burners. 06 Hrs",
+          "hours": null
+        },
+        {
+          "title": "- Refractories",
+          "topics": "Definition, classification and properties of refractories, Manufacture of Refractories, Testing of refractories Specific gravity, Bulk density, Porosity, Refractoriness, Slag attack, Cold crushing strength, Refractory failures due to slagging, abrasion, fusion, spalling.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "104",
+      "title": "Engineering Graphics -Lab",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "105",
+      "title": "On Job Training",
+      "semester": 1,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "201",
+      "title": "Casting Processes",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        13,
+        13
+      ],
+      "units": [
+        {
+          "title": "– Intoduction to casting processes",
+          "topics": "Moulding materials and their requirements; Patterns: Types and various pattern materials Sand Casting, basic steps in making sand castings, Advantages of special casting techniques over sand casting method.",
+          "hours": 8
+        },
+        {
+          "title": "– Allowances, Properties of Materials",
+          "topics": "Pattern Allowances, Types of moulding sand, Properties of moulding sand",
+          "hours": 6
+        },
+        {
+          "title": "-Different Casting Processes",
+          "topics": "Plaster mold casting, Permanent mold casting, Shell mold casting",
+          "hours": 7
+        },
+        {
+          "title": "- Die casting",
+          "topics": "Gravity and pressure die casting, Hot chamber and cold chamber, Centrifugal casting, Investment casting, CO2 process of casting, Continuous process.",
+          "hours": 8
+        },
+        {
+          "title": "- Castings Defects",
+          "topics": "Causes and remedies of following defects Blow holes, Gas holes, Pin holes, Scabs, Hots tears, Cold cracks, Shrinkage cavity.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "202",
+      "title": "Melting Technology",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "- Melting of primary and secondary metals",
+          "topics": "Basics of melting scrap and smelting, handling and characterization of scrap, cleaning and bailing charge preparation control and charge balance, general methods of charging in furnaces, changes for SG cast iron.",
+          "hours": 8
+        },
+        {
+          "title": "- Melting technology",
+          "topics": "Role of flux; Reducing agents; Air reductants and chemical additives, in the furnaces; types and, selection of furnaces suitable for specific metals; cupola, induction, rotary, pit furnaces their operation and nature/characteristics of product there from; role of temperature and superheat; acid, basic and neutral operations; post melting treatment and air furnaces; melting of various types of cast iron, steel, aluminum, brass, SG cast iron.",
+          "hours": 7
+        },
+        {
+          "title": "- Composition control and melt quality",
+          "topics": "Importance of metal cleanliness; endogenous and exogenous inclusions; need of formation of right quality and nature of slag; oxygen, chlorine or argon blowing to improve melt quality; role of temperature and super heat.",
+          "hours": 7
+        },
+        {
+          "title": "- Efficient Operation",
+          "topics": "Control of fuel consumption, quality of fuel coke in context to Sulphur and ash, use of hot blast cupola; method of producing hot blast. Use of recuperators and regenerators, regulation control of power input into the furnaces, comparison of power input into different furnaces.",
+          "hours": 7
+        },
+        {
+          "title": "- Handling of liquid metal",
+          "topics": "Different methods to consume liquid metal, ingot, pigging, power production, casting etc. economic output, management of liquid metal; handing devices, preheating of laddles; use of vacuum assisted equipment for degasification, killing and rimming of steels, inoculation in SG cast iron and its control.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "203",
+      "title": "Measurement Metrology",
+      "semester": 2,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        15,
+        15
+      ],
+      "units": [
+        {
+          "title": "- Basic Concepts of Measurements (09 hrs)",
+          "topics": "Need for measurement – Dimensional and Form tolerances – Precision and Accuracy – Errors in Measurements – Causes – Types – Handling of measuring instruments – Maintenance of Instruments – Standards and Practice – Metrology lab – Environment and conditions.",
+          "hours": 9
+        },
+        {
+          "title": "- Types of measurement and measuring instruments (09 hrs)",
+          "topics": "Linear measurement: Steel rule, Calipers, Vernier Calipers, Micrometers, Height gauge, Slip gauge. Angular and taper measurement: Protectors, Engineering square, Adjustable bevel, Bevel protectors, Dividing head, Sine bar, Sine centers, Angle gauge, Clinomometers, Autocollimators, Taper gauges. Surface measurement: Spirit level, Straight edge, Surface gauge, Optical flat, Interferometer, Surface plate.",
+          "hours": 9
+        },
+        {
+          "title": "- Optical Measurements (09 hrs)",
+          "topics": "Optical microscope, Vision systems, Precision instrument based on Laser – Use of Lasers – Principle – Laser",
+          "hours": 9
+        },
+        {
+          "title": "- Advances in Metrology (09 hrs)",
+          "topics": "Co-ordinate measuring machine – Constructional features – Types – Applications of CMM – CNC. CMM applications – Computer Aided Inspection – Machine Vision – Applications in Metrology.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "204",
+      "title": "Casting Processes - Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "205",
+      "title": "Melting Technology - Lab",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        17,
+        17
+      ],
+      "units": []
+    },
+    {
+      "code": "206",
+      "title": "On Job Training",
+      "semester": 2,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        4,
+        4
+      ],
+      "units": []
+    },
+    {
+      "code": "301",
+      "title": "Physical Metallurgy-I",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        19,
+        19
+      ],
+      "units": [
+        {
+          "title": ": Crystallography",
+          "topics": "Crystal structures, Bravais lattice, crystal structures in metals and alloys-BCC, FCC, HCP; Miller indices for planes and directions, average no of atoms, co -ordination number and APF;",
+          "hours": 8
+        },
+        {
+          "title": ": Crystallization",
+          "topics": "Process of solidification - nucleation and growth - critical nucleus size; cooling curves for metals and alloys, Gibbs phase rule; Equilibrium diagrams-",
+          "hours": 7
+        },
+        {
+          "title": ": Equilibrium Diagrams",
+          "topics": "To draw equilibrium diagrams using cooling curves, Equilibrium diagram types -Eutectic, peritectic systems, etc.; Types of phases- solid solutions, types and properties, intermetallic Compounds and intermediate phases; long range and short -range freezing alloys - coring and dendritic structures;",
+          "hours": 7
+        },
+        {
+          "title": ": Iron-Iron carbon equilibrium diagram",
+          "topics": "Phases, compositions, temperatures; study of effect of alloying elements on iron -iron carbon diagram;",
+          "hours": 7
+        },
+        {
+          "title": ": Non-ferrous equilibrium diagrams",
+          "topics": "Equilibrium diagrams of Aluminum alloys, copper alloys, magnesium alloys, tin alloys.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "302",
+      "title": "Machine Drawing",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        20,
+        20
+      ],
+      "units": [
+        {
+          "title": ": Principles of drawings",
+          "topics": "Classification of drawings, review of drawing sheet sizes & layout recommended by BIS, types of lines, scales used in engineering drawing, sections, types of sections, conventional representation of engineering materials and machine components, methods of dimensioning, symbolic representations of welds and surface finish.",
+          "hours": 9
+        },
+        {
+          "title": ": Sketching of machine components",
+          "topics": "Screw thread terminology, forms of threads, conventional representation of threads, multiple start threads, RH & LH threads, type of nuts and bolts, washers, locking arrangements for nuts, foundation bolts, types of keys, cotter joint and knuckle joints, rigid coupling, flange coupling & flexible coupling, flat and V belt pulleys, sliding and rolling contact bearings: journal bearing, bush bearing, pedestal bearing, pivot bearing, ball & roller bearings",
+          "hours": 9
+        },
+        {
+          "title": ": Gear drives",
+          "topics": "Gear Terminology, introduction to spur gear, helical gear, bevel gear, worm & worm wheel, gear materials, forms of teeth, advantages & disadvantages",
+          "hours": 9
+        },
+        {
+          "title": ": Elements of Production Drawings",
+          "topics": "Limits fits & tolerances- significance, types and selections, hole basis & shaft basis system, Surface roughness - terminology symbols, characteristics, representation of elements on production drawings.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "303",
+      "title": "Fuels, Furnaces and refractories",
+      "semester": 3,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        21,
+        21
+      ],
+      "units": [
+        {
+          "title": ": Classification of fuels",
+          "topics": "Solid liquid and gaseous, natural and synthetic liquid fuels, their advantages and limitations.",
+          "hours": 9
+        },
+        {
+          "title": ": Principles of combustion",
+          "topics": "Calorific value, speed and combustion, requirements of air, or oxygen, properties of flames, combustion problems, non-conventional energy.",
+          "hours": 9
+        },
+        {
+          "title": ": Furnaces",
+          "topics": "Classification of furnaces based on heating methods and refractories used basic principles of fuel fired, resistance, induction and arc furnaces, furnace lining, furnace atmospheres, furnace Efficiency.",
+          "hours": 9
+        },
+        {
+          "title": ": Refractories",
+          "topics": "Classification of refractories, their properties and uses in foundry industries. 09 Hrs.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "304",
+      "title": "Moulding Technology-Lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        22,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "305",
+      "title": "Machine Drawing Lab",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        23,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "306",
+      "title": "On Job Training",
+      "semester": 3,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "401",
+      "title": "Physical Metallurgy-II",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        25,
+        25
+      ],
+      "units": [
+        {
+          "title": ": Principles of heat treatment",
+          "topics": "Definition and basic requirements for alloys to be heat treated, heat treatability; advantages and purposes of heat treatment. Transformation of pearlite to austenite upon heating, mechanism and kinetics of transformation, austenite grain size; Transformation of austenite to pearlite, upper and lower bainite and martensite upon cooling-mechanism and kinetics of transformation;",
+          "hours": 6
+        },
+        {
+          "title": ": Annealing, Normalizing and TTT diagrams",
+          "topics": "Annealing and Normalizing - Process parameters, types, effect on structure, properties and applications. Hardening-process parameters, relation of temperature and time on hardness; Construction of TTT diagram, effect of carbon percentage and alloying element on TTT diagram, uses and significance of TTT diagrams; CCT diagrams- Construction and significance;",
+          "hours": 6
+        },
+        {
+          "title": ": Quenching and Surface hardening",
+          "topics": "Quenching - Quenching media, mechanism of quenching; Hardenability, Hardenability test; Tempering - Purpose, types, transformations during tempering, applications;",
+          "hours": 6
+        },
+        {
+          "title": ": Surface hardening",
+          "topics": "Principle, purposes and types; Flame hardening, Induction hardening - Types, process control, case depth obtained, advantages, limitations and applications; Case Hardening - Carburizing, Nitriding, Carbonitriding - Process control, case depth obtained, advantages, limitations and applications;",
+          "hours": 6
+        },
+        {
+          "title": ": Heat treatment for Cast Iron and non-ferrous alloys",
+          "topics": "Cast iron - Annealing, Stress relieving, Quenching, Tempering- Process parameters, advantages, limitations and applications. non-ferrous alloys - Homogenization annealing, stress relief annealing, recrystallization annealing;",
+          "hours": 6
+        },
+        {
+          "title": ": Precipitation Hardening",
+          "topics": "Basic requirement of alloys, mechanism, structural transformations, precipitation hardenable alloys, effect of temperature, time on precipitation hardening.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "402",
+      "title": "Steel Casting Production",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": ": Introduction to Steels",
+          "topics": "Classification, properties and applications of carbon and alloy steels,",
+          "hours": 8
+        },
+        {
+          "title": ": Melting and Solidification of steel",
+          "topics": "Solidification mechanism, melting of carbon and alloy steels in electric arc and induction furnaces. Melting and casting quality.",
+          "hours": 7
+        },
+        {
+          "title": ": Basic Practices and Reactions of Steel",
+          "topics": "Acid and basic practices. Main chemical reaction in electric arc furnace. AOD, oxidation and refining, fluxing; Sulphur and phosphorous removal, deoxidation, methods of degassing, tapping and pouring.",
+          "hours": 7
+        },
+        {
+          "title": ": Methoding for Steel",
+          "topics": "Gating and feeding practices; mould and core making practice for steel, fettling and salvaging for steel castings.",
+          "hours": 7
+        },
+        {
+          "title": ": Heat treatment for steel castings",
+          "topics": ": Heat treatment for steel castings",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "403",
+      "title": "Non-Ferrous Casting Production",
+      "semester": 4,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        27,
+        27
+      ],
+      "units": [
+        {
+          "title": ": Introduction to Non-Ferrous Alloys",
+          "topics": "Composition, solidification, structure, properties and applications of aluminum, magnesium, copper and zinc-based alloys;",
+          "hours": 8
+        },
+        {
+          "title": ": Melting and Solidification of Non-Ferrous alloys",
+          "topics": "Charge calculations, hardeners; oxidation and gas absorption in non-ferrous alloys, detection of gases;",
+          "hours": 7
+        },
+        {
+          "title": ": Basic Practices and Reactions of Non-Ferrous alloys",
+          "topics": "Melting, fluxing, degassing and pouring practices, filtration of non-ferrous melt; melt treatment for alloying modification and grain refinement.",
+          "hours": 7
+        },
+        {
+          "title": ": Moulding for Non-Ferrous alloys",
+          "topics": "Mould and core practices, metal mould reaction, gating and feeding practices for non- ferrous alloy castings;",
+          "hours": 7
+        },
+        {
+          "title": ": Defects and defect analysis of Non-Ferrous Alloys",
+          "topics": "- Defect analysis, salvaging of non-ferrous alloy castings. 07 Hrs.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "404",
+      "title": "Foundry Technology Lab Practice-1",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        28,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "405",
+      "title": "Iron Casting Production Lab",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        29,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "406",
+      "title": "On Job Training",
+      "semester": 4,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        5,
+        5
+      ],
+      "units": []
+    },
+    {
+      "code": "501",
+      "title": "Secondary Steel Making",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        31,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction- Special grade steels, development of secondary steel making and their",
+          "topics": "importance. 08 Hrs.",
+          "hours": null
+        },
+        {
+          "title": "Sources of inclusions, Sulphur, phosphorous and gasses in steels,",
+          "topics": "Secondary steel making Technologies; Inert gas purging, vacuum degassing- deoxidation; ladle furnace. 07 Hrs.",
+          "hours": null
+        },
+        {
+          "title": "VOD- theory and practice; Powder injection system; physical chemical and fluid",
+          "topics": "dynamic aspects of powder injection and stirring processes; role of slag and powders in inclusion control, Desulphurization and dephosphorization, cored wire feeding 07 Hrs.",
+          "hours": null
+        },
+        {
+          "title": "Production of ultra-low S, P and inclusion free steels, ultra-low carbon steels",
+          "topics": "Production of ultra-low S, P and inclusion free steels, ultra-low carbon steels",
+          "hours": 7
+        },
+        {
+          "title": "Raw materials for secondary steel making, addition of Ca-Si, ferro alloys etc.",
+          "topics": "Ladle lining, properties and selection of refractories.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "502",
+      "title": "Process Modeling and Computer Applications in Foundry",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        32,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to 2D drawing, 2D modeling using AutoCAD software.",
+          "topics": "Introduction to 2D drawing, 2D modeling using AutoCAD software.",
+          "hours": 9
+        },
+        {
+          "title": "Principles of model development, Introduction to 3D modeling; 3D modeling of molds & forging",
+          "topics": "dies using solid modeler. 09 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Simulation and analysis of close die forging of forged components such as gear",
+          "topics": "blank using FEM based software packages. 09 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Simulation of metal flow in moulds, effect of Moulding practices on solidification in",
+          "topics": "castings using industry standard FEM based software packages. 09 Hrs Practical: • 3D modelling case study of any one mould/die/pattern • Simulation analysis of metal flow in moulds/patterns/die with any simulation software. Furnish the report of above practical and submit to the Subject teacher.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "503",
+      "title": "Fundamentals of Industrial Management",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Concept of Quality",
+          "topics": "• Quality: Definition, History, Importance • Approaches to define Quality, Cost of Quality, Hierarchy of Quality Management • Introduction to Quality Control.",
+          "hours": 8
+        },
+        {
+          "title": "Organizational Aspects of Quality Assurance",
+          "topics": "• Quality Assurance (QA): Introduction, Definition, Management principles in QA, QA in different stages, Quality Planning. • ISO: Introduction, ISO 9000 series of standard, Benefits of ISO. • ISO 9001, Benefits of ISO 9001. • Quality survey: Scope, Types of audits, inspection methods, Quality budget, Vendor Quality Rating",
+          "hours": 7
+        },
+        {
+          "title": "Problem solving tools and techniques",
+          "topics": "• Definition of a problem • Type of problems, classification of problems • What is problem solving, barriers to problem solving • Problem solving tools: Cause and effect diagram, Histogram, flow charts, Check sheets, Histogram, Brain-storming, Pareto charts, Control charts, Scatter Diagram 3.5 Problem solving techniques: Brain storming, Flow diagram, PDCA Cycle etc",
+          "hours": 7
+        },
+        {
+          "title": "Total Quality Management",
+          "topics": "• Basic concept of TQM, features of TQM • principles of TQM • leadership concepts • Quality statements • Barriers to TQM implementation • Concept of TPM • Quality allied concept: KAIZEN, Poke yoke, JIT, KAPA",
+          "hours": 7
+        },
+        {
+          "title": "5 S and Safety",
+          "topics": "• Detailed concept of 5S and safety used in Industries • Integrated Management system. Text",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "504",
+      "title": "Project Work-Stage I",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        35,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "505",
+      "title": "On Job Training",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "601",
+      "title": "Energy Conservation and Pollution Control",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        37,
+        37
+      ],
+      "units": [
+        {
+          "title": "Energy Conservation- Forms of energy, energy conservation, energy sources and resources,",
+          "topics": "Present and future energy demands; Review of commercial energies from solid, liquid and gaseous fuels. 07 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Nuclear energy systems, alternate energy sources; Improving energy efficiency in extractive",
+          "topics": "metallurgical processes; 07 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Design and management of energy conservation; Recycling of energy, energy conservation",
+          "topics": "techniques. 07 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Pollution Control- Gas recovery in metal processing industries, gas cleaning and removal",
+          "topics": "of particulate matter from gases; Heat exchangers and water cleaning of solids; 07 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Pollution control in specific metal process industries- Iron and steel, Cu, Ni, Pb, Zn, Al etc;",
+          "topics": "Environmental considerations in metal casting, metal forming, metal plating and heat treatment industries. 08 Hrs",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "602",
+      "title": "Fracture Mechanics and analysis of Failure",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        38,
+        38
+      ],
+      "units": [
+        {
+          "title": "Aims of failure analysis, Prime factors in the premature failure of metallic components and",
+          "topics": "structures, 08 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Tools and techniques in failure analysis, Types of failures: ductile, brittle, fatigue,",
+          "topics": "creep, corrosion, wear etc., fractography, mixed mode and fatigue failures, 07 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Failure mechanisms, Embrittlement phenomena, environmental effects, Failures due to",
+          "topics": "faulty heat treatments, Failures in metal forming and welding, 07 Hrs",
+          "hours": null
+        },
+        {
+          "title": "Case studies in failure analysis,",
+          "topics": "Case studies in failure analysis,",
+          "hours": 7
+        },
+        {
+          "title": "Prevention of failures, case histories of component failures.",
+          "topics": "Prevention of failures, case histories of component failures.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "603",
+      "title": "Project Work-Stage II",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        39,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "604",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 12,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

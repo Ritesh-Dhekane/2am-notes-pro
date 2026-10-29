@@ -1,0 +1,662 @@
+{
+  "id": "mca-under-engineering-syllabus-2025-pattern-12092025",
+  "kind": "programme",
+  "programme": "Master of Computer Applications (Under Engineering)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-MCA",
+      "title": "Mathematical foundation for Computer Applications",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Set Theory and Logic",
+          "topics": "Set Theory: Basic concepts of set theory , Types of sets –Countable and Uncountable Sets, Finite and Infinite Sets, Countably Infinite and Uncountably Infinite Sets, Power set. Multi set, Operations on set, Principle of inclusion and exclusion, Venn diagram. Propositional Logic: Logic, Propositional equivalences, Application of Propositional Logic-Translating English Sentences, Proof by Mathematical Induction # Exemplar /Case Studies: Familiarity with some basic mathematical objects, notions & logic.",
+          "hours": 9
+        },
+        {
+          "title": "Relations and Functions",
+          "topics": "Relations: Relation and their properties, Representing Relations, Closures of Relations, Equivalence Relations, POSET, HASSE Diagram, Lattices-Chains and Anti-chains, Transitive Closure and Warshalls Algorithm. Functions: Subjective, Injective and Bijective functions, Inverse Functions and composition of func- tions, The Pigeonhole Principle. #Exemplar/Case Studies: Understanding relations, function and their types with best examples.",
+          "hours": 9
+        },
+        {
+          "title": "Probability and Combinatorics",
+          "topics": "Probability : Introduction to probability , sample space and events, Axioms of probability , conditional probability , Bayes Theorem. Permutations and Combinations : The Basics of Counting, rule of Sum and Product, Generalized Permutations and Combinations. Binomial Coefficients Identities and Pascal Triangle. #Exemplar/Case Studies: Expected to have a strong foundation for probabilities and permutation, combination.",
+          "hours": 9
+        },
+        {
+          "title": "Descriptive Statistics and Discrete Distribution",
+          "topics": "Sampling : Types of Sampling, Random Sampling Frequency distributions: Mean, Median, Mode, Variance and Standard Deviation for Grouped and Ungrouped Data. Co-relation, Regression and two regression equations (Regression Line of X on Y, Regression Line of Y on X). Discrete Distribution : Geometric Distribution, Binomial Distribution, Poisson Distribution, Intro- duction to Hypothesis Testing. #Exemplar/Case Studies : Ability to calculate basic statistical measures like mean, median, mode, standard deviation, and range.",
+          "hours": 9
+        },
+        {
+          "title": "Tree and Graph Theory",
+          "topics": "Tree : Introduction and properties of trees, rooted and binary trees, Spanning Tree. Graph Theory : Applications of graph, finite and infinite graphs, Matrix Representation, Isolated vertex, pendant vertex, and null graph, Isomorphism, Subgraphs, Euler graphs, Hamiltonian paths and circuits, Minimum spanning tree algorithms, Prim and Kruskal’s algorithm. #Exemplar/Case Studies : Familiarity with Tree and Graph application",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-MCA",
+      "title": "Data Structures and Algorithms",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Algorithms and Data Structures",
+          "topics": "Analysis of Algorithms: Algorithm, Complexity of an Algorithm, Asymptotic Notations, Big O Nota- tion, Big Omega Notation, Big Theta Notation, Rate of Growth and Big O Notation. Introduction to data Structures: Data Structures, Classification of Data Structures, Primitive Data Types, Abstract Data Types. Arrays: Introduction, One Dimensional Array , Memory Representation of One Dimensional Array , Traversing, Insertion, Deletion, Multidimensional Arrays, Memory Representation of Two Dimen- sional Arrays, General Multi-Dimensional Arrays, Sparse Arrays, Sparse Matrix, Memory Representa- tion of Special kind of Matrices, Advantages and Limitations of Arrays. #Exemplar/Case Studies: Student Records Management System",
+          "hours": 9
+        },
+        {
+          "title": "Linked list",
+          "topics": "Linked list: introduction to Linked List, Dynamic memory allocation, Singly Linked List operations: Create, Traversing, Searching, Insertion node, Deletion node, Merging Two Linked Lists, Reversing linked List. Doubly Linked List: Definition and structure of DLL, DLL Operations: Insertion: Insert at the begin- ning/end/ after a given node/before a given node Deletion: Delete from beginning/ end/ a specific node by value. Traversal:Forward traversal (head to last node), Backward traversal (last node to head), Searching: Search for a specific element. Updating:Modify data of a node. Circular Linked List : Definition and types. Applications of SLL- Polynomial representation. #Exemplar/Case Studies: Contact Management System : linked list-based",
+          "hours": 9
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": "Stack: Introduction, Stack as ADT- operations on stack, Array Representation of Stack. Applications- Matching Parenthesis, Recursion. Queue: Introduction, Queue as ADT- operations on queue, Array and Linked List Representation of Queue, Basics of special types of queues: Circular Queue, Deque , Priority Queue. Applications of Queue - Job Scheduling, CPU Scheduling (Round Robin scheduling), Print Spooling (managing multiple print jobs), Call Center Systems (customer call management). #Exemplar/Case Studies: Web Browser Navigation System: Study back and forward navigation feature for a web browser using Stacks and Queues.",
+          "hours": 9
+        },
+        {
+          "title": "Trees and Graphs",
+          "topics": "Trees : Concept of nonlinear data structure,Types of Trees: Binary Tree, Full Binary Tree, Complete Binary Tree, Skewed Binary Tree, Balanced Trees (like AVL Trees - brief introduction). Trees and binary trees-concept and terminology , Sequential & Linked representation of binary trees, Binary Tree Traversals: Recursive Traversal Algorithms: Inorder, Preorder, Postorder. Non-Recursive Traversal Algorithms:Using Stack for Inorder, Preorder, and Postorder Traversals and Level Order Traversal using Queue (Breadth-First Traversal), , Binary search trees (BST) , BST operations. Graphs: Definition and Basic Terminologies: Representation of graph - Adjacency matrix and Adja- cency list and Edge List Representation , Types of Graphs, Graph traversals- Depth First Search (DFS) : Recursive and Non-Recursive approaches, Breadth First Search (BSF): Using Queue. #Exemplar/Case Studies: Social Network Friend Recommendation System",
+          "hours": 9
+        },
+        {
+          "title": "Searching, Sorting and Hashing",
+          "topics": "Searching: Search Techniques, Sequential search, Binary search. Sorting: Types of sorting-Internal and external sorting, General sort concepts-sort order, stability , efficiency , number of passes, Sorting methods- Bubble sort, Insertion sort, Selection sort, Quick sort, Comparison of All Sorting Methods Hashing: Hash Tables, Hash function: Division, Folding, Mid-Square function. Collision Resolution: Open Addressing, Chaining. #Exemplar/Case Studies: Airline Reservation System : search and sort flight reservations",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-MCA",
+      "title": "Object Oriented Programming",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to C++ and OOP Concepts",
+          "topics": "Introduction to OOP: Encapsulation, Abstraction, Inheritance, Polymorphism, Procedural vs Object- Oriented Programming ,Basic Syntax, Data Types, Operators in C++, Manipulators in C++,Control Structures :Conditional Statements, Loops, Functions in C++: Call by value and Call by reference, Inline, Default Arguments # Exemplar /Case Studies: Banking System Overview.",
+          "hours": 9
+        },
+        {
+          "title": "Classes and Objects",
+          "topics": "Defining Classes and Objects, Access Specifiers: Public, Private, Protected, Scope resolution operator. Constructors: Types of constructor. and Destructors, Member Functions and Static Members, Friend Functions and Friend Classes, Dynamic Memory Allocation :new, delete & this Pointer. #Exemplar/Case Studies: Student Management System.",
+          "hours": 9
+        },
+        {
+          "title": "Inheritance and Polymorphism",
+          "topics": "Types of Inheritance:Single, Multiple, Multilevel, Hierarchical, Hybrid, Virtual Base Classes and Ab- stract Classes, Function Overriding, Compile-time Polymorphism: Function & Operator Overloading, Run-time Polymorphism: Virtual Functions & Pure Virtual Functions #Exemplar/Case Studies: Employee Payroll System.",
+          "hours": 9
+        },
+        {
+          "title": "Templates and Exception Handling",
+          "topics": "Function Templates and Class Templates, Standard Template Library (STL): Vectors, Lists, Maps, Exception Handling: try , catch, throw, Handling Multiple Exceptions & User-defined Exceptions. #Exemplar/Case Studies : Generic Sorting System.",
+          "hours": 9
+        },
+        {
+          "title": "File Handling and Advanced Topics",
+          "topics": "File Streams : ifstream, ofstream, fstream, Reading and Writing to Files, File Modes and Error Handling, Command Line Arguments, Object-Oriented Design Principles & C++ Standard Library #Exemplar/Case Studies : Library Management System",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "RM-530-MCA",
+      "title": "Research Methodology",
+      "semester": 1,
+      "type": "RM",
+      "credits": 3,
+      "pages": [
+        27,
+        30
+      ],
+      "units": [
+        {
+          "title": "Introduction to Research Methodology",
+          "topics": "Meaning of Research, Definition and Importance of Research in academic and industrial contexts, Objectives of Research, Motivation in Research, Types of Research (Basic vs. applied research, Quali- tative vs. quantitative research, Cross-sectional vs. longitudinal research), Research Methods versus Methodology , Criteria of Good Research, Research Process and Steps, Identifying the problem, Liter- ature review, Research questions, research methods in computer application. # Exemplar /Case Studies: A survey-based study that evaluates teaching strategies in relation to student achievement.",
+          "hours": 9
+        },
+        {
+          "title": "Research Design",
+          "topics": "Meaning of Research Design, Need for Research Design, importance of a Good Design, Basic Prin- ciples of Experimental Designs, Types of Research Designs: Exploratory design, Descriptive design, Experimental design, Quasi-experimental design, Components of Research Design: Objectives, Hy- potheses, Variables, Methods of data collection, Sampling design, Validity and Reliability: Internal validity , External validity . #Exemplar/Case Studies: Study on Impact of Climate Change on Agriculture.",
+          "hours": 9
+        },
+        {
+          "title": "Data Collection and sampling methods",
+          "topics": "Data Collection: Primary and Secondary Data; Primary and Secondary Data Sources; Data Collec- tion Methods Data collection techniques: surveys, interviews, observations, etc. Sampling: Concept of sampling and sampling methods – sampling frame, sample, characteristics of good sample, simple random sampling, purposive sampling, convenience sampling, snowball sam- pling, Sample Size, Sampling Techniques or Methods, Choice of Sampling Techniques. #Exemplar/Case Studies: Analyzing Mental Health and Screen Time Correlation of students.",
+          "hours": 9
+        },
+        {
+          "title": "Data Analysis and Research Ethics",
+          "topics": "Data Analysis: Introduction to Data Analysis, Descriptive Statistics, Inferential Statistics, Qualitative vs Quantitative data analysis, Regression Analysis and Correlation, Data Visualization Techniques. Research Ethics: Importance of Ethics in research, Principals of Ethical Research, Plagiarism and Copyright Infringement, intellectual property rights and patent law, scholarly publishing- IMRAD concept and Design of research paper, citation and acknowledgement. #Exemplar/Case Studies : Sentiment Analysis of Online Product Reviews Evaluating customer feedback using AI.",
+          "hours": 9
+        },
+        {
+          "title": "Research Report Writing",
+          "topics": "Research Report: Definition of Research Report, Importance of Research Report in Academia and Industry , Types of Research Report: Technical Report, Thesis/Dissertation, Journal/Conference Re- search Paper, Case Study , Components of Research Report, Ethical Consideration in Research report- ing. Structure and organization of Research Report: Title, Abstract, keyword, Introduction, Literature review, Methodology , Result and Discussion, References, Formatting and Citation (APA, IEEE, MLA). Finalizing and Reviewing the Research Report: Proofreading (grammar, coherence, and consistency), Plagiarism check, Formatting according to journal or university guidelines, Peer review, self-assessment. #Exemplar/Case Studies : Networks Researching next-generation wireless technology advance- ments - Future of 6G Communication.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-520A-MCA",
+      "title": "Elective I-Artificial Intelligence",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence and Intelligent Agent",
+          "topics": "Introduction: What Is Artificial Intelligence (AI), History of AI, and Applications of AI, AI Ethics, Advantage and Disadvantage of AI. Intelligent Agents: Types, Environments, Rationality , Agent Functions, The Nature of Environments, Features of Environments, Problem-Solving in Artificial Intelligence. # Exemplar /Case Studies:AI in Healthcare – Diagnosis & Decision Support Systems.",
+          "hours": 9
+        },
+        {
+          "title": "Problem-Solving & Search Strategies",
+          "topics": "State Space Representation, Solving Problems by Searching: Study and analysis of Various searching algorithms, Searching for Solutions. Uninformed Search Strategies: Breadth-first search, Uniform-cost search, Depth-first search, Depth- limited search, Iterative deepening depth-first search, Bidirectional search. Informed (Heuristic) Search Strategies: Greedy best first search A* search: Minimizing the total estimated solution cost, Conditions for optimality: Admissibility and consistency , Optimality of A*, Heuristic Functions. Adversarial Search: Minimax Algorithm, Alpha-Beta Pruning, Constraint Satisfaction Problems(CSPs). #Exemplar/Case Studies: AI in Games – Chess, Alpha Go, Reinforcement-based Agents.",
+          "hours": 9
+        },
+        {
+          "title": "Knowledge Representation & Reasoning",
+          "topics": "Definition of knowledge, types of knowledge, properties for knowledge representation system, AI Knowledge Cycle, Logical Agents: Propositional Logic, First-Order Predicate Logic (FOPL), Backward Chaining, For- ward Chaining, Semantic Network, Truth Maintenance System (TMS), Fuzzy Logic, Statistical and probabilistic reasoning. #Exemplar/Case Studies: AI for Legal Decision-Making – Knowledge-Based Systems.",
+          "hours": 9
+        },
+        {
+          "title": "Planning and Learning",
+          "topics": "Planning: Search in planning, search vs. planning, components of a planning, Forward planning, Hierarchical planning, STRIPS (Stanford Research Institute Problem Solver) Learning: Supervised, Unsupervised and Reinforcement Learning, Introduction to Neural Networks, Working of a Neuron, The basic components of ANN, Issues related to Neural computation, Feedfor- ward Networks, Back propagation Algorithm, Applications of Neural Networks. #Exemplar/Case Studies : AI in Autonomous Systems – Self-driving Cars & Drones.",
+          "hours": 9
+        },
+        {
+          "title": "Expert Systems and Emerging trends in AI",
+          "topics": "Expert Systems in AI:Knowledge Engineering, Architecture and Components of expert system Case- Based Reasoning, Steps for building expert system, Rule-Based vs. Data-Driven Approaches. Emerging Trends in AI: Cognitive Computing, Neuromorphic Computing, AI &Block chain Integra- tion, Symbolic AI vs. Connectionist AI. #Exemplar/Case Studies : AI for Pattern Recognition – Handwritten Character Recognition.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-520B-MCA",
+      "title": "Elective I-Mobile Computing",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Computing and Wireless Communication",
+          "topics": "Mobile Computing Overview: Introduction, Issues in Mobile Computing, Trends in Mobile Com- puting. Cellular Concepts: Wireless Telephony , Cellular Networks, Mobile Phone Technologies – 1G to 5G and Beyond (6G Introduction). GSM Architecture: Air Interface, Channel Structure, HLR-VLR, Handoffs, Channel Allocation.CDMA, GPRS, LTE, and VoLTE Concepts. UMTS: Architecture, Handover, Security . Value-Added Services (VAS): SMS, MMS, Cell Broadcast Service, and Location-Based Services (LBS). Protocols for Localization, Calling, and Handover. # Exemplar /Case Studies: Study GSM Architecture",
+          "hours": 9
+        },
+        {
+          "title": "Wireless Networking and Communication Protocols",
+          "topics": "Wireless LANs (WLANs): Overview, MAC Issues, IEEE 802.11 Standards (802.11 a/b/g/n/ac/ax). Bluetooth: Architecture, Protocols, and Applications. Wireless Multiple Access Protocols: FDMA, TDMA, CDMA, OFDMA. Mobile IP: IP Addressing, Handoff, and Mobility Management. AdHoc networks: Routing, Proactive protocol-DSDV, Reactive Routing Protocols: DSR, AODV Hybrid routing –ZRP, Multicast Routing: ODMRP, Vehicular Ad Hoc networks (VANET) MANET Vs VANET Security . Wireless Application Protocol (WAP): WAP Architecture, Protocol Stack, Application Environment. Security Issues in Mobile Networks and Applications #Exemplar/Case Studies: Study AODV protocol in MANET",
+          "hours": 9
+        },
+        {
+          "title": "Mobile Data Management and Cloud Integration",
+          "topics": "Mobile Data Management: Data Synchronization, Replication Issues, and Adaptive Clustering. Mobile File Systems: Caching, Disconnected Operations, and File Access in Mobile Environments. Cloud and Mobile Integration: Cloud Storage Services, Mobile Backend as a Service (MBaaS), and IoT Integration. Managing Big Data in Mobile Environments.Mobile Database and Security Challenges. #Exemplar/Case Studies: Study Mobile with Cloud like Azure.",
+          "hours": 9
+        },
+        {
+          "title": "Mobile Operating Systems and Platforms",
+          "topics": "Overview of Mobile Operating Systems: Android, iOS, Windows Mobile, and Embedded Linux. Android Development: Overview of Android Devices, Why Develop for Android, Android Features and Architecture. Designing User Interfaces in Android: Views, View Groups, Layouts, Menus, Dialogs, and Frag- ments. Introduction to Cross-Platform Mobile Development (React Native, Flutter). #Exemplar/Case Studies : Study All Mobile Operating Systems.",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Android Application Development and Mobile Security",
+          "topics": "Intents, Adapters, and Notifications. Accessing Device Services: Camera, GPS, Sensors, and Location-Based Services. Data Storage and Sharing: Internal and External Storage, SQ Lite, File System in Android. Networking in Android: HTTP Requests, Web Services, and REST APIs. Advanced Topics: Push Notifications, Firebase Integration, and Mobile Security Best Practices. #Exemplar/Case Studies : Study various storage used in android application development.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-520C-MCA",
+      "title": "Elective I-Data Analytics",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Analytics",
+          "topics": "Introduction to Data Analytics: Overview of Data Analytics: Importance, scope, and applications of data analytics. Types of Data Analytics: Descriptive, Diagnostic, Predictive, Prescriptive , Data Science vs Data Analytics vs Business Intelligence Data Types: Structured, unstructured, and semi-structured data, Overview of the Data Analytics Process Data Collection Methods: Surveys, Web, Databases, APIs, IoT # Exemplar /Case Studies: Analyzing Sales Performance of a Retail Chain",
+          "hours": 9
+        },
+        {
+          "title": "Data Collection and Preprocessing",
+          "topics": "Importance of Pre-processing in Data Analytics Data Quality: Common issues (e.g., missing data, duplicates) and their solutions. Data Cleaning Techniques: Handling missing data, duplicates, and outliers Data Transformation: Normalization, Scaling, Encoding , Data Integration and Reduction Encoding Categorical Data: Label Encoding, One-Hot Encoding, Ordinal Encoding Introduction to Tools: Excel, Python (Pandas), or R #Exemplar/Case Studies: Customer Feedback Analysis for a Food Delivery App.",
+          "hours": 9
+        },
+        {
+          "title": "Exploratory Data Analysis (EDA)",
+          "topics": "Definition and Purpose of EDA , Understanding the Structure and Type of Data , Calculating basic statistical measures , Central Tendency: Mean, Median, Mode , Dispersion: Variance, Standard Devi- ation, Range, IQR , Understanding the Structure and Type of Data, Identifying types of variables: Nu- merical (continuous, discrete), Categorical (ordinal, nominal), Date/Time. Checking dataset struc- ture using .shape, .info(), dtypes (in Python) or summary tools in Excel/R , Univariate Analysis , Bivariate and Multivariate Analysis . #Exemplar/Case Studies: EDA on Online Retail Dataset",
+          "hours": 9
+        },
+        {
+          "title": "Data-Driven Decision Making",
+          "topics": "Introduction to Data-Driven Decision Making (DDDM) , Steps in the data-driven decision lifecycle , Tools and Techniques for DDDM , Role of tools like Excel, Python (Pandas, Matplotlib), R in decision support Dashboards and Visual Analytics (e.g., Power BI, Tableau) , Data Ethics and Responsible Decision Making, Reporting and communication of insights to stakeholders . #Exemplar/Case Studies : Marketing Campaign Analysis",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Text Analytics",
+          "topics": "Understanding Text Analytics, Importance and challenges of analysing unstructured data, Applica- tions of text analytics: sentiment analysis, customer feedback, document classification. Basics of Nat- ural Language Processing (NLP), Key NLP tasks: Tokenization, Lemmatization, Stopword Removal. Text Representation Techniques : Bag of Words (BoW) , TF-IDF (Term Frequency–Inverse Document Frequency) , Basic comparison of BoW vs TF-IDF #Exemplar/Case Studies : Analyzing Customer Reviews for a Product",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-MCA",
+      "title": "Data Structures Laboratory",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        40,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-505-MCA",
+      "title": "Object Oriented Programming Laboratory",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-MCA",
+      "title": "Elective-I Laboratory (Artificial Intelligence)",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        47,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-MCA",
+      "title": "Elective-I Laboratory (Mobile Computing)",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521-MCA",
+      "title": "Elective-I Laboratory (Data Analytics)",
+      "semester": 1,
+      "type": "Programme Elective Course",
+      "credits": 1,
+      "pages": [
+        52,
+        55
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-506-MCA",
+      "title": "Python Programming Laboratory",
+      "semester": 1,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        56,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-MCA",
+      "title": "Operating System and Network Fundamentals",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        61,
+        63
+      ],
+      "units": [
+        {
+          "title": "Operating System Fundamentals",
+          "topics": "Introduction to Operating Systems: Definition and Purpose: Understanding the role and objectives of an OS. Types of Operating Systems: Batch, Time-sharing, Distributed, Real-time, and Embedded Systems. Memory Management: Allocation Techniques: Contiguous vs. Non-contiguous memory allocation. Paging and Segmentation: Mechanisms and benefits. Virtual Memory: Concepts, demand paging, and page replacement algorithms. # Exemplar /Case Studies: Windows vs. Linux – A Comparative Analysis of Memory Management",
+          "hours": 9
+        },
+        {
+          "title": "Storage Management and Process Management",
+          "topics": "Storage Management: File Systems: Directory structures, file allocation methods, and free-space management. Disk Scheduling: Algorithms like FCFS, SSTF, SCAN, and C-SCAN. Process Management: Process Concepts: Definition, lifecycle, and control blocks. Thread Manage- ment: Multithreading models and benefits. CPU Scheduling: Algorithms like FCFS, SJF, Round Robin, and Priority Scheduling. Process Syn- chronization: Critical sections, semaphores, and monitors. Deadlocks: Conditions, prevention, avoidance, detection, and recovery . #Exemplar/Case Studies: Process Scheduling in Modern Operating Systems – A Case of Android",
+          "hours": 9
+        },
+        {
+          "title": "Networking Fundamentals",
+          "topics": "Introduction to Networking: Definition and Importance: Understanding the need for networks. Network Types: LAN, WAN, MAN, PAN, and their characteristics. Network Topologies: Bus, Star, Ring, Mesh, and Hybrid. Network Models: OSI Model, TCP/IP Model, comparison between models. Transmission Media: Guided Media: Twisted Pair, Coaxial Cable, Fiber Optics. Unguided Media: Radio waves, Microwaves, Infrared. Network Devices : Hubs, Switches, Bridges, Routers, Gateways. #Exemplar/Case Studies: Enterprise Network Design – A Case of a Corporate Office",
+          "hours": 9
+        },
+        {
+          "title": "Network Protocols and Application Layer Protocol",
+          "topics": "Network Protocols: IP, ICMP, ARP, TCP, UDP – features and comparisons IP Addressing: IPv4 vs. IPv6, Subnetting concept. Routing Concepts, Routing Algorithms Routing Protocols: RIP, OSPF, BGP. Application Layer Protocols: HTTP, FTP, SMTP, DNS #Exemplar/Case Studies : IPv6 Migration – A Case of an Internet Service Provider",
+          "hours": 9
+        },
+        {
+          "title": "Network Security and Management",
+          "topics": "Network Security: Threats and Vulnerabilities: Common network security issues. Cryptography: Symmetric and asymmetric encryption techniques. Firewalls and VPNs: Mechanisms to secure net- works. Network Management: SNMP: Simple Network Management Protocol and its operations. Network Monitoring Tools: Tools like Wireshark and NetFlow. #Exemplar/Case Studies : Cybersecurity Threats and Defense Mechanisms – A Case of a Banking Network",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-MCA",
+      "title": "Database Management System",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        64,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database Systems",
+          "topics": "Purpose and applications of DBMS, Data models: Hierarchical, Network, Relational, Database ar- chitecture and data independence, Data Modeling: Entity-Relationship (ER) modeling: Entities, at- tributes, relationships, constraints, keys, Design Process: Enhanced ER (EER) modeling: Generaliza- tion, specialization, aggregation. # Exemplar /Case Studies: Design an ER diagram for a university database capturing entities like students, courses, and instructors.",
+          "hours": 9
+        },
+        {
+          "title": "Structured Query Language (SQL) and Procedural Extensions",
+          "topics": "SQL: Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), Advanced SQL features: Joins, sub queries, set operations, aggregate functions, Views: Cre- ation, modification, and deletion, Indexes: Purpose and implementation, Procedural extensions: PL/SQL basics, stored procedures, functions, triggers, cursors. #Exemplar/Case Studies: Develop SQL queries and PL/SQL procedures for a library management system, including book inventory and member transactions.",
+          "hours": 9
+        },
+        {
+          "title": "Relational Database Design and Normalization",
+          "topics": "Relational model concepts: Relations, tuples, attributes, CODD’s rules, Integrity constraints: Do- main, entity , referential, Functional dependencies and normalization: 1NF, 2NF, 3NF, BCNF, Design- ing efficient relational schemas. #Exemplar/Case Studies: Normalize the schema of a sales database to eliminate redundancy and update anomalies",
+          "hours": 9
+        },
+        {
+          "title": "Transaction Management and Concurrency Control",
+          "topics": "Transactions: Properties (ACID), states, and lifecycle, Concurrency control mechanisms: Lock-based protocols, timestamp-based protocols, Deadlock handling: Detection, prevention, and avoidance, Recovery techniques: Log-based recovery , checkpoints, shadow paging, Isolation levels and their impact on transaction behavior. #Exemplar/Case Studies : Analyze concurrency issues in an online banking system and propose solutions to maintain data consistency .",
+          "hours": 9
+        },
+        {
+          "title": "Emerging Trends in Databases",
+          "topics": "Distributed databases: Architecture, data distribution strategies, and challenges,NoSQL databases: Types (document, key-value, column-family , graph), use cases, and CAP theorem, Big Data technolo- gies: Introduction to Hadoop ecosystem, HDFS, MapReduce paradigm, Database security: Authen- tication, authorization, encryption techniques, Cloud databases: Benefits, challenges, and service models (DBaaS) #Exemplar/Case Studies : Evaluate the suitability of a NoSQL database for a social media applica- tion handling large volumes of unstructured data.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-MCA",
+      "title": "Software Engineering and Project Management",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        67,
+        70
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": "Nature of Software, Software Process, Software Engineering Practices, Software Myths, Generic Pro- cess Model, Analysis and comparison of Process Models: Waterfall Model, Incremental Models, Evo- lutionary Models, Concurrent, Specialized Process Models, Personal and Team Process Models, Intro- duction to Clean Room Software Engineering. Software Quality Assurance (SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 Models, CMM Models. Hands on Activity: Using a visual tool of your choice (e.g., word , Excel, Draw.io, Lucidchart, or any diagramming software), draw and label the Software Development Life Cycle (SDLC) for one of the following software process models . (Waterfall Model , Iterative Model, Incremental Model, Spiral Model , Agile Model (e.g., Scrum). Your diagram should clearly show: • All phases of the SDLC relevant to your chosen model. • Sequence or flow of phases using arrows or connectors. • A short description or output artifact for each phase. • Any feedback loops, iterations, or special characteristics of the model. # Exemplar /Case Studies: Online Library Management System – A Journey through Software Engineering Principles.",
+          "hours": 9
+        },
+        {
+          "title": "Requirement Analysis",
+          "topics": "Requirements Capturing: requirements engineering (elicitation, specification, validation, negotia- tion, prioritizing requirements (Kano diagram) - real life application using case study . Requirements Analysis: basics, scenario based modelling, UML models: use case diagram and class diagram, data modelling, data and control flow model, behavioral modelling using state diagrams - real life appli- cation case study , Software Requirement specification(SRS). Hands on Activity: 1. Choose a real-life or hypothetical software system from the list below. • Online Library Management System • Student Attendance System • Online Food Ordering App 2. Draw the following UML diagrams using any of these tools (Draw.io, StarUML, Lucidchart ) Choose at least 3 UML diagrams from: • Use Case Diagram • Class Diagram • Sequence Diagram • Activity Diagram • State Diagram #Exemplar/Case Studies: Online Voting System for Student Council.",
+          "hours": 9
+        },
+        {
+          "title": "Agile Development Process",
+          "topics": "Agile Development: Agile manifesto, agility and cost of change, agility principles, myth of planned development, toolset for the agile process. Extreme Programming: XP values, process, industrial XP, SCRUM - process flow, scrum roles, scrum cycle description, product backlog, sprint planning meeting, sprint backlog, sprint execution, daily scrum meeting, maintaining sprint backlog and burn-down chart, sprint review and retrospective. Agile Practices: test driven development, refactoring, pair programming, continuous integration, exploratory testing versus scripted testing. Hands on Activity: Create a well-formatted table in Word comparing Agile and Waterfall across 5–6 dimensions. Columns should be Aspect, Agile Approach, Waterfall Approach, and Example. #Exemplar/Case Studies: Online Course Feedback and Analysis System",
+          "hours": 9
+        },
+        {
+          "title": "Project Planning",
+          "topics": "Project initiation, Planning Scope Management, Creating the Work Breakdown Structure, Effort esti- mation and scheduling: Importance of Project Schedules, Estimating Activity Resources, Estimating Activity Durations, Developing the Schedule using Gantt Charts, Adding Milestones to Gantt Charts, Using Tracking Gantt Charts to Compare Planned and Actual Dates, Critical Path Method, Program Evaluation and Review Technique (PERT) with examples. Planning Cost Management, Estimating Costs, Types of Cost Estimates, Cost Estimation Tools and Techniques, Typical Problems with IT Cost Estimates. Project Leadership: Approaches to Leadership, Leadership Styles, Emotional Intelligence, Ethics in Projects: Ethical Leadership, Common Ethical Dilemmas, Making Sound Ethical Decisions, Codes of Ethics and Professional Practices Hands on Activity: 1. Create a Work Breakdown Structure (WBS) for a project of your choice (e.g., website development, event planning, or software development). You can use Excel or Word to create a clear hierarchical WBS structure with tasks and sub-tasks. 2. Using Excel, create a Gantt chart for a small project (e.g., organizing a college event). Add at least 5 milesto...",
+          "hours": 9
+        },
+        {
+          "title": "Project Management",
+          "topics": "Project monitoring and control:tools for project management, Software tools like Microsoft project management or any other open source tools. The Importance of Project Quality Management: Plan- ning Quality Management, Performing Quality Assurance, Controlling Quality , Tools and Techniques for Quality Control (Statistical control, Six Sigma) Risk Analysis & Management: Reactive versus Proactive Risk Strategies, Software Risks, Risk Identification, Risk Projection, Risk Refinement, Risk Mitigation, Risks Monitoring and Management, The RMMM plan for case study project. Software Configuration Management: The SCM repository , SCM process, Version Control and Change Control, SCM tools- GitHub or others, Configuration management for Web Apps. Maintenance & Reengineer- ing: Software Maintenance, Reengineering, Business Process Reengineering. Hands on Activity: Create a GitHub account and set up a basic repository for a simple project. #Exemplar/Case Studies : E-Learning Portal for Skill Development.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-MCA",
+      "title": "Java and Advance Java Programming",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 3,
+      "pages": [
+        71,
+        73
+      ],
+      "units": [
+        {
+          "title": "An Introduction to Java Programming",
+          "topics": "An Introduction to Java: A Short History of Java, Features of Java,Creating and Running Java Pro- grams using Command Line Arguments and IDE, Programming Construct Decision making statement, switch statement, looping statement, Class and Object Defining a class, adding variables, Adding Methods, Creating Objects, Accessing Class Members, Constructors, Object Oriented concepts with respect to Java. Inheritance: Extending a class, Overriding Method, using super, Final variable and Methods, this keyword, Interfaces, Packages, Exception Handling. # Exemplar /Case Studies: Study of Java Program compilation Process, testing and debugging.",
+          "hours": 9
+        },
+        {
+          "title": "Multithreading And AWT",
+          "topics": "Multithreading: Multithreading concepts, Thread Life cycle, Creating multithreaded application, Thread priorities, Thread synchronization. Abstract Windows Toolkit:Components and Graphics, Containers, Frames and Panels, Layout Man- agers, AWT basic components. Event delegation Model: Event source and handler, Event categories, Listeners, interfaces, Anony- mous classes. Swing: Containers, JFrames and JPanels, Layout Managers, Swing basic components. Swing Libraries: Model view Controller design pattern, Different layout, menus dialog boxes, text input. #Exemplar/Case Studies: Design Multithreaded GUI Application Using AWT & Swing.",
+          "hours": 9
+        },
+        {
+          "title": "Networking with java and JDBC",
+          "topics": "Networking basics: Sockets, port, Proxy servers, Internet addressing 7 URL, java.net – networking classes and interfaces, Implementing TCP/IP based Server and Client, Datagrams – Datagram packet, Datagram server and client, URL connections. JDBC: Java database connectivity , Types of JDBC drivers, Writing first JDBC applications, Types of statement objects ,Statement, Prepared Statement and Callable Statement, Types of resultset, Result- Set Metadata, Inserting and updating records, Connection pooling. #Exemplar/Case Studies: Developing a Networked File Management System with Database Sup- port",
+          "hours": 9
+        },
+        {
+          "title": "Servlet And JSP",
+          "topics": "Servlet: Introduction, Web application Architecture, Life cycle of servlet, Handling HTTP Get Re- quest, Handling HTTP Post Request. Servlet Communication: Servlet-Browser CommunicationsendError, setHeader, sendRedirect, Web- Component Communication- Forward, Include, Tracking Mechanisms: Session Object, Cookies, URL- Rewriting, Hidden Form Fields. Introduction to JSP: Getting Familiar with JSP Server, First JSP Page, Adding Dynamic contents via expressions, Scriptlets, Mixing Scriptlets and HTML Directives, Declaration, Tags and Session. #Exemplar/Case Studies : Study of Web Servers.",
+          "hours": 9
+        },
+        {
+          "title": "Spring",
+          "topics": "Spring: Overview of spring, Spring MVC Architecture, Spring MVC Flow, the core spring module, wiring beans, aspect-oriented spring, database and managing transactions with swing, building web applications with spring MVC, Spring Form Handling, working with remote services, Managing spring with JMX. #Exemplar/Case Studies : Building Web Applications with Spring MVC.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-570A-MCA",
+      "title": "Elective II-Machine Learning",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        74,
+        76
+      ],
+      "units": [
+        {
+          "title": "Introduction to Fundamentals of Machine Learning",
+          "topics": "Introduction: What is Machine Learning, Examples of Machine Learning applications, Training ver- sus Testing, Positive and Negative Class, Cross-validation. Types of Learning: Supervised, Unsu- pervised and Semi- Supervised Learning. Dimensionality Reduction: Introduction to Dimensionality Reduction, Subset Selection, Introduction to Principal Component Analysis. # Exemplar /Case Studies: Reducing Dimensionality in Sensor Data.",
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning: Regression",
+          "topics": "Introduction to Regression: Definition, types, and use cases, Linear Regression: Theory , cost function, gradient descent, and assumptions, Polynomial Regression: Adding polynomial terms, degree selection, overfitting, underfitting, Lasso and Ridge Regression: Regularization techniques for controlling model complexity , Support Vector Regression (SVR), Evaluation metrics for regression models: Mean Squared Error (MSE), R-squared, and Mean Absolute Error (MAE). #Exemplar/Case Studies: Predicting Marketing ROI.",
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning: Classification",
+          "topics": "Introduction to Classification: Definition, types, and use cases, Logistic Regression: Theory , logis- tic function, binary and multiclass classification , Classification algorithms: Naïve Bayes classifier, k-Nearest Neighbor (KNN), Support vector machines, Decision Trees: Construction, splitting criteria, pruning, and visualization, Random Forests: Ensemble learning, bagging, and feature importance, Evaluation metrics for classification models: Accuracy , Precision, Recall, F1-score, and ROC curves. #Exemplar/Case Studies: Email Spam Detection System or Sentiment Analysis of Customer Re- views.",
+          "hours": 9
+        },
+        {
+          "title": "Unsupervised Learning",
+          "topics": "Unsupervised Learning: Definition, applications, challenges, Clustering algorithms: K-means clus- tering, Agglomerative hierarchical clustering- DBSCAN, Anomaly detection: K nearest neighbor (KNN), Association rule: Apriori algorithm, FP- growth algorithm, Dimensionality Reduction, PCA., Super- vised learning vs Unsupervised learning vs Semi- Supervised learning. #Exemplar/Case Studies : Customer Segmentation using K-means clustering.",
+          "hours": 9
+        },
+        {
+          "title": "Current trends in Machine Learning",
+          "topics": "Reinforcement Learning: Exploration, Exploitation, Rewards, Penalties, Deep Learning: The Neu- ron, Expressing Linear Perceptron as Neurons, Feed Forward Neural Networks, Linear Neurons and their Limitations, Sigmoid, Tanh and ReLU Neurons, Generative Models: GAN and its applications, Natural Language Processing (NLP): transformer models and their application, Explainable AI (XAI). #Exemplar/Case Studies : Transfer Learning and Pretrained Models.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-570B-MCA",
+      "title": "Elective II-Internet of Things",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        77,
+        79
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of IoT",
+          "topics": "Overview of IoT: Definition and Characteristics, IoT Architecture, Components of IoT: Things- devices and sensors, Physical Design of IoT & Logical Design of IoT, Communication technologies, Data processing and storage, Overview of protocols in IoT -MQTT, CoAP, HTTP. # Exemplar /Case Studies: Smart Manufacturing.",
+          "hours": 9
+        },
+        {
+          "title": "IoT Devices and Connectivity",
+          "topics": "IoT Sensors and Actuators: Types and functionalities, Interfacing sensors with devices, Connectivity and Communication: IoT networking technologies-Wi-Fi, Bluetooth, Zigbee, LoRa, 5G, Role of gateways in IoT networks, Challenges in IoT connectivity , Power management in IoT devices. #Exemplar/Case Studies: Supply Chain Management.",
+          "hours": 9
+        },
+        {
+          "title": "IoT Data and Cloud Integration",
+          "topics": "Data Collection and Processing: Data types and formats in IoT, Data analytics in IoT, IoT and Cloud Computing: Cloud platforms for IoT-AWS IoT, Google Cloud IoT, Microsoft Azure IoT, Edge computing and its importance Security and Privacy Challenges: Common vulnerabilities in IoT systems, best practices for securing IoT networks. #Exemplar/Case Studies: Transportation/ Logistics.",
+          "hours": 9
+        },
+        {
+          "title": "Security and Privacy",
+          "topics": "Challenges and threats to IoT security , IoT Security Requirements, IoT Three-Domain Architecture, Cloud Domain Attacks and Counter measures, Fog Domain Attacks and Counter measures, Sensing Domain Attacks and Counter measures, Summary and Future Directions. #Exemplar/Case Studies : Health Care.",
+          "hours": 9
+        },
+        {
+          "title": "IoT Applications and Future Trends",
+          "topics": "Key IoT Application Areas: Smart homes and cities, Industrial IoT-IIoT and smart manufacturing, Healthcare and wearable’s, Agriculture, and environmental monitoring Challenges and Opportunities in IoT Development. Emerging Trends: AI in IoT, Block chain for IoT security , IoT in sustainability . #Exemplar/Case Studies : Smart Governance.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-570C-MCA",
+      "title": "Elective II-Data Mining and Data warehousing",
+      "semester": 2,
+      "type": "Programme Elective Course",
+      "credits": 3,
+      "pages": [
+        80,
+        82
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of data mining and Data Pre-processing",
+          "topics": "Introduction to Data Mining - Motivation, Importance, Definition of Data Mining, Kind of Data. Data Mining Functionalities and Applications. Architecture of Data Mining Systems Data Preprocessing – Data Cleaning, Data Integration and Transformation, Data Reduction, Data Discretization and Concept Hierarchy Generation. # Exemplar /Case Studies: Netflix – Personalized Recommendation System.",
+          "hours": 9
+        },
+        {
+          "title": "Data Warehouse and OLAP",
+          "topics": "Data warehousing – Basic concepts, Components, Building a Data warehouse. Data Warehouse Architecture and DBMS Schemas for Decision Support. Data Extraction, Transformation and Loading (ETL). Data Quality and Metadata, Query tools and Applications. Online Analytical Processing (OLAP) – OLAP and Multidimensional Data Analysis. #Exemplar/Case Studies: Walmart – Retail Data Warehousing for Inventory Management.",
+          "hours": 9
+        },
+        {
+          "title": "Association Rules",
+          "topics": "Association Rule Mining: Concepts and Applications, Efficient and Scalable Frequent Item set Min- ing Methods, Market Basket Analysis and Apriori Algorithm, Tree-Based Algorithms for Association Mining, Association Mining to Correlation Analysis Constraint-Based Association Mining. #Exemplar/Case Studies: Amazon – Market Basket Analysis for Product Recommendations.",
+          "hours": 9
+        },
+        {
+          "title": "Classification and Prediction",
+          "topics": "Classification and Prediction: Issues Regarding Classification and Prediction , Classification by De- cision Tree Induction , Bayesian Classification , Rule Based Classification , Classification by Back propagation , Support Vector Machines: Associative Classification Other Classification Methods, Pre- diction – Accuracy and Error Measures, Evaluating the Accuracy of a Classifier or Predictor. #Exemplar/Case Studies : JPMorgan Chase – Fraud Detection in Banking.",
+          "hours": 9
+        },
+        {
+          "title": "Clustering Methods and Outlier Analysis",
+          "topics": "Cluster Analysis: Problem Definition, Clustering Overview, Evaluation of Clustering Algorithms, Partitioning Clustering-K-Means Algorithm, K-Means Additional issues, Hierarchical Clustering-Agglomerative Methods and divisive methods, Basic Agglomerative Hierar- chical Clustering Algorithm, Specific techniques, Key Issues in Hierarchical Clustering, Strengths and Weakness; Outlier Detection. #Exemplar/Case Studies :Google – User Segmentation for Targeted Advertising.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-555-MCA",
+      "title": "Java Programming Laboratory",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 2,
+      "pages": [
+        83,
+        85
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-556-MCA",
+      "title": "Database Laboratory",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        86,
+        90
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-557-MCA",
+      "title": "Project Based Learning",
+      "semester": 2,
+      "type": "Programme Core Course",
+      "credits": 1,
+      "pages": [
+        91,
+        95
+      ],
+      "units": []
+    },
+    {
+      "code": "OJT-581-MCA",
+      "title": "Internship",
+      "semester": 2,
+      "type": "Internship/OJT (IN/OJT)",
+      "credits": 3,
+      "pages": [
+        96,
+        101
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

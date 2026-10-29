@@ -1,0 +1,344 @@
+{
+  "id": "final-m-arch-environmental-architecture-2026-25072026",
+  "kind": "programme",
+  "programme": "Masters in Architecture M. Arch (Environmental Architecture)",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "2026EA101",
+      "title": "Environmental Design Studio I",
+      "semester": 1,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        9,
+        9
+      ],
+      "units": [
+        {
+          "title": "Design Project 1: Urban Scale/ Campus Scale: Application of ambient level strategies",
+          "topics": "Passive solar strategies (sun, wind, light, topography, water, vegetation, context) in architecture and planning. Understand solar passive strategies for planning and orientation through shading, wind movement, form and orientation, outdoor comfort and urban heat island mitigation. Strategies for site level resource management (water, energy, and vegetation). Pre-design site analysis, including sun paths, wind roses, microclimate, and topography, to inform zoning and massing.",
+          "hours": null
+        },
+        {
+          "title": "Design Project 2: Building Scale: Design of a small unit to respond to building level elements",
+          "topics": "Design of a small unit to respond to building level elements such as shading devices, envelope design, day lighting etc. Incorporate climate-responsive building envelopes, appropriate materiality, and opening placement.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA102",
+      "title": "Building Physics",
+      "semester": 1,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Climate",
+          "topics": "Global climate, Factors affecting climate, Earth-Sun relationship, Solar radiation and its measurement, Greenhouse effect, microclimate, Macro and Micro climate data, Climatic zones of India, Psychrometric chart, Bioclimatic chart.",
+          "hours": null
+        },
+        {
+          "title": "Thermal Comfort",
+          "topics": "Body heat balance, Adaptive thermal comfort model, PMV and PPD, Thermal indices, Heat transfer in buildings (Conduction, Convection, Radiation), Steady state and dynamic thermal performance of building envelope, Thermal properties of materials, U-value, SHGC, VLT calculations.",
+          "hours": null
+        },
+        {
+          "title": "Lighting",
+          "topics": "Daylighting principles, Daylight factor, Components of daylight (Sky component, External reflected component, Internal reflected component), Daylighting metrics (sDA, ASE, UDI), Artificial lighting fundamentals, Lamps and luminaires, Energy-efficient lighting design, Lighting controls.",
+          "hours": null
+        },
+        {
+          "title": "Environmental Acoustics",
+          "topics": "Physics of sound, Sound propagation, Noise criteria, Sound absorption, Sound insulation, Reverberation time, Acoustical defects, Acoustical design of spaces, Noise control techniques.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA103",
+      "title": "Environmental Laws and Codes",
+      "semester": 1,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Understanding legal side of sustainability",
+          "topics": "Evolution of environmental laws and sustainability concepts, International conventions and protocols (Stockholm, Rio, Kyoto, Paris Agreement), Constitutional provisions for environmental protection in India.",
+          "hours": null
+        },
+        {
+          "title": "Environmental laws and legislation, rules, notifications",
+          "topics": "The Environment (Protection) Act 1986, Air (Prevention and Control of Pollution) Act 1981, Water (Prevention and Control of Pollution) Act 1974, Forest Conservation Act, EIA Notification and processes, CRZ Regulations, Solid Waste Management Rules.",
+          "hours": null
+        },
+        {
+          "title": "Building Energy Codes and Performance Standards",
+          "topics": "Energy Conservation Building Code (ECBC), Eco-Niwas Samhita (ENS), National Building Code (NBC) Part 11, Green building rating systems and compliance mechanisms.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA104",
+      "title": "Elective I",
+      "semester": 1,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "Resource Management in Built Environment",
+          "topics": "1. Efficient Building Materials & Technologies 2. Water resource management 3. Waste resource management 4. Land and Soil Management 5. Resource Mapping Tools and Methods 6. Any other relevant topic related to resource management.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA105",
+      "title": "Performance Simulation Lab I",
+      "semester": 1,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": [
+        {
+          "title": "Early Design tools for Thermal Comfort",
+          "topics": "Introduction to climate analysis tools (Climate Consultant, CBE Clima Tool, etc.), analysis of weather files (EPW), psychrometric analysis, identifying passive design strategies.",
+          "hours": null
+        },
+        {
+          "title": "Lighting Simulation Software",
+          "topics": "Solar path analysis, shading analysis, daylight simulation tools, evaluating Daylight Factor, sDA, and ASE.",
+          "hours": null
+        },
+        {
+          "title": "Ventilation and Acoustic Analysis Tools",
+          "topics": "Natural ventilation analysis, airflow network modeling, basic acoustic simulation tools.",
+          "hours": null
+        },
+        {
+          "title": "Use of Environmental Instruments",
+          "topics": "Hands-on experience with environmental monitoring instruments: Lux meter, Thermal anemometer, Sound level meter, Thermal imaging camera, Data loggers.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA201",
+      "title": "Environmental Design Studio II",
+      "semester": 2,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        16,
+        16
+      ],
+      "units": [
+        {
+          "title": "Design/Retrofitting of buildings/campuses for energy efficiency",
+          "topics": "Design/Retrofitting of buildings/campuses for energy efficiency. Focus on deep green retrofits, net-zero energy design, advanced envelope design, integration of renewable energy, water circularity, and life cycle assessment.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA202",
+      "title": "Tools for measuring Sustainability",
+      "semester": 2,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        17,
+        17
+      ],
+      "units": [
+        {
+          "title": "Green Building Rating Systems",
+          "topics": "To understand the various Green Building Rating Systems like LEED, GRIHA, IGBC, GEM and EDGE. Criteria, credit points, documentation, and compliance processes.",
+          "hours": null
+        },
+        {
+          "title": "Sustainability Measurement and Assessment Tools",
+          "topics": "Tools or topics dealing with sustainability and its measurement/assessment: carbon footprint accounting, embodied carbon calculation, ESG frameworks, circular economy metrics.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA203",
+      "title": "Building Energy Management",
+      "semester": 2,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Energy Scenario & Fundamentals",
+          "topics": "Global and Indian energy scenario, energy security, building energy consumption trends, energy conservation fundamentals, energy auditing methodologies.",
+          "hours": null
+        },
+        {
+          "title": "MEP services for Energy Management in Buildings",
+          "topics": "HVAC systems, energy efficiency in HVAC, chiller plants, VRF systems, pumps, fans, cooling towers, energy conservation opportunities in pumping systems, lighting systems, building management systems (BMS).",
+          "hours": null
+        },
+        {
+          "title": "Renewable & Alternative Energy Sources for Energy Management in Buildings",
+          "topics": "Solar photovoltaic systems, rooftop solar, solar thermal systems, wind energy in urban contexts, geothermal heat pumps, biomass, energy storage systems, grid integration, net metering.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA204",
+      "title": "Elective II",
+      "semester": 2,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        20,
+        20
+      ],
+      "units": [
+        {
+          "title": "Advanced Topics in Environmental Architecture",
+          "topics": "1. Energy and Environmental Audit 2. Indoor Environmental Quality 3. LCA AND EPD for Buildings and Products 4. Post Occupancy Evaluation and Techniques 5. Environmental behavior.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA205",
+      "title": "Performance Simulation Lab II",
+      "semester": 2,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": [
+        {
+          "title": "Overview of Energy Simulation Software and Introduction",
+          "topics": "Hands-on training in whole building energy simulation tools (e.g. DesignBuilder, EnergyPlus, eQuest). Software interface, geometry creation, assigning thermal zones, setting schedules and internal loads.",
+          "hours": null
+        },
+        {
+          "title": "Whole Building Simulation Modeling",
+          "topics": "Hands-on training for whole building thermal and energy simulation, modeling HVAC systems, envelope optimization, parametric simulations, output analysis and energy performance visualization.",
+          "hours": null
+        },
+        {
+          "title": "Codes and Standards",
+          "topics": "Application of Standards and codes along with rating system compliance modeling: ASHRAE 90.1, ECBC compliance through Whole Building Performance method.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026EA301",
+      "title": "Environmental Design Studio III",
+      "semester": 3,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "2026EA302",
+      "title": "Professional Practice and Training",
+      "semester": 3,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "2026EA303",
+      "title": "Research",
+      "semester": 3,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "2026EA304",
+      "title": "Elective III",
+      "semester": 3,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "2026EA305",
+      "title": "Performance Simulation Lab III",
+      "semester": 3,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "2026EA401",
+      "title": "Environmental Architecture Project",
+      "semester": 4,
+      "type": "C",
+      "credits": 17,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    },
+    {
+      "code": "2026EA402",
+      "title": "Elective IV",
+      "semester": 4,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        7,
+        7
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

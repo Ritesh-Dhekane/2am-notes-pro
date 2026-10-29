@@ -1,0 +1,414 @@
+{
+  "id": "final-m-arch-computer-applications-2026-25072026",
+  "kind": "programme",
+  "programme": "Masters in Architecture M. Arch. (Computer Applications)",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "2026CA101",
+      "title": "Digital Design Studio I",
+      "semester": 1,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Scope of Project : From concept development to a fully detailed digital",
+          "topics": "model ready for fabrication.",
+          "hours": null
+        },
+        {
+          "title": "Key Skills Introduced: Digital modelling, scaling, proportion, detailing,",
+          "topics": "overhang and printability analysis, structural feasibility, basic material awareness.",
+          "hours": null
+        },
+        {
+          "title": "Digital Fabrication Introduction : Students will prepare models for 3D",
+          "topics": "printing, understanding tolerances, support structures, and post-processing basics.",
+          "hours": null
+        },
+        {
+          "title": "Analysis Types : Overhang analysis, wall thickness check, stability",
+          "topics": "assessment, and assembly feasibility.",
+          "hours": null
+        },
+        {
+          "title": "Outcome: A 3D -printable model supported by comprehensive",
+          "topics": "documentation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA102",
+      "title": "Digital Tools I",
+      "semester": 1,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Rhino Basics: Interface navigation, viewport management, layers, object snaps,",
+          "topics": "precision modelling, surface creation, curve editing, surface-to-solid workflows, sub-D geometry creation, and rendering basics.",
+          "hours": null
+        },
+        {
+          "title": "Grasshopper Basics: Interface layout, components & parameters, logic building",
+          "topics": "fundamentals, data structures (lists, simple trees), geometry manipulation, parametric transformations, and linking Rhino geometry with parametric definitions.",
+          "hours": null
+        },
+        {
+          "title": "Fabrication Basics: Overview of digital fabrication, subtractive vs. additive",
+          "topics": "processes, 3D printing fundamentals, slicing with Cura, understanding G -code, basic machine calibration, safety protocols, introduction to CNC milling and laser cutting principles.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA103",
+      "title": "Automation Design I",
+      "semester": 1,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction to automation in architecture and design",
+          "topics": "Basics of electronics: voltage, current, resistance, wiring, breadboards • Arduino platform: IDE, code structure, libraries",
+          "hours": null
+        },
+        {
+          "title": "Sensors: motion, light, touch, ultrasonic, temperature",
+          "topics": "Actuators: servos, stepper motors, DC motors, solenoids • Types of motion and joint mechanics",
+          "hours": null
+        },
+        {
+          "title": "Firefly plugin for Rhino-Grasshopper hardware interface",
+          "topics": "Basic circuit design and troubleshooting • Prototype development workflow • Final project: small-scale kinetic/interactive system",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA104",
+      "title": "Elective I",
+      "semester": 1,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        19,
+        22
+      ],
+      "units": [
+        {
+          "title": "Research Reading and Academic Inquiry",
+          "topics": "Introduction to architectural research ,Research methodologies in computational design , understanding academic journals and conference papers, Literature review techniques, Critical analysis of research publications, identifying research gaps and opportunities, Citation, referencing, and plagiarism awareness ,Research databases and digital repositories",
+          "hours": null
+        },
+        {
+          "title": "Algorithmic Design Thinking",
+          "topics": "Computational thinking in architecture, Design as a rule-based process Introduction to algorithms and logic structures ,Parametric and generative design concepts ,Visual programming environments, Data-driven design approaches ,Optimization techniques in design ,Case studies in algorithmic architecture",
+          "hours": null
+        },
+        {
+          "title": "Arduino Prototyping",
+          "topics": "Introduction to physical computing, Overview of microcontrollers, Arduino ecosystem and architecture, electronic fundamentals, breadboard prototyping, digital and analogue inputs/outputs , Sensors and actuators, Communication protocols, Interactive architectural applications",
+          "hours": null
+        },
+        {
+          "title": "Arduino IDE Programming",
+          "topics": "Arduino IDE environment, Program structure: Setup and Loop, Variables and data types, Operators and expressions, Conditional statements, Iterative structures (loops), Functions and modular programming, Serial communication, Library management, Sensor data acquisition, Actuator control.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA105",
+      "title": "Digital Design Theory I",
+      "semester": 1,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        23,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Concepts in Critical Theory",
+          "hours": null
+        },
+        {
+          "title": "Digital culture",
+          "topics": "Curvilinearity in architecture",
+          "hours": null
+        },
+        {
+          "title": "Architecture and science",
+          "topics": "Architecture and cybernetics",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA201",
+      "title": "Digital Design Studio II",
+      "semester": 2,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Design Focus: Individual pavilion design project with group collaboration",
+          "topics": "for large-scale models.",
+          "hours": null
+        },
+        {
+          "title": "Conceptual Development: Application of digital design theories and",
+          "topics": "parametric thinking.",
+          "hours": null
+        },
+        {
+          "title": "Technical Development: Generation of detailed working drawings,",
+          "topics": "material specifications, and assembly sequences.",
+          "hours": null
+        },
+        {
+          "title": "Practical Integration: Real-world site selection, engagement with actual",
+          "topics": "clients, and participation in competitions or funded projects.",
+          "hours": null
+        },
+        {
+          "title": "Scale & Site: Minimum site area to be defined as per project brief; design",
+          "topics": "to respond to specific site conditions.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA202",
+      "title": "Digital Tools II",
+      "semester": 2,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Grasshopper Advanced: Deep dive into data trees, data matching, path",
+          "topics": "mapping, iterative loops (Anemone plugin), clustering, and managing large definitions.",
+          "hours": null
+        },
+        {
+          "title": "Plugins & Theoretical Links: Shape grammar -based tools (e.g.,",
+          "topics": "LunchBox, Space Syntax), topology optimization (Millipede, Karamba), GIS integration (Elk, Heron), physics -based simulations (Kangaroo), environmental analysis plugins (Ladybug, Honeybee).",
+          "hours": null
+        },
+        {
+          "title": "Fabrication Techniques : Multi -axis CNC, advanced laser cutting",
+          "topics": "workflows, integration of robotics in fabrication, documentation for assembly, tolerance considerations.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA203",
+      "title": "Automation Design II",
+      "semester": 2,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        32,
+        33
+      ],
+      "units": [
+        {
+          "title": "Sensors and actuators: linear actuators, pneumatic systems",
+          "topics": "Multi-component circuit design and communication protocols (I2C, Serial, Bluetooth)",
+          "hours": null
+        },
+        {
+          "title": "Integration with Grasshopper & Firefly for real-time data-driven design",
+          "topics": "Case studies of kinetic architecture and responsive installations",
+          "hours": null
+        },
+        {
+          "title": "Fabrication of large-scale prototypes: modularity, scalability, durability",
+          "topics": "Group or individual final project: kinetic installation, interactive art, or architectural element. SESSIONAL/TERM WORK: Evaluation will consider progressive prototyping stages, successful integration of components, and design documentation. Students will produce an A4/A3 portfolio (printed) including design concepts, circuit diagrams, programming logic, fabrication details, and testing outcomes, along with the completed working prototype model. COURSE OUTCOMES: At the end of the course, the students are expected to 1. Apply advanced programming and electronics skills to control multiple components simultaneously. 2. Design and fabricate larger-scale kinetic or interactive systems. 3. Integrate hardware with computational design workflows for adaptive responses. 4. Test, refine, and present a fully functional prototype in a simulated or real environment.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA204",
+      "title": "Elective II",
+      "semester": 2,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Embedded systems - Embedded systems for intelligent buildings",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Self-assembly- Self-assembly systems",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Robotics- Manufacturing: Introduction to robotics in manufacturing",
+          "topics": "and assembly",
+          "hours": null
+        },
+        {
+          "title": "Robotics - construction Robotics in construction",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Mass Customisation - Concepts in mass customisation",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Digital Fabrication",
+          "topics": "SUBMISSION REQUIREMENT FOR SESSIONAL WORK : Student / group of students should be able to generate 3D models based on the technique of mass customisation/robotics/ automated construction, digital fabrication. COURSE OUTCOME : The students shall be able to execute small scale components of design with the help of emerging technology of automation into construction. This course shall facilitate the practical implementation of mass customisation. RECOMMENDED READINGS : • Date P. P., “Introduction to Manufacturing Technology, Principles and Practices”, , Jayco • Publishers, Mumbai • G. Boothroyd , C. Poli, L. Murch, “Automatic Assembly”, Marcel Dekker Inc. 1982. • Histand B.H., Alciatore D.G., “Introduction to Mechatronics and Measurement Systems”, ISBN 0-07-052910-8 ***",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA205",
+      "title": "Digital Design Theory II",
+      "semester": 2,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Digital Architecture design processes and diagrams",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Morphogenetic design processes, etc",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Shape grammar",
+          "topics": "Other similar theoretical issues",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "2026CA301",
+      "title": "Digital Design Studio III",
+      "semester": 3,
+      "type": "C",
+      "credits": 9,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "2026CA302",
+      "title": "Professional Practice & Training*",
+      "semester": 3,
+      "type": "SP1",
+      "credits": 3,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "2026CA303",
+      "title": "Research",
+      "semester": 3,
+      "type": "SP2",
+      "credits": 3,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "2026CA304",
+      "title": "Elective III",
+      "semester": 3,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "2026CA305",
+      "title": "Smart Materials & Advanced Construction",
+      "semester": 3,
+      "type": "L",
+      "credits": 2,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "2026CA401",
+      "title": "Project",
+      "semester": 4,
+      "type": "C",
+      "credits": 17,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "2026CA402",
+      "title": "Elective IV",
+      "semester": 4,
+      "type": "EL",
+      "credits": 3,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

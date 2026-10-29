@@ -1,0 +1,417 @@
+{
+  "id": "m-sc-aviation-from-a-y-2026-27-06042026",
+  "kind": "programme",
+  "programme": "M.Sc. Aviation",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "AV501-MJ",
+      "title": "Principles and Modeling Aviation Science",
+      "semester": 1,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        6,
+        7
+      ],
+      "units": [
+        {
+          "title": "Introduction to Aviation & Aerodynamics",
+          "topics": "Introduction to Aviation: History of aviation, the structure of the global and domestic aviation industry, and key stakeholders. Aerodynamics: Four forces of flight (lift, weight, thrust, drag), principles of airflow, boundary layers, and the function of control surfaces. Aircraft Structures: Overview of the primary structural components: fuselage, wings, empennage, and landing gear.",
+          "hours": null
+        },
+        {
+          "title": "Aircraft Systems & Propulsion",
+          "topics": "Aircraft Systems: Principles and operation of hydraulic and pneumatic systems, anti-icing systems, and fire protection systems. Propulsion: Introduction to different types of aircraft engines, including turbojet, turbofan, and turboprop engines, and how they generate thrust. Engine Components: The function of key components such as the inlet, compressor, combustor, turbine, and nozzle.",
+          "hours": null
+        },
+        {
+          "title": "Navigation & Flight Operations",
+          "topics": "Air Navigation: Principles of navigation, including the use of navigation instruments, charts, and maps. Navigation Methods: An overview of different methods, including radio navigation and satellite navigation systems (GPS). Air Traffic Management (ATM): The role of Air Traffic Control (ATC), airspace classification, and the procedures for managing safe and efficient air traffic flow.",
+          "hours": null
+        },
+        {
+          "title": "Aviation Safety & Regulations",
+          "topics": "Aviation Regulations: Study of national and international regulatory bodies like the Directorate General of Civil Aviation (DGCA) and the International Civil Aviation Organization (ICAO). Aviation Law: Introduction to key international conventions that govern international air law. Aviation Safety: Principles of a Safety Management System (SMS) and the four pillars of safety management. Human Factors: The study of human performance and limitations causes of human error and strategies for error mitigation in aviation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV502-MJ",
+      "title": "Avionics & Embedded Systems",
+      "semester": 1,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Electronics & Digital Systems",
+          "topics": "Semiconductors & Components: Review of basic electronic components, operational amplifiers, and digital logic gates. Digital Electronics: Number systems, microprocessors, and microcontrollers used in aviation. Avionics Data Buses: ARINC 429, MIL-STD-1553, and Ethernet-based systems (AFDX) for intra-aircraft communication.",
+          "hours": null
+        },
+        {
+          "title": "Aircraft Electrical & Instrumentation Systems",
+          "topics": "Electrical Power Systems: Generation and distribution of AC and DC power, battery systems, and emergency power systems (RAT). Flight Instruments: Pitot-static instruments (altimeter, airspeed indicator), gyroscopic instruments (attitude indicator, heading indicator), and Electronic Flight Instrument Systems (EFIS). Engine Instruments: Engine indication and crew alerting system (EICAS) and Electronic Centralized Aircraft Monitor (ECAM).",
+          "hours": null
+        },
+        {
+          "title": "Avionics Systems & Integration",
+          "topics": "Communication Systems: VHF, HF, satellite communication (SATCOM), and cockpit voice recorders (CVR). Navigation Systems: VOR, DME, ILS, inertial reference systems (IRS), and GPS integration. Surveillance Systems: Primary and secondary radar, TCAS (Traffic Collision Avoidance System), and ADS-B (Automatic Dependent Surveillance-Broadcast). Integrated Modular Avionics (IMA): Concepts, architecture, and benefits of modular avionics systems.",
+          "hours": null
+        },
+        {
+          "title": "Embedded Systems in Aviation & Modern Trends",
+          "topics": "Embedded Systems Architecture: Hardware/software co-design, real-time operating systems (RTOS) in aviation, and safety-critical software standards (DO-178C). Flight Control Systems: Fly-by-wire (FBW) concepts, flight management systems (FMS), and autopilot operation. Modern Trends: Overview of cybersecurity in avionics, wireless avionics intra-communication (WAIC), and future cockpit technologies.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV503-MJ",
+      "title": "Aircraft Structural Integrity",
+      "semester": 1,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        10,
+        10
+      ],
+      "units": [
+        {
+          "title": "Loads & Structural Mechanics",
+          "topics": "Flight Loads: Maneuver and gust loads, V-n diagrams, and design safety factors. Mechanics & Sections: Principal Stresses, aluminum yield criteria, and thin-walled shear flow. Panels: Structural load-sharing between skin, stringers, and longerons.",
+          "hours": null
+        },
+        {
+          "title": "Fatigue & Life Estimation",
+          "topics": "Fatigue Basics: High/low-cycle fatigue, S-N curves, and mean stress corrections. Spectrum Analysis: Variable-amplitude stress tracking and Rainflow cycle counting. Life Prediction: Linear damage tracking using Palmgren-Miner’s rule.",
+          "hours": null
+        },
+        {
+          "title": "Fracture Mechanics (LEFM)",
+          "topics": "Crack Behavior: Stress concentrations, deformation modes, and crack-tip stress fields. Toughness: Stress Intensity Factors (k), critical toughness (k1c), and material selection. Growth Modeling: Stable fatigue crack propagation tracking using Paris’ Law.",
+          "hours": null
+        },
+        {
+          "title": "Instability & Design Philosophies",
+          "topics": "Buckling: Euler column limits, slenderness ratios, and thin fuselage skin buckling. Classic Design: Safe-Life versus Fail-Safe structural redundancy principles. Modern Design: Damage Tolerance criteria and structural inspection interval planning.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV504-MJP",
+      "title": "Structural Integrity Lab",
+      "semester": 1,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "AV541-RM",
+      "title": "Research Methodology",
+      "semester": 1,
+      "type": "Research Methodology",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Research",
+          "topics": "Meaning, objectives, and types of research. Research approaches: qualitative and quantitative. Steps in conducting scientific research. Ethics in research, including academic integrity and avoiding plagiarism.",
+          "hours": null
+        },
+        {
+          "title": "Research Design & Data Collection",
+          "topics": "Defining the research problem and formulating hypotheses. Reviewing literature and identifying research gaps. Research designs: exploratory, descriptive, and experimental. Data collection methods: primary vs. secondary data, surveys, interviews, and experiments.",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis & Interpretation",
+          "topics": "Introduction to statistical tools and software for data analysis. Descriptive statistics: measures of central tendency and dispersion. Inferential statistics: hypothesis testing (t-test, ANOVA, chi-square). Qualitative data analysis techniques. Interpreting results and drawing valid conclusions.",
+          "hours": null
+        },
+        {
+          "title": "Scientific Writing & Dissemination",
+          "topics": "Structure of a research report, thesis, and research paper. Referencing styles (e.g., APA, IEEE) and citation management tools. Writing abstracts, conclusions, and executive summaries. Publishing research: peer review process, choosing journals, and presenting research at conferences.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV 510-MJ",
+      "title": "Aviation Economics & Airport Operations",
+      "semester": 1,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Aviation Economics & Market Analysis",
+          "topics": "Demand Drivers: Passenger and air freight dynamics, market elasticity, and revenue streams. Cost Economics: Direct Operating Costs (DOC) versus Indirect Operating Costs (IOC). Pricing Architecture: Seat inventory control, dynamic airfare pricing, and yield management strategies. Commercial Models: Network carriers (hub-and-spoke), Low-Cost Carriers (LCCs), and regional connectivity models.",
+          "hours": null
+        },
+        {
+          "title": "Airport Operations, Capacity & Infrastructure",
+          "topics": "Airside Infrastructure: Runway configurations, declared distances (TORA, TODA, ASDA, LDA), taxiways, and apron planning. Airside Capacity: Airport slot allocations and delay mitigation algorithms. Terminal Processing: Passenger flows, automated screening facilities, and baggage handling architecture. Sustainable Gateways: Noise abatement protocols, carbon emission offsets, and resilient airport master planning.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV511-MJ",
+      "title": "Aviation Organization Theory and Management",
+      "semester": 1,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Organizational Architecture & Ecosystem Dynamics",
+          "topics": "Enterprise Structure: Traditional functional hierarchies versus agile, mission-centric airline operational centers. Aviation Ecosystem: Collaborative decision-making across airlines, airport operators, ground handlers, and civil aviation regulators. Leadership Under Stress: High-reliability organization (HRO) principles, situational awareness, and executive decision frameworks. Strategic Alliances: Joint ventures, codeshare economics, and multinational airline alliance networks.",
+          "hours": null
+        },
+        {
+          "title": "Aviation Human Capital & Operational Culture",
+          "topics": "Crew Resource Management (CRM): Organizational interfaces between flight deck, cabin crew, dispatch, and engineering teams. Culture Transformation: Transitioning from blame-oriented environments to Just Culture safety reporting frameworks. Talent Supply Logistics: Workforce planning, synthetic flight training adaptation, and global regulatory licensing standards. Change Management: Aligning human organizations with digital automation, automated air traffic management, and unmanned systems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV 512-MJP",
+      "title": "Aviation Analytics & Airport Simulation Laboratory",
+      "semester": 1,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "AV 513-MJP",
+      "title": "Aviation Organizational Dynamics & Operations Control Laboratory",
+      "semester": 1,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "AV 551-MJ",
+      "title": "Aircraft Maintenance Practices",
+      "semester": 2,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Maintenance Regulatory Framework & Documentation",
+          "topics": "DGCA CAR 145/66: Approvals of maintenance organizations and certifying staff. Logbooks & Tech Records: Flight logs, defect logs, structural repair records, and modification status tracking. Maintenance Manuals: AMM, IPC, SRM, CMM, and Wiring Diagram Manuals. Airworthiness Standards: Airworthiness Directives (ADs), Service Bulletins (SBs), and airworthiness releases.",
+          "hours": null
+        },
+        {
+          "title": "Maintenance Strategies & Planning",
+          "topics": "Maintenance Types: Line maintenance, base maintenance, and heavy checks (A, B, C, D checks). Program Philosophies: MSG-3 logic, condition-monitored, hard-time, and on-condition maintenance. MEL & CDL: Minimum Equipment List, Configuration Deviation List, and flight dispatch approvals. Reliability Monitoring: Fleet reliability data, failure rate analytics, and Mean Time Between Failures (MTBF).",
+          "hours": null
+        },
+        {
+          "title": "Inspection Techniques & Non-Destructive Testing (NDT)",
+          "topics": "NDT Modalities: Visual, Liquid Penetrant, Magnetic Particle, Eddy Current, Ultrasonic, and Radiography. Structural Damage Assessment: Dents, cracks, corrosion types, and allowable damage limits. Fastening Systems: Riveting standards, torque protocols, safety wiring, and cotter pin installations. Ground Handling: Jacking, leveling, towing, mooring, and engine ground run precautions.",
+          "hours": null
+        },
+        {
+          "title": "Avionics Maintenance & Advanced Technologies",
+          "topics": "Avionics Testing: BITE (Built-In Test Equipment), pitot-static leak checks, and compass swing procedures. Electrostatic Discharge (ESD): ESD precautions, handling of sensitive line replaceable units (LRUs). Modern Trends: Predictive maintenance using aircraft health data, digital twins, and AR/VR in aircraft maintenance.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV 552-MJ",
+      "title": "Aircraft Engine Performance & Health Analytics",
+      "semester": 2,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Thermodynamics & Aerothermodynamics of Engines",
+          "topics": "Thermodynamic Cycles: Ideal and real Brayton cycle, cycle efficiency, and thrust calculations. Component Matching: Compressor-turbine matching, surging, stalling, and bleed air optimization. Station Analysis: Aerothermodynamic calculations across engine stations from inlet to exhaust nozzle. Thrust Augmentation: Afterburners, water injection, and thrust reverser mechanics.",
+          "hours": null
+        },
+        {
+          "title": "Engine Performance & Off-Design Operations",
+          "topics": "Performance Metrics: Specific Fuel Consumption (SFC), thrust-to-weight ratio, and thermal/propulsive efficiencies. Off-Design Behavior: Altitude, airspeed, and temperature effects on engine performance curves. Transients & Control: Acceleration/deceleration scheduling, FADEC (Full Authority Digital Engine Control) operation.",
+          "hours": null
+        },
+        {
+          "title": "Engine Health Monitoring (EHM) & Analytics",
+          "topics": "Sensor Architectures: Gas path sensors (EGT, EPR, N1, N2), vibration sensors, and oil debris monitors. Signal Processing: Vibration analysis, frequency spectra, and blade passing frequency diagnostics. Gas Path Analysis (GPA): Fault matrix models, degradation detection, and trend monitoring techniques. Machine Learning in EHM: Anomaly detection, remaining useful life (RUL) estimation, and predictive maintenance algorithms.",
+          "hours": null
+        },
+        {
+          "title": "Emerging Engine Technologies & Decarbonization",
+          "topics": "Next-Gen Architectures: Geared turbofans, open rotor engines, and ultra-high bypass ratio concepts. Sustainable Aviation: SAF (Sustainable Aviation Fuels) compatibility, hydrogen combustion, and cryogenic storage. Hybrid-Electric Systems: Parallel and series hybrid powertrains, distributed electric propulsion (DEP).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV 553-MJ",
+      "title": "Drone Technology & UAV Systems",
+      "semester": 2,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "UAV Classifications, Aerodynamics & Structures",
+          "topics": "UAV Taxonomy: Multirotors, fixed-wing, hybrid VTOL, and nano-UAV classifications based on weight and mission. Low-Reynolds Aerodynamics: Micro-aerodynamics, rotor thrust, blade twist, and vortex ring states. Airframe Construction: Carbon fiber composites, 3D printing techniques, and structural payload integration.",
+          "hours": null
+        },
+        {
+          "title": "Propulsion, Power & Flight Avionics",
+          "topics": "Power Plants: BLDC motors, ESC (Electronic Speed Controllers), LiPo/LiFePO4 battery chemistry, and fuel cell hybrids. Flight Controllers: Microcontroller architectures, sensor suites (IMU, barometer, compass, GNSS). Control Loops: PID tuning, telemetry data links, and failsafe behaviors.",
+          "hours": null
+        },
+        {
+          "title": "Autonomy, Navigation & Remote Sensing Payloads",
+          "topics": "Navigation Algorithms: Waypoint navigation, geofencing, GPS-denied navigation, optical flow, and visual SLAM. Payloads & Sensing: RGB cameras, multispectral/hyperspectral sensors, thermal imaging, and LiDAR integration. Autonomous Missions: Swarm operations, collision avoidance algorithms, and sense-and-avoid technologies.",
+          "hours": null
+        },
+        {
+          "title": "UAS Regulations, Airspace Integration & Applications",
+          "topics": "DGCA Drone Rules: DigitalSky platform, Remote Pilot Certificate (RPC), NPNT compliance, and UTM frameworks. Airspace Management: Integration of drones into controlled civil airspace, BVLOS operations. Civil & Industrial Roles: Precision agriculture, infrastructure inspection, disaster management, delivery logistics, and security.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV 554-MJP",
+      "title": "UAS Simulation Lab",
+      "semester": 2,
+      "type": "Major Practical",
+      "credits": 2,
+      "pages": [
+        26,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "AV 581-OJT",
+      "title": "On Job Training (Internship)",
+      "semester": 2,
+      "type": "On Job Training",
+      "credits": 4,
+      "pages": [
+        27,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "AV 560-MJ",
+      "title": "Aviation Law & Safety Management",
+      "semester": 2,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "International Aviation Law & Regulatory Frameworks",
+          "topics": "Chicago Convention 1944: The 19 Annexes, Freedoms of the Air, and ICAO standards and recommended practices (SARPs). Carrier Liability Conventions: Warsaw Convention 1929, Hague Protocol, and Montreal Convention 1999 passenger rights. National Regulatory Landscape: Aircraft Act 1934, Aircraft Rules 1937, and DGCA CAR requirements. Aviation Bilaterals: Air Services Agreements (ASAs), Open Skies agreements, and airline competition policy.",
+          "hours": null
+        },
+        {
+          "title": "Safety Management Systems (SMS) & Risk Governance",
+          "topics": "Four Pillars of SMS: Safety Policy & Objectives, Safety Risk Management, Safety Assurance, and Safety Promotion. Hazard Identification: Reactive, proactive, and predictive safety data collection systems (FDM, ASRS). Risk Assessment: Risk matrices, ALARP (As Low As Reasonably Practicable) principles, and safety performance indicators (SPIs). Safety Culture & Investigations: Just Culture frameworks, non-punitive reporting, and ICAO Annex 13 accident investigation procedures.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV 561-MJ",
+      "title": "Aviation Cyber Security",
+      "semester": 2,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Aviation Cyber Threat Landscape & Vectors",
+          "topics": "IT vs OT Environments: Differences between business enterprise IT and safety-critical flight deck/airside operational technologies. Attack Vectors: ADS-B spoofing, GPS jamming/spoofing, ACARS manipulation, and malicious ground-to-air transmissions. Airside & Avionics Vulnerabilities: EFB (Electronic Flight Bag) tampering, airport passenger terminal network exploitation, and passenger Wi-Fi bridging. Threat Actors: Cybercriminals, nation-state adversaries, hacktivists, and insider threat profiles.",
+          "hours": null
+        },
+        {
+          "title": "Cybersecurity Architecture, Compliance & Resilience",
+          "topics": "Regulatory Standards: ICAO Aviation Cybersecurity Strategy, FAA/EASA guidelines, and RTCA DO-326A / EUROCAE ED-202A airworthiness security. Defensive Controls: Network segmentation, unidirectional security gateways, encryption protocols, and PKI for aeronautical systems. Incident Response: Security Operations Center (SOC) workflows, forensic containment, and flight operation resilience during cyber attacks. Future Challenges: Zero trust architecture in connected cockpits, quantum computing threats to aviation encryption.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "AV 562-MJP",
+      "title": "Aviation Safety Informatics Lab",
+      "semester": 2,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        32,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "AV 563-MJP",
+      "title": "Aviation Cyber Security Lab",
+      "semester": 2,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        33,
+        33
+      ],
+      "units": []
+    }
+  ],
+  "notes": "M.Sc. Aviation syllabus under NEP 2020 covering Semesters I and II; course structure on pages 4-5 outlines full 2-year (Sem I to IV) curriculum."
+}

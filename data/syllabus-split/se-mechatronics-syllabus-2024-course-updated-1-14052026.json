@@ -1,0 +1,497 @@
+{
+  "id": "se-mechatronics-syllabus-2024-course-updated-1-14052026",
+  "kind": "programme",
+  "programme": "SE - Second Year Engineering (2024 Pattern) in Mechatronics Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-MXE",
+      "title": "Sensors and Instrumentation",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Sensors",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Displacement Sensors",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Pressure , Flow, Temperature sensors",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Oscilloscope",
+          "topics": "PCC-201-MXE: Sensors and Instrumentation Teaching /scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Practical: 50 Marks Prerequisite Courses, if any : 1. Basic Electrical and Electronics Engineering Course Objectives: 1. This course gives idea about variety of sensors available and its applications in various fields. 2. Student will learn to design a sensor for a given application at the end of this course. 3. Students also learn about the sensor characteristics and data acquisition for a system under investigation. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Understand the working principle, construction, operation, characteristics and features of sensors and transducers. • CO2: Examine the performance specifications of various sensors and transducers. • CO3: Select sensors and transducers for measurement applications. • CO4: Make use of CRO for measurement of voltage, current and frequency • CO5: Understand the basics of smart sensors. z Course Contents r Significance of Sensor Measurements, Classification of Sensors, Static characteristics, Dynamic Ch...",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Smart Sensors",
+          "topics": "Introduction, General purpose oscilloscope Block Diagram, Cathode Ray Tube, deflection sensitivity, front panel controls, Oscilloscope Probes 1:1 and 10:1, Dual trace CRO, ALT and CHOP modes, measurement of electrical parameters like voltage, current, frequency and phase, frequency measurement by Lissajous pattern and Z-modulation. Digital Storage oscilloscope block diagram, sampling rate, bandwidth, roll mode Evolution from traditional to smart sensors, Definition and architecture of smart sensors, Differences be - tween conventional and smart sensors, Sensing elements and transduction principles, Signal conditioning cir - cuits (amplifiers, filters), DAQ in smart sensors, Communication protocols used in smart sensors. Introduction to wireless sensors. Out of following experiment, Any 8 Experiment need to conduct in Lab as part of Practical Examination 1. Study of Measurement Systems 2. Measurement of displacement using LVDT. 3. Evaluate performance characteristics of strain gauge load cell for weight measurement. 4. Compare performance of Orifice and Venturi for flow measurement. 5. Design a signal conditioning circuit for temperature measurement using Thermocouple. 6. Measure...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-MXE",
+      "title": "Engineering Thermodynamics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Thermodynamics",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Laws of Thermodynamics",
+          "topics": "PCC-202-MXE: Engineering Thermodynamics Teaching /scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Oral: 25 Marks Prerequisite Courses, if any : Course Objectives: 1. To introduce the fundamentals of thermodynamics 2. To understand the concepts of laws of thermodynamics 3. To identify the laws for different modes of heat transfer 4. To Understand the fuel combustion process and products of combustion. 5. To undertake the working of a steam generator Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: DESCRIBE the basics of thermodynamics with heat and work interactions • CO2: APPLY laws of thermodynamics to steady flow and non-flow processes • CO3: IDENTIFY the laws for different modes of heat transfer • CO4: ANALYSE the fuel combustion process and products of combustion • CO5: DESCRIBE the basics of thermodynamics with heat and work interactions z Course Contents r Introduction, Review of basic definitions Macro and Microscopic, Approach, State Postulate, State, Path, Process and Cycles, Point function and Path function, quasistatic process, Equilibrium, Temper...",
+          "hours": 10
+        },
+        {
+          "title": "Modes of Heat Transfers",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Fuels and Combustion",
+          "topics": "List of Experiments in radiation mode; Stefan-Boltzmann law, Kirchhoff’s law, Planck’s law and Wein’s displacement law. Intensity of radiation and solid angle; Lambert’s law; Radiation heat exchange between two black surfaces . Types of fuels, Proximate and ultimate analysis of fuel, Combustion theory, Combustion Equations, The - oretical and Excess air requirements, Equivalence ratio, Analysis of products of combustion, Calorific value - HCV & LCV. Bomb and Boys gas Calorimeters. Flue Gas Analysis using Orsat, Apparatus, Exhaust Gas analyser, Enthalpy of formation, Adiabatic flame temperature. Fire tube and Water tube boiler, Low pressure and high pressure boilers, once through boiler, examples, and important features of HP boilers, Mountings and accessories, Layout of a modern HP boiler, Boiler perfor- mance, and Boiler efficiency (No Numerical approach). Classification, Necessity of Draught, Natural draught, Determination of Height of chimney, Diameter of chimney, condition for maximum discharge, Out of following experiment, Any 8 Experiment need to conduct in Lab as part of Practical Examination 1. Joule’s experiment to validate, first law of thermodynamics. 2. Survey of tem...",
+          "hours": 8
+        },
+        {
+          "title": "Steam Generators",
+          "topics": null,
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-MXE",
+      "title": "Linear Integrated Circuits",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Operational Amplifers",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Applications of the Operational Amplifiers",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Basic Convertors",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Timers and Regulators",
+          "topics": "PCC-203-MXE: Linear Integrated Circuits Teaching /scheme Credits Examination Scheme Theory : 02 Hours/Week 02 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Practical: 25 Marks Prerequisite Courses, if any : • Basic Electronics Course Objectives: 1. To understand fundamental principles of standard linear integrated circuits. 2. To develop an overall approach for students from selection of integrated circuit, study its specification, the functionality, design and practical applications Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Analyze and design various linear applications of Op-Amps • CO2: Evaluate and implement non-linear applications of Op-Amps • CO3: Understand and Analyze Converters and Voltage Regulator • CO4: Design applications using Integrated circuit z Course Contents r Amplifiers: Adder, subtractor, integrator, differentiator, current amplifier, difference amplifier, instrumen- tation amplifier Converters: Current to voltage converters, voltage to current converters Active Filters: First order active finite gain low pass, high pass, band pass and band reject filters Sine Wave Oscillators: RC phase s...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "*Open Elective- I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-MXE",
+      "title": "Control System Components",
+      "semester": 3,
+      "type": "Multidisciplinary Minor",
+      "credits": 4,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Industrial Control Devices",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "DC Motors",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "AC Motors",
+          "topics": "MDM-221-MXE: Control System Components Teaching /scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Oral: 25 Marks Prerequisite Courses, if any : • Basic Electrical and Electronics Engineering • DC/AC Motors Course Objectives: 1. To Understand basic principles of sensing various parameters 2. To Develop mathematical background of sensor design 3. To Learn selection of sensors for typical applications Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Implement logic gates using relays. • CO2: Develop electrical circuits for motor control operations. • CO3: Construct pneumatic circuits for control applications using appropriate pneumatic components • CO4: Construct hydraulic circuits for control applications using appropriate hydraulic components. • CO5: Understand the need of electronic safety circuits. z Course Contents r Switches: Construction, symbolic representation, working, application of Toggle switch, Slide switch, DIP switch, Rotary switch, Thumb wheel switch, Selector switch, Push button, Drum switch, Limit switch, Temper - ature switch, Pressure switch...",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Hydraulic components",
+          "topics": "List of Experiments Pneumatic components: Pneumatic Power Supply and its components ,Pneumatic relay Single acting & Double acting cylinder, Special cylinders: Cushion, Double rod, Tandem, Multiple position, and Rotary, Pneu - matic valves, Pneumatic Circuits: Standard Symbols used for developing pneumatic circuits, Different Pneumatic Cir- cuits: Reciprocating, Sequencing, Direction control and Speed regulation. Hydraulic components: Hydraulic supply, Hydraulic pumps, Actuator (cylinder & motor), Hydraulic valves Hydraulic Circuits: Standard Symbols for developing hydraulic circuits, Different Hydraulic Circuits: Meter in, Meter out, Reciprocating, speed control, Sequencing of cylinders and Direction control. Comparison of Pneumatic, Hydraulic & Electrical systems. Students are expected to perform Minimum 8 Experiments : 1. Implementation of Logic Gates using relays. 2. Study of various pneumatic and hydraulic components and power supplies. 3. Implementation and testing of Pneumatic circuits. 4. Implementation and testing of Hydraulic circuits. 5. Study of Synchro transmitter and receiver system 6. Study of Pressure/temperature/level/flow Switches (any two). 7. Study of Motor c...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "EEM-231-MXE",
+      "title": "Fundamentals of Economics and Business Management",
+      "semester": 3,
+      "type": "Entrepreneurship / Economics / Management",
+      "credits": 2,
+      "pages": [
+        25,
+        26
+      ],
+      "units": [
+        {
+          "title": "Unit III",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Unit IV",
+          "topics": "List of Experiments",
+          "hours": null
+        },
+        {
+          "title": "Savitribai Phule Pune University",
+          "topics": "EEM-231-MXE: Fundamentals of Economics and Business Management Teaching /scheme Credits Examination Scheme Practical : 02 Hours/Week 01 Term Work: 25 Marks Prerequisite Courses, if any : Course Objectives: 1. To facilitate students in understanding the fundamental concepts and principles of business management; 2. Need for setting the objectives, the basic roles, skills, functions of management, basic concepts of eco - nomics with major emphasis on demand and supply 3. To make them aware about the essential factors of production, various types of costs along with break - even analysis and market structure. Course Outcomes: Upon successful completion of this course, students will be able to: • CO-1 Acquainted with the basic concepts of Economics with major emphasis on demand and supply, es - sential factors of production, various types of costs along with break-even analysis and market structure. • CO-2 Acquainted with the fundamental concepts and principles of management; need for setting the objectives, the basic roles, skills, functions of management. • CO-3 Acquainted with marketing fundamentals and financial management with an insight to managerial and financial accounting r...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-MXE",
+      "title": "Universal Human Values and Professional Ethics",
+      "semester": 3,
+      "type": "Value Education",
+      "credits": 2,
+      "pages": [
+        27,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": ", Prerequisite Courses, if any : 1. Student Induction Program (SIP) Course Objectives: The course aims to: 1. To help the students develop a holistic, humane world-vision, and appreciate the essential complemen- tarity between values and skills to ensure mutual happiness and prosperity 2. To elaborate on ‘Self-exploration’ as the process for Value Education 3. To facilitate the understanding of harmony at various levels starting from self and going towards family and society. 4. To elaborate on the salient aspects of harmony in nature and the entire existence 5. To explain how the Right understanding forms the basis of Universal human values and definitiveness of Ethical human conduct. 6. To provide the vision for a holistic way of living and facilitate transition from chaotic life to an orderly life. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Recognize the concept of self-exploration as the process of value education and see they have the potential to explore on their own right. • CO2: Explore the human being as the coexistence of self and body to see their real needs / basic aspira- tions clearly. • CO3: Explain relationship be...",
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Implications of the Holistic Understanding - Professional Ethics Look",
+          "topics": "(v) Harmony of the Self with the Body (vi) Programme to Ensure self-regulation and Health (i) Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Rela- tionship (ii) ’Respect’ - as the Right Evaluation (iii) Values in Human-to-Human Relationship (iv) Understanding Harmony in the Society (v) Vision for the Universal Human Order Case study: (i) Understanding Harmony in the Nature (ii) Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature (iii) Realizing Existence as Co-existence at All Levels (iv) The Holistic Perception of Harmony in Existence Case study : (i) Basis for Universal Human Values (ii) Definitiveness of (Ethical) Human Conduct (iii) Professional Ethics in the light of Right Understanding (iv) A Basis for Humanistic Education, Humanistic Constitution and Universal Human Order (v) Holistic Technologies, Production Systems and Management Models Typical Case Studies (vi) Strategies for Transition towards Value-based Life and Profession Case study: , r 1. A Foundation Course in Human Values and Professional Ethics, RR Gaur, R Asthana, GP Bagaria, 3rd revised edition, UHV Publications, 2023, ISB...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-MXE",
+      "title": "Community Engagement Projects",
+      "semester": 3,
+      "type": "Field Projects /Community Engagement Projects",
+      "credits": 2,
+      "pages": [
+        32,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-MXE",
+      "title": "Automatic Control System",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Control Systems",
+          "topics": null,
+          "hours": 10
+        },
+        {
+          "title": "Time domain analysis of Control System",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Stability Analysis",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Frequency Domain Analysis",
+          "topics": "PCC-251-MXE: Automatic Control System Teaching /scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Practical: 25 Marks Prerequisite Courses, if any : • Concepts of Network theory and Mathematics Course Objectives: 1. Understand the basic components of control system, types of control systems. 2. Learn to determine relationship between system input / output. 3. Learn to develop system’s mathematical models. 4. To understand the basic mathematical tools for analysis of the control systems Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Classify the control systems. • CO2: Develop mathematical models of control systems. • CO3: Analyze the Linear time invariant system in time and frequency domain. • CO4: Get familiar with modern control theory. z Course Contents r Basic concept of control system, classification of control systems: Open Loop and Closed Control System, Laplace Transform and inverse Laplace transform, its properties, solving linear differential equation using Laplace Transform, Transfer Function, concept of pole and zero, Modeling of Electrical and M...",
+          "hours": 8
+        },
+        {
+          "title": "Control Actions and Tuning",
+          "topics": "List of Experiments",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-MXE",
+      "title": "Analysis of Mechanical Structures",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Simple Stress & Strain",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "SFD & BMD",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Bending Stress on a Beam",
+          "topics": "PCC-252-MXE: Analysis of Mechanical Structures Teaching /scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Oral: 50 Marks Prerequisite Courses, if any : • Engineering Mathematics- I and II, Systems in Mechanical Engineering, Engineering Mechanics Course Objectives: 1. To acquire basic knowledge of stress, strain due to various types of loading. 2. To draw Shear Force and Bending Moment Diagram for transverse loading. 3. To determine Bending, Shear stress, Slope and Deflection on Beam. 4. To solve problems of Torsional shear stress for shaft and Buckling for the column. 5. To apply the concept of Principal Stresses and Theories of Failure Course Outcomes: Upon successful completion of this course, students will be able to: • CO1. DEFINE various types of stresses and strain developed on determinate and indeterminate members. • CO2. DRAW Shear force and bending moment diagram for various types of transverse loading and support. • CO3. COMPUTE the slope & deflection, bending stresses and shear stresses on a beam. • CO4. CALCULATE torsional shear stress in shaft and buckling on the column. • CO5. APPLY the c...",
+          "hours": 10
+        },
+        {
+          "title": "Torsion of circular shafts",
+          "topics": "MOOC / NPTEL/YouTube Links: - 6. R. C. Hibbeler, “Mechanics of Materials”, Prentice Hall Publication z • Reference Books: r 1. Egor. P. Popov, “Introduction to Mechanics of Solids”,Prentice Hall Publication 2. G. H. Ryder, “Strength of Materials”, Macmillan Publication 3. Beer and Johnston, “Strength of materials”, CBS Publication 4. James M. Gere, “Mechanics of Materials”, CL Engineering 5. Timoshenko and Young, “Strength of Materials”, CBS Publication, Singapore 1. NPTEL Course: Strength of Materials, https://nptel.ac.in/courses/112107146 2. NPTEL Course: Solid Mechanics, https://archive.nptel.ac.in/courses/112/102/112102284/# 3. Prof. S.K. Bhattacharyya, IIT Kharagpur , “NPTEL Web course material” https://drive.google.com/file/d/1N2Eyv9ofPimIT2OSMZeMrSxe68Ulclei/view?usp=sharing",
+          "hours": 8
+        },
+        {
+          "title": "Principal Stresses",
+          "topics": "List of Experiments",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-MXE",
+      "title": "Digital Electronics",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        42,
+        44
+      ],
+      "units": [
+        {
+          "title": "Boolean Algebra and Combinational Logic Design",
+          "topics": "PCC-253-MXE: Digital Electronics Teaching /scheme Credits Examination Scheme Theory : 02 Hours/Week 02 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Practical: 25 Marks Prerequisite Courses, if any : • Basic Electrical and Electronics Engineering • Engineering Physics / Applied Physics • Mathematics for Engineers Course Objectives: 1. To provide students with a strong foundation in Boolean algebra and logic circuit design, enabling them to analyze and construct optimized combinational and sequential digital circuits. 2. To familiarize students with various digital circuit components such as subtractors, multiplexers, en- coders, decoders, counters, and shift registers, and their applications in Mechatronics systems. 3. To introduce different logic families and memory devices, highlighting their characteristics and role in modern digital systems. 4. To prepare students for applying digital design principles in embedded systems, industrial automation, and intelligent electromechanical systems, which are core areas of Mechatronics Engineering. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: ANALYZE AND SIMPLIFY Boole...",
+          "hours": 6
+        },
+        {
+          "title": "Combinational Circuits and Applications",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Sequential Logic Circuits",
+          "topics": "List of Experiments MOOC / NPTEL/YouTube Links: - 4. William H. Gothmann – Digital Electronics: An Introduction to Theory and Practice, Prentice Hall 1. Digital Circuits – Prof. S. Srinivasan, IIT Madras, https://nptel.ac.in/courses/117106086 2. Digital Systems Design – Prof. D. Roy Choudhury, IIT Delhi, https://nptel.ac.in/courses/117102061 3. Switching Circuits and Logic Design – Prof. A.N. Chandorkar, IIT Bombay, https://nptel.ac.in/courses/108101090 4. Neso Academy – Digital Electronics Full Course, https://www.youtube.com/playlist?list=PLBlnK6fEyqRh6isJ01MBnbNpV3ZsktSyS 5. Gate Smashers – Digital Electronics (Beginner to Advanced, https://www.youtube.com/playlist?list=PLmXKhU9FNesQn2tMvv3t2xw6CJ2hRYIQv",
+          "hours": 6
+        },
+        {
+          "title": "Logic Families and Memory Devices",
+          "topics": null,
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "*Open Elective- II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-MXE",
+      "title": "Data Structures",
+      "semester": 4,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        45,
+        47
+      ],
+      "units": [
+        {
+          "title": "Python Basics",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Linked List and Sorting Algorithms",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Recursion, Searching and Sorting Algorithms",
+          "topics": "List of Experiments",
+          "hours": 6
+        },
+        {
+          "title": "Trees & Graphs",
+          "topics": "MDM-271-MXE: Data Structures Teaching /scheme Credits Examination Scheme Theory : 02 Hours/Week 02 CCE : 30 Marks Practical : 02 Hours/Week 01 End-Semester: 70 Marks Oral: 25 Marks Prerequisite Courses, if any : Basic Programming and Computer Fundamentals Course Objectives: 1. To understand Python programming basics and apply them for problem solving. 2. To understand linked list structures and perform basic operations. 3. To apply recursion and implement searching and sorting algorithms. 4. To understand trees and graphs and apply traversal algorithms. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Understand and apply python programming basics, including variables, loops, functions and mod ules. • CO2: Analyze and implement linked list • CO3: Analyze various computational problems using recursion and Implement searching and sorting algorithms. • CO4: Analyze and implement tree and graph data structures, including traversal and search techniques. z Course Contents r Variables, Data Types, Loops and Conditionals, Functions, Lambda Expressions, List Comprehension, Python Modules (Collections, Queue, Etc.). Linked List - Node Creation,...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "VSE- 281-MXE",
+      "title": "Computer Aided Drafting and Computing",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to CAD tools",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Introduction to computational tool for engineers",
+          "topics": "VSE-281-MXE: Computer Aided Drafting and Computing Teaching /scheme Credits Examination Scheme Tutorial: 01 Hours/ Week 01 Term Work: 25 Marks Practical : 02 Hours/Week 01 Prerequisite Courses, if any : • Programming Skills Course Objectives: • To provide background and fundamentals of advanced CAD and computing tools like AUTOCAD, SCILAB, MATLAB and OCTAVE for enhancing design, analysis and mathematical computing skills. Course Outcomes: Upon successful completion of this course, students will be able to: • CO-1 Apply 2D-3D drafting and modeling knowledge for Computer aided designing. • CO-2 Apply computational tools like SCILAB/MATLAB/OCTAVE for advanced analysis and mathematical computation z Course Contents r Introduction of different CAD tools, Commands, Interactive Techniques, Toggle Drawing Modes, Units and Limit Command, Coordinate System Geometry & Selection Commands: Lines, Circles, Rectangles, Polylines, Arcs, Polygons, Ellipses, Construc- tion Line, Move, Copy, Rotate, Mirror, Scale, Lengthen, Stretch, Zoom, Ortho and Polar Tracking, Object Snaps and Tracking, Layer States, Properties by Layer, Layer Tools Advanced Commands: Trim, Extend, Fillet, Chamfer, Polyline Ed...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "AEC-282-MXE",
+      "title": "Modern Indian Language (Marathi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 1,
+      "pages": [
+        50,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-283-MXE",
+      "title": "Economics for Engineers",
+      "semester": 4,
+      "type": "Entrepreneurship / Economics / Management / Industrial Organization",
+      "credits": 1,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Introduction and Demand Analysis",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Theory of Production, Cost and Firms",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Engineering Economy",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Indian Economy",
+          "topics": "List of Assignments EEM-283-MXE: Economics for Engineers Teaching /scheme Credits Examination Scheme Tutorial: 01 Hours/ Week 01 Term Work: 25 Marks Prerequisite Courses, if any : Course Objectives: • To enable students to understand the economics principles applicable to engineering. • To learn the techniques of economic decision making. • To familiarize the students with basic fundamentals of Indian financial economy Course Outcomes: Upon successful completion of this course, students will be able to: • CO-1 Understand the concepts of economics and will also learn to use the principles of economics in the engineering discipline • CO-2 Develop the insight of students in understanding the consumer and production behavior and func- tioning of market economy. • CO-3 Implications of monetary and fiscal policies in Indian economy. z Course Contents r Principles of economics, how markets work: market forces of supply and demand, Elasticity and its appli- cation, Consumer equilibrium. Firms’ production, cost and revenue behavior; resources optimization; Firms’ behavior under- competitive markets, monopoly, monopolistic competition and oligopoly. Time value of money: Single-Payment and...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-MXE",
+      "title": "Environmental Studies",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "Environment",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Ecosystem",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Environment Pollution",
+          "topics": "Practical Assignments",
+          "hours": null
+        },
+        {
+          "title": "Environmental Pollution Acts",
+          "topics": ", Course Objectives: The course aims to: 1. To introduce the multidisciplinary nature and scope of environmental studies. 2. To understand ecosystem structures, biodiversity, and ecological balance through hands-on observation and documentation. 3. To examine the use and impact of natural resources on environmental sustainability. 4. To explore biodiversity conservation practices and develop eco-sensitive thinking through field-based inquiry. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1. Illustrate the interdependence of ecosystems through activity-based exploration • CO2. Analyze the role of natural resources in sustainable development using real-world data. • CO3. Investigate biodiversity threats and conservation strategies through surveys and projects • CO4. Create awareness tools or reports promoting sustainability based on their findings. z Course Contents r a) Environment Meaning of Environment, Types of Environment, Components of Environment, b) Man- Environment relationship, importance of environment, c) Need for Public Awareness a) Ecosystem-Meaning, Major Components of Ecosystem b) Case studies of Forest Ecosystem, Grassla...",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

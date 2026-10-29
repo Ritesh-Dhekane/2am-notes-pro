@@ -1,0 +1,763 @@
+{
+  "id": "be-cse-data-science-2019-pattern-1-23062006",
+  "kind": "programme",
+  "programme": "Final Year Computer Science and Engineering (Data Science)",
+  "pattern": "2019",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "410640",
+      "title": "Deep Learning",
+      "semester": 7,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Foundations of Deep learning",
+          "topics": "What is machine learning and deep learning?, Supervised and Unsupervised Learning, bias variance tradeoff, hyper parameters, under/over fitting regularization, Limitations of machine learning, History of deep learning, Advantage and challenges of deep learning. Learning representations from data , Understanding how deep learning works in three figures, Common Architectural Principles of Deep Network, Architecture Design, Applications of Deep learning, Introduction and use of popular industry tools such as Tensor Flow, Keras, PyTorch, Caffe, Shogun. #Exemplar/Case Studies Deep Mind, AlphaGo, Boston Dynamics Mapping of Course Outcomes CO1",
+          "hours": 7
+        },
+        {
+          "title": "Deep Neural Network(DNNs)",
+          "topics": "Introduction to Neural Networks :The Biological Neuron, The Perceptron, Multilayer Feed -Forward Networks , Training Neural Networks :Backpropagation and Forward propagation Activation Functions :Linear ,Sigmoid, Tannh, Hard Tanh, Softmax, Rectified Linear, Loss Functions :Loss Function Notation , Loss Functions for Regression , Loss Functions for Classification, Loss Functions for Reconstruction, Hyper parameters : Learning Rate, Regularization, Momentum, Sparsity , Deep Feedforward Networks – Example of Ex OR, Hidden Units, cost functions, error backpropagation, Gradient-Based Learning, Implementing Gradient Descent, vanishing and Exploding gradient descent, Sentiment Analysis, Deep Learning with Pytorch, Jupyter, colab. #Exemplar/Case Studies A Case Study for Music Genre Classification Mapping of Course Outcomes CO2",
+          "hours": 6
+        },
+        {
+          "title": "Convolution Neural Network(CNN)",
+          "topics": "Introduction, CNN architecture overview, The Basic Structure of a Convolutional Network - Padding, Strides, Typical Settings, the ReLU layer, Pooling, Fully Connected Layers, The Interleaving between Layers, Local Response Normalization, Training a Convolutional Network #Exemplar/Case Studies AlexNet, VGG *Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Recurrent Neural Network(CNN)",
+          "topics": "Recurrent and Recursive Nets: Unfolding Computational Graphs, Recurrent Neural Networks, Bidirectional RNNs, Encoder-Decoder Sequence -to-Sequence Architectures, Deep Recurrent Networks, Recursive Neural Networks, The Challenge of Long -Term Dependencies, Ec ho State Networks, Leaky Units and Other Strategies for Multiple Time Scales, The Long Short -Term Memory and Other Gated RNNs, Optimization for Long -Term Dependencies, Explicit Memory. Practical Methodology: Performance Metrics, Default Baseline Models, Determining Whether to Gather More Data, Selecting Hyper parameters. #Exemplar/Case Studies Multi-Digit Number Recognition Mapping of Course Outcomes CO4",
+          "hours": 8
+        },
+        {
+          "title": "Deep Generative Models",
+          "topics": "Introduction to deep generative model, Boltzmann Machine, Deep Belief Networks, Generative adversarial network (GAN), discriminator network, generator network, types of GAN, Applications of GAN networks #Exemplar/Case Studies GAN for detection of real or fake images Mapping of Course Outcomes for",
+          "hours": 6
+        },
+        {
+          "title": "Data Warehousing And On-Line Analytical Processing",
+          "topics": "Introduction of deep reinforcement learning, Markov Decision Process, basic framework of reinforcement learning, challenges of reinforcement learning, Dynamic programming algorithms for reinforcement learning Learning and Deep Q-Networks, Deep Q recurrent networks, Simple reinforcement learning for Tic-Tac-Toe. #Exemplar/Case Studies Self driving cars, Deep learning for chatbots Mapping of Course Outcomes CO5",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "410641",
+      "title": "Data Modeling & Visualization",
+      "semester": 7,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Modeling",
+          "topics": "Introduction to data and information, Types of data: structured, semi -structured, and unstructured data, Data modeling concepts and importance, Levels of data modeling: Conceptual data model, Logical data model, Physical data model, Entity–Relationship (ER) modeling, Entities, attributes, and relationships, Cardinality and participation constraints, Introduction to dimensional modeling, Star schema and snowflake schema,Use cases of data modeling in analytics systems. #Exemplar/Case Studies A university wants to design a centralized Student Information System (SIS) to manage student details, courses, faculty, and examinations. Mapping of Course Outcomes for",
+          "hours": 6
+        },
+        {
+          "title": "Data Preparation and Transformation",
+          "topics": "Data collection methods, Data integration from multiple sources, Data cleaning techniques, Handling missing data, Outlier detection and treatment, Data normalization and standardization, Data transformation techniques, Feature selection and feature engineering, Data quality issues and data consistency. #Exemplar/Case Studies A retail company collects sales data from multiple stores, but the data contains missing values, duplicates, Mapping of Course Outcomes for",
+          "hours": 8
+        },
+        {
+          "title": "Principles of Data Visualization",
+          "topics": "Introduction to data visualization, Importance of visualization in data analytics, Human perception and visual cognition, Visual variables: position, size, shape, color, orientation, Principles of effective visualization design, choosing appropriate visual ization techniques, Chart selection guidelines, Color theory and use of color in visualization, Common visualization errors and pitfalls, Ethical considerations in data visualization. #Exemplar/Case Studies health department needs to present COVID -19 case trends to policymakers and the public. Mapping of Course Outcomes for",
+          "hours": 8
+        },
+        {
+          "title": "Visualization Techniques and Tools",
+          "topics": "Basic visualization techniques: Bar charts, Line charts, Pie charts, Scatter plots, Advanced visualization, techniques: Histograms, Box plots, Heat maps, Tree maps, Time -series data visualization, Multidimensional data visualization, Geospatial data visual ization, Introduction to visualization tools: Tableau, Power BI,Python visualization libraries (Matplotlib, Seaborn – overview) #Exemplar/Case Studies A company wants to analyze monthly sales performance across regions using visualization tools. Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Dashboards and Visual Analytics",
+          "topics": "Concept of visual analytics, Visual analytics process, Interactive visualization techniques, Dashboard design principles, Types of dashboards: Operational dashboards, Analytical dashboards, Strategic dashboards, Storytelling with data, Designing effective data stories, Case studies using real -world datasets, Visualization for business intelligence and decision making #Exemplar/Case Studies An e-commerce company wants a dashboard to track real-time metrics such as sales, customers, and inventory. Mapping of Course Outcomes for",
+          "hours": 6
+        },
+        {
+          "title": "Advanced Visualization, Big Data & Emerging Trends",
+          "topics": "Advanced data visualization concepts, Visualization of large -scale and big data, Challenges in visualizing high - dimensional data, Dimensionality reduction techniques (PCA – overview), Network and graph visualization, Social network visualization, Streamin g and real -time data visualization, Visualization for machine learning models, Model interpretation and explainable visualization (overview), Introduction to advanced visualization frameworks, Emerging trends in data visualization, Role of visualization in AI, IoT, and smart systems #Exemplar/Case Studies A smart city project collects real -time traffic data from IoT sensors installed across the city. Mapping of Course Outcomes for",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410642A",
+      "title": "Elective-III- Quantum Computing & AI",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Fundamental Concepts of Quantum computing: Introduction and Overview, Global Perspective, Quantum Bits, Quantum Computation, Quantum Algorithms, Quantum information and Quantum information processing #Exemplar/Case Studies Quantum Machine Learning for Drug Discovery Mapping of Course Outcomes for Unit I CO1, CO4",
+          "hours": 7
+        },
+        {
+          "title": "Mathematical foundation of Quantum Computing",
+          "topics": "Quantum Mechanics: Linear Algebra and Quantum mechanics, Postulates of Quantum mechanics, state space, evolution, Quantum measurement, distinguishing quantum states, projective measurements, POVM measurements, Phase, Composite systems, Global view and applications, Density operator #Exemplar/Case Studies Quantum AI for Financial Portfolio Optimization Mapping of Course Outcomes CO2, CO4",
+          "hours": 7
+        },
+        {
+          "title": "Adversarial Search and Games",
+          "topics": "Quantum Computations: Quantum circuits, Quantum algorithms and qubit operations, Controlled operations, Principal deferred and Principal implicit Measurements, Universal Quantum Gates, Two level unitary gates, single qubit and CNOT , discrete set of universal operations, Quantum computational complexity. #Exemplar/Case Studies Quantum Computing in AI-Based Image Recognition Mapping of Course Outcomes CO3, CO4",
+          "hours": 7
+        },
+        {
+          "title": "Quantum Simulation Algorithms and Fourier Transform",
+          "topics": "Simulation of Quantum Systems, Simulation in action, exponential complexity growth of quantum systems,, Quantum simulation algorithm, examples of quantum simulations, perspectives of quantum simulation, Understanding Basics of Fourier transform, Discrete Fourier Transform, Fast Fourier Transform, Definitions, mathematical representations of FT, DFT and FFT #Exemplar/Case Studies Quantum AI for Smart Traffic Management Mapping of Course Outcomes CO3, CO4",
+          "hours": 7
+        },
+        {
+          "title": "Quantum Fourier Transform and Applications",
+          "topics": "Quantum Fourier Transform, Phase estimation performance and requirements, order finding application, factoring application, General applications of Quantum Fourier transform, period finding, discrete algorithms, Other Quantum Algorithms. #Exemplar/Case Studies Quantum Computing for Cybersecurity and AI Threat Detection Mapping of Course Outcomes CO4, CO5",
+          "hours": 7
+        },
+        {
+          "title": "Quantum Machine Learning",
+          "topics": "Quantum Machine Learning and Quantum AI, Quantum Neural Networks, Quantum Natural Language Understanding, Quantum Cryptography, Application Domains for Quantum Machine Learning: Chemistry/Material Science, Space Tech, Finance related Optimization Problems, Swarm Robotics, Cyber security #Exemplar/Case Studies Quantum AI in Climate Modeling and Prediction Mapping of Course Outcomes for Unit VI CO4, CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410642B",
+      "title": "Elective-III- Enterprise Architecture and Components",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Enterprise Architecture",
+          "topics": "Definition and scope of Enterprise Architecture (EA),Enterprise vs traditional information systems, Business drivers for Enterprise Architecture, Challenges in large-scale enterprise systems, Alignment of Business Strategy, IT Strategy and Operations, Enterprise Architecture principles and goals, Stakeholders in enterprise architecture, Roles and responsibilities of an Enterprise Architect, EA governance and organizational maturity models, Benefits and limitations of Enterprise Architecture, Enterprise Arch itecture development lifecycle, Introduction to architecture repositories #Exemplar/Case Studies Enterprise Resource Planning (ERP) architecture Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Enterprise Architecture Frameworks and Reference Models",
+          "topics": "Need for Enterprise Architecture frameworks, Zachman Framework Structure, perspectives, abstractions Strengths and limitations, TOGAF (The Open Group Architecture Framework),TOGAF architecture domains, Architecture Development Method (ADM) phases, Architec ture artifacts and deliverables, Federal Enterprise Architecture Framework (FEAF) – overview Department of Defense Architecture Framework (DoDAF) – overview, IEEE 1471 / ISO/IEC/IEEE 42010 standard for architecture description, Comparison of EA frameworks, Selection of appropriate EA framework for organizations #Exemplar/Case Studies Digital transformation of a large enterprise Mapping of Course Outcomes CO2",
+          "hours": 7
+        },
+        {
+          "title": "Enterprise Architecture Frameworks and Standards",
+          "topics": "Overview of layered architecture approach, Business Architecture: Business processes, functions, goals Value chains and capability models, Data Architecture: Enterprise data models, Data governance and data standards, Master data and metadata management, Application Architecture: Application portfolio management, Application integration patterns, Technology Architecture: Infrastructure components, Platforms, networks, and deployment environments, Architectural viewpoints and viewpoints vs views, Architecture modeling languages (overview of ArchiMate, UML), Architecture documentation and traceability #Exemplar/Case Studies Cloud adoption in enterprise systems Mapping of Course Outcomes CO3",
+          "hours": 7
+        },
+        {
+          "title": "Enterprise Components and Component-Based Architecture",
+          "topics": "Concept of enterprise components, Characteristics of good enterprise components, Component -based software engineering (CBSE), Component interfaces and contracts, Reusability and maintainability in enterprise components, Enterprise Java Beans (EJB) – architecture and types, .NET components (overview), Component deployment and versioning, Monolithic architecture vs component-based architecture, Microservices architecture – concepts and comparison, Component orchestration and choreography #Exemplar/Case Studies Component-Based Architecture in an ERP System Mapping of Course Outcomes CO4",
+          "hours": 7
+        },
+        {
+          "title": "Enterprise Integration and Services",
+          "topics": "Need for enterprise integration, Types of integration:, Data integration, , Application integration, Business process integration, Service-Oriented Architecture (SOA), SOA principles and service lifecycle, Service contracts and service registry, Web servic es architecture, SOAP -based services, RESTful services, Enterprise Service Bus (ESB), Middleware technologies and messaging systems, API management and gateways, Cloud-based enterprise architectures, Hybrid and distributed enterprise systems #Exemplar/Case Studies SOA-Based Integration in Healthcare Enterprise Mapping of Course Outcomes for Unit II CO5",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410642C",
+      "title": "Elective-III- Bioinformatics",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Definition, history, and scope of Bioinformatics, Interdisciplinary nature: Biology , Computer Science Mathematics, Central Dogma of Molecular Biology, DNA, RNA, and Protein structure basics, Overview of genome organization, Biological databases introduction, Primary vs Secondary databases #Exemplar/Case Studies Genomics and Bioconductor Mapping of Course Outcomes CO1",
+          "hours": 7
+        },
+        {
+          "title": "Biological Databases & Data Retrieval",
+          "topics": "Nucleotide sequence databases: GenBank, European Molecular Biology Laboratory, Protein sequence databases: UniProt, Structural databases: Protein Data Bank, Data formats: ASTA, GenBank format, PDB format, Database searching techniques, Introduction to BLAST #Exemplar/Case Studies Genomic Data Visualization Mapping of Course Outcomes CO2",
+          "hours": 7
+        },
+        {
+          "title": "Sequence Alignment & Phylogenetics",
+          "topics": "Pairwise Sequence Alignment: Global Alignment (Needleman –Wunsch algorithm), Local Alignment (Smith – Waterman algorithm), Scoring matrices (PAM, BLOSUM), Multiple Sequence, Alignment, Phylogenetic Tree Construction, Distance-based methods, Maximum Parsimony method #Exemplar/Case Studies Structural Bioinformatics, Cross-cell line Transcriptomic Signature Predictions Mapping of Course Outcomes CO3",
+          "hours": 7
+        },
+        {
+          "title": "Structural Bioinformatics",
+          "topics": "Protein Structure Levels (Primary to Quaternary): Secondary Structure Prediction, Ramachandran Plot, Protein folding basics, Structure classification systems, Molecular visualization tools #Exemplar/Case Studies AstraZeneca Mapping of Course Outcomes for Unit II CO4",
+          "hours": 7
+        },
+        {
+          "title": "Genomics and Proteomics",
+          "topics": "Genome sequencing technologies: Next Generation Sequencing (NGS) overview, Genome assembly concepts, Gene prediction methods, Functional genomics, Proteomics basics, Mass spectrometry overview, Gene Ontology and pathway databases #Exemplar/Case Studies DeepChem and Facial Emotion Recognition Mapping of Course Outcomes for Unit II CO5",
+          "hours": 7
+        },
+        {
+          "title": "Applications & Modern Trends",
+          "topics": "Quality attributes of enterprise architectures, Scalability, Security, Reliability, Performance, Maintainability, Risk analysis in enterprise architecture, Cost–benefit analysis of EA initiatives, Architecture governance and compliance, Architecture review and validation techniques, Migration planning and roadmap development #Exemplar/Case Studies Awesome Bioinformatics Mapping of Course Outcomes for Unit II CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410642D",
+      "title": "Elective-III- Open Elective",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        26,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "410643A",
+      "title": "Elective-IV- GPU Programming and Architecture",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "GPU Memory Hierarchy",
+          "topics": "410643A : Elective-IV- GPU Programming and Architecture Teaching Scheme Credit Scheme Examination Scheme and Marks Lecture: 03 Hours/Week 03 Mid_Semester(TH): 30 Marks End_Semester(TH): 70 Marks Prerequisite Courses : Computer Graphics, Software Engineering Companion Course : Computer Laboratory II Course Objectives: • Understand the evolution and significance of GPU computing and differentiate between CPU and GPU architectures. • Explain the internal architecture of modern GPUs, including execution models, thread hierarchy, and scheduling mechanisms. • Analyze GPU memory hierarchy and access patterns to achieve efficient parallel computation. • Develop parallel programs using CUDA and OpenCL frameworks for general -purpose GPU computing. • Apply performance optimization techniques to improve execution efficiency and scalability of GPU programs. • Evaluate and implement GPU -based solutions for real -world applications such as artificial intelligence, image processing, and scientific computing. Course Outcomes: On completion of the course, learner will be able to- CO1: Explain the fundamentals, evolution, and applications of GPU computing. CO2 : Describe GPU architecture, execut...",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to GPU Computing",
+          "topics": "Evolution of graphics hardware,CPU vs GPU architecture comparison, Parallel computing concepts, SIMD and SIMT execution models, GPGPU overview and applications, Role of GPUs in AI, ML, and HPC #Exemplar/Case Studies CPU vs GPU for Image Processing *Mapping of Course Outcomes CO1, CO6",
+          "hours": 7
+        },
+        {
+          "title": "GPU Architecture and Execution Model",
+          "topics": "Types of GPU memory,Global , shared, local, constant, texture, Memory latency and bandwidth, Memory coalescing, Bank conflicts and shared memory optimization, Unified memory concept #Exemplar/Case Studies Shared vs global memory *Mapping of Course Outcomes CO1,CO3,CO5",
+          "hours": 7
+        },
+        {
+          "title": "GPU Programming using CUDA and OpenCL",
+          "topics": "CUDA programming model,Kernel definition and invocation, Thread indexing and synchronization, Atomic operations, Introduction to OpenCL platform and execution model, Error handling and debugging #Exemplar/Case Studies Matrix multiplication *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Performance Optimization Techniques",
+          "topics": "GPU performance metrics, profiling tools (Nsight, nvprof), Memory optimization techniques, Reducing thread divergence, Loop unrolling and instruction optimization, Introduction to multi-GPU programming #Exemplar/Case Studies Profiling & divergence reduction *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "GPU-Based Applications and Case Studies",
+          "topics": "GPU acceleration for deep learning, Image and video processing using GPU, Scientific simulations and numerical computing, Graph processing on GPUs, Case studies: real -time analytics, medical imaging, autonomous systems #Exemplar/Case Studies GPU in deep learning *Mapping of Course Outcomes for Unit V CO3,CO5,CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410643B",
+      "title": "Elective-IV- Design Thinking",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Project Management",
+          "topics": "Project Definition, Project versus Flow type work, Project Lifecycle, Processes and Knowledge Areas in Project Management (PM), Build or Buy decision, Work Breakdown Structure (WBS) and its types, Introduction to PMBOK, Program and Portfolio Management. #Exemplar/Case Studies Analysis of a project using PMBOK concepts. *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Project Planning and Project Management",
+          "topics": "Tools (07 Hours)",
+          "hours": null
+        },
+        {
+          "title": "Activity based Scheduling",
+          "topics": "Introduction, Objectives of Activity Planning, Project Schedules. Activities: Sequencing and Scheduling, Network Planning Models, Formulating Network Model, Activity relationships (FS, SF, SS, FF), Forward Pass and Backward Pass techniques, Critical Path concept and remedies. #Exemplar/Case Studies Apply the critical path technique to the project *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Project Tracking and Control",
+          "topics": "Introduction, Collection of Project data, Visualizing progress, Cost monitoring, Earned Value Analysis, Project tracking, Change Control, Software Configuration Management, Managing contracts, Contract Management. #Exemplar/Case Studies Analyze the effect of a major requirement change on the schedule *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Agile Project Management",
+          "topics": "Predictive versus Empirical Management, Comparison between Non -Agile and Agile Project, Three stages of Agile Project, Estimation, Scope Management, Roles and Responsibilities, Scheduling and Tracking. #Exemplar/Case Studies Analyse the same project using Agile. Create the three stages of the project. *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "Staffing in Software Projects",
+          "topics": "Managing People, Organizational behaviour, Best methods of Staff Selection, Motivation, The Oldham, Hackman job characteristic Model, Stress, Health and Safety, Ethical and Professional concerns, Working in Teams, Decision Making, Organizational structures, Dispersed and Virtual Teams, Communications G enres, Communication Plans. #Exemplar/Case Studies Analyse a case study for a distributed team and comment *Mapping of Course Outcomes for Unit II CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410643C",
+      "title": "Elective-IV- Bio Inspired Algorithm",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Bio-Inspired Computing",
+          "topics": "Introduction to Natural Computing, Biological Inspiration in Computing, Evolutionary principles in nature, Optimization problems and search techniques, Classification of bio -inspired algorithms, Population -based vs single solution algorithms, Advantages and limitations of bio-inspired algorithms, Applications in engineering, robotics, machine learning and network optimization. #Exemplar/Case Studies Optimization in Delivery Route Planning *Mapping of Course Outcomes CO1",
+          "hours": 7
+        },
+        {
+          "title": "Genetic Algorithms",
+          "topics": "Introduction to Genetic Algorithms, Biological foundations of Genetic Algorithms. Chromosome representation techniques: Binary representation, Real-valued representation Fitness evaluation and objective functions. Genetic operators: Selection methods (Roulette wheel, Tournament selection), Crossover techniques (Single point, Two point, Uniform crossover), Mutation operators. Elitism and replacement strategies, Convergence and termination criteria, Applications of Genetic Algorithms in optimization and scheduling problems #Exemplar/Case Studies Genetic Algorithm for Job Scheduling *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Evolutionary Algorithms",
+          "topics": "Introduction to Evolutionary Computation, Evolutionary Programming (EP), Evolutionary Strategies (ES), Differential Evolution (DE), Self-adaptation mechanisms, Fitness landscape analysis, Exploration vs exploitation in evolutionary algorithms, Applications in engineering design and optimization problems. #Exemplar/Case Studies Differential Evolution for Engineering Design *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Naming and Distributed File Systems",
+          "topics": "Introduction to swarm intelligence, Collective behavior in biological systems. Particle Swarm Optimization (PSO): Velocity and position update equations, Global best and local best models Ant Colony Optimization (ACO): Pheromone update rules, Path finding optimization Artificial Bee Colony Algorithm, Firefly Algorithm, Applications of swarm intelligence in routing, scheduling and clustering. #Exemplar/Case Studies Ant Colony Optimization for Network Routing *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Bio-Inspired Algorithms and Applications",
+          "topics": "Hybrid bio-inspired algorithms, Memetic algorithms, Multi -objective optimization, Bio-inspired algorithms in machine learning, Feature selection using evolutionary algorithms,Bio -inspired approaches for data mining, Applications in robotics, control systems, cloud computing and network optimization, Performance comparison of bio-inspired algorithms #Exemplar/Case Studies Feature Selection in Machine Learning Using PSO *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Emerging Bio-Inspired Algorithms and Real-World Applications",
+          "topics": "Hybrid Bio -Inspired Algorithms: Concept of hybrid optimization techniques, Combination of Genetic Algorithms with Swarm Intelligence, Hybrid GA –PSO models, Benefits of hybrid algorithms in complex optimization problems Memetic Algorithms: Introduction to Memetic Algorithms, Local search and global search integration, Advantages over traditional evolutionary algorithms, Applications in optimization problems Multi-Objective Optimization: Concept of multi -objective problems, Pareto optimality and Pareto front, Multi-objective evolutionary algorithms, Applications in engineering design problems Bio-Inspired Algorithms in Machine Learning: Feature selection using evolutionary algorithms, Parameter tuning in machine learning models, Optimization in neural networks, Bio-inspired approaches for deep learning Real-World Applications: Network routing optimization, Robotics path planning, Cloud computing resource allocation, Data mining and big data analytics, Smart grid and energy optimization Performance Evaluation of Bio -Inspired Algorithms: Convergence analysis, Computational complexity, Benchmark optimization problems, Comparison of different bio-inspired techniques #Exemplar/Case...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410643D",
+      "title": "Elective-IV- Open Elective",
+      "semester": 7,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        36,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "410644",
+      "title": "Computer Laboratory-I",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "410645",
+      "title": "Computer Laboratory-II",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        40,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "410646",
+      "title": "Project Stage I",
+      "semester": 7,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "410647",
+      "title": "MOOC",
+      "semester": 7,
+      "type": "Tutorial",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "410648",
+      "title": "Audit Course 7",
+      "semester": 7,
+      "type": "Audit Course",
+      "credits": null,
+      "pages": [
+        47,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "410649",
+      "title": "Block chain Technology",
+      "semester": 8,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        54,
+        56
+      ],
+      "units": [
+        {
+          "title": "Mathematical Foundation for Blockchain",
+          "topics": "Cryptography: Symmetric Key Cryptography and Asymmetric Key Cryptography, Elliptic Curve Cryptography (ECC), Cryptographic Hash Functions: SHA256, Digital Signature Algorithm (DSA), Merkel Trees. #Exemplar/Case Studies Compare the Symmetric and Asymmetric Cryptography algorithms Mapping of Course Outcomes for Unit I CO1",
+          "hours": 6
+        },
+        {
+          "title": "Feature Engineering",
+          "topics": "History, Centralized Vs. Decentralized Systems, Layers of Blockchain: Application Layer, Execution Layer, Semantic Layer, Propagation Layer, Consensus Layer, Why is Block chain important? Limitations of Centralized Systems, Blockchain Adoption So Far. #Exemplar/Case Studies Study of a research paper based on Blockchain Mapping of Course Outcomes for Unit II CO2",
+          "hours": 6
+        },
+        {
+          "title": "Blockchain Platforms and Consensus in Blockchain",
+          "topics": "Types of Blockchain Platforms: Public, Private and Consortium, Bitcoin, Ethereum, Hyperledger,IoTA, Corda, R3.Consensus in Blockchain: Consensus Approach, Consensus Elements, Consensus Algorithms, Proof of Work, Byzantine General problem, Proof of Stake, Proof of Elapsed Time, Proof of Activity, Proof of Burn. #Exemplar/Case Studies Compare different consensus algorithms used in Blockchain Technology. Mapping of Course Outcomes for Unit III CO2",
+          "hours": 6
+        },
+        {
+          "title": "Cryptocurrency – Bitcoin, and Token",
+          "topics": "Introduction, Bitcoin and the Cryptocurrency, Cryptocurrency Basics Types of Cryptocurrency, Cryptocurrency Usage, Cryptowallets: Metamask, Coinbase, Binance, What is Ethereum, Types of Ethereum Networks, EVM (Ethereum Virtual Machine) #Exemplar/Case Studies Create your own wallet for crypto currency using any of the Blockchain Platforms. Mapping of Course Outcomes for Unit IV CO4, CO2",
+          "hours": 6
+        },
+        {
+          "title": "Blockchain Ethereum Platform using Solidity",
+          "topics": "Introduction to smart contracts, Purpose and types of Smart Contracts, Implementing and deploying smart contracts using Solidity, Swarm (Decentralized Storage Platform), Whisper (Decentralized Messaging Platform) #Exemplar/Case Studies Study Truffle Development Environment. Mapping of Course Outcomes for Unit V CO4, CO2",
+          "hours": 6
+        },
+        {
+          "title": "Blockchain Case Studies",
+          "topics": "Prominent Blockchain Applications, Retail, Banking and Financial Services, Government Sector, Healthcare, IOT, Energy and Utilities, Blockchain Integration with other Domains #Exemplar/Case Studies Study 2 uses cases of Blockchain and write a detailed report on every aspect implemented in the same Mapping of Course Outcomes for Unit V CO5, CO6",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "410650",
+      "title": "Distributed Computing",
+      "semester": 8,
+      "type": "Compulsory",
+      "credits": 3,
+      "pages": [
+        57,
+        59
+      ],
+      "units": [
+        {
+          "title": "Introduction to Distributed Systems",
+          "topics": "Definition and Characteristics, Goals: Resource sharing, transparency, openness, scalability, Challenges: Heterogeneity, security, fault tolerance, Distributed System Models: Physical Models, Architectural Models (Client–Server, Peer-to-Peer, Multi-tier),Fundamental Models (Interaction, Failure, Security models),Middleware: Role of Middleware, Middleware Architectures, Examples: CORBA, RMI #Exemplar/Case Studies Distributed Infrastructure of Google Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Communication in Distributed Systems",
+          "topics": "Interprocess Communication (IPC): Message Passing. Sockets, Datagram and Stream Communication,Remote Parameter Passing Mechanisms, Group Communication: Multicast Communicationn: Publish–Subscribe Model #Exemplar/Case Studies Communication Model in Apache Hadoop Mapping of Course Outcomes for Unit II CO2",
+          "hours": 7
+        },
+        {
+          "title": "Time, Global State & Coordination",
+          "topics": "Time in Distributed Systems: Physical Clocks, Clock Synchronization (Cristian’s Algorithm, Berkeley Algorithm), Logical Clocks: Lamport Timestamps, Vector Clocks, Global State Consistent Global States, Chandy–Lamport Snapshot Algorithm, Distributed Mutual Exclusion, Centralized Algorithm, Ricart – Agrawala Algorithm, Token Ring Algorithm, Leader: Election Algorithms, Bully Algorithm, Ring Algorithm #Exemplar/Case Studies Mutual Exclusion in Distributed Databases – Ricart–Agrawala Algorithm Mapping of Course Outcomes for Unit III CO3",
+          "hours": 7
+        },
+        {
+          "title": "Consistency, Replication & Transactions",
+          "topics": "Consistency Models: Strict Consistency, Sequential Consistency, Causal Consistency, Eventual Consistency, Data Replication: Active & Passive Replication, Primary-Backup Protocol, Distributed Transactions, ACID Properties: Two- Phase Commit (2PC), Three-Phase Commit (3PC) #Exemplar/Case Studies Distributed Databases in Amazon Web Services Mapping of Course Outcomes for Unit IV CO3, CO4",
+          "hours": 7
+        },
+        {
+          "title": "Fault Tolerance & Consensus",
+          "topics": "Failure Models: Crash Failures, Omission Failures, Byzantine Failures, Fault Tolerance Techniques: Replication Checkpointing and Recovery, Rollback Recovery, Consensus Algorithms: Paxos (Overview),Raft (Overview),Byzantine Fault Tolerance #Exemplar/Case Studies Consensus Algorithm in Google – Paxos in Distributed Services Mapping of Course Outcomes for Unit V CO5, CO6",
+          "hours": 7
+        },
+        {
+          "title": "Security, Distributed File Systems & Cloud",
+          "topics": "Security in Distributed Systems: Authentication, Authorization, Confidentiality & Integrity, Public Key Infrastructure (PKI), Distributed File Systems: Design Principles, Case Study: Google File System (GFS), Cloud Computing Basics: Virtualization, Containerization, Microservices Architecture #Exemplar/Case Studies Architecture of Microsoft Azure Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410651A",
+      "title": "Elective V- Virtual & Augmented Reality",
+      "semester": 8,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        60,
+        62
+      ],
+      "units": [
+        {
+          "title": "Introduction to Virtual Reality",
+          "topics": "Defining Virtual Reality, History of VR, Human Physiology and Perception, Key Elements of Virtual Reality Experience, Virtual Reality System, Interface to the Virtual World -Input & output - Visual, Aural & Haptic Displays, Applications of Virtual Reality. Representation of the Virtual World, Visual Representation in VR, Aural Representation in VR and Haptic Representation in VR #Exemplar/Case Studies Study the use of Virtual Reality at NASA *Mapping of Course Outcomes for Unit VI CO1",
+          "hours": 6
+        },
+        {
+          "title": "The Geometry of Virtual Worlds &The Physiology of",
+          "topics": "Human Vision (07Hours) Geometric Models, Changing Position and Orientation, Axis -Angle Representations of Rotation, Viewing Transformations, Chaining the Transformations, Human Eye, eye movements & implications for VR. Visual Perception - Perception of Depth, Perception of Motion, Perception of Color, Combining Sources of Information Visual Rendering -Ray Tracing and Shading Models, Rasterization, Correcting Optical Distortions, Improving Latency and Frame Rates #Exemplar/Case Studies Automatic stitching of panoramas in Virtual Reality *Mapping of Course Outcomes for Unit VI CO2",
+          "hours": null
+        },
+        {
+          "title": "Motion ,Tracking with Interaction & Audio",
+          "topics": "Motion in Real and Virtual Worlds- Velocities and Accelerations, The Vestibular System, Physics in the Virtual World, Mismatched Motion and Vection Tracking - Tracking 2D & 3D Orientation, Tracking Position and Orientation, Tracking Attached Bodies, Interac tion - Motor Programs and Remapping, Locomotion, Manipulation, Social Interaction. Audio -The Physics of Sound, The Physiology of Human Hearing, Auditory Perception, Auditory Rendering. #Exemplar/Case Studies A virtual Study Use Case- NICE, An Educational Experience *Mapping of Course Outcomes for Unit VI CO3",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Augmented Reality (A.R)",
+          "topics": "What Is Augmented Reality - Defining augmented reality, history of augmented reality, The Relationship Between Augmented Reality and Other Technologies-Media, Technologies, Other Ideas Related to the Spectrum Between Real and Virtual Worlds, applications o f augmented reality Augmented Reality Concepts - How Does Augmented Reality Work? Concepts Related to Augmented Reality, Ingredients of an Augmented Reality Experience.. #Exemplar/Case Studies Timeline of evolution of AR from VR *Mapping of Course Outcomes for Unit VI CO4",
+          "hours": 8
+        },
+        {
+          "title": "Computer Vision for Augmented Reality & A.R. Software",
+          "topics": "Computer Vision for Augmented Reality - Marker Tracking, Multiple-Camera Infrared Tracking, Natural Feature Tracking by Detection, Simultaneous Localization and Mapping, Outdoor Tracking Augmented Reality Software - Introduction, Major Software Components for Augmented Reality Systems, Software used to Create Content for the Augmented Reality Application. #Exemplar/Case Studies Environmental monitoring and conservation, Epidemiological analysis and disease surveillance. *Mapping of Course Outcomes for Unit V CO5",
+          "hours": 7
+        },
+        {
+          "title": "AR Devices & Components",
+          "topics": "AR Components – Scene Generator, Tracking system, monitoring system, display, Game scene AR Devices – Optical See- Through HMD, Virtual retinal systems, Monitor bases systems, Projection displays, Video see - through systems, Introduction to mixed reality, Applications of mixed reality, Input and Output in Mixed reality, Computer Vision and Mixed Reality, simultaneous localization and mapping (SLAM) #Exemplar/Case Studies Movie Recommendation System *Mapping of Course Outcomes for Unit VI CO6",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410651B",
+      "title": "Elective V- Software Testing and Quality Assurance",
+      "semester": 8,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        63,
+        65
+      ],
+      "units": [
+        {
+          "title": "Introduction to Information Security",
+          "topics": "Foundations of Security, Computer Security Concepts, The OSI Security Architecture, Security attacks, Security services, Security mechanism, A Model for Network Security. #Exemplar/Case Studies Open Source/ Free/ Trial Tools: Clam AV antivirus engine, Anti Phishing, Anti Spyware, Wireshark Mapping of Course Outcomes for",
+          "hours": 5
+        },
+        {
+          "title": "Symmetric Key Cryptography",
+          "topics": "Classical Encryption Techniques: Stream Ciphers, Substitution Techniques: Caesar Cipher, Mono alphabetic Ciphers, Play fair Cipher, Hill Cipher, Poly alphabetic Ciphers, Transposition Techniques, Block Ciphers and Data Encryption standards, 3DES, Advanced Encryption standard. #Exemplar/Case Studies Open Source/ Free/ Trial Tools: crypt tool Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Asymmetric Key Cryptography",
+          "topics": "Number theory: Prime number, Fermat and Euler theorems , Testing for primality, Chinese reminder theorem, discrete logarithm, Public Key Cryptography and RSA, Key Management, DiffieHellman key exchange, El Gamal algorithm, Elliptic Curve Cryptography #Exemplar/Case Studies Open Source/ Free/ Trial Tools: crypt tool Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Data Integrity Algorithms And Web Security",
+          "topics": "Cryptographic Hash Functions: Applications of Cryptographic Hash Functions, Two Simple Hash Functions, Requirements and Security, Hash Functions Based on Cipher Block Chaining, Secure Hash Algorithm (SHA), SHA-3, MD4, MD5. Message Authentication Codes: Mes sage Authentication Requirements, Message Authentication Functions, Requirements for Message Authentication Codes, Security of MACs. Digital Signatures: Digital Signatures, Schemes, Digital Signature standard, PKI X.509 Certificate. Web Security issues, HTTPS, SSH, Email security: PGP, S/MIME, IP Security : IPSec #Exemplar/Case Studies Open Source/ Free/ Trial Tools: Open SSL, Hash Calculator Tool : MD5, SHA1, SHA256, SHA 512 Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Network and System Security",
+          "topics": "The OSI Security architecture, Access Control, Flooding attacks, DOS, Distributed DOS attacks Intrusion detection, Host based and network based Honeypot, Firewall and Intrusion prevention system, Need of firewall, Firewall characteristics and access policy, Types of Firewall, DMZ networks, Intrusion prevention system: Host based, Network based, Hybrid. Operating system Security, Application Security, Security maintenance, Multilevel Security, Multilevel Security for role based access control, Concepts of tr usted system, Trusted computing. #Exemplar/Case Studies Open Source/ Free/ Trial Tools: DOS Attacks, DDOS attacks, Wireshark, Cain and Abel, iptables/ Windows Firewall, Suricata, fail2ban, Snort. Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Cyber Security and Tools",
+          "topics": "The CO-PO mapping table PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12 CO1 3 3 2 2 - 2 - 1 - - - 1 CO2 3 3 2 3 - 2 - - - - - - CO3 3 3 2 3 - 2 - - - 1 - - CO4 3 3 2 2 - - 1 - - - - - CO5 3 2 1 2 - 2 1 2 - 1 1 1 Introduction, Cybercrime and Information Security, Classification of Cybercrimes, The legal perspectives-Indian perspective, Global perspective, Categories of Cybercrime, Social Engineering, Cyber stalking, Proxy servers and Anonymizers, Phishing, Password Cracking, Key-loggers and Spywares, The Indian IT Act-Challenges, Amendments, Challenges to Indian Law and Cybercrime Scenario in India, Indian IT Act. #Exemplar/Case Studies Study of any two network security scanners: Nmap, Metasploit, Open VAS, Aircrack, Nikito, Samurai,Safe3etc. Mapping of Course Outcomes for",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410651C",
+      "title": "Elective V- Open Elective",
+      "semester": 8,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        66,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "410652A",
+      "title": "Elective VI- Virtual Reality in Game Development",
+      "semester": 8,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Virtual Reality in a Nutshell",
+          "topics": "What is virtual reality?, Types of head-mounted displays, The difference between virtual 6reality and augmented reality, Applications versus games, How virtual reality really works, Types of VR experiences, Technical skills that are important to VR #Exemplar/Case Studies Study about VR device interaction and working with OS (Windows/Linux) and IDE’s (Unity/Unreal) Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Content Creation & Interaction",
+          "topics": "High-Level Concepts of Content Creation, Environmental Design, Affecting Behavior, Transitioning to VR Content Creation, Content Creation: Design Guidelines,Human -Centered Interaction, VR Interaction Concepts, Input Devices, Interaction Patterns and Techniques, Interaction: Design Guidelines #Exemplar/Case Studies Case study of a developed VR game in Unity with the above mentioned features Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Iterative design",
+          "topics": "Philosophy of Iterative Design, The Define Stage, The Make Stage, The Learn Stage, Iterative Design: Design Guidelines #Exemplar/Case Studies Study of Iterative design of any VR game. Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Security in Cloud Computing",
+          "topics": "Overview, Building Your Project and Character, Getting Animated, The Town View, Working with Unity’s UI System, NPCs and Interactions, The World Map, Encountering Enemies and Running Away #Exemplar/Case Studies Animation in Unreal Engine vs Unity Engine Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Game Development in Unity",
+          "topics": "Getting Ready to Fight, The Battle Begins, Shopping for Items, Sound and Music, Putting a Bow on It, Deployment and Beyond #Exemplar/Case Studies Case study on considering windows mixed reality for game development in Unity Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Adverse Health Effects",
+          "topics": "Motion Sickness, Eye Strain, Seizures, and Aftereffects, Hardware Challenges, Latency, Measuring Sickness, Summary of Factors That Contribute to Adverse Effects, Examples of Reducing Adverse Effects, Adverse Health Effects: Design Guidelines #Exemplar/Case Studies Effect of any VR game on health.( Beat Saber/Rick and Morty: Virtual Rick-Ality/ Cloudlands VR Minigolf). Mapping of Course Outcomes for",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410652B",
+      "title": "Elective VI- Information Systems Management",
+      "semester": 8,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        70,
+        73
+      ],
+      "units": [
+        {
+          "title": "Introduction to Information Systems",
+          "topics": "Introduction to Information Systems: Definition of Data, Information and Knowledge, Information as a Strategic Resource, Characteristics and Quality of Information, Information System vs Information Technology Components of Information Systems: Hardware, Software, Database, Telecommunications & Networks, People and Procedures Types of Information Systems: Transaction Processing Systems (TPS), Management Information Systems (MIS), Decision Support Systems (DSS), Executive Support Systems (ESS), Knowledge Management Systems (KMS) Functional Area Information Systems: Marketing Information System, Financial Information System, Human Resource Information System, Production/Operations Information System #Exemplar/Case Studies Digital Banking Transformation at State Bank of India Background: Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Information Systems in Organizations",
+          "topics": "Organizations and Information Systems: Organizational Structure and Culture, Business Processes and Reengineering (BPR), Impact of IS on Organizational Performance Enterprise Applications: Enterprise Resource Planning (ERP), Supply Chain Management (SCM), Customer Relationship Management (CRM), Integration of Enterprise Systems E-Business and Digital Enterprise: E-Commerce Models (B2B, B2C, C2C), Digital Markets and Digital Goods, online Payment Systems, Mobile Commerce Emerging Technologies in IS: Cloud Computing, Internet of Things (IoT), Artificial Intelligence in IS, Blockchain Applications #Exemplar/Case Studies ERP Implementation at Tata Motors Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "System Development and Project Management",
+          "topics": "System Development Life Cycle (SDLC)Phases: Planning, Analysis, Design, Implementation, Maintenance, Feasibility Study (Technical, Economic, Operational), Cost-Benefit Analysis System Analysis and Design: Requirements Gathering Techniques, Structured vs Object-Oriented Analysis, Data Flow Diagrams (DFD), Entity Relationship Diagrams (ERD) Alternative Development Approaches: Prototyping Model, Agile Methodology, Rapid Application Development (RAD), End-User Development Project Management in IS: Project Planning and Scheduling (Gantt Charts, PERT/CPM), Risk Management, Change Management #Exemplar/Case Studies Development of IRCTC Online Booking System by Indian Railway Catering and Tourism Corporation Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Information System Security, Ethics and Controls",
+          "topics": "Threats and Vulnerabilities: Types of Security Threats (Malware, Phishing, Hacking), Insider vs External Threats, Data Breaches Security Controls: Access Controls, Encryption, Firewall and Intrusion Detection Systems, Disaster Recovery Planning, Business Continuity Planning Ethical and Social Issues: Privacy and Data Protection, Intellectual Property Rights, Cyber Ethics, Social Impact of Information Systems Legal Framework: IT Act (India), Cyber Laws, Global Data Protection Regulations (Overview) #Exemplar/Case Studies Data Privacy Concerns at Facebook (Now Meta) Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Strategic Information Systems and Decision Making",
+          "topics": "Information Systems for Competitive Advantage: Strategic Role of IS, Porter’s Competitive Forces Model, Value Chain Analysis Business Intelligence and Analytics: Data Warehousing, Data Mining, Big Data Concepts, Visualization Tools Knowledge Management: Knowledge Creation and Sharing, Knowledge Management Systems, Organizational Learning Future Trends in Information Systems: Digital Transformation, Industry 4.0, Smart Enterprises #Exemplar/Case Studies Competitive Advantage through IS at Amazon Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "Emerging Trends and Advanced Applications in Information Systems",
+          "topics": "Digital Transformation: Concept and Need for Digital Transformation, Role of Information Systems in Digital Strategy, Digital Business Models, Case Studies of Digital , Enterprises Artificial Intelligence and Machine Learning in IS: Introduction to AI and ML, Applications of AI in Business Information Systems, Intelligent Decision Support Systems, Chatbots and Virtual Assistants Big Data and Advanced Analytics: Characteristics of Big Data (5Vs), Big Data Architecture, Predictive and Prescriptive Analytics, Business Applications of Big Data Internet of Things (IoT) and Smart Systems: Concept and Architecture of IoT, IoT in Industry (Smart Manufacturing, Smart Cities), Integration of IoT with Enterprise Systems #Exemplar/Case Studies Digital Payments and UPI System by National Payments Corporation of India Mapping of Course Outcomes for",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "410652C",
+      "title": "Elective VI- Open Elective",
+      "semester": 8,
+      "type": "Elective",
+      "credits": 3,
+      "pages": [
+        74,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "410653",
+      "title": "Computer Laboratory-III",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        75,
+        77
+      ],
+      "units": []
+    },
+    {
+      "code": "410654",
+      "title": "Computer Laboratory-IV",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        78,
+        81
+      ],
+      "units": []
+    },
+    {
+      "code": "410655",
+      "title": "Project II",
+      "semester": 8,
+      "type": "Project",
+      "credits": 6,
+      "pages": [
+        82,
+        82
+      ],
+      "units": []
+    },
+    {
+      "code": "410656",
+      "title": "Audit Course 8",
+      "semester": 8,
+      "type": "Audit Course",
+      "credits": null,
+      "pages": [
+        83,
+        90
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

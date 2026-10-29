@@ -1,0 +1,833 @@
+{
+  "id": "sppu-bos-mech-te-anr-nep2024-30-70pattern-2026-27-july2026-22082026",
+  "kind": "programme",
+  "programme": "TE - Third Year Engineering (2024 Pattern) in Automation & Robotics Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-AUR",
+      "title": "Industrial Automation Systems",
+      "semester": 5,
+      "type": "Major Course-7",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Automation System",
+          "topics": "Introduction to Automation System : Concept of automation - mechanisation and automation - classification, balancing of assembly line using available algorithms - Transfer line -monitoring system (TLMS) using Line Status - Line efficiency - Buffer stock Simulation in assembly line. Real World Assignment: 1. Study and prepare a report on the assembly line automation system used in an automobile manufacturing industry and identify methods used for line balancing and efficiency improvement. 2. Develop a simulation-based case study to analyze the effect of buffer stock on productivity and downtime in a transfer line manufacturing system. Practical Applications: 1. Transfer Line Monitoring System (TLMS) is used in automated manufacturing plants to monitor machine status, detect faults, and improve production efficiency. 2. Assembly line balancing algorithms are applied in industries to optimize workstation loading, reduce idle time, and increase production output.",
+          "hours": 6
+        },
+        {
+          "title": "Hydraulics Automation",
+          "topics": "Introduction to Fluid Power Systems, Properties of Hydraulic Fluids, Fluid Power Symbols, Hydraulic Pumps: Gear, Vane, Piston Pumps, Hydraulic Actuators: Cylinders and Motors, Hydraulic Control Valves: Direction, Pressure, and Flow Control Valves, Hydrauli c Accumulators and Intensifiers, Hydraulic Circuits, Electro-Hydraulics automation , Design of Hydraulic Systems in Industrial Automation. Real World Assignment: 1. Study and design a hydraulic press system used in manufacturing industries. 2. Study the hydraulic system used in an industrial automation application such as injection moulding machine, or excavator, and prepare a report explaining the functions of pumps, actuators, control valves, and hydraulic circuits involved in the system. Practical Applications: 1. Development of hydraulic circuits for industrial automation applications. 2. Analysis of hydraulic cylinder operation for lifting mechanisms",
+          "hours": 8
+        },
+        {
+          "title": "Pneumatics Automation",
+          "topics": "Introduction to Pneumatic Systems, Standard Symbols, Air Compressors and Air Distribution Systems, Pneumatic Control Valves and FRL Units, Pneumatic Actuators and Cylinders, Pneumatic Circuit Design, Electro-Pneumatics automation ,Electro-Pneumatic Systems and Components, Solenoid Valves and Relay Logic, Sequential Control of Pneumatic Systems, PLC Integration with Pneumatic Systems, Industrial Applications of Pneumatics in Automation Real World Assignment: 1. Design an electro-pneumatic pick-and-place automation system. 2. Study pneumatic automation used in packaging industries. Practical Applications: 1. Design and simulation of pneumatic circuits using automation software. 2. PLC-based electro-pneumatic control system development.",
+          "hours": 8
+        },
+        {
+          "title": "Programmable Logic Control",
+          "topics": "Automation using Electronics Systems (Introduction - various sensors – transducers - signal processing - servo systems programmable logic controllers, PLC programming languages (Ladder Logic), alarm/interlock design, and PLC networking, Human-Machine Interface (HMI) design, GUI development, and I/O interfacing, Real World Assignment: 1. Study the PLC-based automation system used in a packaging or conveyor industry. 2. Develop a basic Ladder Logic program for automatic motor control with alarms and interlocks. Practical Applications: 1. PLC-HMI systems are used in automated production lines for machine monitoring and control. 2. Servo systems with sensors are used in robotic arms and CNC machines for precise motion control.",
+          "hours": 10
+        },
+        {
+          "title": "Communication, Supervisory Control and Automation System",
+          "topics": "Applications (8 hrs) Communication and Supervisory system: Industrial Control Systems & Communication (Distributed Control Systems (DCS) and Supervisory Control and Data Acquisition (SCADA), Industrial standard communication protocols (e.g., Modbus, PROFINET), RTUs, Fieldbus systems and real-time testing Automation System Applications: Case studies of Manufacturing automation, Design of FMS, Design of robotic work cell, Design for low-cost automation systems, Recent trends in fluid power automation and Industry 4.0 integration. Real-World Assignment: 1. Perform a case study on an industrial automation system using fluid power. Analyse system design, automation strategy, maintenance challenges and suggest improvements for energy efficiency and smart monitoring. 2. Robot Arm Modbus TCP/IP Interfacing with SCADA Practical Applications: 1. Simulation of hydraulic and pneumatic circuits using FluidSIM/Automation Studio 2. Automated robotic arm control using fluid power 3. Smart pneumatic systems with sensors and IoT integration",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-AUR",
+      "title": "Robot Kinematics & Dynamics",
+      "semester": 5,
+      "type": "Major Course-8",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Robot Arm Kinematics",
+          "topics": "Introduction, Robot Joints & Work Volume, Transformation Matrices, DH Parameters and Transformation matrix for 3R Planar manipulator, SCARA, PUMA, Forward Kinematics. Inverse Kinematics, Dexterous workspace, Reachable workspace, concept of multiple inverse kinematic solutions. Numericals limited to 4 DOF planar manipulators. Real World Assignment: • Kinematic Analysis and Workspace Design of an Industrial Robotic Manipulator for Automated Pick-and-Place Applications. Exemplar/Practical Applications: • Model a SCARA robot and determine whether all assembly points are reachable. • Design a 4-DOF planar manipulator to transfer objects between shelves. • Build a simple 3R planar robotic arm using servo motors and validate kinematic equations experimentally.",
+          "hours": 8
+        },
+        {
+          "title": "Velocity Kinematics– The Manipulator Jacobian",
+          "topics": "Concept of Jacobian, Jacobian matrix properties, Singularity, types of singularities, minimum energy concept for 2 link planar manipulator, Redundant Robots/Manipulator and Manipulability, conditions for Manipulability Singular Value Decomposition, computing eigen values , Redundancy Resolution of Redundant Manipulators, null space, Moore pseudo inverse, velocity space, joint space, end effector space, Application of Redundancy Resolution. Real World Assignment: • Jacobian-Based Motion Analysis and Redundancy Resolution for an Industrial Robotic Manipulator Exemplar/Practical Applications: • Simulate a redundant manipulator and optimize joint motion while maintaining end-effector trajectory. • Develop redundancy resolution algorithms to avoid obstacles while maintaining end-effector trajectory.",
+          "hours": 8
+        },
+        {
+          "title": "Robot Dynamics",
+          "topics": "Robot Dynamics, objectives of robot dynamics, Introduction Lagrange's equation kinetic and potential energy Newton-Euler formulation, Inertia Tensor, Lagrange's equation kinetic and potential energy, Dynamic model of a Two-axis planar robot, Lagrange Euler formulation problems. Real World Assignment: • Dynamic Modeling and Motion Analysis of a Two-Link Robotic Manipulator for Industrial Automation Exemplar/Practical Applications: • Develop a dynamic model of a 2-link manipulator and calculate actuator torque requirements. • Model Humanoid robots arm motion and analyze energy-efficient movement strategies.",
+          "hours": 8
+        },
+        {
+          "title": "Trajectory Planning",
+          "topics": "Trajectories for Point to Point Motion, Cubic Polynomial Trajectories, Trajectory planning using linear function with parabolic blends (LSPB trajectory), Minimum Time Trajectories, Trajectories for Paths Specified by Via Points, Cartesian-Space Schemes, Cartesian straight-line motion , Geometric Problems With Cartesian Paths, Collision-Free Path Planning. Real World Assignment: • Trajectory Planning and Collision-Free Motion Design for an Industrial Robotic Manipulator Exemplar/Practical Applications: • Generate smooth trajectories for transferring objects between two positions while minimizing cycle time. • Simulate obstacle avoidance and shortest-path trajectory planning.",
+          "hours": 8
+        },
+        {
+          "title": "Linear Control of Manipulators",
+          "topics": "Introduction, Feedback and closed-Loop Control, Second-Order Linear Systems, Control Of second- Order Systems, Control -Law Partitioning, Trajectory -Following Control, Disturbance Rejection, Continuous Vs. Discrete Time Control. Real World Assignment: • Design and Analysis of Closed-Loop Control System for a Robotic Manipulator. Exemplar/Practical Applications: • Design a feedback controller to maintain accurate positioning during assembly operations. • Compare continuous and sampled-data control for robotic trajectory tracking.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-AUR",
+      "title": "Robot Operating Systems",
+      "semester": 5,
+      "type": "Major Course-9",
+      "credits": 3,
+      "pages": [
+        23,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to ROS: Architecture and Terminology",
+          "topics": "• The ROS Philosophy: Evolution of ROS (ROS 1 vs. ROS 2 paradigms), peer -to-peer, distributed, and multilingual properties. • Core Architecture: The ROS Master (Name Service), computation graph level, filesystem level, and community level. • Key Terminology: Nodes, Messages, Topics, Services, Bags, Workspace, and Packages. • Environment Setup: Setting up a Linux environment, workspace creation (colcon / catkin), structural files (package.xml, CMakeLists.txt), and essential command -line utilities (rosnode, rostopic, rosservice). Real World Assignment: • Multi-Vendor Interoperability: A surgical setup where an endoscope camera node stream from Vendor A is fed directly into a haptic feedback arm subscriber node from Vendor B over a single local network. • Automotive Sensor Fusion: A developmental ADAS system where independent nodes for LiDAR, Radar, and Ultrasonic arrays publish concurrently, allowing an onboard central ECU node to process a synchronized spatial profile. Practical Applications: • Heterogeneous Fleet Integration: Providing a shared data framework across manufacturing environments so that mobile platforms, stationary assembly arms, and safety systems share state da...",
+          "hours": 9
+        },
+        {
+          "title": "ROS Programming in Python and C++",
+          "topics": "• Client Libraries: Core language abstractions. Introduction to roscpp / rclcpp (C++) and rospy / rclpy (Python). Choosing between high-performance compiled binaries versus rapid prototyping scripts. • Publish-Subscribe Programming: Writing object-oriented Publisher and Subscriber nodes in Python (rclpy) and C++ (rclcpp). Understanding execution callbacks, spin loops, and custom message definition pipelines (.msg). • Request-Response Programming: Implementing synchronous and asynchronous ROS Services. Writing Service Server and Client nodes in C++ and Python. Designing custom service data types (.srv). • Advanced Communication: Setting up ROS Actions (.action) for feedback -driven, long -duration tasks using goal, feedback, and result structures. Managing configurations via the Parameter Server and organizing complex multi-node systems using Launch files. Real World Assignment: • Telemetry Over -the-Air (OTA) Logs: An autonomous sweeping machine continuously streaming raw coordinates to a local station via a telemetry Topic while maintaining a stable internal operational loop. • Emergency Safe-Stop Routine: A high-speed sorting cell where a light-curtain sensor registers a breac...",
+          "hours": 9
+        },
+        {
+          "title": "Robot Modeling, Visualisation and Simulation",
+          "topics": "• Mathematical foundations of robot kinematics and dynamic modeling. • Unified Robot Description Format (URDF): Designing XML structures for links, joints, visual, collision, and inertial properties. Using Xacro (XML Macros) for modular, parametric robot designs. Configure and build standardized XML-based robot models (URDF/XACRO). • Utilize advanced visualization tools (RViz) for sensor data and state monitoring. • Spatial Transformations: The tf2 package, static and dynamic transforms, broadcasting and listening to coordinate frames (world → base_link → sensor_frame). • Virtual Simulation Environments : Importing URDF/Xacro models into Gazebo, adding environmental physics, surface friction profiles, and configuring sensor plugins (cameras, LiDAR models). • Deploy and analyze physics-based 3D simulations (Gazebo, Webots, CoppeliaSim) for verification. Real World Assignment: • Dynamic Kinematic Coordinate Balancing: A tracking node using the tf2 transformation tree to compute spatial transformations from a moving mobile base coordinate frame (base_link) to a tilting panning camera frame (camera_link) at 100 Hz. • Closed-Loop Joint Telemetry: A simulated pick-and-place manipulato...",
+          "hours": 9
+        },
+        {
+          "title": "Perception, Mapping, and Navigation Stack",
+          "topics": "• Sensory Perception: Interfacing laser rangefinders (sensor_msgs/LaserScan) and point clouds/depth cameras. • Simultaneous Localization and Mapping (SLAM): Implementing 2D mapping tools (Gmapping / SLAM-Toolbox) to map dynamic simulated environments. • The Navigation Stack: Core architecture of the navigation pipeline (move_base or Nav2 Navigation servers), setting up Global and Local Costmaps, path planning algorithms, and position correction via AMCL (Adaptive Monte Carlo Localization). Real World Assignment: • Dynamic Object Evasion: An Autonomous Mobile Robot (AMR) navigating a warehouse path recalculating its local costmap in real time when a human operator steps directly into its sensor array trajectory. • Real-time Map Updating: An inspection vehicle mapping an unknown layout, dynamically populating an ongoing occupancy grid representation over an active network socket using a SLAM toolbox configuration. Practical Applications: • Fulfillment Logistics Routing: Running the standard navigation stack (move_base / Nav2) across a fleet of automated guided vehicles (AGVs) to optimize cross -facility parcel delivery layouts. • Automated Layout Digitization: Using autonomous bas...",
+          "hours": 9
+        },
+        {
+          "title": "ROS Applications, Embedded Deployments, and Hardware",
+          "topics": "• Embedded ROS Interfacing: Introduction to rosserial and micro-ROS architectures for low -level resource-constrained systems. • Microcontroller Integration: Serial bridge interfacing with hardware platforms (e.g., Arduino, ESP32, STM32, Ardiuno) using C/C++ to capture raw encoder ticks, compute interrupts, and publish sensor data to the main computer. • Hardware Deployment: Hardware-in-the-loop (HIL) application layouts; deploying ROS nodes onto single-board computers (SBCs like Raspberry Pi / NVIDIA Jetson) mounted on autonomous mobile platforms. • Case Studies: Industrial pick -and-place integration (e.g., KUKA ROS -Industrial nodes) and basic multi-robot orchestration layouts. Real World Assignment: • Hardware-in-the-Loop (HIL) Odometry: An ESP32 microcontroller counting motor encoder ticks on hardware interrupts, translating them to step metrics, and publishing a position update to a master Raspberry Pi computer via a micro-ROS agent link. • Physical Robotic Arm Interfacing: Interfacing a hardware industrial controller (such as a KUKA KR series controller) with a ROS -Industrial platform node via TCP/IP to execute immediate kinematic tool path positions. Practical Applicati...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-AUR",
+      "title": "Sensors & Vision Systems",
+      "semester": 5,
+      "type": "Major Course-10",
+      "credits": 3,
+      "pages": [
+        27,
+        29
+      ],
+      "units": [
+        {
+          "title": "Sensor Fundamentals (06 rs)",
+          "topics": "Introduction - Role of sensors in robotics; differences between sensors and transducers; interoceptive vs. exteroceptive classification of sensors used in robotics applications, Sensor Performance Characteristics - Static and dynamic response; accuracy, precision, sensitivity, resolution, hysteresis, and repeatability, speed of response, delay, dynamic error etc. Signal Conditioning: Basic principles of sensing (electrical, optical, mechanical); signal amplification and noise reduction. Real-World Assignment: Study and compare measurement systems used in industrial automation processes Real World Assignment: • Study and compare measurement systems used in industrial automation processes. • Discuss criteria for selection of sensors Practical Applications: • Temperature monitoring systems in process industries. • Pressure and flow measurement in manufacturing plants",
+          "hours": null
+        },
+        {
+          "title": "Internal State and External Environment Sensors",
+          "topics": "Internal State (Proprioceptive): Potentiometers, LVDTs, and Optical Encoders (absolute/incremental) for position; Hall -effect and MEMS accelerometers for motion; gyroscopes for orientation. External Environment (Exteroceptive): IR, Ultrasonic, Inductive, and Capacitive proximity sensors; LiDAR and Laser range finders for mapping. Tactile & Force: Strain gauges, load cells, and piezoelectric transducers for joint torque and collision detection. Advanced Smart Sensors: Introduction to flexible/wearable e -skin, bio-inspired sensors, and AI - enabled edge sensors Industrial/Non-industrial Applications - Grasping and manipulation with sensors, Human -robot interaction and sensing, etc. Real World Assignment: • Prepare a comparative study of sensors used in autonomous mobile robots. • Study industrial applications of MEMS and smart sensors Practical Applications: • Motion sensing in robotic manipulators • Smart sensing systems in Industry 4.0 applications",
+          "hours": 10
+        },
+        {
+          "title": "Robotic Vision Systems",
+          "topics": "Vision Foundations: Human vs. machine vision; elements of visual perception; image formation in the human eye. Camera Models: Pinhole camera geometry; CCD vs. CMOS technology; specialized cameras (SLR, Mirrorless, 360° Panoramic, and depth-sensing RGB-D). Camera Calibration: Intrinsic and extrinsic parameters; linear methods, Zhang’s method, and lens distortion modeling; stereo and multi-camera calibration. Practical Application: Analysis of camera systems used in industrial machine vision and barcode scanning Real World Assignment: • Study camera systems used in industrial machine vision applications. • Analyse image acquisition techniques for robotic vision systems. • Prepare a case study on stereo vision in autonomous robots. Practical Applications: • Vision-guided robotic inspection systems. • Barcode and QR code scanning systems. • Camera-based monitoring and surveillance systems.",
+          "hours": 7
+        },
+        {
+          "title": "Digital Image Processing and Applications",
+          "topics": "Image Transforms: Foundations of 2D signals; Fourier Transform (DFT/FFT); Wavelet transforms and multiresolution analysis. Spatial Domain Processing: Intensity transformations; histogram equalization; spatial filtering (smoothing and sharpening). Frequency Domain Processing: Low-pass filters for blurring and high-pass filters for sharpening. Segmentation & Description: Point, line, and edge detection (Sobel, Canny, Otsu’s thresholding); region-based segmentation and boundary descriptors Real World Assignment: • Analyze image enhancement techniques used in medical imaging systems. • Study edge detection methods for defect identification applications. • Compare spatial and frequency domain filtering techniques. Practical Applications: • Noise reduction in digital images. • Industrial defect detection systems. • Image enhancement in surveillance applications",
+          "hours": 8
+        },
+        {
+          "title": "Sensor Interfacing, Integration and Calibration",
+          "topics": "Interfacing & Data Acquisition: Communication protocols (I2C, SPI, UART); Analog -to-Digital (ADC) conversion and DAQ systems. Advanced Robot Vision: Stereo vision geometry (Epipolar geometry, disparity mapping); point cloud processing (Voxel grids, normal estimation). Intelligent Vision: Object detection (Sliding window, R-CNN, YOLO); K-means and EM clustering for landmark learning; visual SLAM and visual servoing. System Integration: Integration with Robot Operating System (ROS) camera drivers and computer vision libraries like OpenCV Real World Assignment: • Study of Warehouse automation and autonomous robots • Study of Self-Driving Car Sensor Fusion System Practical Applications: • Role Sensor fusion and data integration in autonomous decision making. • Role of sensor interfacing, ADC , DAC, DAQ in industrial automation e.g conveyor belt automation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-305-AUR",
+      "title": "Sensors & Control Lab",
+      "semester": 5,
+      "type": "Major Course-7A",
+      "credits": 1,
+      "pages": [
+        30,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-306-AUR",
+      "title": "Robot Standards & Ethics",
+      "semester": 5,
+      "type": "Major Course-9A",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Foundations of Robot Safety and Standards",
+          "topics": "• Safety Basics: Need for safety, the role of engineers, and methods for performing safety analysis of robot systems. • Roles & Responsibilities: Manufacturer and user roles; considerations for installation, operation, and workplace safety. • Standardization: Characteristics and benefits of standards; national and international bodies (ISO). • Key Standards: Introduction to ISO 10218 (Industrial robots) and ISO 13482 (Service robots); mechanical and electrical interfaces.",
+          "hours": 2
+        },
+        {
+          "title": "Global Robot Safety Standards - Implementation, Compliance,",
+          "topics": "Testing and Validation (02 hrs) • Reliability Analysis: Configurations and failure classifications; corrective measures and effectiveness factors. • Testing Methods: Performance testing methods (Ford, IPA-Stuttgart, and NBS methods); start- up safety-related factors. • Compliance: Iterative hazard mitigation following ISO 12100 principles; safety requirements for collaborative systems (cobots).",
+          "hours": null
+        },
+        {
+          "title": "Foundations of Roboethics & Morality",
+          "topics": "• Ethics Theories: Top-down and bottom -up roboethics approaches; moral theories like Utilitarianism, Deontology, and Virtue ethics applied to AI. • Symbiosis: Robot rights, socialized roboethics, and the psychological impact of human -robot bonding. • Professional Conduct: Analysis of Asimov’s Laws and the professional code of conduct for robotics engineers.",
+          "hours": 2
+        },
+        {
+          "title": "Ethical System Design and Environmental & Governance",
+          "topics": "• Design Processes: Implementing the IEEE 7000 model to prioritize human values; transparency and explainability in IEEE 7001. • Data & Bias: Data privacy processes (IEEE 7002) and identifying/mitigating algorithmic bias (IEEE 7003). • Regulations: Ethical design frameworks (BS 8611) and comparative analysis of global AI/Robotics strategies.",
+          "hours": 2
+        },
+        {
+          "title": "Domain-Specific Ethical Case Studies and Social Impact of Robotics",
+          "topics": "• Sector Ethics: Trust and privacy in healthcare robots; treaties and control in military applications; liability in autonomous transportation. • Sustainability: Environmental impacts of manufacturing, battery disposal, and life-cycle assessments. • Socio-Economics: Job displacement metrics, workforce transformation, and economic liability. Term Work (Tutorial Assignments) The student shall complete at least any 8 activities from the following list. Individual documentation is required for evaluation. 1. Standards Identification: Study safety requirements of industrial robot cells using ISO 10218 Standards. 2. Safety Evaluation: Document safety requirements for an available fixed-base industrial robot for specific tasks. 3. Service Robot Analysis: Evaluate safety requirements for personal care and commercial collaborative robots. 4. Failure Mode Analysis: Use ISO 12100 principles to identify causes of hardware/software failures in industrial robots. 5. Robomorality Study: Evaluate ethics in specific human-robot interaction scenarios. 6. Professional Responsibility: Identify and document the codes of conduct for robotics developers. 7. IEEE Standard Application: Document an ethic...",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "PCC-307-AUR",
+      "title": "Industrial Automation with PLC/SCADA Lab",
+      "semester": 5,
+      "type": "Major Course-10A",
+      "credits": 1,
+      "pages": [
+        36,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-311-AUR",
+      "title": "Deep & Reinforced Learning",
+      "semester": 5,
+      "type": "Multidisiplinary Course-3",
+      "credits": 2,
+      "pages": [
+        40,
+        44
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Deep Learning",
+          "topics": "What is Deep Learning? History of deep learning, Advantage and challenges of deep learning. Learning representations from data, understanding how deep learning works in three figures, Common Architectural Principles of Deep Network, Architecture Design, Applications of Deep learning, Introduction and use of popular industry tools such as TensorFlow, Keras, PyTorch, Caffe, Shogun. Real World Assignment: 1. Face Mask Detection System 2. Sentiment Analysis on Product Reviews 3. Handwritten Digit Recognition Practical Applications: 1. AI-based attendance system 2. Emotion recognition from facial expressions 3. Speech-to-text conversion 4. Smart chatbot system 5. AI-powered recommendation system",
+          "hours": 6
+        },
+        {
+          "title": "Representation Learning",
+          "topics": "Introduction to Representation Learning, Traditional Representation vs Deep Representation, Types of Representation Learning, Greedy Layerwise Pre-training, Transfer Learning and Domain Adaption, Distributed Representation, Embedding Techniques,Variants of CNN: DenseNet, Comparison of CNN Variants Real World Assignment: 1. Robotics • Object recognition • Navigation systems 2. Autonomous Vehicles • Lane detection • Traffic sign recognition Practical Applications: 1. Medical Image Feature Representation 2. Recommendation System using Representation Learning",
+          "hours": 6
+        },
+        {
+          "title": "Deep Generative Models",
+          "topics": "Introduction to deep generative model, Boltzmann Machine, Deep Belief Networks, Generative adversarial network (GAN), discriminator network, generator network, types of GAN, Applications of GAN networks Real World Assignment: 1. GAN for detection of real or fake images 2. Text-to-Image Generation Practical Applications: 1. Robot Vision and Object Recognition 2. Robot Navigation and Path Planning",
+          "hours": 6
+        },
+        {
+          "title": "Reinforcement Learning",
+          "topics": "Introduction of deep reinforcement learning, Markov Decision Process, basic framework of reinforcement learning, challenges of reinforcement learning, Dynamic programming algorithms for reinforcement learning, Q Learning and Deep Q -Networks, Deep Q recurrent networks, Simple reinforcement learning for Tic-Tac-Toe. Policy-based methods, Reward engineering concepts, Applications in robotics and autonomous systems, Simulation environments such as OpenAI Gym Real World Assignment: 1. Self-driving cars 2. Deep learning for chatbots Practical Applications: 1. Autonomous Robot Navigation 2. Industrial Robot Control",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "MDM-312-AUR",
+      "title": "Measurement and Quality Control Lab",
+      "semester": 5,
+      "type": "Multidisiplinary Course-4A",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "OLE-321-AUR",
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-AUR",
+      "title": "Smart Factory Technologies",
+      "semester": 6,
+      "type": "Major Course-11",
+      "credits": 3,
+      "pages": [
+        49,
+        51
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Industry 5.0 and IIoT",
+          "topics": "Introduction to Industry 4.0 and Industry 5.0, Evolution of Industrial Revolutions, Human-centric Manufacturing, Industrial Internet of Things (IIoT), Smart Sensors and Actuators, Cyber Physical Systems (CPS), Edge Computing and Cloud Computing, IIoT Architecture and Components, Applications of Industry 5.0 in Smart Manufacturing Real World Assignment: 1. Smart Factory Monitoring System 2. Predictive Maintenance for Industrial Machines 3. Energy Monitoring using IIoT Sensors. Practical Applications: 1. Sensor-based industrial data acquisition 2. Smart conveyor automation system 3. Industrial environmental monitoring 4. Remote machine monitoring using IoT dashboard 5. AI-based industrial fault detection.",
+          "hours": 8
+        },
+        {
+          "title": "Smart Manufacturing and Industrial Automation",
+          "topics": "Smart Manufacturing Systems, Industrial Automation Architecture, SCADA and PLC Integration, Industrial Robotics in Smart Factories , Human-Robot Collaboration (Cobots) , Industrial Data Analytics, Artificial Intelligence in Manufacturing , Industrial Cyber Security , Big Data in Manufacturing, Case Studies on Smart Industries Real World Assignment: 1. Automated Warehouse Management System 2. AI-based Quality Inspection System 3. Smart Robotic Assembly Line Practical Applications: 1. PLC-based smart automation 2. Robot-assisted manufacturing simulation 3. Predictive maintenance analytics 4. Industrial dashboard development",
+          "hours": 8
+        },
+        {
+          "title": "Fundamentals of Digital Twin Technology",
+          "topics": "Introduction to Digital Twin , Components of Digital Twin Systems , Physical and Virtual System Integration, Real-time Data Synchronization, Simulation and Modeling Techniques, IoT- enabled Digital Twin, Data Acquisition and Visualization, Predictive Analysis using Digital Twin, Applications in Automotive, Healthcare, and Manufacturing Real World Assignment: 1. Digital Twin of Smart Manufacturing System 2. Virtual Monitoring of Industrial Motor Practical Applications: 1. Real-time equipment monitoring 2. Simulation of robotic arm using Digital Twin 3. Machine health prediction system",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Industry 5.0 Applications and Future Trends",
+          "topics": "AI-driven Smart Factories, Autonomous Industrial Systems, Collaborative Robotics and Cobots, Augmented Reality (AR) and Virtual Reality (VR) in Industry, Blockchain in Smart Manufacturing, Sustainable and Green Manufacturing, Digital Supply Chain Management, Future Trends in Industry 5.0 Challenges and Opportunities in IIoT and Digital Twin. Real World Assignment: 1. Smart Healthcare Monitoring System 2. Autonomous Mobile Robot for Industry 3. AI-powered Smart Production System Practical Applications: 1. AR/VR-based industrial simulation 2. Intelligent robot navigation system 3. Smart factory virtual dashboard",
+          "hours": 6
+        },
+        {
+          "title": "Dark Factories and Autonomous Logistics",
+          "topics": "Dark Factory Foundations : Definition and scope of lights -out manufacturing; evolution from Flexible Manufacturing Systems (FMS) to fully autonomous, unattended production environments Unattended Machining: Technical requirements for independent machine operation; automated tool management, chip disposal, and self-correcting machining cycles Autonomous Material Handling - Automated Guided Vehicle Systems (AGVS) and Automated Storage and Retrieval Systems (ASRS) Intelligent Identification & Tracking : Implementation of Automatic Data Capture (ADC ) technologies, including RFID, Barcoding, and Optical Character Recognition (OCR), to ensure real-time component traceability in dark environments. Autonomous Oversight : Use of Digital Twin s and IIoT for remote monitoring and real -time synchronization; AI -driven Predictive Maintenanc e to identify and rectify equipment faults without human intervention Real World Assignment: 1. Automated Warehouse Design: Develop a conceptual design for an Automated Warehouse Management System using AGVs and ASRS for a lights-out logistics hub 2. Predictive Maintenance Loop: Implement an IoT-enabled system to monitor machine health (vibration, spin...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-AUR",
+      "title": "Modeling & Simulation",
+      "semester": 6,
+      "type": "Major Course-12",
+      "credits": 3,
+      "pages": [
+        52,
+        54
+      ],
+      "units": [
+        {
+          "title": "Introduction to Simulation & System Simulation 6 Hrs",
+          "topics": "A review of basic probability and statistics, Definition and concepts of simulation and modeling, steps in a simulation study, Modeling concepts, Advantages, Disadvantages and Applications areas of simulation Basic principles of simulation modeling, Model based problem solving. Component of a system – Continuous and discrete systems – Types of models; Steps in Simulation study; simulation of an event occurrence using random number table – Single server queue. Discrete Event Simulation: Concepts in discreet event simulation Real World Assignment: 1. Assembly Line Analysis: Study and prepare a report on an automated assembly line system and develop a simulation-based case study to analyze the effect of buffer stock on productivity and downtime. 2. Mechanical Modeling: Formulate and solve a second-order differential equation to model the behavior of a Mass-Spring-Damper system representing a robotic joint Practical Applications: 1. MATLAB/Simulink Integration: Use MATLAB or Simulink for the mathematical modeling of mechanical and electromechanical components of an automation system. 2. Virtual Environments: Utilize robotics simulation software (e.g., ROS/Gazebo) to create simulated...",
+          "hours": 6
+        },
+        {
+          "title": "Simulation Software 7 Hrs",
+          "topics": "Introduction to Simulation Software , Comparison of Simulation Software with Programming Languages, SLAM and SIMAN Overview , Desirable Features of Simulation Software , Classification of Simulation Software , General Purpose vs. Object -Oriented Simulation Packages, Examples: ARENA, SimFactory, Promodel, Witness Real World Assignment: 1. Sensor Interfacing: Interface transducers (Ultrasonic, IR, Temperature) with microcontrollers like Arduino or 8051 and display outputs via LCD or serial monitors. 2. Control Systems: Design and tune closed -loop PID architectures to regulate motor speed and evaluate system stability using root locus or Bode plots. 3. Robot Simulation: Use MATLAB, Gazebo, or RoboAnalyzer to verify forward and inverse kinematics and perform dynamic analysis of serial manipulators Practical Applications: 1. Manufacturing: Analyze automated assembly lines to identify methods for line balancing and the effects of buffer stock on productivity. 2. Simulation: Use Monte Carlo techniques to predict outcomes in stochastic inventory models and Petri nets to organize concurrent robot workcell logic. 3. Operations: Analyze the logic of service systems, such as automated par...",
+          "hours": 7
+        },
+        {
+          "title": "Analysis of Simulation Data 7 Hrs",
+          "topics": "Nature of simulation, Roots of simulation input modeling, Data collection, Identifying distribution, Histograms, practical methods for testing assumptions Random Number Generation: Introduction, Desired properties, Generation of pseudo random numbers. Real World Assignment: 1. Robotic Arm Cycle Time Analysis 2. AGV (Automated Guided Vehicle) Movement Simulation 3. Warehouse Robot Navigation Study Practical Applications: 1. Random Number Generator for Robot Task Scheduling 2. Robot Assembly Line Simulation 3. Mobile Robot Path Planning Simulation",
+          "hours": 7
+        },
+        {
+          "title": "Random Variate Generation 7 Hrs",
+          "topics": "Introduction, Factors considered in selecting generator, Generating continuous random variates like Uniform, Exponential, Weibull, Normal Output Data Analysis: Introduction, Types of simulations with regard to output analysis – terminating and nonterminating simulation Real World Assignment: 1. Simulation of Robotic Assembly Line Using Continuous Random Variables 2. Mobile Robot Battery Life Simulation 3. AGV Material Handling System Simulation Practical Applications: 1. Weibull Distribution for Robot Failure Analysis 2. Autonomous Mobile Robot (AMR) Navigation Simulation 3. Simulation of Robot Cycle Time Using Normal Distribution",
+          "hours": 7
+        },
+        {
+          "title": "Industrial Simulation Tools and Manufacturing Systems 7 Hrs",
+          "topics": "Need of simulation in manufacturing and material handling systems, Components of manufacturing systems – product, resources, demand, control; Downtime, Rework and reentrancy, Random events and performance measures used in manufacturing systems with a case study on any manufacturing system Material Handling Systems – Input parameters for automated material handling systems, Conveyor and vehicle systems, job shop with material handling and flexible manufacturing systems. Real World Assignment: 1. Downtime and Rework Analysis in a CNC Manufacturing Cell 2. Flexible Manufacturing System (FMS) Performance Evaluation 3. Simulation Study of an Automated Assembly Line Practical Applications: 1. Conveyor System Simulation 2. Assembly Line Performance Analysis 3. Machine Downtime and Preventive Maintenance Analysis",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-AUR",
+      "title": "Actuators and Controllers",
+      "semester": 6,
+      "type": "Major Course-13",
+      "credits": 3,
+      "pages": [
+        55,
+        57
+      ],
+      "units": [
+        {
+          "title": "Fundamental Drives and Actuation Systems",
+          "topics": "• Electric Actuators: Brushed and Brushless DC (BLDC) motors, AC servo motors, and stepper motors. • Electromagnetic Fundamentals: Electromagnetism, Lorentz force, commutation, back-EMF, and torque constants. • Fluid Power Actuators: Pneumatic and Hydraulic cylinders, rotary actuators, proportional control valves, and compressor systems. • Specialty Actuators: Piezoelectric actuators, Shape Memory Alloys (SMA), and Series Elastic Actuators (SEAs). Transmission Systems: Harmonic drives, gear reducers, ball screws, timing belts, and backlash compensation. Real World Assignment: 1. Compare hydraulic, pneumatic, and electrical actuators based on: Speed ,Accuracy, Cost, Load capacity , Maintenance, Prepare industrial application mapping. 2. Actuator Selection for Robotic Arm Select suitable actuators for: Base rotation, Elbow movement, Gripper operation Exemplars / Practical Applications: 1. Industrial robot arm movement systems 2. Automatic door opening systems 3. CNC machine tool positioning 4. AGV (Automated Guided Vehicle) steering control 5. Smart home automation devices 6. Robotic grippers in manufacturing",
+          "hours": 9
+        },
+        {
+          "title": "Power Electronics and Amplifiers",
+          "topics": "• Power Semiconductor Devices: MOSFETs, IGBTs, and Thyristors used in motor drives. • Drive Topologies: H-bridge circuits, Pulse Width Modulation (PWM) amplifiers, and regenerative braking. • Current and Voltage Control Loops: Cascade control strategies (Position loop \\ (\\right arrow \\) Velocity loop \\(\\right arrow \\) Current loop). • Thermal Management: Heat sinks, thermal dissipation, and drive protection circuits. Real World Assignment: • Study hydraulic lift system of automobile service station. Calculate: Cylinder force Pressure requirement Flow rate Practical Applications: 1. Hydraulic press machines 2. Excavators and heavy machinery 3. Pneumatic pick-and-place robots 4. Air brake systems 5. Automated packaging systems",
+          "hours": 9
+        },
+        {
+          "title": "Feedback Devices and Sensors",
+          "topics": "• Position and Velocity Sensors: Optical encoders (incremental and absolute), resolvers, Hall-effect sensors, and tachometers. • Force/Torque Sensors: Strain gauges, tactile array sensors, and 6-axis Force/Torque (F/T) sensors. Sensor Interfacing & Conditioning: Analog-to-Digital (ADC) conversion, signal filtering, and noise reduction. Real World Assignment: CNC Machine Tool Positioning 1. Incremental encoders monitor motor shaft rotation. Used for: • Tool positioning • Axis movement tracking • Feed control Practical Applications: 1. 3D printers 2. Industrial robots 3. Elevators 4. Packaging systems 5. Textile machinery",
+          "hours": 9
+        },
+        {
+          "title": "Controller Architecture and Control Theory",
+          "topics": "• Classical Control: Proportional-Integral-Derivative (PID) control, tuning methods (Ziegler-Nichols), and lead-lag compensators. • State-Space Modeling: Dynamic equations of actuators, state feedback, and pole-placement techniques. • Advanced Control Strategies: Feed forward control, Computed Torque Control (CTC), and Adaptive Control. Motion Interpolation and Planning: Trajectory generation, cubic and quantic polynomials, and spline generation Real World Assignment: 1. PID Controller Tuning: • Implement PID control for: • DC motor speed control • Temperature control system Practical Applications: 1. Temperature control systems 2. Speed control of motors 3. Autonomous mobile robots 4. Industrial process control 5. Robotic trajectory control",
+          "hours": 9
+        },
+        {
+          "title": "Industrial and Embedded Controllers",
+          "topics": "• Microcontrollers and DSPs: Real-time processing, interrupt handling, and embedded C/C++ programming. • Programmable Logic Controllers (PLCs): Ladder logic programming, sequential function charts, and industrial automation networks (e.g., Ether CAT, Profinet). • Industrial Robot Controllers: Teach pendant programming, kinematics solvers, and safety-rated controller architectures. Motion Controllers & Drives: Standalone motion controllers, distributed axis control, and CAN open communication protocols Real World Assignment: 1. Develop IoT system to monitor: • Motor temperature • Speed • Current Practical Applications: 1. Arduino-based robotic systems 2. Raspberry Pi automation projects 3. IoT-enabled smart factories 4. Autonomous mobile robots",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC-361A-AUR",
+      "title": "Battery Management Systems",
+      "semester": 6,
+      "type": "Program Elective-1",
+      "credits": 3,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Battery Management Systems",
+          "topics": "Introduction: Energy storage technologies, Role of batteries in Electric Vehicles, Robotics, UAVs, AGVs and Energy Storage Systems, Need for Battery Management System, Functions of BMS. Battery Technologies: Lead Acid Batteries, Nickel Metal Hydride (NiMH), Lithium -Ion Batteries Lithium Polymer Batteries, LFP, NMC, NCA chemistries, Solid-State Batteries (Overview). Battery Fundamentals: Cell construction, Battery terminology, Capacity, C -rate, Energy density, Power density, Battery pack architecture, Series and parallel configuration, Module and pack design, Battery Failure Mechanisms: Ageing, Capacity fade, Internal resistance growth, Thermal runaway, Safety concerns, Applications: Electric Vehicles, Industrial Robots, AMRs, Drones, UPS, Renewable Energy Storage Suggested Case Study: Battery Architecture of Tesla Model 3 / Tata Nexon",
+          "hours": 6
+        },
+        {
+          "title": "Battery Characterization and State Estimation",
+          "topics": "Battery Characteristics: Charge-discharge characteristics, Open Circuit Voltage (OCV), Terminal Voltage, Polarization, Battery efficiency, Coulombic efficiency. Battery Parameters: Internal resistance, Capacity estimation, Battery degradation, Temperature effects. Battery State Estimation: State of Charge (SOC), State of Health (SOH), State of Power (SOP), Remaining Useful Life (RUL). Estimation Techniques: Coulomb Counting, Open Circuit Voltage Method, Equivalent Circuit Model, Kalman Filter, Extended Kalman Filter, Unscented Kalman Filter (Introduction), AI- based estimation methods. Battery Testing: Capacity testing, HPPC Test, Charge-discharge cycling, Battery characterization Suggested Case Study: SOC estimation in Battery Electric Vehicles",
+          "hours": 8
+        },
+        {
+          "title": "Battery Protection and Cell Balancing",
+          "topics": "Battery Protection: Over-voltage protection, Under -voltage protection, Over -current protection, Over-temperature protection, short circuit protection, Reverse polarity protection, Isolation monitoring. Battery Safety: Thermal runaway, Fault diagnosis, Safety interlocks, Contactors, Fuse selection, pre -charge circuit, Cell Balancing: Need for balancing, Type of Cell Balancing, Performance Comparison: Efficiency, Cost, Complexity, Reliability Suggested Case Study: BYD Blade Battery Safety System",
+          "hours": 8
+        },
+        {
+          "title": "Embedded Battery Management Systems",
+          "topics": "BMS Hardware Architecture: Master-slave architecture, Distributed BMS, Centralized BMS, Modular BMS. Battery Monitoring: Voltage sensing, Current sensing, Temperature sensing, Hall Effect sensors, Shunt resistor, Isolation measurement. Battery Management ICs: Analog Front End (AFE), Cell monitoring ICs, Protection ICs. Embedded Controllers: Microcontrollers, ARM processors, Embedded software, Real -time operating systems. Communication Protocols: CAN Bus, LIN, UART, SPI, I²C, Modbus, Ethernet (Introduction), IoT Integration: Cloud monitoring, Remote diagnostics, Data logging, MQTT, Edge Computing Suggested Case Study: BMS Architecture used in Electric Buses",
+          "hours": 8
+        },
+        {
+          "title": "Intelligent Battery Management Systems and Industrial Applications",
+          "topics": "Artificial Intelligence in BMS: Machine Learning for SOC prediction, Machine Learning for SOH prediction, Fault diagnosis, Predictive maintenance, Neural Networks, Deep Learning (Overview). Digital Twin: Digital Twin concepts, Battery simulation, Virtual battery testing, Cloud analytics. Smart Charging: Fast charging, Opportunity charging, Battery swapping, Wireless charging, Charging optimization. Emerging Technologies: Wireless BMS, Cybersecurity in BMS, Battery Passport, Cloud-connected Battery Systems. Standards: AIS-156, AIS-038 Rev 2, UL 2580, IEC 62660, ISO 26262 (Overview). Industrial Applications: Electric Cars, Electr ic Buses, Mobile Robots, Collaborative Robots, AGVs, Warehouse Automation, Drone Battery Management, Grid Energy Storage Suggested Case Study: CATL Intelligent Battery Management Platform",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-361B-AUR",
+      "title": "Mobile Robotics",
+      "semester": 6,
+      "type": "Program Elective-1",
+      "credits": 3,
+      "pages": [
+        61,
+        63
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Locomotion",
+          "topics": "Introduction: Overview of mobile robotics; classification of robots: ground (wheeled, legged, tracked), aerial (UAVs), and underwater (AUVs). Locomotion Mechanics: Key issues in locomotion; stability and configurations of legged robots; design space and mo bility issues for wheeled robots. Drive Systems: Differential drive, omnidirectional (Mecanum), and synchronous drive mechanisms.",
+          "hours": 6
+        },
+        {
+          "title": "Kinematic and Dynamic Modeling",
+          "topics": "Kinematics: Representation of robot position; forward and inverse kinematics of wheeled robots; wheel and robot constraints., Mobility: Degrees of mobility and steerability; maneuverability and workspace analysis., Motion Control: Holonomic and non -holonomic constraints; open -loop and feedback motion control; trajectory considerations.",
+          "hours": 8
+        },
+        {
+          "title": "Perception for Autonomy",
+          "topics": "Sensing: Sensors for mobile robots: wheel/motor encoders, heading sensors (gyroscopes, accelerometers, magnetic compass), and GNSS., Active Ranging: Ultrasonic sensors, Laser scanners (LiDAR), and infrared rangefinders., Vision -based Perception: Camera mod els; feature extraction from range data; visual appearance -based recognition., Handling Uncertainty: Statistical representations and error propagation in sensor data.",
+          "hours": 8
+        },
+        {
+          "title": "Localization and Mapping",
+          "topics": "Foundations: Challenges of localization: sensor noise, aliasing, and belief representation, Techniques: Dead reckoning; beacon-based and landmark-based navigation, Probabilistic Localization: Markov localization; Kalman Filter (EKF/UKF) and Particle Filtering for state estimation, Mapping: Autonomous map building; grid maps, sector maps, and hybrid maps, SLAM: Introduction to Simultaneous Localization and Mapping techniques",
+          "hours": 8
+        },
+        {
+          "title": "Navigation and Path Planning",
+          "topics": "Path Planning: Point -to-point motion; Dijkstra’s algorithm; A*algorithm; and probabilistic roadmaps., Obstacle Avoidance: Reactive behaviors; potential field methods; virtual force field methods., Collaborative Robotics: Introduction to swarm robots and co operative multi -robot navigation.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-361C-AUR",
+      "title": "Additive Manufacturing",
+      "semester": 6,
+      "type": "Program Elective-1",
+      "credits": 3,
+      "pages": [
+        63,
+        65
+      ],
+      "units": [
+        {
+          "title": "Localization and Mapping",
+          "topics": "Foundations: Challenges of localization: sensor noise, aliasing, and belief representation, Techniques: Dead reckoning; beacon-based and landmark-based navigation, Probabilistic Localization: Markov localization; Kalman Filter (EKF/UKF) and Particle Filtering for state estimation, Mapping: Autonomous map building; grid maps, sector maps, and hybrid maps, SLAM: Introduction to Simultaneous Localization and Mapping techniques",
+          "hours": 8
+        },
+        {
+          "title": "Navigation and Path Planning",
+          "topics": "Path Planning: Point -to-point motion; Dijkstra’s algorithm; A*algorithm; and probabilistic roadmaps., Obstacle Avoidance: Reactive behaviors; potential field methods; virtual force field methods., Collaborative Robotics: Introduction to swarm robots and co operative multi -robot navigation.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Additive Manufacturing",
+          "topics": "Foundations: Definition, historical development, and role of AM in the product development cycle. Classification: Process-based, material -based, and application -based classifications (ASTM/ISO 52900 standards). Industry 4.0 Relevance: Role of AM in smart manufacturing and the AM process chain. Application Domains: Case studies in Aerospace, Healthcare (Bio -printing), and Automobile industries.",
+          "hours": 6
+        },
+        {
+          "title": "Light and Laser-Based Techniques",
+          "topics": "Photo-curing: Stereolithography (SLA), Digital Light Processing (DLP), and Continuous Liquid Interface Production (CLIP). Laser Melting: Selective Laser Sintering (SLS), Selective Laser Melting (SLM), and Direct Metal Laser Sintering (DMLS). Directed Energy: Laser Engineered Net Shaping (LENS), Laser Wire Deposition, and 3D Laser Cladding.",
+          "hours": 8
+        },
+        {
+          "title": "Extrusion and Energy-Based Deposition",
+          "topics": "Material Extrusion: Fused Deposition Modeling (FDM), Fused Filament Fabrication (FFF), and Direct Ink Writing (DIW). Inkjet-Based Fusion: Multi-jet Modeling (MJM), Polyjet printing, Binder Jetting, and Multi -jet Fusion. Energy Deposition: Plasma, MIG, TIG, and Arc-based deposition; Electron beam-based DED.",
+          "hours": 8
+        },
+        {
+          "title": "Design and Materials for AM",
+          "topics": "Materials: Properties and preparation of Metals, Polymers, Ceramics, and Composites for AM. DfAM Principles : Topology optimization, generative design, part consolidation, and lattice structure integration. Process Specifics: Support structure design, part orientation strategies, and multi-material printing.",
+          "hours": 8
+        },
+        {
+          "title": "AM Hardware, Software, and Quality",
+          "topics": "System Architecture: Construction of basic AM machines; extruder, nozzle, and build platform design considerations. Data Processing: AM file formats (STL, AMF); STL error fixing, slicing, and tool path generation. Post-Processing: Support removal, sanding, polishing, and heat treatments. Quality Control: Inspection methods, testing for defects and error source analysis.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-361D-MEC",
+      "title": "Industrial Engineering",
+      "semester": 6,
+      "type": "Program Elective-1",
+      "credits": 3,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Engineering and Productivity",
+          "topics": "Introduction to Industrial Engineering, Historical background and scope, Contribution of Taylor, Gilbreth, Gantt, Maynard, Ford, Deming and Ohno. Impo rtance of Industrial engineering. Introduction to Work system design Productivity: Definition of productivity, Measures of Productivity, Total Productivity Model, need for Productivity Evaluation, Productivity measurement models, Productivity improvement a pproaches, Principles, Productivity Improvement techniques – Technology based, Material based, Employee based, Product based techniques. (Numerical on productivity measurement) Real World Assignment: Understand Productivity Measurement models in a real industrial environment. Select a small-scale industry (Machine shop) 1. Study the Work System and understand Input resources like (labour, material, machine, energy) and Find Output (units produced, value) 2. Calculate Productivity (Labour productivity, Machine productivity, Total productivity) Exemplars / Practical Applications: Assembly Line Productivity Improvement in an Automobile Industry.",
+          "hours": 7
+        },
+        {
+          "title": "Work Study",
+          "topics": "Method Study: Introduction and objectives, Areas of application of work study in industry, Selection and Basic procedure. Recording techniques, Operations Process Chart, Flow Process Chart (Man, Machine & Material) Multiple Activity Chart, Two Handed process chart, Flow Diagram, String Diagram and Travel Chart, Cycle and chronocycle graphs, SIMO chart, Therbligs, Micro motion and macro -motion study: Principles of motion economy, Normal work areas and work place design. Work Measurement: Techniques, time study, steps, work sampling, Determination of time standards. Observed time, basic time, normal time, rating factors, allowances, standard time, and standard time determination. (Numerical) Introduction to PMTS, MTM, and MOST Real World Assignment: Determine standard time using time study and numerical calculations. Exemplars / Practical Applications: Material movement analysis in a small manufacturing plant / workshop using Flow Diagram & String Diagram.",
+          "hours": 7
+        },
+        {
+          "title": "Production Facility Design",
+          "topics": "Plant Location: Introduction, Factors affecting location decisions, Multi-facility location Plant Layout: Principles of Plant layout and Types, factors affecting layout, methods, factors governing flow pattern, travel chart for flow analysis, analytical tools of plant layout, layout of manufacturing shop floor, repair shop, services sectors, and process plant. Layout planning, Quantitative methods of Plant layout and relationship diagrams. Dynamic plant layout Material Handling : Objectives and benefits of Material handling, Relationship between layout and Material handling, Equipment selection Real World Assignment 1. Design and Analysis of Plant Layout using Travel Chart & Relationship Diagram, 2. Material Handling System Analysis & Equipment Selection Exemplars / Practical Applications: Discuss selection of Plant Location for an Automobile Component Manufacturing Unit.",
+          "hours": 7
+        },
+        {
+          "title": "Production Planning and Control",
+          "topics": "Types and methods of Production, and their Characteristics, functions and objectives of Production Planning and Control, Steps: Process planning, Loading, Scheduling, Dispatching an d Expediting with illustrative examples, Capacity Planning, Aggregate production planning and Master production scheduling. Introduction to a line of balance, assembly line balancing, and progress control Forecasting Techniques: Causal and time series models, Moving average, Exponential smoothing, Trend and Seasonality. (Numerical) Real World Assignment: Understand and apply PPC functions (process planning, loading, scheduling, dispatching, expediting) in a real system. Exemplars / Practical Applications: Aggregate Production Planning in a Seasonal Product Industry, like Manufacturing of air coolers (seasonal demand product).",
+          "hours": 7
+        },
+        {
+          "title": "Inventory and Inventory Control",
+          "topics": "Materials: Pr ofit Centre: Role of materials management techniques in material productivity improvement, cost reduction and value improvement. Purchase Management: Purchase management, incoming material control. Acceptance sampling and inspection. Vendor rating system. Inventory: Functions, Costs, Classifications, Deterministic inventory models and Quantity discount Inventory Control : EOQ (Numericals), concepts, type of Inventory models -deterministic and probabilistic, Selective inventory control, Fundamental of Material Requirement Planning (MRP -I), Manufacturing Resource Planning (MRP -II), Enterprise Resource Planning (ERP), Just -in-Time system (JIT) and Supply Chain Management (SCM) Real World Assignment: Economic Order Quantity (EOQ) Analysis for Inventory Control Exemplars / Practical Applications: Inventory Planning using MRP, ERP & SCM in an Automobile Industry. Managing inventory for car manufacturing (multi-component system).",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-361E-AUR",
+      "title": "Internet of Things",
+      "semester": 6,
+      "type": "Program Elective-1",
+      "credits": 3,
+      "pages": [
+        69,
+        70
+      ],
+      "units": [
+        {
+          "title": "Fundamentals and Architecture of IoT",
+          "topics": "Foundations: Evolution of IoT, history, definition, and characteristics; IoT vs. M2M (Machine-to-Machine) communication. Architectural Overview: Physical design (Things in IoT) vs. Logical design (Functional blocks); IoT Levels and Deployment templates. Frameworks: oneM2M and IoT World Forum (IoTWF) architectures; Simplified IoT Functional Stack; Introduction to Software Defined Networking (SDN) for IoT. Computing Paradigms: Role of Fog, Edge, and Cloud computing in distributed IoT systems.",
+          "hours": 6
+        },
+        {
+          "title": "IoT Hardware: Sensors, Actuators, and Gateways",
+          "topics": "Sensing and Actuation: Overview of sensor working (Analog vs. Digital, Wired vs. Wireless); Types of sensors (Motion, Occupancy, Humidity, Pressure, Gas) and Actuators. Controller Selection: Role of the microcontroller as a gateway; Microcontroller vs. Microprocessor; Characteristics of Arduino, Raspberry Pi, and Espressif (ESP32) platforms. Interfacing Basics: Programming interfaces (Serial, SPI, I2C); Accessing GPIO pins; Sending and receiving signals; Basic Embedded C and Python for IoT hardware.",
+          "hours": 6
+        },
+        {
+          "title": "Networking, Connectivity, and Protocols",
+          "topics": "Connectivity Models: TCP/IP vs. OSI model in IoT; Serial vs. Parallel communication; Wired vs. Wireless technologies (ZigBee, Bluetooth, LoRaWAN, Wi-Fi 6). Network Layer: IP versions for IoT; Constrained Nodes and Networks; Optimizing IP through 6LoWPAN. Application Layer Protocols: Protocol standardization; MQTT, CoAP, and REST/HTTP; Data handling and serialization using JSON.",
+          "hours": 8
+        },
+        {
+          "title": "Cloud Integration and Data Analytics",
+          "topics": "Cloud Infrastructure: Introduction to cloud models (Public, Private, Hybrid); Cloud service examples (AWS, Google Compute Engine, Windows Azure); API Virtualization. Data Handling: Data acquisition and synchronization; Structured vs. Unstructured data; Introduction to Big Data analytics and machine learning for IoT. Visualization: Web servers and posting sensor data; API-based remote monitoring; Designing user interfaces for industrial dashboards",
+          "hours": 8
+        },
+        {
+          "title": "IoT Applications, Security, and Future Trends",
+          "topics": "Industrial IoT (IIoT): Future Factory concepts; Brownfield IoT; Predictive Maintenance and Energy Monitoring using IIoT sensors. Domain Applications: Smart Cities, Smart Home Automation, Surveillance, Precision Agriculture, and Smart Healthcare. Security & Governance: Need for security in IoT; Privacy by design; Protecting consumer and industrial devices; Trust in IoT-data-platforms. Future Trends: Internet of Robotic Things (RIoT); Swarm robotics; Augmented Reality (AR) integration; Blockchain in smart manufacturing. Practical Applications 1. Sensor Interfacing & Logging: Interface a temperature/humidity sensor (DHT11/LM35) with an Arduino and log data to a serial monitor or cloud platform. 2. Remote Device Control: Use a web-based dashboard or mobile app to remotely actuate a relay or motor. 3. Wireless Node Communication: Establish a communication link between an Arduino and Raspberry Pi using a wireless medium (Bluetooth/Zigbee). 4. Smart Parking Prototype: Build a simulation or physical model of an automated parking system that updates slot availability to a cloud database.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-362A-MEC",
+      "title": "Product Design & Development",
+      "semester": 6,
+      "type": "Program Elective-2",
+      "credits": 3,
+      "pages": [
+        71,
+        74
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Product Design & Development",
+          "topics": "- Definition & need of Product Design & Development - Importance of engineering & industrial design - Essential factors for product design - Product design phases and generic product development process - Product Development Vs Product Design - Standardization, simplification & specialization in product design - Steps in Product Development - Product development team & product development planning - Modern product development process - Product testing - Product validation & product verification Real World Assignment 1. Product Design Process Case Study: - Select a real product (e.g., electric kettle, bicycle, smartphone). - Study product design phases, development process, and role of engineering and industrial design. - Compare Product Design vs Product Development. - Submit a structured report with diagrams. 2. Product Redesign & Standardization Study: - Select an existing product with usability issues. - Identify design flaws and lack of standardization. - Propose improved design with testing and validation aspects. - Present with sketches/models. Exemplar / Practical Applications/CCE 1. Product Development Planning Exercise: - Form teams of 3–4 students. - Select a simple pr...",
+          "hours": 7
+        },
+        {
+          "title": "Product Development: Customer Need Analysis & Market",
+          "topics": "Considerations (07 Hours) Mission statement &amp; technical questioning, Voice of customer (VoC) & customer need identification, Types & models of customer needs, Methods of gathering customer needs, Analysis of gathered data, Technology forecasting & S -curve, Customer population & market segmentation, Establishing engineering characteris tics, Quality Function Deployment (QFD) & House of Quality (HOQ),Competitive benchmarking, Economic analysis of product. Real World Assignment 1. Voice of Customer (VoC) Study: - Select a product (e.g., backpack, mobile app, home appliance). - Conduct survey/interviews (minimum 10 users). - Identify customer needs and pain points. - Classify needs (basic, performance, excitement). - Prepare report with charts. 2. QFD & Competitive Benchmarking: - Select a product category (e.g., electric scooter). - Perform competitive benchmarking (2–3 products). - Develop House of Quality (HOQ). - Map customer needs to engineering characteristics. - Suggest best design strategy. Exemplar / Practical Applications/CCE 1. Market Segmentation Exercise: - Choose a product. - Identify target customers and segmentation (age, income, usage). - Analyze customer popul...",
+          "hours": null
+        },
+        {
+          "title": "Product Development: Concept Generation, Evaluation & Product",
+          "topics": "Architecture (08 Hours) Product information gathering ,Creative thinking & problem solving techniques ,Brainstorming, lateral thinking, Gordon technique, checklist method ,Morphological analysis & attribute listing ,Concept generation technique, Concept selection method (Pugh’s method, scoring method), Concept selection design evaluation, estimation & technical feasibility ,Process of concept embodiment ,Product architecture & its types, System modeling, functional modeling & decomposition, FAST method , Subtract & operate procedure Real World Assignment 1. Pugh’s concept selection Students will pick a product, generate multiple design concepts, and evaluate them against a reference/datum using criteria like cost, ease of use, safety, etc. Product example:- Foldable Study Table, Helmet for Two-Wheeler Riders, Reusable Water Bottle etc. 2.FAST (Function Analysis System Technique) Method Students will build a FAST diagram showing Why → How function relationships for a product, identifying basic, secondary, and unwanted functions. Product example:- Bicycle, Ceiling Fan , Laptop Bag etc. Exemplar / Practical Applications/CCE Pugh's Concept Selection Matrix Students select a everyday...",
+          "hours": null
+        },
+        {
+          "title": "Reverse Engineering, Benchmarking and Product Optimization",
+          "topics": "Product teardown process and methods, Applications of reverse engineering, Force flow diagrams, Measurement and experimentation techniques, Benchmarking approach and detailed procedure, Tools used in benchmarking, Indented assembly and cost analysis, Function–form diagrams, Trend analysis and product improvement. Product specification setting, Introduction to product portfolio and product architecture. Real World Assignment 1.Product teardown & Benchmarking Students will disassemble or closely examine a simple household product in 3 - 4 peers such as Bicycle (complete or subsystem like gear/brake) ,Two -wheeler helmet ,Car wip er mechanism ,Fuel pump (demo model) electric iron, mixer grinder, smartphone charger, or water pump, to understand its construction and working. They will identify components, understand how each part contributes to overall functionality, prepare function–component mapping and block diagrams, and estimate the manufacturing cost by calculating the cost of individual components and comparing it with the market price. 2.Benchmarking Students will perform benchmarking by selecting at least three similar products and comparing them based on cost, performance, ...",
+          "hours": 7
+        },
+        {
+          "title": "Design for X (DFX), Prototyping and Product Lifecycle",
+          "topics": "Management (07 Hours) - Design for Manufacturing (DFM) and Design for Assembly (DFA/DFMA) - Design for reliability, safety and robustness - Design for environment and sustainability - Design for serviceability and user-friendly design - Manufacturing cost analysis - Life Cycle Assessment (LCA) – basic and weighted method - Role of computers in product design and manufacturing - Rapid prototyping techniques: SLA, SLS, FDM, LOM, BPM - Introduction to 3D printing technologies - Product Life Cycle Management (PLM): concepts and elements - Product data management and workflow - Case studies on product design and development Real World Assignment 1. Case Study On Product design and development of simple products like e.g., mixer grinder,bicycle, brake system of Two wheeler 2. Reliability & Safety Evaluation of a Mechanical System 3. Sustainable Product Redesign using eco-friendly materials 4. Manufacturing Cost Estimation and cost reduction strategies Exemplar / Practical Applications 1. Introduction to use simulation tools (FEA/CFD) to test product performance before manufacturing. 2. Introduction to Integration of design, manufacturing, and supply chain data using PLM software. E.g:...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362B-AUR",
+      "title": "Agriculture robots",
+      "semester": 6,
+      "type": "Program Elective-2",
+      "credits": 3,
+      "pages": [
+        75,
+        76
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mechanized Agriculture",
+          "topics": "Foundations: History of mechanized agriculture; evolution from traditional tools to agricultural automation. Farming Operations: Technical overview of machines for tillage, planting, cultivation, and harvesting. Robotic Platforms: Introduction to Agricultural Vehicle Robots and autonomous tractors.",
+          "hours": 6
+        },
+        {
+          "title": "Precision Agriculture and Sensing",
+          "topics": "Sensing Systems: Sensor types and agricultural applications: soil moisture, temperature, and nutrient sensors. Positioning Technologies: Global Positioning System (GPS) foundations; Differential GPS (DGPS), Carrier-phase GPS, and Real-time Kinematic (RTK) GPS. Information Frameworks: Geographic Information Systems (GIS); Variable Rate Applications (VRA); and Controller Area Networks (CAN) for farm machinery.",
+          "hours": 8
+        },
+        {
+          "title": "Traction, Testing, and Hitches",
+          "topics": "Hitching Principles: Mechanics of hitching; types of hitches and weight transfer analysis. Traction Mechanics: Tires and traction performance; interaction between vehicle wheels and various soil types. Testing Protocols: Methods for testing draft requirements and power output of agricultural robotic bases.",
+          "hours": 8
+        },
+        {
+          "title": "Field Robotics and Crop Management",
+          "topics": "Autonomous Guidance: Navigation stacks for broad -acre applications; automatic guidance for sowing and spraying. Automated Weed Control: Systems for mechanical and chemical weed management; SLAM in agricultural environments. Horticulture Robotics: Robotic picking of fruits; automated pruning and crop thinning. Livestock Automation: Overview of robot milking, sheep shearing, and livestock health inspection.",
+          "hours": 8
+        },
+        {
+          "title": "Machinery Selection and Logistics",
+          "topics": "Logistics Systems: Automated material handling in farms: screw conveyors, pneumatic conveyors, and bucket elevators. Selection Criteria: Determining field capacity and efficiency; draft and power requirements for specific terrains. Economics: Analysis of machinery costs, maintenance, and the socio -economic impact of agricultural robotization.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-362C-AUR",
+      "title": "Operations Research",
+      "semester": 6,
+      "type": "Program Elective-2",
+      "credits": 3,
+      "pages": [
+        77,
+        78
+      ],
+      "units": [
+        {
+          "title": "Introduction to OR and Decision Theory",
+          "topics": "Foundations: Origin, definition, and evolution of Operations Research; phases of an OR study. Game Theory: Competitive games, two-person zero-sum games, and saddle point theory. Decision Analysis: Decision-making under certainty, risk, and uncertainty; Decision trees.",
+          "hours": 6
+        },
+        {
+          "title": "Linear Programming and Duality",
+          "topics": "LPP Formulation: Identifying objective functions and constraints in automation scenarios. Solution Methods: Graphical method; Simplex algorithm; Big M and Two-phase methods. Theory of Duality: Primal to dual conversion and sensitivity analysis.",
+          "hours": 8
+        },
+        {
+          "title": "Transportation and Assignment Models",
+          "topics": "Transportation: Formulation; finding basic feasible solutions (VAM, LCM, NWCR); Optimality tests and degeneracy. Assignment: Formulation; Hungarian method for balanced and unbalanced problems. Autonomous Logistics: Application to Travelling Salesman Problems (TSP) for robot path optimization.",
+          "hours": 8
+        },
+        {
+          "title": "Queuing Theory and Sequencing",
+          "topics": "Queuing Models: Characteristics of queuing systems; Kendall’s notation; Single and multi - server models (M/M/1 and M/M/s). Sequencing: Processing $n$ jobs through 2, 3, or $m$ machines; Johnson’s rule. Service Evaluation: Performance evaluation of engineering and management systems.",
+          "hours": 8
+        },
+        {
+          "title": "Project Management and Dynamic Programming",
+          "topics": "Network Models: Project networks; CPM and PERT; critical path scheduling and resource leveling. Dynamic Programming: Principle of Optimality; Bellman’s Optimality Principle; Applications to shortest route and resource allocation. Replacement Analysis: Replacement of items that fail suddenly or deteriorate over time.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-362D-AUR",
+      "title": "Warehouse Automation",
+      "semester": 6,
+      "type": "Program Elective-2",
+      "credits": 3,
+      "pages": [
+        79,
+        81
+      ],
+      "units": [
+        {
+          "title": "Introduction to Warehouse Automation 6 Hrs",
+          "topics": "Introduction to Logistics and Supply Chain Management, Evolution of Warehousing, Types of Warehouse Functions, Warehouse Layout Planning, Material Flow Analysis, Warehouse Performance Indicators (KPIs), Lean Warehousing, Industry 4.0 in Warehousing Suggested Case Study • Amazon Fulfilment Centre • Flipkart Smart Fulfillment Centre (India) • Decathlon Distribution Centre • IKEA Distribution Warehouse",
+          "hours": 6
+        },
+        {
+          "title": "Automated Material Handling and Storage Systems 6 Hrs",
+          "topics": "Principles of Material Handling, Conveyor Systems, Sortation Systems, Automated Guided Conveyor Systems, Vertical Lift Modules, Carousel Storage Systems, Automated Storage and Retrieval Systems (AS/RS), Automated Palletizing and Depalletizing, Warehouse Th roughput, Storage Capacity Planning Suggested Case Study • Daifuku AS/RS System • AutoStore Cube Storage System • Dematic Conveyor and Sortation System • Swisslog PowerStore AS/RS",
+          "hours": 6
+        },
+        {
+          "title": "Warehouse Robotics and Autonomous Mobile Systems 8 Hrs",
+          "topics": "Industrial Robots in Warehouses, Pick and Place Robots, End Effectors, Collaborative Robots , Automated Guided Vehicles (AGVs ), Autonomous Mobile Robots (AMRs) , Navigation Methods, Fleet Management System, Autonomous Forklifts, Robot Safety Standards, Human –Robot Collaboration Suggested Case Study • Amazon Robotics (Kiva Systems) • GreyOrange Butler System (India) • Geek+ AMR Warehouse • Boston Dynamics Stretch Robot • ABB Robotic Palletizing Cell",
+          "hours": 8
+        },
+        {
+          "title": "Warehouse Control Systems and Industrial Automation 8 Hrs",
+          "topics": "Warehouse Control Architecture, PLC Applications in Warehouse Automation, Conveyor Sequencing, Sensor Technologies, Servo Drives, Variable Frequency Drives, Human Machine Interface (HMI), SCADA, Warehouse Control System (WCS), Safety Interlocking, Functional Safety Standards Suggested Case Study • Siemens PLC-Based Conveyor Automation • Rockwell Automation Distribution Centre • Schneider EcoStruxure Smart Warehouse • Mitsubishi Electric e-Factory Warehouse",
+          "hours": 8
+        },
+        {
+          "title": "Smart Warehouse Technologies and Industry 4.0 6 Hrs",
+          "topics": "Warehouse Management System (WMS), Warehouse Execution System (WES), Internet of Things (IoT), RFID-enabled Inventory Tracking, Cloud-based Warehouse Monitoring, Artificial Intelligence in Warehousing, Machine Learning for Inventory Optimization, Machine V ision Systems , Digital Twin Technology, Predictive Maintenance, Green Warehousing, Cyber Security in Smart Warehouses, Future Trends: Autonomous Warehouses, AI-based Logistics, Hyper Automation Suggested Case Studies • DHL Smart Warehouse • Walmart Distribution Centers • Swisslog Smart Warehouse • Ocado Smart Platform (UK) • Alibaba Cainiao Smart Logistics • Coca-Cola Automated Warehouse Real World Assignment 1. Warehouse Layout Design: Design the layout of an automated warehouse for an e-commerce company considering receiving, storage, picking, packing, and dispatch operations. Optimize space utilization and material flow. 2. Material Handling Equipment Selection: Select suitable material handling equipment (conveyors, AS/RS, AGVs, forklifts, etc.) for a warehouse based on product type, storage requirements, and throughput. 3. Warehouse Automation Proposal: Prepare a proposal to convert a conventional warehouse into a smart ...",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-362E-AUR",
+      "title": "Manufacturing Systems & Simulation",
+      "semester": 6,
+      "type": "Program Elective-2",
+      "credits": 3,
+      "pages": [
+        82,
+        83
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Manufacturing Systems",
+          "topics": "System Overview: Definition of manufacturing systems; evolution from Industrial Revolution to Industry 5.0. Classification: Manual, automated, and hybrid systems; Job shop, Batch, and Mass production. Performance Metrics: Production rate, plant capacity, lead time, and work-in-process (WIP). Modern Paradigms: Lean manufacturing (Kaizen, 5S, JIT) and Agile manufacturing.",
+          "hours": 6
+        },
+        {
+          "title": "Facilities and Support Systems",
+          "topics": "Automated Logistics: Principles of material handling; conveyors, Automated Guided Vehicles (AGVs), and AS/RS. Layout Design: Plant layout types; Group Technology (GT) and part families; Opitz and MICLASS coding. Cellular Manufacturing: Design and layout of manufacturing cells; machine cell design and quantitative analysis. Robotics Integration: Role of industrial robots in assembly lines and workcells.",
+          "hours": 8
+        },
+        {
+          "title": "Manufacturing Simulation Concepts",
+          "topics": "Simulation Basics: Definition, purpose, and steps in a simulation study. Simulation Types: Discrete Event Simulation (DES), System Dynamics (SD), Agent -based modeling, and Monte Carlo simulation. Problem Formulation: Defining objectives, system boundaries, and performance measures. Modeling Logic: Organizing logic for inventory and queuing problems (single server systems).",
+          "hours": 8
+        },
+        {
+          "title": "Input Modeling and Random Variates",
+          "topics": "Data Collection: Sources for input data; preprocessing and identifying distributions (Uniform, Normal, Exponential, Weibull). Stochastic Processes: Introduction to Random Number Generation; properties of pseudo -random numbers. Verification & Validation: Face validity; testing model assumptions; validating input -output transformations against historical data.",
+          "hours": 8
+        },
+        {
+          "title": "Output Analysis and Simulation Tools",
+          "topics": "Performance Evaluation: Output analysis for terminating vs. non -terminating simulations; confidence intervals. Software Ecosystem: Overview of Arena, ProModel, Witness, and FlexSim; comparison with programming languages. Digital Twin: Introduction to Digital Twin-based simulation for real-time monitoring and predictive maintenance.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC-354-AUR",
+      "title": "Robot Building Lab",
+      "semester": 6,
+      "type": "Major Course-11A",
+      "credits": 3,
+      "pages": [
+        84,
+        86
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-355-AUR",
+      "title": "Actuators and Controllers Lab",
+      "semester": 6,
+      "type": "Major Course-13A",
+      "credits": 1,
+      "pages": [
+        87,
+        89
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-AUR",
+      "title": "Simulation Lab",
+      "semester": 6,
+      "type": "Multidisiplinary Course-5",
+      "credits": 1,
+      "pages": [
+        90,
+        92
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-372",
+      "title": "Robotic Process Automation",
+      "semester": 6,
+      "type": "Vocational & Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        93,
+        94
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

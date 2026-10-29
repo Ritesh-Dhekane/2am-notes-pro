@@ -1,0 +1,572 @@
+{
+  "id": "se-robotics-and-ai-syllabus-2024-pattern-revised-29062026",
+  "kind": "programme",
+  "programme": "SE – Second Year Engineering (2024 Pattern) Revised in Robotics and Artificial Intelligence",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-RAI",
+      "title": "Basics of Robotics & AI",
+      "semester": 3,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        18,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Robotics",
+          "topics": "Basics of Robotics: Definitions, Laws & Robotics -classification with respect to geometrical configuration (Anatomy). Industrial Robots: Industrial robot specifications , Selection based on the a pplication, Controlled system & chain type: Serial manipulator & Parallel Manipul ator, Components of Industrial robotics - precession of movement , resolution, accuracy & repeatability , Advances in Industrial Robotics Technology Robot. Applications: Material transfer and machine loading/unloading, Processing operations assembly and inspection. Real World Assignment: 1. Select three industrial robot and compare their geometric configuration, DOF and workspaces for electronics assembly and fast pick and place operation. 2. Research real robot model and compare specification such as reach, payload, and repeatability for arc welding and palletizing operation. 3. Implement advanced technology in collaborative robots which impacting on Industry 4.0. Exemplary: Surgical robotics, Warehouse autonomous mobile robots, Exoskeletons for rehabilitation, Robotic palletizing and de-palletizing in logistics, Bulk material handling in construction/mining.",
+          "hours": 8
+        },
+        {
+          "title": "Sensors, Controllers, and Programming and Languages",
+          "topics": "Sensors: Characteristics of sensing devices, Criterion for selections of sensors, Classification & applications of sensors. Controllers: Introduction and types of Controllers and introduction to close loop controller. Programming and Languages : Methods of robot programming, Introduction to various languages such as RAIL and VAL II, etc. Real World Assignment: 1. Identify and select sensors for industrial automation such as object detection, robotic arm positioning etc. 2. Model a temperature control system using ON/OFF control, PID control, Fuzzy logic control and compare performance. 3. Explore robot programming language and integration for a pick and place operation. Exemplary: Autonomous mobile robots, Collaborative robot (Cobot) Assembly, Precision electronics assembly, Metal object sorting, Machine loading/unloading, Automated bin picking.",
+          "hours": 7
+        },
+        {
+          "title": "Drives and Grippers",
+          "topics": "Drives: Types of drives, Advantages and Disadvantages of each type, Selection / suitability of drives for Robotic application. Grippers: Classification of Grippers, Mechanical Gripper-Grasping force, Mechanisms for actuation, Magnetic gripper, Vacuum cup gripper, Considerations in gripper selection & design. Real World Assignment: 1. Understand and compare the electric, pneumatic and hydraulic drive systems in various robots and make presentation. 2. Calculate the minimum gripping force needed to hold a 1 kg steel block (vertical lift) and slippery plastic tube (horizontal transfer). 3. Build a suction gripper using Syringe (actuator) and plastic bottle. Exemplary: High-speed pick & place (Electronics Assembly), Heavy payload material handling (Automotive body welding , Precision assembly (e.g., PCB i nsertion), Palletizing heavy boxes (Logistics).",
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "Overview of Artificial Intelligence: Foundations, Scope, Problems, and approaches of AI. Intelligent Agents: Reactive, Deliberative, Goal-driven, Utility-driven, and teaching agents, Artificial Intelligence programming techniques. Exemplary: Autonomous vacuum cleaner (e.g., Roomba), Adaptive process optimization in manufacturing, Robotic exploration & mapping , Autonomous navigation for delivery robots , Goal- driven path planning for automated guided vehicles. Real World Assignment: 1. Explore how AI solves real -world problems and identify 3 AI application for e.g. predictive maintenance, fraud detection, and robotic surgery and make report on it. 2. Use python and simulate reactive agent (obstacle avoiding robot) and goal driven agent (path finding) a short demo and explanation. 3. Compare AI (e.g., Chat GPT) and human responses to the same 5 questions (e.g., essay writing, math problems).",
+          "hours": 7
+        },
+        {
+          "title": "Problem-solving Approaches and Knowledge",
+          "topics": "Representation and Reasoning (07 Hours) Problem-solving Approaches : Forward and backward, State-space, Blind, Heuristic, Problem reduction, Alpha-beta pruning, Minimax, Constraint propagation, Neural, Stochastic, and Evolutionary search algorithms, Sample applications. Knowledge Representation and Reasoning : Ontologies, Foundations of knowledge representation and reasoning, Representing, and reasoning about objects, relations, events, actions, time, and space; predicate logic, Situation calculus, Description logics, Reasoning with defaults, Reasoning about knowledge, Sample applications. Real World Assignment: 1. Design an AI system that solves logistics problems in a smart factory using search algorithms and knowledge graphs. 2. Identify Algorithm Olympics and compare three search method for robot path finding, task scheduling, and dynamic replanning. 3. Apply the crisis response simulation with problem reduction, heuristic search, situation calculus. Exemplary: A* Algorithm for warehouse AGV navigation, Breadth-First Search (BFS) for robotic exploration, Genetic algorithm with hebbian learning for navigation , Constraint propagation in robot assembly.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-RAI",
+      "title": "Materials and Manufacturing",
+      "semester": 3,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        22,
+        26
+      ],
+      "units": [
+        {
+          "title": "Structures and Deformation of Materials",
+          "topics": "Material Structures: Classification of engineering materials, Study of crystal structures, Defects in crystals – point defects, line defects (dislocations), Characteristics of dislocations. Deformation of Materials: Elastic and plastic deformation , Slip Systems , T winning, Work hardening, Strengthening mechanisms. Phase Transformation: Nucleation and growth of crystals , Diffusion mechanisms, Basics of phase diagram, Gibb’s phase rule, Lever rule , Iron - Iron carbide phase diagram, Phase transformations in steels and cast iron. Real World Assignment: 1. Examine a broken metal object (spoon, key, and bracket) to identify ductile vs. brittle fracture and find visual evidence of slip lines or twinning. 2. Build 3D models of SC, BCC, and FCC unit cells, photograph them, and calculate the Atomic Packing Factor (APF) with step-by-step derivation. 3. Bend copper wire (cold -worked) and annealed copper to compare stiffness/ductility, and explain how strain hardening strengthens by impeding dislocation movement. 4. Research and construct a labeled binary phase diagram (e.g., Cu -Ni or Pb-Sn), mark the liquidus, solidus, and eutectic point, and explain its significance. Exemplary: Prec...",
+          "hours": 8
+        },
+        {
+          "title": "Material Testing and Characterization",
+          "topics": "Material Testing and Behaviour: Heat Treatment of steels, Tensile, Compression, Impact, Bending, and Fatigue tests - testing parameters, factors affecting , Hardness test , Creep and stress rupture – mechanism of creep , Fracture of metals – Ductile fracture, Brittle fracture, Ductile to Brittle Transition Temperature (DBTT). Non-Destructive Testing: Eddy current test, Ultrasonic testing, X-ray Radiography testing (Principle and Applications only), SEM, TEM and X-ray diffraction. Real World Assignment: 1. Source fractured metal samples, photograph fracture surfaces, and identify failure mode by observing visual features like dimples, shear lips, cleavage facets, and river patterns. 2. Obtain stress-strain curves for three different materials, calculate elastic modulus, yield strength, UTS, and ductility, and recommend the best material for a specific application based on property trade-offs. 3. Conduct Charpy impact tests on PVC, aluminum, and steel at different temperatures ( -20°C to 100°C). Analyze ductile-to-brittle transitions. 4. Find research images from Scanning Electron Microscopy (SEM), Transmission Electron Microscopy (TEM), and X-Ray Diffraction (XRD) patterns for a ...",
+          "hours": 7
+        },
+        {
+          "title": "Casting and Metal Forming Processes",
+          "topics": "Casting: Cold & Hot working processes, Introduction to sand casting process - principle, process parameters, classifications, Casting equipment and tools - applications and limitations, Die-casting – hot chamber and cold chamber, Centrifugal casting, Squeeze casting, Defects in castings. Metal Forming: Rolling and its process, Forging operations, Extrusion process, Wire and Tube drawing– Equipment and tools, process parameters, characteristics, defects, applications and limitations. Real World Assignment: 1. Visit a local foundry or watch a video of sand casting, identify the pattern, mold, core, gating system, and riser, and explain their functions. 2. Examine cast metal objects (e.g., engine blocks, cookware, and pipe fittings) and identify common defects like shrinkage cavities, porosity, cold shuts, or misruns. 3. Explore the use of centrifugal casting to manufacture hollow rotating shafts or wheels for mobile robots. 4. Compare extrusion, forging, and rolling to determine the most effective forming process for a robot chassis. Exemplary: Squeeze casting for lightweight robotic manipulators, Centrifugal casting of robotic wheel hubs, Forged gears and shafts in robotic transm...",
+          "hours": 7
+        },
+        {
+          "title": "Sheet Metal and Metal Joining Processes",
+          "topics": "Sheet Metal Processes: Introduction, Types of forming processes, Development drawing of simple sheet metal object, Sheet forming processes – equipment and tools, process parameters, characteristics, defects, applications and limitations. Metal Joining Processes: Gas welding, Arc welding , Resistance welding, Solid state joining, Brazing and Soldering, Adhesive bonding processes – principles, eq uipment, process parameters, tools and accessories, joint characteristics, defects, applications, and limitations. Real World Assignment: 1. Explore how sheet metal is used to form lightweight, wearable robotic support structures / Design of a sheet-metal based Mobile Robot Chassis. 2. Bend a sheet metal strip at different radii and angles, observe springback effect, and calculate the bend allowance for a given thickness and angle. 3. Research robotic laser welding applications (e.g., battery tab welding for EVs, sensor housings), explain the advantages over traditional methods, and identify critical process parameters. Exemplary: Sheet metal forming tooling design for repetitive robot part production, Sheet-metal based mobile robot chassis, and Sheet metal bracket for robotic arm mountin...",
+          "hours": 7
+        },
+        {
+          "title": "Application of Robotics in Manufacturing",
+          "topics": "Application of Robotics in Manufacturing: Material transfer, Machine loading/ unloading, Collaborative works, Assembly line, Supply chain automation, Inspection & maintenance. Real World Assignment: 1. Design a robotic work cell for loading/unloading a CNC machine, specifying robot reach, gripper type, part orientation, and cycle time. 2. Study AGV/AMR navigation methods (SLAM, magnetic tape, QR codes) and fleet management in a warehouse or factory setting. 3. Propose a model for using IoT-enabled robots for real-time inventory tracking, storage, and dispatch. Exemplary: Robotic machine loading/unloading system for lathe or milling machine , Vision -based robotic inspection system for detecting surface defects , Autonomous Mobile Robot (AMR) system for intra-plant logistics.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-RAI",
+      "title": "Analog and Digital Electronics",
+      "semester": 3,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        27,
+        30
+      ],
+      "units": [
+        {
+          "title": "Field Effect Transistors and Operational Amplifier",
+          "topics": "Field Effect Transistors: Junction Field Effect Transistors, MOSFETs, Differences between JFETs and MOSFETs, Biasing MOSFETs, FET applications, CMOS devices , Wave shaping circuits - Integrated Circuit (IC) multivibrators. Introduction to Operational Amplifier: Ideal v/s practical Op-Amp, Performance parameters. Operational Amplifier Application Circuits: Peak detector circuit, Comparator, Active filters, Non - linear amplifier, Relaxation oscillator, Current to voltage converter, Voltage to current converter. Real World Assignment: 1. Build a practical peak detector and a comparator using an op-amp, then cascade them with an active low-pass filter to create a non-linear amplifier that triggers an alarm only when a signal's amplitude exceeds a threshold for a specific duration 2. Construct a relaxation oscillator using a 555 timer IC (as an IC multivibrator) and an op-amp integrator, then modify it into a voltage-to-current converter to drive an LED, measuring frequency stability against supply voltage changes. 3. Build a light/dark sensor using an Op-Amp comparator. Exemplary: Smartphone battery charging circuits, Microprocessor memory chips, Line -follower sensors, Battery ove...",
+          "hours": 8
+        },
+        {
+          "title": "Basic Gates and Combinational Logic Circuits",
+          "topics": "Basic Gates: Review of basic logic gates , Positive and negative logic , Introduction to Hardware Description Language (HDL). Combinational Logic Circuits: Sum of products method, Truth table to Karnaugh Map, Pairs Quads, and Octets, Karnaugh simplifications, Don’t-care conditions, Product of sums method, Product of sums simplifications, Simplification by Quine McClusky method, Hazards and hazard covers, HDL implementation models. Real World Assignment: 1. Design a 4 -bit binary -to-BCD converter using Karnaugh map simplification and implement it in Verilog HDL, then verify its functionality for decimal display on a 7-segment LED. 2. Implement a digital alarm system using Product of Sums simplification for a 3 -input majority voter circuit, then compare its gate-level HDL model with a behavioral model for timing and area. 3. Minimize a 5-variable logic function for a traffic light controller using the Quine-McCluskey method, identify and cover static-1 hazards, and simulate the hazard-free circuit using HDL testbenches. Exemplary: ALU control logic in microprocessors, Emergency stop circuit, Encoder decoding, Sensor arbitration, Motor direction logic, FPGA motor control, Digital...",
+          "hours": 7
+        },
+        {
+          "title": "Data Processing Circuits and Flip-Flops",
+          "topics": "Data-Processing Circuits: Multiplexers, Demultiplexers , 1 -of-16 Decoder, Binary coded decimal (BCD) to decimal decoders, Seven segment decoders, Encoders, Exclusive-OR Gates, Parity generators and checkers, Magnitude comparator, Programmable array logic, Programmable logic arrays, HDL implementation of data processing circuits. Arithmetic building blocks, Arithmetic logic unit. Flip- Flops: RS flip-flops, Gated flip -flops, Edge triggered RS flip -flop, Edge triggered D flip -flops, Edge triggered JK flip-flops. Real World Assignment: 1. Design a 4:1 multiplexer-based 7-segment display controller for a digital calculator, implement it using HDL, and verify BCD-to-decimal decoding for all digits. 2. Build a 4-bit magnitude comparator using HDL to compare two sensor values in a robotic obstacle avoidance system, and test it with edge-triggered D flip-flops for latching the comparison result. 3. Implement an 8 -bit ALU (Arithmetic Logic Unit) with addition, subtraction, AND, OR, and XOR operations using programmable logic array (PLA), and simulate it with JK flip-flops. Exemplary: Error detection in data transmission, Robot arm calculations, Divide encoder pulses for wheel speed,...",
+          "hours": 7
+        },
+        {
+          "title": "Flip-Flops, Registers, Counters",
+          "topics": "Flip-Flops: Flip-flop timing , JK master-slave flip -flop, Switch contact bounce circuits , Various Representation of flip-flops, HDL implementation of flip-flop. Registers: Types of registers, Serial In - Serial Out, Serial In -Parallel out, Parallel In - Serial Out, Parallel In -Parallel Out, Universal shift register, Applications of shift registers, Register implementation in HDL. Counters: Asynchronous counters, Decoding gates, Synchronous counters, Changing the counter modulus. Real World Assignment: 1. Design a 4-bit universal shift register using D flip-flops in HDL to implement a serial-in-parallel-out (SIPO) data acquisition system for an SPI temperature sensor, and verify its operation. 2. Implement a synchronous BCD counter using JK master -slave flip -flops with a modulus change feature to create a programmable digital stopwatch that counts from 0 to 59 seconds. 3. Build a switch debounce circuit using an RS flip -flop to eliminate contact bounce in a push -button start mechanism for a conveyor belt motor, and simulate it using HDL testbenches. Exemplary: Autonomous mobile robot wheel encoder odometry, Robotic arm joint angle control, Humanoid robot gait timing, Robo...",
+          "hours": 7
+        },
+        {
+          "title": "Counters and A/D, D/A Convertors",
+          "topics": "Counters: Decade counters, Presettable counters, Counter design as a synthesis problem , A Digital clock, Counter design using HDL. D/A Conversion and A/D Conversion: Variable, Resistor networks, Binary ladders, D/A Converters, D/A accuracy and resolution, A/D Converter-simultaneous conversion, A/D Converter-counter method, continuous A/D conversion, A/D techniques, Dual-slope A/D conversion, A/D accuracy and resolution. Real World Assignment: 1. Design a 24 -hour digital clock using decade counters and presettable counters with HDL, incorporating a 1 Hz clock derived from a 50 MHz crystal oscillator. 2. Implement a 4-bit successive approximation ADC using a counter method and a binary ladder D/A converter to digitize a potentiometer voltage for a robotic joystick input. 3. Build a dual -slope ADC using an op -amp integrator and digital counters to measure temperature from a thermistor with 0.1°C resolution, and verify its accuracy against a commercial multimeter. Exemplary: Motor encoder position counting, Robot arm torque sensing, Line-follower analog sensor digitization, Mobile robot mapping, Swarm robot synchronization, Drone altitude sensor, LiDAR distance measurement.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-RAI",
+      "title": "Analog and Digital Electronics Lab",
+      "semester": 3,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        31,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-RAI",
+      "title": "Mathematics for Intelligent Systems",
+      "semester": 3,
+      "type": "Multidisciplinary Course",
+      "credits": 3,
+      "pages": [
+        35,
+        38
+      ],
+      "units": [
+        {
+          "title": "Statistics and Probability",
+          "topics": "Statistics: Introduction to data science, Population, Sample, Measures of central tendency , Measures of dispersion , Coefficient of variation , Moments, Skewness and kurtosis, Correlation analysis: Pearson’s correlation. Probability: Probability, Theorems on probability, Bayes theorem, Random variables, Mathematical expectation, Probability distributions: Binomial, Poisson, Normal, Test of hypothesis: T-Test, Z-Test, Chi-Square Test. Real World Assignment: 1. Identify important probability and statistics theorems and methods that are commonly used for applications in engineering. 2. Solve basic probability and statistic problems for applications in engineering using concepts such as total probability, Bayes’ rule, continuous and discrete distributions, etc. 3. To measure statistical features of experimental data/standard datasets from scientific websites. Exemplary: Machine learning application for training neural networks with gradient descent and linear regression for predictive analytics.",
+          "hours": 8
+        },
+        {
+          "title": "Vector Calculus",
+          "topics": "Fundamentals of Vector Calculus: Vector differentiation, Gradient, divergence and curl, Directional derivative, Solenoidal & irrotational fields, Vector identities, Line integrals, Surface integrals and Volume integrals, Applications of Stoke’s & Green’s theorems. Real World Assignment: 1. Electric field from distributed charge. 2. Plotting a Slice of a vector field. 3. To describe fluid flow, pressure distributions, and forces acting on objects immersed in fluids. Exemplary: Solving differential equations to analyze stress, strain, and load distribution in bridges, buildings, and dams. Calculating joint trajectories and inverse kinematics for robotic arms.",
+          "hours": 7
+        },
+        {
+          "title": "Numerical Solution of Equations",
+          "topics": "Roots of Equation: Bisection method, Regula-False method, Newton-Raphson & Successive Approximation method. Numerical Solutions of system of linear equations: Gauss elimination, LU decomposition, Cholesky Jacobi and Gauss seidel methods. Real World Assignment: Analytical solution for any one of the following applications: 1. Heat & mass balance equations. 2. Newton’s laws of motion. 3. Force balance. Exemplary: Simulating airflow over aircraft wings or fluid flow in pipelines using Navier-Stokes equations. Designing PID controllers for robots, drones, and industrial automation using transfer functions.",
+          "hours": 7
+        },
+        {
+          "title": "Numerical Solution of Differential Equations and",
+          "topics": "Integral (07 Hours) Solution of Ordinary Differential Equations: Taylor series method, Picard’s Method, Euler method, Runge-Kutta method, Mille’s predictor and corrector method. Numerical Integration: Trapezoidal rule, Simpson’s 1/3rd rule, Simpson’s 3/8th rule. Real World Assignment: Analytical solution for any one of the following applications: 1. The swinging pendulum. 2. Heat conduction equation: A thin rod, insulated at all points except of the ends. 3. Analyze the unforced oscillations of an automobile shock absorber. Exemplary: Modeling heat dissipation in electronics or thermal efficiency in power plants, Analyzing RLC circuits with time-varying inputs.",
+          "hours": null
+        },
+        {
+          "title": "Finite Difference Methods",
+          "topics": "Finite Difference Method (FDM): Initial & boundary value problems, Formulation of forward, backward & central difference approximation, 1D ODE problem solutions using FDM. Partial Differential Equations (PDE): Elliptical-Laplace & Poisson’s equation, Parabolic & Hyperbolic equations and their engineering applications. Real World Assignment: Analytical solution using numerical methods for any one of the following applications: 1. A non-insulated uniform rod positioned between two bodies of constant but different temperatures. 2. Damped/Undamped spring-mass system. 3. Simulating transient current for an electric circuit. Exemplary: Simulating crash tests for cars or vibration analysis in machinery , Simulating airflow over aircraft wings, car designs (CFD- Computational Fluid Dynamics).",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "MDM-222-RAI",
+      "title": "Computer Programming Lab",
+      "semester": 3,
+      "type": "Multidisciplinary Course",
+      "credits": 1,
+      "pages": [
+        39,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective-I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-231-RAI",
+      "title": "Computer Aided Design Lab",
+      "semester": 3,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        42,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "HSSM-232-RAI",
+      "title": "Entrepreneurship Development & Innovation",
+      "semester": 3,
+      "type": "Entrepreneurship/Management Course",
+      "credits": 1,
+      "pages": [
+        46,
+        49
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurial Mindset, Creativity and Innovation",
+          "topics": " Entrepreneurial mindset: curiosity, resilience, risk-taking, leadership  Types of entrepreneurs – Technical, Non-technical, Social, Entrepreneur  Innovation types: product, service, process, frugal (Jugaad) innovation  Design Thinking: Empathize, Define, Ideate, Prototype, Test  Creativity tools: Mind Mapping, SCAMPER, TRIZ  Success stories from Indian innovators  Case studies: Innovative Indian products/startups",
+          "hours": 8
+        },
+        {
+          "title": "Opportunity Identification and Business Modelling",
+          "topics": " Opportunity Recognition and Idea Generation - Problem identification and need analysis  Market research: tools and techniques  Business Model Canvas: customer segments, value proposition, channels  Lean Startup methodology & Minimum Viable Product (MVP)  Business plan components and structure  Cost estimation, revenue models, and unit economics  Funding options: Government schemes (Startup India, MSME), VC, Angel Investors,  Crowd funding  Basics of financial literacy: Profit-Loss, Break-even, cash flow.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "VEC-233-RAI",
+      "title": "Sustainable Development",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        50,
+        52
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Sustainability",
+          "topics": "Basics of Sustainability: Concept and context of sustainability - Definition, Brief history, Sustainable development in India. Pillars of Sustainability: Social, Economic, Environmental, Cultural, Political, Security aspects. Theories in Sustainability: Social capital theory and mobilization, Bottom of the pyramid approach, Humanistic sustainability theory, Social economy theory. Real World Assignment: 1. Research real -world sustainable projects in India (e.g. Solar Power in Rajasthan, Zero -Budget Natural Farming in Andhra Pradesh, or Surat’s Smart City Project). 2. Identify the environmental, economic, and social impacts of above listed projects. 3. Present findings in a report or infographic for any sustainable project in India. Exemplary: Sustainable agriculture case study, Water conservation report.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Habitat and Sustainable Energy",
+          "topics": "Sustainable Habitat: Green buildings, Green materials, Energy efficiency, Sustainable transports. Sustainable Energy: Non-conventional sources, Energy cycles- carbon cycle, Emission and sequestration. Real World Assignment: 1. Calculation of carbon foot print. 2. Indian government policies for sustainable development projects. 3. Create posters, handouts, videos, or social media content to promote energy -saving habits in school/Institutes. Exemplary: Energy efficient buildings, Plastic-free campaign.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Developmental Goals (SDG 1-8)",
+          "topics": "Sustainable Goals: Goal 1: No poverty, Goal 2: Zero hunger, Goal 3: Good health and wellbeing, Goal 4: Quality education, Goal 5: Gender equality, Goal 6: Clean water and sanitation, Goal 7: Affordable and clean energy, Goal 8: Decent work and economic growth. Real World Assignment: 1. Survey classmates about their daily diet and analyze if they’re meeting nutritional requirements and propose low-cost nutritious meals. 2. Design a low-cost product/service for Bottom of the Pyramid (BoP) communities (e.g., solar lanterns for rural India). 3. Analyze India’s progress on any one SDG and present findings in the form of a report. Exemplary: Model village for water conservation- Hiware Bazar, Solar powered Cochin international airport.",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Developmental Goals (SDG 9-17)",
+          "topics": "Sustainable Goals: Goal 9: Industry, innovation, and infrastructure, Goal 10: Reduced inequality, Goal 11: Sustainable cities and communities, Goal 12: Responsible consumption and production , Goal 13: Climate action, Goal 14: Life below water, Goal 15: Life on land, Goal 16: Peace and justice strong institutions, Goal 17: Partnerships to achieve the goal. Real World Assignment: 1. Create posters, videos, or social media content to raise awareness about the 17 SDGs in your institute. 2. Design a product or art project using waste materials (plastic bottles, paper, cloth). Present how it promotes sustainability. 3. Research two countries’ progress on a specific SDG and compare strategies. Prepare and present it in infographics highlighting successes and gaps. Exemplary: Thanal- zero waste model, Toilets for all- Swachh Bharat Abhiyan, e-Choupal by ITC- Empowering farmers digitally.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-RAI",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        53,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-RAI",
+      "title": "Sensors for Industrial Robotics",
+      "semester": 4,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        58,
+        61
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Robotics and Sensors",
+          "topics": "Introduction to Industrial Robotics: Definition and classification of robots, Applications of industrial robots. Basics of Sensors in Robotics: Role of sensors in robotics, Types of sensors used in robotics-proximity, force, vision, tactile, etc. Sensor Integration with Robots: Sensor interfaces and signal processing, Sensor fusion concepts, Sensor feedback systems in control loops. Real World Assignment: 1. Design a sensor interface system for a pick-and-place robot integrating vision and proximity sensors, including signal conditioning and processing steps for reliable object detection and positioning. 2. Develop a sensor fusion strategy combining force and vision sensor data for closed-loop feedback control in a robotic assembly task, ensuring precise part insertion and defect prevention. Exemplary: Automotive assembly line welding, Bin picking for machine tending , Electronic component insertion (PCB assembly) , Automated palletizing & depalletizing , Aerospace composite layup, Collaborative robot (cobot) polishing , Food processing & packaging , and AGV navigation in warehouses.",
+          "hours": 8
+        },
+        {
+          "title": "Position and Proximity Sensors",
+          "topics": "Position Sensors: Rotary encoders and linear encoders, Potentiometers and resolvers, Applications in robotic arms and mobile robots. Proximity Sensors: Capacitive, inductive, and ultrasonic proximity sensors, Applications in proximity detection, collision avoidance, and robot localization. Calibration of Position and Proximity Sensors : Importance of accurate calibration, Methods of calibration and alignment. Real World Assignment: 1. Implement wheel odometry using linear encoders to track a robot’s displacement. 2. Design a proximity sensing system using capacitive, inductive, and ultrasonic sensors for an autonomous mobile robot, ensuring reliable obstacle detection and collision avoidance in dynamic environments. Exemplary: Rotary encoder feedback in robot joints , Linear encoder positioning in gantry robots, Potentiometer sensing in gripper fingers , Resolver tracking in heavy -duty robot motors, Capacitive sensing for liquid level detection.",
+          "hours": 7
+        },
+        {
+          "title": "Vision Sensors and Cameras",
+          "topics": "Introduction to Machine Vision Systems: Camera types: RGB, depth, and stereo vision, Overview of machine vision software. Image Processing Techniques: Basic image processing (edge detection, object recognition), Advanced techniques: 3D vision, SLAM (Simultaneous Localization and Mapping). Integration of Vision Sensors with Robots: Vision-based robot control, Object tracking, grasping, and visual feedback, Vision sensors in autonomous Mobile Robots (AMRs). Real World Assignment: 1. Capture objects using RGB (Logitech) and depth cameras (Intel RealSense) . Compare accuracy in object dimension measurement. 2. Apply canny edge detection to identify cracks/defects in manufactured parts. Exemplary: RGB camera -based object recognition for sorting , Depth camera sensing for 3D bin picking, Stereo vision for depth perception in robot navigation , Edge detection for part inspection on assembly lines, 3D vision for precise robotic grasping.",
+          "hours": 7
+        },
+        {
+          "title": "Force and Tactile Sensors",
+          "topics": "Force Sensors: Types of force sensors: strain gauges, piezoelectric, and load cells, Applications in robotic grippers, end -effectors, and tactile feedback, Force sensing for delicate handling and compliance in robots. Tactile Sensors: Technologies behind tactile sensing: resistive, capacitive, and piezoelectric, Applications of tactile sensors in robots for surface contact and interaction. Sensor Fusion for Force and Tactile Sensing: Combining multiple sensor inputs for better decision- making, Real-time feedback for adaptive robot behaviour. Real World Assignment: 1. Design a tactile sensing system using resistive, capacitive, or piezoelectric technologies for a robot end-effector to detect surface contact, texture, and slip during pick-and-place operations. 2. Develop a sensor fusion strategy combining force and tactile sensor inputs for real -time adaptive grip force adjustment in a robotic arm, ensuring stable grasping under varying object weights and surface conditions. Exemplary: Strain gauge sensing for grip force control in robotic grippers , Piezoelectric sensing for impact detection in end-effectors, Load cell measurement for payload monitoring in robot arms , Force s...",
+          "hours": 7
+        },
+        {
+          "title": "Advanced Sensor Systems and Trends",
+          "topics": "Sensor Networks for Industrial Robotics: IoT (Internet of Things) in robotics, Wireless sensor networks and communication protocols, Distributed sensing systems for large-scale robot fleets. Wearable and Smart Sensors: The role of wearable sensors in human -robot collaboration, Smart sensors for robots working in unstructured environments. Emerging Trends in Sensors for Robotics: Artificial intelligence (AI) in sensor data interpretation, Future sensor technologies: LiDAR, 5G for robotic communication, and quantum sensors. Sensor Calibration and Maintenance: Importance of regular calibration and maintenance procedures, Industry standards and best practices for sensor longevity. Real World Assignment: 1. Design an IoT-enabled wireless sensor network for monitoring a fleet of mobile robots in a warehouse, selecting appropriate communication protocols for real-time data transmission and centralized control. 2. Develop an AI-based approach for interpreting sensor data from industrial robots to predict equipment failures, recommending appropriate sensor technologies (LiDAR, 5G) for enhanced data collection and analysis. Exemplary: Wearable sensors for safe human -robot collaboration ...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-RAI",
+      "title": "Kinematics of Robot",
+      "semester": 4,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        62,
+        66
+      ],
+      "units": [
+        {
+          "title": "Overview of Robot Kinematics",
+          "topics": "Introduction to Robotics : History, Definitions, Law of robotics, Terminologies, Classifications overview, Links & joints, Degrees of freedom (DOF), Coordinate systems. Work Volume: Precision, Repeatability & accuracy. Position and Orientation of Objects: Roll, Pitch and Yaw angles, Joint configuration of five types of serial manipulators, Wrist configuration. Overview of End Effector: Selection and application of serial manipulators , Singularities, Manipulability of manipulators. Real World Assignment: 1. Simulate a 2R planar robot (using MATLAB/Python) and plot its workspace. 2. Analyze a 6 -DOF robotic arm (e.g., UR5, KUKA) and identify: (a) Joint types (R/P) and their sequence and (b)Wrist configuration (Roll-Pitch-Roll or other). 3. Use a robot simulation tool (e.g., ROS, CoppeliaSim) to demonstrate a singular configuration. Exemplary: Analyze industrial robot configurations, optimize work volumes for manufacturing tasks, and select appropriate end -effectors for applications like welding or pick and place operations. The concepts directly apply to programming robotic arms, troubleshooting singularities in production lines, and improving precision in automated systems.",
+          "hours": 8
+        },
+        {
+          "title": "Forward Kinematics - Geometrical and Algebraic",
+          "topics": "Approach (07 Hours) Introduction to Forward Kinematics: Need for forward and inverse kinematics equation, Parameters in design and control, Methods of forward and inverse kinematics. Geometrical and Algebraic Approach in Forward Kinematics Solution : 1-DOF, 2 -DOF Planar Robot (2P and 2R), 3-DOF 2RP Spatial Robot. Real World Assignment: 1. Derive FK equations for a 2R arm and plot end-effector positions for varying θ₁, θ₂ in MATLAB. 2. Compute forward kinematics using transformation matrices for a 2P robot. 3. Study a 6-DOF industrial arm and identify joint types (R/P) and sequence. Exemplary: Compute robot end -effector positions for tasks like CNC machining or pick -and-place operations using geometric and algebraic methods. Mastery of forward kinematics is critical for programming robotic arms in manufacturing, animation, and autonomous systems.",
+          "hours": null
+        },
+        {
+          "title": "Forward Kinematic Modeling – Denavit-Harteberg (DH)",
+          "topics": "Approach (07 Hours) Introduction to Forward Kinematic Modeling - Unit circle trigonometry, Translation matrix, Rotation matrix, Euler angles, Quaternion fundamental, Dot and cross products, Frames and joint coordinates, Homogeneous transformation. D-H Convention and Procedures and Solutions: 3-DOF wrist, RR Planar, 3 -DOF RRP, Cartesian, Cylindrical, Spherical, SCARA and Articulated 3-DOF robots, 3-DOF robot with wrist. Real World Assignment: 1. Apply DH frames to a cylindrical robot (2R + 1P) and Derive DH table and compute forward kinematics using transformation matrices. 2. Apply DH convention to a SCARA (RRP) robot and validate forward kinematics with a commercial SCARA model (e.g., EPSON T3). 3. Model a 3-DOF wrist (RPR) using DH and identify singular configurations via determinant analysis. 4. Compare DH solutions for Articulated vs. SCARA robots. 5. Implement forward kinematics for SCARA configuration and Visualize workspace boundaries. Exemplary: Model industrial robots like SCARA or articulated arms using DH parameters, enabling precise control in tasks like assembly or welding. Mastering DH convention is essential for robotics simulation (ROS, Gazebo) and real-world au...",
+          "hours": null
+        },
+        {
+          "title": "Inverse Kinematics",
+          "topics": "Introduction to Inverse Kinematics: Issues in inverse kinematics, Inverse kinematics of 2-DOF planar robot, 2 and 3-DOF planar and spatial robot. Tool Configuration: Inverse kinematics of 3 axis robot and 6 axis Robot, Inverse kinematics computation, Closed loop solution. Real World Assignment: 1. Derive inverse kinematics equations for a 2R arm (given end -effector (x, y)) and implement in MATLAB/Python to visualize both solutions. 2. Solve inverse kinematics for a cylindrical robot (2R + 1P) to reach a target (x, y, z). 3. Use Pieper’s method to solve IK for a UR5/KUKA arm and focus on wrist- center point calculation. Exemplary: Program industrial robots (e.g., welding arms or CNC machines) by solving inverse kinematics for precise end-effector control. Mastery of inverse kinematics is vital for robotics in manufacturing, animation, and autonomous systems.",
+          "hours": 7
+        },
+        {
+          "title": "Kinematic Modeling of Differential Drive Robot",
+          "topics": "Introduction to Kinematic Modelling: Degree of Mobility, Steerability and maneuverability. Mobile Robot Kinematics: Kinematic model and constraints, Mobile robot workspace, Representation of robot position. Kinematic Models of Differential Wheel Drive : Fixed wheel and steered wheel, Mobile manipulators and its applications, Swarm robots. Real World Assignment: 1. Model a differential drive robot (e.g., TurtleBot) in MATLAB/Python and Simulate trajectories for square/circular paths. 2. Simulate 3+ robots forming a pattern (e.g., line, circle) using kinematic models. 3. Integrate a 2-DOF arm on a mobile base (simulated in ROS/Gazebo) and solve inverse kinematics for the arm while the base moves. Exemplary: Design autonomous mobile robots (e.g., delivery bots or AGVs) by modeling differential drive kinematics and handling non -holonomic constraints. Skills extend to swarm robotics and mobile manipulators used in logistics and industrial automation.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-RAI",
+      "title": "Mechanics of Materials",
+      "semester": 4,
+      "type": "Major Course",
+      "credits": 3,
+      "pages": [
+        67,
+        70
+      ],
+      "units": [
+        {
+          "title": "Simple Stresses and Strains",
+          "topics": "Simple Stresses & Strains: Introduction to types of loads (Static, Dynamic & Impact Loading) and various types of stresses with applications, Hooke’s law, Poisson’s ratio, Modulus of Elasticity, Modulus of Rigidity, Bulk Modulus, Interrelation between elastic constants, Stress-strain diagram for ductile and brittle materials, Stresses and strains in determinate and indeterminate beam, Homogeneous and composite bars, Thermal stresses. Real World Assignment: 1. Compare ductile and brittle materials through stress -strain analysis, strain calculations, and application-based recommendations for robotic gripper design. 2. Calculate shear and bulk moduli, shear stress/strain, and volumetric strain for a soft polymer robotic joint, and interpret Poisson's ratio effect. 3. Analyze thermal stress in a real -world structure by selecting two materials, calculating stress and proposing design modifications to prevent failure. Exemplary: A crane lifting a load slowly applies a static load, while a car hitting a barrier experiences an impact load, A copper wire shows ductile failure, while glass breaks brittlely, A steel rail (α = 12×10⁻⁶/°C) heated by 50°C develops thermal stress if constrai...",
+          "hours": 8
+        },
+        {
+          "title": "Shear Force and Bending Moment Diagrams",
+          "topics": "(SFD and BMD) (07 Hours) SFD & BMD: Introduction to SFD, BMD with application, SFD and BMD for statically determinate beam due to concentrated load, uniformly distributed load, uniformly varying load, couple and combined loading, etc., Relationship between rate of loading, shear force and bending moment, Concept of zero shear force, Maximum bending moment, and point of contra-flexure. Real World Assignment: 1. Analyze SFD and BMD for a 6-axis robotic manipulator arm under point loads, UDL, and couples to identify maximum bending moment and critical points. 2. Perform SFD and BMD calculations for a SCARA robot horizontal arm under UDL, point loads, and applied moment in high-speed packaging operations. 3. Analyze SFD and BMD for a surgical robotic arm with slender instruments, trocar support, or micro-surgical tools for laparoscopic precision applications. Exemplary: A cantilever beam model applies to robotic arms, A robot leg modeled as a simply supported beam with uniformly varying load, In a SCARA robot arm, the elbow joint experiences high bending moment.",
+          "hours": null
+        },
+        {
+          "title": "Bending and Shear Stresses",
+          "topics": "Bending and Shear Stress on a Beam: Introduction to bending and shear stresses on a beam with application, Theory of Simple bending, assumptions in pure bending, derivation of flexural formula, Moment of inertia of common cross section (Circular, Hollow circular, Rectangular, I & T), Bending stress distribution along the same cross-section, Shear stress distribution diagram along the standard cross-section. Slope & Deflection on a Beam: Introduction to slope & deflection on a beam with application, slope, deflection and radius of curvature. Real World Assignment: 1. Analyze robotic arm bending stress analysis with varying cross section I or rectangular. 2. Analyze drone frame shear stress analysis for hollow sections. 3. Analyze shear stress for a robotic gripper finger under grasping force by comparing cross-sections. Exemplary: Bending stress in robotic arms , S hear stress helps prevent joint and link deformations in high -speed robotic manipulators, Optimizing the moment of inertia in robotic limb cross-sections improves dynamic stability and reduces vibrations.",
+          "hours": 7
+        },
+        {
+          "title": "Torsion and Buckling",
+          "topics": "Torsion of Circular Shafts: Introduction to torsion on a shaft with application, Basic torsion formulae and assumption in torsion theory, Torsion in stepped and composite shafts, Torque transmission on strength and rigidity basis, Torsional Resilience, Torsion on thin-walled tubes. Buckling of Columns: Introduction to buckling of column with its application, Different column conditions and critical, Safe load determination by Euler’s theory, Limitations of Euler’s Theory. Real World Assignment: 1. Design of robotic wrist joint shaft and compare it for weight saving. 2. Determination the torsional resilience of industrial conveyor stepped shaft. 3. 3D printer vertical support column (buckling under self-weight). 4. Create a short educational video explaining torsion or bucking analysis for a real drone/robotic component with measurements, calculations, design improvements, and sensitivity analysis. Exemplary: Torsion formula helps design robotic joint shafts, Calculating torsional resilience ensures robotic joints absorb and release energy without permanent deformation during sudden stops, Lightweight robotic limbs use thin-walled tubes to maximize torsional strength while minimi...",
+          "hours": 7
+        },
+        {
+          "title": "Principal Stresses and Theories of Failure",
+          "topics": "Principal Stresses: Introduction to principal stresses with application, Transformation of plane stress, Principal stresses and planes (Analytical method and Mohr's Circle), Stresses due to combined normal and shear stresses. Theories of Elastic Failure: Introduction to theories of failure with application, Maximum principal stress theory, Maximum shear stress theory, Maximum distortion energy theory, Maximum principal strain theory, Maximum strain energy theory. Real World Assignment: 1. Calculation of (Principal Stresses) for aircraft wing skin stress analysis. 2. Compute principal stresses, check for failure theories - robot arm joint bearing. 3. Prepare poster analyzing failure of a robotic component using Principal Stress, Von Mises, or Tresca theories with safety factor calculations and design solutions. Exemplary: Calculating principal stresses ensures robotic grippers and joints can handle multi-axis loading without structural failure, Mohr’s Circle visually confirms critical stress orientations in robotic linkages, preventing material yield in dynamic environments, analyzing combined normal and shear stresses in robotic actuators guarantees durability under simultaneous...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-RAI",
+      "title": "Sensors for Industrial Robotics Lab",
+      "semester": 4,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        71,
+        73
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-255-RAI",
+      "title": "Materials Testing and Characterization Lab",
+      "semester": 4,
+      "type": "Major Course",
+      "credits": 1,
+      "pages": [
+        74,
+        78
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-RAI",
+      "title": "Biomechanics and Biomaterials",
+      "semester": 4,
+      "type": "Multidisciplinary Course",
+      "credits": 2,
+      "pages": [
+        79,
+        82
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Biomechanics",
+          "topics": "Introduction to Biomechanics: Definition and scope, Historical development, Interdisciplinary nature (engineering, biology, medicine). Mechanical Properties of Biological Tissues: Bone - Cortical vs trabecular bone, Anisotropic behavior, Stress-strain relationships, Cartilage-Viscoelastic properties, Load distribution mechanisms, Tendons and ligaments- Nonlinear elasticity, Stress relaxation and creep. Biomechanics of Human Movement: Kinematic analysis - Gait cycle phases, Joint angle measurements, Kinetic analysis- Ground reaction forces, Inverse dynamics. Real World Assignment: 1. Students first measure their vertical jump height using the chalk mark method, then apply kinematic equations to calculate takeoff velocity and peak ground reaction forces. 2. Using Open Sim's gait2392 musculoskeletal model, students input motion capture data to analyze joint moments and muscle forces during walking. 3. Using free motion analysis software (Kinovea or Dartfish), students compare walking patterns between young and elderly subjects. Exemplary: 1. Biomechanics applies engineering principles to biological systems, Evolving through interdisciplinary collaboration to analyze movement and ti...",
+          "hours": 6
+        },
+        {
+          "title": "Orthopedic, Cardiovascular and Clinical Biomechanics",
+          "topics": "Orthopaedic Biomechanics: Fracture mechanics - Healing stages, Fixation methods (Plates, Screws, Nails), Joint Replacements - Hip prosthesis design, Wear analysis of bearing surfaces. Cardiovascular Biomechanics: Heart valve mechanics- Leaflet stresses, Prosthetic valve designs. Clinical Applications: Gait analysis in rehabilitation, Prosthetic limb design, Orthotic device development. Real World Assignment: 1. Investigate wear mechanisms in hip implant bearing surfaces (metal -on-polyethylene vs. ceramic- on-ceramic) using literature or computational modeling. 2. Sketch and prototype a simple orthotic device using 3D printing or low -cost materials, considering load distribution and patient comfort. Exemplary: Test 3D-printed fracture plates, Simulate heart valve stresses with FEA/CFD, and Optimize prosthetics using gait analysis to solve real clinical biomechanics challenges.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction and Properties of Biomaterials",
+          "topics": "Introduction: Introduction to biomaterials, Classes of materials - Metals, Polymers, Bioresorbable and Biodegradable materials. Properties of Materials: Bulk and Surface properties and their characterization , M echanical properties of biomaterials. Real World Assignment: 1. Perform tensile/compression tests in lab or via simulation software like ANSYS on different biomaterials (e.g., stainless steel, hydrogel). 2. Use microscopy or contact angle measurements to analyze surface roughness/wettability of biomaterials. 3. Investigate a real-world failure (e.g., metal corrosion in implants, polymer wear in joints). Suggest improvements. Exemplary: Test 3D-printed metal/polymer implants for strength, Simulate biodegradable suture degradation, and Analyze hip implant wear to link biomaterial properties to real medical applications.",
+          "hours": 6
+        },
+        {
+          "title": "Types and Testing of Materials",
+          "topics": "Types of Materials: Stainless steel, Titanium, Alloys, Polymers, Bio-ceramics, Biodegradable metals, Ceramics and composites, Alumina, Zirconia, Hydroxyapatite, Applications of materials in orthopedic, Dental, Prostheses, Cardiac stent, etc. Testing of Materials: Mechanical testing of materials, World and Indian standards, S pecifications degradation of materials in the biological environment, E ffects of the biological environment on metals, Polymers and ceramics. Real World Assignment: 1. Perform hardness/tensile tests on stainless steel (316L) vs. Titanium (Ti-6Al-4V) for bone plates. 2. Investigate real cases of Ceramic (ZrO₂) hip liner fractures. 3. Choose a medical device (e.g., dental implant, cardiac stent, hip replacement) and justify the material used (e.g., titanium alloy, hydroxyapatite , biocomposite, etc. ) based on mechanical properties, biodegradability, and clinical requirements. Exemplary: Test titanium vs. stainless steel for implants, Study biodegradable screw corrosion, Apply hydroxyapatite coatings, and Analyze zirconia hip failures to apply material science in real medical devices.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-281-RAI",
+      "title": "CNC and System Simulation Lab",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        83,
+        86
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-RAI",
+      "title": "Technical Communication & Soft Skills",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        87,
+        90
+      ],
+      "units": [
+        {
+          "title": "Written Communication Skills",
+          "topics": "Resume Writing: Types of Resumes, Structure, Content, and Formatting of Resume. Email Writing: Purpose and importance of Email in Professional Contexts, Types of Emails, Email structure overview, The fundamentals of email structure, Purpose - Driven Email writing. Real World Assignment: Write professional email on: 1. Requesting an informational interview. 2. Following up on a job application. 3. Addressing a complaint to a service provide. Exemplary: Job applications, Professional networking, Online profiles (LinkedIn).",
+          "hours": 6
+        },
+        {
+          "title": "Corporate Story Telling",
+          "topics": "Interview Skills: Types and modes of interview, Preparation for interview, Dos and Don’ts of interview, frequently asked questions during interview. Pitch & Presentation Skills: Elevator pitch, Product stories, Event stories, Stories in presentations, Storytelling in SOP’s and interviews, Storytelling to manage conflict or to motivate. Real World Assignment: 1. Prepare & present a PPT on any technical topic. 2. Perform a mock pitch to investors. 3. Role plays for conducting a corporate interview for recruitment. Exemplary: Project presentation, Group pitching competition, Research work/proposal.",
+          "hours": 6
+        },
+        {
+          "title": "Technical Writing and Documentation",
+          "topics": "Research Article Writing: Finding and refining a research topic, Structuring the research article, Structure and components of a technical report, Academic language and style, Referencing and Citations. Meeting Documentation: Planning layout of meetings , Observing meeting decorum, Drafting Notice, Agenda, and Minutes of Meeting. Real World Assignment: 1. Prepare a technical report on Mini project /PBL/case study. 2. Simulate a team project meeting (e.g., for a college event or class activity). Assign roles and have students write a formal agenda before and minutes of meeting after, including action items and responsibilities. 3. Case study on any research article writing. Exemplary: Research paper writing, Research proposal writing, Minutes of meeting.",
+          "hours": 6
+        },
+        {
+          "title": "Professional Ethics",
+          "topics": "Professional Ethics: Effective work habits, Accountability, Integrity, and Excellence. Time Management: Importance of time management, Cultural views of time, 80/20 rule, Time wasters, setting priorities and goals. Real World Assignment: Write professional email on: 1. Requesting an informational interview. 2. Following up on a job application. 3. Addressing a complaint to a service provide. Exemplary: Job applications, Professional networking, Online profiles (LinkedIn).",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "HSSM-283-RAI",
+      "title": "Entrepreneurship Essentials",
+      "semester": 4,
+      "type": "Entrepreneurship/Management Course",
+      "credits": 2,
+      "pages": [
+        91,
+        94
+      ],
+      "units": [
+        {
+          "title": "Starting the Venture and Financial Planning",
+          "topics": "Generating Business Idea : Sources of new ideas , Methods of generating ideas , Opportunity recognition, and Environmental scanning, Competitor and industry analysis. Feasibility Study: Market feasibility, Technical/Operational feasibility, Financial feasibility. Business Plan: Drawing business plan , Preparing project report , Presenting business plan to investors, Marketing plan, Organizational plan. Financial Plan: Cash budget, Working capital, Break even analysis, Debt or Equity financing, Commercial banks, Venture capital, Financial institutions Supporting entrepreneurs. Real World Assignment: 1. Analyze market, operational, and financial feasibility for any startup (e.g., Blinkit, Zepto, Meesho, etc.). 2. Prepare a feasibility report with charts including supply chain, tech, manpower, revenue model. 3. Design a 10-min pitch deck & perform a mock pitch to investors. Exemplary: Innovative challenge /competitions for young entrepreneurs are HULT Prize India (Student Entrepreneurs), NASSCOM DeepTech Club 4.0, National Startup Awards (by Startup India), etc.",
+          "hours": 6
+        },
+        {
+          "title": "Entrepreneurial Selling",
+          "topics": "Fundamental of Selling: Value proposition, Target market, Customer profile, Difference between entrepreneurial selling Vs professional selling. Selling Process: Framework for accessing channel sales, Selling process - Customer’s perspective, sales pitch, cold calling. Strategic Selling Essentials : Telling the right story, Contextualize your venture, Connecting with decision-making, Define sales metrics and developing complete sales tool kit technology. Real World Assignment: 1. Interview 5 potential customers from your target market and present your product/service value proposition. Record their feedback and refine your pitch based on their pain points. 2. Define your ideal customer profile (industry, role, pain points). Then, create a cold call script and practice it with a peer. Make 3 real cold calls (B2B/B2C) and document responses. 3. Pick a product (e.g., SaaS tool, physical goods) and design a channel sales strategy (distributors, affiliates, etc.). Map out 3 potential partners and outline incentives for them. Exemplary: Y Combinator’s Startup Pitch Day, HubSpot’s \"Cold Call Olympics\", Amazon’s \"Working Backwards\" Workshop, Coca -Cola’s Distributor Challenge, Shark Tank...",
+          "hours": 6
+        },
+        {
+          "title": "Lifecycle and Human Resource Management in Startup",
+          "topics": "Startup Growth Stages : Concept/Idea stage, Pre -Seed/Validation, Seed/Early stage, Growth Stage/Scaling stage, Maturity/Exit/IPO/M&A stage. Human Resource Management: Economic Environment and Start -ups, Difference between HRM for Start-ups and large corporations; Role of HRM practices in Start-ups, Best HR practices in Start- ups, Difficulties in adopting HR practices in start-ups, Evolution of HR practices in start-ups. Real World Assignment: 1. Assume you’re a seed-funded startup CEO. Define roles, skills needed, and compensation for your first 5 hires. Justify why each role is critical. 2. Compare HR policies (leave, remote work, performance reviews) of a startup (e.g., Canva) vs. a corporation (e.g., TCS). Present which policies scale best. 3. Analyze a real startup’s HR crisis (e.g., high attrition, poor culture). Propose 3 low -cost HR solutions (e.g., mentorship, ESOPs, flexible work). Exemplary: Andreessen Horowitz (a16z), Zappos, Shopify, LinkedIn Glint.",
+          "hours": 6
+        },
+        {
+          "title": "Funding & Grant Schemes",
+          "topics": "Types of Funding: Seed Stage, Stages of Funding - Seed Funding/Series A/B/C/D/E. Type of Investors: Angels, VC’s, Family offices, Corporates. Govt. Support for Startups: Schemes and functions of directorate of industries, District Industries Centers (DICS), Industrial Development Corporation (IDC), State Financial Corporation (SFCS), Small Scale Industries Development Corporations (SSIDC) , Khadi and Village Industries Commission (KVIC), Technical Consultancy Organization (TCO), Small Industries Service Institute (SISI), Recent Initiatives From MUDRA. Real World Assignment: 1. Study a funding strategy case study for any successful startup e.g. Ola, Swiggy, Zepto, etc. 2. Role-play a seed round negotiation to experience early-stage fundraising. 3. List down any one govt./private funding scheme for young entrepreneur on sustainable development. Exemplary: Eminent startup schemes in India includes Tata Social Enterprise Challenge, Google for Startups Accelerator, Startup India Seed Fund Scheme (SISFS), etc.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-RAI",
+      "title": "Constitution of India and Universal Human Values",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        95,
+        98
+      ],
+      "units": [
+        {
+          "title": "Foundation of the Indian Constitution",
+          "topics": "Introduction to the Constitution of India: Historical Background, Objectives, and Salient Features. Preamble to the Constitution: Meaning, Significance, and Key Terms (Justice, Liberty, Equality, Fraternity). Basic Concepts: Rule of Law, Human Rights, and Fundamental Rights. Real World Assignment: 1. Simulate a Constituent Assembly debate where students draft a preamble for a hypothetical new state, justifying their choice of key values (Justice, Liberty, Equality, Fraternity) in response to a given social crisis. 2. Conduct a mock trial or public hearing where students apply the principle of Rule of Law to decide a citizen's grievance, balancing it against competing claims of human rights in a realistic scenario. 3. Design and present a community awareness campaign (poster, street play, or social media plan) that educates citizens about a specific Fundamental Right and the procedure to claim it when violated. Exemplary: Students create a street play on Right to Education (Article 21A), showing a child denied admission, parents approaching the school, then filing complaint with the State Commission for Protection of Child Rights, ending with a legal victory.",
+          "hours": 6
+        },
+        {
+          "title": "Fundamental Rights, Duties and Directive Principles",
+          "topics": "Fundamental Rights (Part -III): Detailed study of Rights ( Articles 12-35), Limitations, Landmark Cases. Fundamental Duties: List, Significance, and Enforceability. Directive Principles of State Policy (DPSP): Relevance, Conflict with Fundamental Rights , and Implementation. Real World Assignment: 1. Create a citizen's charter or complaint diary that documents five common violations of Fundamental Duties in daily life, along with proposed non -legal measures to promote their observance, and to debate their enforceability in a classroom parliament. 2. Conduct a moot court simulation where students argue a landmark Fundamental Rights case, presenting petitions from both sides and delivering a judicial ruling that interprets specific Articles (12-35) and their limitations. 3. Prepare a \"State Policy Report Card\" grading a chosen state government on implementation of three DPSPs (e.g., Article 39, 43, 48) with evidence and recommendations. 4. Organize a legislative assembly simulation where students draft a bill that must balance a Directive Principle with a conflicti ng Fundamental Right, justifying their choices through constitutional interpretation and debate. Exemplary: Students...",
+          "hours": 6
+        },
+        {
+          "title": "Governance and Electoral Process in India",
+          "topics": "1. Organs of the State: Legislative, Executive, and Judiciary (Structure at Union and State levels). 2. Prerogative Writs: Types (Habeas Corpus, Mandamus, etc.) and their role in enforcing rights. 3. Electoral Procedure in India: Election Commission, Voting Process, and Electoral Reforms. Real World Assignment: 1. Create a flowchart showing the structure and functions of the Legislative, Executive, and Judiciary at Union and State levels, with one example of checks and balances. 2. Role-play a writ petition hearing where students draft and present one type of prerogative writ for a given violation of rights. 3. Conduct a mock election in class, including voter registration, polling, counting, and proposing two electoral reforms based on the experience. Exemplary: A student creates a flowchart with: President (Executive) appoints CJI; Judiciary reviews laws passed by Parliament (Legislative); Parliament impeaches judges; with a case example of the NJAC judgment where Judiciary struck down a Parliamentary amendment.",
+          "hours": 6
+        },
+        {
+          "title": "Special Provisions, Amendments, and Ethics",
+          "topics": "o Constitutional Safeguards: Provisions for SCs, STs, OBCs, Women, and Children. o Emergency Provisions & Amendment Procedure: Types of Emergencies, Important Amendments (E.G., 42nd, 44th). 4. Law, Ethics, and Professional Values: Relationship between Law and Ethics, Professional Ethics for Engineers, Universal Human Values. Real World Assignment: 1. Create a constitutional safeguards wall chart/map showing provisions for SCs, STs, OBCs, Women, and Children with real-life implementation examples. 2. Prepare a case study presentation on a landmark constitutional amendment (42nd or 44th), analyzing its changes and impact. 3. Conduct a parliamentary debate on a constitutional amendment bill where students argue safeguarding special provisions, emergency powers, and ethical considerations. Exemplary: Students simulate Parliament debating a bill to remove reservation for OBCs in higher education. One group defends (citing efficiency), another opposes (citing social justice, Articles 15(4), 16(4)), and ethics committee argues fairness and equality, finally voting on the bill.",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

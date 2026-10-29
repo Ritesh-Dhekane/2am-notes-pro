@@ -1,0 +1,852 @@
+{
+  "id": "te-computer-science-and-engineering-2024-pattern-22092026",
+  "kind": "programme",
+  "programme": "Third Year Computer Science and Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC301CSE",
+      "title": "Computer Networks",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": ": Introduction to Computer Networks and Physical Layer",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Data Link Layer",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Network Layer",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Transport Layer Protocols",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Application Layer",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC302CSE",
+      "title": "Machine Learning",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Machine Learning",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning-Regression",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Supervised Learning-Classification",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Unsupervised Learning and Ensemble Learning -",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Reinforcement Learning -",
+          "topics": "2. Murphy, Kevin P., “Machine Learning: A Probabilistic Perspective”, 1st Edition, MIT Press, 2012, ISBN: 978-0262018029. 3. Shalev-Shwartz, S., & Ben-David, S., “Understanding Machine Learning: From Theory to Algo- rithms”, 1st Edition, Cambridge University Press, 2014, ISBN: 978-1107057135.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC303CSE",
+      "title": "Automata Theory",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": ": Finite Automata and Regular Expressions",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Context Free Grammars",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Push Down Automata 09 Hours)",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Context Sensitive Languages and Linear Bounded Automata",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Turing Machines and Decidability",
+          "topics": "2. https://www.cs.virginia.edu/~robins/Sipser_2006_Second_Edition_Problems.pdf",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC304CSE",
+      "title": "Computer Networks Laboratory",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        25,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC305CSE",
+      "title": "Machine Learning Lab",
+      "semester": 5,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        28,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC321ACSE",
+      "title": "Big Data Engineering",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        31,
+        33
+      ],
+      "units": [
+        {
+          "title": "Unit 1 – Foundations of Big Data &",
+          "topics": "Distributed Systems (06 Hours) Introduction to Big Data, Characteristics of Big Data, Traditional Data Processing vs Big Data Processing, Big Data Architecture, Data sources, Big Data ecosystems:parallel processing, data partitioning, data ingestion and storage mechanisms, Overview of distributed file systems, system architectures (client – server, peer -to-peer, cluster computing), Hadoop Distributed File System and processing frameworks: Apache Hadoop and Apache Spark. Case Study: A college generates large amounts of data such as attendance, exam results, LMS logs, and feedback forms/ Big Data Analytics in Smart City Traffic Management The traditional database system becomes slow during result processing. How can Big Data concepts help in handling Volume, Velocity, and Variety of campus data?",
+          "hours": null
+        },
+        {
+          "title": "Distributed Storage & Resource Management",
+          "topics": "Distributed File Systems: HDFS Architecture, NameNodes, DataNodes, Read/Write anatomy, Block replication. Cloud Object Storage: Introduction to AWS S3, Azure Blob, or Google Cloud Storage. Comparison with HDFS Distributed Data Storage Formats, Document -oriented: MongoDB, Column -family: Cassandra, Hbase Data Serialization: Efficient storage formats like Apache Parquet, Avro, and ORC. Hadoop YARN: Architecture (Resource Manager, Node Manager), Schedulers (FIFO, Capacity, Fair). Container Orchestration: Introduction to Kubernetes for data workloads (conceptual). Case Study: Cloud-Based Distributed Storage for Video Streaming Platform",
+          "hours": 8
+        },
+        {
+          "title": "Big Data Processing Frameworks",
+          "topics": "Introduction to Big Data Processing - Need for distributed processing, Limitations of traditional RDBMS systems Batch processing vs Stream processing. Hadoop Ecosystem- Hadoop architecture, Hadoop core components such as HDFS (Hadoop Distributed File System), MapReduce Hadoop cluster architecture, MapReduce Programming Model, Introduction to Apache Spark, Spark Architecture – Driver, Executor, Cluster Manager, Resilient Distributed Datasets (RDD), RDD Operations – Transformations and Actions, DataFrames, Spark SQL, Spark Streaming basics. Case Study: Big Data Processing in E-Commerce – “ShopKart”",
+          "hours": 8
+        },
+        {
+          "title": "Streaming, Messaging & Real-Time Analytics",
+          "topics": "Real-time data systems using Event -Driven Architecture (EDA): events, producers, consumers, brokers, and processing semantics, Lambda and Kappa architectures. Distributed messaging systems: publish –subscribe model, message queues, and log -based messaging, highlighting the architecture and components of Apache Kafka. Stream processing frameworks: micro-batching and Overview of real-time streaming using Apache Spark and Apache Flink, windowing techniques, event time vs processing time, watermarks, late data handling, and stateful vs. stateless processing. Real-time analytics applications: fraud detection, IoT analytics, and clickstream analysis. Case Study: Real-Time Fraud Detection in Banking Transactions- A bank wants to detect fraudulent transactions in real time and analyze customer spending behavior. How can Big Data analytics techniques help in prediction, fraud detection, and decision-making?",
+          "hours": 8
+        },
+        {
+          "title": "Data Governance, Security & Advanced Analytics",
+          "topics": "Integration (06 Hours) Data governance: data quality, stewardship, ownership, master data management, metadata management, data lifecycle management, regulatory compliance (GDPR and HIPAA overview), and data lineage and auditing. Privacy concepts: Anonymization, pseudonymization, data masking, ethical issues, and governance standards. Advanced analytics: Batch analytics, use of Apache Spark MLlib, AI framework integration, data pipelines, model deployment and monitoring in big data systems. Case Study: Healthcare Big Data Governance and Security",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC321BCSE",
+      "title": "Cloud Computing",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Introduction to Cloud Computing",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Virtualization in Cloud Computing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Cloud Platforms and Applications -",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Security in Cloud Computing -",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Modern Cloud Environment & Emerging Technologies",
+          "topics": "6. Ronald L. Krutz, Russell Dean Vines, “Cloud Security: A Comprehensive Guide to Secure Cloud Computing”, Wiley- India,2010 7. Rajkumar Buyya, James Broberg, Andrzej M. Goscinski, Cloud Computing: Principles and Paradigms, Editors: Wile, 2011 , , zE-Books r 1. http://dhoto.lecturer.pens.ac.id/lecture_notes/internet_of_things/CLOUD%20COMPUTING%20Princip 2. https://www.lpude.in/SLMs/Master%20of%20Computer%20Applications/Sem_2/DECAP470_CLOUD 3. https://studytm.wordpress.com/wp-content/uploads/2014/03/hand-book-of-cloud-computing.pdf 4. https://arpitapatel.files.wordpress.com/2014/10/cloud-computing-bible1.pdf 5. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-291r2.pdf , , zMOOC Courses: r 1. https://onlinecourses.nptel.ac.in/noc26_cs55/preview 2. http://www.ndl.gov.in/he_document/nptel/nptel/N_C_S_A_E_C_C_A_D_S_N_I_T_C_C_536752663 3. https://onlinecourses.nptel.ac.in/noc26_cs29/preview? 4. https://onlinecourses.nptel.ac.in/noc21_cs15/preview?",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321CCSE",
+      "title": "Mobile Computing",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Mobile Computing & Wireless Transmission",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Telecommunication Systems",
+          "topics": ", Prerequisite Courses: Operating Systems, Computer Networks & Security Companion Course: Mobile Computing Lab Course Objectives: The course aims to: 1. To understand the fundamental concepts of mobile computing and wireless transmission. 2. To study various telecommunication systems like GSM and modern cellular standards. 3. To analyse mobile network and transport layer protocols for seamless connectivity. 4. To explore mobile databases, data dissemination, and synchronisation techniques. 5. To introduce mobile application development frameworks and security challenges. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Explain the evolution and architecture of mobile computing and wireless transmission. • CO2: Compare various telecommunication systems including GSM, GPRS, and 5G. • CO3: Analyze mobile IP and transport layer variations for mobile environments. • CO4: Design data management and dissemination strategies for mobile databases. • CO5: Develop basic mobile applications using modern frameworks and secure them against threats. , , z Course Contents r Concepts: Evolution of Mobile Computing, History, Middleware and Gateways, Mob...",
+          "hours": 9
+        },
+        {
+          "title": "Mobile Application Layer Protocols & Databases",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Mobile App Development & Security",
+          "topics": "Mobile IP: IP Packet Delivery, Agent Discovery, Registration, Tunneling and Encapsulation, Opti- mization, Reverse Tunneling, IPv6 in Mobile Networks. Mobile TCP: Traditional TCP vs. Mobile TCP, Indirect TCP, Snooping TCP, Fast Retransmit/Fast Recovery, MPTCP (Multipath TCP). Ad-Hoc Networks: MANET routing protocols – DSDV (Proactive), DSR and AODV (Reactive), ZRP (Hybrid), Multicast routing (ODMRP). Vehicular Networks: VANET vs MANET, security issues in Ad-Hoc networks. Case Study: Design a mobile IP registration flow for a device moving across different subnets. Wireless Application Protocols: File system consistency, HTTP and HTML adaptations for wireless, WAP architecture (WDP, WTLS, WTP, WSP, WAE), WML, WML Script. Mobile Databases: Data Prefetching and Staging, Caching invalidation mechanisms, Client-server computing with adaptation, Power-aware data management. AI Integration at the Edge: Edge AI Inference for predictive prefetching, Lightweight Machine Learning models for user behaviour analysis, On-device model adaptation. Case Study: Study of Data Synchronization in mobile healthcare apps. Frameworks: Android and iOS Architectures, Native vs. Hybrid vs. Progressive Web...",
+          "hours": 9
+        },
+        {
+          "title": "Mobile Network , Transport Layer ,& Ad-Hoc Networks",
+          "topics": ", ,",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC321DCSE",
+      "title": "Computer Vision",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        40,
+        42
+      ],
+      "units": [
+        {
+          "title": "Fundamental Concepts of Image Processing and Computer Vision",
+          "topics": ", Course Objectives: The course aims to: 1. To introduce the fundamental principles of image formation, image representation, and basic image processing techniques used in computer vision systems. 2. To develop understanding of spatial and frequency domain image processing techniques for im- age enhancement and filtering. 3. To explore frequency domain processing and edge detection 4. To implement feature extraction and image segmentation techniques used to interpret visual information. 5. To understand advanced computer vision applications including object detection, tracking, and real-world AI vision systems. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Discuss image representation, camera models, and basic image processing concepts. • CO2: Apply spatial domain filtering techniques for given image. • CO3: Analyze different frequency techniques for a given application. • CO4: Solve feature extraction and image segmentation tasks. • CO5: Analyze modern computer vision applications such as object detection, tracking, and au- tonomous vision systems , , z Course Contents r Introduction to Computer Vision: definition, scope and challe...",
+          "hours": 9
+        },
+        {
+          "title": "Image Enhancement and Spatial Domain Filtering",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Frequency Domain Processing and Edge Detection",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Feature Extraction and Image Segmentation",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Advanced Computer Vision Applications",
+          "topics": "It highlights the importance of resolution, grayscale conversion, and image acquisition in real-world vision systems. Image Enhancement Basics: Point operations & intensity transformations, Histogram equalization & specification. Spatial Domain Filtering: Convolution concept, Smoothing filters: Mean, Gaussian, Median, Bi- lateral Sharpening filters Noise models and basic noise removal: Types of Noise Models, Gaussian Noise, Salt-and-Pepper Noise, Poisson Noise (Shot Noise) , Speckle Noise – multiplicative noise (common in medical/ultrasound images) Case Study: Medical Image Enhancement for X-Ray Analysis X-ray images are enhanced using filtering and histogram techniques to improve visibility of fractures and abnormalities. This demonstrates how noise removal and contrast enhancement support accurate medical diagno- sis. Frequency Domain Concepts: Fourier Transform, DFT, FFT , Frequency spectrum (magnitude & phase) Frequency filtering: Low-pass, High-pass, Band-pass Inverse transformation: Concept of Inverse Transformation , Inverse Discrete Fourier Transform (IDFT). Edge Detection: Sobel, Prewitt, Roberts Laplacian, LoG , Canny Edge Detector , the ’gold standard’ - Gaussian smoo...",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC322CSE",
+      "title": "Elective Lab",
+      "semester": 5,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        43,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM331CSE",
+      "title": "Embedded System",
+      "semester": 5,
+      "type": "MDM",
+      "credits": 3,
+      "pages": [
+        47,
+        49
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Embedded System Design Concepts",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "ARM Architecture",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "ARM Instruction Set",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "RTOS and Applications of Embedded Systems",
+          "topics": null,
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "OE*",
+      "credits": 2,
+      "pages": [
+        50,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC342CSE",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "ELC",
+      "credits": 1,
+      "pages": [
+        51,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC351CSE",
+      "title": "Artificial Intelligence",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 3,
+      "pages": [
+        55,
+        57
+      ],
+      "units": [
+        {
+          "title": "Introduction to AI and Intelligent Agents ( 7 hours)",
+          "topics": "Introduction to Artificial Intelligence, Foundations of Artificial Intelligence, History of Artificial Intelligence, Limits of AI, Ethics of AI, Future of AI, AI Components, AI Architectures, Intelligent Agents, Agents and Environments, Good Behavior: Concept of Rationality, Types of Agents, Nature of Environments, Structure of Agents. #Exemplar/ Case Studies Autonomous Taxi Agent – Waymo One, AI in Healthcare – IBM Watson for Oncology *Mapping of Course Outcomes for Unit I CO1",
+          "hours": 7
+        },
+        {
+          "title": "Problem Solving : State Space Approach and Search Strategies ( 9 hours)",
+          "topics": "State Space Search: Tower of Hanoi. Informed (Heuristic) Search Strategies: Introduction to Greedy BFS, A* Search, Iterative-deepening, Heuristic Functions. Local Search and Optimization Problems: Hill-climbing search, Simulated annealing, Local beam search. Online Search Agents and Unknown Environments: Online search problems. #Exemplar/ Case Studies Warehouse robots (Amazon Kiva) and self -driving cars, Logistics and Routing: Traveling Salesman Problem, Google DeepMind – AI for Energy Efficiency in Data Centers *Mapping of Course Outcomes for Unit 2 CO2",
+          "hours": 9
+        },
+        {
+          "title": "Adversarial Search and Game theory ( 8 hours)",
+          "topics": "Optimal Decisions in Games, Heuristic Alpha –Beta Tree Search, Monte Carlo Tree Search, Stochastic Games, Partially Observable Games, Limitations of Game Search Algorithms, Constraint Satisfaction Problems (CSP), Constraint Propagation: Inference in CSPs, Backtracking Search for CSPs #Exemplar/ Case Studies AlphaGo – AI in Strategic Board Games, Strategic Decision-Making in Imperfect-Information Games-- Libratus, Adversarial Search and Constraint Reasoning in Computer Chess - IBM deep blue *Mapping of Course Outcomes for Unit 3 CO3",
+          "hours": 8
+        },
+        {
+          "title": "Knowledge representation using Logical Formalisms, Propositional and First order",
+          "topics": "Predicate Calculus ( 8 hours) Introduction to Logical Formalisms : Role of logic in Artificial Intelligence, Knowledge -based agents Syntax and semantics of logical systems Propositional Logic – Basics and Inference: Propositional symbols and well -formed formulas, Logical connectives, Inference rules: Modus Ponens, Modus Tollens, Resolution First Order Predicate Logic – Fundamentals: Motivation for First Order Logic, Quantifiers ( ∀, ∃), Well-formed formulas, Translating natural language into FOL Inference in First Order Predicate Logic – Fundamentals: Motivation for First Order Logic, Quantifiers (∀, ∃), Well-formed formulas, Translating natural language into FOL #Exemplar/ Case Studies Medical Expert System – MYCIN, Knowledge-Based Reasoning in Intelligent Search Systems:- AI-Based Rule Engine in Google Search *Mapping of Course Outcomes for Unit 4 CO4",
+          "hours": null
+        },
+        {
+          "title": "Planning and Industrial Applications of AI ( 8 hours)",
+          "topics": "Planning: Overview, An example Domain The Blocks world, The components of planning system, Goal stack planning, Nonlinear planning using constraint posting, Hierarchical planning Industrial Applications of AI : AI in Healthcare, AI in Finance, AI in Retail, AI in Agriculture, AI in Education, AI in Transportation, AI in Experimentation and Multi-disciplinary research #Exemplar/ Case Studies Case Study : AI-Driven Supply Chain & Production Planning (Manufacturing) *Mapping of Course Outcomes for Unit 5 CO5",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC352CSE",
+      "title": "Software Engineering and Project Management",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        58,
+        60
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Requirements Engineering",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Software Modelling",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Software Project Management and Testing",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Advanced Concepts in Software Engineering",
+          "topics": "3. Pankaj Jalote, An Integrated Approach to Software Engineering, Springer. Booch, Rumbaugh, Jacobson, The UML User Guide, Addison-Wesley.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC353CSE",
+      "title": "Artificial Intelligence Laboratory",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC354CSE",
+      "title": "Software Engineering and Project Management Laboratory",
+      "semester": 6,
+      "type": "PCC",
+      "credits": 1,
+      "pages": [
+        63,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC361ACSE",
+      "title": "Quantum Computing",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        66,
+        68
+      ],
+      "units": [
+        {
+          "title": "Foundations of Quantum Computing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Mathematical Foundations for Quantum Computing, Qubits and Quantum Gates. (09",
+          "topics": "Hours)",
+          "hours": null
+        },
+        {
+          "title": "Multi-Qubit Systems , Quantum Circuits and Building Blocks for Quantum Program (09",
+          "topics": "Hours)",
+          "hours": null
+        },
+        {
+          "title": "Basic Quantum Algorithms",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Quantum Programming & Applications",
+          "topics": "Wiley . 7. Microsoft Quantum Development Kithttps://www.microsoft.com/enus/quantum/development- kit Forest SDK PyQuil: https://pyquil.readthedocs.io/en/stable/ 8. Amazon Bracket Documentation on AWS:https://aws.amazon.com/braket/ 7 D-Wave Systems Documentation: https://docs.dwavesys.com/docs/latest/index.html , , zE-Books r 1. https://quantum.cloud.ibm.com/learning/en 2. https://quantum.cloud.ibm.com/docs/en/guides/quick-start",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361BCSE",
+      "title": "Distributed Systems",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        69,
+        70
+      ],
+      "units": [
+        {
+          "title": "Introduction to Distributed Systems, Distributed Architecture",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Communicationand Synchronization in Distributed Systems",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Coordination, Consistency and Replication in Distributed Systems",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Distributed File Systems",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "( Advancements in Distributed Systems 09 Hours)",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC361CCSE",
+      "title": "User Interface and User Experience Design",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        71,
+        72
+      ],
+      "units": [
+        {
+          "title": "Introduction to UI/UX Design -",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Usability Engineering, Evaluation and Testing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "WEB DESIGN: STRATEGIES AND INFORMATION ARCHITECTURE",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Designing UX for Tomorrow -",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Wireframing Fundamentals -",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC361DCSE",
+      "title": "System Programming",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        73,
+        75
+      ],
+      "units": [
+        {
+          "title": "Overview of System Software and Language Processors",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Macro Processors, Linkers, Loaders",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Scanning, Parsing and Language Translator",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Compilers, Interpreters and Debugger",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Device Drivers and Modern Extension",
+          "topics": "1. Leland L. Beck, System Software: An Introduction to Systems Programming, 3rd Edition, Pearson Education. 2. Andrew W. Appel, “Modern Compiler Implementation in C”, Cambridge University Press, ISBN-13: 978-0521607650. 3. John J. Donovan, System Programming, Tata McGraw-Hill, ISBN-13: 978-0-07-460482-3. , ,",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362ACSE",
+      "title": "Information Retrieval",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        76,
+        77
+      ],
+      "units": [
+        {
+          "title": "Introduction to IR & Text Processing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Information Retrieval Models",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Index Compression and Dynamic Inverted Indices",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Web Searching",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Advanced Information Retrieval",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362BCSE",
+      "title": "Data Warehousing and Mining",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        78,
+        80
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Mining and Data Preprocessing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Data Warehouse",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Association Rules Mining and Clustering",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Classification",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Introduction of advanced Data Mining Techniques",
+          "topics": "5. Parteek Bhatia, “Data Mining and Data Warehousing: Principles and Practical Techniques” Cam- bridge University Press. , ,",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC362CCSE",
+      "title": "Cryptography and Network Security",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        81,
+        83
+      ],
+      "units": [
+        {
+          "title": "Introduction to Security Basics 09 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Data Encryption Techniques 09 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Data Integrity Algorithms and Web Security 09 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Security Requirements 09 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Network, Wireless and Emerging Security 10 Hours",
+          "topics": "2. Cybersecurity Fundamentals – Offered by University of Maryland (Coursera) 3. Network Security – Offered by Georgia Tech (Udacity / Online Platforms) 4. Recommended course of NPTEL: 1. Cryptography and Network Security – Prof. Debdeep Mukhopad- hyay, IIT Kharagpur 2. Network Security – Prof. Dheeraj Sanghi, IIT Kanpur , , zE-Books r 1. William Stallings – Cryptography and Network Security (Pearson eBook Edition) 2. Jonathan Katz & Yehuda Lindell – Introduction to Modern Cryptography (CRC Press eBook) 3. NIST Special Publications on Cryptographic Standards (Available online at NIST website) 4. RFC documents on TLS, IPSec, SSH (IETF Digital Library)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC362DCSE",
+      "title": "Advanced Databases",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 3,
+      "pages": [
+        84,
+        86
+      ],
+      "units": [
+        {
+          "title": "Introduction, Basic Concepts and Advanced DBMS Architecture",
+          "topics": "data management, patient records, appointments, billing, and data replication. Justify the selected database architecture (centralized/distributed/cloud/NoSQL). Query Processing : Overview , Measures of Query Cost , Selection Operation , Sorting ,Join Opera-tion , Evaluation of Expressions , Query Processing in Memory Query Optimization :Overview , Transformation of Relational :Expressions , Estimating Statistics of Expression : Results , Choice of Evaluation Plans , Materialized Views , Advanced Topics in Query : Optimization Parallel and Distributed Query Processing: Parallel Evaluation of Query Plans , Distributed Query Processing Case Study: Online Retail Management System that maintains large volumes of data related to customers, orders, products, and payments. The database contains relations such as Customer( CustID, Name, City), Orders(OrderID, CustID, OrderDate), OrderDetails(OrderID, ProdID, Quantity), and Prod - uct(ProdID, Category, Price). Management frequently executes analytical queries to generate sales reports, customer behavior insights, and inventory statistics. Introduction to Database Transaction, Serial and Non -Serial Schedules, Serializability – Conflict a...",
+          "hours": 9
+        },
+        {
+          "title": "Unit ll Query Processing and Optimization",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Transaction Management, Concurrency and Recovery",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Advanced Database Models",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Database Security and Recent Trends",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PEC363CSE",
+      "title": "Elective III Laboratory",
+      "semester": 6,
+      "type": "PEC",
+      "credits": 1,
+      "pages": [
+        87,
+        91
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM371CSE",
+      "title": "Robotics and Automation",
+      "semester": 6,
+      "type": "MDM",
+      "credits": 2,
+      "pages": [
+        92,
+        94
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Robotics",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Sensors",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Industrial Automation and AI in Robotics",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Autonomous Navigation & Path Planning",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Robotic Middleware & Industry 4.0",
+          "topics": "(a) https://www.tinkercad.com/things/7SfAOdX5SrS-obstacle-avoidance-robot-using-h-bridgeand- ultrasonic-sensors (b) https://www.tinkercad.com/things/3gylNSXyJSu-obstacle-avoidance-robot-using-ultrasonicsensor 5. Design and implementation of line follower robot (a) https://www.tinkercad.com/things/81eV0gN98mz-line-following-robot-using-ide-code (b) https://www.tinkercad.com/things/2c9k08J6Eod-line-follower-robot (c) https://www.tinkercad.com/things/hQ3SW1MiuRL-5-sensor-line-follower-robot 6. Interfacing IR sensors and proximity sensors with microcontroller (a) https://www.tinkercad.com/things/0n2VuaSIEZV-ir-sensor (b) https://www.tinkercad.com/things/7sr7qUwvkTt-proximity-sensor (c) https://www.tinkercad.com/things/hiofwYZLOGJ- 7. Stepper motor control for robotic arm movement (a) https://www.tinkercad.com/things/auKPwNpfNS3- (b) https://www.tinkercad.com/things/0IObHqkIYdi 8. Basic PLC programming using ladder logic for industrial automation (a) https://app.plcsimulator.online/ 9. IoT-based automation system using sensors and cloud monitoring (a) https://iotdunia.com/tinkercad-arduino-simulation-tutorial/ (b) https://pianalytix.com/weather-monitoring-system-using-tinkercad/",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VSE372CSE",
+      "title": "Full Stack Development",
+      "semester": 6,
+      "type": "VSE",
+      "credits": 1,
+      "pages": [
+        95,
+        96
+      ],
+      "units": []
+    },
+    {
+      "code": "ELC381COM",
+      "title": "Internship/On Job Training",
+      "semester": 6,
+      "type": "ELC",
+      "credits": 4,
+      "pages": [
+        97,
+        98
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

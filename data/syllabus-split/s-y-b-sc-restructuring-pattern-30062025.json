@@ -1,0 +1,520 @@
+{
+  "id": "s-y-b-sc-restructuring-pattern-30062025",
+  "kind": "programme",
+  "programme": "S.Y.B.Sc. Restructuring Pattern",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "VSC-221-RE-PC-T",
+      "title": "Pharmaceutical Chemistry -I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction to Pharmaceutical Chemistry",
+          "topics": "Introduction and Scope of various field of pharmaceutical science including pharmaceutical chemistry, pharmaceutics, pharmacognosy, pharmacology. Important aspects of pharmaceutical chemistry, brief history of pharmacy, pharmacopeia names, meaning & contents, monograph in I.P. Drug and Dosage form: Definition, ideal condition of drugs, Classification of drug, Sources of drug, Routes of drug administration. Types of dosage forms: Solid, Semisolid, Liquid, Parenteral, Novel drug delivery system.",
+          "hours": 10
+        },
+        {
+          "title": "Prescription, Pharmaceutical Aids, Diseases and Herbal Medicines.",
+          "topics": "Prescription: Definition, parts of prescription, reading, handling, modern methods of prescribing. Pharmaceutical aids: Preservatives, colorants, flavoring agents, sweetening agents. Common diseases: Communicable and non-communicable diseases, symptoms and prevention. Herbal medicines: Overview of indigenous systems (Ayurveda, Unani, Siddha, Homeopathy), common medicinal plants.",
+          "hours": 8
+        },
+        {
+          "title": "Impurities in Pharmaceutical Substances",
+          "topics": "Source of impurities, effect of impurities in pharmaceutical substances. Limit test: Principle, reaction and procedure of limit test for Chloride, Sulphate, Iron, Heavy metals and Arsenic.",
+          "hours": 4
+        },
+        {
+          "title": "Study of Inorganic Pharmaceutical Compounds",
+          "topics": "Gastrointestinal agents: Antacids, Acidifying agents, Protectives and Adsorbents, Cathartics. Topical agents: Protectives, Antimicrobials, Astringents. Dental products: Dentifrices, Desensitizing agents, Anticaries agents. Respiratory stimulants, Expectorants, Emetics.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "VSC-222-RE-ES-T",
+      "title": "Energy Studies- I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Energy forms, Units and Conversion:",
+          "topics": "Energy: Definition, Different forms of energy - Potential, Kinetic, Mechanical, Heat, Electrical, Chemical, Magnetic, Gravitational Energy, work, power and energy. Various units of energy: Calorie, joule, erg, BTU, kWh, Horse Power. Energy conversion processes, efficiency of conversion, first and second laws of thermodynamics in energy conversion.",
+          "hours": 8
+        },
+        {
+          "title": "Energy Sources – Conventional:",
+          "topics": "Fossil fuels: Coal, Oil, Natural gas - reserves, exploration, production and environmental impacts. Thermal power plants, Hydroelectric power generation, Nuclear power: fission, fusion, nuclear reactors, nuclear waste management.",
+          "hours": 7
+        },
+        {
+          "title": "Photo thermal applications of solar energy:",
+          "topics": "Solar radiation, measurement, flat plate collectors, concentrating collectors, solar water heating systems, solar distillation, solar drying, solar cookers.",
+          "hours": 7
+        },
+        {
+          "title": "Photovoltaic applications of solar energy:",
+          "topics": "Solar cell principles, semiconductor materials, PV cell characteristics, PV modules and arrays, balance of systems (BOS), grid-tied and stand-alone PV systems, applications of PV.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "VSC-223-RE-HM-T",
+      "title": "Horticulture and Its Management-I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction and Principles of Horticulture",
+          "topics": "Definition, Scope of Horticulture, Importance of Horticulture in Human Life.",
+          "hours": 2
+        },
+        {
+          "title": "Branches of Horticulture",
+          "topics": "Pomology, Olericulture, Floriculture, Landscape gardening, Plantation crops, Spices and Condiments, Medicinal and Aromatic plants.",
+          "hours": 3
+        },
+        {
+          "title": "Modern Trends in Horticulture",
+          "topics": "Protected cultivation, Greenhouse, Polyhouse, Hydroponics, Aeroponics, Vertical farming, Precision horticulture.",
+          "hours": 3
+        },
+        {
+          "title": "Site Selection, Soil, Climate management:",
+          "topics": "Factors influencing site selection, Soil types, soil fertility, soil management, Climatic factors: temperature, humidity, rainfall, light and their management.",
+          "hours": 3
+        },
+        {
+          "title": "Plant propagation Techniques:",
+          "topics": "Natural: Creepers, Runner, Sucker, Tuber, Rhizome, Bulbs, Corms. Artificial vegetative propagation: Cutting, Layering, Grafting, Budding, Micropropagation / Tissue culture.",
+          "hours": 4
+        },
+        {
+          "title": "Horticultural Practices",
+          "topics": "Planting systems, pruning, training, irrigation methods (drip, sprinkler), nutrition management (organic and chemical fertilizers), weed management.",
+          "hours": 5
+        },
+        {
+          "title": "Post-Harvest Management",
+          "topics": "Harvesting maturity indices, handling, grading, packing, storage, cold chain, preservation techniques, value addition in fruits and vegetables.",
+          "hours": 5
+        },
+        {
+          "title": "Government policies / Schemes for promoting fruit crops",
+          "topics": "National Horticulture Mission (NHM), National Horticulture Board (NHB), subsidies, export promotion, APEDA role.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "VSC-224-RE-AE-T",
+      "title": "Applied Entomology -I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "Definition, Branches of entomology: Agricultural, Medical, Forest, Forensic and Industrial entomology. Economic importance of insect with reference to product, pollination, scavengers and weed killers.",
+          "hours": 2
+        },
+        {
+          "title": "Agricultural Pests",
+          "topics": "Major insect pests of agricultural crops: sugarcane, cotton, paddy, vegetables and fruits. Life cycle, damage and management of common crop pests.",
+          "hours": 8
+        },
+        {
+          "title": "Medical and Veterinary Entomology",
+          "topics": "Insect vectors of human diseases: mosquitoes (malaria, dengue), housefly, sandfly, fleas, lice. Veterinary pests and their impact on livestock.",
+          "hours": 6
+        },
+        {
+          "title": "Beneficial Insects",
+          "topics": "Apiculture (Honey bee biology, products, management), Sericulture (Silkworm rearing, silk production), Lac culture (Lac insect biology and cultivation).",
+          "hours": 8
+        },
+        {
+          "title": "Pest Management Strategies",
+          "topics": "Integrated Pest Management (IPM): Cultural, physical, mechanical, chemical, and biological control methods. Biopesticides and pheromone traps.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VSC-225-RE-DS-T",
+      "title": "Dairy Science-I",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to Animal Husbandry",
+          "topics": "Importance of livestock in Indian economy, Trends in milk production, Dairy development programs.",
+          "hours": 3
+        },
+        {
+          "title": "Housing of Dairy Animals",
+          "topics": "Selection of site, types of dairy barns (loose housing vs conventional), sanitation and drainage in cattle sheds.",
+          "hours": 4
+        },
+        {
+          "title": "Feeds and Feeding of Dairy Animals",
+          "topics": "Classification of feeds and fodders, roughages, concentrates, feeding standards for dairy cattle and buffaloes.",
+          "hours": 4
+        },
+        {
+          "title": "Cultivation of Fodder Crops",
+          "topics": "Important cereal and legume fodder crops (Maize, Sorghum, Berseem, Lucerne), silage and hay making.",
+          "hours": 4
+        },
+        {
+          "title": "Ration Balancing",
+          "topics": "Principles of ration formulation, thumb rules of feeding, balanced ration for calves, heifers, lactating and dry cows.",
+          "hours": 3
+        },
+        {
+          "title": "Cattle Breeds",
+          "topics": "Indigenous dairy breeds (Gir, Sahiwal, Red Sindhi), dual-purpose breeds (Kankrej, Tharparkar, Ongole), exotic breeds (Holstein Friesian, Jersey).",
+          "hours": 4
+        },
+        {
+          "title": "Buffalo Breeds",
+          "topics": "Important Indian buffalo breeds: Murrah, Jaffarabadi, Surti, Mehsana, Nagpuri, Pandharpuri.",
+          "hours": 4
+        },
+        {
+          "title": "Routine Management Practices",
+          "topics": "Identification, dehorning, castration, grooming, milking methods (clean milk production), vaccination schedule.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CC-221-RE- SM -T",
+      "title": "Soap Manufacturing -I",
+      "semester": 3,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Soap Industry",
+          "topics": "History and evolution of soap making, raw materials used in soap manufacture: fats, oils, alkalis, builders, fillers, perfumes, colors.",
+          "hours": 8
+        },
+        {
+          "title": "Chemistry of Saponification",
+          "topics": "Saponification reaction, saponification value, iodine value, acid value, titer of fatty acids, selection of oils and fat blends for different soaps.",
+          "hours": 8
+        },
+        {
+          "title": "Manufacturing Processes of Soaps",
+          "topics": "Cold process, semi-boiled process, full-boiled process, continuous saponification, finishing operations: drying, plodding, cutting, stamping, packaging.",
+          "hours": 8
+        },
+        {
+          "title": "Types of Soaps and Quality Standards",
+          "topics": "Toilet soaps, laundry soaps, medicated soaps, transparent soaps, shaving soaps. BIS specifications and quality control tests for soaps.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CC-222-RE-RR-T",
+      "title": "Radio Repairing - I",
+      "semester": 3,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Radio and Electronic Components",
+          "topics": "Active and passive components: identification, specification and measurement. Resistors, capacitors, inductors, transformers, diodes, transistors.",
+          "hours": 8
+        },
+        {
+          "title": "Measuring Instruments and Power Supplies",
+          "topics": "Multimeters (Analog and Digital), CRO, Signal Generator, Regulated power supply circuits: rectifiers, filters, voltage regulators.",
+          "hours": 7
+        },
+        {
+          "title": "Radio Transmission and Reception Principles",
+          "topics": "Modulation concepts (AM and FM), superheterodyne receiver principle: RF amplifier, mixer, local oscillator, IF amplifier, detector, AGC, audio amplifier.",
+          "hours": 8
+        },
+        {
+          "title": "Troubleshooting and Servicing Techniques",
+          "topics": "Common faults in radio receivers, signal tracing and signal injection methods, component replacement techniques, safety precautions during servicing.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CC-223-RE-ND-T",
+      "title": "Nursery Development-I",
+      "semester": 3,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Nursery Development",
+          "topics": "Definition, Importance and scope, Types of Nurseries: Fruit plant nursery, Vegetable nursery, Ornamental plant nursery, Forest nursery.",
+          "hours": 5
+        },
+        {
+          "title": "Nursery Infrastructure and Media",
+          "topics": "Site selection, nursery layout, mother beds, potting shed, mist chamber, shade net house, soil and potting media preparation, sterilization.",
+          "hours": 8
+        },
+        {
+          "title": "Plant Propagation in Nursery",
+          "topics": "Seed propagation, seed viability, seed dormancy and germination treatments, vegetative propagation methods, handling of saplings.",
+          "hours": 9
+        },
+        {
+          "title": "Nursery Management and Marketing",
+          "topics": "Water management, nutrition, disease and pest management in nursery, packaging, labeling, transport, business planning and marketing of nursery plants.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CC-224-RE-MLT-T",
+      "title": "Medical Laboratory Technique -I",
+      "semester": 3,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction to Clinical Laboratory and Safety",
+          "topics": "Role of clinical laboratory in disease diagnosis, laboratory organization, glassware, sterilization techniques, bio-safety and biomedical waste management.",
+          "hours": 6
+        },
+        {
+          "title": "Hematology Basics and Specimen Collection",
+          "topics": "Composition and functions of blood, collection of blood samples (phlebotomy), anticoagulants, blood film preparation and staining techniques (Leishman, Giemsa).",
+          "hours": 8
+        },
+        {
+          "title": "Routine Hematological Investigations",
+          "topics": "Estimation of hemoglobin, total RBC count, total WBC count, differential leukocyte count (DLC), platelet count, ESR and PCV determination.",
+          "hours": 8
+        },
+        {
+          "title": "Clinical Pathology of Urine and Stool",
+          "topics": "Routine examination of urine: physical, chemical, and microscopic examination. Routine examination of stool: physical, chemical, and microscopic examination for parasites.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CC-225-RE-MMP-T",
+      "title": "Milk and Milk Products -I",
+      "semester": 3,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Milk",
+          "topics": "Definition of milk, gross composition of milk of different species, factors affecting composition of milk, physical and chemical properties of milk.",
+          "hours": 4
+        },
+        {
+          "title": "Sanitation in Clean and Safe Milk Production",
+          "topics": "Sources of contamination of milk, clean milk production practices, sanitation of dairy farm equipment and milking parlors.",
+          "hours": 4
+        },
+        {
+          "title": "Dairy Microbiology",
+          "topics": "Microorganisms associated with milk, milk-borne diseases, preservation of milk by chilling, pasteurization methods (LTLT, HTST, UHT).",
+          "hours": 4
+        },
+        {
+          "title": "Introduction to Dairy Chemistry",
+          "topics": "Constituents of milk: milk fat, proteins (casein, whey proteins), lactose, minerals, vitamins, enzymes, legal standards of milk.",
+          "hours": 4
+        },
+        {
+          "title": "Introduction to Dairy Products",
+          "topics": "Classification of dairy products, market milk types (standardized, toned, double toned, skimmed, homogenized milk).",
+          "hours": 4
+        },
+        {
+          "title": "Concentrated and Dehydrated Milk Products",
+          "topics": "Principles of concentration and drying, condensed milk, evaporated milk, milk powder (SMP, WMP) manufacturing basics.",
+          "hours": 5
+        },
+        {
+          "title": "Fermented Milk Products",
+          "topics": "Starter cultures, manufacturing process and nutritional significance of Dahi, Lassi, Yogurt, Shrikhand, and Chhach.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "VSC-271-RE-PC-P",
+      "title": "Pharmaceutical Chemistry-II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-272-RE-ES-P",
+      "title": "Energy Studies- II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-273-RE-HM-P",
+      "title": "Horticulture and Its Management-II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-274-RE-AE-P",
+      "title": "Applied Entomology- II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        39,
+        39
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-275-RE-HM-P",
+      "title": "Dairy Science-II",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "CC-271-RE- SM -P",
+      "title": "Soap Manufacturing -II",
+      "semester": 4,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        43,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "CC-272-RE-RR-P",
+      "title": "Radio Repairing - II",
+      "semester": 4,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "CC-273-RE-ND-P",
+      "title": "Nursery Development-II",
+      "semester": 4,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "CC-274-RE-MLT-P",
+      "title": "Medical Laboratory Technique",
+      "semester": 4,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        48,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "CC-275-RE-MMP-P",
+      "title": "Milk and Milk Products-II",
+      "semester": 4,
+      "type": "Co-curricular Course",
+      "credits": 2,
+      "pages": [
+        49,
+        50
+      ],
+      "units": []
+    }
+  ],
+  "notes": "S.Y.B.Sc. Restructuring Pattern syllabus covering Vocational Skill Courses (VSC) and Co-curricular Courses (CC) for Semester III and IV."
+}

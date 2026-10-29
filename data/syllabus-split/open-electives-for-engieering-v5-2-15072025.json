@@ -1,0 +1,703 @@
+{
+  "id": "open-electives-for-engieering-v5-2-15072025",
+  "kind": "programme",
+  "programme": "Second Year Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": null,
+      "title": "Financial Accounting",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Accounting for Assets",
+          "topics": "Property, Plant, and Equipment (PP&E): Acquisition, cost determination, and capitalization, De- preciation methods (straight-line, reducing balance, units of production), Impairment of assets (con- cepts and accounting treatment), Accounting for disposals and exchanges. Relevant Accounting Stan- dards (AS 10, IAS 16). Inventory: Inventory costing methods (FIFO, LIFO, weighted average), Lower of cost or net realiz- able value (LCNRV), Inventory systems (periodic and perpetual), Relevant Accounting Standards (AS 2, IAS 2). Intangible Assets: Recognition, measurement, and amortization of intangible assets (patents, trade- marks, goodwill,etc), Impairment of intangible assets, Accounting for research and development costs (AS 26, IAS 38, etc).",
+          "hours": 7
+        },
+        {
+          "title": "Accounting for Liabilities and Equity",
+          "topics": "Liabilities: Accounting for current liabilities (accounts payable, short-term debt), Accounting for long-term liabilities (bonds payable, loans), Concepts of provisions, contingent liabilities, and con- tingent assets (e.g., AS 29, IAS 37). Equity: Share capital: Types of shares, issue, forfeiture, and reissue of shares, Accounting for share issue, buyback, and bonus shares, Dividends: Types, declaration, and payment.",
+          "hours": 7
+        },
+        {
+          "title": "Corporate Accounting",
+          "topics": "Accounting for share capital and debentures, Preparation of company final accounts Introduction to cash flow statements (basic concepts and preparation as per AS 3 or IAS 7), Understanding and accounting for share buyback, Accounting for bonus shares and rights issue, Introduction to interim and final dividends. Branch Accounting: Accounting for dependent branches, Accounting for independent branches and reconciliation. Lease Accounting: Types of leases (operating and finance leases), Accounting treatment for operat- ing and finance leases.",
+          "hours": 8
+        },
+        {
+          "title": "Special Accounting Topics",
+          "topics": "Objectives of financial statement analysis, Tools and techniques of financial statement analysis: Horizontal analysis (trend analysis), Vertical analysis (common-size statements), Ratio analysis: Liquidity , solvency , profitability , and efficiency ratios. Interpretation of financial state- ments, Limitations of financial statement analysis: Historical cost concept, Use of estimates, Impact of different accounting policies, Limited information about non-financial factors, Potential for manipu- lation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Digital Finance",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        6,
+        8
+      ],
+      "units": [
+        {
+          "title": "Digital Finance Fundamentals & Big Data",
+          "topics": "Evolution & Fundamentals of Digital Finance: Evolution of digital finance and the shift from traditional to digital systems. Introduction to FinTech and technological transformations in financial services. Overview of regulatory frameworks and compliance in the digital era. The Rise of Big Data in Finance: Role of big data in shaping financial decision-making and risk management. Leveraging data science for personalization and modern financial services Case Study: DBS Bank’s Digital Transformation",
+          "hours": 7
+        },
+        {
+          "title": "Digital Payment Systems & Digital Banking Transformation",
+          "topics": "Digital Payment Ecosystems: Historical evolution and digitalization of payment systems (ECS, RTGS, NEFT, IMPS, UPI, mobile wallets, contactless payments), Attributes of a well-functioning pay- ment system and the role of banks. Fintech Innovations & Disruption: FinTech startups, challenger banks, and peer-to-peer lending models, FinTech applications across banking, NBFCs, insurance, lending, audit, and compliance, Regulatory guidelines (e.g., RBI guidelines) and risks associated with new payment models. The Future of Digital Banking: How traditional banks are adapting and the rise of neo-banks, Digital banking trends and evolving customer expectations Case Study : Unified Payments Interface (UPI) in India",
+          "hours": 7
+        },
+        {
+          "title": "Blockchain, Cryptocurrencies & Decentralized Finance",
+          "topics": "Blockchain Technology: Fundamentals of blockchain and underlying cryptographic techniques, Smart contracts and decentralized finance (DeFi) applications. Cryptocurrencies & Digital Assets: Overview and evolution of cryptocurrencies (Bitcoin, Ethereum, etc.), Central Bank Digital Curren- cies (CBDCs) and other emerging digital assets. Advanced Applications & Case Studies: Impact of blockchain on payments, lending, and financial settlements, Real-world case studies and disruptive potential in global finance Case study: The Sand Dollar (Bahamas’ CBDC)",
+          "hours": 8
+        },
+        {
+          "title": "Artificial Intelligence, Machine Learning & Financial Analytics",
+          "topics": "AI & Machine Learning in Finance:Predictive analytics in stock markets, trading, and algorithmic/high- frequency trading, Credit risk analysis and automated decision-making using AI. Data Analytics & Financial Applications: Data sourcing, cleaning, processing, and visualization for financial data, Sentiment analysis and AI-driven portfolio management. Practical Projects & Case Studies: Hands-on projects: building stock price prediction models, fraud detection systems, and credit score prediction models, Real-world applications in digital lending and wealth management Case study : Thread programming Using Pthreads, POSIX",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Digital Marketing",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Marketing",
+          "topics": "Fundamentals of Digital marketing & Its Significance, Traditional marketing Vs Digital Marketing, Evolution of Digital Marketing, Digital Marketing Landscape, Key Drivers, The Digital users in India, Digital marketing Strategy- Consumer Decision journey Digital advertising Market in India, Skills in Digital Marketing, Digital marketing Plan.",
+          "hours": 7
+        },
+        {
+          "title": "Digital Marketing Terminology",
+          "topics": "Terminology used in Digital Marketing, PPC and online marketing through social media, Social Media Marketing, Google web-master and analytics overview, Email Marketing, Mobile Marketing Display adverting, Buying Models, different type of ad tools, Display advertising terminology , types of display ads, different ad formats",
+          "hours": 7
+        },
+        {
+          "title": "Social Media Marketing",
+          "topics": "Fundamentals of Social Media Marketing& its significance, Necessity of Social media Marketing Facebook Marketing: Facebook for Business, Facebook Insight, Different types of Ad formats, set- ting up Facebook Advertising Account, Facebook audience & types, Designing Facebook Advertising campaigns, Facebook Avatar, Apps, Live, Hashtags",
+          "hours": 8
+        },
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "topics": "Introduction to SEO, How Search engine works, SEO Phases, History Of SEO, How SEO Works, Googlebot (Google Crawler), Types of SEO technique, Keyword Planner tools Social media Reach- Video Creation & Submission, Maintenance- SEO tactics, Google search Engine",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Digital Business",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Foundations of Digital Business",
+          "topics": "Overview of the Digital Economy and Society , Digital Transformation and its Impact, The Digital En- terprise - Strategies and Characteristics, Online and Virtual Communities, Defining Digital Business - Scope and Evolution, Emerging Platforms - AI-Driven Marketplaces, Blockchain-Based Systems, Meta- verse Commerce. E-Business Models - B2B, B2C, C2C, D2C, Hybrid Models, Integration of Physical and Digital Marketspaces, Web 3.0 and Decentralized Platforms. Drivers - Scalability , Data Analytics, Automation, AI, Benefits - Global Reach, Personalization, Efficiency , Limitations - Cybersecurity Risks, Digital Divide, Impact on Businesses, Customers, Governments, Society . Case Study : 1. Amazon’s Digital Ecosystem: How Amazon integrates AI-driven recommendations, cloud com- puting (AWS), and marketplace strategies to dominate e-commerce. 2. Nike’s Digital Transformation: Leveraging data analytics and direct-to-consumer (D2C) models to enhance customer engagement via the Nike+ app.",
+          "hours": 7
+        },
+        {
+          "title": "Mobile, Social, and IoT-Driven Commerce",
+          "topics": "Mobile Commerce - Evolution, Applications, 5G Impact, Mobile Marketing - Location-Based Adver- tising, In-App Purchases, Mobile Wallets. Social Commerce - Social Media Marketplaces, Influencer Economy , Live-Streaming Commerce, Social Business Networks - Enterprise Collaboration Tools, So- cial Media Analytics. Benefits - Customer Engagement, Brand Loyalty , Limitations - Privacy Concerns, Platform Dependency . Internet of Things (IoT) - Retail, Supply Chain, Smart Cities, Healthcare, IoT Applications - Connected Devices, Predictive Maintenance, Edge Computing, Wearables. Case Study : 1. Starbucks Mobile App: Use of mobile payments and loyalty programs to drive customer reten- tion and sales through personalized offers. 2. Xiaomi’s IoT Strategy: Integration of IoT in smart home devices and wearables to create a connected ecosystem for consumers.",
+          "hours": 7
+        },
+        {
+          "title": "Digital Business Ecosystem",
+          "topics": "Digital Commerce Mechanisms - Online Purchasing, E-Marketplaces, Digital Twins, Types - B2B, B2C, C2C, Multi-Sided Platforms, Disintermediation, Reintermediation, Platform Economy . Customer Mechanisms - Webstores, Malls, Portals, Mobile Apps, Voice Commerce, Intermediaries - Aggrega- tors, Curators, Merchant Solutions - Electronic Catalogs, Search Engines, Recommendation Systems, Shopping Carts. Auctions - E-Auctions, Algorithmic Pricing, Supply Chains - Blockchain, 3D Printing, Just-in-Time Delivery . Digital Payments - Mobile Payments, Digital Wallets, Cryptocurrencies, CBDCs, Security , Privacy , Ethical Issues Case study: 1. Alibaba’s E-Marketplace: How Alibaba uses its platform to connect buyers and sellers globally , leveraging blockchain for supply chain transparency . 2. eBay’s Dynamic Pricing: Implementation of e-auctions and algorithmic pricing to optimize seller outcomes and buyer satisfaction.",
+          "hours": 8
+        },
+        {
+          "title": "Digital Business Applications",
+          "topics": "Electronic Retailing - B2C, Omnichannel Retailing, AI-Driven Personalization, Social Shopping - User- Generated Content, Social Proof, Benefits, Drivers. Fintech - E-Banking, Mobile Banking, Neobanks, Insurtech, Open Banking, Regtech. Digital Government - Smart Cities, E-Governance, Data-Driven Policy Making, Digital Public Services. E-Learning and EdTech - Online Platforms, Corporate Training, Gamification, VR/AR in Education, Digital Content - Streaming Services, Podcasts, Content Moneti- zation. Case study : 1. Revolut’s Fintech Disruption: How Revolut uses mobile banking and open banking to challenge traditional financial institutions. 2. Coursera’s EdTech Growth: Leveraging online platforms and gamification to deliver scalable education globally .",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Digital Business and Technology",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Business",
+          "topics": "Introduction to digitization, impact of digitization on business. Social media marketing, digital busi- ness models, concept of digital marketing and it’s impact. Digital strategy and innovation. Case Study: Sell products online via platforms like Amazon, Flipkart, and Shopify , reaching global customers 24/7",
+          "hours": 7
+        },
+        {
+          "title": "Digital Business Model",
+          "topics": "Introduction to digital business model innovation, key drivers of digital business model reinvention, types of digital business model, case study on anyone reinvented business organization.. Case study : Subscription-based streaming, original content production, personalized recommenda- tions using AI",
+          "hours": 7
+        },
+        {
+          "title": "Business Automation and Cyber Security",
+          "topics": "Introduction to Automation in Digital Business, Role of Automation, Automation Technologies, Au- tomation Implementation and Integration, Impact of Automation on Digital Business. Introduction to Cyber security , Cyber security Measures and Best Practices. Case study:",
+          "hours": 8
+        },
+        {
+          "title": "Emerging Tech and Entrepreneurship",
+          "topics": "Role of technology in modern startups, Digital marketing fundamentals: SEO, social media, email Marketing E-commerce platforms and tools (Shopify , Woo Commerce, etc.), Introduction to AI, IoT, and block chain in startups. Case study: Automate tasks, analyze data, personalize user experiences, and develop smart prod- ucts.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Personal Financial Management",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Personal Finance and Budgeting",
+          "topics": "a) Importance and scope of personal financial management b) Financial goal setting: short-term, medium-term, and long-term goals c) Personal income and expenditure planning d) Budgeting techniques and tracking tools (manual and digital) e) Emergency fund planning f) Understanding financial discipline and behavioral aspects of money",
+          "hours": 7
+        },
+        {
+          "title": "Banking, Credit, and Digital Finance",
+          "topics": "a) Basics of banking: types of accounts, bank statements, interest b) Digital banking tools: UPI, NEFT, RTGS, mobile banking, e-wallets c) Credit and debit cards: responsible use and differences d) Loans: student, personal, and vehicle loans e) Credit score: concept, importance, and factors f) Digital security: phishing, fraud prevention, and cyber hygiene",
+          "hours": 7
+        },
+        {
+          "title": "Saving and Investment Options",
+          "topics": "a) Importance of saving and types of saving schemes (FD, RD, PPF, etc.) b) Introduction to investment: risk vs. return c) Overview of mutual funds and SIPs d) Concept of compounding and time value of money e) Investment avenues: gold, real estate, stock market (basic concepts only) f) Introduction to financial planning apps/tools",
+          "hours": 8
+        },
+        {
+          "title": "Insurance, Tax Basics, and Retirement Planning",
+          "topics": "a) Concept and types of insurance: life, health, and general b) Nomination and claims: processes and importance c) Basics of income tax: slabs, PAN, and tax-saving instruments d) Retirement planning: EPF, NPS, and pension schemes e) Common financial frauds and safety tips f) Ethical financial behavior and long-term wealth planning",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Wine Technology",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Wine, Winemaking and viticulture",
+          "topics": "Introduction to different beverages, concept of wine, Health benefits of wine, History & Evolution of Winemaking Major Wine-Producing Regions, Wine Classifications & Types (Red, White, Rosé, Sparkling, Fortified), Basic Winemaking Process and important terminologies of wine, Importance of Grapes in Winemaking, Grape Varieties & Their Impact on Wine Quality , Global Wine Industry Overview",
+          "hours": 8
+        },
+        {
+          "title": "Wine Production & Technology",
+          "topics": "Wine Making Process-I (Pre-fermentation): Harvesting of grapes, crushing, preparation and extrac- tion of must, maceration, Wine Making Process-II (Fermentation process): Concept of fermenta- tion, types and parts of fermenter, parameters affecting fermentation, Wine Making Process-III (Post- fermentation): Flavour enhancement and aging of wine, barrel ageing and maturation in bottle, quality control, bottling and cellar system.",
+          "hours": 8
+        },
+        {
+          "title": "Sensory Analysis & Quality Control",
+          "topics": "Sensory evaluation and terminology , Human sensory organs and perception, Sensory Attributes of Wine – Appearance, Aroma, Mouth feel. Glassware Selection and Preparation for wine tasting. Stor- age and Handling of wine. Types of sensory tests: discrimination, descriptive, hedonic. Common Off-Flavors and Defects in wine",
+          "hours": 7
+        },
+        {
+          "title": "Wine Economics & Trade",
+          "topics": "Role of Wine in Hospitality & Tourism, Wine Tourism Destinations & Business Models, Global Wine Market Trends, Career Opportunities in the Wine Industry",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Dairy Technology",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Livestock diversity and its Management",
+          "topics": "Livestock diversity in India and its importance Role of livestock in Agriculture Selection of elite ani- mals Characteristics of ideal dairy farm Management of milking animals Animal health management and its impact on milk quality Milking systems and hygienic milk production",
+          "hours": 7
+        },
+        {
+          "title": "Milk Process Technology",
+          "topics": "Nutritional importance of milk and its constituents Collection methods of raw milk and its impact on milk quality Method of Sampling of raw milk. Quality assessment of raw milk Processing of milk and its significance: cooling, separation, standardization, homogenization and pasteurization and its types Types of milks and its production- pasteurized, standardized, toned, double toned, flavored milk. Production of milk products- Yogurt, butter, buttermilk, paneer, Dairy plant hygiene and sanitation, disposal of dairy waste",
+          "hours": 7
+        },
+        {
+          "title": "Quality Assurance of Milk",
+          "topics": "Spoilage of milk and milk products by microorganism and its control., Different packaging Materials, importance of packaging in milk and milk product preservation Quality assurance of dairy products: Quality assurance (ISO 9001:2000) and food safety system (HACCP) Quality assessment of milk- detection of adulteration Case study: The most effective ways of packing milk and the types of paper used and quality check",
+          "hours": 8
+        },
+        {
+          "title": "Case Studies in Dairy Technology",
+          "topics": "Case study: Butter, Cheese and Paneer technology and business Model, Ice-creams and frozen desserts, Packaging of Dairy products, Refrigeration and Air conditioning, Human Nutritional Char- acteristics",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Supply Chain Management",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Supply Chain Structure & Flow",
+          "topics": "Shift from enterprise to network, Structure of a SC, Push based SC, Pull based SC, Tradeoff between Push & Pull, Identifying appropriate Push & Pull Strategy for SC, Commodity & cost centric SC, Agile, Forward & Reverse SC, Product, Services, Information, Funds, Demand, Forecast flows in Up- stream & Downstream direction",
+          "hours": 7
+        },
+        {
+          "title": "Total Supply Chain management",
+          "topics": "business landscape – driving forces: Shift from Operations to Services, Impact of globalization & technological revolution, shift from linear SC to collaborative networks, power shifts in the SC- demands for flexibility of partnerships, core competencies, growth in outsourcing.",
+          "hours": 7
+        },
+        {
+          "title": "Supply Chain management Building Blocks",
+          "topics": "Overview of customer focus & demand, resources & capacity management, procurement & supplier focus, inventory management, operations management, distribution management in SCM",
+          "hours": 8
+        },
+        {
+          "title": "Customer Value",
+          "topics": "Empowered consumer, Customer focused Marketing & SC service outputs, customer service – avail- ability , operational performance, reliability . Customer satisfaction – customer expecta- tions, en- hancing customer satisfactions, limitations of customer satisfaction. Customer success – achieving customer success, value added services, customer value requirement mapping",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Digital Manufacturing",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "3D Digital Factories",
+          "topics": "The promise of 3D Digital Factories, Embracing digital design and new workflows, 3D additive print- ing, An integration of operational and information technologies, Conceptual design of a 3D digital factory .",
+          "hours": 7
+        },
+        {
+          "title": "Digital Twin Technology",
+          "topics": "Production planning and scheduling in a smart factory , Concept of digital twin, Cyber-physical inte- gration, Implementing digital twin, Industrial case studies, Smart production resource allocation.",
+          "hours": 7
+        },
+        {
+          "title": "Engineering Knowledge Management",
+          "topics": "Knowledge discovery and extraction, Knowledge representation and reasoning, Construction of the industrial knowledge graph, Knowledge graph-enabled knowledge evolvement, Industrial case stud- ies.",
+          "hours": 8
+        },
+        {
+          "title": "Business Models, Supply Chain Strategy and Security Aspects",
+          "topics": "Business models for the new enterprise, Supply chain strategies, Additive manufacturing and supply chain resiliency , Design customization and optimization, Risks and threats in distributed digitized manufacturing, Modern security for digital manufacturing.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Maharashtra Land Laws",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "The Maharashtra Land Revenue Code, 1966 – Introduction, Land Revenue & Land",
+          "topics": "Records ( 07 Hours ) Historical background of land revenue system, Object, application, and definitions under the Code, Revenue officer power and duties, Lands: Vesting, Extinction of rights, assignment for special pur- poses, pasturage, right to trees, trees and forests, recovery of value of natural products and trees etc, regulating cutting and supply of wood, Grant of lands, Use of land, Encroachment on land, Relinquishment and Surrender of land . The Maharashtra Land Revenue Code, 1966 - Land Revenue : Land Revenue : Liability and as- sessment (Sections 64-78), Revenue Surveys: Procedure for a survey , Survey numbers, Partitions, sub-divisions, (Sections 79-88), Boundary and boundary marks (Sections 132-146), Procedure of Revenue Officers, Appeals, Revision and Review , Maharashtra Revenue Tribunal. Record of rights (Sections 147-159), Rights in unoccupied lands (Sections 160-167), Realization of land revenue and other revenue demands: Liability , priority of claim, time for payment, recovery , enforcement (Sections 168-184)",
+          "hours": null
+        },
+        {
+          "title": "The Maharashtra Tenancy and Agricultural Lands Act, 1948 - Holding and Use of land,",
+          "topics": "Tenancies and Parties: ( 07 Hours ) Historical background, object and application of the Act, Concepts - Deemed tenants, Protected tenants, Ceiling area, Economic Holding, Irrigated land, Maximum and minimum rent, Certificated Landlord, General provisions regarding tenancies, Termination of tenancies by parties – a) Personal cultivation, non-agricultural use, by certificated landlord, on default, Surrender. b) Relief against termination Termination of tenancy by operation of law, Tiller’s day , Purchase of land by tenants, procedure for purchase , Right of tenant to exchange land, Management of estates, Collector, Mam- latdar and Tribunal - powers and functions, Jurisdiction and bar of jurisdiction, Appeals and Revision",
+          "hours": null
+        },
+        {
+          "title": "The Maharashtra Prevention of Fragmentation and Consolidation of Holdings Act,",
+          "topics": "1947-(08 Hours) Historical background, object, application and definitions under the Act, Determination of local and standard areas, entry in the record of rights, Restrictions and prohibitions on transfer and partition of fragments including court sales, exceptions, penalty , transfer of fragment to Government and com- pensation, Consolidation, procedure, Reservation of land for public purpose, Scheme - its preparation and enforcement, and compensation and apportionment, Certificate of transfer, Rights in holdings, Transfer of encumbrances, Consolidation Officer, Settlement Commissioner, their powers and func- tions, Bar of jurisdiction.",
+          "hours": null
+        },
+        {
+          "title": "The Maharashtra Agricultural Lands (Ceiling on Holdings) Act, 1961 , The Mamlat",
+          "topics": "dars’ Courts Act, 1906 and Land Acquisition act - (08 Hours) Historical background, object, application and definitions under the Act, Ceiling on holding of land, Exempted land, Prohibition on holding land beyond ceiling limits, Restrictions on transfers and ac- quisitions, and consequences of contravention, Surplus land, Submitting returns, Selection of land, Procedure of determining surplus land, Declaration of surplus land, Compensation, Distribution of surplus land. The Mamlatdars’ Courts Act, 1906: Historical background, object, application and definitions under the Act, Mamlatdar and Joint Mamlatdars, their appointment and powers, Cause of action and lim- itation of orders, Injunction and its disobedience, Collector and his powers and functions, Collector and Maharashtra Revenue Tribunal, Powers and functions, Appeals. Land Acquisition Act : Historical background, object, application and definitions under the Act.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Project Management",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Introduction to Project Management",
+          "topics": "Project Definition, Project Life Cycle, processes and Knowledge areas in Project management, WBS and its types, introduction to PMBOK, portfolio Management, Traditional Vs Modern Project using PMBOK Concept Case Study: Online Shopping",
+          "hours": 7
+        },
+        {
+          "title": "Agile Software Development",
+          "topics": "Introduction, Agile methods, Scrum, Comparison between Non Agile and Agile Project, Three stages of Agile Project, Plan driven and Agile development, Extreme programming, scaling agile methods, Roles and responsibilities, Scheduling and tracking. Case Study : Analyze the same project using Agile. Create the three stages of the project",
+          "hours": 7
+        },
+        {
+          "title": "Project Planning and Management",
+          "topics": "Introduction to project planning, Project planning process, Agile project management, Gantt Chart, PERT chart, CPM, Microsoft Projects, and Primavera Project Management Software, Role of Project Manager, Objectives of Activity planning, Project Schedules, Activities, Sequencing and Scheduling, Case study: Develop the Software project plan using Microsoft Projects or any open source tool like Jira, Kanban, extreme programming",
+          "hours": 8
+        },
+        {
+          "title": "Project Execution and Control",
+          "topics": "Project execution: task assignment, tracking, and monitoring - Project control: schedule control, budget control, and quality control - Earned value management (EVM) and project performance measurement - Project reporting and communication Risk management principles and concepts - Risk identification, analysis, and prioritization - Risk response planning and implementation - Risk monitoring and review",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Optimization Techniques",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Basic Concepts",
+          "topics": "Historical Development; Engineering applications of Optimization; Formulation of real-life problems as mathematical models. Case Study: Job scheduling in IT systems, Cost minimization in cloud services",
+          "hours": 7
+        },
+        {
+          "title": "Linear Programming",
+          "topics": "Standard form of linear programming (LP) problem; Canonical form of LP problem; Assumptions in LP Models; Elementary operations, Graphical method for two variable optimization problem; simplex method, Dual Simplex method Case Study : Resource allocation in IT projects, Manpower scheduling, Karmarkar’s projective scal- ing method",
+          "hours": 7
+        },
+        {
+          "title": "Linear Programming Applications",
+          "topics": "Sensitivity analysis, Transportation and Assignment Problems Case study: Use of software for solving linear optimization problems using graphical and simplex methods",
+          "hours": 8
+        },
+        {
+          "title": "Numerical Optimization Techniques",
+          "topics": "Basic theory , Method of Lagrange Multipliers, Karush-Kuhn-Tucker Theory , Convex optimization. line search methods, gradient methods, Newton’s method, Conjugate direction methods, Quasi- New- ton methods, Projected Gradient Methods Case study: Use of software for Karush-Kuhn-Tucker theory Numerical calculation using softwar",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Principles and Practices of Management",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Management and Organization",
+          "topics": "Management: Definition of Management, Nature, Scope, Purpose, Characteristics and Functions of Management. Evolution of Scientific Management, Modern Management, Principles of Management. Organization: What is Organization, Organizational Structure, Need and Purpose of Organization, Types of Organization. Real World Assignment 1. Presentation on: Principles of Management by Different Management Gurus 2. Visit and Report to Understand Organizational Structure with Role and Responsibility of each Post/Designation Case Study: Business management in manufacturing firms, Project management in construction, Organizational design in IT companies, Human resource management in startups, Operations man- agement in service industries",
+          "hours": 7
+        },
+        {
+          "title": "Manager, Leadership and Decision Making",
+          "topics": "Manager: Who is a Manager? Roles of a Manager, Skills of an Effective Manager, Functions of a Manager Leadership: Defining leadership and its role, leadership Style, Leadership Development, Leadership Behavior. Decision Making: Nature and Process of Decision Making, Decision Making under Certainty and Uncertainty , Decision Making Steps & Processes, Brain-Storming Real World Assignment : Real Life Case Which will Lead to Evolve Leadership and Decision Making Ability Among the Students Exemplars / Practical Applications :Corporate management roles, Team leadership in project man- agement, Executive decision-making in startups, Human resources leadership development, Strategic planning in organizations",
+          "hours": 7
+        },
+        {
+          "title": "Motivation and Communication",
+          "topics": "Motivation: Concept, Theories – Classical and Modern, Importance, Financial and Nonfinancial Mo- tivation, Positive and Negative Motivation, Group Motivation. Communication: Definition, Meaning, Nature, Communication Process, Types and Barriers to Com- munication. Real World Assignment: To understand Motivational and Effective Communication Strategies of any Ongoing Project Related to Mechanical Industry ( Case Study based Approach) Exemplars / Practical Applications: Employee motivation programs, Organizational behavior man- agement, Leadership and team motivation, Corporate communication strategies, Change manage- ment and internal communication",
+          "hours": 8
+        },
+        {
+          "title": "Planning and Strategic Management",
+          "topics": "Planning: Why Management Process Starts With Planning, Steps in Planning, Planning Premises, Types of Planning, Barriers to Effective Planning, Operational Plan, Strategic Planning, Mckinsey’s 7’s Approach, SWOT Analysis. Strategic Management : Meaning, Definition, Elements, Scope and Dimensions, Process, Importance, Strategic Decisions Real World Assignment - Design Production Planning System for Manufacturing Industry / Case of Manufacturing Industry focusing of different functions such as Demand Forecasting, Production Scheduling, Material Management, Capacity Planning, Monitoring and Control Exemplars / Practical Applications : Corporate strategic planning, Business operations manage- ment, Project planning and execution, SWOT analysis in market research, Strategic decision-making in startups",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Financial Management",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        36,
+        38
+      ],
+      "units": [
+        {
+          "title": "Introduction to Financial Management",
+          "topics": "• Nature, scope and functions of financial management • Objectives: Profit vs. Wealth Maximization • Role of Finance Manager • Types of business finance: Equity , Debt, Internal financing • Importance of finance for engineers and startups Case Study: Role of finance in a tech startup , Real-world examples of financial decision making in engineering firms",
+          "hours": 7
+        },
+        {
+          "title": "Time Value of Money & Capital Budgeting",
+          "topics": "• Concept and significance of Time Value of Money • Present Value (PV) and Future Value (FV) techniques • Simple capital budgeting tools: Payback Period, NPV, IRR, ARR, PI. • Engineering project investment evaluation examples Case Study: NPV calculation for a solar plant project, Payback period for a manufacturing automation upgrade",
+          "hours": 7
+        },
+        {
+          "title": "Financial Statements & Ratio Analysis",
+          "topics": "• Introduction to financial statements: P&L, Balance Sheet, Cash Flow Statements • Key ratios: Liquidity , Profitability , Solvency , Turnover Ratios. • Simple analysis and interpretation of company annual reports with the help of ratio analysis. Case study: Ratio analysis of a listed engineering company , Balance sheet reading for a medium-sized manufacturing firm.",
+          "hours": 8
+        },
+        {
+          "title": "Applications",
+          "topics": "• Concept and importance of working capital • Components: Inventory , Receivables, Payables • Operating cycle and estimation of working capital • Application in manufacturing and service industries • Numericals on Working Capital Management • Numericals on Working Capital Requirement • Sources of Finance & Cost of Capital – – Classification of sources: Short-term and Long-term – Equity , Debt, Retained earnings, Preference shares – Introduction to Cost of Capital: Concept of WACC – Role of banks, financial institutions, and capital markets Case study: • Working capital analysis for a construction project • Inventory management for a robotics company • Funding mix for an electric vehicle startup • WACC calculation for capital budgeting decision",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Business Essentials for Rural Development",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        39,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business and Rural Economy",
+          "topics": "a) What is business? Types and forms of business organizations b) Role of business in economic development c) Overview of the Indian rural economy and demographics d) Characteristics of rural markets and consumers e) Economic activities in rural areas: agriculture, cottage industries, services f) Challenges in rural business development: infrastructure, education, finance",
+          "hours": 7
+        },
+        {
+          "title": "Essentials of Entrepreneurship for Rural Development",
+          "topics": "a) Definition and traits of an entrepreneur b) Importance of rural entrepreneurship c) Steps in setting up a small business in rural areas d) Business idea generation and opportunity identification e) Case studies of successful rural entrepreneurs and enterprises f) Social entrepreneurship and community-driven models",
+          "hours": 7
+        },
+        {
+          "title": "Marketing, Finance, and Operations in Rural Business",
+          "topics": "a) Marketing mix (4Ps) and its relevance in rural markets b) Rural marketing strategies: communication, pricing, and distribution c) Basics of financial management: cost, revenue, profit, breakeven d) Sources of finance: banks, microfinance, SHGs, NBFCs e) Operational aspects: procurement, inventory , quality , workforce f) Use of digital tools and mobile technology in rural business",
+          "hours": 8
+        },
+        {
+          "title": "Government Schemes, NGOs, and Sustainable Development",
+          "topics": "a) Key government schemes for rural business (PMEGP, MUDRA, NRLM, etc.) b) Role of NABARD, KVIC, and other rural support institutions c) NGOs and their contribution to rural development d) Sustainable development goals (SDGs) and rural empowerment e) Role of engineering and innovation in solving rural problems f) Project work: Designing a rural business plan or sustainable solution",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Nanoscience and Nanotechnology",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": [
+        {
+          "title": "Introduction to Nanoscience and Nanotechnology",
+          "topics": "Introduction to nanoscale, nanomaterials, nanoscience and nanotechnology , Nanoscale bioassem- blies, Liposomes, viruses, DNA, polysaccharides and proteins (Protein nanotubes, nanofibers, peptide nanoparticles",
+          "hours": 7
+        },
+        {
+          "title": "Microbial mediated metallic nanoparticles synthesis",
+          "topics": "Gold nanoparticles (AuNPs), Silver nanoparticles (AgNPs), Au-Ag alloy nanoparticles, Oxide nanopar- ticles Magnetic nanoparticles, Non-magnetic oxide nanoparticles, Sulfide nanoparticles etc.",
+          "hours": 7
+        },
+        {
+          "title": "Characterization Techniques for Nanomaterials",
+          "topics": "UV-visual spectroscopy , Fourier transform infrared (FTIR), X-ray diffraction (XRD), X-ray photoelec- tron spectroscopy (XPS), Scanning electron microscopy (SEM), Transmission electron microscopy (TEM) and dynamic light scattering (DLS), Vibrating Sample Magnetometer (VSM), Introduction to Superconducting Quantum Interference Device (SQUID)",
+          "hours": 8
+        },
+        {
+          "title": "Applications of Nanotechnology",
+          "topics": "Antibacterial agent, drug delivery , biosensor, animal industry and nanotechnology in wastewater treatment, Biomedical applications of bioassemblies, bioimaging and vaccine development",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Industrial Organization Management",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        44,
+        46
+      ],
+      "units": [
+        {
+          "title": "Management, Industrial Economics and Leadership",
+          "topics": "Management: Meaning, scope, function, and importance of management. Difference between ad- ministration and management. Leadership: Importance, Types: Autocratic, Democratic and Laissez-Faire Leadership, qualities of good Leader. Industrial Economics: Definition, Demand and Supply concept, Law of demand and supply .",
+          "hours": 7
+        },
+        {
+          "title": "Technology Management and Quality Management",
+          "topics": "Technology Management & Its Classification: Definition, application and its scope. Classification its importance on National Economy . Quality Management: Definition Types, Quality of design, Seven QC Tools, Poka Yoke (Mistake Proofing). Quality circles, Kaizen: Meaning and Implementation. TQM, 5S (Case study of Toyota, descriptive treatment). Six-Sigma.",
+          "hours": 7
+        },
+        {
+          "title": "Marketing and Financial Management",
+          "topics": "Marketing Management: Meaning of Market, Marketing strategy , motives, types-Perfect Competi- tion, Monopoly , Monopolistic completion and Oligopoly . Online Marketing (Digital Marketing). Financial Management: Definition, Types of costs (Fixed, Variable, average, marginal, and total cost) and methods of costing price, capital. Debit, credit, Profit and loss statement, Balance sheet",
+          "hours": 8
+        },
+        {
+          "title": "Business Organization, Business Ownership",
+          "topics": "Business Organizations: Line organization, Staff organization and Functional Organization. Business Ownership and its Types: One person company Types of ownership, Sole proprietorship, Partnership (Act 1934), LLP (Limited Liability Partnership) (Act 2008). Entrepreneurship: Importance and limitations of rational decision making, Decision making under certainty , uncertainty and risk, Small and medium scale industries in India.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Business Analytics",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "Introduction To Business Analytics",
+          "topics": "Definition of Business Analytics, Types of Analytics - Descriptive, Diagnostic, Predictive, Pre- scriptive, Concept of insights, Business Analytics in practice, Big Data - Overview of using Data, Importance of data in business analytics, Types of Data- Business decision modeling. Differ- ences between data, information and knowledge, Quality of data, 5Vs of Big Data, Big Data Collection and Ethics, Data sources and collection methods, Data privacy , security , and ethical considerations.",
+          "hours": 7
+        },
+        {
+          "title": "Analytical Decision-Making",
+          "topics": "Analytical decision-making process, characteristics of the analytical decision-making process. Break- ing down a business problem into key questions that can be answered through analytics, Charac- teristics of good questions, Skills of a good business analyst, The Basic Tools of Business Analytics - Data exploration and visualization (using tools like Excel, Tableau, or Power BI), Concept of Statis- tical analysis and hypothesis testing (Hypothesis testing numerical / tests not expected) Data Visu- alization: Concept of Data Visualization, Popular Data Visualization tools, Exploratory Data Analysis (EDA), Data Cleaning, Data Inspection.",
+          "hours": 7
+        },
+        {
+          "title": "Predictive and Prescriptive Analytics",
+          "topics": "Trend Lines, Regression Analysis Linear & Multiple, Predictive modeling, forecasting Techniques, Data Mining - Definition, Approaches in Data Mining- Data Exploration & Reduction, Data mining and business intelligence, Data mining for business, Classification, Association, Cause Effect Model- ing, Overview of Linear Optimization, Non-Linear Programming Integer Optimization, Cutting Plane algorithm and other methods, Decision Analysis Risk and uncertainty methods - Text analytics Web analytics.",
+          "hours": 8
+        },
+        {
+          "title": "Business Analytics in Marketing and Finance",
+          "topics": "Marketing Analytics, Customer segmentation, targeting, and positioning, Campaign management and ROI measurement, Data-driven marketing strategies. Financial Analytics - Risk management and credit scoring, financial forecasting and planning, Case studies: Financial performance improvement through analytics (Non-Statistical - Conceptual Treatment only).",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Mobile Journalism",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "Mobile Journalism",
+          "topics": "Definition, importance of mobile journalism in changing era. Need and Significance, Mobile Gener- ation, mobile influence on Journalism, Future of Mobile Journalism, Web news portal and E-paper, OTT- concept, content opportunity & scope",
+          "hours": 7
+        },
+        {
+          "title": "MOJO and Applications",
+          "topics": "Mobile Journalism Kits , Importance of Mobile journalism Apps, Usage of Photo, Video, audio edit- ing apps, Global adoption and its influence, MOJO in India, Citizen Journalism-blogs, vlogs, social media& podcasts.",
+          "hours": 7
+        },
+        {
+          "title": "Basic steps in Mobile Reporting",
+          "topics": "Mobile Journalism content, Mobile apps for reporting. Audio and video mobile applications, Script Writing and Presentation skills multi-media content management, managing social media, Impact of Mobile on Society",
+          "hours": 8
+        },
+        {
+          "title": "Planning-Scripting-Shooting-Editing-Publishing",
+          "topics": "Content Gathering for mobile journalism-news gathering, verification, editing etc,. Using technology and apps for content creation and editing. Platforms Of Media, Future of MoJo reporting, Mobile Regulation authorities , TRAI,MIB,AIMCR, Ethics in Mobile Journalism, Citizen Journalism.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Property Law",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Concepts, Meaning and types of Properties (Sections 1 to 9 of the T.P. Act, 1882) (",
+          "topics": "07 Hours ) Meaning of property , Kinds of property - Movable and immovable, tangible and intangible, existing and future, real and personal, Doctrine of notice, Meaning and Definition Transfer of Property , Prop- erties which may be transferred, Essentials of a valid transfer of property , Operation and method of transfer property , Procedural perspective for transfer of property .",
+          "hours": null
+        },
+        {
+          "title": "General Principles Relating to Transfer of Property (Sections 10 to 37) & (Sections",
+          "topics": "38 to 53A) ( 07 Hours ) Conditions restraining alienation, Transfers to unborn persons, Rule against perpetuity and direction for accumulation, Vested and contingent interests, Conditions precedent and subsequent, conditional transfers, Doctrine of Election and Apportionment. Doctrine of holding out, Feeding the grant by estoppels, Transfer Lis pendens, Fraudulent transfer , Doctrine of part performance",
+          "hours": null
+        },
+        {
+          "title": "Sales and Exchanges (Sections 54 to 57 and 118 to 121) with Mortgages (Sections",
+          "topics": "58 to 98) :-(08 Hours) Meaning and definition of Sale and Exchange, Distinction between sale and Exchange, Essentials of a valid sale, Parties to a sale, Formalities, Distinction between Sale and contract for sale, Registration of a contract for sale and effect of non-registration, Rights and liabilities of a buyer and seller, Discharge for encumbrances on sale, Exchange, Rights and liabilities of parties to exchange The Indian Regis- tration Act, 1908 (Section 17, 18 & 49): Documents of which registration is compulsory Documents of which registration is optional, Effect of non-registration of documents required to be registered. Definition of Mortgage - Types of mortgages, Mortgagor, Mortgagee, Mortgage money , Essentials of a valid mortgage and Formalities, Distinction between charge, mortgage, pledge, hypothecation and other security interests over property , Rights and liabilities of a mortgagor and mortgage , Doctrine of substituted security , Charge of immovable property , Marshalling",
+          "hours": null
+        },
+        {
+          "title": "Leases (Sections 105 to 117) & Gift and Transfers of Actionable Claims (Sections",
+          "topics": "122 to 129 and 3, 130 to 137) (08 Hours) Definition of lease, Lessor, lessee, premium and rent, Kinds of leases, Essentials of a valid lease and Formalities, Rights and liabilities of the lessee and Lessor, Term and determination of lease, Forfeiture and relief against forfeiture, Leases for agricultural purposes, Distinction between lease under the Transfer of Property Act, 1982 and the Maharashtra Rent Control Act, 1999 Definitions of Gift, Donor and Donee , Essentials of a valid gift, Revocation of gifts , Distinction between property and donatio mortis causa and gifts under Mohammedan law , Actionable claims : a) Definition, Formalities, and their importance in commercial transactions b) Requirement of notice to debtor, and effect of notice c) Rights and liabilities of transferor and transferee",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": "Open Electives for Semester III and Semester IV"
+}

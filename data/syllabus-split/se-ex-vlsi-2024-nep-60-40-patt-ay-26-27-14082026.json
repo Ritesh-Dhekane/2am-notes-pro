@@ -1,0 +1,570 @@
+{
+  "id": "se-ex-vlsi-2024-nep-60-40-patt-ay-26-27-14082026",
+  "kind": "programme",
+  "programme": "Second Year Engineering (Electronics Engineering - VLSI Design and Technology)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-201-ECV",
+      "title": "Electronics Circuits",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "MOSFET & its Analysis",
+          "topics": "Enhancement MOSFET: MOSFET DC Load line, AC equivalent circuit, Parameters. Non ideal characteristics : Finite output resistance, Body effect, Sub -threshold conduction, breakdown effects, temperature effect, effect of W/L ratio, Common source amplifier & anal-ysis, Source follower: circuit diagram, comparison with common source, Frequency response for CS amplifier. Comparison between BJT & MOSFET. Mapping of Course Outcomes for Unit I CO1: Assimilate the physics, characteristics and parameters of MOSFET towards its application as amplifier.",
+          "hours": 8
+        },
+        {
+          "title": "MOSFET Circuits",
+          "topics": "MOSFET as switch, CMOS inverter, resistor & diode. Current sink & source, Current mirror. Types of feedback, Four types of feedback topologies, Effects of feedback, Voltage series & current series feedback amplifiers and analysis. Barkhausen criterion, Types of Oscillator, RC phase shift oscillator, Crystal Oscillator. Mapping of Course Outcomes for Unit II CO2: Design MOSFET amplifiers, with and without feedback, & MOSFET oscillators, for given specifications.",
+          "hours": 8
+        },
+        {
+          "title": "Operational amplifier and linear Applications",
+          "topics": "Block diagram, Op amp parameters, Current mirror, Op -amp characteristics (AC & DC). Invert - ing amplifier (Voltage series), non-inverting amplifier(voltage shunt), Effect on Ri, Ro, gain & bandwidth., Voltage follower, Summing amplifier, Differential amplifier, Practical integrator, first Order Low pass, Practical differentiator, High Pass Filter, Precision half-wave Rectifier Mapping of Course Outcomes for Unit III CO3: Design, Build and test Op-amp based analog signal processing and conditioning circuits towards various real time applications.",
+          "hours": 9
+        },
+        {
+          "title": "Op-amp and Non Linear Applications",
+          "topics": "Comparator, Schmitt trigger, Square & triangular wave generator, PWM Generator DAC & ADC : Resistor weighted and R -2R DAC, SAR, Flash and dual slope ADC Types / Tech - niques, Characteristics, block diagrams, Circuits, Specifications, Merits, Demerits, Compar- isons. Mapping of Course Outcomes for Unit IV CO4: Understand and compare the principles of various data conversion techniques and PLL with their applications.",
+          "hours": 9
+        },
+        {
+          "title": "Voltage Regulators",
+          "topics": "Three terminal voltage regulators : Block diagram of power supply, transistor series voltage regulator Types: Fixed and Variable, Block diagram of linear voltage regulator, IC 317 and IC337, Features and specifications, typical circuits, current boosting, Low Dropout Regulator (LDO). SMPS: Block diagram, Types, features and specifications, typical circuits buck and boost con- verter Mapping of Course Outcomes for Unit V CO5: Analyze and assess the performance of linear and switching regulators, with their vari- ants, towards applications in regulated power supplies. Mapping of Course Outcomes for Unit V: CO5",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-202-ECV",
+      "title": "Engg Mathematics-III",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Linear Differential Equations (LDE) and Applications",
+          "topics": "LDE of nth order with constant coefficients, Complementary Function, Particular Integral, Gen- eral method, Short methods, Method of variation of parameters, Cauchys and Legendres dif- ferential equations, Simultaneous differential equations, Modeling of electrical circuits.",
+          "hours": 9
+        },
+        {
+          "title": "Numerical Methods",
+          "topics": "Interpolation: Finite Differences, Newtons and Lagranges interpolation formulae, Numerical differentiation. Numerical Integration: Trapezoidal and Simpsons rules, Bound of truncation error. Solution of ordinary differential equations: Eulers method, Modified Eulers method, Runge- Kutta 4th order method, Predictor-Corrector methods.",
+          "hours": 9
+        },
+        {
+          "title": "Fourier and Z-Transforms",
+          "topics": "Fourier Transform (FT): Complex exponential form of Fourier series, Fourier integral represen- tation, Fourier sine and cosine integrals, Fourier transform, Fourier sine and cosine transforms and their inverses. Z-Transform (ZT): Introduction, Definition, Standard properties, ZT of standard sequences and their inverses, Solution of difference equations.",
+          "hours": 9
+        },
+        {
+          "title": "Vector Calculus",
+          "topics": "Vector differentiation: Gradient, Divergence and Curl, Directional derivative, Solenoidal and Irrotational fields, Vector identities. Vector integration: Line, Surface and Volume integrals, Greens Lemma, Gausss Divergence theorem and Stokes theorem. Applications to problems in Electro-magnetic fields.",
+          "hours": 9
+        },
+        {
+          "title": "Statistics and Probability",
+          "topics": "Statistics: Measures of central tendency, Measures of dispersion, Coefficient of variation, Mo - ments, Skewness and Kurtosis, Correlation and Regression, Reliability of Regression estimates. Probability: Probability density function, Probability distributions Binomial, Poisson, Normal. Test of Hypothesis: Chi-square test.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-203-ECV",
+      "title": "Digital Electronics",
+      "semester": 3,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Combinational Logic Design",
+          "topics": "Definition of combinational logic, Standard representations for logic functions, k -map repre - sentation of logic functions (SOP and POS forms), minimization of logical functions for min-terms and max-terms (upto 4 variables), dont care conditions, Design Examples: Half Adder, Full adder, Half Subtractor, Full Subtractor, Adder and their use as subtractor, look ahead carry generator, Code converters (BCD to Gray, BCD to Excess-3, 4-bit Binary to Gray), 2-bit Comparator, Multiplexers, multiplexer trees, Demultiplexers, Demultiplexer trees and 3: 8 Decoders. Exemplar: Arithmetic Logic Unit (ALU), Scientific calculator, computing engines, industrial control systems, consumer electronics. Mapping of Course Outcomes for Unit I: CO1",
+          "hours": 9
+        },
+        {
+          "title": "Sequential Logic Design",
+          "topics": "1-Bit Memory Cell/latch, Clocked SR flip flop, J-K flip flop, M-S J-K flip flop, D and T flip- flops. Use of preset and clear terminals in flip flops, Excitation Table for flip flops, Conversion of flip flops, Registers, Shift registers, Counters (ring counters, twisted ring counters), ripple counters, Mod-n counters, up/down counters, synchronous counters, Sequence Generators using flip flops. Exemplar: Memories, Rolling display boards, Microprocessors, Consumer electronics. Mapping of Course Outcomes for Unit II: CO2",
+          "hours": 9
+        },
+        {
+          "title": "State Machines",
+          "topics": "Moore and Mealy machines, State diagram, State table, State reduction, State assignment, Finite state machine implementation, Sequence detector. Introduction to Algorithmic state machines- construction of ASM chart and realization for sequential circuits. Exemplar: ATM machine, vending machine and traffic lights Mapping of Course Outcomes for Unit III: CO3",
+          "hours": 9
+        },
+        {
+          "title": "Digital Logic Family and Programmable Logic Devices",
+          "topics": "Digital Logic Family : Performance parameters of digital ICs - fan in, fan out, noise margin, propagation delay, power dissipation. Operation of TTL NAND gate. CMOS inverter, NAND, NOR gates. Comparison of CMOS and TTL. Programmable Logic Devices: Detail architecture of PROM, PAL, PLA and Designing combi- national circuits using PLDs. General Architecture and specifications of FPGA and CPLD. Exemplar: High speed computing boards, automotive electronics Mapping of Course Outcomes for Unit IV: CO4",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to VHDL",
+          "topics": "Introduction to Library, Entity and Architecture Modeling styles, Data objects, Concurrent and sequential statements, Design examples using VHDL for basic gates, full adder, full subtractor, multiplexer and D & T flip-flops using behavioral modelling style. Exemplar: Hardware lock and serial port communication. Mapping of Course Outcomes for Unit V: CO5",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-204-ECV",
+      "title": "Electronics Circuits & Digital Electronics Lab",
+      "semester": 3,
+      "type": "Program Core Course-Lab",
+      "credits": 1,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective - I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-221-ECV",
+      "title": "Data Structures & Algorithms",
+      "semester": 3,
+      "type": "Multi-disciplinary Minor",
+      "credits": 3,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures and Complexity Analysis",
+          "topics": "Overview of Data Structures Linear vs. Non-linear structures, Abstract Data Types (ADT), Algorithm Analysis Time and Space Complexity, Asymptotic Notations Big O, Omega, Theta, Best, Worst, and Average Case Analysis, Searching Algorithms Linear Search, Binary Search, Sorting Algorithms Bubble, Selection, Insertion",
+          "hours": 9
+        },
+        {
+          "title": "Stack and Queue",
+          "topics": "Stack Implementation using Arrays, Applications (Infix to Postfix, Expression Evaluation), Queue Implementation, Circular Queue, Priority Queue",
+          "hours": 9
+        },
+        {
+          "title": "Linked List",
+          "topics": "Pointers: Basic concepts, Pointer declaration and initialisation, Dynamic Memory Allocation (malloc, calloc, realloc, free), Linked Lists Singly, Doubly, and Circular Linked Lists; Stack and Queue implementation using Linked list",
+          "hours": 9
+        },
+        {
+          "title": "Non-linear Data Structure: Tree",
+          "topics": "Trees Terminology, Binary Trees, Binary Search Trees (BST), Operations, Tree Traversals Inorder, Preorder, Postorder (Recursive and Iterative)",
+          "hours": 9
+        },
+        {
+          "title": "Non-linear Data Structure: Graphs",
+          "topics": "Graphs: Representation (Adjacency Matrix/List), Traversal: BFS, DFS; Minimum Spanning Tree (Prims and Kruskals Algorithm)",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "MDM-222-ECV",
+      "title": "Data Structures & Algorithms Lab",
+      "semester": 3,
+      "type": "Multi-disciplinary Minor",
+      "credits": 1,
+      "pages": [
+        29,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "EEM-231-ECV",
+      "title": "Engineering Economics & Applications",
+      "semester": 3,
+      "type": "Entrepreneurship / Economics / Management",
+      "credits": 2,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Theories and Laws of Economics for Engineers",
+          "topics": "Introduction to Engineering Economics, Basic economic concepts: Utility, scarcity, opportunity cost, Economic systems and firm objectives, Laws of demand and supply, elasticity, Value, wealth, and equilibrium price, Time value of money (Present Value, Future Value, annuity basics)",
+          "hours": 4
+        },
+        {
+          "title": "Principles of Engineering Economics and Costing",
+          "topics": "Demand forecasting techniques and applications in tech markets, Cost behaviour: Fixed, vari- able, marginal, total, Cost-volume-profit and break-even analysis, Decision-making under un- certainty (intro to decision theory), Economies of scale in electronics manufacturing",
+          "hours": 4
+        },
+        {
+          "title": "Applications of Economics in Electronics Industry",
+          "topics": "Market structures: Perfect competition, monopoly, monopolistic competition, Pricing strate- gies and product lifecycle costing, Game theory basics and strategic behaviour, Make-or-buy decisions and Value Engineering in electronics, Kaizen and productivity in technical operations",
+          "hours": 4
+        },
+        {
+          "title": "Investment Analysis and Applied Macroeconomics",
+          "topics": "Capital budgeting: Payback period, Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index, Equipment replacement decisions, Overview of macroeconomic indicators: Gross Domestic Product (GDP), Consumer Price Index (CPI), Business cycles, inflation, intere st rates, and impact, CSR, sustainability, and policy impacts on tech firms, Exposure to areas like IPR, R&D, and innovation economics Extra two practicals shall be based on the syllabus of all units apart from the following list: Any Six practicals can be carried out, below list: 1. Case examples from electronics industries (e.g., Telecom spectrum pricing, consumer electronics) 2. Excel-based Time Value of Money (TVM) computations 3. Forecast demand for a telecom device (Routing and Switching Networking communica- tion devices /AI enabled Smart IOT devices and sensor) 4. Perform break-even and Cost-Volume-Profit (CVP) analysis using spreadsheets 5. Case study: Comparison of Pricing strategy between two service providers such as of Jio, Airtel, BSNL etc. 6. To carryout mini project based on market and pricing strategy analysis of a smart device or IoT product 7. Evaluate a small-scale engineering project (e....",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "VEC-232-ECV",
+      "title": "Universal Human Values & Professional Ethics",
+      "semester": 3,
+      "type": "Value Education",
+      "credits": 2,
+      "pages": [
+        35,
+        37
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "i. Understanding Value Education ii. Self-exploration as the Process for Value Education iii. Continuous Happiness and Prosperity- the Basic Human Aspirations and their Fulfilment iv. Right Understanding, Relationship and Physical Facility v. Happiness and Prosperity- Current Scenario vi. Method to Fulfil the Basic Human Aspirations",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "i. Understanding Human being as the Co-existence of the Self and the Body ii. Distinguishing between the Needs of the Self and the Body iii. The Body as an Instrument of the Self iv. Understanding Harmony in the Self v. Harmony of the Self with the Body vi. Programme to Ensure self-regulation and Health",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "i. Harmony in the Family- the Basic Unit of Human Interaction \"Trust\"- the Foundational Value in Relationship ii. ‘Respect’- as the Right Evaluation iii. Values in Human-to-Human Relationship iv. Understanding Harmony in the Society v. Vision for the Universal Human Order",
+          "hours": 8
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "i. Understanding Harmony in the Nature ii. Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Na- ture iii. Realizing Existence as Co-existence at All Levels iv. The Holistic Perception of Harmony in Existence v. Professional Ethics in the light of Right Understanding vi. Strategies for Transition towards Value-based Life and Profession",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP-241-ECV",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        38,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-251-ECV",
+      "title": "Communication Engineering",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Communication System",
+          "topics": "Introduction to Communication System, Block Diagram of Communication System, Types of Communication System: Analog, Digital, Wired and Wireless, Regenerative repeaters, Types of Noise: External and Internal , Noise Calculations , Noise Figure, Concept of baseband and bandpass signals, Signal Energy and Energy Spectral Density, Signal Power and Power Spectral Density Mapping of Course Outcomes for Unit I CO1: Understand fundamentals of communication systems",
+          "hours": 9
+        },
+        {
+          "title": "Amplitude Modulation and Demodulation Techniques",
+          "topics": "Need of Modulation, Amplitude Modulation (AM), Types of AM, Modulation Index, Spectrum of AM, Double Sideband Suppressed Carrier (DSB-SC) Modulation, Single Sideband Modula- tion (SSB), Vestigial Sideband Modulation (VSB), Power Efficiency, Envelope Detection, AM receiver. Mapping of Course Outcomes for Unit II CO2: Apply amplitude modulation and demodulation techniques to analyze AM system per- formance.",
+          "hours": 9
+        },
+        {
+          "title": "Frequency modulation and demodulation Techniques",
+          "topics": "Concept of FM, Modulation index, Spectrum, bandwidth, power and Relationship between Phase Modulation (PM) and Frequency modulation, features of Bessel coefficient, Narrow band and wideband FM, FM modulator and demodulator-FM generation by Armstrong ’s method, FM detection using PLL Mapping of Course Outcomes for Unit III CO3: Apply frequency modulation and demodulation techniques to analyze FM system perfor- mance.",
+          "hours": 9
+        },
+        {
+          "title": "Pulse Modulation Techniques",
+          "topics": "Need of analog to digital conversion, sampling theorem, Nyquist criteria, Types of sampling: Natural and Flat top. Pulse Amplitude Modulation (PAM), Pulse Width Modulation (PWM) and Pulse Position Modulation (PPM), Data formats (RZ,NRZ, UNIPOLAR,BIPOLAR, AMI, Manch-ester and its properties) Quantization of Signals: Quantization error, Type of Quantization: Uniform & Non-Uniform Quantization, Concept of Companding, Generation & Reconstruction of PCM, Delta Modulation, Adaptive Delta Modulation, Mapping of Course Outcomes for Unit IV CO4: Examine analog to digital conversion techniques and Execute pulse modulation schemes for digital communication systems.",
+          "hours": 9
+        },
+        {
+          "title": "Applications of Communication Engineering",
+          "topics": "Case study: Applications of communication systems, with a focus on their real-world relevance, working principles, and functional blocks. Two-Way Radio Communication (Walkie-Talkies) FM Radio Broadcasting Aviation and Marine Communication Television Fundamentals. Mapping of Course Outcomes for Unit V CO5: Identify and interpret real-world applications of communication systems.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-252-ECV",
+      "title": "Signals and Systems",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        45,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction to Signals",
+          "topics": "Signals: Introduction, Continuous and Discrete time signals representation: Graphical, Func - tional, Tabular and Sequence. Basic Elementary signals and their relationships: Unit Impulse, Unit step, Unit ramp, Unit parabolic, rectangular pulse, Triangular, Signum, Si nusoidal, Real exponential, Complex exponential, Sinc, and Gaussian function. Operations on signals (CT and DT): Amplitude scaling, signal addition, subtraction, signal multiplication, signal differentiation, signal integration, difference, accumulation, time shift- ing, time reversal, and time scaling. Classification of signals (CT and DT): Deterministic and Random, Periodic and Non -periodic, Even and odd, Energy and Power, and Stationary and non-stationary. Mapping of Course Outcomes for Unit I CO1: Develop the mathematical equations of continuous and discrete time signals and perform fundamental operations on signals and Categorize signals into different categories",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Systems",
+          "topics": "Introduction to systems: Communication, control etc., Classification of systems using input - output relationship: static and dynamic, causal and non -causal, Linear and Non - linear, time variant and time invariant, stable and unstable, invertible and non - invertible. Linear Time Invariant (LTI) systems, impulse response, basic concepts of Finite Impulse Response (FIR) and Infinite Impulse Response (IIR), FIR and IIR system structures, comparison and applications of FIR and IIR systems. Exemplar: Applications of FIR and IIR systems. Mapping of Course Outcomes for Unit II CO2: Analyze different systems by applying the knowledge of system classification.",
+          "hours": 9
+        },
+        {
+          "title": "Time-domain Analysis of LTI Systems and Applications",
+          "topics": "Introduction to convolution, cconvolution sum, methods of finding convolution sum: tabu- lar and graphical, convolution integral, computation of convolution integral using graphical method for unit step to unit step, unit step to exponential, exponential to exponential, unit step to rectangular and rectangular to rectangular only. Properties of convolution sum and convolution integral. System interconnection, system properties in terms of impulse response, step response in terms of impulse response. Exemplar: Introduction to the modern applications of the convolution; (i) Speech recogni- tion and natural language processing (NLP): Voice Assistants, Real-Time Translation, Medi- cal Speech Processing, (ii) Convolutional Neural Networks (CNNs): Facial Recognition, Self- Driving Cars, Medical Imaging, Augmented Reality (AR) Mapping of Course Outcomes for Unit III CO3: Find response of a system for any arbitrary input signal using the convolution process and aware of its modern applications. Test the system stability using the impulse response.",
+          "hours": 9
+        },
+        {
+          "title": "Fourier Analysis and Applications",
+          "topics": "Introduction to Fourier Series: Fourier Series (FS) representation of periodic Continuous -Time (CT) signals using trigonometric and exponential forms, Dirichlet conditions for the existence of Fourier Series, Gibbs phenomenon. Fourier Transform (FT): Fourier Transform represen-tation of aperiodic CT signals; Dirichlet conditions for the existence of Fourier Transform; evaluation of magnitude and phase response; Fourier Transform of standard CT signals; prop-erties and their significance; interplay between time and frequency domains using sinc and rectangular signals; Fourier Transform for periodic signals Exemplar: Applications of Fourier Transform in spectral analysis, communication, filtering, and biomedical signal processing. Mapping of Course Outcomes for Unit IV CO4: Analyze and resolve the signals in frequency domain using Fourier Transform.",
+          "hours": 9
+        },
+        {
+          "title": "Laplace Transform and Applications",
+          "topics": "Definition of Laplace transform, Limitations of Fourier transform and need of Laplace trans-form, ROC, Properties of ROC, Laplace transform of standard periodic and aperiodic functions, properties of Laplace transform and their significance, Laplace transf orm evaluation using properties, Inverse Laplace transform based on partial fraction expansion, stability consid - erations in S domain, Application of Laplace Transforms: RL, RC, RLC Circuit analysis, transfer function and impulse response. Exemplar: Feedback Inverted Pendulum. Mapping of Course Outcomes for Unit V CO5: Apply Laplace transform for continuous time signals and perform system analysis.",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-253-ECV",
+      "title": "FPGA Based System Design",
+      "semester": 4,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        48,
+        49
+      ],
+      "units": [
+        {
+          "title": "Overview of FPGA Architectures and Technologies",
+          "topics": "Introduction to FPGA Architecture, FPGA Architectural options, coarse vs fine grained, vendor specific issues, Antifuse, SRAM and EPROM based FPGAs, FPGA logic cells, interconnection network, routing mattrix and I/O Pads. Mapping of Course Outcomes for Unit I: CO1: Understand the FPGA Architecture",
+          "hours": 9
+        },
+        {
+          "title": "FPGA Design Flow",
+          "topics": "FPGA design flow. Architecture design. Project design using Verilog Hardware Description Lan - guage (HDL). Defining testing methodology and test bench, design. RTL, synthesis, implemen - tation, gate level design. Reusing of internal hard modules during design and implementation. Mapping of Course Outcomes for Unit II: CO2: Understand FPGA Design flow",
+          "hours": 9
+        },
+        {
+          "title": "Verilog HDL",
+          "topics": "Introduction to HDL, Verilog HDL Coding Style: Lexical Conventions - Ports and Modules Operators - Gate Level Modeling - System Tasks & Compiler Directives - Test Bench - Data Flow Modeling - Behavioral Level Modeling -Tasks & Functions. Mapping of Course Outcomes for Unit III: CO3: Design and model digital circuits with Verilog HDL at behavioral, structural, and RTL Levels",
+          "hours": 9
+        },
+        {
+          "title": "Verilog Modelling",
+          "topics": "Verilog Modelling of Combinational and Sequential Circuits: Behavioral, Data Flow and Struc - tural Realization of Adders, Multiplexers, Comparators, Flip Flops, Shift Register, Realization of a Counter: Synchronous and Asynchronous, Pseudo Random LFSR (Linear Feedback Shift Register), Cyclic Redundancy Check. Mapping of Course Outcomes for Unit IV: CO4: Model Combinational and sequential digital circuits by Verilog HDL",
+          "hours": 9
+        },
+        {
+          "title": "Synchronous Sequential Circuits",
+          "topics": "Design examples: Sequence detector, Serial adder, Embedded system design using FPGAs, reconfigurable systems, Traffic light Controller, Real Time Clock. LCD Interfacing, Vending machine, Sequence Generator. Mapping of Course Outcomes for Unit V: CO5: Design and optimize complex sequential digital circuits",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-254-ECV",
+      "title": "FPGA Based System Design Lab",
+      "semester": 4,
+      "type": "Program Core Course-Lab",
+      "credits": 1,
+      "pages": [
+        50,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective - II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-271-ECV",
+      "title": "Object-Oriented Programming",
+      "semester": 4,
+      "type": "Multi-disciplinary Minor",
+      "credits": 2,
+      "pages": [
+        51,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction to OOP Concepts",
+          "topics": "Introduction to procedural programming, Limitations of procedural programming, Need of object- oriented programming, Fundamentals of object -oriented programming :Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism, Basics of C++ programming, Functions, Inline functions, Default arguments, Reference variables, Dynamic initialization of variables, memory management operators, Member dereferencing operators, operator precedence, typecast operators, Scope resolution operators. Creating Classes and Objects, Access Specifiers Mapping of Course Outcomes for Unit I CO1: Explain concepts of Object-Oriented Programming using C++.",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Core Java",
+          "topics": "Evolution of Java, Features of Java, Java Virtual Machine (JVM), Java Runtime Environment (JRE), Java Development Kit (JDK), Structure of a Java Program, Compilation and Execution Process. Java Syntax: Data Types, Variables, Operators, Control Statements a nd Loops. Creating Classes and Objects using JAVA. Constructors, method overloading, Static members and Methods, this pointer, Garbage collection, finalize methods, final variables and methods, final class. Mapping of Course Outcomes for Unit II CO2: : Implement classes, objects, constructors, and destructor concepts in JAVA to build modular programs.",
+          "hours": 9
+        },
+        {
+          "title": "Inheritance and Polymorphism",
+          "topics": "Types of Inheritance in Java (Single, Multilevel, Hierarchical), Method Overriding, Dynamic Method Dispatch, Use of super and final keywords, Abstract Methods and classes, One dimensional and two dimensional arrays , wrapper classes.. Mapping of Course Outcomes for Unit III CO3: Analyze and design JAVA codes using abstract classes, inheritance and polymorphism",
+          "hours": 9
+        },
+        {
+          "title": "Interfaces and Packages",
+          "topics": "Interfaces: Introduction to Interfaces, Multiple Inheritance using Interfaces, Using static method in interface , Functional Interfaces and Lambda Expressions. Packages: Java API Packages, Using System Packages, Creating accessing and using a package, Importing packages, Adding a class to a Package, Hiding classes Mapping of Course Outcomes for Unit IV CO4: CO4: Evaluate the concept of interfaces & packages.",
+          "hours": 9
+        },
+        {
+          "title": "Multithreading and Exception Handling",
+          "topics": "Introduction to multithreading: Introduction, Creating thread and extending thread class. Concept of Exception handling: Introduction, Types of errors, Exception handling syntax, Multiple catch statements, Creating Custom Exceptions. Mini Project: Real world application using JAVA Mapping of Course Outcomes for Unit V CO5 : Design and implement JAVA based mini project",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-255-ECV",
+      "title": "Signals & Systems and Object-Oriented Programming Lab",
+      "semester": 4,
+      "type": "Program Core Course-Lab",
+      "credits": 1,
+      "pages": [
+        54,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE-281-ECV",
+      "title": "Electronics Skill Development Lab",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        57,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-282-ECV",
+      "title": "Modern Indian Languages (Marathi/Hindi)",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        59,
+        61
+      ],
+      "units": [
+        {
+          "title": "& II - (07 & 08 Hours)",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "& IV - (07 & 08 Hours)",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "EEM-283-ECV",
+      "title": "Entrepreneurship Skill Development",
+      "semester": 4,
+      "type": "Entrepreneurship / Economics / Management",
+      "credits": 2,
+      "pages": [
+        62,
+        68
+      ],
+      "units": [
+        {
+          "title": "Introduction to Entrepreneurship",
+          "topics": "Forms of Business Organization – Sole proprietorship, partnership, private limited, public limited. Entrepreneurial Mindset: Growth mindset and adaptability, Creativity and problem-solving, Oppor- tunity recognition and initiative-taking Overview of the Startup Ecosystem: Key stakeholders: Incubators, accelerators, angel investors, VCs, Government support schemes (Startup India, Atal Innovation Mission, etc.), Global vs. Indian startup ecosystems Case Study: 1. Ritesh Agarwal – Founder of OYO Rooms (India) 2. Falguni Nayar – Founder of Nykaa (India) 3. Nandan Nilekani – Co-founder of Infosys & Architect of Aadhaar (India) etc. Creativity Techniques for Idea Generation: Definition and importance of creativity in entrepreneur - ship. Brainstorming: Rules of effective brainstorming. Individual vs. group brainstorming. Mind Mapping: Visual idea structuring using central themes and bra nches. Tools (manual and digital) for mind mapping. Understanding Customer Needs and Pain Points: Customer pain points and their identification, Problem-solution fit: Linking pain points to possible solutions. Observational techniques, user in - terviews, and empathy mapping. Evaluating Opportunities: ...",
+          "hours": null
+        },
+        {
+          "title": "Business Model Development",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Idea Generation & Opportunity Recognition",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Marketing Strategies & Customer Acquisition",
+          "topics": "Basics of Branding and Positioning: Introduction to Brand – Elements of brand identity: name, logo, voice, tone, and values. Positioning – How to create a unique space in the customer’s mind. Position-ing maps, Value-based positioning vs. competitor-based positioning Startup Branding Challenges – Limited budget, building trust, clarity in messaging. Costing & Pricing Strategies – Fixed vs. variable costs, break-even analysis. Introduction to Digital Marketing: Distribution Channels: Traditional vs. digital distribution. Social Media Marketing: Platforms overview (Instagram, LinkedIn, Facebook, X/Twitter) Creating a content strategy and calendar Organic vs. paid reach Search Engine Optimization (SEO): Basics of how search engines work, Keyword research and con-tent optimization, On-page vs. off-page SEO Importance of Digital Presence – Website essentials, blogs, and analytics tools. Customer Acquisition Strategies: Understanding the Customer Journey – Awareness, interest, deci- sion, action. Early-Stage Customer Acquisition Tactics: Word-of-mouth & referrals, Influencer mar- keting (micro-influencers), Email marketing basics, building a landing page and collecting leads Retention...",
+          "hours": null
+        },
+        {
+          "title": "Pitching & Business Communication",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VEC-284-ECV",
+      "title": "Environment Awareness",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        69,
+        71
+      ],
+      "units": [
+        {
+          "title": "Environment and its Issues",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Environment Pollution",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "e-Waste Managements and Acts",
+          "topics": "domestic e -waste disposal, Basic principles of e -waste management, Technologies for recovery of resources from electronic waste, resource recovery potential of e -waste, steps in recycling and recov - ery of materials - mechanical processing, technologies for recovery of materials, occupational and environmental health perspectives of recycling e-waste in India. Need for stringent health safeguards and environmental protection laws in India, Extended Produc-ers Responsibility (EPR), Import of e -waste permissions, Producer -Public-Government cooperation, Administrative Controls & Engineering controls, monitoring of compl iance of Rules, Effective regula tory mechanisms strengthened by manpower and technical expertise, Reduction of waste at source in India. Week Topic to be covered 1 Introduction : Group discussion and poster making on \"Why Environmental Studies Matter for Technologists\" 2 Eco Mapping: Identify and document elements of an ecosystem within the college campus 3 Model the Food Web: Create food chains and food webs using flowcharts (digital tools like Canva / Lucid chart) 4 Case Study Review: Present real-world examples of forest, grassland, and aquatic ecosystems ...",
+          "hours": null
+        },
+        {
+          "title": "e-Waste Control and Measures",
+          "topics": "Assignments",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

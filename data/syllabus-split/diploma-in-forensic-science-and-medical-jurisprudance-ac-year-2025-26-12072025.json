@@ -1,0 +1,195 @@
+{
+  "id": "diploma-in-forensic-science-and-medical-jurisprudance-ac-year-2025-26-12072025",
+  "kind": "programme",
+  "programme": "Diploma in Forensic Science and Medical Jurisprudence",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "Paper I",
+      "title": "Fundamentals of Forensic Science & Criminal Investigation",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Introduction to Forensic Science",
+          "topics": "Definition, nature, scope and history Objectives of forensic science Forensic science in civil vs. criminal matters Scientific principles in crime detection Importance in legal investigation",
+          "hours": null
+        },
+        {
+          "title": "Crime Scene Management",
+          "topics": "Types of crime scenes: primary, secondary, indoor, outdoor Crime scene security and protection Evidence collection and chain of custody Role of first responders Documentation (photography/sketching/notes)",
+          "hours": null
+        },
+        {
+          "title": "Forensic Experts and their Role",
+          "topics": "Firearm expert, forensic pathologist, DNA analyst, psychiatrist Admissibility of expert opinion (Sec 45, Bharatiya Sakshya Adhiniyam) Role in courtroom and testimony Training and certification of experts Challenges to expert reports",
+          "hours": null
+        },
+        {
+          "title": "Procedural Laws & Investigation (BNSS 2023)",
+          "topics": "FIR, police powers, arrest, inquest Magistrate’s power in investigation Examination of witnesses via commission Evidentiary value of scientific methods Summons and warrant procedures",
+          "hours": null
+        },
+        {
+          "title": "Evidentiary Framework (BSA 2023)",
+          "topics": "Oral, documentary and digital evidence Medical evidence: relevancy & weight Burden of proof in forensic cases Admissibility of forensic reports Landmark judgments on scientific evidence",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "Paper II",
+      "title": "Criminal Psychology, Lie Detection & Behavioural Forensics",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Basics of Criminal Psychology",
+          "topics": "Concept and scope Factors affecting criminal behaviour Psychological profiling of offenders Juvenile psychology and deviance Role of psychologist in criminal trials",
+          "hours": null
+        },
+        {
+          "title": "Lie Detection and Polygraph",
+          "topics": "Scientific basis and technique Types of questions and scoring Legal status in India Landmark SC guidelines (Selvi v. Karnataka) Evidentiary and ethical concerns",
+          "hours": null
+        },
+        {
+          "title": "Narcoanalysis and Brain Mapping",
+          "topics": "Principles of narcoanalysis Brain Electrical Oscillation Signature Profiling (BEOSP) Role in criminal investigation SC and NHRC guidelines Consent and privacy rights",
+          "hours": null
+        },
+        {
+          "title": "Handwriting & Signature Analysis",
+          "topics": "Science of handwriting examination Forgery and disputed documents Role of handwriting expert Evidentiary value under new laws Analysis techniques and recent cases",
+          "hours": null
+        },
+        {
+          "title": "Behavioural Science in Legal Context",
+          "topics": "Role of psychiatry in assessing legal insanity Mentally ill offenders – treatment vs. punishment Psychopathy and serial killers Section 367(1), BNSS 2023 on mental illness Case analysis – Nirbhaya, Noida murders, etc.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "Paper III",
+      "title": "Forensic Specialisations: Toxicology, Ballistics, Cyber and Digital Evidence",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Forensic Toxicology",
+          "topics": "Definition and scope Poisons: classification and symptoms Narcotic drugs: opium, cocaine, cannabis Alcohol intoxication tests Legal framework under Narcotic Drugs and Psychotropic Substances Act, 1985 & BNSS 2023",
+          "hours": null
+        },
+        {
+          "title": "Forensic Ballistics",
+          "topics": "Classification of firearms Internal, external and terminal ballistics Gunshot wounds and cartridge analysis Arms Act, 1959 – forensic relevance Admissibility of ballistic reports",
+          "hours": null
+        },
+        {
+          "title": "Fingerprints and Biometrics",
+          "topics": "Types of fingerprints Methods of collection and preservation AFIS and biometric databases Legal value in identification Role in Aadhaar and law enforcement",
+          "hours": null
+        },
+        {
+          "title": "Cyber Forensics",
+          "topics": "Definition and types of cybercrime Social media crimes, hacking, identity theft Data acquisition and imaging IT Act 2000 and BNSS 2023 provisions Cybercrime case investigation workflow",
+          "hours": null
+        },
+        {
+          "title": "Digital Evidence and Mobile Forensics",
+          "topics": "Extraction tools and metadata Email and browser analysis Cloud forensics Chain of custody in digital evidence Landmark cases on digital admissibility",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "Paper IV",
+      "title": "Medical Jurisprudence, Negligence & Human Rights in Medical Practice",
+      "semester": null,
+      "type": "Theory",
+      "credits": null,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Introduction to Medical Jurisprudence",
+          "topics": "Definition and history Importance in legal field Consent in medical examination Ethics vs legality Duties of a medical practitioner",
+          "hours": null
+        },
+        {
+          "title": "Post-mortem and Wound Analysis",
+          "topics": "Medico-legal autopsy vs clinical autopsy Rigor mortis, putrefaction, livor mortis Head injury, stab wounds, firearm injuries Time since death and cause of death Exhumation and inquest",
+          "hours": null
+        },
+        {
+          "title": "Sexual Offences and the Protection of Children from Sexual Offences Act,",
+          "topics": "(POCSO) Forensic evidence in rape & sexual assault Guidelines for medical exam of victims Role of doctors under BNS Sec. 63-71 Age determination and POCSO Rehabilitation and mental health",
+          "hours": null
+        },
+        {
+          "title": "Medical Negligence and Legal Remedies",
+          "topics": "Civil vs. criminal negligence Landmark SC cases Consumer Protection Act 2019 and medical accountability Expert testimony in negligence Professional misconduct",
+          "hours": null
+        },
+        {
+          "title": "Human Rights, Disability & Medical Law",
+          "topics": "Right to life and privacy (Art 21) Rights of HIV, disabled and mentally ill patients Euthanasia and living will (Common Cause v. India) Organ transplant law and ethical concerns NHRC & WHO protocols on custodial deaths Recommended Readings: C.K. Parikh, Medical Jurisprudence & Forensic Medicine Kevin J. Strom, Forensic Science & Administration of Justice Relevant Bare Acts – BNS 2023, BNSS 2023, BSA 2023, IT Act, CPA 2019",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "Paper V",
+      "title": "Practical Training, Case Study, Courtroom Exposure & Viva",
+      "semester": null,
+      "type": "Practical",
+      "credits": null,
+      "pages": [
+        10,
+        10
+      ],
+      "units": [
+        {
+          "title": "Report writing (30 marks)",
+          "topics": "Visit to: o Police Station/ o Forensic Lab/ o Government Hospital (Post-mortem Unit) Drafting Forensic Science Laboratory (FSL) reports and medico-legal documents",
+          "hours": null
+        },
+        {
+          "title": "Case Analysis (30 marks)",
+          "topics": "Ten landmark cases involving forensic evidence Preparation of analytical file",
+          "hours": null
+        },
+        {
+          "title": "Court Visit and Observation (20 marks)",
+          "topics": "Civil/criminal trial courtroom observation Interaction with public prosecutors and judges",
+          "hours": null
+        },
+        {
+          "title": "Viva Voce (20 marks)",
+          "topics": "Based on theory and practical training Conducted by internal and external faculty",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": "Annual pattern, one academic year"
+}
