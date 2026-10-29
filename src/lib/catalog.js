@@ -72,6 +72,7 @@ export const COURSES = [
   { id: 'BCA', name: 'BCA', full: 'Bachelor of Computer Applications' },
   { id: 'MBA', name: 'MBA', full: 'Master of Business Administration' },
   { id: 'BSc', name: 'B.Sc.', full: 'Bachelor of Science' },
+  { id: 'MSc', name: 'M.Sc.', full: 'Master of Science' },
 ]
 
 // The notes course a programme or course name belongs to, or undefined if it has no notes.
@@ -344,6 +345,49 @@ export const SEMESTERS = [
       },
     ],
   },
+  {
+    // M.Sc. Bioinformatics (NEP, syllabus 2023-24). Theory only so far; projects and seminar have no notes.
+    id: 'MSc-Sem-III-Bioinformatics',
+    course: 'MSc',
+    number: 3,
+    label: 'Semester III (Bioinformatics)',
+    short: 'Sem III Bioinformatics',
+    core: [
+      'immunology-and-immunoinformatics',
+      'comparative-genomics',
+      'molecular-modeling-and-simulations',
+      'scientific-data-mining-and-visualization',
+    ],
+    groups: [
+      {
+        id: 'elective',
+        label: 'Elective',
+        pick: 'one',
+        options: ['biology-of-diseases', 'pathways-and-networks'],
+      },
+    ],
+  },
+  {
+    id: 'MSc-Sem-IV-Bioinformatics',
+    course: 'MSc',
+    number: 4,
+    label: 'Semester IV (Bioinformatics)',
+    short: 'Sem IV Bioinformatics',
+    core: ['transcriptomics-and-proteomics', 'metabolic-engineering-and-systems-biology', 'modern-drug-design'],
+    groups: [
+      {
+        id: 'electives',
+        label: 'Electives',
+        pick: 2,
+        options: [
+          'translational-bioinformatics',
+          'advanced-genomics',
+          'advanced-molecular-phylogenetics',
+          'advanced-algorithms-in-machine-learning',
+        ],
+      },
+    ],
+  },
 ]
 
 const SUBJECTS = {
@@ -465,6 +509,21 @@ const SUBJECTS = {
   'commercial-mushroom-and-scp-production': { name: 'Commercial Mushroom and SCP Production', short: 'Mushroom & SCP', code: 'VSC-372-BOT-P', icon: TreeDeciduous, tint: '#84CC16', about: 'Vocational skill course (practical).' },
   'millets-for-sustainable-human-welfare': { name: 'Millets for Sustainable Human Welfare', short: 'Millets', code: 'VSC-373-BOT-P', icon: Wheat, tint: '#F97316', about: 'Vocational skill course (practical).' },
   'botany-on-job-training': { name: 'On Job Training (OJT) in Botany', short: 'OJT', code: 'BOT-381-OJT', icon: Tractor, tint: '#64748B', about: 'Training guide: plan, diary, report and viva.' },
+  // M.Sc. Bioinformatics, Semester III
+  'immunology-and-immunoinformatics': { name: 'Immunology and Immunoinformatics', short: 'Immunoinformatics', code: 'BIN 301', icon: ShieldHalf, tint: '#EF4444', about: 'Immune system, antigen receptors, epitope prediction and vaccine design.' },
+  'comparative-genomics': { name: 'Comparative Genomics', short: 'Comp. Genomics', code: 'BIN 302', icon: Dna, tint: '#8B5CF6', about: 'Genome comparison, synteny, polymorphism databases and GWAS.' },
+  'molecular-modeling-and-simulations': { name: 'Molecular Modeling & Simulations', short: 'Modeling', code: 'BIN 303', icon: Boxes, tint: '#3B82F6', about: 'Force fields, energy minimisation, molecular dynamics and docking.' },
+  'scientific-data-mining-and-visualization': { name: 'Scientific Data Mining and Visualization', short: 'Data Mining', code: 'BIN 304', icon: BarChart3, tint: '#14B8A6', about: 'Information theory, optimisation, machine learning and visualisation.' },
+  'biology-of-diseases': { name: 'Biology of Diseases', short: 'Diseases', code: 'BIE 306', icon: Stethoscope, tint: '#F43F5E', about: 'Elective: infectious and non-infectious diseases, human microbiome.' },
+  'pathways-and-networks': { name: 'Pathways & Networks', short: 'Networks', code: 'BIE 307', icon: Network, tint: '#F59E0B', about: 'Elective: gene regulatory and metabolic networks.' },
+  // M.Sc. Bioinformatics, Semester IV
+  'transcriptomics-and-proteomics': { name: 'Transcriptomics and Proteomics', short: 'Omics', code: 'BIN 403', icon: TestTubes, tint: '#8B5CF6', about: 'Gene expression, transcriptome and proteome analysis.' },
+  'metabolic-engineering-and-systems-biology': { name: 'Metabolic Engineering & Systems Biology', short: 'Systems Biology', code: 'BIN 404', icon: FlaskConical, tint: '#22C55E', about: 'Pathway modelling, flux balance analysis and metabolic engineering.' },
+  'modern-drug-design': { name: 'Modern Drug Design', short: 'Drug Design', code: 'BIN 405', icon: Beaker, tint: '#3B82F6', about: 'Ligand- and structure-based design, ADMET and pharmacogenomics.' },
+  'translational-bioinformatics': { name: 'Translational Bioinformatics', short: 'Translational', code: 'BIE 406', icon: Stethoscope, tint: '#14B8A6', about: 'Elective: clinical data, biomarkers and precision medicine.' },
+  'advanced-genomics': { name: 'Advanced Genomics', short: 'Adv. Genomics', code: 'BIE 407', icon: Dna, tint: '#A855F7', about: 'Elective: high-throughput sequencing, metagenomics and epigenomics.' },
+  'advanced-molecular-phylogenetics': { name: 'Advanced Molecular Phylogenetics', short: 'Phylogenetics', code: 'BIE 408', icon: ListTree, tint: '#84CC16', about: 'Elective: substitution models, Bayesian and alignment-free phylogeny.' },
+  'advanced-algorithms-in-machine-learning': { name: 'Advanced Algorithms in Machine Learning', short: 'Adv. ML', code: 'BIE 409', icon: BrainCircuit, tint: '#F97316', about: 'Elective: SVM, deep learning and biological transformers.' },
 }
 
 export function subjectInfo(slug) {
