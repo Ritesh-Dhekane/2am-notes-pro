@@ -1,7 +1,7 @@
 {
-  "id": "te-r-and-a-syllabus-sppu-2024-pattern",
+  "id": "revised-te-r-and-a-syllabus-sppu-2024-pattern-nep-27102026",
   "kind": "programme",
-  "programme": "TE (Robotics and Automation Engineering)",
+  "programme": "Third Year Robotics and Automation Engineering",
   "pattern": "2024",
   "language": "en",
   "subjects": [
@@ -9,7 +9,7 @@
       "code": "PCC301-ROA",
       "title": "Artificial Intelligence for Robotics",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 3,
       "pages": [
         14,
@@ -28,7 +28,7 @@
         },
         {
           "title": "Handling Uncertainty in Robotics",
-          "topics": "Probability concepts for robotics, Bayesian reasoning, sensor uncertainty and decision making under uncertainty. Kalman Filter (concept and application), Fuzzy Logic (fuzzy sets, membership functions, rule -based control) and applications in localization, sensor fusion and robot control.",
+          "topics": "Probability concepts for robotics, Bayesian reasoning, sensor uncertainty and decision making under uncertainty. Kalman Filter (concept and application), Fuzzy Logic (fuzzy sets, membership functions, rule-based control) and applications in localization, sensor fusion and robot control.",
           "hours": 8
         },
         {
@@ -38,7 +38,7 @@
         },
         {
           "title": "Machine Vision in Robotics and Intelligent Systems",
-          "topics": "Fundamentals of Digital Images and Processing: binary, grayscale and RGB images, centroid calculation (binary, grayscale, RGB), image resolution, digital image processing steps, smoothing, sharpening, thresholding, gradient and edge detection (Sobel, Prewitt, Roberts, LoG, Canny). Segmentation, Matching, Compression and Vision Systems: threshold, region, edge and K -Means segmentation; SSD and NCC; lossless (RLE, Huffman, LZW) and lossy (JPEG, DCT, Wavelet) compression; machine vision system, imaging-based sorting, inspection and robot guidance applications. Learning Resources",
+          "topics": "Fundamentals of Digital Images and Processing: binary, grayscale and RGB images, centroid calculation (binary, grayscale, RGB), image resolution, digital image processing steps, smoothing, sharpening, thresholding, gradient and edge detection (Sobel, Prewitt, Roberts, LoG, Canny). Segmentation, Matching, Compression and Vision Systems: threshold, region, edge and K-Means segmentation; SSD and NCC; lossless (RLE, Huffman, LZW) and lossy (JPEG, DCT, Wavelet) compression; machine vision system, imaging-based sorting, inspection and robot guidance applications.",
           "hours": 8
         }
       ]
@@ -47,7 +47,7 @@
       "code": "PCC302-ROA",
       "title": "Micro-processor and Micro-controller",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 3,
       "pages": [
         16,
@@ -76,16 +76,16 @@
         },
         {
           "title": "Application of Microcontrollers",
-          "topics": "Microcontrollers in Robotics, Microcontroller-Based Robot Control, Sensor Interfacing for Robots, Microcontroller-Based Automation. Learning Resources",
+          "topics": "Microcontrollers in Robotics, Microcontroller-Based Robot Control, Sensor Interfacing for Robots, Microcontroller-Based Automation.",
           "hours": 8
         }
       ]
     },
     {
-      "code": "PCC 303-ROA",
-      "title": "Robot Kinematics and Dynamics",
+      "code": "PCC303-ROA",
+      "title": "Robot Kinematics & Dynamics",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 3,
       "pages": [
         19,
@@ -114,7 +114,7 @@
         },
         {
           "title": "Trajectory Planning and Control",
-          "topics": "Trajectory Generation, Polynomial & Spline Trajectories, Trajectory Constraints, Control Architecture, Feedback Linearization, Simulation & Practical Implementation Learning Resources",
+          "topics": "Trajectory Generation, Polynomial & Spline Trajectories, Trajectory Constraints, Control Architectures, Feedback Linearization, Simulation & Practical Implementation",
           "hours": 8
         }
       ]
@@ -123,7 +123,7 @@
       "code": "PCC304-ROA",
       "title": "Micro-processor and Micro-controller Lab",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 1,
       "pages": [
         18,
@@ -135,7 +135,7 @@
       "code": "PCC305-ROA",
       "title": "Robot Kinematics and Dynamics Lab",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 1,
       "pages": [
         21,
@@ -144,10 +144,10 @@
       "units": []
     },
     {
-      "code": "PCC 306-ROA",
+      "code": "PCC306-ROA",
       "title": "Robot Programming Lab",
       "semester": 5,
-      "type": "PPC",
+      "type": "Program Core Course",
       "credits": 1,
       "pages": [
         22,
@@ -156,10 +156,10 @@
       "units": []
     },
     {
-      "code": "PEC 321-ROA (A)",
+      "code": "PEC321-ROA (A)",
       "title": "Computer Integrated Manufacturing",
       "semester": 5,
-      "type": "PEC-1",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         23,
@@ -168,11 +168,11 @@
       "units": [
         {
           "title": "Introduction to Computer Integrated Manufacturing",
-          "topics": "Introduction to manufacturing systems, evolution of manufacturing, conventional manufacturing versus automated manufacturing, concept and definition of CIM, need and scope of CIM, CIM wheel and CIM architecture. Elements of CIM system: CAD, CAM, CNC, robotics, automated material handling systems, manufacturing planning and control, databases and communication systems. Benefits, limitations, and applications of CIM in modern industries. Introduction to Industry 4.0 and smart manufacturing.",
+          "topics": "Introduction to manufacturing systems, evolution of manufacturing, conventional manufacturing versus automated manufacturing, concept and definition of CIM, need and scope of CIM, CIM wheel and CIM architecture. Elements of CIM system: CAD, CAM, CNC, robotics, automated material handling systems, manufacturing planning and control, databases and communication systems. Benefits, limitations and applications of CIM in modern industries. Introduction to Industry 4.0 and smart manufacturing.",
           "hours": 8
         },
         {
-          "title": "Computer-Aided Manufacturing",
+          "title": "Computer -Aided Manufacturing",
           "topics": "Fundamentals of CAD: geometric modeling, wireframe, surface and solid modeling, product data representation, computer graphics concepts. Computer-Aided Manufacturing: NC, CNC and DNC systems, CNC machine components, part programming concepts, adaptive control in manufacturing. Integration of CAD and CAM, computer-aided process planning (CAPP), applications of CAD/CAM in product development and manufacturing industries.",
           "hours": 8
         },
@@ -183,33 +183,21 @@
         },
         {
           "title": "Manufacturing Planning and Control Systems",
-          "topics": "Manufacturing planning and control functions, production planning and scheduling, inventory control systems, bill of materials and routing. Material Requirement Planning (MRP), Manufacturing Resource Planning (MRP -II), Enterprise Resource Planning (ERP) concepts. Shop floor control, production monitoring, quality control systems and database management in CIM. Computer communication and networking in manufacturing systems.",
+          "topics": "Manufacturing planning and control functions, production planning and scheduling, inventory control systems, bill of materials and routing. Material Requirement Planning (MRP), Manufacturing Resource Planning (MRP-II), Enterprise Resource Planning (ERP) concepts. Shop floor control, production monitoring, quality control systems and database management in CIM. Computer communication and networking in manufacturing systems.",
           "hours": 8
         },
         {
           "title": "Automation, Robotics and Modern Trends in CIM",
-          "topics": "Industrial automation concepts, types of automation, sensors and actuators used in automated manufacturing. Role of industrial robots in CIM, robot applications in material handling, welding, assembly, inspection and packaging. Introduction to automated inspection systems, machine vision systems and automated storage and retrieval systems (ASRS). Modern trends in CIM: IoT in manufacturing, digital twin, cloud manufacturing, cyber physical systems, smart factories and AI applications in manufacturing. Learning Resources",
+          "topics": "Industrial automation concepts, types of automation, sensors and actuators used in automated manufacturing. Role of industrial robots in CIM, robot applications in material handling, welding, assembly, inspection and packaging. Introduction to automated inspection systems, machine vision systems and automated storage and retrieval systems (ASRS). Modern trends in CIM: IoT in manufacturing, digital twin, cloud manufacturing, cyber physical systems, smart factories and AI applications in manufacturing.",
           "hours": 8
         }
       ]
     },
     {
-      "code": "PEC322-ROA (A)",
-      "title": "Computer Integrated Manufacturing Lab",
-      "semester": 5,
-      "type": "PEC",
-      "credits": 1,
-      "pages": [
-        25,
-        25
-      ],
-      "units": []
-    },
-    {
       "code": "PEC321-ROA (B)",
       "title": "Modeling and Simulation",
       "semester": 5,
-      "type": "PEC-1",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         26,
@@ -238,28 +226,16 @@
         },
         {
           "title": "Simulation of Robotics, Manufacturing and Automation Systems",
-          "topics": "Need of simulation in robotics and automation systems, components of robotic and manufacturing systems – product, resources, demand, control, downtime, failures, rework, reentrancy, random events, performance measures in robotic and manufacturing systems, simulation of material handling systems, automated conveyor systems, AGVs and mobile robots, job shop simulation, flexible manufacturing systems (FMS), digital factory concepts, in troduction to simulation software tools, case study on a robotic manufacturing system. Learning Resources",
+          "topics": "Need of simulation in robotics and automation systems, components of robotic and manufacturing systems – product, resources, demand, control, downtime, failures, rework, reentrancy, random events, performance measures in robotic and manufacturing systems, simulation of material handling systems, automated conveyor systems, AGVs and mobile robots, job shop simulation, flexible manufacturing systems (FMS), digital factory concepts, introduction to simulation software tools, case study on a robotic manufacturing system.",
           "hours": 8
         }
       ]
     },
     {
-      "code": "PEC322-ROA (B)",
-      "title": "Modeling and Simulation Lab",
-      "semester": 5,
-      "type": "PEC",
-      "credits": 1,
-      "pages": [
-        28,
-        28
-      ],
-      "units": []
-    },
-    {
       "code": "PEC321-ROA (C)",
       "title": "Intelligent Manufacturing Systems",
       "semester": 5,
-      "type": "PEC-1",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         29,
@@ -268,12 +244,12 @@
       "units": [
         {
           "title": "Introduction to artificial intelligent techniques",
-          "topics": "Goals of AI in manufacturing, tools for AI such as Search algorithm, Mathematical optimization, Evolutionary computation, fuzzy logic, Probabilistic methods for uncertain reasoning such as Bayesian network, Hidden Markov model, Kalman filter, Decision theo ry and Utility theory, statistical learning methods, support vector machines, neural networks, expert systems.",
+          "topics": "Goals of AI in manufacturing, tools for AI such as Search algorithm, Mathematical optimization, Evolutionary computation, fuzzy logic, Probabilistic methods for uncertain reasoning such as Bayesian network, Hidden Markov model, Kalman filter, Decision theory and Utility theory, statistical learning methods, support vector machines, neural networks, expert systems.",
           "hours": 8
         },
         {
           "title": "Industrial planning and decision making using intelligent systems",
-          "topics": "Production planning using fuzzy cognitive maps, computer aided process planning, Methods for inventory space allocation and storage processes analysis, Optimization of production costs and methods finding of the best process plan, Methods for production eq uipment selection and layout, Heuristic scheduling of multiple resources, Fuzzy multiple attribute decision making methods.",
+          "topics": "Production planning using fuzzy cognitive maps, computer aided process planning, Methods for inventory space allocation and storage processes analysis, Optimization of production costs and methods finding of the best process plan, Methods for production equipment selection and layout, Heuristic scheduling of multiple resources, Fuzzy multiple attribute decision making methods.",
           "hours": 8
         },
         {
@@ -288,28 +264,16 @@
         },
         {
           "title": "Intelligent robotic systems",
-          "topics": "Applications of intelligent systems for mobile Robot Motion Planning, Path Planning Robot Control in Dynamic Environments, Task Based Hybrid Closure Grasping Optimization for Autonomous Robot Hand. Accurate Motion Control of Fast Mobile Robots, obstacle avoidance. Applications of Intelligent techniques in flexible manufacturing systems (FMS). Learning Resources",
+          "topics": "Applications of intelligent systems for mobile Robot Motion Planning, Path Planning Robot Control in Dynamic Environments, Task Based Hybrid Closure Grasping Optimization for Autonomous Robot Hand. Accurate Motion Control of Fast Mobile Robots, obstacle avoidance. Applications of Intelligent techniques in flexible manufacturing systems (FMS).",
           "hours": 8
         }
       ]
     },
     {
-      "code": "PEC322 -ROA (C)",
-      "title": "Intelligent Manufacturing Systems Lab",
-      "semester": 5,
-      "type": "PEC",
-      "credits": 1,
-      "pages": [
-        31,
-        31
-      ],
-      "units": []
-    },
-    {
       "code": "PEC321-ROA (D)",
       "title": "Industrial Robotics and Infrastructure",
       "semester": 5,
-      "type": "PEC-1",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         32,
@@ -338,16 +302,52 @@
         },
         {
           "title": "Applications of Robots",
-          "topics": "Pick and place Robot, Application of Robots in Arc Welding Robots, Assembly and mega -assembly Robots continuous arc welding, Spot welding, Spray painting, assembly operation Other industrial applications: Coating, Deburring, cleaning, Die Casting, Moulding, Material handling, Picking, Palletizing, Packaging, Military and medical applications, robot for underwater applications Robots, Climbing Robots, Machine mounted Robots. Robots For Inspection: Robotic vision systems, image representation, object recognition and categorization, Depth measurement Learning Resources",
+          "topics": "Pick and place Robot, Application of Robots in Arc Welding Robots, Assembly and mega -assembly Robots continuous arc welding, Spot welding, Spray painting, assembly operation Other industrial applications: Coating, Deburring, cleaning, Die Casting, Moulding, Material handling, Picking, Palletizing, Packaging, Military and medical applications, robot for underwater applications Robots, Climbing Robots, Machine mounted Robots. Robots For Inspection: Robotic vision systems, image representation, object recognition and categorization, Depth measurement",
           "hours": 8
         }
       ]
     },
     {
-      "code": "PEC322 -ROA (D)",
+      "code": "PEC322-ROA (A)",
+      "title": "Computer Integrated Manufacturing Lab",
+      "semester": 5,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        25,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC322-ROA (B)",
+      "title": "Modeling and Simulation Lab",
+      "semester": 5,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        28,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC322-ROA (C)",
+      "title": "Intelligent Manufacturing Systems Lab",
+      "semester": 5,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        31,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC322-ROA (D)",
       "title": "Industrial Robotics and Infrastructure Lab",
       "semester": 5,
-      "type": "PEC",
+      "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
         34,
@@ -359,7 +359,7 @@
       "code": "MDM331-ROA",
       "title": "Data Science",
       "semester": 5,
-      "type": "MDM-3",
+      "type": "Multidisciplinary Minor",
       "credits": 3,
       "pages": [
         35,
@@ -378,19 +378,19 @@
         },
         {
           "title": "Basic Predictive Analytic",
-          "topics": "Introduction to predictive analytics, regression concept (linear regression using Excel trendline), classification concept (rule-based logic), evaluation metrics (MAE, RMSE, accuracy concept), bias and variance (conceptual), real -world robotics examples (f ault prediction, energy forecasting, production data).",
+          "topics": "Introduction to predictive analytics, regression concept (linear regression using Excel trendline), classification concept (rule-based logic), evaluation metrics (MAE, RMSE, accuracy concept), bias and variance (conceptual), real-world robotics examples (fault prediction, energy forecasting, production data).",
           "hours": 4
         },
         {
           "title": "Clustering and Applications in Robotics",
-          "topics": "Introduction to clustering, K-Means concept (visual explanation), grouping and segmentation using Excel, introduction to free visualization tools (Google Data Studio / Power BI free / Tableau Public), mini case studies: sensor data analysis, production quality monitoring, student performance analytics. Learning Resources",
+          "topics": "Introduction to clustering, K-Means concept (visual explanation), grouping and segmentation using Excel, introduction to free visualization tools (Google Data Studio / Power BI free / Tableau Public), mini case studies: sensor data analysis, production quality monitoring, student performance analytics.",
           "hours": 4
         }
       ]
     },
     {
       "code": null,
-      "title": "Open Elective*",
+      "title": "Open Elective",
       "semester": 5,
       "type": "Open Elective",
       "credits": 2,
@@ -404,7 +404,7 @@
       "code": "ELC342-ROA",
       "title": "Technical Seminar",
       "semester": 5,
-      "type": "ELC",
+      "type": "Experiential Learning Course",
       "credits": 1,
       "pages": [
         37,
@@ -416,7 +416,7 @@
       "code": "PCC-351-ROA",
       "title": "Sensors Technology",
       "semester": 6,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 3,
       "pages": [
         38,
@@ -425,17 +425,17 @@
       "units": [
         {
           "title": "Fundamentals of Sensors and Characteristics",
-          "topics": "Physical Principles of Sensing Electric Charges, Fields, and Potentials; Capacitance; Magnetism; Induction; Resistance; Piezoelectric Effect; Hall Effect Sensor Performance Characteristics, Types of Sensors Sensor Signal Conditioning, Conditioning Bridge Circuits, Amplifying and Linearizing Bridge Outputs, Amplifiers for Signal Conditioning, Precision Op Amp Characteristics, Instrumentation Amplifiers. Data-Acquisition Systems: Hardware and Software of Data Acquisitions System (DAS).",
+          "topics": "Physical Principles of Sensing Electric Charges, Fields, and Potentials; Capacitance; Magnetism; Induction; Resistance; Piezoelectric Effect; Hall Effect Sensor Performance Characteristics, Types of Sensors Sensor Signal Conditioning, Conditioning Bridge Circuits, Amplifying and Linearizing Bridge Outputs, Amplifiers for Signal Conditioning, Precision Op Amp Characteristics, Instrumentation Amplifiers. Data-Acquisition Systems: Hardware and Software of Data Aquisition System (DAS).",
           "hours": 8
         },
         {
           "title": "Mechanical Transducers",
-          "topics": "Transduction methods, accelerometers, gyroscopes, pressure sensors, MEMS microphones, mechanical structures, actuators. Chemical and Biological Transducers: basic concepts of cellular biology, chemical sensors, molecule -based biosensors, cell -based biosens ors, chemical actuators, biological transducers, Recent Trends – Smart Pressure Transmitters, Selection of Sensors, Rotary Variable Differential Transformer (RVDT), Synchros and Resolvers, Induction Potentiometers.",
+          "topics": "Transduction methods, accelerometers, gyroscopes, pressure sensors, MEMS microphones, mechanical structures, actuators. Chemical and Biological Transducers: basic concepts of cellular biology, chemical sensors, molecule-based biosensors, cell-based biosensors, chemical actuators, biological transducers, Recent Trends – Smart Pressure Transmitters, Selection of Sensors, Rotary Variable Differential Transformer (RVDT), Synchros and Resolvers, Induction Potentiometers.",
           "hours": 8
         },
         {
           "title": "Thermal Sensors",
-          "topics": "Definition of Temperature: Thermal Energy, absolute and relative Temperature, Metal resistance versus temperature devices: Resistance versus Temperature Approximations, Resistance-Temperature Detectors (RTD), Thermistors, Semiconductor Resistance versus Te mperature, Thermistor Characteristics, thermocouples, Thermoelectric Effects, Thermocouple, Characteristics, Thermocouple Sensors, Other thermal sensor: Bimetal Strips, Gas Thermometers, Radiation pyrometers, Optical pyrometers. Wire Anemometers. liquid flow meters.",
+          "topics": "Definition of Temperature: Thermal Energy, absolute and relative Temperature, Metal resistance versus temperature devices: Resistance versus Temperature Approximations, Resistance-Temperature Detectors (RTD), Thermistors, Semiconductor Resistance versus Temperature, Thermistor Characteristics, thermocouples, Thermoelectric Effects, Thermocouple, Characteristics, Thermocouple Sensors, Other thermal sensor: Bimetal Strips, Gas Thermometers, Radia tion pyrometers, Optical pyrometers. Wire Anemometers. liquid flow meters.",
           "hours": 8
         },
         {
@@ -445,29 +445,17 @@
         },
         {
           "title": "Recent Technologies",
-          "topics": "(08 Hours) Film sensors, Micro -electromechanical sensors, Nano -sensors. Applications of Sensors –On-board Automobile sensors, home appliance sensors, Aerospace sensors, Sensors for manufacturing, medical diagnostic sensors, Sensors for Environmental Monitoring, Photo sensors, Thermal Detectors, Phototransistor, Position and Motion Sensors. Introduction to Nanotechnology -Enabled, Sensors, Bio Sensors. Learning Resources",
-          "hours": null
+          "topics": "Film sensors, Micro -electromechanical sensors, Nano -sensors. Applications of Sensors –On-board Automobile sensors, home appliance sensors, Aerospace sensors, Sensors for manufacturing, medical diagnostic sensors, Sensors for Environmental Monitoring, Photo sensors, Thermal Detectors, Phototransistor, Position and Motion Sensors. Introduction to Nanotechnology -Enabled, Sensors, Bio Sensors.",
+          "hours": 8
         }
       ]
-    },
-    {
-      "code": "PCC353 -ROA",
-      "title": "Sensor Technology Lab",
-      "semester": 6,
-      "type": "PCC",
-      "credits": 1,
-      "pages": [
-        40,
-        40
-      ],
-      "units": []
     },
     {
       "code": "PCC352-ROA",
       "title": "Embedded Systems",
       "semester": 6,
-      "type": "PCC",
-      "credits": 2,
+      "type": "Program Core Course",
+      "credits": 3,
       "pages": [
         41,
         42
@@ -495,16 +483,28 @@
         },
         {
           "title": "Linux Fundamentals and Case Studies",
-          "topics": "Introduction to Embedded Linux, Linux architecture, basic commands, VI editor and fundamentals of device drivers including kernel modules, applications and types of drivers. Case Studies: Communication Between Orchestra Robots, Embedded System for an Adaptive Cruise Control (ACC) System in a Car, Embedded System for a Smart Card, Embedded System for a Mobile Phone Learning Resources",
+          "topics": "Introduction to Embedded Linux, Linux architecture, basic commands, VI editor and fundamentals of device drivers including kernel modules, applications and types of drivers. Case Studies: Communication Between Orchestra Robots, Embedded System for an Adaptive Cruise Control (ACC) System in a Car, Embedded System for a Smart Card, Embedded System for a Mobile Phone",
           "hours": 6
         }
       ]
     },
     {
-      "code": "PEC354-ROA",
+      "code": "PCC353-ROA",
+      "title": "Sensor Technology Lab",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        40,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC354-ROA",
       "title": "Embedded Systems Lab",
       "semester": 6,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 1,
       "pages": [
         43,
@@ -516,58 +516,46 @@
       "code": "PEC361-ROA (A)",
       "title": "Flexible Manufacturing Systems",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         44,
         45
       ],
       "units": [
         {
-          "title": "Introduction to Flexible Manufacturing Systems (FMS) and Cellular",
-          "topics": "Manufacturing (08 Hours) Introduction and definition of FMS, Basic components of FMS, Significance, objectives, benefits and limitations of FMS, General layout and configuration of FMS, Areas of industrial applications, CIM technology, Hierarchy of CIM, FMS justification. Cellular Manufacturing: Introduction, description and classifications of cells, unattended machining, Cellular manufacturing versus Flexible manufacturing. Group Technology: Introduction, definition, reasons for adopting GT, benefits of GT, obstacles to application of GT.",
-          "hours": null
+          "title": "Introduction to Flexible Manufacturing Systems (FMS) and Cellular Manufacturing",
+          "topics": "Introduction and definition of FMS, Basic components of FMS, Significance, objectives, benefits and limitations of FMS, General layout and configuration of FMS, Areas of industrial applications, CIM technology, Hierarchy of CIM, FMS justification. Cellular Manufacturing: Introduction, description and classifications of cells, unattended machining, Cellular manufacturing versus Flexible manufacturing. Group Technology: Introduction, definition, reasons for adopting GT, benefits of GT, obstacles to application of GT.",
+          "hours": 10
         },
         {
           "title": "Computer Aided Manufacturing (CAM) and CNC Programming",
-          "topics": "Concepts and features of NC, CNC and DNC, feedback devices, interpolators, point -to-point and contouring systems, interchangeable tooling system, preset and qualified tools, ISO specification. Machining center and turning center. CNC Programming: Machine tool coordinate system, machine zero and job zero, cutter programming, tool offsets, manual part programming, G -codes and M -codes, canned cycles, sample part programs for turning and milling operations. CAM packages and applications.",
-          "hours": 8
+          "topics": "Concepts and features of NC, CNC and DNC, feedback devices, interpolators, point-to-point and contouring systems, interchangeable tooling system, preset and qualified tools, ISO specification. Machining center and turning center. CNC Programming: Machine tool coordinate system, machine zero and job zero, cutter programming, tool offsets, manual part programming, G -codes and M -codes, canned cycles, sample part programs for turning and milling operations. CAM packages and applications.",
+          "hours": 10
         },
         {
-          "title": "Computer Integrated Manufacturing (CIM) and Production",
-          "topics": "Management (08 Hours) Computer applications in manufacturing automation, computer aided inspection and quality control. Computer integrated production management systems, inventory management, Material Requirement Planning (MRP), Manufacturing Resource Planning (MRP-II), Enterprise Resource Planning (ERP). Rapid product development and manufacture, extended enterprises and integrated manufacturing systems.",
-          "hours": null
+          "title": "Computer Integrated Manufacturing (CIM) and Production Management",
+          "topics": "Computer application in manufacturing automation, computer aided inspection and quality control. Computer integrated production management systems, inventory management, Material Requirement Planning (MRP), Manufacturing Resource Planning (MRP-II), Enterprise Resource Planning (ERP). Rapid product development and manufacture, extended enterprises and integrated manufacturing systems.",
+          "hours": 10
         },
         {
           "title": "Automated Material Handling and Storage Systems",
           "topics": "Introduction to Automated Material Handling Systems, Types of AGVs and working principles, AGV guide paths, advantages and limitations of AGVs. Industrial robots in material handling applications. Automated Storage and Retrieval Systems (ASRS): basic components, benefits and applications. Conveyors and pallet flotation systems, queuing carousels, automatic work changers, coolant and chip disposal and recovery systems.",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Cutting Tools and Tool Management",
-          "topics": "Introduction to cutting tools and tool management systems. Control of cutting tools, tool strategies, tool presetting, tool identification and data transfer systems. Tool monitoring systems, fault detection methods and modern trends in tool management for automated manufacturing systems.",
-          "hours": 8
+          "topics": "Introduction to cutting tools and tool management systems. Control of cutting tools, tool strategies, tool presetting, tool identification and data transfer systems. Tool monitoring systems, fault detection methods and modern trends in tool management for automated manufacturing systems. References: 1. H. K. Shivanand, M. M. Benal, Flexible Manufacturing System, V. Koti, New Age Pub. ISBN:9387070227 2. Automation, Production Systems and Computer Integrated Manufacturing, Groover M.P, Prentice Hall of India, ISBN: 9789332572492 3. CAD/CAM, Groover M.P, Zimmers E.W, Prentice Hall of India, ISBN: 9780132440813 4. Approach to Computer Integrated Design and Manufacturing, Nanua Singh, John Wiley and Sons, ISBN:9780471585176 6. Principles of CIM, Vajpayee, PHI, ISBN: 9788120314764 5. Flexible Manufacturing Cells and Systems, Luggen, PHI, ISBN: 9780133217384",
+          "hours": 10
         }
       ]
     },
     {
-      "code": "PEC363-ROA (A)",
-      "title": "Flexible Manufacturing Systems Lab",
-      "semester": 6,
-      "type": "PEC",
-      "credits": 1,
-      "pages": [
-        46,
-        46
-      ],
-      "units": []
-    },
-    {
-      "code": "PEC361 -ROA (B)",
+      "code": "PEC361-ROA (B)",
       "title": "Robot System Reliability and Safety",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         47,
         48
@@ -576,48 +564,36 @@
         {
           "title": "Reliability Engineering for Robotics",
           "topics": "Introduction to reliability engineering, Reliability terminology: MTBF, MTTF, failure rate, availability, Bathtub curve and failure patterns, Probability distributions: Exponential and Weibull (basic concepts), Reliability Block Diagrams (RBD), Series and parallel system reliability, Maintainability and availability analysis.",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Failure Analysis and Diagnostics",
           "topics": "Types of failures: Mechanical, Electrical, Control & Software, Root Cause Analysis (RCA), Failure Mode and Effects Analysis (FMEA), Fault Tree Analysis (FTA), Predictive and preventive maintenance strategies, Condition monitoring and health diagnostics, Introduction to AI-based fault detection.",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Robot Safety Standards and Compliance",
-          "topics": "Hazard identification and risk assessment, international safety standards overview: International Organization for Standardization – ISO 10218, Occupational Safety and Health Administration – OSHA guidelines, Safety Integrity Levels (SIL – introductory), M achine guarding and safety devices (light curtains, interlocks, E-stops), Safety validation and documentation.",
-          "hours": 8
+          "topics": "Hazard identification and risk assessment, international safety standards overview: International Organization for Standardization – ISO 10218, Occupational Safety and Health Administration – OSHA guidelines, Safety Integrity Levels (SIL – introductory), Machine guarding and safety devices (light curtains, interlocks, E-stops), Safety validation and documentation.",
+          "hours": 10
         },
         {
-          "title": "Functional Safety and Human –Robot Collaboration",
+          "title": "Functional Safety and Human–Robot Collaboration",
           "topics": "Functional safety principles, Overview of ISO 13849, Safety-rated monitored stop, Speed and separation monitoring, Power and force limiting, Ergonomics and human factors in robotics",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Risk Assessment and Safe Robotic System Design",
-          "topics": "Risk assessment methodologies, Hazard analysis and risk reduction techniques, Safety PLC – basic concept and redundancy, Safe robotic cell layout design, Safety lifecycle management, Case studies: Automotive and Smart Manufacturing, Cybersecurity considerations in robotic safety. Learning Resources",
-          "hours": 8
+          "topics": "Risk assessment methodologies, Hazard analysis and risk reduction techniques, Safety PLC – basic concept and redundancy, Safe robotic cell layout design, Safety lifecycle management, Case studies: Automotive and Smart Manufacturing, Cybersecurity considerations in robotic safety.",
+          "hours": 10
         }
       ]
-    },
-    {
-      "code": "PEC363 -ROA (B)",
-      "title": "Robot System Reliability and Safety Lab",
-      "semester": 6,
-      "type": "PEC",
-      "credits": 1,
-      "pages": [
-        49,
-        49
-      ],
-      "units": []
     },
     {
       "code": "PEC361-ROA (C)",
       "title": "Hybrid Vehicle",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         50,
         51
@@ -626,48 +602,36 @@
         {
           "title": "Introduction to Hybrid Vehicles",
           "topics": "Need for hybridization of automobiles, Environmental impact and emission norms (BS-VI, global standards), Classification of Hybrid Vehicles, Micro, Mild, Full, Plug-in Hybrid, Comparison: Conventional IC Engine, Electric Vehicle, Hybrid Vehicle. Overview of major hybrid vehicle manufacturers and models.",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Hybrid Powertrain Architectures",
           "topics": "Components of Hybrid Electric Vehicle (HEV), Series Hybrid Configuration, Parallel Hybrid Configuration, Series-Parallel (Power Split) Hybrid Configuration, Mechanical Coupling Devices, Case studies of hybrid vehicle architecture.",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Energy Storage Systems & Power Electronics",
           "topics": "Battery technologies: Lead Acid, Nickel Metal Hydride (NiMH), Lithium-ion. Ultracapacitors and Fuel Cells (Introduction), Battery Management System (BMS), DC -DC Converters, Inverters and Motor Drives, Regenerative Braking System.",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Control Strategies & Energy Management",
           "topics": "Energy Management Strategies, Rule-Based Control, Fuzzy Logic Control, Model Predictive Control, Supervisory Control Systems, Hybrid Vehicle Drive Cycles, State of Charge (SOC) Estimation. Integration with Embedded Systems. Introduction to AI-based energy optimization",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Intelligent Hybrid Systems & Future Trends",
-          "topics": "Hybrid Vehicles in Smart Transportation Systems, Integration with Industrial IoT and Smart Grids. Autonomous and Connected Hybrid Vehicles, Vehicle -to-Grid (V2G) Technology, Hydrogen Hybrid Systems. Future trends in Sustainable Mobility Learning Resources",
-          "hours": 8
+          "topics": "Hybrid Vehicles in Smart Transportation Systems, Integration with Industrial IoT and Smart Grids. Autonomous and Connected Hybrid Vehicles, Vehicle -to-Grid (V2G) Technology, Hydrogen Hybrid Systems. Future trends in Sustainable Mobility",
+          "hours": 10
         }
       ]
-    },
-    {
-      "code": "PEC363-ROA (C)",
-      "title": "Hybrid Vehicle Lab",
-      "semester": 6,
-      "type": "PEC",
-      "credits": 1,
-      "pages": [
-        52,
-        53
-      ],
-      "units": []
     },
     {
       "code": "PEC361-ROA (D)",
       "title": "Humanoid Robots",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         54,
         55
@@ -676,47 +640,35 @@
         {
           "title": "Introduction to Humanoid Robotics.",
           "topics": "Definition and characteristics of humanoid robots, History and evolution, Comparison with industrial robots Applications and challenges, Degrees of freedom (conceptual understanding)",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Mechanical Structure of Humanoid Robots",
           "topics": "Basic body structure (head, torso, limbs), Joints and links, Actuators (motors, servos – overview), Power sources, Examples of popular humanoid robots",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Motion and Balance Basics",
           "topics": "Concept of bipedal locomotion, Stability and balance (intuitive concepts), Walking and simple movements, Center of gravity (basic idea), Common movement challenges",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Sensors and Perception",
           "topics": "Need for sensors in humanoid robots, Vision sensors (cameras), Distance and touch sensors, Inertial sensors (basic idea), Role of sensor feedback.",
-          "hours": 8
+          "hours": 10
         },
         {
           "title": "Applications and Simulation Overview",
-          "topics": "Service and assistive robots, Humanoid robots in research and industry, Introduction to Application in Industry, Ethical and societal aspects, Future trends. Learning Resources",
-          "hours": 8
+          "topics": "Service and assistive robots, Humanoid robots in research and industry, Introduction to Application in Industry, Ethical and societal aspects, Future trends.",
+          "hours": 10
         }
       ]
-    },
-    {
-      "code": "PEC363-ROA (D)",
-      "title": "Humanoid Robots Lab",
-      "semester": 6,
-      "type": "PEC",
-      "credits": 1,
-      "pages": [
-        56,
-        56
-      ],
-      "units": []
     },
     {
       "code": "PEC362-ROA (A)",
       "title": "Mechatronics",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         57,
@@ -745,7 +697,7 @@
         },
         {
           "title": "Micro-Mechatronic Systems and Modern Applications",
-          "topics": "Micro sensors and micro actuators with an overview of microfabrication techniques including the LIGA process. Application examples and case studies from robotics, manufacturing automation, machine diagnostics, automotive systems and medical technology . Learning Resources",
+          "topics": "Micro sensors and micro actuators with an overview of microfabrication techniques including the LIGA process. Application examples and case studies from robotics, manufacturing automation, machine diagnostics, automotive systems and medical technology .",
           "hours": 8
         }
       ]
@@ -754,11 +706,11 @@
       "code": "PEC362-ROA (B)",
       "title": "Wireless Sensor Network",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        59,
-        60
+        60,
+        62
       ],
       "units": [
         {
@@ -773,17 +725,17 @@
         },
         {
           "title": "WSN Standards and Protocol Stack",
-          "topics": "WSN protocol stack and cross -layer design. Overview of low -power wireless standards including IEEE 802.15.4, ZigBee, Bluetooth Low Energy , Wireless HART, ISA 100.11a, 6LoWPAN, and Z -Wave. Comparison of standards for robotics and automation applications..",
+          "topics": "WSN protocol stack and cross -layer design. Overview of low -power wireless standards including IEEE 802.15.4, ZigBee, Bluetooth Low Energy, Wireless HART, ISA 100.11a, 6LoWPAN, and Z -Wave. Comparison of standards for robotics and automation applications..",
           "hours": 8
         },
         {
           "title": "Localization, Routing, and Mobility",
-          "topics": "Localization challenges and techniques. Deployment strategies. Range -based and range -free localization. Routing basics, routing metrics, data -centric and location -based routing, multi -hop communication and mobility support for robotic systems.",
+          "topics": "Localization challenges and techniques. Deployment strategies. Range-based and range-free localization. Routing basics, routing metrics, data-centric and location-based routing, multi-hop communication and mobility support for robotic systems.",
           "hours": 8
         },
         {
           "title": "Data Aggregation, Security, and WSN Applications",
-          "topics": "Clustering and data aggregation techniques. In -network processing and data fusion. Security requirements, attacks, and basic defense mechanisms in WSNs. Design, deployment, testing, and validation of WSN applications for robotics and automation. Learning Resources",
+          "topics": "Clustering and data aggregation techniques. In-network processing and data fusion. Security requirements, attacks, and basic defense mechanisms in WSNs. Design, deployment, testing, and validation of WSN applications for robotics and automation.",
           "hours": 8
         }
       ]
@@ -792,11 +744,11 @@
       "code": "PEC362-ROA (C)",
       "title": "Industrial Robotics and Material Handling System",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        61,
-        62
+        64,
+        65
       ],
       "units": [
         {
@@ -811,7 +763,7 @@
         },
         {
           "title": "Industrial Robots and Robotic Cells",
-          "topics": "Introduction to industrial robots, types of industrial robots, robot configurations, load handling capacity, general considerations in robotic material handling, material transfer systems, machine loading and unloading, CNC machine tool loading, robot -centered manufacturing cells, integration of robots in production systems, safety considerations in robotic cells.",
+          "topics": "Introduction to industrial robots, types of industrial robots, robot configurations, load handling capacity, general considerations in robotic material handling, material transfer systems, machine loading and unloading, CNC machine tool loading, robot-centered manufacturing cells, integration of robots in production systems, safety considerations in robotic cells.",
           "hours": 8
         },
         {
@@ -821,7 +773,7 @@
         },
         {
           "title": "Applications of Robots in Manufacturing",
-          "topics": "Pick and place Robot, Application of Robots in Arc Welding, Assembly and mega -assembly, continuous arc welding, Spot welding, Spray painting. Other industrial applications: Coating, Deburring, cleaning, Die Casting, Moulding, Material handling, Picking, Palletizing, Packaging Robots for Inspection: Robotic vision systems, image representation, object recognition and categorization, depth measurement Advance applications: Military and medical applications, robot for underwater applications Robots, Climbing Robots, Machine mounted Robots. Learning Resources",
+          "topics": "Pick and place Robot, Application of Robots in Arc Welding, Assembly and mega-assembly, continuous arc welding, Spot welding, Spray painting. Other industrial applications: Coating, Deburring, cleaning, Die Casting, Moulding, Material handling, Picking, Palletizing, Packaging Robots for Inspection: Robotic vision systems, image representation, object recognition and categorization, depth measurement Advance applications: Military and medical applications, robot for underwater applications Robots, Climbing Robots, Machine mounted Robots.",
           "hours": 8
         }
       ]
@@ -830,11 +782,11 @@
       "code": "PEC362-ROA- (D)",
       "title": "Digital Twin",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        63,
-        64
+        67,
+        69
       ],
       "units": [
         {
@@ -859,20 +811,116 @@
         },
         {
           "title": "AI, Analytics and Future Trends",
-          "topics": "AI and Machine Learning in Digital Twin. Data Analytics and Visualization, Digital Twin for Autonomous Systems. Security Issues in Digital Twin Systems. Digital Twin in Sustainable Manufacturing. Future research directions and emerging technologies Learning Resources",
+          "topics": "AI and Machine Learning in Digital Twin. Data Analytics and Visualization, Digital Twin for Autonomous Systems. Security Issues in Digital Twin Systems. Digital Twin in Sustainable Manufacturing. Future research directions and emerging technologies",
           "hours": 8
         }
       ]
     },
     {
+      "code": "PEC363-ROA (A)",
+      "title": "Flexible Manufacturing Systems Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        46,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC363-ROA (B)",
+      "title": "Robot System Reliability and Safety Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        49,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC363-ROA (C)",
+      "title": "Hybrid Vehicle Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        52,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC363-ROA (D)",
+      "title": "Humanoid Robots Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        56,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC364-ROA",
+      "title": "Mechatronics Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        59,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC364-ROA (B)",
+      "title": "Wireless Sensor Network Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        63,
+        63
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC364(C)-ROA",
+      "title": "Industrial Robotics and Material Handling System Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        66,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC364(D)-ROA",
+      "title": "Digital Twin Lab",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        70,
+        70
+      ],
+      "units": []
+    },
+    {
       "code": "MDM371-ROA",
       "title": "IoT and Cloud Computing",
       "semester": 6,
-      "type": "MDM-4",
-      "credits": 2,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
       "pages": [
-        65,
-        66
+        71,
+        72
       ],
       "units": [
         {
@@ -892,20 +940,20 @@
         },
         {
           "title": "Machine Learning for IoT Applications",
-          "topics": "Machine learning life cycle for IoT, supervised and unsupervised learning overview, anomaly detection and predictive maintenance concepts, confusion matrix and evaluation metrics, model deployment concept in cloud, applications in smart agriculture, industrial monitoring and robotics. Learning Resources",
+          "topics": "Machine learning life cycle for IoT, supervised and unsupervised learning overview, anomaly detection and predictive maintenance concepts, confusion matrix and evaluation metrics, model deployment concept in cloud, applications in smart agriculture, industrial monitoring and robotics.",
           "hours": 4
         }
       ]
     },
     {
-      "code": "VSE372-ROA",
+      "code": "MDM-372-ROA",
       "title": "Computer Aided Design and Drafting",
       "semester": 6,
-      "type": "VSE",
-      "credits": 1,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
       "pages": [
-        67,
-        68
+        73,
+        74
       ],
       "units": []
     },
@@ -913,11 +961,11 @@
       "code": "ELC 381-ROA",
       "title": "Experiential Learning Course (Internship/OJT)",
       "semester": 6,
-      "type": "Internship/ OJT",
+      "type": "Experiential Learning Course",
       "credits": 4,
       "pages": [
-        69,
-        70
+        75,
+        76
       ],
       "units": []
     }

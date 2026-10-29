@@ -1,0 +1,221 @@
+{
+  "id": "chem-eng-double-minor-course-chem-process-design-nep-2024-27102026",
+  "kind": "programme",
+  "programme": "Double Minor Program in Chemical Process Design",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DMPD301CEE",
+      "title": "Introduction to Chemical Process Engineering",
+      "semester": 5,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Introduction to Chemical Engineering",
+          "hours": 7,
+          "topics": "Role and scope of chemical engineering, Chemical process industries and their applications, Batch and continuous processes, Basic process terminology and variables, Physical and chemical processes"
+        },
+        {
+          "title": "Chemical Process Flow",
+          "hours": 8,
+          "topics": "Raw materials, products and by-products, Unit operations and unit processes, Block Flow Diagram (BFD) Process Flow Diagram (PFD), Basic process streams and recycle systems"
+        },
+        {
+          "title": "Basic Process Operations",
+          "hours": 7,
+          "topics": "Material handling and storage, Fluid flow and pumping, Heat transfer and heat exchangers, Separation processes, Reaction processes"
+        },
+        {
+          "title": "Major Process Equipment",
+          "hours": 8,
+          "topics": "Reactors, Distillation and absorption columns, Heat exchangers, Pumps and compressors, Storage tanks and pressure vessels, Basic equipment selection"
+        },
+        {
+          "title": "Process Design Perspectives",
+          "hours": 8,
+          "topics": "Introduction to process design methodology, Process safety fundamentals, Energy and resource efficiency Environmental considerations, Introduction to sustainable chemical process design, Industrial case studies"
+        }
+      ]
+    },
+    {
+      "code": "DMPD302CEE",
+      "title": "Introduction to Chemical Process Engineering Laboratory",
+      "semester": 5,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        15,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "DMPD351CEE",
+      "title": "Process Calculations and Fluid Flow Fundamentals",
+      "semester": 6,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Chemical Process Calculations",
+          "hours": 7,
+          "topics": "Units and dimensions, Mole concept and molecular weight, Composition of solids, liquids and gases, Stoichiometric calculations"
+        },
+        {
+          "title": "Material Balance Calculations",
+          "hours": 8,
+          "topics": "Overall and component material balances, material balances with recycle, bypass and purge, Balances involving chemical reactions, conversion, yield and selectivity, simple process flow calculations"
+        },
+        {
+          "title": "Energy Balance and Process Calculations",
+          "hours": 7,
+          "topics": "Basic concepts of energy balance, Sensible and latent heat, Heat capacity and enthalpy, Energy balance for simple processes, Combined material and energy balance"
+        },
+        {
+          "title": "Fundamentals of Fluid Flow",
+          "hours": 8,
+          "topics": "Properties of fluids, fluid pressure and fluid statics, continuity equation, Bernoulli’s equation, laminar and turbulent flow, Reynolds number"
+        },
+        {
+          "title": "Fluid Flow Equipment and Measurement",
+          "hours": 8,
+          "topics": "Flow through pipes and pressure drop, friction factor and pipe fittings, valves and basic piping systems Pumps and their basic operation, flow measurement: orifice meter, venturimeter and rotameter"
+        }
+      ]
+    },
+    {
+      "code": "DMPD352CEE",
+      "title": "Process Calculations and Fluid Flow Fundamentals Laboratory",
+      "semester": 6,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        19,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "DMPD401CEE",
+      "title": "Heat and Mass Transfer Fundamentals",
+      "semester": 7,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Heat Transfer",
+          "hours": 6,
+          "topics": "Basic concepts of heat transfer, Modes of heat transfer: conduction, convection and radiation , Fourier’s law of conduction, Steady-state heat conduction, Basic heat transfer calculations"
+        },
+        {
+          "title": "Convective Heat Transfer",
+          "hours": 6,
+          "topics": "Natural and forced convection, newton’s law of cooling, boundary layer concept, basic dimensionless numbers: Reynolds, Prandtl and Nusselt numbers, applications of convection heat transfer"
+        },
+        {
+          "title": "Heat Transfer Equipment",
+          "hours": 6,
+          "topics": "Heat exchangers and their classification, double-pipe and shell-and-tube heat exchangers, overall heat-transfer coefficient, Log Mean Temperature Difference (LMTD), Basic heat exchanger calculations"
+        },
+        {
+          "title": "Fundamentals of Mass Transfer",
+          "hours": 6,
+          "topics": "Introduction to mass transfer, Molecular and convective mass transfer, Fick’s law of diffusion , Concentration and mass-transfer driving forces, Mass-transfer coefficients"
+        },
+        {
+          "title": "Basic Mass Transfer Operations",
+          "hours": 6,
+          "topics": "Gas absorption and stripping, Distillation fundamentals , Liquid–liquid extraction , Drying fundamentals , Basic applications of mass transfer in chemical industries"
+        }
+      ]
+    },
+    {
+      "code": "DMPD402CEE",
+      "title": "Heat and Mass Transfer Fundamentals Laboratory",
+      "semester": 7,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "DMPD451CEE",
+      "title": "Thermodynamics and Reaction Engineering",
+      "semester": 8,
+      "type": "Double Minor",
+      "credits": 3,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Basic Thermodynamics",
+          "hours": 6,
+          "topics": "Fundamental concepts and laws of thermodynamics, properties of pure substances, work and heat interactions, first and second laws of thermodynamics, entropy and thermodynamic processes"
+        },
+        {
+          "title": "Phase and Chemical Equilibrium",
+          "hours": 6,
+          "topics": "Phase equilibrium and phase rule, vapor–liquid equilibrium, fugacity and activity, chemical equilibrium, equilibrium constant and effect of temperature and pressure"
+        },
+        {
+          "title": "Fundamentals of Chemical Reaction Engineering",
+          "hours": 6,
+          "topics": "Introduction to chemical reactions, Reaction rate and rate laws, Order and molecularity of reactions, Temperat ure dependence of reaction rate, Arrhenius equation and activation energy"
+        },
+        {
+          "title": "Reactor Design and Analysis",
+          "hours": 6,
+          "topics": "Ideal batch reactor, continuous stirred-tank reactor (CSTR), Plug-flow reactor (PFR), Reactor sizing and conversion, Comparison of ideal reactor performance"
+        },
+        {
+          "title": "Multiple Reactions and Applications",
+          "hours": null,
+          "topics": "Series and parallel reactions, selectivity and yield, reversible reactions, catalytic and non-catalytic reactions, basic industrial applications of reaction engineering"
+        }
+      ]
+    },
+    {
+      "code": "DMPD452CEE",
+      "title": "Thermodynamics and Reaction Engineering Laboratory",
+      "semester": 8,
+      "type": "Double Minor",
+      "credits": 1,
+      "pages": [
+        29,
+        31
+      ],
+      "units": []
+    },
+    {
+      "code": "DMPD453CEE",
+      "title": "Minor Project",
+      "semester": 8,
+      "type": "Double Minor",
+      "credits": 2,
+      "pages": [
+        32,
+        35
+      ],
+      "units": []
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 {
-  "id": "te-prod-sw-syllabus-sppu-2024-pattern-nep",
+  "id": "te-prod-sw-syllabus-sppu-2024-pattern-nep-27102026",
   "kind": "programme",
-  "programme": "TE (Production Sandwich)",
+  "programme": "Third Year Production Sandwich Engineering",
   "pattern": "2024",
   "language": "en",
   "subjects": [
     {
       "code": "PCC-301-PES",
-      "title": "Industrial In-plant Training for 6 months",
+      "title": "Industrial In-plant Training",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 15,
       "pages": [
         14,
@@ -21,7 +21,7 @@
       "code": "PCC-302-PES",
       "title": "Machining Science and Technology (Self Study)",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 3,
       "pages": [
         17,
@@ -59,7 +59,7 @@
       "code": "PCC-303-PES",
       "title": "Machining Science and Technology (Self Study) - TW",
       "semester": 5,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 1,
       "pages": [
         19,
@@ -68,7 +68,7 @@
       "units": []
     },
     {
-      "code": "ELC342- PES",
+      "code": "ELC-342-PES",
       "title": "Technical Seminar",
       "semester": 5,
       "type": "Technical Seminar",
@@ -80,10 +80,10 @@
       "units": []
     },
     {
-      "code": "PCC-351-PEE",
-      "title": "Material forming and Mould Design",
+      "code": "PCC-351-PES",
+      "title": "Material Forming and Mould Design",
       "semester": 6,
-      "type": "PCC",
+      "type": "Program Core Course",
       "credits": 3,
       "pages": [
         21,
@@ -97,13 +97,13 @@
         },
         {
           "title": "Extrusion and Wire Drawing",
-          "topics": "Extrusion: - Introduction, Dies for Extrusion, stock penetration, Extrusion ratio, Force requirement, metal flow in extrusion, defects. Role of friction and lubrication, Extrusion plant layout and accessories, Manufacture of seam-less tubes. Wire Drawing: -Introduction, Rod and Wire drawing machines - construction and working. Preparation for stock for wire drawing, wire drawing dies, material and design. Variables in Wire drawing, maximum reduction in one pass, forces required in drawing, multiple drawing, Lubrication in wire drawing. Force calculation in tube drawing.",
+          "topics": "Extrusion: - Introduction, Dies for Extrusion, stock penetration, Extrusion ratio, Force requirement, metal flow in extrusion, defects. Role of friction and lubrication, Extrusion plant layout and accessories, Manufacture of seam-less tubes. Wire Drawing: -Introduction, Rod and Wire drawing machines- construction and working. Preparation for stock for wire drawing, wire drawing dies, material and design. Variables in Wire drawing, maximum reduction in one pass, forces required in drawing, multiple drawing, Lubrication in wire drawing. Force calculation in tube drawing.",
           "hours": 6
         },
         {
           "title": "Casting",
-          "topics": "(06Hours) Metal pouring, Gating system- design of gating system, solidification time, runner design, Principles of gating, risers and their design methods. Progressive and directional solidification, casting design consideration, Chvornov’s rule, Die casting.",
-          "hours": null
+          "topics": "Metal pouring, Gating system- design of gating system, solidification time, runner design, Principles of gating, risers and their design methods. Progressive and directional solidification, casting design consideration, Chvornov’s rule, Die casting.",
+          "hours": 6
         },
         {
           "title": "Forging",
@@ -118,11 +118,11 @@
       ]
     },
     {
-      "code": "PCC-352-PEE",
+      "code": "PCC-352-PES",
       "title": "Process Engineering and Resource Planning",
       "semester": 6,
-      "type": "PCC",
-      "credits": 2,
+      "type": "Program Core Course",
+      "credits": 3,
       "pages": [
         23,
         24
@@ -135,13 +135,13 @@
         },
         {
           "title": "Geometric dimensioning and tolerance analysis",
-          "topics": "Dimensional Analysis: Types of dimensions, concept of baseline dimensions, datum selection, dimensional chain and linkage analysis, concept of straightness, flatness, roundness, concentricity a nd other geometrical forms. Surface quality and surface finish/surface integrity and its effect on product properties. Tolerance Analysis: Producing accuracies and attainabl e accuracies- process capability relation with statistical accuracies, prime accuracies, tolerance chart, tolerance grades and calculations, tolerance stack, tolerance analysis for assembly.",
+          "topics": "Dimensional Analysis: Types of dimensions, concept of baseline dimensions, datum selection, dimensional chain and linkage analysis, concept of straightness, flatness, roundness, concentricity and other geometrical forms. Su rface quality and surface finish/surface integrity and its effect on product properties. Tolerance Analysis: Producing accuracies and attainabl e accuracies- process capability relation with statistical accuracies, prime accuracies, tolerance chart, tolerance grades and calculations, tolerance stack, tolerance analysis for assembly.",
           "hours": 6
         },
         {
           "title": "Work-piece control and selection of operations",
-          "topics": "(06Hours) Causes of work-piece variations, variables influencing work-piece control, equilibrium theories, mechanical, geometrical and dimensional control, Concept of location – fundamentals of locating, datum features, errors in location and clamping, establishing process areas, guidelines for identifying holding areas, supporting areas and critical areas. Study of basic process operations, principal processes and auxiliary processes, Identification of major, critical, qualifying, re-qualifying and supporting operations. Selection of single or combined operations, Identification of finishing operations, Establishing manufacturing sequence.",
-          "hours": null
+          "topics": "Causes of work-piece variations, variables influencing work-piece control, equilibrium theories, mechanical, geometrical and dimensional control, Concept of location – fundamentals of locating, datum features, errors in location and clamping, establishing process areas, guidelines for identifying holding areas, supporting areas and critical areas. Study of basic process operations, principal processes and auxiliary processes, Identification of major, critical, qualifying, re-qualifying and supporting operations. Selection of single or combined operations, Identification of finishing operations, Establishing manufacturing sequence.",
+          "hours": 6
         },
         {
           "title": "Equipment & Tooling Selection",
@@ -149,18 +149,18 @@
           "hours": 6
         },
         {
-          "title": "Process Selection, Capacity Planning and Computer aided",
-          "topics": "process planning (06Hours) Component of process selection, Factor affecting on process selection decisions, Deigning the process (Process flow analysis ,Process Re-engineering, Product –Process Mix, Operations Strategy, Capacity utilization, Capacity Planning, Importance of capacity decisions, Defining and measuring capacity, Dimensions of capacity, Determining capacity requirements, , Factors determining effective capacity, OEE and its calculation, Advantages over manual process planning, approaches for CAPP: Generative Process Planning, Knowledge-based Process Planning, Feature Recognition in Computer Aided Process Planning, recent trends",
-          "hours": null
+          "title": "Process Selection, Capacity Planning and Computer aided process planning",
+          "topics": "Component of process selection, Factor affecting on process selection decisions, Deigning the process (Process flow analysis ,Process Re-engineering, Product –Process Mix, Operations Strategy, Capacity utilization, Capacity Planning, Importance of capacity decisions, Defining and measuring capacity, Dimensions of capacity, Determining capacity requirements, , Factors determining effective capacity, OEE and its calculation, Advantages over manual process planning, approaches for CAPP: Generative Process Planning, Knowledge-based Process Planning, Feature Recognition in Computer Aided Process Planning, recent trends",
+          "hours": 6
         }
       ]
     },
     {
-      "code": "PCC-353-PEE",
-      "title": "Material forming and Mould Design Lab",
+      "code": "PCC-353-PES",
+      "title": "Material Forming and Mold Design Lab",
       "semester": 6,
-      "type": "PCC",
-      "credits": 2,
+      "type": "Program Core Course Lab",
+      "credits": 1,
       "pages": [
         25,
         25
@@ -168,10 +168,10 @@
       "units": []
     },
     {
-      "code": "PCC-354-PEE",
+      "code": "PCC-354-PES",
       "title": "Process Engineering and Resource Planning Lab",
       "semester": 6,
-      "type": "PCC",
+      "type": "Program Core Course Lab",
       "credits": 1,
       "pages": [
         26,
@@ -180,11 +180,11 @@
       "units": []
     },
     {
-      "code": "PEC361- PEE",
-      "title": "Program Elective 2: Advanced Manufacturing Processes",
+      "code": "PEC-361-PES",
+      "title": "Program Elective 2- a) Advanced Manufacturing Processes",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         27,
         28
@@ -218,11 +218,11 @@
       ]
     },
     {
-      "code": "PEC361- PEE",
-      "title": "Program Elective 2: Mechatronics",
+      "code": "PEC-361-PES",
+      "title": "Program Elective 2- b) Mechatronics",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         29,
         30
@@ -230,12 +230,12 @@
       "units": [
         {
           "title": "Sensors and Transducers",
-          "topics": "Introduction to Mechatronics, Open and Closed loop control system, Block Diagram Algebra With respect to Types, Range, and Applications and limitations, Thermocouples, Thermistors and Resistance Temperature Detectors With respect to Construction, Working and Applications, Linear Variable Differential Transducer. With respect to Principle, Types, and Applications, Strain Gauges, Gauge Factor and Measurement of Strain With respect to construction, working and specifica tions Electromagnetic Flow meter. With respect to specifications and applications, Capacitive and Inductive Proximity sensors Angular Velocity measurement, Tacho generators, Rotary Encoders",
+          "topics": "Introduction to Mechatronics, Open and Closed loop control system, Block Diagram Algebra With respect to Types, Range, and Applications and limitations, Thermocouples, Thermistors and Resistance Temperature Detectors With respect to Construction, Working and Applications, Linear Variable Differential Transducer. With respect to Principle, Types, and Applications, Strain Gauges, Gauge Factor and Measurement of Strain With respect to construction, working and specifications Electromagnetic Flow meter. With respect to specifications and applications, Capacitive and Inductive Proximity sensors Angular Velocity measurement, Tacho generators, Rotary Encoders",
           "hours": 7
         },
         {
           "title": "Analog Signal Conditioning",
-          "topics": "Passive Circuits, Voltage dividers, Wheatstone‘s bridge, Low pass, high pass and bandpass filters. Op - Amps, Characteristics and Specifications, Voltage Follower, Inverting Amplifier, Non Inverting Amplifier, Summing Amplifier, Instrumentation Amplifier, Integrator, Different iator. Current To Voltage Converter, Current to Voltage Converter Numerical Examples based on Wheatstone‘s Bridge and Op-Amps",
+          "topics": "Passive Circuits, Voltage dividers, Wheatstone‘s bridge, Low pass, high pass and bandpass filters. Op - Amps, Characteristics and Specifications, Voltage Follower, Inverting Amplifier, Non Inverting Amplifier, Summing Amplifier, Instrumentation Amplifier, Integrator, Differentiator. Current To Voltage Con verter, Current to Voltage Converter Numerical Examples based on Wheatstone‘s Bridge and Op-Amps",
           "hours": 7
         },
         {
@@ -256,11 +256,11 @@
       ]
     },
     {
-      "code": "PEC361- PEE",
-      "title": "Program Elective 2: Production Tooling",
+      "code": "PEC-361-PES",
+      "title": "Program Elective 2- c) Production Tooling",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         31,
         32
@@ -294,11 +294,11 @@
       ]
     },
     {
-      "code": "PEC361- PEE",
-      "title": "Program Elective 2: Industrial Robotics",
+      "code": "PEC-361-PES",
+      "title": "Program Elective 2- D) Industrial Robotics",
       "semester": 6,
-      "type": "PEC-2",
-      "credits": 3,
+      "type": "Program Elective Course",
+      "credits": 4,
       "pages": [
         33,
         34
@@ -321,7 +321,7 @@
         },
         {
           "title": "Machine Vision System and Robot Programming",
-          "topics": "Machine Vision System: Vision System Devices, Image acquisition, Masking, Sampling and quantization, Image processing techniques, Noise reduction methods, Edge detection, Segmentation. Robot Programming: Methods of robot Programming, Methods of defining positions in space, Motion interpolation, branching, Textual robot programming languages.",
+          "topics": "Machine Vision System: Vision System Devices, Image acquisition, Masking, Sampling and quantization, Image processing techniques, Noise reduction methods, Edge detection, Segmentatio n. Robot Programming: Methods of robot Programming, Methods of defining positions in space, Motion interpolation, branching, Textual robot programming languages.",
           "hours": 7
         },
         {
@@ -332,10 +332,10 @@
       ]
     },
     {
-      "code": "PEC362- PEE",
-      "title": "Program Elective 3: Product Design and Development",
+      "code": "PEC-362-PES",
+      "title": "Program Elective 3- a) Product Design and Development",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         35,
@@ -370,10 +370,10 @@
       ]
     },
     {
-      "code": "PEC362- PEE",
-      "title": "Program Elective 3: Precision Manufacturing",
+      "code": "PEC-362-PES",
+      "title": "Program Elective 3- b) Precision manufacturing",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         37,
@@ -408,10 +408,10 @@
       ]
     },
     {
-      "code": "PEC362- PEE",
-      "title": "Program Elective 3: Statistics and Numerical Methods",
+      "code": "PEC-362-PES",
+      "title": "Program Elective 3- c) Statistics and Numerical Methods",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         39,
@@ -446,10 +446,10 @@
       ]
     },
     {
-      "code": "PEC362- PEE",
-      "title": "Program Elective 3: Financial Management",
+      "code": "PEC-362-PES",
+      "title": "Program Elective 3- d) Financial Management",
       "semester": 6,
-      "type": "PEC-3",
+      "type": "Program Elective Course",
       "credits": 3,
       "pages": [
         41,
@@ -484,10 +484,10 @@
       ]
     },
     {
-      "code": "PEC363- PEE",
-      "title": "Program Elective 2 Lab: Advanced Manufacturing Processes Lab",
+      "code": "PEC-363-PES",
+      "title": "Program Elective 2 -Lab - a) Advanced Manufacturing Processes",
       "semester": 6,
-      "type": "PEC-Lab",
+      "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
         43,
@@ -496,10 +496,10 @@
       "units": []
     },
     {
-      "code": "PEC363- PEE",
-      "title": "Program Elective 2 Lab: Mechatronics Lab",
+      "code": "PEC-363-PES",
+      "title": "Program Elective 2 -Lab - b) Mechatronics",
       "semester": 6,
-      "type": "PEC-Lab",
+      "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
         44,
@@ -508,10 +508,10 @@
       "units": []
     },
     {
-      "code": "PEC363- PEE",
-      "title": "Program Elective 2 Lab: Production Tooling Lab",
+      "code": "PEC-363-PES",
+      "title": "Program Elective 2 -Lab - c) Production Tooling",
       "semester": 6,
-      "type": "PEC-Lab",
+      "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
         45,
@@ -520,10 +520,10 @@
       "units": []
     },
     {
-      "code": "PEC363- PEE",
-      "title": "Program Elective 2 Lab: Industrial Robotics Lab",
+      "code": "PEC-363-PES",
+      "title": "Program Elective 2 -Lab - d) Industrial Robotics",
       "semester": 6,
-      "type": "PEC-Lab",
+      "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
         46,
@@ -532,14 +532,62 @@
       "units": []
     },
     {
-      "code": "MDM371- PEE",
-      "title": "Materials Management",
+      "code": "PEC-364-PEE",
+      "title": "Program Elective 3 -Lab - a) Product Design and Development",
       "semester": 6,
-      "type": "MDM-4",
-      "credits": 2,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
       "pages": [
         47,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-364-PEE",
+      "title": "Program Elective 3 -Lab - b) Precision Manufacturing",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        48,
         48
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-364-PEE",
+      "title": "Program Elective 3 -Lab - c) Statistics and Numerical Methods",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        49,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-364-PEE",
+      "title": "Program Elective 3 -Lab - d) Financial Management",
+      "semester": 6,
+      "type": "Program Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        50,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-PES",
+      "title": "MDM-4-Materials Management",
+      "semester": 6,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        51,
+        52
       ],
       "units": [
         {
@@ -575,26 +623,26 @@
       ]
     },
     {
-      "code": "MDM372- PEE",
-      "title": "CNC Programming",
+      "code": "MDM-372-PES",
+      "title": "VSEC-CNC Programming",
       "semester": 6,
-      "type": "VSEC",
-      "credits": 1,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 2,
       "pages": [
-        49,
-        49
+        53,
+        53
       ],
       "units": []
     },
     {
-      "code": "ELC381- PEE",
-      "title": "Experiential Learning Course(Internship/OJT)",
+      "code": "ELC381-PES",
+      "title": "Experiential Learning Course (Internship/OJT)",
       "semester": 6,
-      "type": "Internship/OJT",
+      "type": "Experiential Learning Course",
       "credits": 4,
       "pages": [
-        50,
-        52
+        54,
+        55
       ],
       "units": []
     }

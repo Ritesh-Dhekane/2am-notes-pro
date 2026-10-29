@@ -1,0 +1,355 @@
+{
+  "id": "v8-te-mech-sandwich-2024-syllabus-08062026",
+  "kind": "programme",
+  "programme": "Third Year Mechanical Engineering (Sandwich)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC301MSW",
+      "title": "Heat & Mass Transfer",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        16,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction and Conduction (Steady State)",
+          "hours": 8,
+          "topics": "Introduction and basic concepts: Introduction, Application areas of heat transfer. Basic modes of Heat Transfer, mechanisms and governing laws for these modes. Concept of 1D, 2D and 3D heat transfer. General three dimensional heat conduction equation in Cartesian coordinates (with derivation), cylindrical and spherical coordinates (no derivation). Thermal Condu ctivity, variable thermal conductivity, thermal diffusivity. (Simple numerical on modes and laws of transfer of heat transfer) One dimensional steady state heat conduction: One dimensional steady state heat conduction equation for the plane wall, cylinder and sphere, Overall heat transfer coefficient. Electrical Analogy - thermal resistance of composite structures and thermal contact resistance. Conduction with internal heat generation for plane wall, solid cylinder and solid sphere (Numerical on electrical analogy.) Real World Assignment 1. Identify the applications of modes of heat transfer and draw the schematics of the same. 2. Draw the thermal resistance circuit of any thermal system or heat transfer equipment and analyze the heat transfer mechanism. 3."
+        },
+        {
+          "title": "Finned Surfaces, Thermal Insulation and Transient Heat Conduction.",
+          "hours": 8,
+          "topics": "Finned surfaces: Extended surface, types of fins, analysis of fins of uniform cross section area for temperature distribution and heat transfer rate for infinitely long & adequately long (with insulated end) fins. Fin efficiency & effectiveness. (Numerical on extended surfaces.) Thermal insulation and transient heat conduction: Thermal Insulation -types and selection, Critical radius of Insulation for cylinder and sphere, Unsteady state heat transfer, lumped heat capacity analysis, Heisler’s charts. Biot’s Number, Fourier’s Number & their significance. (Numerical on critical radius and lumped heat capacity.) Real World Assignments 1. Analysis of heat transfer enhancement through fin for any motor/engine/compressor etc. 2. Identify and analyze the thermal insulation systems. 3. Analyse the transient cooling or heating practically using lumped method 4. Analyse the transient cooling or heating practically using Heisler’s charts 5. Optimization of Pipe Insulation Using Critical Radius in Steam Power Plants/Electrical Wires."
+        },
+        {
+          "title": "Convective Heat Transfer, Mass Transfer",
+          "hours": 8,
+          "topics": "Basic concept of convection and forced convection: Concept of hyd rodynamics & thermal boundary layer thickness, local and average heat transfer coefficient. Reynolds number, Prandtl number, Nusselt number. Empirical co -relations for external, internal flows, laminar & turbulent flow through conduits. (Numerical on forced convection with given empirical co-relations). Free or natural convection , boiling and condensation: Grashof’s number, Rayleigh number, flow over horizontal and vertical plate, Empirical co -relations for cylinders and sphere. Introduction to mass transfer: Introduction to mass transfer, diffusion using Fick’s Law of Diffusion, and basic applications. (Numerical on natural convection with given empirical co-relations). Real World Assignment 1. Determine forced convective HTC in pipe flow 2. Determine natural convection HTC on flat plate. 3. Identify and analyze practical applications of free convection 4. Identify and analyze practical applications of force convection Exemplar / Practical Applications Steam pipes, electrical wires, industrial piping systems"
+        },
+        {
+          "title": "Radiation Heat Transfer",
+          "hours": 6,
+          "topics": "Basic Concepts of Radiation: Radiation, spectrum of radiation, black body radiation, radiation intensity, Laws of radiation-Kirchhoff, Planck’s, Wien’s displacement law, Stefan Boltzmann & Lamberts Co-sine law. Emissivity, absorptivity, transmissivity, reflectivity, radiosity, emissive power, irradiation. (Simple numerical on basic radiation). Radiation heat exchange: Radiation heat exchange between surfaces, shape factor & its laws, radiation between parallel plates, cylinder & spheres. Radiation shields. (Numerical on Radiation shields). Real World Assignment 1. Study of Radiation & Spectrum (Basic Observation) 2. Determine emissivity of black and grey surface 3. Identify and analyze practical radiation heat transfer systems 4. Analyze radiation shield concept practically Exemplar / Practical Applications 1. Sun, Rainbow, Furnace, Sunlight, Thermal equilibrium, Spectroscopy, Stars, Solar energy, Illumination, Surface, Coating, Glass, Mirror, Surface radiation, Heater, Solar flux, Buildings, Geometry, Furnace walls, Pipes, Satellites, Thermos flask. element beneath a ceramic glass surface."
+        },
+        {
+          "title": "Heat Exchangers, Boiling and Condensation",
+          "hours": 7,
+          "topics": "Introduction & LMTD Method: Introduction and detailed classification of heat exchangers. Overall heat transfer coefficient, fouling factor and its effect on heat exchanger performance. Log Mean Temperature Difference (LMTD) method for heat exchanger analysis. (Numerical on LMTD Method). Effectiveness–NTU method: Effectiveness–NTU method for heat exchanger performance evaluation. Boiling and Condensation heat transfer: Pool boiling curve and regimes of pool boiling, Critical heat flux, film and drop wise condensation. (Numerical on Effectiveness-NTU Method). Real World Assignment 1. Identify and classify heat exchangers used in real systems. 2. Evaluate performance of any heat exchanger using LMTD or NTU approach 3. Study and analyze the effect of deposits on performance of heat exchanger. 4. Identify and photograph dropwise and filmwise condensation process. Exemplar / Practical Applications Sun, Rainbow, Furnace, Sunlight, Thermal equilibrium, Spectroscopy, Stars, Solar energy, Illumination, Surface, Coating, Glass, Mirror, Surface radiation, Heater, Solar flux, Buildings, Geometry, Furnace walls, Pipes, Satellites, Thermos flask. element beneath a ceramic glass surface."
+        }
+      ]
+    },
+    {
+      "code": "PCC302MSW",
+      "title": "Kinematics of Machinery",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        20,
+        23
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Mechanism",
+          "hours": 7,
+          "topics": "Introduction: kinematic link, kinematic pair, kinematic chain, types of constrained motions, types of joints, mechanism, machine, Degree of freedom and Mobility. Inversions of Mechanisms: Four-Bar Chain, Slider crank Chain, Double slider crank Chain. Mechanisms with Higher pairs: Equivalent Linkages and their Cases (Sliding Pairs in Place of Turning Pairs, Spring in Place of Turning Pairs, Cam Pair in Place of Turning Pairs) Real World Assignment 1. Identify and classify kinematic pairs and determine DOF of mechanisms used in a bicycle or IC engine. 2. Analyze different inversions of slider-crank mechanism in real machines like pumps and shapers. 3. Replace higher pairs in cam or gear systems with equivalent lower pair mechanisms and compare motion. Exemplars / Practical Applications Mechanisms used in IC engines, pumps, and quick return mechanisms demonstrate real-life kinematic chains and inversions."
+        },
+        {
+          "title": "Kinematic Analysis of Mechanisms: Analytical Method & Graphical Method",
+          "hours": 7,
+          "topics": "Analytical methods: Displacement, velocity and acceleration analysis of slider crank Mechanism. Vector and Complex Algebra Methods (Theoretical Treatment only). Graphical methods: Displacement, velocity and acceleration analysis of mechanisms by Relative Velocity Method (Mechanisms up to 6 Links), Coriolis component of Acceleration (Theoretical treatment only) Instantaneous Centre of Velocity, Kennedy’s Theorem, Angular Velocity ratio Theorem, Analysis of mechanism by ICR method (Mechanisms up to 6 Links) Real World Assignment 1. Determine velocity and acceleration of piston in an IC engine using graphical or analytical methods. 2. Perform motion analysis of a crank-rocker mechanism used in conveyor or machinery systems. 3. Locate instantaneous centers in mechanisms like excavator arm and analyze motion transmission. Exemplar / Practical Applications Motion analysis of IC engines, robotic arms, and industrial machinery helps in predicting velocity and acceleration of links."
+        },
+        {
+          "title": "Synthesis of Mechanisms",
+          "hours": 7,
+          "topics": "Steps in Synthesis : Type synthesis, Number Synthesis, Dimensional synthesis, Task s of Kinematic synthesis - Path, function and motion generation (Body guidance), Precision Positions, Chebychev spacing, Mechanical and structural errors Graphical Synthesis : Inversion and relative pole method for three -position synthesis of Four -Bar and Single Slider Crank Mechanisms Analytical Synthesis: Three-position synthesis of the Four-Bar mechanism using Freudenstein’s equation Real World Assignment 1. Design a four-bar mechanism for the windshield wiper to achieve the required angular motion. 2. Synthesize a mechanism for path generation in applications like welding or cutting. 3. Develop a linkage mechanism for pick-and-place automation using precision positions. Exemplars / Practical Applications Mechanism synthesis is applied in windshield wipers, folding systems, and industrial automation linkages."
+        },
+        {
+          "title": "Kinematics of Gears",
+          "hours": 8,
+          "topics": "Introduction: Classification, terminology, law of gearing, involute and cycloidal tooth profile, Spur Gear: path of contact, arc of contact sliding velocity, Interference and undercutting, Minimum number of teeth to avoid interference, Force Analysis (theoretical treatment only) Helical and Spiral Gears: Terminology, Geometrical Relationships, virtual number of teeth for helical gears Bevel Gear & Worm and Worm Wheel: Terminology, Geometrical Relationships Gear Train: Types, Analysis of Epicyclic gear Trains, Holding torque - simple, compound and Epicyclic gear Trains, compound Epicyclic gear Train Real World Assignment 1. Analyse gear ratios and torque transmission in an automobile gearbox or industrial gear trains. 2. Study interference in gears and suggest design modifications to avoid undercutting. 3. Evaluate the working of the epicyclic gear train used in differential or automatic transmission systems. Exemplars / Practical Applications Gear systems in automobiles, industrial gearboxes, and differential mechanisms illustrate power transmission applications."
+        },
+        {
+          "title": "Cams & Followers",
+          "hours": 8,
+          "topics": "Introduction: Types of cams and followers, and their classification, analysis of standard motions to the follower, Cam Profile: Determination of cam profiles for different follower motions Methods of control: pressure angle, radius of curvature and undercutting. Jump phenomenon of Eccentric cam, Real World Assignment 1. Design a cam profile for IC engine valve timing based on the given motion requirements. 2. Develop a cam mechanism for automated machines like packaging or printing systems. 3. Analyze pressure angle and follower motion to avoid undercutting and jumping in cam systems. Exemplars / Practical Applications Cam mechanisms are widely used in IC engines, textile machines, and automated production equipment. Learning Resources"
+        }
+      ]
+    },
+    {
+      "code": "PCC303MSW",
+      "title": "Machine Design",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Design of Simple Machine Elements, Shafts, Keys and Couplings",
+          "hours": 8,
+          "topics": "Design of Simple Machine Elements Factor of safety, Selection of Factor of Safety, Service factor, Design of Cotter j oint, Knuckle joint, Design of bell crank lever (Theoretical treatment) Design of Shafts, Keys and Couplings Shaft design on the Strength basis, torsional rigidity basis and lateral rigidity basis, Design of shaft as per A.S.M.E. code. Design of square and rectangular keys, Kennedy key and splines. Design of Flange Couplin g and Bushed-Pin Flexible Coupling. (Theoretical treatment)"
+        },
+        {
+          "title": "Design of Power Screws, Threaded and Welded joints",
+          "hours": 7,
+          "topics": "Design of Power Screws Terminology of Power Screw, Torque analysis and Design of power screws with square and trapezoidal threads, Collar friction torque, Self -locking screw, Efficiency of square threaded screw, Efficiency of self - locking screw, Design of screw, nuts and C-Clamp. Design of screw jack. Threaded and Welded joints Introduction to threaded joints, Bolts of uniform strength, locking devices. Introduction to welded joints, Strength of butt, parallel and transverse fillet welds, Axially loaded unsymmetrical welded joints"
+        },
+        {
+          "title": "Design of Springs",
+          "hours": 7,
+          "topics": "Design of Springs Types and applications of spring s, Stress and deflection equations for helical compression Springs, Springs in series and parallel, Design of helical springs, concentric helical springs, surge in spring, Design of Multi - leaf springs, Nipping of Leaf springs, Shot Peening."
+        },
+        {
+          "title": "Gears Design",
+          "hours": 7,
+          "topics": "Introduction to gears: Material selection for gears, Modes of gear tooth failure. Spur Gears: Number of teeth and face width, Force analysis, Beam strength (Lewis) equation, Velocity factor, Service factor, Load concentration factor, E ffective load on gear, Wear strength (Buckingham’s) equation, Estimation of module based on beam and wear strength, Estimation of dynamic tooth load by velocity factor and Buckingham’s equation. Helical Gears: Force analysis of Helical Gear, Beam Strength of Helical Gear, Wear strength and estimation of effective load based on Velocity factor (Barth factor) and Buckingham’s equation. (No numerical on force analysis of helical) Bevel Gears: Types of Bevel gears, Terminology, Virtual number of teeth, and fo rce analysis of Straight Bevel Gear (Theoretical treatment only) Design of M/C Tool Gear Box Introduction to Machine Tool Gearboxes, classification, basic considerations in design of drives and its Applications, Determination of variable speed range, Grap hical representation of speed and structure diagram, Ray diagram, selection of optimum ray diagram . Kinematic /Gearing Diagram."
+        },
+        {
+          "title": "Sliding and Rolling Contact Bearing",
+          "hours": 7,
+          "topics": "Sliding contact bearing (Theoretical treatment only): Introduction to sliding contact bearing, classification Rolling Contact Bearings: Types of rolling contact Bearings and its selection, Static and dynamic load carrying capacities, Stribeck’s Equation, Equivalent bearing load, Load-life relationship, Selection of bearing life, Selection of rolling contact bearings from manufacturer's catalogue, Design for cyclic loads, Types of failure in rolling contact bearings - causes and remedies. (Simple Numerical treatment) Learning Resources"
+        }
+      ]
+    },
+    {
+      "code": "PCC304MSW",
+      "title": "Manufacturing Engineering - II",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        27,
+        30
+      ],
+      "units": [
+        {
+          "title": "Mechanics of Metal Cutting",
+          "hours": 8,
+          "topics": "Theory of Metal Cutting Introduction to metal cutting, Elements of machining process, Geometry of single -point cutting tool, Chip formation, Types of chips, Chip thickness ratio, Process parameters and their effect on machining, chip breakers, Merchant’s Circle of forces analysis – forces and energy calculations, power consumed – MRR- Effect of Cutting variables on forces, Concepts of Machinability - Factors affecting machinability, Machinability Index, Tool Life, Tool life equation of Taylor, Tool wear and its types, Factors affecting on tool life. Production Machines Turret and capstan lathe, automatic and semiautomatic lathe, sin gle & multi spindle automats, setup, tool layout, operation sheet, cam layout, for single spindle automats. Real World Assignment CCE Activities 1. Prepare a detailed Excel sheet for cutting force calculations using Merchant's Circle for different tool geometries and workpiece materials (mild steel, aluminum, brass). Plot force vs. cutting speed and depth of cut. 2. Visit a CNC automatic and semiautomatic lathe center or workshop and submit the report."
+        },
+        {
+          "title": "Gear and Thread Manufacturing",
+          "hours": 7,
+          "topics": "Gear Manufacturing: Introduction, Materials of gears, Methods of gear manufacturing -casting, forging, forming etc, milling of gears (indexing metho ds and numerical), Helical gear cutting, Gear Shaping and Gear hobbling, Thread Manufacturing: Various methods of thread manufacturing, thread rolling, die threading & tapping, Thread milling, Thread grinding etc. Real World Assignment CCE Activities: Prepare a detailed Excel-based indexing calculator: input module, number of teeth, and pressure angle; auto-calculate indexing method (simple/compound/differential), index crank movement, and gear blank dimensions. Exemplars / Practical Applications • Automobile Gearbox Manufacturing: Gear hobbing of helical gears for passenger vehicle transmissions — illustrates high-volume, precise gear production with CNC gear hobbers."
+        },
+        {
+          "title": "Modern Machining Processes",
+          "hours": 7,
+          "topics": "Introduction to modern manufacturing processes, Need and classification of modern manufacturing methods. Introduction, Working Principle, equipment, process parameters, material removal rates of Mechanical Energy Process machining processes : Abrasive Jet Machining (AJM), Water Jet Machining (WJM), Ultra Sonic Machining (USM), Energy Assisted Modern Fabrication Process : Laser beam machining (LBM), Focused Ion beam (FIB) Electro -chemical Machining Process : Electro chemical machining (ECM), Photochemical machining (PCM) Electro -thermal Machin ing Process : Electric discharge machining (EDM), Wire Electric Discharge Machining (W-EDM) Real World Assignment CCE Activities: Industrial visit to any one modern manufacturing process unit as individual or group task. Students should be able to understand process parameters and write report of the visit. Exemplars / Practical Applications • Modern manufacturing processes such as AJM, WJM, USM, LBM, FIB, ECM, PCM, EDM, and W-EDM are used to machine hard, brittle, heat-sensitive, and complex-shaped materials with high precision."
+        },
+        {
+          "title": "Additive Manufacturing",
+          "hours": 7,
+          "topics": "Introduction to AM, Classification of AM Processes (Process -based, material form based, applic ation- based - direct and indirect processes and Micro - and Nano-additive processes), Light -Based Photo-curing: Stereolithography (SLA), Digital Light Processing (DLP), Laser -Based Melting: Selective Laser Sintering (SLS), Direct Metal Laser Sintering (DMLS), Selective Laser Melting (SLM). Extrusion-Based Deposition: Fused Deposition Modeling (FDM). Inkjet(droplet) -Based Deposition and Fusion: Multi -jet Modeling (MJM), Polyjet Printing, Nanoparticle Jet, Quality considerations and Post -Processing techniques: Requirements and Techniques, Support Removal, Sanding, Acetone treatment, Polishing. Real World Assignment CCE Activities: Prepare a simple component staring from the geometry to product on any 3D printing machine. Exemplars / Practical Applications  Automobile Prototyping: FDM/SLA for rapid prototypes of automotive components.  Aerospace Components: SLM/DMLS for lightweight and complex components.  Medical Applications: 3D printing for implants, prosthetics and anatomical models.  Jigs & Fixtures: FDM for customized manufacturing aids and fixtures."
+        },
+        {
+          "title": "Jig and Fixture",
+          "hours": 7,
+          "topics": "Significance and purpose of jigs and fixtures and their functions in the manufacturing processes, Concept of degree of freedom, 3-2-1 principle of location. General guidelines to design jigs and fixtures, advantages of jigs and fixtures. Jigs: Definition, Elements of jig with the types, Location guidelines, Principles of clamping, Principles of guiding, Channel jig, Template jig, Plate jig, Angle plate jig, Turn over jig, Box jig, Latch type jig. Fixtures: Definition. Elements of fixtures, Location guidelines, Principles of clamping, Principles of setting element, turning fixture, welding fixture, Milling fixture, Assembly and Inspection fixtures. Real World Assignment CCE Activities: Student should able to design a jig or fixture for simple products. Exemplars / Practical Applications • Automobile Industry: Welding fixture for car body panels — ensures precise geometric alignment of door frame, roof, and chassis parts for consistent weld quality across thousands of units. • Engine Manufacturing: Drill jig for connecting rod bolt holes — drill bushes guide drills with micron- level positional accuracy to ensure correct bolt circle diameter. Learning Resources"
+        }
+      ]
+    },
+    {
+      "code": "PCC305MSW",
+      "title": "Machine Design Lab",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        31,
+        32
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC306MSW",
+      "title": "Digital Manufacturing & MQC Lab",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        33,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM331MSW",
+      "title": "Smart Mechatronics System",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM332MSW",
+      "title": "Engineering Simulation & Analysis Lab",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        37,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM333MSW",
+      "title": "Heat & Mass Transfer Lab",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 2,
+      "pages": [
+        41,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "OLE341",
+      "title": "Open Elective",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC307MSW",
+      "title": "Industrial In-plant Training-I",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 8,
+      "pages": [
+        44,
+        48
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC308MSW",
+      "title": "Industrial Mini-Project",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 6,
+      "pages": [
+        49,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC309MSW",
+      "title": "Seminar",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        54,
+        56
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC310MSW",
+      "title": "Process Planning & Tool Selection (Self-Study-I)",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        57,
+        59
+      ],
+      "units": [
+        {
+          "title": "Process Engineering and Part Print Analysis",
+          "hours": null,
+          "topics": "Product and Process Engineering : Product design and role of product designer, Process engineering and its functions, Co -ordination of process Engineering with other departments., Organization chart, gener al classification of manufacturing processes, concept of design for manufacturing, communication in engineering Industry, glossary of terms used in process planning. Analysis of Part Print : Preliminary analysis, Its general characteristics, Principal proce sses, alternate processes, functional surfaces of the work piece processing areas, nature of work to be performed, finishing and identifying operations."
+        },
+        {
+          "title": "Geometric dimensioning and tolerance analysis",
+          "hours": null,
+          "topics": "Dimensional Analysis: Types of dimensions, concept of baseline dimensions, GDT terminology Tolerance Analysis: Tolerance stack-up analysis, tolerance chart, and tolerance grades and its calculations"
+        },
+        {
+          "title": "Work-piece control and selection of operations",
+          "hours": null,
+          "topics": "Work piece control: Causes of work -piece variati ons, influencing work -piece control variables, techniques of work piece control – Equilibrium theories, concept of location, geometric, dimensional and mechanical control. Classification of operations: Basic Process Operations, Principal and Auxiliary Proc esses, identification of major, critical, qualifying, re -qualifying and supporting operations, product and process critical area."
+        },
+        {
+          "title": "Equipment & Tooling Selection",
+          "hours": null,
+          "topics": "Types of tooling: Cutting tools, forming tools, Assembly tools, Factors affecting selection of tooling, Cutting tool materials, Desirable properties of tool material, Jigs and Fixtures: Design principles of jigs and fixtures, Types of locators, various of clamping devices , Types of bushes, Economics of Jigs and fixtures, Indexing devices"
+        },
+        {
+          "title": "Economics of Process Planning Definition, Cost accounting, Elements of cost, Estimation of cost elements, Methods of cost",
+          "hours": null,
+          "topics": "estimation, Data requirement for cost estimation, Steps in making cost estimation, Factors in cost estimation, Selection of pro cess parameters, Machining time calculations, Estimation of total unit time."
+        },
+        {
+          "title": "Process Sheet Design",
+          "hours": null,
+          "topics": "Steps in process planning, Process symbols, routing description, operation number and description, Preparation of process picture sheet, Operation r oute sheet for complete manufacturing part, Calculation of cycle time. Computer aided process planning : Advantages over manual process planning, approaches for CAPP: Generative Process Planning, Knowledge -based Process Planning, Feature Recognition in Computer Aided Process Planning, recent trends."
+        }
+      ]
+    },
+    {
+      "code": "PCC311MSW",
+      "title": "Advanced Materials & Manufacturing (Self-Study-II)",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        60,
+        63
+      ],
+      "units": [
+        {
+          "title": "Introduction to Composites",
+          "hours": 7,
+          "topics": "Definitions, Need of Composites, Classification of Composites, Reinforcements and matrices, Types of reinforcements, Types of matrices, Types of composites, Natural Composites, Carbon Fiber composites, Properties of composites in comparison with standard materials. Advantages and Disadvantages. Natural Composites, Hybrid materials and their difference with Composite materials, Applications."
+        },
+        {
+          "title": "Polymer Matrix Composite",
+          "hours": 8,
+          "topics": "Polymer resins – thermosetting resi ns, thermoplastic resins – reinforcement fibers – roving’s – woven fabrics – non woven random mats – various types of fibers. PMC processes – hand layup processes – spray up processes – compression moulding – reinforced reaction injection moulding – resin transfer moulding – Pultrusion – Filament winding – Injection moulding. Fiber reinforced plastics (FRP), Glass Fiber Reinforced Plastics (GFRP). Laminated Composites."
+        },
+        {
+          "title": "Metal Matrix Composite",
+          "hours": 7,
+          "topics": "Characteristics and types of MMC, advantages and limitations of MMC, Reinforcements – particles – fibers. Effect of reinforcement – volume fraction – rule of mixtures. Processing of MMC – powder metallurgy process – diffusion bonding – stir casting – squeeze casting, a spray process, Liquid infiltration In-situ reactions-Interface-measurement of interface properties."
+        },
+        {
+          "title": "Special Forming Processes",
+          "hours": 7,
+          "topics": "Special Forming Processes: HVF, HERF (Explosive Forming) techniques - super plastic forming techniques-Hydro Forming-Stretch forming, Laser beam form ing-principles and process parameters- Advantages, limitations and applications of different forming processes. Orbital forging -Isothermal- Hot and cold isostatic pressing -High speed extrusion, Water hammer forming, Incremental Sheet forming, Magnetic Pulse forming, Metal Spinning, Electro Hydraulic Forming, Micro forming."
+        },
+        {
+          "title": "Advanced Welding Techniques",
+          "hours": 8,
+          "topics": "Advanced Welding Processes: Atomic hydrogen welding, Electron beam welding, Laser Beam welding - principle, working and applications, Cold Metal Transfer - concepts, processes and applications, Friction stir welding, Underwater welding, Welding automation in aerospace, nuclear and surface transport vehicles, Robotic Welding, Plasma Arc Welding, Plasma Transferred Arc Welding."
+        },
+        {
+          "title": "Non-Conventional Machining Process",
+          "hours": 8,
+          "topics": "Need of Non -Conventional Machining Process, (Principle, MRR, Process Parameters) Abrasive Jet Machining, Water Jet Machining, Ultrasonic Machining, EDM, WEDM, ECM, ECG, EBM, LBM Influence of tool material, geometry, di -electric fluid and process parameters on machining characteristics, Micro machining."
+        }
+      ]
+    }
+  ]
+}

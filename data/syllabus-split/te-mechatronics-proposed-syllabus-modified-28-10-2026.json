@@ -1,7 +1,7 @@
 {
-  "id": "te-mechatronics-29062026",
+  "id": "te-mechatronics-proposed-syllabus-modified-28-10-2026",
   "kind": "programme",
-  "programme": "TE - Third Year Engineering (Mechatronics Engineering)",
+  "programme": "Third Year Mechatronics Engineering",
   "pattern": "2024",
   "language": "en",
   "subjects": [
@@ -9,7 +9,7 @@
       "code": "PCC-301-MXE",
       "title": "Kinematics of Machinery",
       "semester": 5,
-      "type": "Program core Course 1",
+      "type": "Program core Course",
       "credits": 3,
       "pages": [
         14,
@@ -18,12 +18,12 @@
       "units": [
         {
           "title": "Fundamentals of Mechanism",
-          "topics": "Kinematic link, Types of links, Kinematic pair, Types of constrained motions, Types of Kinematic pairs, Kinematic chain, Types of joints, Degree of freedom, Mobility of Mechanism, Inversion, Grashoff’s law, Four-Bar Chain and its Inversions, Slider crank Chain and its Inversions, Double slider crank Chain and its Inversions, Mechanisms with Higher pairs, Equivalent Linkages and its Cases - Sliding Pairs in Place of Turning Pairs, Spring in Place of Turning Pairs, Cam Pair in Place of Turning Pairs",
+          "topics": "Kinematic link, Types of links, Kinematic pair, Types of constrained motions, Types of Kinematic pairs, Kinematic chain, Types of joints, Degree of freedom, Mobility of Mechanism, Inversion, Grashoff’s law, Four-Bar Chain and its Inversions, Slider crank C hain and its Inversions, Double slider crank Chain and its Inversions, Mechanisms with Higher pairs, Equivalent Linkages and its Cases - Sliding Pairs in Place of Turning Pairs, Spring in Place of Turning Pairs, Cam Pair in Place of Turning Pairs",
           "hours": 8
         },
         {
-          "title": "Kinematic Analysis of Mechanisms:",
-          "topics": "Analytical Method: Analytical methods for displacement, velocity and acceleration analysis of slider crank Mechanism, Velocity and acceleration analysis of Four -Bar and Slider crank mechanisms using Vector and Complex Algebra Methods. Graphical Method: Displacement, velocity and acceleration analysis mechanisms by Relative Velocity Method (Mechanisms up to 6 Links), Instantaneous Centre of Velocity, Kennedy’s Theorem, Angular Velocity ratio Theorem, Analysis of mechanism by ICR method (Mechanisms up to 6 Links), Coriolis component of Acceleration (Theoretical treatment only). MOOC / NPTEL/ YouTube Links: -",
+          "title": "Kinematic Analysis of Mechanisms",
+          "topics": "Analytical Method: Analytical methods for displacement, velocity and acceleration analysis of slider crank Mechanism, Velocity and acceleration analysis of Four -Bar and Slider crank mechanisms using Vector and Complex Algebra Methods. Graphical Method: Displacement, velocity and acceleration analysis mechanisms by Relative Velocity Method (Mechanisms up to 6 Links), Instantaneous Centre of Velocity, Kennedy’s Theorem, Angular Velocity ratio Theorem, Analysis of mechanism by ICR method (Mechanisms up to 6 Links), Coriolis component of Acceleration (Theoretical treatment only).",
           "hours": 8
         },
         {
@@ -47,7 +47,7 @@
       "code": "PCC-302-MXE",
       "title": "Design of Mechatronics System",
       "semester": 5,
-      "type": "Program core Course 2",
+      "type": "Program core Course",
       "credits": 3,
       "pages": [
         17,
@@ -85,7 +85,7 @@
       "code": "PCC-303-MXE",
       "title": "Embedded System Design",
       "semester": 5,
-      "type": "Program core Course 3",
+      "type": "Program core Course",
       "credits": 3,
       "pages": [
         19,
@@ -99,7 +99,7 @@
         },
         {
           "title": "8051 Microcontroller",
-          "topics": "Architecture: Features, architecture and pin configurations, CPU timing and machine cycle, Input / Output ports, Memory organization, Counters and timers, Interrupts, Serial data input and output 8051 Assembly Language Programming: Instruction set, Addressing mode, Assembler directives and programs 8051 Interfacing: LED, LCD, Seven Segment Display, keyboard, ADC, Stepper Motor, Relay and Serial Communication",
+          "topics": "Architecture: Features, architecture and pin configurations, CPU timing and machine cycle, Input / Output ports, Memory organization, Counters and timers, Interrupts, Serial data input and output 8051 Assembly Language Programming: Instruction set, Address ing mode, Assembler directives and programs 8051 Interfacing: LED, LCD, Seven Segment Display, keyboard, ADC, Stepper Motor, Relay and Serial Communication",
           "hours": 8
         },
         {
@@ -109,12 +109,12 @@
         },
         {
           "title": "Embedded Software Development",
-          "topics": "Assemblers, linkers and loaders. Binary file formats for processor executable files. Typical structure of timer-interrupt driven programs. GNU -GCC compiler introduction Embedded C -programming concepts: Optimizing for Speed/Memory needs, Interrupt service routines, macros, functions, modifiers, data types, device drivers",
+          "topics": "Assemblers, linkers and loaders. Binary file formats for processor executable files. Typical structure of timer- interrupt driven programs. GNU -GCC compiler introduction Embedded C -programming concepts: Optimizing for Speed/Memory needs, Interrupt service r outines, macros, functions, modifiers, data types, device drivers",
           "hours": 8
         },
         {
           "title": "Real Time Operating Systems and Embedded Applications",
-          "topics": "Real Time Operating System (RTOS): RTOS concepts, kernel structure, critical sections, multitasking, task and time management, schedulers, event control blocks, priorities, deadlocks, synchronization, semaphore management, mutual exclusion, and RTOS implementation. Embedded System Applications – Case Studies: Consumer and home applications such as IoT -based home automation using Android application, medical applications like health monitoring using embedded systems, and robotics applications such as pick-and-place robot or autonomous surveillance robot.",
+          "topics": "Real Time Operating System (RTOS): RTOS concepts, kernel structure, critical sections, multitasking, task and time management, schedulers, event control blocks, priorities, deadlocks, synchronization, semaphore management, mutual exclusion, and RTOS implementation. Embedded System Applications – Case Studies: Consumer and home applications such as IoT-based home automation using Android application, medical applications like health monitoring using embedded systems, and robotics applications such as pick-and-place robot or autonomous surveillance robot.",
           "hours": 8
         }
       ]
@@ -123,7 +123,7 @@
       "code": "PCC-304-MXE",
       "title": "Kinematics of Machinery Lab",
       "semester": 5,
-      "type": "Program core Course Lab 1",
+      "type": "Program core Course Lab",
       "credits": 1,
       "pages": [
         21,
@@ -135,7 +135,7 @@
       "code": "PCC-305-MXE",
       "title": "Design of Mechatronics System Lab",
       "semester": 5,
-      "type": "Program core Course Lab 2",
+      "type": "Program core Course Lab",
       "credits": 1,
       "pages": [
         24,
@@ -147,7 +147,7 @@
       "code": "PCC-306-MXE",
       "title": "Embedded System Design Lab",
       "semester": 5,
-      "type": "Program core Course Lab 3",
+      "type": "Program core Course Lab",
       "credits": 1,
       "pages": [
         26,
@@ -168,12 +168,12 @@
       "units": [
         {
           "title": "Electric Mobility Systems and EV Architecture",
-          "topics": "History and evolution of Electric Vehicles, comparison of Electric Vehicles with Internal Combustion Engine Vehicles (ICEV), limitations of ICE vehicles, exhaust emissions and global warming, environmental importance of electric and hybrid vehicles, classification of EVs and HEVs. Overview of EV technologies and architecture, EV subsystems and configurations, case studies of two -wheelers, three -wheelers, and four - wheelers, electric buses and electric trucks. Emerging EV technologies including battery swapping systems, wireless charging, and solid -state batteries, introduction to autonomous and connected el ectric vehicles, overview of EV challenges and future trends.",
+          "topics": "History and evolution of Electric Vehicles, comparison of Electric Vehicles with Internal Combustion Engine Vehicles (ICEV), limitations of ICE vehicles, exhaust emissions and global warming, environmental importance of electric and hybrid vehicles, classification of EVs and HEVs. Overview of EV technologies and architecture, EV subsystems and configurations, case studies of two -wheelers, three -wheelers, and four - wheelers, electric buses and electric trucks. Emerging EV technologies including battery swapping systems, wireless charging, and solid -state batteri es, introduction to autonomous and connected electric vehicles, overview of EV challenges and future trends.",
           "hours": 8
         },
         {
           "title": "Advanced Battery Technologies and Energy Storage for EVs",
-          "topics": "Materials used for Lithium-ion batteries, nanostructured electrode materials, Panasonic 18650 and 2170 cells, construction and working of Li -ion batteries. Battery pack design and configuration, battery protection systems, battery performance parameters, battery thermal management and cooling techniques. Battery capacity calculation, life cycle assessment of Li -ion batteries, solid -state batteries and future energy storage technologies, hybridization of energy storage devices such as ultra capacitors and flywheels.",
+          "topics": "Materials used for Lithium-ion batteries, nanostructured electrode materials, Panasonic 18650 and 2170 cells, construction and working of Li -ion batteries. Battery pack design and configuration, battery protection systems, battery performance parameters, battery thermal management and cooling techniques. Battery capacity calculation, life cycle assessment o f Li-ion batteries, solid -state batteries and future energy storage technologies, hybridization of energy storage devices such as ultra capacitors and flywheels.",
           "hours": 8
         },
         {
@@ -188,7 +188,7 @@
         },
         {
           "title": "EV Charging Infrastructure, Battery Management Systems and Policies",
-          "topics": "Battery charging techniques: CC-CV, CV-CC charging, charging standards and charger architectures. Public EV charging stations, solar powered EV charging stations, grid integration and Vehicle -to-Grid (V2G) concept. Battery Management System (BMS): structure, functions and standards, State of Charge (SoC) estimation methods using Kalman Filter, Neural Network and Fuzzy Logic. EV charging infrastructure guidelines, FAME-II policy, BEE star labeling for Li-ion battery packs, EV tariffs, EV startup ecosystem and battery recycling policies.",
+          "topics": "Battery charging techniques: CC-CV, CV-CC charging, charging standards and charger architectures. Public EV charging stations, solar powered EV charging stations, grid integration and Vehicle -to-Grid (V2G) concept. Battery Management System (BMS): structur e, functions and standards, State of Charge (SoC) estimation methods using Kalman Filter, Neural Network and Fuzzy Logic. EV charging infrastructure guidelines, FAME-II policy, BEE star labeling for Li-ion battery packs, EV tariffs, EV startup ecosystem and battery recycling policies.",
           "hours": 8
         }
       ]
@@ -206,8 +206,13 @@
       "units": [
         {
           "title": "Fundamentals of Signals & Systems",
-          "topics": "Signal: Definition, Continuous Time signal, Sampling Theorem, Discrete Signal, Signal Representation: Graphical, Functional, Tabular and Sequence. Basic Elementary signals and their relationships: Unit Impulse, Unit step, Unit ramp, Unit parabolic, rectangular pulse, Triangular, Signum, Sinusoidal, Real exponential, Complex exponential, Sinc and Gaussian function, Operations on signals such as addition, subtraction, shifting, scaling. System: Definition, Classification, static and dynamic systems, causal and non- causal systems, Linear and Non- linear systems, time variant and time invariant systems, stable and unstable systems, invertible and non- invertible systems. System interconnections.",
+          "topics": "Signal: Definition, Continuous Time signal, Sampling Theorem, Discrete Signal, Signal Representation: Graphical, Functional, Tabular and Sequence. Basic Elementary signals and their relationships:",
           "hours": 8
+        },
+        {
+          "title": "mpulse,",
+          "topics": "Unit step, Unit ramp, Unit parabolic, rectangular pulse, Triangular, Signum, Sinusoidal, Real exponential, Complex exponential, Sinc and Gaussian function, Operations on signals such as addition, subtraction, shifting, scaling. System: Definition, Classification, static and dynamic systems, causal and non- causal systems, Linear and Non- linear systems, time variant and time invariant systems, stable and unstable systems, invertible and non- invertible systems. System interconnections.",
+          "hours": null
         },
         {
           "title": "Time Domain Representation of LTI System",
@@ -221,7 +226,7 @@
         },
         {
           "title": "Laplace Transform",
-          "topics": "Definition of Laplace transform, Limitations of Fourier transform and need of Laplace transform, ROC, Properties of ROC, Laplace transform of standard periodic and aperiodic functions, properties of Laplace transform and their significance, Laplace transform evaluation using properties, Inverse Laplace transform based on partial fraction expansion, stability considerations in S domain, Application of Laplace Transforms: RL, RC, RLC Circuit analysis, transfer function and impulse response.",
+          "topics": "Definition of Laplace transform, Limitations of Fourier transform and need of Laplace transform, ROC, Properties of ROC, Laplace transform of standard periodic and aperiodic functions, properties of Laplace transform and their significance, Laplace transfo rm evaluation using properties, Inverse Laplace transform based on partial fraction expansion, stability considerations in S domain, Application of Laplace Transforms: RL, RC, RLC Circuit analysis, transfer function and impulse response.",
           "hours": 8
         },
         {
@@ -271,7 +276,7 @@
     },
     {
       "code": "PEC-322A-MXA",
-      "title": "Electric Vehicles Lab",
+      "title": "Electric Vehicle Lab",
       "semester": 5,
       "type": "Programme Elective Course Lab",
       "credits": 1,
@@ -283,7 +288,7 @@
     },
     {
       "code": "PEC-322B-MXA",
-      "title": "Signals & Systems Lab",
+      "title": "Signals and System Lab",
       "semester": 5,
       "type": "Programme Elective Course Lab",
       "credits": 1,
@@ -337,7 +342,7 @@
       "credits": 1,
       "pages": [
         43,
-        44
+        45
       ],
       "units": []
     },
@@ -345,7 +350,7 @@
       "code": "PCC-351-MXE",
       "title": "Machine Design",
       "semester": 6,
-      "type": "Programme core Course 1",
+      "type": "Programme core Course",
       "credits": 3,
       "pages": [
         46,
@@ -383,7 +388,7 @@
       "code": "PCC-352-MXE",
       "title": "Digital Signal Processing",
       "semester": 6,
-      "type": "Programme core Course 2",
+      "type": "Programme core Course",
       "credits": 3,
       "pages": [
         48,
@@ -397,7 +402,7 @@
         },
         {
           "title": "Discrete Fourier series",
-          "topics": "Fourier Series, Fourier Transform, Laplace Transform and Z Transform relation, DFS Representation of Periodic Sequences, Properties of Discrete Fourier Series, Discrete Fourier Transforms: Properties of DFT, Linear Convolution of Sequences using DFT, Computation of DFT: Over -Lap Add Method, Over-Lap Save Method, Relation between DTFT, DFS, DFT and Z - Transform. Fast Fourier Transforms: Fast Fourier Transforms (FFT) - Radix-2 Decimation -in-Time and Decimation -in-Frequency FFT Algorithms, Inverse FFT.",
+          "topics": "Fourier Series, Fourier Transform, Laplace Transform and Z Transform relation, DFS Representation of Periodic Sequences, Properties of Discrete Fourier Series, Discrete Fourier Transforms: Properties of DFT, Linear Convolution of Sequences using DFT, Compu tation of DFT: Over-Lap Add Method, Over-Lap Save Method, Relation between DTFT, DFS, DFT and Z - Transform. Fast Fourier Transforms: Fast Fourier Transforms (FFT) - Radix-2 Decimation -in-Time and Decimation -in-Frequency FFT Algorithms, Inverse FFT.",
           "hours": 8
         },
         {
@@ -412,7 +417,7 @@
         },
         {
           "title": "Realization of Digital Filters and Implementation Issues",
-          "topics": "Realization of Digital Filters: Applications of Z –Transforms, solution of difference equations of digital filters, system function, stability criterion, frequency response of stable systems, realization of digital filters – Direct form, Canonic form, Cascade form and Parallel form structures. Finite Word Length Effects: Limit cycles, overflow oscillations, round-off noise in IIR digital filters, computational output round-off noise, methods to prevent overflow, trade -off between round -off and overflow noise, measurement of coefficient quantization effects through pole-zero movement, dead band effects. Implementation Aspects: Brief introduction to finite precision arithmetic and implementation issues in digital hardware/DSP processors while implementing digital filters.",
+          "topics": "Realization of Digital Filters: Applications of Z–Transforms, solution of difference equations of digital filters, system function, stability criterion, frequency response of stable systems, realization of digital filters – Direct form, Canonic form, Cascade form and Parallel form structures. Finite Word Length Effects: Limit cycles, overflow oscillations, round-off noise in IIR digital filters, computational output round-off noise, methods to prevent overflow, trade -off between round -off and overflow noise, measurement of coefficient quantization effects through pole-zero movement, dead band effects. Implementation Aspects: Brief introduction to finite precision arithmetic and implementation issues in digital hardware/DSP processors while implementing digital filters.",
           "hours": 8
         }
       ]
@@ -421,7 +426,7 @@
       "code": "PCC-353-MXE",
       "title": "Machine Design Lab",
       "semester": 6,
-      "type": "Programme core Course Lab 1",
+      "type": "Programme core Course Lab",
       "credits": 1,
       "pages": [
         50,
@@ -433,7 +438,7 @@
       "code": "PCC-354-MXE",
       "title": "Digital Signal Processing Lab",
       "semester": 6,
-      "type": "Programme core Course Lab 2",
+      "type": "Programme core Course Lab",
       "credits": 1,
       "pages": [
         52,
@@ -445,8 +450,8 @@
       "code": "PEC-361A-MXA",
       "title": "Automotive Engineering",
       "semester": 6,
-      "type": "Elective-II",
-      "credits": 3,
+      "type": "Programme Elective Course",
+      "credits": 4,
       "pages": [
         54,
         55
@@ -483,8 +488,8 @@
       "code": "PEC-361B-MXA",
       "title": "Digital Image Processing",
       "semester": 6,
-      "type": "Elective-II",
-      "credits": 3,
+      "type": "Programme Elective Course",
+      "credits": 4,
       "pages": [
         56,
         57
@@ -492,7 +497,7 @@
       "units": [
         {
           "title": "Digital Imaging Basics and Transform Methods",
-          "topics": "Digital Imaging Fundamentals: Basic idea of Digital image, Image formation in human eye, Pixel, Mathematical operation of Digital Image, Sampling, Quantization, application of digital Image Processing Transform of Digital Images: Importance of Digital Image Transform, Fourier Transform of Digital Image (DFT), Inverse Fourier Transform (IDFT), Fast Fourier Transform, Inverse Fast Fourier Transform, Application of Digital Image Transform in different area",
+          "topics": "Digital Imaging Fundamentals: Basic idea of Digital image, Image formation in human eye, Pixel, Mathematical operation of Digital Image, Sampling, Quantization, application of digital Image Processing Transform of Digital Images: Importance of Digital Imag e Transform, Fourier Transform of Digital Image (DFT), Inverse Fourier Transform (IDFT), Fast Fourier Transform, Inverse Fast Fourier Transform, Application of Digital Image Transform in different area",
           "hours": 8
         },
         {
@@ -521,7 +526,7 @@
       "code": "PEC-362A-MXA",
       "title": "Smart Manufacturing",
       "semester": 6,
-      "type": "Elective-III",
+      "type": "Programme Elective Course",
       "credits": 3,
       "pages": [
         58,
@@ -559,7 +564,7 @@
       "code": "PEC-362B-MXA",
       "title": "Internet of Things",
       "semester": 6,
-      "type": "Elective-III",
+      "type": "Programme Elective Course",
       "credits": 3,
       "pages": [
         60,
@@ -573,7 +578,7 @@
         },
         {
           "title": "Sensors, Actuators and Embedded IoT Platforms",
-          "topics": "Role of Sensors and Actuators in IoT, Sensors: Definition, Characteristics, Types and Working (Soil Moisture Sensor, DHT11, Ultrasonic Sensor, PIR Sensor, Sound Sensor, Colour Sensor, LDR, Accelerometer, Gyroscope, Magnetometer), Actuators: LED, Relay, DC Motor, LCD, Introduction to IoT Boards: Arduino, Raspberry Pi, Node MCU, Beagle Bone, Jetson Nano, GPIO Structure, Specifications, OS Requirements, Datasheet Reading, Interfacing Sensors and Actuators.",
+          "topics": "Role of Sensors and Actuators in IoT, Sensors: Definition, Characteristics, Types and Working (Soil Moisture Sensor, DHT11, Ultrasonic Sensor, PIR Sensor, Sound Sensor, Colour Sensor, LDR, Accelerometer, Gyroscope, Magnetometer), Actuators: LED, Relay, DC Motor, LCD, Introduction to IoT Boards: Arduino, Raspberry Pi, Node MCU, Beagle Bone, Jetson Nano, G PIO Structure, Specifications, OS Requirements, Datasheet Reading, Interfacing Sensors and Actuators.",
           "hours": 8
         },
         {
@@ -597,7 +602,7 @@
       "code": "PEC-363A-MXA",
       "title": "Automotive Engineering Lab",
       "semester": 6,
-      "type": "Programme Elective Course Lab 3",
+      "type": "Programme Elective Course Lab",
       "credits": 1,
       "pages": [
         62,
@@ -609,7 +614,7 @@
       "code": "PEC-363B-MXA",
       "title": "Digital Image Processing Lab",
       "semester": 6,
-      "type": "Programme Elective Course Lab 3",
+      "type": "Programme Elective Course Lab",
       "credits": 1,
       "pages": [
         64,
@@ -618,14 +623,38 @@
       "units": []
     },
     {
+      "code": "PEC-363C-MXA",
+      "title": "Smart Manufacturing Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        67,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-363D-MXA",
+      "title": "Internet of Things Lab",
+      "semester": 6,
+      "type": "Programme Elective Course Lab",
+      "credits": 1,
+      "pages": [
+        69,
+        70
+      ],
+      "units": []
+    },
+    {
       "code": "MDM-371-MXE",
       "title": "Artificial Intelligence & Machine Learning",
       "semester": 6,
       "type": "Multidisciplinary Minor",
-      "credits": 2,
+      "credits": 3,
       "pages": [
-        67,
-        68
+        71,
+        72
       ],
       "units": [
         {
@@ -657,25 +686,13 @@
     },
     {
       "code": "MDM-372-MXE",
-      "title": "Solar Technology and Maintenance",
+      "title": "Mini Project and Solar Technology and Maintenance",
       "semester": 6,
       "type": "Vocational and Skill Enhancement Course",
       "credits": 1,
       "pages": [
-        69,
-        70
-      ],
-      "units": []
-    },
-    {
-      "code": "ELC-381-MXE",
-      "title": "Internship / OJT",
-      "semester": 6,
-      "type": "Experiential Learning Course",
-      "credits": 4,
-      "pages": [
-        71,
-        73
+        73,
+        75
       ],
       "units": []
     }

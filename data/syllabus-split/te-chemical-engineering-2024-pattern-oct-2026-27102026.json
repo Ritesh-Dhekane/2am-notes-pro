@@ -1,7 +1,7 @@
 {
-  "id": "te-chemical-engineering-syllabus-27th-july-2026-29072026",
+  "id": "te-chemical-engineering-2024-pattern-oct-2026-27102026",
   "kind": "programme",
-  "programme": "Third Year Engineering (Chemical Engineering)",
+  "programme": "Third Year Chemical Engineering",
   "pattern": "2024",
   "language": "en",
   "subjects": [
@@ -28,7 +28,7 @@
         },
         {
           "title": "Gas Absorption",
-          "topics": "Mechanism of gas absorption, equilibrium in gas absorption, application of mas s transfer theories to absorption, absorption in wetted wall columns, values of transfer coefficient, absorption in packed tower and spray tower, calculation of HETP, HTU, NTU, calculations of height of packed and spray tower. Absorption in tray towers, ab sorption and stripping factors, tray efficiencies, calculation of number of trays for absorption, absorption with chemical reaction.",
+          "topics": "Mechanism of gas absorption, equilibrium in gas absorption, application of mass transfer theories to absorption, absorption in wetted wall columns, values of transfer coefficient, absorption in packed tower and spray tower, calculation of HETP, HTU, NTU, calculations of height of packed and spray tower. Absorption in tray towers, absorption an d stripping factors, tray efficiencies, calculation of number of trays for absorption, absorption with chemical reaction.",
           "hours": 7
         },
         {
@@ -38,7 +38,7 @@
         },
         {
           "title": "Drying",
-          "topics": "Principles, equilibrium in drying, type of moisture binding, mechanism of batch drying, continuous drying, time required for drying, mechanism of moisture movement in solid, design princip les of tray dryer, rotary dryer, drum dryer, spray dryer, fluidized bed and spouted bed dryer, pneumatic dryer and vacuum dryer. Learning Resources",
+          "topics": "Principles, equilibrium in drying, type of moisture binding, mechanism of batch drying, continuous drying, time required for drying, mechanism of moisture movement in solid, design principles of tray dryer, rotary dryer, drum dryer, spray dryer, fluidized bed and spouted bed dryer, pneumatic dryer and vacuum dryer.",
           "hours": 7
         }
       ]
@@ -61,23 +61,23 @@
         },
         {
           "title": "Interpretation of Reaction Rate Data",
-          "topics": "(06 Hours) Analysis of reaction rate data obtained from batch reactors; differential and integral methods of analysis; determination of reaction order and rate constants; half-life method.",
-          "hours": null
+          "topics": "Analysis of reaction rate data obtained from batch reactors; differential and integral methods of analysis; determination of reaction order and rate constants; half-life method.",
+          "hours": 6
         },
         {
           "title": "Ideal Reactors and Reactor Design",
-          "topics": "Design and performance of ideal reactors; batch reactor design equations; constant and variable volume batch reactors; continuous stirred tank reactor (CSTR ); plug flow reactor (PFR); space time and space velocity; comparison of reactor performance; reactors in series and parallel.",
+          "topics": "Design and performance of ideal reactors; batch reactor design equations; constant and variable volume batch reactors; continuous stirred tank reactor (CSTR); plug flow reactor (PFR); space time and space velocity; comparison of reactor performance; reactors in series and parallel.",
           "hours": 6
         },
         {
           "title": "Multiple Reactions and Reactor Optimization",
-          "topics": "Types of multiple reactions including series, parallel, and comp lex reactions; selectivity, yield, and conversion; strategies for maximizing desired product; effect of reactor type and operating conditions on product distribution",
+          "topics": "Types of multiple reactions including series, parallel, and complex reactions; selectivity, yield, and conversion; strategies for maximizing desired product; effect of reactor type and operating conditions on product distribution",
           "hours": 6
         },
         {
-          "title": "Non-Ideal Reactors and Residence Time Distribution",
-          "topics": "(RTD) (06 Hours) Introduction to non-ideal flow in reactors; causes of non- ideal flow behavior; residence time distribution concepts; RTD functions E(t) and F(t); experimental determination of RTD using tracer techniques; mean residence time and variance; RTD for ideal reactors (CSTR and PFR); models for non- ideal reactors such as dispersion model and tanks-in-series model. Learning Resources",
-          "hours": null
+          "title": "Non-Ideal Reactors and Residence Time Distribution (RTD)",
+          "topics": "Introduction to non-ideal flow in reactors; causes of non- ideal flow behavior; residence time distribution concepts; RTD functions E(t) and F(t); experimental determination of RTD using tracer techniques; mean residence time and variance; RTD for ideal reactors (CSTR and PFR); models for non- ideal reactors such as dispersion model and tanks-in-series model.",
+          "hours": 6
         }
       ]
     },
@@ -93,9 +93,9 @@
       ],
       "units": [
         {
-          "title": "Design Considerations, Pressure Vessels and High",
-          "topics": "Pressure vessels (06 Hours) Basic Design Considerations: Corrosion, Corrosion Prevention, Protective Coatings, Linings for Chemical Plants and Equipment, Stresses created due to static and dynamic load, Design stress, Elastic Instability, Combined stresses and theories of failure. Pressure Vessel: Operating Conditions, Pressure vess el code and selection of materials, Design Conditions and stresses, Design of Shell and its components, Illustration. High Pressure vessel: Constructional features, Materials for High Pressure Vessels, Solid Walled Vessel, Multi-shell construction, Vessel closures, Illustration.",
-          "hours": null
+          "title": "Design Considerations, Pressure Vessels and High Pressure vessels",
+          "topics": "Basic Design Considerations: Corrosion, Corrosion Prevention, Protective Coatings, Linings for Chemical Plants and Equipment, Stresses created due to static and dynamic load, Design stress, Elastic Instability, Combined stresses and theories of failure. Pressure Vessel: Operating Conditions, Pressure vessel code and selection of materials, Desig n Conditions and stresses, Design of Shell and its components, Illustration. High Pressure vessel: Constructional features, Materials for High Pressure Vessels, Solid Walled Vessel, Multi-shell construction, Vessel closures, Illustration.",
+          "hours": 6
         },
         {
           "title": "Reaction Vessels and Heat Exchangers",
@@ -104,7 +104,7 @@
         },
         {
           "title": "Unit operations, Processes and Inorganic Industry",
-          "topics": "Introduction: Chemical industries-facts and figures, Unit operation and unit process concepts. Chlor-Alkali Industries: Soda ash, S olvay process, dual process, Natural soda ash from deposits, Electrolytic process, Caustic soda. Production of Aluminum Oxide by Bayer’s Process. Cements: Introduction, types of cements, properties and applications. Manufacture of Portland cement. Beneficiation & Production of Hydrated lime. Iron and Steel: Production of steel, blast furnace detail.",
+          "topics": "Introduction: Chemical industries-facts and figures, Unit operation and unit process concepts. Chlor-Alkali Industries: Soda ash, Solvay process, dual process, Natural soda ash from deposits, Electrolytic process, Caustic soda. Production of Aluminum Oxide by Bayer’s Process. Cements: Introduction, types of cements, properties and applications. Manufacture of Portland cement. Beneficiation & Production of Hydrated lime. Iron and Steel: Production of steel, blast furnace detail.",
           "hours": 6
         },
         {
@@ -114,7 +114,7 @@
         },
         {
           "title": "Introduction to Petrochemical Industry",
-          "topics": "C-1 Compounds: Production of Methanol, Formaldehyde, and Halogenated Hydrocarbons, Trichloroethylene, perchloroethylene. C-2 Compounds: Ethylene Dichloride, Vinyl Chloride via EDC, Vinyl chloride via acetylene-HCl reaction, Ethylene Oxide, Ethanolamines. C-3 Compounds: Production of Isopropanol, Acetone, Cumene, Acrylonitrile, Propylene Oxide. Learning Resources",
+          "topics": "C-1 Compounds: Production of Methanol, Formaldehyde, and Halogenated Hydrocarbons, Trichloroethylene, perchloroethylene. C-2 Compounds: Ethylene Dichloride, Vinyl Chloride via EDC, Vinyl chloride via acetylene-HCl reaction, Ethylene Oxide, Ethanolamines. C-3 Compounds: Production of Isopropanol, Acetone, Cumene, Acrylonitrile, Propylene Oxide.",
           "hours": 6
         }
       ]
@@ -161,7 +161,7 @@
         },
         {
           "title": "Dynamic Behavior of Simple Chemical Processes",
-          "topics": "Mathematical modelling of processes: Process variables, Types of inputs, Types of systems First order processes: Liquid level in tank, Thermometer, isothermal and non- isothermal CSTR, Dynamic response of first order system to impulse and step inputs, dead-time systems, pure capacity system Second order processes: Interacting and Non-inte racting systems, Step response of second order system, Characteristics of under-damped system Linearization of nonlinear systems: Liquid level system, non-isothermal CSTR system Laplace Transforms: Laplace transforms of basic functions, Transfer function of simple processes",
+          "topics": "Mathematical modelling of processes: Process variables, Types of inputs, Types of systems First order processes: Liquid level in tank, Thermometer, isothermal and non- isothermal CSTR, Dynamic response of first order system to impulse and step inputs, dead-time systems, pure capacity system Second order processes: Interacting and Non-interacting systems, Step respons e of second order system, Characteristics of under-damped system Linearization of nonlinear systems: Liquid level system, non-isothermal CSTR system Laplace Transforms: Laplace transforms of basic functions, Transfer function of simple processes",
           "hours": 8
         },
         {
@@ -171,12 +171,12 @@
         },
         {
           "title": "Stability Analysis and Frequency Response",
-          "topics": "Stability Criteria: Characteristic equation, Poles-zeros in complex plane, Routh-Hurwitz stability criterion and Root Locus analysis. Controller Error Performance Criteria: One-quarter decay ratio, Time Integral performance criteria by ISE, IAE, ITAE Frequency Response: Introduction to Bode plots, Nyquist plots and stability in frequency domain. Controller Tuning: Cohen-Coon and Ziegler-Nichols techniques.",
+          "topics": "Stability Criteria: Characteristic equation, Poles-zeros in complex plane, Routh- Hurwitz stability criterion and Root Locus analysis. Controller Error Performance Criteria: One-quarter decay ratio, Time Integral performance criteria by ISE, IAE, ITAE Frequency Response: Introduction to Bode plots, Nyquist plots and stability in frequency domain. Controller Tuning: Cohen-Coon and Ziegler-Nichols techniques.",
           "hours": 8
         },
         {
           "title": "Design of Complex Control Schemes and Digital Control",
-          "topics": "Design of complex control schemes: Control schemes for large time-delay systems, inverse-response systems, cascade control, selective control, split range control, feed forward, ratio, adaptive and inferential control systems Fundamentals of digital control: Conversion of continuous to discrete signals and vice versa, Digital approximation of classical controllers Digital Control Systems: Introduction to Distributed Control Systems (DCS), Programmable Logic Controllers (PLC), and SCADA architecture. Textbooks: 1. Chemical Process Control, George Stephanopoulos, Englewood Cliffs, NJ: Prentice hall 2. Process System Analysis & Control, Donald R. Coughanour, Mc Graw Hill Publishing",
+          "topics": "Design of complex control schemes: Control schemes for large time-delay systems, inverse-response systems, cascade control, selective control, split range control, feed forward, ratio, adaptive and inferential control systems Fundamentals of digital control: Conversion of continuous to dis crete signals and vice versa, Digital approximation of classical controllers Digital Control Systems: Introduction to Distributed Control Systems (DCS), Programmable Logic Controllers (PLC), and SCADA architecture. Textbooks: 1. Chemical Process Control, George Stephanopoulos, Englewood Cliffs, NJ: Prentice hall 2. Process System Analysis & Control, Donald R. Coughanour, Mc Graw Hill Publishing",
           "hours": 8
         }
       ]
@@ -204,7 +204,7 @@
         },
         {
           "title": "Polymers",
-          "topics": "Iron – Carbon diagram high and low temperature material, insulation, refractories. Definition and importance of Polymer Addition and condensation Polymerization Plastics: definition, classification, genera l properties and uses Rubbers: definition, classification, general properties and uses Compare natural and synthetic rubber Vulcanizing of rubber",
+          "topics": "Iron – Carbon diagram high and low temperature material, insulation, refractories. Definition and importance of Polymer Addition and condensation Polymerization Plastics: definition, classification, general properties and uses Rubbers: definition, classification, general properties and uses Compare natural and synthetic rubber Vulcanizing of rubber",
           "hours": 6
         },
         {
@@ -214,8 +214,8 @@
         },
         {
           "title": "Analytical Techniques",
-          "topics": "(06 Hours) Electron Microscopes; scanning electron microscopy (Basics, Principal Elements, working), transmission electron microscopy (Basics, Principal Elements, working). Scanning probe microscopes; scanning tunneling microscopy, atomic force microscopy, other kinds of microscopes; X-ray diffraction. List of Laboratory Experiments (Any 8 experiments from the given list) Experiment 1: Study of properties of polymeric materials and testing of polymers; synthesis of polymers such as Nylon, PVC, PTFE, etc. Experiment 2: Determination of hardness of metals using different methods: Rockwell Hardness Test, Brinell Hardness Test, and Shore Scleroscope Test. Experiment 3:Determination of impact strength of materials using Izod and Charpy impact tests on mild steel, copper, brass, and aluminum specimens. Experiment 4: Chemical analysis of metals and alloys for estimation of a specific element (e.g., carbon in steel, copper in brass, molybdenum in stainless steel, etc.). Experiment 5:Study of testing and treatment methods including: i) Dye penetrant test ii) Rubber lining process iii) Ultrasonic testing iv) Heat treatment processes Experiment 6: Study of nanomaterial and their synthesis met",
-          "hours": null
+          "topics": "Electron Microscopes; scanning electron microscopy (Basics, Principal Elements, working), transmission electron microscopy (Basics, Principal Elements, working). Scanning probe microscopes; scanning tunneling microscopy, atomic force microscopy, other kinds of microscopes; X-ray diffraction. List of Laboratory Experiments (Any 8 experiments from the given list) Experiment 1: Study of properties of polymeric materials and testing of polymers; synthesis of polymers such as Nylon, PVC, PTFE, etc. Experiment 2: Determination of hardness of metals using different methods: Rockwell Hardness Test, Brinell Hardness Test, and Shore Scleroscope Test. Experiment 3:Determination of impact strength of materials using Izod and Charpy impact tests on mild steel, copper, brass, and aluminum specimens. Experiment 4: Chemical analysis of metals and alloys for estimation of a specific element (e.g., carbon in steel, copper in brass, molybdenum in stainless steel, etc.). Experiment 5:Study of testing and treatment methods including: i) Dye penetrant test ii) Rubber lining process iii) Ultrasonic testing iv) Heat treatment processes Experiment 6: Study of nanomaterial and their synthesis methods. Ex...",
+          "hours": 6
         }
       ]
     },
@@ -231,9 +231,9 @@
       ],
       "units": [
         {
-          "title": "Introduction to Environmental Engineering and Air",
-          "topics": "Pollution (07 Hours) Overview of environmental engineering, Environmental pollution: air, water, and soil pollution, Impact of population growth on the environment. Environmental impacts of thermal, hydro, and nuclear energ y generation. Chemical pollution and solid waste generation. Prevention and control of environmental pollution. Environmental laws, regulations, and standards. Clean Development Mechanism (CDM) and Kyoto Protocol. Definition, sources, classification, and s cales of concentration of air pollutants. Effects of air pollutants on human health, plants, animals, materials, and economy. Air quality standards: WHO, BIS, MPCB, and CPCB.",
-          "hours": null
+          "title": "Introduction to Environmental Engineering and Air Pollution",
+          "topics": "Overview of environmental engineering, Environmental pollution: air, water, and soil pollution, Impact of population growth on the environment. Environmental impacts of thermal, hydro, and nuclear energy generation. Chemical pollution and solid was te generation. Prevention and control of environmental pollution. Environmental laws, regulations, and standards. Clean Development Mechanism (CDM) and Kyoto Protocol. Definition, sources, classification, and scales of concentration of air pollutants. Effe cts of air pollutants on human health, plants, animals, materials, and economy. Air quality standards: WHO, BIS, MPCB, and CPCB.",
+          "hours": 7
         },
         {
           "title": "Air Pollution Control Methods and Equipment",
@@ -247,19 +247,19 @@
         },
         {
           "title": "Wastewater Treatment Technologies",
-          "topics": "Principles of primary and secondary wastewater treat ment. Activated sludge process (suspended growth systems): design considerations and operation, Sludge treatment and disposal, Trickling filters,Moving Bed Biofilm Reactor (MBBR). Advanced wastewater treatment methods: Up flow Anaerobic Sludge Blanket (UASB), P hotocatalytic reactors, Wet-air oxidation, Membrane Bioreactor (MBR), Biosorption.",
+          "topics": "Principles of primary and secondary wastewater treatment. Activated sludge process (suspended growth systems): design considerations and operation, Sludge treatment and disposal, Trickling filters,Moving Bed Biofilm Reactor (MBBR). Advanced wastewater treatment methods: Up flow Anaerobic Sludge Blanket (UASB), P hotocatalytic reactors, Wet-air oxidation, Membrane Bioreactor (MBR), Biosorption.",
           "hours": 7
         },
         {
           "title": "Tertiary Treatment and Solid Waste Management",
-          "topics": "Tertiary wastewater treatment: Disinfection using chlorine, ozone, hydrogen peroxide, and UV radiati on, Recovery of materials from process effluents, Micro-screening, Biological nitrification and denitrification, Granular medium filtration. Land pollution and solid waste management: Sources and classification of solid wastes, Collection, segregation, and transportation, Disposal methods, Incineration, Composting, Recovery and recycling of solid waste. Sustainable waste management practices and circular economy concepts. Learning Resources",
+          "topics": "Tertiary wastewater treatment: Disinfection using chlorine, ozone, hydr ogen peroxide, and UV radiation, Recovery of materials from process effluents, Micro-screening, Biological nitrification and denitrification, Granular medium filtration. Land pollution and solid waste management: Sources and classification of solid wastes, Collection, segregation, and transportation, Disposal methods, Incineration, Composting, Recovery and recycling of solid waste. Sustainable waste management practices and circular economy concepts.",
           "hours": 7
         }
       ]
     },
     {
       "code": "PEC-322A-CEE",
-      "title": "Instrumentation and Process Control Lab",
+      "title": "Process Instrumentation and Control Lab",
       "semester": 5,
       "type": "Program Elective Course Lab",
       "credits": 1,
@@ -301,7 +301,7 @@
       "credits": 3,
       "pages": [
         44,
-        46
+        50
       ],
       "units": [
         {
@@ -320,8 +320,28 @@
           "hours": 6
         },
         {
-          "title": "Sustainable Development Goals and Future",
-          "topics": "Perspectives (06 Hours) Millennium Development Goals (MDGs), Sustainable Development Goals (SDGs), ESG (Environmental, Social, Governance) concepts, Corporate social responsibility (CSR) , Green entrepreneurship and sustainable innovation, Government initiatives and policies for sustainability , India’s sustainable development initiatives and case studies",
+          "title": "Sustainable Development Goals and Future Perspectives",
+          "topics": "Millennium Development Goals (MDGs), Sustainable Development Goals (SDGs), ESG (Environmental, Social, Governance) concepts, Corporate social responsibility (CSR) , Green entrepreneurship and sustainable innovation, Government initiatives and policies for sustainability , India’s sustainable development initiatives and case studies Tutorials: The students have to complete at least 8 tutorials from the following list. T1: Study the concept and need of sustainable development with suitable real-life examples. T2: Compare the environmental, social, and economic pillars of sustainability using a case study. T3: Prepare a report on climate change, global warming, and greenhouse gas emissions in India. T4: Calculate personal or institutional carbon footprint and suggest methods for reduction. T5: Study ozone layer depletion causes, effects, and international protection measures. T6: Analyse sustainable water management techniques such as rainwater harvesting and wastewater recycling. T7: Conduct a survey on air, water, soil, or noise pollution in the local area and suggest pollution control measures. T8: Prepare a waste minimization plan based on 3- R concepts (Reduce, Reuse, Recycle)...",
+          "hours": 6
+        },
+        {
+          "title": "es for emission reduction.",
+          "topics": "Activities:  Collection of data on electricity consumption, transportation, fuel use, and waste generation.  Calculation of carbon footprint using standard emission factors.  Preparation of carbon reduction strategies. Outcome: Students will be able to calculate and interpret carbon footprints and suggest mitigation measures. P2: Water Quality Analysis Objective:  To assess water quality and understand sustainable water management. Activities:  Collection of water samples.  Determination of pH, turbidity, TDS, hardness, conductivity, and dissolved oxygen.  Comparison with standard water quality guidelines. Outcome: Students will be able to evaluate water quality and recommend treatment or conservation measures. P3: Solid Waste Audit and 3R Implementation Objective:  To study waste generation patterns and resource recovery opport",
+          "hours": null
+        },
+        {
+          "title": "es.",
+          "topics": "Activities:  Segregation and characterization of waste.  Quantification of biodegradable, recyclable, and inert fractions.  Preparation of waste minimization plans based on 3R principles. Outcome: Students will be able to conduct waste audits and propose sustainable waste management solutions. P4: Green Plantation – Plantation of Trees Objectives:  To promote environmental awareness and afforestation.  To understand the role of trees in sustainability and climate protection. Activities:  Selection of suitable tree species and plantation site.  Plantation of saplings and recording of plantation details.  Basic maintenance and monitoring of planted trees. Outcomes:  Students will understand the importance of tree plantation for environmental sustainability.  Students will develop skills in plantation and conservation practices.  Students will contribute to green campus and sustainable development initiatives. P5: Circular Economy and Resource Recovery Study Objective:  To apply circular economy concepts in engineering systems. Activities:  Material flow analysis of a selected product or process.  Identification of waste generation and recovery opport",
+          "hours": null
+        },
+        {
+          "title": "es.",
+          "topics": " Development of a circular economy framework. Outcome: Students will be able to propose resource-efficient and circular solutions. P6: Energy Audit of Classroom/Laboratory Building Objective:  To evaluate energy consumption and identify energy-saving opport",
+          "hours": null
+        },
+        {
+          "title": "es.",
+          "topics": "Activities:  Inventory of electrical equipment.  Measurement of power consumption.  Estimation of energy use and carbon emissions.  Identification of energy conservation measures. Outcome: Students will be able to perform basic energy audits and recommend energy efficiency improvements. P7: Rainwater Harvesting Potential Assessment Objective:  To evaluate rainwater harvesting as a sustainable water conservation technique. Activities:  Measurement of rooftop catchment area.  Collection of local rainfall data.  Calculation of annual harvestable rainwater.  Design of a basic rainwater harvesting system. Outcome: Students will be able to assess and design rainwater harvesting systems. P8: Air Quality Monitoring and Analysis Objective:  To assess ambient air quality and understand pollution indicators. Activities:  Monitoring particulate matter and gaseous pollutants using available instruments or secondary data.  Calculation of Air Quality Index (AQI).  Identification of pollution sources and control measures. Outcome: Students will be able to interpret air quality data and suggest pollution prevention strategies. P9: Industrial Visit to a Sustainable Industry / Environ...",
           "hours": null
         }
       ]
@@ -345,8 +365,8 @@
       "type": "Experiential Learning Course",
       "credits": 1,
       "pages": [
-        47,
-        49
+        51,
+        54
       ],
       "units": []
     },
@@ -357,8 +377,8 @@
       "type": "Program Core Course",
       "credits": 3,
       "pages": [
-        51,
-        52
+        55,
+        55
       ],
       "units": [
         {
@@ -373,18 +393,8 @@
         },
         {
           "title": "Catalysis and Adsorption",
-          "topics": "Surface chemistry and adsorption, adsorption isotherms and rates of adsorption. Catalysis: Determination of surface area by BET method, void volume and solid density, pore-volume distribution, catalyst selection, preparation of catalyst and its deactivation, poisoning and regeneration, nature and mechanism of catalytic reactions",
+          "topics": null,
           "hours": 7
-        },
-        {
-          "title": "Porous Catalyst and Catalytic Reactors",
-          "topics": "Porous Catalyst: Gaseous diffusion in single cylindrical pore, diffusion in porous catalyst, surface diffusion, mass transfer with reaction: effectiveness factor, experimental and calculated effectiveness factor, selectivity’s for porous catalysts. Heterogeneous Catalytic Reactors: Fixed bed reactor, fluidized bed reactor, slurry reactor",
-          "hours": 7
-        },
-        {
-          "title": "Solid- catalyzed Reaction and Biochemical",
-          "topics": "Reaction Systems (07 Hours) Rate equation (Film resistance, surface phenomenon, pore diffusion) experimental methods for finding rates, determining controlling resistances and rate equation, product distribution in multiple reactions. Biochemical Reaction Systems: Michaelis–Menten (M-M) kinetics, inhibition by foreign substance. Learning Resources",
-          "hours": null
         }
       ]
     },
@@ -395,10 +405,20 @@
       "type": "Program Core Course",
       "credits": 2,
       "pages": [
-        52,
-        54
+        56,
+        58
       ],
       "units": [
+        {
+          "title": "Porous Catalyst and Catalytic Reactors",
+          "topics": "Porous Catalyst: Gaseous diffusion in single cylindrical pore, diffusion in porous catalyst, surface diffusion, mass transfer with reaction: effectiveness factor, experimental and calculated effectiveness factor, selectivity’s for porous catalysts. Heterogeneous Catalytic Reactors: Fixed bed reactor, fluidized bed reactor, slurry reactor",
+          "hours": 7
+        },
+        {
+          "title": "Solid- catalyzed Reaction and Biochemical Reaction Systems",
+          "topics": "Rate equation (Film resistance, surface phenomenon, pore diffusion) experimental methods for finding rates, determining controlling resistances and rate equation, product distribution in multiple reactions. Biochemical Reaction Systems: Michaelis–Menten (M-M) kinetics, inhibition by foreign substance.",
+          "hours": 7
+        },
         {
           "title": "Fundamentals of Transport and Momentum Transfer",
           "topics": "Introduction to transport phenomena and analogy between processes, Newton’s law of viscosity, Newtonian and Non-Newtonian fluids, Mechanism of momentum transport, Shell momentum balances and velocity distribution in laminar flow through a) circular tube b) falling film c) flow between parallel plates.",
@@ -421,7 +441,7 @@
         },
         {
           "title": "Interphase Transport & Analogies",
-          "topics": "Interphase transport concepts, Friction factors and correlations, Mass transfer coefficients (single and two-phase), Dimensionless numbers: Reynolds, Prandtl, Schmidt, etc.; Analogies: Reynolds analogy, Prandtl analogy, Chilton-Colburn analogy; Introduction to simultaneous heat, mass, and momentum transfer. Learning Resources",
+          "topics": "Interphase transport concepts, Friction factors and correlations, Mass transfer coefficients (single and two-phase), Dimensionless numbers: Reynolds, Prandtl, Schmidt, etc.; Analogies: Reynolds analogy, Prandtl analogy, Chilton-Colburn analogy; Introduction to simultaneous heat, mass, and momentum transfer.",
           "hours": 6
         }
       ]
@@ -433,8 +453,8 @@
       "type": "Program Core Course",
       "credits": 2,
       "pages": [
-        55,
-        57
+        59,
+        61
       ],
       "units": []
     },
@@ -445,8 +465,8 @@
       "type": "Program Core Course",
       "credits": 1,
       "pages": [
-        58,
-        60
+        62,
+        64
       ],
       "units": []
     },
@@ -457,18 +477,18 @@
       "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        61,
-        62
+        65,
+        66
       ],
       "units": [
         {
           "title": "Solution Thermodynamics",
-          "topics": "State and path functions, intensive and extensive properties, Fundamental property relations for closed systems, Maxwell relationships, residual properties, chemical p otential, criteria for phase equilibrium, partial properties, ideal gas mixtures, fugacity and fugacity coefficients for pure species, ideal solutions",
+          "topics": "State and path functions, intensive and extensive properties, Fundamental property relations for closed systems, Maxwell relationships, residual properties, chemical potential, criteria for phase equilibrium, partial properties, ideal gas mixtures, fugacity and fugacity coefficients for pure species, ideal solutions",
           "hours": 7
         },
         {
           "title": "Solution Thermodynamic Applications",
-          "topics": "Excess properties, VLE data, fugacity, activit y coefficients, excess Gibb’s energy, Margules equation, van Laar equation, property changes of mixing",
+          "topics": "Excess properties, VLE data, fugacity, activity coefficients, excess Gibb’s energy, Margules equation, van Laar equation, property changes of mixing",
           "hours": 7
         },
         {
@@ -483,7 +503,7 @@
         },
         {
           "title": "Chemical Reaction Equilibria",
-          "topics": "The reaction coordinates, Application of the criteria for equilibrium to chemical reactions, the standard Gibbs free energy change and the equilibrium constant, effect of temperature on equilibrium constant, evaluation of the equilibrium constant, Relation of equilibrium constant to composition, calculation of equilibrium conversion for single reactions, The phase rule and Duhem’s theorem for reacting systems, multireaction equilibria Learning Resources",
+          "topics": "The reaction coordinates, Application of the criteria for equilibrium to chemical reactions, the standard Gibbs free energy change and the equilibrium constant, effect of temperature on equilibrium constant, evaluation of the equilibrium constant, Relation of equilibrium constant to composition, calculation of equilibrium conversion for single reactions, The phase rule and Duhem’s theorem for reacting systems, multireaction equilibria",
           "hours": 8
         }
       ]
@@ -495,13 +515,13 @@
       "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        63,
-        64
+        67,
+        68
       ],
       "units": [
         {
           "title": "Energy Scenario",
-          "topics": "Classification of energy sources, commercial and non- commercial energy, energy resources, commercial energy production, final energy consumption, energy needs of growing economy, long term energy scenario. energy and environment, air pollu tion, climate change, energy security, energy conservation and its importance, energy strategy for the future, energy conservation act- 2001 and its features. Applications of renewable energy sources.",
+          "topics": "Classification of energy sources, commercial and non- commercial energy, energy resources, commercial energy production, final energy consumption, energy needs of growing economy, long term energy scenario. energy and environment, air pollution, climate change, energy secur ity, energy conservation and its importance, energy strategy for the future, energy conservation act- 2001 and its features. Applications of renewable energy sources.",
           "hours": 7
         },
         {
@@ -515,14 +535,14 @@
           "hours": 7
         },
         {
-          "title": "Management and Organization of Energy",
-          "topics": "Conservation Programs (07 Hours) Human aspect of energy conservation, involvement tree, elements of energy management program, promoting energy conservation, program planning, setting goals, setting priorities, allocation of resources, scheduling, measuring, monitoring and reporting, organization of energy conservation programs, plant level organization, division level organization, corporate level organization.",
-          "hours": null
+          "title": "Management and Organization of Energy Conservation Programs",
+          "topics": "Human aspect of energy conservation, involvement tree, elements of energy management program, promoting energy conservation, program planning, setting goals, setting priorities, allocation of resources, scheduling, measuring, monitoring and reporting, organization of energy conservation programs, plant level organization, division level organization, corporate level organization.",
+          "hours": 7
         },
         {
-          "title": "Guidelines for Improving Process Operations for",
-          "topics": "Energy Conservation (08 Hours) Energy conservation checklist, potential energy conservation in boilers, chilled water plants and central air –conditioning system, compressors and fans, heat pumps and cooling systems, water heaters and coolers, lighting systems, motors and transformers, mixing vessels, heat exchangers, evaporators, distillations, housekeeping. Learning Resources",
-          "hours": null
+          "title": "Guidelines for Improving Process Operations for Energy Conservation",
+          "topics": "Energy conservation checklist, potential energy conservation in boilers, chilled water plants and central air –conditioning system, compressors and fans, heat pumps and cooling systems, water heaters and coolers, lighting systems, motors and transformers, mixing vessels, heat exchangers, evaporators, distillations, housekeeping.",
+          "hours": 8
         }
       ]
     },
@@ -533,10 +553,15 @@
       "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        65,
-        67
+        69,
+        71
       ],
       "units": [
+        {
+          "title": "es for AI/ML in chemical engineering problems.",
+          "topics": "CO2: Select and implement suitable ML algorithms for regression, classification, and clustering tasks. CO3: Develop basic AI models using real process data. CO4: Critically evaluate AI solutions in terms of performance, interpretability, and scalability. CO5: Utilize AI and ML strategy for Chemical Engineering processes for betterment.",
+          "hours": null
+        },
         {
           "title": "Basics of AI in Chemical Engineering",
           "topics": "Overview of AI and ML in process industries; Data types in chemical engineering: process, experimental, and simulation data; Systems engineering perspective; Historical evolution and current trends; SWOT analysis of AI in chemical engineering.",
@@ -554,12 +579,12 @@
         },
         {
           "title": "Unsupervised Learning and Advancement",
-          "topics": "Clustering: k-means, hierarchical clustering, Dimensionality reduction: Principal Component Analysis (PCA), Bayesian networks and Naive Bayes classifiers, Maximum likelihood estimation, Ethical and",
+          "topics": "Clustering: k-means, hierarchical clustering, Dimensionality reduction: Principal Component Analysis (PCA), Bayesian networks and Naive Bayes classifiers, Maximum likelihood estimation, Ethical and practical considerations in AI deployment.",
           "hours": 7
         },
         {
           "title": "Applications in Chemical Engineering",
-          "topics": "Case studies on AI-based optimization: property prediction, yield optimization, fault detection. AI applied to Chemical Engineering: property prediction, yield optimization, fault detection. Applications to real life examples: process monitoring, anomaly detection, data visualization. Learning Resources",
+          "topics": "Case studies on AI-based optimization: property prediction, yield optimization, fault detection. AI applied to Chemical Engineering: property prediction, yield optimization, fault detection. Applications to real life examples: process monitoring, anomaly detection, data visualization.",
           "hours": 8
         }
       ]
@@ -571,18 +596,18 @@
       "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        68,
-        69
+        72,
+        73
       ],
       "units": [
         {
           "title": "Distillation",
-          "topics": "Vapour-liquid equilibria for ideal and non-ideal systems, Methods of distillation, Lewis Sorel method and problems, McCabe Thiele method and problems, Multicomponent distillation- basic principles, Low key high key components, concept of K value and its application in design, Tray to tray calculations, Thiele-Geddes and Maddox methods, case studies, Azeotropic and extractive distillation, choice of entrainer",
+          "topics": "Vapor-liquid equilibria for ideal and non-ideal systems, Methods of distillation, Lewis Sorel method and problems, McCabe Thiele method and problems, Multicomponent distillation- basic principles, Low key high key components, concept of K value and its application in design, Tray to tray calculations, Thiele-Geddes and Maddox methods, case studies, Azeotropic and extractive distillation, choice of entrainer",
           "hours": 8
         },
         {
           "title": "Extraction",
-          "topics": "Ternary liquid equilibria. Single stage extraction and problems , Multistage crosscurrent Extraction and problems. Continuous contact extraction in packed towers and its HTU and NTU concept. Study of stage and differential type extractors. Equilibrium concept of ideal stage leaching. Constant and variable underflow, operating time. Methods to calculate number of ideal stages. Calculation of single stage and multistage leaching processes. Leaching equipment",
+          "topics": "Ternary liquid equilibria. Single stage extraction and problems, Multistage crosscurrent Extraction and problems. Continuous contact extraction in packed towers and its HTU and NTU concept. Study of stage and differential type extractors. Equilibrium concept of ideal sta ge leaching. Constant and variable underflow, operating time. Methods to calculate number of ideal stages. Calculation of single stage and multistage leaching processes. Leaching equipment",
           "hours": 7
         },
         {
@@ -592,12 +617,12 @@
         },
         {
           "title": "Crystallization and Membrane Separation Processes",
-          "topics": "Basic principles and steps involved in crystallization. Solubility curve and methods of super saturation. Mier’s super saturation theory, material and energy balances of crystallization, Ultra filtration, Nano filtration, Reverse osmosis. Types of membran es, Fluxes and driving forces in membrane separation processes. Electrodialysis and electrochemical separations. Supercritical fluid extraction. Hybrid separation processes. Emerging trends and sustainable separation technologies.",
+          "topics": "Basic principles and steps involved in crystallization. Solubility curve and methods of super saturation. Mier’s super saturation theory, material and energy balances of crystallization, Ultra filtration, Nano filtration, Reverse osmosis. Types of membranes, Fluxes and driving forces in membrane separation processes. Electrodialysis and electrochemical separations. Supercritical fluid extraction. Hybrid separation processes. Emerging trends and sustainable separation technologies.",
           "hours": 7
         },
         {
           "title": "Reactive Separation Processes",
-          "topics": "Separation based on reversible chemical complexation, Reactive distillation, Reactive extraction Reactive crystallization, Working principles and process design aspects, Membrane + Distillation hybrid process, Adsorption + Membrane, Extraction + Membrane Learning Resources",
+          "topics": "Separation based on reversible chemical complexation, Reactive distillation, Reactive extraction Reactive crystallization, Working principles and process design aspects, Membrane + Distillation hybrid process, Adsorption + Membrane, Extraction + Membrane",
           "hours": 7
         }
       ]
@@ -609,13 +634,13 @@
       "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        70,
-        71
+        74,
+        75
       ],
       "units": [
         {
           "title": "Introduction to Analytical Instruments",
-          "topics": "Purpose and methods of chemical analysis (qualitative vs. quantitative). Components of anal ytical instruments: Signal sources, transducers, detectors, and data processors. Calibration techniques and industrial applicability.",
+          "topics": "Purpose and methods of chemical analysis (qualitative vs. quantitative). Components of analytical instruments: Signal sources, transducers, detectors, and data processors. Calibration techniques and industrial applicability.",
           "hours": 6
         },
         {
@@ -625,17 +650,17 @@
         },
         {
           "title": "Chromatography techniques",
-          "topics": "Liquid Chromatography (HPLC/TLC): High- performance liquid chromatography principles and applications; Gas Chromatography (GC): Principles, columns, detectors, and ca rrier gases for volatile compounds; Hyphenated Techniques: GC-MS, LC-MS for complex mixture analysis.",
+          "topics": "Liquid Chromatography (HPLC/TLC): High- performance liquid chromatography principles and applications; Gas Chromatography (GC): Principles, columns, detectors, and carrier gases for volatile compounds; Hyphenated Techniques: GC-MS, LC-MS for complex mixture analysis.",
           "hours": 6
         },
         {
           "title": "Electrochemical methods",
-          "topics": "Conductometry: Concept of conductivity, its measurement, and conductometric titrations with applications; Potentiometry: Principle of potentiometer, electrodes, pH measurement, and potentiometric titrations; Voltammetry & Polarography: Fundamentals of voltammetry, polarography, dropping mercury electrode, and applications; Coulometry: Faraday’s laws, types of co ulometry, and analytical applications",
+          "topics": "Conductometry: Concept of conductivity, its measurement, and conductometric titrations with applications; Potentiometry: Principle of potentiometer, electrodes, pH measurement, and potentiometric titrations; Voltammetry & Polarography: Fundamentals of voltammetry, pola rography, dropping mercury electrode, and applications; Coulometry : Faraday’s laws, types of coulometry, and analytical applications",
           "hours": 6
         },
         {
           "title": "Thermal Methods",
-          "topics": "Applications of thermal methods for analysis; Thermogravimetry (TGA), Differential Thermal Analysis (DTA), and Differential Scanning Calorimetry (DSC). Learning Resources",
+          "topics": "Applications of thermal methods for analysis; Thermogravimetry (TGA), Differential Thermal Analysis (DTA), and Differential Scanning Calorimetry (DSC).",
           "hours": 6
         }
       ]
@@ -647,8 +672,8 @@
       "type": "Program Elective Course",
       "credits": 3,
       "pages": [
-        72,
-        73
+        76,
+        77
       ],
       "units": [
         {
@@ -673,7 +698,7 @@
         },
         {
           "title": "Finite Volume Method",
-          "topics": "Discretization methods, the four basic rules, one-dimensional steady and unsteady diffusion problems, two and three dimensional situations, convection and diffusion for one-dimensional steady problems, various discretization schemes, solution of discretized equations, pressure and velocity corrections, pressure velocity coupling Learning Resources",
+          "topics": "Discretization methods, the four basic rules, one-dimensional steady and unsteady diffusion problems, two and three dimensional situations, convection and diffusion for one-dimensional steady problems, various discretization schemes, solution of discretized equations, pressure and velocity corrections, pressure velocity coupling",
           "hours": 6
         }
       ]
@@ -685,8 +710,8 @@
       "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
-        74,
-        75
+        78,
+        79
       ],
       "units": []
     },
@@ -697,8 +722,8 @@
       "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
-        76,
-        78
+        80,
+        82
       ],
       "units": []
     },
@@ -709,8 +734,8 @@
       "type": "Program Elective Course Lab",
       "credits": 1,
       "pages": [
-        79,
-        81
+        83,
+        85
       ],
       "units": []
     },
@@ -721,8 +746,8 @@
       "type": "Multidisciplinary Minor",
       "credits": 2,
       "pages": [
-        82,
-        83
+        86,
+        87
       ],
       "units": [
         {
@@ -732,7 +757,7 @@
         },
         {
           "title": "Numerical Solution of Partial Differential Equations (PDE)",
-          "topics": "Introduction, Classification of second order partial differential Equa tions, Explicit and Implicit Finite difference approximations, Stability of finite difference method, Numerical solutions of one- dimensional Heat flow equation, Two-dimensional Laplace equation and one- dimensional Wave equation. Iterative method.",
+          "topics": "Introduction, Classification of second order partial differential Equations, Explicit and Implicit Finite difference approximations, Stability of finite difference method, Numerical solutions of one- dimensional Heat flow equation, Two-dimensional Laplace equation and one- dimensional Wave equation. Iterative method.",
           "hours": 6
         },
         {
@@ -747,7 +772,7 @@
         },
         {
           "title": "Inferential Statistics & AI Applications",
-          "topics": "Sampling Theory: Population and sample, Types of sampling: Random sampling, Stratified sampling, Systematic sampling, Sampling distributions, Sample mean, Sample proportion Standard error, Central Limit Theorem (statement only). Hypothesis Testing: Null and alternative hypotheses, Type-I and Type-II errors, Level of significance, One-tailed and two-tailed tests, z-test, t-test, p-value concept. Analysis of Variance (ANOVA): One- way, Two-way (with and without interactions), F-test interpretation, Comparison of multiple datasets. Statistical Learning Concepts for AI: Introduction to statistical learning, Training and testing datasets, Error metrics: MAE, MSE, RMSE. Learning Resources",
+          "topics": "Sampling Theory: Population and sample, Types of sampling: Random sampling, Stratified sampling, Systematic sampling, Sampling distributions, Sample mean, Sample proportion Standard error, Central Limit Theorem (statement only). Hypothesis Testing: Null and alternative hypotheses, Type-I and Type-II errors, Level of significance, One-tailed and two-tailed tests, z-test, t-test, p-value concept. Analysis of Variance (ANOVA): One- way, Two-way (with and without interactions), F-test interpretation, Comparison of multiple datasets. Statistical Learning Concepts for AI: Introduction to statistical learning, Training and testing datasets, Error metrics: MAE, MSE, RMSE.",
           "hours": 6
         }
       ]
@@ -759,8 +784,8 @@
       "type": "Vocational and Skill Enhancement Course",
       "credits": 1,
       "pages": [
-        84,
-        85
+        88,
+        89
       ],
       "units": []
     },
@@ -771,8 +796,8 @@
       "type": "Experimental Learning Course",
       "credits": 4,
       "pages": [
-        86,
-        93
+        90,
+        97
       ],
       "units": []
     }

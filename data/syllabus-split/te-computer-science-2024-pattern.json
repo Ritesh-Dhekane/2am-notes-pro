@@ -1,0 +1,1015 @@
+{
+  "id": "te-computer-science-2024-pattern",
+  "kind": "programme",
+  "programme": "Third Year Engineering Computer Science",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-301-CSC",
+      "title": "Artificial Intelligence",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        16,
+        18
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Introduction to AI and Intelligent Agents",
+          "topics": "State Space Search: Tower of Hanoi. Informed (Heuristic) Search Strategies: Introduction to Greedy BFS, A* Search, Iterative -deepening, Heuristic Functions. Local Search and Optimization Problems: Hill-climbing search, Simulated annealing, Local beam searc h. Online Search Agents and Unknown Environments: Online search problems. Case Study : Warehouse robots (Amazon Kiva) and self -driving cars, Logistics and Routing: Traveling Salesman Problem, Google DeepMind – AI for Energy Efficiency in Data Centers *Mapping of Course Outcomes for",
+          "hours": 7
+        },
+        {
+          "title": "CO2",
+          "topics": "Optimal Decisions in Games, Heuristic Alpha –Beta Tree Search, Monte Carlo Tree Search, Stochastic Games, Partially Observable Games, Limitations of Game Search Algorithms, Constraint Satisfaction Problems (CSP), Constraint Propagation: Inference in CSPs, Backtracking Search for CSPs Case study: AlphaGo – AI in Strategic Board Games, Strategic Decision-Making in Imperfect Information Games-- Libratus, Adversarial Search and Constraint Reasoning in Computer Chess - IBM deep blue *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO1,CO3",
+          "topics": "Introduction to Logical Formalisms: Role of logic in Artificial Intelligence, Knowledge-based agents Syntax and semantics of logical systems , Propositional Logic – Basics and Inference: Propositional symbols and well-formed formulas, Logical connectives, Inference rules: Modus Ponens, Modus Tollens, Resolution, First Order Predicate Logic – Fundamentals: Motivation for First Order Logic, Quantifiers (∀, ∃), Well-formed formulas, Translating natural language into FOL Inference in First Order Predicate Logic – Fundamentals: Motivation for First Order Logic, Quantifiers (∀, ∃), Well -formed formulas, Translating natural language into FOL Case study : Medical Expert System – MYCIN, Knowledge-Based Reasoning in Intelligent Search Systems:- AI-Based Rule Engine in Google Search *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Planning: Overview, An example Domain The Blocks world, The components of planning system, Goal stack planning, Nonlinear planning using constraint posting, Hierarchical planning , Industrial Application of AI : AI in Healthcare, AI in Finance, AI in Retail, AI in Agriculture, AI in Education, AI in Transportation, AI in Experimentation and Multi-disciplinary research Case study: AI-Driven Supply Chain & Production Planning (Manufacturing) *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Problem Solving: State Approach and Search Strategies",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Adversarial Search, and Game Theory",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Knowledge representation using Logical Formalisms, Propositional & First Predicate calculus",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Planning and Industrial Application of AI",
+          "topics": null,
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC-302-CSC",
+      "title": "Computer Network",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": "Data Link Layer – services provided to the network layer, framing and addressing; design issues of the data link layer – error control, flow control and reliable data transfer; error detection and correction techniques – parity, checksum, CRC and basic err or correction concepts; data link layer protocols –",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Computer Network and Physical Layer",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Data Link Layer",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "CO2, CO3",
+          "topics": "Network Layer – Services & Design Issues: connectionless service, connection -oriented service, QoS support, error control, flow control, store -and-forward switching, congestion control, reliability, internetworking challenges; Routing Algorithms: shortest path routing, flooding, distance vector routing, link state routing; Internet Architecture & Protocols: IP addressing (IPv4 classes, CIDR, subnetting), IPv4 vs IPv6, IP datagram, ICMP, ARP, RIP, OSPF Case Study: IPv6 adoption in ISPs, routing comparison between RIP and OSPF in enterprise networks. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO2, CO3",
+          "topics": "Process to Process Delivery, Services, Socket Programming. Elements of Transport Layer Protocols: Addressing, Connection establishment, Connection release, Flow control and buffering, Multiplexing, Congestion Control. Transport Layer Protocols: TCP and UDP , SCTP, RTP, Congestion control and Quality of Service (QoS), Differentiated services, TCP and UDP for Wireless networks. Case Study: TCP congestion control in 4G/5G networks, RTP in video conferencing applications. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Introduction – principles of application layer, client-server and peer-to-peer models; Web and HTTP – request/response, persistent vs. non -persistent connections, cookies, caching, performance; DNS – hierarchy, resource records, name resolution, caching, s ecurity issues; Email – SMTP, MIME, POP3, IMAP, webmail, message format, security; FTP – basics, file transfer process, legacy relevance; TELNET – remote login, limitations, legacy use; DHCP – dynamic host configuration, IP allocation, management; SNMP – network management, monitoring, MIBs, security considerations; Emerging Topics – multimedia applications, RTP for streaming, peer-to-peer applications, cloud-based services. Case Study: DNS security attacks (DNS spoofing), HTTP caching in CDNs, SMTP in enterprise email systems. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": ", z",
+          "hours": null
+        },
+        {
+          "title": "Network Layer",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Transport Layer Protocols",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Application Layer",
+          "topics": ", , MOOC / NPTEL/YouTube Links: - z r 1. nptel.ac.in/courses/106/105/106105183 2. nptel.ac.in/courses/106/105/106105080 3. nptel.ac.in/courses/106/105/106105081 4. nptel.ac.in/courses/106/106/106106091 5. nptel.ac.in/courses/106/105/106105031 6. https://www.mooc-list.com/tags/computer-networking 7. https://www.coursera.org/courses?query=computer%20network , , zE-Books : r 1. https://people.cs.clemson.edu/~jmarty/courses/kurose/KuroseCh1-2.pdf 2. http://eti2506.elimu.net/Introduction/Books/Data Communications and Networking By Behrouz 3. http://intronetworks.cs.luc.edu/current/ComputerNetworks.pdf",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PCC-303-CSC",
+      "title": "Theory of Computation",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": "Operators of RE, Building RE, Precedence of operators, Algebraic laws for RE, Conversions: NFA to DFA, RE to DFA Conversions, DFA to RE Conversions: State/loop elimination, Arden‘s theorem, Properties of Regular Languages: Closure properties, Pumping Lemma for Regular languages, Decision properties. Cast Study: RE in text search and replace",
+          "hours": null
+        },
+        {
+          "title": "CO2",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Formal Language Theory and Finite Automata",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Regular Expressions (RE) ( 07 Hours )",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": "Basic Definitions, Equivalence of Acceptance by Finite State & Empty stack, PDA & Context Free Language, Equivalence of PDA and CFG, Parsing & PDA: Top -Down Parsing, Top -down Parsing Using Deterministic PDA, Bottom-up Parsing, Closure properties and Deterministic PDA Case study: Balanced Parentheses Checking in Compilers",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Turing Machine Model, Representation of Turing Machines, Language Acceptability by Turing Machines, Design of TM, Description of TM, Techniques for TM Construction, Variants of Turing Machines, The Model of Linear Bounded Automata , TM & Type 0 grammars, TM‘s Halting Problem Case Studies - Binary Addition System, string reversal",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Context Free Grammars (CFG) and Languages (07 Hours)",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Pushdown Automata(PDA) (07 Hours)",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Turing Machines (TM) (07 Hours)",
+          "topics": "E-Books: 1. https://www-2.dc.uba.ar/staff/becher/Hopcroft-Motwani-Ullman-2001.pdf MOOC/NPTEL/SWAYAM/YouTube Course Links: 1. https://onlinecourses.nptel.ac.in/noc21_cs83/preview Theory of Computation By Prof. Raghunath Tewari | IIT Kanpur 2. https://onlinecourses.nptel.ac.in/noc26_cs85/preview Theory of Computation By Prof. Subrahmanyam Kalyanasundaram | IIT Hyderabad",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-304-CSC",
+      "title": "Artificial Intelligence Laboratory",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        25,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-305-CSC",
+      "title": "Computer Network Laboratory",
+      "semester": 5,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        28,
+        30
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-321A-CSC",
+      "title": "Information Retrieval",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Information Retrieval",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Information Indexing and Query Processing",
+          "topics": "Evaluation framework for IR systems. Metrics: Precision, Recall, F1 -score, MRR, NDCG. User -oriented metrics: click-through rate, response time. Search interfaces: query suggestion, autocomplete. Introduction to personalization and log analysis. Case Studies: Ontology-Based Medical Information Retrieval (e.g., PubMed + MeSH Ontology) Introduction to multimedia IR. Content -Based Image Retrieval (CBIR). Feature extraction: color, texture, shape. Recommender systems: collaborative and content -based. Semantic search and word embeddings (overview). Deep Learning for Multimedia Retrieval, Im age and Video Embeddings, Cross-modal Retrieval (Text–Image Search). Large -scale Multimedia Databases, Ethical Issues and Challenges in Multimedia Retrieval. Case Studies: Multimedia Retrieval System Web search basics and challenges. Search engine architecture and components. Web crawling and indexing (URL frontier, duplicate handling). Link analysis: PageRank, HITS algorithms. Web Data Extraction – Basics of Web Scraping using Python, HTTP Requests, HTML Parsing, Introduction to Beautiful Soup. Distributed IR: sharding and parallel processing concepts. Cloud-based search systems overview. Cas...",
+          "hours": 7
+        },
+        {
+          "title": "Evaluation Metrics and Visualization",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Distributed Information Retrieval and Multimedia Search",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Web Search and Information Retrieval Systems",
+          "topics": null,
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "PEC-321B-CSC",
+      "title": "Cloud Computing",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        33,
+        36
+      ],
+      "units": [
+        {
+          "title": "Cloud Data Storage",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Foundations and Architecture of Cloud Computing 07 Hours",
+          "topics": "Case Study: Google File System (GFS) and Hadoop Distributed File System (HDFS)",
+          "hours": null
+        },
+        {
+          "title": "Cloud Platforms and Security Framework 07 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Emerging Trends in cloud computing 07 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Virtualization and Container Technology 07 Hours",
+          "topics": "E-Books: Cloud Computing: A Hands-On Approach - Arshdeep Bahga, Vijay Madisetti - Google Books , MOOC / NPTEL/YouTube Links: 1. https://onlinecourses.nptel.ac.in/noc26_cs55/preview 2. https://onlinecourses.nptel.ac.in/noc26_cs29/preview? 3. https://onlinecourses.nptel.ac.in/noc21_cs15/preview? zWeb Links: - 1. http://dhoto.lecturer.pens.ac.id/lecture_notes/internet_of_things/CLOUD%20COMPUTING%20 Princip 2. https://www.lpude.in/SLMs/Master%20of%20Computer%20Applications/Sem_2/DECAP470_ CLOUD 3. https://arpitapatel.files.wordpress.com/2014/10/cloud-computing-bible1.pdf 4. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-291r2.pd",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-321C-CSC",
+      "title": "User Interface and User Experience Design (UI/UX)",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Foundation of UI/UX Design",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Usability Engineering, Evaluation and Testing",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "WEB DESIGN Principals",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "User Experience (UX) Design (09 Hours)",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Emerging Trends",
+          "topics": ", , MOOC / NPTEL/YouTube Links: - r 1. Google UX Design Professional Certificate – Coursera 2. N Interaction Design Specialization – Coursera (UC San Diego) 3. User Experience Design Fundamentals – Udemy 4. Introduction to User Experience Design – Georgia Tech (Coursera) 5. Figma UI/UX Design Essentials – Udemy",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-321D-CSC",
+      "title": "Embedded Systems",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems",
+          "topics": "Characteristics and Quality Attributes of Embedded Systems, Operational and non -operational quality attributes, Embedded Systems -Application and Domain specific, Hardware Software Co -Design and Program Modeling (excluding UML), Embedded firmware design and development (excluding C language). Case Study: Any one Case study based on “Smart temperature control system” or “Smart Energy Meter” or any relevant topic which will be useful for society. Introduction, RISC design philosophy, ARM design philosophy, Embedded system hardware – AMBA bus protocol, ARM bus technology, Memory, Peripherals, Embedded system software – Initialization (BOOT) code, Operating System, Applications. ARM Processor Fundame ntals, ARM core dataflow model, registers, current program status register, Pipeline, Exceptions, Interrupts and Vector Table, Core extensions. Operating modes of ARM (User, FIQ, IRQ, Supervisor, Abort, Undefined and System mode) Case Study: Any one Case study based on “Smart Home Lighting Controller” or “Automotive Engine Monitoring System” or any relevant topic which will be useful for society. Introduction, Data processing instructions, Load – Store instruction, Software interrupt ...",
+          "hours": 7
+        },
+        {
+          "title": "ARM Architecture",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Introduction to ARM Instruction Set",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "RTOS and IDE for Embedded System",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Embedded System Design Concepts",
+          "topics": null,
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-322-CSC",
+      "title": "Elective - I Laboratory",
+      "semester": 5,
+      "type": "Program Elective Course",
+      "credits": 1,
+      "pages": [
+        42,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-331-CSC",
+      "title": "Robotics and Automation",
+      "semester": 5,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        46,
+        48
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Robotics",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Sensors",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Industrial Automation and AI in Robotics",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Autonomous Navigation & Path Planning",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Robotic Middleware & Industry 4.0",
+          "topics": null,
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "OE",
+      "title": "Open Elective*",
+      "semester": 5,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        13,
+        13
+      ],
+      "units": []
+    },
+    {
+      "code": "VEC-232-CSC",
+      "title": "Technical Seminar",
+      "semester": 5,
+      "type": "Value Education Courses",
+      "credits": 1,
+      "pages": [
+        49,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-351-CSC",
+      "title": "Machine Learning",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Fundamentals of Machine Learning",
+          "topics": "Introduction to regression, need of regression, regression vs correlation. Types of regression: Univariate vs Multivariate, Linear vs Nonlinear, Simple vs Multiple, Bias–Variance Tradeoff, Overfitting and Underfitting. Regression Techniques: Simple and Mul tiple Linear Regression; Polynomial Regression; Decision Tree Regression, Random Forest Regression, Support Vector Regression. Regularization Techniques: Ridge Regression (L2); Lasso Regression (L1). Evaluation Metrics: Mean Squared Error (MSE); Mean Absolute Error (MAE); Root Mean Squared Error (RMSE); R-squared (R²). Case Studies: Comparative Study of Regression Techniques for House Price Prediction *Mapping of Course Outcomes for",
+          "hours": 12
+        },
+        {
+          "title": "CO2",
+          "topics": "Introduction to classification, need of classification. Types of Classification: Binary and Multiclass, Binary vs. Multiclass Classification, Balanced and Imbalanced Classification Problems. Binary Classification: Linear classification model, decision boun dary. Performance Evaluation: Confusion Matrix, Accuracy, Precision, Recall, F1-Score. Multiclass Classification: One -vs-One and One -vs-All classification techniques, multiclass confusion matrix; Per-Class Precision and Per-Class Recall; Macro, Micro and Weighted Averaging Methods. Classification Algorithms: K -Nearest Neighbors (KNN), Linear Support Vector Machine (SVM), Soft Margin SVM. Kernel Functions in SVM: Radial Basis Function (RBF/Gaussian) Kernel, Polynomial Kernel, Sigmoid Kernel. Case Studies: C omparative Study of Classification Algorithms for Email Spam Detection *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": "Introduction to clustering, need for clustering, types of clustering, Hierarchical Clustering – Agglomerative and Divisive methods, Partitioning Methods: K-Means clustering algorithm, advantages and limitations, Elbow method, Silhouette method; K -Medoids, Density-Based Clustering: DBSCAN algorithm, working mechanism, advantages and limitations. Distribution -Based Clustering: Gaussian Mixture Model. Applications, introduction to Ensemble Learning, homogeneous and heterogeneous ensemble methods, advantages an d limitations. Basic Ensemble Techniques: Voting (Max Voting, Averaging, Weighted Averaging). Advanced Ensemble Techniques: Bagging and Random Forest. Boosting: AdaBoost, Gradient Boosting , Stacking. Case Studies: Customer Segmentation and Sales Prediction. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Introduction, need of reinforcement learning, components of reinforcement learning, comparison with supervised and unsupervised learning, applications and challenges of reinforcement learning. Markov Decision Process: Markov property, elements of MDP, episodic and continuing tasks. Reinforcement Learning Framework: Policy, state value function, action value function, Bellman equation, optimal policy. Reinforcement Learning Algorithms: Exploration vs Exploitation, ε-greedy strategy, dynamic programming, Q -Learning algorithm and update rule, simple reinforcement learning for game playingTic-Tac-Toe. Case Studies: Smart Traffic Signal Control using Q-Learning. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Supervised Learning-Regression",
+          "topics": null,
+          "hours": 12
+        },
+        {
+          "title": "Supervised Learning-Classification",
+          "topics": null,
+          "hours": 12
+        },
+        {
+          "title": "Unsupervised Learning and Ensemble Learning",
+          "topics": null,
+          "hours": 12
+        },
+        {
+          "title": "Reinforcement Learning",
+          "topics": null,
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "PCC-352-CSC",
+      "title": "Software Engineering and Modelling",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 3,
+      "pages": [
+        56,
+        58
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": "Requirements Engineering, Establishing the Groundwork: Identifying Stakeholders, Recognizing Multiple Viewpoints, working toward Collaboration, Asking the First Questions, Non -functional Requirements, Traceability Eliciting Requirements: Collaborative Requ irements Gathering, Usage Scenarios, Elicitation Work Products, Developing Use Cases, Building the Analysis Model, Elements of the Analysis Model, Negotiating Requirements: Requirement Validation and Management. Software Requirements Specification (SRS)",
+          "hours": null
+        },
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Requirements Engineering",
+          "topics": "Case Studies: Requirements Engineering and SRS development for a College ERP System covering stakeholder identification, requirement elicitation, use case modelling, non -functional requirements, validation and traceability. *Mapping of Course Outcomes for",
+          "hours": 9
+        },
+        {
+          "title": "CO2",
+          "topics": "Introduction to Software Architecture, Architectural design principles and patterns, Types of architectures: Layered, Client-Server, Micro services, MVC, Architectural styles and quality attributes, Architecture documentation (4+1 view model), Object Modelling Using UML Basic Object -Orientation Concepts, Unified Modelling Language (UML), UML Diagrams, Use Case Model, Class Diagrams, Interaction Diagrams , State Chart Diagram, Activity Diagrams, Package Diagrams, Component Diagrams, Deployment Diagram Case Studies: Design and UML modelling of a Library Management System to demonstrate abstraction, modularity, object -oriented design principles, and complete UML modelling including structural and behavioural diagrams *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": "Software Project Management Complexities, Project Planning, Metrics for Project Size Estimation, Project Estimation Techniques, Empirical Estimation Techniques, COCOMO —A Heuristic Estimation Technique, Scheduling, Organisation and Team Structures, Staffing , Risk Management, Sof tware Configuration Management. Software Testing, A Strategic Approach to Software Testing, Test Strategies for Conventional Software, Test Strategies for Object -Oriented Software, Test Strategies for WebApps, Validation Testing, System, Testing, Debugging, Defect Life Cycle, Manual and Automated testing Case Studies: Software Project Planning, Estimation, Scheduling, Risk and Configuration Management for an E-Governance Citizen Service Portal using COCOMO and empirical estimation techniques .Testing of an Online Shopping Web Application covering manual and automated testing, test planning, strategic testing approaches, object -oriented testing, Web application testing, validation, system testing and debugging techniques. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Agile and DevOps practices, CI/CD pipelines, DevSecOps and Secure Software Development, Software Architecture Patterns (Event -Driven, Serverless, Reactive Systems), AI in Software Engineering (AI - assisted development, automated testing), Low-Code / No-Code Platforms, Software Sustainability and Green Computing. Case Studies: Design and implementation of a Smart City Service Portal using Agile practices, DevOps, CI/CD pipelines, Microservices architecture, Cloud -native deployment, and reusable software components. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Software Modelling",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Software Project Management and Testing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Advanced Concepts in Software Engineering",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "PCC-353-CSC",
+      "title": "Machine Learning Laboratory",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        59,
+        61
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-354-CSC",
+      "title": "Software Engineering Modelling Laboratory",
+      "semester": 6,
+      "type": "Program Core Course",
+      "credits": 1,
+      "pages": [
+        62,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-361A-CSC",
+      "title": "Soft Computing and Fuzzy Logic",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        65,
+        66
+      ],
+      "units": [
+        {
+          "title": "Introduction to Soft Computing and Neural Networks",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Introduction to Fuzzy Logic",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Fuzzy Set Theory",
+          "topics": null,
+          "hours": 7
+        },
+        {
+          "title": "Fuzzy Systems",
+          "topics": "Applications of fuzzy logic in pattern recognition and character recognition, applications of evolutionary computing in image processing and computer vision, soft computing in mobile ad -hoc networks, information retrieval and semantic web, software engineering. Optimization techniques: simulated annealing, tabu search, ant colony optimization (ACO), particle swarm optimization (PSO). 1. S. Rajasekaran and G. A. Vijayalakshmi Pai, Neural Networks, Fuzzy Logic and Genetic Algorithms: Synthesis and Applications, PHI Learning. 2. S. N. Sivanandam and S. N. Deepa, Principles of Soft Computing, Wiley India. 3. K. T. Atanassov, Intuitionistic Fuzzy Sets: Theory and Applications, Springer. 1. Timothy J. Ross, Fuzzy Logic with Engineering Applications, Wiley. 2. George J. Klir and Bo Yuan, Fuzzy Sets and Fuzzy Logic: Theory and Applications, Prentice Hall. 3. Simon Haykin, Neural Networks and Learning Machines, Pearson Education. 4. David E. Goldberg, Genetic Algorithms in Search, Optimization and Machine Learning, Pearson. 5. Xin-She Yang, Nature-Inspired Optimization Algorithms, Elsevier. 6. Marco Dorigo and Thomas Stützle, Ant Colony Optimization, MIT Press.",
+          "hours": 7
+        },
+        {
+          "title": "Applications of Soft Computing Techniques",
+          "topics": null,
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PEC-361B-CSC",
+      "title": "Augmented Reality and Virtual Reality (AR/VR)",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        67,
+        69
+      ],
+      "units": [
+        {
+          "title": "Introduction to AR and VR",
+          "topics": "(7 Hours) Basics of 3D graphics for immersive environments, representation of virtual environments, 3D geometric objects and scene structures, coordinate systems (world, local, camera), geometric transformations (translation, rotation, scaling), lighting and materials in virtual scenes, texture mapping concepts, spatial audio and 3D sound, haptic feedback concepts, avatars and virtual objects. Case Study: Design of Virtual Environments in Game Engines Study of how game engines such as Unity create immersive 3D environments using models, lighting, textures and spatial audio. Interaction techniques in virtual environments, navigation and locomotion methods, gesture-based interaction, controller-based interaction, natural user interfaces, VR user interface design principles, immersive UX design, cybersickness reduction techniques, performance and latency considerations. Case Study: Interaction Design in VR Gaming Analysis of interaction mechanisms in the VR rhythm game Beat Saber focusing on gesture-based interaction and user engagement. Principles of augmented reality, marker-based tracking techniques, marker-less tracking approaches, concept of simultaneous localization and mappi...",
+          "hours": 8
+        },
+        {
+          "title": "Representing the Virtual World",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Interaction and Navigation in Virtual Environments",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Augmented Reality Systems and Tracking",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Advanced Immersive Systems and Applications",
+          "topics": "1. Understanding Virtual Reality: Interface, Application and Design — William R. Sherman and Alan B. Craig, Morgan Kaufmann. 2. Augmented Reality: Principles and Practice — Dieter Schmalstieg and Tobias Hollerer, Addison- Wesley. 1. Learning Virtual Reality — Tony Parisi, O’Reilly Media. 2. Augmented Reality for Developers — Jonathan Linowes, Packt Publishing. 3. Virtual Reality Technology — Grigore Burdea and Philippe Coiffet, Wiley. 4. 3D User Interfaces: Theory and Practice — Doug Bowman, Addison-Wesley.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-361C-CSC",
+      "title": "Natural Language Processing",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        70,
+        71
+      ],
+      "units": [
+        {
+          "title": "Language Models and Sequence Labeling",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Parsing and Semantic Analysis",
+          "topics": "Savitribai Phule Pune University PEC-361C-CSC : Natural Language Processing (Elective – II) Teaching Scheme Credits Examination Scheme Theory : 03Hours/Week 03 CCE : 30 Marks End-Semester: 70 Marks",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to NLP and Text Processing",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "NLP Applications and Advanced Topics",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Role of Generative AI in NLP",
+          "topics": null,
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-361D-CSC",
+      "title": "Quantum Computing",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        72,
+        74
+      ],
+      "units": [
+        {
+          "title": "Mathematical Foundations for Quantum Computing, Qubits and Quantum Gates.",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Foundations of Quantum Computing",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Multi-Qubit Systems , Quantum Circuits and Building Blocks for Quantum Program",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Quantum Programming & Applications",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Basic Quantum Algorithms",
+          "topics": "7. David McMahon, “Quantum Computing Explained”, Wiley . 8. Microsoft Quantum Development Kithttps://www.microsoft.com/enus/quantum/developmentkit Forest SDK PyQuil: https://pyquil.readthedocs.io/en/stable/ 9. Amazon Bracket Documentation on AWS:https://aws.amazon.com/braket/ 7 D-Wave Systems Documentation: E Books: - 1. https://docs.dwavesys.com/docs/latest/index.html 2. https://quantum.cloud.ibm.com/learning/en 3. https://quantum.cloud.ibm.com/docs/en/guides/quick-start , ,",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-362A-CSC",
+      "title": "Data Analytics and Visualization",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        75,
+        76
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Analytics",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Data Collection and Preprocessing",
+          "topics": "Concept of Exploratory Data Analysis, Data Summarization Techniques, Visualization Techniques: Bar Chart, Line Chart, Pie Chart Histogram, Box Plot, Scatter Plot Correlation and Covariance, Use of Python Libraries: Matplotlib, Seaborn , Introduction to Dashboards. Case Study: Statistical Analysis and Visualization Using Python Tools Regression Analysis (Linear, Multiple) , Classification Techniques (Basic Concepts) ,Clustering (K-Means – Conceptual) Time -Series Analysis Basics , Advanced Visualization: - Heatmaps ,Geospatial Visualization, Network Graphs Interactive Visualization Concepts. Case Study: Time-Series Analysis and Demand Prediction in E-Commerce Platforms Data Visualization Tools: Tableau, Power BI, Dashboard Design Principles, Storytelling with Data, Big Data Analytics Overview , Real -Time Data Visualization ,Case Studies in Business, Healthcare, Finance ,Mini Project / Practical Implementation Case Study: End-to-End Data Visualization Project Using Tableau and Power BI",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Analytics and Visualization",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Tools, Applications and Case Studies",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Exploratory Data Analysis (EDA) and Basic Visualization (08 Hours)",
+          "topics": null,
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-362B-CSC",
+      "title": "Cryptography and Network Security",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        77,
+        79
+      ],
+      "units": [
+        {
+          "title": "Foundations of Security and Cryptography 08 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Symmetric and Asymmetric Cryptographic Algorithms 08 Hours",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Hash Functions, Digital Signatures, and Key Management",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Network Security and Transport Layer Protection",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "System Security and Defensive Countermeasures",
+          "topics": "MOOC / NPTEL/YouTube Links 1. Cryptography I – Offered by Stanford University (Coursera) 2. Cybersecurity Fundamentals – Offered by University of Maryland (Coursera) 3. Network Security – Offered by Georgia Tech (Udacity / Online Platforms) 4. Recommended course of NPTEL: 1. Cryptography and Network Security – Prof. Debdeep Mukhopad- hyay, IIT Kharagpur 2. Network Security – Prof. Dheeraj Sanghi, IIT Kanpur E-Books: 1. NIST Special Publication 800-175B (Rev. 1): Guideline for Using Cryptographic Standards in the Federal Government: Cryptographic Mechanisms 2. IETF RFC 8446: The Transport Layer Security (TLS) Protocol Version 1.3 MOOC Courses: 1. NPTEL: Introduction to Cryptology by Prof. Sugata Gangopadhyay (IIT Roorkee). 2. NPTEL: Foundations of Cryptography by Prof. Ashish Choudhury (IIIT Bangalore). 3. SWAYAM: Cyber Security by Prof. G. Padmavathi.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-362C-CSC",
+      "title": "Block chain Technology",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        80,
+        82
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Introduction to Block chain",
+          "topics": "( 06 Hours ) Introduction to cryptographic concepts, Symmetric Key Cryptography and Asymmetric Key Cryptography, Hash functions (SHA -256) Public key and private key cryptography Digital Signature Algorithm (DSA),Elliptic Curve Cryptography (ECC), Merkel Trees. Case Studies: Case Study: Role of Cryptography in Blockchain Technology",
+          "hours": 6
+        },
+        {
+          "title": "CO2",
+          "topics": "Distributed ledger technology (DLT), Consensus algorithms: Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), Smart Contracts, Byzantine Fault Tolerance (BFT), Comparison of consensus algorithms, Mining process, rewards, and incent ives, Forks: soft fork vs hard fork, Network attacks: 51% attack, Sybil attack, double spending Case Studies: Distributed Ledger Technology, Consensus Mechanisms, and Smart Contracts in Blockchain",
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": "Introduction to smart contracts, Ethereum architecture and components (EVM, Gas, Nodes) , Solidity programming basics (syntax, variables, functions) , Writing, compiling, and deploying smart contracts , Tools: Remix IDE, Truffle, Ganache, Decentralized Applications (DApps): architecture and workflow Case Studies: Case Study: Smart Contracts and DApps on Ethereum (Online Voting System)",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Blockchain use cases: finance, supply chain, healthcare, voting, Decentralized Finance (DeFi), NFTs (Non- Fungible Tokens), Security, privacy, and scalability challenges, Regulatory and legal aspects, Future of blockchain technology. *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Cryptography in Blockchain",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Consensus Mechanisms and Distributed Systems",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Smart Contracts and Platforms",
+          "topics": null,
+          "hours": 6
+        },
+        {
+          "title": "Applications, Challenges, and Future Trends",
+          "topics": null,
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PEC-362D-CSC",
+      "title": "Image Processing",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        83,
+        85
+      ],
+      "units": [
+        {
+          "title": "CO1",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Digital Image Fundamentals and Mathematical Foundations [08 Hours]",
+          "topics": "Intensity Transformations and Log Transform ,Power -Law Transformations, Histogram Equalization and Histogram Matching, Spatial Filtering: Linear Filtering (Averaging, Gaussian),Order Statistics Filters (Median, Max, Min),Sharpening Filters: Laplacian, Gradient Operators (Sobel, Prewitt),Unsharp Masking and High-Boost Filtering. Case Study: Low-Light Image Enhancement and Edge Detection for Night Surveillance *Mapping of Course Outcomes for",
+          "hours": 6
+        },
+        {
+          "title": "CO2",
+          "topics": "Fourier Series and Fourier Transform Review, 2D Discrete Fourier Transform (DFT) , Properties of DFT, Frequency Domain Filtering , Ideal Filters, Butterworth Filters , Gaussian Filters, Laplacian in Frequency Domain ,Homomorphic Filtering Case Study: Removal of Periodic Noise in Satellite Images using Frequency Domain Processing *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO3",
+          "topics": "Image Restoration: Image Degradation/Restoration Model, Noise Models (Gaussian, Salt & Pepper, Periodic), Inverse Filtering, Wiener Filtering, Image Segmentation: Edge Detection (Roberts, Sobel, Prewitt, Canny), Thresholding (Global & Otsu’s Method), Region-Based Segmentation, Introduction to Watershed Algorithm Morphological Image Processing : Structuring Elements, Dilation and Erosion, Opening and Closing, Morphological Reconstruction Case Study: The Great \"Heartbleed\" Vulnerability *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO4",
+          "topics": "Image Compression: Fundamentals of Compression, Redundancy and Information Theory Basics, Lossless Compression (Huffman Coding), Lossy Compression (JPEG), Discrete Cosine Transform (DCT), Introduction to Wavelet Transform Color Image Processing: Color Mode ls (RGB, CMY, HSV, YCbCr), Color Transformations, Pseudo Color Processing, Applications in Medical Imaging, Surveillance, and Computer Vision. Case Study: Intrusion Detection and Honeypots *Mapping of Course Outcomes for",
+          "hours": null
+        },
+        {
+          "title": "CO5",
+          "topics": null,
+          "hours": null
+        },
+        {
+          "title": "Symmetric and Asymmetric Cryptographic Algorithms",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Frequency Domain Processing",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Image Restoration, Segmentation and Morphological Processing",
+          "topics": null,
+          "hours": 8
+        },
+        {
+          "title": "Image Compression and Color Image Processing",
+          "topics": null,
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-363-CSC",
+      "title": "Elective –III Laboratory",
+      "semester": 6,
+      "type": "Program Elective Course",
+      "credits": 2,
+      "pages": [
+        86,
+        91
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM-371-CSC",
+      "title": "Green Computing",
+      "semester": 6,
+      "type": "Multidisciplinary Minor",
+      "credits": 3,
+      "pages": [
+        92,
+        96
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Green Computing",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Green Assets and Modelling",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Data Centres and Networking",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "Compliance, Policies, Case Studies",
+          "topics": null,
+          "hours": 3
+        },
+        {
+          "title": "AI in Green IT",
+          "topics": "4. Jorge Marx Gómez, Bernhard Niemann, Richard Thomas, Green IT: Technologies and Applica- tions, 1st Edition, Springer, 2012. ISBN: 978-3642221958 , MOOC / NPTEL/YouTube Links 1. Green Computing – IIT Kharagpur https://onlinecourses.nptel.ac.in/noc20_cs79/preview 2. Cloud Computing – IIT Kharagpur https://onlinecourses.nptel.ac.in/noc23_cs18/preview 3. Internet of Things – IIT Kharagpur https://onlinecourses.nptel.ac.in/noc23_cs06/preview 4. Sustainable Engineering – IIT Madras https://onlinecourses.nptel.ac.in/noc22_ce95/preview E-Books 1. IEEE Xplore Digital Library – Green Computing Research Papers 2. Association for Computing Machinery Digital Library – Sustainable Computing Research 3. Sustainable Computing 4. Sustainability, Green IT and Education Strategies in the Twenty-first Century",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "VSE-372-CSC",
+      "title": "Solar Technology and Maintenance",
+      "semester": 6,
+      "type": "Vocational and Skills Enhancement Course",
+      "credits": 1,
+      "pages": [
+        97,
+        98
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}
