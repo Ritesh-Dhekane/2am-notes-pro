@@ -1,0 +1,522 @@
+{
+  "id": "first-year-b-arch-syllabus-2025",
+  "kind": "programme",
+  "programme": "First Year B. Arch.",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "1202501",
+      "title": "Basic Design",
+      "semester": 1,
+      "type": null,
+      "credits": 6,
+      "pages": [
+        4,
+        6
+      ],
+      "units": [
+        {
+          "title": "Form",
+          "topics": "Identifying and describing various types of architectural forms (single, compound, complex, additive, subtractive, etc.) and their assemblies, understanding the concerns of architectural form (relation to ground, relation to sky, corner, profile, light and shadow), reducing complex architectural forms to constituent platonic forms and analysing their assembly to understand the interrelationship of their parts.",
+          "hours": null
+        },
+        {
+          "title": "Composition",
+          "topics": "Understanding the concept and application of geometry (shapes, additive and subtractive shapes, alignment, regulating lines, modularity), pattern (repetition, type and variation), composition (schema, figure and ground, symmetry, balance) in architectural design, and demonstrating the understanding through analysing existing architectural designs and making one’s own 2D and/or 3D compositions.",
+          "hours": null
+        },
+        {
+          "title": "Scale and Proportion",
+          "topics": "Understanding the concept of Scale as extent, as comparative attribute of size, (but not as a means of representation and communication); demonstration of the understanding through the use of various scales for making 2D and/or 3D compositions. Understanding the concept of Proportion (ratios of parts of a shape/ form, ratios of occupied-unoccupied, solid and void, light and dark) in architectural design; understanding and identifying various proportioning systems used by various designers through time (one third, golden ratio, human proportions, modular, geometry based proportions, etc.); demonstrating the use of some proportioning systems through making various 2D and/or 3D compositions.",
+          "hours": null
+        },
+        {
+          "title": "Space",
+          "topics": "Understanding the concept of defined, built and enclosed space. Understanding the various methods of defining and enclosing space. Understanding the role of light in the experience of space. Understanding the elements of space making, describing their role in experience building, and applying the knowledge through one’s own 3D installation/ model.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202502",
+      "title": "Building Construction and Materials I",
+      "semester": 1,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        7,
+        10
+      ],
+      "units": [
+        {
+          "title": "Soil Mechanics",
+          "topics": "Foundation and its relation to soil bearing capacities and identification of hard strata Different types of soils and strata, concept of bulb of pressure",
+          "hours": null
+        },
+        {
+          "title": "Mud construction",
+          "topics": "Introduction to mud, earth, and clay a building materials including different types and properties and their limitations. Substructure: Foundations and plinth construction, including damp proofing, using different techniques such as Adobe, Rammed Earth concrete, CSEB masonry Wall construction: Cob, Wattle and Daub, Rammed earth, Mud concrete, CSEB, etc. Spanning of opening s in mud walls using masonry , t imber, stone and composite lintels. Roofing: Arches, Vaults, Domes including Jack arches, Nubian domes",
+          "hours": null
+        },
+        {
+          "title": "Stone masonry",
+          "topics": "Introduction to stone as a building material including types of stone, sources, properties and their limitations. Substructure: Foundation and plinth construction, including damp proofing, such as : Strip, Pier foundations, and foundations on sloping site in stone masonry Wall: Different stone masonry systems such as random rubble, coursed rubble, and ashlar masonry and its relation to wall thickness and span; Role of Through stones, Bonder stones in masonry. Spanning of openings using masonry, timber, stone, and RCC lintels. Roofing: Roof using stone slabs with steel/ timber framing ( Shahabad flooring, Stone slabs on beams). Detailed syllabus of First Year B. Arch. | 2025 pattern Page 9 of 47",
+          "hours": null
+        },
+        {
+          "title": "Brick Masonry",
+          "topics": "Introduction to brick as a building material , its manufacturing, physical properties, various tests, and its limitations. Substructure: Foundation and plinth construction, including damp proofing, Strip, and Pier foundations, and foundation on sloping sites in brick masonry. Wall: Conventional masonry bonds for wall thickness ranging from half brick to two brick thick walls, innovative bonds such as Rat-trap bond. Spanning of openings using brick masonry such as built -up lintels, different types of arches, timber and RCC lintels. Roofing: Arches, Vaults, Domes including Jack arches, Nubian domes, etc.",
+          "hours": null
+        },
+        {
+          "title": "Flooring",
+          "topics": "Idea of i n-situ (monolithic) flooring using mud and various natural additives such as Gobar (cow dung). Stone tile flooring. Focus on: Creation of plinth and subgrade for flooring, Damp proofing , and finishing in-situ floorings using dividers using glass / brass strips etc.",
+          "hours": null
+        },
+        {
+          "title": "Selection of Building Materials",
+          "topics": "Effect of climatic factors like sun, wind, and rain on the building materials mentioned above and the building elements constructed employing them. Life cycle from sourcing to application to recycling/ reuse of the building materials mentioned above.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202503",
+      "title": "Structures I",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Observing and Understanding Structures",
+          "topics": "Types of structural membe rs—slabs, beams, arches, walls, columns , and trusses and tensile members. Building as an assembly of structural members: flat roofs (slabs, beams), curved roofs (vaults and domes), sloping roofs ( trusses). Support members like walls, columns, foundations. Transfer of loads in loadbearing and framed structural systems.",
+          "hours": null
+        },
+        {
+          "title": "Loads and Equilibrium",
+          "topics": "Concept of Dead Loads, Live Loads, Wind loads, Snow Loads, Seismic Loads Estimation of dead load (self-weight) as density x volume, calculation of weight of various structural components; Estimation of live loads in kN/m^2 or kg/m^2 Concept of point load and uniformly distributed load (udl) Understanding and Constructing Free body diagrams and concept of Equilibrium for simply supported spanning members with point load and uniformly distributed load (udl), short columns and footings",
+          "hours": null
+        },
+        {
+          "title": "Material Properties",
+          "topics": "Concept of Stress, Strain, Elasticity; Understanding material behaviour for ductile and brittle materials and elastic constants for Mud, Brick, Stone, Wood, Bamboo as well as for RCC and Steel Concept of Tension, Compression, Torsion, Shear, Bending Strength and comparative analysis for various construction materials.",
+          "hours": null
+        },
+        {
+          "title": "Geometrical Properties",
+          "topics": "Understanding the properties like cross sectional area, centre of gravity, centroid, moment of inertia of a cross section. Understanding importance of C.G. in structures and structural components. Demonstrating with examples the effect of change ( increase/reduction) in cross section on tensile and compressive stress es in members like cables, masonry walls, columns and footings. Demonstrating with examples the effect of increase/reduction in Moment of Inertia of horizontal spanning members (beams) Components of structural analysis - Geometry, Loads, Reactive Forces, Internal Forces and Moments",
+          "hours": null
+        },
+        {
+          "title": "Analysing Structures- Simply Supported Spanning Members",
+          "topics": "Estimating support reactions for simply supported beams Understanding the behaviour and modes of failure in simply supported spanning members: shear, bending and excessive deflection. Detailed syllabus of First Year B. Arch. | 2025 pattern Page 13 of 47 Estimating the effect of point load and u niformly distributed load (udl) on shear force and bending moment. Estimating the effect of point load and uniformly distributed load ( udl) on shear stress, bending stress and deflection at supports and end span",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202504",
+      "title": "Fundamentals of Architecture",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Profession of Architecture and Work of an Architect",
+          "topics": "Ethical responsibilities of an Architect Architect as a change-maker User -centric design and architectural profession",
+          "hours": null
+        },
+        {
+          "title": "Aspects affecting the making of architecture.",
+          "topics": "Regulatory context Climatic context Socio-cultural context Economic context",
+          "hours": null
+        },
+        {
+          "title": "Space and Place",
+          "topics": "Concept of ‘Space’ and ‘Place’ – What makes a “Place” out of a “Space”?. ‘Place making’ as fundamental to architecture. The role of human activity in the making of a “Place”. Understanding places where people feel sense of ownership, pride, and belonging and where they can interact and engage with each other. Role of built form in place making.",
+          "hours": null
+        },
+        {
+          "title": "Embodied Perception of Space",
+          "topics": "Perception of space in relation to human body. Interaction of the human body and space to form a perception of the space. Experiencing architecture by using multiple senses like touch, climatic comfort, smell, sounds, etc.",
+          "hours": null
+        },
+        {
+          "title": "Memory and Space",
+          "topics": "Associations of history, myths, stories, memories, etc. with a building. Varying perceptions of a building due to varying associations. Memory and Memorials – What are memorials, what do they represent, how do they communicate the memories.",
+          "hours": null
+        },
+        {
+          "title": "Individual and Collective Space",
+          "topics": "How is the individual connected to its surroundings? Understanding a building not as an isolated individual but as part of the larger whole. How do we define “public” and “private” space? Ideas of physical/ visual access, separation, sharing, encouraging and discouraging the “outsider”. Detailed syllabus of First Year B. Arch. | 2025 pattern Page 16 of 47 Home as a private realm. Individual’s relationship with home. What creates identity of the home.",
+          "hours": null
+        },
+        {
+          "title": "Privileged - Underprivileged and the Built environment",
+          "topics": "Role of Gender in the built environment. Children in the Built environment. Design for all. Marginalised communities in the Built environment.",
+          "hours": null
+        },
+        {
+          "title": "Aesthetics in Architecture",
+          "topics": "What is beauty in architecture? Role of ornament in architecture.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202505",
+      "title": "Architectural Drawing and Graphics I",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        17,
+        20
+      ],
+      "units": [
+        {
+          "title": "Architectural Graphics",
+          "topics": "Introduction to G raphics as a language/ mea ns of correct communication in Architecture and D esign, its importance, advantages, and limitations over conventional spoken and written languages. Architectural Graphics as a peculiar language to communicate built environment. Components of Architectural Graphics such as Technical Drawings, Presentation Drawings, Documentation Drawings, etc. The idea of technical drawings as a universal system to accurately represent three dimensional objects, buildings, and spaces.",
+          "hours": null
+        },
+        {
+          "title": "Hand Sketching",
+          "topics": "Importance of free -hand sketching in Architecture to perceive, draw and document building/s, building element/s, and space/s. Various techniques and tools used for free -hand sketching to capture size, shape, textures, light, shades, and shadows (paper and pencil/ pen, digital sketching tools) Sketching various three dimensional objects, buildings, spaces to capture and document the same (students may be encouraged to convert these drawings to plans, elevations, etc.)",
+          "hours": null
+        },
+        {
+          "title": "Architectural Drawing and Drafting",
+          "topics": "Introduction to various tools for drawing and their application techniques. Various types of lines, their meanings, and application. Representation of simple three dimensional objects in two dimensional formats such as plan, elevation, and section as free-hand drawing. Annotations and their meaning, material representations enhancing information of the drawings Meaning and importance of text in the drawings and its delineation for clear legibility.",
+          "hours": null
+        },
+        {
+          "title": "Plane and Solid Geometry",
+          "topics": "Introduction to the planar geometry and graphical construction methods. Generative principles of various three dimensional objects. Surface development of various three-dimensional objects. Detailed syllabus of First Year B. Arch. | 2025 pattern Page 19 of 47",
+          "hours": null
+        },
+        {
+          "title": "Architectural Projection Systems- Drafting",
+          "topics": "Introduction to various projection systems in Architectural Drawing (such as orthographic, isometric, and axonometric), their principles and methods of projection to create technically correct drawings. Meaning and relevance of plan, section, and elevation, and constructing them using Orthographic projection. Three dimensional solids, hollow objects, and simple architectural forms and building elements using all the projection systems.",
+          "hours": null
+        },
+        {
+          "title": "Scale Drawings",
+          "topics": "Introduction to scale as a tool of proportion. Its relevance in representation of various built forms. Overview of Architectural metric scale & graphics scale, necessity of scaled drawings in architecture. Architectural lettering and dimensioning techniques.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202506",
+      "title": "Computer Aided Drawing I",
+      "semester": 1,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Computer Aided Drafting",
+          "topics": "Role and scope of CAD in architectural drawing and documentation. Introduction to the user interface: toolbars, ribbon, command line, palettes, workspace management. Understanding coordinate systems (absolute, relative, polar). Setting up a new drawing: units, limits, scale, layers, templates. Drawing aids: SNAP, GRID, ORTHO, OSNAP, POLAR, and their use in precision drafting.",
+          "hours": null
+        },
+        {
+          "title": "Basic Tools for 2D Drawings",
+          "topics": "Drawing tools: Line, Polyline, Circle, Arc, Ellipse, Rectangle, Polygon. Modifying tools: Move, Copy, Rotate, Mirror, Offset, Trim, Extend, Fillet, Chamfer, Array (Rectangular & Polar). Object selection methods and object snaps for precision editing.",
+          "hours": null
+        },
+        {
+          "title": "Layers, Text, and Dimensioning",
+          "topics": "Understanding layer properties: creation, naming, colour, line-type, visibility control. Introduction to Layer standards as per architectural conventions (e.g. wall, furniture, doors). Learning Text commands: Single -line and multi -line text, justification, text styles, heights. Introduction to Dimensioning tools: Linear, Aligned, Radius, Diameter, Angular, and Leader dimensions, setting a dimension style Introduction to annotation scaling and hatching tools.",
+          "hours": null
+        },
+        {
+          "title": "Drawing Management, Layouts & Plotting",
+          "topics": "Model space vs. Paper space: understanding layouts and viewports. Setting up title blocks and sheet layouts. Scale management and plotting drawings to specified paper sizes (e.g., A3, A2, A1). Plot styles (CTB/STB files), line weights, PDF export. Introduction to compiling a set of drawings.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202507",
+      "title": "Workshop I",
+      "semester": 1,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Scales in Models",
+          "topics": "Introduction to various scales used for models as per their type and role in design process and communication.",
+          "hours": null
+        },
+        {
+          "title": "Materials",
+          "topics": "Introduction to various materials and tools used in Architectural model making such as a. Papers and boards of different thicknesses and textures such as mount-board, corrugated board, file card, model paper etc. b. Foam boards, PVC and Acrylic sheets, Cork Sheets c. Balsa or Pine wood, Bamboo strips or sticks d. Modelling clay, POP, Gypsum e. Metal wires and meshes, sheet metal f. Fabric Choice of materials depending on purpose of the model, scale of the model, level of detail, etc. Materials and finishes for making Model base.",
+          "hours": null
+        },
+        {
+          "title": "Techniques and Tools",
+          "topics": "Hand-cutting and joining Folding/ Origami/ Kirigami Carpentry tools (hand and machine) Hand moulding and casting Use of various adhesives Tying techniques",
+          "hours": null
+        },
+        {
+          "title": "Types of Models",
+          "topics": "Various types of models and their purpose Conceptual Models / Schematic models Massing/ V olumetric Models Site models Context models Structural models Façade models Sectional models Models for a detail/component/ building element Presentation models Detailed syllabus of First Year B. Arch. | 2025 pattern Page 26 of 47",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202508",
+      "title": "Architectural Design I",
+      "semester": 2,
+      "type": null,
+      "credits": 7,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Anthropometry and function",
+          "topics": "To analyse a given function into its smaller components and space requirements; Working out/ finding sizes of spaces and elements to facilitate the human occupants to carry out the functions efficiently and effectively.",
+          "hours": null
+        },
+        {
+          "title": "Structural assemblies and materials",
+          "topics": "To explore possibilities of creating space using simple assemblies of structural elements; Employing known materials to create an efficient and aesthetic assembly of structural and non-structural parts .",
+          "hours": null
+        },
+        {
+          "title": "Response to immediate surroundings",
+          "topics": "To analyse the site and surroundings of a building project for aspects like access, neighbouring buildings/ open spaces, prominent geographical features, and views and identifying strategies of response to these aspects.",
+          "hours": null
+        },
+        {
+          "title": "Use of Elements of Space Making",
+          "topics": "To analyse built space/s for the role of space making elements in their creation and of their distinguishing characteristics and overall experience of the space. To demonstrate effective choice of the elements and their articulation to achieve a stated purpose.",
+          "hours": null
+        },
+        {
+          "title": "Experience and quality of space",
+          "topics": "To identify and describe the experiential quality of a space. To analyse the aspects that lend the space this quality. To identify parameters for evaluating quality of space and apply them to a chosen existing space.",
+          "hours": null
+        },
+        {
+          "title": "Design of a small built and covered space/s or building using knowledge of the above",
+          "topics": "Units1 to 5. Open space design may be considered in addition so as to complement the built and covered space or building design. The space/ building is recommended to house a single function. Detailed syllabus of First Year B. Arch. | 2025 pattern Page 30 of 47",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202509",
+      "title": "Building Construction and Materials II",
+      "semester": 2,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        31,
+        34
+      ],
+      "units": [
+        {
+          "title": "Timber framed structures",
+          "topics": "Introduction to timber as a building material including various types of timber/ wood, its processing, market forms, properties, and joinery systems. Foundation: Grillage foundations, Piers and posts Walls: Frames and panels/ infill walls Lintels : Timber monolithic and built-up lintels Roofing: Various spanning systems including trusses and members such as purlins, rafters etc. Introduction to principle of a truss, various roof covering materials from clay tiles to roofing sheets.",
+          "hours": null
+        },
+        {
+          "title": "Bamboo",
+          "topics": "Introduction to bamboo as a building material including types, processing, properties, and joinery. Foundation: Bamboo foundation Piers and posts Walls: Frame and panelled walling systems Lintels : Lintels using Bamboo built-up sections Roofing: Bamboo Trusses, Rafters, purlins and their joining methods in detail . Introduction to thatch and other coverings over Bamboo framing.",
+          "hours": null
+        },
+        {
+          "title": "Doors and Windows",
+          "topics": "Concept and function of openings in buildings such as doors, windows, ventilators, skylight, etc. and their primary functions such as l ighting, ventilation, access, privacy, weather proofing, view, transitions, aesthetics, etc. Construction principles of t imber doors and w indows and their components such as frames, shutters, shutter frames and infill panels. Operating mechanisms in doors and windows: Pivoted, folding, sliding, sliding and folding, rolling, louvers, etc. Various proprietary systems for Doors and Windows Detailed syllabus of First Year B. Arch. | 2025 pattern Page 33 of 47 The proprietary sy stems for doors and windows (uPVC, Aluminium, Steel profiles) with focus on various criteria for selection, application and performance.",
+          "hours": null
+        },
+        {
+          "title": "Renders and finishes",
+          "topics": "Introduction to Cement and lime as binding building materials including their types, sources, properties, and limitations. Cement plast ers, lime plasters including p roportions of their ingredients, process of application, curing, treatments and precautions. IPS and Terrazzo flooring system.",
+          "hours": null
+        },
+        {
+          "title": "Selection of Building Materials",
+          "topics": "Effect of climatic factors like sun, wind, and rain on the building materials mentioned above and the building elements made with them employing different techniques. Life cycle from sourcing to applica tion to recycling of the building materials mentioned above.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202510",
+      "title": "Structures II",
+      "semester": 2,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        35,
+        37
+      ],
+      "units": [
+        {
+          "title": "Analysing Structures- Cantilever Spanning Members",
+          "topics": "Estimating support reactions Understanding the modes of failure for cantilever spanning members: shear, bending and excessive deflection. Estimating the effect of point load and udl on shear force, bending moment Estimating the effect of point load and udl on shear stress, bending stress and deflection at supports and end span",
+          "hours": null
+        },
+        {
+          "title": "Concept of Continuity, Fixity, and Overhang",
+          "topics": "Understanding the effect of continuity (in members like continuous rafters, continuous beams, etc.) Understanding the effect of fixity (in members like lintels) Understand the bending behaviour of overhanging beam (for balconies and corridors) Comparison of bending behaviour and support reactions for continuous, overhang and fixed spanning members",
+          "hours": null
+        },
+        {
+          "title": "Analysing Structures- Compression Members",
+          "topics": "Understanding Slenderness ratio and its effect on column behaviour Estimating load carrying capacity of long columns using Rankine's method Understanding the behaviour of eccentrically loaded columns or piers (where centre line of beams are not intersecting with centre line of columns) Estimating the size of columns and footings using the Middle Third Rule and its application in eccentrically loaded columns and footings",
+          "hours": null
+        },
+        {
+          "title": "1. Principles of load bearing construction including spacing and thickness of walls,",
+          "topics": "piers, spanning of slabs, area of opening, location of opening, horizontal and vertical bands Application of the above principles for analysing a given building and suggesting rectifications",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202511",
+      "title": "Architectural Diagramming, Sketching, Visualisation",
+      "semester": 2,
+      "type": null,
+      "credits": 2,
+      "pages": [
+        38,
+        40
+      ],
+      "units": [
+        {
+          "title": "Sketching",
+          "topics": "Exercises for Hand-eye coordination. Perspective views- interiors, exteriors, streetscapes, buildings. Human proportions- proportions of the human bo dy, humans in relation to buildings, spaces, and objects such as furniture elements. Rendering- tonal values, shade shadows, material textures, etc.",
+          "hours": null
+        },
+        {
+          "title": "Diagramming",
+          "topics": "Types of Diagrams - Concept diagrams, Network diagrams, Bubble diagrams, Matrix diagrams, Analytical diagrams Various accepted components of a diagram - lines, arrows, signs, symbols Principles of composing Methods and systems of abstracting reality to comprehend meanings Analytical diagramming for the built environment.",
+          "hours": null
+        },
+        {
+          "title": "Visualisation",
+          "topics": "Tools for visualisation: Hand tools and software tools Methods of graphical representation of abstract ideas Hybrid modes of visualisation of the built environment",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202512",
+      "title": "Architectural Drawing and Graphics II",
+      "semester": 2,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        41,
+        43
+      ],
+      "units": [
+        {
+          "title": "Orthographic Projections",
+          "topics": "Orthographic projections of solid and hollow 3D composite objects, especially derived from building forms or parts. Drawing complex 3D objects especially derived from building forms using orthographic, isometric and axonometric projections.",
+          "hours": null
+        },
+        {
+          "title": "Perspective Drawing",
+          "topics": "Introduction to the principles of perspective drawings and understanding of all relevant terms. Drawing of one -point and two -point perspective of simple and composite objects, building exteriors, and interiors.",
+          "hours": null
+        },
+        {
+          "title": "Sciography",
+          "topics": "Understand and apply principles of Sciography — freehand and projection techniques of drawing shades and shadows of simple and composite geometrical solids. Techniques of drawing shade and shadow on buildings or parts of buildings. Introduction to Sciography in perspective.",
+          "hours": null
+        },
+        {
+          "title": "Rendering",
+          "topics": "Introduction and application of various hand rendering techniques for architectural presentations for various drawing formats such as plans, sections, elevations, and views.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202513",
+      "title": "Computer Aided Drawing II",
+      "semester": 2,
+      "type": null,
+      "credits": 3,
+      "pages": [
+        44,
+        45
+      ],
+      "units": [
+        {
+          "title": "Advanced 2D Drafting and Documentation Standards",
+          "topics": "Working with and creating dynamic blocks and their attributes Using external references (XREFs) and managing multiple files. Rastering, scaling, tracing of external images Detailed syllabus of First Year B. Arch. | 2025 pattern Page 45 of 47 Importing files from other programs IS/ NBC guidelines for line conventions, symbols, and annotations.",
+          "hours": null
+        },
+        {
+          "title": "Three Dimensional Drafting Fundamentals",
+          "topics": "Introduction to the 3D modelling interface in CAD or other parallel 3D software Creating and modifying 3D solids Isometric views, UCS manipulation, and 3D navigation. Visual styles and basic rendering concepts.",
+          "hours": null
+        },
+        {
+          "title": "Rendering and Presentation",
+          "topics": "2 D presentation drawings using hatches, line types, and blocks Incorporating images and photographs in CAD presentations",
+          "hours": null
+        },
+        {
+          "title": "CAD Integration & File Management",
+          "topics": "File types: DWG, DXF, PDF, DWF, STL – their uses and limitations. Importing/exporting between CAD and SketchUp/Photoshop/Illustrator/Revit etc. for modelling and rendering File management in design studios (naming, backups, file structure).",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "1202514",
+      "title": "Workshop II",
+      "semester": 2,
+      "type": null,
+      "credits": 4,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "3D Modelling Software",
+          "topics": "Creating Computer Aided / Digital 3D models of simple and composite objects/ building forms using commands and processes in any chosen software.",
+          "hours": null
+        },
+        {
+          "title": "Inter-software Portability",
+          "topics": "Management and portability of files between various software for the purpose of rendering, processing and printing to scale. Basic rendering techniques for digital models using various software.",
+          "hours": null
+        },
+        {
+          "title": "Physical Models from Digital Processes",
+          "topics": "Creating physical models of the following using advanced machine tools (CNC cutters, LASER cutters, etc.)/ digital fabrication (3D printing) tools. a. Basic forms b. Building components/ elements c. Building form Making physical models of the same digital model to different scales.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

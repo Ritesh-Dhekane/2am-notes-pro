@@ -1,0 +1,512 @@
+{
+  "id": "ty-b-voc-renewable-energy-skills-voc-syllabus-23062025",
+  "kind": "programme",
+  "programme": "B.Voc. Renewable Energy",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "RE 301 MJ",
+      "title": "Roof Top & Grid Connected PV System",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        3,
+        4
+      ],
+      "units": [
+        {
+          "title": "Introduction to Rooftop Solar PV",
+          "topics": "Basics of rooftop solar PV systems Types of solar business models System sizing (small-scale) Policies, regulations, and case studies",
+          "hours": 10
+        },
+        {
+          "title": "Grid Connectivity and Configurations",
+          "topics": "Off-grid vs. on-grid systems Grid-tied system working and applications System configurations: with/without battery backup Captive systems, support systems, and anti-islanding",
+          "hours": 10
+        },
+        {
+          "title": "Components of Grid-Connected Systems",
+          "topics": "Solar PV array and combiner box DC/AC cabling and distribution boxes Grid-connected inverter Overview of other essential components",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 302 MJ",
+      "title": "Solar Energy in India: Policies, Innovations & Future",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Solar Policies and Regulations",
+          "topics": "National policies: MNRE guidelines, subsidies, bidding processes State-level initiatives and net metering rules",
+          "hours": 10
+        },
+        {
+          "title": "Technology and Implementation Challenges",
+          "topics": "Advances in solar PV and storage systems Smart grid integration Key challenges: land, grid, policy gaps",
+          "hours": 10
+        },
+        {
+          "title": "Future Outlook and Strategies",
+          "topics": "Emerging trends and innovations Achieving 2030 solar targets Role of private sector and partnerships",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 303 MJ",
+      "title": "Mathematics for Solar PV Systems",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Basic Math and Electrical Formulae",
+          "topics": "Numbers, percentages, decimals, ratios Units and conversions (length, area, power, energy) Area and volume (used for layout and mounting space) Ohm’s Law: Voltage, Current, Resistance Power and Energy formulas (P = VI, kWh) Series and Parallel Circuits",
+          "hours": 10
+        },
+        {
+          "title": "Solar System Sizing and Performance Math",
+          "topics": "Solar irradiance and energy output Tilt angle, direction, and shading (using basic trigonometry) Calculating number of panels based on load and sunlight Battery bank sizing for energy storage Inverter and charge controller ratings Cable sizing and voltage drop",
+          "hours": 10
+        },
+        {
+          "title": "System Layout, Meter Reading & Cost Estimation",
+          "topics": "Roof layout and space planning Calculating panel spacing to avoid shade Reading multi meter, solar meters, and charts Tracking energy generation and usage Estimating system costs Basic payback period and savings calculation Make smart layout choices using simple math Understand system data and troubleshoot issues Do cost and savings calculations for small projects Step-by-step problem solving Hands-on practice with tools and meters Practical Activities List: Measure and Calculate Rooftop Area o Use measuring tape or a scale diagram to calculate usable panel space. Estimate Household Energy Consumption o Use appliance ratings to calculate daily and monthly energy use in kWh. Size a Battery Bank o Determine battery capacity required for backup based on load and autonomy. Calculate Cable Size and Voltage Drop o Use cable length and current to estimate voltage drop and choose proper cable size. Use a Multimeter to Take Readings o Measure voltage and current in a DC circuit and verify using Ohm’s Law. Shadow Analysis for Panel Spacing o Use simple tools or drawings to assess shading and calculate optimal spacing.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 304 MJP",
+      "title": "Introduction to Solar PV Software",
+      "semester": 5,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        7,
+        7
+      ],
+      "units": [
+        {
+          "title": "Basics of PV System Design Software",
+          "topics": "Overview of popular PV software (e.g., PV*Sol, PVsyst, HelioScope) Creating site profiles and inputting basic data Understanding solar resource data",
+          "hours": 10
+        },
+        {
+          "title": "Designing Grid-Connected PV Systems",
+          "topics": "System sizing and layout planning Inverter and module selection Simulating energy output",
+          "hours": 10
+        },
+        {
+          "title": "Analysing Results and Reporting",
+          "topics": "Performance analysis and losses Generating reports and interpreting results Exporting project documentation",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 305 MJP",
+      "title": "Practical Based on Theory",
+      "semester": 5,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        8,
+        8
+      ],
+      "units": [
+        {
+          "title": "Practical Work",
+          "topics": "5. Course Code RE 305 MJP Practical Based on Theory Practical: To design small and large RTGC Solar PV Plants and prepare a report.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "RE 310 MJ",
+      "title": "Climate Change",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        8,
+        9
+      ],
+      "units": [
+        {
+          "title": "Basics of Climate Change",
+          "topics": "What is Climate Change? – Causes and evidence Greenhouse Gases and Global Warming Global Climate Agreements – UNFCCC, IPCC, Paris Agreement",
+          "hours": 10
+        },
+        {
+          "title": "Climate Change and Its Impact",
+          "topics": "Global and Regional Impacts – Sea level rise, extreme weather Climate Change in India and Maharashtra – Monsoons, agriculture, cities Vulnerable Communities and Climate Justice",
+          "hours": 10
+        },
+        {
+          "title": "Climate Solutions and Local Action",
+          "topics": "Mitigation through Renewable Energy and Efficiency Adaptation Strategies – Water, agriculture, infrastructure Youth and Community Action – Local solutions and career opportunities",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 311 MJP",
+      "title": "Climate Change Project",
+      "semester": 5,
+      "type": "Major Elective practical",
+      "credits": 2,
+      "pages": [
+        9,
+        9
+      ],
+      "units": [
+        {
+          "title": "Climate in Action",
+          "topics": "\"Climate in Action: Assessing and Reducing Carbon Footprint on Campus\" Students calculate the carbon footprint of their university and propose actionable mitigation strategies using renewables and efficiency.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "RE 321 VSC",
+      "title": "Solar Home Décor Craft Studio",
+      "semester": 5,
+      "type": "Vocational Skills Course",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "DIY Solar Garden Light",
+          "topics": "Make a cute solar stake light for your garden/balcony. Use an LDR sensor for automatic lighting. Materials Required: Mini solar panel | Rech argeable battery | LED | LDR (optional) | Plastic bottle | Paint Decorative Solar Lantern Craft beautiful lanterns from paper or cloth. Install LED with solar power. Materials Required: Solar panel | Battery | LED | Colored paper | Glue gun | Craft tools Solar-Powered Table Fan Connect DC motor to solar panel. Design a working mini fan. Materials Required: Solar panel | DC motor | Fan blade | Switch | Battery | Cardboard or frame Solar Table Lamp / Centerpiece Make a glowing table décor piece. (Add optional motion sensors.) Materials Required: Solar panel | LED string | Rechargeable battery | Jar or dome | Craft paint",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "RE 331 FP",
+      "title": "Field Project",
+      "semester": 5,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        10,
+        10
+      ],
+      "units": [
+        {
+          "title": "Field Project Report",
+          "topics": "Write a report of field visit. Filed visit can be planned for any type of Renewa ble Energy Project.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "RE 341 MN",
+      "title": "Entrepreneurship Skills",
+      "semester": 5,
+      "type": "Minor Theory",
+      "credits": 2,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Setting up a New Venture",
+          "topics": "Process for setting up a new venture Key ingredients of a business plan Distinguishing between fixed and working capital requirements Components of a loan application for fundraising Definition of entrepreneurship from different perspectives Importance of entrepreneurship: Enhances creativity and innovation, Builds self-confidence, Tool for nation building, Engine of economic growth",
+          "hours": 10
+        },
+        {
+          "title": "Communication and Professional Etiquette",
+          "topics": "Demonstrating good etiquettes and manners while communicating with clients Demonstrating the importance of time management Demonstrating leadership skills and effective resource management techniques",
+          "hours": 10
+        },
+        {
+          "title": "Company Policies and Organizational Structure",
+          "topics": "Understanding the company’s safety policy Company’s customer support policy Company’s documentation policy Obtaining authorization from specified field safety officer and supervisor Familiarization with the company’s different departments",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 342 MNP",
+      "title": "Computer Applications for Business Automation",
+      "semester": 5,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        12,
+        12
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Business Automation",
+          "topics": "Overview of business processes and automation needs Introduction to Office productivity tools (Word, Excel, PowerPoint) Automating tasks using spreadsheets (formulas, macros, pivot tables)",
+          "hours": 10
+        },
+        {
+          "title": "AI Tools for Business Efficiency",
+          "topics": "Using AI tools for writing, summarizing, and communication (e.g., ChatGPT, Grammarly) AI tools for data handling and analysis (e.g., ChatGPT with Code Interpreter , Microsoft Excel Copilot) Automating workflows with AI-based platforms (e.g., Zapier, IFTTT, Notion AI)",
+          "hours": 10
+        },
+        {
+          "title": "Business Process Management & Communication",
+          "topics": "Creating automated reports and dashboards (Google Sheets + AppScript, Power BI basics) Tools for task and project management (e.g., Trello, ClickUp, Asana) Digital collaboration and communication tools (e.g., Google Workspace , Slack, Microsoft Teams)",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 351 MJ",
+      "title": "Solar PVS Operation & Maintenance",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Types of Maintenance",
+          "topics": "Preventive Maintenance (PM), Corrective Maintenance (CM) or breakdown Maintenance (BM), Condition-Based Monitoring (CBM)",
+          "hours": null
+        },
+        {
+          "title": "O&M focus areas",
+          "topics": "A solar photovoltaic power plant has several components and each of the sub-system requires Different O&M skill sets. Examples: Module, Electrical sub-systems, Civil and Structural sub-systems, Communication, Warranty Management, Spare Parts Inventory Management, Design Debugging and maintenance.",
+          "hours": null
+        },
+        {
+          "title": "Challenges",
+          "topics": "Skilled Manpower, Local Labour, O & M Budget, Availability of water, Theft of materials , Documentation, Warranty claim management, Spares management and response time, Weather related issues like rain, sand movement Remote location - execution challenges such as communication connectivity, logistics for repairs, and deployment of manpower.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "RE 352 MJ",
+      "title": "Site Survey and Feasibility Study",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Site Visit",
+          "topics": "Identify best location for installation Check mounting type and placement Inspect shading and obstacles Prepare a simple site map",
+          "hours": 10
+        },
+        {
+          "title": "Understanding Client Requirements",
+          "topics": "Assess load and prepare load profile Estimate plant capacity Decide on battery backup needs",
+          "hours": 10
+        },
+        {
+          "title": "Feasibility Study and Report",
+          "topics": "Collect site data: GHI, DNI, temp, wind Do shading analysis Estimate energy generation using PV*Sol® / PVsyst Identify project risks Prepare feasibility report using software",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 353 MJ",
+      "title": "Solar Thermal Applications",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Basics of Solar Thermal Energy",
+          "topics": "Principles of solar radiation and thermal energy conversion Types of solar thermal systems (active and passive) Overview of solar collectors (flat plate, evacuated tube, concentrating)",
+          "hours": 10
+        },
+        {
+          "title": "Solar Thermal Devices and Applications",
+          "topics": "Solar water heaters – types, design, and installation Solar cookers and dryers – construction and usage Industrial and commercial applications (process heating, solar cooling)",
+          "hours": 10
+        },
+        {
+          "title": "System Design, Maintenance & Safety",
+          "topics": "Sizing and designing a basic solar thermal system Operation, maintenance, and troubleshooting Safety practices and efficiency optimization",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 354 MJP",
+      "title": "Core Skills & Professional Skills",
+      "semester": 6,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Core/Generic Skills",
+          "topics": "Writing Skills: Maintain documentation Reading Skills: Understand manuals, safety instructions, signage, and codes Oral Communication: Express clearly, participate in discussions, and respond to queries.",
+          "hours": 10
+        },
+        {
+          "title": "Professional Skills",
+          "topics": "Decision Making: Follow rules, take structured decisions Planning & Organization: Manage schedules, work in teams Customer Centricity: Follow code of conduct, ensure service satisfaction Problem Solving: Identify issues, choose best solutions Analytical Thinking: Use data and domain knowledge Critical Thinking: Evaluate information for daily tasks",
+          "hours": 10
+        },
+        {
+          "title": "Workplace Application",
+          "topics": "Apply communication skills on the job Demonstrate planning, teamwork, and problem-solving in real tasks Handle customer interactions and feedback effectively",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 355 MJP",
+      "title": "Practical Based on Theory",
+      "semester": 6,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        17,
+        17
+      ],
+      "units": [
+        {
+          "title": "Practical Work",
+          "topics": "5. RE 355 MJP Practical Based on Theory Pre-Survey Checklist Preparation Identify customer requirements (load, budget, space) Prepare a customized site survey checklist (roof type, orientation, shading, access, etc.) On-Site Physical Inspection Measure rooftop area and angle using tape, inclinometer Observe sun path and shading (use compass/sun path app) Check roof condition, material, and structural strength Electrical System Assessment Locate main electrical panel and load meter Check existing wiring, earthing, and inverter space availability Note backup systems (if any) Data Collection & Photographic Evidence Take photos of roof, shade obstructions, and electrical points Record all measurements and observations in checklist format Prepare Site Feasibility Report Analyse collected data: suitability, limitations, orientation Suggest PV capacity and layout Include summary, recommendations, and visuals. Open-Access & Commonly Used Software for Solar PV Site Survey Google Earth / Google Maps (Free) Used for initial site viewing and measuring rooftop area Helps assess surroundings, orientation, and access PVGIS (Photovoltaic Geographical Information System – Free) Developed by the EU;",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "RE 360 MJ",
+      "title": "Battery Technologies",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Basics of Battery Technology",
+          "topics": "Introduction to batteries and their role in renewable energy Types of batteries: Lead-acid, Lithium-ion, NiMH Basic terms: voltage, capacity, charge/discharge, efficiency Battery ratings and specifications",
+          "hours": 10
+        },
+        {
+          "title": "Battery Operations and Applications",
+          "topics": "Charging and discharging process Battery banks and their configuration (series/parallel) Applications in solar PV systems (off-grid & hybrid) Safe handling, Do's and Don’ts in battery usage",
+          "hours": 10
+        },
+        {
+          "title": "Maintenance, Safety & Emerging Trends",
+          "topics": "Battery maintenance and troubleshooting Storage and disposal of used batteries Battery Management Systems (BMS) – basics Future technologies: Solid-state, flow batteries (overview only)",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 361 MJP",
+      "title": "Practical Based on Battery Technologies",
+      "semester": 6,
+      "type": "Major Elective Practical",
+      "credits": 2,
+      "pages": [
+        19,
+        19
+      ],
+      "units": [
+        {
+          "title": "Practical Work",
+          "topics": "7. RE 361 MJP Practical Based on Battery Technologies Identify and Compare Different Types of Batteries (Lead -acid vs. Lithium- ion) Measure Battery Voltage, Current, and State of Charge using Multimeter Assemble a Small Battery Bank (Series and Parallel Connections) Demonstrate Charging and Discharging of a Battery with Solar Panel Setup Perform Basic Battery Maintenance and Record Safety Checklist",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "RE 381 OJT",
+      "title": "On Job Training",
+      "semester": 6,
+      "type": "On Job Training",
+      "credits": null,
+      "pages": [
+        19,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "RE 391 MN",
+      "title": "Net Zero Energy Building Design Strategies",
+      "semester": 6,
+      "type": "Minor Theory",
+      "credits": 2,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to NZEB",
+          "topics": "What is NZEB? – Concept and goals Key components: Energy efficiency + Renewable energy Importance of NZEB in Indian context (climate, energy demand) National policies and green building codes (BEE, ECBC)",
+          "hours": 10
+        },
+        {
+          "title": "Design Principles of NZEB",
+          "topics": "Site planning and building orientation Passive design strategies: day lighting, ventilation, insulation Energy-efficient systems: lighting, appliances, HVAC Introduction to energy modelling tools (overview only)",
+          "hours": 10
+        },
+        {
+          "title": "Renewable Integration & Performance",
+          "topics": "Sizing and integrating rooftop solar PV Battery storage basics and energy backup Monitoring and optimizing energy use Case studies of NZEBs in India",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "RE 392 MNP",
+      "title": "Case Study (NZEB)",
+      "semester": 6,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Case Study: Net Zero Energy Building",
+          "topics": "\"Analysis of a Net Zero Energy Building in the Indian Climate: Design, Energy Systems, and Performance\" Suggested Focus Areas: Select a real or proposed NZEB OR local institutional buildings with green features Study building orientation, passive design elements Analyze integration of solar PV, lighting, HVAC, and energy efficiency Evaluate performance using simple tools or checklists Include suggestions for NZEB implementation in Pune's climate",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": "NEP 2020 Implemented from 2023-24"
+}

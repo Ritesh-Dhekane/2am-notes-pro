@@ -1,0 +1,651 @@
+{
+  "id": "t-y-b-sc-chemistry-07072026",
+  "kind": "programme",
+  "programme": "Under-Graduate Program in Chemistry",
+  "pattern": "2026",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CHE-301-MJ-T",
+      "title": "PHYSICAL CHEMISTRY II",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Electrochemical Cells",
+          "topics": "Electrochemical cells: concept, construction, working. Reversible and irreversible cells. Electromotive force (e.m.f.) and its measurement. Reference electrodes: Standard Hydrogen Electrode (SHE), Calomel, Ag/AgCl electrode. Weston standard cell (historical mention). Nernst equation for electrode potential and cell e.m.f. Sign convention, cell representation. Thermodynamics of reversible cells: Relationship between E, ΔG, and K. Electrochemical series and applications. Concentration cells, liquid junction potential, salt bridge. Applications: pH determination (Hydrogen & Glass electrode). Potentiometric titrations (Acid-base & Redox). Batteries: Primary and Secondary types, applications. Fuel cells: Types, principle, advantages, limitations. Comparison of batteries and fuel cells.",
+          "hours": 10
+        },
+        {
+          "title": "Nuclear Chemistry",
+          "topics": "Radioactivity: Types (α, β, γ) and properties of radiations. Detection & Measurement: Geiger-Muller Counter, Scintillation Counter, Ionization Chamber, Film Badges. Nuclear structure. Classification of nuclides (Isotopes, Isobars, Isotones, Isomers). Radioactive decay processes, Group Displacement Law. Kinetics of decay: Decay constant, half -life, average life. Nuclear energy: Mass defect, Binding energy. Applications of radioisotopes as tracers: Chemical investigation (Esterification, Friedel -Crafts), Stru ctural determination (PCl₅), Age determination (Tritium, C-14 dating).",
+          "hours": 10
+        },
+        {
+          "title": "Quantum Chemistry",
+          "topics": "Introduction: Need for quantum mechanics. Recapitulation: de Broglie hypothesis, Heisenberg’s uncertainty principle. Postulates of quantum mechanics, operators, and observables. Time -independent Schrödinger wave equation, conditions for a well -behaved wave function. Particle in a 1 -D box (derivation), 2 -D and 3 -D box (concept). Physical interpretation of ψ and ψ², sketching for 1 -D box. Degeneracy. Applications to conjugated systems. Vibrating particle: vibrational energy levels, zero -point energy, concept of quantum tunneling. Numerical.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CHE-302-MJ-T",
+      "title": "INORGANIC CHEMISTRY II",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Molecular Orbital Theory of Covalent Compounds",
+          "topics": "Limitations of Valence Bond Theory (VBT), Concep t of molecular orbitals, Linear Combination of Atomic Orbitals (LCAO) principle and rules, Bonding combinations of AOs: s-s, s-p, p-p and d -d, Types of molecular orbitals : Bonding, antibonding, non -bonding. MO Energy level diagram s for homonuclear diatomic molecules, Bond order , existence, energy (β) and magnetic behaviour of molecules or ions: H2, H2+, He2 +, Li2, Be2, B2, C2, N2, O2, O2+, O2-, O 22-, F 2 and Ne2. MO energy level diagram s for heteronuclear diatomic molecule s: CO and HF. [Ref-1 to 3: Relevant Pages]",
+          "hours": 5
+        },
+        {
+          "title": "Molecular Orbital Theory for Coordination Complexes",
+          "topics": "Electroneutrality principle, Nephelauxetic effect and need of MOT over VBT and CFT for explaining M-L bonding, Assumptions of MOT for coordination complexes and formation of MOs w.r.t. bonding, antibonding, and non -bonding MOs, MO energy level diagrams for octahedral complexes with σ-bond: [Ti(H2O)6]³, [Co(NH3) 6]³, [Fe(H2O)6]², [CoF6]4⁻ & [Co(CN)6]4- and [Fe(F) 6]3- & [Fe(CN) 6]3, H.S. and L.S. complexes, and effect of π bonding on MO diagram and charge transfer transitions. [Ref-1 to 4: Relevant Pages]",
+          "hours": 5
+        },
+        {
+          "title": "Chemistry of d and f-block Elements",
+          "topics": "d-Block elements: [03 Hours] Position in periodic table, occurrence, electronic configuration. Trends in properties w.r.t.(a) size of atoms and ions (b) reactivity (c) catalytic activity (d) oxidation state (e) complex formation ability (f) colour (g) magnetic propert y (h) non-stoichiometry (i) density, melting & boiling points. f-Block elements: Introduction on the basis of electronic configurations, occurrence and reactivity, f-block elements as Lanthanide and Actinide series I. Lanthanides: [04 Hours] Position in periodic table, Name and electronic configuration of lanthanides and Oxidation States. Atomic and ionic radii, Lanthanide contraction : its causes and consequences . Occurrence and separation: Bulk separation, Individual separation by modern methods viz., Ion exchange method and solvent extraction method, and applications of lanthanides. II. Actinides: [03 Hours] Position in periodic table, names and their electronic configurations. Oxidation States, Occurrence and gene...",
+          "hours": 10
+        },
+        {
+          "title": "Organometallic Chemistry and Homogeneous Catalysis",
+          "topics": "Definition of Organometallic compounds and Organometallic chemistry, CO as a π-acid donor ligand, binary metal carbonyls, synthesis of metal carbonyls; (a) Direct reaction (b) Reductive carbonylation (c) Photolysis and thermolysis. Hepticity, Molecular and electronic structures of binary metal carbonyls, Electron count in complexes (18 electron rule). Chemistry of ferrocene; Introduction, synthesis and physical properties of ferrocene. Reactions of ferrocene such as Friedel -Craft Acylation, Friedel -Craft Alkylation, Mannich reaction, Nitration and Halogenation Applications of organometallic compounds in industrial catalysis (list of examples). Introduction to Catalysis, basic principles, activity and selectivity in catalysis, Types of catalysis, Homogeneous catalysis : importance of catalysis in the synthesis of high value chemicals. Catalytic cycles for: a) Hydrogenation of olefins using Wilkinson ’s complex, b) Hydroformylation of olefins using Co and Rh complexes, c) Carbonylat...",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CHE-303-MJ-T",
+      "title": "ORGANIC CHEMISTRY II",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        14,
+        16
+      ],
+      "units": [
+        {
+          "title": "Electrophilic Aromatic Substitution Reactions",
+          "topics": "Introduction to aromaticity and stability of aromatic systems , General mechanism of electrophilic aromatic substitution (formation of σ -complex/arenium ion). Nitration, sulfonation, halogenation, Friedel -Crafts alkylation and acylation reactions. Orientation and reactivity in monosubstituted benzenes: activating and deactivating groups, ortho/pa ra and meta directing effects, Multiple substitutions, steric and electronic effects, Electrophilic substitution in polycyclic aromatic hydrocarbons (naphthalene: α and β orientation)",
+          "hours": 6
+        },
+        {
+          "title": "Heterocyclic Chemistry",
+          "topics": "Introduction and classification of heterocyclic compounds. Aromaticity in heterocycles. Structure, aromatic character and reactivity of five -membered heterocycles: pyrrole, furan and thiophene. Paal –Knorr synthesis. Electrophilic substitution reactions of pyrrole, furan and thiophene: reactivity and orientation, Structure of pyridine: basicity, effect of nitrogen on reactivity, Electrophilic and nucleophilic substitution reactions of pyridine.",
+          "hours": 6
+        },
+        {
+          "title": "Named Reactions and Rearrangements",
+          "topics": "Aldol condensation, Cannizzaro reaction, Perkin reaction, Reformatsky reaction, Diels-Alder reaction, Wittig reaction, Pinacol -pinacolone rearrangement, Beckmann rearrangement, Hofmann rearrangement, Baeyer-Villiger oxidation, Benzil-Benzillic acid rearrangement, Curtius and Schmidt rearrangements",
+          "hours": 8
+        },
+        {
+          "title": "Stereochemistry",
+          "topics": "Optical isomerism in compounds with and without stereocenters; optical isomerism without a classical stereogenic center; axial chirality and its origin; optical isomerism in allenes; optical isomerism in substituted biphenyls; restricted rotation and atropisomerism; helical and planar chirality (introductory). Polycyclic systems: structural features of fused ring systems; conformation of cis-decalin and trans-decalin",
+          "hours": 5
+        },
+        {
+          "title": "Retrosynthetic Analysis",
+          "topics": "Introduction to retrosynthesis and synthetic planning. Concepts and terminology: target molecule (TM), retrosynthetic analysis, disconnection approach, functional group interconversion (FGI), functional group addition (FGA), synthon and synthetic equivalent, One-group and two -group disconnections. Retrosynthetic analysis of acetophenone, ethyl acetoacetate, 1,3-diphenyl-2-propen-1-one, cinnamic acid, 1 -(4-methoxy-3- nitrophenyl)ethan-1-one",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CHE-304-MJ-T",
+      "title": "ANALYTICAL CHEMISTRY II",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Gravimetric Analysis",
+          "topics": "Introduction to gravimetric analysis; Precipitation methods; The colloidal state; Super saturation and precipitate formation; The purity of the precipitate: Co -precipitation; Conditions of precipitation; Precipitation from homogeneous solution; Washing the precipitate; Ignition of the precipitate: quantitative separations based upon precipitation methods: Fractional precipitation; Organic precipitants (8 -hydroxyquinoline, DMG, Cupferron, Nitron, and Benzoin-alfa oxime, Anthranilic acid), Gravimetric Calculations-How Much Analyte is there (Ref -3) Applications of Gravimetry: Determination of Al(III) by 8 - hydroxyquoline, Determination of calcium as oxalate, Numericals, Key Ref .-1: 417 -428, 433-444, 446, 451, 464, 485; [Supplementary Ref-2: Pp-342 to 362]",
+          "hours": 6
+        },
+        {
+          "title": "Thermal Methods of Analysis",
+          "topics": "General discussion, Thermogravimetry, Experimental factors affecting TG analysis, Instruments for thermogravimetry, Applications: Thermogravimetric analysis of CaC 2O4 H2O, CuSO 4 5H2O, Differential Thermal Analysis: Introduction, instrumentation for DTA and DSC, experimental and instrumental factors, applications: DTA of copper sulphate pentahydrate, Purity of Pharmaceutical by DSC . Key Reference-2: 503-522, [Supplementary",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CHE-305-MJP",
+      "title": "PHYSICAL CHEMISTRY PRACTICAL I",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        20,
+        22
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-306-MJP",
+      "title": "INORGANIC CHEMISTRY PRACTICAL I",
+      "semester": 5,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        23,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-310-MJ-T",
+      "title": "POLYMER CHEMISTRY",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        26,
+        28
+      ],
+      "units": [
+        {
+          "title": "Introduction to Polymers",
+          "topics": "1.1 Brief history 1.2 Basic terms: polymer, monomer, oligomers, polymerisation, degree of polymerisation, functionality Chemical composition of the environment 1.3 Characteristics of polymers 1.4 Classification of polymers: Natural and synthetic polymers, linear, branched, cross linked and network polymers, organic and inorganic polymers, Plastics, elastomers, fibers and liquid resins, Homopolymers and Co -polymers. Role of chemistry in environmental protection, Applications of polymers 1.5 Molecular forces and chemical bonding in polymers: Primary and secondary bond forces in polymers, cohesive energy. 1.6 Glass transition temperature of polymer. 1.7 Molecular weight of polymers: Number Average molecular mass (Mn) and weight average molecular mass (Mw) of polymers 1.8 polydispersity index",
+          "hours": 2
+        },
+        {
+          "title": "Chemistry of Polymerization",
+          "topics": "2.1 Introduction 2.2 Chain Polymerization: Free radical Polymerization, Ionic polymerization, Co - ordination, polymerization - Ziegler-Natta catalyst Photochemical smog: formation and effects Step Polymerization: Polycondensation, Polyaddition - polymerisation, Ring opening polymerisation.",
+          "hours": 6
+        },
+        {
+          "title": "Polymerization Techniques",
+          "topics": "3.1 Bulk polymerisation 3.2 Solution polymerisation 3.3 Suspension polymerisation 3.4 Emulsion polymerization 3.5 Melt polycondensation 3.6 Solution polycondensation 3.7 Interfacial condensation Salient features of different polymerisation techniques.",
+          "hours": 4
+        },
+        {
+          "title": "Polymer Processing and Degradation",
+          "topics": "4.1 Polymer Processing 4.1.1 Compounding 4.1.2 Processing Techniques 4.1.3 Plastic Technology: Calendering, Die Casting, Film Casting, compression molding, Injection molding, Blow molding, thermoforming, Foaming 4.1.4Fibre Technology: Fibre Spinning - Melt spinning, Dry spinning , Wet spinning, Fibre after treatments : Scouring, Lubrications, Sizing, Dyeing, Finishing, Texture yarns, Nonwoven fabrics. 4.2 Polymer degradation: 4.2.1 Process of degradation. Random and chain end degradation. 4.2.2 Methods of degradation: thermal degradation – factors affecting thermal stability; mechanical degradation – milling and mastication; photodegradation – photostabilisers; oxidative degradation – oxidants and antioxidants; hydrolytic degradation; degradation by high energy radiation, chemical degradation. 4.2.3 Polymer waste management.",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Polymers",
+          "topics": "5.1 Thermoplastics: Polyethylene, Polypropylene, polystyrene, Polyacrylonitrile, Poly Vinyl Chloride, nylon and polyester. Persistent organic pollutants (POPs) 5.2 Thermosetting Plastics: Phenol formaldehyde and epoxide resin. 5.3 Elastomers: Natural rubber and synthetic rubber - Buna - N, Buna-S and neoprene. Conducting Polymers: poly phenylene, poly pyrrole and poly acetylene",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CHE-311-MJ-T",
+      "title": "ENVIRONMENTAL CHEMISTRY",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Environmental Chemistry",
+          "topics": "1.1 Scope, relevance, and interdisciplinary nature of environmental chemistry 1.2 Environmental segments: atmosphere, hydrosphere, lithosphere, biosphere 1.3 Chemical composition of the environment 1.4 Biogeochemical cycles: carbon, nitrogen, sulfur, and phosphorus 1.5 Energy flow in ecosystems 1.6 Role of chemistry in environmental protection 1.7 Case study: Urban air pollution due to vehicular emissions.",
+          "hours": 4
+        },
+        {
+          "title": "Atmospheric Chemistry and Air pollution",
+          "topics": "2.1 Structure and chemical composition of the atmosphere 2.2 Air pollutants: classification, sources, and effects 2.3 Photochemical smog: formation and effects 2.4 Greenhouse gases, global warming, and climate change 2.5 Ozone layer depletion and control strategies 2.6 Case study: Bhopal Gas Tragedy",
+          "hours": 6
+        },
+        {
+          "title": "Water Chemistry and Water Pollution",
+          "topics": "3.8 Sources of water pollution: domestic, industrial, agricultural 3.9 Water quality parameters: pH, DO, BOD, COD, TDS, hardness 3.10 Eutrophication: causes, chemical mechanism and control 3.11 Water treatment methods: Physical processes, Chemical processes, biological processes 3.12 Drinking water standards (WHO/BIS) 3.13 Case study: River pollution and Sewage Treatment Plant (STP).",
+          "hours": 6
+        },
+        {
+          "title": "Soil Chemistry & Solid Waste Management",
+          "topics": "4.1 Soil Composition and Soil Chemistry 4.2 Soil pollution: fertilizers, pesticides, and heavy metals 4.3 Chemistry of pesticides and their degradation 4.3 Solid Waste: classification and chemical composition 4.4 Hazardous waste and e-waste 4.5 Waste minimization and recycling strategies",
+          "hours": 6
+        },
+        {
+          "title": "Toxic Chemicals & Green Sustainable Chemistry",
+          "topics": "5.1 Heavy metals: sources, toxicity, and remediation 5.2 Persistent organic pollutants (POPs) 5.3 Principles of green chemistry 5.4 Green solvents: Water, Supercritical Carbon Dioxide (scCO₂), Ionic Liquids, Bio -Based Solvents, Glycerol, 2-Methyltetrahydrofuran (2-MeTHF), etc. 5.5 Sustainable development and ethics Green solvents : Water, Supercritical Carbon Dioxide (scCO₂), Ionic Liquids, Bio -Based Solvents, Glycerol, 2 -Methyltetrahydrofuran (2 -MeTHF), etc, Green Catalysis (Titanium Dioxide, Metal–Organic Frameworks (MOFs)) Energy-efficient chemical processes : heat integration, advanced catalysis (e.g., enzymes, nanocatalysts), process intensification (combining steps), using efficient equipment (pumps, motors), and implementing smart controls, all reducing costs and environmental impact (GHG emissions) 5.6 Environmental laws and regulations (India): Environment (Protection) Act, Water (Prevention and Control of Pollution) Act, Air (Prevention and Control of Pollution) Act, H...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CHE-312-MJ-T",
+      "title": "BIOCHEMISTRY",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        32,
+        34
+      ],
+      "units": [
+        {
+          "title": "Carbohydrates",
+          "topics": "Chemical molecules of life, the structure of prokaryotic and eukaryotic cells, and the functions of eukaryotic cell organelles. Definition: Classification of Carbohydrates: Classification: Monosaccharides, Disaccharides, Polysaccharides, Biological significance of carbohydrates, Monosaccharides: Structure of aldoses and ketoses, D - and L -isomers, Ring structures of sugars: hemiacetals and hemiketals, Conformations of sugars, Anomers and epimers, Mutarotation, Reaction with phenyl hydrazine (Osazone formation), Disaccharides: Sucrose, lactose, and maltose, Glycosidic bond, Reducing and non -reducing disaccharides, Polysaccharides: Homopolysaccharides and heteropolysaccharides.",
+          "hours": 8
+        },
+        {
+          "title": "Lipids and Vitamins",
+          "topics": "Classification and biological significance of lipids. Fatty acids, Triacylglycerols, Properties of Triacylglycerols (Saponification, Rancidity), Tests to check purity of fats and oils (Iodine number, Saponification number, , Acid number), Lipoproteins, steroids (Cholesterol, Ergosterol). Definition, Classification of Vitamins- Fat-soluble and Water-soluble. Individual Vitamin: Vitamin A, D, E, K, C, B1, B2, B6, B12, Biotin, Niacin, Folic acid, Pantothenic acid, (Chemistry, Functions, Sources, Deficiency symptoms).",
+          "hours": 7
+        },
+        {
+          "title": "Amino Acids and Proteins",
+          "topics": "Amino Acids: Classification based on R -group, Structures of amino acids, Physicochemical Properties; Amphoteric nature, and zwitterions, pKa values, Isoelectric point (pI), Concept of ampholytes, Reactions of Amino Acids: Ninhydrin reaction, Transamination, Oxidative deamination. Significance of these reactions, Amino acids as useful drugs (D -Penicillamine, N-Acetylcysteine, Gabapentin) Proteins: Classification based on: Function, Structural Hierarchy of proteins: Primary structure, Secondary structure, Tertiary structure, Quaternary structure.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Enzymes",
+          "topics": "Classification of Enzymes: Enzyme classes with examples, Chemical Nature and Properties of Enzymes: Isoenzymes, Active site: concept and features, Enzyme –substrate (ES) complex formation, Enzyme Specificity, Factors Affecting Enzyme Activity: Substrate concentration, enzyme concentration, pH, temperature, and mechanism of enzyme action: substrate strain theory. Enzyme Inhibition: Concept of enzyme inhibition, Allosteric enzymes, Conjugated Enzymes: Holoenzyme and Apoenzyme, Prosthetic groups, Industrial App lications of Enzymes",
+          "hours": 6
+        },
+        {
+          "title": "Nucleotides and Nucleic Acids",
+          "topics": "Introduction to Nucleic Acids, Functions of nucleic acids, Chemistry of Nitrogenous Bases: Purines and pyrimidines, General Composition of Nucleic Acids: Nucleosides and nucleotides, Structure of DNA: Watson –Crick model, Chargaff’s rule of DNA composition, RNA: Structure and function of major RNA species.",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "code": "CHE-313-MJP",
+      "title": "ORGANIC CHEMISTRY PRACTICAL I",
+      "semester": 5,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        35,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-321-VSC-P",
+      "title": "APPLIED ANALYTICAL CHEMISTRY",
+      "semester": 5,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        39,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-331 FP",
+      "title": "FIELD PROJECT",
+      "semester": 5,
+      "type": "FP",
+      "credits": 2,
+      "pages": [
+        42,
+        52
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-341-MN-T",
+      "title": "INTERDISCIPLINARY CHEMISTRY",
+      "semester": 5,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Chemistry in Analysis, Quality and Everyday Applications",
+          "topics": "1. Recapitulation: Introduction to Analytical Chemistry: Meaning, scope, and importance of analytical chemistry, Role of chemistry in medicine, food, agricultu re, environment, and industries, Classical and instrumental methods, Qualitative and quantitative analysis, Steps in chemical analysis 2. Sampling and Quality Assurance: Sampling of solids, liquids, and gases, Sampling errors, Good Laboratory Practices (GLP), Laboratory safety, Quality control (QC) 3. Errors and Data Handling: Error and its types, Accuracy and precision, Mean, median, and standard deviation, Confidence limits and reliability of results, related problems 4. Calibration and Analytical Concepts: External and internal calibration, Standard addition method, Sensitivity of analytical instruments, Limit of Detection (LOD), Limit of Quantification (LOQ), Applications in water testing, food analysis, and pharmaceuticals",
+          "hours": 10
+        },
+        {
+          "title": "Spectroscopic Methods",
+          "topics": "1. Introduction to Spectroscopic Methods: Interaction of light with matter, Importance of spectroscopy, Applications in medicine, environmental monitoring, and forensic science 2. UV–Visible Spectroscopy: Principle of UV –Visible spectroscopyBeer –Lambert law, Electronic transitions, Instrumentation: source, monochromator, detector, Applications in pharmaceutical analysis, food color analysis, and pollution monitoring 3. Atomic Spectroscopy: Principle of Atomic Absorption Spectroscopy (AAS), Flame and graphite furnace methods, Basic concept of ICP –OES, Applications in trace metal analysis of water, soil, food, and biological samples",
+          "hours": 10
+        },
+        {
+          "title": "Materials and Energy",
+          "topics": "1. Polymers and Plastics: Introduction to polymers and plastics, Types and properties of polymers, Structure–property r elationship, Applications in packaging, health care, electronics, and textiles, Biodegradable plastics and environmental concerns 2. Nanomaterials: Introduction to n anotechnology and nanomaterials, Properties of nanomaterials, Applications in medicine, cosmetics, sensors, electronics, and water purification 3. Batteries and Electrochemistry: Basic redox reactions and electrochemistry, Working principles of common batteries, Lithium-ion batteries and applications, Applications in electric vehicles and renewable energy storage 4. Solar Ener gy and Photochemical Conversion: Solar energy as a renewable resource, Photochemical conversion, Working principle of solar cells, Green and sustainable energy technologies",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CHE-351-MJ-T",
+      "title": "PHYSICAL CHEMISTRY III",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        56,
+        58
+      ],
+      "units": [
+        {
+          "title": "Investigation of Molecular structure",
+          "topics": "Introduction: Molar refraction and molecular structure, Dipole moment and molecular structure, electromagnetic spectrum, energy of molecules, Types of molecular spectra Microwave Spectroscopy: Introduction, Classification of molecules on the basis of moment of Inertia, Rotational spectra of rigid diatomic molecules, relative intensities of spectral lines, effect of isotopic substitution on the rotational spectra, Determination of bond length and moment of inertia from rotational spectra, Problems Infrared Spectroscopy: Introduction, Simple Harmonic oscillator, Modes of vibration, force constant, Vibrational spectrum of a diatomic molecule: Vibrational Energy expression, Allowed vibrational energies, zero -point energy, Selection rule, Vibrational energy level diagram with transitions, spectrum depiction, Vibration -rotation Spectra: Born-Oppenheimer approximation, Energy expression for vibrational rotor, Selection rules, Vibrational-rotational energy level diagram with transitions, ...",
+          "hours": 14
+        },
+        {
+          "title": "Crystal structure",
+          "topics": "Types of Solids: Isotropy and Anisotropy, Isomorphism and polymorphism, Laws of crystallography: Law of constancy of interfacial angles, Law of rational indices, Law of crystal symmetry, Weiss indices and Miller indices, Crystal Structure: Parameters of the Unit Cells, Cubic Unit Cells: Three Types of Cubic Unit Cells, Calculation of Mass of the Unit Cell, Methods of Crystal structure analysis: The Laue method and Braggs method: Derivation of Bragg’s equation, Determination of crystal structure of NaCl by Bragg’s method, X ray analysis of NaCl crystal system, Calculation of d and λ for a crystal system, Numerical.",
+          "hours": 9
+        },
+        {
+          "title": "Kinetics of Reactions in the Solid State",
+          "topics": "Some General Considerations, Factors affecting reactions in Solids, Rate Laws for Reactions in Solids , The Parabolic Rate Law, The First -Order Rate Law, The Contracting Sphere Rate Law, The Contracting Area Rate Law, The Prout –Tompkins Equation, Rate Laws Based on Nucleation, Applying Rate Laws, Results of Some Kinetic Studies, The Deaquation -Anation of [Co(NH3)5H2O]Cl3, Two Reacting Solids.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CHE-352-MJ-T",
+      "title": "INORGANIC CHEMISTRY III",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        59,
+        62
+      ],
+      "units": [
+        {
+          "title": "Inorganic Reaction Mechanism",
+          "topics": "Introduction of stability and lability, stability or formation constant, factors affecting lability, chelate effect. Types of inorganic reactions, ligand substitution reactions and mechanisms in brief, Substitution Reactions in square planar complexes: Trans effect, Trans effect series and its applications. [Ref. 1: Pages 537-576; Ref. 2: Relevant Pages; Ref. 3: Pages 507-517; Ref. 4: Pages 412- 420, 434-440]",
+          "hours": 4
+        },
+        {
+          "title": "Heterogeneous catalysis",
+          "topics": "Introduction, Classification of heterogeneous catalysts, supported metal catalyst, Role of support, Promoters and Poisons. Catalytic processes viz., a) Hydrogenation of Olefins using Raney Nickel catalyst, b) Zeolites in catalysis: Catalytic Cracking, c) Biodiesel Synthesis using Heteropolyacids(HPAs) and d) Automotive Exhaust Catalysts: The catalytic converters. [Ref. 5: Pages 1-16, 87-112, 203-205, 222-224; Ref. 6: Relevant Pages]",
+          "hours": 5
+        },
+        {
+          "title": "Bioinorganic Chemistry",
+          "topics": "Introduction, definition, scope and importance of metal ions in biological systems . Classification of biological metals: a) Enzymatic and non -enzymatic metals and b) R edox- active and non-redox-active metals. Role of non-enzymatic metals with one example (Na, K, Ca, and Mg). Metals in enzymatic processes in brief : a) E nzymatic redox metals (Cu in superoxide dismutase), b) E nzymatic non -redox metals (Zn in hydrolases), and c) R edox- active transition-metal enzymes (catalase, peroxidase, nitrogenase). Metalloproteins: a) Iron– Sulphur proteins and electron -transfer systems , b) Iron transport and storage proteins: transferrin and ferritin. c) Bioinorganic chemistry of iron: hemoglobin and myoglobin and d) Bioinorganic chemistry of cobalt: Vitamin B12 (cobalamin). [Ref. 3: Relevant Pages; Ref. 7: Pages 353,775,779,796-797; Ref. 8: Pages 1-13,24,285-290]",
+          "hours": 6
+        },
+        {
+          "title": "Metals, Semiconductors and Superconductors",
+          "topics": "Metals: Introduction, Metallic bonding, Band theory in metals with respect to Na along with n(E) and N(E) curves/diagrams, Electrical conductivity of metals (Na, Mg, Al), Valence electrons and conductivity of metals, Effect of temperature and impurity on electrical conductivity of metals and insulators. Semiconductors: Types of Semiconductors: a) Intrinsic and Extrinsic, b) n and p type semiconductors and c) Non-stoichiometry and semiconductivity w.r.t. ZnO and NiO/FeO. Superconductivity: Discovery, property, models, structure and superconductivity, low and high temperature superconductors, applications of superconductors. [Ref. 9 : Pages 359-391; Ref. 10: Pages 394-411; Ref. 11: Relevant Pages; Ref. 12: Pages 394-411]",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Advanced topics in Inorganic Chemistry",
+          "topics": "A. Introduction to Nanomaterials [4 Hours] Definition and concept of nanomaterials, Difference between bulk and nanomaterials, Size scale and surface-to-volume ratio. Classification of Nanomaterials: A) Based on dimensions: 1) 0D: nanoparticles and quantum dots, 2) 1D: nanowires and nanotubes, 3) 2D: graphene and thin films, and 4) 3D: nanocomposites and B) Based on composition: 1) M etals, 2) Metal oxides, 3) Semiconductors and 4) Carbon-based nanomaterials. Methods for Synthesis of Nanomaterials: a) Top-Down Methods, b) Bottom-Up Methods, c) Sol–gel method, d) Chemical vapor deposition (CVD), e) Hydrothermal and f) Solvothermal methods. Properties and Applications of Nanomaterials. [Ref. 13 : Pages 1-30; Ref. 14: Relevant Pages] B. Introduction to Metal–Organic Frameworks [3 Hours] Definition and basic concept of MOFs, Comparison of MOFs with coordination polymers, zeolites, and porous materials , Building Blocks of MOFs, Synthesis of MOFs : Solvothermal and hydrothermal methods, ...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CHE-353-MJ-T",
+      "title": "ORGANIC CHEMISTRY III",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        63,
+        65
+      ],
+      "units": [
+        {
+          "title": "Introduction to Spectroscopy",
+          "topics": "Introduction and meaning of spectroscopy; types of spectroscopy; nature of electromagnetic radiation and regions of the electromagnetic spectrum; basic terms used in spectroscopy: wavelength, frequency, amplitude, wavenumber and energy; relationship between these terms and numerical conversions.",
+          "hours": 2
+        },
+        {
+          "title": "Ultraviolet and Visible Spectroscopy",
+          "topics": "Introduction; electromagnetic radiation; electronic transitions; λmax and εmax; chromophores and auxochromes; bathochromic and hypsochromic shifts; applications of UV–Visible spectroscopy in organic molecules; Woodward –Fieser rules for calculation of λmax of conjugated dienes and α,β-unsaturated compounds.",
+          "hours": 4
+        },
+        {
+          "title": "Infrared Spectroscopy",
+          "topics": "Introduction; types of molecular vibrations; functional group region and fingerprint region; application of IR spectroscopy in organic molecules; IR spectra of alkanes, alkenes and alcohols (intermolecular and intramolecular hydrogen bonding); aldehydes, ketones, carboxylic acids and their derivatives; factors affecting IR stretching frequencies, basic structural problems based on IR.",
+          "hours": 5
+        },
+        {
+          "title": "Proton Magnetic Resonance Spectroscopy",
+          "topics": "Introduction; principle of NMR; magnetic and non -magnetic nuclei; nuclear magnetic resonance; chemical shift; TMS as reference and its advantages; shielding and deshielding effects; peak area and integration; spin –spin coupling; coupling constant and J -value; basic structural problems based on PMR.",
+          "hours": 8
+        },
+        {
+          "title": "Combined Problems Based on UV, IR and PMR",
+          "topics": "Spectroscopy 05 Hours Interpretation of combined spectral data; structural elucidation of organic compounds using UV, IR and 1H NMR spectra; practice problems.",
+          "hours": null
+        },
+        {
+          "title": "Natural Products",
+          "topics": "Terpenoids: Isolation, Classification. Citral - structure determination using chemical and spectral methods, Synthesis of Citral by Barbier and Bouveault Synthesis. Alkaloids: Extraction, Purification, Some examples of alkaloids and their natural resources. Ephedrine - structure determination using chemical methods. Synthesis of Ephedrine by Nagai Synthesis",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CHE-354-MJ-T",
+      "title": "ANALYTICAL CHEMISTRY III",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        66,
+        67
+      ],
+      "units": [
+        {
+          "title": "Spectrophotometry",
+          "topics": "Introduction, Wave properties of electromagnetic radiation, Relation between frequency, velocity and wave number, particle properties of electromagnetic radiation, relation between wavelength and particle properties of electromagnetic radiation, electromagnetic spectrum, interaction of electromagnetic radiation with matter, atomic spectroscopy and molecular spectroscopy, types of molecular spectra, Advantages of spectroscopy. Instrumentation, Applications of spectrophotometry, Molar composition of complexes, Spectrophotometric Titrations. Ref-1: 351 -357, Ref-2: S-1 to S-21, Ref-3: 2.107-2.148",
+          "hours": 6
+        },
+        {
+          "title": "Atomic Absorption Spectroscopy",
+          "topics": "Introduction, Elementary theory, Instrumentation, flames, the nebulizer -burner system, non flame techniques, (graphite furnace, cold vapour technique), resonance line sources, monochromator, detectors, interferences, chemical interferences, background correction methods, Atomic absorption spectrophotometers, Experimental preliminaries (calibration curve methods, standard addition method) Preparation of sample (wet ashing, fusion, Dry ashing, microwave dissolution, concentration procedures), Detection limits , Estimation of Ca and Mg in water. Key Ref-4: 612- 643",
+          "hours": 6
+        },
+        {
+          "title": "Flame Emission Spectroscopy",
+          "topics": "Introduction, emission spectra, flame emission spectroscopy, flame photometers. Evaluation methods, calibration curve procedure, the standard addition technique, Applications: determination of alkali metals by flame photometry, determination of trace elements in contaminated soil. Numerical, Key Reference-4: 645-649, 655-656.",
+          "hours": 6
+        },
+        {
+          "title": "Electrochemical Methods- Polarography and Voltammetry",
+          "topics": "Polarography: Introduction, Principles, Electrodes, Instrumentations, Dropping Mercury Electrodes, Factors affecting polarographic current, Oxygen removal, Polarographic analysis, AC Polarography, Pulse Polarography, Differential Pulse Polarography, Square Wave Polarography, Numericals. Ref-5: 761-820, Ref-3: 2.523-2.533. Voltammetry: Principles, Voltammetry at solid electrodes, Hydrodynamic Voltammetry, Triangular Wave Voltammetry, Amperometry, Stripping Voltammetry.",
+          "hours": 12
+        }
+      ]
+    },
+    {
+      "code": "CHE-355-MJP",
+      "title": "PHYSICAL CHEMISTRY PRACTICAL II",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        68,
+        70
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-356-MJP",
+      "title": "ORGANIC CHEMISTRY PRACTICAL II",
+      "semester": 6,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        71,
+        74
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-360-MJ-T",
+      "title": "MATERIAL CHEMISTRY",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        75,
+        77
+      ],
+      "units": [
+        {
+          "title": "Introduction to Material Chemistry",
+          "topics": "• Definition, scope and importance in modern science. • Classification of materials: Metals, Ceramics, Polymers, Composites and Nanomaterials • Properties of materials: mechanical, electrical, magnetic, optical and thermal. • Challenges and Future Prospects. [Ref.1 Page 1-12, Ref.2 Page 1-16, Ref 5 Page 1-25]",
+          "hours": 5
+        },
+        {
+          "title": "Synthesis of Nanomaterials",
+          "topics": "Introduction and classification of nanomaterials; preparation of nanomaterials top -down and bottom-up approaches Physical Methods : Chemical Vapour Deposition (CVD) and Mechanical Methods, High Energy Ball Milling Chemical Methods: Sol-gel Method and Co-precipitation Method Biological Methods: Synthesis using Microorganism and using plant extracts. [ Ref. 7 Page 1-37, Ref.4 187-225]",
+          "hours": 7
+        },
+        {
+          "title": "Material Characterization Techniques",
+          "topics": "Only basic introduction, principles overview and application of techniquies. • X-ray diffraction Methods (XRD) • Scanning Electron Microscopy (SEM) • Transmission Electron Microscopy (TEM) • UV-Vis Spectroscopy (UV-Vis) • FT-IR spectroscopy (FT-IR) [Ref.1 Page 65 -73, 597 -628, Ref.3 Page 45 -144, Ref 6 Page 223 -248, Ref. 8 page 2.107 - 2.108, 2.135, 2.149, 2.172, 2.30-2.31, 2.62-2.80]",
+          "hours": 10
+        },
+        {
+          "title": "Applications of Nanomaterials",
+          "topics": "Photocatalysis, 2. Nanocatalysts, 3. Nano sensors, 4. Food and Agriculture Industry, 5. Cosmetics and Consumers Goods, 6. Nanomaterial for Environmental Pollution Remediation, 7. Nano -Medical Applications, 8. Textiles, 9. Paints, 10. Energy, 11. Defence and Space Applications, 12. Structural Application. [Ref. 5 Page 108-148, Ref. 9 Page 29-43]",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CHE-361-MJ-T",
+      "title": "FORENSIC CHEMISTRY",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        78,
+        80
+      ],
+      "units": [
+        {
+          "title": "History and Development of Forensic Science in India",
+          "topics": "Definition, scope, and need of forensic science and its importance in crime investigation and society. Functions and basic principles of forensic science , branches of forensic science and the historical development of forensic science in India. Frye standard and Daubert standard and their significance in forensic evidence admissibility. The qualifications, duties, and code of conduct of forensic scientists. Organization and functions of forensic science laboratories.",
+          "hours": 6
+        },
+        {
+          "title": "Introduction to Narcotics Drugs and Psychotropic Substances",
+          "topics": "Definition and classification of narcotic drugs and psychotropic substances, including narcotics, stimulants, depressants, and hallucinogens. It explains natural, synthetic, and semi - synthetic drugs and introduces the concept of designer drugs. The unit also covers drug tolerance, addiction, and withdrawal symptoms. An overview of the NDPS Act, 1985 is provided to create legal awareness regarding drug -related offenses and their forensic importance.",
+          "hours": 8
+        },
+        {
+          "title": "Analysis of Narcotic Drugs and Psychotropic Substances",
+          "topics": "Isolation techniques for purifying narcotics drugs and psychotropic substances – thin layer chromatography, gas -liquid chromatography and high -performance liquid chromatography. Presumptive and screening tests for narcotics drugs and psychotropic substances. Microcrystalline testing of Drug Abuse and Illicit Trafficking. Analysis of narcotics drugs and psychotropic substances in urine, and antemortem blood & in postmortem blood. Dope tests",
+          "hours": 8
+        },
+        {
+          "title": "Crime scene investigation, Management and reconstruction",
+          "topics": "Crime Scene Investigation: Definition and importance. Types of crime scenes – indoor, outdoor, mobile, and water. Classification based on nature of crime (homicide, suicide, accidental, theft). Crime scene protection and processing: assessment, observation, documentation, search, collection, and analysis. Documentation methods – notes, photography, videography, sketching, digital imaging. Search patterns – line, grid, spiral, zone. Collection, preservation of evidence and maintenance of chain of custody. Safety precautions and PPE. Crime Scene Management: Role of forensic experts and police personnel. Securing and preserving the scene. Contamination control. Scene survey and coordination among agencies. Use of mobile forensic kits and modern technologies. Crime Scene Reconstruction: Concept and importance. Steps – recognition, documentation, collection, evaluation, hypothesis development and testing. Application in accidents, shootings, hanging and burglary cases. Use of logical rea...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CHE-362-MJ-T",
+      "title": "MEDICINAL CHEMISTRY",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        81,
+        83
+      ],
+      "units": [
+        {
+          "title": "Introduction to Medicinal Chemistry",
+          "topics": "Introduction, History and Development of Medicinal Chemistry, Definition, Scope, drug targets, Drug discovery, design and development, Sources of drugs (natural, synthetic), Classification of drugs (therapeutic/structural), Drugs and the medicinal chemist, Introduction to drug action, Physicochemical properties in relation to biological action. (Ref.1 Pages 9-23, Ref.2 Pages 11-26, Ref.3 Pages 37-55 )",
+          "hours": 6
+        },
+        {
+          "title": "Bio-Physicochemical Properties in Drug Action and Design",
+          "topics": "Introduction, Acidity/Basicity, Solubility, Ionization, Hydrophobic and hydrophilic properties, Lipinski Rule, Terminology in Medicinal Chemistry: Pharmacology, Pharmacophore, Pharmacodynamics, Pharmacokinetics, metabolites, antimetabolites and therapeutic index. Importance of stereochemistry in drug action (Example: Ibuprofen), Concept of rational drug design: Structure activity relationship, Drug -receptor interactions and Clinical trials. (Ref.3 Pages 57-75, 95-96, Ref.8 Pages 153, 189-274, 384-392, Ref. 7 Pages 29-61)",
+          "hours": 8
+        },
+        {
+          "title": "Drugs for Infectious Diseases",
+          "topics": "Introduction, Structures, Example, Mode of Action and Applications: A. Anti-Cancer Agents (e.g. Cis Platin, 6-Mercaptopurine) B. Anti-Viral Agents (e.g. Valaciclovir, Desciclovir) C. Proton pump inhibitors (e.g. Omeprazole, Lansoprazole ) D. Anti-inflammatory and Analgesic Agents: (e.g. Aspirin, Paracetamol) E. Antibacterial drugs- (e.g. Sulfonamides: Sulfadiazine, sulfanilamide) F. Antibiotics: (e.g., Penicillins, Cephalosporins) (Ref.2 166-187), (Ref. 4 page 581 -608, (Ref.5 Page 191 -228), (Ref. 6 Page 265 -291, Ref. 7 page 7, 78-109, 421, 514, Ref.8 468-473, 659-,680-685), Ref.9 Page 144-154)",
+          "hours": 9
+        },
+        {
+          "title": "Pharmaceutical aspects",
+          "topics": "1] Routes of drug administration, Pharmaceutical Phase 2] Formulation of dosage forms, types of dosage forms a) Solid (granules, tablets, capsule and powder), b) Semisolid (gel, ointments) c) Liquid (solutions, syrups), d) Sterile (parenteral/ injectable), e) Gaseous (spray, inhaler) f) Biological (vaccines): Immunobiologicals (Ref Page 3 Page 46-47, Ref 5 Page 3-1, Ref 5 156-177, Ref 10 Page 380-626)",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CHE-363-MJP",
+      "title": "INORGANIC CHEMISTRY PRACTICAL-II",
+      "semester": 6,
+      "type": "Major Elective",
+      "credits": 2,
+      "pages": [
+        84,
+        86
+      ],
+      "units": []
+    },
+    {
+      "code": "CHE-371-VSC-T",
+      "title": "PHARMACEUTICAL ANALYTICAL CHEMISTRY",
+      "semester": 6,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        87,
+        89
+      ],
+      "units": [
+        {
+          "title": "Introduction to Pharmaceuticals and its Analytical Chemistry",
+          "topics": "Part-A: Some definitions: Pharmaceuticals Active Pharmaceutical ingredients (API), Excipients, Solvents. Pharmaceutical dosage forms (definitions): Tablets, Capsules, powders, syrup, suspensions, solutions, injections, sprays / aerosols, pests, creams, gels. (Ref- 2) Part-B: Introduction, Pharmaceutical Analysis -A brief definition, Manufacture of pharmaceuticals, Development of new drugs, Use of pharmaceuticals; Marketing Authorization and Industrial Production, Pharmacopoeias, Life Time of Pharmaceutical Preparations and Ingredients. Ref 1: Chapter 1 and 2, p 1-15 Part-C: Pharmaceutical Ingredients Production and Control, Pharmacopoeia Monographs, Impurities in Pharmaceutical Ingredients. Ref 1: Chapter 18 (305-321)",
+          "hours": 10
+        },
+        {
+          "title": "Part -A: Fundamentals of bases, Acids, solubility, Polarity,",
+          "topics": "Partition and stereochemistry 10 Hours Acids, Bases, pH and pKa, Buffers, Acid and base properties of drug substances , Distribution Between phases, Stereoisomers, Active Pharmaceutical Ingredient (API) - Fluoxetine, Atenolol, Morphine, Ibuprofen, Paracetamol, Hydrocortisone, Stability of drugs. Ref -1, Chapter 3, 17-34 Part-B: Methods of common impurity testing a) Definition of Limit Test and b) Limit test for heavy metals (IP methd -A only), iron, lead, chloride, sulphate, water, ash and sulphated ash. Ref-2, Indian Pharmacopeia- volume-1)",
+          "hours": null
+        },
+        {
+          "title": "Application of UV, IR optical rotation and HPLC in Quality",
+          "topics": "Control of Pharmaceuticals 10 Hours UV Visible spectroscopy: Recapitulation: Beers law, molar absorbance, specific absorbance, principle of spectrophotometry, method for quantitative analysis (absolute, relative method and calibration curve method), Test of Spectrophotometers (calibration of UV -Visible spectrophotometer): control over wavelength, Control over absorbance (tef-1: pp 116 to 118), Identification of Diazepam in Diazepam Tablets (Solid Preparation) by UV Spectrophotometry, Identification of Flupentixol Decanoate in Flupentixol Decanoate Injection (Liquid Preparation) by UV Spectrophotometry, Identification of Miconazole in Miconazole Nitrate Cream (Semi -Solid Preparation) by UV Spectrophotometry 9Ref -1 pp: 406 -410); Assay of Paracetamol in Paracetamol Tablets (Solid Preparation) by UV Spectrophotometry, Assay of Doxapram in Doxapram Hydrochloride Injection (Liquid Preparation) by UV Spectrophotometry (Ref-1: pp: 419-423) IR Spectroscopy: Basic principle of IR spectros...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "CHE-381-OJT",
+      "title": "ON JOB TRAINING",
+      "semester": 6,
+      "type": "OJT",
+      "credits": 4,
+      "pages": [
+        90,
+        94
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

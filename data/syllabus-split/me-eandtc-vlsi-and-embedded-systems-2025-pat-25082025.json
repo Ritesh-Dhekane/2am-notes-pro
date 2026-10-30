@@ -1,0 +1,858 @@
+{
+  "id": "me-eandtc-vlsi-and-embedded-systems-2025-pat-25082025",
+  "kind": "programme",
+  "programme": "M.E (Electronics & Telecommunication – VLSI & Embedded Systems)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-VLE",
+      "title": "Digital VLSI Design",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "MOSFET Models and Layout - (9 Hours)",
+          "topics": "MOS Capacitance models, MOS Gate Capacitance Model, MOS Diffusion Capacitance Model. Non ideal I -V Effects, MOSFET equivalent circuits and analysis, Parasitic; Technology scaling; Lambda parameter; wiring parasitic; SPICE Models, CMOS layout techniques; Transient response. CMOS Technologies: Layout Design Rules CMOS Process Enhancements: Transistors, Interconnect, Circuit Elements, Beyond Conventional CMOS. CMOS Fabrication and Layout: Inverter Cross -section, Fabrication Process, Stick Diagrams.",
+          "hours": null
+        },
+        {
+          "title": "Performance parameters - (9 Hours)",
+          "topics": "Static, dynamic and short circuit power dissipations, Propagation delay, Power delay product, Fan in, fan out and dependencies. Delay Estimation: RC Delay Models, Linear Delay Model, Logical Effort, Parasitic Delay. Logical Effort and Transistor Sizing: Delay in a Logic Gate, Delay in Multistage Logic Networks, Interconnect: Resistance, Capacitance, Delay, Crosstalk. Design Margin.",
+          "hours": null
+        },
+        {
+          "title": "Logic design - (9 Hours)",
+          "topics": "Static CMOS Logic : Inverter, NAND Gate, Combinational Logic, NOR Gate, Compound Gates, Pass Transistors and Transmission Gates, Tristates, Multiplexers, Latches and Flip - Flops, Design calculations for combinational logic and active area on chip. (VLSI & Embedded Systems) Theory : 04 Hours/Week 04 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Logic Families - (9 Hours)",
+          "topics": "Static CMOS, Ratioed Circuits, Cascode Voltage Switch Logic, Dynamic Circuits, Domino logic, NORA logic, Differential Circuits, Sense Amplifier Circuits, BiCMOS Circuits, Comparison of Circuit Families.",
+          "hours": null
+        },
+        {
+          "title": "Design Trends - (9 Hours)",
+          "topics": "Hazards, sources and mitigation techniques, case study; HDL codes for FSM, Meta-stability and solutions; Transmission gate, utility and limitations. Low Power Logic Design, Materials for performance improvement, Techniques for Low power, High speed designs.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-502-VLE",
+      "title": "Reconfigurable Computing",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Traditional Computing and Reconfigurable Computing (9 Hours)",
+          "topics": "Traditional computing paradigms (ASIP, GPP, Domain Specific Processor) and RC. General -Purpose Computing, General-Purpose Computing Issues; Motivation and need for reconfigurable computing and field of application",
+          "hours": null
+        },
+        {
+          "title": "Reconfigurable Device Architectures and Performance Metrics (9 Hours)",
+          "topics": "Reconﬁgurable Device Characteristics, Conﬁgurable, Programmable, and Fixed -Function Devices , Interconnect Requirements. Reconﬁgurable Processing Fabric Architectures: Fine- grained & Coarse- grained structures, Metrics: Density, Diversity, and Capacity",
+          "hours": null
+        },
+        {
+          "title": "Systems for Reconfigurable Computing (9 Hours)",
+          "topics": "Early systems of Reconfigurable computing: PAM, VCC, Splash, PRISM, Teramac, Cray, SRC, non- FPGA research, other issues; Reconfiguration Management: Reconfiguration, Configuration architectures, managing reconfiguration process, reducing reconfiguration time, configuration security. (VLSI & Embedded Systems) Theory : 04 Hours/Week 04 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Design Flow with Reconfigurable Design Approach (9 Hours)",
+          "topics": "Implementation: Integration, FPGA Design Flow, System On A Programmable Chip; Introduction to SoPC, Adaptive Multiprocessing on Chip. Reconfiguration Project Design Approaches: J -Bit, Modular, Early Access, Vivado.",
+          "hours": null
+        },
+        {
+          "title": "Application of Reconfigurable Computing - (9 Hours)",
+          "topics": "Reconﬁgurable devices for Rapid prototyping, non- frequently reconﬁgurable systems, frequently reconﬁgurable systems; Compile -time reconﬁguration, Run -time reconﬁguration; RC Applications : Implementing applications with FPGAs, various applications and use of reconfiguration; Video Streaming, Distributed arithmetic, Adaptive Controller, Adaptive cryptographic systems, Software Defined Radio, High-Performance Computing, Automatic target recognition systems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-503-VLE",
+      "title": "Embedded System Design",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Introduction to Embedded Systems and Modern Platforms - (9 Hours)",
+          "topics": "Embedded systems: Definitions, Desirable features and characteristics of Embedded Systems, classifications, Embedded system architecture, Design challenges in Embedded System Design, design metrics (real-time performance, reliability, power, cost), Embedded System on Chip (SoC) and embedded product lifecycle. Introduction to modern platforms: Arduino, Raspberry Pi, Beagle Bone, IDEs and development tools: Arduino IDE etc.",
+          "hours": null
+        },
+        {
+          "title": "ARM Cortex Microcontrollers and Communication Interfaces - (9 Hours)",
+          "topics": "ARM CORTEX series features, Improvement over classical series, CORTEX ARM processors series, Features and applications, Survey of CORTEX based controllers from various manufacturers, ARM -M3 Based Microcontroller LPC1768: Features, Architecture block diagram & its description, System Control, Clock & Power Control, Pin Connect Block. CMSIS Standard, Bus Protocols Ethernet, CAN, USB, Bluetooth. (VLSI & Embedded Systems) Theory : 04 Hours/Week 04 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Embedded Linux and RTOS - (9 Hours)",
+          "topics": "Embedded Linux overview, Boot process: BIOS, Bootloader, Kernel initialization, Space initialization, Storage considerations, Kernel configuration and cross -compilation, Kernel Build systems . RTOS architecture: RTOS, basic OS functions, Concepts of tasking, scheduling, synchronization., prioritization, inter-task communications, interrupts, semaphores.",
+          "hours": null
+        },
+        {
+          "title": "Embedded Software Development Process and Tools - (9 Hours)",
+          "topics": "Introduction to Embedded system development process &Tools, Host and Target Machines, Linking and Locating Software, Getting Embedded Software into The Target System , Issues in Hardware–software Design & Co-Design.",
+          "hours": null
+        },
+        {
+          "title": "Case Studies of an Embedded Systems - (9 Hours)",
+          "topics": "Case Study: Case study of Digital Camera, smart card, access control system, mobile phone software for key inputs. Certification and documentation: Mechanical Packaging, Testing, reliability and failure analysis, Certification (EMI / RFI) and Documentation.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-504-VLE",
+      "title": "VLSI Chip Design and Fabrication",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Design with HDL - (9 Hours)",
+          "topics": "Basics of Verilog: Typical HDL -flow, why Verilog HDL, trends in HDLs. Gate- Level Modelling: Modelling using basic Verilog gate primitives, description of and/or and buffer/not type gates, rise, fall and turn- off delays, min, max, and typical delays. Behavioral Modelling: Structured procedures, initial and always, blocking and non- blocking statements, delay control, generate statement, event control, conditional statements, Multiway branching, loops, sequential and parallel blocks.",
+          "hours": null
+        },
+        {
+          "title": "ASIC Design Part I - (9 Hours)",
+          "topics": "Types of ASIC and Comparisons, ASIC Design Flow, Logic Synthesis, Simulation, EDA Tools, ASIC Physical Design : Architecture Design, Physical Design, CAD Tools, System partitioning, Partitioning Strategies, Floor planning, Placement, Routing",
+          "hours": null
+        },
+        {
+          "title": "ASIC Design Part II - (9 Hours)",
+          "topics": "ASIC Timing Analysis: Static timing analysis, Timing constraints, Delay estimation, ASIC Verification and Testing: Different Chip Test Methods, Fault Models, Scan Test, Partial Test, Digital scan standards, BIST architecture, BILBO, Boundary Scan, Self-Test, JTAG, ATPG (VLSI & Embedded Systems) Theory : 04 Hours/Week 04 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Chip Design - (9 Hours)",
+          "topics": "Crystal Growth and Wafer Preparation: Introduction, Electronic -Grade Silicon, Czochralski Crystal Growing. Epitaxy: Introduction, Vapour-Phase Epitaxy. Lithography: Introduction, Optical Lithography, Electron Lithography, X -ray Lithography, Ion Lithography. Reactive Plasma, Etching: Introduction, Plasma Properties, Feature- Size Control and Anisotropic Etch Mechanisms, Reactive Plasma-Etching Techniques and Equipment.",
+          "hours": null
+        },
+        {
+          "title": "Chip Fabrication - (9 Hours)",
+          "topics": "Ion Implantation: Introduction, Range Theory, Implantation Equipment, Annealing, Shallow Junctions, High-Energy Implantation. Metallization: Introduction, Metallization Applications, Metallization Choices, Physical Vapor Deposition, Patterning, Metallization problems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-505-VLE",
+      "title": "VLSI Embedded Laboratory-I",
+      "semester": 1,
+      "type": "Program Core Course - Lab",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A-VLE",
+      "title": "Embedded Signal Processing Architectures",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Signal Analysis and Processing - (8Hours)",
+          "topics": "Discrete Fourier Transform, Fast Fourier Transform, Design of FIR Filters using windowing technique, Design and Applications of Adaptive Filters. Understanding the unique architectural features of DSPs, such as Harvard architecture (separate instruction and data memories), specialized addressing modes, and dedicated hardware for common DSP operations like MAC (multiply-accumulate).",
+          "hours": null
+        },
+        {
+          "title": "DSP processor architectures - (8 Hours)",
+          "topics": "Digital Signal Processor Architectures, hardware units as MAC unit, Barrel shifter, Address generators, pipelining, circular buffering, memory configurations, peripherals and input/output, Fixed point and floating-point formats. TMS 320C54XX, TMS 320C67XX, Blackfin processor: Architecture overview, memory management, Real time implementation Considerations.",
+          "hours": null
+        },
+        {
+          "title": "DSP algorithms - (8 Hours)",
+          "topics": "Learning to design and implement algorithms that meet strict timing constraints, often involving techniques like pipelining, parallel processing, and efficient memory management, Representations of the DSP algorithms, Block diagrams, Signal flow graph, Data- flow graph, Dependence graph. Iteration bounds: Critical Path, Loop Bound, Algorithm to compute iteration bound, Longest Path Matrix (LPM).",
+          "hours": null
+        },
+        {
+          "title": "Performance Optimization - (7 Hours)",
+          "topics": "TMS 320C54XX, TMS 320C67XX, Blackfin proc essor: Memory System and Data Transfer, Code Optimization. Learning to program DSPs using assembly language and high-level languages (like C/C++) with a focus on performance optimization",
+          "hours": null
+        },
+        {
+          "title": "Practical Applications - (7Hours)",
+          "topics": "Studying practical examples of how DSPs are used in various embedded systems, such as audio processing, image processing, and control systems. Practical DSP Applications: Digital Image Processing. Two- Dimensional Filtering. Image Enhancement, DTMF generation and detection, FFT algorithms, Wavelet algorithms. Adaptive algorithms: system identification, inverse modeling, noise cancellation, prediction.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B-VLE",
+      "title": "Blockchain",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Blockchain Foundations & Cryptography- (9 Hours)",
+          "topics": "Evolution of blockchain: Bitcoin to Web3, Blockchain architecture: Blocks, chains, nodes, P2P network, Permissioned vs. permissionless blockchains , Distributed Ledger Technologies (DLT) , Cryptographic principles:Hashing, Merkle Trees , Digital Signatures , Zero-Knowledge Proofs (zkSNARKs, zkSTARKs) , Consensus mechanisms:Proof of Work (PoW) , Proof of Stake (PoS) , Delegated Proof of Stake (DPoS) , Practical Byzantine Fault Tolerance (PBFT), Directed Acyclic Graphs (DAG)",
+          "hours": null
+        },
+        {
+          "title": "Smart Contracts & Decentralized Applications (DApps)- (7 Hours)",
+          "topics": "Smart contract fundamentals and design principles, Economic and legal aspects of smart contracts, Oracles and hybrid contracts: Conceptual overview, Security considerations: Common vulnerabilities, Mitigation strategies, Gas costs and optimization concepts. (VLSI & Embedded Systems) Theory :03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Enterprise Blockchain Frameworks & Cross-Chain Interoperability - (8 Hours)",
+          "topics": "Hyperledger Fabric, Corda, Quorum — architecture and use- cases, Cross-chain interoperability: Polkadot, Cosmos — concepts and industry relevance, Case studies and real-world examples.",
+          "hours": null
+        },
+        {
+          "title": "Decentralized Finance (DeFi), NFTs & Regulations - (7 Hours)",
+          "topics": "DeFi ecosystem, NFTs, DAOs, CBDCs — trends and conceptual frameworks , R egulatory frameworks: GDPR, KYC and AML, compliance challenges, Sustainability and green blockchain initiatives.",
+          "hours": null
+        },
+        {
+          "title": "Advanced Trends-IoT, AI, Cloud Integration - (7Hours)",
+          "topics": "Blockchain for IoT: Secure device identity, data integrity, Blockchain for AI: Data provenance, AI model trustworthiness, Blockchain for Cloud: case study of Decentralized storage, edge computing integration, Privacy-enhancing techniques: Mixers, ring signatures, confidential transactions.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-521C-VLE",
+      "title": "CMOS Device Modelling",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Overview of the MOS Transistor- (8 Hours)",
+          "topics": "A qualitative Description of MOS Transistor operation, MOS Transistor Characteristics, contact potentials, two terminal MOS structure: Flat band voltage, Potential balance and charge balance, Effect of Gate- Substrate voltage on Surface Condition, Accumulation and Depletion, Inversion, Small signal capacitance.",
+          "hours": null
+        },
+        {
+          "title": "Three and Four Terminal MOS Structures - (8 Hours)",
+          "topics": "The Three -Terminal MOS Structure - Introduction, Contacting the Inversion Layer, The Body Effect, Strong Inversion, Weak Inversion, Moderate Inversion Four-Terminal MOS Transistor - Introduction, Transistor Regions of Operation, Complete All-Region Model, Effective Mobility Effect of Extrinsic Source and Drain Series Resistances, Temperature Effects",
+          "hours": null
+        },
+        {
+          "title": "Small-Dimension Effects - (8 Hours)",
+          "topics": "Short channel MOSFET, Small Dimension Effects, Carrier Velocity Saturation Channel Length Modulation, Charge Sharing, Barrier lowing two -dimensional charge sharing and threshold voltage, Punch through, Hot Carrier Effects; Impact Ionization Scaling, Velocity Overshoot and Ballistic Operation, Effects due to thin oxides and high doping, mobility degradation. Classical Scaling, Modern Scaling",
+          "hours": null
+        },
+        {
+          "title": "Transistor: Spice Modelling- (7 Hours)",
+          "topics": "Modeling of Transistor using SPICE: Basic concepts, The level 1 Equations, The Level 2 Equations, The Level 3 Equations, Comparison of SPICE Models, Capacitance Models, Basic MOSFET models, DC Model, Transient and AC Models, Temperature Model, Noise Model Comparison of MOSFET Models., DC Analysis, AC Analysis, TIME-DOMAIN Analysis",
+          "hours": null
+        },
+        {
+          "title": "Advanced MOSFETs- (7 Hours)",
+          "topics": "Advanced MOSFET models for circuit simulators, Surface potential models, inversion charge based models, Compact MOSFET models, threshold voltage-based model models, advanced MOSFET structures such as FINFET, tunnel field -effect transistor (TFET), Double- Gate (DG) MOSFET, Surrounding -Gate MOSFET, Cylindrical Surrounding Double-Gate (CSDG) MOSFET",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-521D-VLE",
+      "title": "Nanotechnology",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Nanotechnology (8 Hours)",
+          "topics": "The fundamental science behind nanotechnology, bio systems, molecular recognition, quantum mechanics & quantum ideas, optics. Smart materials & Sensors, self -healing structures, heterogeneous nano- structures & composites, encapsulations.",
+          "hours": null
+        },
+        {
+          "title": "Nanostructures and Nanomaterials- (8 Hours)",
+          "topics": "Nanostructures, Micro/Nano- devices, nano- materials Synthesis and Applications, Molecule Based Devices - Introduction to Carbon nano-tubes- nano-wires- Introduction to Micro/Nanofabrication- Stamping Techniques. Methods and Applications",
+          "hours": null
+        },
+        {
+          "title": "Nanostructure Devices- (8 Hours)",
+          "topics": "Materials Aspects of Micro and Nanoelectromechanical Systems, Nanostructure devices –Resonant (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE: 50 Marks End-Semester: 50 Marks tunneling diodes, Single- electrode transfer devices. Scanning Probe Microscopy, Noncontact Atomic Force Microscopy",
+          "hours": null
+        },
+        {
+          "title": "Nanolithography- (7 Hours)",
+          "topics": "Low Temperature Scanning Probe Microscopy, Dynamic Force Microscopy - Nanolithography, Lithography using photons, electron beams soft lithography.",
+          "hours": null
+        },
+        {
+          "title": "Sensors and Applications of Nanotechnology- (7 Hours)",
+          "topics": "Natural nano -scale sensors, electromagnetic sensors, biosensors, electronic noses. Bio- medical applications, MEMS/NEMS, Devices and Applications",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-522-VLE",
+      "title": "Skill Based Laboratory - I",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 1,
+      "pages": [
+        28,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551-VLE",
+      "title": "Analog VLSI Design",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Analog CMOS Building Blocks - (9 Hours)",
+          "topics": "Current sources and References: MOSFET as switch, diode and active resistor; MOS Small- signal Models, Common Source Amplifier, The CMOS Inverter as an Amplifier, Weak inversion; Short channel regime; Current sinks and sources; Current mirrors; Current and voltage references, band gap reference.",
+          "hours": null
+        },
+        {
+          "title": "CMOS Opamps - (9 Hours)",
+          "topics": "CMOS Amplifiers: Design of CMOS amplifiers, Inverting amplifiers, Cascode amplifiers, Differential amplifiers, Folded cascade; Current amplifiers, Output amplifier. Op Amps, high speed Op Amps, micro power Op Amps, low noise Op Amps.",
+          "hours": null
+        },
+        {
+          "title": "Frequency Responses - (9 Hours)",
+          "topics": "Comparators, Stability and Frequency Compensation: General considerations, Multi-pole systems, Phase Margin, Frequency Compensation, Compensation of two stage Op Amps, Slewing in two stage Op Amps and Other compensation techniques.",
+          "hours": null
+        },
+        {
+          "title": "HF Amplifiers - (9 Hours)",
+          "topics": "HF Amplifiers &Low Noise Amplifier: Open and Short circuit methods to estimate bandwidth, Rise time, Delay, Bandwidth, Zero as bandwidth enhancer, Tuned Amplifiers, Neutralization, Unilateralization, (VLSI & Embedded Systems) Theory : 04 Hours/Week 04 CCE : 50 Marks End-Semester: 50 Marks Cascaded amplifiers",
+          "hours": null
+        },
+        {
+          "title": "Low Noise Amplifiers - (9 Hours)",
+          "topics": "Types of noise. MOSFET two port noise parameters, Low Noise Amplifier (LNA) design, noise and power trade off, optimizations, Linearity, Spur free dynamic range, Design of mixer, Advanced trends in Radio Frequency (RF) chip design.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-552-VLE",
+      "title": "Embedded Technologies and IOT",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "ARM, Raspberry Pi Microcontroller - (9 Hours)",
+          "topics": "Basi cs of Raspberry Pi ( RPi) board, Features and architecture, pin configurations, Installing OS on RPi, connecting to network, Programming languages with examples, Various interfaces e.g. I2C, UART, SPI, CAN. Node MCU ESP8266 Pin configuration, Station, AP, ST -AP modes, NodeMCU as web server, posting sensor data to gateway.",
+          "hours": null
+        },
+        {
+          "title": "Buses and Protocols- (9 Hours)",
+          "topics": "CAN Bus: Features and applications, CAN Frame, sequence of transmitting and receiving data on CAN Bus. Ethernet and USB Bus: Features and applications. Protocols: PHY/MAC Layer (3GPP MTC, IEEE 802.11, IEEE 802.15), Bluetooth Low Energy, Zigbee Smart Energy, Network Layer -IPv4, IPv6, 6LoWPAN, Transport Layer (TCP, MPTCP, UDP) Session Layer HTTP, CoAP, XMPP, AMQP, MQTT",
+          "hours": null
+        },
+        {
+          "title": "IoT Fundamentals- (9 Hours)",
+          "topics": "IoT Architecture and Design Concepts: IoT – An architectural overview, Design Principles and capabilities, M2M & IOT Technology Fundamentals - End Devices and gateways, Local and wide area networking, Challenges Associated with IoT, Cloud Platforms for IoT. Sensors: Different types of sensors and Actuators, Working, Networking Basics, RFID Principals and components, Wireless Sensor (VLSI & Embedded Systems) Theory : 04 Hours/Week 04 CCE : 50 Marks End-Semester: 50 Marks Networks, Physical Design of an IoT, Logical design of IoT Communication Models, Communication API’s, Concept of IoE, Difference between IoT and IoE.",
+          "hours": null
+        },
+        {
+          "title": "Industrial IoT- (9 Hours)",
+          "topics": "Introduction, Key Industrial IOT (IIoT) technologies, Catalysts, and precursors of IIoT, Innovation and the IIoT, Applications of IIoT Examples: Healthcare, Oil and Gas Industry, Logistics and the Industrial Internet, Retail applications, IoT innovations and design methodologies.",
+          "hours": null
+        },
+        {
+          "title": "IoT Applications- (9 Hours)",
+          "topics": "Applications: Smart Environment: Forest Fire Detection, Air Pollution, Smart Cities: Parking, Structural Health, Noise Urban maps, Smart Metering: Smart Grid, Tank level, Photovoltaic Installations, Health: Fall Detection, Medical Fridges, Sportsmen Care, Patients Surveillance.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-553-VLE",
+      "title": "Automotive Embedded Systems",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "Automotive Systems Overview (9 Hours)",
+          "topics": "Automotive Systems Overview: Automotive Vehicle Technology, Overview of Vehicle Categories, Various Vehicle Sub Systems like Chassis, Body, Driveline, Engine technology, Fuelling technology, vehicle Emission, Brakes, Suspension, Emission, Doors, Dashboard instruments, Wiring Harness, Safety & Security, Comfort & Infotainment, Communication & Lighting, Future Trends in Automotive Embedded Systems: Hybrid Vehicles, Electric Vehicles.",
+          "hours": null
+        },
+        {
+          "title": "Software-Defined Vehicles & Architectures (9 Hours)",
+          "topics": "Evolution from distributed ECUs to software- defined vehicles (SDVs) with centralized/zonal architectures. ECU consolidation, virtualization, and OTA software update frameworks. Embedded AI in vehicles for driver assistance, predictive maintenance, and vehicle health monitoring. Integration of infotainment, telematics, and safety-critical systems.",
+          "hours": null
+        },
+        {
+          "title": "Automotive Sensory System (9 Hours)",
+          "topics": "Automotive Sensors and Transducers: Temperature, Manifold and Barometric Pressures, Humidity, (VLSI & Embedded Systems) Theory :04 Hours/Week 04 CCE : 50 Marks End-Semester: 50 Marks Carbon Dioxide (CO2), Carbon Monoxide (CO), Oxygen (O2) Sensor, Proximity Distance Sensors, Engine Speed sensor, Throttle Position Sensor, Pressure Sensors, Knock Sensor &amp; Mass Flow Sensor. Typical Sensors , Specifications &amp; Microcontroller Interface Considerations, Sensor Calibration, Curve fitting.",
+          "hours": null
+        },
+        {
+          "title": "Automotive Control System Design (9 Hours)",
+          "topics": "Digital Engine Control, Features, Control Modes for Fuel Control, Discrete Time Idle Speed Control, EGR Control, Variable Valve Timing Control, Electronic Ignition Control, Integrated Engine Control System, Summary of Control Modes, Cruise Control System, Cruise Control Electronics, Anti- locking Braking System, Electronic Suspension System, Electronic Steering Control, Four-Wheel Steering.",
+          "hours": null
+        },
+        {
+          "title": "Automotive Protocols and Future Trends (9 Hours)",
+          "topics": "The need for Protocol, Automotive Protocols: LIN, CAN, KWP2000& J1939, FlexRay, Test, Calibration and Diagnostics tools for networking of electronic systems like ECU Software and Testing Tools, ECU Calibration Tools, Vehicle Network Simulation. Advanced Trends in Automotive Electronics: AUTOSAR Architecture.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-VLE",
+      "title": "VLSI Embedded Laboratory-II",
+      "semester": 2,
+      "type": "Program Core Course - Lab",
+      "credits": 2,
+      "pages": [
+        37,
+        38
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-571A-VLE",
+      "title": "Real Time Operating System",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "REVIEW OF OPERATING SYSTEMS- (8 Hours)",
+          "topics": "Basic Principles - Operating System structures – System Calls – Files – Processes – Design and Implementation of processes – Communication between processes – Introduction to Distributed operating system – issues in distributed system: states, events, clocks-Distributed scheduling Fault & recovery.",
+          "hours": null
+        },
+        {
+          "title": "FUNDAMENTALS of RTOS- (8 Hours)",
+          "topics": "Real-time concepts, Hard Real time and Soft Real-time, Differences between General Purpose OS & RTOS, Basic architecture of an RTOS, Scheduling Systems, Inter-process communication, Performance Matric in scheduling models, Interrupt management in RTOS environment, Memory management. File systems, I/O Systems, Advantage and disadvantage of RTOS. POS IX standards RTOS Issues - Selecting a Real Time Operating System, RTOS",
+          "hours": null
+        },
+        {
+          "title": "REAL TIME KERNEL (8 Hours)",
+          "topics": "VxWorks Scheduling and Task Management - Real-time scheduling, Task Creation, Intertask Communication, Pipes, Semaphore, Message Queue, Signals, Sockets, Interrupts I/O Systems - General Architecture, Device Driver Studies, Driver Module explanation, Implementation of Device Driver for a peripheral Case study using Vxworks (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "REAL TIME MODELS AND LANGUAGES - (7 Hours)",
+          "topics": "Event Based – Process Based and Graph based Models – Real Time Languages – RTOS Tasks – RT scheduling - Interrupt processing – Synchronization – Control Blocks – Memory Requirements",
+          "hours": null
+        },
+        {
+          "title": "RTOS APPLICATION DOMAINS- (7Hours)",
+          "topics": "Case studies- RTOS for Image Processing – Embedded RTOS for Network Communication RTOS for fault- Tolerant Applications – RTOS for Control Systems",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571B-VLE",
+      "title": "Mixed Signal IC Design",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "MIXED SIGNAL TESTING - (8 Hours)",
+          "topics": "Common Types of Analog and Mixed- Signal Circuits – Applications of Mixed-Signal Circuits - Post-Silicon Production Flow - Test and Packing – Characterization versus Production Testing - Test and Diagnostic Equipment - Automated Test Equipments – Wafer Probers – Handlers – E-Beam Probers – Focused Ion Beam Equipment’s – Forced –Temperature.",
+          "hours": null
+        },
+        {
+          "title": "MEASUREMENT PARAMERTS (8 Hours)",
+          "topics": "Yield - Measurement Terminology - Repeatability, Bias, and Accuracy - Calibrations and Checkers - Tester Specifications - Reducing Measurement Error with Greater Measurement Time – Guard bands - Effects of Measurement Variability on Test Yield - Effects of Reproducibility and Process Variation on Yield - Statistical Process Control",
+          "hours": null
+        },
+        {
+          "title": "DAC TESTING (8 Hours)",
+          "topics": "Basics of Data Converters -Principles of DAC and ADC Conversion, Data Formats, Comparison of DACs and ADCs, DAC Failure Mechanisms - Basic DC Tests - Transfer Curve Tests - Dynamic DAC Tests - Tests for Common DAC Applications (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks Unit I V- ADC TESTING (7 Hours) ADC Testing Versus DAC Testing - ADC Code Edge Measurements - Edge Code Testing Versus Center Code Testing, Step Search and Binary Search Methods, Servo Method, Linear Ramp Histogram Method, Histograms to Code Edge Transfer Curves, Rising Ramps Versus Falling Ramps, Sinusoidal Histogram Method - DC Tests and Transfer Curve Tests - Dynamic ADC Tests - Tests for Common ADC Applications. Unit V - COMMUNICATION CHANNEL MEASUREMENTS (7 Hours) Synchronous and Asynchronous Communications - Time-Domain Attributes of a Clock Signal - Frequency-Domain Attributes of a Clock Signal - Communicating Serially Over a Channel - Bit Error Rate Measurement - Methods to Speed Up BER Tests in Production - Deterministic Jitter Decomposition - Jitter Transmission ",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571C-VLE",
+      "title": "Machine Learning",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction to Machine Learning - (8 Hours)",
+          "topics": "Introduction, Definition and motivation, History and evolution of Machine learning , types: Supervised, Unsupervised, Semi -supervised, Reinforcement, Machine L earning Models: Geometric, Probabilistic, Logical, and Parametric. Non-parametric, Applications of Machine Learning in Signal processing, speech recognition, image processing, Wireless communications,",
+          "hours": null
+        },
+        {
+          "title": "Supervised Machine Learning - (8 Hours)",
+          "topics": "Introduction to Supervised Learning, Types of Supervised Problems, Regression Models: Linear Regression, Types of Linear Regression, cost function, gradient descent of linear regression, Evaluation Metrics for Linear Regression, Classification Models: Logistic Naive Bayes algorithm KNN algorithm Support Vector Machine (SVM). (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Unsupervised Machine Learning - (8 Hours)",
+          "topics": "Introduction, Types of Unsupervised Learning: Clustering, Association Rule Learning, Dimensionality Reduction, K- means Clustering algorithm, Evaluation: Elbow method, Silhouette score, Density -Based Methods, Dimensionality Reduction Techniques, Principal Component Analysis (PCA).",
+          "hours": null
+        },
+        {
+          "title": "Feature Engineering- (7 Hours)",
+          "topics": "Importance of feature engineering in Machine Learning pipeline, handling missing values, outliers, encoding: Label, One- Hot, Ordinal, Target Scaling: Min- Max, Standardization, Normalization, Feature selection: Filter (Chi-square), Wrapper (RFE), Embedded (Lasso)",
+          "hours": null
+        },
+        {
+          "title": "Ensemble Learning and Model Evaluation- (7Hours)",
+          "topics": "Introduction to Ensembles, Need of Ensemble Learning, Basic Ensemble Learning Techniques: Voting (Hard/Soft), Advanced Ensemble Learning Techniques: Bagging (Random Forest), Boosting (AdaBoost, XGBoost), Stacking, Cross -validation: Hold -out, K -Fold, LOOCV, Model comparison using t-test, McNemar’s test, Hyperparameter tuning (Grid Search, Random Search)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-571D-VLE",
+      "title": "Robotics and Automation",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Robotics – I - (8 Hours)",
+          "topics": "Introduction to Robotics: Definitions, history and evolution of robots, Types of robots and classification, Robot anatomy: Links, joints, actuators, end -effectors, Basics of Automation, Automation principles and strategies, Introduction to Industrial Automation Systems, Overview of control systems in automation. Automation tools and hardware.",
+          "hours": null
+        },
+        {
+          "title": "Fundamentals of Robotics – II - (8 Hours)",
+          "topics": "Kinematics: Forward and inverse kinematics, Denavit- Hartenberg (D -H) representation, Degrees of freedom, manipulability, Dynamics: Euler -Lagrange and Newton- Euler formulations, Lagrangian mechanics for manipulators, Manipulator dynamics in Cartesian space, Dynamic control and motion planning, Grippers and End Effectors: Types: Mechanical, hydraulic, pneumatic, magnetic, vacuum grippers, Two-, three-, and multi-fingered grippers, Trajectory Planning. (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Sensors and Actuators of Robotics - (8 Hours)",
+          "topics": "Sensor Basics and Classification: Position, velocity, proximity, force, torque, tactile, pressure, temperature sensors, Acoustic, optical, infrared, ultrasonic sensors, Vision and Imaging Sensors: Camera models, stereo vision, depth sensing, Machine vision and 3D sensing, Actuators: Electric, pneumatic, and hydraulic actuators, Servo motors, stepper motors, Actuator selection and integration.",
+          "hours": null
+        },
+        {
+          "title": "Microcontroller role in Robotics - (7 Hours)",
+          "topics": "Use of microcontrollers and embedded systems in robotics, Selection of microcontrollers for robotic application, Robot based manufacturing system, Pick and place robot, Sensor Integration and Signal Conditioning: Interfacing sensors with controllers, PID controllers in robotics.",
+          "hours": null
+        },
+        {
+          "title": "Industrial Applications for Robotics - (7Hours)",
+          "topics": "Robotic Applications in Industries: Welding, spray painting, material handling, Assembly operations, packaging, inspection, CNC machine automation, Robotics in Specialized Environments: Underwater robots, aerial robots (drones), mobile robots, Humanoid and legged robots, Autonomous Guided Vehicles (AGVs), Case Studies and Emerging Trends: Robotics in warehouse automation and ASRS, Human- robot collaboration (cobots), Industry 4.0 and smart manufacturing, Machine vision in inspection systems.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572A-VLE",
+      "title": "Testing and Verification of VLSI Circuits",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        47,
+        48
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO TESTING - (8 Hours)",
+          "topics": "Introduction – Fundamentals of VLSI testing, VLSI Testing Process and Test Equipment – Challenges in VLSI Testing - Test Economics and Product Quality – Fault Modeling – Relationship Among Fault Models. Scope of testing and verification in the VLSI design process. Issues in test and verification of complex chips, embedded cores and SOCs",
+          "hours": null
+        },
+        {
+          "title": "LOGIC & FAULT SIMULATION & TESTABILITY MEASURES - (8 Hours)",
+          "topics": "Simulation for Design Verification and Test Evaluation – Modeling Circuits for Simulation – Algorithms for True Value and Fault Simulation – Scope Controllability and Observability",
+          "hours": null
+        },
+        {
+          "title": "TEST GENERATION FOR COMBINATIONAL SEQUENTIAL CIRCUITS - (8 Hours)",
+          "topics": "Algorithms and Representations – Redundancy Identification – Combinational ATPG Algorithms – Sequential ATPG Algorithms – Simulation Based ATPG – Genetic Algorithm Based ATPG",
+          "hours": null
+        },
+        {
+          "title": "DESIGN FOR TESTABILITY- (7 Hours)",
+          "topics": "Design for Testability Basics – Testability Analysis - Scan Cell Designs – Scan Architecture – Built in Self- Test – Random Logic Bist – DFT for Other Test Objectives. Test interface and boundary-scan. System testing and test for SOCs. IDDQ testing. Delay fault testing. BIST for testing logic and memories. Test automation (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks UNIT V FAULT DIAGNOSIS - (7 Hours) Introduction and Basic Definitions – Relationship Among Fault Models. Fault Models for Diagnosis – Generation of Vectors for Diagnosis – Combinational Logic Diagnosis - Scan Chain Diagnosis – Logic BIST Diagnosis. Design verification techniques based on simulation, analytical and formal approaches. Functional verification. Timing verification. Formal verification. Basics of equivalence checking and model checking. Hardware emulation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572B-VLE",
+      "title": "ASIC Design",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        49,
+        50
+      ],
+      "units": [
+        {
+          "title": "ASIC Physical Design - (8 Hours)",
+          "topics": "Introduction to Physical Design, Role of physical design in ASIC flow, Front-end vs. Back-end design, Key steps in physical design, System Specifications, Architecture Design, Logic and Circuit Design, Physical Design, CADTools, System partitioning, Estimating ASIC Size, Power Dissipation, Physical Design Steps – Design netlist, Partitioning Strategies, Floor planning, Placement, Routing, Design Reuse, Clock , Tree Synthesis, Timing Closure, Power planning.",
+          "hours": null
+        },
+        {
+          "title": "ASIC Timing Analysis - (8 Hours)",
+          "topics": "(VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks Introduction to Timing Analysis, Static timing analysis, Dynamic timing analysis, Key timing terms: delay, slack, setup, hold, skew, jitter, Timing constraints, Timing Constraints, Clock constraints (frequency, uncertainty, jitter, skew), Input/output delay constraints, Multi- cycle paths, False paths, Asynchronous paths, Timing optimization, ASIC library design, Delay estimation, mixed mode design and simulation, issues, Clocking and Timing Issues, Clock skew (local vs. global skew), Clock jitter and uncertainty, Clock domain crossing (CDC) issue, Metastability and synchronization techniques, Study of Industry tools (Synopsys Primetime, Cadence Tempus, Mentor Graphics, Ansys Red Hawk for power/timing)",
+          "hours": null
+        },
+        {
+          "title": "ASIC Verification and Testing - (7 Hours)",
+          "topics": "Different Chip Test Methods, Design for Testability (DFT), Need for DFT, Fault Models, Scan Test, Partial Test, Digital scan standards, BIST architecture, Memory Testing, BILBO, Boundary Scan, Self -Test, JTAG, and ATPG, On -chip debugging features, Physical verification : Layout vs. Schematic (LVS), Design Rule Check (DRC), Electrical Rule Check (ERC), Power verification, Verification Languages (System Verilog, Vera, e, Specman, UVM), Directed testing vs. random testing.",
+          "hours": null
+        },
+        {
+          "title": "Mixed Signal ASIC Design- (7Hours)",
+          "topics": "Mixed Signal ASIC Design, Practical aspects of mix analog digital design, Difference between digital, analog, and mixed -signal design, Challenges in mixed -signal design, Mixed -Signal ASIC Design Flow, Gate level mixed mode simulation. A brief introduction to signal integrity effects in ASIC design, Low - power design in mixed -signal SoCs, Noise and Signal Integrity in Mixed -Signal ASICs, Synthesis and Testing, Applications (IoT, SoCs, communication, automotive, biomedical, etc.), Mixed-signal simulators.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572C-VLE",
+      "title": "Cloud Architecture Protocols",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        51,
+        52
+      ],
+      "units": [
+        {
+          "title": "Cloud Ontology & Architectural Frameworks - (8 Hours)",
+          "topics": "Foundational Models: NIST essential characteristics, SPI service model taxonomy, resource abstraction layers. Deployment Topologies: Public, Private and Hybrid structural patterns, community cloud governance frameworks . Virtualization Theory: Hypervisor architectures (Bare- metal/Hosted), container isolation formalisms, docker basics and architecture.",
+          "hours": null
+        },
+        {
+          "title": "Network Virtualization & Protocol Architectures - (8 Hours)",
+          "topics": "Encapsulation Systems: VXLAN/Geneve header structures, NVGRE protocol mechanics, virtual switching paradigms. Data Center Fabrics: BGP- EVPN control plane theory, Clos topology mathematics, spine-leaf routing algebras . Transport Layer Theory: TCP congestion control formalisms, QoS traffic shaping models, packet scheduling algorithms.",
+          "hours": null
+        },
+        {
+          "title": "Storage Networks - (8 Hours)",
+          "topics": "Storage network design considerations: NAS and FC SANs, hybrid storage networking technologies (iSCSI, FCIP, FCoE), design for storage virtualization in cloud computing, host system design considerations. Replications in NAS and SAN environments. Data archiving solutions, analyzing (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks compliance and archiving design considerations.",
+          "hours": null
+        },
+        {
+          "title": "Security Protocols & Cryptographic Frameworks - (7 Hours)",
+          "topics": "Identity Systems: SAML 2.0 assertion flows, OAuth 2.0 grant type formalisms, RBAC/ABAC policy algebras. Cryptographic Systems: TLS 1.3 handshake state machine, AES -GCM mode operations, PKI trust hierarchies . Network Security Models: Zero Trust formal architectures, IPsec/IKEv2 tunneling protocols, firewall policy verification.",
+          "hours": null
+        },
+        {
+          "title": "Scalability & Reliability Theory - (7 Hours)",
+          "topics": "Elasticity Frameworks: Autoscaling hysteresis models, M/M/c queueing systems, horizontal scaling proofs. Failure Engineering: Weibull failure distributions, RTO/RPO calculus, chaos engineering principles. Cost Governance Ontologies: TCO analytical frameworks, bin packing optimization, cloud governance taxonomies.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PEC-572D-VLE",
+      "title": "Wireless Sensor Network",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        53,
+        54
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Wireless Sensor Networks - (8 Hours)",
+          "topics": "Motivation for a Network of Wireless Sensor Nodes , Sensing and Sensors Wireless Networks, Performance metrics in WSNs, Types of WSN, Challenges and Constraints. Applications to: Health care, Agriculture, Traffic and others",
+          "hours": null
+        },
+        {
+          "title": "Wireless Sensor Network Architecture - (8 Hours)",
+          "topics": "Node Architecture; the sensing subsystem, processor subsystem, communication interface, LMote, XYZ, Hogthrob node architectures. Power Management - Through local power, processor, communication subsystems and other means, time Synchronization need, challenges and solutions overview for ranging techniques. Security Fundamentals, challenges and attacks of Network Security, protocol mechanisms for security, security protocols used in different wireless sensor networks",
+          "hours": null
+        },
+        {
+          "title": "Operating Systems - (8 Hours)",
+          "topics": "Functional and nonfunctional Aspects, short overview of prototypes, Design Considerations for WSN OS, different WSN Operating Systems and their Architecture- Tiny OS, SOS, Contiki, LiteOS, Sensor grid, SOS, MANTIS, Comparative Analysis, Programming tools (VLSI & Embedded Systems) Theory : 03 Hours/Week 03 CCE : 50 Marks End-Semester: 50 Marks",
+          "hours": null
+        },
+        {
+          "title": "Wireless Sensor Network Protocol Stack - (7 Hours)",
+          "topics": "WSN Protocol stack, overview of different layers of protocol stack, Physical Layer - Basic Components, Source Encoding, Channel Encoding, Modulation, Signal Propagation. Medium Access Control –types, protocols, standards and characteristics, challenges Network Layer - Routing Metrics, different routing techniques, QoS and Energy Management: Issues and Challenges in providing QoS, classifications, MAC, network layer solutions, QoS frameworks, need for energy management, classification, battery, transmission power, and system power management schemes.",
+          "hours": null
+        },
+        {
+          "title": "Designing and Deploying WSN Applications - (7 Hours)",
+          "topics": "Case Study - Designing and Deploying WSN Applications, Early WSN Deployments, General Problems, General Testing and Validation, Requirements Analysis, The Top -Down Design Process, Bottom -Up Implementation Process.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "SEM-581-VLE",
+      "title": "Seminar - I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        55,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-VLE",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "Research Methodology",
+      "credits": 5,
+      "pages": [
+        61,
+        64
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research:- (12 Hours)",
+          "topics": "Basic of Research : Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de- scribe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research : Why? Research Questions, Engineering Ethics, conclusive proof-what con- stitutes, A research project-Why take on? Case Study : Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects- en- vironment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": null
+        },
+        {
+          "title": "Literature Search and Review - (12 Hours)",
+          "topics": "Literature Review, Types of review , Developing the objectives, Preparing the research design includ- ing sample Design, Sample size. Archival Literature, Why should engineers be ethical? Types of publications- Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study : Engineering dictionary , Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h-index, I-index, plagiarism, copyright infringement",
+          "hours": null
+        },
+        {
+          "title": "Analysis of Variance and Covariance:- (12 Hours)",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short-cut method for oneway ANOVA, Coding method, Two-way ANOVA, ANOVA in Latin-square design, analysis of co-variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": null
+        },
+        {
+          "title": "Technical Writing and IPR - (12 Hours)",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond google, impact factor, H-Index. IPR: What is IPR?, importance of patents, types of IPR, process of patent.",
+          "hours": null
+        },
+        {
+          "title": "Outcome of Research and Research Presentation:- (12 Hours)",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, Testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-VLE",
+      "title": "On Job Training / Internship",
+      "semester": 3,
+      "type": "OJT / Internship",
+      "credits": 5,
+      "pages": [
+        65,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-VLE",
+      "title": "Seminar - II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 3,
+      "pages": [
+        68,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-VLE",
+      "title": "Research Project - I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        72,
+        76
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651-VLE",
+      "title": "Seminar - III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        77,
+        78
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652-VLE",
+      "title": "Research Project-II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        79,
+        82
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

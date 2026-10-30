@@ -1,0 +1,577 @@
+{
+  "id": "r25-se-2024-mechanical-engineering-syllabus-18082025",
+  "kind": "programme",
+  "programme": "Second Year Engineering in Mechanical Engineering",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC201MEC",
+      "title": "Solid Mechanics",
+      "semester": 3,
+      "type": "Major Course-1",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Simple Stresses & Strains",
+          "topics": "Simple Stress & Strain: Introduction to types of loads (Static, Dynamic & Impact Loading) and various types of stresses with applications, Hooke’s law, Poisson’s ratio, Modulus of Elasticity, Modulus of Rigidity, Bulk Modulus. Interrelation between elastic constants, Stress-strain diagram for ductile and brittle materials, factor of safety, Stresses and strains in determinate and indeterminate beam, homogeneous and composite bars under concentrated loads, self -weight (only theory part), Thermal stresses in plane and composite members. Real World Assignment Activities on effect of various types of loads, stresses with applications, Hooke’s law, Poisson’s ratio, Modulus of Elasticity, Modulus of Rigidity Activity I: - Measure Young’s modulus of elastic material. Activity II:-Measure Poisson’s ratio of a unidirectional stretched material. Activity III: - Determining negative Poisson’s ratio and study its various applications Exemplars / Practical Applications Stresses in shaft, wires, beams, pressure vessels etc. In structural domain like truss; fabrication of the material, In aerospace and automobile: sandwich core implementation for light structure with high strength; In mechani...",
+          "hours": 8
+        },
+        {
+          "title": "Shear Force & Bending Moment Diagrams",
+          "topics": "SFD & BMD: Introduction to SFD, BMD with application, SFD & BMD for statically determinate beam due to concentrated load, uniformly distributed load, uniformly varying load, couple and combined loading, Relationship between rate of loading, shear force and bending moment, Concept of zero shear force, Maximum bending moment, point of contra-flexure. Real World Assignment Activities on SFD & BMD with considering practical applications Activity I :- Comparison of Shear Force and Bending Moment for various types of loads. Activity II:- Graphical representation of Shear Force and Bending Moment of a Vehicle Chassis and Axle Activity III:- Comparison of Shear Force and Bending Moment for various types of supports Exemplars / Practical Applications Design of shaft, chassis, axle, wind turbine blade, towers, bridges etc.",
+          "hours": 7
+        },
+        {
+          "title": "Bending & Shear Stresses",
+          "topics": "Bending Stress on a Beam: Introduction to bending stress on a beam with application, Theory of Simple bending, assumptions in pure bending, derivation of flexural formula, Moment of inertia of common cross section (Circular, Hollow circular, Rectangular, I & T), Bending stress distribution along the same cross - section Shear Stress on a Beam: Introduction to transverse shear stress on a beam with application, shear stress distribution diagram along the Circular, Hollow circular, Rectangular, I & T cross-section Real World Assignment 1. Activities on slope & deflection on a beam: Introduction to slope & deflection on a beam with application, slope, 2. Deflection and Radius of Curvature, Macaulay’s Method, Slope and Deflection for all standard beams Activity I:- Evaluation of slope and deflection for beam under various load as well as supports. Activity II:-Verification of deflection of beam using flexural formula and dial gauge. Activity III:- Visualize beam deflection using suitable software for various load and support. Exemplars / Practical Applications 1. Propeller shaft, earthmovers, railway tracks section analysis, cranes support design, beam Bending, tower cranes etc",
+          "hours": 7
+        },
+        {
+          "title": "Torsion & Buckling",
+          "topics": "Torsion of circular shafts: Introduction to torsion on a shaft with application, Basic torsion formulae and assumption in torsion theory, Torsion in stepped and composite shafts, Torque transmission on strength and rigidity basis, Torsional Resilience Buckling of columns: Introduction to buckling of column with its application, Different column conditions and critical, safe load determination by Euler’s theory. Limitations of Euler’s Theory. Real World Assignment 1. Activities on torsion on thin-walled tubes: Introduction of Torsion on Thin-Walled Tubes Shaft and its application. Activity I:-Analyse the torsion in thin-walled tubes by applying twisting moment. Activity II:- Measure the effects of bending and shear on shaft by applying twisting moment Activity III:- Measure buckling of column under different end conditions. Exemplars / Practical Applications 1. Buckling load: Brackets, support members like, staircase, hoardings panels, 2. Torsion: Automobile drive shafts, industrial machinery shafts under high torsional and buckling load",
+          "hours": 7
+        },
+        {
+          "title": "Principal Stresses, Theories of Failure",
+          "topics": "Principal Stresses : Introduction to principal stresses with application, Transformation of Plane Stress, Principal Stresses and planes (Analytical method and Mohr's Circle), Stresses due to combined Normal and Shear stresses Theories of Elastic failure: Introduction to theories of failure with application, Maximum principal stress theory, Maximum shear stress theory, Maximum distortion energy theory, Maximum principal strain theory (only theory part), Maximum strain energy theory (only theory part). Real World Assignment Activities on Application based combined loading & stresses (Based on load and stress condition studied in",
+          "hours": 7
+        },
+        {
+          "title": "to Unit IV)",
+          "topics": "Activity I:-Analyzing combined loading problem in real-world structural applications. Activity II:- Analyzing eccentrically loaded sign boards (hoardings) for combined loading. Activity III:-Analyze mobile/high transmission tower against self-weight and wind pressure. Exemplars / Practical Applications 1. Design against seismic loading, mobile and high transmission tower design, knuckle joints, toggle jack, crank shaft under different stresses etc",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "PCC202MEC",
+      "title": "Engineering Thermodynamics",
+      "semester": 3,
+      "type": "Major Course-2",
+      "credits": 3,
+      "pages": [
+        20,
+        22
+      ],
+      "units": [
+        {
+          "title": "Fundamentals and First Law of Thermodynamics",
+          "topics": "Fundamentals of Thermodynamics: Introduction, Review of basic definitions, Zeroth law of Thermodynamics, Macro and Microscopic Approach, State Postulate, State, Path, Process and Cycles, Point function and Path function, Quasi-static process, Equilibrium, Thermocouples: Type, working principle and applications First Law of Thermodynamics: Concept of heat and work, Sign convention and its conversion. First law of thermodynamics, Joules experiments, (Field Assignment), Equivalence of heat and work. Application of first law to flow and non-flow Processes and Cycles. Steady flow energy equation (SFEE), Applications of SFEE to devices such as Nozzle, Turbine, Compressors, Boilers and Heat Exchangers; especially condensers and evaporators, PMM-I kind. (Numerical on SFEE). Real World Assignment 1. Application of SFEE in a Hair Dryer Activity: Measure temperature and airflow before and after heating in a hair dryer. Concepts Covered: Application of the steady flow energy equation (SFEE) to real-world devices Exemplars / Practical Applications  Power Plants, Automotive, Aerospace Engineering and HVAC Systems.  Process Engineering, Mechanical System Design.",
+          "hours": 7
+        },
+        {
+          "title": "Ideal Gas Equations and Second Law of Thermodynamics",
+          "topics": "Ideal Gas Equations: Ideal Gas definition, Gas Laws: Boyle’s law, Charle’s law, Avogadro’sLaw, (Field Assignment) Equation of State, Ideal Gas constant and Universal Gas constant, Ideal gas Processes-on P-v and T -s diagrams, Constant Pressure, Constant Volume, Isothermal, Adi abatic, Polytrophic, Throttling Processes (Open and Closed systems), Calculations of Heat transfer, Work done, Internal Energy (Numerical). Second Law of Thermodynamics: Limitations of first law of thermodynamics, Thermal reservoir, Heat Engine, Refrigerator and Heat pump: Schematic representation, Efficiency and Coefficient of Performance (COP), Kelvin -Planck & Clausius Statement of the Second law of Thermodynamics; PMM-II kind, Equivalence of the two statements (Numerical). Real World Assignment 1. Air Expansion in a Balloon  Activity: Observe pressure-volume changes by inflating a balloon in a heated vs. cold environment.  Concepts Covered: Ideal gas law, Boyle’s law, Charles’s law Exemplars / Practical Applications Refrigeration and Air Conditioning, Compressors. Heat Engine, Heat Pump.",
+          "hours": 7
+        },
+        {
+          "title": "Entropy and Availability",
+          "topics": "Entropy: Clausius Inequality, Concept of Reversibility and Irreversibility, Entropy as a property, Principle of increase of Entropy, Entropy changes for an Open and Closed System, (Field Assignment) Change of Entropy for an ideal gas (Numerical). Availability: Available and Unavailable Energy, Concept of Availability, Availability of heat source at constant temperature and variable temperature, Availability of non -flow and steady-flow Systems(No Numerical Treatment) Real World Assignment 1. Entropy Entropy in arranging student serially Entropy in sorting-colored chalks Entropy in Paper Distribution as per sets (set A, B, C) to students serially. Entropy in Arranging Books on a Shelf 2. Availability in a Cup of Hot Coffee 3. Problem-Solving Task (Quantitative Analysis) 4. Real-World Connection (Critical Thinking & Creativity) Exemplars / Practical Applications 1. Thermodynamics (Heat Engines): Entropy is used to analyze the efficiency o f heat engines, helping engineers understand the limits of energy conversion, such as in the Carnot cycle. 2. Refrigeration Systems: Entropy helps assess the energy dissipation in refrigeration cycles, guiding the design of more efficient cooling...",
+          "hours": 7
+        },
+        {
+          "title": "Properties of Pure substances & Vapour Power Cycle",
+          "topics": "Properties of Pure substances: Formation of steam, Phase changes, Properties of steam, Use of Steam Tables, Study of p -v, T-s and h -s plots (Mollier Chart) for steam, Dryness fraction and its determination using combined separating and throttling calorimeter, Change of properties, work transfer and heat transfer in Non-flow and Steady flow vapour processes. Vapour Power Cycle: Carnot cycle, Rankine cycle, Comparison of Carnot cycle and Rankine cycle, (Field Assignment)Introduction to Steam power Plant, Efficiency of Rankine Cycle, Effect of Varying operating parameters like Superheat, Boiler and Condenser Pressure on performance of Rankine cycle, Modi fied Rankine Cycle. (Numerical on Carnot cycle and Rankine cycle only). Real World Assignment 1. Homemade Rankine Cycle with Waste Heat  Design a closed system Rankine cycle using small electric boilers and turbines.  Multidisciplinary: Energy Systems, Thermodynamics. 2. Steam Pressure and Temperature Measurement in Domestic Pressure Cooker  Measure and analyze changes, plotting Mollier charts manually.  Multidisciplinary: Thermodynamics, Measurement. 3. AI Prediction of Steam Consumption in Small Turbine System (Simulation) ...",
+          "hours": 7
+        },
+        {
+          "title": "Steam Generators & Boiler Draught",
+          "topics": "Steam Generators: Classification, Introduction to IBR Act, Non -IBR boilers, Fire tube and water tube boilers, Low pressure boilers - Cornish & Locomotive, High pressure boilers- Babcock &Wilcox, LaMont, Boiler mountings and accessories. Boiler Performance Calculations: Equivalent Evaporation, Boiler efficiency, Heat balance Sheet. (Numerical). Boiler Draught: Classification, Necessity of Draught, Natural draught, Determination of Height of chimney, Diameter of chimney, condition for maximum discharge, Forced draught, Induced draught, Balanced draught, Draught losses (Field Assignment). (No Numerical Treatment) Real World Assignment Debate or Poster Presentation Comparing Fire-Tube and Water-Tube Boilers  Activity: Analyze diagrams/models of fire-tube and water-tube boilers and discuss efficiency.  Concepts Covered: Boiler classification, heat transfer. Exemplars / Practical Applications 1. Used in the power plant for heat generation. 2. Used in Multiple industries like automobile, pharmaceutical, dairy products",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC203MEC",
+      "title": "Engineering Materials & Metallurgy",
+      "semester": 3,
+      "type": "Major Course-3",
+      "credits": 3,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Crystal Structures, Materials Properties and Characterization Techniques",
+          "topics": "Crystal Structures: Introduction to crystal structure, Miller indices, Crystal imperfections, and Diffusion Mechanisms, introduction to Material Properties, Destructive Testing: Impact test, Cupping test, Non - Destructive Testing: Eddy current test, Sonic, Ultrasonic testing, X-ray Radiography testing (Principle and Applications only) Microscopic Techniques : Sample Preparation and etching procedure, optical microscopy, Electronic microscopy - only SEM, TEM and X-ray diffraction (Principle and Applications only) Macroscopy: Sulphur printing, flow line observation, spark test Real World Assignment Prepare a report on material : major application, compatibility for the application ( considering strength, Conductivity, corrosion resistance, mechanical, electrical, or thermal properties), crystal structure, List and explain key properties (e.g., hardness, tensile strength, conductivity, brittleness, ductility), Relate these properties to the crystal structure or defects (dislocations, grain boundaries), Hardness test comparison. Exemplars / Practical Applications surface microstructure analysis, flaws in materials without damage, field equipment identification",
+          "hours": 8
+        },
+        {
+          "title": "Phase Diagrams and Iron-Carbon Diagram",
+          "topics": "Solid solutions: Introduction, Types, Humerothery rule for substitutional solid solutions Solidification: Nucleation, crystal growth, solidification of pure metals and alloys. Phase Diagrams: Cooling curves, types of phase diagrams, Gibbs phase rules Iron-Carbon Diagram: Iron-carbon equilibrium diagrams in detail with emphasis in the invariant reactions. Real World Assignment Iron-Carbon Phase Diagram Analysis, Microstructural Changes Exemplars / Practical Applications Alloy Design in Aerospace and Automotive Industry , Casting and Metal Forming Industries , Heat Treatment Processes in Tool and Die Industry",
+          "hours": 7
+        },
+        {
+          "title": "Heat Treatments",
+          "topics": "Austenite transformation in steel : Time temperature transformation diagrams, continuous cooling transformation diagrams. Retained austenite and its effect, Steps in Heat Treatment and Cooling Medium, Heat Treatment Processes : Introduction, Annealing (Full annealing, Process annealing, Spheroidise annealing, isothermal annealing, stress relief annealing), Normalizing, Hardening, Tempering, Austempering, Martempering, Sub-Zero Treatment, Hardenability Surface Hardening : Classification, Flame hardening, Induction hardening, Carburizing, Nitriding, Carbonitriding Real World Assignment Heat Treatment Process Overview, making of iron and steel, Industrial applications, Automobile sectors, Power Plants, Aerospace, and Marine Industries. Exemplars / Practical Applications Tool and Die Manufacturing, Bearing and Gear Industries, Automotive Component Production",
+          "hours": 7
+        },
+        {
+          "title": "Ferrous Materials",
+          "topics": "Carbon Steel: Classification, types & their composition, properties and Industrial application Alloy Steels: Classification of alloy steels &amp; Effect of alloying elements, examples of alloy steels, (Stainless steel, Tool steel) sensitization of stainless steel ,Designation of carbon steel and alloy steels as per IS, AISI, SAE Standards Cast Iron: Classification, types; their composition, properties and Industrial application of (White CI, Gray CI, SG CI, Malleable Cast and alloy Cast Iron) Microstructure and property relationship of various ferrous Materials Real World Assignment Material Identification, Material Properties, Processing and Manufacturing, Advantages & Limitations [Mild Steel, Medium & High Carbon Steel, Cast Iron, Stainless Steel, Tool Steel, Alloy Steel (e.g., 4140, 4340)]. Exemplars / Practical Applications Manufacturing engine parts, chassis components, and tools requiring wear resistance and toughness.",
+          "hours": 7
+        },
+        {
+          "title": "Non-Ferrous Materials",
+          "topics": "Classification of Non -Ferrous Metals: Study of Non -ferrous alloys with Designation, Composition, Microstructure. Mechanical & other properties for Industrial Applications : Copper and its Alloys (Gilding Metal, Cartridge Brass, Muntz Metal, Tin Bronze, Beryllium Bronze), Aluminium and its Alloy (LM5, Duralumin, Y-Alloy, Hinduminum), Nickel and its Alloys (Invar, Inconel), Titanium and its Alloys (Classification, lead based alloys, tin based alloys), Age Hardening. Microstructure and Property relationship of various Non-ferrous Materials. Recent Material used in Additive Manufacturing: Properties, Composition and Application only Real World Assignment Material Overview, Real-Life Product or Component, Key Properties, Processing Methods, Advantages vs. Limitations Exemplars / Practical Applications Electrical wiring, connectors, and circuit boards",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC204MEC",
+      "title": "Material Testing and characterization Lab",
+      "semester": 3,
+      "type": "Major Course-3A",
+      "credits": 1,
+      "pages": [
+        26,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM221MEC",
+      "title": "Engineering Mathematics-III",
+      "semester": 3,
+      "type": "Multidisciplinary Course-1",
+      "credits": 3,
+      "pages": [
+        29,
+        31
+      ],
+      "units": [
+        {
+          "title": "Linear Differential Equations (LDE) and Applications",
+          "topics": "LDE of nth order with constant coefficients, Complementary Function, Particular Integral, General method, Short methods, Method of variation of parameters, Cauchy’s and Legendre’s DE, Simultaneous DE. Modelling of Mass-spring systems, Free & Forced damped and undamped systems Real World Assignment 1. Modelling of Mass-spring systems, Free & Forced damped and undamped systems. 2. Determination of natural frequency and resonant analysis of mechanical systems using LDE. Exemplars / Practical Applications Electrical Circuit Analysis, Structural Engineering",
+          "hours": 7
+        },
+        {
+          "title": "Statistics & Probability",
+          "topics": "Introduction to Data Science , Measures of central tendency, Measures of dispersion, Coefficient of variation, Moments, Skewness and Kurtosis, Correlation: Karl Pearson’s correlation, Spearman’s rank correlation, Regression analysis and Reliability of regression estimates. Probability, Probability density function, and Central limit theorem, Probability distributions: Binomial, Poisson, Normal, and Test of hypothesis: Chi-square test and t- test Real World Assignment 1. Analyze statistical features of experimental data/standard datasets in mechanical engineering applications. 2. Problem solving and decision making related to quality control, reliability engineering, and predictive maintenance using probability theory. 3. Implement problem solving using software such as C/C++/Python/MATLAB. Exemplars / Practical Applications Quality Control in Manufacturing, assess product reliability and failure rates for maintenance scheduling",
+          "hours": 8
+        },
+        {
+          "title": "Numerical methods for solving algebraic and transcendental equations",
+          "topics": "Numerical Solution of Algebraic and Transcendental equations: Bisection, Secant, Regula -Falsi, Newton– Raphson and Successive Approximation Methods, Convergence and Stability. Numerical Solutions of System of linear equations: Gauss elimination with partial pivoting, LU Decomposition, Jacobi and Gauss-Seidel Methods. Real World Assignment 1. Numerical solution of applied to Newton’s laws of motion, Heat & Mass transfer equations and thermodynamic processes. 2. Numerical solution of coupled mass spring systems 3. Implement problem solving using software such as C/C++/Python/MATLAB Exemplars / Practical Applications Engineering Design Optimization, Electrical Power System Analysis, Computational Fluid Dynamics (CFD), Control System Engineering, Finance and Economics Modeling",
+          "hours": 8
+        },
+        {
+          "title": "Numerical Interpolation and solution of ODE",
+          "topics": "Interpolation: Finite Differences, Newton’s and Lagrange’s Interpolation formulae, Numerical Differentiation. Numerical Integration: Trapezoidal and Simpson’s rules, Bound of truncation error. Solution of Ordinary differential equations (ODE): Euler’s, Modified Euler’s, Runge -Kutta 4th order methods and Predictor-Corrector methods. Real World Assignment 1. Obtain interpolating polynomial passing through equally or unequally spaced data points applicable to fluid flow problems and material properties. 2. Use of numerical integration to calculate areas volumes forces fluid mechanics, heat transfer and machine design. 3. Numerical solution of ODE to predict temperature profile and transient behavior in heat conduction analysis. 4. Implement problem solving using software such as C/C++/Python/MATLAB. Exemplars / Practical Applications Data fitting and curve estimation, Engineering simulations and modeling, Signal processing and image reconstruction, Numerical weather prediction, Control systems and robotics modeling",
+          "hours": 8
+        },
+        {
+          "title": "Vector Calculus",
+          "topics": "Vector differentiation, Gradient, Divergence and Curl, Directional derivative, Solenoidal & Irrotational fields, Vector identities. Line, Surface and Volume integrals, Green’s Lemma, Gauss’s Divergence theorem and Stoke’s theorem. Real World Assignment 1. Obtain fluid flow behavior such as velocity fields, rotational motion and scalar potential field. 2. Compute work done, circulation and determination of fluid flow rate. Exemplars / Practical Applications Electromagnetic field analysis, Fluid dynamics and aerodynamics, Structural stress and strain analysis, Heat transfer and thermodynamics, Robotics and control system design",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "MDM222MEC",
+      "title": "Electrical/ Electronics And Computer Interfacing Technology Lab",
+      "semester": 3,
+      "type": "Multidisciplinary Course-1A",
+      "credits": 1,
+      "pages": [
+        32,
+        34
+      ],
+      "units": []
+    },
+    {
+      "code": null,
+      "title": "Open Elective-I",
+      "semester": 3,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE231MEC",
+      "title": "Workshop Practices",
+      "semester": 3,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        35,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "HSSM232MEC",
+      "title": "Entrepreneurship Development and Innovation",
+      "semester": 3,
+      "type": "Entrepreneurship/ Management course",
+      "credits": 1,
+      "pages": [
+        38,
+        40
+      ],
+      "units": [
+        {
+          "title": "Entrepreneurial Mindset, Creativity and Innovation",
+          "topics": "• Entrepreneurial mindset: curiosity, resilience, risk-taking, leadership • Types of entrepreneurs – Technical, Non-technical, Social, Entrepreneur • Innovation types: product, service, process, frugal (Jugaad) innovation • Design Thinking: Empathize, Define, Ideate, Prototype, Test • Creativity tools: Mind Mapping, SCAMPER, TRIZ • Success stories from Indian innovators • Case studies: Innovative Indian products/startups Assignments and Exercises (Any Three, Community Engagement Project is compulsory ) 1. Guest Session + Reflection Report Application: Invite an Indian entrepreneur (e.g., local startup founder or alumni) for a guest talk. Task: Students write a 1-page reflection/ Quiz on entrepreneurial mindset, risks taken, and innovation style. 2. Case Study Presentation Activity: Select an Indian startup and analyze:  The problem it solves  Type of innovation (product, process, frugal, etc.)  Entrepreneurial mindset of the founder Deliverable: Present as a 5-minute video or a PPT with voice narration. 3. Present any one Course Project/ Community Engagement Project(CEP) in context with Design Thinking Activity: In small groups, students will solve a common college problem (e...",
+          "hours": 8
+        },
+        {
+          "title": "Opportunity Identification and Business Modelling",
+          "topics": " Opportunity Recognition and Idea Generation - Problem identification and need analysis  Market research: tools and techniques  Business Model Canvas: customer segments, value proposition, channels  Lean Startup methodology & Minimum Viable Product (MVP)  Business plan components and structure  Cost estimation, revenue models, and unit economics  Funding options: Government schemes (Startup India, MSME), VC, Angel Investors,  Crowd funding  Basics of financial literacy: Profit-Loss, Break-even, cash flow. Assignments and Exercises (Any Three) 1. Conduct Startup Financials Workshop Application: Hands-on session using a fictional startup (e.g., chai café):  Calculate fixed and variable costs  Identify breakeven point  Build a simple cash flow chart for 6 months Outcome: Submit an Excel sheet with key financial metrics and a one-page interpretation. 2. Government Funding Scheme Research Application:  Each group explores one government scheme (e.g., Startup India Seed Fund, MUDRA loan, PMEG Scheme, MSME credit)  Analyze eligibility, application process, benefits, and success stories 3. Opportunity Recognition and Need Analysis Activity: Identify 3 real-life problems a ...",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "VEC233MEC",
+      "title": "Universal Human Values",
+      "semester": 3,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Introduction to Value Education",
+          "topics": "1. Understanding Value Education 2. Self-exploration as the Process for Value Education 3. Continuous Happiness and Prosperity - the Basic Human Aspirations and their Fulfilment 4. Right Understanding, Relationship and Physical Facility 5. Happiness and Prosperity - Current Scenario 6. Method to Fulfil the Basic Human Aspirations",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Human Being",
+          "topics": "1. Understanding Human being as the Co-existence of the Self and the Body 2. Distinguishing between the Needs of the Self and the Body 3. The Body as an Instrument of the Self 4. Understanding Harmony in the Self 5. Harmony of the Self with the Body 6. Programmer to Ensure self-regulation and Health",
+          "hours": 7
+        },
+        {
+          "title": "Harmony in the Family and Society",
+          "topics": "1. Harmony in the Family - the Basic Unit of Human Interaction \"Trust’ - the Foundational Value in Relationship 2. ’Respect’ - as the Right Evaluation 3. Values in Human-to-Human Relationship 4. Understanding Harmony in the Society 5. Vision for the Universal Human Order",
+          "hours": 8
+        },
+        {
+          "title": "Harmony in the Nature (Existence)",
+          "topics": "1. Understanding Harmony in the Nature 2. Interconnectedness, self-regulation and Mutual Fulfilment among the Four Orders of Nature 3. Realizing Existence as Co-existence at All Levels 4. The Holistic Perception of Harmony in Existence 5. Professional Ethics in the light of Right Understanding 6. Strategies for Transition towards Value-based Life and Profession",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CEP241MEC",
+      "title": "Community Engagement Project",
+      "semester": 3,
+      "type": "Community Engagement Project",
+      "credits": 2,
+      "pages": [
+        43,
+        46
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC251MEC",
+      "title": "Fluid Mechanics",
+      "semester": 4,
+      "type": "Major Course-4",
+      "credits": 3,
+      "pages": [
+        47,
+        49
+      ],
+      "units": [
+        {
+          "title": "Fundamental Principles",
+          "topics": "Properties of Fluid: Definition of fluid, concept of continuum, density, specific weight, specific gravity, viscosity, viscosity laws, types of fluid and rheology, vapor pressure surface tension, capillarity, compressibility. Laws of fluid statics: forces acting on fluid element, Pascal’s law, hydrostatics law. Pressure measurement: pressure scale, piezometer, barometer, manometer - simple, inclined, differential, micro manometer, inverted.(Field Assignment) Forces acting on surfac es immersed in fluid : total pressure and center of pressure on submerged plane surfaces, curved surface submerged in liquid. Buoyancy: flotation, stability of bodies.(Field Assignment) Real World Assignment 1. Comparative analysis of detergents in context with surface tension and preparation of effective alternative powder with additives. 2. Calculate the total force on the walls of a dam or water reservoir/tank due to fluid pressure. Also draw pressure variation w.r.t depth of water level: A case study. 3. Design ship using principle of Buoyancy and floatation: A case study. 4. Design/calculate forces acting on a hydraulic Jack using Pascal’s Law: A case study Exemplars Lubrication oil, bearings, de...",
+          "hours": 8
+        },
+        {
+          "title": "Fluid Kinematics & Dynamics",
+          "topics": "Flow description methods, types of flows, velocity and acceleration fields, continuity equation in 1D & 3D flow, flow visualization (path line, stream line and streak line), stream tube, stream function and velocity potential function, flow net Various forces acting on fluid elements, Euler’s equation of motion along streamline, Bernoulli’s theorem and modified Bernoulli’s theorem, stagnation pressure, HGL, TEL (Field Assignment) Flow measurement: venturimeter, orifice meter, pitot tubes, Introduction to orifices, notches & weirs. ( Field Assignment) Real World Assignment 1. Analyze fluid particle trajectories in spray painting to achieve a uniform coating on car bodies. 2. Development of ducted augmented wind turbine for power generation. 3. Development and testing of window fitted natural cooling system with waste bottles. Exemplars Venturimeter used in Agriculture, in carburetor, electrical analogy",
+          "hours": 7
+        },
+        {
+          "title": "Internal Flow",
+          "topics": "Laminar flow: Entrance region theory, velocity and shear Stress distribution for laminar flow through pipe, fixed parallel plates( Field Assignment) and Couette flow( Field Assignment), velocity profile of turbulent flow. Losses - major & minor losses (without expres sions), hydro dynamically smooth and rough boundaries, Moody’s chart, compounding of pipes & equivalent pipe, siphons, transmission of power. ( Field Assignment) Real World Assignment 1. Design an efficient water distribution system in home/society, minimizing pressure losses and leakages. 2. Printing press application for couette flow. 3. Water leakage in wall. 4. Design a Siphon to take water from open channel. Exemplars Power absorbed in bearings, municipal water distribution to society/ home, Hydroelectric power plant",
+          "hours": 7
+        },
+        {
+          "title": "External Flow",
+          "topics": "Boundary layer formation over a flat plate, boundary layer thickness, displacement thickness, momentum thickness and energy thickness, boundary layer separation and methods to control separation, drag and lift concepts, types of drag, drag & lift coefficient, aerofoil, bluff body, streamline body Real World Assignment 1. Optimize the front-end shape of an electric vehicle to ensure it behaves more like a streamlined body, reducing energy consumption. 2. Analysis of Commercial Jeep and Sports Car for its stream lined body and reducing energy consumption. 3. Survey report on applications of Boundary layer Separation Exemplars Cricket Ball Swinging. Aero plane, bird’s wing",
+          "hours": 7
+        },
+        {
+          "title": "Dimensional Analysis",
+          "topics": "Dimensional Analysis: Introduction, system of dimensions, Dimensional homogeneity, Buckingham -Pi Theorem, repeating variables, dimensionless numbers and their physical significance Similitude & Model Testing: Model & prototype, similarity, scaling parameters, model laws, objectives, importance and application of model studies. Real World Assignment 1. Derive a generalized formula for drag force acting on a car moving at high speed. 2. Apply Reynolds number similarity to design a miniature wind turbine for testing before manufacturing full-scale blades Exemplars Turbine model, wind tunnel model test, irrigation system, dam model analysis",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC252MEC",
+      "title": "Manufacturing Processes-I",
+      "semester": 4,
+      "type": "Major Course-5",
+      "credits": 3,
+      "pages": [
+        50,
+        52
+      ],
+      "units": [
+        {
+          "title": "Theory of metal cutting",
+          "topics": "Basics of subtractive manufacturing, operations on Lathe, Milling. Basics of metal cutting mechanics, Chip formation and types of chips, Orthogonal and oblique cutting, Shear angle and Merchant’s theory, Cutting Forces and Power Estimation, Properties of cutting tool materials, Tool signature, Tool wear and tool life, Taylor’s tool life equation Real World Assignment Calculation of Power and Energy Calculations: Cutting power, shear power, and friction power, Calculation of cutting force components using experimental data Exemplars / Practical Applications Automotive component manufacturing, Aerospace part machining, Precision tooling and dies production, General engineering and machine tool industries, Manufacturing of medical devices and implants",
+          "hours": 8
+        },
+        {
+          "title": "Metal Casting Technology",
+          "topics": "Introduction to casting processes, Patterns: Pattern materials, types of pattern, allowances pattern design, molding sand, Properties of molding sands, Core making, melting practices and furnaces, Pouring and Gating system, Cleaning and Finishing of casting, Defects and remedies. Principle and equipment of Die casting, Centrifugal casting, Investment casting, Continuous casting. Numerical estimation to find mold filling time, Riser design and placement, Principles of cooling and solidification of casting, Directional and Progressive solidification, Estimation of solidification rate Real World Assignment Design of Gating System: Calculating Sprue height, runner dimensions, and gate area, Estimating pouring time and metal flow rate, Design of Risers: Calculation of riser size using Caine’s method and modulus method, Comparing riser efficiency for different shapes, Exemplars / Practical Applications Foundry and casting industries, Automotive engine block manufacturing, Aerospace component fabrication, Heavy machinery and equipment production, Jewelry and art casting",
+          "hours": 8
+        },
+        {
+          "title": "Metal Forming Technology",
+          "topics": "Introduction to Metal Forming - Stress-Strain Analysis in Metal Forming, Bulk Deformation Processes, Defects in Metal Forming, Rolling: Types, defects, and applications, Rolling force estimation, Torque and power requirements for rolling mills Forging: Open-die, Closed-die, and Impression-die forging, Estimation of Forging Load using uniform deformation energy equation, Sheet Metal Working: Types of sheet metal operations, Press working equipment and terminology, design of simple progressive die: strip lay-out and percentage utilization, clearance analysis, centre of pressure, estimation of cutting forces and press capacity Real World Assignment Load calculation for open-die forging and closed-die forging or Design of simple drawing dies Exemplars / Practical Applications Metal forming in automotive manufacturing, Rolling mills in steel production, Forging of aerospace components, Sheet metal fabrication in appliance industry, Press working in electronics manufacturing",
+          "hours": 8
+        },
+        {
+          "title": "Joining Technology",
+          "topics": "Joining process classification, soldering, brazing, welding symbols, types of joint, Electrodes - types and purpose of electrodes, electrode coatings (flux), welding defects, testing and inspection of welds, Working principles, applications of welding processes: Arc welding: MIG, TIG, Resistance welding: Spot, Seam, Heat generation in resistance welding, Gas Welding: Types of flames, oxy -acetylene gas welding. Solid State Welding: Friction Welding, Modern Welding Processes: Laser welding plasma arc welding, submerged arc welding, projection welding, electron beam welding, ultrasonic welding Real World Assignment Appropriate selection of non-conventional welding process for particular applications like plasma arc welding, submerged arc welding, projection welding, electron beam welding, ultrasonic welding Exemplars / Practical Applications Welding in automotive assembly, Construction and infrastructure fabrication, Shipbuilding industry, Aerospace component joining, Electronic device manufacturing",
+          "hours": 6
+        },
+        {
+          "title": "Finishing and Fine finishing processes",
+          "topics": "Grinding Process: Introduction, types of grinding machines, Grinding wheel: Introduction, types, shapes, designation and selection, grit, grade & structure of wheels, mounting, glazing, loading, dressing, truing, balancing, Surface Finish Measuring Instruments. Advanced Fine finishing processes : (Construction, working and process parameters) Introduction to Honing and Lapping, Magnetic abrasive finishing, Ultrasonic finishing, Abrasive flow machining. Real World Assignment 1. Machining time calculation for cylindrical and plunge grinding, 2. Appropriate selection finishing process for given application Exemplars / Practical Applications Precision surface finishing in automotive parts, Tool and die manufacturing, Aerospace component finishing, Medical device polishing, Electronics and semiconductor wafer processing",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "PCC253MEC",
+      "title": "Applied Thermodynamics",
+      "semester": 4,
+      "type": "Major Course-6",
+      "credits": 3,
+      "pages": [
+        53,
+        55
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of IC Engines & Fuel, Air and Actual Cycle Cycles",
+          "topics": "Fundamentals of IC Engines: Heat Engine, Engine classification, Applications, I.C. Engine construction - components and materials, Engine nomenclature, Valve timing diagram, Intake and exhaust system. Fuel, Air and Actual Cycle: Air-standard cycles- Otto, Diesel & Dual Cycle (Derivation of Efficiencies & MEP), fuel air cycles, and actual cycles, Effects of variables on performance, various losses and Comparison of Air standard with Fuel and Actual cycle. (Numerical on Air-standard cycles) Real World Assignment 1. Identification of different components of recent modern IC Engines (workshop/ Garage). 2. Case Study on selection of engine for various applications (e.g. Marine, sports, aircraft, etc). Practical Applications Used in different engine types for efficiency op timization in vehicles, power plants, and Automotive industrial engines.",
+          "hours": 7
+        },
+        {
+          "title": "Combustion in IC Engines & Fuel Technology",
+          "topics": "Combustion in IC Engines: Fuel injection system in SI & CI Engines Combustion in SI and CI engines and factors affecting efficiency, Knocking in SI and CI engines, Combustion Chambers used in SI & CI Engine. Fuel Technology: Biofuels, hydrogen, synthetic fuels, LPG, CNG, ethanol blends. Role of octane and cetane numbers, fuel additives. Real World Assignment 1. Study of alternative fuels as a replacement to petro-diesel. 2. Case study on modern fuel injection system used in two wheeler/ four wheeler. Practical Applications 1. Used in modern Petrol & Diesel engines to improve fuel efficiency and Emissions. 2. Used in diesel generators, agricultural machinery, and marine diesel engines. 3. Biodiesel & hydrogen fuel used in transportation fleets to reduce carbon footprint..",
+          "hours": 7
+        },
+        {
+          "title": "Engine Performance & Testing, Emission Control Technologies",
+          "topics": "Engine Testing Procedure and Engine parameters, Measurement of indicated power, Brake power, fuel consumption, Air Consumption, Measurement of friction power by Willan’s Line Method and Morse Test, calculation of mean effective pressure, various efficiencies, specific fuel consumption, heat balance sheet of IC Engines and performance Characteristic curves. (Numerical on Engine parameters & HBS). Role of supercharging and turbocharging in engine performance improvement. Emission Control Technologies : Pollutants from engines - CO, HC, NOx, PM, and their impact on air quality, Emission reduction strategies: Exhaust Gas Recirculation (EGR), Selective Catalytic Reduction (SCR), Diesel Particulate Filters (DPF), Three-Way Catalysts (TWC), BS-VI and Euro 6 emission standards Real World Assignment 1. Analyzing the various engine parameters which affect performance and emission characteristics. 2. Case study on Revolutionizing Carbon Management: Generation, Emission Control, Capture, and Reuse. Practical Applications 1. The selection of IC Engines according to their specifications and performance for different applications such as automotive, aviation, power generation, marine, and indu...",
+          "hours": 7
+        },
+        {
+          "title": "Engine Systems & Recent Trends in I.C Engine",
+          "topics": "Ignition system: battery coil ignition system, magneto ignition system, Electronics Ignition (CDI- Capacitor Discharge Igniter, TCI-Transistor Controlled Igniter). Cooling system: Air Cooling, Liquid cooling. Lubrication system: Objectives of lubrication system, properties of lubricant, Methods of lubrication system, Recent Trends in IC Engine : Introduction to engine management systems (EMS) and ECU -controlled ignition, Advanced combustion technologies: HCCI (Homogeneous Charge Compression Ignition), AI - based predictive maintenance, fault diagnosis, and digital twins in IC engines.. Real World Assignment 1. Case study on real world applications where AI & IoT have improved IC Engine performance. 2. Develop a DIY model for any of the system (Ignition, Cooling, Lubrication) Practical Applications Automotive Industry – Used in cars, trucks, and buses for fuel efficiency, emissions control, and performance optimization.",
+          "hours": 7
+        },
+        {
+          "title": "Positive Displacement Compressor",
+          "topics": "Reciprocating Compressor: Applications of compressed air, single stage compressor (without clearance and with clearance volume), volumetric efficiency, isothermal efficiency, effect of clearance volume, free air delivery (FAD), actual indicator diagram for air compressor, Multi st aging of compressor, optimum intermediate pressure, intercooler, after cooler, Capacity control of compressors. (Numerical). Rotary Compressors: Roots blower, Vane type, Screw compressor and Scroll compressor. Real World Assignment 1. Study manufacturer catalogues, compare different compressor models and select the most suitable one for a given industrial applications (eg. Pneumatic tools, refrigeration, manufacturing etc). 2. Case study on any rotary compressor with its real world applications. Practical Applications Air compressors Used in Manufacturing, pneumatic tools, automotive industry, Workshop tools, HVAC systems, food packaging, Process industries, mining, and chemical plant.",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "PCC254MEC",
+      "title": "Thermo- Fluid Engineering Lab",
+      "semester": 4,
+      "type": "Major Course-6A",
+      "credits": 2,
+      "pages": [
+        56,
+        59
+      ],
+      "units": []
+    },
+    {
+      "code": "MDM271MEC",
+      "title": "Artificial Intelligence and Machine Learning",
+      "semester": 4,
+      "type": "Multidisciplinary Course-II",
+      "credits": 2,
+      "pages": [
+        60,
+        62
+      ],
+      "units": [
+        {
+          "title": "Introduction to AIML and Feature Extraction and Selection",
+          "topics": "Introduction to AI & ML, Need of AI in Mechanical Engineering, Approaches to AI: Cybernetics and brain simulation, Symbolic, Sub -symbolic, Statistical, Approaches to ML: Supervised learning, Unsupervised learning, Reinforcement learning. Introduction to Data, Elements of Data set, Introduction to various types of data Feature extraction: Statistical Features, Principal Component Analysis, Feature selection: Ranking, Decision tree - Entropy reduction and information gain (Numerical 2 -3 Features - Preference (IG), Exhaustive, best first, Greedy forward & backward, Multi collinearity – Heatmap Real World Assignment 1. Machine Failure Prediction 2. Decision Tree-Based Fault Detection in CNC Machines Practical Applications 1. AI in Industry: Fault Diagnosis in Turbines / Identifying Wear Patterns in Engines 2. Predictive Maintenance of Machinery",
+          "hours": 6
+        },
+        {
+          "title": "ML Algorithms: Classification & Regression",
+          "topics": "Supervised Learning: Linear Regression (Line, Plane & Hyperplane) Concept, Multi-Variable Linear Regression, Poly Regression, Logistic Regression, Naive Bayes Classifiers, k -NN Classification, Support Vector Machines Ensemble Techniques (Regression & Classification): Decision tree (ID3-IG), Random Forest, Bagging & Boosting, XGB Classifier. Unsupervised Learning: K-means Clustering, Hierarchical Clustering, Dimension Reduction-PCA Classification Algorithm & Regression Algorithm s: Bias -Variance Trade off, Distance Parameters in Machine Learning (Formula). Real World Assignment 1. Predicting Machine Wear & Tear Using Linear Regression 2. Classification of Defective vs. Non-Defective Components Using SVM Practical Applications 1. Predictive Maintenance Using Regression & Classification 2. Fault Detection in Rotating Equipment Using Clustering",
+          "hours": 6
+        },
+        {
+          "title": "Feature Engineering, Development of ML Model & Evaluation",
+          "topics": "Feature Engineering, Model Selection & Tuning : Feature engineering, Model selection, Model tuning, Model performance measures, Regularizing the Linear models, ML pipeline, Bootstrap sampling, Grid search CV, Randomized search CV, K fold cross-validation. Problem identification : classification, clust ering, regression, ranking. Steps in ML modeling, Data Collection, Data pre -processing, Model Selection, Model training (Training, Testing, K -fold Cross Validation), Model evaluation (Accuracy, Precision, Recall, True Positive, False Positive, etc.), Hyper parameter Tuning: 1) Probability 2) Hypothesis 3) Confusion Matrix (Common dataset – Common problem statement), Influence of Type 1 & Type 2 error Real World Assignment 1. Machine Condition Monitoring Using Feature Engineering 2. Fault Detection Using Confusion Matrix Analysis Practical Applications 1. Predictive Maintenance of Industrial Machines 2. Optimizing Engine Performance Using Regression Models",
+          "hours": 6
+        },
+        {
+          "title": "Reinforced and Deep Learning",
+          "topics": "Neural Network : Introduction to Perceptron & NN, Activation Function & Loss Function, Gradient Descent & Gradient Acescent, Batch Normalization, Hyper Parameter Tuning Characteristics of reinforced learning; Algorithms: Framework of RL, characteristics, Exploration Vs. Exploitation Trade-off, Bellman Optimality Principle, Types of RL: Value Based, Policy Based, Model Based; Positive vs Negative Reinforced Learning; Models: Markov Decision Process, Q Learning, SARSA. Computer Vision: Introducing Image Dataset, Introduction to CNN, Convolution, Pooling & Padding, CNN Forward & Backward Propagation, CNN architectures, Transfer Learning. Applications of Reinforced, Computer Vision and Deep Learning in Mechanical Engineering (Jobs), Industry 5.0 Real World Assignment 1. Computer Vision-Based Defect Detection in Mechanical Parts 2. Reinforcement Learning for Robotic Arm Optimization Practical Applications 1. AI in Automobiles/ Agriculture/ Robotics/ Health science/ Computer Vision for Analysis, Quality Assessment & Security, etc. 2. Computer Vision: Object Detection",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": null,
+      "title": "Open Elective-II",
+      "semester": 4,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE281MEC",
+      "title": "Solid Modeling and Drafting",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        63,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "VSE282MEC",
+      "title": "Data Science & AIML",
+      "semester": 4,
+      "type": "Vocational and Skill Enhancement Course",
+      "credits": 1,
+      "pages": [
+        66,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC283MEC",
+      "title": "Modern Indian Language: 02",
+      "semester": 4,
+      "type": "Ability Enhancement Course",
+      "credits": 2,
+      "pages": [
+        69,
+        70
+      ],
+      "units": [
+        {
+          "title": "and II",
+          "topics": "घटक तपशील श्रेयाांक ताषसका १. १. भािा आषण व्यषिमत्त्ि षिकास : सहसांबांध २. लोकशाहीतील जीिनव्यिहार आषण प्रसारमाध्यमे १ १५ २. प्रसारमाध्यमाांसाठी लेखन १. िृत्तपत्रासाठी बातमीलेखन आषण मुद्दितशोधन २. नभोिाणीसाठी भािणाचे सांषहतालेखन ३. दूरषचत्रिाणीसाठी माषहतीपटासाठी सांषहतालेखन १ १५",
+          "hours": null
+        },
+        {
+          "title": "and IV",
+          "topics": "घटक तपशील श्रेयाांक ताषसका ३. १. भािा, जीिन व्यिहार आषण निमाध्यमे, समाजमाध्यमे २. निमाध्यमे आषण समाजमाध्यमाांचे प्रकार : ब्लॉग, फ े सबुक, षविटर ३. निमाध्यमे आषण समाजमाध्यमाांषिियक साक्षरता, दक्षता, िापर आषण पररणाम १ १५ ४. १. िेबसाईट आषण ब्लॉग, षविटरसाठी लेखन २. व्यािसाषयक पत्रव्यिहार १ १५",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "HSSM284MEC",
+      "title": "Engineering Economics and Financial Management",
+      "semester": 4,
+      "type": "Entrepreneurship/ Management course",
+      "credits": 1,
+      "pages": [
+        71,
+        73
+      ],
+      "units": [
+        {
+          "title": "Introduction to Business Economics and Finance",
+          "topics": "Business Economics Basics : Definition, scope, and role in engineering, Microeconomics vs. Macroeconomics Demand, Supply & Market Equilibrium: Laws of demand & supply, elasticity, market forces. Cost Concepts & Decision Making : Fixed, variable, marginal, sunk costs, Break -even analysis, profit maximization. Basics of Financial Management: Financial statements (Balance Sheet, Income Statement, Cash Flow), Financial planning & decision-making for engineers. Time Value of Money (TVM) : Present & future value, simple & compound interest. Business & Financial Decisions in Engineering: Capital investment, risk assessment, Sources of financing (debt, equity, venture capital). Real World Assignment (Any One) 1. Case study on micro economics business environment. 2. Analyze demand and supply fluctuations for any business of your choice and Propose pricing or inventory strategies based on findings. 3. Understand and apply break-even analysis to a real-world business scenario. Exemplars / Practical Applications Market Structure Analysis for Business Decision Making, Budgeting and Financial Planning, Understanding Economic Indicators for Investment Decisions.",
+          "hours": 6
+        },
+        {
+          "title": "Cost Accounting",
+          "topics": "Introduction: Importance and difference between cost and financial accounting. Cost Accounting: Types of costs: Fixed, variable, direct, indirect. Costing methods : Job costing, process costing. Break -even analysis & budgeting for cost control. Engineering Applications: Cost estimation, project budgeting, financial decision-making Real World Assignment 1. List and classify the different types of costs involved in manufacturing a mechanical part. 2. Calculate the cost per unit by considering material cost, labor, and overheads of any mechanical element. Also estimate the total cost to produce 500 units. 3. For the nearby industry, using fixed and variable costs, calculate the break -even point for their production setup for any one item and suggest how many items must be sold to cover all costs Exemplars / Practical Applications All kind of industries where need to prepare standard costing and marginal costing of product, project based costing in EPC industries.",
+          "hours": 5
+        },
+        {
+          "title": "Financial Accounting",
+          "topics": "Introduction: Importance of financial accounting. Financial Accounting: Key financial statements: Balance Sheet, Income Statement, Cash Flow Statement. Key Financial Terms: Revenue, Cost of Goods Sold (COGS), Operating Expenses like rent, utilities, salaries. Depreciation in asset value over time, Capital Expenditure. Financial ratios: Profitability, liquidity, efficiency Real World Assignment 1. Prepare financial statement of any organization. 2. Choose a company or firm and analyze its latest financial statements. 3. Prepare a balance sheet for any engineering organization. Exemplars / Practical Applications Engineering Industries, Banking sectors, Oil Gas industries, NGO for proper planning of cash flow.",
+          "hours": 5
+        },
+        {
+          "title": "Budget and Budgetary Control",
+          "topics": "Introduction to Budgeting: Definition, purpose, and importance in engineering and business. Types of budgets: Fixed, flexible, zero-based, capital, and operational budgets. Budgetary Control : Concept and objectives of budgetary control. Steps in budget preparation and implementation. Variance analysis: Comparing actual vs. budgeted performance. Engineering Applications: Budgeting in manufacturing and project management. Cost control and resource allocation in engineering firms. Taxes and Financial Planning, Impact of government policies, Taxation and Inflation on Financial Management. Real World Assignment (Any One) 1. Prepare and Interpret Budget and Standard Costs for any real business. 2. How can technology improve budget preparation and control? Discuss tools like Excel, ERP systems, or budgeting software. 3. How can businesses run against inflation and manage tax burdens efficiently? Suggest your financial strategies. Exemplars / Practical Applications To prepare Flexible Budgeting in all Engineering Industries, Zero budgeting in Government sectors, Sales and Operating Budgets for Retail Sector",
+          "hours": 6
+        },
+        {
+          "title": "National and International Business and Finance",
+          "topics": "National Income (National Income Accounting – GDP, GNP, Real and Nominal Income) Fiscal Policy (Government Revenue, Expenditure and Financing). Concept of globalization, factors influencing globalization, concept of international business and motives, international trade, institutional framework in international business, the significance of foreign trade policy, export-import procedures. Real World Assignment (Any One) 1. Choose any industry sector and research how GDP growth or decline has affected investments and job opportunities in this sector. 2. Visit an official economic data website (e.g., World Bank, IMF, National Bureau of Statistics) and collect the latest GDP and GNP data of our country. Compare the values and explain your findings about the country's economy. 3. Discuss the need of Foreign Capital and international finance. Exemplars / Practical Applications National Financing is needed in Small and Medium Enterprises, Calculation of GDP, National Stock Exchanges, Public Infrastructure Projects and International Financing is needed in Foreign Direct Investment (FDI), International Trade Financing, Global Financial Institution.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "VEC285MEC",
+      "title": "Environmental Science and Sustainable Development",
+      "semester": 4,
+      "type": "Value Education Course",
+      "credits": 2,
+      "pages": [
+        74,
+        76
+      ],
+      "units": [
+        {
+          "title": "Introduction to ESD",
+          "topics": "Environment, ecology, natural resources, Air pollution, Ecological footprint, Interactions between socio - economic systems and eco-systems, Human health and the environment Real World Assignment 1) Weather survey of your region of last 10 years 2) Air pollution and its effect on human health. Exemplars / Practical Applications 1) Air purifiers 2) Air quality index indicators",
+          "hours": 6
+        },
+        {
+          "title": "Soil Conservation and Management",
+          "topics": "Types and causes of soil degradation; Losses of soil moisture and its regulation, Nutrient depletion; impact of soil degradation on agriculture and food production , toxic organic chemicals, and organic contaminants in soils, Fertilizers and fertilizer management, Recycling of soil nutrients. Inorganic and organic components of soils. Biogeochemical cycles – nitrogen, carbon, phosphorus and sulphur. Real World Assignment 1. Analysis of soil texture, Ph and organic matter content 2. Effect of chemical fertilizers on soil biogeochemical cycles and on human health Composting of organic waste Exemplars / Practical Applications 1. Contour farming 2. Strip forming 3. Natural fertilizers.",
+          "hours": 6
+        },
+        {
+          "title": "Water Sources and Management",
+          "topics": "Hydrological cycle and water resources- surface, ground, desalination, Water pollution, Integrated water resources management, Usage and efficiency Real World Assignment Development of greywater recycling system Exemplars / Practical Applications 1. Water source management in desert area 2. Recycling and reuse of waste water 3. Rainwater harvesting",
+          "hours": 6
+        },
+        {
+          "title": "Sustainability and Sustainability Practices",
+          "topics": "Sustainability- concept, needs and challenges -economic, social, Aspects of sustainability - from unsustainability to sustainability, Climate change - Global, Regional and local environmental issues and possible solutions -case studies. Zero waste concept, ISO 14000 Series, Material Life cycle assessment, Environmental Impact Assessment. Real World Assignment 1. Effect of global warming on human health 2. Indian government policies for sustainable development. Exemplars / Practical Applications Green roofs and Vertical Gardens",
+          "hours": 6
+        },
+        {
+          "title": "Sustainable Habitat and Sustainable Energy",
+          "topics": "Sustainable habitat: Green buildings, Green materials, Energy efficiency, Sustainable transports, Sustainable energy: Non-conventional Sources, Energy Cycles- carbon cycle, emission and sequestration Real World Assignment Calculation of carbon foot print. Exemplars / Practical Applications Energy efficient buildings",
+          "hours": 6
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

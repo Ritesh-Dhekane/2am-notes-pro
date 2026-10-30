@@ -1,0 +1,650 @@
+{
+  "id": "me-electrical-electrical-engg-2025-pattern-3-sept-17092025",
+  "kind": "programme",
+  "programme": "M.E. Electrical (Electrical Engineering)",
+  "pattern": "2025",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "PCC-501-ELE",
+      "title": "Power System Modeling",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Modeling of Power System Components:",
+          "topics": "The need for modeling power systems, different models for power system analysis. Simplified models of non - electrical components like boiler, steam, hydro-turbine & governor system. Transformer modeling, tap -changing & phase-shifting transformer modeling.",
+          "hours": 10
+        },
+        {
+          "title": "Synchronous machine modeling:",
+          "topics": "Model for steady-state analysis. The development of model for dynamic studies. The current & flux linkage models using Park’s transformation leading to simulation as linear model.",
+          "hours": 10
+        },
+        {
+          "title": "Analysis of synchronous machine modeling:",
+          "topics": "Synchronous machine connected to an infinite bus, its simulation for steady-state condition and transient conditions.",
+          "hours": 10
+        },
+        {
+          "title": "Excitation system modeling - I:",
+          "topics": "Simplified view of excitation control. Block Diagram of Excitation control scheme, effect of change in excitation on system parameters, Exciter with rheostat control, Definitions of voltage response ratio & exciter voltage ratings. Voltage regulators such as electro-mechanical and solid state.",
+          "hours": 10
+        },
+        {
+          "title": "Excitation system modeling - II:",
+          "topics": "Excitation control systems using dc generator exciter, dc generator pilot excitation scheme, modelling of self and separately excited dc generator, AC excitation system: Field controlled alternator rectifier system (stationary diode type), Brushless excitation system (rotating diode type), static excitation system: Potential source-controlled rectifier system, compound source-controlled rectifier system.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-502- ELE",
+      "title": "Advanced Power Electronics",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        14,
+        15
+      ],
+      "units": [
+        {
+          "title": "Voltage Source Converters:",
+          "topics": "Review of 3-ph- full wave bridge converter, operation and harmonics, 3 level voltage source converters. PWM converter. Generalized technique of harmonic elimination and voltage control. Advanced modulation techniques (space vector modulation, 3 harmonic PWM), Converter rating.",
+          "hours": 10
+        },
+        {
+          "title": "Current source converter",
+          "topics": "(i) Self and Line commutated current source converter: Converters with self-commutating devices. Comparison with voltage source converter. (ii) Matrix Converter: 3×3 matrix converter, principle of working, mathematical treatment, comparison of matrix converter with multi-pulse converter.",
+          "hours": 10
+        },
+        {
+          "title": "Multilevel Inverters:",
+          "topics": "Multilevel concept, Types of multilevel Inverters, diode clamped multilevel inverter, flying- capacitors multilevel inverters, cascaded multilevel inverter, switching device currents, d.c. link capacitor voltage balancing, features of multilevel inverters, comparison of multilevel converters Applications of multilevel Inverter: Reactive power compensation Back-to-back intertie system, Utility compatible adjustable speed drives.",
+          "hours": 10
+        },
+        {
+          "title": "Energy Storage Systems:",
+          "topics": "Flywheel energy storage system, Superconducting magnetic energy storage system, other advance energy storage systems",
+          "hours": 10
+        },
+        {
+          "title": "Resonant Pulse Converters:",
+          "topics": "Types of Resonant pulse converters, Series resonant inverters with unidirectional & Bidirectional switches, Analysis of half bridge and full bridge configurations, Frequency response of series resonant inverters, Parallel resonant inverters, Voltage control of resonant inverters, Class E Resonant inverter and rectifier, zero current and zero V switching resonant Converters, comparison.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-503- ELE",
+      "title": "Computer Applications in Power Systems",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Optimization Techniques:",
+          "topics": "Introduction, Statement of an optimization problem, design vector, design constraints, constraint surface, objective function, classification of optimization problem. Classical optimization Techniques, single variable optimization, multivariable optimization with equality constraints, Direct substitution method, constrained variation method, Lagrange Multiplier method, formulation of multivariable optimization, Kunh Tucker conditions.",
+          "hours": 10
+        },
+        {
+          "title": "Optimization Techniques:",
+          "topics": "Nonlinear Programming, Unconstrained optimization Techniques, Direct search methods, Indirect search methods, Descent methods, One dimensional minimization method, unimodal function, elimination methods.",
+          "hours": 10
+        },
+        {
+          "title": "Load Flow Studies:",
+          "topics": "Revision of Load flow studies by using Newton Raphson method (polar and rectangular). Contingency evaluation, concept of security monitoring, Techniques of contingency evaluation, Decoupled load flow and fast decoupled load flow.",
+          "hours": 10
+        },
+        {
+          "title": "Optimal Power Flow Analysis:",
+          "topics": "Optimal power flow analysis considering equality and inequality constraints. Economic dispatch with and without limits (Classical method) Gradient method, Newton’s method, Newton Raphson method.",
+          "hours": 10
+        },
+        {
+          "title": "Optimal Power System Operation:",
+          "topics": "Calculation of loss coefficients, loss coefficients using sensitivity factors, power loss in a line, Generation shift distribution factors, Transmission loss coefficients, transmission loss formula as a function of generation and loads, economic dispatch using loss formula, which is function of real and reactive power, linear programming method.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-504- ELE",
+      "title": "Advanced Topics in Power System",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Automatic Generation Control and Economic Dispatch",
+          "topics": "Generation Control Loops, AVR Loop, Performance and Response, Automatic Generation Control of Single Area and Multi Area Systems, Static and Dynamic Response of AGC Loops, Economic Dispatch and AGC.",
+          "hours": 10
+        },
+        {
+          "title": "Transient Stability Analysis of Power Systems",
+          "topics": "Transient Stability Problem, Modeling of Synchronous Machine, Loads, Network, Excitation and Systems, Turbine And Governing Systems, Trapezoidal Rule of Numerical Integration Technique For Transient Stability Analysis, Data For Transient Stability Studies, Transient Stability Enhancement Methods",
+          "hours": 10
+        },
+        {
+          "title": "Low Frequency Oscillations and System Stability Enhancement",
+          "topics": "Low Frequency Oscillations, Power System Model for Low Frequency Oscillation Studies, Improvement of System Damping with Supplementary Excitation Control, Introduction To Sub Synchronous Resonance and Countermeasures.",
+          "hours": 10
+        },
+        {
+          "title": "Voltage Stability and Control in Power Systems",
+          "topics": "Voltage Stability Problem, Real and Reactive Power Flow in Long Transmission Lines, Effect of ULTC And Load Characteristics on Voltage Stability, Voltage Stability Limit, Voltage Stability Assessment Using PV Curves, Voltage Collapse Proximity Indices, Voltage Stability Improvement Methods.",
+          "hours": 10
+        },
+        {
+          "title": "Constrained Nonlinear Programming",
+          "topics": "Contingency analysis ZBUS Method in Contingency Analysis, Adding and Removing Multiple Lines, Piecewise Solution of Interconnected Systems, Analysis of Single Contingencies, Analysis of Multiple Contingencies, Contingency Analysis of DC Model, System Reduction for Contingency and Fault Studies.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-505- ELE",
+      "title": "Laboratory Practice-I",
+      "semester": 1,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-521A- ELE",
+      "title": "Advanced Digital Signal Processing",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Discrete Time Signals",
+          "topics": "Introduction to Discrete time signals LTI system-stability-properties-sampling frequency domain Representation of discrete time signals and systems, discrete random signals-transforms, Properties, Inverse Z transforms.",
+          "hours": 8
+        },
+        {
+          "title": "Digital FIR Filter Design:",
+          "topics": "Design of FIR filters - structures, windowing method, optimal method, Frequency sampling method.",
+          "hours": 8
+        },
+        {
+          "title": "Digital IIR Filter Design:",
+          "topics": "Design of IIR filter: Impulse invariant method, Matched z-transform method, bilinear method.",
+          "hours": 8
+        },
+        {
+          "title": "Adaptive Digital Filters:",
+          "topics": "Adaptive filters, Examples of Adaptive filtering, the minimum mean square error criterion; The Windrow and Hoff LMS Algorithm, Recursive least square Algorithm, Applications.",
+          "hours": 8
+        },
+        {
+          "title": "Multi rate Digital Signal Processing",
+          "topics": "The basic sample rate Alteration Devices-Filters with sampling rate Alteration systems, Multistage Design of Decimators and Interpolators, Arbitrating rate sampling rate converter, Polyphase decomposition, digital filter design –Application.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-521B- ELE",
+      "title": "Industrial Automation and Control",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to Industrial Automation and Control Systems",
+          "topics": "Need and scope of automation, Types of control systems: open loop and closed loop, Hierarchy of automation: field level, control level, supervisory level, Introduction to industrial control devices: relays, contactors, switches, sensors, Overview of standards (IEC, ISA)",
+          "hours": 8
+        },
+        {
+          "title": "Sensors, Actuators, and Signal Conditioning",
+          "topics": "Types of sensors: temperature, pressure, flow, level, proximity, position, Working principles and selection criteria, Actuators: electrical, pneumatic, hydraulic, Signal conditioning, isolation, filtering, and noise reduction, Interfacing with control systems",
+          "hours": 8
+        },
+        {
+          "title": "Programmable Logic Controllers (PLC)",
+          "topics": "PLC architecture and working, I/O modules, memory organization, PLC programming languages (Ladder Logic, FBD, STL), Timers, counters, data handling functions, PLC-based control applications: motor control, conveyor systems, process control",
+          "hours": 8
+        },
+        {
+          "title": "Supervisory Control and Data Acquisition (SCADA) and DCS",
+          "topics": "SCADA system architecture and components, Communication with RTUs and PLCs, Human Machine Interface (HMI) design and functions, Overview of Distributed Control Systems (DCS): structure and applications, Case studies of SCADA/DCS implementation in industries",
+          "hours": 8
+        },
+        {
+          "title": "Industrial Communication and Automation Applications",
+          "topics": "Communication protocols: Modbus, Profibus, CAN, Ethernet/IP, Fieldbus, Network topologies and industrial networking standards, Industrial IoT (IIoT) basics and integration, Automation in manufacturing, process industries, and energy systems, Safety, cybersecurity, and future trends in industrial automation",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-522- ELE",
+      "title": "Elective Lab-I",
+      "semester": 1,
+      "type": "Program Elective Course",
+      "credits": 1,
+      "pages": [
+        26,
+        28
+      ],
+      "units": []
+    },
+    {
+      "code": "PCC-551- ELE",
+      "title": "AC /DC drives",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Electric Drives",
+          "topics": "Concept, classification, and structure of electric drives, Dynamics: torque equations, load torque characteristics, equivalent systems, Four quadrant operation and drive characteristics, Components of electric drive systems: power modulators, controllers, motors, feedback elements, Thermal considerations and selection criteria, Steady- state and dynamic stability of electric drives",
+          "hours": 10
+        },
+        {
+          "title": "DC Motor Drives and Control Techniques",
+          "topics": "Review of DC motor characteristics (shunt, series, compound), Armature and field control methods, Converter - fed DC drives: Single -phase and three -phase controlled rectifiers, Dual converters and regenerative braking, Chopper-controlled DC drives: Time ratio control, Current limit control, Closed-loop control of DC drives (speed and torque loops), Simulation and modeling of DC drive systems",
+          "hours": 10
+        },
+        {
+          "title": "Induction Motor Drives",
+          "topics": "Review of 3 -phase induction motor performance, Scalar control (V/f control), vector control, and direct torque control (DTC), Stator voltage control and rotor resistance control, Slip power recovery schemes (Scherbius & Kramer drives), Inverter-fed induction motor drives (PWM techniques), Starting, braking, and dynamic performance, Field-oriented control (FOC) techniques, Fault-tolerant operations and control",
+          "hours": 10
+        },
+        {
+          "title": "Synchronous and Special Motor Drives",
+          "topics": "Operating characteristics of synchronous motors, Voltage and current source inverter -fed synchronous motor drives. Load commutated and self-controlled synchronous motor drives, Brushless DC motor drives: operation and control, Stepper motor drives and control strategies, Switched Reluctance Motor (SRM) drives: modeling and control, Sensor less control techniques, Applications in CNC, robotics, and aerospace",
+          "hours": 10
+        },
+        {
+          "title": "Applications and Recent Advances in Drive Systems",
+          "topics": "Electric traction systems: types and drive configurations, Drive systems for electric and hybrid electric vehicles, Drive control for renewable energy systems (wind, solar), Drives in automation, HVAC, and process industries, Advanced digital control techniques using microcontrollers and DSPs, Modeling and simulation using MATLAB/Simulink, Trends in AI-enabled drive systems and Industry 4.0 integration",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-552- ELE",
+      "title": "Advanced Power System Protection",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Protection System Fundamentals and Relay Coordination",
+          "topics": "Review of protection system elements: relays, CTs, PTs, circuit breakers, Zones of protection and fault classification, Types of relays: Electromechanical, static, and numerical, Primary and backup protection, Relay coordination and time grading, Protection reliability, security, and dependability",
+          "hours": 10
+        },
+        {
+          "title": "Digital and Numerical Protection",
+          "topics": "Introduction to digital relaying: advantages and architecture, Signal acquisition and conditioning: Sampling, filtering, Algorithms: Discrete Fourier Transform (DFT), Fast Fourier Transform (FFT), Overcurrent, distance, and differential protection using numerical methods, Fault detection logic and microprocessor-based relays",
+          "hours": 10
+        },
+        {
+          "title": "Protection of Transmission Lines and Feeders",
+          "topics": "Time, current, and distance-based protection, Distance protection characteristics: impedance, mho, reactance, Carrier-aided protection: DCB, POTT, PUTT, Pilot protection schemes using fiber optics and PLCC, Auto- reclosing and sectionalizing",
+          "hours": 10
+        },
+        {
+          "title": "Protection of Power System Components",
+          "topics": "Transformer protection: differential, REF, Buchholz, inrush discrimination, Generator protection: stator and rotor faults, reverse power, loss of excitation, Motor protection: overload, single phasing, locked rotor, Busbar protection: differential and zone protection, Reactor and capacitor bank protection",
+          "hours": 10
+        },
+        {
+          "title": "Modern Trends and Wide-Area Protection",
+          "topics": "Substation automation and IEC 61850, Phasor Measurement Units (PMUs) and Synchro phasors, Wide Area Monitoring System (WAMS), Smart grid protection architecture, Cybersecurity threats and mitigation in protection systems, Intelligent relays and AI in protection",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-553- ELE",
+      "title": "Power System Dynamics",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 4,
+      "pages": [
+        33,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to Power System Dynamics",
+          "topics": "Importance of dynamic studies in modern power systems, Classification of stability: steady -state, dynamic, transient, voltage, Overview of system components affecting dynamics, The swing equation: derivation and significance, Equal area criterion for stability assessment, Introduction to time-domain simulation",
+          "hours": 10
+        },
+        {
+          "title": "Synchronous Machine Modeling",
+          "topics": "Review of synchronous machine operation, Rotor reference frame transformation (Park’s transformation), d–q axis modeling of synchronous generators, Flux linkage model, voltage and current models, Machine equations for dynamic studies, Simplified and detailed models for system-level studies",
+          "hours": 10
+        },
+        {
+          "title": "Excitation Systems and Turbine-Governor Modeling",
+          "topics": "Types and role of excitation systems in dynamic performance, IEEE standard models of excitation systems (Type 1, 2, 3), Static and dynamic performance of excitation systems, Turbine-governor system models (steam, hydro, gas), Load modelling for dynamic analysis (static & dynamic characteristics)",
+          "hours": 10
+        },
+        {
+          "title": "Stability Analysis of Power Systems",
+          "topics": "Transient stability: numerical solution of swing equation, Small-signal stability: linearization, state-space models, Eigenvalue analysis for stability assessment, Damping of oscillations and rotor angle stability, Single Machine Infinite Bus (SMIB) system analysis, Introduction to multi-machine systems and coherency",
+          "hours": 10
+        },
+        {
+          "title": "Tools, Simulation & Case Studies",
+          "topics": "MATLAB/Simulink for dynamic modeling, Software tools for dynamic simulations eg. DigSilent, Case study: generator instability under fault conditions, Role of Power System Stabilizers (PSS), Basics of Wide -Area Monitoring and Control (WAMC), Challenges in renewable-integrated systems",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "PCC-554-ELE",
+      "title": "Laboratory Practice-II",
+      "semester": 2,
+      "type": "Program Core Course",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": []
+    },
+    {
+      "code": "PEC-561A- ELE",
+      "title": "Distributed Generation and Microgrid",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        37,
+        38
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION",
+          "topics": "Conventional power generation: advantages and disadvantages, Energy crises, non-conventional energy (NCE) resources: review of Solar PV, Wind Energy systems, Fuel Cells, micro-turbines, biomass, and tidal sources.",
+          "hours": 8
+        },
+        {
+          "title": "DISTRIBUTED GENERATIONS (DG)",
+          "topics": "Concept of distributed generations, topologies, selection of sources, regulatory standards/ framework, Standards for interconnecting Distributed resources to electric power systems: IEEE 1547. DG installation classes, security issues in DG implementations. Energy storage elements: Batteries, ultra-capacitors, flywheels. Captive power plants.",
+          "hours": 8
+        },
+        {
+          "title": "IMPACT OF GRID INTEGRATION",
+          "topics": "Requirements for grid interconnection, limits on operational parameters, voltage, frequency, THD, response to grid abnormal operating conditions, islanding issues. Impact of grid integration with NCE sources on existing power system: reliability, stability and power quality issues.",
+          "hours": 8
+        },
+        {
+          "title": "MICROGRIDS",
+          "topics": "Concept and definition of microgrid, microgrid drivers and benefits, review of sources of microgrids, typical structure and configuration of a microgrid, AC and DC microgrids, Power Electronics interfaces in DC and AC microgrids, communication infrastructure, modes of operation and control of microgrid: grid connected and islanded mode, Active and reactive power control, protection issues, anti-islanding schemes: passive, active and communication based techniques.",
+          "hours": 8
+        },
+        {
+          "title": "POWER QUALITY ISSUES IN MICROGRIDS",
+          "topics": "Power quality issues in microgrids- Modelling and Stability analysis of Microgrid, regulatory standards, Microgrid economics, Introduction to smart microgrids.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-561B- ELE",
+      "title": "Embedded Systems",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        39,
+        40
+      ],
+      "units": [
+        {
+          "title": "INTRODUCTION TO EMBEDDED SYSTEMS",
+          "topics": "Introduction to embedded system -Definition and Classification, Design challenges, optimizing design metrics, time to market, applications of embedded systems and recent trends in embedded systems, memory management, Overview of Processors and hardware units in an embedded system, Software embedded into the system, communication protocols like SPI, I2C, CAN etc.",
+          "hours": 8
+        },
+        {
+          "title": "ARCHITECTURE OF ARM7TDMI",
+          "topics": "Introduction to ARM core architecture, ARM extension, family, Pipeline, memory management, Bus architecture, Programming model, Registers, Operating modes, instruction set, Addressing modes, and memory interface.",
+          "hours": 5
+        },
+        {
+          "title": "ON CHIP PERIPHERALS AND INTERFACING LPC2148",
+          "topics": "Study of on-chip peripherals – Input/ output ports, Timers, Interrupts, on-chip ADC, DAC, RTC modules, WDT, PLL, PWM, USB, I2C, SPI, CAN etc.",
+          "hours": 8
+        },
+        {
+          "title": "INTERFACING WITH LPC2148",
+          "topics": "Need of interfacing, interfacing techniques, interfacing of different displays including Graphic LCD, controlling a DC motor using PWM, Keypad controllers, stepper motor controllers.",
+          "hours": 10
+        },
+        {
+          "title": "REAL TIME OPERATING SYSTEMS",
+          "topics": "Definitions of process, tasks and threads, I/O Subsystems, Interrupt Routines Handling in RTOS, RTOS Task scheduling models, Handling of task scheduling and latency and deadlines as performance metrics, Co-operative Round Robin Scheduling, Case Studies of Programming with RTOS.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "PEC-562A- ELE",
+      "title": "Applications of Power Electronics to Power System",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Power Electronic Converters in Power Systems",
+          "topics": "Overview of power electronics in power systems, AC-DC, DC-DC, and DC-AC converters: topologies and control, PWM techniques and modulation strategies, Role of converters in transmission and distribution, Case studies of converter-based applications",
+          "hours": 8
+        },
+        {
+          "title": "HVDC Transmission Systems",
+          "topics": "Introduction to HVDC systems: Need and benefits, Types of HVDC links, Line-commutated and voltage-source converters, Control of HVDC systems, Applications in long-distance and asynchronous interconnections",
+          "hours": 8
+        },
+        {
+          "title": "FACTS Devices and Their Applications",
+          "topics": "Concept of Flexible AC Transmission Systems (FACTS), Classification and comparison of FACTS controllers, Static VAR Compensator (SVC), TCSC, STATCOM, SSSC, UPFC, Control schemes for FACTS devices, Impact on system stability, power flow, and voltage control",
+          "hours": 8
+        },
+        {
+          "title": "Power Quality and Custom Power Devices",
+          "topics": "Power quality issues in distribution systems, Custom power devices: DVR, DSTATCOM, UPS, Active Filters, Design and control of custom power equipment, Mitigation of harmonics, sags, swells, and flicker, Coordination with FACTS and DG systems",
+          "hours": 8
+        },
+        {
+          "title": "Power Electronics in Renewable and Smart Grids",
+          "topics": "Interface converters for solar PV, wind, and hybrid systems, Grid synchronization and MPPT control, Role of inverters in smart grid systems, Distributed generation and microgrid control, Energy storage integration using power electronics",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "PEC-562B- ELE",
+      "title": "Artificial Intelligent Tools",
+      "semester": 2,
+      "type": "Program Elective Course",
+      "credits": 3,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "Definition and Evolution of AI, Characteristics of Intelligent Agents, Applications of AI in Electrical Engineering (Power Systems, Control, Fault Detection), AI Programming Languages and Tools Overview (MATLAB, Python, TensorFlow, SciKit-learn), Introduction to AI Techniques: Search, Reasoning, Knowledge Representation",
+          "hours": 8
+        },
+        {
+          "title": "Expert Systems and Fuzzy Logic",
+          "topics": "Architecture and Components of Expert Systems, Rule-based Systems and Inference Engines, Applications of Expert Systems in Fault Diagnosis, Introduction to Fuzzy Sets and Fuzzy Logic, Fuzzy Inference Systems (FIS), Applications of Fuzzy Logic in Control Systems and Load Forecasting",
+          "hours": 8
+        },
+        {
+          "title": "Artificial Neural Networks (ANNs)",
+          "topics": "Biological Neuron and Artificial Neuron Models, Perceptron and Multi-Layer Perceptron (MLP), Learning Algorithms: Backpropagation, Gradient Descent, Activation Functions, Applications of ANN in Power System Load Forecasting, Protection and Control, Hands-on with ANN Toolbox (MATLAB/Python)",
+          "hours": 8
+        },
+        {
+          "title": "Machine Learning and Deep Learning",
+          "topics": "Introduction to Machine Learning (ML): Supervised, Unsupervised, Reinforcement Learning, Decision Trees, Support Vector Machines (SVM), K-NN, Introduction to Deep Learning: Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Applications in Condition Monitoring, Energy Management, Tools: Scikit- learn, Keras, TensorFlow (Basic hands-on)",
+          "hours": 8
+        },
+        {
+          "title": "AI Applications in Electrical Engineering and Industry 4.0",
+          "topics": "Smart Grid and Energy Management Systems, Fault Detection and Classification in Power Systems using AI, Predictive Maintenance and Health Monitoring, AI for Industrial Automation and Robotics, Integration of AI with IoT and Edge Computing, Case Studies: Renewable Energy Forecasting, EV Battery Management",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "SEM-581- ELE",
+      "title": "Technical Seminar-I",
+      "semester": 2,
+      "type": "Seminar",
+      "credits": 2,
+      "pages": [
+        45,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "RM-601-ELE",
+      "title": "Research Methodology",
+      "semester": 3,
+      "type": "RM",
+      "credits": 4,
+      "pages": [
+        50,
+        52
+      ],
+      "units": [
+        {
+          "title": "Definition and Characteristics of Research",
+          "topics": "Basic of Research: Definition; Concept of Construct, Postulate, Proposition, Thesis, Hypothesis, Law, Principle. Philosophy and validity of research. Objective of research. Various functions that de - scribe characteristics of research such as systematic, valid, verifiable, empirical and critical approach. Types - Pure and applied research. Descriptive and explanatory research. Qualitative and quantitative approaches. Engineering Research : Why? Research Questions, Engineering Ethics, conclusive proof -what constitutes, A research project-Why take on? Case Study: Code of Ethics, IEEE Code of Ethics, ACM Software Engineering Code of Ethics and Professional Practice, Code of Ethics especially covering Engineering discipline, various aspects- environment, sustainable outcomes, employer, general public, and Nation, Engineering Disasters.",
+          "hours": 10
+        },
+        {
+          "title": "Literature Search and Review",
+          "topics": "Literature Review, Types of Review, Developing the objectives, Preparing the research design including sample Design, Sample size. Archival Literature, why should engineers be ethical? Types of publications- Journal papers, conference papers, books, standards, patents, theses, trade magazine, newspaper article, infomercials, advertisement, Wikipedia & websites, Measures of research impact, publication cost. Case Study: Engineering dictionary, Shodhganga, The Library of Congress, Research gate, Google Scholar, Bibliometrics, Citations, Impact Factor, h-index, I-index, plagiarism, copyright infringement",
+          "hours": 10
+        },
+        {
+          "title": "Analysis of Variance and Covariance",
+          "topics": "Basic principle of Analysis of Variance, ANOVA Technique, Setting up Analysis of Variance Table, short -cut method for oneway ANOVA, Coding method, Two -way ANOVA, ANOVA in Latin -square design, analysis of co-variance (ANCOVA), assumptions in ANCOVA. Academic Ethics: Plagiarism, exposure on anti-plagiarism tools.",
+          "hours": 10
+        },
+        {
+          "title": "Technical Writing and IPR",
+          "topics": "Academic writing, sources of information, assessment of quality of journals and articles, writing scientific report, structure and component of research report, types of report – technical reports and thesis, SCOPUS Index, citations, search engines beyond google, impact factor, H-Index. IPR: What is IPR? The importance of patents, types of IPR, and process of patent.",
+          "hours": 10
+        },
+        {
+          "title": "Outcome of Research and Research Presentation",
+          "topics": "Relevance, interest, available data, choice of data, Analysis of data, Generalization and interpretation of analysis, Preparation of the Report on conclusions reached, testing validity of research outcomes, Suggestions and recommendations, identifying future scope. Research presentation: Introduction, Standard terms, Standard research methods and experimental techniques, Paper title and keywords, Writing an abstract, Paper presentation and review, Conference presentations, Poster presentations, IPR, Copyright, Patents. Case Study: Intellectual Property India- services, InPASS - Indian Patent Advanced Search System, US patent, IEEE / ACM Paper templates.",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "OJT-602-ELE",
+      "title": "On Job Training/ Internship",
+      "semester": 3,
+      "type": "OJT/ Internship",
+      "credits": 5,
+      "pages": [
+        53,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-603-ELE",
+      "title": "Technical Seminar-II",
+      "semester": 3,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        55,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-604-ELE",
+      "title": "Research Project- I",
+      "semester": 3,
+      "type": "Research Project",
+      "credits": 9,
+      "pages": [
+        59,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "SEM-651- ELE",
+      "title": "Technical Seminar - III",
+      "semester": 4,
+      "type": "Seminar",
+      "credits": 4,
+      "pages": [
+        63,
+        66
+      ],
+      "units": []
+    },
+    {
+      "code": "RPR-652- ELE",
+      "title": "Research Project- II",
+      "semester": 4,
+      "type": "Research Project",
+      "credits": 18,
+      "pages": [
+        67,
+        69
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

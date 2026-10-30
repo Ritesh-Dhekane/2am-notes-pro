@@ -1,0 +1,222 @@
+{
+  "id": "honours-in-agenetic-ai-21072026",
+  "kind": "programme",
+  "programme": "Honour Course in Agentic AI",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HAAI301COM",
+      "title": "Applied Intelligent Systems",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        7,
+        9
+      ],
+      "units": [
+        {
+          "title": "LLMs & Foundation Models",
+          "topics": "Introduction to Language Models, Transformer Architecture Deep Dive, Tokenization & Vocabulary, Pre-training & Foundation Models, Fine-tuning Strategies, Evaluation & Benchmarking",
+          "hours": 9
+        },
+        {
+          "title": "Prompt Engineering & RAG",
+          "topics": "Foundations of Prompt Engineering, Advanced Prompting Strategies, Retrieval-Augmented Generation (RAG) – Foundations, Advanced RAG Architectures, RAG Evaluation & Optimization, Prompt Safety & Guardrails",
+          "hours": 9
+        },
+        {
+          "title": "Vector Databases & Embedding",
+          "topics": "Text Embedding – Theory & Practice, Similarity & Distance Metrics, Vector Database Systems, Building Semantic Search Systems, Embedding Fine-tuning & Domain Adaptation, Production Considerations & Optimization",
+          "hours": 9
+        },
+        {
+          "title": "Multimodal AI (Vision, Audio, Text)",
+          "topics": "Foundations of Multimodal Learning, Vision-Language Models (VLMs), Image Generation & Editing, Audio AI – Speech & Sound, Multimodal RAG & Retrieval, Building Multimodal Applications",
+          "hours": 9
+        },
+        {
+          "title": "AI APIs & Integration Patterns",
+          "topics": "Major AI API Ecosystems, Orchestration Frameworks, Tool Use & Function Calling, Agentic AI Systems, Deployment & Production Patterns, Security, Ethics & Governance",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HAAI302COM",
+      "title": "Intelligent System Laboratory",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        10,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "HAAI351COM",
+      "title": "Agentic AI",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        14
+      ],
+      "units": [
+        {
+          "title": "Agent Architectures & Reasoning",
+          "topics": "What is an AI Agent?, Classical Agent Architectures, LLM-Powered Agent Architectures, Reasoning in AI Agents, Agent Environment & Perception, Agent Evaluation & Reliability",
+          "hours": 9
+        },
+        {
+          "title": "Tool Use & Function Calling",
+          "topics": "The Tool-Use Paradigm, OpenAI Function Calling & Tool Use API, Anthropic Claude Tool Use API, Designing Production Tool Systems, Built-in and Composite Tools, Advanced Tool Patterns",
+          "hours": 9
+        },
+        {
+          "title": "Memory Systems (Short & Long Term)",
+          "topics": "Memory in Cognitive Systems vs. AI Agents, In-Context Memory (Short-Term), External/ Semantic Memory (Long-Term), Episodic Memory, Procedural Memory, Memory Orchestration & Architecture",
+          "hours": 9
+        },
+        {
+          "title": "Planning & ReAct Frameworks",
+          "topics": "Planning in AI Agents, Task Decomposition Strategies, ReAct Framework — Reasoning + Acting Advanced Planning Frameworks, LangGraph for Agentic Workflows, Plan Execution, Monitoring & Recovery",
+          "hours": 9
+        },
+        {
+          "title": "Multi-Agent Collaboration",
+          "topics": "Foundations of Multi-Agent Systems, Multi-Agent Architectures, AutoGen Framework, CrewAI Framework, LangGraph Multi-Actor Patterns, Safety, Trust & Governance in Multi-Agent Systems",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HAAI352COM",
+      "title": "Agentic AI Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        15,
+        16
+      ],
+      "units": []
+    },
+    {
+      "code": "HAAI401COM",
+      "title": "AI Workflow & Orchestration",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Pipeline Design & DAGs",
+          "topics": "What is a Pipeline? From Scripts to Production Workflows, Directed Acyclic Graphs (DAGs) — Theory, Apache Airflow — Deep Dive, Prefect — Modern Python-Native Workflows, AI-Specific Pipeline Patterns, Pipeline Reliability & Testing",
+          "hours": 9
+        },
+        {
+          "title": "LangGraph & Orchestration Frameworks",
+          "topics": "Orchestration vs. Pipeline Execution, LangGraph Architecture — Advanced, Advanced LangGraph Patterns, Complementary Orchestration Frameworks, Workflow State Management, Workflow Scheduling, Triggers & Events",
+          "hours": 9
+        },
+        {
+          "title": "Human-in-the-Loop Systems",
+          "topics": "Human-in-the-Loop (HITL) — Principles & Motivation, HITL Design Patterns, LangGraph HITL Implementation, Audit Trails & Accountability, Active Learning & Feedback Loops, HITL UX & Interface Design",
+          "hours": 9
+        },
+        {
+          "title": "Monitoring, Logging & Observability",
+          "topics": "The Three Pillars of Observability, Structured Logging for AI Pipelines, Metrics & Dashboards, Distributed Tracing for AI Workflows, Alerting & Incident Response, AI-Specific Observability — LLM Quality Monitoring",
+          "hours": 9
+        },
+        {
+          "title": "Scalable Deployment Patterns",
+          "topics": "Containerisation with Docker, Kubernetes for AI Workloads, Serverless & Function-as-a-Service Patterns, AI Model Serving & Inference Infrastructure, CI/CD for AI Pipelines, Cost Optimisation & FinOps for AI",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HAAI402COM",
+      "title": "AI Workflow & Orchestration Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "HAAI451COM",
+      "title": "Advanced AI Prototyping",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        22,
+        24
+      ],
+      "units": [
+        {
+          "title": "Product Ideation & AI Scoping",
+          "topics": "AI Product Thinking — Where AI Adds Genuine Value, Design Thinking for AI Products, Jobs-to-be-Done (JTBD) Framework for AI, The AI Canvas & Problem Scoping, Competitive Landscape & Differentiation, Product Specification & Success Metrics",
+          "hours": 9
+        },
+        {
+          "title": "Rapid Prototyping with AI Tools",
+          "topics": "The Rapid Prototyping Mindset, AI-Assisted Development Tools, Streamlit & Gradio for AI Prototypes, LangChain & LlamaIndex for Prototype Back-ends, Prototyping Multimodal AI Features, Iteration & User Testing Loops",
+          "hours": 9
+        },
+        {
+          "title": "Evaluation & Benchmarking",
+          "topics": "Why Evaluation is the Most Underrated AI Engineering Skill, NLP & LLM Quality Metrics, RAG Evaluation Frameworks, LLM-as-Judge Evaluation, User Studies & Qualitative Evaluation, Evaluation Infrastructure & Continuous Evaluation",
+          "hours": 9
+        },
+        {
+          "title": "AI Safety, Ethics & Responsible Design",
+          "topics": "The Responsible AI Imperative, Bias, Fairness & Inclusive AI Design, LLM Safety & Hallucination Mitigation, Privacy, Data Governance & Security, Environmental Impact & Sustainability, Responsible AI Documentation & Governance",
+          "hours": 9
+        },
+        {
+          "title": "Capstone — End-to-End AI Product Build",
+          "topics": "From Prototype to Production-Ready Product, Full-Stack AI Product Architecture, Product Delivery & Deployment, Product Documentation & Handoff, Capstone Presentation & Critique, AI Product Career Paths & Industry Landscape",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HAAI452COM",
+      "title": "AI Prototyping Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        25,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "HAAI53COM",
+      "title": "Honours Projects",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        26,
+        26
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

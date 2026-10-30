@@ -309,6 +309,22 @@ body {
 .note-prose hr {
   border-color: var(--c-line);
 }
+/* Formulas (KaTeX): a wide one scrolls sideways on its own instead of widening the page. */
+.note-prose .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+.note-prose .katex {
+  font-size: 1.1em;
+}
+.note-prose :not(.katex-display) > .katex {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  vertical-align: middle;
+}
 /* Mermaid diagrams: scaled to the column, scrollable sideways if a diagram is wide. */
 .note-prose .diagram {
   margin: 1.25rem 0;

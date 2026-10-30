@@ -1,0 +1,968 @@
+{
+  "id": "s-y-b-sc-seed-technology-17062025",
+  "kind": "programme",
+  "programme": "S.Y.B.Sc. Seed Technology",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "ST-201-MJ",
+      "title": "Morphology and Seed Development",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition, importance and scope of seed morphology • Overview of seed structure w.r.t. embryo, endosperm and seed coat • Seed as a basic input in agriculture 3L 2.",
+          "hours": null
+        },
+        {
+          "title": "Morphology of Field Crops and Anthesis",
+          "topics": "• Morphology of field crops w.r.t stem, leaf, flower, fruit and seed for varietal identification in seed production program - Maize, Wheat, Cotton, Soyabean, Tomato • Anthesis: Definition and Importance • Environmental Factors Affecting Anthesis • Anthesis and Plant Breeding Applications 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Seed Coat Morphology",
+          "topics": "• Seed Coat structure • Seed coat types-smooth, ribbed and winged • Seed coat function • Seed coat adaptation for different environments including desiccation, tolerance, and water impermeability 3L 4.",
+          "hours": null
+        },
+        {
+          "title": "Over View of seed Development",
+          "topics": "• Definition • Stages of seed development-Pollination, Fertilization, Embryogenesis, Seed Coat formation, Endosperm development and Maturation • Importance of seed development 3L 5.",
+          "hours": null
+        },
+        {
+          "title": "Apomixis",
+          "topics": "• Definition and Concept • Types of apomixis 3L • Mechanism of apomixis • Advantages and Applications of apomixis • Challenges and limitations of apomixis Credit-II 15L 6.",
+          "hours": null
+        },
+        {
+          "title": "Parthenogenesis",
+          "topics": "• Definition-Parthenocarpy • Natural and Induced parthenogenesis • Embryo abortion in seed • Role of parthenogenesis in agriculture 3L 7.",
+          "hours": null
+        },
+        {
+          "title": "Embryo Development",
+          "topics": "• Definition • Structure of embryo • Types of monocot and dicot embryo • Development of embryo • Adaptations of embryo for different environments 3L 8.",
+          "hours": null
+        },
+        {
+          "title": "Endosperm Development",
+          "topics": "• Definition • Structure of endosperm • Types of endosperm- Nuclear, Cellular and Helobial • Development of Endosperm • Functions of endosperm 3L 9.",
+          "hours": null
+        },
+        {
+          "title": "Polyembryony",
+          "topics": "• Definition and concept • Types-Natural and Induced Polyembryony • Applications 3L 10.",
+          "hours": null
+        },
+        {
+          "title": "Synthetic Seed",
+          "topics": "• Definition and concept • Somatic Embryogenesis • Encapsulation Techniques • Synthetic Seed Technology • Applications of Synthetic Seeds • Challenges and Limitations 3L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ST-202-MJ",
+      "title": "Principles of Seed Production",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        11,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Seed Production",
+          "topics": "• Definition and concept • Seed Village Concept • Importance of quality seeds • Challenges in seed production • Overview of different seed production systems, including breeder seed, foundation seed, and certified seed production 2L 2.",
+          "hours": null
+        },
+        {
+          "title": "Seed Quality Testing",
+          "topics": "• Definition-Seed Quality and concept • Physical and genetic parameters of seed quality, including genetic and physical purity, moisture, germination, seed health and vigor • Principles and procedures of seed certification, including field inspection and seed sampling 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Seed Production Techniques:",
+          "topics": "• Location and Season • Land requirement and preparation • Seed Source • Sowing: Definition, Time of sowing, Calculation for seed rate, Methods of sowing: Direct: Hand broad casting, Dibbling, Drilling, Indirect: Transplanting • Spacing: Plant to plant and Row to Row 5L • Importance of soil and water testing • Cultural practices- Plant protection and weed control • Isolation distance • Rouging • Harvesting • Threshing 4.",
+          "hours": null
+        },
+        {
+          "title": "Irrigation and Drainage",
+          "topics": "• Definition • Methods of irrigation • Sources of irrigation • Loss due to excess irrigation • Importance of drainage 2L 5.",
+          "hours": null
+        },
+        {
+          "title": "Release of new Variety",
+          "topics": "• Introduction • Evaluation o Station trail o Multilocation trail o Disease and insect pest o Quality test • Identification of entries for release • Release of a variety 3L Credit-II 15L 6.",
+          "hours": null
+        },
+        {
+          "title": "Genetic Purity and its Maintenance",
+          "topics": "• Definition • Steps for maintenance of genetic purity • Checking seed source • Isolation distance and Roughing • Precaution during crossing program • Care during harvesting and threshing 3L 7.",
+          "hours": null
+        },
+        {
+          "title": "Seed Processing components",
+          "topics": "• Definition and concept of seed processing • Various steps in seed processing • Receiving of seed lot • Seed Conditioning • Seed Drying • Seed Cleaning • Seed grading • Seed Treatment- methods: Disinfection and disinfestation; seed treating equipment’s 5L 8.",
+          "hours": null
+        },
+        {
+          "title": "Seed Storage",
+          "topics": "• Definition and need • Stages of seed storage • Containers and packing material • Factors affecting seed storage • Methods of controlling seed damage during storage 3L 9.",
+          "hours": null
+        },
+        {
+          "title": "Seed Marketing",
+          "topics": "• Introduction • Major components of seed marketing • Role of different organizations in seed marketing 2L",
+          "hours": null
+        },
+        {
+          "title": "Seed Production Challenges and Opportunities",
+          "topics": "• Climate Change and Seed Production • Pests and Diseases • Seed Production and Food Security: • Future Trends in Seed Production: Emerging trends and technologies in seed production, including precision agriculture and biotechnology",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "ST-203-MJP",
+      "title": "PRACTICAL BASED ON ST-201-MJ and ST-202-MJ",
+      "semester": 3,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": []
+    },
+    {
+      "code": "ST-241-MN",
+      "title": "Morphology and Seed Development",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition, importance and scope of seed morphology • Overview of seed structure w.r.t. embryo, endosperm and seed coat • Seed as a basic input in agriculture 3L 2.",
+          "hours": null
+        },
+        {
+          "title": "Morphology of Field Crops and Anthesis",
+          "topics": "• Morphology of field crops w.r.t stem, leaf, flower, fruit and seed for varietal identification in seed production program - Maize, Wheat, Cotton, Soyabean, Tomato • Anthesis: Definition and Importance • Environmental Factors Affecting Anthesis • Anthesis and Plant Breeding Applications 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Seed Coat Morphology",
+          "topics": "• Seed Coat structure • Seed coat types-smooth, ribbed and winged • Seed coat function • Seed coat adaptation for different environments including desiccation, tolerance, and water impermeability 3L 4.",
+          "hours": null
+        },
+        {
+          "title": "Over View of seed Development",
+          "topics": "• Definition • Stages of seed development- Pollination, Fertilization, Embryogenesis, Seed Coat formation, Endosperm development and Maturation • Importance of seed development 3L",
+          "hours": null
+        },
+        {
+          "title": "Apomixis • Definition and Concept",
+          "topics": "• Types of apomixis • Mechanism of apomixis • Advantages and Applications of apomixis • Challenges and limitations of apomixis Credit-II 15L 6.",
+          "hours": 3
+        },
+        {
+          "title": "Parthenogenesis",
+          "topics": "• Definition-Parthenocarpy • Natural and Induced parthenogenesis • Embryo abortion in seed • Role of parthenogenesis in agriculture 3L 7.",
+          "hours": null
+        },
+        {
+          "title": "Embryo Development",
+          "topics": "• Definition • Structure of embryo • Types of monocot and dicot embryo • Development of embryo • Adaptations of embryo for different environments 3L 8.",
+          "hours": null
+        },
+        {
+          "title": "Endosperm Development",
+          "topics": "• Definition • Structure of endosperm • Types of endosperm- Nuclear, Cellular and Helobial • Development of Endosperm • Functions of endosperm 3L 9.",
+          "hours": null
+        },
+        {
+          "title": "Polyembryony",
+          "topics": "• Definition and concept • Types-Natural and Induced Polyembryony • Applications 3L 10.",
+          "hours": null
+        },
+        {
+          "title": "Synthetic Seed",
+          "topics": "• Definition and concept • Somatic Embryogenesis • Encapsulation Techniques • Synthetic Seed Technology • Applications of Synthetic Seeds • Challenges and Limitations 3L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ST-242-MN",
+      "title": "Principles of Seed Production",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        17,
+        19
+      ],
+      "units": [
+        {
+          "title": "Introduction to Seed Production",
+          "topics": "• Definition and concept • Seed Village Concept • Importance of quality seeds • Challenges in seed production • Overview of different seed production systems, including breeder seed, foundation seed, and certified seed production 2L 2.",
+          "hours": null
+        },
+        {
+          "title": "Seed Quality Testing",
+          "topics": "• Definition-Seed Quality and concept • Physical and genetic parameters of seed quality, including genetic and physical purity, moisture, germination, seed health and vigor • Principles and procedures of seed certification, including field inspection and seed sampling 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Seed Production Techniques:",
+          "topics": "• Location and Season • Land requirement and preparation • Seed Source • Sowing: Definition, Time of sowing, Calculation for seed rate, Methods of sowing: Direct: Hand broad casting, Dibbling, Drilling, Indirect: Transplanting • Spacing: Plant to plant and Row to Row 5L • Importance of soil and water testing • Cultural practices- Plant protection and weed control • Isolation distance • Rouging • Harvesting • Threshing 4.",
+          "hours": null
+        },
+        {
+          "title": "Irrigation and Drainage",
+          "topics": "• Definition • Methods of irrigation • Sources of irrigation • Loss due to excess irrigation • Importance of drainage 2L 5.",
+          "hours": null
+        },
+        {
+          "title": "Release of new Variety",
+          "topics": "• Introduction • Evaluation o Station trail o Multilocation trail o Disease and insect pest o Quality test • Identification of entries for release • Release of a variety 3L Credit-II 15L 6.",
+          "hours": null
+        },
+        {
+          "title": "Genetic Purity and its Maintenance",
+          "topics": "• Definition • Steps for maintenance of genetic purity • Checking seed source • Isolation distance and Roughing • Precaution during crossing program • Care during harvesting and threshing 3L 7.",
+          "hours": null
+        },
+        {
+          "title": "Seed Processing components",
+          "topics": "• Definition and concept of seed processing • Various steps in seed processing • Receiving of seed lot • Seed Conditioning • Seed Drying • Seed Cleaning • Seed grading • Seed Treatment- methods: Disinfection and disinfestation; seed treating equipment’s 5L 8.",
+          "hours": null
+        },
+        {
+          "title": "Seed Storage",
+          "topics": "• Definition and need • Stages of seed storage • Containers and packing material • Factors affecting seed storage • Methods of controlling seed damage during storage 3L 9.",
+          "hours": null
+        },
+        {
+          "title": "Seed Marketing",
+          "topics": "• Introduction • Major components of seed marketing • Role of different organizations in seed marketing 2L",
+          "hours": null
+        },
+        {
+          "title": "Seed Production Challenges and Opportunities",
+          "topics": "• Climate Change and Seed Production • Pests and Diseases • Seed Production and Food Security: • Future Trends in Seed Production: Emerging trends and technologies in seed production, including pre cision agriculture and biotechnology",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "ST-243-MNP",
+      "title": "PRACTICAL BASED ON ST-241-MN",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        20,
+        20
+      ],
+      "units": []
+    },
+    {
+      "code": "ST-244-MNP",
+      "title": "PRACTICAL BASED ON ST-242-MN",
+      "semester": 3,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        21,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-201-ST-T",
+      "title": "Landscape Gardening",
+      "semester": 3,
+      "type": "Generic Elective / Open Elective",
+      "credits": 2,
+      "pages": [
+        22,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition and concept • Importance and objectives of Landscaping • Principles of landscape gardening • Factors affecting landscape planning • Types of Landscape gardens: Formal and informal 5L",
+          "hours": null
+        },
+        {
+          "title": "Garden Design and Planning:",
+          "topics": "• Concept for creating garden designs and plans • Design and planning tools: Graph paper, pencils and markers, measuring tape, camera and design software • Site analysis • Light and colour in the garden • Other garden features o Landscape paths o Rock garden o Water garden o Miniature garden o Terrarium o Green house 7L",
+          "hours": null
+        },
+        {
+          "title": "Plant Selection for Landscape:",
+          "topics": "• Learning about different types of plants • Characteristics for selection of plants for specific landscapes. 3L Credit-II 15L 4.",
+          "hours": null
+        },
+        {
+          "title": "Tools in Landscape Gardening",
+          "topics": "• Hand tools: Trowels, pruning shears, garden forks, rakes, hoese • Power tools: Lawn mowers, hedge trimmer, chain saws, string trimmers, leaf blowers 5L",
+          "hours": null
+        },
+        {
+          "title": "Plant Care and Maintenance of surroundings • Concept and need",
+          "topics": "• Plant care techniques: Pruning and training, Irrigation, Fertigation, Weed management, Plant protection, Seasonal maintenance tasks",
+          "hours": 5
+        },
+        {
+          "title": "Management of Common Pest and diseases in landscape Gardening:",
+          "topics": "• Insect pest: Aphids, White flies, Caterpillars, Slugs and snails, Spider mites w.r.t way of damage and control measures • Diseases: Powdery mildew, Leaf spot, Root rot, Black spot, Rust w.r.t casual organism, symptoms and control measures 5L Basic Text & Reference Books • Michael Wright, “The Complete Book of Gardening”, Published by Ebury Press. • S. Percy. Lancester (1977), “Gardening in India”, Published by Oxford and IBH Publishing Co. Pvt. Ltd. • Peter Mchay (1987) “Anatomy of Garden”, Published by Wendward. • Trivedi P.P (1983) “home Gardening” Published by ICAR, New Delhi. • Barry W. Starke & John Ormsbee Simonds “Landscape Architecture: A Manual of Environmental Planning and Design” Publisher: McGraw-Hill Education • Norman K. Booth & James E. Hiss “Residential Landscape Architecture: Design Process for the Private Residence” Course Category – Generic Elective (GE)/Open Elective (OE) Course Code –OE-201-ST-T Course Title: Landscape Gardening [No. of Credits: 2 C] [No. of Lectures: 30 L] अभ्यास�माचा उ�ेश • लँडस्क े प िनयोजनात कौशल्ये िवकिसत करणे. • उपलब्ध जिमनीचा �भावीपणे वापर करण्यास त्यांना अनुमती देणे. • वनस्पती आिण घरातील बागांच्या देखभालीब�ल िव�ाथ्या�चे ज्ञान वाढ",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OE-202-ST-T",
+      "title": "Organic Farming",
+      "semester": 3,
+      "type": "Generic Elective / Open Elective",
+      "credits": 2,
+      "pages": [
+        26,
+        29
+      ],
+      "units": [
+        {
+          "title": "Organic Farming • Definition and concept of organic farming",
+          "topics": "• History and evolution of organic farming • Methods: Crop diversity, Soil management, Weed management, Controlling other organisms, Livestock, Genetic modification, Tools • Benefits and challenges of organic farming",
+          "hours": null
+        },
+        {
+          "title": "Integrated Pest Management",
+          "topics": "• Definition and Concept • Importance • Common insect pest in Maharashtra and their way of damage • Control Methods: Physical or mechanical, Chemical and Biological",
+          "hours": null
+        },
+        {
+          "title": "Integrated Weed management",
+          "topics": "• Definition and Concept • Importance • Common weeds in Maharashtra • Control Methods: Physical or mechanical, Chemical and Biological Credit-II 15L",
+          "hours": null
+        },
+        {
+          "title": "Bio pesticides",
+          "topics": "• Definition, concept and advantages • Microbial Bio-Pesticides: Bacteria, fungi, viruses, and protozoa used as bio-pesticides. • Botanical Bio-Pesticides: Plant-derived compounds and extracts used as bio-pesticides. • Bio-Pesticide Formulation and Application • Regulatory frameworks and safety considerations for bio-pesticide use.",
+          "hours": null
+        },
+        {
+          "title": "Bio Fertilizers",
+          "topics": "• Definition and concept • Need of Organic Fertilizer • Benefits of Organic Fertilizer • Plant nutrients in growth and development • Sources of nutrients for Organic Agriculture: Organic Manure – FYM/Rural compost, City compost, Oil cakes, Animal wastes, Vermicompost, Poultry manure, Green Manure, Mycorrhiza, BGA, Azolla, and Liquid Manure-Jeevamrut (Slurry)",
+          "hours": null
+        },
+        {
+          "title": "Vermicomposting",
+          "topics": "• Definition and concept • Importance and benefits of vermicomposting • Earthworm species used in vermicomposting • Vermicomposting process (feeding, maintenance, harvesting) • Factors affecting vermicomposting (temperature, moisture, pH) • Products of vermicomposting: Compost and Vermiwash • Nutrient content and composition of vermicompost • Applications of Vermicompost in agriculture • Application of Vermiwash in agriculture • Economics of Vermicomposting",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "OE-203-ST-T",
+      "title": "Modern Irrigation Techniques",
+      "semester": 3,
+      "type": "Generic Elective / Open Elective",
+      "credits": 2,
+      "pages": [
+        30,
+        33
+      ],
+      "units": [
+        {
+          "title": "Irrigation • Definition",
+          "topics": "• History and Importance of Irrigation • Water sources • Water quality • Water conservation 3L",
+          "hours": null
+        },
+        {
+          "title": "Irrigation systems",
+          "topics": "• Definition and concept • Types of irrigation: o Traditional: Flood, Furrow, Basin and Canal irrigation o Modern: Precision, Sprinkler, Drip, Micro-sprinkler, Rain pipe, Rain gun and subsurface irrigation 5L",
+          "hours": null
+        },
+        {
+          "title": "Drip Irrigation System",
+          "topics": "• Introduction and concept • Components of drip irrigation system • Designing drip irrigation system as per field requirement • Maintenance and troubleshooting of drip system. • Advantages and disadvantage of drip irrigation system • Government schemes for drip irrigation system 7L Credit-II 15L",
+          "hours": null
+        },
+        {
+          "title": "Sprinkler Irrigation System",
+          "topics": "• Introduction and concept • Sprinklers, Micro-sprinklers and rain pipes • Components of Sprinklers, Micro-sprinklers rain pipe systems • Designing as per field requirement • Maintenance and troubleshooting • Advantages and disadvantages • Government schemes for sprinkler irrigation system 9L",
+          "hours": null
+        },
+        {
+          "title": "Precision Irrigation System",
+          "topics": "• Definition and concept • Benefits of precision irrigation • Sensors and monitoring systems 4L • Soil moisture sensor • Weather station and climate monitoring • Automation and control systems: Time-based, Volume-based, Sensor-based",
+          "hours": null
+        },
+        {
+          "title": "Awareness programs",
+          "topics": "• Need of awareness programs regarding modern irrigation systems • Strategies: o Workshops and training sessions o Showcasing modern irrigation techniques in expo’s o Case studies o Distribution of brochures, posters and fact sheets o Feedback forms o Follow-up visits 2L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSC-221-ST-T",
+      "title": "Digital Herbaria",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        34,
+        36
+      ],
+      "units": [
+        {
+          "title": "Irrigation • Definition",
+          "topics": "• History and Importance of Irrigation • Water sources • Water quality • Water conservation 3L",
+          "hours": null
+        },
+        {
+          "title": "Irrigation systems",
+          "topics": "• Definition and concept • Types of irrigation: o Traditional: Flood, Furrow, Basin and Canal irrigation o Modern: Precision, Sprinkler, Drip, Micro-sprinkler, Rain pipe, Rain gun and subsurface irrigation 5L",
+          "hours": null
+        },
+        {
+          "title": "Drip Irrigation System",
+          "topics": "• Introduction and concept • Components of drip irrigation system • Designing drip irrigation system as per field requirement • Maintenance and troubleshooting of drip system. • Advantages and disadvantage of drip irrigation system • Government schemes for drip irrigation system 7L Credit-II 15L",
+          "hours": null
+        },
+        {
+          "title": "Sprinkler Irrigation System",
+          "topics": "• Introduction and concept • Sprinklers, Micro-sprinklers and rain pipes • Components of Sprinklers, Micro-sprinklers rain pipe systems • Designing as per field requirement • Maintenance and troubleshooting • Advantages and disadvantages • Government schemes for sprinkler irrigation system 9L",
+          "hours": null
+        },
+        {
+          "title": "Precision Irrigation System",
+          "topics": "• Definition and concept • Benefits of precision irrigation • Sensors and monitoring systems 4L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSC-222-ST-T",
+      "title": "Modern Irrigation Techniques",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Awareness programs",
+          "topics": "• Need of awareness programs regarding modern irrigation systems • Strategies: o Workshops and training sessions o Showcasing modern irrigation techniques in expo’s o Case studies o Distribution of brochures, posters and fact sheets o Feedback forms o Follow-up visits 2L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "VSC-223-ST-T",
+      "title": "Weed and its Management",
+      "semester": 3,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition and concept • Objectives of IKS • Need and Importance of IKS • Fields of IKS 2L",
+          "hours": null
+        },
+        {
+          "title": "Traditional Medicine System in India (under",
+          "topics": "AYUSH) • Definition and Concept • Medicine Systems in India: Ayurveda, Siddha, Unani, Yoga and Naturopathy and Homeopathy • Other Medicine systems: Ethnomedicine 3L",
+          "hours": null
+        },
+        {
+          "title": "Foundations of Indian Medical Thought",
+          "topics": "• Concept of health (Swasthya) and disease (Vyadhi) • Tridosha theory: Vata, Pitta, Kapha • Panchamahabhuta (Five elements) and Prakriti (body constitution) • Sources of knowledge: Vedas, Charaka Samhita, Sushruta Samhita, Ashtanga Hridayam 3L",
+          "hours": null
+        },
+        {
+          "title": "Ayurveda – Principles and Practice",
+          "topics": "• Eight branches of Ayurveda (Ashtanga Ayurveda) o Kaya Chikitsa (General medicine) o Shalya Tantra (Surgery) o Shalakya Tantra (ENT & Eye diseases) o Kaumarbhritya (Pediatrics) o Agada Tantra (Toxicology) o Rasayana (Rejuvenation) o Vajikarana (Aphrodisiacs) o Bhuta Vidya (Psychiatry) • Ayurvedic diagnostic techniques: Nadi Pariksha (pulse), tongue, eye, urine analysis. 7L • Treatment modalities: o Ahara (diet) o Vihara (lifestyle) o Aushadha (medicine) o Panchakarma (detoxification therapies) • Sanitation, seasonal regimens (Ritucharya), and daily routines (Dinacharya). Credit-II",
+          "hours": null
+        },
+        {
+          "title": "Yoga and Health",
+          "topics": "• Definition and history of Yoga • Ashtanga Yoga (Eight limbs) • Health benefits of Yoga • Therapeutic Yoga for stress, anxiety, lifestyle diseases. • Integration of Yoga with Ayurveda. 4L",
+          "hours": null
+        },
+        {
+          "title": "Siddha and Unani Systems",
+          "topics": "• Siddha medicine: o Definition and concept o Origin and Philosophy o Diagnosis in Siddha medicine o Treatment methods o Medicines used • Unani medicine: o Definition and Concept o Origin and Philosophy o Diagnosis in Unani medicine o Treatment methods o Medicines Used 6L",
+          "hours": null
+        },
+        {
+          "title": "Ethnomedicine: Indigenous Health Systems and",
+          "topics": "Healing Practices • Definition and concept • Ethnic societies in Maharashtra • Ethnomedicinal plants and health care • Integrating Traditional and Modern Medicine: Challenges and Opportunities 3L",
+          "hours": null
+        },
+        {
+          "title": "IKS and Contemporary Healthcare",
+          "topics": "• Scientific validation of Ayurvedic practices. • Integration with modern medicine (AYUSH). • Ethical issues: Intellectual property, biopiracy, standardization. • National and global initiatives (Ministry of AYUSH, Central Council of Indian Medicine (CCIM), WHO) 2L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "IKS-ST-T",
+      "title": "Medicinal Plants in Traditional Systems of Medicine",
+      "semester": 3,
+      "type": "Indian Knowledge System",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "FP-231-ST",
+      "title": "Field Project",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        44,
+        44
+      ],
+      "units": []
+    },
+    {
+      "code": "ST-251-MJ",
+      "title": "Seed Physiology",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition and concept • Chemical composition of seed: carbohydrates, starch, protein, lipids, minerals and vitamins • Importance 2L 2.",
+          "hours": null
+        },
+        {
+          "title": "Water relations of Seed",
+          "topics": "• Water uptake by seeds and seedlings • Seed- soil water relationship • Permeability of seed covering • Temperature effects • After effect of soaking seeds 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Factors affecting germination",
+          "topics": "• Temperature • Maturity • Seed Size • Moon effects • Chemicals • Heavy water • Pressure 3L 4.",
+          "hours": null
+        },
+        {
+          "title": "Respiration",
+          "topics": "• Definition and concept • Factors affecting respiration of seeds • Respiratory quotient • Respiratory enzymes 3L",
+          "hours": null
+        },
+        {
+          "title": "Seed Deterioration and ageing",
+          "topics": "NEP-2020 B.Sc. Seed Technology 2024-2025 • Definition and concept • Stages of seed deterioration • Causes of Seed deterioration • Seed ageing and its effect • Factors influencing seed ageing Credit-II 6.",
+          "hours": 4
+        },
+        {
+          "title": "Seed maturity",
+          "topics": "• Definition and Concept • Physiological changes of fruit during maturity and senescence • Pre-harvest factors affecting the seed quality and the physiology • Biochemical changes during seed maturation • Fruit ripening: A stress acclimation phenomenon 4L 7.",
+          "hours": null
+        },
+        {
+          "title": "Storage and Life span of seeds",
+          "topics": "• Life span Vs storage • Short lived seeds (Recalcitrant) • Long lived seeds (Orthodox) • Factors affecting life span of seeds • Cold storage 4L 8.",
+          "hours": null
+        },
+        {
+          "title": "Seed Dormancy",
+          "topics": "• Definition and concept • Types of dormancy • Factors affecting dormancy • Methods of breaking seed dormancy 4L 9.",
+          "hours": null
+        },
+        {
+          "title": "Seed Vigor and Seed Viability",
+          "topics": "• Definition- Seed Vigor, Seed Viability and concept • Factors affecting seed vigor 3L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ST-252-MJ",
+      "title": "Seed Testing",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        48,
+        50
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition and concept • Importance of seed testing in agriculture • Overview of Seed Testing Process o Purity analysis o Moisture Testing o Germination testing o Vigor testing o Health testing o Genetic Purity Test 2L 2.",
+          "hours": null
+        },
+        {
+          "title": "Seed Testing Organizations and its role",
+          "topics": "• International Seed Testing Association (ISTA) • Association of Official Seed Analysts (AOSA) • Central Seed Testing Laboratory (CSTL) • State Seed Testing Laboratory (SSTL)-Maharashtra • Seed Testing Standards 1. ISTA rules 2. National seed testing standards 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Seed Testing Laboratory",
+          "topics": "• Objectives of Seed Testing • Layout for Seed Testing Laboratory and Furnishing • Staff- Seed Testing Officer/Analyst, Laboratory Manager, Seed Technicians, Quality Assurance Officer, Sample Receptionist, Data Entry Operator, Laboratory Assistant • Seed Testing Equipment. 4L",
+          "hours": null
+        },
+        {
+          "title": "Seed Sampling • Definition and concept",
+          "topics": "NEP-2020 B.Sc. Seed Technology 2024-2025 • General principles of seed sampling • Tools used for seed sampling • Kinds of Sampling • Procedure of Seed Sampling 5.",
+          "hours": 3
+        },
+        {
+          "title": "Receipt and Registration of Seed Samples",
+          "topics": "• Types of seed samples (Service, Certification and Official sample) • Receiving and precautions during registration of samples • Procedure of registration • Heterogeneity test 3L Credit-II 6.",
+          "hours": null
+        },
+        {
+          "title": "Physical Purity Analysis",
+          "topics": "• Definition of physical purity • Composition of seed lot for physical purity analysis: pure seed, Other Crop seed, Weed seed and inert matter • Physical Purity Work Board • Procedure for physical purity analysis by weight and number • Minimum seed certification standards for physical purity percentage by weight for F & C seed 3L 7.",
+          "hours": null
+        },
+        {
+          "title": "Moisture Testing",
+          "topics": "• Definition and concept • Objectives • Methods of moisture testing • Direct: Oven drying • Indirect: Universal moisture meter and Digital moisture meter 3L 8.",
+          "hours": null
+        },
+        {
+          "title": "Germination Testing",
+          "topics": "• Definition and concept • Objectives • General requirements for seed germination testing • Procedure for seed germination testing • Methods for seed germination testing: Paper towel-top of paper (TP) and Between paper; Sand- On and In; Soil- On and In • Seedling evaluation-Normal, Abnormal, Decayed, Un-germinated seeds: hard, Dead and Fresh but un-germinated seed. 3L 9.",
+          "hours": null
+        },
+        {
+          "title": "Seed Vigor Testing",
+          "topics": "• Objectives • Methods for determination of seed vigor • Physical Method- Seed Size, Seed Density, Physical Soundness • Biochemical Method- Seed Viability (TZ test), Electrical conductivity Test 3L 10.",
+          "hours": null
+        },
+        {
+          "title": "Genetic Purity Test",
+          "topics": "• Definition • Objectives • Grow Out Test for determination of genetic purity • Advantages and Disadvantages 2L 11.",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis and Reporting",
+          "topics": "• Test result interpretation • Reporting and documentation 1L NEP-2020 B.Sc. Seed Technology 2024-2025",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ST-253-MJP",
+      "title": "PRACTICAL BASED ON ST-251-MJ and ST-252-MJ",
+      "semester": 4,
+      "type": "Major Core Practical",
+      "credits": 2,
+      "pages": [
+        51,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "ST-291-MN",
+      "title": "Seed Physiology",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition and concept • Chemical composition of seed: carbohydrates, starch, protein, lipids, minerals and vitamins • Importance 2L 2.",
+          "hours": null
+        },
+        {
+          "title": "Water relations of Seed",
+          "topics": "• Water uptake by seeds and seedlings • Seed- soil water relationship • Permeability of seed covering • Temperature effects • After effect of soaking seeds 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Factors affecting germination",
+          "topics": "• Temperature • Maturity • Seed Size • Moon effects • Chemicals • Heavy water • Pressure 3L 4.",
+          "hours": null
+        },
+        {
+          "title": "Respiration",
+          "topics": "• Definition and concept • Factors affecting respiration of seeds • Respiratory quotient • Respiratory enzymes 3L NEP-2020 B.Sc. Seed Technology 2024-2025 5.",
+          "hours": null
+        },
+        {
+          "title": "Seed Deterioration and ageing",
+          "topics": "• Definition and concept • Stages of seed deterioration • Causes of Seed deterioration • Seed ageing and its effect • Factors influencing seed ageing 4L Credit-II 6.",
+          "hours": null
+        },
+        {
+          "title": "Seed maturity",
+          "topics": "• Definition and Concept • Physiological changes of fruit during maturity and senescence • Pre-harvest factors affecting the seed quality and the physiology • Biochemical changes during seed maturation • Fruit ripening: A stress acclimation phenomenon 4L 7.",
+          "hours": null
+        },
+        {
+          "title": "Storage and Life span of seeds",
+          "topics": "• Life span Vs storage • Short lived seeds (Recalcitrant) • Long lived seeds (Orthodox) • Factors affecting life span of seeds • Cold storage 4L 8.",
+          "hours": null
+        },
+        {
+          "title": "Seed Dormancy",
+          "topics": "• Definition and concept • Types of dormancy • Factors affecting dormancy • Methods of breaking seed dormancy 4L 9.",
+          "hours": null
+        },
+        {
+          "title": "Seed Vigor and Seed Viability",
+          "topics": "• Definition- Seed Vigor, Seed Viability and concept • Factors affecting seed vigor 3L",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ST-292-MN",
+      "title": "Seed Testing",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        54,
+        56
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "• Definition and concept • Importance of seed testing in agriculture • Overview of Seed Testing Process o Purity analysis o Moisture Testing o Germination testing o Vigor testing o Health testing o Genetic Purity Test 2L 2.",
+          "hours": null
+        },
+        {
+          "title": "Seed Testing Organizations and its role",
+          "topics": "• International Seed Testing Association (ISTA) • Association of Official Seed Analysts (AOSA) • Central Seed Testing Laboratory (CSTL) • State Seed Testing Laboratory (SSTL)-Maharashtra • Seed Testing Standards 1. ISTA rules 2. National seed testing standards 3L 3.",
+          "hours": null
+        },
+        {
+          "title": "Seed Testing Laboratory",
+          "topics": "• Objectives of Seed Testing • Layout for Seed Testing Laboratory and Furnishing • Staff- Seed Testing Officer/Analyst, Laboratory Manage r, Seed Technicians, Quality Assurance Officer, Sample Receptionist, Data Entry Operator, Laboratory Assistant • Seed Testing Equipment. 4L",
+          "hours": null
+        },
+        {
+          "title": "Seed Sampling • Definition and concept",
+          "topics": "NEP-2020 B.Sc. Seed Technology 2024-2025 • General principles of seed sampling • Tools used for seed sampling • Kinds of Sampling • Procedure of Seed Sampling 5.",
+          "hours": 3
+        },
+        {
+          "title": "Receipt and Registration of Seed Samples",
+          "topics": "• Types of seed samples (Service, Certification and Official sample) • Receiving and precautions during registration of samples • Procedure of registration • Heterogeneity test 3L Credit-II 6.",
+          "hours": null
+        },
+        {
+          "title": "Physical Purity Analysis",
+          "topics": "• Definition of physical purity • Composition of seed lot for physical purity analysis: pure seed, Other Crop seed, Weed seed and inert matter • Physical Purity Work Board • Procedure for physical purity analysis by weight and number • Minimum seed certification standards for physical purity percentage by weight for F & C seed 3L 7.",
+          "hours": null
+        },
+        {
+          "title": "Moisture Testing",
+          "topics": "• Definition and concept • Objectives • Methods of moisture testing • Direct: Oven drying • Indirect: Universal moisture meter and Digital moisture meter 3L 8.",
+          "hours": null
+        },
+        {
+          "title": "Germination Testing",
+          "topics": "• Definition and concept • Objectives • General requirements for seed germination testing • Procedure for seed germination testing • Methods for seed germination testing: Paper towel-top of paper (TP) and Between paper; Sand- On and In; Soil- On and In • Seedling evaluation-Normal, Abnormal, Decayed, Un-germinated seeds: hard, Dead and Fresh but un-germinated seed. 3L 9.",
+          "hours": null
+        },
+        {
+          "title": "Seed Vigor Testing",
+          "topics": "• Objectives • Methods for determination of seed vigor • Physical Method- Seed Size, Seed Density, Physical Soundness • Biochemical Method- Seed Viability (TZ test), Electrical conductivity Test 3L 10.",
+          "hours": null
+        },
+        {
+          "title": "Genetic Purity Test",
+          "topics": "• Definition • Objectives • Grow Out Test for determination of genetic purity • Advantages and Disadvantages 2L 11.",
+          "hours": null
+        },
+        {
+          "title": "Data Analysis and Reporting",
+          "topics": "• Test result interpretation • Reporting and documentation 1L NEP-2020 B.Sc. Seed Technology 2024-2025",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "ST-294-MNP",
+      "title": "PRACTICAL BASED ON ST-291-MN",
+      "semester": 4,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        57,
+        57
+      ],
+      "units": []
+    },
+    {
+      "code": "ST-295-MNP",
+      "title": "PRACTICAL BASED ON ST-292-MN",
+      "semester": 4,
+      "type": "Minor Practical",
+      "credits": 2,
+      "pages": [
+        58,
+        58
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251-ST-P",
+      "title": "Flower Design Techniques",
+      "semester": 4,
+      "type": "Generic Elective / Open Elective",
+      "credits": 2,
+      "pages": [
+        59,
+        60
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-252-ST-P",
+      "title": "Nursery Techniques",
+      "semester": 4,
+      "type": "Generic Elective / Open Elective",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-253-ST-P",
+      "title": "Sericulture Farming",
+      "semester": 4,
+      "type": "Generic Elective / Open Elective",
+      "credits": 2,
+      "pages": [
+        63,
+        64
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-271-ST-P",
+      "title": "Mushroom Technology",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        65,
+        65
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-272-ST-P",
+      "title": "Fermentation Technology",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        66,
+        67
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-273-ST-P",
+      "title": "Agricultural Safety",
+      "semester": 4,
+      "type": "Vocational Skill Course",
+      "credits": 2,
+      "pages": [
+        68,
+        68
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251-ST-P",
+      "title": "Artificial Intelligence and Agriculture",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        69,
+        70
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-252-ST-P",
+      "title": "Sericulture Farming",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        71,
+        71
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-253-ST-P",
+      "title": "Herbal Cosmetics and Nutraceutics",
+      "semester": 4,
+      "type": "Skill Enhancement Course",
+      "credits": 2,
+      "pages": [
+        72,
+        73
+      ],
+      "units": []
+    },
+    {
+      "code": "CEP-232-ST",
+      "title": "Community Engagement Programme (CEP)",
+      "semester": 4,
+      "type": "Community Engagement Programme",
+      "credits": 2,
+      "pages": [
+        74,
+        75
+      ],
+      "units": []
+    }
+  ],
+  "notes": "S.Y.B.Sc. Seed Technology NEP 2020 syllabus covering Semesters III and IV."
+}

@@ -1,0 +1,222 @@
+{
+  "id": "etc-double-minor-electronics-and-communication-syst-21092026",
+  "kind": "programme",
+  "programme": "Double Minor in Electronics & Communication Systems",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "DMCS301ETC",
+      "title": "Electronic Circuits",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        4,
+        5
+      ],
+      "units": [
+        {
+          "title": "Diodes and Applications",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Logic Gates and Digital Circuits",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "MOSFET Circuits",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Voltage Regulators",
+          "topics": "Course Contents",
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Sensors &Transducers",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMCS302ETC",
+      "title": "Electronic Circuits Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        6,
+        6
+      ],
+      "units": []
+    },
+    {
+      "code": "DMCS351 ETC",
+      "title": "Analog Communication",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Fundamentals of Analog Communication and AM Transmission:",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "AM Reception and Demodulation",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "FM Transmission and Reception",
+          "topics": "Course Contents",
+          "hours": 9
+        },
+        {
+          "title": "Noise",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Sampling and Pulse Analog Modulation",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMCS352 ETC",
+      "title": "Analog Communication Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        9,
+        9
+      ],
+      "units": []
+    },
+    {
+      "code": "DMCS401 ETC",
+      "title": "Digital & Mobile Communication",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        10,
+        11
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital Communication",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Mobile Communication",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Mobile Networks",
+          "topics": "Course Contents",
+          "hours": 9
+        },
+        {
+          "title": "Orthogonal Frequency Division Multiplexing",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Mobile Applications and Emerging Technologies",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMCS402 ETC",
+      "title": "Digital & Mobile Communication Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        12,
+        12
+      ],
+      "units": []
+    },
+    {
+      "code": "DMCS 451 ETC",
+      "title": "Broad Band Communication",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        13,
+        14
+      ],
+      "units": [
+        {
+          "title": "Basics of Broadband Communication",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Introduction to Optical Fibre and FTTH",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Broadband Networking and",
+          "topics": "Multimedia Application Course Contents",
+          "hours": 9
+        },
+        {
+          "title": "Wireless Broadband",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Broadband Applications and",
+          "topics": "Emerging Technologies",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "DMCS 452 ETC",
+      "title": "Broad Band Communication Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        15,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "DMCS 452 ETC",
+      "title": "Minor Project",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

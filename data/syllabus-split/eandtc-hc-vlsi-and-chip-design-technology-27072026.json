@@ -1,0 +1,222 @@
+{
+  "id": "eandtc-hc-vlsi-and-chip-design-technology-27072026",
+  "kind": "programme",
+  "programme": "Honor Course in VLSI and Chip Design Technology",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HVT 301ETC",
+      "title": "Digital VLSI CHIP Design",
+      "semester": 5,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Introduction to Digital VLSI Chip Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Fundamentals of HDL",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Insights of HDL",
+          "topics": "HVT 301 ETC - Digital VLSI CHIP Design , Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks End-Semester: 70 Marks Course Objectives: The course aims to: 1. Explain fundamental understanding of VLSI and digital IC design. 2. Develop detail understanding of hardware description languages. 3. Analyze Digital VLSI chip designs proficiency in Verilog/VHDL syntax and semantics. 4. Enable students to apply procedures, tasks, functions, and memory modeling techniques in Verilog/VHDL. 5. Evaluate and implement practical digital designs using HDL-based techniques. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Analyze fundamental concepts of VLSI and digital IC design, and VLSI design methodologies. • CO2: Describe the principles of hardware description languages (Verilog/VHDL). • CO3: Apply the syntax and semantics of Verilog/VHDL to design HDL-based digital circuits using procedures, tasks, functions, and memory modeling techniques. • CO4: Implement and analyze digital circuits using concurrent and sequential constructs and Verilog/VHDL-based design methodologies. • CO5: Design and model sequential circuits ...",
+          "hours": 9
+        },
+        {
+          "title": "Advancements of HDL",
+          "topics": "zReference zRecommended Certifications",
+          "hours": 9
+        },
+        {
+          "title": "State Machines",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HVT 302 ETC",
+      "title": "Logic Synthesis and Verification Lab",
+      "semester": 5,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        11,
+        11
+      ],
+      "units": []
+    },
+    {
+      "code": "HVT 351 ETC",
+      "title": "Analog VLSI CHIP Design",
+      "semester": 6,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Introduction to Analog VLSI Chip Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Analog Amplifiers",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Operational Amplifiers",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Op-Amp Design and advancements",
+          "topics": "HVT 351 ETC- Analog VLSI CHIP Design , Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks End-Semester: 70 Marks Course Objectives: The course aims to: 1. Study Basics of analog IC designing. 2. Analyze different analog amplifiers. 3. Understand the fundamental aspects of operational amplifiers. 4. Understand the Frequency response, stability and noise issues in amplifiers. 5. Evaluate the implementation of different comparators. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Analyze the operating principles and characteristics of basic analog building blocks. • CO2: Design basic amplifiers, differential amplifiers, cascade amplifiers, and high-gain amplifier structures for analog integrated circuit applications. • CO3: Evaluate the characteristics and performance of operational amplifiers, and design basic op-amp circuits considering frequency response and compensation techniques. • CO4: Analyze noise sources and biasing schemes in operational amplifiers, and design high-performance op-amps considering gain, bandwidth, stability, and noise. • CO5: Analyze and design single-stage and two-stage compara...",
+          "hours": 9
+        },
+        {
+          "title": "Comparators",
+          "topics": "zReference zRecommended Certifications",
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HVT 352 ETC",
+      "title": "Schematic Capture and SPICE Simulation Lab",
+      "semester": 6,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        14,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "HVT 401 ETC",
+      "title": "Automated Physical Design",
+      "semester": 7,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Physical Design Fundamentals and Floor planning",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Placement",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Clock Tree Synthesis (CTS)",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Routing",
+          "topics": "HVT 401 ETC- Automated Physical Design , Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE: 30 Marks End-Semester: 70 Marks Course Objectives: The course aims to: 1. To introduce the physical design flow from netlist to GDSII, covering floor planning and power planning. 2. To develop skills in placement and clock tree synthesis using automated EDA tools. 3. To impart techniques for global and detailed routing and congestion resolution. 4. To build competency in post-route timing analysis and timing closure. 5. To enable implementation of a complete automated physical design flow on a sample design. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Develop a floorplan and power plan for a digital IC design • CO2: Implement placement and clock tree synthesis using EDA tools • CO3: Execute global and detailed routing while resolving congestion issues • CO4: Analyze post-route timing reports to identify and fix setup/hold violations • CO5: Construct a complete floorplan-to-GDSII flow for a sample design. z Course Contents Physical design flow overview: netlist-to-GDSII inputs/outputs, Design partitioning, floor planni...",
+          "hours": 9
+        },
+        {
+          "title": "Timing Closure and Physical Signoff",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HVT 402 ETC",
+      "title": "ASIC Implementation Flow Lab",
+      "semester": 7,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        18,
+        18
+      ],
+      "units": []
+    },
+    {
+      "code": "HVT 451 ETC",
+      "title": "Custom Layout",
+      "semester": 8,
+      "type": "Theory",
+      "credits": 3,
+      "pages": [
+        19,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Custom IC Layout",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "CMOS Layout Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Layout Verification",
+          "topics": "HVT 451 ETC - Custom Layout , Teaching Scheme Credits Examination Scheme Theory : 03 Hours/Week 03 CCE : 30 Marks End-Semester: 70 Marks Course Objectives: The course aims to: 1. To Understand the fundamentals of CMOS fabrication, layout design, and VLSI physical design flow. 2. Apply design rules and layout techniques for designing CMOS logic cells using industry-standard and open-source EDA tools. 3. Develop custom layouts for combinational and sequential circuits considering area, delay, and power optimization. 4. Perform layout verification using Design Rule Check (DRC), Layout Versus Schematic (LVS), and parasitic extraction techniques. 5. Analyze complete custom IC layouts from schematic entry to GDSII generation for fabrication readiness. Course Outcomes: Upon successful completion of this course, students will be able to: • CO1: Explain CMOS fabrication technology, layout principles, and physical design methodologies. • CO2: Design custom layouts of CMOS digital circuits using standard design rules and layout techniques. • CO3: Perform layout verification using DRC, LVS, and parasitic extraction and interpret the verification reports. • CO4: Optimize custom layouts consi...",
+          "hours": 9
+        },
+        {
+          "title": "Advanced Physical Design",
+          "topics": null,
+          "hours": 9
+        },
+        {
+          "title": "Applications and Custom Layout Design",
+          "topics": null,
+          "hours": 9
+        }
+      ]
+    },
+    {
+      "code": "HVT 452 ETC",
+      "title": "Physical Verification and Extraction Lab",
+      "semester": 8,
+      "type": "Practical",
+      "credits": 1,
+      "pages": [
+        22,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "HVT 453 ETC",
+      "title": "Honors Project",
+      "semester": 8,
+      "type": "Project",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

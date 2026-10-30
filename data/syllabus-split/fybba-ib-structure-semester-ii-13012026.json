@@ -1,0 +1,130 @@
+{
+  "id": "fybba-ib-structure-semester-ii-13012026",
+  "kind": "programme",
+  "programme": "Bachelor of Business Administration - International Business (BBA-IB)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "FCA-151-T",
+      "title": "Fundamentals of Financial & Cost Accounting",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 4,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "BFM-152-T",
+      "title": "Basics of Financial Management",
+      "semester": 2,
+      "type": "Major Mandatory",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "FMM-153-T",
+      "title": "Fundamentals of Marketing Management",
+      "semester": 2,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-155-CS-T",
+      "title": "AI Tools for Business",
+      "semester": 2,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-153-STS-T",
+      "title": "Business Statistics",
+      "semester": 2,
+      "type": "Open Elective",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "VSC-151-T",
+      "title": "Entrepreneurship & Start-up Management",
+      "semester": 2,
+      "type": "Vocational Skill Development Course (VSC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-151-T",
+      "title": "Basic Managerial Skills",
+      "semester": 2,
+      "type": "Skill Enhancement Course (SEC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "AEC-151-T",
+      "title": "Business Communication skills - II",
+      "semester": 2,
+      "type": "Ability Enhancement Course (AEC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "VEC-151-T",
+      "title": "Democracy Awareness & Gender Sensitization",
+      "semester": 2,
+      "type": "Value Education Course (VEC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    },
+    {
+      "code": "CC-151-T",
+      "title": "Physical Education - II",
+      "semester": 2,
+      "type": "Co-Curricular Courses (CC)",
+      "credits": 2,
+      "pages": [
+        1,
+        1
+      ],
+      "units": []
+    }
+  ],
+  "notes": "Structure table only"
+}

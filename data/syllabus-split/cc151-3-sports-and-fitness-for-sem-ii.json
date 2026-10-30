@@ -1,0 +1,33 @@
+{
+  "id": "cc151-3-sports-and-fitness-for-sem-ii",
+  "kind": "course",
+  "programme": null,
+  "pattern": null,
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CC151_3",
+      "title": "Sports and Fitness",
+      "semester": 2,
+      "type": "Co-Curricular Course",
+      "credits": 2,
+      "pages": [
+        1,
+        4
+      ],
+      "units": [
+        {
+          "title": "Sports",
+          "topics": "In Sports, students are required to complete a written project on any one game or sport. The project may include information such as history, rules and regulations, ground measurements, skills and techniques, major tournaments, and famous players. Project Work: Handwritten project on any sports event including history of the game, ground measurements, skills required, basic rules, and information about award-winning players.",
+          "hours": null
+        },
+        {
+          "title": "Fitness",
+          "topics": "Physical fitness tests to assess different components of health-related fitness such as cardiovascular endurance, muscular strength, muscular endurance, flexibility, speed, and agility. Components and tests include Cooper 12-minute run / Hardward Step test, Push-ups / Pull-ups, Bend Knee Sit-ups / Plank hold, Sit-and-reach test / Shoulder flexibility test, 50 m sprint / Shuttle run, Vertical Jump / Standing Broad Jump.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

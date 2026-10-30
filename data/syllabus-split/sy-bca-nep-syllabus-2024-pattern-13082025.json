@@ -1,0 +1,456 @@
+{
+  "id": "sy-bca-nep-syllabus-2024-pattern-13082025",
+  "kind": "programme",
+  "programme": "S.Y. Bachelor of Computer Applications (BCA)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CA-201-MJ",
+      "title": "Data Structures",
+      "semester": 3,
+      "type": "MJ",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structure",
+          "topics": "1.1 Introduction, Basic concepts, Data types and data objects. 1.2 Abstract Data Types (ADT) 1.3 Types of Data Structures: Linear and non -linear 1.4 Algorithm analysis: Frequency counts, Space and Time complexity, Asymptotic notation: Big O, Omega (Ω) (With examples)",
+          "hours": 10
+        },
+        {
+          "title": "Arrays",
+          "topics": "2.1 Introduction 2.2 Matrix representation using arrays: Row and column major, operations on matrices, Sparse Matrix 2.3 Sorting techniques with time complexity: Bubble sort, Insertion sort, Merge sort, Quick sort 2.4 Searching techniques with time Complexity: Linear search and Binary search",
+          "hours": 10
+        },
+        {
+          "title": "Linked Lists",
+          "topics": "3.1 Introduction 3.2 Representation 3.3 Types of linked lists: Singly, Doubly, Circular (Singly, Doubly) 3.4 Operations on link list: Create, Display, Insert, Delete, Reverse, Search, Sort, Concatenation, Merge 3.5 Real world applications of Link list : Polynomial Representation, Addition of two polynomials",
+          "hours": 10
+        },
+        {
+          "title": "Stacks and Queues",
+          "topics": "4.1 Introduction 4.2 Representation of Stack: Using arrays and Linked Lists 4.3 Operations on stack: push, pop 4.4 Applications of Stack: Recursion, Expressions: Infix to postfix, postfix to infix 4.5 Representation of Queues: Static (Array) and Dynamic (Linked List) 4.6 Operations on queue: insert, delete 4.7 Types of queues: Circular queue and Priority queue 4.8 Real world Applications of queue (Implementation not expected)",
+          "hours": 10
+        },
+        {
+          "title": "Trees",
+          "topics": "5.1 Introduction and terminologies 5.2 Types of Binary Trees -Rooted Binary Tree, Full Binary Tree, Complete Binary Tree and Skewed Binary Tree, Expression Tree 5.3 Representation of Trees using arrays and linked lists, traversals (In-order, pre-order, post- order) and operations (Create, Insert, delete, modify, counting nodes etc.) 5.5 Applications of Binary trees – Expression conversions and evaluation 5.6 Binary Search Tree (BST): Introduction and Definition, operations on BST (Create, insert node, delete node, search node) and applications",
+          "hours": 10
+        },
+        {
+          "title": "Graphs",
+          "topics": "6.1 Introduction and Graph terminologies 6.2 Representation of a Graph - 6.2.1 Adjacency matrix 6.2.2 Adjacency list 6.2.3 Adjacency multi-list 6.3 Graph Traversals - 6.3.1 DFS (Depth First Search) 6.3.2 BFS (Breadth First Search) Books 1. Horowitz, Ellis and Sahani Sartaj, “Fundamentals of Data Structures”,1st Edition, Galgotia,1984 2. Kamthane, Ashok N., “Introduction to Data Structures using C”,1st Edition, Pearson,2004 3. Bandopadhya, S. K. and Dey, K. S. “Data Structures using C”, 1st Edition, Pearson, 2004 4. Srivastava, S. K. and Srivastava, D., “Data Structures using C”,1st Edition, BPB Publication, 2004 5. Gilberg, Richard F. and Forouzan, Behrouz A., “Data Structures: A Pseudocode approach with C”, 2nd Edition, Cengage Learning, 2007 6. Steven S. S, “The Algorithm Design Manual”, 2nd Edition, Springer, 2008",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CA-202-MJP",
+      "title": "Lab course on CA- 201 -MJ",
+      "semester": 3,
+      "type": "MJP",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-221-VSC",
+      "title": "C++ Programming",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": [
+        {
+          "title": "Introduction to CPP",
+          "topics": "1.1 Basic concepts, advantages and applications of OOP 1.2 Introduction, applications of C++ 1.3 Input and Output operator in C++ 1.4 Elementary C++ program",
+          "hours": 2
+        },
+        {
+          "title": "Beginning with CPP",
+          "topics": "2.1 Data type and Keywords 2.2 Declaration of variables, dynamic initialization of variables, reference variable 2.3 Operators: Scope resolution operator, Memory management operators 2.4 Manipulators 2.5 Functions: Function prototyping, call by reference and return by reference, Inline functions",
+          "hours": 5
+        },
+        {
+          "title": "Classes and Objects",
+          "topics": "3.1 Class, Object and its structure 3.2 Access specifiers, defining data member 3.3 Defining member functions 3.4 C++ program using class 3.5 Memory allocation 3.6 Static data members and static member functions 3.7 Array of objects 3.8 Friend function and Friend class",
+          "hours": 6
+        },
+        {
+          "title": "Constructors & Destructors",
+          "topics": "4.1 Constructors and its types 4.2 Multiple constructors in a class and with default argument 4.3 Dynamic constructor 4.4 Destructor",
+          "hours": 5
+        },
+        {
+          "title": "Inheritance",
+          "topics": "5.1 Introduction: Defining Base class and Derived class 5.2 Types of Inheritance 5.3 Virtual base class and abstract class",
+          "hours": 4
+        },
+        {
+          "title": "Polymorphism",
+          "topics": "6.1 Compile Time Polymorphism: Introduction, rules for overloading operators, Function overloading, Operator Overloading, String manipulation using operator overloading 6.2 Runtime Polymorphism: Virtual functions and pure virtual functions",
+          "hours": 4
+        },
+        {
+          "title": "Managing console, I/O operations",
+          "topics": "7.1 C++ streams and C++stream classes 7.2 Formatted and Unformatted I/O operations 7.3 File Handling: Stream Classes for File operations, File operations -Opening, Closing and updating, File updating with random access. Error handling during File operations Books 1. Balagurusamy, E., \"Object-Oriented Programming with C++\", 8th Edition, McGraw Hill Education, 2020. 2. Stroustrup, Bjarne, \"The C++ Programming Language\", 4th Edition, Addison-Wesley Professional, 2013. 3. Lippman, Stanley B., Lajoie, Josée, and Moo, Barbara E., \"C++ Primer\", 5th Edition, Addison-Wesley Professional, 2012. 4. Stroustrup, Bjarne, \"Programming: Principles and Practice Using C++\", 2nd Edition, Addison-Wesley Professional, 2014. 5. Schildt, Herbert, \"The Complete Reference C++\", 4th Edition, McGraw Hill Education, 2003. 6. Lafore, Robert, \"Object Oriented Programming in C++\", 4th Edition, Sams Publishing, 2002.",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "code": "CA-222-VSCP",
+      "title": "Lab course on CA- 221",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-231-FP",
+      "title": "Field Work",
+      "semester": 3,
+      "type": "FP",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "ELS-241-MN",
+      "title": "Data Communication (Networking)",
+      "semester": 3,
+      "type": "MN",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Communication",
+          "topics": "1.1 Definition and components of data communication 1.2 Data representation (text, numbers, audio, video) 1.3 Communication models: Sender, Receiver, Medium, Message, Protocol 1.4 Types of data transmission: Analog vs Digital 1.5 Data flow directions: Simplex, Half-duplex, Full-duplex 1.6 Networks and their categories (LAN, WAN, MAN) 1.7Protocols and standards",
+          "hours": 5
+        },
+        {
+          "title": "Transmission Media",
+          "topics": "2.1 Guided Media: Twisted pair, Coaxial cable, Optical fiber 2.1 Unguided Media: Radio waves, Microwaves, Infrared 2.2 Comparison of media types (speed, cost, distance, security) 2.3 Transmission impairments: Attenuation, Noise, Distortion",
+          "hours": 5
+        },
+        {
+          "title": "Data Encoding and Transmission",
+          "topics": "3.1 Digital-to-Digital Encoding (NRZ, Manchester, etc.) 3.2 Analog-to-Digital Conversion (Sampling, Quantization, PCM, Delta Modulation) 3.3 Digital-to-Analog (ASK, FSK, PSK, QAM) 3.4 Analog-to-Analog (AM, FM, PM) 3.5 Bandwidth and Bitrate 3.6 Transmission Modes: Synchronous & Asynchronous",
+          "hours": 5
+        },
+        {
+          "title": "Network Devices and Topologies",
+          "topics": "4.1 Devices: Hub, Switch, Router, Bridge, Gateway, Modem 4.2 Network Topologies: Bus, Ring, Star, Mesh, Hybrid 4.3 Comparison and Applications of each topology",
+          "hours": 5
+        },
+        {
+          "title": "Emerging Trends in Data Communication",
+          "topics": "5.1 Mobile communication (4G/5G overview) 5.2 Wireless networks (Wi-Fi, Bluetooth, Zigbee) 5.3 Satellite Communication 5.4 IoT (Internet of Things) basics 5.5 Network virtualisation & cloud-based networking Books 1. Data Communications and Networking – Behrouz A. Forouzan – McGraw-Hill Education 2. Data and Computer Communications – William Stallings – Pearson Education 3. Computer Networks – Andrew S. Tanenbaum, David J. Wetherall – Pearson Education 4. Computer Networks – Atul Kahate – McGraw-Hill Education 5. Data Communications and Computer Networks – Prakash C. Gupta – PHI Learning 6. Computer Networking: A Top-Down Approach – James F. Kurose, Keith W. Ross – Pearson Education 7. Data Communication and Networking – Satish Jain – BPB Publications 8. Fundamentals of Data Communication and Computer Networks – D.L. Varshney – S.K. Kataria & Sons 9. Data Communication & Networks – Achyut S. Godbole – Tata McGraw-Hill 10. Understanding Data Communications and Networks – William A. Shay – Brooks/Cole 11. Introduction to Data Communications and Networking – Wayne Tomasi – Pearson Education",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "ELS-242-MNP",
+      "title": "Lab Course on ELS - 241 –MN",
+      "semester": 3,
+      "type": "MNP",
+      "credits": 2,
+      "pages": [
+        32,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-200-IKS",
+      "title": "Indian Knowledge System for Computing",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        34,
+        35
+      ],
+      "units": [
+        {
+          "title": "Introduction to Indian Knowledge Systems (IKS)",
+          "topics": "1.1 Introduction IKS 1.2 Defining Indian Knowledge System (IKS) and its components, 1.3 Contribution of Aryabhata and Brahmagupta, Buddhist logico-epistemology 1.4 The knowledge triangle 1.5 Prameya -A vaiśeṣikan approach to physical reality 1.6 Dravyas -the constituents of the physical reality 1.7 Attributes -the properties of substances and Action -the driver of conjunction and disjunction 1.8 sāmānya, viśēṣa, samavāya 1.9 Pramāṇa -the means of valid knowledge 1.10 Samsaya-ambiguities in existing knowledge.",
+          "hours": 5
+        },
+        {
+          "title": "Number Systems and Units of Measurement",
+          "topics": "2.1 Number systems in India -Historical evidence 2.2 Salient Features of the Indian Numeral System 2.2.1 Concept of zero and its importance, 2.2.2 Large numbers and their representation 2.2.3 Place Value of Numerals 2.2.4 Decimal System 2.3 Unique approaches to represent Numbers 2.3.1 Bhūta-Saṃkhyā system 2.3.2 Śūnyabindu System 2.3.3. Piṅgala and the Binary system 2.4. Measurements for time, distance, and weight in ancient India",
+          "hours": 12
+        },
+        {
+          "title": "Linguistics",
+          "topics": "3.1 Introduction to Linguistics 3.2 Aṣṭādhyāyī 3.3 Phonetics 3.4 Word generation 3.5 Computational aspects 3.6 Mnemonics 3.7 Recursive operations -Introduction to use of Kaprekar Constant 6174 in recursion 3.8 Rule based operations 3.9 Sentence formation 3.10 Verbs and prefixes 3.11 Role of Sanskrit in natural language processing",
+          "hours": 8
+        },
+        {
+          "title": "Ancient Cryptography and Security Systems",
+          "topics": "4.1 The Evolution of India’s Intelligence Culture-Kautilya’s Discourse on Secret Intelligence in the Arthashastra 4.2 Kaṭapayādi system 4.3 Steganography in Kautilya’s Arthashastra 4.4 Cryptographic methods in ancient Indian texts 4.5 Relevance to modern-day cybersecurity and encryption 4.6 Introduction to use of Kaprekar Constant (6174) in cryptography Books 1. B. Mahadevan, Vinayak Rajat Bhat, and R.N. Nagendra Pavana, “Introduction to Indian Knowledge System: Concepts and Applications”, PHI Learning, 2022. 2. Dee Hetvik, “Ancient Indian encryption: KaTaPaYadi system”, Kindle Edition 3. https://www.geeksforgeeks.org/kaprekar-constant/",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CA-241-MN",
+      "title": "Programming with Python",
+      "semester": 3,
+      "type": "MN",
+      "credits": 2,
+      "pages": [
+        50,
+        52
+      ],
+      "units": [
+        {
+          "title": "Introduction to Python",
+          "topics": "1.1 Introduction 1.1.1. Python identifiers and reserved words 1.1.2. Lines and indentation, multi-line statements and Comments 1.1.3. Input/output with print and input functions 1.1.4. Command line arguments and processing command linear augments 1.2 Data Types 1.2.1 Standard data types -basic, none, Boolean, numbers 1.2.2. Data type conversion 1.3 Operators 1.3.1 : Basic operators (Arithmetic, comparison, assignment, bitwise, logical) 1.3.2 Membership operators (in, not in) 1.3.3. Identity operators (is, is not) 1.4 Control Statement 1.4.1 Conditional/decision statements (if, if—else, elif, 1.4.2. Loop Control Structure (while, Do--while, for) 1.4.3 Selection Control Statement (Switch case, Pass, Continue, Break) 1.5 Basic Object-Oriented Programming Concepts in Python 1.5.1 Creating classes, instance, objects, accessing members 1.5.2 Data hiding (the double underscore prefix) 1.5.3 Built-in class attributes 1.5.4 Garbage collection 1.5.5 Constructor 1.6 Applications of Python",
+          "hours": 5
+        },
+        {
+          "title": "Functions and Strings",
+          "topics": "2.1 Introduction to function 2.1.1 Defining a function, calling a function 2.1.2 Types of function (Built-in, function, user-defined function, lambda function /anonymous function, recursive function) 2.1.3 Function arguments 2.1.4 Global and Local variable, Examples 2.1.5 Math Functions 2.1.6 Functional programming tools -filter( ), map( ), and reduce( ) 2.2 Introduction to string 2.2.1 Declaration and String manipulation -Accessing String, String Slices. 2.2.2 Documentation Strings-Single quotes, Double quotes, Triple quotes, Raw String 2.2.3 Python string operators, escape character 2.2.4 String formatting operator 2.2.5 Built-in String functions / Methods",
+          "hours": 7
+        },
+        {
+          "title": "Tuple, Set and Dictionary",
+          "topics": "3.1 Introduction to tuple 3.1.1 Tuple definition, accessing tuple values, update and delete tuple elements 3.1.2 Basic Tuple operations 3.1.3 Tuple -Indexing and slicing 3.1.4 Built in tuple functions 3.1.5 Applications of tuple 3.2 Introduction to set 3.2.1 Create, update and remove elements from set 3.2.2 Set operations 3.2.3 Set built-in functions 3.2.4 Applications of set 3.3 Introduction to Dictionary 3.3.1 Creating and accessing values in a dictionary 3.3.2 Updating dictionary, delete dictionary elements 3.3.3 Properties of dictionary keys 3.3.4 Built-in dictionary functions and methods",
+          "hours": 8
+        },
+        {
+          "title": "Modules and Packages",
+          "topics": "4.1 Introduction to Module 4.2 Types of Module and Examples 4.2.1 Built_in Module (Math expression) module, Random module, Time module, regular 4.2.2 User Defined Module (creation and import) 4.2.3 External Module (Python libraries-NumPy, Pandas, Matplotlib, Seaborn) 4.3 Introduction to Package 4.3.1 Importing and creating package 4.3.2 Example of packages",
+          "hours": 4
+        },
+        {
+          "title": "File Handling, Data Handling using Data Frames",
+          "topics": "5.1 Introduction to file 5.1.1 Definition 5.1.2 Types of files (Text, Binary and CSV file) 5.1.3 File Opening Modes (r, r+, w, w+, a, a+) 5.1.4 Creating files and Operations on files (open, close, read, write) 5.2 Data Manipulation 5.2.1 Creating Data Frame -User define, using csv file 5.2.2 View Data Frame 5.2.3 Preprocessing on Data Frame -Null Values, Duplicate values 5.2.4 Modify Data in Data Frame 5.2.5 Grouping and Aggregating Data 5.3 Data Visualization (Histogram, Line chart, Bar chart, Scatter plot ) Books 1. Lubanovic Bill, “Introducing Python-Modern Computing in Simple Packages”, 1st Edition, O’Reilly Publication, 2014 2. Montojo, Jason., Campbell, Jennifer and Gries, Paul, “Practical Programming: An Introduction to Computer Science using Python 3”, 2nd Edition, O’Reilly, 2013 3. Dierbach Charles., “Introduction to Computer Science Using Python”, 1st Edition, Wiley Publication, 2015 4. Mueller, John P., “Beginning Programming with Python for Dummies”, 1st Edition, Dummies, 2014 5. A Beginner’s Python Tutorial: http://en.wikibooks.org/wiki/ABeginner%27s",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CA-242-MNP",
+      "title": "Lab Course on CA – 241 - MN",
+      "semester": 3,
+      "type": "MNP",
+      "credits": 2,
+      "pages": [
+        53,
+        53
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-201-CA",
+      "title": "Introduction to Artificial Intelligence",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        59,
+        60
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "1.1 Introduction 1.2 Comparison of AI, Machine Learning, Deep Learning 1.3 Applications of AI 1.4 AI Techniques 1.5 Agents and Types of Agents, Agents and Environments, Structure of Agents",
+          "hours": 4
+        },
+        {
+          "title": "Problems, Problem Spaces and search",
+          "topics": "2.1 Defining problem as a State Space Search 2.2 Production System 2.3 Problem Characteristics 2.4 Search and Control Strategies 2.5 Problems- Water Jug problem, Missionary Cannibal Problem, Block words Problem, Monkey and Banana problem",
+          "hours": 4
+        },
+        {
+          "title": "Knowledge Representation and Introduction to Searching",
+          "topics": "Algorithms 12 Hrs. 3.1 Knowledge Representation 3.1.1 Introduction 3.1.2 Types of knowledge 3.1.3 Approaches to Knowledge Representation 3.1.4 Applications of Knowledge Representation 3.2 Search Algorithm 3.2.1 Elements of AI search algorithms 3.2.2 Importance of Search Algorithm 3.2.3 Types of AI search algorithms (BFS, DFS, A* and AO*) 3.2.4 Applications",
+          "hours": null
+        },
+        {
+          "title": "Machine Learning",
+          "topics": "4.1 Introduction to Machine Learning 4.2 Key concept of Machine Learning (Data, Model, Training, Labels, Features) 4.3 Types of Machine Learning (Supervised, Unsupervised and Reinforcement Learning) 4.4 Deep Learning: Natural Language Processing, Computer Vision, Speech Recognition, Robotics, Generative AI. 4.5 Applications Books 1. Knight, Kelvin. and Rich, Elaine., “Artificial Intelligence”, 3rd Edition, Mc-Graw Hill Publication, 2017 2. Ertel, Wolfgang and Black Nathanael T., “Introduction to Artificial Intelligence”, Springer,2011 3. Mitchell, Tom M., “Machine Learning”, McGraw Hill, 1997 4. Nilsson Nils J., “Artificial Intelligence: A New Synthesis”, Morgan Kaufman, 1998 5. Ethem, Alpaydin., “Introduction to Machine Learning”,3rd Edition, PHI Publication, 2015",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "CA-251-MJ",
+      "title": "Database Management Systems",
+      "semester": 4,
+      "type": "MJ",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction",
+          "topics": "1.1 Introduction to DBMS 1.2 File system Vs. DBMS 1.3 Data models -relational, hierarchical, network 1.4 Levels of abstraction 1.5 Data independence 1.6 Structure of DBMS 1.7 Users of DBMS 1.8 Advantages and disadvantages of DBMS",
+          "hours": 6
+        },
+        {
+          "title": "Conceptual and Relational Database Design",
+          "topics": "2.1 Overview of DB design process. 2.2 Introduction to data models (E-R model, Relational model, Network model, Hierarchical model) 2.3 Conceptual design using ER data model (entities, attributes, entity sets, relations, relationship sets) and symbols. Extended ER Features, ER to Relational Mapping 2.4 Constraints (Key constraints, Integrity constraints, referential integrity, unique constraint, Null/Not Null Constraint, Domain Constraint, Check constraint, Mapping constraints, Column level and Table Level Constraint) 2.5 Keys in Database (primary key, foreign key, Candidate key, super key) 2.6 Extended features - Specialization, Aggregation, Generalization (Pictorial representation). 2.7 Structure of Relational Databases (concepts of a table) 2.8 Concept of Normalization -Normal forms (only definitions) with example (1NF,2NF,3N, BCNF, 4NF) 2.9 Functional dependency - Concept, Closure of Attribute set, Armstrong axioms, Closure of relation(F+) 2.10 Decomposition - Concept, Properties of Decomposition (Lossless joins and Dependency preservation)",
+          "hours": 12
+        },
+        {
+          "title": "Structured Query Language (SQL)",
+          "topics": "3.1 Introduction to SQL. 3.2 DDL commands with examples (Create, Drop, Alter) 3.3 DML commands with examples (Insert, Update, Delete) 3.4 Basic structure of SQL Select query 3.5 SQL Operations (Aggregate functions, Set operations, Date, Time, String functions and Null values, Nested Sub queries) 3.6 Join Queries (Cartesian Product, Inner joins, Outer - Left, Right, Full) 3.7 Views (Create, Alter, Drop) 3.8 Examples on SQL (case studies)",
+          "hours": 10
+        },
+        {
+          "title": "Structured Query Language (SQL)",
+          "topics": "3.1 Introduction to SQL. 3.2 DDL commands with examples (Create, Drop, Alter) 3.3 DML commands with examples (Insert, Update, Delete) 3.4 Basic structure of SQL Select query 3.5 SQL Operations (Aggregate functions, Set operations, Date, Time, String functions and Null values, Nested Sub queries) 3.6 Join Queries (Cartesian Product, Inner joins, Outer - Left, Right, Full) 3.7 Views (Create, Alter, Drop) 3.8 Examples on SQL (case studies)",
+          "hours": 10
+        },
+        {
+          "title": "Introduction to PL/Postgres SQL",
+          "topics": "4.1 PL/Postgres SQL: Language structure 4.2 Control structures (Conditional Statements and loops) 4.3 Stored Procedures. 4.4 Functions 4.5 Handling errors and exceptions 4.6 Cursors 4.7 Triggers",
+          "hours": 12
+        },
+        {
+          "title": "Transaction Management",
+          "topics": "5.1. Transaction 5.1.1.1.1 Properties of transaction 5.1.1.1.2 States of transactions 5.1.1.1.3 Concurrent execution of transactions 5.1.1.1.4 Conflicting operations 5.2 Schedules 5.2.1.1.1 Types of schedules 5.3 Concept of serializability 5.3.1 Precedence graph for serializability 5.4 Basic timestamp protocol for concurrency, Thomas Write Rule. 5.5 Two-phase Locking protocol, Timestamps vs. Locking. 5.6 Deadlock and Deadlock Handling - Deadlock Avoidance, Deadlock Detection and Deadlock Recovery 5.7 Log Base Recovery Techniques - Deferred and Immediate Updates",
+          "hours": 12
+        },
+        {
+          "title": "Database Security",
+          "topics": "6.1 Introduction to database security concepts 6.2 Methods for database security 6.3 Access Control Method 6.3.1 Discretionary access control method 6.3.2 Mandatory access control 6.3.3 Role based access control for multilevel security 6.4 Use of views in security enforcement 6.5 Overview of encryption technique for security 6.6 Statistical database security. Books 1. Silberschatz, Korth, and Sudarshan, “Database System Concepts”, 6th Edition, McGraw- Hill, 2. Elmasri and Navathe, “Fundamentals of Database Systems”, 7th Edition, Pearson, 2017 3. Ramakrishnan and Gerkhe,“Database Management Systems”, 3rd Edition, Tata McGraw Hill, 2002 4. Desai Bipin, “Introduction to Database Management System”, 1st Edition, Galgotia Publication, 2008 5. Date, C. J., Kannan and Swamynathan,“An Introduction to Database Systems”, 8th Edition, Pearson, 2006 6. Drake and Worsley, “Practical PostgreSQL”, O’Reilly Publications, 2002 7. Kahate, “Introduction to Database Management Systems”, 1st Edition, Pearson Education, 2004 8. Singh, S. K., “Database Systems: Concepts, Design and Application”, 2nd Edition, Pearson, 2011",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CA-252-MJP",
+      "title": "Lab course on CA-251 –MJ",
+      "semester": 4,
+      "type": "MJP",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-271-VSC",
+      "title": "Python Programming",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        42,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-281-CEP",
+      "title": "Community Services",
+      "semester": 4,
+      "type": "CEP",
+      "credits": 2,
+      "pages": [
+        44,
+        45
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251-CA",
+      "title": "Spreadsheet Applications",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        46,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "CA-291-MN",
+      "title": "Introduction to Artificial Intelligence and Machine Learning",
+      "semester": 4,
+      "type": "MN",
+      "credits": 2,
+      "pages": [
+        54,
+        55
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence and Problem Space",
+          "topics": "1.1 Introduction 1.2 Comparison of AI, Machine Learning, Deep Learning 1.3 AI Techniques and Application of AI 1.4 Agents 1.4.1 definition and types of agents 1.4.2 Agent and Environments 1.4.3 Structure of Agents. 1.5 Defining problem as a State Space Search 1.6 Production System, Problem Characteristics 1.7 Problem Space 1.7.1 Water Jug Problem 1.7.2 Missionary Cannibal Problem 1.7.3 Block Words Problem 1.7.4 Monkey and Banana Problem",
+          "hours": 7
+        },
+        {
+          "title": "Search Algorithms",
+          "topics": "2.1 Search Algorithms 2.2 Uninformed Search Algorithm / Blind Search Techniques 2.2.1 Breadth-First Search 2.2.2 Depth-First Search 2.3 Informed Search Techniques 2.3.1 Generate and Test 2.3.2 Simple Hill Climbing 2.3.3 Best First Search 2.3.4 Constraint Satisfaction 2.3.5 Mean End Analysis 2.3.6 A* and AO*",
+          "hours": 8
+        },
+        {
+          "title": "Knowledge Representation and Reasoning",
+          "topics": "3.1 Definition of Knowledge 3.2 Types of Knowledge 3.2.1 Procedural Knowledge 3.2.2 Declarative Knowledge 3.3 Approaches to Knowledge Representations 3.4 Propositional and Predicate Logic",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Machine Learning",
+          "topics": "4.1 Introduction to Machine Learning 4.2 Key concept of Machine Learning (Data, Model, Training, Labels, Features) 4.3 Types of Machine Learning (Supervised, Unsupervised and Reinforcement Learning) 4.4 Deep Learning: Natural Language Processing, Computer Vision, Speech Recognition, Robotics, Generative AI. 4.5 Applications Books 1. Norvig, Peter., and Russell, Stuart., “Artificial Intelligence: A Modern Approach\", 3rd Edition, Pearson, 2009 2. Knight, Kelvin. and Rich, Elaine., “Artificial Intelligence”, 3rd Edition, McGrawhill Publication, 2017 3. Geron, Aurelien., “Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow”, 3rd Edition, 2022 4. Goodfellow, Ian., Bengio, Yoshua and Courville, Aaron.,“Deep Learning”, MIT press, 5. Muller, Andreas., “Introduction to Machine Learning with Python: A Guide for Data Scientists”, 1st Edition, Shroff Publisher, 2016 6. Howard, Jeremy and Gugger, Sylvain, “Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD”, O’Reilly, 2020 7. Raschka, Sebastian., Liu, Yuxi and Mirjalili, Vahid, “Machine Learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python”, Packt Pub...",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "code": "CA-292-MNP",
+      "title": "Lab Course on CA - 291 - MN",
+      "semester": 4,
+      "type": "MNP",
+      "credits": 2,
+      "pages": [
+        56,
+        57
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251-CA",
+      "title": "Software Tools for Office Administration",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

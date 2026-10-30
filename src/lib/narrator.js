@@ -57,13 +57,28 @@ function sentencesOf(text) {
     .filter((s) => /[\p{L}\p{N}]/u.test(s))
 }
 
+// The text nodes that are read out. A KaTeX formula is in the page twice (hidden MathML for screen
+// readers, and what is shown); only the shown one is read, so it isn't spoken twice.
+function textWalker(el) {
+  return document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
+    acceptNode: (node) => (node.parentElement?.closest('.katex-mathml') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT),
+  })
+}
+
+function readableText(el) {
+  let text = ''
+  const walker = textWalker(el)
+  for (let node = walker.nextNode(); node; node = walker.nextNode()) text += node.nodeValue
+  return text
+}
+
 function segmentsIn(root) {
   const segments = []
   for (const el of root.querySelectorAll(BLOCKS)) {
     if (el.closest('.code-block, .table-wrap, .diagram')) continue
     if (el.querySelector(BLOCKS)) continue // e.g. a list item holding paragraphs: read the paragraphs
     let from = 0
-    const full = el.textContent
+    const full = readableText(el)
     for (const text of sentencesOf(full)) {
       const start = full.replace(/\s+/g, ' ').indexOf(text, from)
       segments.push({ el, text, start: Math.max(0, start) })
@@ -75,7 +90,7 @@ function segmentsIn(root) {
 
 // A Range covering characters [start, start+length) of an element's normalised text.
 function rangeFor(el, start, length) {
-  const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT)
+  const walker = textWalker(el)
   const range = document.createRange()
   let pos = 0
   let startSet = false

@@ -1,0 +1,795 @@
+{
+  "id": "msc-bioinformatics-year-i-and-ii-nep-syllabus-structure-and-detailing-27082024",
+  "kind": "programme",
+  "programme": "M. Sc. Bioinformatics",
+  "pattern": "2023",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "BIN 101",
+      "title": "Biological Data & Databases",
+      "semester": 1,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        5,
+        6
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "Intr ducti n t Bi inf rmatics (2) Overview f Bi inf rmatics res urces n the web (2) NCBI/EBI/EXPASY etc Nature f bi l gical data and f rmats (2) Bi l gical literature databases (2) PubMed Nucleic acid sequence databases (6) GenBank, EMBL, DDBJ RefSeq Pr tein sequence databases (6) UniPr tKB UniRef, UniParc, Pr te mes, NextPr t Derived databases (5) InterPr and c nstituent databases Recent derived databases. RNA sequence databases (3) miRBase, lncRNAdb, MIT/ICBP siRNA database, RNACentral. Species and Bi diversity databases / res urces (2) NCBI Tax n my database, GBIF, Sahyadri",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "t : T understand and expl re maj r bi l gical sequence databases ( rganizati n and c ntents); search and retrieve data fr m the databases using their respective search engines. Expl ring the integrated database system at NCBI server and querying the PUBMED, GenBank, NCBI Tax n my database and ther databases using the ENTREZ search engine (6) Use f perat rs (AND, OR & NOT) Use f limits Exp rting GI list Batch retrieval Expl ring the integrated database system at EMBL-EBI server (4) Expl ring & querying UniPr tKB and ther pr tein sequence databases. (4) Sequence F rmats & F rmat c nverters (2) Expl ring t ls n ExPASY (2) Expl ring and using InterPr , its c nstituent databases and recent derived databases. (6) Expl ring and querying RNA sequence databases: miRBase, lncRNAdb, MIT/ICBP siRNA database, RNACentral. (4) Expl ring and querying Bi diversity databases / res urces: GBIF and Sahyadri (2) Nucleic Acids Research - Database issue (M st recent issues relevant t appr priate databases) Baxevanis A.D., Davis n D.B., Page R. D. M. & Petsk G.A. Current Pr t c ls in Bi inf rmatics. New Y rk, J hn Wiley & S ns Inc., Latest Editi n K rf Ian, Yandell Mark, Bedell J seph. BLAST: an essent...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 102",
+      "title": "Biological Sequence Analysis",
+      "semester": 1,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "Bi m lecular sequence analysis (2) Overview C ncepts Analysis f single sequence (2) Nucle tide Pr tein Pairwise sequence alignment alg rithms (3) Needleman & Wunsch Smith & Waterman Sc ring matrices f r Pr tein and Nucle tide sequences (3) MDM/PAM series BLOSUM series CSW Database Similarity Searches (6) FASTA BLAST Multiple sequence alignment alg rithms (6) CLUSTALW MUSCLE DALIGN T-C ffee Sequence l g s, c nsensus & patterns (3) Basic c ncept f sequence pr files, Derivati n f pr files; applicati ns (5) Gribsk v’s Pr file Analysis meth d PSI-BLAST",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "/Tut rials: t : understand h w t use vari us alg rithms f r bi m lecular sequence analysis understand use f vari us parameter in respective alg rithms and their effects n the utc me learn t write c des and practice pr gramming skills f r s me f the simple tasks and t understand h w bi inf rmatics ev lved C mputing & pl tting m n -, di-, tri-mer frequencies (2) Analysis & c mparis n f sequence with itself (1) C mpute pr perties f sequences using t ls n ExPASY (2) Expl ring utilities in EMBOSS packages (2) Pairwise gl bal alignment using Needleman-Wunsch alg rithm (2) DNA Pr tein Pairwise l cal alignment using Smith-Waterman alg rithm (2) DNA Pr tein Pairwise alignments (2) Use f sc ring matrices Interpretati n f results: d s & d n’ts Database (h m l gy) searches using different versi ns f FASTA (2) DNA/Pr tein ganizsequence as a query Interpretati n f results Database (h m l gy) searches using different versi ns f BLAST (4) DNA/Pr tein sequence as a query Interpretati n f results Multiple sequence alignment pr grams (5) C mpilati n f dataset Learning t use pr grams Input/ utput f rmats & parameters Analysis & interpretati n f results Alignment visualizati n and editing t ls (JalV...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 103",
+      "title": "Biomolecular Structure & Organization",
+      "semester": 1,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        9,
+        10
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "Physic chemical Principles f bi m lecular structure rganizati n (1) Basic c ncepts f at m structure, hybridizati n f at mic rbitals, valence, c valent b nds, at mic interacti ns and f rces, f rmati n f p lymeric m lecules C - rdinate systems: Rectangular, Cylindrical and spherical c rdinate systems (2) Experimental Meth ds f r determinati n f bi m lecular structures (4) X-ray Diffracti n NMR Spectr sc py Pr tein Structure (10) Internal C rdinates – B nd lengths, b nd angles, t rsi nal angles; peptide unit, Ramachandran Map; Calculati n f dihedral angles; F urth at m fixing Hierarchical Organizati n f Pr tein structure - Primary, Sec ndary, Supersec ndary, Tertiary and Quaternary structure; Membrane Pr tein Structures Principles f pr tein f lding and Energetics; Mechanism f Pr tein f lding; meth ds t study pr tein f lding DNA and RNA Structure (8) Base pairing in DNA & RNA D uble Helix – Organizati n, types and structural features Structural & Ge metric parameters ass ciated with DNA Sec ndary structures f DNA (triple helices, quadruplex, crucif rm) Sequence-structure relati nships in DNA Sec ndary Structures in RNA; Representati ns f RNA structures Energetics f RNA structure tRN...",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": ": In this c urse, the students will learn C ntents, rganizati n f structure databases, searching and retrieving the structural data Use f c mputati nal t ls f r visualizati n, understanding the rganizati n and vari us pr perties f macr m lecular structures C mputati ns f structural parameters Visualizati n and interpretati n f m lecular interacti ns Pr tein Data Bank (2) Nucleic Acid Databank (2) Visualizati n f structures (SWISS-PDB Viewer, Disc very Studi ) (5) Calculati n f structural parameters f Pr teins & Ramachandran Pl t (3) Calculati n f structural parameters f DNA & RNA (3) Calculati n f structural parameters f Carb hydrates and Lipids (3) Understanding Macr m lecular interacti ns thr ugh visualisati n & structure analysis (6) Pr tein – Pr tein Pr tein – Nucleic acids Pr tein - carb hydrates Understanding assemblies f bi m lecules thr ugh visualizati n: Rib s me, Nucle s me, & Viral particles (6)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 104",
+      "title": "Python Programming",
+      "semester": 1,
+      "type": "Mandatory",
+      "credits": 2,
+      "pages": [
+        11,
+        11
+      ],
+      "units": [
+        {
+          "title": "Python Programming",
+          "topics": "t : Learn pyth n pr gramming c ncepts Analysis f bi l gical data using Pyth n c des Intr ducti n, Features f Pyth n, IDLE envir nment (1) Data types (1) Variables (2) Data perat rs (2) Input and Output pr cessing (2) C ntr l statements, l ps, iterati ns (3) Excepti n handling (1) C llecti ns: list, tuple, set, dicti nary (5) File handling (4) Pattern matching (2) Object riented c ncepts – classes, attributes, meth ds (1) Functi ns (2) Pyth n libraries: using standard m dules and creating a new m dule (2) W rking with Bi l gical data (2) Mitchell L M del, Bi inf rmatics pr gramming using Pyth n. Publisher: O’Reilly Media. ISBN: 9788184048988 Paul Berry, Head First Pyth n. Publisher: Shr ff/ O'Reilly ISBN: 9350231883 Wesley J Chun, C re Pyth n Applicati ns Pr gramming. Publisher: Pears n Educati n ISBN: 8131791343 Sebastian Bassi, Pyth n f r Bi inf rmatics. Publisher: CRC Press. ISBN: Jas n Kinser, Pyth n f r Bi inf rmatics. Publisher: J nes and Bartlet. ISBN:",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 105",
+      "title": "Research Methodology",
+      "semester": 1,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        12,
+        13
+      ],
+      "units": [
+        {
+          "title": "Foundation of Research Methodology",
+          "topics": "Hist ry and Phil s phy f Research: What is Research? Ancient meth d l gies and research in vari us fields f science. Ancient Indian research meth d l gies. Scientific Meth d in research. Phil s phy f Research including Rati nalism, Empiricism, Skepticism, Reducti nism, Pseud science etc. Qualities f a Researcher. Pr blem Identificati n & F rmulati n : definiti n and f rmulating the research pr blem, Necessity f defining the pr blem, Imp rtance f literature review in defining a pr blem, Literature survey: primary and sec ndary; web s urces; critical literature review. Design f Research Questi n..Hyp thesis Generati n Appr aches t Research Design: Inducti n and deducti n in research. Variables in research. Features f a g d research design - Expl rat ry Research Design - C ncept, Types and uses, Descriptive Research Design - c ncept, types and uses. Experimental Design - C ncept f Independent & Dependent variables. Biased and unbiased research design.",
+          "hours": 15
+        },
+        {
+          "title": "Data Collection, Processing and Analysis",
+          "topics": "Types f Bi l gical data and nature f research: Qualitative data – Quantitative data C ncept f measurement, causality, generalizati n, replicati n. Basic c ncepts in qualitative and quantitative data analysis. Data C llecti n: Executi n f the research - Observati n and C llecti n f data - Meth ds f data c llecti n Databases (ENA, UniPr tKB, PDB, GEO etc) searching databases, data retrieval, preparing data sets, data curati n - P sitive and negative data sets. Basic c ncepts in rganizati n f data int databases - hyp thesis-testing - Generalizati n and Interpretati n. Observati n, Surveys, M nit ring research. rec rds t be maintained by researcher. Sampling & Measurement : C ncept f Statistical p pulati n, Sample, Sampling Frame, Sampling Err r, Sample size, N n -Resp nse. Characteristics f a g d sample. Pr bability Sample - Simple Rand m Sample, Systematic Sample, Stratified Rand m Sample & Multi -stage sampling etc. Determining size f the sample - Practical c nsiderati ns in sampling and sample size. C ncept f measurement - what is measured? Pr blem in measurement in research - Validity and Reliability. Levels f measurement - N minal, Ordinal, Interval, Rati . Data Analysis and I...",
+          "hours": 15
+        },
+        {
+          "title": "Scientific Paper Writing and Communication",
+          "topics": "1 Literature Review and Writing a Review: Planning and Writing a Research Pr p sal t seek funding Use f t ls / techniques f r referencing: meth ds t search required inf rmati n effectively, PubMed, effective literature search using Entrez, G gle Sch lar Scientific writing and c mmunicati n: Different types f publicati ns, their s tructure and c mp nents, Ch ice f j urnals f r publicati n based n vari us parameters such as impact fact r, sc pe f j urnal etc. Types f rep rt - Technical rep rts and thesis , Different steps in t he preparati n - Lay ut, Structure and Language f typical rep rts , Paraphrasing, Illustrati ns and tables, Bibli graphy, referencing . Oral presentati n , Making presentati n , Use f visual aids , Imp rtance f effective c mmunicati n. T ls/S ftware f r paper f rmatting like MSOffice, s ftware f r detecti n f Plagiarism",
+          "hours": 20
+        },
+        {
+          "title": "Research Ethics & Safety",
+          "topics": "Ethics in Research: Ethical issues, ethical c mmittees , Repr ducti n f published material - Plagiarism - citati n and ackn wledgement, Self-Plagiarism, Repr ducibility and acc untability IPR: C mmercializati n, C py right, R yalty, Intellectual pr perty rights and patent law, Trade related aspects f intellectual pr perty Rights Bi safety: G d lab practices, Guidelines f r Bi safety, Instituti nal Bi safety c mmittee, Instituti nal Animal ethics c mmittee. ‘Hist ry f the Scientific Meth ds’ by Martin Shuttlew rth, https://expl rable.c m/hist ry- f-the- scientific-meth d. ‘The Statistical Analysis f Experimental Data’ by, J hn Mandel, ISBN: 0486646661, ISBN13: 9780486646664 ‘Research Meth d l gy and Scientific Writing’ by C. Ge rge Th mas, ISBN 978 -3-030- 64864-0 ‘Research Meth ds f r Science’ by Michael Marder, Online ISBN:9781139035118 Research Meth d l gy: An Intr ducti n - Stuart Melville and Wayne Practical Research Meth ds - Catherine Daws n Research Meth d l gy - C. R. K thari Essential Bi inf rmatics – Jin Xi ng (Cambridge University Press)",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "code": "BIE 106",
+      "title": "Mathematics & Statistics",
+      "semester": 1,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        14,
+        14
+      ],
+      "units": [
+        {
+          "title": "Mathematics",
+          "topics": "Intr ducti n t Set The ry (1) Trig n metry: (2) Trig n metric Functi ns, Series Expansi n, Inverse, General Values, Graphs, Tayl r series Vect r & Matrices (2) Vect r Algebra, Vect r Calculus, Basic C mputati ns, Matrices Calculus: (4) Limits, C ntinuity, Analysis, Differentiati n (1D & Partial), Reimann Integrati n, Definite Integrals. Ordinary & Partial Differential Equati n (3) 1st Order & 2 nd Order Ordinary Differential Equati ns. Self -Adj int Equati ns, Meth d f Separati n f Variables Integral transf rm (3) F urier Series, F urier Transf rm, Laplace Transf rm",
+          "hours": 15
+        },
+        {
+          "title": "Statistics",
+          "topics": "Overview f applicati ns f statistics in Bi inf rmatics (1) Intr ducti n t principles f statistical sampling fr m a p pulati n (1) Frequency Distributi ns and Statistical Measures: mean, m de, median, variance, standard deviati n, c efficient f variati n, measures f skewness and kurt sis. C mputati n f these measurements f r the given data. (2) Intr ducti n t the ry f Pr bability, C nditi nal Pr bability, Bayesian Rules, Rand m variable, Distributi ns f rand m variables, Bin mial, P iss n, Ge metric, N rmal and extreme value distributi n, (5) Regressi n, c rrelati n, fitting regressi n line. (2) Hyp thesis testing: (4) Test f significance viz. Z test, t test, paired t test, chi2 test f g dness f fit",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BIE 107",
+      "title": "Basic Biology",
+      "semester": 1,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        15,
+        15
+      ],
+      "units": [
+        {
+          "title": "Basic Biology",
+          "topics": "t : Understand the basic principles f bi l gy. Appreciate the basic nature and diversity f micr bial, plant and animal life. Understand the classificati n f rganisms and tax n my. Origin and ev luti n f Life: Living and n nliving things; the ries and evidences f rigin and ev luti n f life; chemical ev luti n- at m t pr cell and bi l gical ev luti n- pr cell t human; cellular tree f life. (4) Unit f life: Basic unit f life; pr kary tic cell, eukary tic cell, plant cell and animal cell; Structure and functi ns f cell rganelles- membrane and n n-membrane rganelles. (4) Diversity f life: Classificati n f rganisms- five-kingd m classificati n (M nera, Pr tista, Fungi, Plantae and Animalia); classificati n and characteristics f different kingd ms; Bi diversity- h tsp ts f bi diversity, ec l gical and ec n mic r le f bi diversity; threats t bi diversity. (16) Ec l gy and nutriti n : Bi tic and abi tic c mp nents; f d chain; tr phic levels; f d webs; ec l gical pyramids; ec s ystems- structure, types f ec system; Nutriti n - macr nutrients and micr nutrients; m des f nutriti n- parasitic, sapr phytic, symbi tic and insectiv r us. (3) Viruses: Bi l gy f viruses; bacteri phages, plant and...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 108",
+      "title": "Molecular Biology",
+      "semester": 1,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        16,
+        16
+      ],
+      "units": [
+        {
+          "title": "Molecular Biology",
+          "topics": "t : understand the c ncepts in gene structure and expressi n which leads t specific functi ns. understand the c ncepts in vital pr cesses such as replicati n, transcripti n, p st- transcripti nal m dificati ns, translati n etc. Nucleic acid: C mp siti n, Primary and Sec ndary structures, Circular DNA (2) Gen me rganizati n: Pr kary tic and eukary tic gen mes – C value parad x, repetitive and n n-repetitive DNA., transp s ns and retr p s ns; Ex ns and intr ns – rganizati n f interrupted genes, ne gene-many pr teins c ncept; Gene numbers – essential genes and t tal gene number, gene clusters, pseud genes; Gene families – gl bin and rDNA gene families; Organelle gen me – mit ch ndrial and chl r plast. (4) Packaging f gen me – Bacterial gen me as nucle id; Eukary tic gen me – nucle s mes, chr matin, s len ids, l ps, d mains, scaff lds, chr m s mes (2) DNA Replicati n- Details f pr kary tic and eukary tic DNA replicati n: DNA p lymerases, initiati n, el ngati n and terminati n f replicati n; multiple rigins f replicati n, Regulati n f replicati n (4) DNA damage, repair and rec mbinati n- DNA damaging agents physical and chemical, types f DNA damages; DNA repair systems in pr kary tes...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 109",
+      "title": "Biochemistry and Cell Biology",
+      "semester": 1,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        17,
+        18
+      ],
+      "units": [
+        {
+          "title": "Biochemistry",
+          "topics": "Chemistry f life: At ms, elements, i ns, m lecules and macr m lecules f life. (2) Water: Water as the universal bi l gical s lvent; physic chemical pr perties f water; I nizati n f water; c ncepts f pH, pI, pKa, pKb, buffer, acid sis, alkal sis and sm larity; Henders n-Hasselbalch equati n. (2) Bi m lecules: Classificati n and physic -chemical pr perties f bi m lecules; (2) Enzymes: Hist rical perspective, general characteristic f enzymes; enzyme c fact rs, pr sthetic gr ups, c enzymes, ap enzyme, h l enzyme, metall enzymes, pr enzymes, is enzymes, enzyme activity; specificity activity; enzyme m dels; enzyme n menclature and classificati n; enzyme catalysis; enzyme regulati n- reversible and n n-reversible regulati ns; Enzyme kinetics- basic enzyme reacti ns, energy levels, Fact rs affecting enzyme activity (temperature, pH, enzyme c ncentrati n, substrate c ncentrati n, inhi bit rs and activat rs); Michaelis-Menten kinetics- Km, Vmax, Kcat and Kcat/Km; enzyme inhibiti n. (4) Vitamins: General charact eristics f vitamins; classificati n - water-s luble and fat -s luble vitamins, s urces, structures, dietary requirements and deficiency c nditi ns; c enzyme f rms; R le f vitamins ...",
+          "hours": 15
+        },
+        {
+          "title": "Cell Biology",
+          "topics": "Cellular rganizati n f Pr kary tic and eukary tic cells : Cell types; Cell the ry; Structure and functi n f rganelles - D uble membrane b unds rganelles (Nucleus, mit ch ndria, chl r plasts); Single membrane b unds rganelles (end plasmic reticulum, G lgi apparatus, lys s mes, per xis mes, vacu les) and N n -membrane b unds rganell es (Rib s mes, nucle les and centri les). (4) Membrane structure and functi n : Structure, transp rts, channels, carriers, recept rs, membrane p tentials. (3) Cell m tility and shape : Structure, p lymerizati n, rganizati n and functi ns cyt skeletal elements; Structure and functi ns f m t r pr teins. (2) Signal transducti n: Types f signaling; signaling m lecules; recept rs and maj r signaling pathways. (3) Cell cycle and its regulati n: events during mit sis and mei sis (3)",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "code": "BIN 201",
+      "title": "Structural Bioinformatics",
+      "semester": 2,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        19,
+        20
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": ": Overview f Structural Bi inf rmatics (2) Predicti n f pr tein structure sec ndary structure predicti n meth ds (4) First, sec nd and third generati n meth ds Tertiary structure predicti n H m l gy m deling (4) F ld Rec gniti n: (5) 1D-3D Pr file-based meth ds, Threading meth ds ab initi meth ds (2) AI-based meth ds f Structure predicti n (2) Structural alignments f pr teins (4) Superimp siti n f structures & calculati n f RMSD Vect r-based, distance matrix-based and c mbined alg rithms f r structural alignments Structure-based classificati n f pr teins: SCOP & CATH (2) Predicti n f binding p ckets n pr tein structures (3) Structure-based functi n Predicti n (2) Predicti n f RNA structures (2)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": ": Write c des f r Calculati n f inter-at mic distances (4) t find chain breaks in p lypeptides t detect presence f n n-b nded interacti ns Write c des f r c mputati n f dihedral angles (3) Write c de f r 4th at m fixing (3) Predicti n f Sec ndary structures f pr teins using vari us meth ds and c mputati n f predicti n accuracies (2) Predicti n f tertiary structures f pr teins using H m l gy M deling Pr t c l/s and validati n f templates as well as predicted structures (4) Predicti n f tertiary structures f pr teins using F ld Rec gniti n meth ds (2) Predicti n f tertiary structures f pr teins using ab initi meth ds (2) Write c de f r c nstructi n f distance matrix using at mic c rdinates (e.g. C - C distance matrix) and analysis f r detecti n f tertiary interacti ns (2) Detecti n f structural similarities am ng pr teins and finding rem te h m l gues using pr tein structural alignment meth ds (2) Searching and br wsing structural classificati n databases (2) Predicti n f surface p ckets f pr teins using vari us meth ds (2) Predicti n f RNA structures using vari us meth ds (2) F rbes Burk wski. Structural bi inf rmatics: An alg rithmic appr ach. Publisher: CRC Press, 2009. ISBN...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 202",
+      "title": "Chemoinformatics",
+      "semester": 2,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        21,
+        22
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "Representati n f chemical c mp unds: 1D, 2D, 3D (7) SMILES, InChI, Fingerprints (Daylight), Matrices, C nnecti n Tables, m l & sdf files, Markush structures, R tatable b nds and c nf rmers, M lecular surfaces Representati n f reacti ns: (3) SMARTS, SMIRKS, Matrices Searching chemical structures: (6) Exact (Can nicalizing SMILES: M rgan, CANGEN), Substructure, Superstructure and Similarity search (Tanim t , Euclidean and Tversky index) Clustering small m lecules : Hierarchical and n n-hierarchical meth ds 3D pharmac ph re based searching: C mm n Pharmac ph re features, building hyp theses and searching databases Chemical Databases: CSD, Pubchem, ther relevant databases (5) Inf rmati n c ntent and applicati ns Data mining Quantitative Structure Activity Relati nship (QSAR) (4) Structure descript rs: t p l gical and shape indices Training and test data set Applicability d main 2D QSAR C mbinat rial chemistry and Library Design (3) Hist rical meth ds: Mix and Split library design and Iterative dec nv luti n C mputer based meth ds Diversity analysis Lipinski Rules T ls f r cheminf rmatics alg rithm devel pment (2) Future perspectives (1)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "understand the representati n and use f chemical inf rmati n n c mputer using chemical databases intr ducti n t analysis and predictive m deling Practical sessi ns n structure st rage and representati n in vari us f rmats: SMILES, InChI, m l & sdf files (2) Practical sessi ns n understanding reacti n transf rms and applying them t vari us small m lecules (2) Building a database f small m lecules (1) Structure searching: Substructure, Superstructure and Similarity searches (1) Expl ring and data mining f : CSD and Pubchem (3) Pharmac ph re hyp thesis and searching (2) Descript rs and 2D QSAR studies (2) T ls f r cheminf rmatics alg rithm devel pment (2)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 203",
+      "title": "Genomics",
+      "semester": 2,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        23,
+        25
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "Gen me pr jects – imp rtance, bjectives and strategies (1) Gen me markers and mapping: STS, EST, RFLP, SNP (4) Gen me sequencing – First, Sec nd and Next generati n sequencing platf rms (5) Gen me sequence assembly (5) Output file f rmats Quality assessment f sequence reads Rem val f adapter c ntaminati n Reference-guided and de n v Assembly: Appr aches and T ls Visualizati n f alignments in Reference-guided Assembly Rem val f redundancy Archival f assembled sequences in databases Gen me Ann tati n (9) Basic Aspects f Gen me Ann tati n Predicti n f ORFs Alg rithms f r gene predicti n & gene m deling Predicti n f Pr m ters, splice sites, UTRs etc Structural Gen mics (2) Functi nal Gen mics (2) Gene Ont l gy (2) Basic c ncepts GO terms and relati nships (DAGs) T ls f r GO data: (AmiGO, Bi C nduct r) GO Br wsers and edit rs GO visualizati n t ls Micr array-related t ls Pr tein interacti n related t ls Statistical analysis Term enrichment t ls Br wn, T.A. Gen mes 2 Publisher: New Y rk, BIOS Scientific Publishers Ltd. 2002, ISBN: 1859960294 Old R.W. and Primr se S.B. Principles f Gene Manipulati n: An Intr ducti n t Genetic Engineering Publisher: University f Calif rnia Press, 1980 B...",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": ": This c urse intend s t intr duce the students with gen me br wsers and databases, assembly s ftwares and ann tati n pr cedures. Hands- n exercises will help the students t understand steps inv lved in c mphrensive gen mic study f an rganism Br wsing & viewing gen me data (3) Ensembl@EBI MapViewer@NCBI UCSC Gen me Br wser Visualizati n, Br wsing and searching f Pr tein c ding and n n-c ding Genes, ESTs, STSs, Retr transp s ns, RFLPs, SNPs regi ns exhibiting Synteny Expl rati n f Gen me Databases (4) Gen me assembly (8) Gen me Ann tati n Using i ntegrated gen me ann tati n servers such as the server devel ped at IMTech, Chandigarh (http://imtech.res.in/raghava/gp.html) (2) Gene Predicti n and Gene M deling Predicti n f genes and gene structures (gene m deling) using nline (web) servers f different meth ds tail red f r pr kary tic and eukary tic rganisms such as GLIMMER, GeneMark, Grail, GENSCAN etc. Interpretati n f results and c mparis n with kn wn gene m dels (where available). Evaluati n f accuracy f the meth ds. (4) Predicti n f pr m ters using meth ds such as Neural Netw rk Pr m ter Predicti n (NNPP) at Berkeley Dr s phila Gen me Pr ject server, Gen me inspect r f r c mbine...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 204",
+      "title": "Introduction to Database Systems",
+      "semester": 2,
+      "type": "Mandatory",
+      "credits": 2,
+      "pages": [
+        26,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to Database Systems",
+          "topics": "t : understand the c ncepts f data, data m dels and relati nships be aware f vari us data representati n techniques and vari us types f databases appreciate and implement relati nal database design create the database systems with user-friendly fr nt-ends f r fast and efficient data retrieval and st rage acquire the skills f using MySQL, SQL and basic skills in creating fr nt end applicati ns Database Management System basic c ncepts (1) Data abstracti n, Data M dels, Instance & Schema (2) Data N rmalizati n (1) Overview f MySQL and its features (1) Installing MySQL Server and MySQL W rkbench (1) Data Definiti n Language (DDL) (10) Creating and altering database tables Defining primary keys, f reign keys, and c nstraints Understanding data types in MySQL Data Manipulati n Language (DML) (10) Inserting data int tables Updating and deleting data Retrieving data using SELECT statements Arithmetic and l gical perat rs. Gr uping and aggregate functi ns Filtering gr uped data with HAVING clause Pattern matches Perf rming subqueries f r c mplex queries J ins (1) Imp rting and Exp rting Data (2) Imp rting data fr m CSV and ther f rmats Exp rting query results t files Backup and rest re ...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 205",
+      "title": "On Job Training/ Field Project",
+      "semester": 2,
+      "type": "Mandatory",
+      "credits": 4,
+      "pages": [
+        27,
+        27
+      ],
+      "units": []
+    },
+    {
+      "code": "BIE 206",
+      "title": "Biological Data Curation and Analysis",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Biological Data Curation and Analysis",
+          "topics": "t : Understand the Bi l gical data as Big Data. Understand the significance f data curati n. Understand and use the web services pr vided by the bi l gical databases. Pr grammatic access t bi l gical res urces. Write advanced c des f r bi l gical data curati n and analysis. Design w rkfl ws f r data pr cessing. Bi l gical Data (1) Types, c mplexity & big data Bi l gical data curati n (1) Need, issues & challenges Using APIs (5) Intr ducti n t APIs and their imp rtance Making API requests with Pyth n Parsing data fr m API resp nses Web scraping and its applicati ns Use f requests, BeautifulS up m dules Web services f c mm nly used Bi inf rmatics databases: (10) NCBI: E-utilities EMBL-ENA: Pr grammatic access using ENA br wser REST URLs Unipr t: Unipr t res urces pr grammatically access PDB: The RCSB PDB RESTful Web Service interface KEGG: KEGG API Data Analysis with Pandas: using data frames, data cleaning, filtering (2) Bi pyth n: Intr ducti n, installati n, imp rtant c mp nents like seq, seqIO, alignIO, BLAST, ClustalW, PDB, SwissPr t etc., parsing utput (6) W rkfl ws in Bi inf rmatics (5) Kn wn w rkfl w envir nments Case studies: Existing w rkfl ws (ex: Immun inf rmatics) W rk...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 207",
+      "title": "Advanced Techniques in Experimental Biology",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 4,
+      "pages": [
+        29,
+        30
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "and Prac tice by J hn F. R byt and Bernard J. White, Waveland Press, 1987. Intr ducti n t",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": ": A. Micr bi l gical techniques: (15) Media preparati n, Sterilizati n, In culum preparati n. Staining: Gram staining, end sp re staining. Streak, p ur and spread plate meth ds. Gr wth curve and kinetics Screening f antibi tic pr ducer, amylase pr ducers, PHA pr ducers Fermentati n B. Bi chemical techniques: (30) Extracti n and fracti nati n meth ds- Cell lysis, pr tein precipitati ns, dialysis, density gradient centrifugati n/differential centrifugati n, ultracentrifugati n Electr ph resis- Native-PAGE, SDS-PAGE, 2DE, 2D-DIGE, agar se gel Chr mat graphy- AC, IEC, TLC, HPLC, GC, gel filtrati n and paper chr mat graphy Is lati n and Purificati n f enzymes (Invertase, Amylase, Alkaline Ph sphatase, Acid Ph sphatase etc.) Enzymes kinetics- Enzyme activity, fact rs affecting enzyme activity (pH, Temp., Substrate, Inhibit rs, Activat rs), Determinati n f pKa, pI, Kcat, Km, KI,Vmax. Other techniques- Western bl t, In-gel digesti n, metab lism assays, gel image analysis, CD/NMR/MS spectra C. M lecular bi l gy techniques: (15) Bacterial Transf rmati n Plasmid is lati n Restricti n digesti n P lymerase Chain Reacti n Gel Eluti n f DNA TA/TOPO-TA cl ning f PCR pr duct Micr bi l gical Meth...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 208",
+      "title": "Molecular Phylogenetics",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        31,
+        32
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "M lecular phyl genetics: Overview (2) C ncepts in m lecular ev luti n Nature f data M lecular Phyl geny (5) C ncept & verview Distance-based meth ds: UPGMA & NJ Character-based meth ds: Maximum Parsim ny Pr babilistic m dels and ass ciated alg rithms (3) Pr babilistic m dels f ev luti n Maximum likelih d alg rithm Phyl genetic analysis alg rithms (5) Distance-based: UPGMA, Transf rmed Distance, Neighb rs -Relati n, Neighb r - J ining Character ptimizati n; delayed and accelerated transf rmati n Maximum Parsim ny Reliability f trees: B tstrap, jackknife, decay, rand mizati n tests. Phyl genetic trees and their c mparis n: (2) Definiti n and descripti n, vari us types f trees; C nsensus (strict, semi-strict, Adams, maj rity rule, Nels n). Data partiti ning and c mbinati n. Tree t tree distances, similarity Case studies (2) Numerical tax n my & bacterial identificati n (1)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "t : use c mputati nal appr aches f r phyl genetic analysis expl re and use packages available f r m lecular phyl geny C mpilati n & curati n f dataset, f rmat c nversi n (1) Survey f s ftware pr grams available f r phyl genetic analysis (1) Installati n f at least 2 public d main packages f r b th Wind ws & Unix envir nment: Phylip, PAUP, MEGA MSA using MUSCLE (1) Inf rmative and variable sites; Singlet n sites etc. Rec nstructi n f phyl genetic trees using distance-based meth ds (1 datasets) (3) C nverting sequence data int distance data UPGMA, Neighb r-j ining, Neighb r-relati ns & Transf rmed distance Difference between dend gram & phyl genetic tree Rec nstructi n f phyl genetic tress using character-based meth ds Maximum Parsim ny (1) Maximum likelih d (1) Using b tstrapping t l t generate multiple datasets fr m the riginal input data & generati n f c nsensus tree (1) Pl tting, visualizing & printing phyl genetic trees: TreeView and ther t ls (1) Vari us rendering F rmatting & labeling Interpretati n f trees C mparis n f trees drawn using (2) RNA, Nucle tide & pr tein data Gene tress & species tree Un-r ted & r ted tree (1) R ting un-r ted tree using an ut gr up Rec nstructi...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 209",
+      "title": "Programming in Java",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 4,
+      "pages": [
+        33,
+        33
+      ],
+      "units": [
+        {
+          "title": "Programming in Java",
+          "topics": "The c urse will enable the students t : Acquire skills in pr gramming using bject riented language: Java Devel p and implement pr grams t analyze bi l gical data An intr ducti n t Java pr gramming Features f Object-Oriented pr gramming Java Basics W rking with bjects Arrays & C ntr l structures M difiers, Access c ntr l and class design W rking with data structures Packages & Interfaces Using Native meth ds & Libraries Excepti n handling in Java Multithreading File I/O Brief Intr ducti n t Applets & AWT Java In a Nutshell by David Flanagan, Oreilly Publicati ns. Java Examples in a Nutshell by David Flanagan, Oreilly Publicati ns. Java 2: The C mplete",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 210",
+      "title": "Linux Operating System",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        34,
+        34
+      ],
+      "units": [
+        {
+          "title": "Linux Operating System",
+          "topics": "t :  Writing basic and advanced Linux/Unix c mmands  Understand and write shell scripts Intr ducti n t Unix/Linux, Linux distributi ns (1) Using graphical and c mmand line envir nments (1) Linux file system and file/direct ry manipulati n c mmands (3) File permissi ns and c mmands t m dify permissi ns (1) File manipulati n c mmands, redirecti n, pipes (4) Searching and filtering files, grep c mmand (4) M nit ring system res urces (1) Text edit rs: basic editing and navigati n (2) Shell Basics, writing and executing scripts (1) C nditi nal statements: If-else-elif, test, l gical perat rs-AND, OR, NOT (3) L ps: while, f r, until, break & c ntinue (3) C mmand line arguments (1) Advanced c mmands: pr cess management, package management, sed and awk c mmands, archiving and c mpressing files (5) Richard Blum and Christine Bresnahan, Linux C mmand Line and Shell Scripting Bible, 3ed, Wiley publishers. ISBN: 8126554983 Richard Petersen, Linux: The C mplete",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 211",
+      "title": "Software Testing",
+      "semester": 2,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        35,
+        35
+      ],
+      "units": [
+        {
+          "title": "Software Testing",
+          "topics": "Enable students t bec me aware f err rs and inaccuracies in s ftware pr grams and s ftware r utines. T learn the pr cess f making err r free new r existing c mputing s ftware pr gramming systems/packages. T ptimize the perf rmance f s ftware pr gramming systems/packages. Aim: T enhance the quality f s urce c de, s ftware pr gram, web-enabled databases released in pen s urce r charged envir nment. Principles f testing- test-case, test scenari s, different meth ds in testing. (1) Principle f Aut mati n Testing (1) JUnit testing (Brief intr ducti n) (1) Types f testing: black b x testing, white b x testing. (1) Defect life cycle, STLC (1) Different meth d l gies f r: V m del, water fall, Agile, c ntinu us delivery, test driven devel pment, extreme pr gramming. (3) Databases Testing (1) Fundamentals f Server-side Testing: What is server, server types, types f testing servers (2) Web-services testing. (1) Alg rithmic Testing (1) S me existing t ls used in S ftware Testing industry (2) Practicals: Perf rm testing f existing well kn wn General Purp se applicati ns, Life Sciences/ Bi inf rmatics applicati ns. St re and analyze the results. Testing f Applicati n f languages/interpreters ...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 301",
+      "title": "Immunology and Immunoinformatics",
+      "semester": 3,
+      "type": "Core",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : understand the immune system, its c mp nents and their functi ns study immun l gical databases study inf rmatics -based appr aches f r predicti n f epit pes, design f vaccines and immun -diagn stic t ls Immune systems: (3) Innate and adaptive immunity in vertebrates Antigen, pr cessing and presentati n Aut immune diseases Categ ries f vaccines Antib dies (1) Immun gl bulin classes, subclasses and diversity Hybrid ma techn l gy: applicati ns Membrane recept rs f r antigen (2) The B-cell recept r (BCR) The T-cell recept r (TCR) The maj r hist c mpatibility c mplex (MHC) Cluster f differentiati n (CD) Immun inf rmatics verview (1) Reverse vaccin l gy Rati nal Vaccine design Ev luti n and escape due t variati ns Immun inf rmatics res urces: (3) IMGT, IEDB, STCRDab M lecular interacti ns (1) Ag-Ab: Sequential and c nf rmati nal epit pes MHC - peptide – T-cell recept r Epit pe predicti n alg rithms: (3) B-cell epit pe predicti n T-cell epit pe predicti n Vaccine design: (1) Pipeline & w rkfl ws Predicti n f immun genicity",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "t : understand and expl re immun inf rmatics res urces characterize and understand principles f antigen-antib dy interacti ns understand alg rithms and meth ds f r predicti n f epit pes expl re and use appr aches f r vaccine design Br wsing and searching Immun inf rmatics res urces t retrieve data (6) Study f Ag-Ab interacti ns (3) Searching f r Ag-Ab c mplexes Charaterisati n f binding sites Ab-pr tein c mplex Ab-peptide c mplex Ge metric and m lecular interacti n Predicti n f epit pes and estimati n f accuracy f predicted epit pes using experimental data (6) sequential B-cell epit pes c nf rmati nal B-cell epit pes cyt t xic T-cell epit pes helper T-cell epit pes Fl wer Darren R. Bi inf rmatics f r Vaccin l gy Publisher: UK, J hn Wiley & S ns Inc. Latest Editi n. Fl wer Darren R. Immun inf rmatics: Predicting Immun genicity In Silic Publisher: New Jersey,Humana Press. Latest Editi n Kindt, Th mas J.,Osb rne Barbara A.G ldsby Richard A. Kuby Immun l gy 6th Editi n. Publisher:New Y rk, W. H. Freeman. Latest Editi n. Lund Ole, Nielsen M rten, Lundegaard Claus, Kesmir Can, Brunak SÃ¸ren. Immun l gical Bi inf rmatics. Publishesr: L nd n, MIT PRess Latest Editi n F undati n N vartis...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 302",
+      "title": "Comparative Genomics",
+      "semester": 3,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        38,
+        39
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : understand and expl re the field f c mparative gen mics expl re c mputati nal t ls f r gen me alignments & analysis understand applicati ns f c mparative gen mics Objectives and Overview f Gen me C mparis ns (2) Meth ds and T ls f r C mparative Gen mics (6) Gen mic and Pairwise BLAST PipMaker LAST Mauve C mparis n f Gene Order & Synteny analysis (2) Rec mbinati n meth ds and analysis (2) RDP Analysis f P pulati n structure (2) Pr kary tic Eukary tic P pulati n diversificati n: dN/dS rati and selecti n pressure analysis (2) Single Nucle tide P lym rphism, dbSNP and ther SNP-related databases (4) GWAS res urces and analysis f p lym rphism in p pulati ns (5) C mparative Gen mics (5) Viruses Micr bes Path gens Eukary tes",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "t : understand use f c mparative gen mics f r gen me ann tati ns expl re c mputati nal meth ds t ls f r gen me alignments & analysis expl re meth ds t study viral p pulati n diversity, rec mbinati n analysis etc. C mparative gen mics res urces and NCBI and EBI (2) C mparis n f full / partial gen mic sequences using f ll wing meth ds t identify c nserved genes and map/c mpare the ann tati ns f the tw sequences Ensembl Gen me Br wser and C mparis ns (3) BLAST2 (1) MegaBLAST and Disc ntigu us MegaBLAST (2) PipMaker (2) LAST (1) Mauve (1) RDP (1) STRUCTURE using case studies f - (3) virus micr bes m del rganisms Calculating dN/dS rati and selecti n pressure analysis (2) Expl re and query SNP and SNP-related databases (2) GWAS res urces and analysis f p lym rphism (3) W rk ut any ne c mparative gen mics case study based n publicati n & repr duce the utput. (5) Research papers & review papers c vering vari us alg rithms & meth ds Manuals & d cumentati ns f vari us s ftware pr grams. Xia, Xuhua, C mparative Gen mics, 2013, Springer -Verlag Berlin Heidelberg, 978 -3-642- 37146-2 M unt, David. Bi inf rmatics: sequence and gen me analysis. Publisher: C ld Spring Harb r Lab rat ry Press, 2...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 303",
+      "title": "Molecular Modeling & Simulations",
+      "semester": 3,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        40,
+        40
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "Syllabus: Overview f m lecular m deling (1) P tential energy surfaces (1) M lecular mechanics (6) F rce fields Energy Optimizati n alg rithms (4) G lden Secti n Derivative based (SD, CG) M lecular dynamics simulati ns (8) Intr duct ry Stat. Mech., ensembles Newt ns laws f m ti n and integrati n schemes Analysis Free energy calculati ns N rmal M de /Principal C mp nent Analysis Case Studies Electr statics (2) P iss n B ltzmann D cking simulati ns (6) Therm dynamics f pr tein-ligand biding Overview and review f p pular alg rithms Virtual Screening Multiscale m deling (2)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "get hands n experience n t ls used in m lecular m deling M deling basic building bl cks t macr m lecules (4) Pl tting PES f simple m lecules (2) Calculati n f energy using FF terms simple m lecules (2) C ding f r a n n-gradient based and a gradient based ptimizati n alg rithm (6) Running MD simulati ns and analysis (8) Calculating electr statics f r bi m lecules (2) D cking simulati ns (6) Schlick, T. M lecular m delling and simulati n: an interdisciplinary guide. Publisher: Springer. 2002. ISBN: 0-387-95404-X Leach, Andrew. M lecular M delling: Principles and Applicati ns. Publisher: Prentice Hall. 2001. ISBN: 0582239338. Jensen, Jan H. M lecular M deling Basics. Publisher: CRC Press. 2010. ISBN: 978 - Hinchliffe Alan. M lecular m delling f r beginners. Publisher: J hn Wiley and S ns Ltd. 2008. ISBN: 978 0470513149",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 304",
+      "title": "Scientific Data Mining and Visualization",
+      "semester": 3,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        41,
+        42
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "The c urse will enable the students t : Handle large am unts f data generated in experiments Organize, perf rm, and write-up data analyses Mine the data t make sense ut f it Get familiar with c ncepts f visualizing data Visualize the bi l gical data using vari us t ls/techniques & derive kn wledge fr m it C ncepts f Shann n Entr py and Inf rmati n The ry (2) Optimizati n techniques: Rand m walk (1) M nte Carl (2) Simulated Annealing (1) Genetic Alg rithm and Ant c l ny ptimizati n (2) Intr ducti n t Statistical & Machine Learning techniques Supervised and unsupervised Classificati n (1) Hierarchical and k-means clustering (1) K Nearest Neighb ur classifier (1) Supp rt vect r Machines & Attribute Selecti n meth ds (2) Decisi n Tree (1) Rand m F rest (2) Linear Regressi n (1) Perf rmance measures f r classificati n and regressi n (1) PCA (1) ANOVA ( ne-way and tw way) (2) Mark v m dels and Hidden Mark v M dels (3) Artificial Neural Netw rks (3) Big Data: C ncepts, S urces, Techn l gical advances (2) Intr ducti n t data visualizati n: (1) What is data visualizati n? Need f r scientific data visualizati n Advantages and Applicati ns",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "Syllabus: Pr grams f r Rand m walk, M nte Carl and Simulated Annealing (3) T ls and Techniques f r Classificati n f Data (3) Applicati ns and case studies using kNN, Decisi n Tree and Rand m F rest (3) Applicati ns f Classificati n Regressi n (3) Use f ‘R’ f r bi l gical data pr cessing and data visualizati n: (6) Intr ducti n t R envir nment Data types and their pr perties Vect rs, Fact rs, Arrays & Matrices, Lists & Data Frames File IO Data gr uping and C ntr l statements Functi ns Different statistical pl ts with R/ R packages: (4) Hist gram, line, pie, b x-whisker etc. 3-D interactive pl ts Heat maps, c nt ur pl ts C nt ur lines, Streamlines, Streaklines, Utilities pr vided by “grid” package Intr ducti n t “lattice” & “ggpl t2” packages Statistical data analysis with R/ R packages: (8) PCA, ANNOVA, Clustering (K-means and hierarchical) Regressi n, c rrelati n, Fitting a regressi n line, Multiple regressi n Packages: Standard Packages in R Creating cust m packages Case Studies using Bi C nduct r Pr ject (CRAN) Curry Edward . Intr ducti n t Bi inf rmatics with R: a practical guide f r bi l gists Publisher: CRC Press. ISBN-13: 978-1138495715 ISBN-10: 1138495719 Richard C tt n. ...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 305",
+      "title": "Project",
+      "semester": 3,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        43,
+        43
+      ],
+      "units": []
+    },
+    {
+      "code": "BIE 306",
+      "title": "Biology of Diseases",
+      "semester": 3,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        44,
+        44
+      ],
+      "units": [
+        {
+          "title": "Biology of Diseases",
+          "topics": "t : understand the eti l gy, available therapies & future pr spects f r the enlisted diseases understand m lecular level details f h st -path gen and vect r -path gen relati nship where relevant. the r le f bi inf rmatics in identificati n f disease markers, drug and vaccine devel pment. Infecti us diseases and their causative agents Bacterial- Myc bacterium tubercul sis, M. leprae, Antibi tic resistant medically relevant bacteria (5) Viral- HIV, Influenza, Dengue, Other relevant viruses (5) Parasitic- Plasm dium, Leishmania, Trypan s mes, filarial w rms, ther relevant rganisms (5) Pri ns (2) N n-infecti us diseases: Cancer (5) Diabetes mellitus (2) Cardi vascular diseases (2) Human micr bi me & its relati n t health and disease (4) Graham F. Hatfull, William R. Jac bs, Jr. M lecular genetics f Myc bacteria. Publisher: ASM Press. 2014. ISBN: 978-1555818838 Hays, J. D. Ed.;W lf,C.R. Ed. M lecular genetics f drug resistance. Publisher: Harw d Academic 1997 ISBN: 9057021676 M rse, Stephen S. Emerging Viruses. Publisher: Oxf rd University Press. 1996. ISBN: 978- Other learning res urces: Relevant Henry Stewart Talks Research papers relevant f r the t pics",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 307",
+      "title": "Pathways & Networks",
+      "semester": 3,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        45,
+        46
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : Understand the basic bi chemical c ncepts f metab lic pathways. Understand metab lic pathway databases and its uses. Understand metab lic pathway netw rks t understand metab lic systems. Gene and Regulat ry Netw rks: (4) Types f m lecular interacti ns – verview / revisi n Types f bi l gical netw rks- Gene regulat ry netw rk, gene c -expressi n netw rk, metab lic netw rks. Pr perties f metab lic Netw rks Representati n f bi l gical netw rks: Graphs (3) Types f netw rks : Linear, B lean, Bayesian (3) Organizati n f metab lic systems: C mp nents f pathways; M des f enzymes - enzyme chains, multi-enzyme c mplexes, multifuncti nal enzymes: M des f pathways - linear, branched and cyclic pathways; Types f pathways -anab lic, catab lic, amphib lic, anapler tic, catapler tic, shuttle pathways, secret ry pathways and signal transducti n; Regulati n f pathways - reversible and irreversible regulati n, feedback and feedf rward regulati n; regulat ry enzymes, pacemaker enzymes and linker enzymes. (5)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "Br wse & search f ll wing metab lic pathway databases (3) KEGG, Bi Cyc, MetaCyc, Ec Cyc, React me, BiGG, B ehringer Mannheim - Bi chemical Pathway database. Br wse & search f ll wing metab lic disease databases (2) HMDB, MPMP, RAMEDIS Br wse & search f ll wing Enzymes, C mp unds and Reacti ns databases BRENDA, Expl rEnz, IntEnz, ExPASy Enzyme database, LIGAND, ICEED (2) Visualizati n and rec nstructi n f gene regulat ry netw rks using Cyt scape. (4) Building f c -expressi n netw rks. (4) Nels n David L., C x Michale. Lehninger Principles f Bi chemist ry 5 th Editi n. Publisher: New Y rk. W. H. Freeman. 2008. ISBN 978 0716771081. Berg, Jeremy M, Tym czk , J hn L. Stryer, Lubert. Bi chemistry 6 th Editi n. Publisher: New Y rk: W.H. Freeman. 2007. ISBN: 071676766X. Hames David, H per Nigel. Instant N tes in Bi chemistry 3 rd Editi n. Publisher. N dia, Tayl r & Francis. 2007. ISBN: 185996 2491. V et, D nald, V e Judith, Pratt, Charl tte W. Fundamentals f Bi chemistry: Life at the m lecular Level 2 nd Editi n. Publisher: Asia, J hn Wiley & S ns. 2006. I SBN: 0471753416. H rt n, R bert, M ran, Laurence A, Scrimge ur, Perry Gray Marc, Rawn. David. Principles f bi chemistry. Publisher: ...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 308",
+      "title": "Laboratory Course in Experimental Immunology",
+      "semester": 3,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        47,
+        47
+      ],
+      "units": [
+        {
+          "title": "Laboratory Course in Experimental Immunology",
+          "topics": "Practicals The c urse will help the students t understand t ls and techniques used t generate immun l gical data A: Classical Techniques 1. Ouchterl ny D uble Diffusi n (4) 2. Immun electr ph resis (4) 3. R cket Immun electr ph resis (4) 4. Haemagglutinati n (4) B: Advanced Techniques 1. Western bl tting/C -immun precipitati n/Enzyme Linked Immun s rbent assay/Chr matin immun precipitati n (14)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 309",
+      "title": "Web Design",
+      "semester": 3,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        48,
+        48
+      ],
+      "units": [
+        {
+          "title": "Web Design",
+          "topics": "t : ● Design web pages and f rms ● Perf rm backend data pr cessing using files and databases ● HTML tags f r fr nt end design (3) ● Web page styling using CSS (2) ● PHP scripting (3) ● F rm design (2) ● Backend pr cessing f f rm data in PHP (2) ● Javascript functi ns f r data validati n (3) ● MySQL database c nnectivity (3) ● Server side scripting in Pyth n (3) ● Implementing nline database and webserver (2) ● Mini pr ject (7) 1. Learning Web Design: A Beginner's Guide t HTML, CSS, JavaScript, and Web Graphics by R bbins Jennifer, Shr ff/O'Reilly; Fifth editi n ISBN: 978-9352137381 2. Resp nsive Web Design with HTML5 and CSS: Build future-pr f resp nsive websites using the latest HTML5 and CSS techniques by Ben Frain, Packt Publishing Limited; 4th editi n ISBN: 978-1803242712 3. Secure Web Applicati n Devel pment: A Hands-On Guide with Pyth n and Djang by Matthew Baker, Apress 1st editi n ISBN: 978-1484285954 4. PHP & MySQL: Server-side Web Devel pment by J n Duckket, Wiley 1st editi n ISBN: 978-1119149217",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 401",
+      "title": "Project",
+      "semester": 4,
+      "type": "Core",
+      "credits": 6,
+      "pages": [
+        49,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "BIN 402",
+      "title": "Seminar",
+      "semester": 4,
+      "type": "Core",
+      "credits": 2,
+      "pages": [
+        49,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "BIN 403",
+      "title": "Transcriptomics and Proteomics",
+      "semester": 4,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        50,
+        51
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : Understand the basic c ncepts f pr te mics and its applicati ns. Understand the r le f Bi inf rmatics in the study f pr te me analyses. Transcript mics Regulati n f transcripti n in pr kary tes and eukary tes, dynamics in gene expressi n (2) Principle and meth d l gy f t ls t study c mparative gene expressi n – RT-PCR, qRTPCR, differential display RT-PCR, cDNA micr -array, N rthern bl tting (4) Transcript me analysis- RNA-seq, miRNA-seq (6) C mputati nal meth ds f r Transcipt me analysis and case studies (3) Pr te mics Organizati n f pr te me: Basic c ncept f pr te me; hist ry, types f pr te mics and applicati ns f pr te mics. (3) Experimental techniques in Pr te mics: (6) C nventi nal techniques: Cell disrupti n meth ds, chr mat graphy (GF, IEC, AC, HPLC, RP-HPLC, Mud-LC), dialysis, ELISA and Western bl tting. Advance techniques: Gel based techniques (1DE, 2DE, 2-D DIGE), In-gel digesti n, Pr tein sequencing meth ds, Mass spectr metry (LC -MS, ESI -Q-MS, MALDI - TOF-MS, SELDI -TOF-MS, ESI -MS/MS, etc.), yeast tw hybrids, Pr tein micr arrays. Quantitative techniques: ICAT, SILAC, iTRAQ. High thr ughput techniques: X-ray crystall graphy, NMR, AFM, FRET, etc C mputati nal meth...",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "Pr te mics c ncepts and techn l gies currently used t unravel pr tein functi ns and their r le health and diseases. T use bi inf rmatics appr aches f r identificati n and characterizati n f pr teins and peptides. Transcript mics Br wse and search in regulat ry databases (b th f r pr kary tes and eukary tes) (2) Identificati n f regulat ry m tifs using packages like MEME. (2) Br wse and d wnl ad RNA-seq data fr m NCBI GEO and Quality check. (4) Hands- n analysis f RNA-seq data (6) Pr te mics Br wse and search the pr te mics databases. (4) Identificati n f pr teins with its m lecular weight and pI fr m sequence using bi inf rmatics t ls. (2) MS data analysis using Pr F und/MASCOT/pr spect r t ls. (3) Predicti n f pr tein m tifs and d main using nline t ls. (2) Predicti n f pr tein-pr tein interacti n and pr tein-ligand interacti n. (3) Visit t virtual pr te mic lab rat ry and ExPASy Bi inf rmatics Res urce P rtal. (2) Intr ducti n t Pr te mics: Principles and Applicati ns by Nawin Mishra, J hn Wiley & S ns. Principles f Pr te mics Sec nd editi n by Richard Twyman, Garland Science, 2013. Intr ducti n t Pr te mics: T ls f r the New Bi l gy by Daniel C. Liebler, Springer Science & Bu...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 404",
+      "title": "Metabolic Engineering & Systems Biology",
+      "semester": 4,
+      "type": "Core",
+      "credits": 4,
+      "pages": [
+        52,
+        53
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : learn h w metab lic pathways can be m deled, analyzed and engineered using mathematical t ls apply advanced meth d l gies t m del pathways ● Overview / Intr ducti n t Metab lic Engineering (1) ● Why mathematical m dels (1) ● Mathematical m deling f bi chemical pathways (3) Pathway types - Metab lic, Signaling, Gene regulati n Intr ducti n t types f mathematical m deling - B lean, ODE, PDE, discrete st chastic, C nstraint based m deling (FBA) ● Mathematical m del database (1) Bi m dels database, PantherDB ● B lean m deling details (4) ● Ordinary differential equati n based deterministic m deling (4) ● C nstraint based m deling - Flux balance analysis (4) ● Metab lic C ntr l Analysis ● Pr perties f netw rk (4) T p l gical pr perties f netw rk - l ad-ch ke p int analysis, centrality analysis ● Metab lic Netw rk Rec nstructi n ● Applicati ns f systems bi l gy Metab lic engineering - Rati nal metab lic netw rk design basics (eg. kn ck - ut, kn ck-in), Bi bricks database, pen wet ware (4) Drug disc very - drug target identificati n (eg. kn ck - ut, kn ck -d wn predicti n, vulnerability predicti n) (4)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "t : Use visualizati n t ls f r understanding pr perties f bi chemical netw rks use advanced mathematical t ls t m del metab lic pathways Cell Net Analyser - F r b lean m deling (5) CellDesigner, C pasi, SBML f rmat - F r ODE based m deling (7) GSMN-TB - F r FBA (3) Cyt scape - T p l gical pr perties f bi chemical netw rks (4) MATLAB intr ducti n, SBML t lb x, SBt lb x, COBRA (6) Mini pr ject (5) Systems Bi l gy: A Textb k, 2nd Editi n by Edda Klipp, W lfram Liebermeister, Christ ph Wierling, Axel K wald. ISBN: 978-3-527-33636-4. 2016. Wiley-Blackwell M deling Bi l gical Systems: Principles and Applicati ns by James W. Haefner. ISBN: 978-0-387-25011-3. 2005. Springer New Y rk, NY Elements f C mputati nal Systems Bi l gy by Huma M. L dhi, Stephen H. Mugglet n. ISBN: 978-0-470-18093-8. 2010. Wiley-Blackwell Fundamentals f Systems Bi l gy Fr m Synthetic Circuits t Wh le -cell M dels, 1st Editi n. by Markus W. C vert. ISBN 9781138582927. 2015. CRC Press Systems Bi l gy Phil s phical F undati ns by Frank J. Bruggeman, Fred B gerd, H.V. Westerh ff, Jan-Hendrik S. H fmeyr. ISBN: 9780080475271. 2007. Elsevier Science Big Mechanisms in Systems Bi l gy: Big Data Mining, Netw rk M deling, a...",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIN 405",
+      "title": "Modern Drug Design",
+      "semester": 4,
+      "type": "Core",
+      "credits": 2,
+      "pages": [
+        54,
+        54
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : understand the basic c ncepts f m dern techniques f drug disc very and design appreciate success st ries f drugs devel ped using m dern meth ds Hist ry f drug disc very & m dern disc very pr cess (1) Drug vs inhibit r (kinds f inhibit rs: c mpetitive, unc mpetitive etc) Inhibiti n c nstants: IC50, Ki, LD50 Target identificati n and Validati n, P lypharmac l gy (1) S urces f small m lecules: High thr ughput screening and m lecular libraries initiative, natural and synthetic pr ducts, c mmercial libraries (1) Ligand based: 3D QSAR – Alignment & N n-alignment based, Pharmac ph re m deling, Shape based screening, Bi is steres (4) Structure based: Virtual screening, Ensemble based screening, De n v meth ds, Pharmac ph res, (3) Drug repurp sing (1) ADMET & predicti ns (1) Pharmac gen mics: pharmac kinetics, pharmac dynamics and case studies f variati ns in drug resp nse (2) Success st ries f rati nal design (1)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "get hands n experience n t ls used in m dern drug design Syllabus Data mining databases f r drug and drug-like c mp unds and their ass ciated pr perties (3) Case study n 3D QSAR (3) Case study n Ensemble-based virtual screening (3) Case study n de-n v meth ds (3) Case study n ligand based pharmac ph re screening (3) Y ung David. C mputati nal drug design: A Guide f r C mputati nal and Medicinal Chemists. Publisher: Wiley. 2009. ISBN: 9780470126851 Str ud, R bert et al. C mputati nal and Structural Appr aches t Drug Disc very: Ligan d- Pr tein Interacti ns. Publisher: R yal s ciety f chemistry : Cambridge ISBN: 0854043659 Gibaldi Mil . Bi pharmaceutics and Clinical Pharmac kinetics. Publisher: PharmaMed Press. ISBN: 8188449067 Abraham, D nald (Ed). Burger's medicinal chemistry and drug disc very. Publisher: J hn Wiley & S ns, Inc. 2003. ISBN: 0471270903",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 406",
+      "title": "Translational Bioinformatics",
+      "semester": 4,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        55,
+        55
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "T understand the c ncept f translati nal research and translati nal bi inf rmatics. T learn vari us bi l gical and clinical data types and c mputati nal res urces useful f r translati nal bi inf rmatics. T be able t c rrelate the m lecular data at vari us levels and f vari us types t the essential bi medical and clinical aspects and entities such as patients, diseases, sympt ms, diagn stics, therapeutics etc.) Data res urces f r translati nal bi inf rmatics (6) Large Scale Gen me Sequencing Pr jects EnC de Pr ject The Cancer Gen me Atlas Ex me Sequencing datasets Intr ducti n t precisi n medicine with a case study (2) Identificati n f bi markers t diagn se pre-disease states (2) Types and varieties f clinical data (1) Building pr babilistic causal m dels f diseases – appr aches and case studies (2) Case Studies in Translati nal Bi inf rmatics (2)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "Study f data res urces: Expl ring & br wsing, understanding data f rmats, searching and retrieval f data (12) Large Scale Gen me Sequencing Pr jects EnC de Pr ject The Cancer Gen me Atlas Ex me Sequencing datasets Case study in translati nal bi inf rmatics (3) PLOS C mputati nal Bi l gy www.pl sc llecti ns. rg/translati nalbi inf rmatics Readhead B. and Dudley J. Translati nal Bi inf rmatics Appr aches t Drug Devel pment Advances In W und Care, 2012; 2(9):470-489. Tenenbaum JD. Translati nal Bi inf rmatics: Past, Present, and Future; Gen mics Pr te mics Bi inf rmatics; 2016; 14:31–41 1000 Gen mes Pr ject C ns rtium, Abecasis GR, Aut n A, Br ks LD, DePrist MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA. An integrated map f genetic variati n fr m 1,092 human gen mes. Nature. 2012; 491(7422):56-65. ENCODE Pr ject C ns rtium. An integrated encycl pedia f DNA elements in the human gen me. Nature. 2012; 489(7414):57-74. Gibs n IB, Jiang R, Yu F. The 1000 Gen mes Pr ject: paving the way f r pers nalized gen mic medicine. Per Med. 2013;10(4):321-324.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 407",
+      "title": "Advanced Genomics",
+      "semester": 4,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        56,
+        56
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : Understand advances in vari us fields f gen mics. Understand gen mic data archival res urces. Gen me Pr jects in High Thr ughput Sequencing Era (2) ChIP-Seq, Bisulfite-treated methylati n sequencing (4) Intr ducti n t Metagen mics, Epigen mics. (6) Gen mic data archival res urces: (3) MEGAN, MGRAST, Integrated Micr bial Gen mes (IMG/M), EBI-Metagen mics. Primr se, S.B. and Twyman, R.M., Principles f Gen me Analysis and Gen mics (3rd Ed.) Publisher: Blackwell Publishing C mpany, Oxf rd, UK. 2003 M unt, D., Bi inf rmatics: Sequence and Gen me Analysis Publisher: C ld Spring Harb r Lab rat ry Press, New Y rk. 2004",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "Br wse gen mic data archival res urces. Analyze high thr ugh-put sequence data. T br wse the f ll wing gen mic data res urces ChIP-seq (5) Bisulfite-Seq (3) MEGAN (1) MGRAST (1) Integrated Micr bial Gen mes (IMG/M) (1) Metagen mics data analysis pipeplines (4)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 408",
+      "title": "Advanced Molecular Phylogenetics",
+      "semester": 4,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        57,
+        57
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "t : understand the field f Phyl inf rmatics & phyl ge graphy understand vari us m dels and r le f Bayesian analysis using MCMC understand alg rithms and meth ds f r alignment-free phyl geny r le f phyl geny and clustering in typing viral and bacterial species Assessment f MSA m dels (2) Need f r benchmark datasets Gene and gen me based phyl geny Substituti n m dels & fitness tests (1) M deling sequence ev luti n using Bayesian meth ds (2) M lecular cl ck hyp thesis (1) Phyl ge graphy: meth ds & practices (2) Phyl geny pr grams: BEAUTI & BEAST (3) Alignment-free phyl geny (3) In-silic meth ds f r viral and bacterial typing (1)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "C mpilati n f datasets and benchmarking (2) Assessment f alignment accuracy (1) Gene-based and Gen me-based phyl geny (2) Using jm deltest (1) M lecular cl ck assessment using MEGA & BEAST (1) Expl ring the packages BEAUTI & BEAST f r estimati n f divergence (4) Phyl geny using RTD and ther meth ds (2) Gen - & ser -typing f viruses & bacteria using RTD & MLST (2) H lmes, Edward. Ev luti n and Emergence f RNA Viruses. Publisher: Oxf rd University Press, 2011. ISBN: 9780199211135 Pevzner ,Pavel, Bi inf rmatics f r Bi l giest. Publisher: Cambridge University Press., 2011. ISBN: 9781107648876 Vinicius, Luci , M dular Ev luti n: H w Natural Selecti n Pr duces Bi l gical C mplexity , Publisher: Cambridge University Press. 2010. ISBN: 9780521728775 Lemey, Philippe, The Phyl genetic Handb k 2nd Ed: A Practical Appr ach t Phyl genetic Analysis and Hyp thesis Testing, Publisher: Cambridge University Press, 2009. ISBN: Br mham,Lindell,",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "BIE 409",
+      "title": "Advanced Algorithms in Machine Learning",
+      "semester": 4,
+      "type": "Elective",
+      "credits": 2,
+      "pages": [
+        58,
+        58
+      ],
+      "units": [
+        {
+          "title": "Theory",
+          "topics": "Supp rt Vect r Machines f r classificati n and regressi n: S ft and hard margins (2) Naïve-Bayes classifier (1) L gistic regressi n (1) Different attribute selecti n meth ds (1) Intr ducti n t Image pr cessing and its applicati n in Bi inf rmatics (2) Hidden Mark v M dels (2) Intr ducti n t Time Series and different time series m delling techniques (1) Intr ducti n t Deep learning meth ds (1) Intr ducti n t neural netw rks (NN), c nv luti nal neural netw rk (CNN) and recurrent neural netw rk (RNN) (2) Intr ducti n t Large Language M dels (LLMs), Transf rmers, BERT/ Bi BERT (2)",
+          "hours": null
+        },
+        {
+          "title": "Practicals",
+          "topics": "Applicati ns f Supp rt Vect r Machines with bi l gical data (4) Simultane us Cancer classificati n and attribute selecti n using gene expressi n data (3) Pr grams f r data prepr cessing and classificati n/regressi n meth ds using R/ Pyth n (2) Applicati ns f ANN, CNN, RNN in bi l gical data analysis: (Sequence and Structure data analysis, bi m lecular interacti ns, functi n predicti n etc.) (4) Text mining (2)",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,554 @@
+{
+  "id": "s-y-b-sc-computer-science-17062025",
+  "kind": "programme",
+  "programme": "B.Sc. (Computer Science)",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CS-201-MJ-T",
+      "title": "Data Structure I",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Introduction to Data Structures and Algorithm Analysis",
+          "topics": "1.1 Introduction 1.1.1 Need of Data Structure 1.1.2 Definitions - Data and Information, Data type, Data object, ADT, Data Structure 1.1.3 Types of Data Structures 1.2 Algorithm Analysis 1.2.1 Space and Time Complexity 1.2.2 Best, Worst, Average case analysis, Asymptotic notations (Big -O (O) , Omega \u03a9, Theta (\u0398) ), Problems on time complexity calculation.",
+          "hours": 3
+        },
+        {
+          "title": "Array as a Data Structure",
+          "topics": "2.1 ADT of array, Operations and Applications of Array 2.2 Searching Techniques 2.2.1 Sequential / Linear search 2.2.2 Binary Search 2.2.3 Comparison of Searching Techniques 2.3 Sorting Techniques 2.3.1 Terminology- Internal, External, Stable, In-place Sorting 2.3.2 Comparison Based Sorting Techniques - Bubble Sort, Insertion Sort, Selection Sort 2.3.3 Algorithm design strategies -Divide and Conquer strategy, Merge Sort, Quick Sort 2.3.4 Non Comparison Based Sorting: Counting Sort, Radix Sort 2.3.5 Analysis of sorting techniques. 2.3.6 Comparison of sorting Techniques.",
+          "hours": 8
+        },
+        {
+          "title": "Linked List",
+          "topics": "3.1 Introduction to Linked List 3.2 Implementation of Linked List \u2013 Static & Dynamic representation, 3.3 Types of Linked List-\u2013 Singly, Doubly, Circular (Singly) 3.4 Operations on Linked List - create, display, insert, delete, reverse, search, sort, concatenate and merge 3.5 Applications of Linked List \u2013 Polynomial Representation, Addition of two polynomials 3.5.1 Generalized linked list \u2013 Concept, Representation",
+          "hours": 8
+        },
+        {
+          "title": "Stack",
+          "topics": "4.1 Introduction to Stack 4.2 Operations \u2013 init(), push(), pop(), is Empty(), isFull(), peek(), time complexity of operations. 4.2 Representation - Static (Array) and Dynamic (Linked List) 4.3 Applications of stack 4.3.1 Function call and recursion, String reversal, palindrome checking 4.3.2 Expression types - infix, prefix and postfix, expre ssion conversion and evaluation (Implementation of infix to prefix , infix to postfix, evaluation of postfix)",
+          "hours": 6
+        },
+        {
+          "title": "Queue",
+          "topics": "5.1 Introduction to Queue 5.2 Operations - init(), enqueue(), dequeue(), isEmpty(), isFull(), peek(),time complexity of operations, differences with stack. 5.3 Implementation \u2013 Static (Array) and Dynamic (Linked List) with comparison 5.4 Types of Queue - Linear Queue, Circular Queue, Priority Queue, Double Ended Queue (only Concept of Doubly Ended Queue) 5.5 Applications of queue",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CS-202-MJ-T",
+      "title": "Database Management System I",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        18,
+        20
+      ],
+      "units": [
+        {
+          "title": "Introduction to DBMS",
+          "topics": "1.1 Introduction to Data, Database and DBMS. 1.2 File system vs DBMS 1.3 Levels of abstraction and data independence 1.4 Architectures of DBMS 1.5. Users of DBMS 1.6 Advantages and Disadvantages of DBMS 1.7 Applications of DBMS",
+          "hours": 3
+        },
+        {
+          "title": "Conceptual Design",
+          "topics": "2.1 Overview of DB design process. 2.2 Introduction to data models (E -R model, Relational mod el, Network model, Hierarchical model) 2.3 Conceptual design using ER data model (entities, attributes, entity sets, relations, relationship sets) and symbols. 2.4 Extended features \u2013Specialization, Aggregation, Generalization (Pictorial representation). 2.5 Constraints ( domain constraints, entity integrity constraints referential integrity constraints and key constraints). 2.6 Structure of Relational Databases (concepts of a table) 2.7 Case Studies on ER model",
+          "hours": 10
+        },
+        {
+          "title": "SQL",
+          "topics": "3.1 Introduction to query languages 3.2 Basic structure 3.3 Commands in SQL 3.3.1 DDL Commands 3.3.2 DML Commands 3.3.3 DCL Commands 3.3.4 TCL Commands 3.4 Forms of a basic SQL query (Expression and strings in SQL) 3.5 SQL Operations 3.5.1 Set operations 3.5.2 Aggregate functions 3.5.3 Date, Time functions 3.5.4 Simple queries 3.5.5 Nested queries 3.6 Joins in SQL (Cartesian Product, Inner joins, Outer joins and their types) 3.7 Views. 3.8 Examples on SQL (case studies)",
+          "hours": 9
+        },
+        {
+          "title": "Relational Database Design",
+          "topics": "4.1 Introduction to Relational-Database Design 4.1.1 Undesirable properties of a RDB design 4.2 Functional Dependency 4.2.1 Basic concepts 4.2.2 Closure of relation (F+) 4.2.3 Closure of an Attribute set 4.2.4 Armstrong\u2019s axioms 4.3 Concept of Decomposition 4.4 Desirable Properties of Decomposition 4.4.1. Lossless and Lossy join Decomposition. 4.4.2 Dependency Preserving Decomposition. 4.5. Concept of Normalization 4.6 Normal Forms 1NF, 2NF ,3NF, BCNF and its Examples. 4.7 Keys Concept : Primary Key, Candidate Keys ,Composite Key, Alternate Key and Super Key.(Find out candidate key and super key with examples)",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CS-203-MJ-P",
+      "title": "Lab Course based on CS-201-MJ-T & CS-202-MJ-T",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        21,
+        23
+      ],
+      "units": []
+    },
+    {
+      "code": "CS 221-VSC-T",
+      "title": "Software Engineering",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        24,
+        26
+      ],
+      "units": [
+        {
+          "title": "Introduction to Software Engineering",
+          "topics": "1.1 Definition of Software 1.2 Nature of Software Engineering 1.3 Changing nature of software 1.4 Mc Call\u2019s Quality factors 1.5 Software Process 1.6 The Process Framework 1.7 Umbrella Activities 1.8 Process Adaptation",
+          "hours": 5
+        },
+        {
+          "title": "Software Development Life Cycle",
+          "topics": "2.1 Introduction, Activities of SDLC 2.2 Preliminary Investigation and its activities. 2.3 Requirements engineering tasks (Inception, Elicitation, Elaboration, Negotiation, Specification, Validation, Requirements Management) 2.4 Fact finding techniques (Interview, Questionnaire, Record Review, Observation) 2.5 Determination of system requirements 2.6 Design of a system 2.7 Development of software 2.8 System testing (Unit Testing, Integration Testing, System Testing, Acceptance Testing) 2.9 System Implementation and Evaluation 2.10 System maintenance",
+          "hours": 5
+        },
+        {
+          "title": "Process Models",
+          "topics": "3.1 Generic Process Model 3.2 Prescriptive Process Models 3.2.1. The Waterfall Model 3.2.2 V-model 3.3 Incremental and Iterative Process Models 3.4 Evolutionary Process Models- Prototyping, Spiral Model 3.5 Rapid Application Development(RAD) 3.6 Concurrent Models 3.7 The Unified Process",
+          "hours": 7
+        },
+        {
+          "title": "Requirements Modeling-UML",
+          "topics": "4.1 Introduction to UML 4.2 Structural Modeling 4.2.1 Class Model 4.2.2 Object Model 4.2.3 Deployment Model 4.2.4 Component Model 4.3 Behavioral Modeling 4.3.1 Use case model 4.3.2 Activity model 4.3.3 State Chart Model 4.3.4 Sequence model 4.4 Interaction Model- 4.4.1 Sequence Model 4.4.2 Collaboration Model",
+          "hours": 8
+        },
+        {
+          "title": "Agile Development",
+          "topics": "5.1 Agility: Introduction, use, purpose 5.2 Agile Process 5.2.1 Agility Principles 5.2.2 Human Factors 5.3 Extreme Programming(XP) 4.3.4 XP Values 4.3.5 XP Process 4.3.6 Industrial XP Agile 4.4 Adaptive Software Development(ASD) 4.4.1 Scrum 4.4.2 Dynamic System Development Model (DSDM) 5.4.3 Agile Unified Process (AUP)",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CS-201-IKS-T",
+      "title": "Indian Knowledge System in Computing",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        27,
+        28
+      ],
+      "units": [
+        {
+          "title": "Vedic Mathematics & Computational Thinking",
+          "topics": "1.1 Introduction to Vedic Mathematics: Origins and importance in ancient India, Sutras and their logical foundation 1.2 Basic Arithmetic using Vedic Methods: Addition, subtraction, multiplication, and division tricks 1.3 Algebraic Applications of Vedic Mathematics: Squaring, square roots, cube roots, and factorization",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to Nyaya (Indian Logic)",
+          "topics": "2.1 Introduction to Nyaya Philosophy: Introduction to Nyaya (Indian Logic), Overview of Indian philosophical schools, Importance of Nyaya in logical reasoning, Types of reasoning (Anumana, Pramana, etc.) 2.2 Nyaya\u2019s Four Sources of Knowledge (Prama\u1e47a): Perception, inference, comparison, verbal Testimony 2.3 Types of Argumentations in Nyaya Vada (truth-based), Jalpa (debate-focused), Vitanda (criticism) Applications in AI & Machine Learning: Logical reasoning models, expert systems, and rule-based AI",
+          "hours": 8
+        },
+        {
+          "title": "Panini\u2019s Astadhyayi & Chandas\u0101stra",
+          "topics": "3.1 Introduction to Panini\u2019s Astadhyayi: Historical background and linguistic importance 3.2 Rule-Based System of Sanskrit Grammar: Sutras, meta-rules, recursion, and transformations 3.3 Chandasastra\u2019s Binary logic and combinatorial techniques",
+          "hours": 8
+        },
+        {
+          "title": "Applications of IKS in Computer Science",
+          "topics": "4.1 Mind and cognition in Samkhya and Yoga: AI insights 4.2 Machine Learning and Indian philosophies: Understanding of human cognition in Indian philosophical schools (Advaita, Samkhya and Yoga) 4.3 Cryptography and Security: Ancient cryptographic methods in Kautilya\u2019s Arthashastra, protecting information: analogies from Indian traditions",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "CS-231-FP",
+      "title": "Mini Project",
+      "semester": 3,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        29,
+        29
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-201-CS-T",
+      "title": "Ecommerce I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        30,
+        31
+      ],
+      "units": [
+        {
+          "title": "E- Commerce and Business Model Concepts",
+          "topics": "1.1. Introduction to E Commerce: Definition, Goals, Technical Components, Functions, Status, Prospects, Significance, Advantages, Disadvantages E-Commerce 1.2. Business Models: Major Business to Consumer (B2C) Business Model Portal, E -tailor, Major Business to Business (B2B) Bus iness Mode, E Distributor, E -Procurement, Exchanges 1.3 Business models in Emerging E-Commerce Areas - C2C, P2P, and B2G.,case studies.",
+          "hours": 7
+        },
+        {
+          "title": "E-Marketing and E- Commerce Application",
+          "topics": "2.1. Introduction, Identifying Goals, Definition 2.2. Browsing Behavior Model 2.3. Online Marketing 2.3.1 e-Commerce and retailing 2.3.2 e-Commerce and banking, 2.4. E-Advertising \u2013Introduction, Purpose, Goals, advantages, disadvantages. 2.5. Internet Marketing Trends 2.6. Target Markets 2.7. E-Branding 2.8. Marketing Strategies 2.9. Consumer Online: The Internet Audience and Consumer Behaviors 2.10. E-cycle of Internet Marketing",
+          "hours": 7
+        },
+        {
+          "title": "E-commerce Payment Method",
+          "topics": "3.1. The requirements of an electronic payment system 3.2. Traditional payment system, Electronic payment technology. 3.3. Electronic payment gateways. 3.4. B2B electronic payments. 3.5. Third-party payment processing, electronic or digital currency, characteristics, operation. 3.6. Online credit card payments and smart cards.",
+          "hours": 6
+        },
+        {
+          "title": "E-Commerce Laws & Regulations",
+          "topics": "4.1. Introduction to E-Commerce Laws 4.2. Information Technology (IT) Act, 2000 (India). 4.3. GDPR (General Data Protection Regulation) \u2013 EU. 4.4. Other Global E-Commerce Laws.",
+          "hours": 5
+        },
+        {
+          "title": "Future Trends in E-Commerce",
+          "topics": "5.1. AI & Chatbots in E-Commerce. 5.2. AR/VR Shopping Experiences. 5.3. Personalization & Data Analytics. 5.4. The Role of IoT in E-Commerce.",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "OE-202-CS-T",
+      "title": "Web Design I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        32,
+        34
+      ],
+      "units": [
+        {
+          "title": "Introduction to Web Design",
+          "topics": "1.1 Introduction 1.2 Working of the Internet. 1.3 Role of Web Servers, Clients(Communication) 1.4 Web Browsers 1.5 Working of the Internet, Intranet and WWW 1.6 E-Mail Servers and Protocols 1.7 E-mail Clients and Web Based Mail Access using Browser 1.8 Messenger Services and Clients(Chat) 1.9 Advantages and Disadvantages of Internet 1.10 Concept of effective Web Design (Web site, classification of website, Advantages and Disadvantages. Of website) 1.11 Fundamental Principles of Web page design and issues",
+          "hours": 8
+        },
+        {
+          "title": "Getting Started with HTML",
+          "topics": "2.1 Introduction to scripting Languages 2.2 HTML Editing Tools 2.3 WYSISYG Authoring Tools 2.3.1 HTML Script 2.3.2 Basic HTML Document Structure 2.3.3 Common HTML Tags and its attributes 2.3.4 Design HTML Tags 2.3.5 Text Formatting and Styles 2.3.6 Images and Graphics 2.3.7 Button, Formatting and Style 2.3.8 Lists 2.3.9 Hyperlinks 2.4 Multimedia 2.5 Frames 2.6 HTML Forms 2.7 Linking Web pages 2.8 Publishing Web Pages",
+          "hours": 6
+        },
+        {
+          "title": "Tables",
+          "topics": "3.1 Table Structure 3.2 Table tags 3.3 Affecting table appearance 3.4 Table troubleshooting 3.5 Tips and tricks 3.6 Standard table templates 3.7 Multipart images in tables",
+          "hours": 6
+        },
+        {
+          "title": "Frame / Forms",
+          "topics": "4.1. Introduction to frames 4.2. Basic frameset structure 4.3. The frame function, appearance and Targeting frames. 4.4. The Inline (Floating) frames and Frame design tips and tricks 4.5. Forms: FORM elements, FORM attributes, Unconventional use of FORM elements 4.8. Demystifying CGI 4.9. Retrieving parameter value using getParameter () method Case Studies 4 hours Case study 1: Creation of forms, small case study to create HTML pages using all the above learnt techniques. Case study 2: Creation of Forms layout designing by using div element with CSS property Case study 3: Create Multiple Web pages link them to publish a small website.",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-203-CS-T",
+      "title": "Digital Marketing I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        35,
+        36
+      ],
+      "units": [
+        {
+          "title": "History of Digital Marketing",
+          "topics": "1.1. Introduction 1.2. Offline digital marketing - Electronic billboards, Radio marketing, T.V. marketing, Phone marketing 1.3. Online marketing - Search Engine Optimization (SEO), Social media marketing, E -mail marketing 1.4. Difference between conventional marketing and online marketing.",
+          "hours": 8
+        },
+        {
+          "title": "Internet Marketing",
+          "topics": "2.1. Structure of Website - Team 2.2. Types of website - Static Website, Dynamic website, Personal, Commercial, Governmental, Non - profit organization 2.3. Web Portals - Type of Portals",
+          "hours": 8
+        },
+        {
+          "title": "Classification of e-Commerce",
+          "topics": "3.1. Business to Business (B2B) Model 3.2. Business to Consumer(B2C) Model 3.3. Consumer to Consumer(C2C) Model 3.4. Consumer to Business (B2B) Model Case Study 6 Hours Case Study 1: Digital Platform like subscription-based streaming service that offers a vast library of TV shows, movies, documentaries, and original content. (eg. Prime Video, Netfix etc ) Case Study 2: Any Private sector bank in India\u2013Digital Transformation and Customer Engagement, Retail banking, corporate banking, credit cards, loans, digital banking, etc. Case Study 3: Multispecialty Hospital in 2- Tier city -Cardiology and Orthopedic Departments Case Study 4: Content Marketing - like HupSpots Content Marketing creates valuable content like blog posts, e-books and infographics that address their target audience and establishing themselves as though leaders and attracting potential customers. Case Study 5: Any Newspaper like The New York Times \u2013 Digital Subscription Growth- Transition from print to digital revenue through subscriptions",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE-204-CS-T",
+      "title": "AI for Everyone - I",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        37,
+        39
+      ],
+      "units": [
+        {
+          "title": "Introduction to Artificial Intelligence",
+          "topics": "1.1 Definition and scope of AI 1.2 Historical overview and key milestones 1.3 Differentiating AI from human intelligence 1.4 Types of AI tools: Text, image, audio, video, coding, and automation. 1.5 Where to find free AI tools? (Google AI, Open AI, Hugging Face, etc.)",
+          "hours": 8
+        },
+        {
+          "title": "AI Subfields",
+          "topics": "2.1 Machine learning: Supervised, unsupervised, and reinforcement learning 2.2 Deep learning and neural networks 2.3 Natural language processing (NLP) and computer vision",
+          "hours": 6
+        },
+        {
+          "title": "Applications of AI",
+          "topics": "3.1 AI in healthcare: Diagnosis, treatment, and medical imaging 3.2 AI in finance: Fraud detection, algorithmic trading, and risk assessment 3.3 AI in transportation: Autonomous vehicles and traffic optimization 3.4 AI in customer service and chatbots 3.5 AI in education: Personalized learning and intelligent tutoring systems",
+          "hours": 8
+        },
+        {
+          "title": "Ethical and Social Implications of AI",
+          "topics": "4.1 Bias and fairness in AI systems. 4.2 Privacy and data protection concerns 4.3 Impact of AI on employment and the workforce 4.4 AI and social inequality",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "CS-251-MJ-T",
+      "title": "Data Structure II",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        40,
+        41
+      ],
+      "units": [
+        {
+          "title": "Tree",
+          "topics": "1.1 Concept and Terminologies 1.2 Types of Binary Trees - Binary Tree, Skewed Tree, Strictly Binary T ree, Full Binary Tree, Complete Binary Tree, Expression Tree, Binary Search Tree. 1.3 Representation \u2013 Static and Dynamic 1.4 Implementation and Operations on Binary Search Tree - Create, Insert, Delete, Search, 1.5 Tree traversals\u2013 preorder, inorder, pos torder (recursive implementation), Level-order traversal using queue, Counting leaf, non-leaf and Total nodes, Copy, Mirror. 1.6 Applications of trees - Heap Sort.(Max heap and Min Heap)",
+          "hours": 10
+        },
+        {
+          "title": "Search Trees",
+          "topics": "2.1 Basic Terminology: Balanced tree - AVL Tree, Red Black tree 2.2 AVL Tree- Rotations (LL, LR, RL, RR) 2.3 Red Black tree \u2013 Operation (Insertion, Deletion) 2.4 Multi-way search tree - 2.4.1 B tree and B+ tree - Concept, Operation (Insertion )",
+          "hours": 4
+        },
+        {
+          "title": "Graph",
+          "topics": "3.1 Concept and terminologies 3.2 Graph Representation \u2013Adjacency Matrix, Adjacency List, Inverse Adjacency list, Adjacency Multi List. 3.3 Graph Traversals \u2013 Breadth First Sear ch and Depth First Search (with implementation) 3.4 Applications of graph 3.4.1 Topological sorting 3.4.2 Use of Greedy Strategy in Minimal S panning Trees (Prims and Kruskals algorithm) 3.4.3 Single Source Shortest Path - Dijkstra\u2019s algorithm 3.4.4 Dynamic Programming Strategy - All Pair Shortest Path - Floyd Warshall algorithm 3.4.5 Use of graphs in social networks",
+          "hours": 11
+        },
+        {
+          "title": "Hash Table",
+          "topics": "4.1 Concept of Hashing 4.2 Terminologies \u2013 Hash table, Hash function, Bucket, Hash address, Collision, Overflow 4.3 Hash Function - 4.3.1 Properties 4.3.2 Methods/ Functions (Division, MID Square, Folding etc.) 4.4 Collision resolution techniques 4.4.1 Open Addressing - Linear probing, Quadratic probing, Rehashing 4.4.2 Chaining - Coalesced , Separate Chaining",
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "code": "CS-252-MJ-T",
+      "title": "Database Management System-II",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        42,
+        44
+      ],
+      "units": [
+        {
+          "title": "Relational Database Design Using PL/PGSQL",
+          "topics": "1.1 Introduction 1.2 PL/PGSQL: Data types, Language Structure 1.3 Controlling the program flow. 1.3.1 Conditional Statements 1.3.2 Loops 1.4 Stored Procedures 1.5 Functions 1.6 Handling Errors and Exceptions 1.7 Cursors 1.8 Triggers",
+          "hours": 12
+        },
+        {
+          "title": "Transaction Concepts and concurrency control",
+          "topics": "2.1 Transaction - Concept, Properties of transaction, States of transaction 2.2 Transaction Execution 2.2.1 Types of Execution 2.2.2 Associated Problem in Concurrent execution. 2.3 Schedules \u2013 Concept 2.3.1 Types of Schedule 2.3.2 Concept of Serializability 2.3.3 Precedence Graph for Serializability. 2.4 Ensuring Serializability by Locks, 2.4.1 Different Lock Modes 2.4.2 2PL and its variations. 2.5 Basic timestamp method for concurrency, Thomas Write Rule. 2.6 Locks with Multiple Granularity, Dynamic Database Concurrency (Phantom Problem). 2.7 Timestamps vs Locking. 2.8 Deadlock and Deadlock Handling \u2013 2.8.1 Deadlock Avoidance (Wait-Die, Wound-Wait), 2.8.2 Deadlock Detection (Wait for Graph). 2.8.3 Deadlock Recovery",
+          "hours": 8
+        },
+        {
+          "title": "Database Integrity and Security Concepts",
+          "topics": "3.1 Constraints 3.1.1 Domain Constraints 3.1.2 Referential Integrity Constraint 3.2 Database Security Concepts. 3.3 Methods for Database Security 3.3.1. Discretionary Access Control (DAC) 3.3.2. Mandatory Access Control (MAC) 3.3.3. Role Base Access Control for Multilevel Security. 3.4 Use of views in Security Enforcement. 3.5 Overview of Encryption Technique for Security. 3.6 Statistical Database Security.",
+          "hours": 4
+        },
+        {
+          "title": "Crash Recovery",
+          "topics": "4.1 Concepts of failure, Failure Classification 4.2 Recovery Concepts 4.3 Log Base Recovery Techniques 4.3.1 Deferred 4.3.2 Immediate Update 4.4 Checkpoints, Relationship between Database Manager and Buffer Cache 4.5 Aries Recovery Algorithm. 4.6 Recovery with Concurrent Transactions (Rollback, Checkpoints, Commit) 4.7 Database Backup and Recovery from Catastrophic Failure",
+          "hours": 4
+        },
+        {
+          "title": "Other Databases",
+          "topics": "5.1 Introduction to Parallel and Distributed Databases 5.2 Object Based Databases 5.3 XML Databases 5.4 NoSQL Database 5.5 Multimedia Databases 5.6 Big Data Databases",
+          "hours": 2
+        }
+      ]
+    },
+    {
+      "code": "CS-253-MJ-P",
+      "title": "Lab Course based on CS-251-MJ-T & CS-252-MJ-T",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-271-VSC-P",
+      "title": "Advance Python Programming",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        48,
+        50
+      ],
+      "units": []
+    },
+    {
+      "code": "CS-281-FP",
+      "title": "Mini Project",
+      "semester": 4,
+      "type": "FP/OJT/CEP",
+      "credits": 2,
+      "pages": [
+        51,
+        51
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC-251-CS-P",
+      "title": "Computer Networks",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        52,
+        54
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251-CS-T",
+      "title": "Ecommerce II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        55,
+        56
+      ],
+      "units": [
+        {
+          "title": "E-Commerce Logistics and Supply Chain Management",
+          "topics": "1.1. E-Commerce Supply Chain Overview 1.2. Inventory Management in E-Commerce 1.3. Role of Warehousing and Fulfillment Centers 1.4. Last-Mile Delivery Challenges 1.5. Reverse Logistics and Return Policies 1.6. Green and Sustainable Supply Chains",
+          "hours": 6
+        },
+        {
+          "title": "Data Analytics and Consumer Behavior in E-Commerce",
+          "topics": "2.1. Importance of Data Analytics in E-Commerce 2.2. Key Performance Indicators (KPIs) and Metrics 2.3. Web Analytics (Google Analytics, Heatmaps, A/B Testing) 2.4. Predictive Analytics & Customer Insights 2.5. Recommendation Engines & Personalization 2.6. Conversion Rate Optimization (CRO) 2.7. Fraud Detection Using AI in E-Commerce",
+          "hours": 7
+        },
+        {
+          "title": "E-Commerce Security and Privacy",
+          "topics": "3.1. Importance of Security in E-Commerce 3.2. Threats to E-Commerce (Phishing, Fraud, Cyber Attacks 3.3. Cryptography & Secure Transactions (SSL/TLS, Encryption) 3.4. Digital Signatures & Certificates 3.5. Firewalls & Intrusion Detection Systems",
+          "hours": 6
+        },
+        {
+          "title": "Advanced E-Commerce Technologies",
+          "topics": "4.1. Machine Learning for Product Recommendations 4.2. Block chain for Secure Transactions and Smart Contracts 4.3. Cloud Computing and SaaS Platforms for E-Commerce 4.4. The Role of 5G in E-Commerce Growth",
+          "hours": 5
+        },
+        {
+          "title": "Global Trends of E-Commerce",
+          "topics": "5.1. Cross-Border E-Commerce and Global Expansion 5.2. Mobile Commerce (M-Commerce) Innovations 5.3. Subscription-Based E-Commerce Models 5.4. Social Commerce (Instagram, Facebook Shops, TikTok Commerce) 5.5. Ethical and Sustainable E-Commerce Practices 5.6. Future Challenges in E-Commerce",
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "code": "OE-252-CS-T",
+      "title": "Web Design II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        57,
+        58
+      ],
+      "units": [
+        {
+          "title": "CSS(Cascading Style Sheet)",
+          "topics": "1.1. Introduction of CSS and its Syntax 1.2. Ways to Insert CSS and Background image handling 1.3. Background colour management using CSS 1.4. Text and Font management using CSS 1.5. Managing Hyperlinks and List using CSS 1.6. Designing Borders and Outline 1.7. Setting Page Margin using CSS",
+          "hours": 8
+        },
+        {
+          "title": "XML(Extensible Markup Language)",
+          "topics": "2.1. XML Namespaces and Infoset and Document Type 2.2. Definitions (DTDs) 2.3. XML Schemas and XML-Parser 2.4. Data Modeling, Document and Object Model (DOM) 2.5. Displaying XML with XSLT",
+          "hours": 8
+        },
+        {
+          "title": "Introduction to JavaScript",
+          "topics": "3.1. Concept of Script, Types of Scripts, Scripting Languages 3.2. Introduction to JavaScript. 3.3. Variables, identifier and Operator, Control structure. 3.4. Examples on JavaScript Operators. 3.5. Functions 3.6. Event Handling in JavaScript with examples. Case Study 6 Hours Case study 1: Creation of forms, small case study to create HTML pages using all the above learnt techniques. Case study 2: Redesigning the Website of a Small Business. Case study 3:Create a Styled Web Page for a Coffee Shop.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE-253-CS-T",
+      "title": "Digital Marketing II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        59,
+        60
+      ],
+      "units": [
+        {
+          "title": "Online Consumer Behavior Analysis",
+          "topics": "1.1 Consumer Behavior 1.2 Segmentation and Targeting online customers 1.3 Psychological Responses 1.4 Social Trends",
+          "hours": 8
+        },
+        {
+          "title": "Social Media Marketing",
+          "topics": "2.1. Social Media Sites 2.2. - Influence of Social Media Marketing 2.3. Power of Social Media 2.4. Monetization through Social Media",
+          "hours": 8
+        },
+        {
+          "title": "Future of Digital Marketing",
+          "topics": "3.1. Use of Artificial Intelligence (AI) in Digital Marketing. 3.2. Common use of household gadgets for online marketing. 3.3. Digital Marketing strategies. Case Study 6 Hours Case Study 1 Experiential Learning: Creating a website. Case Study 2 Online Consumer Behavior Analysis for an E-Commerce Fashion Brand",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "OE-254-CS-T",
+      "title": "AI for Everyone II",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        61,
+        62
+      ],
+      "units": [
+        {
+          "title": "Advanced AI Fundamentals",
+          "topics": "1.1 Deep Dive into AI, Machine Learning & Deep Learning 1.2 Types of AI Models: Generative AI, NLP, Computer Vision, Reinforcement Learning 1.3 Latest AI Trends: AGI, Large Language Models (LLMs), and multimodal AI 1.4 Exploring AI Frameworks & APIs: Open AI, Hugging Face, Google AI",
+          "hours": 6
+        },
+        {
+          "title": "AI for Advanced Text & Content Creation",
+          "topics": "2.1 AI for Long-form Writing & Reports 2.2 Automating Research & Citation Management 2.3 AI for SEO & Content Optimization 2.4 Using AI for Professional Emails & Business Writing",
+          "hours": 8
+        },
+        {
+          "title": "Advanced AI for Image & Video Processing",
+          "topics": "3.1 AI Image Generation Beyond Basics 3.2 Deepfake Technology & Ethical Concerns 3.3 AI Video Editing & Creation 3.4 AI Animation & Motion Capture",
+          "hours": 8
+        },
+        {
+          "title": "AI Tools",
+          "topics": "4.1 Chat GPT (Open AI) 4.2 Google Gemini (Bard AI) 4.3 Canva, Beautiful. AI, Gamma, Slides AI 4.4 Rytr, Grammarly References: 1. Artificial Intelligence: A Modern Approach \u2013 Stuart Russell & Peter Norvig. 2. Practical AI for Business Leaders \u2013 Anand S. Rao 3. AI-Powered Automation Handbook \u2013 Will Kelly 4. AI for Content Creators: How to Use AI Tools for Writing and Marketing \u2013 Rob Lennon 5. Human Compatible: Artificial Intelligence and the Problem of Control \u2013 Stuart Russell 6. https://www.grammarly.com/ai/ai-writing-tools/article-writer",
+          "hours": 8
+        }
+      ]
+    }
+  ],
+  "notes": null
+}

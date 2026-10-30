@@ -294,15 +294,22 @@ function hierarchyOf({ programme, title, group, faculty }) {
 }
 
 const raw = JSON.parse(readFileSync(RAW, 'utf8'))
-// Sorted, so suffixes for clashing ids stay the same from run to run.
-const rows = [...raw].sort((a, b) => a.href.localeCompare(b.href))
+// Sorted newest library first, so suffixes for clashing ids stay the same from run to run and an
+// older library never takes an id from a newer one.
+const rows = [...raw].sort((a, b) => Number(b.year) - Number(a.year) || a.href.localeCompare(b.href))
+// Libraries before this one only fill gaps: a file whose title a newer library already has is dropped.
+const GAP_FILL_BEFORE = 2025
 const used = new Set()
+const titles = new Set()
 const entries = []
 const sources = {}
 for (const row of rows) {
   const stem = fileStem(row.href)
   const { base, date } = splitDate(stem)
   const title = titleOf(base) || titleOf(stem)
+  const key = slugOf(title)
+  if (Number(row.year) < GAP_FILL_BEFORE && titles.has(key)) continue
+  titles.add(key)
   let id = slugOf(stem)
   if (!/[a-z]/.test(id)) id = `syllabus-${id}`.replace(/-$/, '') // e.g. a name only in Marathi
   if (used.has(id)) id = `${id}-${row.year}`

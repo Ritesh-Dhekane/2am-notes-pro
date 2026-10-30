@@ -1,0 +1,210 @@
+{
+  "id": "r8-honor-course-additive-manufacturing-te-2024-patt-mechanical-engineering-syllabus-rap",
+  "kind": "programme",
+  "programme": "Third and Final Year Mechanical Engineering (Additive Manufacturing)",
+  "pattern": "2024",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "HADM301MEC",
+      "title": "Additive Manufacturing Technology",
+      "semester": 5,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        15,
+        17
+      ],
+      "units": [
+        {
+          "title": "Additive Manufacturing (AM) Overview",
+          "topics": "Introduction to Additive Manufacturing, Historical Development, Additive Manufacturing versus Conventional Manufacturing, Role of AM in Product Development Cycle, Rapid Prototyping, Relevance of AM in Industry 4.0, AM Process Chain, Advantages and Limitati ons, Types of Materials, Classification of AM Processes (Process - based, Material Form-based and Application-based), and Process Planning for Additive Manufacturing. CCE Activities: • Comparative study of Additive Manufacturing and Conventional Manufacturing. • Prepare a flowchart of the AM process chain. • Presentation on the role of Additive Manufacturing in Industry 4.0..",
+          "hours": 8
+        },
+        {
+          "title": "AM Processes and Extrusion-based Deposition Technologies",
+          "topics": "Overview of Additive Manufacturing Processes: Extrusion, Jetting, Photo-polymerization, Powder Bed Fusion, Sheet Lamination and Directed Energy Deposition. Study of Process, Materials, Process Parameters, Advantages, Limitations and Applications of Extrusi on-based Deposition Technologies including Fused Deposition Modelling (FDM), Fused Filament Fabrication (FFF), Direct Ink Writing (DIW) and Robocasting. CCE Activities: • Comparative study of FDM and FFF. • Demonstration of an FDM printer. • Report on one extrusion-based AM system.",
+          "hours": 8
+        },
+        {
+          "title": "Light-Based Photo-curing and Laser-Based Melting Technologies",
+          "topics": "Study of Process, Materials, Process Parameters, Advantages, Limitations and Applications of Light -Based Photo- curing Technologies including SLA, DLP and CLIP. Study of Laser -Based Melting Technologies including SLS, DMLS, SLM, EBM and LENS CCE Activities: • Comparative study of SLA and DLP. • Seminar on Metal Additive Manufacturing. • Case study on one laser-based AM process.",
+          "hours": 8
+        },
+        {
+          "title": "Inkjet (Droplet)-Based Deposition and Fusion Technologies",
+          "topics": "Study of Process, Materials, Process Parameters, Advantages, Limitations and Applications of Multi Jet Modelling (MJM), PolyJet Printing, Binder Jetting, Multi Jet Fusion and Colour Jet Printing (CJP). Introduction to Directed Energy Deposition techniques including Plasma, TIG/MIG, Electron Beam DED and Direct Metal Deposition (DMD). CCE Activities: • Assignment on Binder Jetting. • Presentation on PolyJet technology. • Report on Directed Energy Deposition.",
+          "hours": 8
+        },
+        {
+          "title": "Case Studies, Applications and Special Topics",
+          "topics": "Applications of Additive Manufacturing in Aerospace, Automotive, Biomedical, Construction, Machine Tools and Consumer Products. Special Topics including 4D Printing, Bioprinting, Biomaterials, Mass Customization and Future Trends in Additive Manufacturing. CCE Activities: • Literature survey on an emerging AM application. • Presentation on future trends in Additive Manufacturing. • Industrial case study of AM implementation.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HADM302MEC",
+      "title": "Modelling Laboratory",
+      "semester": 5,
+      "type": "Honor Course",
+      "credits": 1,
+      "pages": [
+        18,
+        19
+      ],
+      "units": []
+    },
+    {
+      "code": "HADM351MEC",
+      "title": "Design for Additive Manufacturing",
+      "semester": 6,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        21,
+        23
+      ],
+      "units": [
+        {
+          "title": "Introduction to Design for Additive Manufacturing",
+          "topics": "Introduction to Design for Additive Manufacturing (DfAM), Conventional Design versus DfAM , Product Development Cycle for Additive Manufacturing, Design Freedom, Functional Design, Design Constraints, Geometric Complexity, Part Consolidation, Lightweight Design, Design Rules and Guidelines, Advantages and Limitations of DfAM. CCE Activities: • Comparative study of conventional design and DfAM. • Prepare design guidelines for an AM component. • Presentation on successful DfAM industrial products.",
+          "hours": 8
+        },
+        {
+          "title": "Material Selection and Process Planning",
+          "topics": "Materials for Additive Manufacturing, Material Properties, Material Selection Criteria, Polymer, Metal, Ceramic and Composite Materials, Selection of AM Process, Process Planning, Build Orientation, Support Structure Generation, Part Positioning, Build Time Estimation and Post-processing Considerations. CCE Activities: • Select suitable material for a given product. • Assignment on build orientation. • Comparison of different AM materials.",
+          "hours": 8
+        },
+        {
+          "title": "Design Optimization for Additive Manufacturing",
+          "topics": "Topology Optimization, Lightweight Structures, Lattice Structures, Cellular Structures, Internal Channels, Part Consolidation, Support Structure Optimization, Design Modification for AM, Design Validation and Design Evaluation CCE Activities: • Case study on topology optimization. • Prepare a lightweight redesign of an engineering component. • Presentation on lattice structures.",
+          "hours": 8
+        },
+        {
+          "title": "Inkjet (Droplet)-Based Deposition and Fusion Technologies",
+          "topics": "Introduction to Reverse Engineering, 3D Scanning Techniques, CAD Reconstruction, STL Generation and Repair, Data Processing, Design Verification, Geometric Inspection, Integration of CAD and Additive Manufacturing, Introduction to Design Simulation. CCE Activities: • Demonstration of reverse engineering workflow. • Assignment on STL repair. • Report on 3D scanning applications.",
+          "hours": 8
+        },
+        {
+          "title": "Case Studies, Applications and Special Topics",
+          "topics": "Design Case Studies in Aerospace, Automotive, Biomedical, Tooling and Consumer Products, Mass Customization, Design for Sustainability, Digital Manufacturing, Introduction to Generative Design, Industrial Design Software for Additive Manufacturing, Future Trends in Design for Additive Manufacturing. CCE Activities: • Literature survey on an industrial DfAM application. • Presentation on Generative Design. • Group discussion on future design trends in Additive Manufacturing.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HADM352MEC",
+      "title": "3D Printing Laboratory",
+      "semester": 6,
+      "type": "Honor Course",
+      "credits": 1,
+      "pages": [
+        24,
+        26
+      ],
+      "units": []
+    },
+    {
+      "code": "HADM401MEC",
+      "title": "Additive Manufacturing System Design",
+      "semester": 7,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        28,
+        30
+      ],
+      "units": [
+        {
+          "title": "Additive Manufacturing System Architecture and Digital",
+          "topics": "Workflow (08 Hours) Additive manufacturing system architecture: components of industrial additive manufacturing systems, hardware and software architecture of AM machines, build chamber, motion systems, energy delivery systems, material handling systems, thermal management systems, control architecture of AM machines, Digital manufacturing workflow: digital thread in additive manufacturing, CAD model preparation to final product workflow, additive manufacturing file formats including STL, AMF, 3MF and STEP, data preparation and build file generation, slicing strategies, build preparation software, si mulation software, process planning software and manufacturing execution systems for additive manufacturing. CCE Activities: Study the architecture of a commercial AM machine (FDM/SLM/SLA/DED) and prepare a report explaining machine components, digital workflow, and software used from CAD model to printed part.",
+          "hours": null
+        },
+        {
+          "title": "Additive Manufacturing Production Planning and System",
+          "topics": "Optimization (08 Hours) Production planning in additive manufacturing : part orientation selection, build volume utilization, nesting strategies, build time estimation, production scheduling, machine utilization, cost estimation models, material utilization efficiency, batch production planning, make -or-buy decisions, product ivity improvement, throughput enhancement, multi -part production strategies, hybrid manufacturing systems and optimization techniques for industrial additive manufacturing. CCE Activities: Select an industrial component and prepare a complete production plan including part orientation, nesting, build time estimation, material utilization, machine selection, and cost analysis using slicing software.",
+          "hours": null
+        },
+        {
+          "title": "Process Monitoring, Automation and Control Systems in Additive",
+          "topics": "Manufacturing (08 Hours) Process Monitoring: need for process monitoring in industrial additive manufacturing, in -situ monitoring techniques, optical monitoring, thermal monitoring, melt pool monitoring, layer-wise inspection, Automation and Control Systems : automated powder handling systems, robotic additive manufacturing, automated post -processing systems, material handling automation, sensors and data acquisition systems, feedback control, adaptive process control, closed -loop control systems and artificial intelligence-based process monitoring CCE Activities: Study monitoring technologies used in industrial AM systems and prepare a report or presentation on optical monitoring, melt pool monitoring, automation, sensors, AI-based monitoring, or robotic AM systems.",
+          "hours": null
+        },
+        {
+          "title": "Quality Assurance and Reliability of Additive Manufacturing Systems",
+          "topics": "Quality Assurance: Quality management in additive manufacturing, quality challenges in industrial production, defect identification and prevention, process qualification and validation, in -process inspection, non-destructive testing methods, ASTM and ISO standards for additi ve manufacturing, aerospace and medical certification requirements, machine reliability, maintenance strategies and failure analysis of additive manufacturing systems. CCE Activities: Inspect 3D printed components using dimensional measurement, visual inspection, optical scanner, CMM, or image analysis. Identify manufacturing defects and suggest corrective actions based on quality standards.",
+          "hours": 8
+        },
+        {
+          "title": "Smart Additive Manufacturing and Industrial Implementation",
+          "topics": "Smart Additive Manufacturing: industry 4.0 integration with additive manufacturing, smart additive manufacturing factory concept, IoT -enabled additive manufacturing machines, cloud -based additive manufacturing, digital twins for additive manufacturing systems, sustainable additive manufacturing, energy consumption analysis, material recycling and reuse, sustainable production strategies, additive manufacturing adoption roadmap, infrastructure requirements, production facility planning and industrial case studies in aerospace, automotive and medical sectors. CCE Activities: Develop a proposal for implementing an AM production facility for a selected product, including workflow, infrastructure, Industry 4.0 integration, sustainability considerations, quality plan, and economic feasibility.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HADM402MEC",
+      "title": "Seminar",
+      "semester": 7,
+      "type": "Honor Course",
+      "credits": 2,
+      "pages": [
+        31,
+        33
+      ],
+      "units": []
+    },
+    {
+      "code": "HADM451MEC",
+      "title": "3D Printing Applications & Entrepreneurship",
+      "semester": 8,
+      "type": "Honor Course",
+      "credits": 3,
+      "pages": [
+        35,
+        37
+      ],
+      "units": [
+        {
+          "title": "Industrial Applications of 3D Printing",
+          "topics": "Introduction to industrial applications of 3D printing, industrial adoption of additive manufacturing, advantages and limitations of additive manufacturing, applications in aerospace including lightweight structures, engine components and satellite parts, automotive applications including rapid prototyping, tooling, customized components and lightweight structures, medical applications including patient -specific implants, prosthetics, surgical guides and anatomical models, applications in tooling, education , consumer products and manufacturing industries CCE Activities: Study an industrial application of 3D printing in aerospace, automotive, healthcare or consumer products and prepare a technical report highlighting process selection, advantages and limitations.",
+          "hours": 8
+        },
+        {
+          "title": "Advanced Applications of Additive Manufacturing",
+          "topics": "Biomedical and healthcare applications including bioprinting, tissue engineering, dental restorations and medical devices, architecture and construction applications including 3D printed buildings and construction automation, consumer and lifestyle products including jewellery, fashion, customized consumer goods and sports equipment, food printing, printed electronics, sensors, smart devices, defence applications including lightweight components, spare parts and field manufacturing, emerging applications in energy, marine and space industries. CCE Activities: Prepare a seminar or poster on advanced applications such as bio printing, construction printing, food printing, printed electronics or defense applications.",
+          "hours": 8
+        },
+        {
+          "title": "Additive Manufacturing Business Models",
+          "topics": "Entrepreneurship opportunities in additive manufacturing, additive manufacturing service bureaus, rapid prototyping services, customized manufacturing, product development companies, business models including on -demand manufacturing, distributed manufactur ing, digital inventory and online 3D printing platforms, startup planning, market analysis, customer identification, value proposition, business model canvas, cost estimation, pricing strategies, return on investment (ROI) analysis and funding opportunities for additive manufacturing startups. CCE Activities: Develop a Business Model Canvas (BMC) for a 3D printing startup including customer segments, value proposition, revenue streams, cost structure and marketing strategy.",
+          "hours": 8
+        },
+        {
+          "title": "Product Development and Commercialization Using 3D Printing",
+          "topics": "Product development process including idea generation, concept development, CAD modelling, prototyping, testing and validation, design optimization for customer requirements, functional prototyping, product customization, quality assurance, standards and certification requirements, regulatory aspects for industrial and medical products, intellectual property rights including patents, copyrights, trademarks, design registration and protection of digital design files, commercialization strategies and product launch planning. CCE Activities: Develop a prototype or product concept using 3D printing and prepare documentation covering design process, testing, certification requirements and intellectual property considerations.",
+          "hours": 8
+        },
+        {
+          "title": "Future Trends and Entrepreneurial Project in 3D Printing",
+          "topics": "Future trends in additive manufacturing including artificial intelligence, machine learning, digital twins, cloud manufacturing, Industry 4.0 integration, sustainable manufacturing, circular economy, material recycling, 4D printing and smart materials, ind ustrial case studies in aerospace, automotive, healthcare and consumer products, entrepreneurial project involving product idea generation, market survey, business model development, prototype fabrication, cost estimation, marketing strategy and business presentation CCE Activities: Prepare a complete start up proposal including product idea, market survey, prototype, business plan, cost estimation, funding requirements and commercialization strategy.",
+          "hours": 8
+        }
+      ]
+    },
+    {
+      "code": "HADM452MEC",
+      "title": "Industry Oriented 3D Printing Project",
+      "semester": 8,
+      "type": "Honor Course",
+      "credits": 2,
+      "pages": [
+        38,
+        40
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

@@ -1,0 +1,384 @@
+{
+  "id": "s-y-b-sc-geography-17072025",
+  "kind": "programme",
+  "programme": "Bachelor of Science (B.Sc.) in Geography",
+  "pattern": "2020",
+  "language": "en",
+  "subjects": [
+    {
+      "code": "GEO(S) -201- MJ",
+      "title": "Geomorphology",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        10,
+        12
+      ],
+      "units": [
+        {
+          "title": "Introduction of Geomorphology",
+          "topics": "1. Definition of Geomorphology 2. Nature and scope of Geomorphology 3. Branches of Geomorphology 4. Significance of Geomorphology",
+          "hours": null
+        },
+        {
+          "title": "Tectonics and Crustal Movements",
+          "topics": "1. Origin of continents and oceans i. Theory of Plate Tectonics ii. Theory of Sea Floor Spreading 2. Classification of crustal movements i. Slow movements- folding and faulting and its types ii. Rapid movements - volcanism and earthquakes: causes, consequences",
+          "hours": null
+        },
+        {
+          "title": "Weathering",
+          "topics": "1. Definition of Weathering 2. Types of weathering 3. Physical (ii) Chemical (iii) Biological",
+          "hours": null
+        },
+        {
+          "title": "Agents of Erosion and Deposition",
+          "topics": "1. Erosional and depositional landforms created by the following geomorphic agents (i) River (ii) Sea wave",
+          "hours": null
+        },
+        {
+          "title": "Applied Geomorphology",
+          "topics": "1. Definition and significance of applied geomorphology 2. Concept of geomorphosites 3. Human activity and geomorphology (i) Settlement (ii) Mining (iii) Urbanization (iv) Land Degradation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(S)-202-MJP",
+      "title": "Practicals in Geomorphology",
+      "semester": 3,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        13,
+        15
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO(S) -221-VSC",
+      "title": "Water Analysis",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        16,
+        17
+      ],
+      "units": [
+        {
+          "title": "Types of Water Sources and Pollutions",
+          "topics": "1. Types of water sources and importance 2. Water pollution: source and management",
+          "hours": null
+        },
+        {
+          "title": "Parameters of Water Quality",
+          "topics": "1. Parameters of water quality: a. Physical, b. Chemical, c. Biological, 2. Significance of water analysis",
+          "hours": null
+        },
+        {
+          "title": "Standards of Water Quality and Indices",
+          "topics": "1. BIS (Bureau of Indian Standards) 2. WHO (World Health Organization) 3. Indices for drinking water- WQI 4. Indices for irrigation water a. Sodium Adsorption Ratio (SAR) (Richards 1954), b. Residual Sodium Carbonate (RSC) (Eaton 1950), c. Sodium Percentage (SP) (Wilcox 1955), d. Kelly's ratio (Kelly 1963)",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(S) -222 -VSC",
+      "title": "Land Measurement and Surveying",
+      "semester": 3,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        18,
+        19
+      ],
+      "units": [
+        {
+          "title": "Land Measurement",
+          "topics": "1. Definition of land measurement 2. Development of land measurement 3. Types of land measurement a. Linear Methods, b. Areal Methods 4. Importance of land measurement",
+          "hours": null
+        },
+        {
+          "title": "Surveying",
+          "topics": "1. Definition of surveying 2. Types of surveys: plane surveying and geodetic surveying 3. Classification of survey a. On the basis of area b. On the basis of objectives c. On the basis of survey instruments",
+          "hours": null
+        },
+        {
+          "title": "Application of Land Measurement and Surveying",
+          "topics": "1. Role of land measurement and surveying in urban planning, agriculture, and infrastructure 2. Future career opportunities in land measurement and surveying.",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(P) -231-FP",
+      "title": "Field Visit and Report Writing",
+      "semester": 3,
+      "type": "Field Project",
+      "credits": 2,
+      "pages": [
+        20,
+        21
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO(S) -241-MN",
+      "title": "Geography of India",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        22,
+        23
+      ],
+      "units": [
+        {
+          "title": "Location and Physical Setting",
+          "topics": "1. Location, relation with neighboring countries 2. Physical divisions a. The Northern Mountains b. The North Indian Plains c. The Peninsular Plateau d. The Coastal lowlands and Islands",
+          "hours": null
+        },
+        {
+          "title": "Drainage System and Climate",
+          "topics": "1. Drainage system a. East flowing rivers- Ganga, Bramhputra, Godawari, Krushna and Kaveri b. West flowing rivers- Indus, Narmda, Tapi and Vashishti 2. Major Seasons and weather associated with them a. Summer b. Monsoon c. Winter",
+          "hours": null
+        },
+        {
+          "title": "Mineral and Power Resources",
+          "topics": "1. Distribution of Minerals a. Iron ore b. Bauxite c. Manganese 2. Distribution of Power Resources a. Conventional: Coal, Petroleum b. Non-Conventional: Solar, Wind",
+          "hours": null
+        },
+        {
+          "title": "Agriculture and Industry",
+          "topics": "1. Major Crops and Distribution a. Food crops- Rice, Wheat b. Cash crops- Cotton, Sugarcane 2. Major Industries and Distribution a. Iron and Steel b. Cotton textile c. Automobile",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(S) -242 -MNP",
+      "title": "Practicals In Map Elements",
+      "semester": 3,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        24,
+        25
+      ],
+      "units": []
+    },
+    {
+      "code": "OE -201-GEO(S)",
+      "title": "Geography of Soil",
+      "semester": 3,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        26,
+        27
+      ],
+      "units": [
+        {
+          "title": "Introduction to Soil Geography",
+          "topics": "i. Definition, Nature, and Scope of Soil Geography ii. Definition of soil iii. Components of soil (Mineral matter, organic matter, water, and air)",
+          "hours": null
+        },
+        {
+          "title": "Soil Formation, Development and Properties",
+          "topics": "i. Factors of soil formation: (Climate, Organisms, Relief, Parent material, Time) ii. Soil profile development and horizons iii. Texture, Structure, color and porosity iv. Soil moisture and temperature",
+          "hours": null
+        },
+        {
+          "title": "Soil Classification and Conservation",
+          "topics": "i. Classification of Indian Soil (ICAR) ii. Soil Degradation: Physical and Chemical iii. Soil Erosion: Causes and Consequences iv. Methods of Soil Conservation",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(S)- 201- IKS",
+      "title": "Development of Indian Geographical Knowledge",
+      "semester": 3,
+      "type": "IKS",
+      "credits": 2,
+      "pages": [
+        28,
+        29
+      ],
+      "units": [
+        {
+          "title": "Introduction to Indian Knowledge System (IKS)",
+          "topics": "1. Concept of IKS 2. Nature and Scope of IKS 3. IKS based approaches on knowledge paradigms 4. IKS From ancient to medieval period.",
+          "hours": null
+        },
+        {
+          "title": "Indian Geographical knowledge",
+          "topics": "1. Geographical Literature - Vaidikas, Puranas, the Ramayana, the Mahabharata, the works of Buddhists, Jains and Gandhian philosophy. 2. Geographical concepts in ancient India \u2013 eclipses, earth, size of earth, latitude and longitude, atmosphere, weather and climate, division of celestial sphere (Panchang), planetary computation 3. Regional geography of ancient India: continents, Bharatvarsa, mountains and rivers",
+          "hours": null
+        },
+        {
+          "title": "Applied Dimensions of Indian Knowledge System",
+          "topics": "1. Traditional methods of water management, architecture, biodiversity conservation and farming system 2. Cartography in ancient India 3. Trade and trade routes in ancient India",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(S)-251-MJ",
+      "title": "Fundamentals of Population and Settlement Geography",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 4,
+      "pages": [
+        30,
+        32
+      ],
+      "units": [
+        {
+          "title": "Introduction to Population Geography",
+          "topics": "1. Definition, nature and scope of Population Geography 2. Relation of Population Geography with other disciplines 3. Concepts a. Population as Resource b. Over Population c. Optimum Population d. Under Population",
+          "hours": null
+        },
+        {
+          "title": "Components and Growth of Population",
+          "topics": "1. Concept of population growth 2. Factors affecting population growth 3. Components of population growth a. Fertility b. Mortality c. Migration 4. Spatio-temporal variation in population growth (special reference to India) 5. Impact of over population in India",
+          "hours": null
+        },
+        {
+          "title": "Distribution, Density and Composition of Population",
+          "topics": "1. Factors affecting distribution of population 2. Measures of population density 3. Patterns of population distribution in the world 4. Population composition (special reference to India) a. Age and Sex b. Rural and Urban c. Occupational Structure d. Literacy",
+          "hours": null
+        },
+        {
+          "title": "Settlement Geography",
+          "topics": "1. Definition, nature and scope of Settlement Geography 2. Types and patterns of rural settlements 3. Factors affecting rural settlements 4. Urban settlements: definition, classification, and urbanization process 5. Problems of rural and urban settlements",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(S)- 252-MJP",
+      "title": "Practicals in Fundamentals Population and Settlement Geography",
+      "semester": 4,
+      "type": "Major Core",
+      "credits": 2,
+      "pages": [
+        33,
+        35
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO(S) -271-VSC",
+      "title": "Practicals in Water Analysis",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        36,
+        37
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO(S) - 272 -VSC",
+      "title": "Practicals in Land Measurement And Surveying",
+      "semester": 4,
+      "type": "VSC",
+      "credits": 2,
+      "pages": [
+        38,
+        40
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO(S)-281-CEP",
+      "title": "Community Engagement Programme",
+      "semester": 4,
+      "type": "CEP",
+      "credits": 2,
+      "pages": [
+        41,
+        42
+      ],
+      "units": []
+    },
+    {
+      "code": "GEO(S)-291-MN",
+      "title": "Geography of Maharashtra",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        43,
+        44
+      ],
+      "units": [
+        {
+          "title": "Administrative Set up of Maharashtra",
+          "topics": "1. Geographical location 2. Adjoining states 3. Administrative divisions",
+          "hours": null
+        },
+        {
+          "title": "Physiography and Climate",
+          "topics": "1. Physical structure (mountain, plateau and plains) 2. Drainage pattern (east and west flowing rivers) 3. Major seasons and weather associated with them",
+          "hours": null
+        },
+        {
+          "title": "Soil and Forest",
+          "topics": "1. Soil types and distribution 2. Soil Conservation 3. Forest types and distribution 4. Forest Conservation",
+          "hours": null
+        },
+        {
+          "title": "Mineral and Power Resources",
+          "topics": "1. Minerals: Manganese, Bauxite, Iron ore 2. Power resources: Thermal, Hydroelectric, Non-conventional (Solar, Wind)",
+          "hours": null
+        },
+        {
+          "title": "Industries and Trade",
+          "topics": "1. Major industries: Sugar, Cotton textile, Automobile 2. Industrial regions of Maharashtra 3. Major ports and trade",
+          "hours": null
+        }
+      ]
+    },
+    {
+      "code": "GEO(S)-292- MNP",
+      "title": "Practicals in Weather Study",
+      "semester": 4,
+      "type": "Minor",
+      "credits": 2,
+      "pages": [
+        45,
+        47
+      ],
+      "units": []
+    },
+    {
+      "code": "OE-251- GEO(S)",
+      "title": "Practicals in Use of Google Earth",
+      "semester": 4,
+      "type": "GE/OE",
+      "credits": 2,
+      "pages": [
+        48,
+        49
+      ],
+      "units": []
+    },
+    {
+      "code": "SEC- 251- GEO(S)",
+      "title": "Practical in Statistical Analysis",
+      "semester": 4,
+      "type": "SEC",
+      "credits": 2,
+      "pages": [
+        50,
+        51
+      ],
+      "units": []
+    }
+  ],
+  "notes": null
+}

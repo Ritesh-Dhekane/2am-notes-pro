@@ -1,0 +1,33 @@
+{
+  "id": "cc201-1-ncc-theory-and-practice-ii-for-sem-iii",
+  "kind": "course",
+  "programme": null,
+  "pattern": null,
+  "language": "en",
+  "subjects": [
+    {
+      "code": "CC201_1",
+      "title": "NCC (Theory & Practice) – II",
+      "semester": 3,
+      "type": "Co-Curricular Course",
+      "credits": 2,
+      "pages": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "title": "National Integration and Awareness (Theory)",
+          "topics": "1. National Integration: Importance & Necessity 2. Problems and Challenges of National Integration. 3. Unity in Diversity & Role of NCC in Nation Building 4. Contribution of youth in National Integration",
+          "hours": null
+        },
+        {
+          "title": "Social Service and Community Development (SSCD) (Practical)",
+          "topics": "1. Swachh Bharat Abhiyan, Nasha Mukt Bharat Abhiyan & Human Trafficking etc. 2. Road Safety and Traffic Control, Blood and Organ donation drives, etc. 3. Cyber security, Digital India Awareness etc. 4. Counter Terrorism, Introduction to RTI & RTE etc.",
+          "hours": null
+        }
+      ]
+    }
+  ],
+  "notes": null
+}
