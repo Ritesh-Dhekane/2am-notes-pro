@@ -12,7 +12,7 @@ import { Logo } from '../components/ui.jsx'
 import { useAuth } from '../context/useAuth.js'
 import { trackEvent } from '../lib/analytics.js'
 import { callApi } from '../lib/api.js'
-import { electivesLabel, groupChoiceCount, groupNeeds, isSetupComplete, semesterById } from '../lib/catalog.js'
+import { courseById, electivesLabel, groupChoiceCount, groupNeeds, isSetupComplete, semesterById } from '../lib/catalog.js'
 import { checkBirthday } from '../lib/birthday.js'
 import { normalizePhone } from '../lib/phone.js'
 import { getStudy, setStudy } from '../lib/study.js'
@@ -30,9 +30,9 @@ export default function Setup() {
   const navigate = useNavigate()
   const location = useLocation()
   // A shared course link (/setup?semester=MSc-Sem-III-Bioinformatics) picks that semester; unknown ids are ignored.
+  const [linked] = useState(() => semesterById(new URLSearchParams(location.search).get('semester')))
   const [draft, setDraft] = useState(() => {
     const { semester, electives } = getStudy()
-    const linked = semesterById(new URLSearchParams(location.search).get('semester'))
     if (linked && linked.id !== semesterById(semester)?.id) return { semester: linked.id, electives: {} }
     return { semester, electives }
   })
@@ -83,12 +83,14 @@ export default function Setup() {
       </header>
       <main id="main" className="mx-auto max-w-3xl px-5 pt-4 pb-32">
         <p className="font-mono text-caption text-teal-ink">Welcome{user?.firstName ? `, ${user.firstName}` : ''}</p>
-        <h1 className="mt-1 text-display">Set up your course</h1>
+        <h1 className="mt-1 text-display">{linked ? 'Confirm your course' : 'Set up your course'}</h1>
         <p className="mt-1 mb-8 text-body text-ink-2">
-          Pick your course and semester. You'll only see that semester's subjects and the electives you take. You can change this later in Profile &amp;
-          Settings.
+          {linked
+            ? `Your link picked ${courseById(linked.course)?.name ?? linked.course} · ${linked.label}. Check it, choose your electives, and continue. `
+            : "Pick your course and semester. You'll only see that semester's subjects and the electives you take. "}
+          You can change this later in Profile &amp; Settings.
         </p>
-        <p className="-mt-5 mb-8 text-label text-ink-2">
+        <p className={`-mt-5 mb-8 text-label text-ink-2 ${linked ? 'hidden' : ''}`}>
           Course not listed? Notes are added course by course. Meanwhile,{' '}
           <Link to="/syllabus" className="font-semibold text-primary-ink hover:underline">
             your syllabus is here
