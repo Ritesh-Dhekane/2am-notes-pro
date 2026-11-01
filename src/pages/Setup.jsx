@@ -29,8 +29,11 @@ export default function Setup() {
   const { user } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
+  // A shared course link (/setup?semester=MSc-Sem-III-Bioinformatics) picks that semester; unknown ids are ignored.
   const [draft, setDraft] = useState(() => {
     const { semester, electives } = getStudy()
+    const linked = semesterById(new URLSearchParams(location.search).get('semester'))
+    if (linked && linked.id !== semesterById(semester)?.id) return { semester: linked.id, electives: {} }
     return { semester, electives }
   })
   const [phone, setPhone] = useState('')
