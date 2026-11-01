@@ -36,6 +36,11 @@ export default function Setup() {
     if (linked && linked.id !== semesterById(semester)?.id) return { semester: linked.id, electives: {} }
     return { semester, electives }
   })
+  // Already set up (back here from a course link): phone and birthday were offered once; they live in Profile.
+  const [returning] = useState(() => {
+    const { semester, electives } = getStudy()
+    return isSetupComplete(semesterById(semester), electives)
+  })
   const [phone, setPhone] = useState('')
   const [birthday, setBirthday] = useState('')
   const [checkFields, setCheckFields] = useState(false)
@@ -92,7 +97,7 @@ export default function Setup() {
         </p>
         <form id="setup" onSubmit={finish}>
           <StudyPicker value={draft} onChange={setDraft} />
-          {semester && (
+          {semester && !returning && (
             <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
               <PhoneField value={phone} onChange={setPhone} showError={checkFields} />
               <BirthdayField value={birthday} onChange={setBirthday} showError={checkFields} />
