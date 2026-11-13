@@ -1,0 +1,1 @@
+import{i as e}from"./rolldown-runtime-Dd_uD5pT.js";import{a as t}from"./analytics-C5izSDY9.js";var n=e(t(),1),r=`notes-pro.auth.idToken`,i=`notes-pro.signout-reason`,a=`notes-pro.admin`,o=(0,n.createContext)(null);function s(){let e=(0,n.useContext)(o);if(!e)throw Error(`useAuth must be used within an AuthProvider`);return e}export{r as a,i,a as n,o as r,s as t};

@@ -1,0 +1,1 @@
+import{i as e}from"./rolldown-runtime-Dd_uD5pT.js";import{a as t}from"./analytics-C5izSDY9.js";var n=e(t(),1),r=(0,n.createContext)(null);function i(){let e=(0,n.useContext)(r);if(!e)throw Error(`useLibrary must be used within a LibraryProvider`);return e}export{i as n,r as t};
